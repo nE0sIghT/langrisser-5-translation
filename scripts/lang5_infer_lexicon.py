@@ -22,6 +22,19 @@ BAD_SPEAKER_WORDS = {
     "optional",
 }
 
+# Confirmed token map seed from community reverse-engineering:
+# [00C6][00CD][00B2][0086][00D1][00A6][020E][020F] -> ランフォード元帥
+KNOWN_TOKEN_MAP = {
+    "00C6": "ラ",
+    "00CD": "ン",
+    "00B2": "フ",
+    "0086": "ォ",
+    "00D1": "ー",
+    "00A6": "ド",
+    "020E": "元",
+    "020F": "帥",
+}
+
 
 def extract_hex_tokens(tokenized: str) -> List[str]:
     out = []
@@ -97,13 +110,22 @@ def build_speaker_lexicon(rows: List[Dict[str, str]]) -> Dict[str, Dict]:
 def apply_partial_decode(tokenized: str, lex: Dict[str, Dict]) -> str:
     toks = extract_hex_tokens(tokenized)
     # Prefix substitution for likely speaker names.
+    out = tokenized
     for name, info in lex.items():
         pref = info["best_prefix_tokens"]
         if len(pref) >= 2 and toks[: len(pref)] == pref:
             # Replace only the first exact token sequence.
             needle = "".join(f"[{t}]" for t in pref)
-            return tokenized.replace(needle, f"<{name}>", 1)
-    return tokenized
+            out = out.replace(needle, f"<{name}>", 1)
+            break
+
+    # Token-level JP decode for confirmed mappings.
+    def _decode_token(m: re.Match) -> str:
+        tok = m.group(1)
+        return KNOWN_TOKEN_MAP.get(tok, m.group(0))
+
+    out = TOK_RE.sub(_decode_token, out)
+    return out
 
 
 def main() -> None:

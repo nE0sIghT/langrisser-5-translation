@@ -33,7 +33,7 @@ Outputs:
 - `scripts/lang5_story_extract.py`: export scenario-ordered tokenized dialogue
   and rough JP↔EN sequential alignment.
 - `scripts/lang5_infer_lexicon.py`: infer speaker-token prefixes and generate
-  partially labeled JP token stream.
+  partially labeled JP token stream with seed-based token substitutions.
 - `scripts/lang5_make_source_dump.py`: build canonical scenario-ordered source
   dump (tokenized JP + aligned EN).
 
@@ -79,7 +79,8 @@ Outputs in `work/scen_analysis`:
   `story_ordered` records and `translation.txt` lines.
 - `speaker_lexicon.json`: inferred speaker-name token prefixes from aligned rows.
 - `story_alignment_partial_decode.csv`: same alignment with partial speaker
-  labeling applied to JP tokenized lines.
+  labeling plus confirmed JP token substitutions
+  (currently seeded from `ランフォード元帥`).
 - `source_script_tokenized.txt` and `source_script_tokenized.csv`:
   canonical source dump in scenario order.
 
