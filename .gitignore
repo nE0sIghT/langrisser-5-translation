@@ -1,2 +1,4 @@
 iso/
 work/
+__pycache__/
+*.pyc
