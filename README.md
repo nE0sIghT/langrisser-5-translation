@@ -3,12 +3,14 @@
 This repository contains reproducible scripts to build a `PPF3` patch for the
 `SLPS-01818-9-B` PlayStation image.
 
-Current status:
+Canonical documentation:
+- `STATUS.md`: current project status and next steps.
+- `docs/LANGRISSER_V_DATA_FORMAT.md`: confirmed format findings and RE notes.
+
+Current patch status:
 - `patches/langrisser_v_en.ppf` is generated from the clean image.
-- The patch currently replaces the executable title string
-  `ラングリッサー５` with `LANGRISSER V`.
-- `SCEN.DAT` and `SCEN2.DAT` format is partially reversed and extractor tooling
-  is available.
+- Current demo patch replaces executable title string `ラングリッサー５`
+  with `LANGRISSER V`.
 
 ## Build
 
@@ -37,26 +39,6 @@ Outputs:
 - `scripts/lang5_make_source_dump.py`: build canonical scenario-ordered source
   dump (tokenized JP + aligned EN).
 
-## SCEN format findings
-
-Based on direct binary analysis and archived forum notes:
-
-- `SCEN.DAT`/`SCEN2.DAT` are composed of sector-aligned chunks.
-- File header (`0x800` sector) is a table of little-endian chunk pointers.
-- Each chunk contains:
-  - script/event bytecode,
-  - a local 16-bit increasing offset table (record index),
-  - many records with mixed control words and text tokens.
-- Token stream uses 16-bit words with bank suffixes:
-  - character banks are observed under high bytes `00`, `01`, `02`,
-  - `FFFF` is used as end marker in short text records,
-  - `FB00` appears frequently in event/dialog orchestration records.
-- Magic separator sequence
-  `01 00 00 01 80 00 00 00 78 80 70 80 30 30 01 02 78 78 00 13 28 13 38 38 02 00 A0 A0 00 10 18 10`
-  is present in 116 / 131 chunks (same pattern in both files).
-- `SCEN` vs `SCEN2` differ only in chunks:
-  `1..36` and `40..42` (likely route/ending variants).
-
 ## Extract script structure and storyline mapping
 
 ```bash
@@ -83,9 +65,3 @@ Outputs in `work/scen_analysis`:
   (currently seeded from `ランフォード元帥`).
 - `source_script_tokenized.txt` and `source_script_tokenized.csv`:
   canonical source dump in scenario order.
-
-## External reference artifacts
-
-- `external/l5scen.py` and `external/l5scen.py.zip`:
-  recovered from archived `zophar.net` thread attachment
-  (`l5scen.py.zip`) for historical reference.
