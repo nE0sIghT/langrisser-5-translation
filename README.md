@@ -34,6 +34,8 @@ Outputs:
   and rough JP↔EN sequential alignment.
 - `scripts/lang5_infer_lexicon.py`: infer speaker-token prefixes and generate
   partially labeled JP token stream.
+- `scripts/lang5_make_source_dump.py`: build canonical scenario-ordered source
+  dump (tokenized JP + aligned EN).
 
 ## SCEN format findings
 
@@ -61,6 +63,7 @@ Based on direct binary analysis and archived forum notes:
 python3 scripts/lang5_scen_extract.py
 python3 scripts/lang5_story_extract.py
 python3 scripts/lang5_infer_lexicon.py
+python3 scripts/lang5_make_source_dump.py
 ```
 
 Outputs in `work/scen_analysis`:
@@ -77,6 +80,8 @@ Outputs in `work/scen_analysis`:
 - `speaker_lexicon.json`: inferred speaker-name token prefixes from aligned rows.
 - `story_alignment_partial_decode.csv`: same alignment with partial speaker
   labeling applied to JP tokenized lines.
+- `source_script_tokenized.txt` and `source_script_tokenized.csv`:
+  canonical source dump in scenario order.
 
 ## External reference artifacts
 
