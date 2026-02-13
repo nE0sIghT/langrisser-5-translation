@@ -2,3 +2,5 @@ iso/
 work/
 __pycache__/
 *.pyc
+.venv/
+external/cwx/

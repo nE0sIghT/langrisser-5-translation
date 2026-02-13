@@ -30,6 +30,8 @@ Outputs:
 - `scripts/make_langrisser_v_ppf.py`: end-to-end patch builder for this project.
 - `scripts/lang5_scen_extract.py`: reverse/analyze `SCEN*.DAT` and export
   chunk/record/token data for script work.
+- `scripts/lang5_story_extract.py`: export scenario-ordered tokenized dialogue
+  and rough JP↔EN sequential alignment.
 
 ## SCEN format findings
 
@@ -55,6 +57,7 @@ Based on direct binary analysis and archived forum notes:
 
 ```bash
 python3 scripts/lang5_scen_extract.py
+python3 scripts/lang5_story_extract.py
 ```
 
 Outputs in `work/scen_analysis`:
@@ -64,6 +67,10 @@ Outputs in `work/scen_analysis`:
 - `records.csv`: record-level word streams (hex words) for scripting research.
 - `dialogue_candidates.csv`: record subset with strong text-token characteristics.
 - `story_map.csv`: practical linkage `Scenario N` -> chunk index.
+- `story_ordered.json`: scenario-ordered tokenized JP stream
+  (`[XXXX]` tokens + control markers).
+- `story_alignment_preview.csv`: sequence-level alignment between
+  `story_ordered` records and `translation.txt` lines.
 
 ## External reference artifacts
 
