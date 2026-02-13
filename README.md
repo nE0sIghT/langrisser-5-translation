@@ -62,6 +62,7 @@ Outputs in `work/scen_analysis`:
 - `summary.json`: high-level findings (diff chunks, magic presence, hints).
 - `chunks.csv`: one line per chunk with offsets, table location, FB counts.
 - `records.csv`: record-level word streams (hex words) for scripting research.
+- `dialogue_candidates.csv`: record subset with strong text-token characteristics.
 - `story_map.csv`: practical linkage `Scenario N` -> chunk index.
 
 ## External reference artifacts

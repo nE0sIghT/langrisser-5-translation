@@ -289,6 +289,31 @@ def main() -> None:
         )
     write_csv(out_dir / "names.csv", name_rows)
 
+    # Dialogue-oriented subset: records with strong text-token characteristics.
+    dialog_rows = []
+    for r in records_full:
+        if r.word_count < 4:
+            continue
+        if r.charlike_ratio < 0.78:
+            continue
+        if r.fb00_count > 0:
+            continue
+        dialog_rows.append(
+            {
+                "chunk_index": r.chunk_index,
+                "record_index": r.record_index,
+                "offset": r.offset,
+                "size": r.size,
+                "word_count": r.word_count,
+                "has_ffff_end": int(r.has_ffff_end),
+                "charlike_ratio": r.charlike_ratio,
+                "first_words_hex": r.first_words_hex,
+                "last_words_hex": r.last_words_hex,
+                "words_hex": r.words_hex,
+            }
+        )
+    write_csv(out_dir / "dialogue_candidates.csv", dialog_rows)
+
     # Storyline-oriented view: Scenario number -> chunk index.
     # This is a practical linkage layer for script work, even before full charset mapping.
     story_rows = []
@@ -330,6 +355,7 @@ def main() -> None:
             str(out_dir / "chunks.csv"),
             str(out_dir / "records.csv"),
             str(out_dir / "names.csv"),
+            str(out_dir / "dialogue_candidates.csv"),
             str(out_dir / "story_map.csv"),
         ],
     }
