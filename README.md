@@ -66,6 +66,10 @@ Outputs:
   in `SYSTEM.BIN` and compare them with extracted SCEN token sets.
 - `scripts/lang5_gdb_remote.py`: minimal DuckStation GDB-remote client for
   deterministic breakpoint/watchpoint setup and RAM/register dumps.
+- `scripts/lang5_ram_extract.py`: extract readable token runs from `work/ram.bin`
+  using current token map.
+- `scripts/lang5_match_runtime_to_records.py`: match runtime token windows from
+  savestates back to static `records.csv` entries.
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping

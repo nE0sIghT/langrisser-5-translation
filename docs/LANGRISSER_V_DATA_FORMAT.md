@@ -1,6 +1,6 @@
 # Langrisser V PS1 Data Format Notes
 
-Last updated: 2026-02-14 (DuckStation remote-debug instrumentation update)
+Last updated: 2026-02-14 (savestate+RAM extraction update)
 
 This file is the canonical technical reference for discovered data formats in
 this repository. Update this file when new reverse-engineering facts are
@@ -47,6 +47,16 @@ Confirmed practical text-window pattern:
 - Extractor:
   - `scripts/lang5_extract_text_segments.py`
   - outputs: `work/scen_analysis/text_segments.{csv,txt}`
+
+New confirmed runtime linkage:
+- Savestate runtime windows extracted at interpreter hit (`0x8001D198`) can be
+  matched back to static SCEN records by token-overlap.
+- Example confirmed window:
+  - `00C6 00CD 00B2 0086 00D1 00A6 020E 020F FFFF`
+  - decoded: `ランフォード元帥{FFFF}`
+  - matched records: `chunk 125/129/130`, `record 5`
+- Matching tool:
+  - `scripts/lang5_match_runtime_to_records.py`
 
 Observed recurring sequence (likely script/data boundary marker):
 
@@ -105,6 +115,21 @@ Current map confidence:
 Utility:
 - `scripts/lang5_system_extract.py`
 
+## RAM dump findings (`work/ram.bin`)
+
+Direct RAM-token extraction (no OCR) confirms that active runtime memory holds
+large readable JP token runs with current mapping, including class/menu names.
+
+Examples confirmed from `work/scen_analysis/ram_token_runs.csv`:
+- `ダークファイター`
+- `ストーンゴーレム`
+- `グラディエーター`
+- `ブロンズゴーレム`
+- `メモリーカード`
+
+Extractor:
+- `scripts/lang5_ram_extract.py`
+
 ## `SCEN` vs `SCEN2`
 
 - Chunk-level diff shows divergence in chunks:
@@ -140,6 +165,9 @@ Current mapping assessment:
 
 - Exact runtime source and load path for the full `token -> glyph` table used
   during dialogue rendering.
+- Full expansion model for high-value narrative tokens (many non-katakana
+  tokens appear to represent compact dictionary/text units, not only
+  single-glyph characters).
 - Full hiragana mapping.
 - Broad kanji coverage for narrative lines.
 - Exact delimiter/structure for "pure dialogue block start/end" inside each
@@ -165,6 +193,10 @@ Current mapping assessment:
   - `scripts/lang5_system_extract.py`
 - SYSTEM table probe:
   - `scripts/lang5_system_table_probe.py`
+- RAM token-run extraction:
+  - `scripts/lang5_ram_extract.py`
+- Runtime-window -> record matching:
+  - `scripts/lang5_match_runtime_to_records.py`
 
 ## Runtime RE anchors (SLPS)
 
