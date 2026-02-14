@@ -1,6 +1,6 @@
 # Langrisser V PS1 Data Format Notes
 
-Last updated: 2026-02-13
+Last updated: 2026-02-14
 
 This file is the canonical technical reference for discovered data formats in
 this repository. Update this file when new reverse-engineering facts are
@@ -106,6 +106,21 @@ Utility:
   dialogue contexts (likely honorific usage) and ties observed dialogue style
   to SCEN record streams rather than names-only tables.
 
+OCR-backed screenshot anchors (from `work/ingame`, timestamp order):
+- `ギザロフ様。`
+- `まず最終成長形態の設定を行います。`
+- `４つの金属の中から、３つを培養液に混ぜ合わせます。不要な物を選んで下さい。`
+
+Reproducible extraction:
+- `scripts/lang5_ingame_ocr.py`
+- output: `work/scen_analysis/ingame_ocr.csv`
+
+Current mapping assessment:
+- Chunk-window locality and progression (`rec 22..26`, `0x547E..0x54FC`) is
+  high confidence.
+- Exact 1:1 "line -> record" mapping in this window is still medium confidence
+  until chunk grammar around command/control words is finalized.
+
 ## What is still unresolved
 
 - Full hiragana mapping.
@@ -127,5 +142,7 @@ Utility:
   - `scripts/lang5_make_source_dump.py`
 - Font-map application:
   - `scripts/lang5_apply_font_ocr_map.py`
+- Ingame OCR helper:
+  - `scripts/lang5_ingame_ocr.py`
 - SYSTEM token run extraction:
   - `scripts/lang5_system_extract.py`

@@ -49,6 +49,8 @@ Outputs:
   with current token map decoding.
 - `scripts/lang5_anchor_report.py`: generate focused report for records with
   anchor names (`ギザロフ`, `ランフォード`) to drive token-map expansion.
+- `scripts/lang5_ingame_ocr.py`: OCR helper for `work/ingame` screenshots to
+  create reproducible JP anchor text (`work/scen_analysis/ingame_ocr.csv`).
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
