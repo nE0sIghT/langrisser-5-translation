@@ -83,8 +83,7 @@ Current map confidence:
   - small kana (`ァィゥェォャュョッ`)
   - punctuation (`、。・ー`)
   - confirmed kanji tokens: `元`, `帥`
-  - high-confidence likely honorific token for name suffix contexts:
-    `02B0` (renders plausibly as `様` in many lines)
+  - confirmed honorific/name-suffix token: `02B0 -> 様`
 
 ## `SYSTEM.BIN` findings
 
