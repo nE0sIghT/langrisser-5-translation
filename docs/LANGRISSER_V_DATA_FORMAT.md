@@ -1,6 +1,6 @@
 # Langrisser V PS1 Data Format Notes
 
-Last updated: 2026-02-14
+Last updated: 2026-02-14 (runtime-probe update)
 
 This file is the canonical technical reference for discovered data formats in
 this repository. Update this file when new reverse-engineering facts are
@@ -86,6 +86,13 @@ Current map confidence:
   the manual katakana map.
 - `SYSTEM.BIN` also stores large name/class/menu-like text blocks and token
   runs (not only graphics/resources).
+- Additional table candidate at `SYSTEM.BIN` offset `0x178B0`:
+  - 4-byte entries (`u16 + byte + byte`), 256 entries.
+  - `u16` values intersect strongly with known script token ids.
+  - Current interpretation: likely script/UI helper lookup table, not proven as
+    the global `token -> glyph` table yet.
+  - Probe script: `scripts/lang5_system_table_probe.py`
+  - Output: `work/scen_analysis/system_table_probe.txt`
 
 Utility:
 - `scripts/lang5_system_extract.py`
@@ -123,6 +130,8 @@ Current mapping assessment:
 
 ## What is still unresolved
 
+- Exact runtime source and load path for the full `token -> glyph` table used
+  during dialogue rendering.
 - Full hiragana mapping.
 - Broad kanji coverage for narrative lines.
 - Exact delimiter/structure for "pure dialogue block start/end" inside each
@@ -146,3 +155,20 @@ Current mapping assessment:
   - `scripts/lang5_ingame_ocr.py`
 - SYSTEM token run extraction:
   - `scripts/lang5_system_extract.py`
+- SYSTEM table probe:
+  - `scripts/lang5_system_table_probe.py`
+
+## Runtime RE anchors (SLPS)
+
+- Confirmed interpreter loop and end marker behavior:
+  - `0x8001CFA0`, `0x8001D174`, `0x8001D500` (`0xFFFF` checks)
+- Confirmed runtime state variables in `0x800E....` small-data area:
+  - `script_ptr_current @ 0x800DBA1C`
+  - `script_base_table @ 0x800DB90C`
+  - `interpreter_flag @ 0x800DB8D4`
+  - `mode_state @ 0x800DB5BA`
+- Confirmed in-module table pointer init:
+  - `0x80018448: sw v0, 0xE38($gp)` with `v0 = 0x80108C68`
+- In current SLPS image, writes to `0x800DB780` (font bitmap base pointer) are
+  not present; only reads are observed in the main module, implying external
+  runtime initialization path (other module/loader stage).

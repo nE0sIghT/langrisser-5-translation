@@ -7,6 +7,7 @@ set -euo pipefail
 APT_PACKAGES=(
   python3
   python3-pip
+  python3-capstone
   php-cli
   curl
   unzip
@@ -15,6 +16,12 @@ APT_PACKAGES=(
   binwalk
   xxd
   ripgrep
+  cmake
+  ninja-build
+  build-essential
+  pkg-config
+  binutils-mipsel-linux-gnu
+  mednafen
   tesseract-ocr
   tesseract-ocr-jpn
   fonts-noto-cjk

@@ -13,12 +13,14 @@ This script installs/reinstalls the core tooling used by this project:
 
 - CLI/utilities:
   - `curl`, `unzip`, `unar`, `unrar-free`, `xxd`, `ripgrep`
+  - `cmake`, `ninja-build`, `build-essential`, `pkg-config`
 - Reverse tools:
-  - `php-cli`, `binwalk`
+  - `php-cli`, `binwalk`, `binutils-mipsel-linux-gnu`
+  - `mednafen` (runtime verification support)
 - OCR/fonts:
   - `tesseract-ocr`, `tesseract-ocr-jpn`, `fonts-noto-cjk`
 - Python runtime/deps:
-  - `python3`, `python3-pip`
+  - `python3`, `python3-pip`, `python3-capstone`
   - pip: `pillow`, `numpy`
 
 ## Notes
@@ -26,4 +28,3 @@ This script installs/reinstalls the core tooling used by this project:
 - Script is idempotent and safe to re-run.
 - It uses `sudo apt-get` and `sudo python3 -m pip`.
 - `translation.txt` is intentionally not tracked by git.
-

@@ -56,6 +56,8 @@ Outputs:
   create reproducible JP anchor text (`work/scen_analysis/ingame_ocr.csv`).
 - `scripts/slps_runtime_probe.py`: static probe of `SLPS_018.19` runtime
   interpreter anchors and breakpoint candidates.
+- `scripts/lang5_system_table_probe.py`: probe token-like 4-byte lookup tables
+  in `SYSTEM.BIN` and compare them with extracted SCEN token sets.
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
