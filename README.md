@@ -58,6 +58,8 @@ Outputs:
   (`base0`, `+0x30/+0x34/+0x38/+0x3C`) and derived pointers for a target chunk.
 - `scripts/lang5_extract_text_segments.py`: extract likely visible script text
   segments using VM text windows (`0003..0004`) from `records.csv`.
+- `scripts/lang5_build_tutorial_subset.py`: build screenshot-anchored tutorial
+  source subset mapping (`chunk 56` record ids -> JP lines with confidence).
 - `scripts/slps_runtime_probe.py`: static probe of `SLPS_018.19` runtime
   interpreter anchors and breakpoint candidates.
 - `scripts/lang5_system_table_probe.py`: probe token-like 4-byte lookup tables
