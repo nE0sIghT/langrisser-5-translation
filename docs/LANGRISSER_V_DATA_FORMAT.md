@@ -144,6 +144,25 @@ Examples confirmed from `work/scen_analysis/ram_token_runs.csv`:
 Extractor:
 - `scripts/lang5_ram_extract.py`
 
+Confirmed runtime token-table blocks (from extracted `*_ram.bin`):
+- `0x80108910` (`0x600` bytes)
+- `0x80108B02` (`0x600` bytes)
+- `0x80108C68` (`0x800` bytes, active table pointer from `gp+0xE38`)
+
+Observed active-entry layout at `0x80108C68`:
+- 512 entries of 4 bytes each
+- entry bytes: `[u16 glyph_id][u8 attr_b2][u8 attr_b3]`
+- state behavior:
+  - menu state (`SLPS-01819_5_ram.bin`): table is zeroed
+  - dialogue/quiz states (`SLPS-01819_{1,6}_ram.bin`): table is populated
+
+Deterministic dumper:
+- `scripts/lang5_dump_runtime_token_table.py`
+- outputs:
+  - `runtime_token_table_*_active_80108C68.csv`
+  - `runtime_token_table_*.json`
+  - raw bins for `0x80108910/0x80108B02/0x80108C68`
+
 ## `SCEN` vs `SCEN2`
 
 - Chunk-level diff shows divergence in chunks:
