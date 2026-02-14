@@ -22,7 +22,7 @@ def load_tbl(path: Path) -> dict[int, str]:
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Dump Langrisser V runtime glyph cache from RAM dump.")
+    p = argparse.ArgumentParser(description="Dump Langrisser V runtime glyph cache rows from RAM dump.")
     p.add_argument(
         "--ram",
         action="append",
@@ -83,8 +83,8 @@ def main() -> None:
                 "ctx_ptr",
                 "glyph_table_ptr",
                 "slot",
-                "token",
-                "token_char",
+                "cache_code_u16",
+                "tbl_guess",
                 "entry_b0",
                 "entry_b1",
                 "entry_b2",
@@ -105,7 +105,8 @@ def main() -> None:
             ctx = ctx_ptr - 0x80000000
             g = glyph_ptr - 0x80000000
             entry_count = infer_entry_count(ram, glyph_ptr)
-            # Observed token cache list start near +0x56 from ctx.
+            # Observed u16 cache-code list start near +0x56 from ctx.
+            # NOTE: these values are not yet proven to be direct script token ids.
             tok_base = ctx + 0x56
 
             for slot in range(entry_count):
@@ -113,16 +114,16 @@ def main() -> None:
                 toff = tok_base + slot * 2
                 if eoff + 4 > len(ram) or toff + 2 > len(ram):
                     break
-                tok = u16_at(ram, toff)
+                code = u16_at(ram, toff)
                 b0, b1, b2, b3 = ram[eoff], ram[eoff + 1], ram[eoff + 2], ram[eoff + 3]
-                ch = tbl.get(tok, "")
+                ch = tbl.get(code, "")
                 w.writerow(
                     [
                         rp.name,
                         f"0x{ctx_ptr:08X}",
                         f"0x{glyph_ptr:08X}",
                         slot,
-                        f"{tok:04X}",
+                        f"{code:04X}",
                         ch,
                         b0,
                         b1,
