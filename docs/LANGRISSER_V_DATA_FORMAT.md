@@ -163,6 +163,27 @@ Deterministic dumper:
   - `runtime_token_table_*.json`
   - raw bins for `0x80108910/0x80108B02/0x80108C68`
 
+Confirmed runtime resource descriptor table:
+- address: `0x8010DB40`
+- entry size: `0x18` bytes
+- entry layout:
+  - `u32 offset_2048`
+  - `u32 size_bytes`
+  - `char name[12]` (ISO9660-style, e.g. `SYSTEM.BIN;1`)
+  - `u32 tail` (currently always `0` in observed rows)
+- confirmed names include:
+  - `SYSTEM.BIN;1`
+  - `BTLDAT.BIN;1`
+  - `MRCUSW.BIN;1`
+  - `SCEN.DAT;1`
+  - `ALLUSW.BIN;1`
+  - `ALLUSB.BIN;1`
+  - `SCEN2.DAT;1`
+- for these rows, `size_bytes` matches extracted files exactly.
+- dumper:
+  - `scripts/lang5_dump_resource_descriptors.py`
+  - output example: `work/scen_analysis/resource_descriptors_state1.csv`
+
 ## `SCEN` vs `SCEN2`
 
 - Chunk-level diff shows divergence in chunks:
@@ -230,6 +251,8 @@ Current mapping assessment:
   - `scripts/lang5_ram_extract.py`
 - Runtime-window -> record matching:
   - `scripts/lang5_match_runtime_to_records.py`
+- Runtime resource-descriptor dump:
+  - `scripts/lang5_dump_resource_descriptors.py`
 - Unified offline all-text extraction:
   - `scripts/lang5_extract_all_texts.py`
   - output: `work/scen_analysis/all_texts.csv`
