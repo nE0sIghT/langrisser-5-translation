@@ -1,6 +1,6 @@
 # Langrisser V PS1 Data Format Notes
 
-Last updated: 2026-02-14 (runtime-probe update)
+Last updated: 2026-02-14 (text-segment extraction update)
 
 This file is the canonical technical reference for discovered data formats in
 this repository. Update this file when new reverse-engineering facts are
@@ -38,6 +38,15 @@ Practical extraction path:
   - `FFFF` (end marker in many short text records)
   - `FFFC`, `FFFD`, `FFFE`
   - `FB00` (dialog/event orchestration contexts)
+
+Confirmed practical text-window pattern:
+- Visible dialogue text is commonly inside `0003 ... 0004`.
+- Segments often terminate early on `FFFC/FFFD/FFFE/FB00`.
+- `FB00` is commonly followed by a script label/id token.
+- This provides a stable extraction layer even before full command grammar.
+- Extractor:
+  - `scripts/lang5_extract_text_segments.py`
+  - outputs: `work/scen_analysis/text_segments.{csv,txt}`
 
 Observed recurring sequence (likely script/data boundary marker):
 
