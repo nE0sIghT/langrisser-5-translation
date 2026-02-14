@@ -163,6 +163,15 @@ Deterministic dumper:
   - `runtime_token_table_*.json`
   - raw bins for `0x80108910/0x80108B02/0x80108C68`
 
+Confirmed static file source of these runtime blocks:
+- `0x80108C68` (`0x800`) == `ADPCM.DAT[0x800:0x1000]` (exact).
+- `0x80108B02` (`0x600`) == `ADPCM.DAT[0x69A:0xC9A]` (exact).
+- `0x80108910` (`0x600`) best-matches `ADPCM.DAT[0x4A8:0xAA8]`
+  with only 6 differing bytes (`+0x18..+0x1D`, `00 -> FF` in RAM copy).
+- Reproducible locator:
+  - `scripts/lang5_locate_runtime_table_sources.py`
+  - output: `work/scen_analysis/runtime_table_source_matches.txt`
+
 Confirmed runtime resource descriptor table:
 - address: `0x8010DB40`
 - entry size: `0x18` bytes
@@ -229,8 +238,8 @@ Current mapping assessment:
 
 ## What is still unresolved
 
-- Exact runtime source and load path for the full `token -> glyph` table used
-  during dialogue rendering.
+- Exact runtime patch sequence that turns `ADPCM.DAT[0x4A8:0xAA8]` into final
+  `0x80108910` (currently only 6-byte delta remains to be explained in code).
 - Full expansion model for high-value narrative tokens (many non-katakana
   tokens appear to represent compact dictionary/text units, not only
   single-glyph characters).
