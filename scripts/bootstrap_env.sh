@@ -28,7 +28,10 @@ APT_PACKAGES=(
   iproute2
   net-tools
   xdotool
+  x11-utils
+  x11-apps
   openbox
+  python3-evdev
   tesseract-ocr
   tesseract-ocr-jpn
   fonts-noto-cjk
