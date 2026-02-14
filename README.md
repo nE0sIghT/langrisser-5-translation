@@ -70,6 +70,8 @@ Outputs:
   using current token map.
 - `scripts/lang5_match_runtime_to_records.py`: match runtime token windows from
   savestates back to static `records.csv` entries.
+- `scripts/lang5_vm_probe.py`: probe runtime VM entry records from RAM dumps
+  (`base+u16-offset` entry model around `0x8001D354`).
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping

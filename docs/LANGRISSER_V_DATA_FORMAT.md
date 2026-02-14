@@ -213,6 +213,32 @@ Current mapping assessment:
   not present; only reads are observed in the main module, implying external
   runtime initialization path (other module/loader stage).
 
+### Interpreter shape around `0x8001D354` (new, medium/high confidence)
+
+Inside the `0x8001D198` flow, core loop `0x8001D354..0x8001D5A8` shows a
+two-level script VM shape:
+
+1. `a1 = script_ptr_current (0x800DBA1C)` points to a stream of `u16` items.
+2. For each item:
+   - read `rel = *(u16*)a1`
+   - compute `entry = script_base (0x800DB90C) + rel`
+   - store parser cursor `gp+0x30C = entry+2`
+3. `*(u16*)entry` is used as a "visited/guard" id:
+   - checked/updated through bitset table at `0x8011A920`.
+4. `*(u8*)(entry+2)` is an opcode (`0..8`) dispatched via jump table at
+   `0x80010228`:
+   - handlers include calls to `0x80022C04/0x80022E2C/0x80023340/0x80023938/...`
+5. One handler (`0x8001D3F0`) parses extra args (`u8`,`u16`) and validates via:
+   - bit table `0x8011AA41`
+   - limit table `0x8011AA28`
+6. If event flag `0x800DB8D4` is raised, VM transitions to a bytecode pass
+   (`0x8001D698...`) with byte dispatch table at `0x80010250`.
+
+Implication:
+- Many record units are command/event entries, not direct plain text runs.
+- This supports the observed macro/dictionary-like compact token behavior in
+  narrative lines.
+
 ## DuckStation runtime instrumentation
 
 - DuckStation AppImage was extracted (`external/squashfs-root`) and runs
