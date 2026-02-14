@@ -6,6 +6,7 @@ This repository contains reproducible scripts to build a `PPF3` patch for the
 Canonical documentation:
 - `STATUS.md`: current project status and next steps.
 - `docs/LANGRISSER_V_DATA_FORMAT.md`: confirmed format findings and RE notes.
+- `docs/ENVIRONMENT_BOOTSTRAP.md`: tool bootstrap for environment resets.
 
 Current patch status:
 - `patches/langrisser_v_en.ppf` is generated from the clean image.
@@ -25,6 +26,12 @@ Outputs:
 - `work/build/SLPS-01818-9-B.en.bin`
 - `patches/langrisser_v_en.ppf`
 
+## Environment bootstrap (after reset)
+
+```bash
+./scripts/bootstrap_env.sh
+```
+
 ## Utility scripts
 
 - `scripts/iso_mode2.py`: list/extract/inject files inside PS1 `MODE2/2352` BIN.
@@ -38,6 +45,11 @@ Outputs:
   partially labeled JP token stream with seed-based token substitutions.
 - `scripts/lang5_make_source_dump.py`: build canonical scenario-ordered source
   dump (tokenized JP + aligned EN).
+- `scripts/lang5_chunk_probe.py`: inspect records near a chunk-relative offset
+  with current token map decoding.
+- `scripts/lang5_anchor_report.py`: generate focused report for records with
+  anchor names (`ギザロフ`, `ランフォード`) to drive token-map expansion.
+- `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
 
