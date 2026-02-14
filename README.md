@@ -87,7 +87,10 @@ Outputs:
 - `scripts/lang5_duckstate_extract.py`: parse DuckStation `.sav` (`DUCCS`)
   files, decompress state payload, and extract deterministic 2MB RAM dumps.
 - `scripts/lang5_runtime_cache_dump.py`: dump runtime glyph-cache rows from RAM
-  (`row_type=active/raw_entry`) for font-table reverse engineering.
+  (`row_type=vm_u16_list/raw_entry`) for font-table reverse engineering.
+- `scripts/lang5_build_confirmed_source.py`: build deterministic tokenized
+  source lines from static VM `FF00 -> text_id` linkage
+  (`confirmed_source_tokenized.{csv,txt}`).
 - `scripts/lang5_extract_all_texts.py`: unified offline extractor of
   text-bearing token streams from `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`,
   and `SLPS_018.19`.

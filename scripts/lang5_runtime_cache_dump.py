@@ -22,7 +22,7 @@ def load_tbl(path: Path) -> dict[int, str]:
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Dump Langrisser V runtime glyph cache rows from RAM dump.")
+    p = argparse.ArgumentParser(description="Dump Langrisser V runtime glyph-related RAM rows.")
     p.add_argument(
         "--ram",
         action="append",
@@ -84,7 +84,7 @@ def main() -> None:
                 "glyph_table_ptr",
                 "row_type",
                 "slot",
-                "cache_code_u16",
+                "code_u16",
                 "tbl_guess",
                 "entry_b0",
                 "entry_b1",
@@ -107,43 +107,34 @@ def main() -> None:
             g = glyph_ptr - 0x80000000
             entry_count = infer_entry_count(ram, glyph_ptr)
 
-            # Active cache-code sequence observed at ctx+0x5C .. until 0xFFFF.
-            active_base = ctx + 0x5C
-            active_codes: list[int] = []
+            # Row type 1: VM u16 list observed in current script context (ctx+0x5C..FFFF).
+            vm_base = ctx + 0x5C
             for i in range(0, 512):
-                off = active_base + i * 2
+                off = vm_base + i * 2
                 if off + 2 > len(ram):
                     break
-                v = u16_at(ram, off)
-                if v == 0xFFFF:
+                code = u16_at(ram, off)
+                if code == 0xFFFF:
                     break
-                active_codes.append(v)
-
-            # Row type 1: active cache rows (best current confidence).
-            for slot, code in enumerate(active_codes):
-                eoff = g + slot * 4
-                if eoff + 4 > len(ram):
-                    break
-                b0, b1, b2, b3 = ram[eoff], ram[eoff + 1], ram[eoff + 2], ram[eoff + 3]
                 ch = tbl.get(code, "")
                 w.writerow(
                     [
                         rp.name,
                         f"0x{ctx_ptr:08X}",
                         f"0x{glyph_ptr:08X}",
-                        "active",
-                        slot,
+                        "vm_u16_list",
+                        i,
                         f"{code:04X}",
                         ch,
-                        b0,
-                        b1,
-                        b2,
-                        b3,
-                        f"{b0:02X}{b1:02X}{b2:02X}{b3:02X}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
                     ]
                 )
 
-            # Row type 2: full raw table rows for low-level RE.
+            # Row type 2: full raw glyph-entry rows for low-level RE.
             for slot in range(entry_count):
                 eoff = g + slot * 4
                 if eoff + 4 > len(ram):

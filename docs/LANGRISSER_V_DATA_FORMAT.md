@@ -450,20 +450,38 @@ Observed stable runtime anchors in extracted RAM:
   (e.g. `0x80108C68`)
 
 Current extractor model:
-- active cache-code list starts at `context + 0x5C` and ends at `0xFFFF`
-  (observed count in dialogue states: `37`)
-- glyph table rows are `4-byte` entries at `glyph_table_ptr + slot*4`
-- extracted deterministically from savestate RAM, no OCR/input needed
+- `context + 0x5C` exposes a VM-side `u16` list present in script data
+  (observed in current states; semantics still under RE).
+- glyph table rows are `4-byte` entries at `glyph_table_ptr + slot*4`.
+- extracted deterministically from savestate RAM, no OCR/input needed.
 
 Tool:
 - `scripts/lang5_runtime_cache_dump.py`
 - output:
   - `work/scen_analysis/runtime_cache_dump.csv`
   - includes:
-    - `row_type=active` (active cache-code + glyph-entry pairs)
+    - `row_type=vm_u16_list` (VM-side `u16` list from context block)
     - `row_type=raw_entry` (full raw glyph table rows for low-level RE)
 
 Note:
-- these `u16` cache codes are not yet proven to be direct script token ids.
+- VM-side `u16` list values are not yet proven to be direct script token ids or
+  direct glyph-cache indices.
 - exact semantic meaning of 4 bytes per glyph-entry is not finalized yet
   (field extraction is stable; interpretation is pending).
+
+### Confirmed source stream builder (static, deterministic)
+
+Given confirmed mapping:
+- VM entry contains `FF00 <text_id>`
+- `<text_id>` resolves into chunk-local VM text section record
+
+we can produce a deterministic tokenized source stream without runtime input:
+- first-seen `FF00` calls in VM entry order (`SCEN.DAT`)
+- resolve each to exact `words_hex` payload
+
+Tool:
+- `scripts/lang5_build_confirmed_source.py`
+
+Outputs:
+- `work/scen_analysis/confirmed_source_tokenized.csv`
+- `work/scen_analysis/confirmed_source_tokenized.txt`
