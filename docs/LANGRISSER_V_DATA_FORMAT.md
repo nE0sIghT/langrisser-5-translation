@@ -257,6 +257,23 @@ Implication:
 - This supports the observed macro/dictionary-like compact token behavior in
   narrative lines.
 
+### Savestate RAM structure dump (new)
+
+- Added offline analyzer for already-extracted RAM dumps (no live emulator
+  attach needed):
+  - `scripts/lang5_state_struct_dump.py`
+- It dumps:
+  - key global pointers (`0x800DB90C/0x800DBA1C/0x800DB34C/0x800DB508/0x800DB4EC/0x800DB538/0x800DB380`)
+  - current VM rel-list around `script_cur`
+  - resolved entry records (`head/op/arg/words`)
+  - nonzero statistics and byte snapshots for `0x80108910/0x80108B02/0x80108B2E/0x80108BC8`.
+- Current observation from `SLPS-01819_{1,6}_ram.bin`:
+  - `script_cur` starts with `FFFF` padding then valid rel offsets.
+  - First active rels decode to VM entries including `FF00` dispatch ids and
+    opcode records.
+  - `0x80108B02/0x80108B2E/0x80108BC8` are runtime scratch/candidate buffers,
+    not yet proven as immutable global font tables.
+
 ### Runtime VM block mapped back to `SCEN.DAT` (new, high confidence)
 
 From savestate `SLPS-01819_6.sav`:
