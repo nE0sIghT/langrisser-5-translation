@@ -12,6 +12,8 @@ Canonical documentation:
   text/script decode in DuckStation.
 - `docs/ALL_TEXT_EXTRACTION.md`: canonical offline extraction workflow from
   game data files (`SCEN/SCEN2/SYSTEM/SLPS`) without savestates.
+- `docs/LANG5_SCRIPT_TOOLCHAIN.md`: `lang3`-style dump/insert workflow for
+  `SCEN.DAT` / `SCEN2.DAT` with `.tbl` and `<$HHHH>` tags.
 
 Current patch status:
 - `patches/langrisser_v_en.ppf` is generated from the clean image.
@@ -77,6 +79,10 @@ Outputs:
 - `scripts/lang5_extract_all_texts.py`: unified offline extractor of
   text-bearing token streams from `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`,
   and `SLPS_018.19`.
+- `scripts/lang5_scrscendump.py`: dump `SCEN/SCEN2` records to editable text
+  (`chunk_XXX.txt`) using `.tbl` mapping and `<$HHHH>` tags.
+- `scripts/lang5_scrsceninsert.py`: insert edited chunk text files back and
+  rebuild `SCEN/SCEN2` containers (offset/pointer tables).
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
