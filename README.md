@@ -7,6 +7,7 @@ Canonical documentation:
 - `STATUS.md`: current project status and next steps.
 - `docs/LANGRISSER_V_DATA_FORMAT.md`: confirmed format findings and RE notes.
 - `docs/ENVIRONMENT_BOOTSTRAP.md`: tool bootstrap for environment resets.
+- `docs/TUTORIAL_SCREEN_ANCHORS.md`: screenshot-confirmed tutorial text anchors.
 
 Current patch status:
 - `patches/langrisser_v_en.ppf` is generated from the clean image.

@@ -12,6 +12,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="OCR ingame screenshots for Langrisser V dialogue anchoring.")
     p.add_argument("--input-dir", default="work/ingame")
     p.add_argument("--out-csv", default="work/scen_analysis/ingame_ocr.csv")
+    p.add_argument("--out-txt", default="")
     p.add_argument("--lang", default="jpn")
     return p.parse_args()
 
@@ -83,7 +84,18 @@ def main() -> None:
         w.writeheader()
         w.writerows(rows)
 
+    if args.out_txt:
+        out_txt = Path(args.out_txt)
+        out_txt.parent.mkdir(parents=True, exist_ok=True)
+        with out_txt.open("w", encoding="utf-8") as fh:
+            for i, r in enumerate(rows, 1):
+                fh.write(f"[{i:03d}] {r['file']}\n")
+                cleaned = r["ocr_cleaned"].replace("\\n", "\n")
+                fh.write(cleaned + "\n\n")
+
     print(f"wrote {out_csv} ({len(rows)} rows)")
+    if args.out_txt:
+        print(f"wrote {args.out_txt}")
 
 
 if __name__ == "__main__":
