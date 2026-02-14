@@ -71,12 +71,19 @@ def read_mem_chunked(cli: GDBRemote, addr: int, size: int, chunk: int = 0x800) -
     off = 0
     while off < size:
         take = min(chunk, size - off)
-        data = bytes.fromhex(cli.request(f"m{addr + off:08x},{take:x}", deadline_s=3.0))
+        data = bytes.fromhex(req_data(cli, f"m{addr + off:08x},{take:x}", deadline_s=3.0))
         if len(data) != take:
             raise RuntimeError(f"short read at 0x{addr+off:08X}: got {len(data)} expected {take}")
         out.extend(data)
         off += take
     return bytes(out)
+
+
+def req_data(cli: GDBRemote, payload: str, deadline_s: float = 3.0) -> str:
+    r = cli.request(payload, deadline_s=deadline_s)
+    while r.startswith("S") or r == "OK":
+        r = cli.recv_until_packet(deadline_s)
+    return r
 
 
 def chunk_words(data: bytes) -> List[int]:
@@ -148,11 +155,11 @@ def main() -> None:
                     cli.continue_run()
                     stop = cli.recv_until_packet(8.0)
 
-                    regs = parse_regs_g(cli.request("g", deadline_s=2.0))
+                    regs = parse_regs_g(req_data(cli, "g", deadline_s=2.0))
                     pc = regs.get("pc", 0)
 
-                    db90c = bytes.fromhex(cli.request("m800db90c,80", deadline_s=2.0))
-                    dba1c = bytes.fromhex(cli.request("m800dba1c,80", deadline_s=2.0))
+                    db90c = bytes.fromhex(req_data(cli, "m800db90c,80", deadline_s=2.0))
+                    dba1c = bytes.fromhex(req_data(cli, "m800dba1c,80", deadline_s=2.0))
                     db90c_dw = [struct.unpack_from("<I", db90c, i)[0] for i in range(0, 0x20, 4)]
                     dba1c_dw = [struct.unpack_from("<I", dba1c, i)[0] for i in range(0, 0x20, 4)]
                     base = db90c_dw[0]

@@ -289,3 +289,10 @@ Additional runtime watchpoint probe:
   - Interpretation: these states are likely parked in a loop that does not
     mutate script pointers while sampled, so they are insufficient for dynamic
     opcode-path capture.
+- Extended probe on new states (`SLPS-01819_5.sav`, `SLPS-01819_6.sav`) also
+  produced 0 write-watch hits on these pointers.
+- Execute-breakpoint traces on `SLPS-01819_6.sav` confirm active loop through:
+  - `0x8001D19C`, `0x8001D1FC`, `0x8001D200`, `0x8001D208`,
+    `0x80047888`, `0x8001D20C`, `0x8001D280`, `0x8001D29C`
+  but still no transitions to `0x8001D354/0x8001D3D4/0x8001D4xx` in that
+  runtime slice.
