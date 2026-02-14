@@ -88,6 +88,9 @@ Outputs:
   files, decompress state payload, and extract deterministic 2MB RAM dumps.
 - `scripts/lang5_runtime_cache_dump.py`: dump runtime glyph-cache rows from RAM
   (`row_type=vm_u16_list/raw_entry`) for font-table reverse engineering.
+- `scripts/lang5_dump_runtime_token_table.py`: dump confirmed runtime token
+  table blocks (`0x80108910/0x80108B02/0x80108C68`) and structured entries for
+  active `0x80108C68`.
 - `scripts/lang5_state_struct_dump.py`: offline dump of key runtime text/VM
   globals and pointed buffers from extracted `*_ram.bin` files.
 - `scripts/lang5_build_confirmed_source.py`: build deterministic tokenized
