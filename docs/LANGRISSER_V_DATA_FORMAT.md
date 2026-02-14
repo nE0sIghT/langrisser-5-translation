@@ -325,6 +325,57 @@ Tool:
 - `scripts/lang5_vm_dispatch_dump.py`
 - output: `work/scen_analysis/vm_dispatch_tables.csv`
 
+### Static VM-to-text section mapping (new, high confidence)
+
+Confirmed on `SCEN.DAT` and `SCEN2.DAT` for all 131 chunks:
+
+1. Chunk-local VM block:
+   - `vm_off = u32(chunk+0x00)`
+   - VM header signature at `chunk+vm_off` starts with `0x00000044`.
+   - `vm_size = u32(chunk+vm_off+0x3C)`.
+
+2. Text section placement:
+   - `text_sec_off = vm_off + vm_size`.
+   - `text_sec_size = u32(chunk+text_sec_off)`.
+   - section fits inside chunk (`text_sec_off + text_sec_size <= chunk_size`).
+
+3. Text section internal layout (current best model):
+   - monotonic `u16` offset table starts at `text_sec_off + 2`
+     (first entry is commonly `0x0000`).
+   - text payload base:
+     - `text_data_base = text_sec_off + 2 + 2 * offset_count`.
+   - text record `id` bytes:
+     - start `text_data_base + offsets[id]`
+     - end   `text_data_base + offsets[id+1]`.
+
+4. VM entry linkage:
+   - many VM entries contain `FF00 <id>` markers.
+   - these `<id>` values resolve directly to records in the text section above.
+
+Concrete chunk-0 example (`SCEN.DAT`):
+- `vm_off=0x40`
+- `vm_size=0x1AB4`
+- `text_sec_off=0x1AF4`
+- `text_sec_size=0x1FC0`
+- offset count observed: `205`
+- resolved `FF00` ids include `0001`, `0005`, `000B`, `0037`, `00C2`.
+
+Tooling:
+- VM scan:
+  - `scripts/lang5_vm_scan_chunks.py`
+  - outputs:
+    - `work/scen_analysis/scen_vm_chunks.csv`
+    - `work/scen_analysis/scen_vm_entries.csv`
+    - `work/scen_analysis/scen2_vm_chunks.csv`
+    - `work/scen_analysis/scen2_vm_entries.csv`
+- VM text extraction and id linkage:
+  - `scripts/lang5_vm_text_extract.py`
+  - outputs:
+    - `work/scen_analysis/scen_vm_texts.csv`
+    - `work/scen_analysis/scen_vm_ff00_links.csv`
+    - `work/scen_analysis/scen2_vm_texts.csv`
+    - `work/scen_analysis/scen2_vm_ff00_links.csv`
+
 ## DuckStation runtime instrumentation
 
 - DuckStation AppImage was extracted (`external/squashfs-root`) and runs

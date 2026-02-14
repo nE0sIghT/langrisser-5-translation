@@ -80,6 +80,10 @@ Outputs:
   (section pointer table, `u16` entry lists, entry headers/opcodes).
 - `scripts/lang5_vm_dispatch_dump.py`: dump runtime-populated VM dispatch
   tables (`0x010200`, `0x010250`) from RAM dumps.
+- `scripts/lang5_vm_scan_chunks.py`: scan all `SCEN/SCEN2` chunks for VM
+  headers and export normalized VM entry lists (no runtime needed).
+- `scripts/lang5_vm_text_extract.py`: extract VM-attached text sections and
+  resolve `FF00` text ids to record payloads from static `SCEN/SCEN2` data.
 - `scripts/lang5_extract_all_texts.py`: unified offline extractor of
   text-bearing token streams from `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`,
   and `SLPS_018.19`.
