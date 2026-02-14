@@ -13,19 +13,64 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--input-dir", default="work/ingame")
     p.add_argument("--out-csv", default="work/scen_analysis/ingame_ocr.csv")
     p.add_argument("--out-txt", default="")
+    p.add_argument("--debug-dir", default="")
     p.add_argument("--lang", default="jpn")
     return p.parse_args()
 
 
-def preprocess_dialogue_roi(img: Image.Image) -> Image.Image:
+def detect_dialogue_box(img: Image.Image) -> tuple[int, int, int, int, str]:
     w, h = img.size
-    # Heuristic ROI that works for desktop screenshots containing centered PS1 frame.
-    crop = img.crop((int(w * 0.18), int(h * 0.52), int(w * 0.82), int(h * 0.88)))
+    rgb = img.convert("RGB")
+    px = rgb.load()
+
+    # Search in lower part where textbox appears.
+    x0, y0 = int(w * 0.05), int(h * 0.48)
+    x1, y1 = int(w * 0.95), int(h * 0.98)
+
+    xs = []
+    ys = []
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            r, g, b = px[x, y]
+            # Gold frame heuristic (works for the tutorial dialogue frame).
+            if r >= 120 and g >= 90 and b <= 80:
+                xs.append(x)
+                ys.append(y)
+
+    if len(xs) > 500:
+        bx0, bx1 = min(xs), max(xs)
+        by0, by1 = min(ys), max(ys)
+        bw, bh = bx1 - bx0 + 1, by1 - by0 + 1
+        # Basic sanity to avoid accidental tiny detections.
+        if bw > int(w * 0.35) and bh > int(h * 0.12):
+            pad = 6
+            bx0 = max(0, bx0 - pad)
+            by0 = max(0, by0 - pad)
+            bx1 = min(w - 1, bx1 + pad)
+            by1 = min(h - 1, by1 + pad)
+            return bx0, by0, bx1, by1, "gold_box"
+
+    # Fallback ROI.
+    return int(w * 0.18), int(h * 0.52), int(w * 0.82), int(h * 0.88), "fixed_fallback"
+
+
+def preprocess_dialogue_roi(img: Image.Image) -> tuple[Image.Image, tuple[int, int, int, int], str]:
+    x0, y0, x1, y1, method = detect_dialogue_box(img)
+    crop = img.crop((x0, y0, x1 + 1, y1 + 1))
+    # Slight inward trim to reduce decorative frame noise.
+    cw, ch = crop.size
+    trim_l = int(cw * 0.02)
+    trim_r = int(cw * 0.02)
+    trim_t = int(ch * 0.10)
+    trim_b = int(ch * 0.14)
+    crop = crop.crop((trim_l, trim_t, max(trim_l + 1, cw - trim_r), max(trim_t + 1, ch - trim_b)))
+
+    w, h = img.size
     g = ImageOps.grayscale(crop)
     g = ImageEnhance.Contrast(g).enhance(2.5)
     bw = g.point(lambda p: 255 if p > 150 else 0)
     bw = bw.resize((bw.size[0] * 2, bw.size[1] * 2), Image.Resampling.NEAREST)
-    return bw
+    return bw, (x0, y0, x1, y1), method
 
 
 def run_ocr(image_path: Path, lang: str) -> str:
@@ -60,27 +105,60 @@ def main() -> None:
     out_csv.parent.mkdir(parents=True, exist_ok=True)
     tmp_dir = Path("work/ocr2")
     tmp_dir.mkdir(parents=True, exist_ok=True)
+    debug_dir = Path(args.debug_dir) if args.debug_dir else None
+    if debug_dir:
+        debug_dir.mkdir(parents=True, exist_ok=True)
 
     rows = []
     files = sorted(input_dir.glob("*.png"), key=lambda p: p.stat().st_mtime)
-    for f in files:
+    for i, f in enumerate(files, 1):
         img = Image.open(f).convert("RGB")
-        proc = preprocess_dialogue_roi(img)
+        proc, box, method = preprocess_dialogue_roi(img)
         proc_path = tmp_dir / f"{f.stem}_dialog_bw.png"
         proc.save(proc_path)
         raw = run_ocr(proc_path, args.lang)
         cleaned = clean_text(raw)
+        x0, y0, x1, y1 = box
         rows.append(
             {
                 "file": f.name,
                 "mtime": int(f.stat().st_mtime),
+                "crop_method": method,
+                "crop_box": f"{x0},{y0},{x1},{y1}",
                 "ocr_raw": raw.replace("\n", "\\n"),
                 "ocr_cleaned": cleaned.replace("\n", "\\n"),
             }
         )
+        if debug_dir:
+            # Draw bbox on original and save side-by-side comparison.
+            marked = img.copy()
+            mp = marked.load()
+            for x in range(x0, x1 + 1):
+                if 0 <= y0 < marked.size[1]:
+                    mp[x, y0] = (255, 0, 0)
+                if 0 <= y1 < marked.size[1]:
+                    mp[x, y1] = (255, 0, 0)
+            for y in range(y0, y1 + 1):
+                if 0 <= x0 < marked.size[0]:
+                    mp[x0, y] = (255, 0, 0)
+                if 0 <= x1 < marked.size[0]:
+                    mp[x1, y] = (255, 0, 0)
+
+            # Recreate unbinarized crop preview for visual QA.
+            vis_crop = img.crop((x0, y0, x1 + 1, y1 + 1))
+            pair_w = marked.size[0] + vis_crop.size[0]
+            pair_h = max(marked.size[1], vis_crop.size[1])
+            pair = Image.new("RGB", (pair_w, pair_h), (20, 20, 20))
+            pair.paste(marked, (0, 0))
+            pair.paste(vis_crop, (marked.size[0], 0))
+            pair_name = f"{i:03d}_{method}_{f.name}"
+            pair.save(debug_dir / pair_name)
 
     with out_csv.open("w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=["file", "mtime", "ocr_raw", "ocr_cleaned"])
+        w = csv.DictWriter(
+            fh,
+            fieldnames=["file", "mtime", "crop_method", "crop_box", "ocr_raw", "ocr_cleaned"],
+        )
         w.writeheader()
         w.writerows(rows)
 
