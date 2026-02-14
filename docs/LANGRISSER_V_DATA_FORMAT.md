@@ -450,7 +450,8 @@ Observed stable runtime anchors in extracted RAM:
   (e.g. `0x80108C68`)
 
 Current extractor model:
-- cache-code list starts near `context + 0x56` (`u16` values, `0xFFFF` empty)
+- active cache-code list starts at `context + 0x5C` and ends at `0xFFFF`
+  (observed count in dialogue states: `37`)
 - glyph table rows are `4-byte` entries at `glyph_table_ptr + slot*4`
 - extracted deterministically from savestate RAM, no OCR/input needed
 
@@ -458,6 +459,9 @@ Tool:
 - `scripts/lang5_runtime_cache_dump.py`
 - output:
   - `work/scen_analysis/runtime_cache_dump.csv`
+  - includes:
+    - `row_type=active` (active cache-code + glyph-entry pairs)
+    - `row_type=raw_entry` (full raw glyph table rows for low-level RE)
 
 Note:
 - these `u16` cache codes are not yet proven to be direct script token ids.

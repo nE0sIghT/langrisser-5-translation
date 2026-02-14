@@ -82,6 +82,7 @@ def main() -> None:
                 "ram_file",
                 "ctx_ptr",
                 "glyph_table_ptr",
+                "row_type",
                 "slot",
                 "cache_code_u16",
                 "tbl_guess",
@@ -105,16 +106,24 @@ def main() -> None:
             ctx = ctx_ptr - 0x80000000
             g = glyph_ptr - 0x80000000
             entry_count = infer_entry_count(ram, glyph_ptr)
-            # Observed u16 cache-code list start near +0x56 from ctx.
-            # NOTE: these values are not yet proven to be direct script token ids.
-            tok_base = ctx + 0x56
 
-            for slot in range(entry_count):
-                eoff = g + slot * 4
-                toff = tok_base + slot * 2
-                if eoff + 4 > len(ram) or toff + 2 > len(ram):
+            # Active cache-code sequence observed at ctx+0x5C .. until 0xFFFF.
+            active_base = ctx + 0x5C
+            active_codes: list[int] = []
+            for i in range(0, 512):
+                off = active_base + i * 2
+                if off + 2 > len(ram):
                     break
-                code = u16_at(ram, toff)
+                v = u16_at(ram, off)
+                if v == 0xFFFF:
+                    break
+                active_codes.append(v)
+
+            # Row type 1: active cache rows (best current confidence).
+            for slot, code in enumerate(active_codes):
+                eoff = g + slot * 4
+                if eoff + 4 > len(ram):
+                    break
                 b0, b1, b2, b3 = ram[eoff], ram[eoff + 1], ram[eoff + 2], ram[eoff + 3]
                 ch = tbl.get(code, "")
                 w.writerow(
@@ -122,9 +131,33 @@ def main() -> None:
                         rp.name,
                         f"0x{ctx_ptr:08X}",
                         f"0x{glyph_ptr:08X}",
+                        "active",
                         slot,
                         f"{code:04X}",
                         ch,
+                        b0,
+                        b1,
+                        b2,
+                        b3,
+                        f"{b0:02X}{b1:02X}{b2:02X}{b3:02X}",
+                    ]
+                )
+
+            # Row type 2: full raw table rows for low-level RE.
+            for slot in range(entry_count):
+                eoff = g + slot * 4
+                if eoff + 4 > len(ram):
+                    break
+                b0, b1, b2, b3 = ram[eoff], ram[eoff + 1], ram[eoff + 2], ram[eoff + 3]
+                w.writerow(
+                    [
+                        rp.name,
+                        f"0x{ctx_ptr:08X}",
+                        f"0x{glyph_ptr:08X}",
+                        "raw_entry",
+                        slot,
+                        "",
+                        "",
                         b0,
                         b1,
                         b2,
