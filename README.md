@@ -85,6 +85,12 @@ Outputs:
   rebuild `SCEN/SCEN2` containers (offset/pointer tables).
 - `scripts/lang5_build_script_ppf.py`: end-to-end script-patch builder
   (`dump edits -> rebuilt SCEN/SCEN2 -> BIN inject -> PPF`).
+- `scripts/lang5_runtime_trace_decoder.py`: runtime trace helper for decoder
+  control flow from savestates (breakpoint/step modes via DuckStation GDB).
+- `scripts/lang5_runtime_watch.py`: runtime write-watchpoint probe for script
+  pointers/flags (`0x800DBA1C`, `0x800DB90C`, `0x800DB8D4`).
+- `scripts/lang5_build_merged_tbl.py`: build bootstrap `lang5` table from
+  `lang3.tbl` with local confirmed token overrides.
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping

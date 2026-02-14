@@ -95,6 +95,20 @@ Current map confidence:
   - confirmed kanji tokens: `元`, `帥`
   - confirmed honorific/name-suffix token: `02B0 -> 様`
 
+Cross-game seed table result (`lang3.tbl` -> `lang5`):
+- `external/lang3/scripts/jp/lang3.tbl` parsed as CP932 provides 1693 token
+  entries.
+- Coverage against current `SCEN` record token universe is high:
+  - `1597 / 1752` unique tokens hit.
+- But semantic drift exists:
+  - Even after forcing 7 known corrections (`、。・ー元帥様`), many lines still
+    decode into plausible but wrong kanji/words.
+  - Conclusion: token ids are close between L3/L5 but not globally identical in
+    glyph assignment; direct reuse is useful as a bootstrap only.
+- Merge builder:
+  - `scripts/lang5_build_merged_tbl.py`
+  - output example: `work/tables/lang5_merged.tbl`
+
 ## `SYSTEM.BIN` findings
 
 - FEIDIAN dump command used successfully:
@@ -263,3 +277,15 @@ Implication:
     `0x8001CFA0/0x8001D198` were not hit yet.
   - this means those anchors are likely not reached in the automated flow
     (boot/menu path divergence), not that GDB instrumentation is broken.
+
+Additional runtime watchpoint probe:
+- New probe script:
+  - `scripts/lang5_runtime_watch.py`
+- Write-watchpoints were set on:
+  - `0x800DBA1C` (script current)
+  - `0x800DB90C` (script base)
+  - `0x800DB8D4` (interpreter flag)
+- For provided savestates (`SLPS-01819_1..4.sav`), this probe produced 0 hits.
+  - Interpretation: these states are likely parked in a loop that does not
+    mutate script pointers while sampled, so they are insufficient for dynamic
+    opcode-path capture.
