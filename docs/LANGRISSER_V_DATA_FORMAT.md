@@ -257,6 +257,42 @@ Implication:
 - This supports the observed macro/dictionary-like compact token behavior in
   narrative lines.
 
+### Runtime VM block mapped back to `SCEN.DAT` (new, high confidence)
+
+From savestate `SLPS-01819_6.sav`:
+- `script_base @ 0x800DB90C = 0x80169040`
+- `script_cur  @ 0x800DBA1C = 0x80169086`
+
+RAM dump at `0x80169040` (`0x20000` bytes sampled) matches file bytes exactly
+at:
+- `SCEN.DAT` offset `0x840` (decimal `2112`)
+- also identical in `SCEN2.DAT` for this block
+
+This places the active VM block in chunk `0`:
+- chunk `0` range: `0x800..0xB000`
+- local offset in chunk `0`: `0x40`
+
+Mapped block header (`SCEN.DAT@0x840`) begins with:
+- section pointers (`u32`) at `+0x00`:
+  `0x44,0x48,0x4A,0x4C,0x4E,0x50,0x52,0x54,0x56,0x58,0x5A`
+- additional pointers/params at `+0x2C..+0x3C`:
+  `0x5C,0xA8,0xA8,0x00000007,0x00001AB4`
+
+Observed list encoding:
+- pointer targets contain `u16` entry offsets terminated by `0xFFFF`.
+- example at `+0x44`: `[0x00A8, 0xFFFF]`.
+- richer list at `+0x5C`: 37 entry offsets terminated by `0xFFFF`.
+
+Entry head shape (consistent with `0x8001D7B4` loop):
+- `u16 flags_or_guard_id` at `entry+0`
+- `u8 opcode` at `entry+2`
+- opcode-specific payload from `entry+3` onward.
+
+Tooling:
+- `scripts/lang5_vm_layout_dump.py` dumps this structure into:
+  - `work/scen_analysis/vm_layout_summary.txt`
+  - `work/scen_analysis/vm_layout_section_entries.csv`
+
 ## DuckStation runtime instrumentation
 
 - DuckStation AppImage was extracted (`external/squashfs-root`) and runs

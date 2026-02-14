@@ -76,6 +76,8 @@ Outputs:
   savestates back to static `records.csv` entries.
 - `scripts/lang5_vm_probe.py`: probe runtime VM entry records from RAM dumps
   (`base+u16-offset` entry model around `0x8001D354`).
+- `scripts/lang5_vm_layout_dump.py`: dump VM block layout from `SCEN.DAT`
+  (section pointer table, `u16` entry lists, entry headers/opcodes).
 - `scripts/lang5_extract_all_texts.py`: unified offline extractor of
   text-bearing token streams from `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`,
   and `SLPS_018.19`.
