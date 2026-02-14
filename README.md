@@ -84,6 +84,10 @@ Outputs:
   headers and export normalized VM entry lists (no runtime needed).
 - `scripts/lang5_vm_text_extract.py`: extract VM-attached text sections and
   resolve `FF00` text ids to record payloads from static `SCEN/SCEN2` data.
+- `scripts/lang5_duckstate_extract.py`: parse DuckStation `.sav` (`DUCCS`)
+  files, decompress state payload, and extract deterministic 2MB RAM dumps.
+- `scripts/lang5_runtime_cache_dump.py`: dump runtime glyph-cache rows from RAM
+  (`token/slot -> 4-byte entry`) for font-table reverse engineering.
 - `scripts/lang5_extract_all_texts.py`: unified offline extractor of
   text-bearing token streams from `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`,
   and `SLPS_018.19`.

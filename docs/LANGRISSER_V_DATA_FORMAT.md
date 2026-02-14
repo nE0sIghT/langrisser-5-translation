@@ -415,3 +415,50 @@ Additional runtime watchpoint probe:
     `0x80047888`, `0x8001D20C`, `0x8001D280`, `0x8001D29C`
   but still no transitions to `0x8001D354/0x8001D3D4/0x8001D4xx` in that
   runtime slice.
+
+### DuckStation `.sav` (`DUCCS`) state-data extraction
+
+From DuckStation source (`SAVE_STATE_HEADER`), `.sav` layout is:
+- fixed header (`magic=DUCC`, version, serial/title, offsets/sizes)
+- compressed `state_data` block at `offset_to_data`
+- compression type enum:
+  - `0=None`, `1=Deflate`, `2=Zstandard`, `3=XZ`
+
+For provided Langrisser V savestates (`SLPS-01819_1..6.sav`):
+- version: `83`
+- data compression: `Zstandard`
+- decompressed `state_data` size: typically `3,833,298` bytes
+
+Deterministic RAM extraction:
+- scan `state_data` for Bus MEMCTRL prefix:
+  - `u32 exp1_base = 0x1F000000`
+  - `u32 exp2_base = 0x1F802000`
+- infer `ram_start = memctrl_offset - 0x200000`
+- on current states, `ram_start` is stable: `0x1A62`
+
+Tool:
+- `scripts/lang5_duckstate_extract.py`
+- outputs:
+  - `work/scen_analysis/SLPS-01819_*_state_data.bin`
+  - `work/scen_analysis/SLPS-01819_*_ram.bin`
+
+### Runtime glyph-cache anchors (RAM)
+
+Observed stable runtime anchors in extracted RAM:
+- `0x800DB90C` -> context pointer (e.g. `0x80169040`)
+- glyph-entry table pointer in nearby globals, currently at `0x800DB914`
+  (e.g. `0x80108C68`)
+
+Current extractor model:
+- token-slot list starts near `context + 0x56` (`u16` values, `0xFFFF` empty)
+- glyph table rows are `4-byte` entries at `glyph_table_ptr + slot*4`
+- extracted deterministically from savestate RAM, no OCR/input needed
+
+Tool:
+- `scripts/lang5_runtime_cache_dump.py`
+- output:
+  - `work/scen_analysis/runtime_cache_dump.csv`
+
+Note:
+- exact semantic meaning of 4 bytes per glyph-entry is not finalized yet
+  (field extraction is stable; interpretation is pending).
