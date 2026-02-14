@@ -293,6 +293,38 @@ Tooling:
   - `work/scen_analysis/vm_layout_summary.txt`
   - `work/scen_analysis/vm_layout_section_entries.csv`
 
+### Runtime-populated dispatch tables (new, high confidence)
+
+In `SLPS_018.19` file image, dispatch slots around `0x80010200` are zeroed, but
+in RAM they are populated at runtime.
+
+From `work/ram.bin`:
+- main table @ `0x00010200`:
+  - `0 -> 0x8001D040`
+  - `1 -> 0x8001D05C`
+  - `2 -> 0x8001D0DC`
+  - `3 -> 0x8001D0EC`
+  - `4 -> 0x8001D0FC`
+  - `5 -> 0x8001D10C`
+  - `6 -> 0x8001D12C`
+  - `7 -> 0x8001D13C`
+  - `8 -> 0x8001D14C`
+  - `10 -> 0x8001D3D4`
+  - `11 -> 0x8001D3F0`
+  - `12 -> 0x8001D478`
+  - `13 -> 0x8001D488`
+  - `14 -> 0x8001D498`
+  - `15 -> 0x8001D4A8`
+- secondary table @ `0x00010250`:
+  - starts with `0x8001D738, 0x8001D764, 0x8001D7D0, ...`
+  - includes branch handlers at
+    `0x8001D89C`, `0x8001D8CC`, `0x8001D960`,
+    `0x8001D9A8`, `0x8001DA4C`, `0x8001DA9C`, `0x8001DADC`.
+
+Tool:
+- `scripts/lang5_vm_dispatch_dump.py`
+- output: `work/scen_analysis/vm_dispatch_tables.csv`
+
 ## DuckStation runtime instrumentation
 
 - DuckStation AppImage was extracted (`external/squashfs-root`) and runs
