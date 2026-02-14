@@ -8,6 +8,8 @@ Canonical documentation:
 - `docs/LANGRISSER_V_DATA_FORMAT.md`: confirmed format findings and RE notes.
 - `docs/ENVIRONMENT_BOOTSTRAP.md`: tool bootstrap for environment resets.
 - `docs/TUTORIAL_SCREEN_ANCHORS.md`: screenshot-confirmed tutorial text anchors.
+- `docs/DUCKSTATION_RUNTIME_PLAN.md`: deterministic runtime-debug plan for
+  text/script decode in DuckStation.
 
 Current patch status:
 - `patches/langrisser_v_en.ppf` is generated from the clean image.
@@ -52,6 +54,8 @@ Outputs:
   anchor names (`ギザロフ`, `ランフォード`) to drive token-map expansion.
 - `scripts/lang5_ingame_ocr.py`: OCR helper for `work/ingame` screenshots to
   create reproducible JP anchor text (`work/scen_analysis/ingame_ocr.csv`).
+- `scripts/slps_runtime_probe.py`: static probe of `SLPS_018.19` runtime
+  interpreter anchors and breakpoint candidates.
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
