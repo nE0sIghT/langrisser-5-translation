@@ -83,6 +83,8 @@ Outputs:
   (`chunk_XXX.txt`) using `.tbl` mapping and `<$HHHH>` tags.
 - `scripts/lang5_scrsceninsert.py`: insert edited chunk text files back and
   rebuild `SCEN/SCEN2` containers (offset/pointer tables).
+- `scripts/lang5_build_script_ppf.py`: end-to-end script-patch builder
+  (`dump edits -> rebuilt SCEN/SCEN2 -> BIN inject -> PPF`).
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping

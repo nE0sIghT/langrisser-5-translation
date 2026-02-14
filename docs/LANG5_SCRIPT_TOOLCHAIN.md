@@ -54,6 +54,29 @@ Behavior:
 - Rebuilds container pointer table.
 - Default guard: output size must not exceed original (`--max-size-mode original`).
 
+## Build PPF from script dump
+
+```bash
+python3 scripts/lang5_build_script_ppf.py \
+  --orig-bin iso/SLPS-01818-9-B.bin \
+  --dump-dir work/scriptdump \
+  --tbl work/tables/lang5.tbl \
+  --out-ppf patches/langrisser_v_script.ppf
+```
+
+Pipeline:
+
+1. rebuild `SCEN.DAT` / `SCEN2.DAT` from dump text files
+2. inject both files into a BIN copy
+3. generate PPF against original BIN
+
+By default, size guard is strict (`--max-size-mode original`).  
+For research builds only, you can disable it:
+
+```bash
+python3 scripts/lang5_build_script_ppf.py --max-size-mode off
+```
+
 ## Roundtrip guarantee
 
 Current implementation has been verified with exact roundtrip:
