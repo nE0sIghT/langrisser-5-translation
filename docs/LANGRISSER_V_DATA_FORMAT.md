@@ -197,6 +197,10 @@ Current mapping assessment:
   - `scripts/lang5_ram_extract.py`
 - Runtime-window -> record matching:
   - `scripts/lang5_match_runtime_to_records.py`
+- Unified offline all-text extraction:
+  - `scripts/lang5_extract_all_texts.py`
+  - output: `work/scen_analysis/all_texts.csv`
+  - source files: `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`, `SLPS_018.19`
 
 ## Runtime RE anchors (SLPS)
 

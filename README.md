@@ -10,6 +10,8 @@ Canonical documentation:
 - `docs/TUTORIAL_SCREEN_ANCHORS.md`: screenshot-confirmed tutorial text anchors.
 - `docs/DUCKSTATION_RUNTIME_PLAN.md`: deterministic runtime-debug plan for
   text/script decode in DuckStation.
+- `docs/ALL_TEXT_EXTRACTION.md`: canonical offline extraction workflow from
+  game data files (`SCEN/SCEN2/SYSTEM/SLPS`) without savestates.
 
 Current patch status:
 - `patches/langrisser_v_en.ppf` is generated from the clean image.
@@ -72,6 +74,9 @@ Outputs:
   savestates back to static `records.csv` entries.
 - `scripts/lang5_vm_probe.py`: probe runtime VM entry records from RAM dumps
   (`base+u16-offset` entry model around `0x8001D354`).
+- `scripts/lang5_extract_all_texts.py`: unified offline extractor of
+  text-bearing token streams from `SCEN.DAT`, `SCEN2.DAT`, `SYSTEM.BIN`,
+  and `SLPS_018.19`.
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
