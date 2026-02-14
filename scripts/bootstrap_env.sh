@@ -22,6 +22,13 @@ APT_PACKAGES=(
   pkg-config
   binutils-mipsel-linux-gnu
   mednafen
+  gdb
+  gdb-multiarch
+  xvfb
+  iproute2
+  net-tools
+  xdotool
+  openbox
   tesseract-ocr
   tesseract-ocr-jpn
   fonts-noto-cjk

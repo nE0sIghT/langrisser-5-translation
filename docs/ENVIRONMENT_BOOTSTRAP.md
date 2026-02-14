@@ -14,9 +14,12 @@ This script installs/reinstalls the core tooling used by this project:
 - CLI/utilities:
   - `curl`, `unzip`, `unar`, `unrar-free`, `xxd`, `ripgrep`
   - `cmake`, `ninja-build`, `build-essential`, `pkg-config`
+  - `iproute2`, `net-tools`
 - Reverse tools:
   - `php-cli`, `binwalk`, `binutils-mipsel-linux-gnu`
   - `mednafen` (runtime verification support)
+  - `gdb`, `gdb-multiarch`
+  - `xvfb`, `xdotool`, `openbox`
 - OCR/fonts:
   - `tesseract-ocr`, `tesseract-ocr-jpn`, `fonts-noto-cjk`
 - Python runtime/deps:

@@ -1,6 +1,6 @@
 # Langrisser V PS1 Data Format Notes
 
-Last updated: 2026-02-14 (text-segment extraction update)
+Last updated: 2026-02-14 (DuckStation remote-debug instrumentation update)
 
 This file is the canonical technical reference for discovered data formats in
 this repository. Update this file when new reverse-engineering facts are
@@ -180,3 +180,24 @@ Current mapping assessment:
 - In current SLPS image, writes to `0x800DB780` (font bitmap base pointer) are
   not present; only reads are observed in the main module, implying external
   runtime initialization path (other module/loader stage).
+
+## DuckStation runtime instrumentation
+
+- DuckStation AppImage was extracted (`external/squashfs-root`) and runs
+  reliably in headless CI-like conditions via `Xvfb` + `QT_QPA_PLATFORM=xcb`.
+- GDB server is confirmed operational on `127.0.0.1:9012` when enabled in
+  `settings.ini` (`[Debug] EnableGDBServer=true`).
+- A deterministic low-level client is now available:
+  - `scripts/lang5_gdb_remote.py`
+  - Implements direct GDB-remote packets (`?`, `g`, `m`, `Z/z`, `c`, `^C`)
+    without relying on `gdb-multiarch` front-end behavior.
+- Confirmed protocol behavior from source:
+  - on client connect, emulator is paused (`PauseSystem(true)`).
+  - `c` resumes execution.
+  - stop events arrive as `S00` packets.
+- Current runtime result:
+  - break/watch plumbing is verified end-to-end.
+  - during automated key-input runs under `Xvfb`, execution breakpoints
+    `0x8001CFA0/0x8001D198` were not hit yet.
+  - this means those anchors are likely not reached in the automated flow
+    (boot/menu path divergence), not that GDB instrumentation is broken.

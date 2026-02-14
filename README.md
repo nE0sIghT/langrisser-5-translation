@@ -64,6 +64,8 @@ Outputs:
   interpreter anchors and breakpoint candidates.
 - `scripts/lang5_system_table_probe.py`: probe token-like 4-byte lookup tables
   in `SYSTEM.BIN` and compare them with extracted SCEN token sets.
+- `scripts/lang5_gdb_remote.py`: minimal DuckStation GDB-remote client for
+  deterministic breakpoint/watchpoint setup and RAM/register dumps.
 - `scripts/bootstrap_env.sh`: one-shot environment recovery after resets.
 
 ## Extract script structure and storyline mapping
