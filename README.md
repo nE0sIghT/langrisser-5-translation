@@ -92,7 +92,8 @@ Outputs:
   table blocks (`0x80108910/0x80108B02/0x80108C68`) and structured entries for
   active `0x80108C68`.
 - `scripts/lang5_dump_resource_descriptors.py`: dump runtime resource
-  descriptor table (`0x8010DB40`, `offset/size/name`) from RAM dumps.
+  descriptor table (`0x8010DB40`) from RAM dumps with `CDLOC(Bcd)->LBA`
+  decode and optional ISO LBA/size verification.
 - `scripts/lang5_state_struct_dump.py`: offline dump of key runtime text/VM
   globals and pointed buffers from extracted `*_ram.bin` files.
 - `scripts/lang5_build_confirmed_source.py`: build deterministic tokenized

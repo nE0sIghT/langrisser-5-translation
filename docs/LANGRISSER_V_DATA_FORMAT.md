@@ -167,7 +167,7 @@ Confirmed runtime resource descriptor table:
 - address: `0x8010DB40`
 - entry size: `0x18` bytes
 - entry layout:
-  - `u32 offset_2048`
+  - `u32 cdloc` (`MM:SS:FF` in BCD + mode byte, packed little-endian)
   - `u32 size_bytes`
   - `char name[12]` (ISO9660-style, e.g. `SYSTEM.BIN;1`)
   - `u32 tail` (currently always `0` in observed rows)
@@ -180,6 +180,18 @@ Confirmed runtime resource descriptor table:
   - `ALLUSB.BIN;1`
   - `SCEN2.DAT;1`
 - for these rows, `size_bytes` matches extracted files exactly.
+- executable conversion is confirmed:
+  - `FUN_800B91F0`: `CDLOC(Bcd) -> LBA`
+    - `LBA = ((MM*60 + SS)*75 + FF) - 150`
+  - `FUN_800B90EC`: inverse conversion `LBA -> CDLOC(Bcd)`
+  - loader callsite:
+    - `FUN_80019FB4` computes descriptor pointer (`index*0x18 + 0x8010DB40`)
+      and calls `FUN_800B91F0`.
+    - `FUN_8001A9B8` runs async read state machine and uses `FUN_800B90EC`
+      before issuing CD commands.
+- external verification:
+  - decoded LBA and `size_bytes` match ISO9660 entries from
+    `scripts/iso_mode2.py list` for all 15 named descriptor rows.
 - dumper:
   - `scripts/lang5_dump_resource_descriptors.py`
   - output example: `work/scen_analysis/resource_descriptors_state1.csv`
