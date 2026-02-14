@@ -43,29 +43,54 @@ def detect_dialogue_box(img: Image.Image) -> tuple[int, int, int, int, str]:
         bw, bh = bx1 - bx0 + 1, by1 - by0 + 1
         # Basic sanity to avoid accidental tiny detections.
         if bw > int(w * 0.35) and bh > int(h * 0.12):
+            # Dialogue frame is expected in lower half and fairly wide.
+            if by0 < int(h * 0.40) or by1 < int(h * 0.58):
+                return 0, 0, w - 1, h - 1, "full_screen"
+            # False-positive guard: menus often produce near-full-width boxes.
+            if bw > int(w * 0.86):
+                return 0, 0, w - 1, h - 1, "full_screen"
+            # Dialogue frame should not hug the bottom edge.
+            if by1 > int(h * 0.82):
+                return 0, 0, w - 1, h - 1, "full_screen"
+            ar = bw / max(1, bh)
+            if ar < 1.8 or ar > 5.5:
+                return 0, 0, w - 1, h - 1, "full_screen"
             pad = 6
             bx0 = max(0, bx0 - pad)
             by0 = max(0, by0 - pad)
             bx1 = min(w - 1, bx1 + pad)
             by1 = min(h - 1, by1 + pad)
+            # Validate dark-blue textbox interior to reject false positives
+            # from non-dialogue menus/class screens.
+            inside = 0
+            navy = 0
+            for yy in range(by0 + 4, by1 - 3):
+                for xx in range(bx0 + 4, bx1 - 3):
+                    r, g, b = px[xx, yy]
+                    inside += 1
+                    if r < 80 and g < 90 and 40 < b < 170:
+                        navy += 1
+            navy_ratio = (navy / inside) if inside else 0.0
+            if navy_ratio < 0.08:
+                return 0, 0, w - 1, h - 1, "full_screen"
             return bx0, by0, bx1, by1, "gold_box"
 
     # Fallback ROI.
-    return int(w * 0.18), int(h * 0.52), int(w * 0.82), int(h * 0.88), "fixed_fallback"
+    return 0, 0, w - 1, h - 1, "full_screen"
 
 
 def preprocess_dialogue_roi(img: Image.Image) -> tuple[Image.Image, tuple[int, int, int, int], str]:
     x0, y0, x1, y1, method = detect_dialogue_box(img)
     crop = img.crop((x0, y0, x1 + 1, y1 + 1))
-    # Slight inward trim to reduce decorative frame noise.
-    cw, ch = crop.size
-    trim_l = int(cw * 0.02)
-    trim_r = int(cw * 0.02)
-    trim_t = int(ch * 0.10)
-    trim_b = int(ch * 0.14)
-    crop = crop.crop((trim_l, trim_t, max(trim_l + 1, cw - trim_r), max(trim_t + 1, ch - trim_b)))
+    if method == "gold_box":
+        # Slight inward trim to reduce decorative frame noise.
+        cw, ch = crop.size
+        trim_l = int(cw * 0.02)
+        trim_r = int(cw * 0.02)
+        trim_t = int(ch * 0.10)
+        trim_b = int(ch * 0.14)
+        crop = crop.crop((trim_l, trim_t, max(trim_l + 1, cw - trim_r), max(trim_t + 1, ch - trim_b)))
 
-    w, h = img.size
     g = ImageOps.grayscale(crop)
     g = ImageEnhance.Contrast(g).enhance(2.5)
     bw = g.point(lambda p: 255 if p > 150 else 0)
