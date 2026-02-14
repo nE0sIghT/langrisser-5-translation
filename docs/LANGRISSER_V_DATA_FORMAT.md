@@ -74,6 +74,8 @@ Current map confidence:
   - small kana (`ァィゥェォャュョッ`)
   - punctuation (`、。・ー`)
   - confirmed kanji tokens: `元`, `帥`
+  - high-confidence likely honorific token for name suffix contexts:
+    `02B0` (renders plausibly as `様` in many lines)
 
 ## `SYSTEM.BIN` findings
 
@@ -93,6 +95,16 @@ Utility:
 - Chunk-level diff shows divergence in chunks:
   - `1..36`, `40..42`
 - This matches likely route/late-game variation, while other chunks are shared.
+
+## Confirmed dialogue anchor (screenshots)
+
+- A strong candidate for early in-game tutorial dialogue is in:
+  - `SCEN.DAT` chunk `56`, around chunk-relative offset `0x5488`
+- In this area, records include:
+  - `ギザロフ[02B0]。`
+- This supports treating `02B0` as a high-confidence name-suffix token in many
+  dialogue contexts (likely honorific usage) and ties observed dialogue style
+  to SCEN record streams rather than names-only tables.
 
 ## What is still unresolved
 
@@ -117,4 +129,3 @@ Utility:
   - `scripts/lang5_apply_font_ocr_map.py`
 - SYSTEM token run extraction:
   - `scripts/lang5_system_extract.py`
-
