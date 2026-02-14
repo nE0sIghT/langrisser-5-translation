@@ -54,6 +54,10 @@ Outputs:
   anchor names (`ギザロフ`, `ランフォード`) to drive token-map expansion.
 - `scripts/lang5_ingame_ocr.py`: OCR helper for `work/ingame` screenshots to
   create reproducible JP anchor text (`work/scen_analysis/ingame_ocr.csv`).
+- `scripts/lang5_chunk_struct_probe.py`: inspect runtime-relevant chunk fields
+  (`base0`, `+0x30/+0x34/+0x38/+0x3C`) and derived pointers for a target chunk.
+- `scripts/lang5_extract_text_segments.py`: extract likely visible script text
+  segments using VM text windows (`0003..0004`) from `records.csv`.
 - `scripts/slps_runtime_probe.py`: static probe of `SLPS_018.19` runtime
   interpreter anchors and breakpoint candidates.
 - `scripts/lang5_system_table_probe.py`: probe token-like 4-byte lookup tables
@@ -86,3 +90,5 @@ Outputs in `work/scen_analysis`:
   (currently seeded from `ランフォード元帥`).
 - `source_script_tokenized.txt` and `source_script_tokenized.csv`:
   canonical source dump in scenario order.
+- `text_segments.csv` and `text_segments.txt`: text-window extracted source
+  segments with chunk/record offsets and `FB00` labels.
