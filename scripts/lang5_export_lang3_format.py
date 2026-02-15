@@ -146,7 +146,7 @@ def main() -> None:
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
-    ap.add_argument("--groups", default="confirmed", help="Comma-separated groups from groups_report to use (default: confirmed)")
+    ap.add_argument("--groups", default="confirmed,symbol", help="Comma-separated groups from groups_report to use (default: confirmed,symbol)")
     ap.add_argument("--out-root", default="work/lang5_lang3_format")
     ap.add_argument("--text-encoding", default="utf-8", help="Encoding for .sjs and .tbl output files (default: utf-8)")
     args = ap.parse_args()
