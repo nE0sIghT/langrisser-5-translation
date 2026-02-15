@@ -108,10 +108,15 @@ def main():
                 continue
 
             key = f'{idx:04X}'
-            if idx in confirmed and token_map.get(key):
-                ch = token_map[key]
+            if idx in confirmed:
+                ch = token_map.get(key) or ocr_map.get(idx) or args.fallback_char
                 group = 'confirmed'
-                source = 'token_map'
+                if token_map.get(key):
+                    source = 'token_map'
+                elif ocr_map.get(idx):
+                    source = 'ocr'
+                else:
+                    source = 'fallback'
             else:
                 # Unconfirmed: OCR result takes precedence; then map fallback; then '?'.
                 ch = ocr_map.get(idx) or token_map.get(key) or args.fallback_char
