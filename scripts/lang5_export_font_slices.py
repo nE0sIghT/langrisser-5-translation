@@ -117,6 +117,7 @@ def main() -> None:
     ap.add_argument("--pair-size", type=int, default=64)
     ap.add_argument("--ocr-lang", default="jpn+eng")
     ap.add_argument("--ocr-psm", type=int, default=10)
+    ap.add_argument("--no-ocr", action="store_true")
     ap.add_argument("--out-dir", default="work/font_export")
     ap.add_argument("--clean-pairs", action="store_true")
     args = ap.parse_args()
@@ -183,31 +184,33 @@ def main() -> None:
 
                 ocr_norm_char, ocr_norm_conf = "", -1.0
                 ocr_inv_char, ocr_inv_conf = "", -1.0
-                if has_ink(g_norm):
-                    up_norm = upscale_tile(g_norm, args.pair_size)
-                    up_inv = upscale_tile(g_inv, args.pair_size)
-                    ocr_norm_char, ocr_norm_conf = ocr_single(up_norm, args.ocr_lang, args.ocr_psm)
-                    ocr_inv_char, ocr_inv_conf = ocr_single(up_inv, args.ocr_lang, args.ocr_psm)
-                else:
-                    up_norm = upscale_tile(g_norm, args.pair_size)
-                    up_inv = upscale_tile(g_inv, args.pair_size)
+                up_norm = upscale_tile(g_norm, args.pair_size)
+                up_inv = upscale_tile(g_inv, args.pair_size)
 
-                if not ch:
-                    if ocr_inv_conf > ocr_norm_conf and ocr_inv_char:
-                        ch = ocr_inv_char
-                        src = "ocr_inv"
-                        conf = ocr_inv_conf
-                    elif ocr_norm_char:
-                        ch = ocr_norm_char
-                        src = "ocr_norm"
-                        conf = ocr_norm_conf
-                    else:
-                        ch = ""
-                        src = "none"
-                        conf = -1.0
-                else:
-                    src = "manual"
+                if args.no_ocr:
+                    src = "token_map" if ch else "none"
                     conf = -1.0
+                else:
+                    if has_ink(g_norm):
+                        ocr_norm_char, ocr_norm_conf = ocr_single(up_norm, args.ocr_lang, args.ocr_psm)
+                        ocr_inv_char, ocr_inv_conf = ocr_single(up_inv, args.ocr_lang, args.ocr_psm)
+
+                    if not ch:
+                        if ocr_inv_conf > ocr_norm_conf and ocr_inv_char:
+                            ch = ocr_inv_char
+                            src = "ocr_inv"
+                            conf = ocr_inv_conf
+                        elif ocr_norm_char:
+                            ch = ocr_norm_char
+                            src = "ocr_norm"
+                            conf = ocr_norm_conf
+                        else:
+                            ch = ""
+                            src = "none"
+                            conf = -1.0
+                    else:
+                        src = "manual"
+                        conf = -1.0
 
                 w_ocr.writerow(
                     [idx, f"{idx:04X}", row, col, ch, src, f"{conf:.2f}", ocr_norm_char, ocr_inv_char]
