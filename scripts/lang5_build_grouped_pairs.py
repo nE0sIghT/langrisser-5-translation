@@ -73,6 +73,7 @@ def main():
     ap.add_argument('--ttf', default='')
     ap.add_argument('--fallback-char', default='?')
     ap.add_argument('--scalefx-bin', default='tools/scalefx9')
+    ap.add_argument('--manual-confirmed-dir', default='work/font_export/grouped/manually_confirmed')
     args = ap.parse_args()
 
     out = Path(args.out)
@@ -96,6 +97,13 @@ def main():
             if ch:
                 ocr_map[int(row['index_dec'])] = ch[0]
 
+    manual_dir = Path(args.manual_confirmed_dir)
+    manual_pairs = {}
+    if manual_dir.exists():
+        for p in sorted(manual_dir.glob('*.png')):
+            if p.stem.isdigit():
+                manual_pairs[int(p.stem)] = p
+
     img_inv = Image.open(args.sheet_inv).convert('L')
     cols = img_inv.width // 12
     total = (img_inv.width // 12) * (img_inv.height // 12)
@@ -115,6 +123,14 @@ def main():
             if idx in symbols:
                 g_x108.save(d_sym / f'{idx:04d}.png')
                 w.writerow([idx, f'{idx:04X}', 'symbol', '', 'none'])
+                continue
+
+            # Manual pair files are authoritative for visual matching.
+            if idx in manual_pairs:
+                shutil.copy2(manual_pairs[idx], d_conf / f'{idx:04d}.png')
+                key = f'{idx:04X}'
+                ch = token_map.get(key) or ocr_map.get(idx) or ''
+                w.writerow([idx, f'{idx:04X}', 'confirmed', ch, 'manual_pair'])
                 continue
 
             key = f'{idx:04X}'
