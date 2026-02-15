@@ -133,8 +133,6 @@ def export_one(
         lines: List[str] = []
         lines.append(f"Langrisser V dumper [{s:#x} to {e:#x}]")
         lines.append("")
-        lines.append("Cyber Warrior X")
-        lines.append("")
 
         rec_count = 0
         for ridx in range(rec_start_idx, len(vals) - 1):
