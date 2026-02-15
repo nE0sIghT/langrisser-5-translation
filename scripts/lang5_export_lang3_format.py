@@ -69,13 +69,43 @@ def load_map_from_groups_report(path: Path, allowed_groups: set[str]) -> Dict[in
 def decode_words(words: List[int], token_to_char: Dict[int, str]) -> Tuple[str, int]:
     out: List[str] = []
     unknown = 0
-    for w in words:
+    i = 0
+    n = len(words)
+
+    while i < n:
+        w = words[i]
+
+        # lang3-style macro form: F600 + argument word
+        if w == 0xF600 and i + 1 < n:
+            arg = words[i + 1]
+            out.append(f"<$F600{arg:04X}>")
+            i += 2
+            continue
+
+        # lang3-style control rendering
+        if w in (0xFFF5, 0xFFF6, 0xFFF9, 0xFFFA, 0xFFFB):
+            out.append(f"<${w:04X}>")
+            i += 1
+            continue
+        if w in (0xFFFC, 0xFFFD, 0xFFFE, 0xFFFF):
+            out.append(f"<${w:04X}>\n")
+            i += 1
+            continue
+
+        # Generic FE/F7/FF controls (single-word token form in Lang5 stream)
+        if (w & 0xFF00) in (0xFE00, 0xF700, 0xFF00):
+            out.append(f"<${w:04X}>")
+            i += 1
+            continue
+
         ch = token_to_char.get(w, "")
         if ch:
             out.append(ch)
         else:
             out.append(f"<${w:04X}>")
             unknown += 1
+        i += 1
+
     return "".join(out), unknown
 
 
@@ -102,6 +132,8 @@ def export_one(
 
         lines: List[str] = []
         lines.append(f"Langrisser V dumper [{s:#x} to {e:#x}]")
+        lines.append("")
+        lines.append("Cyber Warrior X")
         lines.append("")
 
         rec_count = 0
