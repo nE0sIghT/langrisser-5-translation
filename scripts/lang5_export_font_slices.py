@@ -4,6 +4,8 @@ import csv
 import json
 from pathlib import Path
 import shutil
+import subprocess
+import tempfile
 from typing import Dict, Optional, Tuple
 
 from PIL import Image, ImageDraw, ImageFont
@@ -54,6 +56,44 @@ def render_ttf_cell(ch: str, size: int, font: ImageFont.ImageFont) -> Image.Imag
 
 def upscale_tile(tile: Image.Image, target: int) -> Image.Image:
     return tile.resize((target, target), Image.NEAREST)
+
+
+def upscale_tile_xbrz(tile: Image.Image, target: int) -> Image.Image:
+    # xbrzscale supports integer factors 2..6. For 12x12 -> 64x64 use 5x then pad.
+    src_w = tile.width
+    if src_w <= 0:
+        return upscale_tile(tile, target)
+    factor = max(2, min(6, round(target / src_w)))
+
+    with tempfile.TemporaryDirectory(prefix="lang5_xbrz_") as td:
+        in_path = Path(td) / "in.png"
+        out_path = Path(td) / "out.png"
+        tile.save(in_path)
+        try:
+            subprocess.run(
+                ["xbrzscale", str(factor), str(in_path), str(out_path)],
+                check=True,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+            up = Image.open(out_path).convert("L")
+        except Exception:
+            return upscale_tile(tile, target)
+
+        if up.size == (target, target):
+            return up
+
+        # Center-fit to exact OCR target size.
+        if up.width < target or up.height < target:
+            canvas = Image.new("L", (target, target), 255)
+            x = (target - up.width) // 2
+            y = (target - up.height) // 2
+            canvas.paste(up, (x, y))
+            return canvas
+
+        left = (up.width - target) // 2
+        top = (up.height - target) // 2
+        return up.crop((left, top, left + target, top + target))
 
 
 def has_ink(tile: Image.Image) -> bool:
@@ -117,6 +157,9 @@ def main() -> None:
     ap.add_argument("--pair-size", type=int, default=64)
     ap.add_argument("--ocr-lang", default="jpn+eng")
     ap.add_argument("--ocr-psm", type=int, default=10)
+    ap.add_argument("--ocr-size", type=int, default=64)
+    ap.add_argument("--ocr-upscale", choices=["nearest", "xbrz"], default="nearest")
+    ap.add_argument("--ocr-when", choices=["all", "unmapped"], default="unmapped")
     ap.add_argument("--no-ocr", action="store_true")
     ap.add_argument("--out-dir", default="work/font_export")
     ap.add_argument("--clean-pairs", action="store_true")
@@ -186,14 +229,23 @@ def main() -> None:
                 ocr_inv_char, ocr_inv_conf = "", -1.0
                 up_norm = upscale_tile(g_norm, args.pair_size)
                 up_inv = upscale_tile(g_inv, args.pair_size)
+                ocr_norm_img = None
+                ocr_inv_img = None
 
                 if args.no_ocr:
                     src = "token_map" if ch else "none"
                     conf = -1.0
                 else:
-                    if has_ink(g_norm):
-                        ocr_norm_char, ocr_norm_conf = ocr_single(up_norm, args.ocr_lang, args.ocr_psm)
-                        ocr_inv_char, ocr_inv_conf = ocr_single(up_inv, args.ocr_lang, args.ocr_psm)
+                    need_ocr = args.ocr_when == "all" or not ch
+                    if need_ocr and has_ink(g_norm):
+                        if args.ocr_upscale == "xbrz":
+                            ocr_norm_img = upscale_tile_xbrz(g_norm, args.ocr_size)
+                            ocr_inv_img = upscale_tile_xbrz(g_inv, args.ocr_size)
+                        else:
+                            ocr_norm_img = upscale_tile(g_norm, args.ocr_size)
+                            ocr_inv_img = upscale_tile(g_inv, args.ocr_size)
+                        ocr_norm_char, ocr_norm_conf = ocr_single(ocr_norm_img, args.ocr_lang, args.ocr_psm)
+                        ocr_inv_char, ocr_inv_conf = ocr_single(ocr_inv_img, args.ocr_lang, args.ocr_psm)
 
                     if not ch:
                         if ocr_inv_conf > ocr_norm_conf and ocr_inv_char:
