@@ -4,6 +4,19 @@ import csv
 from pathlib import Path
 
 
+def is_japanese_char(ch: str) -> bool:
+    if not ch:
+        return False
+    cp = ord(ch[0])
+    # Hiragana, Katakana, CJK Unified Ideographs, full-width punctuation block.
+    return (
+        0x3040 <= cp <= 0x309F
+        or 0x30A0 <= cp <= 0x30FF
+        or 0x4E00 <= cp <= 0x9FFF
+        or 0xFF01 <= cp <= 0xFF60
+    )
+
+
 def load_rows(path: Path) -> list[dict[str, str]]:
     out = []
     with path.open(encoding="utf-8") as fh:
@@ -51,10 +64,13 @@ def main() -> None:
         if r.get("group") != "unconfirmed":
             continue
         idx = int(r["index_dec"])
+        # Reset unconfirmed char; keep only candidates from current model pass.
+        r["char"] = ""
+        r["source"] = "none"
         if idx not in cand:
             continue
         ch, score = cand[idx]
-        if ch and score >= args.min_score:
+        if ch and score >= args.min_score and is_japanese_char(ch):
             r["char"] = ch
             r["source"] = f"{args.source_tag}:{score:.3f}"
             applied += 1
