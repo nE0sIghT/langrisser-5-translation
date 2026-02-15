@@ -3,6 +3,7 @@ import argparse
 import csv
 import subprocess
 import tempfile
+import unicodedata
 from pathlib import Path
 
 import numpy as np
@@ -119,7 +120,27 @@ def build_candidate_chars(rows: list[dict[str, str]]) -> list[str]:
     for ch in build_jis0208_chars():
         s.add(ch)
     s.discard("\x00")
-    return sorted(s)
+    # Remove symbol-heavy garbage candidates for JP glyph recognition.
+    # We keep letters/numbers/punctuation and JP scripts.
+    confirmed_chars = {
+        (r.get("char") or "")[:1]
+        for r in rows
+        if r.get("group") == "confirmed" and (r.get("char") or "").strip()
+    }
+
+    out = []
+    for ch in sorted(s):
+        if ch in confirmed_chars:
+            continue
+        cat = unicodedata.category(ch)
+        cp = ord(ch)
+        if 0x3040 <= cp <= 0x30FF or 0x4E00 <= cp <= 0x9FFF:
+            out.append(ch)
+            continue
+        if cat[0] in ("L", "N", "P", "Z"):
+            out.append(ch)
+            continue
+    return out
 
 
 def choose_best_font(font_paths: list[str], rows: list[dict[str, str],], game_masks: dict[int, np.ndarray]) -> str:
@@ -156,7 +177,7 @@ def choose_best_font(font_paths: list[str], rows: list[dict[str, str],], game_ma
     return best_font
 
 
-def xbrz_enlarge(tile: Image.Image, scale: int = 5, size: int = 128) -> Image.Image:
+def xbrz_enlarge(tile: Image.Image, scale: int = 6, size: int = 64) -> Image.Image:
     with tempfile.TemporaryDirectory(prefix="lang5_xbrz_") as td:
         in_p = Path(td) / "in.png"
         out_p = Path(td) / "out.png"
@@ -171,9 +192,7 @@ def xbrz_enlarge(tile: Image.Image, scale: int = 5, size: int = 128) -> Image.Im
             up = Image.open(out_p).convert("L")
         except Exception:
             up = tile.resize((12 * scale, 12 * scale), Image.NEAREST)
-        canvas = Image.new("L", (size, size), 255)
-        canvas.paste(up, ((size - up.width) // 2, (size - up.height) // 2))
-        return canvas
+        return up.resize((size, size), Image.NEAREST)
 
 
 def render_ttf_cell(ch: str, size: int, font: ImageFont.FreeTypeFont) -> Image.Image:
@@ -190,12 +209,26 @@ def render_ttf_cell(ch: str, size: int, font: ImageFont.FreeTypeFont) -> Image.I
     return img
 
 
+def render_ttf_tile12(ch: str, font: ImageFont.FreeTypeFont) -> Image.Image:
+    img = Image.new("L", (12, 12), 255)
+    if not ch:
+        return img
+    d = ImageDraw.Draw(img)
+    bbox = d.textbbox((0, 0), ch, font=font)
+    tw = bbox[2] - bbox[0]
+    th = bbox[3] - bbox[1]
+    x = (12 - tw) // 2 - bbox[0]
+    y = (12 - th) // 2 - bbox[1]
+    d.text((x, y), ch, font=font, fill=0)
+    return img
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Vision-based Lang5 glyph recognition and grouped pair export.")
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--sheet-inv", default="work/font_probe/l512x12qg8_inv_12x12.png")
     ap.add_argument("--out-dir", default="work/font_export/grouped")
-    ap.add_argument("--pair-size", type=int, default=128)
+    ap.add_argument("--pair-size", type=int, default=64)
     ap.add_argument("--topk", type=int, default=5)
     ap.add_argument("--font", default="")
     ap.add_argument("--min-iou", type=float, default=0.30)
