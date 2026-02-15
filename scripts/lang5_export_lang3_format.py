@@ -84,6 +84,7 @@ def export_one(
     prefix: str,
     out_scripts_dir: Path,
     token_to_char: Dict[int, str],
+    text_encoding: str,
 ) -> List[Dict[str, str]]:
     data = src.read_bytes()
     chunks = split_chunks(data)
@@ -126,18 +127,18 @@ def export_one(
 
         out_name = f"{prefix}{cidx}.sjs"
         out_path = out_scripts_dir / out_name
-        out_path.write_bytes(("\n".join(lines) + "\n").encode("cp932", errors="replace"))
+        out_path.write_bytes(("\n".join(lines) + "\n").encode(text_encoding, errors="replace"))
         if rec_count == 0:
             out_path.unlink(missing_ok=True)
 
     return rows
 
 
-def write_tbl(out_tbl: Path, token_to_char: Dict[int, str]) -> None:
+def write_tbl(out_tbl: Path, token_to_char: Dict[int, str], text_encoding: str) -> None:
     lines = []
     for tok in sorted(token_to_char):
         lines.append(f"{tok:04X}={token_to_char[tok]}")
-    out_tbl.write_text("\n".join(lines) + "\n", encoding="cp932", errors="replace")
+    out_tbl.write_text("\n".join(lines) + "\n", encoding=text_encoding, errors="replace")
 
 
 def main() -> None:
@@ -147,6 +148,7 @@ def main() -> None:
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--groups", default="confirmed", help="Comma-separated groups from groups_report to use (default: confirmed)")
     ap.add_argument("--out-root", default="work/lang5_lang3_format")
+    ap.add_argument("--text-encoding", default="utf-8", help="Encoding for .sjs and .tbl output files (default: utf-8)")
     args = ap.parse_args()
 
     allowed_groups = {g.strip() for g in args.groups.split(",") if g.strip()}
@@ -157,10 +159,10 @@ def main() -> None:
     out_scripts_dir.mkdir(parents=True, exist_ok=True)
 
     rows: List[Dict[str, str]] = []
-    rows.extend(export_one(Path(args.scen), "scen", out_scripts_dir, token_to_char))
-    rows.extend(export_one(Path(args.scen2), "scen2_", out_scripts_dir, token_to_char))
+    rows.extend(export_one(Path(args.scen), "scen", out_scripts_dir, token_to_char, args.text_encoding))
+    rows.extend(export_one(Path(args.scen2), "scen2_", out_scripts_dir, token_to_char, args.text_encoding))
 
-    write_tbl(out_scripts_dir / "lang5.tbl", token_to_char)
+    write_tbl(out_scripts_dir / "lang5.tbl", token_to_char, args.text_encoding)
 
     csv_path = out_root / "all_records.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as fh:
@@ -176,6 +178,7 @@ def main() -> None:
         "\n".join(
             [
                 f"groups={','.join(sorted(allowed_groups))}",
+                f"text_encoding={args.text_encoding}",
                 f"map_entries={len(token_to_char)}",
                 f"records={len(rows)}",
                 f"words_total={words_total}",
