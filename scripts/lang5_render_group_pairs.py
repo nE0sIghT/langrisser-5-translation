@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+import argparse
+import csv
+import subprocess
+import tempfile
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont
+
+
+def pick_font(path: str, size: int):
+    if path and Path(path).exists():
+        return ImageFont.truetype(path, size=size)
+    for cand in [
+        "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc",
+    ]:
+        if Path(cand).exists():
+            return ImageFont.truetype(cand, size=size)
+    return ImageFont.load_default()
+
+
+def render_ttf(ch: str, size: int, font) -> Image.Image:
+    img = Image.new("L", (size, size), 255)
+    if not ch:
+        return img
+    d = ImageDraw.Draw(img)
+    bb = d.textbbox((0, 0), ch, font=font)
+    tw, th = bb[2] - bb[0], bb[3] - bb[1]
+    x = (size - tw) // 2 - bb[0]
+    y = (size - th) // 2 - bb[1]
+    d.text((x, y), ch, font=font, fill=0)
+    return img
+
+
+def xbrz64(tile12: Image.Image, size: int = 64) -> Image.Image:
+    with tempfile.TemporaryDirectory(prefix="lang5_pair_") as td:
+        inp = Path(td) / "in.png"
+        out = Path(td) / "out.png"
+        tile12.save(inp)
+        try:
+            subprocess.run(["xbrzscale", "6", str(inp), str(out)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            up = Image.open(out).convert("L")
+        except Exception:
+            up = tile12.resize((72, 72), Image.NEAREST)
+        return up.resize((size, size), Image.NEAREST)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Render pair images for confirmed/unconfirmed/symbol groups.")
+    ap.add_argument("--groups-report", default="work/font_export/grouped/groups_report.csv")
+    ap.add_argument("--sheet-inv", default="work/font_probe/l512x12qg8_inv_12x12.png")
+    ap.add_argument("--out-dir", default="work/font_export/grouped")
+    ap.add_argument("--pair-size", type=int, default=64)
+    ap.add_argument("--font", default="")
+    args = ap.parse_args()
+
+    rows = list(csv.DictReader(open(args.groups_report, encoding="utf-8")))
+    img = Image.open(args.sheet_inv).convert("L")
+    cols = img.width // 12
+    font = pick_font(args.font, args.pair_size)
+
+    out = Path(args.out_dir)
+    mapping = {
+        "confirmed": out / "pairs_confirmed",
+        "unconfirmed": out / "pairs_unconfirmed",
+        "symbol": out / "pairs_symbol",
+    }
+    for d in mapping.values():
+        d.mkdir(parents=True, exist_ok=True)
+        for p in d.glob("*.png"):
+            p.unlink()
+
+    for r in rows:
+        grp = r.get("group", "")
+        if grp not in mapping:
+            continue
+        idx = int(r["index_dec"])
+        ch = (r.get("char") or "")[:1]
+        rr, cc = divmod(idx, cols)
+        tile = img.crop((cc * 12, rr * 12, (cc + 1) * 12, (rr + 1) * 12))
+        left = xbrz64(tile, args.pair_size)
+        right = render_ttf(ch, args.pair_size, font)
+        pair = Image.new("L", (args.pair_size * 2 + 8, args.pair_size), 255)
+        pair.paste(left, (0, 0))
+        pair.paste(right, (args.pair_size + 8, 0))
+        pair.save(mapping[grp] / f"{idx:04d}.png")
+
+    print("done")
+    for grp, d in mapping.items():
+        print(grp, len(list(d.glob("*.png"))), d)
+
+
+if __name__ == "__main__":
+    main()
