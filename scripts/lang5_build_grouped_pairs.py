@@ -35,22 +35,25 @@ def render_ttf_cell(ch: str, size: int, font):
     return img
 
 
-def supersai64(tile: Image.Image, mode: str = "4x") -> Image.Image:
+def scalefx108(tile: Image.Image, scalefx_bin: str) -> Image.Image:
     with tempfile.TemporaryDirectory(prefix='lang5_pair_') as td:
         in_p = Path(td) / 'in.png'
         out_p = Path(td) / 'out.png'
-        tile.save(in_p)
-        vf = 'super2xsai' if mode == '2x' else 'super2xsai,super2xsai'
-        subprocess.run(
-            ['ffmpeg', '-y', '-v', 'error', '-i', str(in_p), '-vf', vf, str(out_p)],
-            check=True,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
-        up = Image.open(out_p).convert('L')  # 60x60
-        canvas = Image.new('L', (64, 64), 255)
-        canvas.paste(up, ((64 - up.width) // 2, (64 - up.height) // 2))
-        return canvas
+        tile.convert('RGBA').save(in_p)
+        try:
+            subprocess.run(
+                [scalefx_bin, str(in_p), str(out_p)],
+                check=True,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+            up_rgba = Image.open(out_p).convert('RGBA')  # 108x108 from 12x12 input
+            # Composite alpha onto white to avoid dark corner artifacts.
+            white = Image.new('RGBA', up_rgba.size, (255, 255, 255, 255))
+            up = Image.alpha_composite(white, up_rgba).convert('L')
+            return up
+        except Exception:
+            return tile.resize((108, 108), Image.NEAREST)
 
 
 def read_indices(path: Path):
@@ -69,7 +72,7 @@ def main():
     ap.add_argument('--ttf-size', type=int, default=128)
     ap.add_argument('--ttf', default='')
     ap.add_argument('--fallback-char', default='?')
-    ap.add_argument('--sai-mode', choices=['2x', '4x'], default='4x')
+    ap.add_argument('--scalefx-bin', default='tools/scalefx9')
     args = ap.parse_args()
 
     out = Path(args.out)
@@ -107,10 +110,10 @@ def main():
             row, col = divmod(idx, cols)
             box = (col * 12, row * 12, (col + 1) * 12, (row + 1) * 12)
             g_inv = img_inv.crop(box)
-            g_x64 = supersai64(g_inv, mode=args.sai_mode)
+            g_x108 = scalefx108(g_inv, scalefx_bin=args.scalefx_bin)
 
             if idx in symbols:
-                g_x64.save(d_sym / f'{idx:04d}.png')
+                g_x108.save(d_sym / f'{idx:04d}.png')
                 w.writerow([idx, f'{idx:04X}', 'symbol', '', 'none'])
                 continue
 
@@ -131,7 +134,7 @@ def main():
                 source = 'ocr' if idx in ocr_map else ('token_map' if token_map.get(key) else 'fallback')
 
             ttf_cell = render_ttf_cell(ch, args.pair_size, font)
-            game_cell = g_x64.resize((args.pair_size, args.pair_size), Image.NEAREST)
+            game_cell = g_x108.resize((args.pair_size, args.pair_size), Image.NEAREST)
             pair = Image.new('L', (args.pair_size * 2 + 8, args.pair_size), 255)
             pair.paste(game_cell, (0, 0))
             pair.paste(ttf_cell, (args.pair_size + 8, 0))

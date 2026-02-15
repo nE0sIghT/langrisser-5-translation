@@ -12,34 +12,30 @@ import pytesseract
 from pytesseract import Output
 
 
-async def supersai64(tile: Image.Image, mode: str = "4x") -> Image.Image:
+async def scalefx64(tile: Image.Image, scalefx_bin: str) -> Image.Image:
     def _run() -> Image.Image:
         with tempfile.TemporaryDirectory(prefix="lang5_uocr_") as td:
             in_p = Path(td) / "in.png"
             out_p = Path(td) / "out.png"
-            tile.save(in_p)
-            # super2xsai: 2x; 4x is two passes.
-            vf = "super2xsai" if mode == "2x" else "super2xsai,super2xsai"
-            subprocess.run(
-                [
-                    "ffmpeg",
-                    "-y",
-                    "-v",
-                    "error",
-                    "-i",
-                    str(in_p),
-                    "-vf",
-                    vf,
-                    str(out_p),
-                ],
-                check=True,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
-            )
-            up = Image.open(out_p).convert("L")
-            canvas = Image.new("L", (64, 64), 255)
-            canvas.paste(up, ((64 - up.width) // 2, (64 - up.height) // 2))
-            return canvas
+            tile.convert("RGBA").save(in_p)
+            try:
+                # ScaleFX-rs outputs 9x for pixel-art images.
+                subprocess.run(
+                    [
+                        scalefx_bin,
+                        str(in_p),
+                        str(out_p),
+                    ],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                )
+                up_rgba = Image.open(out_p).convert("RGBA")
+                white = Image.new("RGBA", up_rgba.size, (255, 255, 255, 255))
+                up = Image.alpha_composite(white, up_rgba).convert("L")
+                return up.resize((64, 64), Image.LANCZOS)
+            except Exception:
+                return tile.resize((64, 64), Image.NEAREST)
 
     return await asyncio.to_thread(_run)
 
@@ -74,7 +70,7 @@ async def process_index(
     sem: asyncio.Semaphore,
     lang: str,
     psm: int,
-    sai_mode: str,
+    scalefx_bin: str,
 ):
     async with sem:
         row, col = divmod(idx, cols)
@@ -82,8 +78,8 @@ async def process_index(
         inv = sheet_inv.crop(box)
         norm = sheet.crop(box)
 
-        inv64 = await supersai64(inv, mode=sai_mode)
-        norm64 = await supersai64(norm, mode=sai_mode)
+        inv64 = await scalefx64(inv, scalefx_bin=scalefx_bin)
+        norm64 = await scalefx64(norm, scalefx_bin=scalefx_bin)
 
         ch_i, cf_i = await asyncio.to_thread(ocr_one, inv64, lang, psm)
         ch_n, cf_n = await asyncio.to_thread(ocr_one, norm64, lang, psm)
@@ -124,7 +120,7 @@ async def main_async(args):
 
     tasks = [
         asyncio.create_task(
-            process_index(i, sheet, sheet_inv, args.cols, sem, args.lang, args.psm, args.sai_mode)
+            process_index(i, sheet, sheet_inv, args.cols, sem, args.lang, args.psm, args.scalefx_bin)
         )
         for i in idxs
     ]
@@ -170,7 +166,7 @@ def main():
     ap.add_argument("--cols", type=int, default=32)
     ap.add_argument("--lang", default="jpn+eng")
     ap.add_argument("--psm", type=int, default=10)
-    ap.add_argument("--sai-mode", choices=["2x", "4x"], default="4x")
+    ap.add_argument("--scalefx-bin", default="tools/scalefx9")
     ap.add_argument("--workers", type=int, default=0)
     args = ap.parse_args()
     asyncio.run(main_async(args))
