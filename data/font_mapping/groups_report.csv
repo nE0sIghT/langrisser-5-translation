@@ -388,7 +388,7 @@ index_dec,index_hex,group,char,source
 386,182,confirmed,:,manual:user_confirmed
 387,183,confirmed,地,paddle1:0.998
 388,184,confirmed,点,paddle1:0.999
-389,185,unconfirmed,□,paddle1:0.957
+389,185,confirmed,▢,manual:user_confirmed_nondup_square
 390,186,confirmed,詳,paddle1:0.760
 391,187,confirmed,細,paddle1:0.898
 392,188,confirmed,契,paddle1:0.999
@@ -790,7 +790,7 @@ index_dec,index_hex,group,char,source
 788,314,confirmed,秘,token_map
 789,315,confirmed,引,paddle1:1.000
 790,316,confirmed,-,manual:user_confirmed
-791,317,unconfirmed,0,paddle1:0.326
+791,317,symbol,,manual:symbol
 792,318,confirmed,弓,paddle1:0.991
 793,319,confirmed,开,paddle1:0.265
 794,031A,confirmed,距,paddle1:0.999
@@ -1120,7 +1120,7 @@ index_dec,index_hex,group,char,source
 1118,045E,confirmed,救,paddle1:0.911
 1119,045F,confirmed,審,paddle1:0.412
 1120,460,confirmed,挙,paddle1:0.612
-1121,461,confirmed,邸,paddle1:0.963
+1121,461,confirmed,⑱,manual:user_confirmed
 1122,462,unconfirmed,1,paddle1:0.645
 1123,463,confirmed,舞,paddle1:1.000
 1124,464,confirmed,老,paddle1:0.998
@@ -1169,7 +1169,7 @@ index_dec,index_hex,group,char,source
 1167,048F,confirmed,漏,paddle1:0.992
 1168,490,confirmed,預,paddle1:0.972
 1169,491,confirmed,計,token_map
-1170,492,unconfirmed,,manual:reset_to_unconfirmed
+1170,492,confirmed,‥,manual:user_confirmed
 1171,493,confirmed,独,paddle1:1.000
 1172,494,confirmed,東,paddle_xbrz:0.934
 1173,495,confirmed,虐,paddle1:0.967
@@ -1455,7 +1455,7 @@ index_dec,index_hex,group,char,source
 1453,05AD,confirmed,导,paddle1:0.801
 1454,05AE,confirmed,梨,paddle1:0.118
 1455,05AF,confirmed,歳,paddle1:0.528
-1456,05B0,unconfirmed,慎,paddle1:0.265
+1456,05B0,confirmed,憤,manual:pick_nondup_xbrz
 1457,05B1,confirmed,染,paddle1:0.998
 1458,05B2,confirmed,滞,paddle1:0.981
 1459,05B3,confirmed,届,paddle1:0.978
@@ -1508,7 +1508,7 @@ index_dec,index_hex,group,char,source
 1506,500,confirmed,蓮,paddle1:0.638
 1507,5000,confirmed,斥,paddle1:0.874
 1508,50000,confirmed,候,token_map
-1509,500000,unconfirmed,情,paddle1:0.268
+1509,500000,confirmed,價,accept:upper_ttf_xbrz
 1510,5000000,confirmed,拉,paddle1:0.999
 1511,50000000,confirmed,專,paddle1:0.758
 1512,500000000,confirmed,客,paddle1:0.998
@@ -1634,7 +1634,7 @@ index_dec,index_hex,group,char,source
 1632,660,confirmed,博,paddle1:0.147
 1633,661,confirmed,節,paddle1:0.938
 1634,662,confirmed,婦,paddle1:0.995
-1635,663,unconfirmed,心,paddle1:0.190
+1635,663,symbol,,manual:symbol
 1636,664,confirmed,裸,paddle1:0.991
 1637,665,confirmed,宅,paddle1:0.997
 1638,666,confirmed,拳,paddle1:0.949
@@ -1668,7 +1668,7 @@ index_dec,index_hex,group,char,source
 1666,682,confirmed,飽,paddle1:0.802
 1667,683,confirmed,垂,paddle1:0.845
 1668,684,confirmed,雹,paddle1:0.853
-1669,685,unconfirmed,聘,paddle1:0.677
+1669,685,confirmed,聘,accept:upper_ttf_xbrz
 1670,686,confirmed,踊,paddle1:0.989
 1671,687,confirmed,颊,paddle1:0.506
 1672,688,confirmed,戴,paddle1:0.818
