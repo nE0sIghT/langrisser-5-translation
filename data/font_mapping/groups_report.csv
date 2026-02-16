@@ -245,7 +245,7 @@ index_dec,index_hex,group,char,source
 243,00F3,confirmed,指,token_map
 244,00F4,confirmed,揮,paddle1:0.821
 245,00F5,confirmed,範,paddle1:0.963
-246,00F6,unconfirmed,,manual:reset_to_unconfirmed
+246,00F6,unconfirmed,,manual:reset_to_unconfirmed|manual:reset_unconfirmed_ttf
 247,00F7,confirmed,判,paddle1:1.000
 248,00F8,confirmed,断,paddle1:0.941
 249,00F9,confirmed,魔,paddle1:0.975
@@ -253,7 +253,7 @@ index_dec,index_hex,group,char,source
 251,00FB,confirmed,移,token_map
 252,00FC,confirmed,動,paddle1:0.991
 253,00FD,confirmed,攻,paddle1:0.709
-254,00FE,unconfirmed,華,paddle1:0.545
+254,00FE,unconfirmed,,paddle1:0.545|manual:reset_unconfirmed_ttf
 255,00FF,confirmed,治,paddle1:0.998
 256,100,confirmed,療,paddle1:0.963
 257,101,confirmed,召,paddle1:0.925
@@ -271,7 +271,7 @@ index_dec,index_hex,group,char,source
 269,010D,confirmed,防,paddle1:0.999
 270,010E,confirmed,御,paddle1:0.999
 271,010F,confirmed,戦,paddle_xbrz:0.541
-272,110,unconfirmed,開,paddle1:0.167
+272,110,unconfirmed,,paddle1:0.167|manual:reset_unconfirmed_ttf
 273,111,confirmed,手,token_map
 274,112,confirmed,官,paddle1:0.998
 275,113,confirmed,現,token_map
@@ -371,7 +371,7 @@ index_dec,index_hex,group,char,source
 369,171,confirmed,退,paddle1:0.999
 370,172,confirmed,去,token_map
 371,173,confirmed,止,accept:upper_ttf_xbrz
-372,174,unconfirmed,,manual:reset_to_unconfirmed
+372,174,unconfirmed,,manual:reset_to_unconfirmed|manual:reset_unconfirmed_ttf
 373,175,confirmed,不,paddle_xbrz:0.999
 374,176,confirmed,状,token_map
 375,177,confirmed,態,paddle_xbrz:0.858
@@ -503,7 +503,7 @@ index_dec,index_hex,group,char,source
 501,01F5,confirmed,分,paddle1:0.999
 502,01F6,confirmed,空,token_map
 503,01F7,confirmed,容,token_map
-504,01F8,unconfirmed,+,manual_pair
+504,01F8,unconfirmed,,manual_pair|manual:reset_unconfirmed_ttf
 505,01F9,confirmed,読,paddle1:0.977
 506,01FA,confirmed,込,token_map
 507,01FB,confirmed,事,paddle1:1.000
@@ -547,7 +547,7 @@ index_dec,index_hex,group,char,source
 545,221,confirmed,王,paddle1:0.990
 546,222,confirmed,提,paddle1:0.999
 547,223,confirmed,督,paddle1:0.556
-548,224,unconfirmed,,manual:swap_reset_old_confirmed
+548,224,unconfirmed,,manual:swap_reset_old_confirmed|manual:reset_unconfirmed_ttf
 549,225,confirmed,变,paddle1:0.694
 550,226,confirmed,幻,paddle1:0.994
 551,227,confirmed,死,paddle1:0.997
@@ -601,7 +601,7 @@ index_dec,index_hex,group,char,source
 599,257,confirmed,报,paddle1:0.613
 600,258,confirmed,片,token_map
 601,259,confirmed,俩,paddle1:0.261
-602,025A,unconfirmed,基,paddle1:1.000
+602,025A,unconfirmed,,paddle1:1.000|manual:reset_unconfirmed_ttf
 603,025B,confirmed,的,paddle1:0.999
 604,025C,confirmed,受,token_map
 605,025D,confirmed,流,token_map
@@ -668,8 +668,8 @@ index_dec,index_hex,group,char,source
 666,029A,confirmed,冷,paddle1:0.999
 667,029B,confirmed,気,paddle1:0.549
 668,029C,confirmed,溶,paddle1:0.966
-669,029D,unconfirmed,水,token_map
-670,029E,unconfirmed,探,token_map
+669,029D,unconfirmed,,token_map|manual:reset_unconfirmed_ttf
+670,029E,unconfirmed,,token_map|manual:reset_unconfirmed_ttf
 671,029F,confirmed,得,paddle1:0.999
 672,02A0,confirmed,柄,paddle1:0.994
 673,02A1,confirmed,雷,paddle1:0.998
@@ -710,10 +710,10 @@ index_dec,index_hex,group,char,source
 708,02C4,confirmed,争,paddle1:0.971
 709,02C5,confirmed,芹,paddle1:0.989
 710,02C6,confirmed,狩,paddle1:0.483
-711,02C7,unconfirmed,,manual:swap_reset_old_confirmed
+711,02C7,unconfirmed,,manual:swap_reset_old_confirmed|manual:reset_unconfirmed_ttf
 712,02C8,confirmed,考,paddle1:0.998
 713,02C9,confirmed,欠,paddle1:0.981
-714,02CA,unconfirmed,精,paddle1:0.945
+714,02CA,unconfirmed,,paddle1:0.945|manual:reset_unconfirmed_ttf
 715,02CB,confirmed,頭,paddle1:0.985
 716,02CC,confirmed,破,paddle1:0.997
 717,02CD,confirmed,壊,paddle1:0.616
@@ -739,7 +739,7 @@ index_dec,index_hex,group,char,source
 737,20,confirmed,種,paddle1:0.995
 738,200,confirmed,製,paddle1:0.434
 739,2000,confirmed,殴,paddle_xbrz:0.990
-740,20000,unconfirmed,,paddle2:none
+740,20000,unconfirmed,,paddle2:none|manual:reset_unconfirmed_ttf
 741,200000,confirmed,每,paddle1:0.970
 742,2000000,confirmed,割,paddle1:0.998
 743,20000000,confirmed,昇,paddle1:0.764
@@ -759,7 +759,7 @@ index_dec,index_hex,group,char,source
 757,02F5,confirmed,貫,paddle1:0.972
 758,02F6,confirmed,寸,paddle1:0.662
 759,02F7,confirmed,烈,paddle1:0.950
-760,02F8,unconfirmed,印,paddle1:0.226
+760,02F8,unconfirmed,,paddle1:0.226|manual:reset_unconfirmed_ttf
 761,02F9,confirmed,吸,paddle1:0.999
 762,02FA,confirmed,尽,paddle1:0.637
 763,02FB,confirmed,类,paddle1:0.338
@@ -768,7 +768,7 @@ index_dec,index_hex,group,char,source
 766,02FE,confirmed,灼,paddle1:0.983
 767,02FF,confirmed,熱,paddle1:0.815
 768,300,confirmed,吹,paddle1:0.904
-769,301,unconfirmed,風,paddle1:0.985
+769,301,unconfirmed,,paddle1:0.985|manual:reset_unconfirmed_ttf
 770,302,confirmed,場,paddle1:0.921
 771,303,confirmed,求,paddle1:1.000
 772,304,confirmed,兆,paddle1:0.846
@@ -948,7 +948,7 @@ index_dec,index_hex,group,char,source
 946,03B2,confirmed,残,paddle1:0.989
 947,03B3,confirmed,寄,paddle1:0.999
 948,03B4,confirmed,以,paddle1:0.999
-949,03B5,unconfirmed,退,paddle1:0.203
+949,03B5,unconfirmed,,paddle1:0.203|manual:reset_unconfirmed_ttf
 950,03B6,confirmed,降,paddle1:0.878
 951,03B7,confirmed,従,paddle1:0.481
 952,03B8,confirmed,食,paddle1:0.858
@@ -993,7 +993,7 @@ index_dec,index_hex,group,char,source
 991,03DF,confirmed,補,paddle1:0.886
 992,3,confirmed,旺,paddle1:0.180
 993,30,confirmed,組,paddle1:0.869
-994,300,unconfirmed,識,paddle1:0.799
+994,300,unconfirmed,,paddle1:0.799|manual:reset_unconfirmed_ttf
 995,3000,confirmed,虫,paddle1:0.996
 996,30000,confirmed,触,paddle1:0.928
 997,300000,confirmed,獄,paddle1:0.814
@@ -1031,7 +1031,7 @@ index_dec,index_hex,group,char,source
 1029,405,confirmed,爆,paddle1:0.999
 1030,406,confirmed,狭,paddle1:0.963
 1031,407,confirmed,浴,paddle1:0.985
-1032,408,unconfirmed,服,paddle1:0.731
+1032,408,unconfirmed,,paddle1:0.731|manual:reset_unconfirmed_ttf
 1033,409,confirmed,雲,paddle1:0.996
 1034,040A,confirmed,妻,paddle1:0.974
 1035,040B,confirmed,風,paddle1:0.996
@@ -1052,7 +1052,7 @@ index_dec,index_hex,group,char,source
 1050,041A,confirmed,妨,paddle1:0.915
 1051,041B,confirmed,壁,paddle1:0.993
 1052,041C,confirmed,快,paddle1:0.999
-1053,041D,unconfirmed,,manual:reset_to_unconfirmed
+1053,041D,unconfirmed,,manual:reset_to_unconfirmed|manual:reset_unconfirmed_ttf
 1054,041E,confirmed,及,paddle1:0.988
 1055,041F,confirmed,即,paddle1:0.998
 1056,420,confirmed,会,token_map
@@ -1065,7 +1065,7 @@ index_dec,index_hex,group,char,source
 1063,427,confirmed,鳥,paddle1:0.858
 1064,428,confirmed,彼,paddle1:0.977
 1065,429,confirmed,年,paddle1:1.000
-1066,042A,unconfirmed,更,paddle1:0.947
+1066,042A,unconfirmed,,paddle1:0.947|manual:reset_unconfirmed_ttf
 1067,042B,confirmed,巢,paddle_xbrz:0.883
 1068,042C,confirmed,張,paddle1:0.998
 1069,042D,confirmed,髪,paddle1:0.171
@@ -1120,8 +1120,8 @@ index_dec,index_hex,group,char,source
 1118,045E,confirmed,救,paddle1:0.911
 1119,045F,confirmed,審,paddle1:0.412
 1120,460,confirmed,挙,paddle1:0.612
-1121,461,confirmed,⑱,manual:user_confirmed
-1122,462,unconfirmed,1,paddle1:0.645
+1121,461,confirmed,邸,paddle1:0.963
+1122,462,symbol,,manual:symbol
 1123,463,confirmed,舞,paddle1:1.000
 1124,464,confirmed,老,paddle1:0.998
 1125,465,confirmed,詰,paddle1:0.949
@@ -1220,7 +1220,7 @@ index_dec,index_hex,group,char,source
 1218,04C2,confirmed,階,paddle1:0.978
 1219,04C3,confirmed,語,paddle1:0.987
 1220,04C4,confirmed,軌,paddle1:1.000
-1221,04C5,unconfirmed,精,paddle1:0.377
+1221,04C5,unconfirmed,,paddle1:0.377|manual:reset_unconfirmed_ttf
 1222,04C6,confirmed,円,token_map
 1223,04C7,confirmed,平,paddle1:1.000
 1224,04C8,confirmed,諦,paddle1:0.536
@@ -1242,7 +1242,7 @@ index_dec,index_hex,group,char,source
 1240,04D8,confirmed,鑑,paddle1:0.753
 1241,04D9,confirmed,犠,paddle1:0.258
 1242,04DA,confirmed,牲,paddle_xbrz:0.983
-1243,04DB,unconfirmed,道,paddle1:0.541
+1243,04DB,unconfirmed,,paddle1:0.541|manual:reset_unconfirmed_ttf
 1244,04DC,confirmed,絶,paddle1:0.582
 1245,04DD,confirmed,埋,accept:upper_ttf_xbrz
 1246,04DE,confirmed,疎,paddle1:0.885
@@ -1256,7 +1256,7 @@ index_dec,index_hex,group,char,source
 1254,4000000,confirmed,誤,paddle1:0.996
 1255,40000000,confirmed,託,paddle1:0.928
 1256,400000000,confirmed,＝,token_map
-1257,4000000000,unconfirmed,幸,paddle1:0.675
+1257,4000000000,unconfirmed,,paddle1:0.675|manual:reset_unconfirmed_ttf
 1258,04EA,confirmed,伴,paddle1:0.998
 1259,04EB,confirmed,被,paddle1:0.997
 1260,04EC,confirmed,避,paddle1:0.996
@@ -1291,7 +1291,7 @@ index_dec,index_hex,group,char,source
 1289,509,confirmed,屈,paddle1:0.987
 1290,050A,confirmed,私,manual_pair
 1291,050B,confirmed,義,paddle_xbrz:0.585
-1292,050C,unconfirmed,聘,paddle1:0.831
+1292,050C,unconfirmed,,paddle1:0.831|manual:reset_unconfirmed_ttf
 1293,050D,confirmed,脑,paddle1:0.889
 1294,050E,confirmed,彩,paddle1:0.968
 1295,050F,confirmed,虎,paddle1:0.992
@@ -1356,7 +1356,7 @@ index_dec,index_hex,group,char,source
 1354,054A,confirmed,展,paddle1:0.995
 1355,054B,confirmed,栄,paddle_xbrz:0.639
 1356,054C,confirmed,丁,paddle1:0.985
-1357,054D,unconfirmed,青,paddle1:0.798
+1357,054D,unconfirmed,,paddle1:0.798|manual:reset_unconfirmed_ttf
 1358,054E,confirmed,樽,paddle1:0.979
 1359,054F,confirmed,拒,paddle_xbrz:0.978
 1360,550,confirmed,評,paddle1:0.680
@@ -1390,7 +1390,7 @@ index_dec,index_hex,group,char,source
 1388,056C,confirmed,袋,paddle1:0.993
 1389,056D,confirmed,狡,paddle1:0.300
 1390,056E,confirmed,猾,paddle_xbrz:0.927
-1391,056F,unconfirmed,兼,paddle1:0.299
+1391,056F,unconfirmed,,paddle1:0.299|manual:reset_unconfirmed_ttf
 1392,570,confirmed,吊,paddle1:0.997
 1393,571,confirmed,奥,paddle1:0.693
 1394,572,confirmed,枚,token_map
@@ -1426,7 +1426,7 @@ index_dec,index_hex,group,char,source
 1424,590,confirmed,朝,paddle1:0.990
 1425,591,confirmed,濡,paddle1:0.894
 1426,592,confirmed,花,paddle1:0.998
-1427,593,unconfirmed,,manual:swap_reset_old_confirmed
+1427,593,unconfirmed,,manual:swap_reset_old_confirmed|manual:reset_unconfirmed_ttf
 1428,594,confirmed,七,paddle1:0.998
 1429,595,confirmed,青,paddle1:0.995
 1430,596,confirmed,愚,paddle1:0.971
@@ -1489,7 +1489,7 @@ index_dec,index_hex,group,char,source
 1487,05CF,confirmed,業,paddle1:0.986
 1488,05D0,confirmed,百,paddle1:0.989
 1489,05D1,confirmed,建,paddle1:0.998
-1490,05D2,unconfirmed,商,paddle1:0.771
+1490,05D2,unconfirmed,,paddle1:0.771|manual:reset_unconfirmed_ttf
 1491,05D3,confirmed,隠,paddle1:0.427
 1492,05D4,confirmed,貢,paddle1:0.911
 1493,05D5,confirmed,往,paddle1:0.996
@@ -1502,7 +1502,7 @@ index_dec,index_hex,group,char,source
 1500,05DC,confirmed,算,paddle1:0.999
 1501,05DD,confirmed,紙,paddle1:0.710
 1502,05DE,confirmed,謙,paddle1:0.935
-1503,05DF,unconfirmed,迅,paddle1:0.440
+1503,05DF,unconfirmed,,paddle1:0.440|manual:reset_unconfirmed_ttf
 1504,5,confirmed,頑,paddle1:0.612
 1505,50,confirmed,談,paddle1:0.850
 1506,500,confirmed,蓮,paddle1:0.638
@@ -1514,7 +1514,7 @@ index_dec,index_hex,group,char,source
 1512,500000000,confirmed,客,paddle1:0.998
 1513,5000000000,confirmed,証,paddle1:0.839
 1514,05EA,confirmed,都,paddle1:0.999
-1515,05EB,unconfirmed,保,paddle1:0.789
+1515,05EB,unconfirmed,,paddle1:0.789|manual:reset_unconfirmed_ttf
 1516,05EC,confirmed,斐,accept:upper_ttf_xbrz
 1517,05ED,confirmed,勉,paddle1:0.990
 1518,05EE,confirmed,哀,paddle1:0.610
@@ -1524,7 +1524,7 @@ index_dec,index_hex,group,char,source
 1522,05F2,confirmed,貨,paddle1:0.919
 1523,05F3,confirmed,♪,manual:user_confirmed
 1524,05F4,confirmed,頂,paddle1:0.955
-1525,05F5,unconfirmed,貫,paddle1:0.423
+1525,05F5,unconfirmed,,paddle1:0.423|manual:reset_unconfirmed_ttf
 1526,05F6,confirmed,測,paddle1:0.993
 1527,05F7,confirmed,替,paddle1:0.979
 1528,05F8,confirmed,騙,paddle1:0.901
@@ -1586,12 +1586,12 @@ index_dec,index_hex,group,char,source
 1584,630,confirmed,区,token_map
 1585,631,confirmed,隣,paddle1:0.576
 1586,632,confirmed,局,token_map
-1587,633,unconfirmed,基,paddle1:0.529
+1587,633,unconfirmed,,paddle1:0.529|manual:reset_unconfirmed_ttf
 1588,634,confirmed,芽,paddle1:0.369
 1589,635,confirmed,土,paddle1:0.508
 1590,636,confirmed,融,paddle1:0.977
 1591,637,confirmed,喪,paddle1:0.902
-1592,638,unconfirmed,暖,paddle1:0.378
+1592,638,unconfirmed,,paddle1:0.378|manual:reset_unconfirmed_ttf
 1593,639,confirmed,昧,paddle1:0.675
 1594,063A,confirmed,兼,paddle1:0.993
 1595,063B,confirmed,劫,paddle1:0.961
@@ -1613,7 +1613,7 @@ index_dec,index_hex,group,char,source
 1611,064B,confirmed,添,paddle1:0.999
 1612,064C,confirmed,噂,paddle1:0.880
 1613,064D,confirmed,迅,paddle1:0.958
-1614,064E,unconfirmed,精,paddle1:0.845
+1614,064E,unconfirmed,,paddle1:0.845|manual:reset_unconfirmed_ttf
 1615,064F,confirmed,茶,paddle1:0.999
 1616,650,confirmed,晚,paddle1:0.934
 1617,651,confirmed,郷,paddle1:0.782
@@ -1626,7 +1626,7 @@ index_dec,index_hex,group,char,source
 1624,658,confirmed,皮,paddle1:0.996
 1625,659,confirmed,就,paddle1:1.000
 1626,065A,confirmed,堵,paddle1:0.997
-1627,065B,unconfirmed,之,paddle1:0.524
+1627,065B,unconfirmed,,paddle1:0.524|manual:reset_unconfirmed_ttf
 1628,065C,confirmed,♡,manual:user_confirmed
 1629,065D,confirmed,宁,paddle1:0.304
 1630,065E,confirmed,軟,paddle1:0.993
@@ -1638,7 +1638,7 @@ index_dec,index_hex,group,char,source
 1636,664,confirmed,裸,paddle1:0.991
 1637,665,confirmed,宅,paddle1:0.997
 1638,666,confirmed,拳,paddle1:0.949
-1639,667,unconfirmed,面,paddle1:0.975
+1639,667,unconfirmed,,paddle1:0.975|manual:reset_unconfirmed_ttf
 1640,668,confirmed,毛,paddle1:0.999
 1641,669,confirmed,戚,paddle1:0.577
 1642,066A,confirmed,商,token_map
@@ -1664,7 +1664,7 @@ index_dec,index_hex,group,char,source
 1662,067E,confirmed,懸,paddle1:0.576
 1663,067F,confirmed,筑,paddle1:1.000
 1664,680,confirmed,奏,paddle1:0.890
-1665,681,unconfirmed,遥,paddle1:0.838
+1665,681,unconfirmed,,paddle1:0.838|manual:reset_unconfirmed_ttf
 1666,682,confirmed,飽,paddle1:0.802
 1667,683,confirmed,垂,paddle1:0.845
 1668,684,confirmed,雹,paddle1:0.853
@@ -1715,7 +1715,7 @@ index_dec,index_hex,group,char,source
 1713,06B1,confirmed,溪,paddle1:0.784
 1714,06B2,confirmed,暖,paddle1:0.974
 1715,06B3,confirmed,絵,paddle1:0.681
-1716,06B4,unconfirmed,亲,paddle1:0.300
+1716,06B4,unconfirmed,,paddle1:0.300|manual:reset_unconfirmed_ttf
 1717,06B5,confirmed,謁,paddle1:0.658
 1718,06B6,confirmed,謹,paddle1:0.962
 1719,06B7,confirmed,河,paddle1:1.000
@@ -1727,7 +1727,7 @@ index_dec,index_hex,group,char,source
 1725,06BD,confirmed,剩,paddle1:0.741
 1726,06BE,confirmed,校,paddle1:0.951
 1727,06BF,confirmed,院,paddle1:0.998
-1728,06C0,unconfirmed,替,paddle1:0.534
+1728,06C0,unconfirmed,,paddle1:0.534|manual:reset_unconfirmed_ttf
 1729,06C1,confirmed,掲,token_map
 1730,06C2,confirmed,蹴,paddle1:0.876
 1731,06C3,confirmed,営,paddle1:0.512
@@ -1786,7 +1786,7 @@ index_dec,index_hex,group,char,source
 1784,06F8,confirmed,則,paddle1:0.999
 1785,06F9,confirmed,劇,paddle1:0.876
 1786,06FA,confirmed,馴,paddle1:0.930
-1787,06FB,unconfirmed,情,paddle1:0.875
+1787,06FB,unconfirmed,,paddle1:0.875|manual:reset_unconfirmed_ttf
 1788,06FC,confirmed,草,paddle1:0.997
 1789,06FD,confirmed,瞳,paddle1:0.976
 1790,06FE,confirmed,遇,paddle1:0.996
@@ -1800,14 +1800,14 @@ index_dec,index_hex,group,char,source
 1798,706,confirmed,濁,paddle1:0.929
 1799,707,confirmed,逢,accept:upper_ttf_xbrz
 1800,708,confirmed,漠,paddle1:0.987
-1801,709,unconfirmed,量,paddle1:0.164
+1801,709,unconfirmed,,paddle1:0.164|manual:reset_unconfirmed_ttf
 1802,070A,confirmed,些,paddle1:0.998
 1803,070B,confirmed,懂,paddle1:0.520
 1804,070C,confirmed,募,paddle1:0.499
 1805,070D,confirmed,賭,paddle1:0.977
 1806,070E,confirmed,飯,paddle1:0.500
 1807,070F,confirmed,依,paddle1:0.992
-1808,710,unconfirmed,酒,manual:kept_unconfirmed_duplicate
+1808,710,unconfirmed,,manual:kept_unconfirmed_duplicate|manual:reset_unconfirmed_ttf
 1809,711,confirmed,輩,paddle1:0.891
 1810,712,confirmed,捉,paddle1:0.981
 1811,713,confirmed,箇,paddle1:0.232
