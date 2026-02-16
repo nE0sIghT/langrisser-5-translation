@@ -202,6 +202,7 @@ def main() -> None:
     ap.add_argument("--ocr-size", type=int, default=96)
     ap.add_argument("--model", default="PP-OCRv5_server_rec")
     ap.add_argument("--font", default="")
+    ap.add_argument("--mode", choices=["raw", "xbrz", "both"], default="both")
     args = ap.parse_args()
 
     os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
@@ -213,13 +214,16 @@ def main() -> None:
     out_root = Path(args.out_root)
     out_raw = out_root / "grouped_raw"
     out_xbrz = out_root / "grouped_xbrz"
-    if out_raw.exists():
-        shutil.rmtree(out_raw)
-    if out_xbrz.exists():
-        shutil.rmtree(out_xbrz)
 
-    run_mode("raw", base_rows, sheet, model, out_raw, args.pair_size, args.ocr_size, font)
-    run_mode("xbrz", base_rows, sheet, model, out_xbrz, args.pair_size, args.ocr_size, font)
+    if args.mode in ("raw", "both"):
+        if out_raw.exists():
+            shutil.rmtree(out_raw)
+        run_mode("raw", base_rows, sheet, model, out_raw, args.pair_size, args.ocr_size, font)
+
+    if args.mode in ("xbrz", "both"):
+        if out_xbrz.exists():
+            shutil.rmtree(out_xbrz)
+        run_mode("xbrz", base_rows, sheet, model, out_xbrz, args.pair_size, args.ocr_size, font)
 
 
 if __name__ == "__main__":

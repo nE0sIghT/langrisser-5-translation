@@ -245,7 +245,7 @@ index_dec,index_hex,group,char,source
 243,00F3,confirmed,指,token_map
 244,00F4,confirmed,揮,paddle1:0.821
 245,00F5,confirmed,範,paddle1:0.963
-246,00F6,confirmed,进,paddle1:0.205
+246,00F6,unconfirmed,,manual:reset_to_unconfirmed
 247,00F7,confirmed,判,paddle1:1.000
 248,00F8,confirmed,断,paddle1:0.941
 249,00F9,confirmed,魔,paddle1:0.975
@@ -664,7 +664,7 @@ index_dec,index_hex,group,char,source
 662,296,confirmed,付,token_map
 663,297,confirmed,威,paddle1:0.973
 664,298,confirmed,斬,paddle1:0.963
-665,299,confirmed,東,token_map
+665,299,unconfirmed,,manual:reset_to_unconfirmed
 666,029A,confirmed,冷,paddle1:0.999
 667,029B,confirmed,気,paddle1:0.549
 668,029C,confirmed,溶,paddle1:0.966
@@ -1244,7 +1244,7 @@ index_dec,index_hex,group,char,source
 1242,04DA,confirmed,牲,paddle_xbrz:0.983
 1243,04DB,unconfirmed,道,paddle1:0.541
 1244,04DC,confirmed,絶,paddle1:0.582
-1245,04DD,confirmed,理,paddle1:0.777
+1245,04DD,unconfirmed,,manual:reset_to_unconfirmed
 1246,04DE,confirmed,疎,paddle1:0.885
 1247,04DF,confirmed,戒,paddle_xbrz:0.997
 1248,4,confirmed,案,paddle1:0.963
