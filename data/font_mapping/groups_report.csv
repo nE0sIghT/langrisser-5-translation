@@ -523,7 +523,7 @@ index_dec,index_hex,group,char,source
 521,209,confirmed,電,paddle1:0.999
 522,020A,confirmed,源,paddle1:1.000
 523,020B,confirmed,違,paddle1:0.842
-524,020C,unconfirmed,V,paddle1:0.923
+524,020C,confirmed,Ⅴ,manual:user_confirmed
 525,020D,confirmed,差,paddle1:0.992
 526,020E,confirmed,元,token_map
 527,020F,confirmed,帥,token_map
@@ -547,7 +547,7 @@ index_dec,index_hex,group,char,source
 545,221,confirmed,王,paddle1:0.990
 546,222,confirmed,提,paddle1:0.999
 547,223,confirmed,督,paddle1:0.556
-548,224,confirmed,閣,paddle1:0.582
+548,224,unconfirmed,,manual:swap_reset_old_confirmed
 549,225,confirmed,变,paddle1:0.694
 550,226,confirmed,幻,paddle1:0.994
 551,227,confirmed,死,paddle1:0.997
@@ -710,7 +710,7 @@ index_dec,index_hex,group,char,source
 708,02C4,confirmed,争,paddle1:0.971
 709,02C5,confirmed,芹,paddle1:0.989
 710,02C6,confirmed,狩,paddle1:0.483
-711,02C7,confirmed,痛,paddle1:0.441
+711,02C7,unconfirmed,,manual:swap_reset_old_confirmed
 712,02C8,confirmed,考,paddle1:0.998
 713,02C9,confirmed,欠,paddle1:0.981
 714,02CA,unconfirmed,精,paddle1:0.945
@@ -1073,7 +1073,7 @@ index_dec,index_hex,group,char,source
 1071,042F,confirmed,海,paddle1:0.999
 1072,430,confirmed,底,paddle1:0.979
 1073,431,confirmed,蛇,paddle1:1.000
-1074,432,unconfirmed,牙,paddle1:0.983
+1074,432,confirmed,牙,manual:swap_promote
 1075,433,confirmed,十,paddle1:0.960
 1076,434,confirmed,靭,paddle_xbrz:0.524
 1077,435,confirmed,恋,paddle1:0.989
@@ -1352,7 +1352,7 @@ index_dec,index_hex,group,char,source
 1350,546,confirmed,緒,paddle1:0.830
 1351,547,confirmed,穴,paddle1:0.630
 1352,548,confirmed,泣,paddle1:0.982
-1353,549,unconfirmed,痛,paddle1:0.988
+1353,549,confirmed,痛,manual:swap_promote
 1354,054A,confirmed,展,paddle1:0.995
 1355,054B,confirmed,栄,paddle_xbrz:0.639
 1356,054C,confirmed,丁,paddle1:0.985
@@ -1426,7 +1426,7 @@ index_dec,index_hex,group,char,source
 1424,590,confirmed,朝,paddle1:0.990
 1425,591,confirmed,濡,paddle1:0.894
 1426,592,confirmed,花,paddle1:0.998
-1427,593,confirmed,牙,paddle1:0.918
+1427,593,unconfirmed,,manual:swap_reset_old_confirmed
 1428,594,confirmed,七,paddle1:0.998
 1429,595,confirmed,青,paddle1:0.995
 1430,596,confirmed,愚,paddle1:0.971
@@ -1459,7 +1459,7 @@ index_dec,index_hex,group,char,source
 1457,05B1,confirmed,染,paddle1:0.998
 1458,05B2,confirmed,滞,paddle1:0.981
 1459,05B3,confirmed,届,paddle1:0.978
-1460,05B4,unconfirmed,閣,paddle1:0.996
+1460,05B4,confirmed,閣,manual:swap_promote
 1461,05B5,confirmed,慌,paddle1:0.999
 1462,05B6,confirmed,棺,paddle1:0.999
 1463,05B7,confirmed,碑,paddle1:0.999
