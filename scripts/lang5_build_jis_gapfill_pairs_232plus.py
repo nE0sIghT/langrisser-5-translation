@@ -76,7 +76,7 @@ def xbrz64(tile: Image.Image) -> Image.Image:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--confirmed-indices', default='work/font_export/group_confirmed_indices.txt')
-    ap.add_argument('--groups-report', default='work/font_export/grouped/groups_report.csv')
+    ap.add_argument('--groups-report', default='data/font_mapping/groups_report.csv')
     ap.add_argument('--sheet-inv', default='work/font_probe/l512x12qg8_inv_12x12.png')
     ap.add_argument('--out-dir', default='work/font_export/jis_gapfill_232plus')
     ap.add_argument('--min-index', type=int, default=232)

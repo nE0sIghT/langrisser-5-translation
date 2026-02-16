@@ -96,7 +96,7 @@ def render_ttf(ch: str, size: int, font):
 def main():
     ap = argparse.ArgumentParser(description="Fill unconfirmed with Paddle OCR and audit confirmed mismatches.")
     ap.add_argument("--groups-report-in", default="data/font_mapping/groups_report.csv")
-    ap.add_argument("--groups-report-out", default="work/font_export/grouped/groups_report.csv")
+    ap.add_argument("--groups-report-out", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--sheet-inv", default="work/font_probe/l512x12qg8_inv_12x12.png")
     ap.add_argument("--pair-size", type=int, default=64)
     ap.add_argument("--font", default="")

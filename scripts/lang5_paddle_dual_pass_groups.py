@@ -195,7 +195,7 @@ def run_mode(
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Run Paddle twice (raw/xbrz) and build grouped pair outputs.")
-    ap.add_argument("--groups-report-in", default="work/font_export/grouped/groups_report.csv")
+    ap.add_argument("--groups-report-in", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--sheet-inv", default="work/font_probe/l512x12qg8_inv_12x12.png")
     ap.add_argument("--out-root", default="work/font_export")
     ap.add_argument("--pair-size", type=int, default=128)

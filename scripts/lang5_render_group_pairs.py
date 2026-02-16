@@ -48,7 +48,7 @@ def xbrz64(tile12: Image.Image, size: int = 64) -> Image.Image:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Render pair images for confirmed/unconfirmed/symbol groups.")
-    ap.add_argument("--groups-report", default="work/font_export/grouped/groups_report.csv")
+    ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--sheet-inv", default="work/font_probe/l512x12qg8_inv_12x12.png")
     ap.add_argument("--out-dir", default="work/font_export/grouped")
     ap.add_argument("--pair-size", type=int, default=64)

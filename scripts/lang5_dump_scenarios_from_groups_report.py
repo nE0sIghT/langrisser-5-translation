@@ -130,7 +130,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Dump Langrisser V SCEN/SCEN2 using groups_report.csv token->char map.")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
-    ap.add_argument("--groups-report", default="work/font_export/grouped/groups_report.csv")
+    ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--out-dir", default="work/scriptdump_groups")
     args = ap.parse_args()
 

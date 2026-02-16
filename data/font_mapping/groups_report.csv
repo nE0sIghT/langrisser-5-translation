@@ -997,7 +997,7 @@ index_dec,index_hex,group,char,source
 995,3000,confirmed,虫,paddle1:0.996
 996,30000,confirmed,触,paddle1:0.928
 997,300000,confirmed,獄,paddle1:0.814
-998,3000000,confirmed,大,paddle1:0.804
+998,3000000,confirmed,犬,manual:user_confirmed
 999,30000000,confirmed,尻,paddle1:0.908
 1000,300000000,confirmed,尾,token_map
 1001,3000000000,confirmed,針,paddle1:0.910

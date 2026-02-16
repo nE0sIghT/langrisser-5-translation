@@ -45,7 +45,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Apply candidate CSV to unconfirmed rows in groups_report.")
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--candidates", default="work/font_export/grouped/unconfirmed_dakanji_candidates.csv")
-    ap.add_argument("--out-report", default="work/font_export/grouped/groups_report.csv")
+    ap.add_argument("--out-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--min-score", type=float, default=0.55)
     ap.add_argument("--source-tag", default="dakanji")
     args = ap.parse_args()
