@@ -23,12 +23,12 @@ def load_token_map_json(path: Path) -> Dict[int, str]:
 def load_tbl(path: Path) -> Dict[int, str]:
     mp: Dict[int, str] = {}
     for raw in path.read_text(encoding="utf-8", errors="ignore").splitlines():
-        s = raw.strip()
-        if not s or s.startswith("#") or "=" not in s:
+        s = raw.rstrip("\n")
+        if not s.strip() or s.lstrip().startswith("#") or "=" not in s:
             continue
         a, b = s.split("=", 1)
         a = a.strip()
-        b = b.strip()
+        b = b
         try:
             tok = int(a, 16)
         except Exception:
