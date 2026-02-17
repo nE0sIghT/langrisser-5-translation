@@ -9,6 +9,7 @@ from typing import Dict, List
 
 CTRL_RE = re.compile(r"\{[^}]+\}")
 TOK_RE = re.compile(r"\[[0-9A-Fa-f]{4}\]")
+TOK_CAPTURE_RE = re.compile(r"\[([0-9A-Fa-f]{4})\]")
 
 
 def normalize_jp_text(s: str) -> str:
@@ -25,9 +26,32 @@ def normalize_en_text(s: str) -> str:
     return s
 
 
+def load_font_map(path: Path) -> Dict[int, str]:
+    out: Dict[int, str] = {}
+    with path.open("r", encoding="utf-8", errors="ignore") as fh:
+        for row in csv.DictReader(fh):
+            ch = (row.get("char") or "")
+            if not ch:
+                continue
+            try:
+                idx = int((row.get("index_dec") or "").strip())
+            except ValueError:
+                continue
+            out[idx] = ch
+    return out
+
+
+def decode_tokenized(tok: str, font_map: Dict[int, str]) -> str:
+    def sub(m: re.Match) -> str:
+        t = int(m.group(1), 16)
+        return font_map.get(t, f"<${t:04X}>")
+    return TOK_CAPTURE_RE.sub(sub, tok or "")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build canonical JP<->EN JSON mapping from alignment CSV.")
     ap.add_argument("--alignment", default="work/scen_analysis/story_alignment_partial_decode.csv")
+    ap.add_argument("--font-map", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--out", default="data/translation/jp_en_mapping.json")
     args = ap.parse_args()
 
@@ -36,35 +60,38 @@ def main() -> None:
     en_to_jp: Dict[str, Dict] = {}
     by_record: Dict[str, Dict] = {}
     scenario_counts = defaultdict(int)
+    font_map = load_font_map(Path(args.font_map))
 
     with Path(args.alignment).open("r", encoding="utf-8", errors="ignore") as fh:
-        for row in csv.DictReader(fh):
+        for row_idx, row in enumerate(csv.DictReader(fh), start=1):
             en = normalize_en_text(row.get("en_line", ""))
             ridx = (row.get("jp_record_index") or "").strip()
-            if not en or not ridx:
-                continue
 
             chunk_raw = (row.get("chunk_index") or "").strip()
             scenario = (row.get("scenario") or "").strip()
             jp_tok = (row.get("jp_tokenized") or "").strip()
-            jp_dec = (row.get("jp_partially_decoded") or "").strip()
+            jp_dec = decode_tokenized(jp_tok, font_map) if jp_tok else (row.get("jp_partially_decoded") or "").strip()
             jp_norm = normalize_jp_text(jp_dec)
             unresolved = bool(TOK_RE.search(jp_dec))
 
             try:
                 chunk = int(chunk_raw)
+            except ValueError:
+                chunk = -1
+            try:
                 rec = int(ridx)
             except ValueError:
-                continue
+                rec = -1
 
-            rec_key = f"{chunk:03d}:{rec:04d}"
+            rec_key = f"{chunk:03d}:{rec:04d}" if chunk >= 0 and rec >= 0 else f"ROW:{row_idx:05d}"
             rec_obj = {
                 "scenario": scenario,
                 "chunk_index": chunk,
                 "record_index": rec,
                 "seq": int((row.get("seq") or "0").strip() or 0),
                 "jp_tokenized": jp_tok,
-                "jp_partially_decoded": jp_dec,
+                "jp_partially_decoded": (row.get("jp_partially_decoded") or "").strip(),
+                "jp_decoded_from_font_map": jp_dec,
                 "jp_normalized": jp_norm,
                 "en_line": en,
                 "has_unresolved_tokens": unresolved,
@@ -73,7 +100,7 @@ def main() -> None:
             by_record[rec_key] = rec_obj
             scenario_counts[scenario] += 1
 
-            if jp_norm:
+            if jp_norm and en:
                 slot = jp_to_en.setdefault(
                     jp_norm, {"en_candidates": defaultdict(int), "example_records": [], "has_unresolved_tokens": False}
                 )
@@ -82,14 +109,15 @@ def main() -> None:
                     slot["example_records"].append(rec_key)
                 slot["has_unresolved_tokens"] = slot["has_unresolved_tokens"] or unresolved
 
-            rev = en_to_jp.setdefault(
-                en, {"jp_candidates": defaultdict(int), "example_records": [], "has_unresolved_tokens": False}
-            )
-            jp_candidate = jp_norm if jp_norm else jp_dec
-            rev["jp_candidates"][jp_candidate] += 1
-            if len(rev["example_records"]) < 6:
-                rev["example_records"].append(rec_key)
-            rev["has_unresolved_tokens"] = rev["has_unresolved_tokens"] or unresolved
+            if en:
+                rev = en_to_jp.setdefault(
+                    en, {"jp_candidates": defaultdict(int), "example_records": [], "has_unresolved_tokens": False}
+                )
+                jp_candidate = jp_norm if jp_norm else jp_dec
+                rev["jp_candidates"][jp_candidate] += 1
+                if len(rev["example_records"]) < 6:
+                    rev["example_records"].append(rec_key)
+                rev["has_unresolved_tokens"] = rev["has_unresolved_tokens"] or unresolved
 
     def finalize_bucket(bucket: Dict[str, Dict], field_name: str) -> Dict[str, Dict]:
         out: Dict[str, Dict] = {}
@@ -105,6 +133,7 @@ def main() -> None:
     out_obj = {
         "meta": {
             "source_alignment_csv": str(Path(args.alignment)),
+            "source_font_map_csv": str(Path(args.font_map)),
             "mapping_rows": len(rows),
             "unique_jp_normalized": len(jp_to_en),
             "unique_en_lines": len(en_to_jp),
