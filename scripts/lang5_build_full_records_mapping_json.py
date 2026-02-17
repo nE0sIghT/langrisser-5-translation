@@ -27,7 +27,6 @@ def load_alignment_map(path: Path) -> Dict[Tuple[int, int], Dict]:
                 "seq": int((row.get("seq") or "0").strip() or 0),
                 "en_line": (row.get("en_line") or "").strip(),
                 "jp_tokenized": (row.get("jp_tokenized") or "").strip(),
-                "jp_partially_decoded": (row.get("jp_partially_decoded") or "").strip(),
             }
     return out
 
@@ -77,7 +76,6 @@ def build_records(src_root: Path, align: Dict[Tuple[int, int], Dict]) -> Dict:
                     "seq": a.get("seq", 0),
                     "en_line": a.get("en_line", ""),
                     "jp_tokenized_alignment": a.get("jp_tokenized", ""),
-                    "jp_partially_decoded_alignment": a.get("jp_partially_decoded", ""),
                 }
                 records.append(obj)
                 by_key[key] = obj

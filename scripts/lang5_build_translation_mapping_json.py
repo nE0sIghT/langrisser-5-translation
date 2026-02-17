@@ -70,7 +70,7 @@ def main() -> None:
             chunk_raw = (row.get("chunk_index") or "").strip()
             scenario = (row.get("scenario") or "").strip()
             jp_tok = (row.get("jp_tokenized") or "").strip()
-            jp_dec = decode_tokenized(jp_tok, font_map) if jp_tok else (row.get("jp_partially_decoded") or "").strip()
+            jp_dec = decode_tokenized(jp_tok, font_map) if jp_tok else ""
             jp_norm = normalize_jp_text(jp_dec)
             unresolved = bool(TOK_RE.search(jp_dec))
 
@@ -90,7 +90,6 @@ def main() -> None:
                 "record_index": rec,
                 "seq": int((row.get("seq") or "0").strip() or 0),
                 "jp_tokenized": jp_tok,
-                "jp_partially_decoded": (row.get("jp_partially_decoded") or "").strip(),
                 "jp_decoded_from_font_map": jp_dec,
                 "jp_normalized": jp_norm,
                 "en_line": en,
