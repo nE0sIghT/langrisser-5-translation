@@ -97,6 +97,7 @@ def build_records(src_root: Path, align: Dict[Tuple[int, int], Dict]) -> Dict:
             "note": "All records from scriptdump_groups are included; no logical filtering.",
         },
         "by_key": dict(sorted(by_key.items(), key=lambda x: x[0])),
+        "quiz_records": [r for r in records if r["chunk_index"] == 0],
         "records": records,
     }
 
