@@ -49,6 +49,8 @@ def main() -> None:
     ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--jp-tbl", default="data/tables/lang5_jp.tbl")
+    ap.add_argument("--font-ttf", default="", help="Optional TTF for EN glyph rendering.")
+    ap.add_argument("--font-size", type=int, default=12)
     ap.add_argument("--full-records", default="data/translation/jp_en_full_records.json")
     ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
     ap.add_argument("--menu-map", default="data/translation/system_menu_map.json")
@@ -66,11 +68,32 @@ def main() -> None:
     run(
         [
             "python3",
+            "scripts/lang5_build_en_font_and_tbl.py",
+            "--groups-report",
+            args.groups_report,
+            "--system-bin",
+            args.system,
+            "--out-system-bin",
+            "work/build/SYSTEM.BIN.en",
+            "--out-tbl",
+            "work/tables/lang5_en_full.tbl",
+            "--out-map",
+            "work/scen_analysis/en_font_added_map.csv",
+            "--font",
+            args.font_ttf,
+            "--font-size",
+            str(args.font_size),
+        ]
+    )
+
+    run(
+        [
+            "python3",
             "scripts/lang5_build_en_dump_full.py",
             "--src-dump",
             args.src_dump,
             "--tbl",
-            args.jp_tbl,
+            "work/tables/lang5_en_full.tbl",
             "--full-records",
             args.full_records,
             "--manual-overrides",
@@ -99,12 +122,32 @@ def main() -> None:
             "--out-scen2",
             "work/build/SCEN2.script.DAT",
             "--max-size-mode",
-            "original",
+            "off",
         ]
     )
 
-    run(["python3", "scripts/iso_mode2.py", str(work_bin), "inject", "/L5/SCEN.DAT", "work/build/SCEN.script.DAT"])
-    run(["python3", "scripts/iso_mode2.py", str(work_bin), "inject", "/L5/SCEN2.DAT", "work/build/SCEN2.script.DAT"])
+    run(
+        [
+            "python3",
+            "scripts/iso_mode2.py",
+            str(work_bin),
+            "inject",
+            "--allow-grow",
+            "/L5/SCEN.DAT",
+            "work/build/SCEN.script.DAT",
+        ]
+    )
+    run(
+        [
+            "python3",
+            "scripts/iso_mode2.py",
+            str(work_bin),
+            "inject",
+            "--allow-grow",
+            "/L5/SCEN2.DAT",
+            "work/build/SCEN2.script.DAT",
+        ]
+    )
 
     run(
         [
@@ -113,7 +156,7 @@ def main() -> None:
             "--system-in",
             args.system,
             "--system-out",
-            "work/build/SYSTEM.BIN.en",
+            "work/build/SYSTEM.BIN.menu.DAT",
             "--groups-report",
             args.groups_report,
             "--tbl",
@@ -124,7 +167,17 @@ def main() -> None:
             "work/scen_analysis/system_menu_occurrences.csv",
         ]
     )
-    run(["python3", "scripts/iso_mode2.py", str(work_bin), "inject", "/L5/SYSTEM.BIN", "work/build/SYSTEM.BIN.en"])
+    run(
+        [
+            "python3",
+            "scripts/iso_mode2.py",
+            str(work_bin),
+            "inject",
+            "--allow-grow",
+            "/L5/SYSTEM.BIN",
+            "work/build/SYSTEM.BIN.menu.DAT",
+        ]
+    )
 
     title_repl = patch_executable_title(work_bin)
 

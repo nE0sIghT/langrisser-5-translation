@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import os
 import struct
 from dataclasses import dataclass
 from pathlib import Path
@@ -92,6 +91,34 @@ def parse_dir_records(blob: bytes) -> Iterator[Tuple[int, int, bool, str]]:
         i += rec_len
 
 
+def parse_dir_records_with_offsets(blob: bytes) -> Iterator[Tuple[int, int, int, int, bool, str]]:
+    i = 0
+    while i < len(blob):
+        rec_len = blob[i]
+        if rec_len == 0:
+            i = ((i // SECTOR_USER_SIZE) + 1) * SECTOR_USER_SIZE
+            continue
+        rec = blob[i : i + rec_len]
+        if len(rec) < 34:
+            break
+        extent_lba = struct.unpack_from("<I", rec, 2)[0]
+        size = struct.unpack_from("<I", rec, 10)[0]
+        flags = rec[25]
+        name_len = rec[32]
+        ident = rec[33 : 33 + name_len]
+        is_dir = bool(flags & 0x02)
+        name = ident.decode("latin-1", errors="replace")
+        if name == "\x00":
+            name = "."
+        elif name == "\x01":
+            name = ".."
+        else:
+            if ";" in name:
+                name = name.split(";", 1)[0]
+        yield i, rec_len, extent_lba, size, is_dir, name
+        i += rec_len
+
+
 def read_pvd(fh) -> bytes:
     pvd = read_user_sector(fh, 16)
     if pvd[1:6] != b"CD001" or pvd[0] != 1:
@@ -162,6 +189,129 @@ def inject_file(fh, path: str, in_path: str) -> None:
     raise FileNotFoundError(f"ISO file not found: {path}")
 
 
+def _find_parent_dir_entry(fh, parent_path: str) -> IsoEntry:
+    if parent_path == "/":
+        pvd = read_pvd(fh)
+        root_rec = pvd[156:190]
+        root_lba = struct.unpack_from("<I", root_rec, 2)[0]
+        root_size = struct.unpack_from("<I", root_rec, 10)[0]
+        return IsoEntry(name="", extent_lba=root_lba, size=root_size, is_dir=True, parent="/")
+    entries = walk_iso(fh)
+    for ent in entries:
+        if ent.path == parent_path and ent.is_dir:
+            return ent
+    raise FileNotFoundError(f"parent directory not found: {parent_path}")
+
+
+def _total_raw_sectors(fh) -> int:
+    fh.seek(0, 2)
+    end = fh.tell()
+    if end % SECTOR_RAW_SIZE != 0:
+        raise ValueError("BIN size is not aligned to raw sector size.")
+    return end // SECTOR_RAW_SIZE
+
+
+def _find_free_region_lba(fh, needed_sectors: int, reserve_start_lba: int = 64) -> int | None:
+    entries = walk_iso(fh)
+    total = _total_raw_sectors(fh)
+
+    ranges: List[Tuple[int, int]] = [(0, max(0, reserve_start_lba))]
+    for e in entries:
+        sec = (e.size + (SECTOR_USER_SIZE - 1)) // SECTOR_USER_SIZE
+        ranges.append((e.extent_lba, e.extent_lba + sec))
+    ranges.sort()
+
+    merged: List[List[int]] = []
+    for a, b in ranges:
+        if not merged or a > merged[-1][1]:
+            merged.append([a, b])
+        else:
+            merged[-1][1] = max(merged[-1][1], b)
+
+    cur = 0
+    for a, b in merged:
+        if cur < a and (a - cur) >= needed_sectors:
+            return cur
+        cur = max(cur, b)
+    if cur < total and (total - cur) >= needed_sectors:
+        return cur
+    return None
+
+
+def _update_dir_record_extent_size(
+    fh,
+    parent_lba: int,
+    parent_size: int,
+    child_name: str,
+    new_extent_lba: int,
+    new_size: int,
+) -> None:
+    blob = bytearray(read_user_bytes(fh, parent_lba, parent_size))
+    updated = False
+    for off, rec_len, _, _, is_dir, name in parse_dir_records_with_offsets(bytes(blob)):
+        if is_dir:
+            continue
+        if name == child_name:
+            rec = blob[off : off + rec_len]
+            struct.pack_into("<I", rec, 2, new_extent_lba)
+            struct.pack_into(">I", rec, 6, new_extent_lba)
+            struct.pack_into("<I", rec, 10, new_size)
+            struct.pack_into(">I", rec, 14, new_size)
+            blob[off : off + rec_len] = rec
+            updated = True
+            break
+    if not updated:
+        raise FileNotFoundError(f"directory record not found for '{child_name}' in parent directory")
+    write_user_bytes(fh, parent_lba, bytes(blob))
+
+
+def inject_file_allow_grow(fh, path: str, in_path: str) -> None:
+    wanted = path.strip("/")
+    payload = Path(in_path).read_bytes()
+    entries = walk_iso(fh)
+    target = None
+    for ent in entries:
+        if ent.is_dir:
+            continue
+        if ent.path.strip("/") == wanted:
+            target = ent
+            break
+    if target is None:
+        raise FileNotFoundError(f"ISO file not found: {path}")
+
+    old_lba = target.extent_lba
+    old_size = target.size
+    if len(payload) <= old_size:
+        inject_file(fh, path, in_path)
+        return
+
+    sectors_needed = (len(payload) + (SECTOR_USER_SIZE - 1)) // SECTOR_USER_SIZE
+    new_lba = _find_free_region_lba(fh, sectors_needed)
+    if new_lba is None:
+        raise RuntimeError(
+            f"no free in-image region for {path} growth: need {sectors_needed} sectors; "
+            "cannot keep BIN size unchanged"
+        )
+    padded = payload + (b"\x00" * (sectors_needed * SECTOR_USER_SIZE - len(payload)))
+    write_user_bytes(fh, new_lba, padded)
+
+    parent = _find_parent_dir_entry(fh, target.parent)
+    _update_dir_record_extent_size(
+        fh,
+        parent_lba=parent.extent_lba,
+        parent_size=parent.size,
+        child_name=target.name,
+        new_extent_lba=new_lba,
+        new_size=len(payload),
+    )
+
+    # Best-effort safety note for reproducibility/debug.
+    print(
+        f"grew {path}: old_lba={old_lba} old_size={old_size} "
+        f"-> new_lba={new_lba} new_size={len(payload)} sectors={sectors_needed}"
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Read PS1 MODE2/2352 ISO9660 filesystem.")
     parser.add_argument("bin_path", help="Path to MODE2/2352 BIN")
@@ -174,9 +324,10 @@ def main() -> None:
     p_extract.add_argument("iso_path", help="Path in ISO (e.g. /SCUS_123.45)")
     p_extract.add_argument("output", help="Output path")
 
-    p_inject = sub.add_parser("inject", help="Inject file into ISO in-place")
+    p_inject = sub.add_parser("inject", help="Inject file into ISO (in-place by default)")
     p_inject.add_argument("iso_path", help="Path in ISO (e.g. /SCUS_123.45)")
     p_inject.add_argument("input", help="Input file to inject")
+    p_inject.add_argument("--allow-grow", action="store_true", help="Allow file growth by appending new sectors and rewriting directory record.")
 
     args = parser.parse_args()
     mode = "rb+" if args.cmd == "inject" else "rb"
@@ -191,7 +342,10 @@ def main() -> None:
             extract_file(fh, args.iso_path, args.output)
             print(f"extracted {args.iso_path} -> {args.output}")
         elif args.cmd == "inject":
-            inject_file(fh, args.iso_path, args.input)
+            if args.allow_grow:
+                inject_file_allow_grow(fh, args.iso_path, args.input)
+            else:
+                inject_file(fh, args.iso_path, args.input)
             print(f"injected {args.input} -> {args.iso_path}")
 
 

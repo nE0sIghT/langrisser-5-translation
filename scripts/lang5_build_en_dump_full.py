@@ -186,7 +186,7 @@ def patch_chunk_file(
         key = (source_file, chunk_idx, ridx)
         en_line = rep.get(key)
         if not en_line:
-            out_lines.append(ln)
+            out_lines.append("# " + ln)
             continue
 
         attempted += 1
@@ -197,19 +197,71 @@ def patch_chunk_file(
 
         en_words = [txt2tok[ch] for ch in normalize_english(en_line, supported) if ch in txt2tok]
 
-        printable_slots: List[int] = []
-        prev: int | None = None
-        for idx, w in enumerate(words):
-            if is_printable_slot(w, prev):
-                printable_slots.append(idx)
-            prev = w
+        # Build control-aware groups: text-run + following control run.
+        groups: List[Tuple[int, List[int]]] = []
+        i = 0
+        n = len(words)
+        while i < n:
+            tlen = 0
+            while i < n:
+                w = words[i]
+                if w >= 0xE000 or w in (0xF600, 0xFB00):
+                    break
+                tlen += 1
+                i += 1
 
-        if len(en_words) > len(printable_slots):
-            en_words = en_words[: len(printable_slots)]
+            ctrls: List[int] = []
+            while i < n:
+                w = words[i]
+                if w == 0xF600 and i + 1 < n:
+                    ctrls.extend([w, words[i + 1]])
+                    i += 2
+                    continue
+                if w == 0xFB00 and i + 1 < n:
+                    ctrls.extend([w, words[i + 1]])
+                    i += 2
+                    continue
+                if w >= 0xE000:
+                    ctrls.append(w)
+                    i += 1
+                    continue
+                break
+            groups.append((tlen, ctrls))
 
-        new_words = list(words)
-        for i, slot_idx in enumerate(printable_slots):
-            new_words[slot_idx] = en_words[i] if i < len(en_words) else space_tok
+        if not groups:
+            groups = [(0, [])]
+
+        total_tlen = sum(t for t, _ in groups)
+        alloc = [0] * len(groups)
+        if en_words:
+            if total_tlen <= 0:
+                alloc[0] = len(en_words)
+            else:
+                # proportional distribution by original text-run lengths
+                used = 0
+                for gi, (tlen, _) in enumerate(groups):
+                    if gi == len(groups) - 1:
+                        take = len(en_words) - used
+                    else:
+                        take = (len(en_words) * tlen) // total_tlen
+                    alloc[gi] = max(0, take)
+                    used += alloc[gi]
+
+        new_words: List[int] = []
+        pos = 0
+        for gi, (_tlen, ctrls) in enumerate(groups):
+            take = alloc[gi]
+            if take > 0:
+                new_words.extend(en_words[pos : pos + take])
+                pos += take
+            else:
+                # keep separator readability when there was an original text run
+                if gi < len(groups) - 1:
+                    new_words.append(space_tok)
+            new_words.extend(ctrls)
+
+        if pos < len(en_words):
+            new_words.extend(en_words[pos:])
 
         new_ln = f"{ridx}\t{render_words(new_words)}"
         if new_ln != ln:
