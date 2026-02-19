@@ -132,7 +132,7 @@ def render_words(words: List[int]) -> str:
     return "".join(f"<$%04X>" % w for w in words)
 
 
-def load_full_records(path: Path) -> Dict[Tuple[str, int, int], str]:
+def load_full_records(path: Path, skip_chunk0: bool = True) -> Dict[Tuple[str, int, int], str]:
     obj = json.loads(path.read_text(encoding="utf-8"))
     recs = obj.get("records", [])
     out: Dict[Tuple[str, int, int], str] = {}
@@ -145,6 +145,8 @@ def load_full_records(path: Path) -> Dict[Tuple[str, int, int], str]:
             cidx = int(r.get("chunk_index"))
             ridx = int(r.get("record_index"))
         except Exception:
+            continue
+        if skip_chunk0 and cidx == 0:
             continue
         out[(src, cidx, ridx)] = en
     return out
@@ -180,6 +182,16 @@ def patch_chunk_file(
     txt2tok: Dict[str, int],
     supported: set[str],
 ) -> Tuple[int, int]:
+    if chunk_idx == 0:
+        lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+        out_lines: List[str] = []
+        for ln in lines:
+            if ln and not ln.startswith("#") and "\t" in ln:
+                out_lines.append("# " + ln)
+            else:
+                out_lines.append(ln)
+        path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
+        return 0, 0
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
     out_lines: List[str] = []
     attempted = 0
@@ -258,7 +270,7 @@ def main() -> None:
     _, txt2tok = load_tbl_chars(out_tbl)
     supported = set(txt2tok.keys())
 
-    rep = load_full_records(Path(args.full_records))
+    rep = load_full_records(Path(args.full_records), skip_chunk0=True)
     rep.update(load_manual_overrides(Path(args.manual_overrides)))
 
     attempted_total = 0
