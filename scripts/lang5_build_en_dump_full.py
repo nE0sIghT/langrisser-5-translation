@@ -71,7 +71,16 @@ def parse_decoded_words(decoded: str, txt2tok: Dict[str, int]) -> List[int]:
 
 
 def is_protected_arg(prev_word: int) -> bool:
-    return prev_word in (0xF600, 0xFB00)
+    # Conservative argument protection for control opcodes.
+    # Disasm confirms F600 and FBxx consume argument words; other Fxxx control
+    # families may do the same in some paths, so keep following words intact.
+    if prev_word == 0xF600:
+        return True
+    if 0xFB00 <= prev_word <= 0xFBFF:
+        return True
+    if 0xF600 <= prev_word <= 0xFEFF:
+        return True
+    return False
 
 
 def is_printable_slot(word: int, prev_word: int | None) -> bool:
@@ -198,15 +207,6 @@ def patch_chunk_file(
         words = parse_decoded_words(b, txt2tok)
         if not words:
             out_lines.append(ln)
-            continue
-
-        # Conservative safety gate:
-        # if record contains complex control opcodes, keep original JP record untouched.
-        # This avoids corrupting control/argument semantics in quiz/tutorial flow.
-        ctrl_words = [w for w in words if w >= 0xE000]
-        allowed_ctrl = {0xFFFC, 0xFFFD, 0xFFFE, 0xFFFF}
-        if any(w not in allowed_ctrl for w in ctrl_words):
-            out_lines.append("# " + ln)
             continue
 
         en_words = [txt2tok[ch] for ch in normalize_english(en_line, supported) if ch in txt2tok]
