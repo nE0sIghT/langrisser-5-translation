@@ -182,16 +182,6 @@ def patch_chunk_file(
     txt2tok: Dict[str, int],
     supported: set[str],
 ) -> Tuple[int, int]:
-    if chunk_idx == 0:
-        lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
-        out_lines: List[str] = []
-        for ln in lines:
-            if ln and not ln.startswith("#") and "\t" in ln:
-                out_lines.append("# " + ln)
-            else:
-                out_lines.append(ln)
-        path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
-        return 0, 0
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
     out_lines: List[str] = []
     attempted = 0
