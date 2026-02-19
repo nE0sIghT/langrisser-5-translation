@@ -200,6 +200,15 @@ def patch_chunk_file(
             out_lines.append(ln)
             continue
 
+        # Conservative safety gate:
+        # if record contains complex control opcodes, keep original JP record untouched.
+        # This avoids corrupting control/argument semantics in quiz/tutorial flow.
+        ctrl_words = [w for w in words if w >= 0xE000]
+        allowed_ctrl = {0xFFFC, 0xFFFD, 0xFFFE, 0xFFFF}
+        if any(w not in allowed_ctrl for w in ctrl_words):
+            out_lines.append("# " + ln)
+            continue
+
         en_words = [txt2tok[ch] for ch in normalize_english(en_line, supported) if ch in txt2tok]
         # Replace only printable, non-protected slots in-place.
         # Never change record shape / control ordering / argument positions.
