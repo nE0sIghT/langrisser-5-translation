@@ -26,8 +26,20 @@ public class GhidraDumpVMTextDecode extends GhidraScript {
         0x800216C8L,
         0x800216FCL,
         0x80022A84L,
+        0x80022B24L,
+        0x80022C04L,
+        0x80022E2CL,
         0x80023324L,
+        0x80023340L,
+        0x80023938L,
         0x80023BA4L,
+        0x80023FACL,
+        0x800241CCL,
+        0x800A36B4L,
+        0x800A3E24L,
+        0x800A87E0L,
+        0x800B2638L,
+        0x800B27BCL,
     };
 
     @Override

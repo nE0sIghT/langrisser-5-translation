@@ -90,11 +90,11 @@ def token_string(words: List[int]) -> str:
         if w == 0xFFFF:
             out.append("{END}")
         elif w == 0xFFFE:
-            out.append("{BR}")
+            out.append("{CTRL_FFFE}")
         elif w == 0xFFFC:
             out.append("{CTRL_FFFC}")
-        elif w == 0xFB00:
-            out.append("{DIALOG_CMD}")
+        elif (w & 0xFF00) == 0xFB00:
+            out.append(f"{{CTRL_{w:04X}}}")
         elif (w >> 8) == 0xFF:
             out.append(f"{{FF:{w & 0xFF:02X}}}")
         else:

@@ -87,13 +87,18 @@ def decode_words(words: List[int], token_to_char: Dict[int, str]) -> Tuple[str, 
             out.append(f"<${w:04X}>")
             i += 1
             continue
-        if w in (0xFFFC, 0xFFFD, 0xFFFE, 0xFFFF):
-            out.append(f"<${w:04X}>\n")
+        if w == 0xFFFC:
+            out.append("<$FFFC>\n")
+            i += 1
+            continue
+        if w in (0xFFFD, 0xFFFE, 0xFFFF):
+            out.append(f"<${w:04X}>")
             i += 1
             continue
 
-        # Generic FE/F7/FF controls (single-word token form in Lang5 stream)
-        if (w & 0xFF00) in (0xFE00, 0xF700, 0xFF00):
+        # Generic control families seen in Lang5 script VM.
+        # FBxx is non-printing control (e.g. FB00), not a glyph token.
+        if (w & 0xFF00) in (0xFB00, 0xFE00, 0xF700, 0xFF00):
             out.append(f"<${w:04X}>")
             i += 1
             continue
