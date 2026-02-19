@@ -153,7 +153,7 @@ def main() -> None:
             "python3",
             "scripts/lang5_patch_system_menu.py",
             "--system-in",
-            args.system,
+            "work/build/SYSTEM.BIN.en",
             "--system-out",
             "work/build/SYSTEM.BIN.menu.DAT",
             "--groups-report",

@@ -97,24 +97,10 @@ def _compact_word(w: str) -> str:
 
 def fit_ascii(en: str, max_len: int) -> str:
     s = (en or "").upper()
-    s = s.replace("CONFIG", "CNFG")
-    s = s.replace("MEMORY", "MEM")
-    s = s.replace("CHECKING", "CHECK")
-    s = s.replace("SCENARIO", "SCN")
-    s = s.replace("CLASS", "CLS")
-    s = s.replace("SKILL", "SKL")
-    s = s.replace("CHANGE", "CHG")
-    s = s.replace("AVAILABLE", "AVL")
-    s = s.replace("RESUME", "CONT")
-    s = s.replace("CANCEL", "BACK")
     s = " ".join(s.split())
     if len(s) <= max_len:
         return s
-    parts = [_compact_word(p) for p in s.split()]
-    s2 = " ".join(parts)
-    if len(s2) <= max_len:
-        return s2
-    return s2[:max_len]
+    return s[:max_len]
 
 
 def patch_run_words(words: List[int], en: str, txt2tok: Dict[str, int]) -> List[int]:
