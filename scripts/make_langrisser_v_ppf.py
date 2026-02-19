@@ -54,9 +54,6 @@ def main() -> None:
     ap.add_argument("--full-records", default="data/translation/jp_en_full_records.json")
     ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
     ap.add_argument("--menu-map", default="data/translation/system_menu_map.json")
-    ap.add_argument("--fill-missing-mt", action="store_true", help="Machine-translate unmapped JP records into EN.")
-    ap.add_argument("--mt-cache", default="data/translation/mt_cache.json")
-    ap.add_argument("--mt-workers", type=int, default=8)
     ap.add_argument("--src-dump", default="work/scriptdump_groups")
     ap.add_argument("--out-dump", default="work/scriptdump_en")
     ap.add_argument("--out-tbl", default="work/tables/lang5_en_insert.tbl")
@@ -104,13 +101,7 @@ def main() -> None:
         args.out_dump,
         "--out-tbl",
         args.out_tbl,
-        "--mt-cache",
-        args.mt_cache,
-        "--mt-workers",
-        str(args.mt_workers),
     ]
-    if args.fill_missing_mt:
-        build_cmd.append("--fill-missing-mt")
     run(build_cmd)
 
     run(

@@ -36,7 +36,7 @@ python3 scripts/make_langrisser_v_ppf.py
 ```
 
 This command performs:
-- EN dump build from `data/translation/jp_en_full_records.json`
+- EN dump build from curated `translation.txt` alignment stored in `data/translation/jp_en_full_records.json`
 - manual startup overrides from `data/translation/manual_record_overrides.json`
 - SCEN/SCEN2 repack
 - SYSTEM menu/UI patch via `data/translation/system_menu_map.json`
