@@ -8,6 +8,7 @@ from typing import Dict, List, Tuple
 
 TAG_RE = re.compile(r"<\$([0-9A-Fa-f]{4})>")
 BRACKET_RE = re.compile(r"\[([0-9A-Fa-f]{4})\]")
+CTRL_RE = re.compile(r"\{([A-Za-z0-9_:]+)\}")
 
 
 def load_tbl_chars(tbl_path: Path) -> Tuple[Dict[int, str], Dict[str, int]]:
@@ -47,70 +48,80 @@ def patch_tbl_with_space(tbl_path: Path, out_path: Path) -> None:
     out_path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
 
 
-def controls_from_tokenized(tok: str) -> str:
+def parse_tokenized_words(tok: str) -> List[int]:
     out: List[int] = []
     i = 0
     n = len(tok)
-    need_dialog_arg = False
-
     while i < n:
-        if tok.startswith("{END}", i):
-            out.append(0xFFFF)
-            i += 5
-            continue
-        if tok.startswith("{BR}", i):
-            out.append(0xFFFE)
-            i += 4
-            continue
-        if tok.startswith("{CTRL_FFFC}", i):
-            out.append(0xFFFC)
-            i += 11
-            continue
-        if tok.startswith("{DIALOG_CMD}", i):
-            out.append(0xFB00)
-            need_dialog_arg = True
-            i += 12
-            continue
-        if tok.startswith("{FF:", i) and i + 7 <= n and tok[i + 6] == "}":
-            try:
-                vv = int(tok[i + 4 : i + 6], 16)
-                out.append(0xFF00 | vv)
-                i += 7
-                continue
-            except Exception:
-                pass
-
         m = BRACKET_RE.match(tok, i)
         if m:
-            w = int(m.group(1), 16)
-            if need_dialog_arg:
-                out.append(w)
-                need_dialog_arg = False
-            elif w >= 0xFF00 or w == 0xF600:
-                out.append(w)
+            out.append(int(m.group(1), 16))
             i = m.end()
             continue
 
+        c = CTRL_RE.match(tok, i)
+        if c:
+            tag = c.group(1).upper()
+            if tag == "END":
+                out.append(0xFFFF)
+            elif tag == "BR":
+                out.append(0xFFFE)
+            elif tag == "DIALOG_CMD":
+                out.append(0xFB00)
+            elif tag.startswith("CTRL_") and len(tag) == 9:
+                try:
+                    out.append(int(tag[5:], 16))
+                except Exception:
+                    pass
+            elif tag.startswith("FF:") and len(tag) == 5:
+                try:
+                    out.append(0xFF00 | int(tag[3:], 16))
+                except Exception:
+                    pass
+            i = c.end()
+            continue
+
         i += 1
+    return out
 
-    return "".join(f"<$%04X>" % w for w in out)
 
-
-def controls_from_decoded(decoded: str) -> str:
-    toks: List[int] = [int(m.group(1), 16) for m in TAG_RE.finditer(decoded)]
+def parse_decoded_words(decoded: str, txt2tok: Dict[str, int]) -> List[int]:
     out: List[int] = []
     i = 0
-    while i < len(toks):
-        w = toks[i]
-        if w >= 0xFF00:
-            out.append(w)
-        elif w in (0xFB00, 0xF600):
-            out.append(w)
-            if i + 1 < len(toks):
-                out.append(toks[i + 1])
-                i += 1
+    n = len(decoded)
+    keys = sorted(txt2tok.keys(), key=len, reverse=True)
+    while i < n:
+        m = TAG_RE.match(decoded, i)
+        if m:
+            out.append(int(m.group(1), 16))
+            i = m.end()
+            continue
+        matched = False
+        for k in keys:
+            if k and decoded.startswith(k, i):
+                out.append(txt2tok[k])
+                i += len(k)
+                matched = True
+                break
+        if matched:
+            continue
         i += 1
-    return "".join(f"<$%04X>" % w for w in out)
+    return out
+
+
+def is_protected_arg(prev_word: int) -> bool:
+    return prev_word in (0xF600, 0xFB00)
+
+
+def is_printable_slot(word: int, prev_word: int | None) -> bool:
+    if prev_word is not None and is_protected_arg(prev_word):
+        return False
+    return word < 0xE000
+
+
+def render_words(words: List[int], _tok2txt: Dict[int, str]) -> str:
+    # Use strict tag stream for deterministic re-encode (no ambiguous multi-char table entries).
+    return "".join(f"<$%04X>" % w for w in words)
 
 
 def normalize_english(text: str, supported: set[str]) -> str:
@@ -181,22 +192,14 @@ def load_alignment(path: Path) -> Dict[Tuple[int, int], Tuple[str, str]]:
     return rep
 
 
-def token_count_from_decoded(s: str) -> int:
-    count = 0
-    i = 0
-    n = len(s)
-    while i < n:
-        m = TAG_RE.match(s, i)
-        if m:
-            count += 1
-            i = m.end()
-        else:
-            count += 1
-            i += 1
-    return count
-
-
-def patch_chunk_file(path: Path, chunk_idx: int, rep: Dict[Tuple[int, int], Tuple[str, str]], supported: set[str]) -> Tuple[int, int]:
+def patch_chunk_file(
+    path: Path,
+    chunk_idx: int,
+    rep: Dict[Tuple[int, int], Tuple[str, str]],
+    tok2txt: Dict[int, str],
+    txt2tok: Dict[str, int],
+    supported: set[str],
+) -> Tuple[int, int]:
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
     out_lines: List[str] = []
     changed = 0
@@ -221,20 +224,41 @@ def patch_chunk_file(path: Path, chunk_idx: int, rep: Dict[Tuple[int, int], Tupl
         attempted += 1
         en_line, jp_tok = rep[key]
         norm = normalize_english(en_line, supported)
-        ctrl = controls_from_tokenized(jp_tok)
-        if not ctrl:
-            ctrl = controls_from_decoded(b)
-        orig_budget = token_count_from_decoded(b)
-        ctrl_tokens = len(TAG_RE.findall(ctrl))
-        text_budget = max(0, orig_budget - ctrl_tokens)
-        if len(norm) > text_budget:
-            norm = norm[:text_budget]
-
-        new_text = (norm + ctrl) if norm else ctrl
-        if not new_text:
+        # Canonical source is the current dump record itself; this preserves
+        # exact per-record size/layout even when alignment-side tokenized rows
+        # are noisy or merged.
+        jp_words = parse_decoded_words(b, txt2tok)
+        if not jp_words:
+            jp_words = parse_tokenized_words(jp_tok)
+        if not jp_words:
             out_lines.append("# " + ln)
             continue
 
+        en_words: List[int] = []
+        for ch in norm:
+            tok = txt2tok.get(ch)
+            if tok is not None:
+                en_words.append(tok)
+
+        printable_slots: List[int] = []
+        prev: int | None = None
+        for idx, w in enumerate(jp_words):
+            if is_printable_slot(w, prev):
+                printable_slots.append(idx)
+            prev = w
+
+        if len(en_words) > len(printable_slots):
+            en_words = en_words[: len(printable_slots)]
+
+        space_tok = txt2tok.get(" ", 0x0000)
+        new_words = list(jp_words)
+        for k, slot_idx in enumerate(printable_slots):
+            if k < len(en_words):
+                new_words[slot_idx] = en_words[k]
+            else:
+                new_words[slot_idx] = space_tok
+
+        new_text = render_words(new_words, tok2txt)
         new_ln = f"{ridx}\t{new_text}"
         if new_ln != ln:
             changed += 1
@@ -260,7 +284,7 @@ def main() -> None:
     shutil.copytree(src_dump, out_dump)
 
     patch_tbl_with_space(Path(args.tbl), Path(args.out_tbl))
-    _, txt2tok = load_tbl_chars(Path(args.out_tbl))
+    tok2txt, txt2tok = load_tbl_chars(Path(args.out_tbl))
     supported = set(txt2tok.keys())
 
     rep = load_alignment(Path(args.alignment))
@@ -278,7 +302,7 @@ def main() -> None:
             if not m:
                 continue
             cidx = int(m.group(1))
-            attempted, changed = patch_chunk_file(fp, cidx, rep, supported)
+            attempted, changed = patch_chunk_file(fp, cidx, rep, tok2txt, txt2tok, supported)
             if attempted:
                 chunk_hits += 1
             total_attempted += attempted
