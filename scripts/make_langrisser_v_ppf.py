@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import shutil
+import subprocess
 from pathlib import Path
 
 from iso_mode2 import inject_file, read_user_bytes, walk_iso
@@ -9,6 +10,10 @@ from ppf3 import write_ppf3
 
 TITLE_JP = "ラングリッサー５".encode("shift_jis")
 TITLE_EN = b"LANGRISSER V".ljust(len(TITLE_JP), b"\x00")
+
+
+def run(cmd: list[str]) -> None:
+    subprocess.run(cmd, check=True)
 
 
 def patch_executable_title(bin_path: Path) -> int:
@@ -28,7 +33,7 @@ def patch_executable_title(bin_path: Path) -> int:
             cursor = pos + len(TITLE_JP)
             count += 1
         if count == 0:
-            raise RuntimeError("JP title string not found in executable.")
+            return 0
         tmp = bin_path.parent / "SLPS_018.19.patched"
         tmp.write_bytes(data)
         inject_file(fh, "/SLPS_018.19", str(tmp))
@@ -37,46 +42,103 @@ def patch_executable_title(bin_path: Path) -> int:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Build a reproducible PPF patch for Langrisser V (PS1)."
-    )
-    parser.add_argument(
-        "--source-bin",
-        default="iso/SLPS-01818-9-B.bin",
-        help="Original source BIN",
-    )
-    parser.add_argument(
-        "--work-bin",
-        default="work/build/SLPS-01818-9-B.en.bin",
-        help="Path for modified BIN copy",
-    )
-    parser.add_argument(
-        "--output-ppf",
-        default="patches/langrisser_v_en.ppf",
-        help="Output patch path",
-    )
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser(description="Build canonical full Langrisser V EN PPF (script+font+menu).")
+    ap.add_argument("--orig-bin", default="iso/SLPS-01818-9-B.bin")
+    ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
+    ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
+    ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
+    ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
+    ap.add_argument("--jp-tbl", default="data/tables/lang5_jp.tbl")
+    ap.add_argument("--full-records", default="data/translation/jp_en_full_records.json")
+    ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
+    ap.add_argument("--menu-map", default="data/translation/system_menu_map.json")
+    ap.add_argument("--src-dump", default="work/scriptdump_groups")
+    ap.add_argument("--out-dump", default="work/scriptdump_en")
+    ap.add_argument("--out-tbl", default="work/tables/lang5_en_insert.tbl")
+    ap.add_argument("--work-bin", default="work/build/SLPS-01818-9-B.en.full.bin")
+    ap.add_argument("--out-ppf", default="patches/langrisser_v_en.ppf")
+    args = ap.parse_args()
 
-    src = Path(args.source_bin)
-    work = Path(args.work_bin)
-    out = Path(args.output_ppf)
-    if not src.exists():
-        raise FileNotFoundError(src)
+    work_bin = Path(args.work_bin)
+    work_bin.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(args.orig_bin, work_bin)
 
-    work.parent.mkdir(parents=True, exist_ok=True)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(src, work)
+    run(
+        [
+            "python3",
+            "scripts/lang5_build_en_dump_full.py",
+            "--src-dump",
+            args.src_dump,
+            "--tbl",
+            args.jp_tbl,
+            "--full-records",
+            args.full_records,
+            "--manual-overrides",
+            args.manual_overrides,
+            "--out-dump",
+            args.out_dump,
+            "--out-tbl",
+            args.out_tbl,
+        ]
+    )
 
-    replacements = patch_executable_title(work)
+    run(
+        [
+            "python3",
+            "scripts/lang5_scrsceninsert.py",
+            "--scen",
+            args.scen,
+            "--scen2",
+            args.scen2,
+            "--dump-dir",
+            args.out_dump,
+            "--tbl",
+            args.out_tbl,
+            "--out-scen",
+            "work/build/SCEN.script.DAT",
+            "--out-scen2",
+            "work/build/SCEN2.script.DAT",
+            "--max-size-mode",
+            "original",
+        ]
+    )
+
+    run(["python3", "scripts/iso_mode2.py", str(work_bin), "inject", "/L5/SCEN.DAT", "work/build/SCEN.script.DAT"])
+    run(["python3", "scripts/iso_mode2.py", str(work_bin), "inject", "/L5/SCEN2.DAT", "work/build/SCEN2.script.DAT"])
+
+    run(
+        [
+            "python3",
+            "scripts/lang5_patch_system_menu.py",
+            "--system-in",
+            args.system,
+            "--system-out",
+            "work/build/SYSTEM.BIN.en",
+            "--groups-report",
+            args.groups_report,
+            "--tbl",
+            args.out_tbl,
+            "--menu-map",
+            args.menu_map,
+            "--report-csv",
+            "work/scen_analysis/system_menu_occurrences.csv",
+        ]
+    )
+    run(["python3", "scripts/iso_mode2.py", str(work_bin), "inject", "/L5/SYSTEM.BIN", "work/build/SYSTEM.BIN.en"])
+
+    title_repl = patch_executable_title(work_bin)
+
+    out_ppf = Path(args.out_ppf)
+    out_ppf.parent.mkdir(parents=True, exist_ok=True)
     records = write_ppf3(
-        src.read_bytes(),
-        work.read_bytes(),
-        out,
-        "Langrisser V EN alpha",
+        Path(args.orig_bin).read_bytes(),
+        work_bin.read_bytes(),
+        out_ppf,
+        "Langrisser V EN script+font",
     )
-    print(f"title replacements: {replacements}")
+    print(f"title replacements: {title_repl}")
     print(f"ppf records: {records}")
-    print(f"output: {out}")
+    print(f"output: {out_ppf}")
 
 
 if __name__ == "__main__":

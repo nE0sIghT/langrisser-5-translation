@@ -7,3 +7,5 @@ external/cwx/
 external/ref/
 external/feidian/
 external/zophar/
+archive/legacy_20260219/*
+!archive/legacy_20260219/README.md

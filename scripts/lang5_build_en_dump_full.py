@@ -223,7 +223,7 @@ def patch_chunk_file(
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build EN script dump from full-record mapping + manual overrides.")
     ap.add_argument("--src-dump", default="work/scriptdump_groups")
-    ap.add_argument("--tbl", default="work/lang5_lang3_format/scripts/jp/lang5.tbl")
+    ap.add_argument("--tbl", default="data/tables/lang5_jp.tbl")
     ap.add_argument("--full-records", default="data/translation/jp_en_full_records.json")
     ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
     ap.add_argument("--out-dump", default="work/scriptdump_en")
