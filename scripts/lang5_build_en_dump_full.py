@@ -3,10 +3,14 @@ import argparse
 import json
 import re
 import shutil
+import urllib.parse
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Set, Tuple
 
 TAG_RE = re.compile(r"<\$([0-9A-Fa-f]{4})>")
+JP_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uff66-\uff9f]")
 
 
 def load_tbl_chars(tbl_path: Path) -> Tuple[Dict[int, str], Dict[str, int]]:
@@ -114,6 +118,19 @@ def normalize_english(text: str, supported: set[str]) -> str:
     return re.sub(r"\s+", " ", "".join(out)).strip()
 
 
+def strip_tags(s: str) -> str:
+    return TAG_RE.sub("", s or "")
+
+
+def gtrans_ja_en(text: str, timeout: float = 20.0) -> str:
+    q = urllib.parse.quote(text)
+    url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=ja&tl=en&dt=t&q={q}"
+    with urllib.request.urlopen(url, timeout=timeout) as resp:
+        raw = resp.read().decode("utf-8")
+    obj = json.loads(raw)
+    return "".join(part[0] for part in obj[0] if part and part[0])
+
+
 def render_words(words: List[int]) -> str:
     return "".join(f"<$%04X>" % w for w in words)
 
@@ -158,11 +175,61 @@ def load_manual_overrides(path: Path) -> Dict[Tuple[str, int, int], str]:
     return out
 
 
+def collect_missing_jp_texts(
+    source_file: str,
+    root: Path,
+    rep: Dict[Tuple[str, int, int], str],
+) -> Set[str]:
+    out: Set[str] = set()
+    for fp in sorted(root.glob("chunk_*.txt")):
+        m = re.match(r"chunk_(\d+)\.txt$", fp.name)
+        if not m:
+            continue
+        cidx = int(m.group(1))
+        for ln in fp.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if not ln or ln.startswith("#") or "\t" not in ln:
+                continue
+            a, b = ln.split("\t", 1)
+            try:
+                ridx = int(a.strip())
+            except Exception:
+                continue
+            key = (source_file, cidx, ridx)
+            if key in rep:
+                continue
+            plain = strip_tags(b).strip()
+            if plain and JP_RE.search(plain):
+                out.add(plain)
+    return out
+
+
+def translate_all_missing(texts: Set[str], cache: Dict[str, str], workers: int) -> None:
+    pending = [t for t in sorted(texts) if t not in cache]
+    if not pending:
+        return
+
+    def job(src: str) -> Tuple[str, str]:
+        for _ in range(3):
+            try:
+                return src, gtrans_ja_en(src)
+            except Exception:
+                pass
+        return src, src
+
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as ex:
+        futs = [ex.submit(job, t) for t in pending]
+        for fut in as_completed(futs):
+            src, dst = fut.result()
+            cache[src] = dst
+
+
 def patch_chunk_file(
     source_file: str,
     path: Path,
     chunk_idx: int,
     rep: Dict[Tuple[str, int, int], str],
+    mt_cache: Dict[str, str],
+    fill_missing_mt: bool,
     txt2tok: Dict[str, int],
     supported: set[str],
 ) -> Tuple[int, int]:
@@ -186,8 +253,13 @@ def patch_chunk_file(
         key = (source_file, chunk_idx, ridx)
         en_line = rep.get(key)
         if not en_line:
-            out_lines.append("# " + ln)
-            continue
+            if fill_missing_mt:
+                plain = strip_tags(b).strip()
+                if plain and JP_RE.search(plain):
+                    en_line = mt_cache.get(plain, "")
+            if not en_line:
+                out_lines.append("# " + ln)
+                continue
 
         attempted += 1
         words = parse_decoded_words(b, txt2tok)
@@ -280,6 +352,9 @@ def main() -> None:
     ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
     ap.add_argument("--out-dump", default="work/scriptdump_en")
     ap.add_argument("--out-tbl", default="work/tables/lang5_en_insert.tbl")
+    ap.add_argument("--fill-missing-mt", action="store_true")
+    ap.add_argument("--mt-cache", default="data/translation/mt_cache.json")
+    ap.add_argument("--mt-workers", type=int, default=8)
     args = ap.parse_args()
 
     src = Path(args.src_dump)
@@ -298,6 +373,25 @@ def main() -> None:
     rep = load_full_records(Path(args.full_records))
     rep.update(load_manual_overrides(Path(args.manual_overrides)))
 
+    mt_cache_path = Path(args.mt_cache)
+    if mt_cache_path.exists():
+        try:
+            mt_cache: Dict[str, str] = json.loads(mt_cache_path.read_text(encoding="utf-8"))
+        except Exception:
+            mt_cache = {}
+    else:
+        mt_cache = {}
+
+    if args.fill_missing_mt:
+        miss: Set[str] = set()
+        for source_file, stem in (("SCEN.DAT", "SCEN"), ("SCEN2.DAT", "SCEN2")):
+            root = out / stem
+            if root.exists():
+                miss |= collect_missing_jp_texts(source_file, root, rep)
+        translate_all_missing(miss, mt_cache, args.mt_workers)
+        mt_cache_path.parent.mkdir(parents=True, exist_ok=True)
+        mt_cache_path.write_text(json.dumps(mt_cache, ensure_ascii=False), encoding="utf-8")
+
     attempted_total = 0
     changed_total = 0
     for source_file, stem in (("SCEN.DAT", "SCEN"), ("SCEN2.DAT", "SCEN2")):
@@ -309,13 +403,15 @@ def main() -> None:
             if not m:
                 continue
             cidx = int(m.group(1))
-            a, c = patch_chunk_file(source_file, fp, cidx, rep, txt2tok, supported)
+            a, c = patch_chunk_file(source_file, fp, cidx, rep, mt_cache, args.fill_missing_mt, txt2tok, supported)
             attempted_total += a
             changed_total += c
 
     print(f"out_dump={out}")
     print(f"out_tbl={out_tbl}")
     print(f"mapping_entries={len(rep)}")
+    if args.fill_missing_mt:
+        print(f"mt_cache_entries={len(mt_cache)}")
     print(f"attempted={attempted_total} changed={changed_total}")
 
 
