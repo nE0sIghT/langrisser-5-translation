@@ -52,7 +52,7 @@ def main() -> None:
     ap.add_argument("--font-ttf", default="", help="Optional TTF for EN glyph rendering.")
     ap.add_argument("--font-size", type=int, default=12)
     ap.add_argument("--full-records", default="data/translation/jp_en_full_records.json")
-    ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
+    ap.add_argument("--manual-overrides", default="")
     ap.add_argument("--menu-map", default="data/translation/system_menu_map.json")
     ap.add_argument("--src-dump", default="work/scriptdump_groups")
     ap.add_argument("--out-dump", default="work/scriptdump_en")
@@ -95,13 +95,13 @@ def main() -> None:
         "work/tables/lang5_en_full.tbl",
         "--full-records",
         args.full_records,
-        "--manual-overrides",
-        args.manual_overrides,
         "--out-dump",
         args.out_dump,
         "--out-tbl",
         args.out_tbl,
     ]
+    if args.manual_overrides:
+        build_cmd += ["--manual-overrides", args.manual_overrides]
     run(build_cmd)
 
     run(

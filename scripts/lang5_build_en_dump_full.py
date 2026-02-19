@@ -46,21 +46,21 @@ def patch_tbl_with_space(tbl_src: Path, tbl_out: Path) -> None:
     tbl_out.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
 
 
-def parse_decoded_words(decoded: str, txt2tok: Dict[str, int]) -> List[int]:
-    out: List[int] = []
+def parse_decoded_items(decoded: str, txt2tok: Dict[str, int]) -> List[Tuple[int, bool]]:
+    out: List[Tuple[int, bool]] = []
     i = 0
     n = len(decoded)
     keys = sorted(txt2tok.keys(), key=len, reverse=True)
     while i < n:
         m = TAG_RE.match(decoded, i)
         if m:
-            out.append(int(m.group(1), 16))
+            out.append((int(m.group(1), 16), True))
             i = m.end()
             continue
         matched = False
         for k in keys:
             if k and decoded.startswith(k, i):
-                out.append(txt2tok[k])
+                out.append((txt2tok[k], False))
                 i += len(k)
                 matched = True
                 break
@@ -132,7 +132,7 @@ def render_words(words: List[int]) -> str:
     return "".join(f"<$%04X>" % w for w in words)
 
 
-def load_full_records(path: Path, skip_chunk0: bool = True) -> Dict[Tuple[str, int, int], str]:
+def load_full_records(path: Path, skip_chunk0: bool = False) -> Dict[Tuple[str, int, int], str]:
     obj = json.loads(path.read_text(encoding="utf-8"))
     recs = obj.get("records", [])
     out: Dict[Tuple[str, int, int], str] = {}
@@ -206,18 +206,21 @@ def patch_chunk_file(
             continue
 
         attempted += 1
-        words = parse_decoded_words(b, txt2tok)
-        if not words:
+        items = parse_decoded_items(b, txt2tok)
+        if not items:
             out_lines.append(ln)
             continue
+        words = [w for w, _ in items]
 
         en_words = [txt2tok[ch] for ch in normalize_english(en_line, supported) if ch in txt2tok]
         # Replace only printable, non-protected slots in-place.
         # Never change record shape / control ordering / argument positions.
         writable: List[int] = []
         prev: int | None = None
-        for i, w in enumerate(words):
-            if is_printable_slot(w, prev):
+        for i, (w, from_tag) in enumerate(items):
+            # Only slots originating from decoded text chars are writable.
+            # Any explicit <$XXXX> token is preserved verbatim.
+            if (not from_tag) and is_printable_slot(w, prev):
                 writable.append(i)
             prev = w
 
@@ -242,7 +245,7 @@ def main() -> None:
     ap.add_argument("--src-dump", default="work/scriptdump_groups")
     ap.add_argument("--tbl", default="data/tables/lang5_jp.tbl")
     ap.add_argument("--full-records", default="data/translation/jp_en_full_records.json")
-    ap.add_argument("--manual-overrides", default="data/translation/manual_record_overrides.json")
+    ap.add_argument("--manual-overrides", default="")
     ap.add_argument("--out-dump", default="work/scriptdump_en")
     ap.add_argument("--out-tbl", default="work/tables/lang5_en_insert.tbl")
     args = ap.parse_args()
@@ -260,8 +263,11 @@ def main() -> None:
     _, txt2tok = load_tbl_chars(out_tbl)
     supported = set(txt2tok.keys())
 
-    rep = load_full_records(Path(args.full_records), skip_chunk0=True)
-    rep.update(load_manual_overrides(Path(args.manual_overrides)))
+    rep = load_full_records(Path(args.full_records), skip_chunk0=False)
+    if args.manual_overrides:
+        mp = Path(args.manual_overrides)
+        if mp.exists():
+            rep.update(load_manual_overrides(mp))
 
     attempted_total = 0
     changed_total = 0
