@@ -58,9 +58,10 @@ Rewrite dump/insert around the verified block format:
    no text.
 3. Dumper: per-chunk text files (lang3 style), tokens < 0xE000 as chars via
    the font table, the rest as `<$XXXX>` tags. No records dropped.
-4. Inserter: rebuild records *within* the original text block (records may
-   trade space with each other, block size and everything outside the block
-   stays byte-identical). Record count and indices preserved.
+4. Inserter: rebuild records inside the text block first; when a chunk-local
+   budget is too tight, use fixed-size container repack: grow the text block,
+   rebuild 0x800-aligned chunks, rewrite the chunk pointer table, and keep
+   the final SCEN/SCEN2 file size byte-identical.
 5. Mandatory round-trip test: dump -> insert with no edits == byte-identical
    SCEN/SCEN2. CI-style check script.
 
@@ -91,21 +92,25 @@ Capacity facts learned while building:
   (vm_off = u32 at chunk+0, vm_size = u32 at chunk+vm_off+0x3C), confirmed
   on all 262 chunks and by archived runtime RE. Growing the block keeps
   the base; only the chunk suffix shifts (in-game effect to be verified).
-- The inserter absorbs block growth into the chunk's own trailing zero
-  padding, keeping container layout and file sizes byte-identical.
+- The inserter first absorbs block growth into the chunk's own trailing zero
+  padding. If that is not enough, fixed-size repack may move later chunks and
+  reclaim whole-sector padding elsewhere in the same SCEN/SCEN2 file. The
+  output file size and ISO layout remain byte-identical in length.
 - Files cannot grow or relocate on this disc: CD audio tracks start 150
   sectors after the last file (iso_mode2 --allow-grow would clobber them;
   do not use it for SCEN/SCEN2).
-- EN text is ~1.5x JP in tokens; chunk 0 padding gave ~17% headroom and
-  the quiz needed a ~25% editorial trim to fit.
+- EN text is ~1.5x JP in tokens; pair glyphs and fixed-size repack reduce
+  the need for aggressive line cuts, but tight chunks still need editorial
+  trimming when the whole SCEN/SCEN2 file budget is exhausted.
 
 ## Status snapshot (2026-06-11, end of round 3)
 
 Done: stages 0-3. Toolchain with byte-identical round-trip; font table 100%
 mapped; EN glyph system (Spleen 6x12 pairs, two letters per cell, baseline
-aligned to native glyphs); full EN startup quiz; 198 menu/UI runs incl.
-config screen and title; width-aware reflow; PPF builds without touching
-file sizes or layout.
+aligned to native glyphs); full EN startup quiz; menu/UI/name runs; width-aware
+reflow; PPF builds without growing files or changing ISO layout. The SCEN
+inserter can now fixed-size repack chunk offsets inside SCEN/SCEN2 when local
+chunk padding is too small.
 
 ## Stage 4a — item/class/unit names (next)
 

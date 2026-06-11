@@ -24,8 +24,9 @@ image in `iso/` (not in git).
 - Menu labels, item/class/spell names and their descriptions are
   fixed-position runs inside `SYSTEM.BIN`.
 - The disc has CD audio after the data track: file sizes must never change.
-  Text growth is absorbed into each chunk's trailing zero padding, which the
-  validator checks as the per-chunk byte budget.
+  Text growth is absorbed by rebuilding the internal SCEN/SCEN2 chunk layout
+  at 0x800 alignment and rewriting the chunk pointer table. The validator
+  checks that the fixed-size repack still fits inside the original files.
 
 ## Where things are
 
@@ -117,8 +118,9 @@ python3 scripts/lang5_validate_en.py       # tags, encodability, byte budget
 
 `lang5_validate_en.py` compares every record's control-tag signature with
 the JP original, checks that everything encodes with the current font table
-and that the chunk fits its byte budget ("OVER BUDGET" means the text must
-be shortened). Don't move partially translated chunks into
+and that the translated SCEN/SCEN2 files still fit the fixed-size repack
+budget ("OVER BUDGET" means the text must be shortened). Don't move partially
+translated chunks into
 `data/translation/en` — untranslated kanji whose glyph slots were sacrificed
 will fail the encode check.
 
@@ -134,11 +136,12 @@ python3 scripts/lang5_build_ppf.py
 ```
 
 This renders the font, patches `SYSTEM.BIN` (menus + names), syncs
-`SCEN -> SCEN2`, re-inserts all translated chunks, injects everything into a
-copy of the BIN (sizes unchanged — never use `--allow-grow`: the free space
-overlaps the CD audio tracks) and writes `patches/langrisser_v_en.ppf`
-(PPF3, apply to the original BIN). A ready-to-boot image is left in
-`work/build/langrisser_v_en.bin` for emulator testing.
+`SCEN -> SCEN2`, re-inserts all translated chunks with fixed-size container
+repacking, injects everything into a copy of the BIN (sizes unchanged —
+never use `--allow-grow`: the free space overlaps the CD audio tracks) and
+writes `patches/langrisser_v_en.ppf` (PPF3, apply to the original BIN). A
+ready-to-boot image is left in `work/build/langrisser_v_en.bin` for emulator
+testing.
 
 ## Another language
 

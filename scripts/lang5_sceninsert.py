@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Insert edited script dump back into SCEN.DAT/SCEN2.DAT.
 
-Records are re-encoded and repacked inside the original text block of each
-chunk: records may trade space with each other, but the block base, record
-count and everything outside the block stay byte-identical. The space after
-the last record is padded with zero words.
+By default, records are re-encoded and repacked inside the original text
+block of each chunk: records may trade space with each other, but the block
+base, record count and everything outside the block stay byte-identical.
+The space after the last record is padded with zero words.
+
+With --fixed-size-repack, text blocks may grow, chunks are re-laid out at
+0x800 alignment, the chunk pointer table is rewritten, and the final file
+size must remain byte-identical to the source file.
 
 With --allow-grow, a text block that no longer fits is enlarged in place:
 the block size word is updated, the chunk suffix shifts down, the chunk is
@@ -27,6 +31,10 @@ from lang5_scen import (
 )
 
 CHUNK_ALIGN = 0x800
+
+
+def align_up(value: int, align: int = CHUNK_ALIGN) -> int:
+    return (value + align - 1) & ~(align - 1)
 
 
 def parse_dump_file(path: Path) -> dict[int, str]:
@@ -76,8 +84,64 @@ def rebuild_block(chunk: bytes, block: TextBlock, edits: dict[int, str],
     return bytes(blob)
 
 
+def trim_aligned_chunk(chunk: bytes) -> bytes:
+    """Drop whole-sector trailing zero padding from a chunk."""
+    used = len(chunk.rstrip(b"\x00"))
+    size = align_up(used)
+    return chunk[:size].ljust(size, b"\x00")
+
+
+def rebuild_container_fixed_size(data: bytes, chunks: list[bytes],
+                                 spans: list[tuple[int, int]],
+                                 label: str) -> bytes:
+    header_size = spans[0][0]
+    header = bytearray(data[:header_size])
+    blobs = list(chunks)
+    total = header_size + sum(len(chunk) for chunk in blobs)
+
+    if total > len(data):
+        # Reclaim whole-sector trailing padding only when the translated
+        # chunks actually need container-level space.
+        for i in range(len(blobs) - 1, -1, -1):
+            trimmed = trim_aligned_chunk(blobs[i])
+            saved = len(blobs[i]) - len(trimmed)
+            if saved <= 0:
+                continue
+            blobs[i] = trimmed
+            total -= saved
+            if total <= len(data):
+                break
+
+    if total > len(data):
+        raise SystemExit(
+            f"{label}: fixed-size repack needs {total} bytes, source file is "
+            f"{len(data)} bytes. Shorten text or free more padding."
+        )
+
+    cur = header_size
+    ptrs: list[int] = []
+
+    for blob in blobs:
+        if cur % CHUNK_ALIGN:
+            raise SystemExit(f"{label}: chunk pointer 0x{cur:X} is not 0x800-aligned")
+        ptrs.append(cur)
+        cur += len(blob)
+
+    ptrs.append(len(data))
+    if len(ptrs) * 4 > header_size:
+        raise SystemExit(f"{label}: pointer table does not fit in original header")
+    for i, p in enumerate(ptrs):
+        struct.pack_into("<I", header, i * 4, p)
+
+    result = bytes(header) + b"".join(blobs)
+    result += b"\x00" * (len(data) - len(result))
+    if len(result) != len(data):
+        raise AssertionError("fixed-size repack changed file size")
+    return result
+
+
 def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
-                allow_grow: bool = False) -> int:
+                allow_grow: bool = False, fixed_size_repack: bool = False) -> int:
     data = src.read_bytes()
     spans = read_chunk_spans(data)
     new_chunks: list[bytes] = []
@@ -91,11 +155,14 @@ def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
         if edits:
             block = find_text_block(chunk)
             orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
-            max_size = 0xFFFF if allow_grow else block.size + (orig_tz & ~1)
+            if allow_grow or fixed_size_repack:
+                max_size = 0xFFFF
+            else:
+                max_size = block.size + (orig_tz & ~1)
             blob = rebuild_block(chunk, block, edits, codec, max_size,
                                  f"{src.name} chunk {cidx}")
             new_chunk = chunk[: block.base] + blob + chunk[block.base + block.size :]
-            if len(new_chunk) > len(chunk):
+            if len(new_chunk) > len(chunk) and not allow_grow:
                 # Absorb growth into the chunk's own trailing zero padding
                 # so the container layout (and the ISO) stays untouched.
                 orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
@@ -115,7 +182,13 @@ def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
         else:
             new_chunks.append(chunk)
 
-    if not grew:
+    if fixed_size_repack:
+        result = rebuild_container_fixed_size(data, new_chunks, spans, src.name)
+        changed = sum(
+            1 for (s, e), chunk in zip(spans, read_chunk_spans(result))
+            if data[s:e] != result[chunk[0]:chunk[1]]
+        )
+    elif not grew:
         out = bytearray(data)
         for (s, e), chunk in zip(spans, new_chunks):
             out[s:e] = chunk
@@ -152,7 +225,11 @@ def main() -> None:
     ap.add_argument("--out-scen2", default="work/build/SCEN2.DAT")
     ap.add_argument("--allow-grow", action="store_true",
                     help="Allow text blocks (and the container) to grow.")
+    ap.add_argument("--fixed-size-repack", action="store_true",
+                    help="Repack chunks and rewrite pointers without changing file size.")
     args = ap.parse_args()
+    if args.allow_grow and args.fixed_size_repack:
+        ap.error("--allow-grow and --fixed-size-repack are mutually exclusive")
 
     charmap_path = Path(args.charmap)
     if charmap_path.suffix == ".tbl":
@@ -161,8 +238,10 @@ def main() -> None:
         codec = Codec(load_charmap_csv(charmap_path))
 
     dump_root = Path(args.dump_dir)
-    insert_file(Path(args.scen), dump_root, Path(args.out_scen), codec, args.allow_grow)
-    insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec, args.allow_grow)
+    insert_file(Path(args.scen), dump_root, Path(args.out_scen), codec,
+                args.allow_grow, args.fixed_size_repack)
+    insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec,
+                args.allow_grow, args.fixed_size_repack)
 
 
 if __name__ == "__main__":

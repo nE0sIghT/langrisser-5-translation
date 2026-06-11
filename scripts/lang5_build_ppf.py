@@ -48,7 +48,8 @@ def main() -> None:
     for fp in src_dir.glob("chunk_*.txt"):
         shutil.copyfile(fp, dst_dir / fp.name)
 
-    run(scripts / "lang5_sceninsert.py", "--scen", args.scen, "--scen2", args.scen2,
+    run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",
+        "--scen", args.scen, "--scen2", args.scen2,
         "--dump-dir", args.en_dump, "--charmap", "work/tables/lang5_en.tbl",
         "--out-scen", "work/build/SCEN.en.DAT", "--out-scen2", "work/build/SCEN2.en.DAT")
 
@@ -71,7 +72,7 @@ def main() -> None:
         Path(args.orig_bin).read_bytes(),
         work_bin.read_bytes(),
         out_ppf,
-        "Langrisser V EN (quiz PoC)",
+        "Langrisser V EN script+font",
     )
     print(f"ppf_records={records} out={out_ppf}")
 

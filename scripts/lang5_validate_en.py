@@ -4,16 +4,21 @@
 Per record: the sequence of control tags (>= 0xE000, except the soft line
 break FFFC) and the argument words of F600/FBxx must match the JP source
 exactly. Also checks that every EN line encodes, reports leftover JP text
-and the per-chunk byte budget (block size + chunk tail padding).
+and validates the fixed-size SCEN/SCEN2 repack budget used by the builder.
 """
 import argparse
 import re
 from pathlib import Path
 
 from lang5_scen import (Codec, TAG_RE, consumes_argument, find_text_block,
-                        load_charmap_tbl, read_chunk_spans)
+                        load_charmap_tbl, read_chunk_spans, words_to_bytes)
 
 ASCII_BAD = re.compile(r"[!?;—–]")
+CHUNK_ALIGN = 0x800
+
+
+def align_up(value: int, align: int = CHUNK_ALIGN) -> int:
+    return (value + align - 1) & ~(align - 1)
 
 
 def read_records(path: Path) -> dict[int, str]:
@@ -44,6 +49,55 @@ def control_signature(text: str) -> list[str]:
     return sig
 
 
+def repacked_file_size(src: Path, records_by_chunk: dict[int, dict[int, str]],
+                       codec: Codec) -> tuple[int, list[str]]:
+    data = src.read_bytes()
+    spans = read_chunk_spans(data)
+    header_size = spans[0][0]
+    lengths: list[int] = []
+    savings: list[int] = []
+    problems: list[str] = []
+    for cidx, (s, e) in enumerate(spans):
+        chunk = data[s:e]
+        tail_zero = len(chunk) - len(chunk.rstrip(b"\x00"))
+        edits = records_by_chunk.get(cidx, {})
+        if edits:
+            block = find_text_block(chunk)
+            payloads: list[bytes] = []
+            for ridx in range(1, block.record_count + 1):
+                a, b = block.record_span(ridx)
+                if ridx in edits:
+                    payloads.append(words_to_bytes(codec.encode(edits[ridx])))
+                else:
+                    payloads.append(chunk[a:b])
+            table_len = 2 + 2 * len(block.offsets)
+            body_len = sum(len(p) for p in payloads)
+            needed = table_len + body_len
+            if needed > 0xFFFF:
+                problems.append(
+                    f"{src.name} chunk {cidx:03d}: text block would exceed u16 size"
+                )
+            out_size = block.size if needed <= block.size else needed
+            if out_size <= block.size + (tail_zero & ~1):
+                chunk_len = len(chunk)
+            else:
+                chunk_len = align_up(len(chunk) + out_size - block.size)
+        else:
+            chunk_len = len(chunk)
+        lengths.append(chunk_len)
+        savings.append(len(chunk) - align_up(len(chunk.rstrip(b"\x00"))))
+
+    total = header_size + sum(lengths)
+    if total > len(data):
+        for saved in reversed(savings):
+            if saved <= 0:
+                continue
+            total -= saved
+            if total <= len(data):
+                break
+    return total, problems
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("chunks", nargs="*", type=int)
@@ -51,7 +105,10 @@ def main() -> None:
     ap.add_argument("--en-dump", default="data/translation/en")
     ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
+    ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--stem", default="SCEN")
+    ap.add_argument("--budget-mode", choices=("fixed-repack", "local"),
+                    default="fixed-repack")
     args = ap.parse_args()
 
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
@@ -63,10 +120,12 @@ def main() -> None:
         chunk_ids = sorted(int(p.stem.split("_")[1])
                            for p in Path(args.en_dump, args.stem).glob("chunk_*.txt"))
 
+    records_by_chunk: dict[int, dict[int, str]] = {}
     problems = 0
     for cidx in chunk_ids:
         jp = read_records(Path(args.jp_dump, args.stem, f"chunk_{cidx:03d}.txt"))
         en = read_records(Path(args.en_dump, args.stem, f"chunk_{cidx:03d}.txt"))
+        records_by_chunk[cidx] = en
         body = 0
         jp_left = 0
         for idx in sorted(jp):
@@ -95,11 +154,26 @@ def main() -> None:
         block = find_text_block(chunk)
         tz = len(chunk) - len(chunk.rstrip(b"\x00"))
         budget = block.size + (tz & ~1) - (2 + 2 * len(block.offsets))
-        status = "OK" if body <= budget else "OVER BUDGET"
-        if body > budget:
+        if body <= budget:
+            status = "OK"
+        elif args.budget_mode == "fixed-repack":
+            status = "REPACK"
+        else:
+            status = "OVER BUDGET"
+        if body > budget and args.budget_mode == "local":
             problems += 1
         print(f"chunk {cidx:03d}: body={body} budget={budget} {status}"
               + (f" jp_left={jp_left}" if jp_left else ""))
+    if args.budget_mode == "fixed-repack":
+        for src in (Path(args.scen), Path(args.scen2)):
+            total, repack_problems = repacked_file_size(src, records_by_chunk, codec)
+            for msg in repack_problems:
+                print(msg)
+                problems += 1
+            status = "OK" if total <= src.stat().st_size else "OVER BUDGET"
+            if total > src.stat().st_size:
+                problems += 1
+            print(f"{src.name}: fixed-size repack={total} file_size={src.stat().st_size} {status}")
     if problems:
         raise SystemExit(f"{problems} problems found")
     print("all good")
