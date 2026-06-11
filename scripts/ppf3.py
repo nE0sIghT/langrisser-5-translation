@@ -11,10 +11,11 @@ def write_ppf3(original: bytes, modified: bytes, out_path: Path, description: st
     out = bytearray()
     out += b"PPF30"          # format id
     out += b"\x00"           # encoding method
+    out += desc              # 50-byte description
     out += b"\x00"           # image type: BIN
     out += b"\x00"           # block check disabled
     out += b"\x00"           # undo data disabled
-    out += desc
+    out += b"\x00"           # reserved/padding (PPF3 patch data starts at offset 60)
 
     i = 0
     records = 0

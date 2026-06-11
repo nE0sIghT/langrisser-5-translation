@@ -503,7 +503,7 @@ index_dec,index_hex,group,char,source
 501,01F5,confirmed,分,paddle1:0.999
 502,01F6,confirmed,空,token_map
 503,01F7,confirmed,容,token_map
-504,01F8,unconfirmed,,manual_pair|manual:reset_unconfirmed_ttf
+504,01F8,confirmed,拔,manual:user_confirmed
 505,01F9,confirmed,読,paddle1:0.977
 506,01FA,confirmed,込,token_map
 507,01FB,confirmed,事,paddle1:1.000
@@ -1715,7 +1715,7 @@ index_dec,index_hex,group,char,source
 1713,06B1,confirmed,溪,paddle1:0.784
 1714,06B2,confirmed,暖,paddle1:0.974
 1715,06B3,confirmed,絵,paddle1:0.681
-1716,06B4,unconfirmed,,paddle1:0.300|manual:reset_unconfirmed_ttf
+1716,06B4,confirmed,系,manual:user_confirmed
 1717,06B5,confirmed,謁,paddle1:0.658
 1718,06B6,confirmed,謹,paddle1:0.962
 1719,06B7,confirmed,河,paddle1:1.000
