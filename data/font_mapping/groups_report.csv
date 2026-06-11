@@ -271,7 +271,7 @@ index_dec,index_hex,group,char,source
 269,010D,confirmed,防,paddle1:0.999
 270,010E,confirmed,御,paddle1:0.999
 271,010F,confirmed,戦,paddle_xbrz:0.541
-272,110,unconfirmed,,paddle1:0.167|manual:reset_unconfirmed_ttf
+272,110,confirmed,闘,manual:user_confirmed
 273,111,confirmed,手,token_map
 274,112,confirmed,官,paddle1:0.998
 275,113,confirmed,現,token_map
@@ -371,7 +371,7 @@ index_dec,index_hex,group,char,source
 369,171,confirmed,退,paddle1:0.999
 370,172,confirmed,去,token_map
 371,173,confirmed,止,accept:upper_ttf_xbrz
-372,174,unconfirmed,,manual:reset_to_unconfirmed|manual:reset_unconfirmed_ttf
+372,174,confirmed,敵,manual:user_confirmed
 373,175,confirmed,不,paddle_xbrz:0.999
 374,176,confirmed,状,token_map
 375,177,confirmed,態,paddle_xbrz:0.858

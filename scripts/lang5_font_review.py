@@ -71,7 +71,7 @@ def glyph_b64(data: bytes, idx: int) -> str:
 
 def img_tag(b64: str | None, cls: str = "") -> str:
     if b64 is None:
-        return "<span class='nofont'>n/a</span>"
+        return "<span class='empty'>&mdash;</span>"
     return f"<img class='{cls}' src='data:image/png;base64,{b64}'>"
 
 
@@ -100,7 +100,7 @@ def main() -> None:
     img{image-rendering:pixelated;width:48px;height:48px;background:#fff;vertical-align:middle}
     img.ref{image-rendering:auto}
     .cur,.prop{font-size:40px;line-height:48px;display:inline-block;min-width:48px;text-align:center;vertical-align:middle}
-    .cur{color:#9cf}.prop{color:#fc6}.nofont{color:#e55;font-size:12px}
+    .cur{color:#9cf}.prop{color:#fc6}.empty{color:#666;font-size:24px}
     table{border-collapse:collapse}td,th{border:1px solid #444;padding:4px 8px;text-align:center}
     .grid{display:flex;flex-wrap:wrap;gap:4px}
     .cell{border:1px solid #333;padding:4px;width:120px}
@@ -113,7 +113,9 @@ def main() -> None:
 
     out.append("<h2>Flagged entries</h2>")
     out.append("<p>'game' = glyph from SYSTEM.BIN. 'current/proposed (TTF)' = reference "
-               "render with Noto JP (fallback Noto SC), independent of browser fonts.</p>")
+               "render with Noto JP (fallback Noto SC), independent of browser fonts. "
+               "&mdash; means there is no character in that slot (no current mapping or "
+               "no proposal yet), not a render failure.</p>")
     out.append("<table><tr><th>idx</th><th>hex</th><th>game</th>"
                "<th>current (TTF)</th><th>current (text)</th>"
                "<th>proposed (TTF)</th><th>proposed (text)</th>"

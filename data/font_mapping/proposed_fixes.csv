@@ -1,14 +1,12 @@
 index_dec,current,proposed,confidence,reason
-272,,闘,check,unmapped; script shows 戦<$0110> = 戦闘
-372,,敵,check,unmapped; script shows <$0174> where 敵 expected (また<$0174>も强化されています)
 414,墅,,check,credits-name area; 墅 implausible
 583,运,,check,CN simplified 运=運 but 運 already at 796; glyph needs check
 599,报,,check,CN simplified 报=報 but 報 already at 322; glyph needs check
 601,俩,,check,CN-only char; implausible in JP font
 684,费,,check,CN simplified 费=費 but 費 already at 278; glyph needs check
-714,,精,check,unmapped; script shows <$02CA>霊 = 精霊
+714,,精,check,unmapped; script context 精霊力 needs 精; CONFLICT: 精 already at 971 and the two bitmaps differ - check which one is really 精
 763,类,,check,CN simplified 类=類 but 類 already at 917; glyph needs check
-769,,風,check,unmapped; element list 地/水/<$0301>/火 quiz uses it for wind element
+769,,風,check,unmapped; quiz wind element (シルフ); CONFLICT: 風 already at 1035 and the two bitmaps differ - check what glyph 769 really is
 793,开,,check,CN simplified 开=開 but 開 already at 384; glyph needs check
 898,采,採,check,could be intentional 采配; verify glyph
 1003,摆,,check,CN-only char; implausible
