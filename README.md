@@ -26,6 +26,13 @@ the verified container format and the staged rebuild plan.
 
 ## Working utilities
 
+- `scripts/lang5_scen.py` — core library: container/text-block parsing,
+  round-trip-safe token codec
+- `scripts/lang5_scendump.py` — dump SCEN/SCEN2 to per-chunk text files
+- `scripts/lang5_sceninsert.py` — re-encode edited dump back, repacking
+  records inside the original text block (byte-identical outside it)
+- `scripts/lang5_verify_roundtrip.py` — mandatory integrity test: codec and
+  full dump->insert round-trip must be byte-identical
 - `scripts/iso_mode2.py` — extract/inject files in the MODE2 BIN image
 - `scripts/ppf3.py` — PPF3 patch writer
 - `scripts/lang5_textcodec.py` — token<->text codec helpers (.tbl based)
@@ -43,5 +50,11 @@ python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN2.DAT work/e
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SYSTEM.BIN work/extracted/SYSTEM.BIN
 ```
 
-The script dumper/inserter and PPF build entrypoint are being rewritten
-around the verified text-block format (stage 1 in `docs/PLAN.md`).
+Script pipeline:
+
+```bash
+python3 scripts/lang5_scendump.py                 # -> work/scriptdump/
+# edit work/scriptdump/SCEN*/chunk_NNN.txt
+python3 scripts/lang5_sceninsert.py               # -> work/build/SCEN*.DAT
+python3 scripts/lang5_verify_roundtrip.py         # must stay green
+```
