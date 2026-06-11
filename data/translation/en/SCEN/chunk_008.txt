@@ -1,0 +1,84 @@
+# file=SCEN.DAT chunk=8 chunk_start=0x0F6800
+# block_base=0x46F4 block_size=0x0F88 records=82
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Federal ldr.<$FFFF>
+8	Adjutant Emily<$FFFF>
+9	・Whole party crosses the bridge<$FFFC>・Defeat all enemies<$FFFE>
+10	・<$F600><$0000> dies<$FFFE>
+11	Road to Gizarof's lab<$FFFF>
+12	<$FB00><$002F>Well？ Any sign over there？<$FFFE>
+13	<$FB00><$0030>None, sir！<$FFFE>
+14	<$FB00><$0031>Nothing here either.<$FFFE>
+15	<$FB00><$0032>I see. Not around here anymore.<$FFFC>Shall we move on<$FFF5><$FFF8>‥‥.<$FFFE>
+16	<$FB00><$0033>Huh？ Federation soldiers<$FFF5><$FFF8>‥‥.<$FFFE>
+17	<$FFF8>‥‥<$FFF6><$FB00><$0034>And we were almost there<$FFF5><$FFF8>‥‥.<$FFFE>
+18	<$FB00><$0035>Hm？ Who are you？ Wander here<$FFFC>and you'll be taken for<$FFFC>Gizarof's men.<$FFFE>
+19	<$FFF8>‥‥<$FFF6><$FB00><$0036>Wait. That man matches the one<$FFFC>who wounded the Caconsis<$FFFC>admiral, does he not？<$FFFD><$FB00><$0037>You there, come with us.<$FFFE>
+20	<$FB00><$0038>What now？<$FFFE>
+21	<$FB00><$0039>Do as they say, and they'll<$FFFC>learn we really ARE with<$FFFC>Gizarof.<$FFFE>
+22	<$FFF8>‥‥<$FFF6><$FB00><$003A>Nothing for it but to force<$FFFC>our way. Everyone, across that<$FFFC>bridge！<$FFFE>
+23	<$FB00><$003B>Tougher than they look！<$FFFD><$FB00><$003C>Don't push too hard！ We just<$FFFC>hold them until Lady Emily<$FFFC>arrives！<$FFFE>
+24	<$FB00><$003D>Sir！<$FFFE>
+25	Everyone, hurry up！<$FFFE>
+26	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
+27	<$FB00><$0045>Whew, that was close.<$FFFE>
+28	<$FB00><$0048>Safe enough here. You hurry<$FFFC>too！<$FFFE>
+29	A cracked hole opens in the<$FFFC>ground. What do you do？<$FFFE>
+30	・Plug it with a stone<$FFFE>
+31	・Drop in some food<$FFFE>
+32	・Reach inside<$FFFE>
+33	You plug the hole with a nearby<$FFFC>stone. Nothing happens.<$FFFE>
+34	You drop some bread. It rolls<$FFFC>away into the depths.<$FFFE>
+35	You reach in and find a bird's<$FFFC>nest at the bottom. Take it？<$FFFE>
+36	Inside lies a ticket, a special<$FFFC>bargain-sale invitation.<$FFFD>But a gust from the east<$FFFC>snatches it away westward.<$FFFE>
+37	You pull your hand back empty.<$FFFE>
+38	The wind-blown ticket hangs<$FFFC>caught on a branch. Take it？<$FFFE>
+39	<$0000><$FFFC>Got the <$FFF4>Special invitation<$FFF3>！<$FFFE>
+40	You give up on the ticket.<$FFFE>
+41	To do this well against my troops<$FFF8>‥‥.<$FFFC><$FFF6>Who is that man？<$FFFE>
+42	That woman looks skilled. Fighting<$FFFC>her is risky<$FFF8>‥‥.<$FFFE>
+43	That's Emily, a famed Federation<$FFFC>officer. Fighting her now is<$FFFC>pointless.<$FFFE>
+44	Then we'd best stick to the<$FFFC>plan and cross that bridge.<$FFFE>
+45	Right. Drop the bridge once we<$FFFC>reach the far bank, and we<$FFFC>shake the pursuit.<$FFFD>Everyone, to the far shore,<$FFFC>quick！<$FFFE>
+46	Best stick to the plan and<$FFFC>cross that bridge. Then we drop<$FFFC>it and shake the pursuit.<$FFFD>Everyone, to the far shore,<$FFFC>quick！<$FFFE>
+47	Escape point<$FFFF>
+48	<$FB00><$002B>Take this！<$FFFE>
+49	<$FB00><$002D>I won't die in a place like<$FFFC>this‥‥<$FFFE>
+50	<$FB00><$0037>Don't get in my way<$FFF5><$FFF8>‥‥<$FFFE>
+51	<$FB00><$003A>Kh‥‥ that one hurt‥‥.<$FFFE>
+52	<$FB00><$003B>Leave the rest to me！<$FFFE>
+53	<$FB00><$003C>I'm counting on you‥‥<$FFFE>
+54	<$FB00><$0076>I won't lose！<$FFFE>
+55	<$FB00><$0078>Am I not good enough‥‥<$FFFE>
+56	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
+57	<$FB00><$007A>Sorry‥‥I'll take you up on<$FFFC>that‥‥<$FFFE>
+58	<$FB00><$0068>Come and get me！<$FFFE>
+59	<$FB00><$0069>Who do you think I am！<$FFFE>
+60	<$FB00><$0070>This is getting dicey‥‥<$FFFE>
+61	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
+62	<$FB00><$0072>Sorry‥‥I'll take you up on<$FFFC>that‥‥<$FFFE>
+63	I can't let you‥through‥‥<$FFFE>
+64	‥‥Uwooh！<$FFFE>
+65	‥d‥damn‥‥<$FFFE>
+66	‥L‥Lady Emily‥‥<$FFFE>
+67	‥they're‥so‥strong‥‥<$FFFE>
+68	Better with a blade than I！？<$FFFC>No choice, retreat！<$FFFE>
+69	<$FB00><$004C>Seems no one's chasing us now.<$FFFC>Let's press on while we can.<$FFFE>
+70	<$FB00><$003E>Hm？ What happened here？<$FFFE>
+71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them and<$FFFC>they attacked！<$FFFD>And one looks like the man<$FFFC>who wounded the Caconsis<$FFFC>admiral‥‥.<$FFFE>
+72	<$FB00><$0041>Gizarof's remnants, then<$FFF5><$FFF8>‥‥？<$FFFD><$FFF6><$FB00><$0042>Very well. I'll join you！<$FFFC>Capture them！<$FFFE>
+73	<$FB00><$0043>Yes, ma'am！<$FFFE>
+74	<$FB00><$0044>Kh！ They've crossed the bridge<$FFF5><$FFF8>‥‥.<$FFFE>
+75	<$FB00><$0045>But we haven't lost them yet！<$FFFC>Let's give chase！<$FFFE>
+76	<$FB00><$0046>No！ If they drop the bridge<$FFFC>mid-crossing, we're done for.<$FFFE>
+77	<$FB00><$0047>Chase too far and they'll drop<$FFFC>the bridge on us<$FFF5><$FFF8>‥‥.<$FFFD>‥‥<$FFF6><$FB00><$0048>No choice. We give up the<$FFFC>pursuit<$FFF5><$FFF8>‥‥.<$FFFE>
+78	<$FB00><$0049>Kh！ I'd give chase, but we<$FFFC>can't leave Lady Emily<$FFF5><$FFF8>‥‥.<$FE1E><$FFFC><$FFF6><$FB00><$004A>We pull back for now！<$FFFE>
+79	<$FB00><$004B>Seems they're not following.<$FFFC>Good, let's press on while we<$FFFC>can.<$FFFE>
+80	<$FFF8>Kh！<$FFFC><$FFF6>The enemy crossed the bridge<$FFF8>‥‥.<$FFFC><$FFF6>We must beat those across<$FFF8>‥‥.<$FFFE>
+81	Victory terms changed！<$FFFC><$0000><$FFFC>・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
+82	・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
