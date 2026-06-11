@@ -99,32 +99,62 @@ Capacity facts learned while building:
 - EN text is ~1.5x JP in tokens; chunk 0 padding gave ~17% headroom and
   the quiz needed a ~25% editorial trim to fit.
 
-## Stage 4 — translation.txt alignment (the main manual-ish work)
+## Status snapshot (2026-06-11, end of round 3)
 
-1. Map chunks to guide scenes: match "Scenario N" sections to chunks via
-   speaker names and line order.
-2. Per-scene alignment of guide lines to JP records, LLM-assisted, stored as
-   reviewable per-chunk translation files (JP line + EN line side by side).
-   Expect ~70-80% automation with human proofreading per scene.
-3. Translation files are the durable asset; everything else regenerates.
+Done: stages 0-3. Toolchain with byte-identical round-trip; font table 100%
+mapped; EN glyph system (Spleen 6x12 pairs, two letters per cell, baseline
+aligned to native glyphs); full EN startup quiz; 198 menu/UI runs incl.
+config screen and title; width-aware reflow; PPF builds without touching
+file sizes or layout.
 
-## Stage 5 — quality and fit
+## Stage 4a — item/class/unit names (next)
 
-0. Capacity: implement half-width bigram glyphs ("th", "he", "in"... two
-   6px letters per 12x12 cell) so EN density matches JP. After full
-   translation nearly all kanji slots become unused, freeing hundreds of
-   cells; the encoder picks bigram tokens greedily. No engine changes.
+1. Translate the name databases: item names + item descriptions and class
+   names in SYSTEM.BIN (~1800 runs), unit names in ALLUSW/ALLUSB.
+   Mechanism: same menu-map dictionary; mostly katakana -> EN, highly
+   mechanizable, fit-checked by the cell-accurate patcher.
+2. This also fixes the equipment "roulette" in the quiz (record 9 flow).
+3. Bonus: every translated run frees its kanji for the pair-glyph pool.
 
-1. Line-width budgeting (screen width in glyphs), automatic wrapping at
-   0xFFFC separators.
-2. Lowercase EN glyph injection: review which kanji slots are sacrificed so
-   that untranslated JP text is not visually corrupted (prefer slots unused
-   by the script once translation coverage is known).
-3. SYSTEM.BIN menu/UI pass (existing run-replacement approach, fixed table).
-4. Title/executable strings.
+## Stage 4b — quiz polish
+
+1. With pair glyphs the quiz uses 2891/4531 words: restore the fuller
+   phrasing of the records that were trimmed to fit (tutorials 198-204,
+   intro lines), re-verify in DuckStation.
+
+## Stage 4c — story alignment (the main volume)
+
+1. Map chunks to translation.txt scenes ("Scenario N" / "Scenario N Clear")
+   via speaker names and line order; SCEN vs SCEN2 chunk diffs decide which
+   file carries which variant.
+2. Scene-by-scene alignment of guide lines to JP records (LLM-assisted,
+   ~70-80% automation), stored as per-chunk EN dump files — the durable
+   asset. Human proofreading per scene.
+3. Per-chunk capacity: EN density now ~= JP thanks to pairs; block growth
+   into chunk tail padding covers the rest; report-driven trims where a
+   chunk still overflows.
+4. Glossary for names/terms (Sigma, Lambda, Clarett, McClaine...) kept as
+   data so script and menus stay consistent.
+5. Pair-slot pool self-balances: translated chunks free their rare kanji;
+   re-run lang5_assign_en_slots.py as coverage grows.
+
+## Stage 5 — full-game polish
+
+1. Battle log composite messages (name-prefix runs like 「の効果！」) need
+   template-aware translation.
+2. Credits: staff names stay JP or get a romanized block.
+3. Title screen logo/graphics (bitmap, optional).
+4. Verify every scenario boots and completes (savestate sweep).
+5. Release packaging: PPF + README; xdelta as alternative format.
+
+## Plan B (only if needed)
+
+- VWF / renderer advance patching (MIPS RE of the glyph blitter) — if 6px
+  half-cell letters ever feel too small. Current pair-glyph approach makes
+  this optional.
 
 ## Non-automatable (human work)
 
-- Proofreading scene alignment (stage 4).
-- Shortening EN lines that do not fit byte/width budgets.
+- Proofreading scene alignment (stage 4c).
+- Occasional line shortening where a chunk overflows.
 - Playtesting.
