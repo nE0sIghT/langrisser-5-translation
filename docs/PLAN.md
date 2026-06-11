@@ -75,12 +75,29 @@ Rewrite dump/insert around the verified block format:
 3. Regenerate the JP dump; grep for residual `<$xxxx>` in dialog text to find
    remaining gaps.
 
-## Stage 3 — proof of concept patch
+## Stage 3 — proof of concept patch (built, awaiting in-game test)
 
-1. Translate only the startup quiz (curated overrides already exist) using
-   the fixed codec.
-2. Build PPF, verify in DuckStation: quiz completes, no garbage glyphs.
-   This validates codec + font injection end to end before any mass work.
+1. Full EN startup quiz in `data/translation/en/*/chunk_000.txt` (durable
+   translation asset; the JSON overrides were only a bootstrap).
+2. EN lowercase font: `data/font_mapping/en_slot_assignments.csv` maps 24
+   new glyphs into the 3 junk tiles + 21 rare kanji slots (each used once
+   in the whole script, outside chunk 0 and outside menu strings).
+3. `scripts/lang5_build_ppf.py` builds the patch; the cue/bin pair in
+   `work/build/` boots directly in DuckStation.
+
+Capacity facts learned while building:
+
+- Text block location: the game computes `text_off = vm_off + vm_size`
+  (vm_off = u32 at chunk+0, vm_size = u32 at chunk+vm_off+0x3C), confirmed
+  on all 262 chunks and by archived runtime RE. Growing the block keeps
+  the base; only the chunk suffix shifts (in-game effect to be verified).
+- The inserter absorbs block growth into the chunk's own trailing zero
+  padding, keeping container layout and file sizes byte-identical.
+- Files cannot grow or relocate on this disc: CD audio tracks start 150
+  sectors after the last file (iso_mode2 --allow-grow would clobber them;
+  do not use it for SCEN/SCEN2).
+- EN text is ~1.5x JP in tokens; chunk 0 padding gave ~17% headroom and
+  the quiz needed a ~25% editorial trim to fit.
 
 ## Stage 4 — translation.txt alignment (the main manual-ish work)
 
@@ -92,6 +109,11 @@ Rewrite dump/insert around the verified block format:
 3. Translation files are the durable asset; everything else regenerates.
 
 ## Stage 5 — quality and fit
+
+0. Capacity: implement half-width bigram glyphs ("th", "he", "in"... two
+   6px letters per 12x12 cell) so EN density matches JP. After full
+   translation nearly all kanji slots become unused, freeing hundreds of
+   cells; the encoder picks bigram tokens greedily. No engine changes.
 
 1. Line-width budgeting (screen width in glyphs), automatic wrapping at
    0xFFFC separators.

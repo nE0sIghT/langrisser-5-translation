@@ -1,0 +1,206 @@
+# file=SCEN.DAT chunk=0 chunk_start=0x000800
+# block_base=0x1AF4 block_size=0x1FC0 records=204
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lainforce<$FFFF>
+7	Operator<$FFFF>
+8	<$FB00><$0001>Lord Gizarof. Specimen<$FFFC>ready. Awaiting orders.<$FFFE>
+9	Set equipment. Press ○.<$FFFE>
+10	<$FB00><$001F>Setup complete. Projected<$FFFC>abilities:<$FFFE>
+11	<$FB00><$0021>Then we restart the setup.<$FFFE>
+12	<$FB00><$0022>Optional settings follow.<$FFFD><$FB00><$0023>A tactics guide can be<$FFFC>added as knowledge.<$FFFD><$FB00><$0024>Review？<$FFFE>
+13	Set battle difficulty.<$FFFE>
+14	・NORMAL<$FFFE>
+15	・HARD<$FFFE>
+16	<$FFF4>HARD<$FFF3>: less exp, tougher<$FFFC>foes. Confirm？<$FFFE>
+17	<$FFFA>∑066, battle program<$FFFC>ready for input.<$FFFE>
+18	<$FFFA>∑066, set. Launching<$FFFC>cultivation‥‥.<$FFFE>
+19	<$FB00><$0002>Set the final growth form.<$FFFD><$FB00><$0003>Pick the metal to leave<$FFFC>out of the culture.<$FFFE>
+20	・Gold<$FFFE>
+21	・Silver<$FFFE>
+22	・Bronze<$FFFE>
+23	・Iron<$FFFE>
+24	<$FB00><$0004>Choose the main element.<$FFFE>
+25	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+26	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+27	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+28	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+29	<$FB00><$0005>Choose the second element.<$FFFE>
+30	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+31	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+32	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+33	<$FB00><$0005>Choose the second element.<$FFFE>
+34	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+35	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+36	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+37	<$FB00><$0005>Choose the second element.<$FFFE>
+38	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+39	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+40	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+41	<$FB00><$0005>Choose the second element.<$FFFE>
+42	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+43	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+44	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+45	<$FB00><$0006>Choose the third element.<$FFFE>
+46	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+47	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+48	<$FB00><$0006>Choose the third element.<$FFFE>
+49	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+50	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+51	<$FB00><$0006>Choose the third element.<$FFFE>
+52	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
+53	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+54	<$FB00><$0006>Choose the third element.<$FFFE>
+55	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+56	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+57	<$FB00><$0006>Choose the third element.<$FFFE>
+58	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+59	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+60	<$FB00><$0006>Choose the third element.<$FFFE>
+61	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+62	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+63	<$FB00><$0007>Choose his guardian<$FFFC>zodiac sign.<$FFFE>
+64	・Capricorn<$FFFE>
+65	・Aquarius<$FFFE>
+66	・Pisces<$FFFE>
+67	・Next zodiac list<$FFFE>
+68	<$FB00><$0008>Select guardian sign.<$FFFE>
+69	・Aries<$FFFE>
+70	・Taurus<$FFFE>
+71	・Gemini<$FFFE>
+72	・Next zodiac list<$FFFE>
+73	<$FB00><$0008>Select guardian sign.<$FFFE>
+74	・Cancer<$FFFE>
+75	・Leo<$FFFE>
+76	・Virgo<$FFFE>
+77	・Next zodiac list<$FFFE>
+78	<$FB00><$0008>Select guardian sign.<$FFFE>
+79	・Libra<$FFFE>
+80	・Scorpio<$FFFE>
+81	・Sagittarius<$FFFE>
+82	・Back to first list<$FFFE>
+83	<$FB00><$0009>Next, choose a gem.<$FFFE>
+84	・Onyx<$FFFE>
+85	・Amethyst<$FFFE>
+86	・Ruby<$FFFE>
+87	・Next gem list<$FFFE>
+88	<$FB00><$000A>Choose a gem.<$FFFE>
+89	・Emerald<$FFFE>
+90	・Topaz<$FFFE>
+91	・Aquamarine<$FFFE>
+92	・Next gem list<$FFFE>
+93	<$FB00><$000A>Choose a gem.<$FFFE>
+94	・Obsidian<$FFFE>
+95	・Sugilite<$FFFE>
+96	・Garnet<$FFFE>
+97	・Next gem list<$FFFE>
+98	<$FB00><$000A>Choose a gem.<$FFFE>
+99	・Malachite<$FFFE>
+100	・Agate<$FFFE>
+101	・Sapphire<$FFFE>
+102	・Back to first list<$FFFE>
+103	<$FB00><$000C>Choose his core behavior.<$FFFE>
+104	・Kindness<$FFFE>
+105	・Resolution<$FFFE>
+106	・Courage<$FFFE>
+107	・Strength<$FFFE>
+108	<$FB00><$001C>Which ideal fits him？<$FFFE>
+109	・Survive whatever the cost<$FFFE>
+110	・Risk himself for allies<$FFFE>
+111	・Kill allies for secrecy<$FFFE>
+112	・Lives over the mission<$FFFE>
+113	<$FB00><$001D>His main study program？<$FFFE>
+114	・Theology<$FFFE>
+115	・Sorcery<$FFFE>
+116	・Defensive tactics<$FFFE>
+117	・Offensive tactics<$FFFE>
+118	<$FB00><$000D>His reaction to love？<$FFFE>
+119	・Active response<$FFFE>
+120	・Passive response<$FFFE>
+121	・Skeptical response<$FFFE>
+122	・No response<$FFFE>
+123	<$FB00><$0017>In despair, what saves<$FFFC>him？<$FFFE>
+124	・Unbroken will<$FFFE>
+125	・Lover or close friend<$FFFE>
+126	・Passage of time<$FFFE>
+127	・A divine miracle<$FFFE>
+128	<$FB00><$000E>What drives his courage？<$FFFE>
+129	・Friendship or love<$FFFE>
+130	・Indomitable will<$FFFE>
+131	・Selfless heart<$FFFE>
+132	・Strong obsession<$FFFE>
+133	<$FB00><$000F>Define true strength.<$FFFE>
+134	・Brilliant intellect<$FFFE>
+135	・High combat ability<$FFFE>
+136	・Strong spiritual power<$FFFE>
+137	・Inspiring leadership<$FFFE>
+138	<$FB00><$000B>His stance toward the<$FFFC>gods？<$FFFE>
+139	・Faith in the Light Goddess<$FFFE>
+140	・Faith in the Chaos God<$FFFE>
+141	・No faith in gods<$FFFE>
+142	・The specimen's own will<$FFFE>
+143	<$FB00><$0010>His preferred color？<$FFFE>
+144	・Purple<$FFFE>
+145	・White<$FFFE>
+146	・Yellow<$FFFE>
+147	・Red<$FFFE>
+148	<$FB00><$0018>Program which beast trait？<$FFFE>
+149	・Tiger<$FFFE>
+150	・Wolf<$FFFE>
+151	・Horse<$FFFE>
+152	・Hawk<$FFFE>
+153	<$FB00><$0013>His field of interest？<$FFFE>
+154	・Wealth and power<$FFFE>
+155	・Eternal beauty<$FFFE>
+156	・Lost knowledge<$FFFE>
+157	・The conqueror's tactics<$FFFE>
+158	<$FB00><$0012>His power shall serve‥‥<$FFFE>
+159	・To rule everything<$FFFE>
+160	・To become a god<$FFFE>
+161	・To bring peace<$FFFE>
+162	・For people's happiness<$FFFE>
+163	<$FB00><$0019>What makes a man？<$FFFE>
+164	・One with a burning soul<$FFFE>
+165	・One with a body of steel<$FFFE>
+166	・One who fights for love<$FFFE>
+167	・One who upholds justice<$FFFE>
+168	<$FB00><$0011>His mindset before battle？<$FFFE>
+169	・Fight by pure instinct<$FFFE>
+170	・Fight filled with revenge<$FFFE>
+171	・Obey mission selflessly<$FFFE>
+172	・Fight only in defense<$FFFE>
+173	<$FB00><$0014>His best tactic？<$FFFE>
+174	・Ambush tactics<$FFFE>
+175	・Overwhelming force<$FFFE>
+176	・Information warfare<$FFFE>
+177	・Psychological warfare<$FFFE>
+178	<$FB00><$001B>His preferred troops？<$FFFE>
+179	・Small elite force<$FFFE>
+180	・Numbers over strength<$FFFE>
+181	・One strong commander<$FFFE>
+182	・A force loyal to command<$FFFE>
+183	<$FB00><$001A>If ambushed, he will‥‥<$FFFE>
+184	・Retreat and regroup<$FFFE>
+185	・Immediate counterattack<$FFFE>
+186	・Hold and regroup<$FFFE>
+187	・Scout first, then react<$FFFE>
+188	<$FB00><$0016>What shall we enhance？<$FFFE>
+189	・Might<$FFFE>
+190	・Intellect<$FFFE>
+191	・Command<$FFFE>
+192	・Charisma<$FFFE>
+193	<$FB00><$0015>Stimulate which instinct？<$FFFE>
+194	・Predatory instinct<$FFFE>
+195	・Sleep instinct<$FFFE>
+196	・Aggressive instinct<$FFFE>
+197	・Sexual instinct<$FFFE>
+198	Each stage: story, then<$FFFC>the <$FFF4>prep menu<$FFF3>.<$FFFD>Hire, trade, deploy. <$FFF4>Deploy<$FFF3><$FFFC>starts battle.<$FFFD>First map: no shop. Press<$FFFC><$FFF4>△<$FFF3> for command help.<$FFFE>
+199	Try a <$FFF4>virtual battle<$FFF3> to<$FFFC>learn combat？<$FFFE>
+200	<$FFF4>Action system<$FFF3> basics.<$FFFD>Near real time. Turns are<$FFFC>a guide in timed maps.<$FFFD>Units act when the <$FFF4>action<$FFF3><$FFFC><$FFF4>meter<$FFF3> fills over time.<$FFFD>Commands spend the meter.<$FFFD>Launching virtual battle.<$FFFE>
+201	Two key topics remain.<$FFFD><$FFF4>Action system: basics<$FFF3><$FFFC>Review？<$FFFE>
+202	Near real time. Turns are<$FFFC>only a guide.<$FFFD>Units act when the meter<$FFFC>fills. Commands spend it.<$FFFD>Next to act: top right.<$FFFE>
+203	<$FFF4>Action system: meter<$FFF3><$FFFC>Review？<$FFFE>
+204	Meter: info bar below.<$FFFD>Full meter: may act.<$FFFD>Yellow: action. Red: cost<$FFFC>to attack.<$FFFE><$FFFF>

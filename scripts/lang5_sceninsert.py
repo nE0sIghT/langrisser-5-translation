@@ -2,16 +2,23 @@
 """Insert edited script dump back into SCEN.DAT/SCEN2.DAT.
 
 Records are re-encoded and repacked inside the original text block of each
-chunk: records may trade space with each other, but the block base, size,
-record count and everything outside the block stay byte-identical. The
-space after the last record is padded with zero words.
+chunk: records may trade space with each other, but the block base, record
+count and everything outside the block stay byte-identical. The space after
+the last record is padded with zero words.
+
+With --allow-grow, a text block that no longer fits is enlarged in place:
+the block size word is updated, the chunk suffix shifts down, the chunk is
+re-padded to sector alignment and the container chunk pointer table is
+rebuilt. The block base stays put because the game derives it as
+vm_off + vm_size (see docs/PLAN.md), both of which are untouched.
 """
 import argparse
-import re
+import struct
 from pathlib import Path
 
 from lang5_scen import (
     Codec,
+    TextBlock,
     find_text_block,
     load_charmap_csv,
     load_charmap_tbl,
@@ -19,7 +26,7 @@ from lang5_scen import (
     words_to_bytes,
 )
 
-CHUNK_FILE_RE = re.compile(r"chunk_(\d+)\.txt$")
+CHUNK_ALIGN = 0x800
 
 
 def parse_dump_file(path: Path) -> dict[int, str]:
@@ -33,63 +40,103 @@ def parse_dump_file(path: Path) -> dict[int, str]:
     return out
 
 
-def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec) -> int:
-    data = bytearray(src.read_bytes())
+def rebuild_block(chunk: bytes, block: TextBlock, edits: dict[int, str],
+                  codec: Codec, max_size: int, label: str) -> bytes:
+    """Re-encode records into a new text block image. The result keeps the
+    original block size when the text fits; otherwise it is exactly as
+    large as needed, up to max_size."""
+    table_len = 2 + 2 * len(block.offsets)
+
+    payloads: list[bytes] = []
+    for ridx in range(1, block.record_count + 1):
+        a, b = block.record_span(ridx)
+        if ridx in edits:
+            payloads.append(words_to_bytes(codec.encode(edits[ridx])))
+        else:
+            payloads.append(chunk[a:b])
+    body = b"".join(payloads)
+
+    needed = table_len + len(body)
+    if needed > max_size:
+        raise SystemExit(
+            f"{label}: text needs {len(body)} bytes, available budget is "
+            f"{max_size - table_len}. Shorten the text or use --allow-grow."
+        )
+    out_size = block.size if needed <= block.size else needed  # fits => suffix does not move
+    if out_size > 0xFFFF:
+        raise SystemExit(f"{label}: text block would exceed u16 size limit")
+
+    blob = bytearray(out_size)
+    blob[0:2] = out_size.to_bytes(2, "little")
+    cur = table_len
+    for i, payload in enumerate(payloads, start=1):
+        blob[2 + 2 * i : 4 + 2 * i] = cur.to_bytes(2, "little")
+        blob[cur : cur + len(payload)] = payload
+        cur += len(payload)
+    return bytes(blob)
+
+
+def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
+                allow_grow: bool = False) -> int:
+    data = src.read_bytes()
+    spans = read_chunk_spans(data)
+    new_chunks: list[bytes] = []
     changed = 0
+    grew = False
 
-    for cidx, (s, e) in enumerate(read_chunk_spans(bytes(data))):
+    for cidx, (s, e) in enumerate(spans):
+        chunk = data[s:e]
         dump_path = dump_root / src.stem / f"chunk_{cidx:03d}.txt"
-        if not dump_path.exists():
-            continue
-        edits = parse_dump_file(dump_path)
-        if not edits:
-            continue
+        edits = parse_dump_file(dump_path) if dump_path.exists() else {}
+        if edits:
+            block = find_text_block(chunk)
+            orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
+            max_size = 0xFFFF if allow_grow else block.size + (orig_tz & ~1)
+            blob = rebuild_block(chunk, block, edits, codec, max_size,
+                                 f"{src.name} chunk {cidx}")
+            new_chunk = chunk[: block.base] + blob + chunk[block.base + block.size :]
+            if len(new_chunk) > len(chunk):
+                # Absorb growth into the chunk's own trailing zero padding
+                # so the container layout (and the ISO) stays untouched.
+                orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
+                stripped = new_chunk.rstrip(b"\x00")
+                removable = min(orig_tz, len(new_chunk) - len(stripped))
+                if len(new_chunk) - removable <= len(chunk):
+                    new_chunk = new_chunk[: len(new_chunk) - removable]
+                    new_chunk += b"\x00" * (len(chunk) - len(new_chunk))
+            if len(new_chunk) % CHUNK_ALIGN:
+                new_chunk += b"\x00" * (CHUNK_ALIGN - len(new_chunk) % CHUNK_ALIGN)
+            if len(new_chunk) != len(chunk):
+                grew = True
+                print(f"{src.name} chunk {cidx}: grown 0x{len(chunk):X} -> 0x{len(new_chunk):X}")
+            if new_chunk != chunk:
+                changed += 1
+            new_chunks.append(new_chunk)
+        else:
+            new_chunks.append(chunk)
 
-        chunk = bytes(data[s:e])
-        block = find_text_block(chunk)
-        table_end = block.base + 2 + 2 * len(block.offsets)
-
-        # Collect record payloads: edited ones re-encoded, others verbatim.
-        payloads: list[bytes] = []
-        for ridx in range(1, block.record_count + 1):
-            a, b = block.record_span(ridx)
-            if ridx in edits:
-                payloads.append(words_to_bytes(codec.encode(edits[ridx])))
-            else:
-                payloads.append(chunk[a:b])
-
-        body = b"".join(payloads)
-        budget = block.size - (table_end - block.base)
-        if len(body) > budget:
-            raise SystemExit(
-                f"{src.name} chunk {cidx}: text needs {len(body)} bytes, "
-                f"block budget is {budget}. Shorten the text."
-            )
-
-        # Rebuild offsets and assemble the block at its original size.
-        new_offsets = list(block.offsets)
-        cur = table_end - block.base
-        for i, payload in enumerate(payloads, start=1):
-            new_offsets[i] = cur
-            cur += len(payload)
-
-        blob = bytearray(chunk[block.base : block.base + block.size])
-        # blob[0:2] is block_size, offsets[i] lives at blob[2+2*i].
-        for i, off in enumerate(new_offsets):
-            if i == 0:
-                continue
-            blob[2 + 2 * i : 4 + 2 * i] = off.to_bytes(2, "little")
-        pos = table_end - block.base
-        blob[pos : pos + len(body)] = body
-        blob[pos + len(body) : block.size] = b"\x00" * (block.size - pos - len(body))
-
-        abs_base = s + block.base
-        if bytes(blob) != bytes(data[abs_base : abs_base + block.size]):
-            changed += 1
-            data[abs_base : abs_base + block.size] = blob
+    if not grew:
+        out = bytearray(data)
+        for (s, e), chunk in zip(spans, new_chunks):
+            out[s:e] = chunk
+        result = bytes(out)
+    else:
+        header = bytearray(data[: spans[0][0]])
+        cur = spans[0][0]
+        ptrs: list[int] = []
+        blobs: list[bytes] = []
+        for chunk in new_chunks:
+            ptrs.append(cur)
+            blobs.append(chunk)
+            cur += len(chunk)
+        ptrs.append(cur)
+        for i, p in enumerate(ptrs):
+            struct.pack_into("<I", header, i * 4, p)
+        result = bytes(header) + b"".join(blobs)
+        print(f"{src.name}: container rebuilt, size {len(data)} -> {len(result)}")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_bytes(bytes(data))
+    out_path.write_bytes(result)
     print(f"{src.name}: chunks_changed={changed} -> {out_path}")
     return changed
 
@@ -103,6 +150,8 @@ def main() -> None:
                     help="groups_report.csv or a HHHH=c .tbl file")
     ap.add_argument("--out-scen", default="work/build/SCEN.DAT")
     ap.add_argument("--out-scen2", default="work/build/SCEN2.DAT")
+    ap.add_argument("--allow-grow", action="store_true",
+                    help="Allow text blocks (and the container) to grow.")
     args = ap.parse_args()
 
     charmap_path = Path(args.charmap)
@@ -112,8 +161,8 @@ def main() -> None:
         codec = Codec(load_charmap_csv(charmap_path))
 
     dump_root = Path(args.dump_dir)
-    insert_file(Path(args.scen), dump_root, Path(args.out_scen), codec)
-    insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec)
+    insert_file(Path(args.scen), dump_root, Path(args.out_scen), codec, args.allow_grow)
+    insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec, args.allow_grow)
 
 
 if __name__ == "__main__":
