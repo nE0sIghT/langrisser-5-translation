@@ -31,8 +31,13 @@ def main() -> None:
     scripts = Path(__file__).parent
 
     run(scripts / "lang5_build_en_font.py", "--system-bin", args.system,
-        "--out-system-bin", "work/build/SYSTEM.BIN.en",
+        "--out-system-bin", "work/build/SYSTEM.BIN.font",
         "--out-tbl", "work/tables/lang5_en.tbl")
+
+    run(scripts / "lang5_patch_system_menu.py",
+        "--system-in", "work/build/SYSTEM.BIN.font",
+        "--system-out", "work/build/SYSTEM.BIN.en",
+        "--tbl", "work/tables/lang5_en.tbl")
 
     run(scripts / "lang5_sceninsert.py", "--scen", args.scen, "--scen2", args.scen2,
         "--dump-dir", args.en_dump, "--charmap", "work/tables/lang5_en.tbl",

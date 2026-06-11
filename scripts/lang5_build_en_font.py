@@ -33,14 +33,20 @@ def pick_font(path: str, size: int) -> ImageFont.FreeTypeFont:
     raise SystemExit("no usable TTF found")
 
 
-def render_tile(ch: str, font: ImageFont.FreeTypeFont) -> bytes:
-    """Render with a common baseline so letters do not jump vertically."""
+def render_tile(text: str, font: ImageFont.FreeTypeFont) -> bytes:
+    """Render 1 or 2 characters into one 12x12 tile on a common baseline.
+
+    Pairs are drawn at a 6px pitch (PixelMplus halfwidth glyphs are 5px
+    wide), which is what makes EN text as dense as the JP original and
+    removes the huge inter-letter gaps of one-letter-per-cell text.
+    Single lowercase/punctuation is left-aligned so word tails join up.
+    """
     img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     d = ImageDraw.Draw(img)
     ascent, _descent = font.getmetrics()
-    bbox = d.textbbox((0, 0), ch, font=font)
-    x = (GLYPH_W - (bbox[2] - bbox[0])) // 2 - bbox[0]
-    d.text((x, BASELINE_ROW - ascent), ch, font=font, fill=0)
+    for k, ch in enumerate(text[:2]):
+        bbox = d.textbbox((0, 0), ch, font=font)
+        d.text((k * 6 - bbox[0], BASELINE_ROW - ascent), ch, font=font, fill=0)
     img = img.point(lambda v: 0 if v < 140 else 255)
     px = img.load()
     out = bytearray(GLYPH_BYTES)
@@ -78,6 +84,9 @@ def main() -> None:
     for tok, ch in assignments.items():
         tok2char[tok] = ch
     tok2char[0x0000] = " "
+    # ASCII normalization targets for EN text on native fullwidth glyphs.
+    tok2char.setdefault(0x0005, "？")
+    tok2char.setdefault(0x0006, "！")
 
     font = pick_font(args.font, args.font_size)
     data = bytearray(Path(args.system_bin).read_bytes())

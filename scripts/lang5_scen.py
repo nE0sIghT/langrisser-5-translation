@@ -145,7 +145,7 @@ def load_charmap_csv(path: Path) -> dict[int, str]:
 
 
 def load_charmap_tbl(path: Path) -> dict[int, str]:
-    """token -> char from a HHHH=c table file."""
+    """token -> text (1-2 chars) from a HHHH=text table file."""
     out: dict[int, str] = {}
     for raw in path.read_text(encoding="utf-8").splitlines():
         if not raw.strip() or raw.lstrip().startswith("#") or "=" not in raw:
@@ -155,7 +155,7 @@ def load_charmap_tbl(path: Path) -> dict[int, str]:
             tok = int(a.strip(), 16)
         except ValueError:
             continue
-        if len(b) == 1:
+        if 1 <= len(b) <= 2:
             out[tok] = b
     return out
 
@@ -185,6 +185,8 @@ class Codec:
         return "".join(out)
 
     def encode(self, text: str) -> list[int]:
+        """Greedy longest-match: pair tokens (2 chars) win over singles, so
+        words pack two letters per glyph cell when pair glyphs exist."""
         out: list[int] = []
         i = 0
         while i < len(text):
@@ -193,10 +195,14 @@ class Codec:
                 out.append(int(m.group(1), 16))
                 i = m.end()
                 continue
-            ch = text[i]
-            tok = self.char2tok.get(ch)
+            tok = self.char2tok.get(text[i : i + 2])
+            if tok is not None:
+                out.append(tok)
+                i += 2
+                continue
+            tok = self.char2tok.get(text[i])
             if tok is None:
-                raise ValueError(f"cannot encode character {ch!r} at position {i}")
+                raise ValueError(f"cannot encode character {text[i]!r} at position {i}")
             out.append(tok)
             i += 1
         return out

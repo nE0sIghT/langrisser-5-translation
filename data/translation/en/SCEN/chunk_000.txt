@@ -7,18 +7,18 @@
 5	Brenda<$FFFF>
 6	Marshal Lainforce<$FFFF>
 7	Operator<$FFFF>
-8	<$FB00><$0001>Lord Gizarof. Specimen<$FFFC>ready. Awaiting orders.<$FFFE>
+8	<$FB00><$0001>Lord Gizarof. The specimen is<$FFFC>ready for cultivation. I will<$FFFC>read out each step. Your orders,<$FFFC>please.<$FFFE>
 9	Set equipment. Press ○.<$FFFE>
 10	<$FB00><$001F>Setup complete. Projected<$FFFC>abilities:<$FFFE>
 11	<$FB00><$0021>Then we restart the setup.<$FFFE>
-12	<$FB00><$0022>Optional settings follow.<$FFFD><$FB00><$0023>A tactics guide can be<$FFFC>added as knowledge.<$FFFD><$FB00><$0024>Review？<$FFFE>
+12	<$FB00><$0022>Optional settings follow.<$FFFD><$FB00><$0023>A tactics guide can be added<$FFFC>as knowledge.<$FFFD><$FB00><$0024>Review？<$FFFE>
 13	Set battle difficulty.<$FFFE>
 14	・NORMAL<$FFFE>
 15	・HARD<$FFFE>
-16	<$FFF4>HARD<$FFF3>: less exp, tougher<$FFFC>foes. Confirm？<$FFFE>
-17	<$FFFA>∑066, battle program<$FFFC>ready for input.<$FFFE>
+16	<$FFF4>HARD<$FFF3>: less exp, tougher foes.<$FFFC>Confirm？<$FFFE>
+17	<$FFFA>∑066, battle program ready<$FFFC>for input.<$FFFE>
 18	<$FFFA>∑066, set. Launching<$FFFC>cultivation‥‥.<$FFFE>
-19	<$FB00><$0002>Set the final growth form.<$FFFD><$FB00><$0003>Pick the metal to leave<$FFFC>out of the culture.<$FFFE>
+19	<$FB00><$0002>Set the final growth form.<$FFFD><$FB00><$0003>Pick the metal to leave out of<$FFFC>the culture.<$FFFE>
 20	・Gold<$FFFE>
 21	・Silver<$FFFE>
 22	・Bronze<$FFFE>
@@ -62,7 +62,7 @@
 60	<$FB00><$0006>Choose the third element.<$FFFE>
 61	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
 62	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-63	<$FB00><$0007>Choose his guardian<$FFFC>zodiac sign.<$FFFE>
+63	<$FB00><$0007>Choose his guardian zodiac sign.<$FFFE>
 64	・Capricorn<$FFFE>
 65	・Aquarius<$FFFE>
 66	・Pisces<$FFFE>
@@ -122,7 +122,7 @@
 120	・Passive response<$FFFE>
 121	・Skeptical response<$FFFE>
 122	・No response<$FFFE>
-123	<$FB00><$0017>In despair, what saves<$FFFC>him？<$FFFE>
+123	<$FB00><$0017>In despair, what saves him？<$FFFE>
 124	・Unbroken will<$FFFE>
 125	・Lover or close friend<$FFFE>
 126	・Passage of time<$FFFE>
@@ -137,7 +137,7 @@
 135	・High combat ability<$FFFE>
 136	・Strong spiritual power<$FFFE>
 137	・Inspiring leadership<$FFFE>
-138	<$FB00><$000B>His stance toward the<$FFFC>gods？<$FFFE>
+138	<$FB00><$000B>His stance toward the gods？<$FFFE>
 139	・Faith in the Light Goddess<$FFFE>
 140	・Faith in the Chaos God<$FFFE>
 141	・No faith in gods<$FFFE>
@@ -197,10 +197,10 @@
 195	・Sleep instinct<$FFFE>
 196	・Aggressive instinct<$FFFE>
 197	・Sexual instinct<$FFFE>
-198	Each stage: story, then<$FFFC>the <$FFF4>prep menu<$FFF3>.<$FFFD>Hire, trade, deploy. <$FFF4>Deploy<$FFF3><$FFFC>starts battle.<$FFFD>First map: no shop. Press<$FFFC><$FFF4>△<$FFF3> for command help.<$FFFE>
-199	Try a <$FFF4>virtual battle<$FFF3> to<$FFFC>learn combat？<$FFFE>
-200	<$FFF4>Action system<$FFF3> basics.<$FFFD>Near real time. Turns are<$FFFC>a guide in timed maps.<$FFFD>Units act when the <$FFF4>action<$FFF3><$FFFC><$FFF4>meter<$FFF3> fills over time.<$FFFD>Commands spend the meter.<$FFFD>Launching virtual battle.<$FFFE>
-201	Two key topics remain.<$FFFD><$FFF4>Action system: basics<$FFF3><$FFFC>Review？<$FFFE>
-202	Near real time. Turns are<$FFFC>only a guide.<$FFFD>Units act when the meter<$FFFC>fills. Commands spend it.<$FFFD>Next to act: top right.<$FFFE>
-203	<$FFF4>Action system: meter<$FFF3><$FFFC>Review？<$FFFE>
-204	Meter: info bar below.<$FFFD>Full meter: may act.<$FFFD>Yellow: action. Red: cost<$FFFC>to attack.<$FFFE><$FFFF>
+198	Each stage: story, then the<$FFF4>prep menu<$FFF3>.<$FFFD>Hire, trade, deploy.<$FFF4>Deploy<$FFF3>starts battle.<$FFFD>First map: no shop. Press<$FFF4>△<$FFF3>for command help.<$FFFE>
+199	Try a<$FFF4>virtual battle<$FFF3>to learn combat？<$FFFE>
+200	<$FFF4>Action system<$FFF3>basics.<$FFFD>Near real time. Turns are a<$FFFC>guide in timed maps.<$FFFD>Units act when the<$FFF4>action<$FFF3><$FFF4>meter<$FFF3>fills over time.<$FFFD>Commands spend the meter.<$FFFD>Launching virtual battle.<$FFFE>
+201	Two key topics remain.<$FFFD><$FFF4>Action system: basics<$FFF3>Review？<$FFFE>
+202	Near real time. Turns are only<$FFFC>a guide.<$FFFD>Units act when the meter<$FFFC>fills. Commands spend it.<$FFFD>Next to act: top right.<$FFFE>
+203	<$FFF4>Action system: meter<$FFF3>Review？<$FFFE>
+204	Meter: info bar below.<$FFFD>Full meter: may act.<$FFFD>Yellow: action. Red: cost to<$FFFC>attack.<$FFFE><$FFFF>

@@ -2,8 +2,8 @@ index_dec,index_hex,group,char,source
 0,0,confirmed,,fallback
 1,1,confirmed,『,tesseract:jpn_psm10
 2,2,confirmed,』,tesseract:jpn_psm10
-3,3,confirmed,",",manual:user_confirmed
-4,4,confirmed,.,manual:user_confirmed
+3,3,confirmed,、,manual:user_confirmed
+4,4,confirmed,。,manual:user_confirmed
 5,5,confirmed,？,token_map
 6,6,confirmed,！,token_map
 7,7,confirmed,0,token_map
