@@ -15,7 +15,7 @@
 13	・<$F600><$0000> or Lambda dies<$FFFE>
 14	Magic Institute ～Culture Ward～<$FFFF>
 15	<$FB00><$0033>Lord Lainforce. Is this the<$FFFC>place？ Isn't this the laboratory<$FFFC>of Federation Marshal Gizarof<$FFF5><$FFF8>‥‥.<$FFFE>
-16	<$FB00><$0034>Indeed. The fruits of his<$FFFC>research sleep here. Inside lies<$FFFC>the<$FFF4>specimen<$FFF3>we seek.<$FFFE>
+16	<$FB00><$0034>Indeed. The fruits of his<$FFFC>research sleep here. Inside lies<$FFFC>the <$FFF4>specimen<$FFF3> we seek.<$FFFE>
 17	<$FB00><$0035>A specimen<$FFF5><$FFF8>‥‥.<$FFFE>
 18	<$FB00><$0036>Gizarof made humans of terrible<$FFFC>power. A specimen is one born of<$FFFC>that work.<$FFFE>
 19	<$FB00><$0037>They are already deep inside.<$FFFE>
@@ -38,14 +38,14 @@
 36	<$FB00><$0063>Is she going to be okay？<$FFFE>
 37	<$FB00><$0064>Better to worry about ourselves<$FFFC>right now.<$FFFE>
 38	<$FB00><$0061>Hurry up, Lambda！<$FFFE>
-39	<$FB00><$0066>Hurry it up, or we leave<$FFFC>you behind.<$FFFE>
+39	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
 40	<$FB00><$0067>I know, I know.<$FFFE>
 41	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
 42	<$FB00><$0049>Seems our foes are quite<$FFFC>skilled.<$FFFE>
 43	<$FB00><$004A>You can tell？<$FFFE>
 44	<$FB00><$004B>Yeah. No wasted movement.<$FFFD><$FB00><$004C>What now？ Want to try fighting<$FFFC>them？<$FFFE>
 45	<$FB00><$004D>We've only just awakened and<$FFFC>can't use our true strength.<$FFFC>Running is wiser.<$FFFE>
-46	<$FB00><$004E>Then we head for the<$FFF4>back gate<$FFF3>. It's the least guarded.<$FFFE>
+46	<$FB00><$004E>Then we head for the <$FFF4>back gate<$FFF3>. It's the least guarded.<$FFFE>
 47	<$0000>Escape Point<$0000><$FFFF>
 48	<$FB00><$004F>Understood.<$FFFE>
 49	<$FB00><$003F>Out of my way！<$FFFE>
@@ -72,15 +72,15 @@
 70	N‥not in a place‥like this‥‥<$FFFE>
 71	D‥damn it<$00E4><$00E5><$00E6>！<$FFFE>
 72	Good. The enemy can't move<$FFFC>anymore.<$FFFE>
-73	<$FB00><$005D>D‥damn‥‥. If only I had<$FFF4>Langrisser<$FFF3>, scum like you would<$FFF5><$FFF8>‥‥.<$FFFE>
+73	<$FB00><$005D>D‥damn‥‥. If only I had <$FFF4>Langrisser<$FFF3>, scum like you would<$FFF5><$FFF8>‥‥.<$FFFE>
 74	There is a switch on the panel.<$FFFC>Press it？<$FFFE>
 75	The sound came from here！<$FFFE>
 76	The machine started up.<$FFFE>
 77	There is a switch on the panel.<$FFFC>Press it？<$FFFE>
 78	The sound came from here！<$FFFE>
 79	The machine started up.<$FFFE>
-80	A black robe appeared on the<$FFFC>table！<$FFFD><$0000><$0000>Got the<$FFF4>Dark Robe<$FFF3>！<$FFFE>
-81	A single wand appeared on the<$FFFC>table！<$FFFD><$0000><$0000>Got the<$FFF4>Wand<$FFF3>！<$FFFE>
+80	A black robe appeared on the<$FFFC>table！<$FFFD><$0000><$0000>Got the <$FFF4>Dark Robe<$FFF3>！<$FFFE>
+81	A single wand appeared on the<$FFFC>table！<$FFFD><$0000><$0000>Got the <$FFF4>Wand<$FFF3>！<$FFFE>
 82	<$FB00><$003D>So you're the target specimen？<$FFFE>
 83	<$FB00><$003E>Or is it you？<$FFFE>
 84	？<$FB00><$0042>What are you talking about？<$FFFE>
@@ -109,7 +109,7 @@
 107	<$FB00><$0074>Sir, at once.<$FFFE>
 108	<$FB00><$0048>Uwooh！<$FFFE>
 109	<$FB00><$0046>Behave, and you won't be hurt.<$FFFE>
-110	<$FB00><$005D>D‥damn‥‥. If only I had<$FFF4>Langrisser<$FFF3>, scum like you would<$FFF5><$FFF8>‥‥.<$FFFE>
+110	<$FB00><$005D>D‥damn‥‥. If only I had <$FFF4>Langrisser<$FFF3>, scum like you would<$FFF5><$FFF8>‥‥.<$FFFE>
 111	I have come for you, Lord<$FFFC>Lainforce.<$FFFE>
 112	Z‥Zero‥‥.<$FFFE>
 113	What a state you are in‥‥.<$FFFD>How did this happen with you at<$FFFC>his side, Aizer？<$FFFE>
@@ -117,7 +117,7 @@
 115	Never mind that, Zero. The<$FFFC>third specimen‥‥.<$FFFE>
 116	By your will.<$FFFE>
 117	<$FB00><$0048><$FFF4>Uwooooohh！<$FFF3><$FFFE>
-118	<$FB00><$005D>D‥damn‥‥. If only I had<$FFF4>Langrisser<$FFF3>, scum like you would<$FFF5><$FFF8>‥‥.<$FFFE>
+118	<$FB00><$005D>D‥damn‥‥. If only I had <$FFF4>Langrisser<$FFF3>, scum like you would<$FFF5><$FFF8>‥‥.<$FFFE>
 119	Mission complete.<$FFFE>
 120	Well done, Zero. Take that<$FFFC>specimen and return.<$FFFE>
 121	But then you‥‥.<$FFFE>

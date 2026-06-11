@@ -15,7 +15,7 @@
 13	Finally, choose the expected<$FFFC>difficulty of the battles ahead.<$FFFE>
 14	・NORMAL<$FFFE>
 15	・HARD<$FFFE>
-16	<$FFF4>HARD<$FFF3>makes experience harder to earn,<$FFFC>and enemies are stronger.<$FFFC>Confirm？<$FFFE>
+16	<$FFF4>HARD<$FFF3> makes experience harder to earn,<$FFFC>and enemies are stronger.<$FFFC>Confirm？<$FFFE>
 17	<$FFFA>∑066, virtual battle program<$FFFC>launched. Please prepare for<$FFFC>input.<$FFFE>
 18	<$FFFA>∑066, set complete. Launching<$FFFC>cultivation program‥‥.<$FFFE>
 19	<$FB00><$0002>First, set the final growth<$FFFC>form.<$FFFD><$FB00><$0003>3 of these 4 metals will be<$FFFC>mixed into the culture fluid.<$FFFC>Choose the one to leave out.<$FFFE>
@@ -197,10 +197,10 @@
 195	・Sleep instinct<$FFFE>
 196	・Aggressive instinct<$FFFE>
 197	・Sexual instinct<$FFFE>
-198	Each stage opens with a story<$FFFC>scene, then moves to the<$FFF4>preparations menu<$FFF3>.<$FFFD>There you hire mercenaries, buy<$FFFC>and equip items, and deploy<$FFFC>commanders.<$FFFD>Once all commanders are placed,<$FFF4>Deploy<$FFF3>starts the battle.<$FFFD>The first battlefield has no<$FFFC>shop or mercenary post, and<$FFFC>deployment is fixed.<$FFFD>Press the<$FFF4>△ button<$FFF3>on any command to view its<$FFFC>description.<$FFFE>
-199	The specimen can experience a<$FFF4>virtual battle<$FFF3>to learn how combat works.<$FFFD>Try it？<$FFFE>
-200	First, some basic knowledge about<$FFFC>the<$FFF4>action system<$FFF3>.<$FFFD>It runs close to real time. Turn<$FFFC>counts only matter in timed<$FFFC>scenarios.<$FFFD>Each unit may act when its<$FFFC>commander's<$FFF4>action meter<$FFF3>fills as turns flow by.<$FFFD>The meter is in the info bar<$FFFC>below. Its size shows the action<$FFFC>capacity.<$FFFD>Issuing a command deducts its<$FFFC>action cost from the meter.<$FFFD>So units act whenever the meter<$FFFC>is full, not once per turn.<$FFFD>Now launching the virtual battle<$FFFC>program.<$FFFE>
-201	Finally, two key topics can be<$FFFC>input.<$FFFD>Even without the virtual battle,<$FFFC>these are worth teaching.<$FFFD><$FFF4>Action system: basics<$FFF3>Review？<$FFFE>
-202	The action order system runs<$FFFC>close to real time. Turns are<$FFFC>only a guide.<$FFFD>Units act when the commander's<$FFF4>action meter<$FFF3>fills as turns pass.<$FFFD>Issuing a command deducts its<$FFFC>cost from the meter.<$FFFD>So units act whenever their<$FFFC>meter is full, not once per<$FFFC>turn.<$FFFD>The next unit to act is shown<$FFFC>at the top right.<$FFFE>
-203	<$FFF4>Action system: meter<$FFF3>Review？<$FFFE>
+198	Each stage opens with a story<$FFFC>scene, then moves to the <$FFF4>preparations menu<$FFF3>.<$FFFD>There you hire mercenaries, buy<$FFFC>and equip items, and deploy<$FFFC>commanders.<$FFFD>Once all commanders are placed, <$FFF4>Deploy<$FFF3> starts the battle.<$FFFD>The first battlefield has no<$FFFC>shop or mercenary post, and<$FFFC>deployment is fixed.<$FFFD>Press the <$FFF4>△ button<$FFF3> on any command to view its<$FFFC>description.<$FFFE>
+199	The specimen can experience a <$FFF4>virtual battle<$FFF3> to learn how combat works.<$FFFD>Try it？<$FFFE>
+200	First, some basic knowledge about<$FFFC>the <$FFF4>action system<$FFF3>.<$FFFD>It runs close to real time. Turn<$FFFC>counts only matter in timed<$FFFC>scenarios.<$FFFD>Each unit may act when its<$FFFC>commander's <$FFF4>action meter<$FFF3> fills as turns flow by.<$FFFD>The meter is in the info bar<$FFFC>below. Its size shows the action<$FFFC>capacity.<$FFFD>Issuing a command deducts its<$FFFC>action cost from the meter.<$FFFD>So units act whenever the meter<$FFFC>is full, not once per turn.<$FFFD>Now launching the virtual battle<$FFFC>program.<$FFFE>
+201	Finally, two key topics can be<$FFFC>input.<$FFFD>Even without the virtual battle,<$FFFC>these are worth teaching.<$FFFD><$FFF4>Action system: basics<$FFF3> Review？<$FFFE>
+202	The action order system runs<$FFFC>close to real time. Turns are<$FFFC>only a guide.<$FFFD>Units act when the commander's <$FFF4>action meter<$FFF3> fills as turns pass.<$FFFD>Issuing a command deducts its<$FFFC>cost from the meter.<$FFFD>So units act whenever their<$FFFC>meter is full, not once per<$FFFC>turn.<$FFFD>The next unit to act is shown<$FFFC>at the top right.<$FFFE>
+203	<$FFF4>Action system: meter<$FFF3> Review？<$FFFE>
 204	The action meter is shown in<$FFFC>the info bar at the bottom.<$FFFD>Its size is the action capacity.<$FFFC>When it fills, the commander may<$FFFC>act.<$FFFD>Two colors: yellow is the<$FFFC>current amount, red is the cost<$FFFC>to attack.<$FFFE><$FFFF>

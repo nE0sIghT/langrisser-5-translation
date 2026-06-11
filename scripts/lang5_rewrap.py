@@ -54,11 +54,20 @@ def reflow_record(codec: Codec, text: str, width: int) -> str:
         pieces.append((text[pos:], False))
 
     # Merge FFFC into adjacent text as spaces, keep other tags as barriers.
+    # An FFFC that does not sit between two text pieces is structural
+    # (blank line / break around an effect tag): keep it verbatim.
     out: list[str] = []
     buf = ""
-    for piece, is_tag in pieces:
+    for i, (piece, is_tag) in enumerate(pieces):
         if is_tag and piece == LINE_BREAK:
-            buf += " "
+            prev_is_text = bool(buf.strip())
+            next_is_text = i + 1 < len(pieces) and not pieces[i + 1][1]
+            if prev_is_text and next_is_text:
+                buf += " "
+            else:
+                out.append(("T", buf))
+                out.append(("C", piece))
+                buf = ""
         elif is_tag:
             out.append(("T", buf))
             out.append(("C", piece))
@@ -68,13 +77,19 @@ def reflow_record(codec: Codec, text: str, width: int) -> str:
     out.append(("T", buf))
 
     rebuilt = ""
-    for kind, val in out:
+    for i, (kind, val) in enumerate(out):
         if kind == "C":
             rebuilt += val
-        else:
-            val = " ".join(val.split())
-            if val:
-                rebuilt += wrap(codec, val, width)
+            continue
+        # Spaces next to control tags are meaningful (the tags render no
+        # glyph), so keep one boundary space on each side that had one.
+        lead = " " if val[:1].isspace() and i > 0 else ""
+        trail = " " if val[-1:].isspace() and i < len(out) - 1 else ""
+        val = " ".join(val.split())
+        if val:
+            rebuilt += lead + wrap(codec, val, width) + trail
+        elif lead or trail:
+            rebuilt += " "
     return rebuilt
 
 
