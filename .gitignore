@@ -3,9 +3,6 @@ work/
 __pycache__/
 *.pyc
 .venv/
-external/cwx/
-external/ref/
-external/feidian/
-external/zophar/
-archive/legacy_20260219/*
+external/
+archive/
 !archive/legacy_20260219/README.md
