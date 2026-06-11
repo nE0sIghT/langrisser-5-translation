@@ -84,6 +84,7 @@ def main() -> None:
     ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
     ap.add_argument("--width", type=int, default=20)
     ap.add_argument("--choice-width", type=int, default=20)
+    ap.add_argument("--max-lines", type=int, default=3)
     args = ap.parse_args()
 
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
@@ -109,7 +110,13 @@ def main() -> None:
                     print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
-                out_lines.append(f"{idx}\t{reflow_record(codec, text, args.width)}")
+                new_text = reflow_record(codec, text, args.width)
+                # Page height check: lines between page/terminator controls.
+                for page in re.split(r"<\$FFF[ADEF]>|<\$FB00><\$[0-9A-Fa-f]{4}>", new_text):
+                    n = page.count(LINE_BREAK) + 1
+                    if page.strip() and n > args.max_lines:
+                        print(f"{fp.name} record {idx}: page has {n} lines (max {args.max_lines})")
+                out_lines.append(f"{idx}\t{new_text}")
         fp.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
         print(f"reflowed {fp}")
 
