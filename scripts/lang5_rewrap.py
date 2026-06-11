@@ -96,6 +96,10 @@ def main() -> None:
                 continue
             idx, text = raw.split("\t", 1)
             stripped = TAG_RE.sub("", text)
+            if stripped.count("・") > 1:
+                # multi-bullet objective lists keep their structure verbatim
+                out_lines.append(raw)
+                continue
             if stripped.startswith("・"):
                 # Choices must stay single-line: a wrapped tail becomes a
                 # bogus selectable row in the game's menu.
