@@ -708,7 +708,7 @@ index_dec,index_hex,group,char,source
 706,02C2,confirmed,減,manual:jp_variant_fix
 707,02C3,confirmed,輝,paddle1:0.743
 708,02C4,confirmed,争,paddle1:0.971
-709,02C5,confirmed,芹,paddle1:0.989
+709,02C5,confirmed,斧,manual:context_vision_confirmed
 710,02C6,confirmed,狩,paddle1:0.483
 711,02C7,symbol,,manual:icon_glyph
 712,02C8,confirmed,考,paddle1:0.998
@@ -801,7 +801,7 @@ index_dec,index_hex,group,char,source
 799,031F,confirmed,訓,paddle1:0.618
 800,320,confirmed,要,paddle1:0.999
 801,321,confirmed,森,paddle1:0.989
-802,322,confirmed,步,paddle1:0.984
+802,322,confirmed,歩,manual:jp_variant_fix
 803,323,confirmed,絞,paddle_xbrz:0.474
 804,324,confirmed,昔,paddle1:0.995
 805,325,confirmed,方,paddle_xbrz:0.946

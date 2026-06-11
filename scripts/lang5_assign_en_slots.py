@@ -38,7 +38,7 @@ def word_pairs(w: str):
             i += 1
 
 
-def needed_units(en_dump_dir: Path, menu_map: Path):
+def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
     """Return (singles, menu_pairs, script_pairs).
 
     Menu labels must fit fixed slot counts, so they get the full pairing
@@ -52,8 +52,9 @@ def needed_units(en_dump_dir: Path, menu_map: Path):
             if "\t" in raw and not raw.startswith("#"):
                 script_texts.append(TAG_RE.sub("", raw.split("\t", 1)[1]))
     menu_texts: list[str] = []
-    if menu_map.exists():
-        menu_texts = list(json.loads(menu_map.read_text(encoding="utf-8")).values())
+    for mp in menu_maps:
+        if mp.exists():
+            menu_texts.extend(json.loads(mp.read_text(encoding="utf-8")).values())
 
     singles: set[str] = set()
     menu_pairs: collections.Counter = collections.Counter()
@@ -157,7 +158,9 @@ def main() -> None:
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--assignments", default="data/font_mapping/en_slot_assignments.csv")
     ap.add_argument("--en-dump", default="data/translation/en")
-    ap.add_argument("--menu-map", default="data/translation/system_menu_map.json")
+    ap.add_argument("--menu-map", action="append",
+                    default=None,
+                    help="Translation maps (repeatable); defaults to menu+names maps.")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     args = ap.parse_args()
@@ -170,7 +173,9 @@ def main() -> None:
         for r in rows:
             existing[r["en_char"]] = int(r["index_dec"])
 
-    singles, menu_pairs, script_pairs = needed_units(Path(args.en_dump), Path(args.menu_map))
+    maps = [Path(p) for p in (args.menu_map or
+            ["data/translation/system_menu_map.json", "data/translation/names_map.json"])]
+    singles, menu_pairs, script_pairs = needed_units(Path(args.en_dump), maps)
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
     optional = [p for p, _ in script_pairs.most_common()
@@ -180,8 +185,9 @@ def main() -> None:
     # BTLDAT/MRCUSW/SLPS are mostly code/data whose pseudo-runs would
     # inflate the "used in UI" set; real UI strings live in SYSTEM/ALLUS*.
     translated_keys = set()
-    if Path(args.menu_map).exists():
-        translated_keys = set(json.loads(Path(args.menu_map).read_text(encoding="utf-8")))
+    for mp in maps:
+        if mp.exists():
+            translated_keys |= set(json.loads(mp.read_text(encoding="utf-8")))
     pool = [i for i in sacrificial_pool(
         Path(args.groups_report), Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",

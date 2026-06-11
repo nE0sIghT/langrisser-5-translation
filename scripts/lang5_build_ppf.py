@@ -37,6 +37,8 @@ def main() -> None:
     run(scripts / "lang5_patch_system_menu.py",
         "--system-in", "work/build/SYSTEM.BIN.font",
         "--system-out", "work/build/SYSTEM.BIN.en",
+        "--menu-map", "data/translation/system_menu_map.json",
+        "--menu-map", "data/translation/names_map.json",
         "--tbl", "work/tables/lang5_en.tbl")
 
     run(scripts / "lang5_sceninsert.py", "--scen", args.scen, "--scen2", args.scen2,

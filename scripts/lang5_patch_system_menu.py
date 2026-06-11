@@ -47,13 +47,18 @@ def main() -> None:
     ap.add_argument("--system-out", default="work/build/SYSTEM.BIN.menu")
     ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
-    ap.add_argument("--menu-map", default="data/translation/system_menu_map.json")
+    ap.add_argument("--menu-map", action="append", default=None,
+                    help="Translation map JSON (repeatable).")
+    ap.add_argument("--min-offset", type=lambda x: int(x, 0), default=0x8100,
+                    help="Do not touch runs below this byte offset.")
     ap.add_argument("--report-csv", default="work/scen_analysis/system_menu_occurrences.csv")
     args = ap.parse_args()
 
     tok2ch = load_charmap_csv(Path(args.groups_report))
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
-    menu_map: dict[str, str] = json.loads(Path(args.menu_map).read_text(encoding="utf-8"))
+    menu_map: dict[str, str] = {}
+    for mp in args.menu_map or ["data/translation/system_menu_map.json"]:
+        menu_map.update(json.loads(Path(mp).read_text(encoding="utf-8")))
 
     src = Path(args.system_in).read_bytes()
     words = list(struct.unpack(f"<{len(src)//2}H", src[: len(src) & ~1]))
@@ -61,7 +66,7 @@ def main() -> None:
     patched = misfit = 0
     rows = []
     for a, b in split_ffff_runs(words):
-        if a * 2 < 0x8100:
+        if a * 2 < args.min_offset:
             continue  # font plane + offset tables; never patch there
         seg = words[a:b]
         dec = decode_run(seg, tok2ch)
