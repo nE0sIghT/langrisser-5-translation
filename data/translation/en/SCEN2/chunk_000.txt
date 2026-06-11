@@ -5,7 +5,7 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lainforce<$FFFF>
+6	Marshal Lanford<$FFFF>
 7	Operator<$FFFF>
 8	<$FB00><$0001>Lord Gizarof. The specimen is<$FFFC>ready for cultivation. I will<$FFFC>read out each step. Your orders,<$FFFC>please.<$FFFE>
 9	Set equipment. Press ○.<$FFFE>

@@ -529,7 +529,7 @@ index_dec,index_hex,group,char,source
 527,020F,confirmed,帥,token_map
 528,210,confirmed,@,manual:user_confirmed
 529,211,confirmed,将,token_map
-530,212,confirmed,車,token_map
+530,212,confirmed,軍,manual:context_vision_confirmed
 531,213,confirmed,謀,paddle1:0.958
 532,214,confirmed,皇,paddle1:0.998
 533,215,confirmed,帝,paddle1:0.998
@@ -1231,7 +1231,7 @@ index_dec,index_hex,group,char,source
 1229,04CD,confirmed,留,paddle1:0.999
 1230,04CE,confirmed,歪,paddle1:0.982
 1231,04CF,confirmed,占,paddle1:0.991
-1232,04D0,confirmed,抛,paddle1:0.380
+1232,04D0,confirmed,拠,manual:context_vision_confirmed
 1233,04D1,confirmed,悲,paddle1:0.998
 1234,04D2,confirmed,瀕,manual:context_vision_confirmed
 1235,04D3,confirmed,荷,paddle1:1.000
