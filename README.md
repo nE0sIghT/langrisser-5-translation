@@ -1,62 +1,47 @@
-# Langrisser V PS1 EN Patch Workspace
+# Langrisser V PS1 EN Translation Workspace
 
-Canonical patch name:
-- `patches/langrisser_v_en.ppf`
+Goal: a working toolkit for translating Langrisser V (PS1, SLPS-01818),
+modeled after the Langrisser 3 toolkit (`external/lang3`).
 
-This repository is intentionally reduced to the production translation flow:
-1. alphabet/font mapping data
-2. source text extraction
-3. translation insertion/repack
-4. final PPF creation
+The legacy pipeline (removed 2026-06-11) parsed script record boundaries with
+a +2 byte shift and used unusable auto-alignment data; see `docs/PLAN.md` for
+the verified container format and the staged rebuild plan.
 
-All exploratory/research tooling was moved to:
-- `archive/legacy_20260219/`
+## Layout
 
-## Canonical Flow
+- `iso/` — original BIN/CUE (not in git)
+- `work/` — regenerable artifacts: extracted files, dumps, builds (not in git)
+- `data/font_mapping/` — token->glyph table (`groups_report.csv`) and pending
+  review proposals (`proposed_fixes.csv`)
+- `data/translation/` — curated translation data only:
+  - `manual_record_overrides.json` — proofread startup quiz lines
+  - `system_menu_map.json` — menu/UI replacement dictionary
+- `data/tables/lang5_jp.tbl` — JP insert table
+- `translation.txt` — GameFAQs scene-by-scene EN script (borgor), the
+  translation source
+- `docs/PLAN.md` — current plan and verified format notes
+- `external/` — third-party tools: DuckStation, Ghidra, lang3 reference
+  toolkit (not in git)
+- `archive/` — retired research artifacts (not in git)
 
-### 1) Extract game files (once)
+## Working utilities
+
+- `scripts/iso_mode2.py` — extract/inject files in the MODE2 BIN image
+- `scripts/ppf3.py` — PPF3 patch writer
+- `scripts/lang5_textcodec.py` — token<->text codec helpers (.tbl based)
+- `scripts/lang5_build_en_font_and_tbl.py` — render EN glyphs into the
+  SYSTEM.BIN font plane and build the EN table
+- `scripts/lang5_patch_system_menu.py` — menu/UI run replacement in
+  SYSTEM.BIN
+- `scripts/lang5_font_review.py` — HTML visual review of the glyph mapping
+
+Extraction (once):
+
 ```bash
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN.DAT work/extracted/SCEN.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN2.DAT work/extracted/SCEN2.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SYSTEM.BIN work/extracted/SYSTEM.BIN
 ```
 
-### 2) Dump source script (JP, token-safe)
-```bash
-python3 scripts/lang5_dump_scenarios_from_groups_report.py \
-  --scen work/extracted/SCEN.DAT \
-  --scen2 work/extracted/SCEN2.DAT \
-  --groups-report data/font_mapping/groups_report.csv \
-  --out-dir work/scriptdump_groups
-```
-
-### 3) Build full EN patch data + PPF
-```bash
-python3 scripts/make_langrisser_v_ppf.py
-```
-
-This command performs:
-- EN dump build from curated `translation.txt` alignment stored in `data/translation/jp_en_full_records.json`
-- manual startup overrides from `data/translation/manual_record_overrides.json`
-- SCEN/SCEN2 repack
-- SYSTEM menu/UI patch via `data/translation/system_menu_map.json`
-- SLPS title replacement
-- final `PPF3` build
-
-## Kept Scripts (production only)
-- `scripts/iso_mode2.py`
-- `scripts/ppf3.py`
-- `scripts/lang5_textcodec.py`
-- `scripts/lang5_scrscendump.py`
-- `scripts/lang5_scrsceninsert.py`
-- `scripts/lang5_build_en_font_and_tbl.py`
-- `scripts/lang5_build_en_dump_full.py`
-- `scripts/lang5_patch_system_menu.py`
-- `scripts/lang5_dump_scenarios_from_groups_report.py`
-- `scripts/lang5_build_script_ppf.py`
-- `scripts/make_langrisser_v_ppf.py`
-
-## Documentation
-- `docs/TRANSLATION_FLOW.md` — practical pipeline only
-- `docs/INTERNAL_DATA_FORMATS.md` — discovered internal formats
-- `docs/DISASM_SUMMARY.md` — structured disassembly conclusions for text control flow
+The script dumper/inserter and PPF build entrypoint are being rewritten
+around the verified text-block format (stage 1 in `docs/PLAN.md`).
