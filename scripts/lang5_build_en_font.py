@@ -16,12 +16,13 @@ GLYPH_W = 12
 GLYPH_H = 12
 GLYPH_BYTES = 18
 
-# PixelMplus10 is a free (M+ license) Japanese pixel font drawn on a 10px
-# grid: ascent 9 + descent 2 = 11 rows, so it fits the 12x12 cell with the
-# baseline on row 9 — the same baseline as the game's own A-Z glyphs.
+# Spleen 6x12 (BSD) is a bitmap font drawn exactly on a 6x12 grid:
+# ascent 9 + descent 3 = 12 rows, two glyphs tile a 12x12 cell perfectly
+# and the x-height is taller than PixelMplus10. Baseline row 9 matches
+# the game's own A-Z glyphs. PixelMplus10 kept as an alternative.
 FONT_CANDIDATES = [
+    "data/fonts/spleen-6x12.bdf",
     "data/fonts/PixelMplus10-Regular.ttf",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
 ]
 BASELINE_ROW = 9
 
@@ -29,6 +30,8 @@ BASELINE_ROW = 9
 def pick_font(path: str, size: int) -> ImageFont.FreeTypeFont:
     for cand in ([path] if path else []) + FONT_CANDIDATES:
         if cand and Path(cand).exists():
+            if cand.endswith(".bdf"):
+                return ImageFont.truetype(cand, size=12)
             return ImageFont.truetype(cand, size=size)
     raise SystemExit("no usable TTF found")
 

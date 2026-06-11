@@ -69,8 +69,7 @@ def needed_units(en_dump_dir: Path, menu_map: Path):
     for t in script_texts:
         for m in WORD_RE.finditer(t):
             for p in word_pairs(m.group(0)):
-                if p.islower():  # lowercase-only pairs in dialog text
-                    script_pairs[p] += 1
+                script_pairs[p] += 1
     return singles, menu_pairs, script_pairs
 
 

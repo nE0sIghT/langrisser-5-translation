@@ -16,7 +16,7 @@
 14	・NORMAL<$FFFE>
 15	・HARD<$FFFE>
 16	<$FFF4>HARD<$FFF3>: less exp, tougher foes.<$FFFC>Confirm？<$FFFE>
-17	<$FFFA>∑066, battle program ready<$FFFC>for input.<$FFFE>
+17	<$FFFA>∑066, battle program ready for<$FFFC>input.<$FFFE>
 18	<$FFFA>∑066, set. Launching<$FFFC>cultivation‥‥.<$FFFE>
 19	<$FB00><$0002>Set the final growth form.<$FFFD><$FB00><$0003>Pick the metal to leave out of<$FFFC>the culture.<$FFFE>
 20	・Gold<$FFFE>
