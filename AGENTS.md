@@ -1,0 +1,60 @@
+# Agent instructions
+
+Toolkit for translating Langrisser V (PS1, SLPS-01818). Read `README.md`
+first for the human translation workflow; `docs/PLAN.md` holds the verified
+format notes. This file lists the rules that must not be broken.
+
+## Hard invariants
+
+- **File sizes never change.** The disc has CD audio right after the data
+  track. Never call `iso_mode2.py` with `--allow-grow`; never let
+  `SCEN.DAT`/`SCEN2.DAT`/`SYSTEM.BIN` grow. Per-chunk text growth must fit
+  the chunk's trailing zero padding (the validator's byte budget).
+- **Font atlas ends at glyph 1820.** Tiles 1821+ in `SYSTEM.BIN` are a menu
+  offset table, not glyphs. Writing there breaks menus.
+- **Control words are sacred.** Every `<$XXXX>` tag ≥ `0xE000` (except the
+  soft breaks `FFFC`/`FFFD` and highlight toggles `FFF4`/`FFF3`) and every
+  argument word of `F600`/`FBxx` must survive translation in order.
+  `lang5_validate_en.py` enforces this — keep it green.
+- **SCEN and SCEN2 text blocks are byte-identical.** Translate
+  `data/translation/en/SCEN/` only; the build syncs SCEN2.
+- **No partially translated chunks in `data/translation/en/`.** Untranslated
+  kanji whose glyph slots were sacrificed for Latin pairs fail the encode
+  step and break the build. Work-in-progress lives in `work/wip_en/`
+  (`lang5_tm_prefill.py` writes there).
+
+## Mandatory checks before claiming success
+
+```bash
+python3 scripts/lang5_verify_roundtrip.py   # byte-identical no-edit pipeline
+python3 scripts/lang5_rewrap.py             # window-width line wrapping
+python3 scripts/lang5_validate_en.py        # tags, encodability, budgets
+python3 scripts/lang5_build_ppf.py          # full build must succeed
+```
+
+## Translation conventions
+
+- Source of meaning: the JP dump in `work/scriptdump/`. `translation.txt`
+  (borgor's GameFAQs guide) is a meaning reference only — write original
+  wording, do not copy it.
+- Names and terms: `data/translation/names_base.csv` and
+  `data/translation/glossary_names.csv` are canonical; follow the
+  Langrisser fan canon for series terms.
+- Dialogue window: ~20 cells wide, 3 lines per page. Choice records
+  (`・...`) must stay single-line — a wrapped tail becomes a phantom
+  selectable row. Multi-bullet objective records keep their structure.
+- The font has no `; — – !? /`; use `,` and full-width `！？`. Ellipsis is
+  `‥` (often doubled `‥‥`).
+- Tight chunks: if the validator says OVER BUDGET, shorten the text; never
+  drop records or tags to make it fit.
+
+## Repository conventions
+
+- Commit author: `Yuri Konotopov <ykonotopov@gmail.com>`, no Co-Authored-By
+  trailers. Messages: functional English, present tense.
+- No Russian (or other non-English) text in code, comments or data files.
+- `work/`, `iso/`, `patches/`, `archive/`, `external/` are not in git;
+  everything under `data/` and `scripts/` is.
+- After translating a chunk: rewrap → validate → build → regenerate review
+  pages (`lang5_review_html.py`) → commit the chunk pair
+  (`SCEN`+`SCEN2`) together.
