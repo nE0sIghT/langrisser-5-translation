@@ -1820,6 +1820,6 @@ index_dec,index_hex,group,char,source
 1818,071A,confirmed,抽,paddle1:0.997
 1819,071B,confirmed,膳,paddle1:0.998
 1820,071C,confirmed,唯,paddle1:0.997
-1821,071D,junk,,manual:noise_tile_sacrificial
-1822,071E,junk,,manual:noise_tile_sacrificial
-1823,071F,junk,,manual:noise_tile_sacrificial
+1821,071D,data,,manual:menu_offset_table_not_glyph
+1822,071E,data,,manual:menu_offset_table_not_glyph
+1823,071F,data,,manual:menu_offset_table_not_glyph

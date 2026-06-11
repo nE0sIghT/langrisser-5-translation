@@ -16,10 +16,14 @@ GLYPH_W = 12
 GLYPH_H = 12
 GLYPH_BYTES = 18
 
+# PixelMplus10 is a free (M+ license) Japanese pixel font drawn on a 10px
+# grid: ascent 9 + descent 2 = 11 rows, so it fits the 12x12 cell with the
+# baseline on row 9 — the same baseline as the game's own A-Z glyphs.
 FONT_CANDIDATES = [
+    "data/fonts/PixelMplus10-Regular.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
 ]
+BASELINE_ROW = 9
 
 
 def pick_font(path: str, size: int) -> ImageFont.FreeTypeFont:
@@ -34,10 +38,9 @@ def render_tile(ch: str, font: ImageFont.FreeTypeFont) -> bytes:
     img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     d = ImageDraw.Draw(img)
     ascent, _descent = font.getmetrics()
-    baseline = 10  # leaves 2 rows for descenders
     bbox = d.textbbox((0, 0), ch, font=font)
     x = (GLYPH_W - (bbox[2] - bbox[0])) // 2 - bbox[0]
-    d.text((x, baseline - ascent), ch, font=font, fill=0)
+    d.text((x, BASELINE_ROW - ascent), ch, font=font, fill=0)
     img = img.point(lambda v: 0 if v < 140 else 255)
     px = img.load()
     out = bytearray(GLYPH_BYTES)
@@ -55,12 +58,18 @@ def main() -> None:
     ap.add_argument("--out-system-bin", default="work/build/SYSTEM.BIN.en")
     ap.add_argument("--out-tbl", default="work/tables/lang5_en.tbl")
     ap.add_argument("--font", default="")
-    ap.add_argument("--font-size", type=int, default=11)
+    ap.add_argument("--font-size", type=int, default=10)
     args = ap.parse_args()
 
     assignments: dict[int, str] = {}
     for row in csv.DictReader(open(args.assignments, encoding="utf-8")):
-        assignments[int(row["index_dec"])] = row["en_char"]
+        idx = int(row["index_dec"])
+        if idx > 1820:
+            raise SystemExit(
+                f"slot {idx} is beyond the font plane (glyphs end at 1820; "
+                "tiles 1821+ hold menu data)"
+            )
+        assignments[idx] = row["en_char"]
 
     tok2char: dict[int, str] = {}
     for row in csv.DictReader(open(args.groups_report, encoding="utf-8")):
