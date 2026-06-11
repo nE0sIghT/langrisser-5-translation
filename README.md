@@ -1,12 +1,11 @@
 # Langrisser V (PS1) Translation Toolkit
 
-A toolkit for translating Langrisser V (PS1, SLPS-01818) into any language.
-The current target is English, but every step below works the same way for
-another language (e.g. Russian) — only the glyph set and the per-language
-data files change.
+Toolkit for translating Langrisser V (PS1, SLPS-01818). Target language is
+arbitrary (current work: English; Russian etc. is possible) — only the glyph
+set and per-language data files differ, see "Another language" below.
 
-Requirements: Python 3.10+, Pillow (`pip install pillow`), the original
-BIN/CUE image in `iso/` (not in git).
+Requirements: Python 3.10+, Pillow (`pip install pillow`), original BIN/CUE
+image in `iso/` (not in git).
 
 ## How the game stores text
 
@@ -57,11 +56,11 @@ python3 scripts/lang5_scendump.py          # -> work/scriptdump/SCEN*/chunk_NNN.
 python3 scripts/lang5_verify_roundtrip.py  # must print OK: dump->insert is byte-identical
 ```
 
-Each chunk file is one scene: `record_index<TAB>text`, control words as
-`<$XXXX>` tags. The first records of a story chunk are speaker name plates
-(`...<$FFFF>`), then the win/loss objectives (`・...`), the location plate,
-then dialogue. To see which chunk is which scenario, look at the name
-plates/objectives, or generate the side-by-side review pages:
+Chunk file format: one scene per file, `record_index<TAB>text`, control
+words as `<$XXXX>` tags. Record order in a story chunk: speaker name plates
+(`...<$FFFF>`), win/loss objectives (`・...`), location plate, dialogue.
+To identify a chunk's scenario: check the name plates/objectives or generate
+the JP/translation review pages:
 
 ```bash
 python3 scripts/lang5_review_html.py       # -> work/review/index.html
@@ -69,14 +68,14 @@ python3 scripts/lang5_review_html.py       # -> work/review/index.html
 
 ## Step 2 — glyphs for your language
 
-The JP font has no lowercase Latin (and no Cyrillic). New glyphs are
-rendered into slots of rarely-used kanji:
+The JP font has no lowercase Latin and no Cyrillic. New glyphs are written
+into slots of rarely-used kanji:
 
 1. `data/font_mapping/en_slot_assignments.csv` maps
    `glyph index → new character → sacrificed kanji`. For another language,
-   maintain the same kind of file with your alphabet (single letters and/or
-   two-letter pairs; pairs put two 6px letters into one 12x12 cell — this is
-   what makes EN text fit the JP byte budget).
+   make the same kind of file for its alphabet: single letters and/or
+   two-letter pairs (a pair packs two 6px letters into one 12x12 cell and
+   halves the byte cost of text).
    `scripts/lang5_assign_en_slots.py` picks sacrificial slots automatically
    from kanji that the translated text no longer needs.
 2. `scripts/lang5_build_en_font.py` renders the assignments into the font
@@ -86,8 +85,8 @@ rendered into slots of rarely-used kanji:
    12px grid with the baseline on row 10 (the native glyph baseline).
    Verify the result visually with `scripts/lang5_font_review.py`.
 
-Caveat: while parts of the script remain untranslated, any kanji whose slot
-was sacrificed will display as the new glyph in those untranslated lines.
+Caveat: until the whole script is translated, a sacrificed kanji shows up
+as the new glyph in untranslated lines.
 
 ## Step 3 — translate a chunk
 
@@ -141,9 +140,9 @@ overlaps the CD audio tracks) and writes `patches/langrisser_v_en.ppf`
 (PPF3, apply to the original BIN). A ready-to-boot image is left in
 `work/build/langrisser_v_en.bin` for emulator testing.
 
-## Translating to another language
+## Another language
 
-Nothing in the pipeline is English-specific:
+The pipeline is not tied to English:
 
 1. Create `data/translation/<lang>/SCEN/` and pass it via `--en-dump`
    (`lang5_tm_prefill.py`, `lang5_validate_en.py`, `lang5_rewrap.py`,
@@ -156,7 +155,7 @@ Nothing in the pipeline is English-specific:
 
 ## Reference
 
-- `translation.txt` — borgor's GameFAQs scene-by-scene EN script, used as a
-  meaning reference (do not copy wording verbatim).
+- `translation.txt` — borgor's GameFAQs scene-by-scene EN script; meaning
+  reference only, wording is not copied.
 - `docs/PLAN.md` — verified container format, root-cause notes, roadmap.
 - `external/lang3` — the Langrisser 3 toolkit this one is modeled on.
