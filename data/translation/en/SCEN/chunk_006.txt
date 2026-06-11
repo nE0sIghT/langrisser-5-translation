@@ -1,0 +1,114 @@
+# file=SCEN.DAT chunk=6 chunk_start=0x0B9000
+# block_base=0x3C24 block_size=0x13A0 records=112
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Soldier<$FFFF>
+8	Alvince<$FFFF>
+9	・Defeat Alvince<$FFFE>
+10	・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+11	Fort Sipel<$FFFF>
+12	<$FB00><$0055>Lord Alvince. The rear door is<$FFFC>locked. Our men can't force<$FFFC>it.<$FFFE>
+13	<$FB00><$0056>I see.<$FFFE>
+14	<$FB00><$0057>Your orders？ Storm the front？<$FFFE>
+15	<$FB00><$0058>No choice. Begin the assault.<$FFFE>
+16	<$FB00><$0059>Sir！<$FFFE>
+17	<$FFF8><$FB00><$005A>Hm？<$FFFD><$FFF6><$FB00><$005B>Lord Alvince, someone's coming！<$FFFE>
+18	<$FB00><$005C>Lambda, is this the right way？<$FFFE>
+19	<$FB00><$005D>Yes. Keep going.<$FFFE>
+20	<$FB00><$005E>Hold up. Awfully noisy around<$FFFC>that fort, no？<$FFFE>
+21	<$FB00><$005F>What's going on there？<$FFFE>
+22	<$FB00><$0060>That voice<$FFF5><$FFF8>‥<$FE32>‥<$FE32>.<$FFFD><$FFF6><$FB00><$0061>Heeey！ Somebody help meee！<$FFFE>
+23	<$FB00><$0062>That voice, it's<$FFF5><$FFF8>‥‥.<$FFFE>
+24	<$FB00><$0063>That's Alfred. Is he under<$FFFC>attack？<$FFFE>
+25	<$FB00><$0064>What will you do？<$FFFE>
+26	<$FB00><$0065>That's obvious. We help him.<$FFFE>
+27	<$FB00><$0066>Right. Abandoning a friend would<$FFFC>cost me sleep.<$FFFE>
+28	<$FB00><$0067>All right. Lambda, Brenda, let's<$FFFC>move！<$FFFE>
+29	<$FB00><$007D>Still, Alfred, what did you<$FFFC>do？<$FFFE>
+30	<$FB00><$007E>I didn't do anything！<$FFFE>
+31	<$FB00><$007F>Nobody attacks without a reason.<$FFFE>
+32	<$FB00><$0080>My brother says I killed our<$FFFC>father<$FFF5><$FFF8>‥<$FE32>‥<$FE32>.<$FFFE>
+33	<$FB00><$0081>Alfred, killing his father？<$FFFE>
+34	・Is it true？<$FFFE>
+35	・You wouldn't have the nerve.<$FFFE>
+36	・What rubbish‥‥.<$FFFE>
+37	・Hmmm.<$FFFE>
+38	<$FB00><$0082>Is it true？<$FFFE>
+39	<$FB00><$0083>Of course I'd never do that！<$FFFE>
+40	<$FB00><$0084>You haven't the nerve for<$FFFC>that.<$FFFE>
+41	<$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0085>I'm glad you believe me, but<$FFF5><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0086>that's hard to take as praise<$FFF5><$FFF8>‥<$FE1E>‥<$FE1E>.<$FFFE>
+42	<$FB00><$0087>What rubbish<$FFF5><$FFF8>‥‥.<$FFFE>
+43	<$FB00><$0088>Right？ A ridiculous story.<$FFFE>
+44	<$FB00><$0083>Of course I'd never do that！<$FFFE>
+45	<$FB00><$0089>Less talking, more fighting, you<$FFFC>two.<$FFFE>
+46	<$FB00><$008A>True. Talk can wait till after<$FFFC>the fight.<$FFFE>
+47	<$FB00><$0079>Understood.<$FFFD><$FB00><$007A>Can't the fort's south door<$FFFC>open？<$FFFE>
+48	<$FB00><$007B>The wall behind me has a device<$FFFC>that unlocks it<$FFF5><$FFF8>‥‥.<$FFFE>
+49	<$0000>Unlock switch<$0000><$FFFF>
+50	<$FFF4>Using switches<$FFF3><$FFFC><$0000>To work a switch, a commander<$FFFC><$0000>must stop on its tile.<$FFFC><$0000>Mercenaries cannot use them.<$FFFD><$0000>A commander next to a <$FFF4>treasure<$FFFC><$0000>chest<$FFF3> likewise takes the item<$FFFC><$0000>inside.<$FFFE>
+51	<$FB00><$007C>Work the device, the door<$FFFC>opens‥‥.<$FFFE>
+52	<$FB00><$008B>Throw this, the door should<$FFFC>open.<$FFFE>
+53	<$FB00><$008D>So this opens the door.<$FFFE>
+54	<$FB00><$008E>This opens the door, right？<$FFFE>
+55	<$FB00><$008C>Throw this, the door opens,<$FFFC>right？<$FFFE>
+56	Operate the unlock switch？<$FFFE>
+57	<$FB00><$008F>Good, the door is open.<$FFFE>
+58	A fairy waves from a stake.<$FFFC><$0000><$FFFC>Say, happy with your forces？<$FFFE>
+59	I see. Well then, good luck！<$FFFD>The fairy vanished.<$FFFE>
+60	Then you may hire more<$FFFC>mercenaries. Six units at most,<$FFFC>though！<$FFFD><$0000><$FFFC><$FFF4>Max mercenaries<$FFF3> rose by 1！<$FFFE>
+61	<$FB00><$002D>I won't die in a place like<$FFFC>this‥‥<$FFFE>
+62	<$FB00><$002C>Take this！<$FFFE>
+63	<$FB00><$0039>It's getting too dangerous‥‥I'll<$FFFC>be falling back first‥‥<$FFFE>
+64	<$FB00><$0038>Move<$FFF5><$FFF8>‥‥<$FFFE>
+65	<$FB00><$006A>Kh, that's my cue‥‥I'll fall<$FFFC>back first‥‥<$FFFE>
+66	<$FB00><$0069>Who do you think I am！<$FFFE>
+67	<$FB00><$0068>Hey, Alfred！ Hold out until we<$FFFC>get there！<$FFFE>
+68	<$FB00><$0069>R-right. But alone, I won't<$FFFC>last long<$FFF5><$FFF8>‥‥.<$FFFE>
+69	<$FB00><$006A>Quit whining！ Fight or die！<$FFFE>
+70	<$FB00><$006B>Got it. But please hurry！<$FFFE>
+71	<$FB00><$0070>Lord Alfred, prepare yourself！<$FFFE>
+72	<$FB00><$0071>Uwah！<$FFFE>
+73	<$FB00><$006D>Look, the boy's in danger！<$FFFE>
+74	<$FB00><$006E>Yeah, let's hurry！<$FFFE>
+75	<$FB00><$006F>Alfred is in danger. We must<$FFFC>hurry！<$FFFE>
+76	<$FB00><$0077>I knew it‥‥this is all I<$FFFC>amount to‥‥<$FFFE>
+77	<$FB00><$006C>Bah, meddlers！ Whoever you are,<$FFFC>siding with Alfred means death.<$FFFE>
+78	<$FB00><$0072>Prepare yourself, Alfred.<$FFFE>
+79	<$FB00><$0073>Brother<$FFF5><$FFF8>‥<$FE32>‥<$FE32>.<$FE32><$FFFC><$FFF6><$FB00><$0074>Why<$FFF5><$FFF8>‥‥.<$FFFE>
+80	<$FB00><$0075>Brother or not, I cannot let<$FFFC>our lord's killer run free.<$FFFE>
+81	<$FB00><$0076>I keep telling you, it wasn't<$FFFC>me！<$FFFE>
+82	<$FB00><$0077>Even now you play innocent！<$FFFE>
+83	<$FB00><$0090>Impossible<$FFF5><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0091>that I would lose<$FFF5><$FFF8>‥‥.<$FFFE>
+84	<$FB00><$0092>Brother<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>.<$FE3C><$FFFE>
+85	<$FB00><$0093>You're spared today. But your<$FFFC>patricide is not forgotten！<$FFFE>
+86	<$FB00><$0094>Seems they've gone.<$FFFE>
+87	<$FB00><$0095>You all right, boy？<$FFFE>
+88	<$FB00><$0096>Y-yes<$FFF5><$FFF8>‥<$FE32>‥<$FE32>.<$FE32><$FFFC><$FFF6><$FB00><$0097>Thanks to you, I'm safe.<$FFFE>
+89	<$FB00><$0098>Now, let's hear the full story.<$FFFE>
+90	<$FB00><$0099>Did I mention I sought medicine<$FFFC>for my father's fever？<$FFFD><$FB00><$009A>Days ago, a girl from another<$FFFC>continent kindly gave me some.<$FFFE>
+91	<$FB00><$009B>The girl who was with you back<$FFFC>then？<$FFFE>
+92	<$FB00><$009C>Yes. Clarett, I believe she was<$FFFC>called.<$FFFE>
+93	<$FB00><$009D>But it must have been poison.<$FFFC>Father drank it, and he died.<$FFFE>
+94	<$FB00><$009E>So you're saying that Clarett<$FFFC>girl handed you poison？<$FFFE>
+95	<$FFF8>‥‥‥.<$FFFE>
+96	<$FB00><$009F>Given the facts, there's no<$FFFC>other explanation.<$FFFE>
+97	<$FB00><$00A0>But why would that girl want<$FFFC>your father dead？<$FFFE>
+98	<$FB00><$00A1>No idea either. I can't go home<$FFFC>now. May I stay with you？<$FFFE>
+99	<$FB00><$00A2>What do you say, Lambda, Brenda？<$FFFE>
+100	<$FB00><$00A3>I'm hired help. I'll follow your<$FFFC>call.<$FFFE>
+101	<$FB00><$00A4>Fine by me. As long as the<$FFFC>mission isn't hindered.<$FFFE>
+102	<$FB00><$00A5>There you have it. But expect<$FFFC>danger.<$FFFE>
+103	<$FB00><$00A6>Thank you, everyone！<$FFFE>
+104	Alfred joined the party！<$FFFE>
+105	<$FB00><$00A7>Well then, time to set out.<$FFFE>
+106	N-no‥‥！<$FFFE>
+107	‥‥Whyyy！<$FFFE>
+108	To think anyone could defeat<$FFFC>me‥‥<$FFFE>
+109	‥‥Whaat！？<$FFFE>
+110	Impossible‥‥<$FFFE>
+111	<$FB00><$0078>I'll move as you say, give me<$FFFC>your orders.<$FFFE>
+112	<$0000><$FFFC><$0000><$0000>Alfred joined the party！<$FFFE><$FFFF>
