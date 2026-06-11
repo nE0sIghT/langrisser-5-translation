@@ -29,6 +29,12 @@ PRINTABLE_LIMIT = 0xE000
 TERMINATOR_MIN = 0xFFF0
 
 
+def consumes_argument(word: int) -> bool:
+    """Control opcodes whose next word is an argument, not text
+    (confirmed by disassembly: F600 macro, FBxx dialog commands)."""
+    return word == 0xF600 or 0xFB00 <= word <= 0xFBFF
+
+
 def read_chunk_spans(data: bytes) -> list[tuple[int, int]]:
     pts: list[int] = []
     for off in range(0, len(data), 4):
@@ -168,9 +174,15 @@ class Codec:
         }
 
     def decode(self, words: list[int]) -> str:
-        return "".join(
-            self.tok2char.get(w, f"<${w:04X}>") for w in words
-        )
+        out: list[str] = []
+        prev: int | None = None
+        for w in words:
+            if prev is not None and consumes_argument(prev):
+                out.append(f"<${w:04X}>")  # argument word, never text
+            else:
+                out.append(self.tok2char.get(w, f"<${w:04X}>"))
+            prev = w
+        return "".join(out)
 
     def encode(self, text: str) -> list[int]:
         out: list[int] = []
