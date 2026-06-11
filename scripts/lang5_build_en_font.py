@@ -18,13 +18,17 @@ GLYPH_BYTES = 18
 
 # Spleen 6x12 (BSD) is a bitmap font drawn exactly on a 6x12 grid:
 # ascent 9 + descent 3 = 12 rows, two glyphs tile a 12x12 cell perfectly
-# and the x-height is taller than PixelMplus10. Baseline row 9 matches
-# the game's own A-Z glyphs. PixelMplus10 kept as an alternative.
+# and the x-height is taller than PixelMplus10. PixelMplus10 kept as an
+# alternative.
 FONT_CANDIDATES = [
     "data/fonts/spleen-6x12.bdf",
     "data/fonts/PixelMplus10-Regular.ttf",
 ]
-BASELINE_ROW = 9
+# The game's native A-Z/digit glyphs put their ink bottom on row 9, so EN
+# letter bodies must end there too or mixed words jitter by 1px. Baseline
+# row 10 achieves that; descenders get squashed from 3px to 2px, which is
+# the lesser evil.
+BASELINE_ROW = 10
 
 
 def pick_font(path: str, size: int) -> ImageFont.FreeTypeFont:
