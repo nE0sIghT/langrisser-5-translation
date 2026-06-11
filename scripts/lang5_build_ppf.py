@@ -41,6 +41,13 @@ def main() -> None:
         "--menu-map", "data/translation/names_map.json",
         "--tbl", "work/tables/lang5_en.tbl")
 
+    # SCEN2 text blocks are byte-identical to SCEN: sync translations.
+    src_dir = Path(args.en_dump) / "SCEN"
+    dst_dir = Path(args.en_dump) / "SCEN2"
+    dst_dir.mkdir(parents=True, exist_ok=True)
+    for fp in src_dir.glob("chunk_*.txt"):
+        shutil.copyfile(fp, dst_dir / fp.name)
+
     run(scripts / "lang5_sceninsert.py", "--scen", args.scen, "--scen2", args.scen2,
         "--dump-dir", args.en_dump, "--charmap", "work/tables/lang5_en.tbl",
         "--out-scen", "work/build/SCEN.en.DAT", "--out-scen2", "work/build/SCEN2.en.DAT")

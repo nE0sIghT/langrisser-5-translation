@@ -38,7 +38,7 @@
 36	<$FB00><$0063>Is she going to be okay？<$FFFE>
 37	<$FB00><$0064>Better to worry about ourselves<$FFFC>right now.<$FFFE>
 38	<$FB00><$0061>Hurry up, Lambda！<$FFFE>
-39	<$FB00><$0062>Don't mind me. Why not go<$FFFC>ahead？<$FFFE>
+39	<$FB00><$0066>Hurry it up, or we leave<$FFFC>you behind.<$FFFE>
 40	<$FB00><$0067>I know, I know.<$FFFE>
 41	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
 42	<$FB00><$0049>Seems our foes are quite<$FFFC>skilled.<$FFFE>

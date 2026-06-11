@@ -1313,7 +1313,7 @@ index_dec,index_hex,group,char,source
 1311,051F,confirmed,概,paddle1:0.950
 1312,520,confirmed,良,token_map
 1313,521,confirmed,台,paddle1:0.991
-1314,522,confirmed,橘,paddle1:0.890
+1314,522,confirmed,橋,manual:context_vision_confirmed
 1315,523,confirmed,迂,paddle_xbrz:0.539
 1316,524,confirmed,駄,paddle1:0.871
 1317,525,confirmed,慢,paddle1:0.992

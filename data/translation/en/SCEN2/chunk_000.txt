@@ -1,4 +1,4 @@
-# file=SCEN2.DAT chunk=0 chunk_start=0x000800
+# file=SCEN.DAT chunk=0 chunk_start=0x000800
 # block_base=0x1AF4 block_size=0x1FC0 records=204
 1	Sigma<$FFFF>
 2	Lambda<$FFFF>
