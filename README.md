@@ -60,11 +60,18 @@ python3 scripts/lang5_verify_roundtrip.py  # must print OK: dump->insert is byte
 Chunk file format: one scene per file, `record_index<TAB>text`, control
 words as `<$XXXX>` tags. Record order in a story chunk: speaker name plates
 (`...<$FFFF>`), win/loss objectives (`・...`), location plate, dialogue.
-To identify a chunk's scenario: check the name plates/objectives or generate
-the JP/translation review pages:
+
+Chunks map to game scenarios (`data/scenario_map.json`): scenario K is
+played as scene chunk `44+K` -> battle chunk `K` (which also contains the
+post-battle dialogue) -> scene chunk `86+K`. Chunk 0 is the intro quiz,
+37 the tutorial battle, 38-42 optional maps (intros 82-86), 129/130 the
+in-game recap screens. Work with scenarios instead of raw chunk numbers:
 
 ```bash
-python3 scripts/lang5_review_html.py       # -> work/review/index.html
+python3 scripts/lang5_scenario.py list      # all scenarios, chunks, progress
+python3 scripts/lang5_scenario.py dump 11   # -> work/scenario_text/scenario_11.txt
+python3 scripts/lang5_scenario.py prefill 11  # stage all chunks of scenario 11
+python3 scripts/lang5_review_html.py        # JP/EN review pages -> work/review/
 ```
 
 ## Step 2 — glyphs for your language
@@ -89,10 +96,11 @@ into slots of rarely-used kanji:
 Caveat: until the whole script is translated, a sacrificed kanji shows up
 as the new glyph in untranslated lines.
 
-## Step 3 — translate a chunk
+## Step 3 — translate a scenario
 
 ```bash
-python3 scripts/lang5_tm_prefill.py 6      # -> work/wip_en/SCEN/chunk_006.txt
+python3 scripts/lang5_scenario.py prefill 6   # stages chunks 50, 6, 92
+python3 scripts/lang5_tm_prefill.py 6         # or stage a single chunk
 ```
 
 The prefill fills records that already have known translations (repeated

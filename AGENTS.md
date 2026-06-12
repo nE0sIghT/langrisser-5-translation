@@ -8,8 +8,10 @@ format notes. This file lists the rules that must not be broken.
 
 - **File sizes never change.** The disc has CD audio right after the data
   track. Never call `iso_mode2.py` with `--allow-grow`; never let
-  `SCEN.DAT`/`SCEN2.DAT`/`SYSTEM.BIN` grow. Per-chunk text growth must fit
-  the chunk's trailing zero padding (the validator's byte budget).
+  `SCEN.DAT`/`SCEN2.DAT`/`SYSTEM.BIN` grow. Text growth first uses the
+  chunk's trailing zero padding; beyond that the fixed-size repack
+  relocates chunks inside the file (validator status `REPACK` is fine as
+  long as the file-level totals stay `OK`).
 - **Font atlas ends at glyph 1820.** Tiles 1821+ in `SYSTEM.BIN` are a menu
   offset table, not glyphs. Writing there breaks menus.
 - **Control words are sacred.** Every `<$XXXX>` tag ≥ `0xE000` (except the
@@ -55,6 +57,10 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
 - No Russian (or other non-English) text in code, comments or data files.
 - `work/`, `iso/`, `patches/`, `archive/`, `external/` are not in git;
   everything under `data/` and `scripts/` is.
+- Work scenario by scenario, not by raw chunk number:
+  `lang5_scenario.py list/chunks/dump/prefill` maps scenario K to its
+  chunks (scene `44+K`, battle `K`, scene `86+K`; see
+  `data/scenario_map.json`).
 - After translating a chunk: rewrap → validate → build → regenerate review
   pages (`lang5_review_html.py`) → commit the chunk pair
   (`SCEN`+`SCEN2`) together.

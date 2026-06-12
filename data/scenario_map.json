@@ -1,0 +1,17 @@
+{
+  "comment": "Mapping between game scenarios and SCEN.DAT chunks. Derived from chunk content and structure: battle chunk K holds scenario K's battle plus its post-battle HQ dialogue; scene_a (44+K) plays before the battle, scene_b (86+K) after it. SCEN2.DAT differs from SCEN.DAT only inside battle chunks (variant unit layouts); all text is identical.",
+  "quiz": {"chunks": [0], "note": "intro quiz / character creation"},
+  "tutorial_battle": {"chunks": [37], "note": "virtual battle launched from the quiz"},
+  "scenario_rule": {"scene_a": "44 + K", "battle": "K", "scene_b": "86 + K", "scenarios": 36},
+  "optional_maps": {
+    "bargain_sale": {"intro": 82, "battle": 38},
+    "singing_contest": {"intro": 83, "battle": 39},
+    "umagee_pondbag": {"intro": 84, "battle": 40},
+    "impostor_treasure": {"intro": 85, "battle": 41},
+    "strongest_cave": {"intro": 86, "battle": 42},
+    "epilogues_unassigned": [124, 125, 126]
+  },
+  "recaps": {"world_situation": 129, "character_bios": 130},
+  "empty_chunks": [43, 44, 81, 123, 127, 128],
+  "endings_note": "scenario 36 scene_b (chunk 122) holds the endings"
+}
