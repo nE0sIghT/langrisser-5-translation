@@ -166,7 +166,7 @@ The pipeline is not tied to English:
 
 ## Reference
 
-- `translation.txt` — borgor's GameFAQs scene-by-scene EN script; meaning
-  reference only, wording is not copied.
+- `translation.txt` — borgor's GameFAQs scene-by-scene EN script; its
+  wording may be reused where it fits the JP line and the byte budget.
 - `docs/PLAN.md` — verified container format, root-cause notes, roadmap.
 - `external/lang3` — the Langrisser 3 toolkit this one is modeled on.

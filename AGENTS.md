@@ -37,8 +37,8 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
 ## Translation conventions
 
 - Source of meaning: the JP dump in `work/scriptdump/`. `translation.txt`
-  (borgor's GameFAQs guide) is a meaning reference only — write original
-  wording, do not copy it.
+  (borgor's GameFAQs guide) may be copied verbatim where its wording fits
+  the JP line and the byte budget; otherwise rephrase.
 - Names and terms: `data/translation/names_base.csv` and
   `data/translation/glossary_names.csv` are canonical; follow the
   Langrisser fan canon for series terms.
