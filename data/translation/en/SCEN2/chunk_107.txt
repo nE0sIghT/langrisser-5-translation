@@ -1,0 +1,19 @@
+# file=SCEN.DAT chunk=107 chunk_start=0x12E9800
+# block_base=0x4894 block_size=0x0248 records=17
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Scouts<$FFFF>
+8	Aizer<$FFFF>
+9	Attackers<$FFFF>
+10	Glob<$FFFF>
+11	Velzeria Castle Entrance<$FFFF>
+12	<$FB00><$0041>Lord Aizer！ We found<$FFFC>it！<$FFFE>
+13	<$FB00><$0042>Only that one？<$FFFE>
+14	<$FB00><$0043>Yes. It seems this is<$FFFC>the only sword here. We cannot<$FFFC>find the other.<$FFFE>
+15	<$FB00><$0044>Good！ If we can recover<$FFFC>the sword, we have no business<$FFFC>here！ Pull out！<$FFFE>
+16	<$FFF7><$FB00><$0045>Yes, sir！<$FFF5><$FFF8><$FFFE>
+17	<$FB00><$0046>Grrr… To think they<$FFFC>stole Langrisser<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0047>But they do not seem<$FFFC>connected to Kalxath. Then they<$FFFC>cannot possibly wield it.<$FFFD>We will take it back<$FFFC>later at our leisure！<$FFFE>
