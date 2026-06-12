@@ -63,12 +63,14 @@ class VMTraceRow:
     chunk_start: int
     vm_off: int
     stream_start: int
+    path_id: int
     step: int
     rel_off: int
     opcode: int
     kind: str
     length: int | None
     next_rel_off: int | None
+    branch_rel_offs: tuple[int, ...]
     payload: bytes
     stop: bool
     note: str
@@ -198,21 +200,21 @@ def _helper_80022b24_length(vm: bytes, off: int) -> int | None:
     return 4 if vm[off] == 0xFE else 2
 
 
-def _vm_step(vm: bytes, p: int) -> tuple[str, int | None, bool, str]:
+def _vm_step(vm: bytes, p: int) -> tuple[str, int | None, bool, str, tuple[int, ...]]:
     """Decode one VM command enough to advance a conservative byte trace.
 
     This intentionally models only instruction length and obvious command
     class. It does not infer speaker names.
     """
     if p >= len(vm):
-        return "eof", None, True, "instruction pointer is outside VM block"
+        return "eof", None, True, "instruction pointer is outside VM block", ()
 
     op = vm[p]
     remaining = len(vm) - p
 
     if op == 0x00:
         if remaining < 4:
-            return "skip_block_truncated", None, True, "opcode 00 needs a u16 skip length"
+            return "skip_block_truncated", None, True, "opcode 00 needs a u16 skip length", ()
         skip_len = u16(vm, p + 2)
         length = 4 + skip_len
         if p + length > len(vm):
@@ -221,8 +223,9 @@ def _vm_step(vm: bytes, p: int) -> tuple[str, int | None, bool, str]:
                 length,
                 True,
                 f"opcode 00 skip length 0x{skip_len:04X} exits VM block",
+                (),
             )
-        return "skip_block", length, False, f"opcode 00 skip length 0x{skip_len:04X}"
+        return "skip_block", length, False, f"opcode 00 skip length 0x{skip_len:04X}", ()
 
     if op in (0x01, 0x03):
         return (
@@ -230,69 +233,79 @@ def _vm_step(vm: bytes, p: int) -> tuple[str, int | None, bool, str]:
             None,
             True,
             "indexed call/jump changes VM pointer through the VM script table",
+            (),
         )
 
     if op == 0x02:
-        return "return_unimplemented", 1, True, "return needs call-stack modeling"
+        return "return_unimplemented", 1, True, "return needs call-stack modeling", ()
 
     if op in (0x04, 0x05, 0x09):
         helper_len = _helper_80022b24_length(vm, p + 2)
         if helper_len is None:
-            return "actor_state_truncated", None, True, "0x80025110 helper operands truncated"
+            return "actor_state_truncated", None, True, "0x80025110 helper operands truncated", ()
         length = 1 + 1 + helper_len + 2
         if p + length > len(vm):
-            return "actor_state_truncated", None, True, "0x80025110 operands exceed VM block"
+            return "actor_state_truncated", None, True, "0x80025110 operands exceed VM block", ()
         return (
             "actor_state_25110",
             length,
             False,
             f"0x80025110; helper 0x80022b24 consumes {helper_len} bytes",
+            (),
         )
 
     if op in (0x06, 0x07, 0x08, 0x0A):
         if remaining < 4:
-            return "actor_state_25454_truncated", None, True, "0x80025454 operands truncated"
-        return "actor_state_25454", 4, False, "0x80025454 consumes u8 + u16 operands"
+            return "actor_state_25454_truncated", None, True, "0x80025454 operands truncated", ()
+        return "actor_state_25454", 4, False, "0x80025454 consumes u8 + u16 operands", ()
 
     if 0x0B <= op <= 0x10:
         if remaining < 12:
-            return "display_truncated", None, True, "0x80024424 display command truncated"
-        return "display_24424", 12, False, "0x80024424 display/window command"
+            return "display_truncated", None, True, "0x80024424 display command truncated", ()
+        return "display_24424", 12, False, "0x80024424 display/window command", ()
 
     if op == 0x17:
         if remaining < 2:
-            return "actor_position_truncated", None, True, "opcode 17 first operand truncated"
+            return "actor_position_truncated", None, True, "opcode 17 first operand truncated", ()
         if vm[p + 1] != 0:
             if remaining < 6:
-                return "actor_position_truncated", None, True, "opcode 17 nonzero form truncated"
-            return "actor_position", 6, False, "opcode 17 nonzero form"
+                return "actor_position_truncated", None, True, "opcode 17 nonzero form truncated", ()
+            return "actor_position", 6, False, "opcode 17 nonzero form", ()
         helper_len = _helper_80022b24_length(vm, p + 2)
         if helper_len is None:
-            return "actor_position_truncated", None, True, "opcode 17 helper operands truncated"
+            return "actor_position_truncated", None, True, "opcode 17 helper operands truncated", ()
         length = 1 + 1 + helper_len + 2
         if p + length > len(vm):
-            return "actor_position_truncated", None, True, "opcode 17 operands exceed VM block"
-        return "actor_position", length, False, f"opcode 17 zero form; helper consumes {helper_len} bytes"
+            return "actor_position_truncated", None, True, "opcode 17 operands exceed VM block", ()
+        return "actor_position", length, False, f"opcode 17 zero form; helper consumes {helper_len} bytes", ()
 
     if op in (0x14, 0x15, 0x25, 0x6F, 0x78):
         if remaining < 4:
-            return "state_len4_truncated", None, True, "known 4-byte state command truncated"
-        return "state_len4", 4, False, "known 4-byte state command"
+            return "state_len4_truncated", None, True, "known 4-byte state command truncated", ()
+        return "state_len4", 4, False, "known 4-byte state command", ()
 
-    if op in (0x16, 0x18, 0x19, 0x1A, 0x1B, 0x23, 0x24, 0x63):
+    if op in (0x11, 0x16, 0x18, 0x19, 0x1A, 0x1B, 0x23, 0x24, 0x26, 0x63):
         if remaining < 2:
-            return "state_len2_truncated", None, True, "known 2-byte state command truncated"
-        return "state_len2", 2, False, "known 2-byte state command"
+            return "state_len2_truncated", None, True, "known 2-byte state command truncated", ()
+        return "state_len2", 2, False, "known 2-byte state command", ()
 
     if op == 0x7B:
+        if remaining < 6:
+            return "conditional_7b_truncated", None, True, "opcode 7B operands truncated", ()
+        no_mismatch = p + 2 + u16(vm, p + 2) + 2
+        mismatch = p + 4 + u16(vm, p + 4) + 2
+        branches = tuple(
+            target for target in (no_mismatch, mismatch) if p < target <= len(vm)
+        )
         return (
-            "conditional_25a1c_unimplemented",
+            "conditional_25a1c",
             None,
-            True,
-            "opcode 7B dispatches through 0x80025a1c and can branch/skip",
+            False,
+            "opcode 7B has two possible branch targets through 0x80025a1c",
+            branches,
         )
 
-    return "unknown_opcode", None, True, "opcode length not decoded yet"
+    return "unknown_opcode", None, True, "opcode length not decoded yet", ()
 
 
 def trace_vm_bytecode(
@@ -306,11 +319,17 @@ def trace_vm_bytecode(
 ) -> list[VMTraceRow]:
     vm_off, vm, stream_start = vm_block(chunk, block)
     rows: list[VMTraceRow] = []
-    p = stream_start
-    for step in range(max_steps):
+    queue: list[tuple[int, int]] = [(stream_start, 0)]
+    next_path_id = 1
+    visited: set[int] = set()
+    while queue and len(rows) < max_steps:
+        p, path_id = queue.pop(0)
+        if p in visited:
+            continue
+        visited.add(p)
         if p >= len(vm):
-            break
-        kind, length, stop, note = _vm_step(vm, p)
+            continue
+        kind, length, stop, note, branches = _vm_step(vm, p)
         opcode = vm[p]
         next_rel_off = p + length if length is not None else None
         payload_end = p + (length if length is not None and length > 0 else min(16, len(vm) - p))
@@ -340,12 +359,14 @@ def trace_vm_bytecode(
                 chunk_start=chunk_start,
                 vm_off=vm_off,
                 stream_start=stream_start,
-                step=step,
+                path_id=path_id,
+                step=len(rows),
                 rel_off=p,
                 opcode=opcode,
                 kind=kind,
                 length=length,
                 next_rel_off=next_rel_off,
+                branch_rel_offs=branches,
                 payload=payload,
                 stop=stop,
                 note=note,
@@ -358,9 +379,16 @@ def trace_vm_bytecode(
                 display_byte9=display_byte9,
             )
         )
+        if branches:
+            for target in branches:
+                if target not in visited:
+                    queue.append((target, next_path_id))
+                    next_path_id += 1
+            continue
         if stop or length is None or next_rel_off is None or next_rel_off <= p:
-            break
-        p = next_rel_off
+            continue
+        if next_rel_off not in visited:
+            queue.insert(0, (next_rel_off, path_id))
     return rows
 
 
@@ -651,6 +679,7 @@ def trace_row_dict(row: VMTraceRow) -> dict[str, str]:
         "chunk_start": f"0x{row.chunk_start:06X}",
         "vm_off": f"0x{row.vm_off:04X}",
         "stream_start": f"0x{row.stream_start:04X}",
+        "path_id": str(row.path_id),
         "step": str(row.step),
         "rel_off": f"0x{row.rel_off:04X}",
         "abs_off": f"0x{row.vm_off + row.rel_off:04X}",
@@ -658,6 +687,7 @@ def trace_row_dict(row: VMTraceRow) -> dict[str, str]:
         "kind": row.kind,
         "length": "" if row.length is None else str(row.length),
         "next_rel_off": "" if row.next_rel_off is None else f"0x{row.next_rel_off:04X}",
+        "branch_rel_offs": " ".join(f"0x{x:04X}" for x in row.branch_rel_offs),
         "payload": row.payload.hex(" "),
         "stop": "yes" if row.stop else "no",
         "note": row.note,
@@ -679,6 +709,7 @@ def write_trace_csv(rows: list[VMTraceRow], out_path: Path) -> None:
         "chunk_start",
         "vm_off",
         "stream_start",
+        "path_id",
         "step",
         "rel_off",
         "abs_off",
@@ -686,6 +717,7 @@ def write_trace_csv(rows: list[VMTraceRow], out_path: Path) -> None:
         "kind",
         "length",
         "next_rel_off",
+        "branch_rel_offs",
         "payload",
         "stop",
         "note",

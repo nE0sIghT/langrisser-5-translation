@@ -3,6 +3,32 @@
 This document records the current state of reverse-engineering speaker plate
 selection for dialogue line wrapping.
 
+## Decision: PARKED (2026-06-12)
+
+Exact per-line speaker extraction is parked. The wrapping problem it was
+meant to solve is closed by a cheaper bound that ships:
+
+1. The reserve only has to be a safe upper bound on the plate width, not the
+   exact speaker. A too-large reserve costs a slightly early break; a
+   too-small one causes a mid-word engine cut. Only the latter is a defect.
+2. The chunk VM header word `+0x38` is the speaker-name pool size (verified
+   against all 131 chunks: it excludes location plates and scene captions
+   such as chunk 75 record 12/14). `lang5_rewrap.py` reserves the widest
+   pool plate per chunk, read straight from the original `SCEN.DAT`.
+3. All speaker plate names are kept at 5 cells or less (titles dropped:
+   "Marshal Lanford" -> "Lanford" etc.), so the gap between the chunk-wide
+   bound and any actual plate is at most 2-3 cells and early breaks are
+   marginal. `data/translation/names_base.csv` holds the short forms.
+
+Static tracing remains open-ended in comparison: branch conditions are
+runtime state (opcode `0x7b` targets cannot be chosen statically), chunks
+65/107 do not even enter the linear trace, and full resolution requires
+reimplementing the actor-state opcode semantics. Do not resume it for
+wrapping purposes. If exact speakers are ever needed, hook the plate-draw
+path in an emulator during playtests instead of proving it statically.
+
+`scripts/lang5_speakers.py` stays as a conservative evidence dumper.
+
 ## Goal
 
 The rewrapper must know the visible speaker plate before each dialogue segment
@@ -32,6 +58,7 @@ REJECTED    tested and false; do not reuse
 ACTIVE      current line of work
 PENDING     next work item
 BLOCKED     needs another decoded dependency
+PARKED      stopped on purpose; do not resume without a new requirement
 ```
 
 | Status | Item | Evidence | Next action |
@@ -43,7 +70,8 @@ BLOCKED     needs another decoded dependency
 | DONE | One record can contain multiple `FB00` markers. | Chunk 45 has Sigma/Lambda switches in one record. | Rewrap must be segment-aware. |
 | REJECTED | `FB00 <id>` directly indexes the speaker-name pool. | IDs exceed local name count and do not match visible speakers. | Never use as speaker slot. |
 | REJECTED | The high byte before `FF0B` is a direct speaker slot. | Chunk 45 maps `0x0013` to Sigma by this heuristic, but the line is Lambda. | Remove or downgrade `vm_direct_00` confirmed output. |
-| REJECTED | A chunk-wide widest-name reserve is acceptable. | It prevents overflow but creates wrong early breaks in visible game text. | Use only as fallback for unresolved IDs. |
+| DONE | A chunk-wide widest-POOL reserve with short plate names is acceptable. | Early breaks came from location plates leaking into the bound and from long titled names; with the VM-header pool size and <= 5-cell plates the slack is 2-3 cells. | Shipped in `lang5_rewrap.py`; see the Decision section. |
+| REJECTED | Derive a per-record plate bound from JP first-line widths (21 - width). | The JP script relies on the engine's anywhere-wrap: dialogue first lines reach 81 cells, so the bound goes negative/below the real plate. | Do not retry; JP line breaks carry no plate evidence. |
 | REJECTED | A record-wide reserve is enough. | Records can switch speakers after an internal `FB00`. | Use active reserve changes after `FB00`. |
 | DONE | `scripts/lang5_speakers.py` no longer emits heuristic speaker confirmations. | Chunk 45 now reports `confirmed=0`; former `vm_direct_00` rows are `vm_state_byte_rejected/unresolved`. | Use it only as an evidence dumper until runtime behavior is decoded. |
 | DONE | `scripts/lang5_vm_dialog_refs.py` is documented as legacy evidence only. | Its header no longer calls the `FF0B` patterns confirmed command shapes. | Do not use it for execution order. |
@@ -56,12 +84,13 @@ BLOCKED     needs another decoded dependency
 | REJECTED | Word-only `FF0B ... FFFF FFFF` pattern scan is executable VM command parsing. | Chunk 45 starts at opcode `0x00`; that handler length-skips payload bytes containing `FF0B` patterns. | Keep word patterns as evidence only, never as command order. |
 | DONE | Build a bytecode trace for the VM stream. | `scripts/lang5_speakers.py --trace-out` reaches real chunk 45 display commands in byte order. | Use trace rows as evidence, not speaker mapping. |
 | DONE | Decode enough opcode lengths to trace chunk 45 into display commands. | Known lengths include `00`, `04/05/09`, `06/07/08/0a`, `0b..10`, `14..1b`, `23..25`, `63`, `6f`, `78`. | Keep extending from disassembly when the tracer stops. |
-| ACTIVE | Decode conditional opcode `0x7b`. | Chunk 45 trace stops at VM rel `0x0246`; jump table routes it through `0x80025a1c` to branch/skip logic. | Model the branch target/skip effect before tracing beyond it. |
-| ACTIVE | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
-| PENDING | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
-| PENDING | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
-| PENDING | Integrate speaker reserves into `lang5_rewrap.py`. | Existing rewrap has static reserve logic. | Change wrapping to update reserve after `FB00`. |
-| PENDING | Validate against chunk 45 in-game bad lines. | Known failures around Lambda/Sigma text. | Rewrap must avoid the `ju/st` break and isolated name tail. |
+| DONE | Decode branch targets for conditional opcode `0x7b`. | Chunk 45 `0x7b` at rel `0x0246` yields targets `0x024c` and `0x025c` from the `0x80025a1c -> 0x80026400` path. | Keep it as CFG branch evidence until the runtime condition is modeled. |
+| PARKED | Continue bytecode tracing after the first `0x7b` branch. | CFG trace reaches more display commands after both `0x7b` targets. | Decode the next stopping opcode reported by `--trace-out`. |
+| PARKED | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
+| PARKED | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
+| PARKED | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
+| DONE | Integrate pool-bound plate reserves into `lang5_rewrap.py`. | Reserve = widest plate of the VM-header speaker pool; plates capped at 5 cells. | Closed by the Decision section. |
+| DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
 
 ## Current Work Plan
 
@@ -100,35 +129,45 @@ reason.
    - Result: `python3 scripts/lang5_speakers.py --chunk 45 --trace-out
      work/vm_dialog_refs/vm_trace_045.csv` reaches 30 display commands per
      SCEN/SCEN2 copy and stops at opcode `0x7b`.
-5. Decode branch/conditional VM opcodes required by chunk 45. ACTIVE.
+5. Decode branch/conditional VM opcodes required by chunk 45. DONE.
    - Decode opcode `0x7b`, dispatched through `0x80025a1c`.
    - Confirm whether it changes the VM pointer by conditional skip, table
      branch, or fallthrough.
    - Success criterion: chunk 45 trace continues past VM rel `0x0246` without
      guessing.
-6. Resolve non-linear entry/control flow for chunks 65 and 107. ACTIVE.
+   - Result: `0x7b` reads one ignored byte, then one of two relative skip
+     lengths. For chunk 45 at rel `0x0246`, the possible next offsets are
+     `0x024c` and `0x025c`.
+6. Continue bytecode tracing after the first `0x7b` branch. ACTIVE.
+   - Extend the known opcode length set from disassembly whenever `--trace-out`
+     stops.
+   - Keep branch targets as CFG evidence unless the runtime condition is fully
+     modeled.
+   - Success criterion: chunk 45 trace reaches the end of its reachable display
+     command graph without unknown opcodes.
+7. Resolve non-linear entry/control flow for chunks 65 and 107. ACTIVE.
    - Linear trace from header stream start reaches `opcode 00` with skip length
      `0xfc00`.
    - Determine whether this is an intentional stream exit, alternate entrypoint,
      or an unmodeled conditional branch.
    - Success criterion: these chunks can be traced into their real dialogue
      display commands.
-7. Reimplement the relevant subset of `0x80024424`.
+8. Reimplement the relevant subset of `0x80024424`.
    - Model only fields needed for dialogue text and speaker/window plate.
    - Use the static `0x800eba38` table where the handler does runtime lookup.
    - Success criterion: chunk 45 resolves Sigma/Lambda speaker switches
      without manual names.
-8. Decode or confirm `0x800a39a4`.
+9. Decode or confirm `0x800a39a4`.
    - Verify whether `FB00 <id>` only marks the text segment or also triggers
      state selection.
    - Success criterion: no missing link remains between text `FB00` markers and
      VM command targets.
-9. Integrate with rewrap.
+10. Integrate with rewrap.
    - Add an API returning `chunk -> fb_id -> speaker_name/reserve`.
    - Update wrapping to change active reserve after every `FB00` marker.
    - Success criterion: known bad chunk 45 lines wrap without premature word
      splits.
-10. Run required build checks.
+11. Run required build checks.
    - `python3 scripts/lang5_verify_roundtrip.py`
    - `python3 scripts/lang5_rewrap.py`
    - `python3 scripts/lang5_validate_en.py`
@@ -143,7 +182,10 @@ reason.
 - Do not mark any static VM row `confirmed` unless it follows decoded runtime
   behavior.
 - Do not solve this with hand-written per-chunk speaker overrides.
-- Do not accept chunk-wide or record-wide reserves as the final solution.
+- Do not resume static VM tracing to improve wrapping; the pool-bound reserve
+  with short plate names ships instead (see the Decision section).
+- Do not derive plate bounds from JP line breaks; the JP script engine-wraps
+  mid-line and its first lines exceed the window.
 - Do not parse the VM stream only as aligned 16-bit records when interpreting
   opcode dispatch.
 - Do not treat `FF0B <flags> FFFF FFFF` pattern matches inside opcode `0x00`
@@ -286,9 +328,9 @@ Observed result:
 
 ```text
 speaker rows: 96, confirmed 0, unresolved 96
-trace rows: 148 across SCEN and SCEN2
-display commands: 60 total, 30 per file copy
-stop: opcode 0x7b at VM rel 0x0246 in both SCEN and SCEN2
+linear trace rows before CFG branch support: 148 across SCEN and SCEN2
+linear display commands before CFG branch support: 60 total, 30 per file copy
+first branch: opcode 0x7b at VM rel 0x0246 in both SCEN and SCEN2
 ```
 
 First chunk 45 display commands reached by the trace:
@@ -315,14 +357,15 @@ Opcode length facts added to the tracer:
 0x06/07/08/0a length = 4
 0x0b..10   length = 12; calls 0x80024424
 0x14/15/25/6f/78 length = 4
-0x16/18/19/1a/1b/23/24/63 length = 2
+0x11/16/18/19/1a/1b/23/24/26/63 length = 2
 0x17        length = 6 normally, 8 when the helper's first byte is 0xfe
+0x7b        CFG branch; possible next offsets are p+2+u16(p+2)+2 and p+4+u16(p+4)+2
 ```
 
 Known current stops:
 
 ```text
-chunk 045: opcode 0x7b at VM rel 0x0246, dispatched through 0x80025a1c
+chunk 045: first branch opcode 0x7b at VM rel 0x0246, targets 0x024c and 0x025c
 chunk 065: opcode 0x00 at VM rel 0x0064, skip length 0xfc00 exits VM block
 chunk 107: opcode 0x00 at VM rel 0x0064, skip length 0xfc00 exits VM block
 ```
