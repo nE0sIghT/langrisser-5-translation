@@ -3,18 +3,22 @@
 This document records the current state of reverse-engineering speaker plate
 selection for dialogue line wrapping.
 
-## Current Decision (2026-06-12)
+## Decision: PARKED (2026-06-12)
 
-Full per-line speaker extraction is still not complete for every chunk, but
-the display-command plate field is now useful where the static VM tracer reaches
-it. The wrapping strategy is:
+Exact per-line speaker extraction remains parked. Do not resume broad static VM
+tracing, actor-state interpretation, or `FB00` speaker binding work unless the
+parking decision is explicitly reversed.
+
+The production wrapper may still use already-established, bounded facts that do
+not require continuing the extraction effort:
 
 1. Display opcodes `0x0b..0x10` call handler `0x80024424`. For verified chunk
    45 rows, payload byte 9 is the zero-based speaker-name pool slot. `0xff`
    means the window has no speaker plate.
 2. When a traced display row maps cleanly back to an `FB00` text record,
    `lang5_rewrap.py` uses the exact plate width from byte 9.
-3. When no trusted display row exists, the reserve only has to be a safe upper
+3. No new debugging is done to force more display rows to resolve. When no
+   trusted display row exists, the reserve only has to be a safe upper
    bound on the plate width, not the exact speaker. A too-large reserve costs a
    slightly early break; a too-small one causes a mid-word engine cut. Only the
    latter is a defect.
@@ -29,21 +33,21 @@ it. The wrapping strategy is:
 6. Continuation pages after `<$FFFD>` do not redraw the speaker plate and wrap
    at full width.
 
-Static tracing remains open-ended in comparison: branch conditions are
-runtime state (opcode `0x7b` targets cannot be chosen statically), chunks
-65/107 do not even enter the linear trace, and full resolution requires
-reimplementing the actor-state opcode semantics. Do not resume broad speaker
-name extraction unless a translation/playtest issue cannot be solved with the
-display-byte9 rows plus the safe fallback.
+Static tracing remains open-ended: branch conditions are runtime state (opcode
+`0x7b` targets cannot be chosen statically), chunks 65/107 do not even enter
+the linear trace, and full resolution requires reimplementing the actor-state
+opcode semantics. This is intentionally not part of the active translation
+flow.
 
 `scripts/lang5_speakers.py` stays as a conservative evidence dumper.
 
 ## Archived Static-Extraction Goal
 
-This was the original goal before the current decision above. It is kept as
-historical context only. The shipped wrapper now uses exact display byte9
-reserves where the VM row maps cleanly to a text record, and the chunk-wide
-speaker-pool bound everywhere else.
+This was the original goal before the parked decision above. It is kept as
+historical context only. The shipped wrapper uses exact display byte9 reserves
+only where an already-traced VM row maps cleanly to a text record, and the
+chunk-wide speaker-pool bound everywhere else. That limited use does not unpark
+exact speaker extraction.
 
 The target output is a reproducible extractor:
 
