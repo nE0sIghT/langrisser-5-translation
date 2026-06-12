@@ -23,7 +23,7 @@
 21	<$FB00><$0072>Lady Clarett！<$FFFE>
 22	<$FB00><$0073>Tch, Light heirs<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0074>I raised<$FFFC>dead all over, yet you came<$FFFC>here<$FFF5><$FFF8>‥‥.<$FFFE>
 23	<$FB00><$0075>Whatever your goal, I will not<$FFFC>let you harm my people！<$FFFE>
-24	<$FB00><$0076>My goal is clear, the demon wish<$FFFC>to rule mankind<$FFF5><$FFF8>‥‥.<$FFFE>
+24	<$FB00><$0076>My goal is clear, the demons'<$FFFC>wish to rule mankind<$FFF5><$FFF8>‥‥.<$FFFE>
 25	<$FB00><$0077>Then we have even more reason to<$FFFC>stop you！<$FFFE>
 26	<$FFF8>‥‥<$FFF6><$FB00><$0078>That man<$FFF5><$FFF8>‥‥.<$FFFE>
 27	<$FB00><$0079>What is it, Marie？ What about<$FFFC>that demon？<$FFFE>

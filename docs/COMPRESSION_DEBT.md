@@ -48,6 +48,7 @@ though they still need normal playtest and style polish.
 | CD-011 | Scenario 12, `chunk_098.txt` | `75` | Commander's contingency line is compressed. JP says if the time comes they must act, and they may need the party's help. Current EN is accurate but minimal. | Low priority polish. |
 | CD-012 | Scenario 16, `chunk_016.txt` | `14,17` | Gilmore-side tactical lines are compressed. JP includes "just received information" and "if needed, use the Teleport Ring received from King Gilmore to transfer the girl." Current EN keeps the function but drops attribution/detail. | Restore details if budget allows. |
 | CD-013 | Scenario 20, `chunk_064.txt` | `16,18,22,24,35` | Lore exposition was shortened to fit budget. Core facts remain, but the JP has more explicit framing: Glob as one of Boser's demon generals, near-immortality, Chaos as the source of power, and Langrisser/Alhazard as the history of human-demon war. | Revisit as lore polish after the remaining scenarios are translated. |
+| CD-014 | Scenario 4, `chunk_090.txt` | `29` | Wheeler's resignation speech was shortened during the scenario 14 budget pass. JP has him spell out that the king promised a general's post, that he has resented the captaincy from the very start, and that they will regret needing his soldiers later. Current EN keeps the facts but loses the bluster ("You will regret losing us！"). | Restore the bluster if chunk 90 budget allows (the chunk already needed a repack sector). |
 
 ## Closed Items
 
