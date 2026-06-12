@@ -1,0 +1,257 @@
+# file=SCEN.DAT chunk=24 chunk_start=0x3AE800
+# block_base=0xBC30 block_size=0x2800 records=255
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Omega<$FFFF>
+8	Soldier<$FFFF>
+9	Lainforce<$FFFF>
+10	・Langrisser bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFE>
+11	・Langrisser is stolen and carried off north<$FFFC>・<$F600><$0000> dies<$FFFE>
+12	Transport Ship, Cargo Block<$FFFF>
+13	<$FB00><$0022>Hey, hurry up and<$FFFC>search！<$FFFE>
+14	<$FB00><$0023>Lord Omega. The interior<$FFFC>does not seem contaminated.<$FFFE>
+15	<$FB00><$0024>Good. Then let's grab<$FFFC>the goods already.<$FFFE>
+16	<$FB00><$0025>But our mission was to<$FFFC>recover the specimens…<$FFFE>
+17	<$FB00><$0026>Then recover the<$FFFC>specimens yourselves. Crimso shot<$FFFC>down the cargo ship. If we leave<$FFFC>Langrisser here, it may be stolen.<$FFFE>
+18	<$FB00><$0027><$FFF7>Y, yes sir<$FFF5><$FFF8>…<$FFFE>
+19	<$FB00><$0028>We found it. No doubt,<$FFFC>this is the airship Virash<$FFFC>mentioned.<$FFFE>
+20	<$FB00><$0029>Hard to believe the body<$FFFC>stayed intact.<$FFFE>
+21	<$FB00><$002A>This model separates<$FFFC>engine and cargo blocks. In<$FFFC>emergencies, they detach. That is<$FFFC>why this section is sturdy.<$FFFE>
+22	<$FFF7><$FB00><$002B>Huh<$FFF5><$FFF8>… <$FFF6><$FB00><$002C>Virash is one<$FFFC>thing, but why do you know so<$FFFC>much about ancient weapons？<$FFFE>
+23	<$FB00><$002D>I was wondering the<$FFFC>same thing. It is time you told<$FFFC>us.<$FFFE>
+24	<$FB00><$002E>Well, that's<$FFF5><$FFF7>…<$FFFE>
+25	<$FB00><$002F>Hold it！ Looks like we<$FFFC>have no time for a leisurely<$FFFC>chat.<$FFFE>
+26	<$FB00><$0030>Hoho. So I run into<$FFFC>them here. This should be fun！<$FFFE>
+27	<$FB00><$0031>If they take the sword,<$FFFC>we're in trouble！<$FFFE>
+28	…Hey.<$FFFE>
+29	What is it, <$F600><$0000>？<$FFFE>
+30	We've been here before… haven't<$FFFC>we？<$FFFE>
+31	Huh？ What are you talking<$FFFC>about？<$FFFE>
+32	Now that you mention it, I<$FFFC>remember this place too… Maybe<$FFFC>I'm imagining it？<$FFFE>
+33	You are not imagining it. We<$FFFC>have Langrisser, after all.<$FFFE>
+34	…<$FFFD>You're right. Why is that？<$FFFE>
+35	Maybe because we used a cheat？<$FFFD>More importantly, we have a<$FFFC>problem！ What happens to this<$FFFC>stage's victory terms？<$FFFE>
+36	We already have Langrisser, so the<$FFFC>victory terms are met！ Victory<$FFFC>without fighting！ Lucky us♪<$FFFE>
+37	I doubt they will allow that.<$FFFE>
+38	Then what do we do？<$FFFE>
+39	We do this…<$FFFE>
+40	・Me○i○○ Sword bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFE>
+41	・Sword is stolen and carried off north<$FFFC>・<$F600><$0000> dies<$FFFE>
+42	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Me○i○○ Sword bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFE>
+43	There. Good enough？<$FFFE>
+44	Right！ Let's do our best！<$FFFE>
+45	Looks like we can escape safely…<$FFFE>
+46	That was an easy mission.<$FFFE>
+47	Mission complete！ Retreating！<$FFFE>
+48	Farewell！<$FFFE>
+49	All right, fall back！<$FFFE>
+50	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
+51	Aah！<$FFFE>
+52	Marie！<$FFFE>
+53	Take the sword！<$FFFE>
+54	<$0000> Received Langrisser！<$FFFE>
+55	<$FB00><$0043>If we escape south with<$FFFC>this, they cannot follow！<$FFFE>
+56	<$0000> Langrisser was stolen！<$FFFE>
+57	Whew. Now if I escape with this…<$FFFE>
+58	Damn！ Langrisser is in his hands！<$FFFE>
+59	Aah！<$FFFE>
+60	Alfred！<$FFFE>
+61	<$F600><$0000>… P, please take<$FFFC>the sword！<$FFFE>
+62	<$0000> Received Langrisser！<$FFFE>
+63	<$FB00><$0043>If we escape south with<$FFFC>this, they cannot follow！<$FFFE>
+64	<$0000> Langrisser was stolen！<$FFFE>
+65	Whew. Now if I escape with this…<$FFFE>
+66	Damn！ Langrisser is in his hands！<$FFFE>
+67	…Guh！ Not here…<$FFFE>
+68	Brenda！<$FFFE>
+69	…<$F600><$0000>… The sword is<$FFFC>yours！<$FFFE>
+70	<$0000> Received Langrisser！<$FFFE>
+71	<$FB00><$0043>If we escape south with<$FFFC>this, they cannot follow！<$FFFE>
+72	<$0000> Langrisser was stolen！<$FFFE>
+73	Whew. Now if I escape with this…<$FFFE>
+74	Damn！ Langrisser is in his hands！<$FFFE>
+75	Aaaaah！<$FFFE>
+76	Clarett！<$FFFE>
+77	Take the sword, <$F600><$0000>…<$FFFC>Here！<$FFFE>
+78	<$0000> Received Langrisser！<$FFFE>
+79	<$FB00><$0043>If we escape south with<$FFFC>this, they cannot follow！<$FFFE>
+80	<$0000> Langrisser was stolen！<$FFFE>
+81	Whew. Now if I escape with this…<$FFFE>
+82	Damn！ Langrisser is in his hands！<$FFFE>
+83	<$FB00><$0032>Listen up！ Recovery teams,<$FFFC>if you find Langrisser, bring it<$FFFC>to me！ If it is unrelated, hold<$FFFC>the enemy back！<$FFFE>
+84	<$FB00><$0033>Sir！<$FFFE>
+85	<$FB00><$0034>The rest of you stall<$FFFC>them！ Got it！<$FFFE>
+86	<$FB00><$0035>Yeah！<$FFFE>
+87	What are you dawdling for？ Get<$FFFC>moving！<$FFFE>
+88	Tch, useless lot. Guess I'll move<$FFFC>too！<$FFFE>
+89	Tch, useless lot. Guess I'll move<$FFFC>too！<$FFFE>
+90	Lord Omega, this！<$FFFE>
+91	N, no…<$FFFE>
+92	This doesn't seem to be the room.<$FFFE>
+93	Doesn't look like this room.<$FFFE>
+94	C, can't win…<$FFFE>
+95	There's a chest！<$FFFE>
+96	A chest！<$FFFE>
+97	<$FB00><$0036>Found it！<$FFFE>
+98	Not the target, but I will take<$FFFC>it.<$FFFE>
+99	Item stolen！<$FFFE>
+100	Just a chest…<$FFFE>
+101	Uwoooh！<$FFFE>
+102	<$0000> Got Sonic Band！<$FFFE>
+103	This doesn't seem to be the room.<$FFFE>
+104	Doesn't look like this room.<$FFFE>
+105	Th, the power gap is too<$FFFC>large…<$FFFE>
+106	There's a chest！<$FFFE>
+107	A chest！<$FFFE>
+108	Not the target, but I will take<$FFFC>it.<$FFFE>
+109	Item stolen！<$FFFE>
+110	Just a chest…<$FFFE>
+111	N, no way… Is this all the<$FFFC>strength I have？<$FFFE>
+112	<$0000> Got Runestone！<$FFFE>
+113	This doesn't seem to be the room.<$FFFE>
+114	Doesn't look like this room.<$FFFE>
+115	Grrr…<$FFFE>
+116	There's a chest！<$FFFE>
+117	A chest！<$FFFE>
+118	<$FB00><$0036>Found it！<$FFFE>
+119	Not the target, but I will take<$FFFC>it.<$FFFE>
+120	Item stolen！<$FFFE>
+121	Just a chest…<$FFFE>
+122	What are they…？<$FFFE>
+123	<$0000> Got Crown！<$FFFE>
+124	There's a chest！<$FFFE>
+125	A chest！<$FFFE>
+126	<$FB00><$0036>Found it！<$FFFE>
+127	Not the target, but I will take<$FFFC>it.<$FFFE>
+128	Item stolen！<$FFFE>
+129	Just a chest…<$FFFE>
+130	Just a chest…<$FFFE>
+131	T, too strong…<$FFFE>
+132	<$0000> Got Sonic Band！<$FFFE>
+133	<$0000> Got Crown！<$FFFE>
+134	There's a chest！<$FFFE>
+135	A chest！<$FFFE>
+136	This is not it, but we should<$FFFC>take it anyway.<$FFFE>
+137	Item stolen！<$FFFE>
+138	Looks like just a chest…<$FFFE>
+139	No…<$FFFE>
+140	<$0000> Got Tiara！<$FFFE>
+141	Lord Omega… forgive me…<$FFFE>
+142	<$FB00><$0050>…Grrr… Why？ Why can<$FFFC>I not win？<$FFFE>
+143	<$FB00><$0051>Omega…<$FFFE>
+144	<$FB00><$0052>You and I were given<$FFFC>the same… no, I should have been<$FFFC>modified even better than you… So<$FFFC>why can't I win…？<$FFFD><$FB00><$0053>…More power… I need more power…<$FFFE>
+145	<$FB00><$0054>Listen up, you lot！<$FFFC>Bring me Langrisser no matter what！<$FFFE>
+146	<$FB00><$0055>Sir！<$FFFE>
+147	Sir！<$FFFE>
+148	<$FB00><$0056>…Grrr… Why…？<$FFFE>
+149	<$FB00><$0057>We will take this sword,<$FFFC>Langrisser.<$FFFE>
+150	<$FB00><$0058>Langrisser should have<$FFFC>brought my power to its peak… So<$FFFC>why can't I win…？<$FFFD><$FB00><$0059>Am I using Langrisser wrong…？<$FFFE>
+151	<$FB00><$00A9>Good, now I just bring<$FFFC>this sword to Lord Omega！<$FFFE>
+152	<$FB00><$004A>Damn！ Langrisser was<$FFFC>stolen…<$FFFE>
+153	<$FB00><$0049>Good, now I just bring<$FFFC>this sword to Lord Omega！<$FFFE>
+154	<$FB00><$004A>Damn！ Langrisser was<$FFFC>stolen…<$FFFE>
+155	<$FB00><$004B>Whew.<$FFFE>
+156	<$FB00><$004C>If we get this far<$FFF5><$FFF8>…<$FFFE>
+157	<$FB00><$004D>This is as good as won.<$FFFE>
+158	<$FB00><$004E>They won't catch me now.<$FFFE>
+159	<$FB00><$004F>The sword is safe. No<$FFFC>need to stay here longer.<$FFFE>
+160	<$FB00><$005A>No enemies left, it<$FFFC>seems.<$FFFE>
+161	<$FB00><$005B>Now we can bring the<$FFFC>sword back safely.<$FFFE>
+162	<$0000> Got Langrisser！<$FFFE>
+163	<$0000> Got Messiah Sword！<$FFFE>
+164	So it wasn't Langrisser after all…<$FFFE>
+165	All right！ Got it again！<$FFFE>
+166	<$FB00><$005C>What is going on？ Has<$FFFC>the sacred sword not been<$FFFC>recovered yet？<$FFFE>
+167	<$FB00><$005D>He is<$FFF5><$FFF8>…<$FFFE>
+168	<$FB00><$005E>Lain… force<$FFF5><$FFF8>…！<$FFFE>
+169	<$FB00><$0037>You got it！ Bring it<$FFFC>here at once！<$FFFE>
+170	Yes！<$FFFE>
+171	<$FB00><$0038>Yes！<$FFFE>
+172	<$FB00><$0039>The enemy beat us to<$FFFC>it！<$FFFE>
+173	<$FB00><$003A>Take it before it reaches<$FFFC>Omega！<$FFFE>
+174	<$FB00><$003B>We'll take it before it<$FFFC>reaches Omega！<$FFFE>
+175	<$FB00><$003C>Like hell！<$FFFE>
+176	This… this one thing… Please take<$FFFC>it！ Lord Omega<$00E4><$00E5><$00E6>！<$FFFE>
+177	<$0000> Langrisser reached Omega！<$FFFE>
+178	Well done！ Leave the rest to me！<$FFFE>
+179	O… Omega… sir…<$FFFE>
+180	Hm？ This is！<$FFFE>
+181	<$0000> Got Langrisser！<$FFFE>
+182	<$0000> Got Messiah Sword！<$FFFE>
+183	<$FB00><$0043>If we escape south with<$FFFC>this, they cannot follow！<$FFFE>
+184	<$0000> <$0000><$0000><$0000><$FFF4>Sword stolen！<$FFF3><$FFFE>
+185	<$FB00><$0045>So this is Langrisser！<$FFFC>…I feel the power！<$FFFE>
+186	<$FB00><$0046>Damn！ Omega has<$FFFC>Langrisser！<$FFFE>
+187	Huh, so this is Langrisser… Looks<$FFFC>like a dull blade to me…<$FFFD>Well, whatever. Doryaaa！<$FFFE>
+188	…Huh？ Nothing changed！？<$FFFD>Damn！ One more time！ Doryaaa！<$FFFE>
+189	Why！？ Damn it！ Ooooooryaaaa！！<$FFFE>
+190	<$0000><$0000>15 minutes later<$0000><$0000><$FFFF>
+191	…Huff, huff, huff…<$FFFE>
+192	…Still not done, Omega？<$FFFE>
+193	One more！ Just let me try once<$FFFC>more！<$FFFE>
+194	Fine. This is the last one, all<$FFFC>right？<$FFFE>
+195	S, sorry…<$FFFD>Here I go！ <$FFF4>Nwooooooryaaa！！！<$FFF3><$FFFE>
+196	<$FFF7><$FB00><$0047>Hah hah hah<$00E4><$00E6>！<$FFF5><$FFF8> <$FFF6><$FB00><$0048>This<$FFFC>is my true power！ Come on！ We<$FFFC>settle this here！<$FFFE>
+197	…Did it work！？<$FFFD>It worked…！<$FFFE>
+198	Hahaha, it worked！！<$FFFC><$F600><$0000>, it worked！！<$FFFE>
+199	<$FFF8>…<$FFF7>Yeah, <$FFF6>good for you<$FFF8>…<$FFFE>
+200	<$FFF8>…<$FFF7>Idiot<$FFF8>…<$FFFE>
+201	<$FFF7>Nuhahahaha！ <$FFF6>Sorry for the wait！<$FFFC>Now, let's begin！<$FFFD>We settle this here！<$FFFE>
+202	<$FFFA><$FFF8>…<$FFF6>Whew<$FFF8>…<$FFFE>
+203	But this feels kind of strange…<$FFFE>
+204	<$0000> Found Langrisser！<$FFFE>
+205	<$0000> Found Messiah Sword！<$FFFE>
+206	<$FB00><$0041>Good, escape south！<$FFFE>
+207	There it is！ So this is<$FFFC>Langrisser！<$FFFE>
+208	<$0000> Found Langrisser！<$FFFE>
+209	<$0000> Got Messiah Sword！<$FFFE>
+210	So it was this one…<$FFFE>
+211	Do not be greedy.<$FFFF>
+212	Well, figures. We did use stage<$FFFC>select…<$FFFE>
+213	<$FB00><$0043>If we escape south with<$FFFC>this, they cannot follow！<$FFFE>
+214	Doesn't look like Langrisser. I<$FFFC>will take it anyway.<$FFFE>
+215	This isn't it. We should take it<$FFFC>anyway.<$FFFE>
+216	This must be the wrong thing… Oh<$FFFC>well, I'll take it！<$FFFE>
+217	Looks wrong. Still, I will take<$FFFC>it.<$FFFE>
+218	A miss, huh？ But I'll take<$FFFC>this！<$FFFE>
+219	<$FB00><$0044>Tch！ They beat us to<$FFFC>it！ Everyone, focus attacks on<$FFFC>that one！<$FFFE>
+220	Tch！ Everyone, focus attacks on<$FFFC>that one！<$FFFE>
+221	<$FB00><$003D>Found it！ This is<$FFFC>Langrisser.<$FFFE>
+222	<$FB00><$003E>Found it！ This is<$FFFC>Langrisser！<$FFFE>
+223	<$FB00><$003F>Found it！ This is<$FFFC>Langrisser！<$FFFE>
+224	<$FB00><$0040>Found it！ This is<$FFFC>Langrisser.<$FFFE>
+225	<$0000> Got Sonic Band！<$FFFE>
+226	<$0000> Got Runestone！<$FFFE>
+227	<$FB00><$003D>Found it！ This is<$FFFC>Langrisser.<$FFFE>
+228	<$FB00><$003E>Found it！ This is<$FFFC>Langrisser！<$FFFE>
+229	<$FB00><$003F>Found it！ This is<$FFFC>Langrisser！<$FFFE>
+230	<$FB00><$0040>Found it！ This is<$FFFC>Langrisser.<$FFFE>
+231	<$0000> Got Crown！<$FFFE>
+232	<$FB00><$003D>Found it！ This is<$FFFC>Langrisser.<$FFFE>
+233	<$FB00><$003E>Found it！ This is<$FFFC>Langrisser！<$FFFE>
+234	<$FB00><$003F>Found it！ This is<$FFFC>Langrisser！<$FFFE>
+235	<$FB00><$0040>Found it！ This is<$FFFC>Langrisser.<$FFFE>
+236	<$0000> Got Sonic Band！<$FFFE>
+237	<$0000> Got Crown！<$FFFE>
+238	<$0000> Got Tiara！<$FFFE>
+239	Empty！？ All that for nothing<$FFF8>…<$FFFE>
+240	<$FFF8>… <$FFF6>Looks like nothing is here.<$FFFE>
+241	Huh？ Empty<$FFF8>…<$FFFE>
+242	It's empty！？ What a letdown！<$FFFE>
+243	Awful！ It's empty！<$FFFE>
+244	Lord Omega. We found cargo, but<$FFFC>will now join the attack！<$FFFE>
+245	What is inside？<$FFFE>
+246	I am not certain, but it may be<$FFFC>valuable<$FFF8>…<$FFFE>
+247	Tch！ If you break it, Zero will<$FFFC>nag me. Bring it to Lainforce<$FFFC>instead！<$FFFE>
+248	Sir. Understood.<$FFFE>
+249	Lord Omega. We found cargo, but<$FFFC>will now join the attack！<$FFFE>
+250	No longer needed. It will only get<$FFFC>in the way.<$FFFD>Bring it to Lainforce instead.<$FFFE>
+251	Sir. Understood.<$FFFE>
+252	We found cargo<$FFF8>… <$FFF6>It may be<$FFFC>important. I will bring it to Lord<$FFFC>Lainforce.<$FFFE>
+253	Cargo found. I will send it to<$FFFC>Lord Lainforce now.<$FFFE>
+254	Go already.<$FFFE>
+255	For now, I will deliver it to<$FFFC>Lord Lainforce.<$FFFE><$FFFF>
