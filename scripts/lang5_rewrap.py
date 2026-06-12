@@ -29,6 +29,9 @@ PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
 PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
+# Chunks whose dialogue window draws no inline speaker plate (verified
+# in-game): the quiz renders full-width text despite FB00 tags.
+RESERVE_OVERRIDE = {0: 0}
 
 
 def cells(codec: Codec, text: str) -> int:
@@ -216,7 +219,8 @@ def main() -> None:
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
                 records.append(tuple(raw.split("\t", 1)))
-        reserve = plate_reserve(codec, records)
+        chunk_idx = int(fp.stem.split("_")[1])
+        reserve = RESERVE_OVERRIDE.get(chunk_idx, plate_reserve(codec, records))
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" not in raw or raw.startswith("#"):
