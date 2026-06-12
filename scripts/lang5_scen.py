@@ -185,12 +185,14 @@ class Codec:
         return "".join(out)
 
     def encode(self, text: str) -> list[int]:
-        """Encode text with pair tokens while avoiding ugly proper-name tails.
+        """Encode text with pair tokens while avoiding ugly word starts.
 
         The primary objective is still minimum token count. For equal-cost
-        encodings, prefer layouts that do not leave single lowercase glyphs
-        inside capitalized words (e.g. Sigma => S + ig + ma instead of
-        Si + gm + a).
+        encodings, prefer the capital pair over a lone native capital
+        (Sigma => Si + gm + a, not S + ig + ma): the native fullwidth
+        capital is centered in its cell, which reads as a stray indent
+        (bad in choice lists like Yes/No). A trailing single lowercase
+        renders left-aligned and joins the word seamlessly.
         """
         out: list[int] = []
         i = 0
@@ -244,14 +246,15 @@ class Codec:
         if width != 1:
             return 0
         ch = text[i]
-        if not ("a" <= ch <= "z"):
-            return 0
-        start = i
-        while start > 0 and text[start - 1].isalpha():
-            start -= 1
-        end = i + 1
-        while end < len(text) and text[end].isalpha():
-            end += 1
-        if start < i and end - start > 1 and text[start].isupper():
-            return 10
+        if "A" <= ch <= "Z":
+            # Lone capital followed by lowercase: the centered native glyph
+            # leaves a gap before the left-aligned tail ("Y es"). All-caps
+            # words (HARD, MP) are native by design and stay penalty-free.
+            nxt = text[i + 1] if i + 1 < len(text) else ""
+            return 10 if "a" <= nxt <= "z" else 0
+        if "a" <= ch <= "z":
+            # A single lowercase is seamless at the end of a word, slightly
+            # off elsewhere (half-cell gap before the next pair).
+            nxt = text[i + 1] if i + 1 < len(text) else ""
+            return 1 if nxt.isalpha() else 0
         return 0
