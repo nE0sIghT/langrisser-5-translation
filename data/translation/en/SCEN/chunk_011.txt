@@ -5,43 +5,43 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
+6	Lanford<$FFFF>
 7	Folk<$FFFF>
 8	Taxman<$FFFF>
 9	Guard<$FFFF>
-10	Marquis Creid<$FFFF>
-11	Kalxath off.<$FFFF>
+10	Creid<$FFFF>
+11	Officer<$FFFF>
 12	・Defeat all enemies<$FFFE>
 13	・All villagers die<$FFFC>・<$F600><$0000> dies<$FFFE>
 14	Otranto Lake Fort<$FFFF>
-15	<$FB00><$0028>We're almost<$FFFC>there. Past this lake is Salrath<$FFFC>territory.<$FFFE>
-16	<$FB00><$0029>I hope we can<$FFFC>gain their help.<$FFFE>
+15	<$FB00><$0028>We're almost there. Past<$FFFC>this lake is Salrath territory.<$FFFE>
+16	<$FB00><$0029>I hope we can gain their<$FFFC>help.<$FFFE>
 17	・I hope so<$FFFE>
 18	・Will it go that well？<$FFFE>
 19	・Say nothing<$FFFE>
-20	<$FB00><$002A>Right. Let's<$FFFC>hurry and reclaim your country<$FFF5><$FFF8>…<$FFFE>
+20	<$FB00><$002A>Right. Let's hurry and<$FFFC>reclaim your country<$FFF5><$FFF8>…<$FFFE>
 21	I feel bad for Clarett, but it<$FFFC>won't be that easy.<$FFFE>
 22	<$FFF7>What！？ <$FFFB><$FFF6>Why？<$FFFE>
 23	Because we're wanted criminals…<$FFFE>
 24	<$FFFA><$FFF8>…<$FFFE>
 25	Hey！ Why are you silent？<$FFFE>
-26	<$0000><$FB00><$002B><$FFFC><$0000><$0000><$0000><$0000><$0000><$0000><$FFF4>Kyaaa！<$FFF3><$FFFE>
+26	<$0000><$FB00><$002B> <$0000><$0000><$0000><$0000><$0000><$0000><$FFF4>Kyaaa！<$FFF3><$FFFE>
 27	<$FB00><$002C>What！？<$FFFE>
-28	<$FB00><$002D>Why is this<$FFFC>happening to us<$FFF5><$FFF7>…？<$FFFE>
-29	<$FB00><$002E>Silence！ What<$FFFC>can tax dodgers say！<$FFFE>
-30	<$FB00><$002F>B-but no one<$FFFC>can pay taxes that high<$FFF5><$FFF8>…<$FFFE>
-31	<$FB00><$0030>We enforce<$FFFC>imperial law. Defy us, defy the<$FFFC>Empire！<$FFFE>
-32	<$FB00><$0031>No tax, and back<$FFFC>talk？ Imperial law says you<$FFFC>die！<$FFFE>
-33	<$FB00><$0032>Oh, Lushiris<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0033>Why won't you save us<$FFF5><$FFF8>…？<$FFFE>
-34	<$FB00><$0034>Hey！ You<$FFFC>there！ Please help us！<$FFF5><$FFF7><$FFFE>
-35	<$FB00><$0035>They must be<$FFFC>fleeing the nobles.<$FFFE>
-36	<$FB00><$0036>What will you<$FFFC>do, Clarett？<$FFFE>
-37	<$FB00><$0037>Isn't it<$FFFC>obvious？ We save them！<$FFFE>
-38	<$FB00><$0038>But how should<$FFFC>we fight…？<$FFFE>
-39	<$FB00><$0039>We'll guide them<$FFFC>out.<$FFFE>
-40	<$FB00><$003A>Please command. If<$FFFC>I try, I'll only slow us down.<$FFFE>
-41	<$FB00><$003B>Leave it to me.<$FFFC>First, guide the villagers<$FFF5><$FFF8>…<$FFFE>
-42	<$FB00><$003C>The lake fort<$FFFC>has a switch. Connect the<$FFFC>bridge and they can cross.<$FFFE>
+28	<$FB00><$002D>Why is this happening to<$FFFC>us<$FFF5><$FFF7>…？<$FFFE>
+29	<$FB00><$002E>Silence！ What can tax<$FFFC>dodgers say！<$FFFE>
+30	<$FB00><$002F>B-but no one can pay<$FFFC>taxes that high<$FFF5><$FFF8>…<$FFFE>
+31	<$FB00><$0030>We enforce imperial law.<$FFFC>Defy us, defy the Empire！<$FFFE>
+32	<$FB00><$0031>No tax, and back talk？<$FFFC>Imperial law says you die！<$FFFE>
+33	<$FB00><$0032>Oh, Lushiris<$FFF5><$FFF8>… <$FFF6><$FB00><$0033>Why won't<$FFFC>you save us<$FFF5><$FFF8>…？<$FFFE>
+34	<$FB00><$0034>Hey！ You there！ Please<$FFFC>help us！<$FFF5><$FFF7><$FFFE>
+35	<$FB00><$0035>They must be fleeing the<$FFFC>nobles.<$FFFE>
+36	<$FB00><$0036>What will you do,<$FFFC>Clarett？<$FFFE>
+37	<$FB00><$0037>Isn't it obvious？ We save<$FFFC>them！<$FFFE>
+38	<$FB00><$0038>But how should we<$FFFC>fight…？<$FFFE>
+39	<$FB00><$0039>We'll guide them out.<$FFFE>
+40	<$FB00><$003A>Please command. If I try,<$FFFC>I'll only slow us down.<$FFFE>
+41	<$FB00><$003B>Leave it to me. First,<$FFFC>guide the villagers<$FFF5><$FFF8>…<$FFFE>
+42	<$FB00><$003C>The lake fort has a<$FFFC>switch. Connect the bridge and<$FFFC>they can cross.<$FFFE>
 43	<$0000>Switch<$0000><$FFFF>
 44	<$FFF4>Special Rule<$FFF3><$FFFD><$0000>Usually only commanders use<$FFFC>switches, <$0000>but this one allows<$FFFC>mercenaries too.<$FFFD>Show this guide？<$FFFE>
 45	Route through the fort<$FFFF>
@@ -50,11 +50,11 @@
 48	Which route do you choose？<$FFFE>
 49	・Detour to the north<$FFFE>
 50	・Use the fort bridge<$FFFE>
-51	<$FB00><$003E>Don't enter the<$FFFC>fort. Go north！<$FFFE>
-52	<$FB00><$003F>Y-yes！ Thank<$FFFC>you！<$FFFE>
-53	<$FB00><$0040>We'll connect<$FFFC>the bridge. Go through the<$FFFC>fort！<$FFFE>
-54	<$FB00><$0041>Y-yes！ Thank<$FFFC>you！<$FFFE>
-55	<$FB00><$0042>Through this<$FFFC>fort？ Not while I live！<$FFFE>
+51	<$FB00><$003E>Don't enter the fort. Go<$FFFC>north！<$FFFE>
+52	<$FB00><$003F>Y-yes！ Thank you！<$FFFE>
+53	<$FB00><$0040>We'll connect the bridge.<$FFFC>Go through the fort！<$FFFE>
+54	<$FB00><$0041>Y-yes！ Thank you！<$FFFE>
+55	<$FB00><$0042>Through this fort？ Not<$FFFC>while I live！<$FFFE>
 56	<$FB00><$0047>Uwaa！<$FFFE>
 57	<$FB00><$0048>Kyaa！<$FFFE>
 58	<$FB00><$0047>Uwaa！<$FFFE>
@@ -64,7 +64,7 @@
 62	<$FB00><$0048>Kyaa！<$FFFE>
 63	Operate the bridge switch？<$FFFE>
 64	Good, the bridge is connected.<$FFFE>
-65	<$FB00><$0052>Nowhere left to<$FFFC>run！<$FFFE>
+65	<$FB00><$0052>Nowhere left to run！<$FFFE>
 66	Whew…<$FFFE>
 67	<$FFF8>…<$FFF6>Still alive<$FFF8>…<$FFFE>
 68	<$FFF8>…<$FFF7>Whew.<$FFFE>
@@ -73,7 +73,7 @@
 71	・Drink the morning dew<$FFFE>
 72	・Do nothing<$FFFE>
 73	The flower withered at once…<$FFFE>
-74	Drinking the dew clears your<$FFFC>mind.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>MP<$FFF3> rose by 2！<$FFFE>
+74	Drinking the dew clears your mind.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>MP<$FFF3> rose by 2！<$FFFE>
 75	A golden bird ornament holds wild<$FFFC>feathers. Which feather do you<$FFFC>take？<$FFFE>
 76	・Rainbow<$FFFE>
 77	・White<$FFFE>
@@ -82,27 +82,27 @@
 80	The rainbow feather turns to<$FFFC>light and wraps around you.<$FFFD><$0000> <$FFF4>Wind magic resist<$FFF3> rose by 2！<$FFFE>
 81	The white feather seems<$FFFC>otherworldly.<$FFFD><$0000> <$0000>Got the <$FFF4>Angel Feather<$FFF3>！<$FFFE>
 82	Looks like it was an ordinary<$FFFC>feather…<$FFFE>
-83	<$FB00><$0043>The new Emperor<$FFFC>does whatever he wants.<$FFFE>
-84	<$FB00><$0044>Yes. What would<$FFFC>Father say if he saw this<$FFF5><$FFF8>…？<$FFFE>
+83	<$FB00><$0043>The new Emperor does<$FFFC>whatever he wants.<$FFFE>
+84	<$FB00><$0044>Yes. What would Father say<$FFFC>if he saw this<$FFF5><$FFF8>…？<$FFFE>
 85	<$FB00><$0045>Gilmore permits<$FFFC>exploitation. I won't forgive<$FFFC>him！<$FFFE>
-86	<$FB00><$002E>I'm<$FFFC>sorry…everyone…<$FFFE>
+86	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
 87	<$FB00><$002B>Take this！<$FFFE>
-88	<$FB00><$0037>Stay out of my<$FFFC>way<$FFF5><$FFF8>…<$FFFE>
+88	<$FB00><$0037>Stay out of my way<$FFF5><$FFF8>…<$FFFE>
 89	<$FB00><$003D>Ugh…not…yet…<$FFFE>
-90	<$FB00><$003E>Lambda, fall<$FFFC>back！ Leave it to us！<$FFFE>
+90	<$FB00><$003E>Lambda, fall back！ Leave<$FFFC>it to us！<$FFFE>
 91	<$FB00><$003F>…All right…<$FFFE>
 92	<$FB00><$0076>I won't lose！<$FFFE>
-93	<$FB00><$0078>Am I not good<$FFFC>enough…<$FFFE>
-94	<$FB00><$0079>Leave it to us,<$FFFC>Alfred！<$FFFE>
-95	<$FB00><$007A>Sorry…I'll take<$FFFC>you up on that…<$FFFE>
-96	<$FB00><$0068>Come and get<$FFFC>me！<$FFFE>
-97	<$FB00><$0070>This is getting<$FFFC>dicey…<$FFFE>
-98	<$FB00><$0071>Fall back,<$FFFC>Brenda！ Leave it to me！<$FFFE>
-99	<$FB00><$0072>Sorry…I'll take<$FFFC>you up on that…<$FFFE>
-100	<$FB00><$0069>Who do you<$FFFC>think I am！<$FFFE>
+93	<$FB00><$0078>Am I not good enough…<$FFFE>
+94	<$FB00><$0079>Leave it to us, Alfred！<$FFFE>
+95	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+96	<$FB00><$0068>Come and get me！<$FFFE>
+97	<$FB00><$0070>This is getting dicey…<$FFFE>
+98	<$FB00><$0071>Fall back, Brenda！ Leave<$FFFC>it to me！<$FFFE>
+99	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+100	<$FB00><$0069>Who do you think I am！<$FFFE>
 101	<$FB00><$0054>I won't lose！<$FFFE>
 102	<$FB00><$0055>Forgive me！<$FFFE>
-103	<$FB00><$0056>Sorry, I'm<$FFFC>falling back…<$FFFE>
+103	<$FB00><$0056>Sorry, I'm falling back…<$FFFE>
 104	<$FB00><$0047>Uwaa！<$FFFE>
 105	…No way…<$FFFE>
 106	<$FB00><$0047>Uwaa！<$FFFE>
@@ -114,35 +114,35 @@
 112	Ugh…<$FFFE>
 113	No more…<$FFFE>
 114	I have no strength left to fly…<$FFFE>
-115	Fools who don't fear the<$FFFC>Empire. My comrades will avenge<$FFFC>me…<$FFFE>
-116	<$FFF8>…！ <$FFFB><$FB00><$0057>I will form<$FFFC>a unit to hunt you down. Enjoy<$FFFC>waiting！<$FFFE>
+115	Fools who don't fear the Empire.<$FFFC>My comrades will avenge me…<$FFFE>
+116	<$FFF8>…！ <$FFFB><$FB00><$0057>I will form a unit<$FFFC>to hunt you down. Enjoy waiting！<$FFFE>
 117	<$FB00><$0047>Uwaa！<$FFFE>
 118	<$FB00><$0048>Kyaa！<$FFFE>
 119	<$FB00><$0047>Uwaa！<$FFFE>
 120	<$FB00><$0048>Kyaa！<$FFFE>
-121	<$FB00><$0046>Fools！ Did you<$FFFC>think escape would be easy？<$FFFE>
-122	<$FB00><$0049>Enemy flyers.<$FFFC>They went around us.<$FFFE>
-123	<$FB00><$004A>We're too close<$FFFC>to fail！<$FFFE>
-124	<$FB00><$004B>Can't you<$FFFC>collect taxes or kill deserters<$FFFC>properly！？<$FFFE>
+121	<$FB00><$0046>Fools！ Did you think<$FFFC>escape would be easy？<$FFFE>
+122	<$FB00><$0049>Enemy flyers. They went<$FFFC>around us.<$FFFE>
+123	<$FB00><$004A>We're too close to fail！<$FFFE>
+124	<$FB00><$004B>Can't you collect taxes<$FFFC>or kill deserters properly！？<$FFFE>
 125	<$FB00><$004C>That man<$FFF5><$FFF8>…<$FFFE>
 126	<$FB00><$004D>Creid<$FFF5><$FFF8>…<$FFFE>
-127	<$FB00><$004E>Well. The<$FFFC>Emperor's killer now rebels<$FFFC>against the Empire.<$FFFD><$FB00><$004F>By imperial law,<$FFFC>I end you here！<$FFFE>
-128	<$FB00><$0050>Imperial law！？<$FFFC>You rewrote it to exploit<$FFFC>people！ Why！？<$FFFE>
-129	<$FB00><$0051>We rule. We may<$FFFC>treat commoners as we please.<$FFFE>
-130	<$FFF4>Victory terms changed！<$FFF3> <$0000><$FFFC>・Defeat Marquis Creid<$FFFE>
+127	<$FB00><$004E>Well. The Emperor's killer<$FFFC>now rebels against the Empire.<$FFFD><$FB00><$004F>By imperial law, I end<$FFFC>you here！<$FFFE>
+128	<$FB00><$0050>Imperial law！？ You<$FFFC>rewrote it to exploit people！<$FFFC>Why！？<$FFFE>
+129	<$FB00><$0051>We rule. We may treat<$FFFC>commoners as we please.<$FFFE>
+130	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Defeat<$FFFC>Marquis Creid<$FFFE>
 131	・Defeat Marquis Creid<$FFFE>
 132	N-no… We saved no one…<$FFFE>
-133	<$FB00><$0053>All the<$FFFC>villagers escaped？<$FFFE>
-134	<$FB00><$0054>Damn, they<$FFFC>escaped！ I'll form a unit to<$FFFC>hunt you down！<$FFFE>
-135	<$FB00><$0055>What is this！<$FFFC>What is all the noise！<$FFFE>
+133	<$FB00><$0053>All the villagers<$FFFC>escaped？<$FFFE>
+134	<$FB00><$0054>Damn, they escaped！ I'll<$FFFC>form a unit to hunt you down！<$FFFE>
+135	<$FB00><$0055>What is this！ What is all<$FFFC>the noise！<$FFFE>
 136	<$FB00><$004D>Creid…<$FFFE>
-137	<$FB00><$0056>Well. Emperor<$FFFC>killers and rebels. By imperial<$FFFC>law, you die.<$FFFE>
-138	<$FB00><$0050>Imperial law！？<$FFFC>You rewrote it to exploit<$FFFC>people！ Why！？<$FFFE>
-139	<$FB00><$0051>We rule. We may<$FFFC>treat commoners as we please.<$FFFD><$FB00><$0057>I will form a<$FFFC>unit to hunt you down. Enjoy<$FFFC>waiting！<$FFFE>
+137	<$FB00><$0056>Well. Emperor killers and<$FFFC>rebels. By imperial law, you die.<$FFFE>
+138	<$FB00><$0050>Imperial law！？ You<$FFFC>rewrote it to exploit people！<$FFFC>Why！？<$FFFE>
+139	<$FB00><$0051>We rule. We may treat<$FFFC>commoners as we please.<$FFFD><$FB00><$0057>I will form a unit to<$FFFC>hunt you down. Enjoy waiting！<$FFFE>
 140	Whew…<$FFFE>
 141	<$FFF8>…<$FFF6>Still alive<$FFF8>…<$FFFE>
 142	<$FFF8>…<$FFF7>Whew.<$FFFE>
 143	<$FB00><$0058>No enemies left.<$FFFE>
-144	<$FB00><$0059>Those villagers<$FFFC>left without thanks.<$FFFE>
-145	<$FB00><$005A>As long as<$FFFC>they're safe？ That attitude ticks<$FFFC>me off.<$FFFE>
-146	<$FFF8>…<$FFF6><$FB00><$005B>Come on, to<$FFFC>Salrath！ I won't forgive a<$FFFC>country ruled like that！<$FFFE><$FFFF>
+144	<$FB00><$0059>Those villagers left<$FFFC>without thanks.<$FFFE>
+145	<$FB00><$005A>As long as they're safe？<$FFFC>That attitude ticks me off.<$FFFE>
+146	<$FFF8>…<$FFF6><$FB00><$005B>Come on, to Salrath！ I<$FFFC>won't forgive a country ruled<$FFFC>like that！<$FFFE><$FFFF>

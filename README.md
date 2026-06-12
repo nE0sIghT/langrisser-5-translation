@@ -110,11 +110,11 @@ Edit the staging file, translating record by record:
 
 - keep every `<$XXXX>` control tag and its position relative to the text;
   only `<$FFFC>`/`<$FFFD>` line/page breaks may be moved, added or removed;
-- the standard text window is 21 cells wide (a lowercase pair is one cell,
-  a space or capital is one cell, the player-name macro counts as 8) and a
-  page holds up to 4 lines; don't worry about exact line breaks — the
-  re-wrapper handles them with a 20-cell safety width unless a chunk has a
-  measured window-width override (`chunk_000` quiz/operator window is wider);
+- the text window is 21 cells wide (a lowercase pair is one cell, a space
+  or capital is one cell, the player-name macro counts as 8) and a page
+  holds up to 4 lines; don't worry about exact line breaks — the re-wrapper
+  handles them, reserving the chunk's widest speaker-plate width on the
+  first line of each spoken page (keep plate names at 5 cells or less);
 - choice records (starting with `・`) must stay single-line;
 - the font has no `; — – !? /` — use `,` and full-width `！？`.
 

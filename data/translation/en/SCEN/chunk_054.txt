@@ -5,50 +5,50 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Queen Rosenshill<$FFFF>
-8	General Lanford<$FFFF>
-9	General Emily<$FFFF>
-10	Federation Soldier<$FFFF>
-11	General Aizer<$FFFF>
+6	Lanford<$FFFF>
+7	Rosenshill<$FFFF>
+8	Lanford<$FFFF>
+9	Emily<$FFFF>
+10	Soldier<$FFFF>
+11	Aizer<$FFFF>
 12	Lainforce<$FFFF>
 13	Omega<$FFFF>
 14	McLaine<$FFFF>
 15	Federation Castle, Audience Hall<$FFFF>
-16	<$FB00><$0003>General<$FFFC>Lanford, you have done well ending<$FFFC>Gizarof's rebellion.<$FFFE>
-17	<$FB00><$0004>I<$FFFC>merely did my duty as a<$FFFC>Federation soldier.<$FFFD><$FB00><$0005>And<$FFFC>we had help from Caconsis. This<$FFFC>was not my strength alone.<$FFFE>
-18	<$FB00><$0006>You<$FFFC>need not be so modest.<$FFFE>
-19	<$FB00><$0007>Besides,<$FFF5><$FFF8>…<$FFF6><$FB00><$0008>I<$FFFC>could not save Prince Frederick.<$FFFE>
-20	<$FB00><$0009>Frederick's<$FFFC>death grieves me. But without<$FFFC>you, the Federation would be in<$FFFC>far worse ruin.<$FFFD><$FB00><$000A>Therefore,<$FFFC>I appoint you marshal of our<$FFFC>army.<$FFFE>
-21	<$FB00><$000B>Yes,<$FFFC>Your Majesty. I humbly accept.<$FFFE>
-22	<$FB00><$000C>And<$FFFC>Emiliel, Lanford's aide, shall<$FFFC>take the rank of general.<$FFFE>
-23	<$FB00><$000D>Yes！<$FFFC>I will devote myself to the<$FFFC>Federation.<$FFFE>
-24	<$FB00><$000E>Then,<$FFFC>Lanford. Let everyone hear your<$FFFC>greeting as marshal.<$FFFE>
+16	<$FB00><$0003>General Lanford, you have<$FFFC>done well ending Gizarof's rebellion.<$FFFE>
+17	<$FB00><$0004>I merely did my duty as<$FFFC>a Federation soldier.<$FFFD><$FB00><$0005>And we had help from<$FFFC>Caconsis. This was not my strength<$FFFC>alone.<$FFFE>
+18	<$FB00><$0006>You need not be so<$FFFC>modest.<$FFFE>
+19	<$FB00><$0007>Besides,<$FFF5><$FFF8>…<$FFF6><$FB00><$0008>I could not<$FFFC>save Prince Frederick.<$FFFE>
+20	<$FB00><$0009>Frederick's death grieves<$FFFC>me. But without you, the<$FFFC>Federation would be in far worse<$FFFC>ruin.<$FFFD><$FB00><$000A>Therefore, I appoint you<$FFFC>marshal of our army.<$FFFE>
+21	<$FB00><$000B>Yes, Your Majesty. I<$FFFC>humbly accept.<$FFFE>
+22	<$FB00><$000C>And Emiliel, Lanford's<$FFFC>aide, shall take the rank of<$FFFC>general.<$FFFE>
+23	<$FB00><$000D>Yes！ I will devote<$FFFC>myself to the Federation.<$FFFE>
+24	<$FB00><$000E>Then, Lanford. Let<$FFFC>everyone hear your greeting as<$FFFC>marshal.<$FFFE>
 25	<$FB00><$000F>Yes.<$FFFE>
-26	<$FB00><$0010>With<$FFFC>Caconsis aid, we finally defeated<$FFFC>the traitor Gizarof.<$FFFD><$FB00><$0011>His<$FFFC>wounds on the Federation run<$FFFC>deep. Recovery will take time.<$FFFD><$FB00><$0012>His<$FFFC>men may yet rally. Stay alert,<$FFFC>and help me restore the<$FFFC>Federation quickly.<$FFFE>
-27	<$FFF7><$FB00><$0013>Yes,<$FFFC>sir！<$FFF5><$FFF8><$FFFE>
-28	<$FB00><$0014>The<$FFFC>Federation will stay unstable for<$FFFC>now. Until things settle, lend me<$FFFC>your strength.<$FFFE>
-29	<$FB00><$0015>I,<$FFFC>Lanford, will give all I have to<$FFFC>the Federation.<$FFFE>
-30	<$FB00><$0016>Then<$FFFC>I am counting on you both.<$FFFE>
-31	<$FB00><$0017><$FFF7>Yes,<$FFFC>Your Majesty.<$FFF5><$FFF8><$FFFE>
+26	<$FB00><$0010>With Caconsis aid, we<$FFFC>finally defeated the traitor<$FFFC>Gizarof.<$FFFD><$FB00><$0011>His wounds on the<$FFFC>Federation run deep. Recovery will<$FFFC>take time.<$FFFD><$FB00><$0012>His men may yet rally.<$FFFC>Stay alert, and help me restore<$FFFC>the Federation quickly.<$FFFE>
+27	<$FFF7><$FB00><$0013>Yes, sir！<$FFF5><$FFF8><$FFFE>
+28	<$FB00><$0014>The Federation will stay<$FFFC>unstable for now. Until things<$FFFC>settle, lend me your strength.<$FFFE>
+29	<$FB00><$0015>I, Lanford, will give all<$FFFC>I have to the Federation.<$FFFE>
+30	<$FB00><$0016>Then I am counting on<$FFFC>you both.<$FFFE>
+31	<$FB00><$0017><$FFF7>Yes, Your Majesty.<$FFF5><$FFF8><$FFFE>
 32	At Lainforce's Castle<$FFFF>
-33	<$FFFA><$FB00><$0018>Forgive<$FFFC>me, Lord Lainforce. I still have<$FFFC>not captured them<$FFF5><$FFF8>…<$FFFE>
-34	<$FB00><$0019>That<$FFFC>matter is over. From now on, he<$FFFC>will recover the vessels.<$FFFE>
-35	<$FB00><$001A>He<$FFFC>is the one from then？<$FFFE>
-36	<$FB00><$001B>Omega.<$FFFC>Howdy. Now that the formal order<$FFFC>is out, I'll get moving.<$FFFE>
-37	<$FB00><$001C>Lord<$FFFC>Lainforce<$FFF5><$FFF8>…,<$FFF6><$FB00><$001D>am I relieved of my<$FFFC>duty？<$FFFE>
-38	<$FB00><$001E>No.<$FFFC>He can sense vessels like him,<$FFFC>even far away. He is better<$FFFC>suited.<$FFFD><$FB00><$001F>Instead,<$FFFC>I have another task. I can<$FFFC>entrust it only to you.<$FFFE>
-39	<$FB00><$0020>Yes,<$FFFC>sir. Command me as you wish.<$FFFE>
+33	<$FFFA><$FB00><$0018>Forgive me, Lord<$FFFC>Lainforce. I still have not<$FFFC>captured them<$FFF5><$FFF8>…<$FFFE>
+34	<$FB00><$0019>That matter is over. From<$FFFC>now on, he will recover the<$FFFC>vessels.<$FFFE>
+35	<$FB00><$001A>He is the one from<$FFFC>then？<$FFFE>
+36	<$FB00><$001B>Omega. Howdy. Now that<$FFFC>the formal order is out, I'll get<$FFFC>moving.<$FFFE>
+37	<$FB00><$001C>Lord Lainforce<$FFF5><$FFF8>…,<$FFF6><$FB00><$001D>am I<$FFFC>relieved of my duty？<$FFFE>
+38	<$FB00><$001E>No. He can sense<$FFFC>vessels like him, even far away.<$FFFC>He is better suited.<$FFFD><$FB00><$001F>Instead, I have another<$FFFC>task. I can entrust it only to<$FFFC>you.<$FFFE>
+39	<$FB00><$0020>Yes, sir. Command me as<$FFFC>you wish.<$FFFE>
 40	At El Sallia Port<$FFFF>
-41	<$FB00><$0021>So<$FFFC>this is El Sallia.<$FFFE>
-42	<$FFFA><$FB00><$0022>Jessica's<$FFFC>homeland.<$FFFE>
-43	<$FB00><$0023>So<$FFFC>how do we find those two？<$FFFE>
-44	<$FB00><$0024>Instead<$FFFC>of searching together, why don't<$FFFC>we split up？<$FFFE>
-45	<$FB00><$0025>That<$FFFC>may make them easier to find.<$FFFE>
-46	<$FB00><$0026>Then<$FFFC>it's settled. I'll check Baldia,<$FFFC>a place Jessica told me about.<$FFFD><$FB00><$0027>If<$FFFC>you find her first, give her my<$FFFC>regards.<$FFFE>
+41	<$FB00><$0021>So this is El Sallia.<$FFFE>
+42	<$FFFA><$FB00><$0022>Jessica's homeland.<$FFFE>
+43	<$FB00><$0023>So how do we find those<$FFFC>two？<$FFFE>
+44	<$FB00><$0024>Instead of searching<$FFFC>together, why don't we split up？<$FFFE>
+45	<$FB00><$0025>That may make them easier<$FFFC>to find.<$FFFE>
+46	<$FB00><$0026>Then it's settled. I'll<$FFFC>check Baldia, a place Jessica<$FFFC>told me about.<$FFFD><$FB00><$0027>If you find her first,<$FFFC>give her my regards.<$FFFE>
 47	<$FB00><$0028>U-um<$FFF5><$FFF8>…<$FFFE>
 48	<$FFF8><$FB00><$0029>Hm？<$FFFE>
-49	<$FFF8>…<$FFFC><$FFF6><$FB00><$002B>Be…careful<$FFF5><$FFF8>…<$FFFE>
-50	<$FB00><$002C>Yeah.<$FFFC>Marie, hurry and remember me too.<$FFFC>See you！<$FFFE>
-51	<$0000>El Sallia. <$0000>In the gods'<$FFFC>tongue, the name means land<$FFFC>filled with light. It is Jessica's<$FFFC>home, and Langrisser's home.<$FFFD><$0000>Pursuing Jessica and the swords<$FFFC>stolen by Gaiel, <$F600><$0000>'s<$FFFC>group crossed to El Sallia.<$FFFD><$0000>There they found Clarett and<$FFFC>Jessica surrounded by soldiers…<$FFFE>
+49	<$FFF8>… <$FFF6><$FB00><$002B>Be…careful<$FFF5><$FFF8>…<$FFFE>
+50	<$FB00><$002C>Yeah. Marie, hurry and<$FFFC>remember me too. See you！<$FFFE>
+51	<$0000>El Sallia. <$0000>In the gods'<$FFFC>tongue, the name means land filled<$FFFC>with light. It is Jessica's home,<$FFFC>and Langrisser's home.<$FFFD><$0000>Pursuing Jessica and the swords<$FFFC>stolen by Gaiel, <$F600><$0000>'s<$FFFC>group crossed to El Sallia.<$FFFD><$0000>There they found Clarett and<$FFFC>Jessica surrounded by soldiers…<$FFFE>
 52	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC>・Jessica or Clarett dies<$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -5,48 +5,48 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Marshal Gizarof<$FFFF>
+6	Lanford<$FFFF>
+7	Gizarof<$FFFF>
 8	Gizarof<$FFFF>
 9	Road to the Magic Lab<$FFFF>
 10	<$F600><$0000>, got a moment？<$FFFE>
 11	What is it, Brenda？<$FFFE>
-12	About that bargain invitation we<$FFFC>found, why not stop by？<$FFFD>From the way those soldiers<$FFFC>looked, they won't reach the<$FFFC>lab right away.<$FFFE>
+12	About that bargain invitation we<$FFFC>found, why not stop by？<$FFFD>From the way those soldiers<$FFFC>looked, they won't reach the lab<$FFFC>right away.<$FFFE>
 13	True.<$FFFE>
-14	What do you think,<$FFFC><$F600><$0000>？<$FFFE>
+14	What do you think, <$F600><$0000>？<$FFFE>
 15	What will you do？<$FFFE>
 16	<$FFFA>Let's see<$FFF8>… <$FFFB><$FFF6><$FFF9>At that pace, we<$FFFC>should have a little time.<$FFFE>
 17	Right？<$FFFE>
 18	But Brenda, wasn't that different<$FFFC>from what you said before…？<$FFFE>
 19	That was then. This is now.<$FFFD>If you fret over details, you'll<$FFFC>never become a big person.<$FFFE>
 20	Uh, <$FFF7>right…<$FFFE>
-21	Then let's go. We don't have<$FFFC>that much time to spare.<$FFFE>
+21	Then let's go. We don't have that<$FFFC>much time to spare.<$FFFE>
 22	Right. No time like the present.<$FFFE>
 23	At the Magic Lab<$FFFF>
-24	<$FB00><$004D>Looks<$FFFC>like the inside hasn't been<$FFFC>ransacked yet.<$FFFE>
-25	<$FB00><$004E>Right.<$FFFC>The Federation and Caconsis both<$FFFC>care more about rebuilding than<$FFFC>Gizarof's research.<$FFFE>
-26	<$FB00><$004F>Here it<$FFFC>is.<$FFFE>
-27	<$FB00><$0050>You<$FFFC>found it？<$FFFE>
-28	<$FB00><$0051>This<$FFFC>crystal records Master's research.<$FFFC>It is all we have on the Sage's<$FFFC>Crystal.<$FFFE>
-29	<$FB00><$0052>In<$FFFC>pursuit of immortality, I leave<$FFFC>this in case of my demise …<$FFFE>
-30	<$FB00><$0053>Do you<$FFFC>know how to use it？<$FFFE>
-31	<$FB00><$0054>I will<$FFFC>try.<$FFFE>
-32	<$FB00><$0055>The<$FFFC>Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was<$FFFC>born centuries ago on El Sallia,<$FFFC>east of here.<$FFFD>30 years<$FFFC>ago, dark god Gendrasil brought<$FFFC>it to Yeless.<$FFFD><$FB00><$0057>It is<$FFFC>mine now. I still cannot return<$FFFC>it to sword form. With more<$FFFC>research, someday<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+24	<$FB00><$004D>Looks like the inside<$FFFC>hasn't been ransacked yet.<$FFFE>
+25	<$FB00><$004E>Right. The Federation and<$FFFC>Caconsis both care more about<$FFFC>rebuilding than Gizarof's research.<$FFFE>
+26	<$FB00><$004F>Here it is.<$FFFE>
+27	<$FB00><$0050>You found it？<$FFFE>
+28	<$FB00><$0051>This crystal records<$FFFC>Master's research. It is all we<$FFFC>have on the Sage's Crystal.<$FFFE>
+29	<$FB00><$0052>In pursuit of immortality,<$FFFC>I leave this in case of my demise<$FFFC>…<$FFFE>
+30	<$FB00><$0053>Do you know how to use<$FFFC>it？<$FFFE>
+31	<$FB00><$0054>I will try.<$FFFE>
+32	<$FB00><$0055>The Sage's Crystal joins<$FFFC>holy Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago<$FFFC>on El Sallia, east of here.<$FFFD>30 years ago, dark god<$FFFC>Gendrasil brought it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still<$FFFC>cannot return it to sword form.<$FFFC>With more research, someday<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 33	…<$FE32>…<$FE3C>…<$FE46>…<$FE50>…<$FE5A>.<$FFFE>
-34	<$FFF8>…<$FE3C>…<$FE28><$FFF6><$FB00><$0058>The<$FFFC>magic is unstable.<$FFFE>
-35	<$FB00><$0059>I built<$FFFC>a mechanism into Sigma and<$FFFC>Omega.<$FFFD>With<$FFFC>Langrisser equipped, both can draw<$FFFC>out their given power.<$FFFE>
-36	<$FB00><$005A>That<$FFFC>power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46>.<$FFFE>
-37	<$FB00><$005B>What is<$FFFC>that power？ Lambda！<$FFFE>
-38	<$FFF8>…<$FB00><$005C>Quiet.<$FFFC>I am adjusting it now <$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
-39	…<$FE32>…<$FE32>…<$FE32>…<$FE32>…<$FB00><$005D>Test<$FFFC>results for Sigma: the ability<$FFFC>activates only once.<$FFFD><$FB00><$005E>It<$FFFC>violently consumes life. A second<$FFFC>use would kill him.<$FFFE>
-40	<$FB00><$005F>The<$FFFC>complete model that overcomes this<$FFFC>flaw will be tested by one I<$FFFC>trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
-41	<$FFF8>…<$FFF6><$FB00><$0060>Kh,<$FFFC>again<$FFF5><$FFF8>…<$FFFE>
-42	…<$FE32>…<$FE32>…<$FE1E>…<$FB00><$0061>The<$FFFC>experiment succeeded. Omega can<$FFFC>use the power multiple times.<$FFFD><$FB00><$0062>Even<$FFFC>without Langrisser, Omega can<$FFFC>draw out part of that power.<$FFFE>
-43	<$FB00><$0063>When they<$FFFC>awaken, I will have mighty<$FFFC>soldiers.<$FFFD>Until<$FFFC>then, with Kruger, I must seize<$FFFC><$FE3C>…<$FE32>…<$FE28>the Federation<$FFF5>…<$FE3C>…<$FE3C>.<$FFFE>
-44	<$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0064>No<$FFFC>good. I cannot play any more.<$FFFE>
-45	<$FB00><$0065>What did<$FFFC>that mean？ Parts were missing.<$FFFE>
-46	<$FB00><$0066>What<$FFFC>happens if I hold Langrisser？<$FFFC>What is this power I can use<$FFFC>only once？<$FFFE>
-47	<$FB00><$0067>Easy.<$FFFC>Find Langrisser, hold it, and<$FFFC>see.<$FFFE>
-48	<$FB00><$0068>But the<$FFFC>woman mage with that sword<$FFF5><$FFF8>…<$FFFE>
-49	<$FB00><$0069>My<$FFFC>subordinate just reported in.<$FFFC>She's in Caconsis, at Fizzit<$FFFC>Port.<$FFFD><$FB00><$006A>Ocean<$FFFC>ships don't sail often. If we<$FFFC>hurry, we may catch her.<$FFFE>
-50	<$FB00><$006B>Good.<$FFFC>Let's leave at once.<$FFFE><$FFFF>
+34	<$FFF8>…<$FE3C>…<$FE28><$FFF6><$FB00><$0058>The magic is unstable.<$FFFE>
+35	<$FB00><$0059>I built a mechanism into<$FFFC>Sigma and Omega.<$FFFD>With Langrisser equipped,<$FFFC>both can draw out their given<$FFFC>power.<$FFFE>
+36	<$FB00><$005A>That power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46>.<$FFFE>
+37	<$FB00><$005B>What is that power？<$FFFC>Lambda！<$FFFE>
+38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it<$FFFC>now <$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+39	…<$FE32>…<$FE32>…<$FE32>…<$FE32>…<$FB00><$005D>Test results for<$FFFC>Sigma: the ability activates only<$FFFC>once.<$FFFD><$FB00><$005E>It violently consumes life.<$FFFC>A second use would kill him.<$FFFE>
+40	<$FB00><$005F>The complete model that<$FFFC>overcomes this flaw will be tested<$FFFC>by one I trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+41	<$FFF8>…<$FFF6><$FB00><$0060>Kh, again<$FFF5><$FFF8>…<$FFFE>
+42	…<$FE32>…<$FE32>…<$FE1E>…<$FB00><$0061>The experiment<$FFFC>succeeded. Omega can use the<$FFFC>power multiple times.<$FFFD><$FB00><$0062>Even without Langrisser,<$FFFC>Omega can draw out part of that<$FFFC>power.<$FFFE>
+43	<$FB00><$0063>When they awaken, I will<$FFFC>have mighty soldiers.<$FFFD>Until then, with Kruger,<$FFFC>I must seize <$FE3C>…<$FE32>…<$FE28>the<$FFFC>Federation<$FFF5>…<$FE3C>…<$FE3C>.<$FFFE>
+44	<$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0064>No good. I cannot play<$FFFC>any more.<$FFFE>
+45	<$FB00><$0065>What did that mean？ Parts<$FFFC>were missing.<$FFFE>
+46	<$FB00><$0066>What happens if I hold<$FFFC>Langrisser？ What is this power I<$FFFC>can use only once？<$FFFE>
+47	<$FB00><$0067>Easy. Find Langrisser, hold<$FFFC>it, and see.<$FFFE>
+48	<$FB00><$0068>But the woman mage with<$FFFC>that sword<$FFF5><$FFF8>…<$FFFE>
+49	<$FB00><$0069>My subordinate just reported<$FFFC>in. She's in Caconsis, at Fizzit<$FFFC>Port.<$FFFD><$FB00><$006A>Ocean ships don't sail<$FFFC>often. If we hurry, we may catch<$FFFC>her.<$FFFE>
+50	<$FB00><$006B>Good. Let's leave at<$FFFC>once.<$FFFE><$FFFF>

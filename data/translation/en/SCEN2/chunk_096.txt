@@ -5,87 +5,87 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Archmage Jessica<$FFFF>
+6	Lanford<$FFFF>
+7	Jessica<$FFFF>
 8	After the Battle<$FFFF>
-9	<$FB00><$0087>You saved us<$FFFC>again. But why did you come<$FFFC>here<$FFF5><$FFF8>…？<$FFFE>
-10	<$FB00><$0088>We heard a<$FFFC>lot from the man chasing you.<$FFFC>He's her brother, McLaine or<$FFFC>something.<$FFFE>
-11	<$FB00><$0089>McLaine？ <$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$008A>I<$FFFC>see. You are McLaine's sister.<$FFFE>
-12	<$FB00><$008B>Um<$FFF5><$FFF8>…<$FE0F>…<$FE0F><$FFF6><$FB00><$008C>so<$FFF8>…<$FE0F><$FFF6>it<$FFFC>seems.<$FFFE>
-13	<$FB00><$008E>More importantly,<$FFFC>Princess. I have questions for<$FFFC>you.<$FFFE>
-14	<$FB00><$008F>Wh, what is<$FFFC>it<$FFF5><$FFF8>…？<$FFFE>
-15	<$FB00><$0090>From what they<$FFFC>said, you're this land's princess,<$FFFC>accused of killing the Emperor.<$FFFD><$FB00><$0091>But why am I<$FFFC>treated as the killer too？ You<$FFFC>know something, don't you？<$FFFE>
+9	<$FB00><$0087>You saved us again. But<$FFFC>why did you come here<$FFF5><$FFF8>…？<$FFFE>
+10	<$FB00><$0088>We heard a lot from the<$FFFC>man chasing you. He's her brother,<$FFFC>McLaine or something.<$FFFE>
+11	<$FB00><$0089>McLaine？ <$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$008A>I see. You<$FFFC>are McLaine's sister.<$FFFE>
+12	<$FB00><$008B>Um<$FFF5><$FFF8>…<$FE0F>…<$FE0F><$FFF6><$FB00><$008C>so<$FFF8>…<$FE0F><$FFF6>it seems.<$FFFE>
+13	<$FB00><$008E>More importantly, Princess.<$FFFC>I have questions for you.<$FFFE>
+14	<$FB00><$008F>Wh, what is it<$FFF5><$FFF8>…？<$FFFE>
+15	<$FB00><$0090>From what they said, you're<$FFFC>this land's princess, accused of<$FFFC>killing the Emperor.<$FFFD><$FB00><$0091>But why am I treated as<$FFFC>the killer too？ You know<$FFFC>something, don't you？<$FFFE>
 16	<$FFF8>…<$FFF6><$FB00><$0092>That is<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0093>Please, tell<$FFFC>me！ When you talk to me, you<$FFFC>always act like you're hiding<$FFFC>something.<$FFFD><$FB00><$0094>I want the<$FFFC>truth！ Who am I？<$FFFE>
-18	<$FB00><$0095>You and Lambda<$FFFC>were used in Gizarof's experiments,<$FFFC>like McLaine.<$FFFE>
-19	<$FB00><$0096>That's why you<$FFFC>want to know who you are<$FFF5><$FFF8>…<$FFFE>
-20	<$FB00><$0097>Please. Tell<$FFFC>me！<$FFFE>
-21	<$FB00><$0098>Is it that hard<$FFFC>to say？<$FFFE>
-22	<$FB00><$0099>Fine. Stop<$FFFC>calling me you, and don't call<$FFFC>me Princess either.<$FFFD><$FB00><$009A>Apparently we're<$FFFC>wanted criminals now.<$FFFE>
-23	<$FB00><$009B>Then what should<$FFFC>I call you？<$FFFE>
-24	<$FB00><$009C>Clarett is<$FFFC>fine.<$FFFE>
-25	<$FB00><$009D>Then, Clarett.<$FFFC>Tell me.<$FFFE>
-26	<$FFF8>…<$FFF6><$FB00><$009E>Why you are<$FFFC>treated as the killer, right？<$FFFD><$FB00><$009F>Nearly four<$FFFC>years ago, my father was killed<$FFFC>by a trusted Royal Guard<$FFFC>captain.<$FFFD><$FB00><$00A0>That<$FFFC>voice<$FFF5><$FFF8>…<$FE0F>,<$FFF6><$FB00><$00A1>that face<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00A2>You look<$FFFC>exactly like him. No, you seem<$FFFC>to be him！<$FFFE>
-27	<$FB00><$00A3>Then you are<$FFFC>that man<$FFF5><$FFF8>…？<$FFFE>
-28	<$FB00><$00A4>I am<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00A5>captain<$FFFC>of the Royal Guard？<$FFFE>
-29	<$FB00><$00A6>But<$FFF5><$FFF8>…<$FE0F>,<$FFF6><$FB00><$00A7>that<$FFFC>can't be.<$FFFE>
-30	<$FB00><$00A8>Huh？ How can<$FFFC>you be sure？<$FFFE>
-31	<$FB00><$00A9>Three years<$FFFC>ago, he looked your age. If you<$FFFC>were him, you would not have<$FFFC>aged.<$FFFD><$FFF8>…<$FFF6><$FB00><$00AA>Besides, if it<$FFFC>were him, I <$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$0093>Please, tell me！ When you<$FFFC>talk to me, you always act like<$FFFC>you're hiding something.<$FFFD><$FB00><$0094>I want the truth！ Who<$FFFC>am I？<$FFFE>
+18	<$FB00><$0095>You and Lambda were used<$FFFC>in Gizarof's experiments, like<$FFFC>McLaine.<$FFFE>
+19	<$FB00><$0096>That's why you want to<$FFFC>know who you are<$FFF5><$FFF8>…<$FFFE>
+20	<$FB00><$0097>Please. Tell me！<$FFFE>
+21	<$FB00><$0098>Is it that hard to say？<$FFFE>
+22	<$FB00><$0099>Fine. Stop calling me you,<$FFFC>and don't call me Princess either.<$FFFD><$FB00><$009A>Apparently we're wanted<$FFFC>criminals now.<$FFFE>
+23	<$FB00><$009B>Then what should I call<$FFFC>you？<$FFFE>
+24	<$FB00><$009C>Clarett is fine.<$FFFE>
+25	<$FB00><$009D>Then, Clarett. Tell me.<$FFFE>
+26	<$FFF8>…<$FFF6><$FB00><$009E>Why you are treated as<$FFFC>the killer, right？<$FFFD><$FB00><$009F>Nearly four years ago, my<$FFFC>father was killed by a trusted<$FFFC>Royal Guard captain.<$FFFD><$FB00><$00A0>That voice<$FFF5><$FFF8>…<$FE0F>,<$FFF6><$FB00><$00A1>that face<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00A2>You<$FFFC>look exactly like him. No, you<$FFFC>seem to be him！<$FFFE>
+27	<$FB00><$00A3>Then you are that man<$FFF5><$FFF8>…？<$FFFE>
+28	<$FB00><$00A4>I am<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00A5>captain of the<$FFFC>Royal Guard？<$FFFE>
+29	<$FB00><$00A6>But<$FFF5><$FFF8>…<$FE0F>,<$FFF6><$FB00><$00A7>that can't be.<$FFFE>
+30	<$FB00><$00A8>Huh？ How can you be<$FFFC>sure？<$FFFE>
+31	<$FB00><$00A9>Three years ago, he looked<$FFFC>your age. If you were him, you<$FFFC>would not have aged.<$FFFD><$FFF8>…<$FFF6><$FB00><$00AA>Besides, if it were him,<$FFFC>I <$FFF5><$FFF8>…<$FFFE>
 32	<$FB00><$00AB>Clarett<$FFF5><$FFF8>…？<$FFFE>
-33	<$FB00><$00AC>Because three<$FFFC>years ago… I… killed him<$FFF5><$FFF8>…<$FFFE>
+33	<$FB00><$00AC>Because three years ago…<$FFFC>I… killed him<$FFF5><$FFF8>…<$FFFE>
 34	<$FFF8>…<$FFFE>
-35	<$FB00><$00AD>Yes！ I killed<$FFFC>the man who murdered my father！<$FFFC>I drove my sword through his<$FFFC>heart.<$FFFD><$FB00><$00AE>He didn't<$FFFC>resist. It was as if he had<$FFFC>accepted being killed by me.<$FFFD><$FB00><$00AF>You<$FFF5><$FFF8>…<$FFF6><$FB00><$00B0>you look<$FFFC>like him<$FFF5><$FFF8>…<$FFFE>
-36	<$FB00><$00B1>So he looks<$FFFC>like the man you killed. No<$FFFC>wonder you didn't want to say<$FFFC>it.<$FFFE>
-37	<$FB00><$00B2>Then I am<$FFFC>someone else<$FFF5><$FFF8>…<$FFFE>
-38	<$FB00><$00B3>Could he have<$FFFC>been your brother or a relative？<$FFFE>
-39	<$FB00><$00B4>He was Duke<$FFFC>Egil's only son, with no close<$FFFC>relatives near his age<$FFF5><$FFF8>…<$FFFE>
-40	<$FFF8>…<$FFF6><$FB00><$00B5>Um<$FFF5><$FFF8>… <$FE1E><$FFF6><$FB00><$00B6>I told<$FFFC>you Gizarof's research included<$FFFC>clones.<$FFFE>
-41	<$FB00><$00B7>Yeah. The<$FFFC>technology to make copies of<$FFFC>people.<$FFFE>
-42	<$FB00><$00B8>Ha ha ha… I<$FFFC>see. So I'm just his copy<$FFF5><$FFF8>… <$FE14><$FFF6><$FB00><$00B9>I<$FFFC>have no past <$FFF5><$FFF8>… <$FE14><$FFF6><$FB00><$00BA>A manmade<$FFFC>puppet<$FFF5><$FFF8>…<$FFFE>
-43	<$FB00><$00BB>I have no<$FFFC>right to say this, but please<$FFFC>don't lose heart.<$FFFE>
-44	<$FFF8>…<$FFF6><$FB00><$00BC>I'm all<$FFFC>right, Lambda. I'm just glad I<$FFFC>wasn't the murderer.<$FFFE>
-45	<$FB00><$00BD>Cheer up！ At<$FFFC>least we know you aren't the<$FFFC>killer.<$FFFE>
-46	<$FB00><$00BE>Yeah, you're<$FFFC>right. <$FFF5><$FFF8>…<$FE0F>…<$FE0F><$FFF6><$FB00><$00BF>That's right.<$FFFE>
+35	<$FB00><$00AD>Yes！ I killed the man<$FFFC>who murdered my father！ I drove<$FFFC>my sword through his heart.<$FFFD><$FB00><$00AE>He didn't resist. It was<$FFFC>as if he had accepted being killed<$FFFC>by me.<$FFFD><$FB00><$00AF>You<$FFF5><$FFF8>…<$FFF6><$FB00><$00B0>you look like him<$FFF5><$FFF8>…<$FFFE>
+36	<$FB00><$00B1>So he looks like the man<$FFFC>you killed. No wonder you didn't<$FFFC>want to say it.<$FFFE>
+37	<$FB00><$00B2>Then I am someone else<$FFF5><$FFF8>…<$FFFE>
+38	<$FB00><$00B3>Could he have been your<$FFFC>brother or a relative？<$FFFE>
+39	<$FB00><$00B4>He was Duke Egil's only<$FFFC>son, with no close relatives near<$FFFC>his age<$FFF5><$FFF8>…<$FFFE>
+40	<$FFF8>…<$FFF6><$FB00><$00B5>Um<$FFF5><$FFF8>… <$FE1E><$FFF6><$FB00><$00B6>I told you<$FFFC>Gizarof's research included clones.<$FFFE>
+41	<$FB00><$00B7>Yeah. The technology to<$FFFC>make copies of people.<$FFFE>
+42	<$FB00><$00B8>Ha ha ha… I see. So I'm<$FFFC>just his copy<$FFF5><$FFF8>… <$FE14><$FFF6><$FB00><$00B9>I have no past <$FFF5><$FFF8>…<$FFFC><$FE14><$FFF6><$FB00><$00BA>A manmade puppet<$FFF5><$FFF8>…<$FFFE>
+43	<$FB00><$00BB>I have no right to say<$FFFC>this, but please don't lose heart.<$FFFE>
+44	<$FFF8>…<$FFF6><$FB00><$00BC>I'm all right, Lambda.<$FFFC>I'm just glad I wasn't the<$FFFC>murderer.<$FFFE>
+45	<$FB00><$00BD>Cheer up！ At least we<$FFFC>know you aren't the killer.<$FFFE>
+46	<$FB00><$00BE>Yeah, you're right.<$FFFC><$FFF5><$FFF8>…<$FE0F>…<$FE0F><$FFF6><$FB00><$00BF>That's right.<$FFFE>
 47	<$FFF8>…<$FFF6><$FB00><$00C0>Um<$FFF5><$FFF8>…<$FFFE>
-48	<$FB00><$00C1>So Clarett<$FFFC>killed my original.<$FFFE>
-49	<$FFF8>…<$FFF6><$FB00><$00C2>That's why I<$FFFC>didn't want to say it.<$FFFE>
-50	<$FFF7><$FB00><$00C3>No<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00C4>It's enough<$FFFC>to know I'm not the killer.<$FFFE>
-51	<$FB00><$00C5>So, what now？<$FFFC>Whatever the truth, both of you<$FFFC>are wanted, right？<$FFFE>
-52	<$FB00><$00C6>Why don't we<$FFFC>stay together？<$FFFE>
-53	<$FB00><$00C7>Two wanted<$FFFC>people together. Is that safe？<$FFFE>
-54	<$FB00><$00C8>If we're wanted<$FFFC>anyway, isn't together safer？<$FFFC>Besides, you all seem strong.<$FFFE>
-55	<$FB00><$00C9>What an<$FFFC>easygoing princess.<$FFFE>
-56	<$FB00><$00CA>And if we<$FFFC>clear his suspicion, I should be<$FFFC>there, right？ So, nice to work<$FFFC>with you.<$FFFE>
-57	<$FB00><$00CB>But Miss<$FFFC>Clarett, he said the minister<$FFFC>became the new Emperor. What will<$FFFC>you do？<$FFFE>
-58	<$FB00><$00CC>Right. First, I<$FFFC>must take back my country. Demons<$FFFC>could run wild again.<$FFFD><$FB00><$00CD>That's why I<$FFFC>went looking for Jessica.<$FFFE>
-59	<$FB00><$00CE>On that subject,<$FFFC>I have one thing to ask. What<$FFFC>do you want from me？<$FFFE>
+48	<$FB00><$00C1>So Clarett killed my<$FFFC>original.<$FFFE>
+49	<$FFF8>…<$FFF6><$FB00><$00C2>That's why I didn't want<$FFFC>to say it.<$FFFE>
+50	<$FFF7><$FB00><$00C3>No<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00C4>It's enough to know I'm<$FFFC>not the killer.<$FFFE>
+51	<$FB00><$00C5>So, what now？ Whatever<$FFFC>the truth, both of you are<$FFFC>wanted, right？<$FFFE>
+52	<$FB00><$00C6>Why don't we stay<$FFFC>together？<$FFFE>
+53	<$FB00><$00C7>Two wanted people together.<$FFFC>Is that safe？<$FFFE>
+54	<$FB00><$00C8>If we're wanted anyway,<$FFFC>isn't together safer？ Besides, you<$FFFC>all seem strong.<$FFFE>
+55	<$FB00><$00C9>What an easygoing princess.<$FFFE>
+56	<$FB00><$00CA>And if we clear his<$FFFC>suspicion, I should be there,<$FFFC>right？ So, nice to work with you.<$FFFE>
+57	<$FB00><$00CB>But Miss Clarett, he said<$FFFC>the minister became the new<$FFFC>Emperor. What will you do？<$FFFE>
+58	<$FB00><$00CC>Right. First, I must take<$FFFC>back my country. Demons could run<$FFFC>wild again.<$FFFD><$FB00><$00CD>That's why I went looking<$FFFC>for Jessica.<$FFFE>
+59	<$FB00><$00CE>On that subject, I have<$FFFC>one thing to ask. What do you<$FFFC>want from me？<$FFFE>
 60	<$FFF7><$FB00><$00CF>Huh？<$FFFE>
-61	<$FB00><$00D0>You said you<$FFFC>sought me because demons infest El<$FFFC>Sallia. What do you want from<$FFFC>me？<$FFFE>
+61	<$FB00><$00D0>You said you sought me<$FFFC>because demons infest El Sallia.<$FFFC>What do you want from me？<$FFFE>
 62	<$FB00><$00D1>Um<$FFF5><$FFF8>… <$FFF6><$FB00><$00D2>Well<$FFF5><$FFF8>…<$FFFE>
-63	<$FB00><$00D3>I can't ignore<$FFFC>demons ruining lives. But I<$FFFC>won't help someone who only<$FFFC>relies on others.<$FFFE>
+63	<$FB00><$00D3>I can't ignore demons<$FFFC>ruining lives. But I won't help<$FFFC>someone who only relies on others.<$FFFE>
 64	<$FB00><$00D4>N, no！<$FFFE>
-65	<$FB00><$00D5>Unless you<$FFFC>change, I cannot help you.<$FFFE>
+65	<$FB00><$00D5>Unless you change, I<$FFFC>cannot help you.<$FFFE>
 66	<$FFF8>…<$FFF6><$FB00><$00D6>Jessica left.<$FFFE>
 67	<$FB00><$00D7>What now？<$FFFE>
-68	<$FB00><$00D8>We don't know<$FFFC>this continent. Wandering blindly<$FFFC>won't help.<$FFFE>
-69	<$FB00><$00D9>Miss Clarett, do<$FFFC>you have anywhere to go？<$FFFE>
-70	<$FB00><$00DA>Yes. I think<$FFFC>Salrath will help us.<$FFFD><$FB00><$00DB>Salrath has<$FFFC>always aided Kalxath in crisis.<$FFFC>Duke Lenard can be trusted.<$FFFD><$FB00><$00DC>If we explain,<$FFFC>he will surely cooperate.<$FFFE>
-71	<$FB00><$00DD>So your goal is<$FFFC>Salrath. What should we do<$FFF5><$FFF8>…？<$FFFE>
-72	<$FB00><$00DE>What do you<$FFFC>mean？ Won't you come with me？<$FFFE>
-73	<$FB00><$00DF>Coming with you<$FFFC>means helping until you reclaim<$FFFC>your country？<$FFFE>
-74	<$FB00><$00E0>Well, bluntly,<$FFFC>yes.<$FFFD><$FB00><$00E1>But I can<$FFFC>prove he isn't the killer. If<$FFFC>I regain my country, his<$FFFC>suspicion clears too.<$FFFD><$FB00><$00E2>Helping me<$FFFC>helps him as well.<$FFFE>
-75	<$FB00><$00E3>I feel like<$FFFC>we're being talked into this<$FFF5><$FFF8>…<$FFFE>
-76	<$FB00><$00E4>What do you<$FFFC>say？<$FFFE>
-77	<$FFF8>…<$FFF6><$FB00><$00E5>All right. We<$FFFC>can help, but I have one<$FFFC>condition.<$FFFE>
-78	<$FB00><$00E6>What？ If it's<$FFFC>not impossible, fine.<$FFFE>
-79	<$FB00><$00E7>We're seeking<$FFFC>the stolen swords. Once you<$FFFC>reclaim your country, help us<$FFFC>fight the demons.<$FFFE>
-80	<$FB00><$00E8>You want<$FFFC>Langrisser and Alhazard <$FFF5><$FFF7>！？<$FFFE>
-81	<$FB00><$00E9>Ahaha, that's<$FFFC>good！<$FFFE>
-82	<$FB00><$00EA>So, what will<$FFFC>you do, Princess？<$FFFE>
-83	<$FB00><$00EB>Stop saying<$FFFC>Princess！<$FFFE>
-84	<$FB00><$00EC>But those<$FFFC>swords are…<$FFFE>
-85	<$FB00><$00ED>There is<$FFFC>something I must confirm. I'm<$FFFC>not asking to keep them. What do<$FFFC>you say？<$FFFE>
-86	<$FFFA><$FFF8><$FB00><$00EE>Hmm<$FFF5>…<$FFFD><$FFF9><$FFF6><$FB00><$00EF>Fine. I accept<$FFFC>that condition. But only for a<$FFFC>short while, all right？<$FFFE>
+68	<$FB00><$00D8>We don't know this<$FFFC>continent. Wandering blindly won't<$FFFC>help.<$FFFE>
+69	<$FB00><$00D9>Miss Clarett, do you have<$FFFC>anywhere to go？<$FFFE>
+70	<$FB00><$00DA>Yes. I think Salrath will<$FFFC>help us.<$FFFD><$FB00><$00DB>Salrath has always aided<$FFFC>Kalxath in crisis. Duke Lenard can<$FFFC>be trusted.<$FFFD><$FB00><$00DC>If we explain, he will<$FFFC>surely cooperate.<$FFFE>
+71	<$FB00><$00DD>So your goal is Salrath.<$FFFC>What should we do<$FFF5><$FFF8>…？<$FFFE>
+72	<$FB00><$00DE>What do you mean？ Won't<$FFFC>you come with me？<$FFFE>
+73	<$FB00><$00DF>Coming with you means<$FFFC>helping until you reclaim your<$FFFC>country？<$FFFE>
+74	<$FB00><$00E0>Well, bluntly, yes.<$FFFD><$FB00><$00E1>But I can prove he<$FFFC>isn't the killer. If I regain my<$FFFC>country, his suspicion clears too.<$FFFD><$FB00><$00E2>Helping me helps him as<$FFFC>well.<$FFFE>
+75	<$FB00><$00E3>I feel like we're being<$FFFC>talked into this<$FFF5><$FFF8>…<$FFFE>
+76	<$FB00><$00E4>What do you say？<$FFFE>
+77	<$FFF8>…<$FFF6><$FB00><$00E5>All right. We can help,<$FFFC>but I have one condition.<$FFFE>
+78	<$FB00><$00E6>What？ If it's not<$FFFC>impossible, fine.<$FFFE>
+79	<$FB00><$00E7>We're seeking the stolen<$FFFC>swords. Once you reclaim your<$FFFC>country, help us fight the demons.<$FFFE>
+80	<$FB00><$00E8>You want Langrisser and<$FFFC>Alhazard <$FFF5><$FFF7>！？<$FFFE>
+81	<$FB00><$00E9>Ahaha, that's good！<$FFFE>
+82	<$FB00><$00EA>So, what will you do,<$FFFC>Princess？<$FFFE>
+83	<$FB00><$00EB>Stop saying Princess！<$FFFE>
+84	<$FB00><$00EC>But those swords are…<$FFFE>
+85	<$FB00><$00ED>There is something I must<$FFFC>confirm. I'm not asking to keep<$FFFC>them. What do you say？<$FFFE>
+86	<$FFFA><$FFF8><$FB00><$00EE>Hmm<$FFF5>…<$FFFD><$FFF9><$FFF6><$FB00><$00EF>Fine. I accept that<$FFFC>condition. But only for a short<$FFFC>while, all right？<$FFFE>
 87	<$0000> Clarett joined the party！<$FFFE>
-88	<$FB00><$00F0>Then the deal<$FFFC>is made. We'll help you reclaim<$FFFC>your country.<$FFFE>
-89	<$FB00><$00F1>Then I'll guide<$FFFC>you to Salrath. Come on, hurry！<$FFFE><$FFFF>
+88	<$FB00><$00F0>Then the deal is made.<$FFFC>We'll help you reclaim your<$FFFC>country.<$FFFE>
+89	<$FB00><$00F1>Then I'll guide you to<$FFFC>Salrath. Come on, hurry！<$FFFE><$FFFF>

@@ -5,54 +5,54 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Captain Goldry<$FFFF>
-8	Caconsis off.<$FFFF>
+6	Lanford<$FFFF>
+7	Goldry<$FFFF>
+8	Officer<$FFFF>
 9	・Defeat Goldry<$FFFE>
 10	・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 11	Town of Knox・Entrance<$FFFF>
-12	<$FB00><$002B>Finally some open<$FFFC>ground.<$FFFE>
-13	<$FB00><$002C>But there's no<$FFFC>time to rest. We're crossing<$FFFC>through this town.<$FFFE>
+12	<$FB00><$002B>Finally some open ground.<$FFFE>
+13	<$FB00><$002C>But there's no time to<$FFFC>rest. We're crossing through this<$FFFC>town.<$FFFE>
 14	<$FB00><$002D>Hold on, Lambda.<$FFFC>Something's going on over there.<$FFFE>
-15	<$FB00><$002E>I'll make you<$FFFC>regret crossing me！<$FFFE>
-16	<$FB00><$002F>Don't take me<$FFFC>for some ordinary girl！ I'll have<$FFFC>you beaten in no time！<$FFFE>
-17	<$FB00><$0030>W-wait, Miss<$FFFC>Clarett！ I'm really no good at<$FFFC>fighting.<$FFFD><$FB00><$0031>Besides, if we<$FFFC>fight here, the townsfolk will<$FFFC>get caught up in it！<$FFFE>
-18	<$FB00><$0032>Say what you<$FFFC>like, but he means to fight,<$FFFC>you know？<$FFFE>
-19	<$FB00><$0033>Then at least<$FFFC>take it outside the town, all<$FFFC>right？<$FFFE>
+15	<$FB00><$002E>I'll make you regret<$FFFC>crossing me！<$FFFE>
+16	<$FB00><$002F>Don't take me for some<$FFFC>ordinary girl！ I'll have you beaten<$FFFC>in no time！<$FFFE>
+17	<$FB00><$0030>W-wait, Miss Clarett！<$FFFC>I'm really no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here,<$FFFC>the townsfolk will get caught up<$FFFC>in it！<$FFFE>
+18	<$FB00><$0032>Say what you like, but<$FFFC>he means to fight, you know？<$FFFE>
+19	<$FB00><$0033>Then at least take it<$FFFC>outside the town, all right？<$FFFE>
 20	<$FB00><$0034>Fine, fine.<$FFFE>
-21	<$FB00><$0035>Why, you！ You<$FFFC>won't get away！<$FFFE>
-22	<$FB00><$0036>Those are<$FFFC>Caconsis troops. They seem to be<$FFFC>fighting some adventurers.<$FFFE>
-23	<$FB00><$0037>Looks to me like<$FFFC>the Caconsis soldiers are simply<$FFFC>picking on them.<$FFFD>What do you say,<$FFFC>Lambda？ Shall we help those<$FFFC>two？<$FFFE>
-24	<$FB00><$0038>I'd rather avoid<$FFFC>pointless battles, but dealing<$FFFC>Caconsis a blow now may serve<$FFFC>us later.<$FFFE>
-25	<$FB00><$0039>Then it's settled.<$FFFC>Let's help those two.<$FFFE>
+21	<$FB00><$0035>Why, you！ You won't get<$FFFC>away！<$FFFE>
+22	<$FB00><$0036>Those are Caconsis troops.<$FFFC>They seem to be fighting some<$FFFC>adventurers.<$FFFE>
+23	<$FB00><$0037>Looks to me like the<$FFFC>Caconsis soldiers are simply picking<$FFFC>on them.<$FFFD>What do you say, Lambda？<$FFFC>Shall we help those two？<$FFFE>
+24	<$FB00><$0038>I'd rather avoid pointless<$FFFC>battles, but dealing Caconsis a<$FFFC>blow now may serve us later.<$FFFE>
+25	<$FB00><$0039>Then it's settled. Let's<$FFFC>help those two.<$FFFE>
 26	<$FB00><$003A>Understood.<$FFFE>
-27	<$FB00><$0047>See you around,<$FFFC>Captain Dimwit！<$FFFE>
-28	<$FFF8><$FB00><$0048>Grrr… <$FFF5><$FFF6><$FB00><$0049>So be it,<$FFFC>then I'll butcher the rest of<$FFFC>them instead！<$FFFE>
+27	<$FB00><$0047>See you around, Captain<$FFFC>Dimwit！<$FFFE>
+28	<$FFF8><$FB00><$0048>Grrr… <$FFF5><$FFF6><$FB00><$0049>So be it, then I'll<$FFFC>butcher the rest of them instead！<$FFFE>
 29	<$FFF8>…<$FFF6><$FB00><$004A>Try it.<$FFFE>
-30	<$FB00><$004B>With trees this<$FFFC>thick, horses should lose their<$FFFC>footing. If I can slip away<$FFFC>meanwhile<$FFF5><$FFF8>…<$FFFE>
-31	<$FB00><$004C>Hmph, how<$FFFC>naive！<$FFFE>
-32	<$FB00><$004D>The kid's headed<$FFFC>your way. We'll catch him in a<$FFFC>pincer.<$FFFE>
-33	<$FB00><$004E>Sir！ Leave it<$FFFC>to us.<$FFFE>
+30	<$FB00><$004B>With trees this thick,<$FFFC>horses should lose their footing. If<$FFFC>I can slip away meanwhile<$FFF5><$FFF8>…<$FFFE>
+31	<$FB00><$004C>Hmph, how naive！<$FFFE>
+32	<$FB00><$004D>The kid's headed your way.<$FFFC>We'll catch him in a pincer.<$FFFE>
+33	<$FB00><$004E>Sir！ Leave it to us.<$FFFE>
 34	<$FB00><$0057>You there.<$FFFE>
 35	<$FB00><$0050>Huh？ Me？<$FFFE>
-36	<$FB00><$0058>That's right.<$FFFC>Would you help us bring down<$FFFC>those horsemen？<$FFFE>
-37	<$FB00><$0052>You mean me？<$FFFC><$FFF5><$FE3C><$FFF8>…<$FFF6><$FB00><$0053>I couldn't<$FFF5>…<$FFFE>
-38	<$FB00><$0059>We need your<$FFFC>strength. Either way, staying put<$FFFC>means danger.<$FFFE>
-39	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I<$FFFC>don't know how to fight, so<$FFFC>please give me directions.<$FFFE>
+36	<$FB00><$0058>That's right. Would you<$FFFC>help us bring down those horsemen？<$FFFE>
+37	<$FB00><$0052>You mean me？ <$FFF5><$FE3C><$FFF8>…<$FFF6><$FB00><$0053>I<$FFFC>couldn't<$FFF5>…<$FFFE>
+38	<$FB00><$0059>We need your strength.<$FFFC>Either way, staying put means<$FFFC>danger.<$FFFE>
+39	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I don't know<$FFFC>how to fight, so please give me<$FFFC>directions.<$FFFE>
 40	<$FB00><$005A>Thank you.<$FFFE>
-41	Hey, you damn wench！ Unless you<$FFFC>want to anger me any further,<$FFFC>get over here, nice and quiet！<$FFFE>
+41	Hey, you damn wench！ Unless you<$FFFC>want to anger me any further, get<$FFFC>over here, nice and quiet！<$FFFE>
 42	…<$FFFE>
 43	Hey, you！ Are you even<$FFFC>listening！<$FFFE>
 44	…why…<$FFFE>
 45	That's it！ No matter what happens,<$FFFC>I will never forgive you！<$FFFE>
-46	<$FB00><$003B>Now, how shall<$FFFC>we move<$FFF5><$FFF8>…<$FFFE>
-47	<$FB00><$003C>Ah, that<$FFFC>man<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FFF6><$FB00><$003D>it can't be<$FFF5><$FFF8>…<$FFFE>
-48	<$FB00><$003E>What's the<$FFFC>matter, Miss Clarett？<$FFFE>
-49	<$FFF8>…<$FFF6><$FB00><$003F>No, surely<$FFFC>not<$FFF5><$FFF8>…<$FFFE>
-50	<$FB00><$0040>All right, let's<$FFFC>move！<$FFFE>
+46	<$FB00><$003B>Now, how shall we move<$FFF5><$FFF8>…<$FFFE>
+47	<$FB00><$003C>Ah, that man<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FFF6><$FB00><$003D>it can't<$FFFC>be<$FFF5><$FFF8>…<$FFFE>
+48	<$FB00><$003E>What's the matter, Miss<$FFFC>Clarett？<$FFFE>
+49	<$FFF8>…<$FFF6><$FB00><$003F>No, surely not<$FFF5><$FFF8>…<$FFFE>
+50	<$FB00><$0040>All right, let's move！<$FFFE>
 51	…kh！<$FFFE>
 52	Hah hah hah hah！ Serves you<$FFFC>right！<$FFFE>
-53	<$FB00><$0030>So this was the<$FFFC>limit of my strength…<$FFFE>
+53	<$FB00><$0030>So this was the limit of<$FFFC>my strength…<$FFFE>
 54	Before we fight, mind if I check<$FFFC>one thing？<$FFFE>
 55	What is it？<$FFFE>
 56	Do you remember <$FFF4>combat affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way<$FFFC>standoff<$FFF3>…<$FFFE>
@@ -60,94 +60,94 @@
 58	As long as you know it, that's<$FFFC>fine.<$FFFE>
 59	No, I don't remember.<$FFFE>
 60	Then remember well what I'm about<$FFFC>to say. It's the most basic rule<$FFFC>of battle.<$FFFE>
-61	Every soldier has a <$FFF4>class type<$FFFC><$FFF3>, each strong against some foes<$FFFC>and weak to others. The types<$FFFC>work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to<$FFFC>cavalry. Pikemen beat cavalry but<$FFFC>lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to<$FFFC>pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear<$FFFC>no type, but they lose when<$FFFC>struck up close.<$FFFD>Fliers move far but defend<$FFFC>poorly, only archers make easy<$FFFC>prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling<$FFFC>infantry, but strong against the<$FFFC>undead.<$FFF3><$FFFE>
+61	Every soldier has a <$FFF4>class type<$FFFC><$FFF3>, each strong against some foes<$FFFC>and weak to others. The types<$FFFC>work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to<$FFFC>cavalry. Pikemen beat cavalry but<$FFFC>lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to<$FFFC>pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear<$FFFC>no type, but they lose when struck<$FFFC>up close.<$FFFD>Fliers move far but defend poorly,<$FFFC>only archers make easy prey for<$FFFC>them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry,<$FFFC>but strong against the undead.<$FFF3><$FFFE>
 62	<$FFF4>Types <$FFF3>and <$FFF4>affinities<$FFF3>, huh…<$FFFE>
 63	Well？ Shall I explain it once<$FFFC>more？<$FFFE>
 64	No. I've got it now.<$FFFE>
 65	Good, that's a relief.<$FFFE>
 66	<$FB00><$0039>It's getting too<$FFFC>dangerous…I'll be falling back<$FFFC>first…<$FFFE>
-67	Hey, kid！ Why not get behind<$FFFC>the fences？ Then I couldn't<$FFFC>chase you, could I？<$FFFE>
-68	True, horses can't cross fences<$FFFC><$FFF8>… <$FFF6>But surrounded, that does me<$FFFC>no good, does it？<$FFFE>
+67	Hey, kid！ Why not get behind<$FFFC>the fences？ Then I couldn't chase<$FFFC>you, could I？<$FFFE>
+68	True, horses can't cross fences <$FFF8>…<$FFFC><$FFF6>But surrounded, that does me no<$FFFC>good, does it？<$FFFE>
 69	Tch！ Crafty little brat, aren't<$FFFC>you.<$FFFE>
 70	So I should attack that thuggish<$FFFC>captain, right？<$FFFE>
 71	You're infantry yourself, so be<$FFFC>careful. If the cavalry catches<$FFFC>you, you're done for.<$FFFE>
 72	You're infantry yourself, so watch<$FFFC>out. If the cavalry catches you,<$FFFC>it's all over.<$FFFE>
-73	Right. If I use the fences<$FFFC>well, I think I can avoid<$FFFC>their attacks.<$FFFE>
-74	Plotting with those feeble heads<$FFFC>is a waste of time.<$FFFD>Even pikemen are small fry<$FFFC>before my might. Be smart and<$FFFC>drop your weapons, eh？<$FFFE>
+73	Right. If I use the fences well,<$FFFC>I think I can avoid their<$FFFC>attacks.<$FFFE>
+74	Plotting with those feeble heads is<$FFFC>a waste of time.<$FFFD>Even pikemen are small fry before<$FFFC>my might. Be smart and drop your<$FFFC>weapons, eh？<$FFFE>
 75	We'll see about that.<$FFFE>
 76	I…I knew it…fighting is…beyond<$FFFC>me…<$FFFE>
 77	No… We couldn't save him…<$FFFE>
-78	<$FFF8>…<$FFF6><$FB00><$0041>It really is<$FFFC>him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FFF6><$FB00><$0042>but how <$FFF5><$FFF8>…<$FFFE>
+78	<$FFF8>…<$FFF6><$FB00><$0041>It really is him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FFF6><$FB00><$0042>but<$FFFC>how <$FFF5><$FFF8>…<$FFFE>
 79	<$FB00><$0043>Miss Clarett？<$FFFE>
-80	<$FB00><$0044>I'm sorry,<$FFFC>Alfred. I just remembered some<$FFFC>urgent business, so this is<$FFFC>goodbye.<$FFFE>
-81	<$FB00><$0045>You can't, Miss<$FFFC>Clarett！<$FFFE>
-82	<$FB00><$0046>Fool！ You think<$FFFC>you can run from me！<$FFFE>
+80	<$FB00><$0044>I'm sorry, Alfred. I just<$FFFC>remembered some urgent business, so<$FFFC>this is goodbye.<$FFFE>
+81	<$FB00><$0045>You can't, Miss Clarett！<$FFFE>
+82	<$FB00><$0046>Fool！ You think you can<$FFFC>run from me！<$FFFE>
 83	I'm not about to die in a<$FFFC>place like this… See you！<$FFFE>
 84	Damn！ She got away！<$FFFD>A prize like that！<$FFFD>And it's all your fault！<$FFFE>
 85	Good grief…<$FFFE>
-86	Hey, brats！ Don't think you<$FFFC>can anger me and just walk<$FFFC>away！<$FFFE>
+86	Hey, brats！ Don't think you can<$FFFC>anger me and just walk away！<$FFFE>
 87	Wait, Captain. They're pikemen.<$FFFC>You'd best leave this to us<$FFF8>…<$FFFE>
-88	Shut it！<$FFFD>Nobody mocks me and gets away<$FFFC>with it！<$FFFD>No matter what, I'll crush those<$FFFC>brats with my own hands！<$FFFE>
+88	Shut it！<$FFFD>Nobody mocks me and gets away with<$FFFC>it！<$FFFD>No matter what, I'll crush those<$FFFC>brats with my own hands！<$FFFE>
 89	<$FE14>…<$FE14>…<$FE14>…<$FE14>…<$FE14>Still, I'm counting on your<$FFFC>puny help, if only a little.<$FFFE>
 90	Y-yes, sir. Understood.<$FFFD>But the girl, I fear catching<$FFFC>her is beyond us<$FFF8>…<$FFFE>
 91	<$FE14>I, <$FE14>I know that already！ Then<$FFFC>we'll catch the boy at least<$FFFC>and shake him down！<$FFFE>
 92	Wh-what do I do…<$FFFE>
-93	<$FB00><$005C>You there！ Stay<$FFFC>out of my way！ Or else<$FFF5><$FFF8>…<$FFFE>
+93	<$FB00><$005C>You there！ Stay out of<$FFFC>my way！ Or else<$FFF5><$FFF8>…<$FFFE>
 94	<$FB00><$005D>Or else what？<$FFFE>
 95	<$FB00><$005E>I'll kill you！<$FFFE>
-96	<$FB00><$005F>Hmph. Just try<$FFFC>it！<$FFFE>
-97	<$FB00><$0060>Don't expect<$FFFC>mercy just because you're a<$FFFC>woman！<$FFFE>
+96	<$FB00><$005F>Hmph. Just try it！<$FFFE>
+97	<$FB00><$0060>Don't expect mercy just<$FFFC>because you're a woman！<$FFFE>
 98	<$FFF8>…<$FFF6><$FB00><$0061>Is that so？<$FFFE>
-99	<$FB00><$0062>You damn wench！<$FFFC><$FFF5><$FFFB><$FB00><$0063>Don't you mock me！ Die！<$FFFE>
-100	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To<$FFFC>think that I could lose…<$FFFE>
-101	<$FB00><$0066>Looks like that's<$FFFC>done.<$FFFE>
-102	<$FB00><$0067>Let's slip<$FFFC>through while we can.<$FFFE>
+99	<$FB00><$0062>You damn wench！ <$FFF5><$FFFB><$FB00><$0063>Don't<$FFFC>you mock me！ Die！<$FFFE>
+100	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To think that I<$FFFC>could lose…<$FFFE>
+101	<$FB00><$0066>Looks like that's done.<$FFFE>
+102	<$FB00><$0067>Let's slip through while<$FFFC>we can.<$FFFE>
 103	<$FB00><$0068>Um, excuse me…<$FFFE>
 104	<$FB00><$0069>What is it？<$FFFE>
-105	<$FB00><$006A>Thanks to you,<$FFFC>I'm safe.<$FFFE>
-106	<$FB00><$006B>Not at all. We<$FFFC>only won because you helped us.<$FFFC>You have our thanks.<$FFFE>
-107	<$FB00><$006C>Oh, it was<$FFFC>nothing<$FFF5><$FFF8>…<$FFFE>
-108	<$FB00><$006D>Um, what will<$FFFC>you two do now？<$FFFE>
-109	<$FB00><$006E>Why do you<$FFFC>ask？<$FFFE>
-110	<$FB00><$006F>If it's all<$FFFC>right, could I travel with you,<$FFFC>even part of the way？<$FFFD>If something like<$FFFC>this happens again, on my own<$FFFC>I<$FFF5><$FFF8>…<$FFFE>
-111	<$FB00><$0070>You mean you<$FFFC>want to hire us？<$FFFE>
-112	<$FB00><$0071>I have money.<$FFFC>So<$FFF5><$FFF8>…<$FFFE>
-113	<$FB00><$0072>Sorry, but we<$FFFC>are not mercenaries.<$FFFE>
+105	<$FB00><$006A>Thanks to you, I'm safe.<$FFFE>
+106	<$FB00><$006B>Not at all. We only won<$FFFC>because you helped us. You have<$FFFC>our thanks.<$FFFE>
+107	<$FB00><$006C>Oh, it was nothing<$FFF5><$FFF8>…<$FFFE>
+108	<$FB00><$006D>Um, what will you two do<$FFFC>now？<$FFFE>
+109	<$FB00><$006E>Why do you ask？<$FFFE>
+110	<$FB00><$006F>If it's all right, could<$FFFC>I travel with you, even part of<$FFFC>the way？<$FFFD>If something like this<$FFFC>happens again, on my own I<$FFF5><$FFF8>…<$FFFE>
+111	<$FB00><$0070>You mean you want to hire<$FFFC>us？<$FFFE>
+112	<$FB00><$0071>I have money. So<$FFF5><$FFF8>…<$FFFE>
+113	<$FB00><$0072>Sorry, but we are not<$FFFC>mercenaries.<$FFFE>
 114	<$FB00><$0073>No way…<$FFFE>
-115	<$FB00><$0074>Come on, Lambda.<$FFFC>Better than traveling on our own,<$FFFC>no？<$FFFD>And there's the<$FFFC>matter of combat affinities, too.<$FFFE>
-116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist<$FFFC>that much, I won't object.<$FFFE>
-117	<$FB00><$0076>Thank you so<$FFFC>much. My name is Alfred.<$FFFE>
-118	<$FB00><$0077>I'm<$FFFC><$F600><$0000>.<$FFFE>
+115	<$FB00><$0074>Come on, Lambda. Better<$FFFC>than traveling on our own, no？<$FFFD>And there's the matter of<$FFFC>combat affinities, too.<$FFFE>
+116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist that much,<$FFFC>I won't object.<$FFFE>
+117	<$FB00><$0076>Thank you so much. My<$FFFC>name is Alfred.<$FFFE>
+118	<$FB00><$0077>I'm <$F600><$0000>.<$FFFE>
 119	<$FB00><$0078>Lambda.<$FFFE>
-120	<$FB00><$0079>It isn't much,<$FFFC>but here's the money. I'll pay<$FFFC>the rest once we reach my home<$FFF5><$FFF8>…<$FFFE>
-121	<$FB00><$007A>No charge. It's<$FFFC>fine.<$FFFE>
-122	<$FB00><$007B>But then I'd<$FFFC>feel terrible！ Please take at<$FFFC>least this much.<$FFFE>
+120	<$FB00><$0079>It isn't much, but here's<$FFFC>the money. I'll pay the rest once<$FFFC>we reach my home<$FFF5><$FFF8>…<$FFFE>
+121	<$FB00><$007A>No charge. It's fine.<$FFFE>
+122	<$FB00><$007B>But then I'd feel<$FFFC>terrible！ Please take at least this<$FFFC>much.<$FFFE>
 123	Alfred joined the party！<$FFFE>
 124	<$0000> Got 350P gold！<$FFFE>
 125	<$0000> Got 450P gold！<$FFFE>
 126	<$0000> Got a token sum of gold！<$FFFE>
-127	<$FB00><$007C>Well then, shall<$FFFC>we go？<$FFFE>
-128	<$FB00><$007D>We're cutting<$FFFC>through this town？<$FFFE>
-129	<$FB00><$007E>That's right.<$FFFC>Going around it would take us<$FFFC>far out of our way.<$FFFE>
+127	<$FB00><$007C>Well then, shall we go？<$FFFE>
+128	<$FB00><$007D>We're cutting through this<$FFFC>town？<$FFFE>
+129	<$FB00><$007E>That's right. Going around<$FFFC>it would take us far out of our<$FFFC>way.<$FFFE>
 130	<$FB00><$007F>Then let's hurry.<$FFFE>
 131	…if I hadn't served such a<$FFFC>captain…I might have lived<$FFFC>longer…<$FFFE>
 132	Im…impossible…<$FFFE>
-133	A scrap of cloth peeks out<$FFFC>from a hole in the ground.<$FFFD>As you watch, it slowly slips<$FFFC>inside. …What will you do？<$FFFE>
+133	A scrap of cloth peeks out from<$FFFC>a hole in the ground.<$FFFD>As you watch, it slowly slips<$FFFC>inside. …What will you do？<$FFFE>
 134	・Yank it hard<$FFFE>
 135	・Pull it normally<$FFFE>
 136	・Pull it gently<$FFFE>
-137	You yank the cloth, and several<$FFFC>gnomes come tumbling out with it.<$FFFD>Please, give it back！ We're<$FFFC>making clothes from this cloth！<$FFFD>We'll give you something<$FFFC>instead！<$FFFD>Accept the offered trade？<$FFFE>
+137	You yank the cloth, and several<$FFFC>gnomes come tumbling out with it.<$FFFD>Please, give it back！ We're making<$FFFC>clothes from this cloth！<$FFFD>We'll give you something instead！<$FFFD>Accept the offered trade？<$FFFE>
 138	Thank you！ Here, we'll even<$FFFC>throw in a little extra！<$FFFE>
-139	<$0000> Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000> <$F600><$0000>'s <$FFF4>friendship<$FFF3><$FFFC>rose！<$FFFE>
+139	<$0000> Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000> <$F600><$0000>'s <$FFF4>friendship<$FFF3> rose！<$FFFE>
 140	Waaah, you're so mean！<$FFFD>The gnomes went back into their<$FFFC>hole in tears！<$FFFE>
 141	<$0000> Got the Megingjord！<$FFFE>
 142	The pull from inside is strong,<$FFFC>and in a blink the cloth<$FFFC>vanishes down the hole.<$FFFE>
 143	Alfred joined the party！<$FFFE>
-144	<$FB00><$005B>You dare defy me<$FFFC>too！ Fine, I'll make you hurt！<$FFFE>
+144	<$FB00><$005B>You dare defy me too！<$FFFC>Fine, I'll make you hurt！<$FFFE>
 145	<$FB00><$004F>Hey, you there！<$FFFE>
 146	<$FB00><$0050>Huh？ Me？<$FFFE>
-147	<$FB00><$0051>That's right, you.<$FFFC>Only you can bring down those<$FFFC>horsemen. Will you lend us a<$FFFC>hand？<$FFFE>
-148	<$FB00><$0052>You mean me？<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$0053>I couldn't<$FFF5><$FFF8>…<$FFFE>
-149	<$FB00><$0054>Please. We need<$FFFC>your strength.<$FFFE>
-150	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I<$FFFC>don't know how to fight, so<$FFFC>please give me directions.<$FFFE>
+147	<$FB00><$0051>That's right, you. Only you<$FFFC>can bring down those horsemen.<$FFFC>Will you lend us a hand？<$FFFE>
+148	<$FB00><$0052>You mean me？ <$FFF5><$FFF8>…<$FFF6><$FB00><$0053>I<$FFFC>couldn't<$FFF5><$FFF8>…<$FFFE>
+149	<$FB00><$0054>Please. We need your<$FFFC>strength.<$FFFE>
+150	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I don't know<$FFFC>how to fight, so please give me<$FFFC>directions.<$FFFE>
 151	<$FB00><$0056>Thank you.<$FFFE>

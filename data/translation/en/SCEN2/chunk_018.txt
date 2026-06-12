@@ -3,112 +3,112 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Emperor Gilmore<$FFFF>
-8	Kalxath off.<$FFFF>
+6	Lanford<$FFFF>
+7	Gilmore<$FFFF>
+8	Officer<$FFFF>
 9	McLaine<$FFFF>
-10	Archmage Jessica<$FFFF>
+10	Jessica<$FFFF>
 11	・Defeat Gilmore<$FFFE>
 12	・<$F600><$0000> dies<$FFFE>
 13	Inside Kalxath Castle<$FFFF>
-14	<$FB00><$0030>Gilmore！ Give<$FFFC>yourself up！<$FFFE>
-15	<$FB00><$0031>How dare you<$FFFC>address me so casually. Call me<$FFFC>Your Majesty！<$FFFD><$FB00><$0032>Still, impressive<$FFFC>that you reached this far. Creid<$FFFC>should have been at the gate.<$FFFE>
-16	<$FB00><$0033>Oh, that<$FFFC>marquis？ Too bad, but it looks<$FFFC>like he died for nothing.<$FFFE>
-17	<$FB00><$0034>What do you<$FFFC>mean！？ You call a noble death<$FFFC>meaningless！？<$FFFE>
-18	<$FB00><$0035>If he died for<$FFFC>you and you lose anyway, then<$FFFC>yes, meaningless.<$FFFE>
-19	<$FB00><$0036>Silence！ You<$FFFC>are the emperor's murderer！ Do<$FFFC>you mean to kill me too！？<$FFFE>
-20	<$FB00><$0037>Then surrender<$FFFC>and return the throne to Clarett.<$FFFD>Do that, and I<$FFFC>may show mercy.<$FFFE>
-21	<$FB00><$0038>Nonsense！ You<$FFFC>are the ones who will die！<$FFFE>
-22	<$FB00><$0039>What are you<$FFFC>doing！？ Kill them at once！<$FFFE>
-23	<$FB00><$003A>Yes sir！ At<$FFFC>once！<$FFFE>
+14	<$FB00><$0030>Gilmore！ Give yourself up！<$FFFE>
+15	<$FB00><$0031>How dare you address me<$FFFC>so casually. Call me Your Majesty！<$FFFD><$FB00><$0032>Still, impressive that you<$FFFC>reached this far. Creid should have<$FFFC>been at the gate.<$FFFE>
+16	<$FB00><$0033>Oh, that marquis？ Too<$FFFC>bad, but it looks like he died<$FFFC>for nothing.<$FFFE>
+17	<$FB00><$0034>What do you mean！？ You<$FFFC>call a noble death meaningless！？<$FFFE>
+18	<$FB00><$0035>If he died for you and<$FFFC>you lose anyway, then yes,<$FFFC>meaningless.<$FFFE>
+19	<$FB00><$0036>Silence！ You are the<$FFFC>emperor's murderer！ Do you mean to<$FFFC>kill me too！？<$FFFE>
+20	<$FB00><$0037>Then surrender and return<$FFFC>the throne to Clarett.<$FFFD>Do that, and I may show<$FFFC>mercy.<$FFFE>
+21	<$FB00><$0038>Nonsense！ You are the<$FFFC>ones who will die！<$FFFE>
+22	<$FB00><$0039>What are you doing！？<$FFFC>Kill them at once！<$FFFE>
+23	<$FB00><$003A>Yes sir！ At once！<$FFFE>
 24	<$FB00><$003B>We have requested<$FFFC>reinforcements from the troops<$FFFC>attacking Salrath！<$FFFE>
 25	<$FB00><$003C>What？<$FFFE>
-26	<$FB00><$003D>Captain Kfir of<$FFFC>the flyers is on his way. He<$FFFC>should arrive soon.<$FFFE>
-27	<$FB00><$003E>Do not tell me<$FFFC>you intend to wait for<$FFFC>reinforcements！<$FFFE>
+26	<$FB00><$003D>Captain Kfir of the flyers<$FFFC>is on his way. He should arrive<$FFFC>soon.<$FFFE>
+27	<$FB00><$003E>Do not tell me you intend<$FFFC>to wait for reinforcements！<$FFFE>
 28	<$FB00><$003F>Not at all<$FFF5><$FFF8>…<$FFFE>
-29	<$FB00><$0040>Listen, do not<$FFFC>rely on reinforcements. Defeat them<$FFFC>yourselves！<$FFFE>
-30	<$FB00><$002E>I'm<$FFFC>sorry…everyone…<$FFFE>
+29	<$FB00><$0040>Listen, do not rely on<$FFFC>reinforcements. Defeat them<$FFFC>yourselves！<$FFFE>
+30	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
 31	<$FB00><$003D>Ugh…not…yet…<$FFFE>
-32	<$FB00><$003E>Don't overdo it,<$FFFC>Lambda！ Fall back！<$FFFE>
+32	<$FB00><$003E>Don't overdo it, Lambda！<$FFFC>Fall back！<$FFFE>
 33	<$FB00><$003F>…All right…<$FFFE>
-34	<$FB00><$0080>You all right,<$FFFC>Alfred！<$FFFE>
-35	<$FB00><$0081>Sorry…the rest<$FFFC>is up to you…<$FFFE>
-36	<$FB00><$0082>Yeah, leave it<$FFFC>to us！<$FFFE>
-37	<$FB00><$0070>This is getting<$FFFC>dicey…<$FFFE>
-38	<$FB00><$0071>Fall back,<$FFFC>Brenda！ Leave the rest to me！<$FFFE>
-39	<$FB00><$0072>Sorry…I'll take<$FFFC>you up on that…<$FFFE>
+34	<$FB00><$0080>You all right, Alfred！<$FFFE>
+35	<$FB00><$0081>Sorry…the rest is up to<$FFFC>you…<$FFFE>
+36	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
+37	<$FB00><$0070>This is getting dicey…<$FFFE>
+38	<$FB00><$0071>Fall back, Brenda！ Leave<$FFFC>the rest to me！<$FFFE>
+39	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
 40	<$FB00><$005C>Ow！ You dare！<$FFFE>
-41	<$FB00><$005D>Clarett！ Don't<$FFFC>push yourself！<$FFFE>
+41	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
 42	<$FB00><$005E>B-but…<$FFFE>
 43	<$FB00><$005F>Just fall back！<$FFFE>
-44	<$FB00><$0060>Sorry, at such an<$FFFC>important time…<$FFFE>
+44	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
 45	Lord Gilmore…please escape…<$FFFE>
 46	I-impossible…<$FFFE>
 47	Still…I can still fight…<$FFFE>
 48	My training was not enough…<$FFFE>
-49	…Splendid… With you, this<$FFFC>country's future…<$FFFE>
+49	…Splendid… With you, this country's<$FFFC>future…<$FFFE>
 50	Ugh…uuuh…<$FFFE>
 51	To think I cannot win…<$FFFE>
 52	…There will be no next time…<$FFFE>
-53	<$FB00><$0066>I will not give<$FFFC>up this castle, or this power！<$FFFE>
+53	<$FB00><$0066>I will not give up this<$FFFC>castle, or this power！<$FFFE>
 54	<$FB00><$0067>D-damn…<$FFFE>
-55	<$FB00><$0068>Give yourself up,<$FFFC>Gilmore.<$FFFE>
-56	<$FB00><$0069>It is over.<$FFFC>Surrender.<$FFFE>
+55	<$FB00><$0068>Give yourself up, Gilmore.<$FFFE>
+56	<$FB00><$0069>It is over. Surrender.<$FFFE>
 57	<$FB00><$0044>Reinforcements！？<$FFFE>
-58	<$FB00><$0045>Hold it！ Do not<$FFFC>mistake us, it is us！<$FFFE>
+58	<$FB00><$0045>Hold it！ Do not mistake<$FFFC>us, it is us！<$FFFE>
 59	<$FB00><$0046>B-big brother…<$FFFE>
 60	<$FB00><$0047>Lady Jessica！<$FFFE>
-61	<$FB00><$0048>If you mean<$FFFC>reinforcements coming here, relax.<$FFFC>They are not coming.<$FFFE>
+61	<$FB00><$0048>If you mean reinforcements<$FFFC>coming here, relax. They are not<$FFFC>coming.<$FFFE>
 62	<$FB00><$0049>Then you two<$FFF5><$FFF8>…？<$FFFE>
-63	<$FB00><$004A>I would not<$FFFC>aid one who will not carve<$FFFC>her own future.<$FFFD><$FB00><$004B>But you no<$FFFC>longer depend on others as before.<$FFFD><$FB00><$004C>Now I will lend<$FFFC>my strength.<$FFFE>
-64	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It<$FFFC>is thanks to everyone. They helped<$FFFC>me realize it.<$FFFE>
-65	<$FB00><$004F>But you realized<$FFFC>it yourself. Some people never<$FFFC>understand, no matter what they<$FFFC>are told.<$FFFE>
-66	<$FB00><$0050>I have seen many<$FFFC>great deeds, all done with<$FFFC>trusted allies.<$FFFD><$FB00><$0051>One person's<$FFFC>power is small, but joined powers<$FFFC>move an age.<$FFFE>
+63	<$FB00><$004A>I would not aid one<$FFFC>who will not carve her own<$FFFC>future.<$FFFD><$FB00><$004B>But you no longer depend<$FFFC>on others as before.<$FFFD><$FB00><$004C>Now I will lend my<$FFFC>strength.<$FFFE>
+64	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It is thanks<$FFFC>to everyone. They helped me realize<$FFFC>it.<$FFFE>
+65	<$FB00><$004F>But you realized it<$FFFC>yourself. Some people never<$FFFC>understand, no matter what they are<$FFFC>told.<$FFFE>
+66	<$FB00><$0050>I have seen many great<$FFFC>deeds, all done with trusted<$FFFC>allies.<$FFFD><$FB00><$0051>One person's power is<$FFFC>small, but joined powers move an<$FFFC>age.<$FFFE>
 67	<$FB00><$0052>Yes！<$FFFE>
-68	<$FB00><$0053>If you need<$FFFC>help, more people is better,<$FFFC>right？ I will help too.<$FFFE>
-69	<$FB00><$0054>Enough idle<$FFFC>chatter！<$FFFE>
-70	<$FB00><$0055>Quiet！ First<$FFFC>explain how you became emperor！<$FFFE>
-71	<$FB00><$0056>What nonsense. My<$FFFC>family has royal blood！<$FFFE>
-72	<$FB00><$0057>Is that true,<$FFFC>Clarett？<$FFFE>
-73	<$FB00><$0058>I have never<$FFFC>heard that.<$FFFE>
-74	<$FB00><$0059>Then listen well！<$FFFC>This goes back centuries.<$FFFD><$FB00><$005A>Before Kalxath<$FFFC>was founded, Dalsis had a youth<$FFFC>named Lance Kalxath.<$FFFD><$FB00><$005B>He founded<$FFFC>Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
-75	<$FB00><$005C>Stop. Your story<$FFFC>already fails.<$FFFD><$FB00><$005D>Chris wed Ledin<$FFFC>of Baldia. Leon lived about 200<$FFFC>years after them.<$FFFE>
-76	<$FB00><$005E>Silence！ Do not<$FFFC>speak as if you saw it！ Who<$FFFC>are you anyway！？<$FFFE>
-77	<$FB00><$005F>My name is<$FFFC>Jessica. I watch this continent<$FFFC>and the Descendants of Light.<$FFFD><$FB00><$0060>Kalxath servants<$FFFC>should know my name.<$FFFE>
-78	<$FB00><$0061>Jessica<$FFF5><$FFF8>… <$FFFB><$FFF6><$FB00><$0062>You<$FFFC>mean the Archmage Jessica<$FFF5><$FFF8>…？<$FFFE>
-79	<$FB00><$0063>Your evil ends<$FFFC>here.<$FFFE>
-80	<$FB00><$006A>I…I… will not<$FFFC>give up！<$FFFE>
+68	<$FB00><$0053>If you need help, more<$FFFC>people is better, right？ I will<$FFFC>help too.<$FFFE>
+69	<$FB00><$0054>Enough idle chatter！<$FFFE>
+70	<$FB00><$0055>Quiet！ First explain how<$FFFC>you became emperor！<$FFFE>
+71	<$FB00><$0056>What nonsense. My family<$FFFC>has royal blood！<$FFFE>
+72	<$FB00><$0057>Is that true, Clarett？<$FFFE>
+73	<$FB00><$0058>I have never heard that.<$FFFE>
+74	<$FB00><$0059>Then listen well！ This goes<$FFFC>back centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded,<$FFFC>Dalsis had a youth named Lance<$FFFC>Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed<$FFFC>Chris, and had Leon<$FFF5><$FFF8>…<$FFFE>
+75	<$FB00><$005C>Stop. Your story already<$FFFC>fails.<$FFFD><$FB00><$005D>Chris wed Ledin of<$FFFC>Baldia. Leon lived about 200<$FFFC>years after them.<$FFFE>
+76	<$FB00><$005E>Silence！ Do not speak as<$FFFC>if you saw it！ Who are you<$FFFC>anyway！？<$FFFE>
+77	<$FB00><$005F>My name is Jessica. I<$FFFC>watch this continent and the<$FFFC>Descendants of Light.<$FFFD><$FB00><$0060>Kalxath servants should know<$FFFC>my name.<$FFFE>
+78	<$FB00><$0061>Jessica<$FFF5><$FFF8>… <$FFFB><$FFF6><$FB00><$0062>You mean the<$FFFC>Archmage Jessica<$FFF5><$FFF8>…？<$FFFE>
+79	<$FB00><$0063>Your evil ends here.<$FFFE>
+80	<$FB00><$006A>I…I… will not give up！<$FFFE>
 81	<$FB00><$006B>Ah, wait！<$FFFE>
 82	L-Lord Gilmore！<$FFFD>…<$FE14>…<$FE14>Tch！ Retreat！<$FFFE>
-83	<$FB00><$006C>There is a<$FFFC>secret passage hidden in the<$FFFC>throne！ He used it！<$FFFE>
+83	<$FB00><$006C>There is a secret passage<$FFFC>hidden in the throne！ He used it！<$FFFE>
 84	<$FB00><$006D>Kh！ He escaped！<$FFFE>
-85	<$FFF8>…<$FFF6><$FB00><$006E>For now,<$FFFC>retaking the castle is enough.<$FFFC>But we must tell Salrath that<$FFFC>Gilmore fled！<$FFFE>
-86	<$FB00><$006F>Right. There is<$FFFC>no need to fight now. We must<$FFFC>stop both armies quickly.<$FFFE>
-87	<$FB00><$0041>Worthless fools！<$FFFC>You let them get this far！<$FFFE>
-88	<$FB00><$0042>Looks like your<$FFFC>time is up, Gilmore！<$FFFE>
+85	<$FFF8>…<$FFF6><$FB00><$006E>For now, retaking the<$FFFC>castle is enough. But we must tell<$FFFC>Salrath that Gilmore fled！<$FFFE>
+86	<$FB00><$006F>Right. There is no need to<$FFFC>fight now. We must stop both armies<$FFFC>quickly.<$FFFE>
+87	<$FB00><$0041>Worthless fools！ You let<$FFFC>them get this far！<$FFFE>
+88	<$FB00><$0042>Looks like your time is<$FFFC>up, Gilmore！<$FFFE>
 89	<$FB00><$0043>Where are the<$FFFC>reinforcements！？<$FFFE>
-90	<$FB00><$0064>Then I will kill<$FFFC>everyone who knows the secret！<$FFFE>
-91	<$FFF8>…<$FFF6><$FB00><$0065>What a sore<$FFFC>loser.<$FFFE>
+90	<$FB00><$0064>Then I will kill everyone<$FFFC>who knows the secret！<$FFFE>
+91	<$FFF8>…<$FFF6><$FB00><$0065>What a sore loser.<$FFFE>
 92	<$FB00><$0044>Reinforcements！？<$FFFE>
-93	<$FB00><$0045>Hold it！ Do not<$FFFC>mistake us, it is us！<$FFFE>
+93	<$FB00><$0045>Hold it！ Do not mistake<$FFFC>us, it is us！<$FFFE>
 94	<$FB00><$0046>B-big brother…<$FFFE>
 95	<$FB00><$0047>Lady Jessica！<$FFFE>
-96	<$FB00><$0048>If you mean<$FFFC>reinforcements coming here, relax.<$FFFC>They are not coming.<$FFFE>
+96	<$FB00><$0048>If you mean reinforcements<$FFFC>coming here, relax. They are not<$FFFC>coming.<$FFFE>
 97	<$FB00><$0049>Then you two<$FFF5><$FFF8>…？<$FFFE>
-98	<$FB00><$004A>I would not<$FFFC>aid one who will not carve<$FFFC>her own future.<$FFFD><$FB00><$004B>But you no<$FFFC>longer depend on others as before.<$FFFD><$FB00><$004C>Now I will lend<$FFFC>my strength.<$FFFE>
-99	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It<$FFFC>is thanks to everyone. They helped<$FFFC>me realize it.<$FFFE>
-100	<$FB00><$004F>But you realized<$FFFC>it yourself. Some people never<$FFFC>understand, no matter what they<$FFFC>are told.<$FFFE>
-101	<$FB00><$0050>I have seen many<$FFFC>great deeds, all done with<$FFFC>trusted allies.<$FFFD><$FB00><$0051>One person's<$FFFC>power is small, but joined powers<$FFFC>move an age.<$FFFE>
+98	<$FB00><$004A>I would not aid one<$FFFC>who will not carve her own<$FFFC>future.<$FFFD><$FB00><$004B>But you no longer depend<$FFFC>on others as before.<$FFFD><$FB00><$004C>Now I will lend my<$FFFC>strength.<$FFFE>
+99	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It is thanks<$FFFC>to everyone. They helped me realize<$FFFC>it.<$FFFE>
+100	<$FB00><$004F>But you realized it<$FFFC>yourself. Some people never<$FFFC>understand, no matter what they are<$FFFC>told.<$FFFE>
+101	<$FB00><$0050>I have seen many great<$FFFC>deeds, all done with trusted<$FFFC>allies.<$FFFD><$FB00><$0051>One person's power is<$FFFC>small, but joined powers move an<$FFFC>age.<$FFFE>
 102	<$FB00><$0052>Yes！<$FFFE>
-103	<$FB00><$0053>If you need<$FFFC>help, more people is better,<$FFFC>right？ I will help too.<$FFFE>
-104	<$FB00><$0054>Enough idle<$FFFC>chatter！<$FFFE>
-105	<$FB00><$0055>Quiet！ First<$FFFC>explain how you became emperor！<$FFFE>
-106	<$FB00><$0056>What nonsense. My<$FFFC>family has royal blood！<$FFFE>
-107	<$FB00><$0057>Is that true,<$FFFC>Clarett？<$FFFE>
-108	<$FB00><$0058>I have never<$FFFC>heard that.<$FFFE>
-109	<$FB00><$0059>Then listen well！<$FFFC>This goes back centuries.<$FFFD><$FB00><$005A>Before Kalxath<$FFFC>was founded, Dalsis had a youth<$FFFC>named Lance Kalxath.<$FFFD><$FB00><$005B>He founded<$FFFC>Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
-110	<$FB00><$005C>Stop. Your story<$FFFC>already fails.<$FFFD><$FB00><$005D>Chris wed Ledin<$FFFC>of Baldia. Leon lived about 200<$FFFC>years after them.<$FFFE>
-111	<$FB00><$005E>Silence！ Do not<$FFFC>speak as if you saw it！ Who<$FFFC>are you anyway！？<$FFFE>
-112	<$FB00><$005F>My name is<$FFFC>Jessica. I watch this continent<$FFFC>and the Descendants of Light.<$FFFD><$FB00><$0060>Kalxath servants<$FFFC>should know my name.<$FFFE>
-113	<$FB00><$0061>Jessica<$FFF5><$FFF8>… <$FFFB><$FFF6><$FB00><$0062>You<$FFFC>mean the Archmage Jessica<$FFF5><$FFF8>…？<$FFFE>
-114	<$FB00><$0063>Your evil ends<$FFFC>here.<$FFFE><$FFFF>
+103	<$FB00><$0053>If you need help, more<$FFFC>people is better, right？ I will<$FFFC>help too.<$FFFE>
+104	<$FB00><$0054>Enough idle chatter！<$FFFE>
+105	<$FB00><$0055>Quiet！ First explain how<$FFFC>you became emperor！<$FFFE>
+106	<$FB00><$0056>What nonsense. My family<$FFFC>has royal blood！<$FFFE>
+107	<$FB00><$0057>Is that true, Clarett？<$FFFE>
+108	<$FB00><$0058>I have never heard that.<$FFFE>
+109	<$FB00><$0059>Then listen well！ This goes<$FFFC>back centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded,<$FFFC>Dalsis had a youth named Lance<$FFFC>Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed<$FFFC>Chris, and had Leon<$FFF5><$FFF8>…<$FFFE>
+110	<$FB00><$005C>Stop. Your story already<$FFFC>fails.<$FFFD><$FB00><$005D>Chris wed Ledin of<$FFFC>Baldia. Leon lived about 200<$FFFC>years after them.<$FFFE>
+111	<$FB00><$005E>Silence！ Do not speak as<$FFFC>if you saw it！ Who are you<$FFFC>anyway！？<$FFFE>
+112	<$FB00><$005F>My name is Jessica. I<$FFFC>watch this continent and the<$FFFC>Descendants of Light.<$FFFD><$FB00><$0060>Kalxath servants should know<$FFFC>my name.<$FFFE>
+113	<$FB00><$0061>Jessica<$FFF5><$FFF8>… <$FFFB><$FFF6><$FB00><$0062>You mean the<$FFFC>Archmage Jessica<$FFF5><$FFF8>…？<$FFFE>
+114	<$FB00><$0063>Your evil ends here.<$FFFE><$FFFF>

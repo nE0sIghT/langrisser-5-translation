@@ -5,46 +5,46 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
+6	Lanford<$FFFF>
 7	Near the sorcery lab<$FFFF>
-8	<$FB00><$0075>Where on<$FFFC>earth are we headed？<$FFFE>
-9	<$FB00><$0076>To the<$FFFC>master. He must hear of this<$FFFC>attack.<$FFFE>
-10	<$FB00><$0077>Right.<$FFFC>Marshal Gizarof, you said.<$FFFE>
+8	<$FB00><$0075>Where on earth are we<$FFFC>headed？<$FFFE>
+9	<$FB00><$0076>To the master. He must<$FFFC>hear of this attack.<$FFFE>
+10	<$FB00><$0077>Right. Marshal Gizarof, you<$FFFC>said.<$FFFE>
 11	<$FB00><$0078>Yes.<$FFFE>
-12	<$FB00><$0079>Meeting<$FFFC>him, we learn why we were made.<$FFFC>And that should tell us why we<$FFFC>were attacked.<$FFFD><$FB00><$007A>Speaking of<$FFFC>which, the one who woke<$FFFC>mid-fight<$FFF5><$FFF8>…<$FFFE>
-13	<$FB00><$007B>That was<$FFFC>Omega. A specimen like you.<$FFFD>Thanks to<$FFFC>his waking we got away with<$FFFC>ease.<$FFFE>
-14	<$FB00><$007C>What's<$FFFC>become of him？ Shouldn't we have<$FFFC>helped him？<$FFFE>
-15	<$FB00><$007D>Go back,<$FFFC>get caught ourselves？ How<$FFFC>stupid. It's better this way.<$FFFD><$FB00><$007E>You too,<$FFFC>if I slow you down, feel free<$FFFC>to run on ahead.<$FFFE>
+12	<$FB00><$0079>Meeting him, we learn why<$FFFC>we were made. And that should tell<$FFFC>us why we were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one<$FFFC>who woke mid-fight<$FFF5><$FFF8>…<$FFFE>
+13	<$FB00><$007B>That was Omega. A specimen<$FFFC>like you.<$FFFD>Thanks to his waking we<$FFFC>got away with ease.<$FFFE>
+14	<$FB00><$007C>What's become of him？<$FFFC>Shouldn't we have helped him？<$FFFE>
+15	<$FB00><$007D>Go back, get caught<$FFFC>ourselves？ How stupid. It's better<$FFFC>this way.<$FFFD><$FB00><$007E>You too, if I slow you<$FFFC>down, feel free to run on ahead.<$FFFE>
 16	・I'll do just that.<$FFFE>
 17	・I'm not that heartless.<$FFFE>
-18	<$FB00><$007F>I'll do<$FFFC>just that.<$FFFE>
-19	<$FB00><$0080>Good. I'd<$FFFC>hate to be a burden.<$FFFE>
-20	<$FB00><$0081>A burden,<$FFFC>huh.<$FFFE>
-21	<$FB00><$0082>I'm not<$FFFC>that heartless.<$FFFE>
-22	<$FB00><$0083>Meaning I<$FFFC>am heartless？<$FFFE>
-23	<$FB00><$0084>Don't<$FFFC>twist my words.<$FFFE>
-24	<$FB00><$0085>We are<$FFFC>made beings. Not like ordinary<$FFFC>people.<$FFFD><$FB00><$0086>Besides, we<$FFFC>haven't even gotten a task from<$FFFC>the master yet. We're of use to<$FFFC>no one.<$FFFD><$FB00><$0087>A tool<$FFFC>that ends unused might as well<$FFFC>never have been made.<$FFFD><$FB00><$0088>I will<$FFFC>fulfill the purpose I was<$FFFC>created for. That is why I<$FFFC>exist.<$FFFE>
-25	<$FB00><$0089>Why we<$FFFC>exist, huh. Why are people born,<$FFFC>what do they live for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe<$FFFC>those who find their own<$FFFC>purpose are happier than those<$FFFC>who just drift along.<$FFFE>
-26	<$FB00><$008B>You<$FFFC>understand, then？<$FFFE>
+18	<$FB00><$007F>I'll do just that.<$FFFE>
+19	<$FB00><$0080>Good. I'd hate to be a<$FFFC>burden.<$FFFE>
+20	<$FB00><$0081>A burden, huh.<$FFFE>
+21	<$FB00><$0082>I'm not that heartless.<$FFFE>
+22	<$FB00><$0083>Meaning I am heartless？<$FFFE>
+23	<$FB00><$0084>Don't twist my words.<$FFFE>
+24	<$FB00><$0085>We are made beings. Not<$FFFC>like ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even<$FFFC>gotten a task from the master yet.<$FFFC>We're of use to no one.<$FFFD><$FB00><$0087>A tool that ends unused<$FFFC>might as well never have been<$FFFC>made.<$FFFD><$FB00><$0088>I will fulfill the<$FFFC>purpose I was created for. That<$FFFC>is why I exist.<$FFFE>
+25	<$FB00><$0089>Why we exist, huh. Why<$FFFC>are people born, what do they live<$FFFC>for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find<$FFFC>their own purpose are happier<$FFFC>than those who just drift along.<$FFFE>
+26	<$FB00><$008B>You understand, then？<$FFFE>
 27	By the way, <$F600><$0000>. Do<$FFFC>you know the basics of battle？<$FFFD>I can teach you from my data.<$FFFE>
 28	Like what？<$FFFE>
 29	The difference between us <$FFF4>leaders<$FFFC><$FFF3>and <$FFF4>mercenaries<$FFF3>, say.<$FFFD>Well？ Remember it？<$FFFE>
 30	・I know it.<$FFFE>
 31	・Remind me, just in case.<$FFFE>
-32	Good. You know the basics,<$FFFC>then.<$FFFE>
-33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries<$FFFC>before you deploy.<$FFFD>How many you can hire depends<$FFFC>on the leader, <$FFF4>up to 6 <$FFF3>under<$FFFC>one command.<$FFFE>
+32	Good. You know the basics, then.<$FFFE>
+33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries before<$FFFC>you deploy.<$FFFD>How many you can hire depends on<$FFFC>the leader, <$FFF4>up to 6 <$FFF3>under one<$FFFC>command.<$FFFE>
 34	Yeah. That much I know.<$FFFE>
-35	Each leader has a <$FFF4>command range<$FFFC><$FFF3>that grants <$FFF4>bonuses <$FFF3>to mercenaries<$FFFC>fighting inside it.<$FFFD>The bonuses are<$FFFC><$FFF4>『A+』『D+』『M+』<$FFF3>, for <$FFF4>attack<$FFFC><$FFF3>, <$FFF4>defense <$FFF3>and <$FFF4>magic resistance<$FFF3>.<$FFFD>Ranges show blue for us, green<$FFFC>for NPCs, red for enemies.<$FFFD>So when mercenaries fight, keep<$FFFC>them inside that range.<$FFFE>
+35	Each leader has a <$FFF4>command range<$FFFC><$FFF3>that grants <$FFF4>bonuses <$FFF3>to mercenaries<$FFFC>fighting inside it.<$FFFD>The bonuses are<$FFFC><$FFF4>『A+』『D+』『M+』<$FFF3>, for <$FFF4>attack<$FFFC><$FFF3>, <$FFF4>defense <$FFF3>and <$FFF4>magic resistance<$FFF3>.<$FFFD>Ranges show blue for us, green<$FFFC>for NPCs, red for enemies.<$FFFD>So when mercenaries fight, keep them<$FFFC>inside that range.<$FFFE>
 36	Command range… I'll keep it in<$FFFC>mind.<$FFFD>And when I give orders, what<$FFFC>should I watch for？<$FFFE>
-37	Orders go out by unit.<$FFFD>Who moves next is set by<$FFFC>whoever in the unit has acted<$FFFC>the most.<$FFFD>If ordering each mercenary is a<$FFFC>chore, use <$FFF4>Cmd. <$FFF3>Mercenaries set<$FFFC>to <$FFF4>Auto <$FFF3>follow it on their own.<$FFFD>Mercenaries also <$FFF4>stock unused<$FFFC>action points for their next<$FFFC>order<$FFF3>.<$FFFD>The unit acts on its lowest<$FFFC>stock, arrows above the action<$FFFC>meter show the amount.<$FFFD>One warning, leaders cannot stock<$FFFC>action points.<$FFFE>
+37	Orders go out by unit.<$FFFD>Who moves next is set by whoever<$FFFC>in the unit has acted the most.<$FFFD>If ordering each mercenary is a<$FFFC>chore, use <$FFF4>Cmd. <$FFF3>Mercenaries set to<$FFFC><$FFF4>Auto <$FFF3>follow it on their own.<$FFFD>Mercenaries also <$FFF4>stock unused action<$FFFC>points for their next order<$FFF3>.<$FFFD>The unit acts on its lowest stock,<$FFFC>arrows above the action meter show<$FFFC>the amount.<$FFFD>One warning, leaders cannot stock<$FFFC>action points.<$FFFE>
 38	So, orders go by unit, and the<$FFFC>next turn follows whoever acted<$FFFC>most.<$FFFD>Use Cmd. to skip ordering each<$FFFC>mercenary, and they carry spare<$FFFC>action points to the next turn.<$FFFE>
 39	Last one. Do you know how to<$FFFC>stall enemies efficiently？<$FFFE>
 40	Bring the <$FFF4>leader's HP to 7 or<$FFFC>less<$FFF3>, right？ I know that much.<$FFFE>
 41	Mercenaries and leaders both have<$FFFC><$FFF4>10 HP at most<$FFF3>.<$FFFD>Healing restores <$FFF4>3 HP and 2<$FFFC>MP<$FFF3>.<$FFFD>Any unit at <$FFF4>7 HP or less <$FFF3>will<$FFFC>try to heal, but <$FFF4>only leaders<$FFFC>have the Heal command<$FFF3>.<$FFFD>Mercenaries can't recover unless<$FFFC>they start the next turn <$FFF4>next to<$FFFC>their leader<$FFF3>.<$FFFD>Turn that around and you can<$FFFC>stall whole units.<$FFFE>
 42	I see. At <$FFF4>7 or less<$FFF3>, a leader<$FFFC>stops to heal.<$FFFD>So wound the leader, and the<$FFFC>whole unit grinds to a halt.<$FFFE>
-43	Exactly. Though rarely, some<$FFFC>leaders won't heal even when<$FFFC>hurt.<$FFFE>
+43	Exactly. Though rarely, some leaders<$FFFC>won't heal even when hurt.<$FFFE>
 44	Got the basic tactics now？<$FFFE>
 45	・Got it<$FFFE>
 46	・Explain once more<$FFFE>
-47	<$FB00><$008C>We'd best<$FFFC>hurry on.<$FFFE>
+47	<$FB00><$008C>We'd best hurry on.<$FFFE>
 48	<$FB00><$008D>Yeah.<$FFFE><$FFFF>

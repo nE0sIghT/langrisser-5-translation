@@ -5,101 +5,101 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
+6	Lanford<$FFFF>
 7	Folk<$FFFF>
-8	Necro Glob<$FFFF>
+8	Glob<$FFFF>
 9	Monster<$FFFF>
 10	・Defeat Necro Glob<$FFFE>
 11	・All villagers defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Noisch Village<$FFFF>
 13	<$FB00><$0063>Who are you？<$FFFE>
-14	<$FFF8><$FB00><$0064>Heh heh heh.<$FFFC><$FFF5><$FFF6><$FB00><$0065>You ask who I am？ <$FFF5><$FFF7><$FB00><$0066>Hih hih<$FFFC>hih！<$FFFE>
-15	<$FB00><$0067>What a creepy<$FFFC>guy<$FFF5><$FFF8>…<$FFFE>
-16	<$FB00><$0068>Creepy？ Good.<$FFFC>This will scare you far more.<$FFFD><$FB00><$0069>Come forth, my<$FFFC>servants！<$FFFE>
+14	<$FFF8><$FB00><$0064>Heh heh heh. <$FFF5><$FFF6><$FB00><$0065>You ask<$FFFC>who I am？ <$FFF5><$FFF7><$FB00><$0066>Hih hih hih！<$FFFE>
+15	<$FB00><$0067>What a creepy guy<$FFF5><$FFF8>…<$FFFE>
+16	<$FB00><$0068>Creepy？ Good. This will<$FFFC>scare you far more.<$FFFD><$FB00><$0069>Come forth, my servants！<$FFFE>
 17	<$FFF7><$FB00><$006A>Kyaaah！<$FFFE>
 18	<$FB00><$006B>No… the dead…<$FFFE>
-19	<$FFF8><$FB00><$006C>Heh heh<$FFFC>heh！<$FFF5><$0000><$FFF6><$FB00><$006D>Well？ They want companions.<$FFFC>Please join them, all of you.<$FFFD><$FFF7><$FB00><$006E>Hih hih hih<$FFFC>hih！<$FFFE>
+19	<$FFF8><$FB00><$006C>Heh heh heh！<$FFF5><$0000><$FFF6><$FB00><$006D>Well？<$FFFC>They want companions. Please join<$FFFC>them, all of you.<$FFFD><$FFF7><$FB00><$006E>Hih hih hih hih！<$FFFE>
 20	<$FB00><$0071>Stop this！<$FFFE>
 21	<$FB00><$0072>Lady Clarett！<$FFFE>
-22	<$FB00><$0073>Tch, Light<$FFFC>heirs<$FFF5><$FFF8>… <$FFF6><$FB00><$0074>I raised dead all over,<$FFFC>yet you came here<$FFF5><$FFF8>…<$FFFE>
-23	<$FB00><$0075>Whatever your<$FFFC>goal, I will not let you harm<$FFFC>my people！<$FFFE>
-24	<$FB00><$0076>My goal is clear,<$FFFC>the demons' wish to rule<$FFFC>mankind<$FFF5><$FFF8>…<$FFFE>
-25	<$FB00><$0077>Then we have even<$FFFC>more reason to stop you！<$FFFE>
+22	<$FB00><$0073>Tch, Light heirs<$FFF5><$FFF8>… <$FFF6><$FB00><$0074>I<$FFFC>raised dead all over, yet you<$FFFC>came here<$FFF5><$FFF8>…<$FFFE>
+23	<$FB00><$0075>Whatever your goal, I<$FFFC>will not let you harm my people！<$FFFE>
+24	<$FB00><$0076>My goal is clear, the<$FFFC>demons' wish to rule mankind<$FFF5><$FFF8>…<$FFFE>
+25	<$FB00><$0077>Then we have even more<$FFFC>reason to stop you！<$FFFE>
 26	<$FFF8>…<$FFF6><$FB00><$0078>That man<$FFF5><$FFF8>…<$FFFE>
-27	<$FB00><$0079>What is it,<$FFFC>Marie？ What about that demon？<$FFFE>
-28	<$FB00><$007A>He is the one.<$FFFC>He framed you <$FFF5><$FFF8>…<$FFFE>
-29	<$FB00><$007B>Framed him<$FFF5><$FFF7>…<$FFF6><$FB00><$007C>Then<$FFFC>the one who killed father<$FFF5><$FFF8>…<$FFFE>
-30	<$FB00><$007D>Yes. He killed<$FFFC>the emperor and controlled his<$FFFC>corpse<$FFF5><$FFF8>…<$FFFE>
-31	<$FB00><$007E>This is one ugly<$FFFC>twist of fate.<$FFFE>
-32	<$FB00><$007F>I will never<$FFFC>forgive him！<$FFFE>
+27	<$FB00><$0079>What is it, Marie？ What<$FFFC>about that demon？<$FFFE>
+28	<$FB00><$007A>He is the one. He framed<$FFFC>you <$FFF5><$FFF8>…<$FFFE>
+29	<$FB00><$007B>Framed him<$FFF5><$FFF7>…<$FFF6><$FB00><$007C>Then the one<$FFFC>who killed father<$FFF5><$FFF8>…<$FFFE>
+30	<$FB00><$007D>Yes. He killed the<$FFFC>emperor and controlled his corpse<$FFF5><$FFF8>…<$FFFE>
+31	<$FB00><$007E>This is one ugly twist<$FFFC>of fate.<$FFFE>
+32	<$FB00><$007F>I will never forgive<$FFFC>him！<$FFFE>
 33	・3 villager units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
-34	<$FB00><$0083>I will guard<$FFFC>the church. I can use simple<$FFFC>healing magic.<$FFFE>
-35	<$FB00><$0084>We are counting<$FFFC>on you！<$FFFE>
-36	<$FB00><$0080>Whew, we should<$FFFC>be safe here.<$FFFE>
-37	<$FB00><$0081>Do your best,<$FFFC>dear！<$FFFE>
-38	<$FB00><$0082>Leave it to me！<$FFFC>I will protect you！<$FFFE>
+34	<$FB00><$0083>I will guard the<$FFFC>church. I can use simple healing<$FFFC>magic.<$FFFE>
+35	<$FB00><$0084>We are counting on you！<$FFFE>
+36	<$FB00><$0080>Whew, we should be safe<$FFFC>here.<$FFFE>
+37	<$FB00><$0081>Do your best, dear！<$FFFE>
+38	<$FB00><$0082>Leave it to me！ I will<$FFFC>protect you！<$FFFE>
 39	Hah！ They have reached the<$FFFC>church…<$FFFE>
 40	Damn, we have to hurry！<$FFFE>
-41	<$FB00><$008B>You are the<$FFFC>one who killed father！<$FFFE>
-42	<$FB00><$008C>I know nothing<$FFFC>of your father.<$FFFE>
-43	<$FB00><$008D>Do not lie. We<$FFFC>know you killed the emperor and<$FFFC>framed him！<$FFFE>
-44	<$FB00><$008E>Confess！ Why<$FFFC>did you frame me？<$FFFE>
-45	<$FB00><$008F>You are<$FFF5><$FFF8>…<$FFF6><$FB00><$0090>You<$FFFC>died in Yeless. Why live？ And<$FFFC>I killed every witness<$FFF5><$FFF8>…<$FFFE>
-46	<$FB00><$0091>So you really<$FFFC>are the culprit <$FFF5><$FFF8>…<$FFFE>
-47	<$FB00><$0092>How you learned<$FFFC>it does not matter.<$FFFD><$FB00><$0093>Yes. I, Necro<$FFFC>Glob, used the emperor's corpse<$FFFC>to frame you.<$FFFE>
-48	<$FB00><$0094>Why did you<$FFFC>frame me？<$FFFE>
-49	<$FB00><$0095>I told you.<$FFFC>Demons seek rule. We cursed humans<$FFFC>many times and failed.<$FFFD><$FB00><$0096>Why？ <$FFF5><$FFFB><$FB00><$0097>Light<$FFFC>heirs like you stopped us.<$FFFE>
-50	<$FB00><$0098>Descendants of<$FFFC>Light？<$FFFE>
-51	<$FB00><$0099>Kalxath royal<$FFFC>blood, Elthlead's line. It draws<$FFFC>Langrisser's power and seals<$FFFC>demons.<$FFFE>
-52	<$FB00><$009A>Yes. Langrisser<$FFFC>and Light heirs are hated by<$FFFC>demons.<$FFFD><$FB00><$009B>When it was<$FFFC>lost, I had to kill them. I<$FFFC>cursed Kalxath, their strongest<$FFFC>bloodline.<$FFFE>
-53	<$FB00><$009C>You were from a<$FFFC>ducal house. Royal blood too.<$FFFE>
-54	<$FB00><$009D>I am also one<$FFFC>of them<$FFF5><$FFF8>… <$FFF6><$FB00><$009E>That is why I was<$FFFC>cursed<$FFF5><$FFF8>…<$FFFE>
-55	<$FB00><$009F>I expected you<$FFFC>to kill each other. It went well.<$FFFD><$FB00><$00A0>No matter.<$FFFC>Gilmore weakened mankind and made<$FFFC>corpses.<$FFFD><$FB00><$00A1>And Langrisser is<$FFFC>ours.<$FFFE>
+41	<$FB00><$008B>You are the one who<$FFFC>killed father！<$FFFE>
+42	<$FB00><$008C>I know nothing of your<$FFFC>father.<$FFFE>
+43	<$FB00><$008D>Do not lie. We know you<$FFFC>killed the emperor and framed<$FFFC>him！<$FFFE>
+44	<$FB00><$008E>Confess！ Why did you<$FFFC>frame me？<$FFFE>
+45	<$FB00><$008F>You are<$FFF5><$FFF8>…<$FFF6><$FB00><$0090>You died in<$FFFC>Yeless. Why live？ And I killed<$FFFC>every witness<$FFF5><$FFF8>…<$FFFE>
+46	<$FB00><$0091>So you really are the<$FFFC>culprit <$FFF5><$FFF8>…<$FFFE>
+47	<$FB00><$0092>How you learned it does<$FFFC>not matter.<$FFFD><$FB00><$0093>Yes. I, Necro Glob, used<$FFFC>the emperor's corpse to frame you.<$FFFE>
+48	<$FB00><$0094>Why did you frame me？<$FFFE>
+49	<$FB00><$0095>I told you. Demons seek<$FFFC>rule. We cursed humans many times<$FFFC>and failed.<$FFFD><$FB00><$0096>Why？ <$FFF5><$FFFB><$FB00><$0097>Light heirs like<$FFFC>you stopped us.<$FFFE>
+50	<$FB00><$0098>Descendants of Light？<$FFFE>
+51	<$FB00><$0099>Kalxath royal blood,<$FFFC>Elthlead's line. It draws<$FFFC>Langrisser's power and seals<$FFFC>demons.<$FFFE>
+52	<$FB00><$009A>Yes. Langrisser and Light<$FFFC>heirs are hated by demons.<$FFFD><$FB00><$009B>When it was lost, I<$FFFC>had to kill them. I cursed<$FFFC>Kalxath, their strongest bloodline.<$FFFE>
+53	<$FB00><$009C>You were from a ducal<$FFFC>house. Royal blood too.<$FFFE>
+54	<$FB00><$009D>I am also one of them<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$009E>That is why I was cursed<$FFF5><$FFF8>…<$FFFE>
+55	<$FB00><$009F>I expected you to kill<$FFFC>each other. It went well.<$FFFD><$FB00><$00A0>No matter. Gilmore<$FFFC>weakened mankind and made corpses.<$FFFD><$FB00><$00A1>And Langrisser is ours.<$FFFE>
 56	A paper lies below the goddess<$FFFC>statue.<$FFFD><$0000> <$FFF4>Challengers wanted！！<$FFF3><$FFFD>It is a flyer for Pondbag's<$FFFC><$FFF4>Umagee<$FFF3>.<$FFFE>
 57	<$0000> Obtained the <$FFF4>Umagee<$FFF3> flyer！！<$FFFE>
-58	<$FB00><$00A2>Glob！ I will<$FFFC>defeat you myself！ Without you,<$FFFC>El Sallia would not be in<$FFFC>chaos！<$FFFE>
-59	<$FB00><$00A3>Thanks to me,<$FFFC>you are revolution heroes.<$FFFD><$FB00><$00A4>And do not<$FFFC>forget, the royals there executed<$FFFC>the innocent Egils.<$FFFE>
-60	<$FB00><$00A5>Do not toy with<$FFFC>me！ You caused it all！<$FFFE>
-61	<$FB00><$00A6>True, but fools<$FFFC>who are fooled are at fault<$FFFC>too. <$FFF5><$FFF8><$FFF7><$FB00><$00A7>Hih hih hih <$FFF5><$FFF8>…<$FFFE>
-62	<$FB00><$00BD>Prepare yourself,<$FFFC>Glob！<$FFFE>
-63	<$FB00><$00BE>I will return<$FFFC>the favor.<$FFFE>
+58	<$FB00><$00A2>Glob！ I will defeat you<$FFFC>myself！ Without you, El Sallia<$FFFC>would not be in chaos！<$FFFE>
+59	<$FB00><$00A3>Thanks to me, you are<$FFFC>revolution heroes.<$FFFD><$FB00><$00A4>And do not forget, the<$FFFC>royals there executed the innocent<$FFFC>Egils.<$FFFE>
+60	<$FB00><$00A5>Do not toy with me！<$FFFC>You caused it all！<$FFFE>
+61	<$FB00><$00A6>True, but fools who<$FFFC>are fooled are at fault too. <$FFF5><$FFF8><$FFF7><$FB00><$00A7>Hih<$FFFC>hih hih <$FFF5><$FFF8>…<$FFFE>
+62	<$FB00><$00BD>Prepare yourself, Glob！<$FFFE>
+63	<$FB00><$00BE>I will return the favor.<$FFFE>
 64	<$FB00><$002C>Take this！<$FFFE>
-65	<$FB00><$002F>If only I had<$FFFC>more strength…<$FFFE>
+65	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
 66	<$FB00><$0046>Let's go.<$FFFE>
-67	<$FB00><$0047>Come if you<$FFFC>dare.<$FFFE>
+67	<$FB00><$0047>Come if you dare.<$FFFE>
 68	<$FB00><$004B>No… I lost…<$FFFE>
-69	<$FB00><$004C>Marie, leave this<$FFFC>to us and fall back！<$FFFE>
+69	<$FB00><$004C>Marie, leave this to us<$FFFC>and fall back！<$FFFE>
 70	…<$FB00><$004D>Sorry…<$FFFE>
-71	<$FB00><$0076>I will not<$FFFC>lose！<$FFFE>
-72	<$FB00><$0080>You all right,<$FFFC>Alfred？<$FFFE>
-73	<$FB00><$0081>Sorry…the rest<$FFFC>is up to you…<$FFFE>
-74	<$FB00><$0082>Yeah, leave it<$FFFC>to us！<$FFFE>
+71	<$FB00><$0076>I will not lose！<$FFFE>
+72	<$FB00><$0080>You all right, Alfred？<$FFFE>
+73	<$FB00><$0081>Sorry…the rest is up to<$FFFC>you…<$FFFE>
+74	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
 75	<$FB00><$0063>Try this one！<$FFFE>
 76	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
-77	<$FB00><$006C>Brenda！ Are you<$FFFC>all right！？<$FFFE>
-78	<$FB00><$006D>I am fine…I<$FFFC>can still fight…<$FFFE>
-79	<$FB00><$006E>Fall back,<$FFFC>Brenda！ Do not push it！<$FFFE>
-80	<$FB00><$006F>…I will. I do<$FFFC>not want to drag you down…<$FFFE>
-81	<$FB00><$00A8>You were the<$FFFC>one who incited Gilmore！<$FFFE>
-82	<$FB00><$00A9>Who can say？<$FFFC>Still, you left rule to an<$FFFC>ambitious minister.<$FFFE>
+77	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
+78	<$FB00><$006D>I am fine…I can still<$FFFC>fight…<$FFFE>
+79	<$FB00><$006E>Fall back, Brenda！ Do<$FFFC>not push it！<$FFFE>
+80	<$FB00><$006F>…I will. I do not<$FFFC>want to drag you down…<$FFFE>
+81	<$FB00><$00A8>You were the one who<$FFFC>incited Gilmore！<$FFFE>
+82	<$FB00><$00A9>Who can say？ Still,<$FFFC>you left rule to an ambitious<$FFFC>minister.<$FFFE>
 83	<$FFF8><$FB00><$00AA>Kh…<$FFFE>
-84	<$FB00><$00BF>I will avenge<$FFFC>father！<$FFFE>
-85	<$FB00><$00C0>I know your<$FFFC>grief.<$FFFD><$FB00><$00C1>I wished to show<$FFFC>you his corpse, but he was<$FFFC>cremated. A pity.<$FFFE>
-86	<$FB00><$00C2>I will silence<$FFFC>that mouth forever！<$FFFE>
-87	<$FB00><$0051>I will show you<$FFFC>my power！<$FFFE>
-88	<$FB00><$0056>Sorry, I am<$FFFC>falling back first…<$FFFE>
-89	<$FB00><$006F>Everyone into the<$FFFC>church！ This is our country. We<$FFFC>will protect it！<$FFFE>
-90	<$FB00><$0070>Stubborn to the<$FFFC>end<$FFF5><$FFF8>…<$FFFE>
-91	<$FB00><$0085>Lushiris, goddess<$FFFC>of light. Lend me power to repel<$FFFC>evil.<$FFFE>
-92	Lady Lushiris… protect our<$FFFC>world…<$FFFE>
-93	<$FB00><$0087>I will fight<$FFFC>too！ I cannot fight directly,<$FFFC>but I can support with magic！<$FFFE>
-94	<$FB00><$0088>Yes. We are not<$FFFC>who we used to be. We will not<$FFFC>run！<$FFFE>
+84	<$FB00><$00BF>I will avenge father！<$FFFE>
+85	<$FB00><$00C0>I know your grief.<$FFFD><$FB00><$00C1>I wished to show you<$FFFC>his corpse, but he was cremated.<$FFFC>A pity.<$FFFE>
+86	<$FB00><$00C2>I will silence that<$FFFC>mouth forever！<$FFFE>
+87	<$FB00><$0051>I will show you my<$FFFC>power！<$FFFE>
+88	<$FB00><$0056>Sorry, I am falling back<$FFFC>first…<$FFFE>
+89	<$FB00><$006F>Everyone into the church！<$FFFC>This is our country. We will<$FFFC>protect it！<$FFFE>
+90	<$FB00><$0070>Stubborn to the end<$FFF5><$FFF8>…<$FFFE>
+91	<$FB00><$0085>Lushiris, goddess of<$FFFC>light. Lend me power to repel<$FFFC>evil.<$FFFE>
+92	Lady Lushiris… protect our world…<$FFFE>
+93	<$FB00><$0087>I will fight too！ I<$FFFC>cannot fight directly, but I can<$FFFC>support with magic！<$FFFE>
+94	<$FB00><$0088>Yes. We are not who we<$FFFC>used to be. We will not run！<$FFFE>
 95	…I cannot… go on…<$FFFE>
-96	<$FB00><$0087>I will fight<$FFFC>too！ I cannot fight directly,<$FFFC>but I can support with magic！<$FFFE>
-97	<$FB00><$0088>Yes. We are not<$FFFC>who we used to be. We will not<$FFFC>run！<$FFFE>
+96	<$FB00><$0087>I will fight too！ I<$FFFC>cannot fight directly, but I can<$FFFC>support with magic！<$FFFE>
+97	<$FB00><$0088>Yes. We are not who we<$FFFC>used to be. We will not run！<$FFFE>
 98	…No… dear…<$FFFE>
 99	Y, Yumi！ You killed Yumi！<$FFFE>
-100	<$FB00><$0086>Come on, if you<$FFFC>dare！<$FFFE>
+100	<$FB00><$0086>Come on, if you dare！<$FFFE>
 101	S, sorry… Yumi…<$FFFE>
 102	Kyaaah！ Nooo…！<$FFFE>
 103	GOOOOO…<$FFFE>
@@ -110,27 +110,27 @@
 108	GUGOOO！<$FFFE>
 109	GOOOOO…<$FFFE>
 110	GUGOOO！<$FFFE>
-111	<$FB00><$0089>Then I will use<$FFFC>every corpse in this village to<$FFFC>kill them！<$FFFE>
-112	<$FB00><$008A>You stole my<$FFFC>amusement. I cannot forgive that.<$FFFE>
-113	<$FB00><$00BC>I do more than<$FFFC>control the dead！<$FFFE>
+111	<$FB00><$0089>Then I will use every<$FFFC>corpse in this village to kill<$FFFC>them！<$FFFE>
+112	<$FB00><$008A>You stole my amusement.<$FFFC>I cannot forgive that.<$FFFE>
+113	<$FB00><$00BC>I do more than control<$FFFC>the dead！<$FFFE>
 114	<$FB00><$00C3>Too much corpse<$FFFC>summoning… We settle this later！<$FFFE>
-115	<$FB00><$00C4>At least he runs<$FFFC>fast<$FFF5><$FFF8>…<$FFFE>
-116	<$FB00><$00C5>Is everyone all<$FFFC>right？<$FFFE>
-117	<$FB00><$00C6>Yes. We are all<$FFFC>right.<$FFFE>
-118	<$FB00><$00C7>You saved us.<$FFFC>We might have failed on our own.<$FFFE>
-119	<$FB00><$00C8>No need to be<$FFFC>modest. You protected this<$FFFC>village yourselves.<$FFFE>
-120	<$FB00><$00C9>That is right. We<$FFFC>only helped.<$FFFE>
-121	<$FB00><$00CA>Lady Clarett<$FFFC>taught us to protect this country<$FFFC>ourselves.<$FFFE>
+115	<$FB00><$00C4>At least he runs fast<$FFF5><$FFF8>…<$FFFE>
+116	<$FB00><$00C5>Is everyone all right？<$FFFE>
+117	<$FB00><$00C6>Yes. We are all right.<$FFFE>
+118	<$FB00><$00C7>You saved us. We might<$FFFC>have failed on our own.<$FFFE>
+119	<$FB00><$00C8>No need to be modest.<$FFFC>You protected this village<$FFFC>yourselves.<$FFFE>
+120	<$FB00><$00C9>That is right. We only<$FFFC>helped.<$FFFE>
+121	<$FB00><$00CA>Lady Clarett taught us to<$FFFC>protect this country ourselves.<$FFFE>
 122	<$FB00><$00CB>No…<$FFFE>
-123	<$FB00><$00CC>Thank you, truly.<$FFFC>Please accept this small token.<$FFFE>
+123	<$FB00><$00CC>Thank you, truly. Please<$FFFC>accept this small token.<$FFFE>
 124	<$0000> Received <$FFF4>Mithril Sword<$FFF3>！<$FFFE>
-125	<$FB00><$00CD>Thank you. We<$FFFC>will use it well.<$FFFE>
-126	<$FB00><$00CE>There was some<$FFFC>damage, but at least the<$FFFC>village was not destroyed.<$FFFE>
-127	<$FB00><$00CF>With more<$FFFC>strength, I could have protected<$FFFC>them all unharmed.<$FFFE>
-128	<$FB00><$00D0>Do not be so<$FFFC>hard on yourself, Clarett. You<$FFFC>fought well.<$FFFE>
-129	<$FB00><$00D1>Thank you,<$FFFC>Alfred.<$FFFE>
-130	<$FB00><$00D2>Right. We have no<$FFFC>time to brood here.<$FFFE>
-131	<$FB00><$00D3>The revolution is<$FFFC>almost won. We will not let<$FFFC>demons interfere！<$FFFE>
+125	<$FB00><$00CD>Thank you. We will use<$FFFC>it well.<$FFFE>
+126	<$FB00><$00CE>There was some damage,<$FFFC>but at least the village was<$FFFC>not destroyed.<$FFFE>
+127	<$FB00><$00CF>With more strength, I<$FFFC>could have protected them all<$FFFC>unharmed.<$FFFE>
+128	<$FB00><$00D0>Do not be so hard on<$FFFC>yourself, Clarett. You fought well.<$FFFE>
+129	<$FB00><$00D1>Thank you, Alfred.<$FFFE>
+130	<$FB00><$00D2>Right. We have no time to<$FFFC>brood here.<$FFFE>
+131	<$FB00><$00D3>The revolution is almost<$FFFC>won. We will not let demons<$FFFC>interfere！<$FFFE>
 132	Exactly！ First father, and now<$FFFC>even the dead of this village！！<$FFFE>
 133	No kidding.<$FFFE>
 134	I need to blow off steam, or I<$FFFC>will lose my mind！<$FFFE>
@@ -138,22 +138,22 @@
 136	<$FFFA>Pondbag<$FFF8>… <$FFFB><$FFF9><$FFF6>Great, let us go！！<$FFFD>A little detour will not hurt！<$FFFE>
 137	An amusement hall？ Nice.<$FFFD>In Yeless, I often slipped out<$FFFC>to play with my brother…<$FFFE>
 138	Then it is settled！ To Pondbag！<$FFFE>
-139	<$FB00><$00D5>First, we deal<$FFFC>with the demons. We cannot reform<$FFFC>in peace like this.<$FFFE>
-140	<$FB00><$00D6>Let us return to<$FFFC>the castle. We will ask Jessica<$FFFC>and plan.<$FFFE>
-141	<$FB00><$002F>If only I had<$FFFC>more strength…<$FFFE>
-142	<$FB00><$002F>If only I had<$FFFC>more strength…<$FFFE>
-143	No more losses！ Protect the<$FFFC>villagers with everything you<$FFFC>have！<$FFFE>
-144	<$FB00><$00AC>Come, dead ones！<$FFFC>Necro Glob grants you life<$FFFC>again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFE>
-145	<$FB00><$00AE>The corpses<$FFFC>are<$FFF5><$FFF7>…！<$FFF8><$FFFE>
+139	<$FB00><$00D5>First, we deal with the<$FFFC>demons. We cannot reform in peace<$FFFC>like this.<$FFFE>
+140	<$FB00><$00D6>Let us return to the<$FFFC>castle. We will ask Jessica and<$FFFC>plan.<$FFFE>
+141	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
+142	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
+143	No more losses！ Protect the<$FFFC>villagers with everything you have！<$FFFE>
+144	<$FB00><$00AC>Come, dead ones！ Necro<$FFFC>Glob grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFE>
+145	<$FB00><$00AE>The corpses are<$FFF5><$FFF7>…！<$FFF8><$FFFE>
 146	<$FB00><$00AF>How awful<$FFF5><$FFF8>…<$FFFE>
-147	<$FFF7><$FB00><$00B0>Hih hih hih！<$FFFC><$FFF5><$FFF6><$FB00><$00B1>There are still plenty of<$FFFC>corpses！<$FFFE>
-148	<$FB00><$00AB>Not done yet！<$FFFD><$FB00><$00AC>Come, dead ones！<$FFFC>Necro Glob grants you life<$FFFC>again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFE>
-149	<$FFF7><$FB00><$00B0>Hih hih hih！<$FFFC><$FFF5><$FFF6><$FB00><$00B1>There are still plenty of<$FFFC>corpses！<$FFFE>
-150	<$FB00><$00B2>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFD><$FFF8>…<$FE1E>…<$FE1E><$FB00><$00B3>Hm, what is<$FFFC>this<$FFF5><$FFF7>…<$FE1E>…<$FE1E>？<$FFFE>
-151	<$FB00><$00B4>Something is<$FFFC>wrong？<$FFFE>
-152	<$FB00><$00B5>Something seems<$FFFC>wrong？<$FFFE>
-153	<$FB00><$00B6>Something is<$FFFC>wrong？<$FFFE>
-154	<$FB00><$00B7>Something is<$FFFC>wrong？<$FFFE>
+147	<$FFF7><$FB00><$00B0>Hih hih hih！ <$FFF5><$FFF6><$FB00><$00B1>There<$FFFC>are still plenty of corpses！<$FFFE>
+148	<$FB00><$00AB>Not done yet！<$FFFD><$FB00><$00AC>Come, dead ones！ Necro<$FFFC>Glob grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFE>
+149	<$FFF7><$FB00><$00B0>Hih hih hih！ <$FFF5><$FFF6><$FB00><$00B1>There<$FFFC>are still plenty of corpses！<$FFFE>
+150	<$FB00><$00B2>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFD><$FFF8>…<$FE1E>…<$FE1E><$FB00><$00B3>Hm, what is this<$FFF5><$FFF7>…<$FE1E>…<$FE1E>？<$FFFE>
+151	<$FB00><$00B4>Something is wrong？<$FFFE>
+152	<$FB00><$00B5>Something seems wrong？<$FFFE>
+153	<$FB00><$00B6>Something is wrong？<$FFFE>
+154	<$FB00><$00B7>Something is wrong？<$FFFE>
 155	<$FB00><$00B8>Now what？<$FFFE>
-156	<$FFF8><$FB00><$00B9>Hmmm…！ <$FFF5><$FFF6><$FB00><$00BA>No more<$FFFC>corpses to revive！<$FFF5><$FFF7><$FFFE>
-157	<$FB00><$00BB>He is out of<$FFFC>corpses. These are the last.<$FFFE><$FFFF>
+156	<$FFF8><$FB00><$00B9>Hmmm…！ <$FFF5><$FFF6><$FB00><$00BA>No more corpses<$FFFC>to revive！<$FFF5><$FFF7><$FFFE>
+157	<$FB00><$00BB>He is out of corpses.<$FFFC>These are the last.<$FFFE><$FFFF>

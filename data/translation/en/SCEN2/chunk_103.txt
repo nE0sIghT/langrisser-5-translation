@@ -3,23 +3,23 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Kalxath cmd.<$FFFF>
-8	Kalxath off.<$FFFF>
-9	Duke Lenard<$FFFF>
-10	Salrath man<$FFFF>
+6	Lanford<$FFFF>
+7	Commander<$FFFF>
+8	Officer<$FFFF>
+9	Lenard<$FFFF>
+10	Soldier<$FFFF>
 11	Kalxath Army Camp<$FFFF>
 12	<$FB00><$004E>Status？<$FFFE>
-13	<$FB00><$004F>We still have<$FFFC>the edge. But they stay<$FFFC>defensive, so gains are limited.<$FFFE>
-14	<$FB00><$0050>Hmph！ Adding<$FFFC>peasants who know nothing of<$FFFC>battle only slows them down.<$FFFD><$FB00><$0051>Do not stop<$FFFC>attacking. A breach will open<$FFFC>sooner or later.<$FFFE>
+13	<$FB00><$004F>We still have the edge.<$FFFC>But they stay defensive, so gains<$FFFC>are limited.<$FFFE>
+14	<$FB00><$0050>Hmph！ Adding peasants who<$FFFC>know nothing of battle only slows<$FFFC>them down.<$FFFD><$FB00><$0051>Do not stop attacking. A<$FFFC>breach will open sooner or later.<$FFFE>
 15	<$FFF7><$FB00><$0052>Yes sir！<$FFF5><$FFF8><$FFFE>
 16	Salrath camp<$FFFF>
-17	<$FB00><$0053>Report current<$FFFC>losses！<$FFFE>
-18	<$FB00><$0054>Reporting. Our<$FFFC>losses are half the estimate,<$FFFC>and we can keep defending for<$FFFC>about one day.<$FFFD><$FB00><$0055>But morale is<$FFFC>a concern, so whether we can<$FFFC>hold this state is uncertain.<$FFFE>
-19	<$FB00><$0056>Yes, that may<$FFFC>be so.<$FFFE>
-20	<$FB00><$0057>Why make<$FFFC>peasants fight instead of<$FFFC>supporting？<$FFFD>If we acted<$FFFC>alone, we would have more options.<$FFFE>
-21	<$FB00><$0058>True. With<$FFFC>fewer troops and guerrilla<$FFFC>tactics, we could wear down the<$FFFC>enemy.<$FFFD><$FB00><$0059>But this is no<$FFFC>ordinary battle. It is a<$FFFC>revolution.<$FFFD><$FB00><$005A>It must be a<$FFFC>victory won by the people, not<$FFFC>by soldiers alone.<$FFFE>
-22	<$FB00><$005B>So that is why<$FFFC>you mixed in the peasants？<$FFFE>
-23	<$FB00><$005C>Yes. So we must<$FFFC>protect them and avoid deaths.<$FFFD><$FB00><$005D>Our role is to<$FFFC>draw Kalxath troops here so<$FFFC>Clarett can enter.<$FFFD>We need not<$FFFC>defeat them.<$FFFE>
-24	<$FB00><$005E>I understand.<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Yes. The soldiers we fight now<$FFFC>merely obey Gilmore.<$FFFD><$FB00><$0060>If they will be<$FFFC>future allies, we should avoid<$FFFC>hurting them.<$FFFE>
-25	<$FB00><$0061>Exactly. Keep<$FFFC>defending a little longer. During<$FFFC>that time, Princess Clarett will<$FFFC>surely defeat Gilmore.<$FFFE>
+17	<$FB00><$0053>Report current losses！<$FFFE>
+18	<$FB00><$0054>Reporting. Our losses are<$FFFC>half the estimate, and we can<$FFFC>keep defending for about one day.<$FFFD><$FB00><$0055>But morale is a concern,<$FFFC>so whether we can hold this state<$FFFC>is uncertain.<$FFFE>
+19	<$FB00><$0056>Yes, that may be so.<$FFFE>
+20	<$FB00><$0057>Why make peasants fight<$FFFC>instead of supporting？<$FFFD>If we acted alone, we<$FFFC>would have more options.<$FFFE>
+21	<$FB00><$0058>True. With fewer troops<$FFFC>and guerrilla tactics, we could<$FFFC>wear down the enemy.<$FFFD><$FB00><$0059>But this is no ordinary<$FFFC>battle. It is a revolution.<$FFFD><$FB00><$005A>It must be a victory<$FFFC>won by the people, not by<$FFFC>soldiers alone.<$FFFE>
+22	<$FB00><$005B>So that is why you<$FFFC>mixed in the peasants？<$FFFE>
+23	<$FB00><$005C>Yes. So we must protect<$FFFC>them and avoid deaths.<$FFFD><$FB00><$005D>Our role is to draw<$FFFC>Kalxath troops here so Clarett can<$FFFC>enter.<$FFFD>We need not defeat them.<$FFFE>
+24	<$FB00><$005E>I understand. <$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Yes. The<$FFFC>soldiers we fight now merely obey<$FFFC>Gilmore.<$FFFD><$FB00><$0060>If they will be future<$FFFC>allies, we should avoid hurting<$FFFC>them.<$FFFE>
+25	<$FB00><$0061>Exactly. Keep defending a<$FFFC>little longer. During that time,<$FFFC>Princess Clarett will surely defeat<$FFFC>Gilmore.<$FFFE>

@@ -10,10 +10,18 @@ stay exactly where they are.
 
 The player-name macro <$F600><$0000> counts as NAME_CELLS (the name entry
 screen allows 8 native glyphs — measured in-game); explicit printable
-tags such as the <$0000> indent space count as one cell. Both windows
-that auto-wrap (dialogue and narration/briefing) are 21 cells wide
-(measured in-game with a ruler build). Chunk-specific overrides handle
-wider special windows such as the startup quiz.
+tags such as the <$0000> indent space count as one cell. All windows
+that auto-wrap (dialogue, narration/briefing, quiz) are 21 cells wide
+(measured in-game with a ruler build).
+
+The engine draws the speaker name plate inline at the start of the
+window, so plated lines are shorter by the plate width. The exact
+speaker of a line is VM runtime state and is not statically resolvable
+(see docs/SPEAKER_NAME_EXTRACTION.md), so the reserve is the widest
+plate in the chunk's speaker pool. The pool size comes from the chunk
+VM header (+0x38) in the original SCEN.DAT, which excludes location
+plates; speaker plate names are kept short (<= 5 cells) so the bound
+stays tight.
 
 Choice records (text starting with ・) are kept single-line and reported
 if they exceed the width.
@@ -22,18 +30,19 @@ import argparse
 import re
 from pathlib import Path
 
-from lang5_scen import TAG_RE, Codec, consumes_argument, load_charmap_tbl
+from lang5_scen import TAG_RE, Codec, consumes_argument, find_text_block, \
+    load_charmap_tbl, read_chunk_spans
+from lang5_speakers import u32, vm_block
 
 LINE_BREAK = "<$FFFC>"
 PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
 PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
-# Chunks whose text box uses the whole measured width. The speaker binding is
-# VM state, not a text token; do not use hand-written speaker maps here.
-RESERVE_OVERRIDE = {0: 0, 45: 0}
-# Chunk 0 uses the wider quiz/operator window, not the standard dialogue box.
-WIDTH_OVERRIDE = {0: 26, 45: 21}
+# Chunks whose dialogue window keeps the speaker plate across records that
+# carry no FB00 marker of their own (the quiz Operator window: record 199
+# engine-broke at exactly 21 minus the plate width in-game).
+ALWAYS_PLATED = {0}
 
 
 def cells(codec: Codec, text: str) -> int:
@@ -155,23 +164,54 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
     return "".join(out)
 
 
-def reflow_record(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
+def reflow_record(codec: Codec, text: str, width: int, reserve: int = 0,
+                  force_plate: bool = False) -> str:
     # The plate reserve only applies to spoken records; narration windows
-    # have no name plate.
-    if "<$FB" not in text:
+    # have no name plate. Some windows keep the previous speaker's plate
+    # on records without their own FB00 marker (force_plate).
+    if "<$FB" not in text and not force_plate:
         reserve = 0
     return wrap_stream(codec, text, width, reserve)
 
 
-def plate_reserve(codec: Codec, records: list[tuple[str, str]]) -> int:
-    """Worst-case speaker plate width for a chunk: the FFFF-terminated
-    name records that precede the first FFFE objective record, plus one
-    cell for the bracket the engine draws after the name. (The speaker of
-    a given line is bound in the chunk's VM bytecode, not in the text, so
-    the widest plate is the safe bound.)"""
+def speaker_pool_sizes(scen_path: Path) -> dict[int, int]:
+    """Speaker-name pool size per chunk from the original SCEN.DAT.
+
+    The chunk VM header word +0x38 counts the FFFF-terminated speaker
+    plates at the head of the record list. Location plates and scene
+    captions that follow the pool are not counted (verified against all
+    131 chunks), so this is the exact set of names the engine can draw
+    inline in the dialogue window."""
+    sizes: dict[int, int] = {}
+    data = scen_path.read_bytes()
+    for ci, (start, end) in enumerate(read_chunk_spans(data)):
+        chunk = data[start:end]
+        try:
+            block = find_text_block(chunk)
+        except Exception:
+            continue
+        if not block or not block.record_count:
+            continue
+        off, _vm, _stream = vm_block(chunk, block)
+        if off:
+            sizes[ci] = u32(chunk, off + 0x38)
+    return sizes
+
+
+def plate_reserve(codec: Codec, records: list[tuple[str, str]],
+                  pool_size: int | None = None) -> int:
+    """Worst-case speaker plate width for a chunk, plus one cell for the
+    bracket the engine draws after the name. (The speaker of a given line
+    is bound by VM runtime state, so the widest pool plate is the safe
+    bound.) With a known pool size, exactly the first pool_size records
+    are the speaker plates; without one, fall back to the FFFF-terminated
+    records before the first FFFE objective record."""
     widest = 0
-    for _idx, text in records:
-        if text.endswith("<$FFFE>"):
+    for idx, text in records:
+        if pool_size is not None:
+            if not idx.isdigit() or int(idx) > pool_size:
+                break
+        elif text.endswith("<$FFFE>"):
             break
         if text.endswith("<$FFFF>"):
             widest = max(widest, visible_cells(codec, text[: -len("<$FFFF>")]))
@@ -208,22 +248,29 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--en-dump", default="data/translation/en")
     ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
-    ap.add_argument("--width", type=int, default=20)
-    ap.add_argument("--choice-width", type=int, default=20)
+    ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
+    ap.add_argument("--width", type=int, default=21)
+    ap.add_argument("--choice-width", type=int, default=21)
     # The JP script routinely shows 4-line pages after engine wrap (594 of
     # them; 5-line pages exist but are rare), so 4 is the safe page height.
     ap.add_argument("--max-lines", type=int, default=4)
     args = ap.parse_args()
 
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
+    scen_path = Path(args.scen)
+    pool_sizes = speaker_pool_sizes(scen_path) if scen_path.exists() else {}
+    if not pool_sizes:
+        print(f"WARNING: {args.scen} not found; falling back to the FFFF-prefix "
+              "plate heuristic (location plates may inflate the reserve)")
     for fp in sorted(Path(args.en_dump).glob("*/chunk_*.txt")):
         records = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
                 records.append(tuple(raw.split("\t", 1)))
         chunk_idx = int(fp.stem.split("_")[1])
-        chunk_reserve = RESERVE_OVERRIDE.get(chunk_idx, plate_reserve(codec, records))
-        width = WIDTH_OVERRIDE.get(chunk_idx, args.width)
+        chunk_reserve = plate_reserve(codec, records, pool_sizes.get(chunk_idx))
+        force_plate = chunk_idx in ALWAYS_PLATED
+        width = args.width
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" not in raw or raw.startswith("#"):
@@ -245,13 +292,12 @@ def main() -> None:
                     new_text = f"{head}<$FFFE>{tail}"
                 else:
                     new_text = " ".join(text.replace(LINE_BREAK, " ").split())
-                choice_width = WIDTH_OVERRIDE.get(chunk_idx, args.choice_width)
                 n = visible_cells(codec, new_text.split("<$FFFE>")[0])
-                if n > choice_width:
-                    print(f"{fp.name} record {idx}: choice is {n} cells (max {choice_width})")
+                if n > args.choice_width:
+                    print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
-                new_text = reflow_record(codec, text, width, reserve)
+                new_text = reflow_record(codec, text, width, reserve, force_plate)
                 # Page height check: lines between page/terminator controls.
                 for page in re.split(r"<\$FFFD>|<\$FFFE>|<\$FFFF>", new_text):
                     n = page.count(LINE_BREAK) + 1

@@ -5,75 +5,75 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
+6	Lanford<$FFFF>
 7	Liberalist<$FFFF>
 8	Msgr<$FFFF>
-9	Salrath man<$FFFF>
-10	General Emily<$FFFF>
+9	Soldier<$FFFF>
+10	Emily<$FFFF>
 11	Alvince<$FFFF>
-12	Alliance off.<$FFFF>
+12	Officer<$FFFF>
 13	Gaiana Prison<$FFFF>
-14	<$FB00><$0066>Thank you,<$FFFC>Princess Clarett.<$FFFE>
-15	<$FB00><$0067>If the princess<$FFFC>has returned, Gilmore's<$FFFC>dictatorship will soon fall.<$FFFD><$FB00><$0068>Please tell us<$FFFC>how we can help.<$FFFE>
-16	<$FB00><$0069>Thank you.<$FFFD><$FB00><$006A>Yes, with Lord<$FFFC>Lenard of Salrath I raised troops<$FFFC>to defeat Gilmore and save the<$FFFC>people.<$FFFD><$FB00><$006B>But first, I<$FFFC>must explain something to you.<$FFFE>
+14	<$FB00><$0066>Thank you, Princess<$FFFC>Clarett.<$FFFE>
+15	<$FB00><$0067>If the princess has<$FFFC>returned, Gilmore's dictatorship will<$FFFC>soon fall.<$FFFD><$FB00><$0068>Please tell us how we<$FFFC>can help.<$FFFE>
+16	<$FB00><$0069>Thank you.<$FFFD><$FB00><$006A>Yes, with Lord Lenard of<$FFFC>Salrath I raised troops to defeat<$FFFC>Gilmore and save the people.<$FFFD><$FB00><$006B>But first, I must<$FFFC>explain something to you.<$FFFE>
 17	<$FB00><$006C>What is that？<$FFFE>
 18	<$FB00><$006D>Actually<$FFF5><$FFF8>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 19	<$FB00><$006E>Such a thing<$FFF5><$FFF8>…！<$FFFE>
-20	<$FB00><$006F>For the people's<$FFFC>sake, that may be best. But<$FFFC>what becomes of the Kalxath<$FFFC>royal family？<$FFFE>
-21	<$FB00><$0070>Do not worry<$FFFC>about me. The age has changed.<$FFFD><$FB00><$0071>Ability, not<$FFFC>birth, must guide people.<$FFFD><$FB00><$0072>If people choose<$FFFC>a noble, fine. They choose who<$FFFC>acts for their happiness.<$FFFE>
-22	<$FB00><$0073>You really have<$FFFC>changed. You're nothing like<$FFFC>before.<$FFFE>
-23	<$FB00><$0074>Because Brenda<$FFFC>scolded me？<$FFFE>
-24	<$FB00><$0075>I-I didn't<$FFFC>really<$FFF5><$FFF8>…<$FFFE>
-25	<$FB00><$0076>Anyway, she<$FFFC>wants not only to save those<$FFFC>Gilmore oppressed, but to prevent<$FFFC>future tyrants.<$FFFD><$FB00><$0077>Will you help<$FFFC>her？<$FFFE>
-26	<$FB00><$0078>O-of course.<$FFFD><$FB00><$0079>I'm only<$FFFC>surprised royalty would give up<$FFFC>status for the people.<$FFFE>
-27	<$FB00><$007A>Please let us<$FFFC>follow Princess Clarett's ideal.<$FFFE>
-28	<$FB00><$007B>Thank you,<$FFFC>everyone.<$FFFE>
-29	<$FB00><$007C>Then our role is<$FFFC>to persuade the people, spread<$FFFC>your ideal, and gather allies<$FFFC>against Gilmore.<$FFFE>
-30	<$FB00><$007D>Yes. I'm counting<$FFFC>on you.<$FFFE>
-31	<$FB00><$007E>Then what will<$FFFC>you do now？<$FFFE>
-32	<$FB00><$007F>Right. I want to<$FFFC>know too.<$FFFE>
-33	<$FB00><$0080>We'll go to<$FFFC>Estor.<$FFFE>
+20	<$FB00><$006F>For the people's sake,<$FFFC>that may be best. But what<$FFFC>becomes of the Kalxath royal<$FFFC>family？<$FFFE>
+21	<$FB00><$0070>Do not worry about me.<$FFFC>The age has changed.<$FFFD><$FB00><$0071>Ability, not birth, must<$FFFC>guide people.<$FFFD><$FB00><$0072>If people choose a noble,<$FFFC>fine. They choose who acts for<$FFFC>their happiness.<$FFFE>
+22	<$FB00><$0073>You really have changed.<$FFFC>You're nothing like before.<$FFFE>
+23	<$FB00><$0074>Because Brenda scolded<$FFFC>me？<$FFFE>
+24	<$FB00><$0075>I-I didn't really<$FFF5><$FFF8>…<$FFFE>
+25	<$FB00><$0076>Anyway, she wants not<$FFFC>only to save those Gilmore<$FFFC>oppressed, but to prevent future<$FFFC>tyrants.<$FFFD><$FB00><$0077>Will you help her？<$FFFE>
+26	<$FB00><$0078>O-of course.<$FFFD><$FB00><$0079>I'm only surprised<$FFFC>royalty would give up status for<$FFFC>the people.<$FFFE>
+27	<$FB00><$007A>Please let us follow<$FFFC>Princess Clarett's ideal.<$FFFE>
+28	<$FB00><$007B>Thank you, everyone.<$FFFE>
+29	<$FB00><$007C>Then our role is to<$FFFC>persuade the people, spread your<$FFFC>ideal, and gather allies against<$FFFC>Gilmore.<$FFFE>
+30	<$FB00><$007D>Yes. I'm counting on you.<$FFFE>
+31	<$FB00><$007E>Then what will you do<$FFFC>now？<$FFFE>
+32	<$FB00><$007F>Right. I want to know<$FFFC>too.<$FFFE>
+33	<$FB00><$0080>We'll go to Estor.<$FFFE>
 34	<$FB00><$0081>Estor？<$FFFE>
-35	<$FB00><$0082>Estor, the great<$FFFC>temple of light. You seek its<$FFFC>support to unite the people.<$FFFE>
-36	<$FB00><$0083>Hah. Is this<$FFFC>really Clarett？ Can someone<$FFFC>change that fast<$FFF5><$FFF8>…？<$FFFE>
-37	<$FB00><$0084>Then let's go<$FFFC>right away！<$FFFE>
+35	<$FB00><$0082>Estor, the great temple<$FFFC>of light. You seek its support to<$FFFC>unite the people.<$FFFE>
+36	<$FB00><$0083>Hah. Is this really<$FFFC>Clarett？ Can someone change that<$FFFC>fast<$FFF5><$FFF8>…？<$FFFE>
+37	<$FB00><$0084>Then let's go right<$FFFC>away！<$FFFE>
 38	<$FB00><$0085>E-emergency！<$FFFE>
 39	<$FB00><$0086>What happened？<$FFFE>
-40	<$FB00><$0087>Gilmore noticed<$FFFC>our moves and sent a large<$FFFC>army at Duke Lenard's main force！<$FFFE>
-41	<$FB00><$0088>Kh！ This is what<$FFFC>Creid meant！<$FFFE>
-42	<$FB00><$0089>How is the<$FFFC>battle？<$FFFE>
-43	<$FB00><$008A>They outnumber us<$FFFC>ten to one. We may last three<$FFFC>days.<$FFFE>
-44	<$FB00><$008B>No！ Given the<$FFFC>distance to Salrath's army, we<$FFFC>can't return in time！<$FFFE>
-45	<$FB00><$008C>What now,<$FFFC>Clarett？<$FFFE>
-46	<$FFF8>…<$FB00><$008D>Hmm.<$FFF5><$FFF6><$FB00><$008E>I didn't<$FFFC>expect them to move so fast<$FFF5><$FFF8>…<$FFFE>
-47	<$FB00><$008F>If we abandon<$FFFC>Salrath now, the people won't<$FFFC>follow us<$FFF5><$FFF8>…<$FFFE>
-48	<$FFFA><$FB00><$0090>What should we<$FFFC>do<$FFF5><$FFF8>…？<$FFFE>
-49	<$FB00><$0091>I'll try<$FFFC>something.<$FFFE>
+40	<$FB00><$0087>Gilmore noticed our<$FFFC>moves and sent a large army at<$FFFC>Duke Lenard's main force！<$FFFE>
+41	<$FB00><$0088>Kh！ This is what Creid<$FFFC>meant！<$FFFE>
+42	<$FB00><$0089>How is the battle？<$FFFE>
+43	<$FB00><$008A>They outnumber us ten to<$FFFC>one. We may last three days.<$FFFE>
+44	<$FB00><$008B>No！ Given the distance<$FFFC>to Salrath's army, we can't return<$FFFC>in time！<$FFFE>
+45	<$FB00><$008C>What now, Clarett？<$FFFE>
+46	<$FFF8>…<$FB00><$008D>Hmm.<$FFF5><$FFF6><$FB00><$008E>I didn't expect them<$FFFC>to move so fast<$FFF5><$FFF8>…<$FFFE>
+47	<$FB00><$008F>If we abandon Salrath<$FFFC>now, the people won't follow us<$FFF5><$FFF8>…<$FFFE>
+48	<$FFFA><$FB00><$0090>What should we do<$FFF5><$FFF8>…？<$FFFE>
+49	<$FB00><$0091>I'll try something.<$FFFE>
 50	<$FB00><$0092>Brenda<$FFF5><$FFF8>…<$FFFE>
-51	<$FB00><$0093>What do you<$FFFC>mean？<$FFFE>
-52	<$FB00><$0094>Even hurrying back<$FFFC>from here takes three days.<$FFFD><$FB00><$0095>And even if we<$FFFC>arrived, how could just us fight<$FFFC>them<$FFF5><$FFF8>…？<$FFFE>
-53	<$FB00><$0096>Let me handle<$FFFC>all of that, okay？<$FFFE>
-54	<$FFF8>…<$FFF6><$FB00><$0097>We have no<$FFFC>better choice. We should bet on<$FFFC>the best chance.<$FFFE>
-55	<$FB00><$0098>Exactly.<$FFFC>And…Clarett？<$FFFE>
+51	<$FB00><$0093>What do you mean？<$FFFE>
+52	<$FB00><$0094>Even hurrying back from<$FFFC>here takes three days.<$FFFD><$FB00><$0095>And even if we arrived,<$FFFC>how could just us fight them<$FFF5><$FFF8>…？<$FFFE>
+53	<$FB00><$0096>Let me handle all of<$FFFC>that, okay？<$FFFE>
+54	<$FFF8>…<$FFF6><$FB00><$0097>We have no better<$FFFC>choice. We should bet on the best<$FFFC>chance.<$FFFE>
+55	<$FB00><$0098>Exactly. And…Clarett？<$FFFE>
 56	<$FB00><$0099>What？<$FFFE>
-57	<$FB00><$009A>Come here a<$FFFC>moment<$FFF5><$FFF8>…<$FFFE>
-58	<$FB00><$009B>I have one<$FFFC>condition.<$FFFE>
+57	<$FB00><$009A>Come here a moment<$FFF5><$FFF8>…<$FFFE>
+58	<$FB00><$009B>I have one condition.<$FFFE>
 59	<$FB00><$009C>Condition？<$FFFE>
-60	<$FB00><$009D>After this is<$FFFC>over, after <$F600><$0000>, lend<$FFFC>me Langrisser and Alhazard.<$FFFE>
-61	<$FB00><$009E>You want the<$FFFC>swords too<$FFF5><$FFF7>！？<$FFFE>
+60	<$FB00><$009D>After this is over,<$FFFC>after <$F600><$0000>, lend me<$FFFC>Langrisser and Alhazard.<$FFFE>
+61	<$FB00><$009E>You want the swords<$FFFC>too<$FFF5><$FFF7>！？<$FFFE>
 62	<$FFF8><$FB00><$009F>Shh！<$FFF5><$FFF6><$FB00><$00A0>Too loud！<$FFFE>
-63	<$FFF8>…<$FFF6><$FB00><$00A1>So, what do<$FFFC>you say？<$FFFE>
-64	<$FB00><$00A2>What do I<$FFFC>say<$FFF5><$FFF8>…？<$FFFE>
-65	<$FB00><$00A3>Only for a<$FFFC>little while. It's why I came to<$FFFC>this continent.<$FFFE>
-66	<$FFF8>…<$FFF6><$FB00><$00A4>If you will<$FFFC>help us for that <$FFF5><$FFF8>…<$FFFE>
+63	<$FFF8>…<$FFF6><$FB00><$00A1>So, what do you say？<$FFFE>
+64	<$FB00><$00A2>What do I say<$FFF5><$FFF8>…？<$FFFE>
+65	<$FB00><$00A3>Only for a little while.<$FFFC>It's why I came to this continent.<$FFFE>
+66	<$FFF8>…<$FFF6><$FB00><$00A4>If you will help us<$FFFC>for that <$FFF5><$FFF8>…<$FFFE>
 67	<$FB00><$00A5>Deal.<$FFFE>
-68	<$FB00><$00A6>Then I'm off.<$FFFC>Everyone, wait here.<$FFFE>
+68	<$FB00><$00A6>Then I'm off. Everyone,<$FFFC>wait here.<$FFFE>
 69	Federation Army on Campaign<$FFFF>
-70	<$FB00><$00A7>Marshal. Scouts<$FFFC>have contacted the enemy.<$FFFE>
-71	<$FB00><$00A8>Emily, we move<$FFFC>too. We will hold them until the<$FFFC>rest assemble.<$FFFE>
-72	<$FB00><$00A9>Yes, Marshal<$FFFC>Lanford！<$FFFE>
+70	<$FB00><$00A7>Marshal. Scouts have<$FFFC>contacted the enemy.<$FFFE>
+71	<$FB00><$00A8>Emily, we move too. We<$FFFC>will hold them until the rest<$FFFC>assemble.<$FFFE>
+72	<$FB00><$00A9>Yes, Marshal Lanford！<$FFFE>
 73	Reynorz Army Camp<$FFFF>
-74	<$FB00><$00AA>Fast response. As<$FFFC>expected of General Lanford, who<$FFFC>defeated Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no, Marshal.<$FFFD><$FB00><$00AC>But what can a<$FFFC>battered regular army do？<$FFFE>
-75	<$FB00><$00AD>We have triple<$FFFC>their numbers. They have no<$FFFC>chance.<$FFFE>
-76	<$FB00><$00AE>Do not let your<$FFFC>guard down. Our war has only<$FFFC>begun.<$FFFE>
+74	<$FB00><$00AA>Fast response. As expected<$FFFC>of General Lanford, who defeated<$FFFC>Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no, Marshal.<$FFFD><$FB00><$00AC>But what can a battered<$FFFC>regular army do？<$FFFE>
+75	<$FB00><$00AD>We have triple their<$FFFC>numbers. They have no chance.<$FFFE>
+76	<$FB00><$00AE>Do not let your guard<$FFFC>down. Our war has only begun.<$FFFE>
 77	<$FB00><$00AF><$FFF7>Sir！<$FFF5><$FFF8><$FFFE><$FFFF>

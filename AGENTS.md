@@ -42,13 +42,18 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
 - Names and terms: `data/translation/names_base.csv` and
   `data/translation/glossary_names.csv` are canonical; follow the
   Langrisser fan canon for series terms.
-- Text windows (dialogue and narration/briefing) are 21 cells wide
-  (measured in-game; the re-wrapper uses 20 for a safety margin) and the
-  player-name macro `<$F600><$0000>` renders up to 8 cells (the name entry
-  limit). Pages of up to 4 lines are safe (the JP script uses them
-  routinely). Choice records (`・...`) must stay single-line — a wrapped
-  tail becomes a phantom selectable row. Multi-bullet objective records
-  keep their structure.
+- Text windows (dialogue, narration/briefing, quiz) are 21 cells wide
+  (measured in-game) and the player-name macro `<$F600><$0000>` renders up
+  to 8 cells (the name entry limit). The engine draws the speaker plate
+  inline at the start of the window, so the re-wrapper reserves the widest
+  plate of the chunk's speaker pool (its size comes from the chunk VM
+  header in `SCEN.DAT`) on the first line of every page of spoken records.
+  Keep speaker plate names at 5 cells or less so that reserve stays tight
+  (titles like "Marshal" are dropped from plates, not from dialogue text).
+  Pages of up to 4 lines are safe (the JP script uses them routinely).
+  Choice records (`・...`) must stay single-line — a wrapped tail becomes
+  a phantom selectable row. Multi-bullet objective records keep their
+  structure.
 - The font has no `; — – !? /`; use `,` and full-width `！？`. Ellipsis is
   the single-cell `…` (a trailing period merges into it: `…` not `….`).
 - Tight chunks: if the validator says OVER BUDGET, shorten the text; never

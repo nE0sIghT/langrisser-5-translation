@@ -3,31 +3,31 @@
 3	Clarett<$FFFF>
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
-6	Marshal Lanford<$FFFF>
-7	Kalxath off.<$FFFF>
-8	Kalxath cmd.<$FFFF>
-9	Salrath man<$FFFF>
-10	Duke Lenard<$FFFF>
+6	Lanford<$FFFF>
+7	Officer<$FFFF>
+8	Commander<$FFFF>
+9	Soldier<$FFFF>
+10	Lenard<$FFFF>
 11	Omega<$FFFF>
 12	Kalxath Army Camp<$FFFF>
-13	<$FB00><$0070>Emergency,<$FFFC>Commander！<$FFFE>
-14	<$FB00><$0071>Why the<$FFFC>panic？<$FFFE>
-15	<$FB00><$0072>Emperor Gilmore<$FFFC>was defeated by Princess Clarett<$FFFC>and fled the castle！<$FFFE>
-16	<$FB00><$0073>What！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0074>We<$FFFC>cannot stay here. Pull the troops<$FFFC>back！<$FFFE>
+13	<$FB00><$0070>Emergency, Commander！<$FFFE>
+14	<$FB00><$0071>Why the panic？<$FFFE>
+15	<$FB00><$0072>Emperor Gilmore was<$FFFC>defeated by Princess Clarett and<$FFFC>fled the castle！<$FFFE>
+16	<$FB00><$0073>What！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0074>We cannot stay<$FFFC>here. Pull the troops back！<$FFFE>
 17	<$FFF7><$FB00><$0075>Y-yes sir…<$FFF5><$FFF8><$FFFE>
-18	<$FB00><$0076>Hey, did you<$FFFC>hear？ Gilmore lost.<$FFFE>
-19	<$FB00><$0077>Then what<$FFFC>happens to us？<$FFFE>
-20	<$FB00><$0078>No one wants<$FFFC>to hunt fugitives. Before that<$FFFC>happens, let us surrender to<$FFFC>Salrath.<$FFFE>
-21	<$FB00><$0079>Good idea.<$FFFC>Unlike nobles, we did not fight<$FFFC>for Gilmore because we wanted<$FFFC>to.<$FFFE>
-22	<$FB00><$007A>I heard<$FFFC>Princess Clarett's policies put<$FFFC>commoners first.<$FFFE>
+18	<$FB00><$0076>Hey, did you hear？<$FFFC>Gilmore lost.<$FFFE>
+19	<$FB00><$0077>Then what happens to us？<$FFFE>
+20	<$FB00><$0078>No one wants to hunt<$FFFC>fugitives. Before that happens, let<$FFFC>us surrender to Salrath.<$FFFE>
+21	<$FB00><$0079>Good idea. Unlike nobles,<$FFFC>we did not fight for Gilmore<$FFFC>because we wanted to.<$FFFE>
+22	<$FB00><$007A>I heard Princess<$FFFC>Clarett's policies put commoners<$FFFC>first.<$FFFE>
 23	<$FB00><$007B>Is that true？<$FFFE>
-24	<$FB00><$007C>You did not<$FFFC>know？ It is a big rumor among<$FFFC>peasants and townspeople.<$FFFE>
-25	<$FB00><$007D>I see！ Then<$FFFC>that settles it <$FFF5><$FFF8>…<$FFFE>
+24	<$FB00><$007C>You did not know？ It<$FFFC>is a big rumor among peasants<$FFFC>and townspeople.<$FFFE>
+25	<$FB00><$007D>I see！ Then that<$FFFC>settles it <$FFF5><$FFF8>…<$FFFE>
 26	Salrath camp<$FFFF>
-27	<$FB00><$007E>Lord Lenard, a<$FFFC>courier just arrived reporting<$FFFC>Gilmore defeated！<$FFFE>
-28	<$FB00><$007F>What, I see！<$FFFC>We won！<$FFFE>
-29	<$FB00><$0080>Lord Lenard！<$FFFC>Many enemies are surrendering to<$FFFC>us. Your orders！<$FFFE>
-30	<$FB00><$0081>Treat<$FFFC>surrendered soldiers with respect！<$FFFC>They did not fight by choice.<$FFFE>
+27	<$FB00><$007E>Lord Lenard, a courier<$FFFC>just arrived reporting Gilmore<$FFFC>defeated！<$FFFE>
+28	<$FB00><$007F>What, I see！ We won！<$FFFE>
+29	<$FB00><$0080>Lord Lenard！ Many enemies<$FFFC>are surrendering to us. Your<$FFFC>orders！<$FFFE>
+30	<$FB00><$0081>Treat surrendered soldiers<$FFFC>with respect！ They did not fight<$FFFC>by choice.<$FFFE>
 31	<$FB00><$0082>Understood！<$FFFE>
 32	In the Demon Land, Velzeria<$FFFF>
-33	<$FB00><$0083>Damn！ Langrisser<$FFFC>is right ahead, but there are<$FFFC>too many monsters.<$FFFD><$FB00><$0084>No choice. I<$FFFC>wanted it before fighting him, but<$FFFC>I will leave this to old man<$FFFC>Aizer.<$FFFE>
+33	<$FB00><$0083>Damn！ Langrisser is right<$FFFC>ahead, but there are too many<$FFFC>monsters.<$FFFD><$FB00><$0084>No choice. I wanted it<$FFFC>before fighting him, but I will<$FFFC>leave this to old man Aizer.<$FFFE>
