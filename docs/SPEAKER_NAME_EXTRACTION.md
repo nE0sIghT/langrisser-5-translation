@@ -1,0 +1,403 @@
+# Speaker Name Extraction Notes
+
+This document records the current state of reverse-engineering speaker plate
+selection for dialogue line wrapping.
+
+## Goal
+
+The rewrapper must know the visible speaker plate before each dialogue segment
+so it can reserve the correct number of cells on the first rendered line. A
+single conservative reserve per chunk causes bad line breaks, especially in
+mixed-speaker records such as chunk 45.
+
+The target output is a reproducible extractor:
+
+1. Read the original SCEN/SCEN2 chunk data.
+2. Resolve every `FB00 <id>` dialogue marker to the speaker name plate selected
+   by the game's VM.
+3. Feed that mapping into `lang5_rewrap.py`.
+4. Avoid hand-maintained speaker overrides.
+
+## Work Ledger
+
+This section is the anti-loop checklist. Update it before switching strategies
+or after proving a hypothesis false. Do not re-run a closed approach unless new
+evidence changes the premise.
+
+Status values:
+
+```text
+DONE        confirmed enough to use as a constraint
+REJECTED    tested and false; do not reuse
+ACTIVE      current line of work
+PENDING     next work item
+BLOCKED     needs another decoded dependency
+```
+
+| Status | Item | Evidence | Next action |
+| --- | --- | --- | --- |
+| DONE | Text records use 16-bit tokens, not Shift-JIS text. | Round-trip tooling and font/token work. | Keep this as a hard constraint. |
+| DONE | Printable token ID equals glyph index for native glyphs. | Font mapping and scenario decode work. | Keep using glyph-index tokens. |
+| DONE | Story chunks have an initial local speaker-name pool. | `work/scriptdump` chunk dumps; first `FFFF` records decode as names. | Use as candidate plate list only. |
+| DONE | Dialogue records contain `FB00 <id>` markers. | Script dump and token control analysis. | Use `FB00` IDs as dialogue segment keys. |
+| DONE | One record can contain multiple `FB00` markers. | Chunk 45 has Sigma/Lambda switches in one record. | Rewrap must be segment-aware. |
+| REJECTED | `FB00 <id>` directly indexes the speaker-name pool. | IDs exceed local name count and do not match visible speakers. | Never use as speaker slot. |
+| REJECTED | The high byte before `FF0B` is a direct speaker slot. | Chunk 45 maps `0x0013` to Sigma by this heuristic, but the line is Lambda. | Remove or downgrade `vm_direct_00` confirmed output. |
+| REJECTED | A chunk-wide widest-name reserve is acceptable. | It prevents overflow but creates wrong early breaks in visible game text. | Use only as fallback for unresolved IDs. |
+| REJECTED | A record-wide reserve is enough. | Records can switch speakers after an internal `FB00`. | Use active reserve changes after `FB00`. |
+| DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
+| DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
+| DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |
+| DONE | Runtime actor/plate lookup table exists. | `0x800b2da4` searches table at `0x800eba38` with count `0x800eba46`. | Decode the table source in each chunk. |
+| ACTIVE | Map chunk-local data to runtime `0x800eba38` table. | Loader around `0x8003b44c` assigns globals from loaded header offsets. | Parse the loaded-header structure from chunk data. |
+| ACTIVE | Decode byte-accurate `FF0B`/`0x0b` command targeting. | Chunk 45 suggests the opcode can target the following `FB00` ID. | Replace word-record scanner with byte command parser. |
+| PENDING | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
+| PENDING | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
+| PENDING | Integrate speaker reserves into `lang5_rewrap.py`. | Existing rewrap has static reserve logic. | Change wrapping to update reserve after `FB00`. |
+| PENDING | Validate against chunk 45 in-game bad lines. | Known failures around Lambda/Sigma text. | Rewrap must avoid the `ju/st` break and isolated name tail. |
+
+## Current Work Plan
+
+Work in this exact order unless a step becomes impossible for a documented
+reason.
+
+1. Make `scripts/lang5_speakers.py` conservative.
+   - Remove any `confirmed` result based only on the rejected high-byte
+     heuristic.
+   - Keep such rows as evidence with `unresolved` confidence if they are useful.
+   - Success criterion: no known-false chunk 45 row is marked confirmed.
+2. Decode the chunk loader structure.
+   - Start at `0x8003b44c`.
+   - Trace how loaded-header offsets become `0x800eba38`, `0x800eba46`,
+     `0x800eb2ac`, `0x800eb8fc`, and `0x800eb574`.
+   - Success criterion: a script can locate and dump the `0x800eba38` table
+     for sampled chunks from static SCEN data.
+3. Decode the `0x800eba38` table format.
+   - Use `0x800b2da4` as the reference behavior.
+   - Confirm entry width and field semantics on multiple chunks.
+   - Success criterion: static dumps match the table shape expected by the
+     function: `u16 key`, `u8 field2`, `u8 field3`.
+4. Replace word-only VM pseudo-record parsing with byte-accurate command
+   parsing.
+   - Treat the VM stream as bytes.
+   - Identify real opcode positions, especially `0x0b` inside `FF0B`.
+   - Success criterion: chunk 45 command sites target the correct following
+     `FB00` IDs where handler payload layout requires it.
+5. Reimplement the relevant subset of `0x80024424`.
+   - Model only fields needed for dialogue text and speaker/window plate.
+   - Use the static `0x800eba38` table where the handler does runtime lookup.
+   - Success criterion: chunk 45 resolves Sigma/Lambda speaker switches
+     without manual names.
+6. Decode or confirm `0x800a39a4`.
+   - Verify whether `FB00 <id>` only marks the text segment or also triggers
+     state selection.
+   - Success criterion: no missing link remains between text `FB00` markers and
+     VM command targets.
+7. Integrate with rewrap.
+   - Add an API returning `chunk -> fb_id -> speaker_name/reserve`.
+   - Update wrapping to change active reserve after every `FB00` marker.
+   - Success criterion: known bad chunk 45 lines wrap without premature word
+     splits.
+8. Run required build checks.
+   - `python3 scripts/lang5_verify_roundtrip.py`
+   - `python3 scripts/lang5_rewrap.py`
+   - `python3 scripts/lang5_validate_en.py`
+   - `python3 scripts/lang5_build_ppf.py`
+   - Success criterion: failures, if any, are unrelated WIP translation files
+     and are documented clearly.
+
+## Do Not Repeat Without New Evidence
+
+- Do not use `FB00 <id>` as a name-pool index.
+- Do not treat the high byte of a nearby state word as a speaker slot.
+- Do not mark any static VM row `confirmed` unless it follows decoded runtime
+  behavior.
+- Do not solve this with hand-written per-chunk speaker overrides.
+- Do not accept chunk-wide or record-wide reserves as the final solution.
+- Do not parse the VM stream only as aligned 16-bit records when interpreting
+  opcode dispatch.
+- Do not wire `scripts/lang5_speakers.py` into rewrap until chunk 45 resolves
+  correctly without manual overrides.
+
+## Confirmed Data Model
+
+- Story chunks begin with a local pool of `FFFF`-terminated speaker-name
+  records.
+- Dialogue text records contain `FB00 <id>` markers.
+- `FB00 <id>` is not a direct speaker-name record index. It is a dialogue or
+  event reference used by the VM/text system.
+- One text record may contain multiple `FB00 <id>` markers, so speaker reserve
+  has to be segment-aware, not just record-aware.
+- SCEN and SCEN2 text blocks are byte-identical. Speaker extraction should use
+  SCEN only and apply to both during build.
+
+## Why Static Width Is Wrong
+
+The current fallback strategy reserves space for the widest local speaker plate
+in a chunk. That is safe but overly pessimistic. It causes visible over-wrapping
+when the real speaker has a short name.
+
+Chunk 45 is the key failing case. A Lambda line was wrapped as if a larger or
+incorrect plate were active, producing a break inside `just`. The same chunk has
+records where Sigma and Lambda alternate inside the same record, which proves
+that a per-record reserve is not precise enough.
+
+## VM Block Observations
+
+Several story chunks contain a VM block before the text record block.
+
+Observed VM header fields:
+
+```text
+0x30  u32 command stream start
+0x38  u32 local name count in sampled chunks
+0x3c  u32 VM block size
+```
+
+Examples where `0x38` matched the local name-pool count:
+
+```text
+chunk 000: 7
+chunk 037: 7
+chunk 045: 9
+chunk 065: 9
+chunk 088: 7
+chunk 107: 10
+```
+
+Chunk 45 observed VM block:
+
+```text
+chunk start: 0x78f000
+text block base: 0x14b8
+record count: 51
+VM offset: 0x1194
+VM size: 0x0324
+stream start: 0x0060
+name count: 9
+```
+
+## Dispatcher Evidence
+
+The main VM dispatcher around `0x8001d6a8` reads one opcode byte from the VM
+instruction pointer stored at `gp + 0x30c`. It stores the current opcode at
+`gp + 0x31c`. Opcodes below `0x7f` dispatch through the table at `0x80010250`.
+
+Relevant entries from the table:
+
+```text
+0x00 -> 0x8001d738
+0x01 -> 0x8001d764
+0x02 -> 0x8001d7d0
+0x03 -> 0x8001d808
+0x04 -> 0x8001d854
+0x05 -> 0x8001d854
+0x06 -> 0x8001d864
+0x07 -> 0x8001d864
+0x08 -> 0x8001d864
+0x09 -> 0x8001d854
+0x0a -> 0x8001d864
+0x0b..0x10 -> 0x8001d874
+```
+
+The shared handler for opcodes `0x0b..0x10` calls `0x80024424`.
+
+## Handler `0x80024424`
+
+This handler consumes payload bytes after an opcode in the `0x0b..0x10` range
+and populates the runtime window/dialogue state structure at `0x8011a024`.
+
+Observed field writes:
+
+```text
+payload[0]              -> 0x8011a02a  struct +6
+payload[1] low nibble   -> 0x8011a02b  struct +7
+payload[1] high nibble  -> 0x8011a025  struct +1
+payload[2]              -> flags
+payload[3:5]            -> s7
+payload[5:7]            -> s5
+payload[7]              -> s6
+payload[8]              -> t2
+payload[9:11]           -> text/dialogue id
+```
+
+The text window path later reads these structure fields. In particular:
+
+```text
+0x800a3ed4..0x800a3ee0:
+  a0 = lhu gp + 0x4fc
+  a1 = lbu gp + 0x504
+  a2 = lbu gp + 0x50c
+
+0x800a3f80..0x800a3fbc:
+  struct +8 -> gp + 0x4f4
+  struct +7 -> gp + 0x504
+  struct +2 -> gp + 0x50c
+```
+
+This strongly suggests that `struct +7` is involved in speaker plate or window
+state selection, but the static mapping from VM bytes to final speaker plate is
+not fully decoded yet.
+
+## Actor/Plate Lookup Table Evidence
+
+Function `0x800b2da4` searches a runtime table referenced by globals:
+
+```text
+0x800eba38  table pointer
+0x800eba46  table entry count
+```
+
+Observed behavior:
+
+```text
+for each entry:
+  if entry.u16 == actor_or_state_id:
+    *a1 = entry.byte2
+    *a2 = entry.byte3
+    return
+*a1 = 0xff
+*a2 = 0
+```
+
+This table likely maps actor or scene-state IDs to text/window/speaker fields.
+The table is loaded from chunk data by the scenario loader, so a complete static
+extractor must decode where it lives in each chunk.
+
+Loader evidence around `0x8003b44c`:
+
+```text
+0x800eba46 = value from loaded header + 0x2c
+0x800eba38 = data base + *(loaded header + 0x14)
+0x800eb2ac = *(loaded header + 0x38)
+0x800eb8fc = data base + *(loaded header + 0x3c)
+0x800eb574 = data base + *(loaded header + 0x34)
+```
+
+The exact relationship between these loaded-header offsets and the per-chunk VM
+header still needs to be pinned down.
+
+## Text Control Dispatcher Evidence
+
+The text token dispatcher at `0x800a36b4` handles printable tokens and high
+control families.
+
+For high-byte `0xf6..0xfe`, the dispatch table at `0x80015be4` includes:
+
+```text
+F6 -> 0x800a3a90
+F7 -> 0x800a3b00
+F8 -> 0x800a3b00
+F9 -> 0x800a3b00
+FA -> 0x800a3bfc
+FB -> 0x800a39a4
+FC -> 0x800a3b00
+FD -> 0x800a3a34
+FE -> 0x800a39f8
+```
+
+`FBxx` handling starts at `0x800a39a4`. It consumes argument bytes and can call
+`0x800193f0`. This path still needs full interpretation because `FB00 <id>` is
+the visible marker used in text records.
+
+## Rejected Hypotheses
+
+### `FB00 <id>` is the speaker slot
+
+False. The `FB00` argument can exceed the local name count and does not match
+name-pool positions.
+
+### The high byte before `FF0B` is a direct speaker slot
+
+False. The current untracked `scripts/lang5_speakers.py` can label rows as
+`vm_direct_00` when the high byte of the preceding state word looks like a
+speaker slot. Chunk 45 disproves this.
+
+Example failure:
+
+```text
+FB id 0x0013 should use Lambda, but the current heuristic maps it to Sigma.
+FB id 0x0025 should also use Lambda, but the current heuristic can map it to a
+different local name.
+```
+
+Therefore this heuristic must not be used as confirmed data.
+
+### Initial name-pool order is enough
+
+False. The local name pool is only a list of available plates. The dialogue VM
+selects among those plates using additional state.
+
+## `FF0B` Command Alignment Issue
+
+The VM byte stream is byte-oriented, while the current evidence parser scans
+word-oriented pseudo-records ending in:
+
+```text
+FF0B <flags> FFFF FFFF
+```
+
+For opcode dispatch, the actual command opcode may be the low byte `0x0b`
+inside word `FF0B`. In that interpretation, handler payload bytes after the
+opcode include the suffix bytes and then the next pseudo-record's state/id.
+
+In chunk 45, this means an `FF0B` command can target the following `FB00 <id>`,
+not the preceding pseudo-record. The extractor must model command start
+alignment at byte precision, not only word records.
+
+## Required Extractor Behavior
+
+The production speaker extractor should:
+
+1. Parse the local name pool.
+2. Parse the VM header and command stream.
+3. Decode the per-chunk actor/name lookup table loaded into `0x800eba38`.
+4. Interpret `0x0b..0x10` commands using byte-accurate opcode positions.
+5. Resolve each targeted `FB00 <id>` to a speaker name slot.
+6. Mark unresolved cases explicitly instead of guessing.
+7. Provide an API for rewrap:
+
+```text
+chunk index -> FB id -> speaker name -> first-line reserve
+```
+
+## Rewrap Integration Requirement
+
+`lang5_rewrap.py` must not use one reserve for a whole chunk or record when a
+record has multiple `FB00` markers.
+
+Required behavior:
+
+```text
+When a FB00 marker is emitted:
+  update the active speaker reserve for subsequent printable text.
+
+When a page break is emitted:
+  keep or recompute the active reserve according to the VM/text behavior.
+
+When no speaker is known:
+  fall back to the conservative reserve and report the unresolved FB id.
+```
+
+Choice records and non-dialogue records must keep their existing special rules.
+
+## Current Implementation Risk
+
+The untracked `scripts/lang5_speakers.py` is useful as an evidence dumper, but
+its `confirmed` rows are not safe while `vm_direct_00` is based on the rejected
+high-byte heuristic. Before wiring it into rewrap, it must be changed so only
+dispatch-verified mappings are marked confirmed.
+
+## Next Reverse-Engineering Steps
+
+1. Fully decode `0x800a39a4` and adjacent `FBxx` handling.
+2. Fully decode the loader data structure that populates `0x800eba38` and
+   `0x800eba46`.
+3. Parse the `0x800eba38` table statically from each chunk.
+4. Reimplement the `0x80024424` command effect for the subset that selects
+   dialogue text and speaker plate state.
+5. Validate against chunk 45:
+   - Sigma lines resolve to Sigma.
+   - Lambda lines resolve to Lambda.
+   - multi-speaker records switch reserve after each `FB00`.
+6. Run rewrap and verify the known bad lines no longer split words early.
