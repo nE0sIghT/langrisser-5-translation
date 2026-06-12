@@ -1,0 +1,82 @@
+# file=SCEN.DAT chunk=23 chunk_start=0x380000
+# block_base=0x8B18 block_size=0x0BCC records=80
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Gilmore<$FFFF>
+8	Soldier<$FFFF>
+9	Galzork<$FFFF>
+10	Kfir<$FFFF>
+11	・Defeat Gilmore and Galzork<$FFFE>
+12	・<$F600><$0000> dies<$FFFE>
+13	Gilmore's Fort<$FFFF>
+14	<$FB00><$0034>Hurry up with the<$FFFC>defenses！<$FFFE>
+15	<$FB00><$0035>Left flank deployed！<$FFFE>
+16	<$FB00><$0036>Right flank likewise<$FFFC>ready！<$FFFE>
+17	<$FB00><$0037>Magitek giant locked in<$FFFC>place before the fort.<$FFFE>
+18	<$FB00><$0038>Preparations are in order,<$FFFC>then. Now let them come whenever<$FFF5><$FFF8>…<$FFFE>
+19	<$FB00><$0039>They're here！<$FFFE>
+20	<$FB00><$003A>We've finally run you<$FFFC>down, Gilmore！ Give it up！<$FFFE>
+21	<$FB00><$003B>You are the ones who<$FFFC>should give up. I have an ancient<$FFFC>weapon, the Magitek giant！<$FFFE>
+22	<$FB00><$003C>We'd best be careful with<$FFFC>it, really.<$FFFD><$FB00><$003D>From what Virash told me,<$FFFC>that model can hit a wide area<$FFFC>all by itself.<$FFFE>
+23	<$FB00><$003E>A wide area？<$FFFE>
+24	<$FB00><$003F>In magic terms, something<$FFFC>like a Fireball.<$FFFE>
+25	<$FB00><$0040>So we should treat it as<$FFFC>a powerful spell attack.<$FFFE>
+26	<$FB00><$0041>Let's mind its range as<$FFFC>we fight.<$FFFE>
+27	<$FB00><$0042>Right. Let's go！<$FFFE>
+28	<$FB00><$002B>Take this！<$FFFE>
+29	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
+30	<$FB00><$0046>Let's go.<$FFFE>
+31	<$FB00><$0047>Come if you dare.<$FFFE>
+32	<$FB00><$0048>Guh… But I can still<$FFFC>fight…<$FFFE>
+33	<$FB00><$0049>Marie！ Don't push<$FFFC>yourself. Fall back！<$FFFE>
+34	<$FB00><$004A>…Please, do not lose…<$FFFE>
+35	<$FB00><$0075>I can fight too！<$FFFE>
+36	<$FB00><$0076>I won't lose！<$FFFE>
+37	<$FB00><$007B>Not yet… I can still<$FFFC>fight…<$FFFE>
+38	<$FB00><$007C>Alfred！ Fall back for<$FFFC>now！<$FFFE>
+39	<$FB00><$007D>But…<$FFFE>
+40	<$FB00><$007E>Trust your friends！<$FFFE>
+41	<$FB00><$007F>…Understood. I leave<$FFFC>the rest to you…<$FFFE>
+42	<$FB00><$0067>Here I go！<$FFFE>
+43	<$FB00><$0068>Come and get me！<$FFFE>
+44	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
+45	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
+46	<$FB00><$006D>I'm fine…I can still<$FFFC>fight…<$FFFE>
+47	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>push it！<$FFFE>
+48	<$FB00><$006F>…I'll do that. Wouldn't<$FFFC>want to drag you down…<$FFFE>
+49	<$FB00><$0054>I won't lose！<$FFFE>
+50	<$FB00><$0055>Forgive me！<$FFFE>
+51	！！<$FFFE>
+52	<$FB00><$005C>Ow！ You dare！<$FFFE>
+53	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+54	<$FB00><$005E>B-but…<$FFFE>
+55	<$FB00><$005F>Just fall back！<$FFFE>
+56	<$FB00><$0060>Sorry, at such an<$FFFC>important time…<$FFFE>
+57	<$FB00><$0049>If I fall, you all<$FFFC>fall with me… Magitek giant！<$FFFC>Rampage to your heart's content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all<$FFFC>of you！<$FFFE>
+58	<$FB00><$0046>Im, impossible… How…<$FFFC>could I… lose…<$FFFE>
+59	<$FB00><$0047>This is your reward for<$FFFC>trampling your own people.<$FFFE>
+60	<$FB00><$0048>D, damn it…<$FFFE>
+61	<$FB00><$0044>What！ The Magitek giant,<$FFFC>beaten<$FFF5><$FFF8>…！<$FFFE>
+62	<$FB00><$0045>You have nowhere left to<$FFFC>run, Gilmore！<$FFFE>
+63	S, so strong… ghah！<$FFFE>
+64	After coming this far… I cannot<$FFFC>win…<$FFFE>
+65	…Lord Gilmore…<$FFFE>
+66	N, no…<$FFFE>
+67	…U… ugh…<$FFFE>
+68	Curse it, what are you doing！<$FFFC>Finish them already！<$FFFE>
+69	Against this Magitek giant you<$FFFC>won't last a moment！<$FFFD>Go！ Magitek giant Galzork！<$FFFE>
+70	‥‥VOOON‥‥<$FFFE>
+71	<$FB00><$0043>Taste the power of an<$FFFC>ancient weapon！<$FFFE>
+72	Whether Gilmore wins or loses is<$FFFC>no concern of mine. But I will<$FFFC>not go on losing to you！<$FFFD>I fight for my own pride！<$FFFE>
+73	<$FB00><$007F>This time will not go<$FFFC>like the others！<$FFFE>
+74	<$FB00><$0080>…Worthy… of the… royal<$FFFC>knights… ghah！<$FFFE>
+75	In the shadow of a sharp-pointed<$FFFC>rock lay a spear with an eerie<$FFFC>glow.<$FFFD><$0000> <$FFF4>Bloody Lance<$FFF3> obtained！<$FFFE>
+76	<$FB00><$007D>Heh. We have your rear<$FFFC>now.<$FFF5> <$FB00><$007E>On the honor of the Kalxath<$FFFC>Sky Corps, we cannot lose to you！<$FFFE>
+77	…There is no place left for me<$FFFC>to live…<$FFFE>
+78	<$FFF8>…<$FFF6><$FB00><$004B>It's over.<$FFFE>
+79	<$FB00><$004C>Now Miss Clarett's ideal<$FFFC>can come true.<$FFFE>
+80	<$FFF8>…<$FFF6><$FB00><$004D>Eric<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>Where is Eric<$FFF5><$FFF8>…<$FFFE><$FFFF>

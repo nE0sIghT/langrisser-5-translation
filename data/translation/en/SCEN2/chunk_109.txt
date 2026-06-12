@@ -1,0 +1,61 @@
+# file=SCEN.DAT chunk=109 chunk_start=0x1332000
+# block_base=0x6AA4 block_size=0x09B0 records=59
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Eric<$FFFF>
+8	Emily<$FFFF>
+9	Jailer<$FFFF>
+10	Landius<$FFFF>
+11	Soldier<$FFFF>
+12	Virash<$FFFF>
+13	Captain<$FFFF>
+14	Grunt<$FFFF>
+15	Leader<$FFFF>
+16	Russel<$FFFF>
+17	After the Battle<$FFFF>
+18	<$FB00><$004F>Eric！ Stay with me,<$FFFC>Eric！<$FFFE>
+19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0050>Clarett. So you won.<$FFFC>…I'm glad.<$FFFE>
+20	<$FB00><$0051>Yes. You destroyed the<$FFFC>cannon… We owe this victory to<$FFFC>you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned…<$FFFC>Now I can die in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+22	<$FB00><$0053>Don't you give up！<$FFFC>We'll treat you right away！<$FFFE>
+23	…<$FB00><$0054>I'm sorry, Clarett.<$FFFC>Without me, your fight might have<$FFFC>been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful.<$FFFC>You will rebuild this country, I<$FFFC>know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have<$FFFC>seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+24	<$FB00><$0057>Eriiiic！<$FFFE>
+25	Federation Castle, Dungeon<$FFFF>
+26	<$FB00><$0058>Hello！ Is anyone there！<$FFFE>
+27	<$FB00><$0059>What is it, General？<$FFFE>
+28	<$FB00><$005A>Let me see Marshal<$FFFC>Lanford.<$FFFE>
+29	<$FB00><$005B>The answer does not<$FFFC>change. General or not, I cannot<$FFFC>let you see him.<$FFFE>
+30	<$FB00><$005C>Surely something can be<$FFFC>done！<$FFFE>
+31	<$FB00><$005D>You are<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+32	<$FB00><$005E>Shh！<$FFF8><$FFF5><$FFFD><$FFF6><$FB00><$005F>Quietly. Follow me.<$FFFE>
+33	In the mountains<$FFFF>
+34	<$FB00><$0060>Lord Virash, will they<$FFFC>really pass through here？<$FFFE>
+35	<$FB00><$0061>Yeah. If that man spoke<$FFFC>true, they'll come this way.<$FFFE>
+36	<$FB00><$0062>The tip from that<$FFFC>mean-eyed giant？<$FFFE>
+37	<$FB00><$0063>It's the only lead we<$FFFC>have, so we play it. Detector？<$FFFE>
+38	<$FB00><$0064>Nothing so far.<$FFFE>
+39	<$FB00><$0065>Could they be headed<$FFFC>somewhere else？ If so<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+40	<$FB00><$0066>Lord Virash, enemy<$FFFC>detected.<$FFFE>
+41	<$FB00><$0067>So the net was set in<$FFFC>the right place.<$FFFE>
+42	<$FB00><$0068>Magitek cannon ready.<$FFFE>
+43	<$FB00><$0069>Good！ Target, the enemy<$FFFC>airship.<$FFFD><$FB00><$006A>Fire！<$FFFE>
+44	Transport Airship Bridge<$FFFF>
+45	<$FFF8>…<$FFF6><$FB00><$006B>Kh！ What was that！<$FFFE>
+46	<$FB00><$006C>Magitek cannon fire！<$FFFE>
+47	<$FB00><$006D>A Magitek cannon！？<$FFFC>…The surface faction！ Where were<$FFFC>we hit？<$FFFE>
+48	<$FB00><$006E>The drive is hit！ No<$FFFC>control！ No control！<$FFFE>
+49	<$FB00><$006F>Emergency landing！<$FFFE>
+50	Federation Castle, Audience Hall<$FFFF>
+51	<$FB00><$0070>Premier, urgent news！<$FFFE>
+52	<$FB00><$0071>What is it？<$FFFE>
+53	<$FB00><$0072>Marshal Lanford has<$FFFC>escaped the dungeon！<$FFFE>
+54	<$FFF7><$FB00><$0073>Hoh<$FFF5><$FFF8><$FE3C>…<$FE3C>,<$FE3C><$FFF6><$FB00><$0074>escaping before his<$FFFC>trial<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0075>Now we may execute<$FFFC>him openly<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0076>What of the pursuit？<$FFFE>
+55	<$FB00><$0077>Caconsis hands seem to<$FFFC>have aided him. They head south.<$FFFE>
+56	<$FB00><$0078>What？ Caconsis, you<$FFFC>say？<$FFFE>
+57	<$FFF8>…<$FE3C><$FFF6><$FB00><$0079>Hm. I have an idea.<$FFFC>Let him run for now！<$FFFE>
+58	<$FFF7><$FB00><$007A>Y, yes<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$007B>As you<$FFFC>command.<$FFFE>
+59	<$FB00><$007C>If Caconsis shelters a<$FFFC>fugitive, war has fresh kindling.<$FFFC>Interesting.<$FFFE><$FFFF>
