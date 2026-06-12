@@ -1,0 +1,62 @@
+# file=SCEN.DAT chunk=58 chunk_start=0x9C6000
+# block_base=0xC080 block_size=0x0E1C records=60
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Virash<$FFFF>
+8	Salrath man<$FFFF>
+9	Duke Lenard<$FFFF>
+10	Virash's Room<$FFFF>
+11	<$FB00><$0003>Good thing you came to this<$FFFC>continent.<$FFFE>
+12	<$FB00><$0004>What is it, Brenda. Did you<$FFFC>get the swords？<$FFFE>
+13	<$FB00><$0005>Not yet. First I need you to<$FFFC>lend me a useful weapon.<$FFFE>
+14	<$FB00><$0006>Hold on. You want us to lend<$FFFC>out weapons？ Are you serious？<$FFFE>
+15	<$FB00><$0007>I agreed to help so you would<$FFFC>hand over the swords. So lend me<$FFFC>something good.<$FFFE>
+16	<$FFFA><$FB00><$0008>Loaning anything with attack power<$FFFC>is risky‥‥. <$FFF9>Tell me the<$FFFC>situation first.<$FFFE>
+17	<$FB00><$0009>The main force helping us was<$FFFC>surrounded by Gilmore's army. They<$FFFC>say it won't last three days.<$FFFD><$FB00><$000A>We can't reach them in time,<$FFFC>and with our numbers<$FFF5><$FFF8>‥‥.<$FFFE>
+18	<$FFFA><$FB00><$000B>So, fast transport to scatter<$FFFC>the enemy. But it must have no<$FFFC>attack power<$FFF5><$FFF8>‥‥.<$FFFE>
+19	<$FB00><$000C>Do you have anything like that？<$FFFE>
+20	<$FB00><$000D>I do, in a sense<$FFF5><$FFF8>‥‥. <$FE28><$FFF6><$FB00><$000E>It<$FFFC>depends how you use it.<$FFFE>
+21	<$FB00><$000F>Then lend it to me right now！<$FFFE>
+22	<$FFF8><$FFFA>‥‥<$FFF6><$FB00><$0010>Fine. I will help a little.<$FFFC><$FFF9>Return it after the battle. If<$FFFC>capture is likely, destroy it.<$FFFD><$FB00><$0011>It is too advanced for this age.<$FFFE>
+23	<$FB00><$0012>I know！<$FFFE>
+24	Salrath camp<$FFFF>
+25	<$FB00><$0013>Lord Lenard, no good！ Kalxath<$FFFC>flyers watch us from above. We<$FFFC>have no retreat route！<$FFFE>
+26	<$FB00><$0014>So we are surrounded. But if we<$FFFC>fall, El Sallia rots. We cannot<$FFFC>lose！<$FFFD><$FB00><$0015>Everyone, hold until night！ Then<$FFFC>their eyes will fail. All<$FFFC>troops, give everything！<$FFFE>
+27	<$FFF7><$FB00><$0016>Yes sir！<$FFF5><$FFF8><$FFFE>
+28	Near Gaiana Prison<$FFFF>
+29	<$FB00><$0017>I said all that before, but<$FFFC>will it be all right<$FFF5><$FFF8>‥‥.<$FFFE>
+30	<$FB00><$0018>What is it？<$FFFE>
+31	<$FB00><$0019>Oh, nothing, just talking to<$FFFC>myself. Don't mind me.<$FFFE>
+32	<$FB00><$001A>I see. Then it is fine.<$FFFE>
+33	<$FB00><$001B>What is Brenda planning？ We need<$FFFC>to hurry to the rescue, but we<$FFFC>have been waiting half a day.<$FFFE>
+34	<$FB00><$001C>Even if we had left at once,<$FFFC>we would not have made it in<$FFFC>time.<$FFFE>
+35	<$FB00><$001D>True, but maybe we could have<$FFFC>helped a little.<$FFFE>
+36	<$FB00><$001E>Right. This is precious time, no<$FFFC>question.<$FFFE>
+37	<$FB00><$001F>I doubt it, but could she<$FFFC>have run away‥‥？<$FFFE>
+38	・No way<$FFFE>
+39	・Maybe<$FFFE>
+40	・Don't suspect her<$FFFE>
+41	<$FB00><$0020>I doubt that.<$FFFE>
+42	<$FB00><$0021>How can you be so sure？<$FFFE>
+43	<$FB00><$0022>I have no proof, but Brenda is<$FFFC>not the kind to run.<$FFFE>
+44	<$FB00><$0023>Maybe she did. Even if we got<$FFFC>there, we alone could not save<$FFFC>them. Anyone values their life.<$FFFE>
+45	<$FB00><$0024>I don't think Brenda ran. She<$FFFC>is blunt, but she made me notice<$FFFC>my own faults.<$FFFE>
+46	<$FFF8>‥‥<$FFF6><$FB00><$0025>True. And she seems to have<$FFFC>a purpose we do not know.<$FFFD><$FB00><$0026>I doubt she would vanish before<$FFFC>finishing it.<$FFFE>
+47	<$FFF8><$FFFA><$FB00><$0027>‥‥‥.<$FFFE>
+48	<$FB00><$0028>Don't suspect people, Alfred.<$FFFE>
+49	<$FB00><$0029>Y-yes, of course. Brenda is our<$FFFC>comrade！<$FFFE>
+50	<$FB00><$002A>I understand wanting to doubt in<$FFFC>this situation. But for now,<$FFFC>trust her.<$FFFE>
+51	<$FB00><$002B>What‥‥ is that sound<$FFF5><$FFF8>‥‥？<$FFFE>
+52	<$FB00><$002C>Ah, that！<$FFFE>
+53	<$FB00><$002D>That is<$FFF5><$FFF8>‥‥.<$FFFE>
+54	<$FB00><$002E>N-no way<$FFF5><$FFF8>‥‥.<$FFFE>
+55	‥<$FE28>‥<$FE28><$FB00><$002F>An ancient legacy<$FFF5><$FFF8>‥‥.<$FFFE>
+56	<$FB00><$0030>Amazing<$FFF5><$FFF8>‥‥.<$FFFE>
+57	<$FB00><$0031>Hey！ Sorry for the wait！<$FFFE>
+58	<$FB00><$0032>With this, we can fly there at<$FFFC>once！<$FFFE>
+59	<$0000>After the Liberlisters were freed from Gaiana Prison, Salrath's main force was still surrounded by a huge army.<$FFFD><$0000>The distance was too great for a rescue, and the situation looked hopeless.<$FFFD><$0000>But Brenda appeared with a flying ship from somewhere, letting them reach the battlefield sky in little time.<$FFFD><$0000>There they found the flying corps acting as Kalxath's eyes‥‥.<$FFFE>
+60	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>
