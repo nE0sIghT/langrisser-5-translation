@@ -625,5 +625,7 @@
  "スキル:毒攻撃3{FFFF}": "Skill:Psn 3",
  "スキル:石化攻撃3{FFFF}": "Skill:Ston 3",
  "スキル:炎攻撃{FFFF}": "Skill:Flame",
- "追加スキル:毒攻撃4{FFFF}": "New skill:Psn4"
+ "追加スキル:毒攻撃4{FFFF}": "New skill:Psn4",
+ "ウォーロック{FFFF}": "Warlock",
+ "アルラウネ{FFFF}": "Alraune"
 }

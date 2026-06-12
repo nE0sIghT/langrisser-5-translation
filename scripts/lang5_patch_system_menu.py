@@ -5,6 +5,12 @@ Strings are FFFF-terminated token runs at fixed offsets, so an EN
 replacement must fit into the run's printable slots. The EN table includes
 pair glyphs (two letters per cell), which makes most labels fit. Runs whose
 translation does not fit are reported and left untouched.
+
+Two passes: first whole runs between FFFF terminators are matched against
+the map; then the file is scanned for verbatim leftover JP strings (token
+sequence + FFFF). The second pass catches strings preceded by binary data
+instead of a terminator (the first entry of each name table, strings inside
+unit records), which the run splitter merges into overlong junk runs.
 """
 import argparse
 import csv
@@ -96,9 +102,58 @@ def main() -> None:
         rows.append({"offset_hex": f"0x{a*2:05X}", "word_count": str(len(seg)),
                      "decoded_jp": dec, "mapped_en": en or "", "status": status})
 
+    # Second pass: scan for verbatim JP strings the run splitter missed.
+    ch2tok_jp: dict[str, int] = {}
+    for tok, ch in tok2ch.items():
+        if len(ch) == 1 and ch not in ch2tok_jp:
+            ch2tok_jp[ch] = tok
+
+    candidates = []
+    for dec, en in menu_map.items():
+        body = dec[: -len("{FFFF}")]
+        if not en or not dec.endswith("{FFFF}") or "{" in body or len(body) < 2:
+            continue
+        try:
+            jp = [ch2tok_jp[c] for c in body]
+        except KeyError:
+            continue
+        candidates.append((jp, dec, en))
+    # Longest first so a key never patches the tail of a longer JP string.
+    candidates.sort(key=lambda kv: len(kv[0]), reverse=True)
+
+    blob = bytearray(struct.pack(f"<{len(words)}H", *words))
+    space = None
+    for jp, dec, en in candidates:
+        try:
+            toks = codec.encode(en.translate(ASCII_NORMALIZE))
+        except ValueError:
+            continue
+        if len(toks) > len(jp):
+            continue  # does not fit; first pass already reported the misfit
+        if space is None:
+            space = codec.char2tok.get(" ", 0)
+        pat = struct.pack(f"<{len(jp) + 1}H", *jp, 0xFFFF)
+        new = struct.pack(f"<{len(jp)}H", *(toks + [space] * (len(jp) - len(toks))))
+        start = args.min_offset
+        while True:
+            i = blob.find(pat, start)
+            if i < 0:
+                break
+            if i % 2:
+                start = i + 1
+                continue
+            if blob[i : i + len(new)] != new:
+                blob[i : i + len(new)] = new
+                patched += 1
+                rows.append({"offset_hex": f"0x{i:05X}",
+                             "word_count": str(len(jp) + 1),
+                             "decoded_jp": dec, "mapped_en": en,
+                             "status": "ok-scan"})
+            start = i + len(pat)
+
     out_path = Path(args.system_out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_bytes(struct.pack(f"<{len(words)}H", *words) + src[len(words) * 2 :])
+    out_path.write_bytes(bytes(blob) + src[len(words) * 2 :])
 
     rep = Path(args.report_csv)
     rep.parent.mkdir(parents=True, exist_ok=True)
