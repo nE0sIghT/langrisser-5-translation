@@ -57,8 +57,9 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
 - The font has no `; — – !? /`; use `,` and full-width `！？`. Ellipsis is
   the single-cell `…` (a trailing period merges into it: `…` not `….`).
   Write ordinary spaces in translated text; the encoder may fold them into
-  narrow `space+letter`, `letter+space`, and `punctuation+space` glyphs when
-  those assignments exist. Do not hand-remove spaces to save bytes.
+  narrow `space+letter`, `letter+space`, `punctuation+space`, and
+  `letter+punctuation` glyphs when those assignments exist. Do not hand-remove
+  spaces to save bytes.
 - Tight chunks: if the validator says OVER BUDGET, shorten the text; never
   drop records or tags to make it fit.
 - Compression debt: if byte-budget pressure forces wording that drops nuance,

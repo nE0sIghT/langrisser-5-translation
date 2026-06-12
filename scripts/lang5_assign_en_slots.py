@@ -22,6 +22,7 @@ WORD_RE = re.compile(r"[A-Za-z'.,0-9]+")
 SPACE_LETTER_RE = re.compile(r" ([A-Za-z0-9])")
 LETTER_SPACE_RE = re.compile(r"([A-Za-z0-9]) (?=[A-Za-z0-9])")
 PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
+LETTER_COLON_RE = re.compile(r"([A-Za-z0-9]):")
 SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…"
 PAIR_TAIL = set("abcdefghijklmnopqrstuvwxyz'.,0123456789")
 PUNCT_PAIRS = ("！？", "？！")
@@ -49,8 +50,9 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
     rules (capital-initial, digits, punctuation) and absolute priority.
     Spacing pairs are optional encodings that improve readability and save
     tokens: leading/trailing space pairs keep half-width word edges from
-    visually doubling the inter-word gap, while punctuation-space pairs render
-    punctuation plus a narrow trailing gap.
+    visually doubling the inter-word gap, punctuation-space pairs render
+    punctuation plus a narrow trailing gap, and letter-colon pairs avoid a
+    visible gap after narrow word tails like "Earth:".
     Script dialogs have room: lowercase pairs only, prioritized by frequency,
     assigned while the sacrificial pool lasts.
     """
@@ -75,6 +77,7 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
         spacing_pairs.update(" " + m.group(1) for m in SPACE_LETTER_RE.finditer(t))
         spacing_pairs.update(m.group(1) + " " for m in LETTER_SPACE_RE.finditer(t))
         spacing_pairs.update(m.group(1) + " " for m in PUNCT_SPACE_RE.finditer(t))
+        spacing_pairs.update(m.group(1) + ":" for m in LETTER_COLON_RE.finditer(t))
     for p in PUNCT_PAIRS:
         spacing_pairs[p] += 1_000_000
     for t in menu_texts:

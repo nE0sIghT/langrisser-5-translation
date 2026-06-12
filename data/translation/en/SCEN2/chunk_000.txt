@@ -24,44 +24,44 @@
 22	・Bronze<$FFFE>
 23	・Iron<$FFFE>
 24	<$FB00><$0004>To shape the specimen's growth,<$FFFC>set the spirit influences. Choose<$FFFC>the strongest one first.<$FFFE>
-25	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-26	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-27	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-28	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+25	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+26	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
+27	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
+28	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 29	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
-30	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-31	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-32	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+30	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
+31	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
+32	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 33	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
-34	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-35	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-36	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+34	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+35	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
+36	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 37	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
-38	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-39	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-40	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+38	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+39	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
+40	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 41	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
-42	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-43	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-44	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+42	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+43	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
+44	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
 45	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
-46	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-47	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
+46	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+47	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
 48	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
-49	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-50	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+49	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+50	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
 51	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
-52	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
-53	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+52	・<$FFF4>Earth:<$FFF3>Gnome<$FFFE>
+53	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 54	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
-55	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-56	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
+55	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
+56	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
 57	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
-58	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-59	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+58	・<$FFF4>Water:<$FFF3>Undine<$FFFE>
+59	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 60	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
-61	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-62	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
+61	・<$FFF4>Fire:<$FFF3>Salamander<$FFFE>
+62	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 63	<$FB00><$0007>A zodiac gem will boost his<$FFFC>growth. Choose the specimen's<$FFFC>guardian sign.<$FFFE>
 64	・Capricorn<$FFFE>
 65	・Aquarius<$FFFE>

@@ -107,7 +107,8 @@ Capacity facts learned while building:
 
 Done: stages 0-3. Toolchain with byte-identical round-trip; font table 100%
 mapped; EN glyph system (Spleen 6x12 pairs, two letters per cell, narrow
-`space+letter`, `letter+space` and `punctuation+space` pairs, baseline-aligned letters and
+`space+letter`, `letter+space`, `punctuation+space` and `letter+punctuation`
+pairs, baseline-aligned letters and
 digits, lowered ellipsis, native digit/question/exclamation/colon visual
 overrides); full
 EN startup quiz; menu/UI/name runs; width-aware reflow; PPF builds without

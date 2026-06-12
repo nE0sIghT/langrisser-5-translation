@@ -25,7 +25,7 @@
 23	<$FB00><$000D>McLain is leading his<$FFFC>troops against the demons now.<$FFFE>
 24	<$FB00><$000E>My brother… I hope he's<$FFFC>all right.<$FFFE>
 25	<$FB00><$000F>No need to worry. He<$FFFC>fought the demons at Yeless.<$FFFD><$FB00><$0010>And he is far stronger<$FFFC>than you give him credit for.<$FFFE>
-26	<$FB00><$0011>More to the point:<$FFFC>while we draw the monsters out,<$FFFC>you slip into Velzeria Castle.<$FFFE>
+26	<$FB00><$0011>More to the point: while<$FFFC>we draw the monsters out, you slip<$FFFC>into Velzeria Castle.<$FFFE>
 27	<$FB00><$0012>True. A small band like<$FFFC>yours could creep in unseen.<$FFFE>
 28	<$FB00><$0013>The same plan we used to<$FFFC>retake Kalxath Castle.<$FFFE>
 29	<$FB00><$0014>Understood. We will settle<$FFFC>this quickly.<$FFFE>
