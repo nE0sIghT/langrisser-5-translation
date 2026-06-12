@@ -13,39 +13,39 @@
 11	・Defeat all enemies<$FFFE>
 12	・Jessica or Clarett dies<$FFFC>・All townsfolk die<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Fizzit Port, Caconsis<$FFFF>
-14	<$FB00><$0020>Um, Lady Jessica, I presume<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+14	<$FB00><$0020>Um, Lady Jessica, I presume <$FFF5><$FFF8>…<$FFFE>
 15	<$FB00><$0021>Yes, that's me. And you are？<$FFFE>
 16	<$FB00><$0022>I'm Clarett of Kalxath. I came<$FFFC>from El Sallia in search of you.<$FFFE>
-17	<$FB00><$0023>Of Kalxath<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>. <$FE3C><$FFF6><$FB00><$0024>What would you<$FFFC>want with me？<$FFFE>
-18	<$FB00><$0025>Well, you see<$FFF5><$FFF8>‥‥.<$FFFE>
-19	<$FB00><$0026>GUOOO‥‥！！<$FFFE>
+17	<$FB00><$0023>Of Kalxath<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0024>What would you<$FFFC>want with me？<$FFFE>
+18	<$FB00><$0025>Well, you see<$FFF5><$FFF8>…<$FFFE>
+19	<$FB00><$0026>GUOOO…！！<$FFFE>
 20	<$FB00><$0027>Kyaa！<$FFFE>
 21	<$FB00><$0028>What！？<$FFFE>
 22	<$FB00><$0029>Heh heh heh！ Found you at<$FFFC>last, Alhazard！<$FFFE>
-23	<$FB00><$002A>Demons？ <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$002B>In a place like<$FFFC>this！？<$FFFE>
-24	<$FFF8>‥‥<$FFF6><$FB00><$002C>Woman. Hand over Alhazard, nice<$FFFC>and quiet.<$FFFE>
+23	<$FB00><$002A>Demons？ <$FFF5><$FFF8>…<$FFF6><$FB00><$002B>In a place like<$FFFC>this！？<$FFFE>
+24	<$FFF8>…<$FFF6><$FB00><$002C>Woman. Hand over Alhazard, nice<$FFFC>and quiet.<$FFFE>
 25	<$FB00><$002D>I cannot give you this sword！<$FFFE>
 26	<$FB00><$002E>Think hard. One word from me<$FFFC>and they level this port.<$FFFD>Will you guard the sword and<$FFFC>let everyone die？<$FFFE>
-27	<$FFF8>‥‥<$FB00><$002F>Kh！<$FFFE>
-28	<$FB00><$0030>Lady Jessica<$FFF5><$FFF8>‥‥.<$FFFE>
+27	<$FFF8>…<$FB00><$002F>Kh！<$FFFE>
+28	<$FB00><$0030>Lady Jessica<$FFF5><$FFF8>…<$FFFE>
 29	<$FB00><$0031>Well？ What will it be？<$FFFE>
 30	<$FB00><$0032>If I give you the sword, you'll<$FFFC>leave the people be？<$FFFE>
 31	<$FB00><$0033>You can't, Lady Jessica！？<$FFFE>
 32	<$FB00><$0034>There we go. Now that's a wise<$FFFC>choice.<$FFFE>
 33	Handed over Alhazard！<$FFFE>
 34	<$FB00><$0035>I'll take that other sword too.<$FFFC>The Langrisser！<$FFFE>
-35	<$FFF8>‥‥‥‥.<$FFFE>
+35	<$FFF8>…<$FFFE>
 36	Handed over Langrisser！<$FFFE>
-37	<$FB00><$0037>So this is the port town of<$FFFC>Fizzit<$FFF5><$FFF8>‥‥.<$FFFE>
+37	<$FB00><$0037>So this is the port town of<$FFFC>Fizzit<$FFF5><$FFF8>…<$FFFE>
 38	<$FB00><$0038>Hold on, look over there！<$FFFE>
 39	<$FB00><$0039>Boser may be dead, but with<$FFFC>this sword in hand, anything is<$FFFC>possible.<$FFFE>
 40	<$FB00><$003A>You promised. Now leave this<$FFFC>place.<$FFFE>
 41	<$FB00><$003B>True, I'll withdraw. Just me,<$FFFC>that is！<$FFFD><$FB00><$003C>You lot must be hungry？ Eat<$FFFC>your fill！<$FFFE>
 42	<$FB00><$003D>You snake！ Breaking your<$FFFC>promise？<$FFFE>
 43	<$FB00><$003E>Promise？ What promise？ You're<$FFFC>simply naive.<$FFFE>
-44	<$FB00><$003F>Ah, that girl is<$FFF5><$FFF8>‥‥.<$FFFE>
-45	<$FB00><$0040>Bad news. Looks like that sword<$FFFC>fell into the demon's hands<$FFF5><$FFF8>‥‥.<$FFFE>
-46	<$FB00><$0041>The demons have the sword！？<$FFFC>Our key to the riddle<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$0042>After we came all this way<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+44	<$FB00><$003F>Ah, that girl is<$FFF5><$FFF8>…<$FFFE>
+45	<$FB00><$0040>Bad news. Looks like that sword<$FFFC>fell into the demon's hands<$FFF5><$FFF8>…<$FFFE>
+46	<$FB00><$0041>The demons have the sword！？<$FFFC>Our key to the riddle<$FFF5><$FFF8>… <$FFF6><$FB00><$0042>After<$FFFC>we came all this way <$FFF5><$FFF8>…<$FFFE>
 47	<$FB00><$0043>No time for that. Those demons<$FFFC>mean to attack the townsfolk.<$FFFE>
 48	<$FB00><$0044>So what's the plan？<$FFFE>
 49	<$FB00><$0045>Caconsis port or not, I won't<$FFFC>stand by while civilians are<$FFFC>slaughtered.<$FFFD><$FB00><$0046>And if he carries the sword, we<$FFFC>take it from him here and now.<$FFFE>
@@ -58,58 +58,58 @@
 56	Fire glows in a barrel. <$0000> Got<$FFFC>the <$FFF4>Flame Orb<$FFF3>！<$FFFE>
 57	A grim axe lies in the alley.<$FFFC><$0000> Got the <$FFF4>Devil Axe<$FFF3>！<$FFFE>
 58	<$FB00><$002C>Take this！<$FFFE>
-59	<$FB00><$002F>If only I had more strength‥‥<$FFFE>
-60	<$FB00><$0034>Here I come<$FFF5><$FFF8>‥‥.<$FFFE>
-61	<$FB00><$003A>Kh‥‥ that one hurt‥‥.<$FFFE>
+59	<$FB00><$002F>If only I had more strength…<$FFFE>
+60	<$FB00><$0034>Here I come<$FFF5><$FFF8>…<$FFFE>
+61	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 62	<$FB00><$003B>Leave the rest to me！<$FFFE>
-63	<$FB00><$003C>I'm counting on you‥‥<$FFFE>
+63	<$FB00><$003C>I'm counting on you…<$FFFE>
 64	<$FB00><$0058>It really is you, Miss Clarett！<$FFFE>
 65	<$FB00><$0059>Oh my, it's been a while.<$FFFE>
 66	<$FB00><$005A>I need to talk to you. Once the<$FFFC>battle's over, you'll hear me<$FFFC>out！<$FFFE>
-67	<$FB00><$005B>Eh？ <$FFF5><$FFF8><$FE78>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$005C>All right<$FFF5><$FFF8>‥‥.<$FFFE>
-68	<$FFF8>‥‥<$FFF6><$FB00><$0052>She looks just like her<$FFF5><$FFF8>‥‥.<$FFFE>
+67	<$FB00><$005B>Eh？ <$FFF5><$FFF8><$FE78>…<$FE3C>…<$FE3C><$FFF6><$FB00><$005C>All right<$FFF5><$FFF8>…<$FFFE>
+68	<$FFF8>…<$FFF6><$FB00><$0052>She looks just like her<$FFF5><$FFF8>…<$FFFE>
 69	<$FB00><$0053>What's wrong, Alfred？<$FFFE>
-70	<$FB00><$0054>That girl, I think she's the<$FFFC>one who gave me the medicine<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+70	<$FB00><$0054>That girl, I think she's the<$FFFC>one who gave me the medicine <$FFF5><$FFF8>…<$FFFE>
 71	<$FB00><$0055>The one who handed you the<$FFFC>poison？<$FFFE>
 72	<$FB00><$0056>Then go ask her.<$FFFE>
-73	<$FB00><$0057>R-right<$FFF5><$FFF8>‥‥.<$FFFE>
+73	<$FB00><$0057>R-right<$FFF5><$FFF8>…<$FFFE>
 74	<$FB00><$0075>I can fight too！<$FFFE>
 75	<$FB00><$0080>You all right, Alfred！<$FFFE>
-76	<$FB00><$0081>Sorry‥‥the rest is up to<$FFFC>you‥‥<$FFFE>
+76	<$FB00><$0081>Sorry…the rest is up to you…<$FFFE>
 77	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
 78	<$FB00><$0068>Come and get me！<$FFFE>
-79	<$FB00><$006B>Gh‥‥sloppy of me‥‥<$FFFE>
+79	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 80	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-81	<$FB00><$006D>I'm fine‥‥I can still<$FFFC>fight‥‥<$FFFE>
+81	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 82	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-83	<$FB00><$006F>‥‥I'll do that. Wouldn't want to<$FFFC>drag you down‥‥<$FFFE>
-84	<$FFF8>‥‥<$FFF6><$FB00><$005D>It's him<$FFF5><$FFF8><$FE32>‥<$FE32>‥<$FE3C>. <$FE32><$FFF6><$FB00><$005E>Why is he<$FFFC>here, of all places？<$FFFE>
+83	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
+84	<$FFF8>…<$FFF6><$FB00><$005D>It's him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FE3C>. <$FE32><$FFF6><$FB00><$005E>Why is he here,<$FFFC>of all places？<$FFFE>
 85	Now you'll see what happens when<$FFFC>you anger me！<$FFFE>
 86	<$FB00><$0054>I won't lose！<$FFFE>
-87	<$FB00><$006B>And I'd finally found Lady<$FFFC>Jessica‥‥.<$FFFC>Everyone‥for‥give‥me‥.<$FFFE>
+87	<$FB00><$006B>And I'd finally found Lady<$FFFC>Jessica… Everyone…for…give…me…<$FFFE>
 88	<$FB00><$006C>Miss Clarett！<$FFFE>
 89	Dragging townsfolk into this, now<$FFFC>I'm mad！<$FFFE>
-90	<$FB00><$0069>Ah‥‥and Langrisser still in<$FFFC>their hands‥‥.<$FFFE>
+90	<$FB00><$0069>Ah…and Langrisser still in their<$FFFC>hands…<$FFFE>
 91	<$FB00><$006A>Lady Jessica！ Stay with me, Lady<$FFFC>Jessica！<$FFFE>
 92	Kyaaa！！<$FFFE>
-93	<$FB00><$0064>I don't‥‥want to‥die‥‥.<$FFFE>
-94	<$FB00><$005F>Kyaaa！ ‥‥why‥‥why‥me‥‥.<$FFFE>
+93	<$FB00><$0064>I don't…want to…die…<$FFFE>
+94	<$FB00><$005F>Kyaaa！ …why…why…me…<$FFFE>
 95	H-heeelp～！<$FFFE>
-96	<$FB00><$0066>H-help me‥‥.<$FFFE>
-97	<$FB00><$0060>Uwah！ ‥‥wh‥‥why‥me‥‥.<$FFFE>
+96	<$FB00><$0066>H-help me…<$FFFE>
+97	<$FB00><$0060>Uwah！ …wh…why…me…<$FFFE>
 98	Eek！<$FFFE>
-99	<$FB00><$0065>Ugh‥‥it‥hurts‥‥.<$FFFE>
-100	<$FB00><$005F>Kyaaa！ ‥‥why‥‥why‥me‥‥.<$FFFE>
+99	<$FB00><$0065>Ugh…it…hurts…<$FFFE>
+100	<$FB00><$005F>Kyaaa！ …why…why…me…<$FFFE>
 101	<$FB00><$006D>Noisy pests！ I have no time to<$FFFC>play with you！<$FFFE>
 102	BRWOOO！<$FFFE>
-103	G‥GOOO‥‥<$FFFE>
+103	G…GOOO…<$FFFE>
 104	WOOOON！<$FFFE>
 105	Ugyaaah！<$FFFE>
-106	‥hu‥humans‥‥gghah！<$FFFE>
-107	No<$FFF8>‥‥. All the townsfolk, dead<$FFFC><$FFF8>‥‥<$FFFE>
+106	…hu…humans…gghah！<$FFFE>
+107	No<$FFF8>… All the townsfolk, dead <$FFF8>…<$FFFE>
 108	<$FB00><$006E>That's the last of the monsters？<$FFFE>
 109	<$FB00><$006F>So it seems.<$FFFE>
-110	U-um‥‥<$FFFE>
+110	U-um…<$FFFE>
 111	Thank you. Thanks to you we<$FFFC>weren't monster food.<$FFFE>
 112	It was nothing worth thanking.<$FFFE>
 113	Not at all. Please, let me<$FFFC>repay you somehow.<$FFFE>
@@ -120,10 +120,10 @@
 118	<$FB00><$0048>Hmph. With Alhazard mine, there's<$FFFC>no reason to linger.<$FFFE>
 119	<$FB00><$0049>Wait！<$FFFE>
 120	<$FFF7><$FB00><$004A>Wah hah hah hah！<$FFF5><$FFF8><$FFFE>
-121	<$FB00><$004B>What？ He got away<$FFF5><$FFF8>‥‥.<$FFFE>
+121	<$FB00><$004B>What？ He got away<$FFF5><$FFF8>…<$FFFE>
 122	<$FB00><$004C>But the other monsters are<$FFFC>still here.<$FFFE>
 123	<$FB00><$004D>Yeah. Saving the townsfolk comes<$FFFC>first！<$FFFE>
-124	<$FB00><$0061>Ah！ No<$FFF5><$FFF8>‥‥.<$FFFE>
+124	<$FB00><$0061>Ah！ No<$FFF5><$FFF8>…<$FFFE>
 125	<$FB00><$0062>We have to hurry！<$FFFE>
 126	<$FB00><$0063>I know！<$FFFE>
-127	<$FB00><$0067>No！ <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0068>We couldn't protect them<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE><$FFFF>
+127	<$FB00><$0067>No！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We couldn't protect them <$FFF5><$FFF8>…<$FFFE><$FFFF>

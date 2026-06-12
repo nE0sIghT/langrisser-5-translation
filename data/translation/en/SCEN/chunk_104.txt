@@ -13,8 +13,8 @@
 13	<$FB00><$0070>Emergency, Commander！<$FFFE>
 14	<$FB00><$0071>Why the panic？<$FFFE>
 15	<$FB00><$0072>Emperor Gilmore was defeated by<$FFFC>Princess Clarett and fled the<$FFFC>castle！<$FFFE>
-16	<$FB00><$0073>What！ <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0074>We cannot stay here.<$FFFC>Pull the troops back！<$FFFE>
-17	<$FFF7><$FB00><$0075>Y-yes sir‥‥.<$FFF5><$FFF8><$FFFE>
+16	<$FB00><$0073>What！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0074>We cannot stay here. Pull<$FFFC>the troops back！<$FFFE>
+17	<$FFF7><$FB00><$0075>Y-yes sir…<$FFF5><$FFF8><$FFFE>
 18	<$FB00><$0076>Hey, did you hear？ Gilmore<$FFFC>lost.<$FFFE>
 19	<$FB00><$0077>Then what happens to us？<$FFFE>
 20	<$FB00><$0078>No one wants to hunt fugitives.<$FFFC>Before that happens, let us<$FFFC>surrender to Salrath.<$FFFE>
@@ -22,7 +22,7 @@
 22	<$FB00><$007A>I heard Princess Clarett's<$FFFC>policies put commoners first.<$FFFE>
 23	<$FB00><$007B>Is that true？<$FFFE>
 24	<$FB00><$007C>You did not know？ It is a<$FFFC>big rumor among peasants and<$FFFC>townspeople.<$FFFE>
-25	<$FB00><$007D>I see！ Then that settles it<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+25	<$FB00><$007D>I see！ Then that settles it <$FFF5><$FFF8>…<$FFFE>
 26	Salrath camp<$FFFF>
 27	<$FB00><$007E>Lord Lenard, a courier just<$FFFC>arrived reporting Gilmore<$FFFC>defeated！<$FFFE>
 28	<$FB00><$007F>What, I see！ We won！<$FFFE>

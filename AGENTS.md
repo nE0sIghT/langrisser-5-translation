@@ -50,7 +50,7 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
   tail becomes a phantom selectable row. Multi-bullet objective records
   keep their structure.
 - The font has no `; — – !? /`; use `,` and full-width `！？`. Ellipsis is
-  `‥` (often doubled `‥‥`).
+  the single-cell `…` (a trailing period merges into it: `…` not `….`).
 - Tight chunks: if the validator says OVER BUDGET, shorten the text; never
   drop records or tags to make it fit.
 - Compression debt: if byte-budget pressure forces wording that drops nuance,

@@ -23,10 +23,10 @@
 21	<$FB00><$0065>Don't underestimate a mercenary's<$FFFC>information network.<$FFFD><$FB00><$0071>Hired blades live by the<$FFFC>contract.<$FFFD>We keep tabs on every power<$FFFC>around.<$FFFE>
 22	<$FB00><$0066>So it would seem.<$FFFE>
 23	<$FB00><$0067>Word I got says Gizarof's in a<$FFFC>tight spot himself.<$FFFD>Times like that, a man wants<$FFFC>able hands, no？<$FFFE>
-24	<$FFF8>‥‥。<$FFFE>
+24	<$FFF8>…<$FFFE>
 25	・Brenda would do fine.<$FFFE>
 26	・True enough.<$FFFE>
-27	・Able hands, huh‥‥.<$FFFE>
+27	・Able hands, huh…<$FFFE>
 28	<$FB00><$0068>Right？<$FFFE>
 29	<$FB00><$0069>That back there was a fluke, I<$FFFC>tell you.<$FFFE>
 30	<$FB00><$006A>What's that？ You doubt me？<$FFFE>

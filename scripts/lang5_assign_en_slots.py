@@ -19,7 +19,7 @@ from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, wor
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 WORD_RE = re.compile(r"[A-Za-z'.,0-9]+")
-SINGLES = "abcdefghijklmnopqrstuvwxyz'.,"
+SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…"
 PAIR_TAIL = set("abcdefghijklmnopqrstuvwxyz'.,0123456789")
 
 

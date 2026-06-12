@@ -20,12 +20,12 @@
 20	<$FB00><$0006>My father has joined the<$FFFC>alliance. But I intend to fight<$FFFC>as a Federation marshal.<$FFFE>
 21	<$FB00><$0007>I understand your resolve. But we<$FFFC>must avoid misunderstandings in<$FFFC>many respects.<$FFFE>
 22	<$FB00><$0008>Misunderstandings！？<$FFFE>
-23	<$FB00><$0009>That you might use your marshal<$FFFC>rank to gather soldiers and aid<$FFFC>the Three-Country Alliance‥‥.<$FFFE>
+23	<$FB00><$0009>That you might use your marshal<$FFFC>rank to gather soldiers and aid<$FFFC>the Three-Country Alliance…<$FFFE>
 24	<$FB00><$000A>What！？ <$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that too,<$FFFC>Premier？<$FFFE>
-25	<$FB00><$000C>No, I do not<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$000D>But we must<$FFFC>not let needless suspicion<$FFFC>trouble nobles or citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
+25	<$FB00><$000C>No, I do not<$FFF5><$FFF8>… <$FFF6><$FB00><$000D>But we must<$FFFC>not let needless suspicion<$FFFC>trouble nobles or citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
 26	<$FFF7><$FB00><$0010>Yes sir！<$FFFE>
 27	<$FB00><$0011>What do you intend？<$FFFE>
-28	<$FB00><$0012>You will stay in a cell for a<$FFFC>while. During that time, I will<$FFFC>hold army command.<$FFFD><$FB00><$0013>If the misunderstanding clears,<$FFFC>you should be released soon<$FFF5><$FFF8>‥‥.<$FFFE>
+28	<$FB00><$0012>You will stay in a cell for a<$FFFC>while. During that time, I will<$FFFC>hold army command.<$FFFD><$FB00><$0013>If the misunderstanding clears,<$FFFC>you should be released soon<$FFF5><$FFF8>…<$FFFE>
 29	<$FB00><$0014>What are you thinking, Russel！<$FFFD><$FB00><$0015>Ru<$FFF8>ss<$FFF7><$00E4><$00E5><$00E5><$00E6>el！！<$FFF5><$FFF8><$FFFE>
 30	Reynorz Army<$0000>VS<$0000>Federation Army<$FFFF>
 31	<$FB00><$0016>Tighten defense and withdraw<$FFFC>slowly！ Leave no openings！<$FFFE>
@@ -36,12 +36,12 @@
 36	<$FB00><$001C>What is wrong？ The left wing is<$FFFC>slow！<$FFFE>
 37	<$FB00><$001D>Emergency！ The left wing is<$FFFC>under attack！<$FFFE>
 38	<$FB00><$001E>Of course it is, this is war！<$FFFE>
-39	<$FB00><$001F>N-no, the attackers appear to<$FFFC>be Rochefort troops<$FFF5><$FFF8>‥‥.<$FFFE>
+39	<$FB00><$001F>N-no, the attackers appear to<$FFFC>be Rochefort troops<$FFF5><$FFF8>…<$FFFE>
 40	<$FB00><$0020>What！？<$FFFE>
 41	<$FB00><$0021>What should we do, Lord Alvince？<$FFFE>
 42	<$FB00><$0022>Forget the half-dead Federation<$FFFC>army！ Focus on Rochefort！ Do<$FFFC>not let them escape！<$FFFE>
 43	<$FB00><$0023>Yes sir！<$FFFE>
-44	<$FB00><$0024>Damn Lainforce, what is he thinking<$FFFC><$FFF5><$FFF8>‥‥！<$FFFE>
+44	<$FB00><$0024>Damn Lainforce, what is he thinking<$FFFC><$FFF5><$FFF8>…！<$FFFE>
 45	Rochefort Army, Near Camp<$FFFF>
 46	<$FB00><$0025>Good, now！ Everyone hide in the<$FFFC>forest！<$FFFE>
 47	<$FB00><$0026>Understood！<$FFFE>

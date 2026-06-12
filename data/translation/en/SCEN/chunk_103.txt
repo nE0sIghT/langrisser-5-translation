@@ -21,5 +21,5 @@
 21	<$FB00><$0058>True. With fewer troops and<$FFFC>guerrilla tactics, we could wear<$FFFC>down the enemy.<$FFFD><$FB00><$0059>But this is no ordinary battle.<$FFFC>It is a revolution.<$FFFD><$FB00><$005A>It must be a victory won by<$FFFC>the people, not by soldiers<$FFFC>alone.<$FFFE>
 22	<$FB00><$005B>So that is why you mixed in<$FFFC>the peasants？<$FFFE>
 23	<$FB00><$005C>Yes. So we must protect them and<$FFFC>avoid deaths.<$FFFD><$FB00><$005D>Our role is to draw Kalxath<$FFFC>troops here so Clarett can enter.<$FFFD>We need not defeat them.<$FFFE>
-24	<$FB00><$005E>I understand. <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$005F>Yes. The<$FFFC>soldiers we fight now merely obey<$FFFC>Gilmore.<$FFFD><$FB00><$0060>If they will be future allies, we<$FFFC>should avoid hurting them.<$FFFE>
+24	<$FB00><$005E>I understand. <$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Yes. The soldiers<$FFFC>we fight now merely obey Gilmore.<$FFFD><$FB00><$0060>If they will be future allies, we<$FFFC>should avoid hurting them.<$FFFE>
 25	<$FB00><$0061>Exactly. Keep defending a little<$FFFC>longer. During that time, Princess<$FFFC>Clarett will surely defeat Gilmore.<$FFFE>

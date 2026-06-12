@@ -1,12 +1,15 @@
 {
  "ファイター{FFFF}": "Fighter",
  "ダークファイター{FFFF}": "Dark Fighter",
+ "女{FFFF}": "♀",
  "子供{FFFF}": "Kid",
  "メイド長{FFFF}": "Maids",
  "バンディッド{FFFF}": "Bandit",
  "ストーンゴーレム{FFFF}": "Stone Golem",
  "ヒーラー{FFFF}": "Healer",
  "ダークヒーラー{FFFF}": "Dark Healer",
+ "ウォーロック{FFFF}": "Warlock",
+ "アルラウネ{FFFF}": "Alraune",
  "パイレーツ{FFFF}": "Pirate",
  "ホークナイト{FFFF}": "Hawk Knight",
  "ペガサスナイト{FFFF}": "Pegasus Knt.",
@@ -14,6 +17,7 @@
  "ゲルギャザー{FFFF}": "Gel Gather",
  "グラディエーター{FFFF}": "Gladiator",
  "ワーベア{FFFF}": "Werebear",
+ "男{FFFF}": "♂",
  "シーフ{FFFF}": "Thief",
  "ブロンズゴーレム{FFFF}": "Bronze Golem",
  "クレリック{FFFF}": "Cleric",
@@ -625,9 +629,5 @@
  "スキル:毒攻撃3{FFFF}": "Skill:Psn 3",
  "スキル:石化攻撃3{FFFF}": "Skill:Ston 3",
  "スキル:炎攻撃{FFFF}": "Skill:Flame",
- "追加スキル:毒攻撃4{FFFF}": "New skill:Psn4",
- "ウォーロック{FFFF}": "Warlock",
- "アルラウネ{FFFF}": "Alraune",
- "女{FFFF}": "♀",
- "男{FFFF}": "♂"
+ "追加スキル:毒攻撃4{FFFF}": "New skill:Psn4"
 }

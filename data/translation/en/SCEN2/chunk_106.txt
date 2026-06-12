@@ -13,7 +13,7 @@
 11	Anti-Demon Force HQ<$FFFF>
 12	<$FB00><$0048>Excuse me！ Monsters ambushed us！<$FFFC>The scouts are already fighting！<$FFFE>
 13	<$FB00><$0049>What is the situation？<$FFFE>
-14	<$FB00><$004A>We are not losing, but there<$FFFC>are so many of them<$FFF5><$FFF8>‥‥.<$FFFE>
+14	<$FB00><$004A>We are not losing, but there<$FFFC>are so many of them<$FFF5><$FFF8>…<$FFFE>
 15	<$FB00><$004B>Jessica was right to advise<$FFFC>adding Slayers to the scouts.<$FFFE>
 16	<$FB00><$004C>But Slayers alone lack finishing<$FFFC>power. I will go before it is<$FFFC>too late.<$FFFE>
 17	<$FB00><$004D>Please be careful, McLaine.<$FFFE>

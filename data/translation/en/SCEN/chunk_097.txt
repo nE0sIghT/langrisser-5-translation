@@ -13,23 +13,23 @@
 11	Salrath, Duke Lenard's Manor<$FFFF>
 12	<$FB00><$005C>Thank you for waiting. What does<$FFFC>a wanted criminal want？<$FFFE>
 13	<$FB00><$005D>Do you also believe I killed my<$FFFC>father？<$FFFE>
-14	<$FB00><$005E>No. I doubt any noble believes<$FFFC>it.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$005F>Now, your business.<$FFFE>
+14	<$FB00><$005E>No. I doubt any noble believes<$FFFC>it.<$FFFD><$FFF8>…<$FFF6><$FB00><$005F>Now, your business.<$FFFE>
 15	<$FB00><$0060>Gilmore seized the Empire while<$FFFC>I was away. Please help me take<$FFFC>power back.<$FFFE>
 16	<$FB00><$0061>And what exactly should I do？<$FFFE>
 17	<$FB00><$0062>I told you, lend me your<$FFFC>strength.<$FFFE>
 18	<$FB00><$0063>Be specific. Do you expect help<$FFFC>from a vague plea？<$FFFE>
-19	<$FFF8><$FB00><$0064>‥‥‥.<$FFFE>
+19	<$FFF8><$FB00><$0064>…<$FFFE>
 20	<$FB00><$0065>While you were gone, Gilmore<$FFFC>became Emperor and took power.<$FFFD><$FB00><$0066>He lets nobles exploit the<$FFFC>people. For us, his rule is<$FFFC>comfortable.<$FFFD><$FB00><$0067>As I said, no noble truly<$FFFC>thinks you killed the Emperor.<$FFFD><$FB00><$0068>But if you return, we lose<$FFFC>those privileges.<$FFFE>
 21	<$FB00><$0069>Do you think that way too？<$FFFE>
-22	<$FB00><$006A>I am a noble.<$FFFD><$FB00><$006B>I dislike exploitation, but to<$FFFC>oppose the nobles I need a<$FFFC>better prize<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$006C>Better than now.<$FFFD><$FB00><$006D>What can you give me？<$FFFE>
-23	<$FFF8>‥‥‥<$FFF6><$FB00><$006E>But Gilmore‥‥ he stole<$FFFC>the country<$FFF5><$FFF8>‥‥.<$FFFE>
+22	<$FB00><$006A>I am a noble.<$FFFD><$FB00><$006B>I dislike exploitation, but to<$FFFC>oppose the nobles I need a<$FFFC>better prize<$FFF5><$FFF8>…<$FFF6><$FB00><$006C>Better than now.<$FFFD><$FB00><$006D>What can you give me？<$FFFE>
+23	<$FFF8>…<$FFF6><$FB00><$006E>But Gilmore… he stole the<$FFFC>country<$FFF5><$FFF8>…<$FFFE>
 24	<$FB00><$006F>If life improves for them, nobles<$FFFC>won't curse him.<$FFFD><$FB00><$0070>Give up. This began because the<$FFFC>princess left her country too<$FFFC>long.<$FFFE>
-25	<$FB00><$0071>But I fought demons and searched<$FFFC>for Jessica‥‥<$FFFE>
+25	<$FB00><$0071>But I fought demons and searched<$FFFC>for Jessica…<$FFFE>
 26	<$FB00><$0072>Even against demons, you relied<$FFFC>on Jessica.<$FFFD><$FB00><$0073>Perhaps the search was an excuse<$FFFC>to flee the Empire's chaos？<$FFFE>
-27	<$FFF8><$FB00><$0074>‥‥‥.<$FFFE>
+27	<$FFF8><$FB00><$0074>…<$FFFE>
 28	<$FB00><$0075>If such dependence returns to<$FFFC>power, this will repeat.<$FFFD><$FB00><$0076>I won't endanger my soldiers.<$FFFC>Better to leave things be.<$FFFD><$FB00><$0077>Now leave.<$FFFE>
 29	Three-Country Alliance,<$FFFC>Lainforce's Castle<$FFFF>
-30	<$FFF8>‥‥<$FFF6><$FB00><$0078>Yes. I want back the lands<$FFFC>Gizarof stole.<$FFFE>
+30	<$FFF8>…<$FFF6><$FB00><$0078>Yes. I want back the lands<$FFFC>Gizarof stole.<$FFFE>
 31	<$FB00><$0079>Lord Lambert has no objection？<$FFFE>
 32	<$FB00><$007A>Y, yes.<$FFFE>
 33	<$FB00><$007B>The Federation let Gizarof run<$FFFC>wild. We must guide the people<$FFFC>correctly.<$FFFE>

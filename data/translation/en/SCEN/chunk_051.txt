@@ -14,7 +14,7 @@
 12	<$FB00><$0003>This is the place？ No one is<$FFFC>here.<$FFFE>
 13	<$FB00><$0004>Strong magic lingers here.<$FFFE>
 14	<$FB00><$0005>Then this is it？<$FFFE>
-15	<$FB00><$0006>Then only one answer<$FFF5><$FFF8>‥‥.<$FFFE>
+15	<$FB00><$0006>Then only one answer<$FFF5><$FFF8>…<$FFFE>
 16	<$FB00><$0007>We are too late.<$FFFE>
 17	<$FB00><$0008>Caconsis took it. Damn.<$FFFE>
 18	<$FB00><$0009>No choice. Master ordered us to<$FFFC>recover the Sage's Crystal.<$FFFE>
@@ -23,11 +23,11 @@
 21	At Gizarof's Lab<$FFFF>
 22	<$FB00><$0077>Guh<$FFF7>ah！<$FFFE>
 23	<$FB00><$0078>We did it！<$FFFE>
-24	<$FFF8><$FB00><$0079>‥Nngh‥‥,<$FFF6>why‥‥ I took the<$FFFC>dark god‥gained Alhazard‥‥, yet<$FFFC>I lose to humans<$FFF5><$FFF8>‥‥？<$FFFE>
-25	<$FB00><$007A>You know why best, don't you？<$FFFC><$FFF5><$FFF8><$FE28>‥<$FE14>‥<$FE14><$FFF6><$FB00><$007B>We too believed in ourselves.<$FFFE>
+24	<$FFF8><$FB00><$0079>…Nngh…,<$FFF6>why… I took the dark<$FFFC>god…gained Alhazard…, yet I<$FFFC>lose to humans<$FFF5><$FFF8>…？<$FFFE>
+25	<$FB00><$007A>You know why best, don't you？<$FFFC><$FFF5><$FFF8><$FE28>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>We too believed in ourselves.<$FFFE>
 26	<$FB00><$007C>Exactly. You used people for<$FFFC>power.<$FFFD>We made friends our strength.<$FFFE>
 27	<$FB00><$007D>One who trusts no one drowns in<$FFFC>his own power. How lonely.<$FFFE>
-28	<$FB00><$007E>I refuse‥‥ I will not accept<$FFFC>this‥‥ I‥will<$FFF5><$FFF8><$FE28>‥<$FE28>‥<$FE28><$FFFE>
-29	<$FFFA><$FB00><$000C>Pitiful man‥‥.<$FFFE>
+28	<$FB00><$007E>I refuse… I will not accept<$FFFC>this… I…will<$FFF5><$FFF8><$FE28>…<$FE28>…<$FE28><$FFFE>
+29	<$FFFA><$FB00><$000C>Pitiful man…<$FFFE>
 30	<$0000><$F600><$0000>'s group reached<$FFFC>the demon stronghold, but<$FFFC>Caconsis had taken the Sage's<$FFFC>Crystal.<$FFFD><$0000>As they gave chase, Aizer<$FFFC>blocked the way.<$FFFE>
 31	Victory<$FFFC><$0000><$FFFC>・Defeat Aizer<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

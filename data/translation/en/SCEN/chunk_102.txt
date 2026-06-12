@@ -16,12 +16,12 @@
 14	<$FB00><$0079>I see. And the message？<$FFFE>
 15	<$FB00><$007A>Yes. Marshal Lanford is to report<$FFFC>to the castle at once.<$FFFE>
 16	<$FB00><$007B>Return！？ Does he understand the<$FFFC>situation？<$FFFE>
-17	<$FFF8>‥‥<$FFF6><$FB00><$007C>No, forgive me. Blaming you<$FFFC>changes nothing.<$FFFE>
+17	<$FFF8>…<$FFF6><$FB00><$007C>No, forgive me. Blaming you<$FFFC>changes nothing.<$FFFE>
 18	<$FB00><$007D>There is one more thing. Your<$FFFC>request for reinforcements was<$FFFC>denied.<$FFFE>
-19	<$FFF7>‥<$FE3C><$FB00><$007E>Wh<$FFF5>‥<$FE3C>‥<$FE3C>！？<$FFFE>
-20	<$FB00><$007F>Premier Russel decided. He fears<$FFFC>concentrating our weakened troops<$FFFD>could invite invasion‥‥.<$FFFE>
-21	<$FB00><$0080>But without reinforcements, they<$FFFC>will collapse the Federation from<$FFFC>within！<$FFFD><$FFF8>‥‥<$FB00><$0081>Kh！<$FFFD><$FFF6><$FB00><$0082>What is he thinking！？<$FFFE>
-22	<$FB00><$0083>Lord Lanford<$FFF5><$FFF8>‥‥.<$FFFE>
+19	<$FFF7>…<$FE3C><$FB00><$007E>Wh<$FFF5>…<$FE3C>…<$FE3C>！？<$FFFE>
+20	<$FB00><$007F>Premier Russel decided. He fears<$FFFC>concentrating our weakened troops<$FFFD>could invite invasion…<$FFFE>
+21	<$FB00><$0080>But without reinforcements, they<$FFFC>will collapse the Federation from<$FFFC>within！<$FFFD><$FFF8>…<$FB00><$0081>Kh！<$FFFD><$FFF6><$FB00><$0082>What is he thinking！？<$FFFE>
+22	<$FB00><$0083>Lord Lanford<$FFF5><$FFF8>…<$FFFE>
 23	<$FB00><$0084>Emily！<$FFFE>
 24	<$FB00><$0085>Yes, Marshal.<$FFFE>
 25	<$FB00><$0086>I must return to the castle.<$FFFC>You command defense here. Do<$FFFC>not<$FFFD>attack first. Clear？<$FFFE>

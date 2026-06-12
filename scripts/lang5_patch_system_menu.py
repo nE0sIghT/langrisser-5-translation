@@ -122,6 +122,24 @@ def main() -> None:
     candidates.sort(key=lambda kv: len(kv[0]), reverse=True)
 
     blob = bytearray(struct.pack(f"<{len(words)}H", *words))
+    GLYPH_MAX = 1820
+
+    def at_string_start(i: int) -> bool:
+        """A match must begin a string, not continue one: tails of longer
+        strings (装備 inside 剣装備) and words inside untranslated
+        descriptions must stay untouched. A string starts after a
+        terminator, a padding space, a non-glyph word, or the tail of an
+        ascending small-step offset table that indexes the string block."""
+        if i <= args.min_offset:
+            return True
+        prev = struct.unpack_from("<H", blob, i - 2)[0]
+        if prev in (0x0000, 0xFFFF) or prev > GLYPH_MAX:
+            return True
+        if i < 8:
+            return False
+        w = struct.unpack_from("<4H", blob, i - 8)
+        return all(0 < w[k + 1] - w[k] <= 16 for k in range(3))
+
     space = None
     for jp, dec, en in candidates:
         try:
@@ -141,6 +159,9 @@ def main() -> None:
                 break
             if i % 2:
                 start = i + 1
+                continue
+            if not at_string_start(i):
+                start = i + 2
                 continue
             if blob[i : i + len(new)] != new:
                 blob[i : i + len(new)] = new

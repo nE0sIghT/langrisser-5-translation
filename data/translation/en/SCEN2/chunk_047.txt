@@ -16,10 +16,10 @@
 14	<$FB00><$0005>Mm. And the ship？<$FFFE>
 15	<$FB00><$0006>Matching the terrain is taking<$FFFC>time, but we've narrowed it down<$FFFC>considerably.<$FFFE>
 16	<$FB00><$0007>I see. That side fares well,<$FFFC>then.<$FFFD>And the key specimen, is it<$FFFC>captured？<$FFFE>
-17	<$FB00><$0008>Aizer is in pursuit as we speak,<$FFFC>but has yet to take them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？<$FFFC>However able Aizer may be‥‥.<$FFFE>
+17	<$FB00><$0008>Aizer is in pursuit as we speak,<$FFFC>but has yet to take them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？<$FFFC>However able Aizer may be…<$FFFE>
 18	<$FB00><$000A>No need to worry. The man has<$FFFC>earned my trust.<$FFFD>Though against a specimen, small<$FFFC>wonder he struggles.<$FFFD><$FB00><$000B>I saw it with my own eyes.<$FFFC>The specimens' potential runs<$FFFC>higher than expected.<$FFFD><$FB00><$000C>Heh, Gizarof. More than a mere<$FFFC>schemer after all. Impressive<$FFFC>work.<$FFFD><$FB00><$000D>Which reminds me. How goes the<$FFFC>study of the recovered specimen？<$FFFE>
 19	<$FB00><$000E>Sir. His state has stabilized.<$FFFD>But his ego is strong. The<$FFFC>doctors can barely handle him.<$FFFE>
-20	<$FB00><$000F>Ego‥‥the strength of will.<$FFFC>Interesting.<$FFFD>I will see him later myself.<$FFFC>You carry on with the plan.<$FFFE>
+20	<$FB00><$000F>Ego…the strength of will.<$FFFC>Interesting.<$FFFD>I will see him later myself.<$FFFC>You carry on with the plan.<$FFFE>
 21	<$FB00><$0010>By your will.<$FFFE>
 22	Outside the town of Knox<$FFFF>
 23	<$FB00><$0011>Processing complete.<$FFFE>
@@ -28,12 +28,12 @@
 26	<$FB00><$0014>I have medicine to bring my<$FFFC>father. Please be quick.<$FFFE>
 27	<$FB00><$0015>If you want it quick, you'll<$FFFC>cooperate with us.<$FFFE>
 28	<$FB00><$0016>Here, the toll. 20 for the<$FFFC>two of us.<$FFFE>
-29	<$FB00><$0017>Not nearly enough<$FFF5><$FFF8>‥‥.<$FFFE>
+29	<$FB00><$0017>Not nearly enough<$FFF5><$FFF8>…<$FFFE>
 30	<$FB00><$0018>What！？ What do you mean？<$FFFE>
 31	<$FB00><$0019>You look too well-off for<$FFFC>plain adventurers.<$FFFD>The toll for you is more like<$FFFC>100. For two, 200.<$FFFE>
 32	<$FB00><$001A>200？ That's ten times the<$FFFC>usual！<$FFFE>
 33	<$FB00><$001B>Now, if the little lady pays with<$FFFC>her body, I might knock it<$FFFC>down a bit？<$FFFE>
-34	<$FFF8>‥‥<$FFF6><$FB00><$001C>There he goes again, the<$FFFC>captain's bad habit<$FFF5><$FFF8>‥‥.<$FFFE>
+34	<$FFF8>…<$FFF6><$FB00><$001C>There he goes again, the<$FFFC>captain's bad habit<$FFF5><$FFF8>…<$FFFE>
 35	<$FB00><$001D>You there！ Shut it！<$FFFE>
 36	<$FB00><$001E>Well？ What will it be？<$FFFE>
 37	<$FB00><$001F>D, don't insult me！ Why should<$FFFC>I pay with my body！<$FFFD><$FB00><$0020>Besides, you're no Federation<$FFFC>troops！ What are you doing in<$FFFC>this town！<$FFFE>
@@ -42,7 +42,7 @@
 40	<$FB00><$0024>You little wench！ Who do you<$FFFC>think I am！<$FFFD>I am the great Goldry, a man<$FFFC>of renown in the Caconsis army！<$FFFE>
 41	<$FB00><$0025>Never heard of you！<$FFFE>
 42	<$FB00><$0026>Alfred, let's leave these clowns<$FFFC>be and hurry on.<$FFFE>
-43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0028>is that all<$FFFC>right<$FFF5><$FFF8>‥‥.<$FFFE>
+43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>…<$FFF6><$FB00><$0028>is that all right<$FFF5><$FFF8>…<$FFFE>
 44	<$FB00><$0029>Of course it's not！ Don't take<$FFFC>us lightly！<$FFFE>
 45	<$FB00><$002A>What！ You want a fight！<$FFFE>
 46	<$0000>Having shaken Aizer's pursuit,<$FFFC><$F600><$0000> and Lambda reach<$FFFC>Knox, a town on the pass.<$FFFD><$0000>There they see a boy and<$FFFC>girl harassed by Goldry, captain<$FFFC>of the Caconsis garrison.<$FFFD><$0000>To save them, <$F600><$0000><$FFFC>and Lambda square off against<$FFFC>the Caconsis troops.<$FFFE>

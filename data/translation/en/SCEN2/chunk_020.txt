@@ -48,50 +48,50 @@
 46	We will go on ahead！<$FFFE>
 47	Good luck！<$FFFE>
 48	We will deliver these supplies！<$FFFE>
-49	Whew！ I thought I was<$FFFC>dead‥‥.<$FFFE>
+49	Whew！ I thought I was dead…<$FFFE>
 50	A red lotus blooms. A woman<$FFFC>appears on the lake.<$FFFD>You are fated to change the<$FFFC>age. Take this sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
 51	<$FB00><$002B>Take this！<$FFFE>
 52	<$FFF7><$FB00><$002A>Hah！<$FFF5><$FFF8><$FFFE>
-53	<$FB00><$002E>I'm sorry‥‥everyone‥‥<$FFFE>
+53	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
 54	<$FB00><$0046>Let's go.<$FFFE>
 55	<$FB00><$0047>Come if you dare.<$FFFE>
-56	<$FB00><$004B>No‥‥ I lost‥‥.<$FFFE>
+56	<$FB00><$004B>No… I lost…<$FFFE>
 57	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
-58	‥‥<$FB00><$004D>Sorry‥‥.<$FFFE>
+58	…<$FB00><$004D>Sorry…<$FFFE>
 59	<$FB00><$0075>I can fight too！<$FFFE>
 60	<$FB00><$0076>I won't lose！<$FFFE>
-61	<$FB00><$0078>Am I not good enough‥‥<$FFFE>
+61	<$FB00><$0078>Am I not good enough…<$FFFE>
 62	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
-63	<$FB00><$007A>Sorry‥‥I'll take you up on<$FFFC>that‥‥<$FFFE>
+63	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
 64	<$FB00><$0068>Come and get me！<$FFFE>
 65	<$FB00><$0069>Who do you think I am！<$FFFE>
-66	<$FB00><$006B>Gh‥‥sloppy of me‥‥<$FFFE>
+66	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 67	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-68	<$FB00><$006D>I'm fine‥‥I can still<$FFFC>fight‥‥<$FFFE>
+68	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 69	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-70	<$FB00><$006F>‥‥I'll do that. Wouldn't want to<$FFFC>drag you down‥‥<$FFFE>
+70	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 71	<$FB00><$0055>Forgive me！<$FFFE>
 72	<$FB00><$0054>I won't lose！<$FFFE>
 73	<$FB00><$005C>Ow！ You dare！<$FFFE>
 74	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
-75	<$FB00><$005E>B-but‥‥.<$FFFE>
+75	<$FB00><$005E>B-but…<$FFFE>
 76	<$FB00><$005F>Just fall back！<$FFFE>
-77	<$FB00><$0060>Sorry, at such an important<$FFFC>time‥‥.<$FFFE>
+77	<$FB00><$0060>Sorry, at such an important time…<$FFFE>
 78	Uwah！<$FFFE>
 79	Guoh！<$FFFE>
-80	N-no‥‥.<$FFFE>
-81	I-impossible‥‥.<$FFFE>
-82	I do not want to die‥‥.<$FFFE>
-83	WOOOO‥‥<$FFFE>
+80	N-no…<$FFFE>
+81	I-impossible…<$FFFE>
+82	I do not want to die…<$FFFE>
+83	WOOOO…<$FFFE>
 84	GOOOON！<$FFFE>
-85	BWOOOO‥‥<$FFFE>
-86	H-humans‥‥.<$FFFE>
-87	WOOO‥‥<$FFFE>
-88	I curse you‥‥.<$FFFE>
+85	BWOOOO…<$FFFE>
+86	H-humans…<$FFFE>
+87	WOOO…<$FFFE>
+88	I curse you…<$FFFE>
 89	GOOOON！<$FFFE>
-90	HEEEE‥‥<$FFFE>
-91	WOOOO‥‥<$FFFE>
-92	WOOO‥‥<$FFFE>
+90	HEEEE…<$FFFE>
+91	WOOOO…<$FFFE>
+92	WOOO…<$FFFE>
 93	<$FB00><$003E>Looks like no enemies remain.<$FFFE>
 94	<$FB00><$003F>Looks like we protected them.<$FFFE>
 95	<$FB00><$0040>Thanks to you, not one unit was<$FFFC>hurt. Thank you.<$FFFE>
@@ -115,10 +115,10 @@
 113	<$FB00><$0031>We are to drop this bridge,<$FFFC>then？<$FFFE>
 114	<$FB00><$0032>Just drop this bridge, right？<$FFFE>
 115	<$FB00><$0033>Drop this bridge, yes？<$FFFE>
-116	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
-117	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+116	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
+117	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>…<$FFFE>
 118	<$FB00><$0035>We stop them here！<$FFFE>
 119	<$FB00><$0036>Ah, another one down！<$FFFE>
-120	<$FB00><$0037>Second unit<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
+120	<$FB00><$0037>Second unit<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
 121	<$FB00><$0039>Ah, the third unit！<$FFFE>
-122	<$FB00><$003A>We cannot march like this<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$003B>Mission failed<$FFF5><$FFF8>‥‥.<$FFFE><$FFFF>
+122	<$FB00><$003A>We cannot march like this<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$003B>Mission failed<$FFF5><$FFF8>…<$FFFE><$FFFF>

@@ -23,7 +23,7 @@
 21	<$FB00><$0017>Aizer！？<$FFFE>
 22	<$FB00><$0018>Well done not falling for a<$FFFC>cheap trick. But how long can<$FFFC>you last？<$FFFE>
 23	<$FB00><$0019>We won't lose to you！<$FFFE>
-24	Cough, cough！ I‥I can't<$FFFC>breathe<$FFF8>‥‥.<$FFFE>
+24	Cough, cough！ I…I can't<$FFFC>breathe<$FFF8>…<$FFFE>
 25	So dramatic. Can't you bear a<$FFFC>little smoke？<$FFFE>
 26	Bear it a while. Rushing out<$FFFC>plays into their hands.<$FFFE>
 27	Yes. Wiser to form up near the<$FFFC>exit.<$FFFE>
@@ -32,11 +32,11 @@
 30	<$FB00><$001E>Everyone, the exit is near.<$FFFE>
 31	<$FB00><$001F>The exit！ Everyone, we're almost<$FFFC>out！<$FFFE>
 32	<$FB00><$0020>Stay sharp, everyone！ The exit's<$FFFC>close！<$FFFE>
-33	As you near the rock, a voice<$FFFC>suddenly speaks.<$FFFD>I was a spirit dove, a<$FFFC>messenger of the gods‥‥.<$FFFD>Now my body turns to stone and<$FFFC>my life burns out. Let me grant<$FFFC>you one last gift.<$FFFD>Which power do you wish？<$FFFE>
+33	As you near the rock, a voice<$FFFC>suddenly speaks.<$FFFD>I was a spirit dove, a<$FFFC>messenger of the gods…<$FFFD>Now my body turns to stone and<$FFFC>my life burns out. Let me grant<$FFFC>you one last gift.<$FFFD>Which power do you wish？<$FFFE>
 34	・Power to protect<$FFFE>
 35	・Power to fight<$FFFE>
-36	Then receive this magic‥‥.<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
-37	Then receive this magic‥‥.<$FFFD><$0000> Learned the spell <$FFF4>MP<$FFFC>Drain<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
+36	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>…The dove quietly turned to<$FFFC>stone.<$FFFE>
+37	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>MP<$FFFC>Drain<$FFF3>！<$FFFD>…The dove quietly turned to<$FFFC>stone.<$FFFE>
 38	Something glints now and then in<$FFFC>the dark. What do you do？<$FFFE>
 39	・Reach out<$FFFE>
 40	・Watch and wait<$FFFE>
@@ -44,33 +44,33 @@
 42	<$0000> <$FFF4>Grrraaawwl！！<$FFF3><$FFFD>A wounded beast is nursing its<$FFFC>injuries. You quietly slip away<$FFFC>so as not to provoke it.<$FFFE>
 43	A wounded beast rests there.<$FFFC>You stroke it gently, it purrs<$FFFC>and hands you a small pouch.<$FFFD><$0000> Got <$FFF4>500P gold<$FFF3>！<$FFFE>
 44	<$FB00><$0022>You'll pay for that, twice<$FFFC>over！<$FFFE>
-45	<$FB00><$0030>So this was the limit of my<$FFFC>strength‥‥<$FFFE>
+45	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 46	<$FB00><$0023>Unforgivable.<$FFFE>
-47	<$FB00><$003A>Kh‥‥ that one hurt‥‥.<$FFFE>
+47	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 48	<$FB00><$003B>Leave the rest to me！<$FFFE>
-49	<$FB00><$003C>I'm counting on you‥‥<$FFFE>
+49	<$FB00><$003C>I'm counting on you…<$FFFE>
 50	<$FB00><$0024>Even I get angry, you know！<$FFFE>
-51	<$FB00><$0078>Am I not good enough‥‥<$FFFE>
+51	<$FB00><$0078>Am I not good enough…<$FFFE>
 52	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
-53	<$FB00><$007A>Sorry‥‥I'll take you up on<$FFFC>that‥‥<$FFFE>
+53	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
 54	That Aizer. Quite the underhanded<$FFFC>trick！<$FFFE>
 55	My forces are few. Such schemes<$FFFC>are necessary.<$FFFE>
 56	<$FB00><$0025>You nearly made a stuffed trophy<$FFFC>of me！<$FFFE>
-57	<$FB00><$0070>This is getting dicey‥‥<$FFFE>
+57	<$FB00><$0070>This is getting dicey…<$FFFE>
 58	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
-59	<$FB00><$0072>Sorry‥‥I'll take you up on<$FFFC>that‥‥<$FFFE>
+59	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 60	<$FB00><$0026>Futile struggling！<$FFFE>
 61	This time you won't escape！<$FFFE>
-62	<$FFF8><$FB00><$0027>Ggh‥‥. <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>. <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
+62	<$FFF8><$FB00><$0027>Ggh… <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
 63	<$FB00><$002B>Looks like it's over.<$FFFE>
 64	<$FB00><$002C>Honestly, what an ordeal.<$FFFE>
-65	<$FB00><$002D>Truly, I thought I'd die<$FFF5><$FFF8>‥‥.<$FFFE>
+65	<$FB00><$002D>Truly, I thought I'd die<$FFF5><$FFF8>…<$FFFE>
 66	<$FB00><$002E>More importantly, hurry. <$0000>If we<$FFFC>don't chase Caconsis, we can't<$FFFC>recover the Sage's Crystal.<$FFFE>
 67	<$FB00><$001A>All units, hold here. We strike<$FFFC>as they're smoked out！<$FFFE>
 68	<$FB00><$001B>Sir！<$FFFE>
 69	<$FB00><$001C>Understood.<$FFFE>
-70	It‥wasn't supposed to‥‥<$FFFE>
-71	Lord Aizer‥‥. For‥give‥me‥‥‥<$FFFE>
-72	‥so‥‥strong‥‥<$FFFE>
-73	‥‥Oh no！ Gwah！<$FFFE>
+70	It…wasn't supposed to…<$FFFE>
+71	Lord Aizer… For…give…me…<$FFFE>
+72	…so…strong…<$FFFE>
+73	…Oh no！ Gwah！<$FFFE>
 74	<$FB00><$0021>Good. We begin the full assault.<$FFFC>All units, move out！<$FFFE>

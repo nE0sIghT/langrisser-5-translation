@@ -12,8 +12,8 @@
 10	・Defeat all enemies<$FFFE>
 11	・<$F600><$0000> dies<$FFFE>
 12	Flying Ship Deck<$FFFF>
-13	<$FB00><$0033>C-Captain, what is that<$FFF5><$FFF8>‥‥？<$FFFE>
-14	<$FB00><$0034>I do not know. I heard<$FFFC>ancient magic weapons existed,<$FFFC>but to see one myself‥‥.<$FFFE>
+13	<$FB00><$0033>C-Captain, what is that<$FFF5><$FFF8>…？<$FFFE>
+14	<$FB00><$0034>I do not know. I heard<$FFFC>ancient magic weapons existed,<$FFFC>but to see one myself…<$FFFE>
 15	<$FB00><$0035>So this is why they dared launch<$FFFC>such a reckless attack.<$FFFE>
 16	<$FB00><$0036>Looks like we made it.<$FFFE>
 17	<$FB00><$0037>The Salrath army still looks<$FFFC>safe.<$FFFE>
@@ -25,89 +25,89 @@
 23	<$FB00><$003D>But they are flyers. Won't they<$FFFC>be hard to fight？<$FFFE>
 24	<$FB00><$003E>If we do not win, Salrath cannot<$FFFC>be saved. We have to do it！<$FFFE>
 25	<$FB00><$002C>Take this！<$FFFE>
-26	<$FB00><$002D>I won't die in a place like<$FFFC>this‥‥<$FFFE>
-27	<$FB00><$0038>Move<$FFF5><$FFF8>‥‥<$FFFE>
-28	<$FB00><$003A>Kh‥‥ that one hurt‥‥.<$FFFE>
+26	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+27	<$FB00><$0038>Move<$FFF5><$FFF8>…<$FFFE>
+28	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 29	<$FB00><$003B>Leave the rest to me！<$FFFE>
-30	<$FB00><$003C>I'm counting on you‥‥<$FFFE>
+30	<$FB00><$003C>I'm counting on you…<$FFFE>
 31	<$FB00><$0075>I can fight too！<$FFFE>
-32	<$FB00><$0077>I knew it‥‥this is all I<$FFFC>amount to‥‥<$FFFE>
+32	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
 33	<$FB00><$0067>Here I go！<$FFFE>
-34	<$FB00><$006B>Gh‥‥sloppy of me‥‥<$FFFE>
+34	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 35	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-36	<$FB00><$006D>I'm fine‥‥I can still<$FFFC>fight‥‥<$FFFE>
+36	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 37	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-38	<$FB00><$006F>‥‥I'll do that. Wouldn't want to<$FFFC>drag you down‥‥<$FFFE>
-39	<$FB00><$0043>It really is Eric<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0044>Why is he<$FFFC>here<$FFF5><$FFF8>‥‥？<$FFFE>
+38	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
+39	<$FB00><$0043>It really is Eric<$FFF5><$FFF8>… <$FFF6><$FB00><$0044>Why is he<$FFFC>here<$FFF5><$FFF8>…？<$FFFE>
 40	<$FB00><$0045>What is it, Clarett！<$FFFE>
-41	<$FB00><$0046>He is someone I know！ If<$FFFC>possible, I want to talk to him<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+41	<$FB00><$0046>He is someone I know！ If<$FFFC>possible, I want to talk to him<$FFFC><$FFF5><$FFF8>…<$FFFE>
 42	<$FB00><$0047>Don't rush. I will judge by<$FFFC>the battle.<$FFFE>
 43	<$FB00><$0048>All right. Please.<$FFFE>
 44	<$FB00><$0049>Eric！<$FFFE>
 45	<$FB00><$004A>Hm, who are you？<$FFFE>
 46	<$FB00><$004B>It is me, Clarett！<$FFFE>
 47	<$FB00><$004C>Clarett！？ Is that you？<$FFFE>
-48	<$FB00><$004D>Yes！ Ah, it has been so long.<$FFFC><$FFF5><$FFF8>‥‥<$FFF6><$FB00><$004E>But why serve Gilmore？<$FFFE>
+48	<$FB00><$004D>Yes！ Ah, it has been so long.<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$004E>But why serve Gilmore？<$FFFE>
 49	<$FB00><$0054>I won't lose！<$FFFE>
-50	‥‥Eric‥‥. ‥‥why‥‥.<$FFFE>
+50	…Eric… …why…<$FFFE>
 51	<$FB00><$005C>Ow！ You dare！<$FFFE>
 52	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
-53	<$FB00><$005E>B-but‥‥.<$FFFE>
+53	<$FB00><$005E>B-but…<$FFFE>
 54	<$FB00><$005F>Just fall back！<$FFFE>
-55	<$FB00><$0060>Sorry, at such an important<$FFFC>time‥‥.<$FFFE>
-56	N-no‥‥！ I do not want to<$FFFC>die yet‥‥<$FFFE>
+55	<$FB00><$0060>Sorry, at such an important time…<$FFFE>
+56	N-no…！ I do not want to die<$FFFC>yet…<$FFFE>
 57	C-Captain！<$FFFE>
-58	Captain Kfir‥‥ avenge‥‥<$FFFE>
-59	‥‥‥So strong‥‥<$FFFE>
-60	‥No‥‥ I still have not told<$FFFC>her anything‥‥<$FFFE>
-61	<$FB00><$003F>To bring out such an ancient<$FFFC>weapon<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0040>But I cannot lose！<$FFFE>
-62	<$FFF8>‥‥<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
+58	Captain Kfir… avenge…<$FFFE>
+59	…So strong…<$FFFE>
+60	…No… I still have not told<$FFFC>her anything…<$FFFE>
+61	<$FB00><$003F>To bring out such an ancient<$FFFC>weapon<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>But I cannot lose！<$FFFE>
+62	<$FFF8>…<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
 63	<$FB00><$0042>Here I come！<$FFFE>
-64	<$FFF8><$FB00><$005E>Hm？ <$FFF5>‥‥<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0060>Is that<$FFFC>Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
+64	<$FFF8><$FB00><$005E>Hm？ <$FFF5>…<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>… <$FFF6><$FB00><$0060>Is that<$FFFC>Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
 65	<$FB00><$0062>Eric！<$FFFE>
-66	<$FB00><$0063>Clarett. I wanted to see you<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
-67	<$FB00><$0064>Eric, it has been so long. <$FFF5><$FFF8>‥‥<$FFFC><$FFF6><$FB00><$0065>But why serve Gilmore？<$FFFE>
-68	<$FB00><$0066>Guh, ugh‥‥<$FFFE>
-69	<$FFF8>‥‥<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
+66	<$FB00><$0063>Clarett. I wanted to see you <$FFF5><$FFF8>…<$FFFE>
+67	<$FB00><$0064>Eric, it has been so long. <$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0065>But why serve Gilmore？<$FFFE>
+68	<$FB00><$0066>Guh, ugh…<$FFFE>
+69	<$FFF8>…<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
 70	<$FB00><$0045>What is it, Clarett！<$FFFE>
-71	<$FB00><$0043>It really is Eric<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0044>Why is he<$FFFC>here<$FFF5><$FFF8>‥‥？<$FFFE>
+71	<$FB00><$0043>It really is Eric<$FFF5><$FFF8>… <$FFF6><$FB00><$0044>Why is he<$FFFC>here<$FFF5><$FFF8>…？<$FFFE>
 72	<$FB00><$0067>Eric！<$FFFE>
 73	<$FB00><$0068>C-Clarett！？<$FFFE>
 74	<$FB00><$0069>Are you all right, Eric？<$FFFE>
-75	<$FB00><$006A>I finally saw you again. I<$FFFC>cannot die like this‥‥. And I<$FFFC>have something to tell you‥‥.<$FFFE>
+75	<$FB00><$006A>I finally saw you again. I<$FFFC>cannot die like this… And I<$FFFC>have something to tell you…<$FFFE>
 76	<$FB00><$006B>What is it, Eric？<$FFFE>
-77	<$FB00><$006C>No‥‥ fight for now. We will<$FFFC>talk after you win‥‥. You<$FFFC>can win, I know it！<$FFFE>
+77	<$FB00><$006C>No… fight for now. We will talk<$FFFC>after you win… You can win,<$FFFC>I know it！<$FFFE>
 78	<$FB00><$006D>Wait for me, Eric！ We will end<$FFFC>this soon！<$FFFE>
-79	<$FB00><$006E>Sorry, Clarett. I meant to let<$FFFC>you talk<$FFF5><$FFF8>‥‥.<$FFFE>
+79	<$FB00><$006E>Sorry, Clarett. I meant to let<$FFFC>you talk<$FFF5><$FFF8>…<$FFFE>
 80	<$FB00><$006F>It is fine！ Right now the<$FFFC>battle comes first！<$FFFE>
 81	<$FFF7><$FB00><$0070>Uwoah！<$FFFE>
 82	<$FB00><$0071>Captain！<$FFFE>
-83	<$FB00><$0072>Bah, a wound like this‥‥ will<$FFFC>not kill me！<$FFFE>
+83	<$FB00><$0072>Bah, a wound like this… will<$FFFC>not kill me！<$FFFE>
 84	<$FB00><$0073>But please withdraw for now！<$FFFE>
-85	<$FB00><$0074>But you alone‥‥.<$FFFE>
+85	<$FB00><$0074>But you alone…<$FFFE>
 86	<$FB00><$0075>Trust us！<$FFFE>
 87	<$FB00><$0076>Forgive me. Then I leave it to<$FFFC>you. Listen, do not die！<$FFFE>
 88	<$FB00><$0077>Understood！<$FFFE>
-89	To think I would lose‥‥. I<$FFFC>will repay this humiliation！<$FFFE>
-90	<$FFF8><$FB00><$005E>Hm？ <$FFF5>‥‥<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0060>Is that<$FFFC>Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
+89	To think I would lose… I will<$FFFC>repay this humiliation！<$FFFE>
+90	<$FFF8><$FB00><$005E>Hm？ <$FFF5>…<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>… <$FFF6><$FB00><$0060>Is that<$FFFC>Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
 91	<$FB00><$0062>Eric！<$FFFE>
-92	<$FB00><$0063>Clarett. I wanted to see you<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
-93	Damn！ My flying corps felled so<$FFFC>easily‥‥.<$FFFE>
+92	<$FB00><$0063>Clarett. I wanted to see you <$FFF5><$FFF8>…<$FFFE>
+93	Damn！ My flying corps felled so<$FFFC>easily…<$FFFE>
 94	There is something like a golden<$FFFC>switch. Press it？<$FFFE>
 95	Emergency alert！ Disinfectant gas<$FFFC>will now be sprayed！<$FFFD><$0000> Skill <$FFF4>Detox<$FFF3> learned！<$FFFE>
 96	<$FB00><$0078>Looks like no enemies are left.<$FFFE>
 97	<$FB00><$0079>Now air control is ours.<$FFFE>
 98	<$FB00><$007A>But Salrath is not safe yet.<$FFFC>The enemy has ten times their<$FFFC>force.<$FFFE>
 99	<$FB00><$007C>Right.<$FFFE>
-100	<$FB00><$007D>Clarett<$FFF5><$FFF8>‥‥.<$FFFE>
-101	<$FFF8>‥‥<$FFF6><$FB00><$007E>Eric.<$FFFE>
+100	<$FB00><$007D>Clarett<$FFF5><$FFF8>…<$FFFE>
+101	<$FFF8>…<$FFF6><$FB00><$007E>Eric.<$FFFE>
 102	<$FB00><$007F>Hey, Clarett. Will you introduce<$FFFC>him？<$FFFE>
 103	<$FB00><$0080>Y-yes. This is Eric. My fiance.<$FFFE>
-104	<$FB00><$0081>Ah, the one you mentioned<$FFFC>before？ <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0082>So you really had a<$FFFC>fiance<$FFF5><$FFF8>‥‥.<$FFFE>
+104	<$FB00><$0081>Ah, the one you mentioned<$FFFC>before？ <$FFF5><$FFF8>…<$FFF6><$FB00><$0082>So you really had a<$FFFC>fiance<$FFF5><$FFF8>…<$FFFE>
 105	<$FB00><$0083>Well, I am the only daughter of<$FFFC>the Kalxath royal house. At my<$FFFC>age, a fiance is no surprise.<$FFFE>
 106	<$FB00><$0084>I have been furious at Gilmore's<$FFFC>methods.<$FFFD><$FB00><$0085>But as you know, he rules by<$FFFC>fear, executing anyone who defies<$FFFC>him.<$FFFD><$FB00><$0086>So I could not act openly.<$FFFD><$FB00><$0087>But when I learned Clarett had<$FFFC>persuaded Duke Lenard to act, I<$FFFC>started waiting for my chance.<$FFFE>
 107	<$FB00><$0088>Eric.<$FFFE>
-108	<$FB00><$0089>Please let me aid this operation.<$FFFC>I am poor in direct combat, but<$FFFC>I can gather information<$FFF5><$FFF8>‥‥.<$FFFE>
+108	<$FB00><$0089>Please let me aid this operation.<$FFFC>I am poor in direct combat, but<$FFFC>I can gather information<$FFF5><$FFF8>…<$FFFE>
 109	<$FB00><$008A>Thank you, Eric. We will descend<$FFFC>and raid the enemy headquarters.<$FFFD><$FB00><$008B>Tell Duke Lenard that.<$FFFE>
 110	<$FB00><$008C>Understood.<$FFFE>
 111	<$FB00><$008D>Did you just say we will raid<$FFFC>the enemy headquarters？<$FFFE>
@@ -116,16 +116,16 @@
 114	<$FB00><$0090>I see. With this ship, we can<$FFFC>strike the rear headquarters<$FFFC>directly.<$FFFE>
 115	<$FB00><$0091>Exactly. We strike the enemy<$FFFC>headquarters now！ Move out！<$FFFE>
 116	<$FB00><$004F>A lot happened after you left.<$FFFC>After Gilmore named himself<$FFFC>emperor, the country changed.<$FFFD><$FB00><$0050>Many nobles hate him, but obey to<$FFFC>survive. Now almost none oppose<$FFFC>his aristocratic rule.<$FFFE>
-117	<$FB00><$0051>No‥‥ not you too？<$FFFE>
-118	<$FFF8>‥‥‥‥.<$FFFE>
+117	<$FB00><$0051>No… not you too？<$FFFE>
+118	<$FFF8>…<$FFFE>
 119	<$FB00><$0052>If you still have your old<$FFFC>kindness, if his evil rule has<$FFFC>not stained you, then help me！<$FFFE>
 120	<$FB00><$005B>Enough useless chatter！ Stop<$FFFC>fraternizing with the enemy！<$FFFE>
-121	<$FFF8>‥‥‥‥.<$FFFE>
+121	<$FFF8>…<$FFFE>
 122	<$FB00><$0053>Please, Eric！<$FFFE>
 123	<$FB00><$0054>I know nothing of your past,<$FFFC>but she is the enemy now！<$FFFE>
 124	<$FB00><$0055>Eric！<$FFFE>
 125	<$FB00><$0056>Fight, Eric！<$FFFE>
-126	<$FFFA><$FFF8>‥‥<$FFF6><$FFFA><$FB00><$0057>shut<$FFF5><$FFF8>‥‥.<$FFFE>
+126	<$FFFA><$FFF8>…<$FFF6><$FFFA><$FB00><$0057>shut<$FFF5><$FFF8>…<$FFFE>
 127	<$FB00><$0058>What was that？<$FFFE>
 128	<$FB00><$0059>Shut up！ I will help Clarett<$FFFC>from now on！ I am done helping<$FFFC>Gilmore！<$FFFE>
 129	<$0000> <$0000><$0000><$FFF4>Eric was persuaded！<$FFF3><$FFFE>

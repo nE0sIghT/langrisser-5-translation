@@ -10,12 +10,12 @@
 8	Archmage Jessica<$FFFF>
 9	Kalxath Castle Audience Hall<$FFFF>
 10	<$FB00><$0003>Hey, you made it back too.<$FFFE>
-11	<$FB00><$0004>Brother. I am glad you are<$FFFC>safe<$FFF5><$FFF8>‥‥.<$FFFE>
+11	<$FB00><$0004>Brother. I am glad you are<$FFFC>safe<$FFF5><$FFF8>…<$FFFE>
 12	<$FB00><$0005>Yeah. Once Glob fell, the<$FFFC>corpses stopped. Burning them took<$FFFC>time.<$FFFE>
 13	<$FB00><$0006>The spell must have broken when<$FFFC>we beat that Glob guy.<$FFFE>
-14	<$FFF8>‥‥<$FFF6><$FB00><$0007>I see. Necro Glob. So that<$FFFC>man<$FFF5><$FFF8>‥‥.<$FFFE>
+14	<$FFF8>…<$FFF6><$FB00><$0007>I see. Necro Glob. So that<$FFFC>man<$FFF5><$FFF8>…<$FFFE>
 15	<$FB00><$0008>You know him？<$FFFE>
-16	<$FB00><$0009>Yes. I have not fought him in<$FFFC>a thousand years, but he served<$FFFC>Boser even then.<$FFFD><$FFF8>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$000A>I see. Glob has revived.<$FFFE>
+16	<$FB00><$0009>Yes. I have not fought him in<$FFFC>a thousand years, but he served<$FFFC>Boser even then.<$FFFD><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000A>I see. Glob has revived.<$FFFE>
 17	<$FB00><$000B>The way you speak of demons,<$FFFC>they sound immortal.<$FFFE>
 18	<$FB00><$000C>Not truly immortal. But Boser's<$FFFC>direct generals come close.<$FFFD><$FB00><$000D>They are below Boser, yet with<$FFFC>time they may revive.<$FFFE>
 19	<$FB00><$000E>Then Boser, the one we beat,<$FFFC>will revive someday？<$FFFE>
@@ -24,7 +24,7 @@
 22	<$FB00><$0011>Unless Chaos, their source of<$FFFC>power, is destroyed, no.<$FFFD><$FB00><$0054>At best, destroy Alhazard and<$FFFC>weaken Boser and the demons.<$FFFE>
 23	<$FB00><$0012>Alhazard is the sword stolen at<$FFFC>the port, right？<$FFFE>
 24	<$FB00><$0013>Yes. Langrisser and Alhazard, holy<$FFFC>and evil swords, have clashed<$FFFC>since ancient days.<$FFFD><$FB00><$0014>That is mankind's war with<$FFFC>demons. Langrisser's power sealed<$FFFC>them until now.<$FFFE>
-25	<$FB00><$0015>But that Langrisser is in demon<$FFFC>hands. <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0016>That is trouble.<$FFFE>
+25	<$FB00><$0015>But that Langrisser is in demon<$FFFC>hands. <$FFF5><$FFF8>…<$FFF6><$FB00><$0016>That is trouble.<$FFFE>
 26	<$FB00><$0017>Even so, we cannot stay silent.<$FFFC>We must beat the demons ourselves.<$FFFE>
 27	<$FB00><$0018>How can we defeat demons with<$FFFC>only our own strength？<$FFFE>
 28	<$FB00><$0019>The demons live northeast, in<$FFFC>Velzeria. The stolen swords are<$FFFC>likely there.<$FFFE>

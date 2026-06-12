@@ -11,23 +11,23 @@
 9	<$FB00><$0058>Excuse me. Does this store carry<$FFFC>the herb Florier？<$FFFE>
 10	<$FB00><$0059>Florier？ The fever medicine,<$FFFC>yes？<$FFFE>
 11	<$FB00><$005A>Yes. So, do you have any？<$FFFE>
-12	<$FFF8>‥‥<$FFF6><$FB00><$005B>I'm afraid we don't. That herb<$FFFC>is rarely ever found<$FFF5><$FFF8>‥‥.<$FFFE>
+12	<$FFF8>…<$FFF6><$FB00><$005B>I'm afraid we don't. That herb<$FFFC>is rarely ever found<$FFF5><$FFF8>…<$FFFE>
 13	<$FB00><$005C>And something that expensive is<$FFFC>more than our shop can stock.<$FFFE>
 14	<$FB00><$005D>Then where should I go to find<$FFFC>some？<$FFFE>
-15	<$FB00><$005E>That's hard to say<$FFF5><$FFF8>‥‥.<$FFFE>
-16	<$FFF8>‥‥<$FFF6><$FB00><$005F>I see<$FFF5><$FFF8>‥‥.<$FFFE>
-17	<$FFF8>‥<$FE1E>‥<$FE1E><$FFF7><$FB00><$0060>Sigh<$FFF5><$FFF8>‥‥.<$FFFE>
+15	<$FB00><$005E>That's hard to say<$FFF5><$FFF8>…<$FFFE>
+16	<$FFF8>…<$FFF6><$FB00><$005F>I see<$FFF5><$FFF8>…<$FFFE>
+17	<$FFF8>…<$FE1E>…<$FE1E><$FFF7><$FB00><$0060>Sigh<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0061>Hey, you there. Wait a second.<$FFFE>
 19	<$FB00><$0062>Y, yes？<$FFFE>
 20	<$FB00><$0063>I overheard you talking with<$FFFC>the shopkeeper.<$FFFD>You're looking for fever<$FFFC>medicine？<$FFFE>
-21	‥‥<$FB00><$0064>That's right. My father is down<$FFFC>with a fever, so I'm out<$FFFC>searching<$FFF5>‥‥.<$FFFE>
-22	<$FB00><$0065>I see, your father<$FFF5>‥‥. <$FB00><$0074>Say,<$FFFC>shall I share my medicine？<$FFFE>
+21	…<$FB00><$0064>That's right. My father is down<$FFFC>with a fever, so I'm out<$FFFC>searching<$FFF5>…<$FFFE>
+22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say, shall<$FFFC>I share my medicine？<$FFFE>
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
 24	<$FB00><$0067>Not Florier, but a medicine from<$FFFC>my home continent. It works well.<$FFFE>
 25	<$FB00><$0068>Please, let me have it！ I'll<$FFFC>pay whatever it takes！<$FFFE>
-26	<$FB00><$0069>N, no！ I wasn't offering to make<$FFFC>money off you<$FFF5>‥‥.<$FFFE>
+26	<$FB00><$0069>N, no！ I wasn't offering to make<$FFFC>money off you<$FFF5>…<$FFFE>
 27	<$FB00><$006A>But then I couldn't live with<$FFFC>myself！ At least take this much！<$FFFE>
-28	‥‥<$FB00><$006B>Very well. Then I'll gladly<$FFFC>accept.<$FFFD>Here. This is the fever<$FFFC>medicine.<$FFFE>
+28	…<$FB00><$006B>Very well. Then I'll gladly<$FFFC>accept.<$FFFD>Here. This is the fever<$FFFC>medicine.<$FFFE>
 29	<$FB00><$006C>You're a lifesaver！<$FFFE>
 30	<$FB00><$006D>What will you do now？<$FFFE>
 31	<$FB00><$006E>Take the medicine straight to my<$FFFC>father.<$FFFD>My home is in the Reynolds<$FFFC>region.<$FFFE>
@@ -36,7 +36,7 @@
 34	On the road to the sorcery lab<$FFFF>
 35	<$FB00><$0071>We'll reach a town soon, but<$FFFC>my data says Caconsis troops hold<$FFFC>it.<$FFFD>It may come to a fight, so be<$FFFC>ready.<$FFFE>
 36	<$FB00><$0072>Best stay on guard, then.<$FFFE>
-37	By the way, before we reach<$FFFC>town, I want to go over a bit<$FFFC>more tactics<$FFF8>‥‥.<$FFFE>
+37	By the way, before we reach<$FFFC>town, I want to go over a bit<$FFFC>more tactics<$FFF8>…<$FFFE>
 38	What now？<$FFFE>
 39	Do you know how experience is<$FFFC>earned for defeating enemies？<$FFFE>
 40	・I know it.<$FFFE>
@@ -45,7 +45,7 @@
 43	Defeating enemy mercenaries or<$FFFC>leaders earns us experience,<$FFFC><$FFF4>EXP <$FFF3>for short.<$FFFD>Defeat a leader and his unit<$FFFC>falls with him.<$FFFD>But mercenaries lost that way<$FFFC>give <$FFF4>half the EXP of direct<$FFFC>kills<$FFF3>.<$FFFE>
 44	So to earn proper experience,<$FFFC>better cut down the mercenaries<$FFFC>first？<$FFFE>
 45	Yes. Though <$FFF4>the gold comes in<$FFFC>full<$FFF3>, so don't fret over it.<$FFFE>
-46	Mercenaries first, then, and when<$FFFC>pressed, go straight for the<$FFFC>leader‥‥.<$FFFE>
+46	Mercenaries first, then, and when<$FFFC>pressed, go straight for the<$FFFC>leader…<$FFFE>
 47	Last one. What about the other<$FFFC>ways to earn experience？<$FFFE>
 48	・I know it.<$FFFE>
 49	・Remind me, just in case.<$FFFE>

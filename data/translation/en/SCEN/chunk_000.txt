@@ -17,7 +17,7 @@
 15	・HARD<$FFFE>
 16	<$FFF4>HARD <$FFF3>makes experience harder to<$FFFC>earn, and enemies are stronger.<$FFFC>Confirm？<$FFFE>
 17	<$FFFA>∑066, virtual battle program<$FFFC>launched. Please prepare for<$FFFC>input.<$FFFE>
-18	<$FFFA>∑066, set complete. Launching<$FFFC>cultivation program‥‥.<$FFFE>
+18	<$FFFA>∑066, set complete. Launching<$FFFC>cultivation program…<$FFFE>
 19	<$FB00><$0002>First, set the final growth<$FFFC>form.<$FFFD><$FB00><$0003>3 of these 4 metals will be<$FFFC>mixed into the culture fluid.<$FFFC>Choose the one to leave out.<$FFFE>
 20	・Gold<$FFFE>
 21	・Silver<$FFFE>

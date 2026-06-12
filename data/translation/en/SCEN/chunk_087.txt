@@ -11,7 +11,7 @@
 9	<$FB00><$0076>To the master. He must hear of<$FFFC>this attack.<$FFFE>
 10	<$FB00><$0077>Right. Marshal Gizarof, you said.<$FFFE>
 11	<$FB00><$0078>Yes.<$FFFE>
-12	<$FB00><$0079>Meeting him, we learn why we<$FFFC>were made. And that should tell<$FFFC>us why we were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one who<$FFFC>woke mid-fight<$FFF5><$FFF8>‥‥.<$FFFE>
+12	<$FB00><$0079>Meeting him, we learn why we<$FFFC>were made. And that should tell<$FFFC>us why we were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one who<$FFFC>woke mid-fight<$FFF5><$FFF8>…<$FFFE>
 13	<$FB00><$007B>That was Omega. A specimen like<$FFFC>you.<$FFFD>Thanks to his waking we got away<$FFFC>with ease.<$FFFE>
 14	<$FB00><$007C>What's become of him？ Shouldn't<$FFFC>we have helped him？<$FFFE>
 15	<$FB00><$007D>Go back, get caught ourselves？<$FFFC>How stupid. It's better this way.<$FFFD><$FB00><$007E>You too, if I slow you down,<$FFFC>feel free to run on ahead.<$FFFE>
@@ -24,7 +24,7 @@
 22	<$FB00><$0083>Meaning I am heartless？<$FFFE>
 23	<$FB00><$0084>Don't twist my words.<$FFFE>
 24	<$FB00><$0085>We are made beings. Not like<$FFFC>ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even gotten a<$FFFC>task from the master yet. We're<$FFFC>of use to no one.<$FFFD><$FB00><$0087>A tool that ends unused might as<$FFFC>well never have been made.<$FFFD><$FB00><$0088>I will fulfill the purpose I<$FFFC>was created for. That is why I<$FFFC>exist.<$FFFE>
-25	<$FB00><$0089>Why we exist, huh. Why are<$FFFC>people born, what do they live<$FFFC>for<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own<$FFFC>purpose are happier than those<$FFFC>who just drift along.<$FFFE>
+25	<$FB00><$0089>Why we exist, huh. Why are<$FFFC>people born, what do they live<$FFFC>for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own<$FFFC>purpose are happier than those<$FFFC>who just drift along.<$FFFE>
 26	<$FB00><$008B>You understand, then？<$FFFE>
 27	By the way, <$F600><$0000>. Do<$FFFC>you know the basics of battle？<$FFFD>I can teach you from my data.<$FFFE>
 28	Like what？<$FFFE>
@@ -35,7 +35,7 @@
 33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries<$FFFC>before you deploy.<$FFFD>How many you can hire depends<$FFFC>on the leader, <$FFF4>up to 6 <$FFF3>under<$FFFC>one command.<$FFFE>
 34	Yeah. That much I know.<$FFFE>
 35	Each leader has a <$FFF4>command range<$FFFC><$FFF3>that grants <$FFF4>bonuses <$FFF3>to mercenaries<$FFFC>fighting inside it.<$FFFD>The bonuses are<$FFFC><$FFF4>『A+』『D+』『M+』<$FFF3>, for <$FFF4>attack<$FFFC><$FFF3>, <$FFF4>defense <$FFF3>and <$FFF4>magic resistance<$FFF3>.<$FFFD>Ranges show blue for us, green<$FFFC>for NPCs, red for enemies.<$FFFD>So when mercenaries fight, keep<$FFFC>them inside that range.<$FFFE>
-36	Command range‥‥. I'll keep it<$FFFC>in mind.<$FFFD>And when I give orders, what<$FFFC>should I watch for？<$FFFE>
+36	Command range… I'll keep it in<$FFFC>mind.<$FFFD>And when I give orders, what<$FFFC>should I watch for？<$FFFE>
 37	Orders go out by unit.<$FFFD>Who moves next is set by<$FFFC>whoever in the unit has acted<$FFFC>the most.<$FFFD>If ordering each mercenary is a<$FFFC>chore, use <$FFF4>Cmd. <$FFF3>Mercenaries set<$FFFC>to <$FFF4>Auto <$FFF3>follow it on their own.<$FFFD>Mercenaries also <$FFF4>stock unused<$FFFC>action points for their next<$FFFC>order<$FFF3>.<$FFFD>The unit acts on its lowest<$FFFC>stock, arrows above the action<$FFFC>meter show the amount.<$FFFD>One warning, leaders cannot stock<$FFFC>action points.<$FFFE>
 38	So, orders go by unit, and the<$FFFC>next turn follows whoever acted<$FFFC>most.<$FFFD>Use Cmd. to skip ordering each<$FFFC>mercenary, and they carry spare<$FFFC>action points to the next turn.<$FFFE>
 39	Last one. Do you know how to<$FFFC>stall enemies efficiently？<$FFFE>
