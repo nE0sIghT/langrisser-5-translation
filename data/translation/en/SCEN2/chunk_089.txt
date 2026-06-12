@@ -1,0 +1,38 @@
+# file=SCEN.DAT chunk=89 chunk_start=0x1025000
+# block_base=0x1ED0 block_size=0x0788 records=36
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Rockwell<$FFFF>
+8	Lambert<$FFFF>
+9	Alvince<$FFFF>
+10	Rockwell's chambers<$FFFF>
+11	<$FB00><$0080>Oh, Lambert<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$0081>Good of you to come.<$FFFE>
+12	<$FB00><$0082>What's this, Rockwell？ Felled by<$FFFC>so slight an illness. You've grown<$FFFC>old.<$FFFE>
+13	<$FB00><$0083>Listen to you.<$FFFD>Those eyes of yours aren't what<$FFFC>they were either. They used to<$FFFC>hold more confidence.<$FFFE>
+14	<$FB00><$0084>Hahah. We've both grown old.<$FFFD>I miss those days we spent<$FFFC>adventuring together.<$FFFE>
+15	<$FB00><$0085>Indeed. Back before either of us<$FFFC>had even married.<$FFFE>
+16	<$FB00><$0086>Yes. Our last adventure was<$FFFC>nearly 30 years ago now.<$FFFE>
+17	<$FB00><$0087>And now we both have fine sons<$FFF5><$FFF8>‥‥.<$FFFE>
+18	<$FFFA><$FFF8>‥‥‥。<$FFFE>
+19	<$FB00><$0088>Forgive me, Lambert. Your eldest<$FFF5><$FFF8>‥‥.<$FFFE>
+20	<$FB00><$0089>No, don't mind it.<$FFFD>No amount of grief will bring<$FFFC>Clifford back.<$FFF5><$FFF8><$FFFC>‥‥<$FFF6><$FB00><$008A>It's all in the past now.<$FFFE>
+21	<$FB00><$008B>Still, when I think of what<$FFFC>befell Clifford, I find no peace.<$FFFD>When might it come for me<$FFF5><$FFF8>‥‥.<$FFFE>
+22	<$FB00><$008C>Don't worry. That was chance, an<$FFFC>accident.<$FFFD>If you've strength to fret over<$FFFC>that, put it into curing your<$FFFC>illness.<$FFFE>
+23	<$FB00><$008D>Father, I've brought your<$FFFC>medicine.<$FFFE>
+24	<$FB00><$008E>Thank you, Alvince.<$FFFE>
+25	<$FB00><$008F>It's been a while, Alvince.<$FFFD>Caring for your father, and<$FFFC>doing well at it, I see.<$FFFE>
+26	<$FB00><$0090>I'm glad to see you well,<$FFFC>Lord Lambert.<$FFFD>We hear much of Lord Lanford's<$FFFC>exploits as well.<$FFFE>
+27	<$FB00><$0091>With me like this, Alvince bears<$FFFC>the burden.<$FFFD>A poor showing for a father,<$FFFC>truly.<$FFFE>
+28	<$FB00><$0092>Come to think of it, where is<$FFFC>the other one‥‥young Alfred？<$FFFE>
+29	<$FB00><$0093>My brother is out searching for<$FFFC>medicine to cure father.<$FFFE>
+30	<$FB00><$0094>I see. Both sons doing their<$FFFC>best for their father.<$FFFD><$FB00><$0095>Well, I mustn't tire the<$FFFC>patient. I should take my leave.<$FFFE>
+31	<$FB00><$0096>Forgive me, Lambert. Some host I<$FFFC>make<$FFF5><$FFF8>‥‥.<$FFFE>
+32	<$FB00><$0097>Think nothing of it. Once you're<$FFFC>cured, I'll come calling again.<$FFFE>
+33	<$FB00><$0098>Lambert<$FFF5><$FFF8>‥‥.<$FFFE>
+34	<$FB00><$0099>What is it？<$FFFE>
+35	<$FFF8>‥‥<$FFF6><$FB00><$009A>No‥‥it's nothing.<$FFFE>
+36	<$FFF8>‥<$FE2D>‥<$FE2D>‥<$FFF6><$FB00><$009B>I see.<$FFFE><$FFFF>
