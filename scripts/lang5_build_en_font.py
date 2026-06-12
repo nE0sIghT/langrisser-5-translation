@@ -31,16 +31,29 @@ FONT_CANDIDATES = [
 BASELINE_ROW = 10
 
 
-def pick_font(path: str, size: int) -> ImageFont.FreeTypeFont:
+def pick_fonts(path: str, size: int) -> list[ImageFont.FreeTypeFont]:
+    """All available candidate fonts; the first is primary, the rest are
+    per-glyph fallbacks for characters the primary lacks (e.g. ♀/♂ live in
+    PixelMplus but not in Spleen)."""
+    fonts = []
     for cand in ([path] if path else []) + FONT_CANDIDATES:
         if cand and Path(cand).exists():
-            if cand.endswith(".bdf"):
-                return ImageFont.truetype(cand, size=12)
-            return ImageFont.truetype(cand, size=size)
-    raise SystemExit("no usable TTF found")
+            fonts.append(ImageFont.truetype(cand, size=12 if cand.endswith(".bdf") else size))
+    if not fonts:
+        raise SystemExit("no usable TTF found")
+    return fonts
 
 
-def render_tile(text: str, font: ImageFont.FreeTypeFont) -> bytes:
+def font_has(font: ImageFont.FreeTypeFont, ch: str) -> bool:
+    # A char missing from the font renders as the same mask as a codepoint
+    # that is guaranteed to be absent.
+    def mask_bytes(c: str) -> bytes:
+        mask = font.getmask(c)
+        return bytes(mask) if mask.size[0] else b""
+    return mask_bytes(ch) != mask_bytes("\U000E0000")
+
+
+def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
     """Render 1 or 2 characters into one 12x12 tile on a common baseline.
 
     Pairs are drawn at a 6px pitch (PixelMplus halfwidth glyphs are 5px
@@ -50,8 +63,9 @@ def render_tile(text: str, font: ImageFont.FreeTypeFont) -> bytes:
     """
     img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     d = ImageDraw.Draw(img)
-    ascent, _descent = font.getmetrics()
     for k, ch in enumerate(text[:2]):
+        font = next((f for f in fonts if font_has(f, ch)), fonts[0])
+        ascent, _descent = font.getmetrics()
         bbox = d.textbbox((0, 0), ch, font=font)
         d.text((k * 6 - bbox[0], BASELINE_ROW - ascent), ch, font=font, fill=0)
     img = img.point(lambda v: 0 if v < 140 else 255)
@@ -95,10 +109,10 @@ def main() -> None:
     tok2char.setdefault(0x0005, "？")
     tok2char.setdefault(0x0006, "！")
 
-    font = pick_font(args.font, args.font_size)
+    fonts = pick_fonts(args.font, args.font_size)
     data = bytearray(Path(args.system_bin).read_bytes())
     for tok, ch in assignments.items():
-        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, font)
+        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts)
 
     out_bin = Path(args.out_system_bin)
     out_bin.parent.mkdir(parents=True, exist_ok=True)

@@ -627,5 +627,7 @@
  "スキル:炎攻撃{FFFF}": "Skill:Flame",
  "追加スキル:毒攻撃4{FFFF}": "New skill:Psn4",
  "ウォーロック{FFFF}": "Warlock",
- "アルラウネ{FFFF}": "Alraune"
+ "アルラウネ{FFFF}": "Alraune",
+ "女{FFFF}": "♀",
+ "男{FFFF}": "♂"
 }
