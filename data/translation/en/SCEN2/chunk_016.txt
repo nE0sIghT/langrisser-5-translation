@@ -99,13 +99,13 @@
 97	・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 98	But if you do not beat us, it<$FFFC>is the same！<$FFFE>
 99	Lord Creid‥‥ they are strong‥‥<$FFFE>
-100	Gwaaah！ I cannot stop<$FFFC>bleeding‥‥<$FFFE>
+100	Gwaaah！ I cannot stop bleeding‥‥<$FFFE>
 101	<$FB00><$0066>Why can't I beat you！？<$FFFC>‥‥Grr！ Next time！<$FFFE>
 102	<$FFF8>‥‥<$FFF6><$FB00><$0067>It is over.<$FFFE>
 103	<$FB00><$0068>The hostage is safe.<$FFFE>
 104	<$FB00><$0069>The archbishop's daughter is safe！<$FFFE>
 105	<$FB00><$006A>She is safe too.<$FFFE>
-106	<$FB00><$006B>I am glad the hostage is<$FFFC>safe.<$FFFE>
+106	<$FB00><$006B>I am glad the hostage is safe.<$FFFE>
 107	<$0000> <$0000>Unlocked the cell door！<$FFFE>
 108	<$FB00><$006C>Thank you. Because of me, my<$FFFC>father<$FFF5><$FFF8>‥‥.<$FFFE>
 109	<$FB00><$006D>Yes, but it is all right now.<$FFFE>

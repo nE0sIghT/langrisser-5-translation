@@ -17,7 +17,7 @@
 15	<$FB00><$002F>Hold on. Some commotion over<$FFFC>there.<$FFFE>
 16	<$FB00><$0030>With what face do you dare<$FFFC>return, Princess Clarett？<$FFFE>
 17	<$FB00><$0031>What do you mean？<$FFFE>
-18	<$FB00><$0032>Oh？ You don't know you're<$FFFC>wanted as an accomplice in the<$FFFC>Emperor's murder？<$FFFE>
+18	<$FB00><$0032>Oh？ You don't know you're wanted<$FFFC>as an accomplice in the Emperor's<$FFFC>murder？<$FFFE>
 19	<$FB00><$0033>An accomplice？ Me？ That man did<$FFFC>the killing！<$FFFE>
 20	<$FB00><$0034>We know you plotted with him to<$FFFC>murder the Emperor.<$FFFD>Now come along quietly, my 5<$FFFC>million gold bounty！<$FFFE>
 21	<$FFF8>‥‥<$FFF6><$FB00><$0035>Kh！ Lady Jessica, I'm sorry<$FFFC>to drag you into this.<$FFFE>
@@ -67,7 +67,7 @@
 65	<$FB00><$0079>What do you mean by that？<$FFFE>
 66	<$FB00><$007A>True or false, you'll be hunted as<$FFFC>the Emperor's killer along with<$FFFC>that man.<$FFFD><$FB00><$007B>Word of this battle will soon<$FFFC>reach the new Emperor's ears.<$FFFE>
 67	<$FB00><$007C>New Emperor？<$FFFE>
-68	<$FB00><$007D>Perhaps you know him better as<$FFFC>Minister Gilmore？<$FFFD>You are no princess now, just<$FFFC>a common criminal.<$FFFD><$FB00><$007E>There is no future left for<$FFFC>you. Remember that！<$FFFE>
+68	<$FB00><$007D>Perhaps you know him better as<$FFFC>Minister Gilmore？<$FFFD>You are no princess now, just a<$FFFC>common criminal.<$FFFD><$FB00><$007E>There is no future left for you.<$FFFC>Remember that！<$FFFE>
 69	<$FB00><$007F>Ah, wait！ Creid！<$FFFE>
 70	<$FB00><$0080>He's gone.<$FFFE>
 71	<$FB00><$0081>Looks like you two came through<$FFFC>unharmed.<$FFFE>
@@ -82,9 +82,9 @@
 80	Y, you're good‥‥<$FFFE>
 81	<$FB00><$0060>Take them both down and the<$FFFC>bounty's a fortune！ It's our<$FFFC>lucky day！<$FFFE>
 82	<$FB00><$0061>‥M‥my lord Marquis！！<$FFFE>
-83	T, too strong！<$FFFC>We‥can't‥win‥‥<$FFFE>
+83	T, too strong！ We‥can't‥win‥‥<$FFFE>
 84	<$FB00><$0061>‥M‥my lord Marquis！！<$FFFE>
-85	T, too strong！<$FFFC>We‥can't‥win‥‥<$FFFE>
+85	T, too strong！ We‥can't‥win‥‥<$FFFE>
 86	<$FB00><$0061>‥M‥my lord Marquis！！<$FFFE>
 87	How could I lose<$FE14>‥<$FE14>‥. Guhah！<$FFFE>
 88	<$FB00><$0061>‥M‥my lord Marquis！！<$FFFE>

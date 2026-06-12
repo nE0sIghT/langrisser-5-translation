@@ -31,7 +31,7 @@
 29	<$FB00><$0052>In pursuit of immortality, I<$FFFC>leave this in case of my demise<$FFFC>‥‥.<$FFFE>
 30	<$FB00><$0053>Do you know how to use it？<$FFFE>
 31	<$FB00><$0054>I will try.<$FFFE>
-32	<$FB00><$0055>The Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago on El<$FFFC>Sallia, east of here.<$FFFD>30 years ago, dark god<$FFFC>Gendrasil brought it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still cannot<$FFFC>return it to sword form. With<$FFFC>more research, someday<$FFF5><$FFF8>‥<$FE14>‥<$FE14>.<$FE14><$FFFE>
+32	<$FB00><$0055>The Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago on El<$FFFC>Sallia, east of here.<$FFFD>30 years ago, dark god Gendrasil<$FFFC>brought it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still cannot<$FFFC>return it to sword form. With<$FFFC>more research, someday<$FFF5><$FFF8>‥<$FE14>‥<$FE14>.<$FE14><$FFFE>
 33	‥<$FE32>‥<$FE3C>‥<$FE46>‥<$FE50>‥<$FE5A>.<$FFFE>
 34	<$FFF8>‥<$FE3C>‥<$FE28><$FFF6><$FB00><$0058>The magic is unstable.<$FFFE>
 35	<$FB00><$0059>I built a mechanism into Sigma<$FFFC>and Omega.<$FFFD>With Langrisser equipped, both can<$FFFC>draw out their given power.<$FFFE>

@@ -31,7 +31,7 @@
 29	Archers are mercenaries that<$FFFC>strike from afar, like magic.<$FFFD>Get careless coming close and a<$FFFC>volley will finish you.<$FFFD>But archers have weak spots. Most<$FFFC>fall easily to attack magic.<$FFFE>
 30	Weak to magic, huh.<$FFFD>And if I can't use magic and<$FFFC>still must fight them？<$FFFE>
 31	Let's see. Then close in from<$FFFC>beyond bow range in one move<$FFFC>and strike.<$FFFD>Archers crumble in close combat.<$FFFE>
-32	In short, kill them with magic,<$FFFC>or close the gap in one move<$FFFC>and strike.<$FFFE>
+32	In short, kill them with magic, or<$FFFC>close the gap in one move and<$FFFC>strike.<$FFFE>
 33	That's the way of it.<$FFFE>
 34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
 35	At the Dark Altar<$FFFF>

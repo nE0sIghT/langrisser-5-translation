@@ -25,7 +25,7 @@
 23	Federation Castle, Audience Hall<$FFFF>
 24	<$FB00><$000D>Long time, Princess. No, Queen.<$FFFC>Russel has returned.<$FFFD><$FB00><$000E>Forgive my silence until now.<$FFFE>
 25	<$FB00><$000F>No, Russel. I have heard the<$FFFC>story.<$FFFD><$FB00><$0010>Even if it was Gizarof's plot,<$FFFC>we executed your father. What a<$FFFC>terrible mistake we made.<$FFFE>
-26	<$FB00><$0011>Even knowing the truth, my<$FFFC>father will not return now <$FFF5><$FFF8>‥‥<$FFFC><$FFF6><$FB00><$0012>Never<$FFF5><$FFF8>‥‥‥.<$FFFE>
+26	<$FB00><$0011>Even knowing the truth, my father<$FFFC>will not return now <$FFF5><$FFF8>‥‥<$FFFC><$FFF6><$FB00><$0012>Never<$FFF5><$FFF8>‥‥‥.<$FFFE>
 27	<$FB00><$0013>Then as part of our apology,<$FFFC>please take the premier's seat.<$FFFE>
 28	<$FB00><$0014>Me？<$FFFE>
 29	<$FB00><$0015>Yes. After Gizarof's chaos, no<$FFFC>premier has been named since<$FFFC>your father's execution.<$FFFD><$FB00><$0016>You know the office well. With<$FFFC>your popularity, it is natural.<$FFFD><$FB00><$0017>The Three Kingdom Alliance now<$FFFC>rebels against the Federation.<$FFFC>Please aid us.<$FFFE>
@@ -35,6 +35,6 @@
 33	<$FB00><$001C>Then, what is our current<$FFFC>response to the Three Kingdom<$FFFC>Alliance？<$FFFE>
 34	<$FB00><$001D>Marshal Lanford is personally<$FFFC>commanding at the front.<$FFFE>
 35	<$FB00><$001E>I see<$FFF5><$FFF8>‥‥.<$FFFE>
-36	<$FFF6><$FB00><$001F>I cannot decide now, but I<$FFFC>will gather information and issue<$FFFC>orders soon.<$FFFE>
+36	<$FFF6><$FB00><$001F>I cannot decide now, but I will<$FFFC>gather information and issue<$FFFC>orders soon.<$FFFE>
 37	<$0000>The party wiped out Kalxath's<$FFFC>flying corps and cut enemy<$FFFC>coordination.<$FFFD><$0000>If they strike HQ now and<$FFFC>ruin enemy command, the battle<$FFFC>will turn.<$FFFD><$0000><$F600><$0000>'s group steers<$FFFC>the flying ship toward enemy<$FFFC>HQ‥‥.<$FFFE>
 38	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

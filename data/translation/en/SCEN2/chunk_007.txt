@@ -37,7 +37,7 @@
 35	・Power to fight<$FFFE>
 36	Then receive this magic‥‥.<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
 37	Then receive this magic‥‥.<$FFFD><$0000> Learned the spell <$FFF4>MP<$FFFC>Drain<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
-38	Something glints now and then<$FFFC>in the dark. What do you do？<$FFFE>
+38	Something glints now and then in<$FFFC>the dark. What do you do？<$FFFE>
 39	・Reach out<$FFFE>
 40	・Watch and wait<$FFFE>
 41	・Ignore it<$FFFE>

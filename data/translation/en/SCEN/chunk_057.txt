@@ -19,11 +19,11 @@
 17	<$FB00><$000C>Hmm.<$FFFE>
 18	<$FB00><$000D>But we cannot make this real<$FFFC>alone. I need your help.<$FFFE>
 19	<$FFF8>‥‥<$FFF6><$FB00><$000E>I see. You seek a nation<$FFFC>for the people, not personal<$FFFC>power or blind dependence.<$FFFD><$FB00><$000F>You have a clear vision, even<$FFFC>giving up your status.<$FFFD><$FB00><$0010>Very well. I will help.<$FFFE>
-20	<$FB00><$0011>Thank you, Lord Lenard. Please<$FFFC>use your troops to help citizens<$FFFC>suffering under tyranny.<$FFFD><$FB00><$0012>Force against force is simple,<$FFFC>but I want to save them<$FFFC>quickly.<$FFFE>
+20	<$FB00><$0011>Thank you, Lord Lenard. Please<$FFFC>use your troops to help citizens<$FFFC>suffering under tyranny.<$FFFD><$FB00><$0012>Force against force is simple,<$FFFC>but I want to save them quickly.<$FFFE>
 21	<$FB00><$0013>Understood. I will tell the<$FFFC>rescued citizens of your ideals.<$FFFD><$FB00><$0014>Also, those who opposed Gilmore<$FFFC>for the people's sake are held<$FFFC>in Gaiana Prison.<$FFFE>
 22	<$FB00><$0015>Then we'll rescue them. A small<$FFFC>group may avoid notice.<$FFFE>
 23	<$FB00><$0016>I also know lower nobles who<$FFFC>may agree with this. I will<$FFFC>seek their aid.<$FFFE>
-24	<$FB00><$0017>After this war, the Emperor<$FFFC>will become only a name.<$FFFD><$FB00><$0018>But for the people's future, I<$FFFC>won't regret it. Father would<$FFFC>understand.<$FFFE>
+24	<$FB00><$0017>After this war, the Emperor will<$FFFC>become only a name.<$FFFD><$FB00><$0018>But for the people's future, I<$FFFC>won't regret it. Father would<$FFFC>understand.<$FFFE>
 25	<$FB00><$0019>Yes. Seeing your growth, he would<$FFFC>surely be proud.<$FFFE>
 26	Salrath Army<$0000>VS<$0000>Kalxath Army<$FFFF>
 27	<$FB00><$001A>Push forward！<$FFFE>

@@ -33,7 +33,7 @@
 31	<$FB00><$0019>Oh, nothing, just talking to<$FFFC>myself. Don't mind me.<$FFFE>
 32	<$FB00><$001A>I see. Then it is fine.<$FFFE>
 33	<$FB00><$001B>What is Brenda planning？ We need<$FFFC>to hurry to the rescue, but we<$FFFC>have been waiting half a day.<$FFFE>
-34	<$FB00><$001C>Even if we had left at once,<$FFFC>we would not have made it in<$FFFC>time.<$FFFE>
+34	<$FB00><$001C>Even if we had left at once, we<$FFFC>would not have made it in time.<$FFFE>
 35	<$FB00><$001D>True, but maybe we could have<$FFFC>helped a little.<$FFFE>
 36	<$FB00><$001E>Right. This is precious time, no<$FFFC>question.<$FFFE>
 37	<$FB00><$001F>I doubt it, but could she<$FFFC>have run away‥‥？<$FFFE>
@@ -58,5 +58,5 @@
 56	<$FB00><$0030>Amazing<$FFF5><$FFF8>‥‥.<$FFFE>
 57	<$FB00><$0031>Hey！ Sorry for the wait！<$FFFE>
 58	<$FB00><$0032>With this, we can fly there at<$FFFC>once！<$FFFE>
-59	<$0000>After the Liberlisters were<$FFFC>freed from Gaiana Prison,<$FFFC>Salrath's main force was still<$FFFC>surrounded by a huge army.<$FFFD><$0000>The distance was too great<$FFFC>for a rescue, and the<$FFFC>situation looked hopeless.<$FFFD><$0000>But Brenda appeared with a<$FFFC>flying ship from somewhere,<$FFFC>letting them reach the<$FFFC>battlefield sky in little time.<$FFFD><$0000>There they found the flying<$FFFC>corps acting as Kalxath's<$FFFC>eyes‥‥.<$FFFE>
+59	<$0000>After the Liberlisters were<$FFFC>freed from Gaiana Prison,<$FFFC>Salrath's main force was still<$FFFC>surrounded by a huge army.<$FFFD><$0000>The distance was too great<$FFFC>for a rescue, and the<$FFFC>situation looked hopeless.<$FFFD><$0000>But Brenda appeared with a<$FFFC>flying ship from somewhere, letting<$FFFC>them reach the battlefield sky<$FFFC>in little time.<$FFFD><$0000>There they found the flying<$FFFC>corps acting as Kalxath's<$FFFC>eyes‥‥.<$FFFE>
 60	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

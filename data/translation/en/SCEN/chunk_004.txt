@@ -81,7 +81,7 @@
 79	I refuse to die caught up in<$FFFC>someone's war！<$FFFE>
 80	Ugh‥‥. It hurts‥‥.<$FFFE>
 81	I don't want to die‥‥. I<$FFFC>don't‥‥.<$FFFE>
-82	<$FFF8><$FB00><$0031>Ggh‥‥. <$FFF5><$FFF6><$FB00><$0032>Not once but twice<$FFFC>now<$FFF5>‥‥.<$FFFD><$FB00><$0033>Bah, I've had it！ To blazes<$FFFC>with all this！ I'm going home！<$FFFE>
+82	<$FFF8><$FB00><$0031>Ggh‥‥. <$FFF5><$FFF6><$FB00><$0032>Not once but twice<$FFFC>now<$FFF5>‥‥.<$FFFD><$FB00><$0033>Bah, I've had it！ To blazes with<$FFFC>all this！ I'm going home！<$FFFE>
 83	<$FB00><$0034>Seems the loudmouth is gone.<$FFFE>
 84	<$FB00><$0036>Whew, looks like he's finally<$FFFC>gone.<$FFFE>
 85	<$FB00><$0035>Seems the loudmouth is gone now.<$FFFE>
@@ -91,9 +91,9 @@
 89	<$FB00><$0015>Fighting inside the town？ What is<$FFFC>the garrison captain here<$FFFC>thinking？<$FFFE>
 90	<$FB00><$0016>A man named Goldry, I believe.<$FFFD>Once a rough sellsword, favored<$FFFC>by the late king and made a<$FFFC>regular, they say.<$FFFE>
 91	<$FFF8>‥‥<$FFF6><$FB00><$0017>That explains a lot.<$FFFE>
-92	<$FB00><$0018>A self-centered man, notorious<$FFFC>in the army for finding excuses<$FFFC>to refuse deployment.<$FFFE>
+92	<$FB00><$0018>A self-centered man, notorious in<$FFFC>the army for finding excuses to<$FFFC>refuse deployment.<$FFFE>
 93	<$FB00><$0019>Honestly, and at a time when<$FFFC>Caconsis can least afford bad<$FFFC>rumors‥‥.<$FFFE>
-94	<$FB00><$001A>Admiral, please escape through<$FFFC>the north gate.<$FFFD>General Selena will not return<$FFFC>for some time yet. Until then,<$FFFC>I will hold them off somehow.<$FFFE>
+94	<$FB00><$001A>Admiral, please escape through the<$FFFC>north gate.<$FFFD>General Selena will not return<$FFFC>for some time yet. Until then,<$FFFC>I will hold them off somehow.<$FFFE>
 95	<$FB00><$001B>There are townsfolk about. Take<$FFFC>every care that no harm comes to<$FFFC>them.<$FFFE>
 96	<$FB00><$001C>Understood, sir. Now, Admiral,<$FFFC>hurry to the north gate.<$FFFE>
 97	<$FB00><$001D>Thank you.<$FFFE>

@@ -30,7 +30,7 @@
 28	<$FB00><$0034>For your ideal, saving this<$FFFC>country.<$FFFE>
 29	<$FB00><$0035>Right. The revolution begins here.<$FFFC>Let's do our best！<$FFFE>
 30	Because I'm great at everything.<$FFFE>
-31	<$FFF8>‥‥<$FB00><$0037>Heh.<$FFF5><$FFF6><$FB00><$0038>Even now, you have room<$FFFC>to joke.<$FFFE>
+31	<$FFF8>‥‥<$FB00><$0037>Heh.<$FFF5><$FFF6><$FB00><$0038>Even now, you have room to<$FFFC>joke.<$FFFE>
 32	<$FB00><$0039>All right, let's go！<$FFFE>
 33	I did it！ Now I can contact<$FFFC>Lord Creid and report your<$FFFC>actions！<$FFFE>
 34	Damn！ If they escape, our<$FFFC>operation is exposed‥‥.<$FFFE>

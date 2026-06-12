@@ -30,7 +30,7 @@
 28	<$FB00><$00A4>I am<$FFF5><$FFF8>‥‥<$FE0F><$FFF6><$FB00><$00A5>captain of the Royal<$FFFC>Guard？<$FFFE>
 29	<$FB00><$00A6>But<$FFF5><$FFF8>‥‥<$FE0F>,<$FFF6><$FB00><$00A7>that can't be.<$FFFE>
 30	<$FB00><$00A8>Huh？ How can you be sure？<$FFFE>
-31	<$FB00><$00A9>Three years ago, he looked your<$FFFC>age. If you were him, you<$FFFC>would not have aged.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$00AA>Besides, if it were him, I<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+31	<$FB00><$00A9>Three years ago, he looked your<$FFFC>age. If you were him, you would<$FFFC>not have aged.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$00AA>Besides, if it were him, I<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 32	<$FB00><$00AB>Clarett<$FFF5><$FFF8>‥‥？<$FFFE>
 33	<$FB00><$00AC>Because three years ago‥ I‥<$FFFC>killed him<$FFF5><$FFF8>‥‥.<$FFFE>
 34	<$FFF8>‥‥‥.<$FFFE>
@@ -38,12 +38,12 @@
 36	<$FB00><$00B1>So he looks like the man you<$FFFC>killed. No wonder you didn't want<$FFFC>to say it.<$FFFE>
 37	<$FB00><$00B2>Then I am someone else<$FFF5><$FFF8>‥‥.<$FFFE>
 38	<$FB00><$00B3>Could he have been your brother<$FFFC>or a relative？<$FFFE>
-39	<$FB00><$00B4>He was Duke Egil's only son,<$FFFC>with no close relatives near his<$FFFC>age<$FFF5><$FFF8>‥‥.<$FFFE>
+39	<$FB00><$00B4>He was Duke Egil's only son, with<$FFFC>no close relatives near his<$FFFC>age<$FFF5><$FFF8>‥‥.<$FFFE>
 40	<$FFF8>‥‥‥<$FFF6><$FB00><$00B5>Um<$FFF5><$FFF8>‥‥. <$FE1E><$FFF6><$FB00><$00B6>I told you<$FFFC>Gizarof's research included clones.<$FFFE>
 41	<$FB00><$00B7>Yeah. The technology to make<$FFFC>copies of people.<$FFFE>
 42	<$FB00><$00B8>Ha ha ha‥‥ I see. So I'm just<$FFFC>his copy<$FFF5><$FFF8>‥‥. <$FE14><$FFF6><$FB00><$00B9>I have no past<$FFFC><$FFF5><$FFF8>‥‥. <$FE14><$FFF6><$FB00><$00BA>A manmade puppet<$FFF5><$FFF8>‥‥.<$FFFE>
 43	<$FB00><$00BB>I have no right to say this,<$FFFC>but please don't lose heart.<$FFFE>
-44	<$FFF8>‥‥<$FFF6><$FB00><$00BC>I'm all right, Lambda. I'm<$FFFC>just glad I wasn't the<$FFFC>murderer.<$FFFE>
+44	<$FFF8>‥‥<$FFF6><$FB00><$00BC>I'm all right, Lambda. I'm<$FFFC>just glad I wasn't the murderer.<$FFFE>
 45	<$FB00><$00BD>Cheer up！ At least we know you<$FFFC>aren't the killer.<$FFFE>
 46	<$FB00><$00BE>Yeah, you're right. <$FFF5><$FFF8>‥<$FE0F>‥<$FE0F><$FFF6><$FB00><$00BF>That's<$FFFC>right.<$FFFE>
 47	<$FFF8>‥‥<$FFF6><$FB00><$00C0>Um<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -68,7 +68,7 @@
 66	<$FFF8>‥‥<$FFF6><$FB00><$00D6>Jessica left.<$FFFE>
 67	<$FB00><$00D7>What now？<$FFFE>
 68	<$FB00><$00D8>We don't know this continent.<$FFFC>Wandering blindly won't help.<$FFFE>
-69	<$FB00><$00D9>Miss Clarett, do you have<$FFFC>anywhere to go？<$FFFE>
+69	<$FB00><$00D9>Miss Clarett, do you have anywhere<$FFFC>to go？<$FFFE>
 70	<$FB00><$00DA>Yes. I think Salrath will help<$FFFC>us.<$FFFD><$FB00><$00DB>Salrath has always aided Kalxath<$FFFC>in crisis. Duke Lenard can be<$FFFC>trusted.<$FFFD><$FB00><$00DC>If we explain, he will surely<$FFFC>cooperate.<$FFFE>
 71	<$FB00><$00DD>So your goal is Salrath. What<$FFFC>should we do<$FFF5><$FFF8>‥‥？<$FFFE>
 72	<$FB00><$00DE>What do you mean？ Won't you<$FFFC>come with me？<$FFFE>

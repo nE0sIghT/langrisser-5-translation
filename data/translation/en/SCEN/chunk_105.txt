@@ -20,7 +20,7 @@
 18	<$FB00><$00E0>Indeed. We must gather information<$FFFC>without alerting anyone. What a<$FFFC>bother.<$FFFE>
 19	<$FB00><$00E1>If you want what you seek, go<$FFFC>to Velzeria.<$FFFE>
 20	<$FB00><$00E2>What？ How do you know that<$FFF5><$FFF8>‥‥？<$FFFE>
-21	<$FB00><$00E3>While waiting for the right<$FFFC>timing, I gathered a little<$FFFC>information for fun.<$FFFD><$FB00><$00E4>After all, my mouth is my<$FFFC>only talent.<$FFFE>
+21	<$FB00><$00E3>While waiting for the right<$FFFC>timing, I gathered a little<$FFFC>information for fun.<$FFFD><$FB00><$00E4>After all, my mouth is my only<$FFFC>talent.<$FFFE>
 22	<$FFF7>‥‥‥<$FB00><$00E5>Urgh<$FFF5><$FFF8>‥‥.<$FFFE>
 23	<$FB00><$00E6>Anyway, go to Velzeria. The<$FFFC>demon castle is there.<$FFFD><$FB00><$00F0>What you are looking for should<$FFFC>be inside.<$FFFE>
 24	<$FB00><$00E7>The demon castle？<$FFFE>
@@ -28,5 +28,5 @@
 26	<$FB00><$00E9>Omega.<$FFFE>
 27	<$FFF7><$FB00><$00EA>Huh？<$FFF5><$FFF8><$FFFE>
 28	<$FFFA><$FB00><$00EB>I was wrong. You have my<$FFFC>thanks.<$FFFE>
-29	<$FFF8>‥‥<$FB00><$00EC>Hmph. <$FFF5><$FFF6><$FB00><$00ED>Being thanked by a<$FFFC>man does not make me happy.<$FFFD><$FB00><$00EE>See you. I went to the trouble<$FFFC>of getting that information, so<$FFFC>do not waste it.<$FFFE>
-30	<$FB00><$00EF>Recover the sword from the<$FFFC>demons. After that, I will<$FFFC>take it for myself<$FFF5><$FFF8>‥‥.<$FFFE><$FFFF>
+29	<$FFF8>‥‥<$FB00><$00EC>Hmph. <$FFF5><$FFF6><$FB00><$00ED>Being thanked by a<$FFFC>man does not make me happy.<$FFFD><$FB00><$00EE>See you. I went to the trouble<$FFFC>of getting that information, so do<$FFFC>not waste it.<$FFFE>
+30	<$FB00><$00EF>Recover the sword from the<$FFFC>demons. After that, I will take<$FFFC>it for myself<$FFF5><$FFF8>‥‥.<$FFFE><$FFFF>

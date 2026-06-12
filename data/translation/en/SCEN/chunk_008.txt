@@ -43,7 +43,7 @@
 41	To do this well against my troops<$FFFC><$FFF8>‥‥. <$FFF6>Who is that man？<$FFFE>
 42	That woman looks skilled. Fighting<$FFFC>her is risky<$FFF8>‥‥.<$FFFE>
 43	That's Emily, a famed Federation<$FFFC>officer. Fighting her now is<$FFFC>pointless.<$FFFE>
-44	Then we'd best stick to the<$FFFC>plan and cross that bridge.<$FFFE>
+44	Then we'd best stick to the plan<$FFFC>and cross that bridge.<$FFFE>
 45	Right. Drop the bridge once we<$FFFC>reach the far bank, and we<$FFFC>shake the pursuit.<$FFFD>Everyone, to the far shore,<$FFFC>quick！<$FFFE>
 46	Best stick to the plan and<$FFFC>cross that bridge. Then we drop<$FFFC>it and shake the pursuit.<$FFFD>Everyone, to the far shore,<$FFFC>quick！<$FFFE>
 47	Escape point<$FFFF>

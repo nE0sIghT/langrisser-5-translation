@@ -10,7 +10,7 @@
 8	Lambert<$FFFF>
 9	Alvince<$FFFF>
 10	Rockwell's chambers<$FFFF>
-11	<$FB00><$0080>Oh, Lambert<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0081>Good of you<$FFFC>to come.<$FFFE>
+11	<$FB00><$0080>Oh, Lambert<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0081>Good of you to<$FFFC>come.<$FFFE>
 12	<$FB00><$0082>What's this, Rockwell？ Felled by<$FFFC>so slight an illness. You've grown<$FFFC>old.<$FFFE>
 13	<$FB00><$0083>Listen to you.<$FFFD>Those eyes of yours aren't what<$FFFC>they were either. They used to<$FFFC>hold more confidence.<$FFFE>
 14	<$FB00><$0084>Hahah. We've both grown old.<$FFFD>I miss those days we spent<$FFFC>adventuring together.<$FFFE>
@@ -25,7 +25,7 @@
 23	<$FB00><$008D>Father, I've brought your<$FFFC>medicine.<$FFFE>
 24	<$FB00><$008E>Thank you, Alvince.<$FFFE>
 25	<$FB00><$008F>It's been a while, Alvince.<$FFFD>Caring for your father, and<$FFFC>doing well at it, I see.<$FFFE>
-26	<$FB00><$0090>I'm glad to see you well,<$FFFC>Lord Lambert.<$FFFD>We hear much of Lord Lanford's<$FFFC>exploits as well.<$FFFE>
+26	<$FB00><$0090>I'm glad to see you well, Lord<$FFFC>Lambert.<$FFFD>We hear much of Lord Lanford's<$FFFC>exploits as well.<$FFFE>
 27	<$FB00><$0091>With me like this, Alvince bears<$FFFC>the burden.<$FFFD>A poor showing for a father,<$FFFC>truly.<$FFFE>
 28	<$FB00><$0092>Come to think of it, where is<$FFFC>the other one‥‥young Alfred？<$FFFE>
 29	<$FB00><$0093>My brother is out searching for<$FFFC>medicine to cure father.<$FFFE>

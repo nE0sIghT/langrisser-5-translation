@@ -38,7 +38,7 @@
 36	<$FB00><$0026>The experiment worked. You<$FFFC>revived, but dying erased your<$FFFC>memory.<$FFFE>
 37	<$FB00><$0027>Then the man Clarett stabbed<$FFFC>was<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$0028>me<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>？<$FFFE>
 38	<$FB00><$0029>Yes. I was shocked you became<$FFFC>guard captain and killed<$FFFC>Kalxath's emperor.<$FFFD><$FB00><$002A>Remembering now？<$FFFE>
-39	<$FB00><$002B>I wanted to settle this now,<$FFFC>but another task comes first.<$FFFD><$FB00><$002C>Remember everything before we meet<$FFFC>again, or it won't be fun.<$FFFE>
+39	<$FB00><$002B>I wanted to settle this now, but<$FFFC>another task comes first.<$FFFD><$FB00><$002C>Remember everything before we meet<$FFFC>again, or it won't be fun.<$FFFE>
 40	<$FB00><$002D>It was me<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed me<$FFFC>once<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>‥‥.<$FFFE>
 41	<$0000>Rejected by Lenard too, Clarett<$FFFC>went east for another ally.<$FFFD><$0000>On the road, another town<$FFFC>suffered under heavy taxes‥‥.<$FFFE>
 42	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

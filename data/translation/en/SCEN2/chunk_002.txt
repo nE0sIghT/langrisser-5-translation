@@ -13,7 +13,7 @@
 11	・<$F600><$0000> and Lambda escape west<$FFFC>・Defeat Aizer<$FFFE>
 12	・<$F600><$0000> or Lambda dies<$FFFE>
 13	Tirock Plateau<$FFFF>
-14	<$FB00><$000D>Hm？ All these cliffs make<$FFFC>this place hard to walk.<$FFFE>
+14	<$FB00><$000D>Hm？ All these cliffs make this<$FFFC>place hard to walk.<$FFFE>
 15	<$FB00><$000E>Few spots on the river ahead<$FFFC>have bridges. Detouring to find<$FFFC>another would waste time.<$FFFD><$FB00><$000F>You'll just have to bear it.<$FFFE>
 16	<$FB00><$0010>Cool as ever. So that was your<$FFFC>data talking again？<$FFFE>
 17	<$FB00><$0011>That's right. Now let's hurry<$FFFC>on.<$FFFE>
@@ -29,7 +29,7 @@
 27	Don't think you can escape！<$FFFE>
 28	Careful, Lambda！ Keep away from<$FFFC>him！<$FFFE>
 29	That seems wise.<$FFFE>
-30	Leave this to us. You two<$FFFC>run, quickly.<$FFFE>
+30	Leave this to us. You two run,<$FFFC>quickly.<$FFFE>
 31	Thank you so much.<$FFFE>
 32	<$FB00><$001C>Now, what's our move<$FFF5><$FFF8>‥‥.<$FFFE>
 33	<$FB00><$001D>I'll leave it to you. I will<$FFFC>move just as you direct.<$FFFD>Think hard about how to hold<$FFFC>the enemy back.<$FFFE>
@@ -76,7 +76,7 @@
 74	L‥Lord Aizer is<$FFF8>‥‥.<$FFFD><$FFF6>Tch！ We're pulling out！<$FFFE>
 75	<$FB00><$0021>So only that one is left.<$FFFE>
 76	<$FB00><$0022>Mmgh<$FFF5><$FFF8>‥<$FE32>‥<$FE32>. <$FE32><$FFF6><$FB00><$0023>We had to hurry the<$FFFC>pursuit, but perhaps I brought<$FFFC>too few men.<$FFFE>
-77	<$FB00><$0024>There's no need to force a<$FFFC>fight. Right now, moving on<$FFFC>comes first.<$FFFE>
+77	<$FB00><$0024>There's no need to force a<$FFFC>fight. Right now, moving on comes<$FFFC>first.<$FFFE>
 78	<$FB00><$0025>Yeah. That's true, but<$FFF5><$FFF8>‥‥.<$FFFE>
 79	A pixie is perched on a stake<$FFFC>jutting from the water. The<$FFFC>fairy looks at you and grins.<$FFFD>You look like you're in trouble？<$FFFC>Want me to help you out？<$FFFE>
 80	・Accept the help<$FFFE>
@@ -95,11 +95,11 @@
 93	Well‥‥<$FFFE>
 94	They suddenly attacked us. We only<$FFFC>fought back.<$FFFE>
 95	They attacked first<$FFF8>‥‥.<$FFFE>
-96	Admiral, could they be remnants<$FFFC>of Gizarof's forces？<$FFFE>
+96	Admiral, could they be remnants of<$FFFC>Gizarof's forces？<$FFFE>
 97	Hard to say. They seemed too well<$FFFC>organized for that, though.<$FFFE>
 98	<$FB00><$0046>Looks like you're safe now. Good,<$FFFC>good.<$FFFE>
 99	<$FB00><$0047>I don't know who you are, but<$FFFC>thank you.<$FFFE>
-100	<$FB00><$0048>Oh, I didn't do anything<$FFFC>myself.<$FFFE>
+100	<$FB00><$0048>Oh, I didn't do anything myself.<$FFFE>
 101	<$FFF8>‥‥<$FFF6><$FB00><$0049>We're going.<$FFFE>
 102	<$FB00><$004A>Yeah, I know.<$FFFE>
 103	<$FB00><$004B>Well then, we're in a hurry, so<$FFFC>excuse us.<$FFFE>

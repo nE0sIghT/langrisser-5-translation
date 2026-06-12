@@ -94,7 +94,7 @@
 92	WOOO‥‥<$FFFE>
 93	<$FB00><$003E>Looks like no enemies remain.<$FFFE>
 94	<$FB00><$003F>Looks like we protected them.<$FFFE>
-95	<$FB00><$0040>Thanks to you, not one unit<$FFFC>was hurt. Thank you.<$FFFE>
+95	<$FB00><$0040>Thanks to you, not one unit was<$FFFC>hurt. Thank you.<$FFFE>
 96	<$FB00><$0041>Everyone worked hard for it.<$FFFE>
 97	<$FB00><$0042>Yes. Thank you, everyone.<$FFFE>
 98	<$FB00><$0043>Save your thanks, or you will<$FFFC>run out later.<$FFFE>
@@ -102,7 +102,7 @@
 100	<$FB00><$0045>Still, I am happy you all<$FFFC>fight for this country. Thank<$FFFC>you.<$FFFE>
 101	<$FB00><$0046>Then hurry. McLaine and Jessica<$FFFC>may already be fighting.<$FFFE>
 102	<$FB00><$0047>Right. We should hurry too.<$FFFE>
-103	A huge shadow crossed the sky.<$FFFD>I am Snow Dragon. My children<$FFFC>grew strong thanks to you. I<$FFFC>came to repay you.<$FFFE>
+103	A huge shadow crossed the sky.<$FFFD>I am Snow Dragon. My children<$FFFC>grew strong thanks to you. I came<$FFFC>to repay you.<$FFFE>
 104	<$F600><$0000> can now hire<$FFFC><$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
 105	Marie can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>
 106	Alfred can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>

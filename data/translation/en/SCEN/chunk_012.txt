@@ -103,11 +103,11 @@
 101	<$FB00><$005D>Saving them, then being hated, is<$FFFC>hard to take.<$FFFE>
 102	<$FFF7><$FB00><$005E>Yeah<$FFF5><$FFF8>‥‥.<$FFFE>
 103	<$FB00><$0060>Right！ They say they'll starve,<$FFFC>but do nothing.<$FFFE>
-104	<$FB00><$005F>Right！ Without us they'd<$FFFC>starve. All they did was run.<$FFFE>
+104	<$FB00><$005F>Right！ Without us they'd starve.<$FFFC>All they did was run.<$FFFE>
 105	<$FB00><$0061>But can you say that？<$FFFD><$FB00><$0062>You were framed for killing your<$FFFC>father, yet only ran.<$FFFE>
 106	<$FB00><$0063>You're one to talk. Salrath's<$FFFC>lord said you also rely on others<$FFFC>and run.<$FFFE>
 107	<$FFF8><$FB00><$0064>‥‥‥！<$FFFE>
-108	<$FB00><$0065>Maybe I run too, hiding that<$FFFC>I killed the Emperor.<$FFFD><$0000><$FB00><$0066>Should I tell Clarett？<$FFFE>
+108	<$FB00><$0065>Maybe I run too, hiding that I<$FFFC>killed the Emperor.<$FFFD><$0000><$FB00><$0066>Should I tell Clarett？<$FFFE>
 109	・Say nothing<$FFFE>
 110	・Tell her<$FFFE>
 111	<$FB00><$0067>No, I can't tell her<$FFF5><$FFF8>‥‥.<$FFFE>

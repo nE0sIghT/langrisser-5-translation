@@ -28,16 +28,16 @@
 26	<$FB00><$0010>With Caconsis aid, we finally<$FFFC>defeated the traitor Gizarof.<$FFFD><$FB00><$0011>His wounds on the Federation run<$FFFC>deep. Recovery will take time.<$FFFD><$FB00><$0012>His men may yet rally. Stay<$FFFC>alert, and help me restore the<$FFFC>Federation quickly.<$FFFE>
 27	<$FFF7><$FB00><$0013>Yes, sir！<$FFF5><$FFF8><$FFFE>
 28	<$FB00><$0014>The Federation will stay unstable<$FFFC>for now. Until things settle,<$FFFC>lend me your strength.<$FFFE>
-29	<$FB00><$0015>I, Lanford, will give all I<$FFFC>have to the Federation.<$FFFE>
+29	<$FB00><$0015>I, Lanford, will give all I have<$FFFC>to the Federation.<$FFFE>
 30	<$FB00><$0016>Then I am counting on you both.<$FFFE>
 31	<$FB00><$0017><$FFF7>Yes, Your Majesty.<$FFF5><$FFF8><$FFFE>
 32	At Lainforce's Castle<$FFFF>
 33	<$FFFA><$FB00><$0018>Forgive me, Lord Lainforce. I<$FFFC>still have not captured them<$FFF5><$FFF8>‥‥.<$FFFE>
 34	<$FB00><$0019>That matter is over. From now<$FFFC>on, he will recover the vessels.<$FFFE>
 35	<$FB00><$001A>He is the one from then？<$FFFE>
-36	<$FB00><$001B>Omega. Howdy. Now that the<$FFFC>formal order is out, I'll get<$FFFC>moving.<$FFFE>
+36	<$FB00><$001B>Omega. Howdy. Now that the formal<$FFFC>order is out, I'll get moving.<$FFFE>
 37	<$FB00><$001C>Lord Lainforce<$FFF5><$FFF8>‥‥,<$FFF6><$FB00><$001D>am I relieved<$FFFC>of my duty？<$FFFE>
-38	<$FB00><$001E>No. He can sense vessels like<$FFFC>him, even far away. He is<$FFFC>better suited.<$FFFD><$FB00><$001F>Instead, I have another task. I<$FFFC>can entrust it only to you.<$FFFE>
+38	<$FB00><$001E>No. He can sense vessels like<$FFFC>him, even far away. He is better<$FFFC>suited.<$FFFD><$FB00><$001F>Instead, I have another task. I<$FFFC>can entrust it only to you.<$FFFE>
 39	<$FB00><$0020>Yes, sir. Command me as you<$FFFC>wish.<$FFFE>
 40	At El Sallia Port<$FFFF>
 41	<$FB00><$0021>So this is El Sallia.<$FFFE>

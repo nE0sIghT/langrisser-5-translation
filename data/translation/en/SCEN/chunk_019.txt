@@ -58,7 +58,7 @@
 56	A paper lies below the goddess<$FFFC>statue.<$FFFD><$0000> <$FFF4>Challengers wanted！！<$FFF3><$FFFD>It is a flyer for Pondbag's<$FFFC><$FFF4>Umagee<$FFF3>.<$FFFE>
 57	<$0000> Obtained the <$FFF4>Umagee<$FFF3> flyer！！<$FFFE>
 58	<$FB00><$00A2>Glob！ I will defeat you myself！<$FFFC>Without you, El Sallia would not<$FFFC>be in chaos！<$FFFE>
-59	<$FB00><$00A3>Thanks to me, you are<$FFFC>revolution heroes.<$FFFD><$FB00><$00A4>And do not forget, the royals<$FFFC>there executed the innocent<$FFFC>Egils.<$FFFE>
+59	<$FB00><$00A3>Thanks to me, you are revolution<$FFFC>heroes.<$FFFD><$FB00><$00A4>And do not forget, the royals<$FFFC>there executed the innocent Egils.<$FFFE>
 60	<$FB00><$00A5>Do not toy with me！ You caused<$FFFC>it all！<$FFFE>
 61	<$FB00><$00A6>True, but fools who are fooled<$FFFC>are at fault too. <$FFF5><$FFF8><$FFF7><$FB00><$00A7>Hih hih hih<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 62	<$FB00><$00BD>Prepare yourself, Glob！<$FFFE>
@@ -81,7 +81,7 @@
 79	<$FB00><$006E>Fall back, Brenda！ Do not push<$FFFC>it！<$FFFE>
 80	<$FB00><$006F>‥‥I will. I do not want to<$FFFC>drag you down‥‥.<$FFFE>
 81	<$FB00><$00A8>You were the one who incited<$FFFC>Gilmore！<$FFFE>
-82	<$FB00><$00A9>Who can say？ Still, you<$FFFC>left rule to an ambitious<$FFFC>minister.<$FFFE>
+82	<$FB00><$00A9>Who can say？ Still, you left<$FFFC>rule to an ambitious minister.<$FFFE>
 83	<$FFF8><$FB00><$00AA>Kh‥‥.<$FFFE>
 84	<$FB00><$00BF>I will avenge father！<$FFFE>
 85	<$FB00><$00C0>I know your grief.<$FFFD><$FB00><$00C1>I wished to show you his<$FFFC>corpse, but he was cremated. A<$FFFC>pity.<$FFFE>
@@ -133,7 +133,7 @@
 131	<$FB00><$00D3>The revolution is almost won. We<$FFFC>will not let demons interfere！<$FFFE>
 132	Exactly！ First father, and now<$FFFC>even the dead of this village！！<$FFFE>
 133	No kidding.<$FFFE>
-134	I need to blow off steam, or<$FFFC>I will lose my mind！<$FFFE>
+134	I need to blow off steam, or I<$FFFC>will lose my mind！<$FFFE>
 135	Then try Pondbag.<$FFFD>They say <$FFF4>Umagee <$FFF3>has many fun<$FFFC>attractions.<$FFFE>
 136	<$FFFA>Pondbag<$FFF8>‥‥‥ <$FFFB><$FFF9><$FFF6>Great, let us go！！<$FFFD>A little detour will not hurt！<$FFFE>
 137	An amusement hall？ Nice.<$FFFD>In Yeless, I often slipped out<$FFFC>to play with my brother‥‥.<$FFFE>

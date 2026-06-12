@@ -56,7 +56,7 @@
 54	・Fight<$FFFE>
 55	・Talk<$FFFE>
 56	・Do nothing<$FFFE>
-57	You would fight me？ Hmph‥‥<$FFFC>I like it. With you, I may<$FFFC>enjoy many more days of battle.<$FFFD><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be<$FFFC>hired！<$FFFE>
+57	You would fight me？ Hmph‥‥ I<$FFFC>like it. With you, I may enjoy<$FFFC>many more days of battle.<$FFFD><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be<$FFFC>hired！<$FFFE>
 58	I have no time for your foolish<$FFFC>talk. Leave this place！<$FFFE>
 59	Begone if you have no business！<$FFFE>
 60	A relief engraved with a crest<$FFFC>is embedded here.<$FFFE>
@@ -111,7 +111,7 @@
 109	<$FFF7><$FB00><$0055>Whew<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0056>Looks like it is over.<$FFFE>
 110	<$FB00><$0057>Honestly, I did not think we<$FFFC>could defeat them all.<$FFFE>
 111	<$FB00><$0058>Then hurry back to the flying<$FFFC>ship.<$FFFE>
-112	<$FB00><$0059>Now we use the flying ship<$FFFC>from above to help Salrath<$FFFC>escape！<$FFFE>
+112	<$FB00><$0059>Now we use the flying ship from<$FFFC>above to help Salrath escape！<$FFFE>
 113	Damn！ They struck when we were<$FFFC>thin‥‥.<$FFFE>
 114	All units, attack！ Do not let<$FFFC>them into the fort！<$FFFE>
 115	Yes sir！<$FFFE>
@@ -145,7 +145,7 @@
 143	<$FB00><$004E>B-but<$FFF5><$FFF8>‥‥.<$FFFE>
 144	<$FB00><$0051>It is all right. Once I confirm<$FFFC>everyone is safe, I will escape<$FFFC>too！<$FFFE>
 145	Everyone, hurry and escape！<$FFFE>
-146	<$FB00><$0059>Now we use the flying ship<$FFFC>from above to help Salrath<$FFFC>escape！<$FFFE>
+146	<$FB00><$0059>Now we use the flying ship from<$FFFC>above to help Salrath escape！<$FFFE>
 147	<$FB00><$0040>Found you！ I will avenge my<$FFFC>men！<$FFFE>
 148	<$FB00><$0041>Cavalry, then flyers<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0042>This will<$FFFC>be rough.<$FFFE>
 149	Step on the floor relief and it<$FFFC>sinks. A distant click sounds.<$FFFE><$FFFF>

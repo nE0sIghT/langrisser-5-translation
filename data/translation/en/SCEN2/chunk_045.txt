@@ -49,5 +49,5 @@
 47	<$FB00><$0030>Intruders in the laboratory.<$FFFC>Intruders in the laboratory.<$FFFD>Numerous intruders. All of them<$FFFC>are armed.<$FFFE>
 48	‥‥<$FB00><$0031>Enemies, it seems.<$FFFD>The data says the master has<$FFFC>many of those. We can't stay here<$FFFC>anymore.<$FFFE>
 49	‥‥<$FB00><$0032>Whew. Let's go, Lambda.<$FFFE>
-50	<$0000>In Gizarof's sorcery laboratory,<$FFFC>the specimens <$F600><$0000> and<$FFFC>Lambda awaken.<$FFFD><$0000><$F600><$0000> has no memory.<$FFFC>And amid the confusion, alarms<$FFFC>suddenly blare through the halls.<$FFFD><$0000><$0000>Knowing nothing, the two<$FFFC>are swept into battle.<$FFFE>
+50	<$0000>In Gizarof's sorcery laboratory,<$FFFC>the specimens <$F600><$0000> and<$FFFC>Lambda awaken.<$FFFD><$0000><$F600><$0000> has no memory.<$FFFC>And amid the confusion, alarms<$FFFC>suddenly blare through the halls.<$FFFD><$0000><$0000>Knowing nothing, the two are<$FFFC>swept into battle.<$FFFE>
 51	Victory terms<$FFFC><$0000><$FFFC>・<$F600><$0000> and Lambda escape the lab<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> or Lambda dies<$FFFE>

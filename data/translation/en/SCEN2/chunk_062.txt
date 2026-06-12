@@ -21,7 +21,7 @@
 21	<$FB00><$0007>I understand your resolve. But we<$FFFC>must avoid misunderstandings in<$FFFC>many respects.<$FFFE>
 22	<$FB00><$0008>Misunderstandings！？<$FFFE>
 23	<$FB00><$0009>That you might use your marshal<$FFFC>rank to gather soldiers and aid<$FFFC>the Three-Country Alliance‥‥.<$FFFE>
-24	<$FB00><$000A>What！？ <$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that<$FFFC>too, Premier？<$FFFE>
+24	<$FB00><$000A>What！？ <$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that too,<$FFFC>Premier？<$FFFE>
 25	<$FB00><$000C>No, I do not<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$000D>But we must<$FFFC>not let needless suspicion<$FFFC>trouble nobles or citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
 26	<$FFF7><$FB00><$0010>Yes sir！<$FFFE>
 27	<$FB00><$0011>What do you intend？<$FFFE>
@@ -33,7 +33,7 @@
 33	<$FB00><$0018>First priority is a safe<$FFFC>withdrawal！ Stay defensive！<$FFFE>
 34	<$FB00><$0019>Understood！<$FFFE>
 35	<$FB00><$001A>Hmm, what is this？ Lanford has<$FFFC>not appeared.<$FFFD><$FB00><$001B>Convenient for us. Strike now！<$FFFC>Do not let even one escape！<$FFFE>
-36	<$FB00><$001C>What is wrong？ The left wing<$FFFC>is slow！<$FFFE>
+36	<$FB00><$001C>What is wrong？ The left wing is<$FFFC>slow！<$FFFE>
 37	<$FB00><$001D>Emergency！ The left wing is<$FFFC>under attack！<$FFFE>
 38	<$FB00><$001E>Of course it is, this is war！<$FFFE>
 39	<$FB00><$001F>N-no, the attackers appear to<$FFFC>be Rochefort troops<$FFF5><$FFF8>‥‥.<$FFFE>

@@ -25,7 +25,7 @@
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
 24	<$FB00><$0067>Not Florier, but a medicine from<$FFFC>my home continent. It works well.<$FFFE>
 25	<$FB00><$0068>Please, let me have it！ I'll<$FFFC>pay whatever it takes！<$FFFE>
-26	<$FB00><$0069>N, no！ I wasn't offering to<$FFFC>make money off you<$FFF5>‥‥.<$FFFE>
+26	<$FB00><$0069>N, no！ I wasn't offering to make<$FFFC>money off you<$FFF5>‥‥.<$FFFE>
 27	<$FB00><$006A>But then I couldn't live with<$FFFC>myself！ At least take this much！<$FFFE>
 28	‥‥<$FB00><$006B>Very well. Then I'll gladly<$FFFC>accept.<$FFFD>Here. This is the fever<$FFFC>medicine.<$FFFE>
 29	<$FB00><$006C>You're a lifesaver！<$FFFE>

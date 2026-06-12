@@ -29,7 +29,7 @@
 27	・Explain it<$FFFE>
 28	If <$FFF4>casting time <$FFF3>fits within <$FFF4>action<$FFFC>points<$FFF3>, the spell fires at<$FFFC>once.<$FFFD>If not, it waits until the next<$FFFC>action, right？<$FFFE>
 29	Exactly. A short-cast spell can<$FFFC>be used right away.<$FFFE>
-30	For beast magic, if <$FFF4>action<$FFFC>points exceed casting time<$FFF3>, it<$FFFC>fires at once.<$FFFD>If not, it waits until the next<$FFFC>command.<$FFFE>
+30	For beast magic, if <$FFF4>action points<$FFFC>exceed casting time<$FFF3>, it fires at<$FFFC>once.<$FFFD>If not, it waits until the next<$FFFC>command.<$FFFE>
 31	I see. Short-cast spells can<$FFFC>fire right away.<$FFFE>
 32	Still, he is late. He should be<$FFFC>here by now.<$FFFE>
 33	Please wait for me！<$FFFE>
@@ -52,7 +52,7 @@
 50	<$FFF8>‥<$FE14><$FE14>‥<$FE14><$FE14>‥<$FE14><$FE14><$FB00><$0005>This tree<$FFF5><$FFF8>‥<$FE14>‥<$FE14>.<$FFFE>
 51	<$FB00><$0006>I feel like I've seen this tree<$FFFC>somewhere.<$FFFE>
 52	<$FB00><$0007>I've never seen it. What about<$FFFC>this tree？<$FFFE>
-53	<$FB00><$0008>Just now, this tree called me<$FFFC>to stop.<$FFFE>
+53	<$FB00><$0008>Just now, this tree called me to<$FFFC>stop.<$FFFE>
 54	<$FB00><$0009>Come on, trees can't talk.<$FFFE>
 55	<$FFF8>‥<$FE14><$FE14>‥<$FE14><$FE14><$FB00><$000A>This tree<$FFF5><$FFF8>‥<$FE14><$FE14>‥<$FE14><$FE14><$FFF6><$FB00><$000B>A World Tree？<$FFFE>
 56	<$FB00><$000C>World Tree？ <$FFF5><$FFF8>‥<$FE14><$FE14>‥<$FE14><$FE14><$FFF6><$FB00><$000D>What's that？<$FFFE>
@@ -60,7 +60,7 @@
 58	<$FB00><$000F>King of plants？<$FFFE>
 59	<$FB00><$0010>In human terms. It is so holy<$FFFC>that people call it the mother of<$FFFC>all plants.<$FFFD><$FB00><$0011>But why would one be here<$FFF5><$FFF8>‥‥？<$FFFE>
 60	<$FFF7><$FB00><$0012>Wow<$FFF5>‥<$FE14>‥<$FE14><$FFF6><$FB00><$0013>So it's that rare？<$FFFE>
-61	<$FB00><$0014>A World Tree has three names.<$FFFC>Up to 50 years it's<$FFFC>Silverleaf, then Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a<$FFFC>World Tree.<$FFFE>
+61	<$FB00><$0014>A World Tree has three names.<$FFFC>Up to 50 years it's Silverleaf,<$FFFC>then Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a<$FFFC>World Tree.<$FFFE>
 62	<$FB00><$0016>I remember. It's the tree from<$FFFC>the lab where we woke up.<$FFFE>
 63	<$FFFA><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0017>Somehow, it feels nostalgic.<$FFFC>Like someone is gently holding me<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 64	<$FB00><$0018>It did seem to protect us back<$FFFC>then.<$FFFE>

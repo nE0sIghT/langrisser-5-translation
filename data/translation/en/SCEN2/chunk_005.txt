@@ -87,7 +87,7 @@
 85	‥my strength‥was not‥enough‥‥<$FFFE>
 86	<$FB00><$0056>That's the last of them.<$FFFE>
 87	<$FB00><$0053>No more pursuers, it seems.<$FFFE>
-88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0055>Not my finest<$FFFC>showing, huh.<$FFFE>
+88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0055>Not my finest showing,<$FFFC>huh.<$FFFE>
 89	<$FB00><$0057>Thanks. You saved us.<$FFFE>
 90	<$FB00><$0058>Don't mention it.<$FFFE>
 91	<$FB00><$0059>We're safe for a while.<$FFFE>

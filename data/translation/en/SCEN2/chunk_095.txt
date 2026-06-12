@@ -111,7 +111,7 @@
 109	<$FFF8>‥‥‥.<$FFFE>
 110	<$FB00><$00F8>What do you think？ I say we<$FFFC>should follow too.<$FFFE>
 111	<$FB00><$00F9>If demons have Alhazard, we can't<$FFFC>ignore it. And Langrisser is the<$FFFC>key to my secret.<$FFFE>
-112	<$FFF8><$FB00><$00FA>I-I<$FFF5><$FFF8>‥‥. ‥‥<$FFF6><$FB00><$00FB>If I can, I<$FFFC>want to stay with him. It may<$FFFC>help my memory return.<$FFFE>
+112	<$FFF8><$FB00><$00FA>I-I<$FFF5><$FFF8>‥‥. ‥‥<$FFF6><$FB00><$00FB>If I can, I want<$FFFC>to stay with him. It may help my<$FFFC>memory return.<$FFFE>
 113	<$FB00><$00FC>Marie<$FFF5><$FFF8>‥‥.<$FFFE>
 114	<$FB00><$00FD>I'd be lying if I said I<$FFFC>wasn't afraid, but<$FFF5><$FFF8>‥‥.<$FFFE>
 115	<$FB00><$00FE>That's fine. He's family you<$FFFC>finally found. Recover your true<$FFFC>self.<$FFFE>

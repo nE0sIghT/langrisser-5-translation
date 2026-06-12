@@ -26,7 +26,7 @@
 24	<$FB00><$0038>I'd rather avoid pointless<$FFFC>battles, but dealing Caconsis a<$FFFC>blow now may serve us later.<$FFFE>
 25	<$FB00><$0039>Then it's settled. Let's help<$FFFC>those two.<$FFFE>
 26	<$FB00><$003A>Understood.<$FFFE>
-27	<$FB00><$0047>See you around, Captain<$FFFC>Dimwit！<$FFFE>
+27	<$FB00><$0047>See you around, Captain Dimwit！<$FFFE>
 28	<$FFF8><$FB00><$0048>Grrr‥‥. <$FFF5><$FFF6><$FB00><$0049>So be it, then I'll<$FFFC>butcher the rest of them<$FFFC>instead！<$FFFE>
 29	<$FFF8>‥‥<$FFF6><$FB00><$004A>Try it.<$FFFE>
 30	<$FB00><$004B>With trees this thick, horses<$FFFC>should lose their footing. If I<$FFFC>can slip away meanwhile<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -37,7 +37,7 @@
 35	<$FB00><$0050>Huh？ Me？<$FFFE>
 36	<$FB00><$0058>That's right. Would you help us<$FFFC>bring down those horsemen？<$FFFE>
 37	<$FB00><$0052>You mean me？ <$FFF5><$FE3C><$FFF8>‥‥<$FFF6><$FB00><$0053>I couldn't<$FFF5>‥‥.<$FFFE>
-38	<$FB00><$0059>We need your strength. Either<$FFFC>way, staying put means danger.<$FFFE>
+38	<$FB00><$0059>We need your strength. Either way,<$FFFC>staying put means danger.<$FFFE>
 39	<$FFF8>‥‥<$FFF6><$FB00><$0055>Very well. I don't know how<$FFFC>to fight, so please give me<$FFFC>directions.<$FFFE>
 40	<$FB00><$005A>Thank you.<$FFFE>
 41	Hey, you damn wench！ Unless you<$FFFC>want to anger me any further,<$FFFC>get over here, nice and quiet！<$FFFE>
@@ -88,7 +88,7 @@
 86	Hey, brats！ Don't think you<$FFFC>can anger me and just walk<$FFFC>away！<$FFFE>
 87	Wait, Captain. They're pikemen.<$FFFC>You'd best leave this to us<$FFF8>‥‥.<$FFFE>
 88	Shut it！<$FFFD>Nobody mocks me and gets away<$FFFC>with it！<$FFFD>No matter what, I'll crush those<$FFFC>brats with my own hands！<$FFFE>
-89	<$FE14>‥<$FE14>‥<$FE14>‥<$FE14>‥<$FE14>Still, I'm counting on<$FFFC>your puny help, if only a<$FFFC>little.<$FFFE>
+89	<$FE14>‥<$FE14>‥<$FE14>‥<$FE14>‥<$FE14>Still, I'm counting on your<$FFFC>puny help, if only a little.<$FFFE>
 90	Y-yes, sir. Understood.<$FFFD>But the girl, I fear catching<$FFFC>her is beyond us<$FFF8>‥‥.<$FFFE>
 91	<$FE14>I, <$FE14>I know that already！ Then<$FFFC>we'll catch the boy at least<$FFFC>and shake him down！<$FFFE>
 92	Wh-what do I do‥‥.<$FFFE>
@@ -136,7 +136,7 @@
 134	・Yank it hard<$FFFE>
 135	・Pull it normally<$FFFE>
 136	・Pull it gently<$FFFE>
-137	You yank the cloth, and<$FFFC>several gnomes come tumbling out<$FFFC>with it.<$FFFD>Please, give it back！ We're<$FFFC>making clothes from this cloth！<$FFFD>We'll give you something<$FFFC>instead！<$FFFD>Accept the offered trade？<$FFFE>
+137	You yank the cloth, and several<$FFFC>gnomes come tumbling out with it.<$FFFD>Please, give it back！ We're<$FFFC>making clothes from this cloth！<$FFFD>We'll give you something<$FFFC>instead！<$FFFD>Accept the offered trade？<$FFFE>
 138	Thank you！ Here, we'll even<$FFFC>throw in a little extra！<$FFFE>
 139	<$0000> Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000> <$F600><$0000>'s <$FFF4>friendship<$FFF3><$FFFC>rose！<$FFFE>
 140	Waaah, you're so mean！<$FFFD>The gnomes went back into their<$FFFC>hole in tears！<$FFFE>

@@ -18,7 +18,7 @@
 16	<$FB00><$0060>You saw what we can do just<$FFFC>now.<$FFFE>
 17	<$FB00><$0061>Even if we didn't look our best<$FFFC>back there.<$FFFE>
 18	<$FB00><$0062>So, what did you want to ask？<$FFFE>
-19	<$FB00><$0063>Right. You two work for<$FFFC>Gizarof, don't you？<$FFFE>
+19	<$FB00><$0063>Right. You two work for Gizarof,<$FFFC>don't you？<$FFFE>
 20	<$FB00><$0064>What makes you think so？<$FFFE>
 21	<$FB00><$0065>Don't underestimate a mercenary's<$FFFC>information network.<$FFFD><$FB00><$0071>Hired blades live by the<$FFFC>contract.<$FFFD>We keep tabs on every power<$FFFC>around.<$FFFE>
 22	<$FB00><$0066>So it would seem.<$FFFE>
@@ -28,7 +28,7 @@
 26	・True enough.<$FFFE>
 27	・Able hands, huh‥‥.<$FFFE>
 28	<$FB00><$0068>Right？<$FFFE>
-29	<$FB00><$0069>That back there was a fluke,<$FFFC>I tell you.<$FFFE>
+29	<$FB00><$0069>That back there was a fluke, I<$FFFC>tell you.<$FFFE>
 30	<$FB00><$006A>What's that？ You doubt me？<$FFFE>
 31	<$FB00><$006B>So that's the deal. I want you<$FFFC>to put in a word with Gizarof.<$FFFE>
 32	<$FB00><$006C>A word we can manage.<$FFFE>

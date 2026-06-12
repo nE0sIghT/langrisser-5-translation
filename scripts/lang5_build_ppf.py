@@ -36,9 +36,16 @@ def main() -> None:
 
     run(scripts / "lang5_patch_system_menu.py",
         "--system-in", "work/build/SYSTEM.BIN.font",
-        "--system-out", "work/build/SYSTEM.BIN.en",
+        "--system-out", "work/build/SYSTEM.BIN.menu",
         "--menu-map", "data/translation/system_menu_map.json",
         "--menu-map", "data/translation/names_map.json",
+        "--tbl", "work/tables/lang5_en.tbl")
+
+    run(scripts / "lang5_patch_name_entry.py",
+        "--system-in", "work/build/SYSTEM.BIN.menu",
+        "--system-out", "work/build/SYSTEM.BIN.en",
+        "--exe-in", "work/extracted/SLPS_018.19",
+        "--exe-out", "work/build/SLPS_018.19.en",
         "--tbl", "work/tables/lang5_en.tbl")
 
     # SCEN2 text blocks are byte-identical to SCEN: sync translations.
@@ -61,6 +68,7 @@ def main() -> None:
         ("/L5/SCEN.DAT", "work/build/SCEN.en.DAT"),
         ("/L5/SCEN2.DAT", "work/build/SCEN2.en.DAT"),
         ("/L5/SYSTEM.BIN", "work/build/SYSTEM.BIN.en"),
+        ("/SLPS_018.19", "work/build/SLPS_018.19.en"),
     ):
         # No --allow-grow: relocation is unsafe on this disc (the free tail
         # region overlaps the CD audio tracks). Sizes must stay unchanged.

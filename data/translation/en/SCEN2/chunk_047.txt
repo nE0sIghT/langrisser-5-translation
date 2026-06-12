@@ -16,7 +16,7 @@
 14	<$FB00><$0005>Mm. And the ship？<$FFFE>
 15	<$FB00><$0006>Matching the terrain is taking<$FFFC>time, but we've narrowed it down<$FFFC>considerably.<$FFFE>
 16	<$FB00><$0007>I see. That side fares well,<$FFFC>then.<$FFFD>And the key specimen, is it<$FFFC>captured？<$FFFE>
-17	<$FB00><$0008>Aizer is in pursuit as we<$FFFC>speak, but has yet to take<$FFFC>them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？<$FFFC>However able Aizer may be‥‥.<$FFFE>
+17	<$FB00><$0008>Aizer is in pursuit as we speak,<$FFFC>but has yet to take them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？<$FFFC>However able Aizer may be‥‥.<$FFFE>
 18	<$FB00><$000A>No need to worry. The man has<$FFFC>earned my trust.<$FFFD>Though against a specimen, small<$FFFC>wonder he struggles.<$FFFD><$FB00><$000B>I saw it with my own eyes.<$FFFC>The specimens' potential runs<$FFFC>higher than expected.<$FFFD><$FB00><$000C>Heh, Gizarof. More than a mere<$FFFC>schemer after all. Impressive<$FFFC>work.<$FFFD><$FB00><$000D>Which reminds me. How goes the<$FFFC>study of the recovered specimen？<$FFFE>
 19	<$FB00><$000E>Sir. His state has stabilized.<$FFFD>But his ego is strong. The<$FFFC>doctors can barely handle him.<$FFFE>
 20	<$FB00><$000F>Ego‥‥the strength of will.<$FFFC>Interesting.<$FFFD>I will see him later myself.<$FFFC>You carry on with the plan.<$FFFE>
@@ -32,7 +32,7 @@
 30	<$FB00><$0018>What！？ What do you mean？<$FFFE>
 31	<$FB00><$0019>You look too well-off for<$FFFC>plain adventurers.<$FFFD>The toll for you is more like<$FFFC>100. For two, 200.<$FFFE>
 32	<$FB00><$001A>200？ That's ten times the<$FFFC>usual！<$FFFE>
-33	<$FB00><$001B>Now, if the little lady pays<$FFFC>with her body, I might knock<$FFFC>it down a bit？<$FFFE>
+33	<$FB00><$001B>Now, if the little lady pays with<$FFFC>her body, I might knock it<$FFFC>down a bit？<$FFFE>
 34	<$FFF8>‥‥<$FFF6><$FB00><$001C>There he goes again, the<$FFFC>captain's bad habit<$FFF5><$FFF8>‥‥.<$FFFE>
 35	<$FB00><$001D>You there！ Shut it！<$FFFE>
 36	<$FB00><$001E>Well？ What will it be？<$FFFE>

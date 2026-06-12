@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Marshal Lanford<$FFFF>
-7	Abandoned Village near Fizzit<$FFFC>Port<$FFFF>
+7	Abandoned Village near Fizzit Port<$FFFF>
 8	<$FFF8>‥<$FB00><$0003><$FE3C>‥<$FE3C>‥<$FE3C>.<$FFFE>
 9	<$FB00><$0004>What's wrong, Lambda？<$FFFE>
 10	<$FFF8>‥‥<$FB00><$0005>This town<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0006>I'm sure there<$FFFC>was a church just ahead<$FFF5><$FFF8>‥‥.<$FFFE>

@@ -17,7 +17,7 @@
 15	<$FB00><$0009>Who would do that！？<$FFFE>
 16	<$FFFA><$FFF8>‥‥<$FFF6><$FB00><$000A>Maybe her<$FFF5><$FFF8>‥‥.<$FFFE>
 17	<$FB00><$000B>Her？ You mean Brenda？<$FFFE>
-18	<$FB00><$000C>If it was arson, the culprit<$FFFC>would not stroll back here.<$FFFD><$FB00><$000D>And she did return to the ship<$FFFC>for her things. If she left<$FFFC>a device to ignite at night<$FFF5><$FFF8>‥‥.<$FFFE>
+18	<$FB00><$000C>If it was arson, the culprit<$FFFC>would not stroll back here.<$FFFD><$FB00><$000D>And she did return to the ship<$FFFC>for her things. If she left a<$FFFC>device to ignite at night<$FFF5><$FFF8>‥‥.<$FFFE>
 19	<$FB00><$000E>But why would she？<$FFFE>
 20	<$FB00><$000F>You said it too. She seems<$FFFC>obsessed with Langrisser and<$FFFC>Alhazard.<$FFFE>
 21	<$FB00><$0010>Hey, I said not to mention<$FFFC>that！<$FFFE>

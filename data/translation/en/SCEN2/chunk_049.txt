@@ -11,10 +11,10 @@
 9	<$FB00><$0004>You're in high spirits, Alfred.<$FFFE>
 10	<$FB00><$0005>Of course！ We've got the cure<$FFFC>for my father's fever.<$FFFD>Now he'll be his old self<$FFFC>again.<$FFFD><$FB00><$0006>Once father's well, the three of<$FFFC>us can go hunting again with my<$FFFC>brother.<$FFFE>
 11	<$FB00><$0007>You look truly happy.<$FFFE>
-12	<$FB00><$0008>Mother died when I was small,<$FFFC>so it's just father, my brother<$FFFC>and me.<$FFFD>But father cares for us all<$FFFC>the more for it.<$FFFD><$FB00><$0009>And since father fell ill, my<$FFFC>brother works in his place<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$000A>Family really is something,<$FFFC>right？ Don't you think？<$FFFE>
+12	<$FB00><$0008>Mother died when I was small, so<$FFFC>it's just father, my brother and<$FFFC>me.<$FFFD>But father cares for us all<$FFFC>the more for it.<$FFFD><$FB00><$0009>And since father fell ill, my<$FFFC>brother works in his place<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$000A>Family really is something, right？<$FFFC>Don't you think？<$FFFE>
 13	<$FFF8>‥‥‥.<$FFFE>
 14	<$FB00><$000B>Ah, yeah‥‥I suppose<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$000C>I<$FFFC>suppose it must be<$FFF5><$FFF8>‥‥.<$FFFE>
-15	<$FB00><$000D>Ahh, I want to be home<$FFFC>already！ Come on, let's hurry！<$FFFE>
+15	<$FB00><$000D>Ahh, I want to be home already！<$FFFC>Come on, let's hurry！<$FFFE>
 16	<$FFF7><$FB00><$000E>R, right<$FFF5><$FFF8>‥‥.<$FFFE>
 17	<$FFFA><$FB00><$000F>Whew<$FFF5><$FFF8>‥‥.<$FFFE>
 18	<$FB00><$0010>We are made beings.<$FFFD>Made to serve as the master's<$FFFC>hands, with no ties of blood to<$FFFC>anyone.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$0011>Do you envy him？<$FFFE>

@@ -23,7 +23,7 @@
 21	<$FB00><$003B>Exactly.<$FFFE>
 22	<$FB00><$003C>Our goal is to seize that air<$FFFC>control and read their weak<$FFFC>point instead.<$FFFE>
 23	<$FB00><$003D>But they are flyers. Won't they<$FFFC>be hard to fight？<$FFFE>
-24	<$FB00><$003E>If we do not win, Salrath<$FFFC>cannot be saved. We have to do<$FFFC>it！<$FFFE>
+24	<$FB00><$003E>If we do not win, Salrath cannot<$FFFC>be saved. We have to do it！<$FFFE>
 25	<$FB00><$002C>Take this！<$FFFE>
 26	<$FB00><$002D>I won't die in a place like<$FFFC>this‥‥<$FFFE>
 27	<$FB00><$0038>Move<$FFF5><$FFF8>‥‥<$FFFE>
@@ -115,7 +115,7 @@
 113	<$FB00><$008F>Strike the command HQ and<$FFFC>their orders fall into chaos. That<$FFFC>is a large army's weakness.<$FFFE>
 114	<$FB00><$0090>I see. With this ship, we can<$FFFC>strike the rear headquarters<$FFFC>directly.<$FFFE>
 115	<$FB00><$0091>Exactly. We strike the enemy<$FFFC>headquarters now！ Move out！<$FFFE>
-116	<$FB00><$004F>A lot happened after you left.<$FFFC>After Gilmore named himself<$FFFC>emperor, the country changed.<$FFFD><$FB00><$0050>Many nobles hate him, but obey<$FFFC>to survive. Now almost none oppose<$FFFC>his aristocratic rule.<$FFFE>
+116	<$FB00><$004F>A lot happened after you left.<$FFFC>After Gilmore named himself<$FFFC>emperor, the country changed.<$FFFD><$FB00><$0050>Many nobles hate him, but obey to<$FFFC>survive. Now almost none oppose<$FFFC>his aristocratic rule.<$FFFE>
 117	<$FB00><$0051>No‥‥ not you too？<$FFFE>
 118	<$FFF8>‥‥‥‥.<$FFFE>
 119	<$FB00><$0052>If you still have your old<$FFFC>kindness, if his evil rule has<$FFFC>not stained you, then help me！<$FFFE>

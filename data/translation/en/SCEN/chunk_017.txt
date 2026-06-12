@@ -30,7 +30,7 @@
 30	<$FB00><$0026>Lambda, do you remember Omega,<$FFFC>the one modified besides us？<$FFFE>
 31	<$FFF7><$FB00><$0027>Yes.<$FFF5><$FFF8><$FFFE>
 32	<$FB00><$0028>He told me.<$FFFE>
-33	<$FB00><$0029>Hmm, mysteries are clearing.<$FFFC>But should we fight soon？<$FFFD><$FB00><$002A>Someone familiar waits at the<$FFFC>gate.<$FFFE>
+33	<$FB00><$0029>Hmm, mysteries are clearing. But<$FFFC>should we fight soon？<$FFFD><$FB00><$002A>Someone familiar waits at the<$FFFC>gate.<$FFFE>
 34	<$FB00><$002B>No. I cannot believe a clone<$FFFC>inherited the original's memories.<$FFFE>
 35	<$FB00><$002C>The original's memories‥‥<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$002D>Was Omega telling the<$FFFC>truth？ Did I really kill the<$FFFC>emperor？<$FFFE>
 36	<$FB00><$002E>What are you muttering about？<$FFFD><$FB00><$002F>Anyway, should we fight soon？<$FFFC>Someone familiar waits at the<$FFFC>gate.<$FFFE>

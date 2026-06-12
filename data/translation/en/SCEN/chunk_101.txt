@@ -39,7 +39,7 @@
 37	<$FB00><$0076>No matter how far technology<$FFFC>advances, it means nothing if<$FFFC>people do not change<$FFF5><$FFF8>‥‥.<$FFFE>
 38	<$FB00><$0077>Anyway, head for Estor. Now we<$FFFC>must defeat Emperor Gilmore and<$FFFC>make the revolution succeed.<$FFFE>
 39	<$FB00><$0078>Right. It took two days to lure<$FFFC>the enemy<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0079>Hurry！ We cannot<$FFFC>waste a moment！<$FFFE>
-40	<$FB00><$007A>But thanks to the flying<$FFFC>ship, we can go anywhere<$FFFC>quickly！<$FFFE>
+40	<$FB00><$007A>But thanks to the flying ship,<$FFFC>we can go anywhere quickly！<$FFFE>
 41	<$FFF8><$FFFA>‥‥‥‥。<$FFFE>
 42	30 minutes later‥‥<$FFFF>
 43	Bored‥‥.<$FFFE>

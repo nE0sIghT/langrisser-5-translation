@@ -21,7 +21,7 @@
 19	<$FB00><$000B>But I have not forgotten you.<$FFFC>Lambda's memories are still inside<$FFFC>me！<$FFFE>
 20	<$FB00><$000C>Having family really is a good<$FFFC>thing, isn't it？<$FFFE>
 21	<$FB00><$000D>Then which name should we use<$FFFC>from now on？<$FFFE>
-22	<$FB00><$000E>Either one is fine. I am<$FFFC>Marie, and I am also Lambda.<$FFFE>
+22	<$FB00><$000E>Either one is fine. I am Marie,<$FFFC>and I am also Lambda.<$FFFE>
 23	<$FB00><$000F>No. You should use your true<$FFFC>name, Mariandel.<$FFFE>
 24	<$FFF8>‥‥<$FFF6><$FB00><$0010>All right. Then call me Marie<$FFFC>from now on.<$FFFE>
 25	<$FB00><$0011>Hey, while we are here, why<$FFFC>not have her restore your memory<$FFFC>too？<$FFFE>
@@ -41,7 +41,7 @@
 39	<$FB00><$001F>Even someone like you could not<$FFFC>do it, Jessica<$FFF5><$FFF8>‥‥.<$FFFE>
 40	<$FB00><$0020>His spirit is unlike that of a<$FFFC>normal person. Any spell I send<$FFFC>into him is absorbed.<$FFFD><$FB00><$0021>Magic cannot restore his memory.<$FFFC>He will have to remember it on<$FFFC>his own.<$FFFE>
 41	<$FB00><$0022>Could that be because of our<$FFFC>modifications？<$FFFE>
-42	<$FB00><$0023>Yes, probably. The three of us<$FFFC>were modified by Gizarof, but<$FFFC>each in a different way.<$FFFE>
+42	<$FB00><$0023>Yes, probably. The three of us<$FFFC>were modified by Gizarof, but each<$FFFC>in a different way.<$FFFE>
 43	<$FB00><$0024>I<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0025>I remember being told my<$FFFC>magic capacity would be increased.<$FFFE>
 44	<$FB00><$0026>I was told mine was a<$FFFC>mechanical body enhancement<$FFFC>experiment. What about you？<$FFFE>
 45	<$FFF8>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$0027>I<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C><$FFF6><$FB00><$0028>I do not know. I do<$FFFC>not know what was done to me.<$FFFC>But according to Omega<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -76,11 +76,11 @@
 74	<$FB00><$004D>But that alone will not prove<$FFFC>him innocent.<$FFFD><$FB00><$004E>I do not want to doubt Marie,<$FFFC>but even if she is right, we<$FFFC>have no way to prove it.<$FFFE>
 75	<$FB00><$004F>Yes. I am sorry. I could not<$FFFC>help.<$FFFE>
 76	<$FB00><$0050>No, do not worry about it.<$FFFE>
-77	<$FB00><$0051>If you cannot remember, I will<$FFFC>tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son,<$FFFC>ruler of northern Liguria, and<$FFFC>my cousin.<$FFFD><$FB00><$0053>Because of your house and sword<$FFFC>skill, father made you guard<$FFFC>captain.<$FFFE>
+77	<$FB00><$0051>If you cannot remember, I will<$FFFC>tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son, ruler<$FFFC>of northern Liguria, and my<$FFFC>cousin.<$FFFD><$FB00><$0053>Because of your house and sword<$FFFC>skill, father made you guard<$FFFC>captain.<$FFFE>
 78	<$FB00><$0054>Then my parents<$FFF5><$FFF8>‥‥.<$FFFE>
 79	<$FB00><$0055>You were hunted as a traitor, so<$FFFC>House Egil was abolished and<$FFFC>its bloodline ended.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$0056>Except for you.<$FFFE>
 80	<$FFF8>‥‥<$FFF6><$FB00><$0057>Recovering his memory may hurt<$FFFC>him more than losing it did.<$FFFE>
-81	<$FB00><$0058>And your homeland, Liguria,<$FFFC>became the domain of Minister<$FFFC>Gilmore.<$FFFE>
+81	<$FB00><$0058>And your homeland, Liguria, became<$FFFC>the domain of Minister Gilmore.<$FFFE>
 82	<$FB00><$0059>I see<$FFF5><$FFF8>‥‥.<$FFFE>
 83	<$FB00><$005A>But if your suspicion is cleared<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 84	<$FB00><$005B>Emergency！<$FFFE>
