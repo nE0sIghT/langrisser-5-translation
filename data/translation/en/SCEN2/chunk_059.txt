@@ -36,5 +36,5 @@
 34	<$FB00><$001D>Marshal Lanford is personally<$FFFC>commanding at the front.<$FFFE>
 35	<$FB00><$001E>I see<$FFF5><$FFF8>‥‥.<$FFFE>
 36	<$FFF6><$FB00><$001F>I cannot decide now, but I<$FFFC>will gather information and issue<$FFFC>orders soon.<$FFFE>
-37	<$0000>The party wiped out Kalxath's flying corps and cut enemy coordination.<$FFFC><$0000>If they strike HQ now and ruin enemy command, the battle will turn.<$FFFD><$0000><$F600><$0000>'s group steers the flying ship toward enemy HQ‥‥.<$FFFE>
+37	<$0000>The party wiped out Kalxath's<$FFFC>flying corps and cut enemy<$FFFC>coordination.<$FFFD><$0000>If they strike HQ now and<$FFFC>ruin enemy command, the battle<$FFFC>will turn.<$FFFD><$0000><$F600><$0000>'s group steers<$FFFC>the flying ship toward enemy<$FFFC>HQ‥‥.<$FFFE>
 38	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

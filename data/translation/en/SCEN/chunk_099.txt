@@ -59,7 +59,7 @@
 57	<$FB00><$009A>Come here a moment<$FFF5><$FFF8>‥‥.<$FFFE>
 58	<$FB00><$009B>I have one condition.<$FFFE>
 59	<$FB00><$009C>Condition？<$FFFE>
-60	<$FB00><$009D>After this is over, after <$F600><$0000>, lend me Langrisser and Alhazard.<$FFFE>
+60	<$FB00><$009D>After this is over, after<$FFFC><$F600><$0000>, lend me Langrisser<$FFFC>and Alhazard.<$FFFE>
 61	<$FB00><$009E>You want the swords too<$FFF5><$FFF7>！？<$FFFE>
 62	<$FFF8><$FB00><$009F>Shh！<$FFF5><$FFF6><$FB00><$00A0>Too loud！<$FFFE>
 63	<$FFF8>‥‥<$FFF6><$FB00><$00A1>So, what do you say？<$FFFE>

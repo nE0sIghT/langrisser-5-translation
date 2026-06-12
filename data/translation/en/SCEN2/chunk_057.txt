@@ -39,5 +39,5 @@
 37	<$FB00><$0024>It should‥‥ no, we must change<$FFFC>it！ To do that, we must win<$FFFC>this hard war！<$FFFE>
 38	<$FB00><$0025>Everyone！ I rely on you！<$FFFE>
 39	<$FFF7><$FB00><$0026>Yeahhh！<$FFF5><$FFF8><$FFFE>
-40	<$0000>With Salrath's aid, Clarett headed for Gaiana Prison to free Liberalists jailed for opposing the Emperor.<$FFFD><$0000>If these local nobles joined her, they could help break Gilmore's misrule. At midnight, <$F600><$0000>'s group surrounded the prison.<$FFFE>
+40	<$0000>With Salrath's aid, Clarett<$FFFC>headed for Gaiana Prison to free<$FFFC>Liberalists jailed for opposing<$FFFC>the Emperor.<$FFFD><$0000>If these local nobles joined<$FFFC>her, they could help break<$FFFC>Gilmore's misrule.<$FFFD><$0000>At midnight, <$F600><$0000>'s<$FFFC>group surrounded the prison.<$FFFE>
 41	Victory<$FFFC><$0000><$FFFC>・Defeat all wardens<$FFFD>Defeat<$FFFC><$0000><$FFFC>・A warden escapes<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

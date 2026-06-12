@@ -53,5 +53,5 @@
 53	<$FB00><$002D>Indeed！<$FFFE>
 54	<$FB00><$002E>Good, leave this place at once！<$FFFE>
 55	<$FB00><$002F>Understood！<$FFFE>
-56	<$0000>After breaking through the gate, Clarett and the others entered the castle.<$FFFD><$0000>While the Salrath mixed force drew Kalxath away as bait, Gilmore had to be defeated.<$FFFD><$0000><$F600><$0000> and the others hurried toward Gilmore's throne.<$FFFE>
+56	<$0000>After breaking through the<$FFFC>gate, Clarett and the others<$FFFC>entered the castle.<$FFFD><$0000>While the Salrath mixed force<$FFFC>drew Kalxath away as bait,<$FFFC>Gilmore had to be defeated.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>hurried toward Gilmore's throne.<$FFFE>
 57	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gilmore<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

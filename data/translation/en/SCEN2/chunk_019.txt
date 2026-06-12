@@ -18,7 +18,7 @@
 16	<$FB00><$0068>Creepy？ Good. This will scare<$FFFC>you far more.<$FFFD><$FB00><$0069>Come forth, my servants！<$FFFE>
 17	<$FFF7><$FB00><$006A>Kyaaah！<$FFFE>
 18	<$FB00><$006B>No‥‥ the dead‥‥.<$FFFE>
-19	<$FFF8><$FB00><$006C>Heh heh heh！<$FFF5><$0000><$FFF6><$FB00><$006D>Well？<$FFFC>They want companions.<$FFFC>Please join them, all of you.<$FFFD><$FFF7><$FB00><$006E>Hih hih hih hih！<$FFFE>
+19	<$FFF8><$FB00><$006C>Heh heh heh！<$FFF5><$0000><$FFF6><$FB00><$006D>Well？ They want<$FFFC>companions. Please join them, all<$FFFC>of you.<$FFFD><$FFF7><$FB00><$006E>Hih hih hih hih！<$FFFE>
 20	<$FB00><$0071>Stop this！<$FFFE>
 21	<$FB00><$0072>Lady Clarett！<$FFFE>
 22	<$FB00><$0073>Tch, Light heirs<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0074>I raised<$FFFC>dead all over, yet you came<$FFFC>here<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -55,8 +55,8 @@
 53	<$FB00><$009C>You were from a ducal house.<$FFFC>Royal blood too.<$FFFE>
 54	<$FB00><$009D>I am also one of them<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$009E>That<$FFFC>is why I was cursed<$FFF5><$FFF8>‥‥.<$FFFE>
 55	<$FB00><$009F>I expected you to kill each<$FFFC>other. It went well.<$FFFD><$FB00><$00A0>No matter. Gilmore weakened<$FFFC>mankind and made corpses.<$FFFD><$FB00><$00A1>And Langrisser is ours.<$FFFE>
-56	A paper lies below the goddess statue.<$FFFD><$0000><$FFFC><$FFF4>Challengers wanted！！<$FFF3><$FFFD>It is a flyer for Pondbag's <$FFF4>Umagee<$FFF3>.<$FFFE>
-57	<$0000><$FFFC>Obtained the <$FFF4>Umagee<$FFF3> flyer！！<$FFFE>
+56	A paper lies below the goddess<$FFFC>statue.<$FFFD><$0000> <$FFF4>Challengers wanted！！<$FFF3><$FFFD>It is a flyer for Pondbag's<$FFFC><$FFF4>Umagee<$FFF3>.<$FFFE>
+57	<$0000> Obtained the <$FFF4>Umagee<$FFF3> flyer！！<$FFFE>
 58	<$FB00><$00A2>Glob！ I will defeat you myself！<$FFFC>Without you, El Sallia would not<$FFFC>be in chaos！<$FFFE>
 59	<$FB00><$00A3>Thanks to me, you are<$FFFC>revolution heroes.<$FFFD><$FB00><$00A4>And do not forget, the royals<$FFFC>there executed the innocent<$FFFC>Egils.<$FFFE>
 60	<$FB00><$00A5>Do not toy with me！ You caused<$FFFC>it all！<$FFFE>
@@ -123,7 +123,7 @@
 121	<$FB00><$00CA>Lady Clarett taught us to protect<$FFFC>this country ourselves.<$FFFE>
 122	<$FB00><$00CB>No‥‥.<$FFFE>
 123	<$FB00><$00CC>Thank you, truly. Please accept<$FFFC>this small token.<$FFFE>
-124	<$0000><$FFFC>Received <$FFF4>Mithril Sword<$FFF3>！<$FFFE>
+124	<$0000> Received <$FFF4>Mithril Sword<$FFF3>！<$FFFE>
 125	<$FB00><$00CD>Thank you. We will use it well.<$FFFE>
 126	<$FB00><$00CE>There was some damage, but at<$FFFC>least the village was not<$FFFC>destroyed.<$FFFE>
 127	<$FB00><$00CF>With more strength, I could have<$FFFC>protected them all unharmed.<$FFFE>

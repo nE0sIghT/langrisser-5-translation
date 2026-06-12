@@ -54,9 +54,9 @@
 52	<$FB00><$004F>Help is coming.<$FFFE>
 53	<$FB00><$0050>Just hold on a bit longer！<$FFFE>
 54	<$FB00><$0051>Wait there, almost with you！<$FFFE>
-55	Old armor in the left barrel.<$FFFC><$0000><$FFFC>Got the <$FFF4>Gaia Mail<$FFF3>！<$FFFE>
-56	Fire glows in a barrel.<$FFFC><$0000><$FFFC>Got the <$FFF4>Flame Orb<$FFF3>！<$FFFE>
-57	A grim axe lies in the alley.<$FFFC><$0000><$FFFC>Got the <$FFF4>Devil Axe<$FFF3>！<$FFFE>
+55	Old armor in the left barrel.<$FFFC><$0000> Got the <$FFF4>Gaia Mail<$FFF3>！<$FFFE>
+56	Fire glows in a barrel. <$0000><$FFFC>Got the <$FFF4>Flame Orb<$FFF3>！<$FFFE>
+57	A grim axe lies in the alley.<$FFFC><$0000> Got the <$FFF4>Devil Axe<$FFF3>！<$FFFE>
 58	<$FB00><$002C>Take this！<$FFFE>
 59	<$FB00><$002F>If only I had more strength‥‥<$FFFE>
 60	<$FB00><$0034>Here I come<$FFF5><$FFF8>‥‥.<$FFFE>

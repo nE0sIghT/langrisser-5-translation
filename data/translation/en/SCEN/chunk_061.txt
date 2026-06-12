@@ -24,5 +24,5 @@
 24	<$FB00><$0010>Numbers are equal, but most<$FFFC>are untrained peasants.<$FFFD>Fight defensively and keep their<$FFFC>losses low.<$FFFE>
 25	<$FB00><$0011>Yes, leave it to us！<$FFFE>
 26	<$FFFA><$FFF8>‥‥<$FFF6><$FB00><$0012>We expected an ambush.<$FFFD><$FFF9><$FB00><$0013>The key to victory is in your<$FFFC>hands, Princess Clarett.<$FFFE>
-27	<$0000>With Estor Temple's aid, the popular uprising succeeded.<$FFFC><$0000>The faces listening to Clarett's speech showed new resolve and faith in the new politics.<$FFFD><$0000>Now Gilmore must fall, and noble exploitation must end.<$FFFC><$0000><$F600><$0000> and the others coordinate with Lenard and head for Kalxath Castle, where Gilmore waits.<$FFFE>
+27	<$0000>With Estor Temple's aid, the<$FFFC>popular uprising succeeded.<$FFFD><$0000>The faces listening to<$FFFC>Clarett's speech showed new<$FFFC>resolve and faith in the new<$FFFC>politics.<$FFFD><$0000>Now Gilmore must fall, and<$FFFC>noble exploitation must end.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>coordinate with Lenard and head<$FFFC>for Kalxath Castle, where<$FFFC>Gilmore waits.<$FFFE>
 28	Victory terms<$FFFC><$0000><$FFFC>・Defeat Marquis Creid and Captain Kfir<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

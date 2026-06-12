@@ -79,5 +79,5 @@
 77	<$FB00><$0052>Honestly, what a handful.<$FFFE>
 78	<$FB00><$0053>Surround them！ Leave no way<$FFFC>out！<$FFFE>
 79	<$FB00><$0054>Sir！ Troops to the back gate as<$FFFC>well.<$FFFE>
-80	<$0000>Tasked by Gizarof to recover the<$FFFC>Sage's Crystal, the two head<$FFFC>north with Brenda.<$FFFD><$0000>On the way, in the Reynolds<$FFFC>mountains, they see Alfred hunted<$FFFC>by his own brother.<$FFFE>
+80	<$0000>Tasked by Gizarof to recover<$FFFC>the Sage's Crystal, the two<$FFFC>head north with Brenda.<$FFFD><$0000>On the way, in the Reynolds<$FFFC>mountains, they see Alfred hunted<$FFFC>by his own brother.<$FFFE>
 81	Victory terms<$FFFC><$0000><$FFFC>・Defeat Alvince<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

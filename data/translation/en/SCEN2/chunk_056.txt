@@ -10,7 +10,7 @@
 8	Gizarof private<$FFFF>
 9	Marshal Gizarof<$FFFF>
 10	Riverbank at night<$FFFF>
-11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB><$FFFC><$FB00><$0004>Been a while.<$FFFE>
+11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a<$FFFC>while.<$FFFE>
 12	<$FB00><$0005>Who are you？<$FFFE>
 13	<$FB00><$0006>Forgot me？ I'm Omega.<$FFFD><$FB00><$0007>We served Gizarof together.<$FFFC>Remember？<$FFFE>
 14	<$FB00><$0008>I only met Gizarof once.<$FFFE>
@@ -21,7 +21,7 @@
 19	<$FB00><$0011>You crossed from El Sallia to<$FFFC>Yeless, a first-rate swordsman<$FFFC>with dead eyes.<$FFFD><$FB00><$0012>Gizarof picked you up. I was<$FFFC>his right hand.<$FFFD><$FB00><$0013>Then you came and took the top<$FFFC>spot.<$FFFE>
 20	<$FB00><$0014>Then one day<$FFF5><$FFF8>‥‥ you were<$FFFC>killed.<$FFFE>
 21	<$FB00><$0015>I was killed<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>？<$FFFE>
-22	Gizarof's Magic Lab<$0000>3 years ago<$FFFF>
+22	Gizarof's Magic Lab<$0000>3 years<$FFFC>ago<$FFFF>
 23	<$FB00><$0016>Emergency, Lord Gizarof！<$FFFE>
 24	<$FB00><$0017>What is this noise？<$FFFE>
 25	<$FB00><$0018><$F600><$0000> has been killed！<$FFFE>
@@ -40,5 +40,5 @@
 38	<$FB00><$0029>Yes. I was shocked you became<$FFFC>guard captain and killed<$FFFC>Kalxath's emperor.<$FFFD><$FB00><$002A>Remembering now？<$FFFE>
 39	<$FB00><$002B>I wanted to settle this now,<$FFFC>but another task comes first.<$FFFD><$FB00><$002C>Remember everything before we meet<$FFFC>again, or it won't be fun.<$FFFE>
 40	<$FB00><$002D>It was me<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed me<$FFFC>once<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>‥‥.<$FFFE>
-41	<$0000>Rejected by Lenard too, Clarett went east for another ally.<$FFFD><$0000>On the road, another town suffered under heavy taxes‥‥.<$FFFE>
+41	<$0000>Rejected by Lenard too, Clarett<$FFFC>went east for another ally.<$FFFD><$0000>On the road, another town<$FFFC>suffered under heavy taxes‥‥.<$FFFE>
 42	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

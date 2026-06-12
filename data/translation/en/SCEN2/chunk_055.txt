@@ -42,5 +42,5 @@
 40	<$FB00><$0025>I'll seek a way to destroy<$FFFC>Langrisser. I may need Alhazard.<$FFFE>
 41	<$FB00><$0026>Alhazard is our demon treasure.<$FFFC>Do not get strange ideas！<$FFFE>
 42	<$FB00><$0027>Relax. I always put the<$FFFC>demons' future first.<$FFFE>
-43	<$0000>Denied by Jessica, Clarett sought Salrath's army from Duke Lenard.<$FFFD><$0000>Near Salrath, the party found villagers fleeing noble oppression, chased by soldiers‥‥.<$FFFE>
+43	<$0000>Denied by Jessica, Clarett<$FFFC>sought Salrath's army from Duke<$FFFC>Lenard.<$FFFD><$0000>Near Salrath, the party found<$FFFC>villagers fleeing noble<$FFFC>oppression, chased by soldiers‥‥.<$FFFE>
 44	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・All villagers die<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

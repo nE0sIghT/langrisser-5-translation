@@ -54,7 +54,7 @@
 52	It was so peaceful until now,<$FFFC>why<$FFF8>‥‥.<$FFFE>
 53	Huff, puff‥‥. I can't keep<$FFFC>running at full tilt<$FFF8>‥‥.<$FFFE>
 54	A scroll lies on top of a<$FFFC>barrel. Read it？<$FFFE>
-55	<$0000><$FFFC>Learned the spell <$FFF4>Attack 1<$FFF3>！<$FFFE>
+55	<$0000> Learned the spell <$FFF4>Attack 1<$FFF3>！<$FFFE>
 56	<$FB00><$001E>Admiral Wheeler seems to be<$FFFC>fleeing for the north gate.<$FFFE>
 57	<$FB00><$001F>We're headed for the north gate<$FFFC>anyway. We'll catch him on the<$FFFC>way.<$FFFE>
 58	<$FB00><$0028>You think you can beat me！<$FFFE>

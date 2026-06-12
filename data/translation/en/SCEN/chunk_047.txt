@@ -45,5 +45,5 @@
 43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0028>is that all<$FFFC>right<$FFF5><$FFF8>‥‥.<$FFFE>
 44	<$FB00><$0029>Of course it's not！ Don't take<$FFFC>us lightly！<$FFFE>
 45	<$FB00><$002A>What！ You want a fight！<$FFFE>
-46	<$0000>Having shaken Aizer's pursuit,<$FFFC><$F600><$0000> and Lambda reach Knox, a town<$FFFC>on the pass.<$FFFD><$0000>There they see a boy and girl<$FFFC>harassed by Goldry, captain of<$FFFC>the Caconsis garrison.<$FFFD><$0000>To save them, <$F600><$0000> and Lambda square off against<$FFFC>the Caconsis troops.<$FFFE>
+46	<$0000>Having shaken Aizer's pursuit,<$FFFC><$F600><$0000> and Lambda reach<$FFFC>Knox, a town on the pass.<$FFFD><$0000>There they see a boy and<$FFFC>girl harassed by Goldry, captain<$FFFC>of the Caconsis garrison.<$FFFD><$0000>To save them, <$F600><$0000><$FFFC>and Lambda square off against<$FFFC>the Caconsis troops.<$FFFE>
 47	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

@@ -52,7 +52,7 @@
 50	Wouldn't sooner be better？<$FFFE>
 51	<$FFF4>We are going！！ <$FFF3><$FFFB><$FFF4>Right！？<$FFF3><$FFFE>
 52	<$FFFA>If you say so, I don't mind<$FFFC><$FFF8>‥‥‥.<$FFFE>
-53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！<$FFFD>Then let's go to the karaoke place！！<$FFFE>
+53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！<$FFFD>Then let's go to the karaoke<$FFFC>place！！<$FFFE>
 54	Is this really all right<$FFF8>‥‥‥.<$FFFE>
 55	Estor Temple<$FFFF>
 56	<$FFF8>‥‥<$FFF6><$FB00><$007B>Indeed, I admire your ideals.<$FFFE>

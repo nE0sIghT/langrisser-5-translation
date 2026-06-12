@@ -100,6 +100,6 @@
 98	I see. If I once used it, my<$FFFC>body may remember it.<$FFFE>
 99	Thank you, Clarett.<$FFFE>
 100	<$FB00><$0040>Then let us hurry.<$FFFE>
-101	<$0000>Though Gilmore himself escaped, the party retook Kalxath Castle.<$FFFD><$0000>But the turmoil across El Sallia had not yet ended.<$FFFC><$0000>The demons, who had been lying low until now, finally began to move.<$FFFD><$0000><$F600><$0000> and the others hurried to a village where the dead were said to walk.<$FFFE>
+101	<$0000>Though Gilmore himself escaped,<$FFFC>the party retook Kalxath Castle.<$FFFD><$0000>But the turmoil across El<$FFFC>Sallia had not yet ended.<$FFFD><$0000>The demons, who had been<$FFFC>lying low until now, finally<$FFFC>began to move.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>hurried to a village where the<$FFFC>dead were said to walk.<$FFFE>
 102	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 villager units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 103	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・All villagers defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

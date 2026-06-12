@@ -13,7 +13,7 @@
 11	Underground altar exit<$FFFF>
 12	<$FB00><$000D>Staying longer wastes time. We<$FFFC>leave now and chase the<$FFFC>Caconsis army.<$FFFE>
 13	<$FB00><$000E>Agreed.<$FFFE>
-14	<$FB00><$000F>Cough, cough！<$FFFB><$FFFC><$0000><$FB00><$0010>Um, is it just me, or is it<$FFFC>smoky here？<$FFFE>
+14	<$FB00><$000F>Cough, cough！<$FFFB> <$0000><$FB00><$0010>Um, is it just<$FFFC>me, or is it smoky here？<$FFFE>
 15	<$FB00><$0011>Now that you mention it, there<$FFFC>IS a lot of smoke.<$FFFE>
 16	<$FB00><$0012>This is no ordinary smoke.<$FFFE>
 17	<$FB00><$0013>Meaning what, Lambda？<$FFFE>
@@ -35,14 +35,14 @@
 33	As you near the rock, a voice<$FFFC>suddenly speaks.<$FFFD>I was a spirit dove, a<$FFFC>messenger of the gods‥‥.<$FFFD>Now my body turns to stone and<$FFFC>my life burns out. Let me grant<$FFFC>you one last gift.<$FFFD>Which power do you wish？<$FFFE>
 34	・Power to protect<$FFFE>
 35	・Power to fight<$FFFE>
-36	Then receive this magic‥‥.<$FFFD><$0000><$FFFC>Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
-37	Then receive this magic‥‥.<$FFFD><$0000><$FFFC>Learned the spell <$FFF4>MP Drain<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
+36	Then receive this magic‥‥.<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
+37	Then receive this magic‥‥.<$FFFD><$0000> Learned the spell <$FFF4>MP<$FFFC>Drain<$FFF3>！<$FFFD>‥‥The dove quietly turned to<$FFFC>stone.<$FFFE>
 38	Something glints now and then<$FFFC>in the dark. What do you do？<$FFFE>
 39	・Reach out<$FFFE>
 40	・Watch and wait<$FFFE>
 41	・Ignore it<$FFFE>
-42	<$0000><$FFFC><$FFF4>Grrraaawwl！！<$FFF3><$FFFD>A wounded beast is nursing its<$FFFC>injuries. You quietly slip away<$FFFC>so as not to provoke it.<$FFFE>
-43	A wounded beast rests there.<$FFFC>You stroke it gently, it purrs<$FFFC>and hands you a small pouch.<$FFFD><$0000><$FFFC>Got <$FFF4>500P gold<$FFF3>！<$FFFE>
+42	<$0000> <$FFF4>Grrraaawwl！！<$FFF3><$FFFD>A wounded beast is nursing its<$FFFC>injuries. You quietly slip away<$FFFC>so as not to provoke it.<$FFFE>
+43	A wounded beast rests there.<$FFFC>You stroke it gently, it purrs<$FFFC>and hands you a small pouch.<$FFFD><$0000> Got <$FFF4>500P gold<$FFF3>！<$FFFE>
 44	<$FB00><$0022>You'll pay for that, twice<$FFFC>over！<$FFFE>
 45	<$FB00><$0030>So this was the limit of my<$FFFC>strength‥‥<$FFFE>
 46	<$FB00><$0023>Unforgivable.<$FFFE>
@@ -65,7 +65,7 @@
 63	<$FB00><$002B>Looks like it's over.<$FFFE>
 64	<$FB00><$002C>Honestly, what an ordeal.<$FFFE>
 65	<$FB00><$002D>Truly, I thought I'd die<$FFF5><$FFF8>‥‥.<$FFFE>
-66	<$FB00><$002E>More importantly, hurry.<$FFFC><$0000>If we don't chase Caconsis, we<$FFFC>can't recover the Sage's Crystal.<$FFFE>
+66	<$FB00><$002E>More importantly, hurry. <$0000>If we<$FFFC>don't chase Caconsis, we can't<$FFFC>recover the Sage's Crystal.<$FFFE>
 67	<$FB00><$001A>All units, hold here. We strike<$FFFC>as they're smoked out！<$FFFE>
 68	<$FB00><$001B>Sir！<$FFFE>
 69	<$FB00><$001C>Understood.<$FFFE>

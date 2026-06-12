@@ -41,5 +41,5 @@
 39	<$FB00><$0026>Of course！<$FFFE>
 40	<$FB00><$0027>Then this is simple. We rescue<$FFFC>the hostage ourselves.<$FFFE>
 41	<$FB00><$0028>Then follow me！<$FFFE>
-42	<$0000>Clarett went to Estor Temple seeking aid, but the archbishop refused.<$FFFD><$0000>Yet if his daughter, captured by imperial troops, were rescued, the temple could rally the people to rise at once.<$FFFD><$0000><$F600><$0000>'s group headed to Dares Prison to save the hostage.<$FFFE>
+42	<$0000>Clarett went to Estor Temple<$FFFC>seeking aid, but the archbishop<$FFFC>refused.<$FFFD><$0000>Yet if his daughter, captured<$FFFC>by imperial troops, were rescued,<$FFFC>the temple could rally the<$FFFC>people to rise at once.<$FFFD><$0000><$F600><$0000>'s group headed to<$FFFC>Dares Prison to save the hostage.<$FFFE>
 43	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Hostage teleported<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

@@ -49,7 +49,7 @@
 47	<$FB00><$0079>Understood.<$FFFD><$FB00><$007A>Can't the fort's south door<$FFFC>open？<$FFFE>
 48	<$FB00><$007B>The wall behind me has a device<$FFFC>that unlocks it<$FFF5><$FFF8>‥‥.<$FFFE>
 49	<$0000>Unlock switch<$0000><$FFFF>
-50	<$FFF4>Using switches<$FFF3><$FFFC><$0000>To work a switch, a commander<$FFFC><$0000>must stop on its tile.<$FFFC><$0000>Mercenaries cannot use them.<$FFFD><$0000>A commander next to a <$FFF4>treasure<$FFFC><$0000>chest<$FFF3> likewise takes the item<$FFFC><$0000>inside.<$FFFE>
+50	<$FFF4>Using switches<$FFF3> <$0000>To work a<$FFFC>switch, a commander <$0000>must stop<$FFFC>on its tile. <$0000>Mercenaries cannot<$FFFC>use them.<$FFFD><$0000>A commander next to a <$FFF4>treasure<$FFFC><$0000>chest<$FFF3> likewise takes the item<$FFFC><$0000>inside.<$FFFE>
 51	<$FB00><$007C>Work the device, the door<$FFFC>opens‥‥.<$FFFE>
 52	<$FB00><$008B>Throw this, the door should<$FFFC>open.<$FFFE>
 53	<$FB00><$008D>So this opens the door.<$FFFE>
@@ -57,9 +57,9 @@
 55	<$FB00><$008C>Throw this, the door opens,<$FFFC>right？<$FFFE>
 56	Operate the unlock switch？<$FFFE>
 57	<$FB00><$008F>Good, the door is open.<$FFFE>
-58	A fairy waves from a stake.<$FFFC><$0000><$FFFC>Say, happy with your forces？<$FFFE>
+58	A fairy waves from a stake. <$0000><$FFFC>Say, happy with your forces？<$FFFE>
 59	I see. Well then, good luck！<$FFFD>The fairy vanished.<$FFFE>
-60	Then you may hire more<$FFFC>mercenaries. Six units at most,<$FFFC>though！<$FFFD><$0000><$FFFC><$FFF4>Max mercenaries<$FFF3> rose by 1！<$FFFE>
+60	Then you may hire more<$FFFC>mercenaries. Six units at most,<$FFFC>though！<$FFFD><$0000> <$FFF4>Max mercenaries<$FFF3> rose by 1！<$FFFE>
 61	<$FB00><$002D>I won't die in a place like<$FFFC>this‥‥<$FFFE>
 62	<$FB00><$002C>Take this！<$FFFE>
 63	<$FB00><$0039>It's getting too dangerous‥‥I'll<$FFFC>be falling back first‥‥<$FFFE>
@@ -111,4 +111,4 @@
 109	‥‥Whaat！？<$FFFE>
 110	Impossible‥‥<$FFFE>
 111	<$FB00><$0078>I'll move as you say, give me<$FFFC>your orders.<$FFFE>
-112	<$0000><$FFFC><$0000><$0000>Alfred joined the party！<$FFFE><$FFFF>
+112	<$0000> <$0000><$0000>Alfred joined the party！<$FFFE><$FFFF>

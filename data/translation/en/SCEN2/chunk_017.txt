@@ -86,7 +86,7 @@
 86	・Pour in water<$FFFE>
 87	You looked inside, but it was<$FFFC>too dark to see.<$FFFE>
 88	The red berry made the tube<$FFFC>glow faintly.<$FFFD>Try the blue berry next？<$FFFE>
-89	The blue berry made the tube<$FFFC>shine and wrap you in light.<$FFFD><$0000><$FFFC>Learned skill <$FFF4>Healing<$FFF3>！<$FFFE>
+89	The blue berry made the tube<$FFFC>shine and wrap you in light.<$FFFD><$0000> Learned skill <$FFF4>Healing<$FFF3>！<$FFFE>
 90	The light quickly faded, and<$FFFC>the tube returned to normal.<$FFFE>
 91	You put in the blue berry, but<$FFFC>nothing happened.<$FFFE>
 92	When you poured in water, the<$FFFC>tube quickly filled up.<$FFFE>

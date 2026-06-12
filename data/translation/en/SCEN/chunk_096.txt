@@ -86,6 +86,6 @@
 84	<$FB00><$00EC>But those swords are‥‥.<$FFFE>
 85	<$FB00><$00ED>There is something I must<$FFFC>confirm. I'm not asking to keep<$FFFC>them. What do you say？<$FFFE>
 86	<$FFFA><$FFF8><$FB00><$00EE>Hmm<$FFF5>‥‥.<$FFFD><$FFF9><$FFF6><$FB00><$00EF>Fine. I accept that condition.<$FFFC>But only for a short while,<$FFFC>all right？<$FFFE>
-87	<$0000><$FFFC>Clarett joined the party！<$FFFE>
+87	<$0000> Clarett joined the party！<$FFFE>
 88	<$FB00><$00F0>Then the deal is made. We'll<$FFFC>help you reclaim your country.<$FFFE>
 89	<$FB00><$00F1>Then I'll guide you to Salrath.<$FFFC>Come on, hurry！<$FFFE><$FFFF>

@@ -25,7 +25,7 @@
 23	Because we're wanted<$FFFC>criminals‥‥.<$FFFE>
 24	<$FFFA><$FFF8>‥‥‥‥.<$FFFE>
 25	Hey！ Why are you silent？<$FFFE>
-26	<$0000><$FB00><$002B><$FFFC><$0000><$0000><$0000><$0000><$0000><$0000><$FFF4>Kyaaa！<$FFF3><$FFFE>
+26	<$0000><$FB00><$002B> <$0000><$0000><$0000><$0000><$0000><$0000><$FFF4>Kyaaa！<$FFF3><$FFFE>
 27	<$FB00><$002C>What！？<$FFFE>
 28	<$FB00><$002D>Why is this happening to us<$FFF5><$FFF7>‥‥？<$FFFE>
 29	<$FB00><$002E>Silence！ What can tax dodgers<$FFFC>say！<$FFFE>
@@ -43,7 +43,7 @@
 41	<$FB00><$003B>Leave it to me. First, guide<$FFFC>the villagers<$FFF5><$FFF8>‥‥.<$FFFE>
 42	<$FB00><$003C>The lake fort has a switch.<$FFFC>Connect the bridge and they can<$FFFC>cross.<$FFFE>
 43	<$0000>Switch<$0000><$FFFF>
-44	<$FFF4>Special Rule<$FFF3><$FFFD><$0000>Usually only commanders use switches,<$FFFC><$0000>but this one allows mercenaries too.<$FFFD>Show this guide？<$FFFE>
+44	<$FFF4>Special Rule<$FFF3><$FFFD><$0000>Usually only commanders use<$FFFC>switches, <$0000>but this one allows<$FFFC>mercenaries too.<$FFFD>Show this guide？<$FFFE>
 45	Route through the fort<$FFFF>
 46	Detour north of the fort<$FFFF>
 47	<$FB00><$003D>Two routes<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -73,14 +73,14 @@
 71	・Drink the morning dew<$FFFE>
 72	・Do nothing<$FFFE>
 73	The flower withered at once‥‥.<$FFFE>
-74	Drinking the dew clears your mind.<$FFFD><$0000><$FFFC><$0000><$0000><$0000><$FFF4>MP<$FFF3> rose by 2！<$FFFE>
+74	Drinking the dew clears your<$FFFC>mind.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>MP<$FFF3> rose by 2！<$FFFE>
 75	A golden bird ornament holds wild<$FFFC>feathers. Which feather do you<$FFFC>take？<$FFFE>
 76	・Rainbow<$FFFE>
 77	・White<$FFFE>
 78	・Blue<$FFFE>
 79	・Red<$FFFE>
-80	The rainbow feather turns to light and wraps around you.<$FFFD><$0000><$FFFC><$FFF4>Wind magic resist<$FFF3> rose by 2！<$FFFE>
-81	The white feather seems otherworldly.<$FFFD><$0000><$FFFC><$0000>Got the <$FFF4>Angel Feather<$FFF3>！<$FFFE>
+80	The rainbow feather turns to<$FFFC>light and wraps around you.<$FFFD><$0000> <$FFF4>Wind magic resist<$FFF3> rose by 2！<$FFFE>
+81	The white feather seems<$FFFC>otherworldly.<$FFFD><$0000> <$0000>Got the <$FFF4>Angel Feather<$FFF3>！<$FFFE>
 82	Looks like it was an ordinary<$FFFC>feather‥‥.<$FFFE>
 83	<$FB00><$0043>The new Emperor does whatever he<$FFFC>wants.<$FFFE>
 84	<$FB00><$0044>Yes. What would Father say if he<$FFFC>saw this<$FFF5><$FFF8>‥‥？<$FFFE>
@@ -129,7 +129,7 @@
 127	<$FB00><$004E>Well. The Emperor's killer now<$FFFC>rebels against the Empire.<$FFFD><$FB00><$004F>By imperial law, I end you<$FFFC>here！<$FFFE>
 128	<$FB00><$0050>Imperial law！？ You rewrote it<$FFFC>to exploit people！ Why！？<$FFFE>
 129	<$FB00><$0051>We rule. We may treat commoners<$FFFC>as we please.<$FFFE>
-130	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Defeat Marquis Creid<$FFFE>
+130	<$FFF4>Victory terms changed！<$FFF3> <$0000><$FFFC>・Defeat Marquis Creid<$FFFE>
 131	・Defeat Marquis Creid<$FFFE>
 132	N-no‥‥. We saved no one‥‥.<$FFFE>
 133	<$FB00><$0053>All the villagers escaped？<$FFFE>

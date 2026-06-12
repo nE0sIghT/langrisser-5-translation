@@ -60,9 +60,9 @@
 58	<$FFF7><$FB00><$0063>Aah<$00E4><$00E5><$00E6>！<$FFFE>
 59	<$FB00><$0064>Damn！ Brenda's lead <$FFF5><$FFF8>‥‥.<$FFFE>
 60	<$FB00><$0065>Wah ha ha！ Now Estor will not<$FFFC>help you！ Wah ha ha！<$FFFE>
-61	Tablet says:<$FFFD><$0000><$FFFC>Left, then right<$FFFC>Step on both<$FFFE>
+61	Tablet says:<$FFFD><$0000> Left, then right Step on both<$FFFE>
 62	A sound came from the right.<$FFFE>
-63	A small bow appeared.<$FFFD><$0000><$FFFC>Obtained <$FFF4>Hading<$FFF3>！<$FFFE>
+63	A small bow appeared.<$FFFD><$0000> Obtained <$FFF4>Hading<$FFF3>！<$FFFE>
 64	Draw them until Lambda circles<$FFFC>around！<$FFFE>
 65	Draw them until Alfred circles<$FFFC>around！<$FFFE>
 66	Draw them until Brenda circles<$FFFC>around！<$FFFE>
@@ -106,7 +106,7 @@
 104	<$FB00><$0069>The archbishop's daughter is safe！<$FFFE>
 105	<$FB00><$006A>She is safe too.<$FFFE>
 106	<$FB00><$006B>I am glad the hostage is<$FFFC>safe.<$FFFE>
-107	<$0000><$FFFC><$0000>Unlocked the cell door！<$FFFE>
+107	<$0000> <$0000>Unlocked the cell door！<$FFFE>
 108	<$FB00><$006C>Thank you. Because of me, my<$FFFC>father<$FFF5><$FFF8>‥‥.<$FFFE>
 109	<$FB00><$006D>Yes, but it is all right now.<$FFFE>
 110	<$FB00><$006E>Now tell the archbishop she is<$FFFC>safe！<$FFFE>

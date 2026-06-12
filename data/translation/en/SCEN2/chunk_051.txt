@@ -29,5 +29,5 @@
 27	<$FB00><$007D>One who trusts no one drowns in<$FFFC>his own power. How lonely.<$FFFE>
 28	<$FB00><$007E>I refuse‥‥ I will not accept<$FFFC>this‥‥ I‥will<$FFF5><$FFF8><$FE28>‥<$FE28>‥<$FE28><$FFFE>
 29	<$FFFA><$FB00><$000C>Pitiful man‥‥.<$FFFE>
-30	<$0000><$F600><$0000>'s group reached the demon stronghold, but Caconsis had taken the Sage's Crystal.<$FFFD><$0000>As they gave chase, Aizer blocked the way.<$FFFE>
+30	<$0000><$F600><$0000>'s group reached<$FFFC>the demon stronghold, but<$FFFC>Caconsis had taken the Sage's<$FFFC>Crystal.<$FFFD><$0000>As they gave chase, Aizer<$FFFC>blocked the way.<$FFFE>
 31	Victory<$FFFC><$0000><$FFFC>・Defeat Aizer<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

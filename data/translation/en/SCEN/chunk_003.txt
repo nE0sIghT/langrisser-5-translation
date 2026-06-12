@@ -123,9 +123,9 @@
 121	<$FB00><$007A>No charge. It's fine.<$FFFE>
 122	<$FB00><$007B>But then I'd feel terrible！<$FFFC>Please take at least this much.<$FFFE>
 123	Alfred joined the party！<$FFFE>
-124	<$0000><$FFFC>Got 350P gold！<$FFFE>
-125	<$0000><$FFFC>Got 450P gold！<$FFFE>
-126	<$0000><$FFFC>Got a token sum of gold！<$FFFE>
+124	<$0000> Got 350P gold！<$FFFE>
+125	<$0000> Got 450P gold！<$FFFE>
+126	<$0000> Got a token sum of gold！<$FFFE>
 127	<$FB00><$007C>Well then, shall we go？<$FFFE>
 128	<$FB00><$007D>We're cutting through this town？<$FFFE>
 129	<$FB00><$007E>That's right. Going around it<$FFFC>would take us far out of our<$FFFC>way.<$FFFE>
@@ -138,9 +138,9 @@
 136	・Pull it gently<$FFFE>
 137	You yank the cloth, and<$FFFC>several gnomes come tumbling out<$FFFC>with it.<$FFFD>Please, give it back！ We're<$FFFC>making clothes from this cloth！<$FFFD>We'll give you something<$FFFC>instead！<$FFFD>Accept the offered trade？<$FFFE>
 138	Thank you！ Here, we'll even<$FFFC>throw in a little extra！<$FFFE>
-139	<$0000><$FFFC>Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000><$FFFC><$F600><$0000>'s <$FFF4>friendship<$FFF3> rose！<$FFFE>
+139	<$0000> Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000> <$F600><$0000>'s <$FFF4>friendship<$FFF3><$FFFC>rose！<$FFFE>
 140	Waaah, you're so mean！<$FFFD>The gnomes went back into their<$FFFC>hole in tears！<$FFFE>
-141	<$0000><$FFFC>Got the Megingjord！<$FFFE>
+141	<$0000> Got the Megingjord！<$FFFE>
 142	The pull from inside is strong,<$FFFC>and in a blink the cloth<$FFFC>vanishes down the hole.<$FFFE>
 143	Alfred joined the party！<$FFFE>
 144	<$FB00><$005B>You dare defy me too！ Fine,<$FFFC>I'll make you hurt！<$FFFE>

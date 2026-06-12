@@ -13,7 +13,7 @@
 11	What is it, Brenda？<$FFFE>
 12	About that bargain invitation we<$FFFC>found, why not stop by？<$FFFD>From the way those soldiers<$FFFC>looked, they won't reach the<$FFFC>lab right away.<$FFFE>
 13	True.<$FFFE>
-14	What do you think, <$F600><$0000>？<$FFFE>
+14	What do you think,<$FFFC><$F600><$0000>？<$FFFE>
 15	What will you do？<$FFFE>
 16	<$FFFA>Let's see<$FFF8>‥‥‥. <$FFFB><$FFF6><$FFF9>At that pace,<$FFFC>we should have a little time.<$FFFE>
 17	Right？<$FFFE>

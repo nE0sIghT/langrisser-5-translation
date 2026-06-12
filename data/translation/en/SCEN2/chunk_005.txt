@@ -36,9 +36,9 @@
 34	・Eat half<$FFFE>
 35	・Take one bite<$FFFE>
 36	・Not right now<$FFFE>
-37	Juicy berries clear your head.<$FFFD><$0000><$FFFC><$FFF4>Max MP<$FFF3> rose by 3P！<$FFFE>
-38	Juicy berries clear your head.<$FFFD><$0000><$FFFC><$FFF4>Max MP<$FFF3> rose by 2P！<$FFFC><$FFF4>Holy resist<$FFF3> rose by 2P！<$FFFE>
-39	Juicy berries clear your head.<$FFFD><$0000><$FFFC><$FFF4>Max MP<$FFF3> rose by 1P！<$FFFC><$FFF4>Holy resist<$FFF3> rose by 2P！<$FFFC><$FFF4>Dark resist<$FFF3> rose by 2P！<$FFFE>
+37	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 3P！<$FFFE>
+38	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 2P！ <$FFF4>Holy<$FFFC>resist<$FFF3> rose by 2P！<$FFFE>
+39	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 1P！ <$FFF4>Holy<$FFFC>resist<$FFF3> rose by 2P！ <$FFF4>Dark resist<$FFF3><$FFFC>rose by 2P！<$FFFE>
 40	<$FB00><$0026>Cramped little village, though.<$FFFE>
 41	<$FB00><$0027>Against numbers, it helps us.<$FFFE>
 42	<$FB00><$0028>Terrain as our ally, eh. Let's<$FFFC>go！<$FFFE>
@@ -71,7 +71,7 @@
 69	<$FB00><$0041>You said that last time too<$FFF5><$FFF8>‥‥.<$FFFE>
 70	<$FB00><$0042>Quiet, you！<$FFFE>
 71	<$FB00><$0048>How‥‥could I‥‥. <$FFF5><$FB00><$0049>Damn it！<$FFFC>Enough, I quit！<$FFFE>
-72	<$FB00><$004A>Such strength, so soon<$FFF5><$FFF8>‥‥.<$FFFC><$0000><$FFF6><$FB00><$004B>The power hidden in the<$FFFC>specimens‥‥.<$FFFE>
+72	<$FB00><$004A>Such strength, so soon<$FFF5><$FFF8>‥‥. <$0000><$FFF6><$FB00><$004B>The<$FFFC>power hidden in the<$FFFC>specimens‥‥.<$FFFE>
 73	Damn！ If you hadn't meddled‥‥.<$FFFE>
 74	<$FB00><$004C>Lord Aizer, fall back. We'll<$FFFC>handle the rest！<$FFFE>
 75	<$FFF8><$FB00><$004D>Ugh‥‥.<$FFF5><$FFF6><$FB00><$004E>Forgive me<$FFF5><$FFF8>‥‥.<$FFFE>

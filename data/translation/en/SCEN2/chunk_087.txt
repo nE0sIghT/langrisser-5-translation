@@ -26,13 +26,13 @@
 24	<$FB00><$0085>We are made beings. Not like<$FFFC>ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even gotten a<$FFFC>task from the master yet. We're<$FFFC>of use to no one.<$FFFD><$FB00><$0087>A tool that ends unused might as<$FFFC>well never have been made.<$FFFD><$FB00><$0088>I will fulfill the purpose I<$FFFC>was created for. That is why I<$FFFC>exist.<$FFFE>
 25	<$FB00><$0089>Why we exist, huh. Why are<$FFFC>people born, what do they live<$FFFC>for<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own<$FFFC>purpose are happier than those<$FFFC>who just drift along.<$FFFE>
 26	<$FB00><$008B>You understand, then？<$FFFE>
-27	By the way, <$F600><$0000>. Do you know the basics of<$FFFC>battle？<$FFFD>I can teach you from my data.<$FFFE>
+27	By the way, <$F600><$0000>. Do<$FFFC>you know the basics of battle？<$FFFD>I can teach you from my data.<$FFFE>
 28	Like what？<$FFFE>
 29	The difference between us <$FFF4>leaders<$FFFC><$FFF3>and <$FFF4>mercenaries<$FFF3>, say.<$FFFD>Well？ Remember it？<$FFFE>
 30	・I know it.<$FFFE>
 31	・Remind me, just in case.<$FFFE>
 32	Good. You know the basics,<$FFFC>then.<$FFFE>
-33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries before<$FFFC>you deploy.<$FFFD>How many you can hire depends<$FFFC>on the leader, <$FFF4>up to 6 <$FFF3>under<$FFFC>one command.<$FFFE>
+33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries<$FFFC>before you deploy.<$FFFD>How many you can hire depends<$FFFC>on the leader, <$FFF4>up to 6 <$FFF3>under<$FFFC>one command.<$FFFE>
 34	Yeah. That much I know.<$FFFE>
 35	Each leader has a <$FFF4>command range<$FFFC><$FFF3>that grants <$FFF4>bonuses <$FFF3>to mercenaries<$FFFC>fighting inside it.<$FFFD>The bonuses are<$FFFC><$FFF4>『A+』『D+』『M+』<$FFF3>, for <$FFF4>attack<$FFFC><$FFF3>, <$FFF4>defense <$FFF3>and <$FFF4>magic resistance<$FFF3>.<$FFFD>Ranges show blue for us, green<$FFFC>for NPCs, red for enemies.<$FFFD>So when mercenaries fight, keep<$FFFC>them inside that range.<$FFFE>
 36	Command range‥‥. I'll keep it<$FFFC>in mind.<$FFFD>And when I give orders, what<$FFFC>should I watch for？<$FFFE>

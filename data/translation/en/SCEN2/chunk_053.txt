@@ -29,5 +29,5 @@
 27	<$FFF8>‥‥‥.<$FFFE>
 28	<$FB00><$001D>But doesn't that girl look like<$FFFC>Miss Lambda？ Her hair is<$FFFC>different, though<$FFF5>‥‥.<$FFFE>
 29	‥‥<$FB00><$001E>That girl is<$FFF5>‥<$FE3C>‥<$FE3C><$FB00><$001F>me<$FFF5>‥‥？<$FFFE>
-30	<$0000>Seeking the truth about <$F600><$0000>, the party headed for Fizzit Port to find Langrisser.<$FFFD><$0000>But what they found there was citizens under attack by demons‥‥.<$FFFE>
+30	<$0000>Seeking the truth about<$FFFC><$F600><$0000>, the party headed<$FFFC>for Fizzit Port to find<$FFFC>Langrisser.<$FFFD><$0000>But what they found there was<$FFFC>citizens under attack by<$FFFC>demons‥‥.<$FFFE>
 31	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC>・Jessica or Clarett dies<$FFFC>・All townsfolk die<$FFFC>・<$F600><$0000> dies<$FFFE>

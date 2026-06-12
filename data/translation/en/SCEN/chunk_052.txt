@@ -17,7 +17,7 @@
 15	Right. Then, when assigning mercs<$FFFC><$FFF8>‥‥.<$FFFE>
 16	Choose the first type, then<$FFFC>choose the second. After that,<$FFFC>set each count, right？<$FFFE>
 17	Exactly.<$FFFE>
-18	To command two mercenary types,<$FFFC>you need the <$FFF4>Mixed Mercs skill<$FFF3>.<$FFFE>
+18	To command two mercenary types,<$FFFC>you need the <$FFF4>Mixed Mercs<$FFFC>skill<$FFF3>.<$FFFE>
 19	How do we learn it？<$FFFE>
 20	At LV10 after battle EXP,<$FFFC>you can <$FFF4>Class Change<$FFF3>. New<$FFFC>classes teach new skills.<$FFFE>
 21	When assigning mercs, choose both<$FFFC>types first, then each number.<$FFFD>Until now it was <$FFF4>Choose Mercs<$FFF3>,<$FFFC>then <$FFF4>Set Number<$FFF3>.<$FFFD>With mixed mercs, pick type one,<$FFFC>type two, then each number.<$FFFE>
@@ -86,5 +86,5 @@
 84	<$FB00><$002A>But what calamity could it mean<$FFF5><$FFF8>‥<$FFFC><$FE14><$FE14>‥<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about it<$FFFC>now<$FFF5><$FFF8>‥<$FE14>‥<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come<$FFFC>on, Lambda.<$FFFE>
 85	<$FFF7><$FB00><$002D>Yes<$FFF5><$FFF8>‥<$FE14>‥<$FE14>.<$FE14><$FFFE>
 86	<$FFF8>‥‥<$FFF6><$FB00><$002E>Thank you.<$FFFE>
-87	<$0000>After Gizarof's death, <$F600><$0000> and Lambda had lost their purpose. Seeking answers, they went to his lab.<$FFFD><$0000>In the valley, Federation troops hunted his remnants‥‥.<$FFFE>
+87	<$0000>After Gizarof's death,<$FFFC><$F600><$0000> and Lambda had<$FFFC>lost their purpose. Seeking<$FFFC>answers, they went to his lab.<$FFFD><$0000>In the valley, Federation troops<$FFFC>hunted his remnants‥‥.<$FFFE>
 88	Victory<$FFFC><$0000><$FFFC>・All allies cross the bridge<$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -109,9 +109,10 @@ Edit the staging file, translating record by record:
 
 - keep every `<$XXXX>` control tag and its position relative to the text;
   only `<$FFFC>`/`<$FFFD>` line/page breaks may be moved, added or removed;
-- the dialogue window is ~20 cells wide and 3 lines tall (a lowercase pair
-  is one cell, a space or capital is one cell); don't worry about exact line
-  breaks — the re-wrapper handles them;
+- the text windows are 21 cells wide (a lowercase pair is one cell, a
+  space or capital is one cell, the player-name macro counts as 8) and a
+  page holds up to 4 lines; don't worry about exact line breaks — the
+  re-wrapper handles them;
 - choice records (starting with `・`) must stay single-line;
 - the font has no `; — – !? /` — use `,` and full-width `！？`.
 

@@ -56,7 +56,7 @@
 54	・Fight<$FFFE>
 55	・Talk<$FFFE>
 56	・Do nothing<$FFFE>
-57	You would fight me？<$FFFC>Hmph‥‥ I like it.<$FFFC>With you, I may enjoy many more days of battle.<$FFFD><$0000><$FFFC>Mercenary <$FFF4>Shade<$FFF3> can now be hired！<$FFFE>
+57	You would fight me？ Hmph‥‥<$FFFC>I like it. With you, I may<$FFFC>enjoy many more days of battle.<$FFFD><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be<$FFFC>hired！<$FFFE>
 58	I have no time for your foolish<$FFFC>talk. Leave this place！<$FFFE>
 59	Begone if you have no business！<$FFFE>
 60	A relief engraved with a crest<$FFFC>is embedded here.<$FFFE>
@@ -68,7 +68,7 @@
 66	・Slide it sideways<$FFFE>
 67	・Break it<$FFFE>
 68	You press it into the wall,<$FFFC>and it clicks.<$FFFE>
-69	Sliding it aside reveals a small box behind the relief.<$FFFC>Inside is a <$FFF4>karaoke pass for 5, 30 free minutes<$FFF3>.<$FFFD><$0000><$FFFC><$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
+69	Sliding it aside reveals a<$FFFC>small box behind the relief.<$FFFC>Inside is a <$FFF4>karaoke pass for<$FFFC>5, 30 free minutes<$FFF3>.<$FFFD><$0000> <$FFF4>5-person 30-min pass<$FFF3><$FFFC>obtained！<$FFFE>
 70	The relief crumbles with a<$FFFC>rattle.<$FFFE>
 71	<$FB00><$002B>Take this！<$FFFE>
 72	<$FB00><$002C>Take this！<$FFFE>

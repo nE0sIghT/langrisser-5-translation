@@ -42,9 +42,13 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
 - Names and terms: `data/translation/names_base.csv` and
   `data/translation/glossary_names.csv` are canonical; follow the
   Langrisser fan canon for series terms.
-- Dialogue window: ~20 cells wide, 3 lines per page. Choice records
-  (`・...`) must stay single-line — a wrapped tail becomes a phantom
-  selectable row. Multi-bullet objective records keep their structure.
+- Text windows (dialogue and narration/briefing) are 21 cells wide
+  (measured in-game; the re-wrapper uses 20 for a safety margin) and the
+  player-name macro `<$F600><$0000>` renders up to 8 cells (the name entry
+  limit). Pages of up to 4 lines are safe (the JP script uses them
+  routinely). Choice records (`・...`) must stay single-line — a wrapped
+  tail becomes a phantom selectable row. Multi-bullet objective records
+  keep their structure.
 - The font has no `; — – !? /`; use `,` and full-width `！？`. Ellipsis is
   `‥` (often doubled `‥‥`).
 - Tight chunks: if the validator says OVER BUDGET, shorten the text; never

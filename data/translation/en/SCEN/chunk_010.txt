@@ -39,8 +39,8 @@
 37	Two phials hang partway down a<$FFFC>deep hole in the paving. Take<$FFFC>one, the other may fall.<$FFFD>One holds a purple draught, the<$FFFC>other a gray one. Which phial<$FFFC>do you take？<$FFFE>
 38	・The purple phial<$FFFE>
 39	・The gray phial<$FFFE>
-40	You take the purple phial. The<$FFFC>gray one drops into the dark.<$FFFD>You drink it. Your body burns<$FFFC>for a moment, but the poisons<$FFFC>seem to wash away.<$FFFD><$0000><$FFFC>Got the skill <$FFF4>Antidote<$FFF3>！<$FFFE>
-41	You take the gray phial. The<$FFFC>purple one drops into the dark.<$FFFD>You drink it. For a time your<$FFFC>body feels heavy as lead.<$FFFD><$0000><$FFFC>Got the skill <$FFF4>Ston 4<$FFF3>！<$FFFE>
+40	You take the purple phial. The<$FFFC>gray one drops into the dark.<$FFFD>You drink it. Your body burns<$FFFC>for a moment, but the poisons<$FFFC>seem to wash away.<$FFFD><$0000> Got the skill <$FFF4>Antidote<$FFF3>！<$FFFE>
+41	You take the gray phial. The<$FFFC>purple one drops into the dark.<$FFFD>You drink it. For a time your<$FFFC>body feels heavy as lead.<$FFFD><$0000> Got the skill <$FFF4>Ston 4<$FFF3>！<$FFFE>
 42	<$FFF8>‥‥<$FFF6><$FB00><$006F>Me, the Royal Guard<$FFFC>captain！？<$FFFE>
 43	<$FB00><$0070>So he said. And by the sound<$FFFC>of it, Clarett is the slain<$FFFC>Emperor's daughter<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0071>a princess,<$FFFC>that is.<$FFFE>
 44	<$FB00><$0072>Guilty or not, with bounties on<$FFFC>your heads, the road ahead looks<$FFFC>rough<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -176,4 +176,4 @@
 174	<$FB00><$006D>It can't be<$FFF5><$FFF7>‥‥.<$FFFE>
 175	<$FB00><$006E>Now, die here！<$FFFE>
 176	・Defeat Marquis Creid<$FFFE>
-177	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Defeat Marquis Creid<$FFFE><$FFFF>
+177	<$FFF4>Victory terms changed！<$FFF3> <$0000><$FFFC>・Defeat Marquis Creid<$FFFE><$FFFF>
