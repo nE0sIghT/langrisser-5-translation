@@ -49,6 +49,9 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
   `‥` (often doubled `‥‥`).
 - Tight chunks: if the validator says OVER BUDGET, shorten the text; never
   drop records or tags to make it fit.
+- Compression debt: if byte-budget pressure forces wording that drops nuance,
+  tone, tutorial detail, or lore detail, record the affected chunk/record in
+  `docs/COMPRESSION_DEBT.md` before committing.
 
 ## Repository conventions
 
