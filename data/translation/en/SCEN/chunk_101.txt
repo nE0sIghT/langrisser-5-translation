@@ -1,0 +1,93 @@
+# file=SCEN.DAT chunk=101 chunk_start=0x1206800
+# block_base=0xB3B0 block_size=0x1504 records=91
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Duke Lenard<$FFFF>
+8	Salrath man<$FFFF>
+9	Eric<$FFFF>
+10	Archbishop Estor<$FFFF>
+11	Salrath camp<$FFFF>
+12	<$FB00><$005A>Looks like enemy command is<$FFFC>confused. Their units are not<$FFFC>coordinating.<$FFFE>
+13	<$FB00><$005B>That is why we can hold<$FFFC>out‥‥.<$FFFE>
+14	<$FB00><$005C>Most likely the princess attacked<$FFFC>enemy HQ, so orders stopped.<$FFFE>
+15	<$FB00><$005D>Lord Lenard！ Princess Clarett<$FFFC>raided enemy HQ and defeated<$FFFC>the commander！<$FFFE>
+16	<$FB00><$005E>What！？<$FFFE>
+17	<$FB00><$005F>HQ is almost destroyed. Their<$FFFC>command is cut, and they cannot<$FFFC>move in order.<$FFFE>
+18	<$FB00><$0060>As expected of Lady Clarett. She<$FFFC>not only attacked HQ, she<$FFFC>destroyed command.<$FFFE>
+19	<$FB00><$0061>I feel we can win this battle.<$FFFE>
+20	<$FB00><$0062>Honestly, their numbers seemed<$FFFC>hopeless. But small forces can<$FFFC>fight differently.<$FFFE>
+21	<$FB00><$0063>The princess will bait them south<$FFFC>with the ship. Escape when their<$FFFC>encirclement breaks.<$FFFE>
+22	<$FB00><$0064>Understood.<$FFFE>
+23	<$FB00><$0065>With Lady Clarett's noble ideal<$FFFC>and her comrades' action,<$FFFC>revolution will succeed.<$FFFD><$FB00><$0066>Listen, for the people's future,<$FFFC>we must not lose！<$FFFE>
+24	<$FFF7><$FB00><$0067>Yes sir！<$FFF5><$FFF8><$FFFE>
+25	On the Flying Ship to Estor<$FFFF>
+26	<$FB00><$0068>Eric！ How was everyone in<$FFFC>Salrath？<$FFFE>
+27	<$FB00><$0069>All troops escaped.<$FFFE>
+28	<$FB00><$006A>That desperate fight paid off.<$FFFE>
+29	<$FB00><$006B>Good thing we made it.<$FFFE>
+30	<$FB00><$006C>Thank you, Brenda. You saved<$FFFC>us.<$FFFE>
+31	<$FB00><$006D>This flying ship is amazing.<$FFFE>
+32	<$FB00><$006E>This ship is just a small<$FFFC>courier craft, nothing special.<$FFFD><$FB00><$006F>Long ago there were sky<$FFFC>battleships far larger than this,<$FFFC>with weapons too.<$FFFE>
+33	<$FB00><$0070>Sky battleships？<$FFFE>
+34	<$FB00><$0071>I guess, battleships that could<$FFFC>travel from this star to the<$FFFC>moon.<$FFFE>
+35	<$FFF7><$FB00><$0072>Wow‥‥. <$FFF5><$FFF8><$FFF6><$FB00><$0073>What was the ancient<$FFFC>magic world like？ I cannot<$FFFC>imagine.<$FFFE>
+36	<$FB00><$0074>Yet ancient magic civilization<$FFFC>still perished. Technology depends<$FFFC>on its use.<$FFFD><$FB00><$0075>This unarmed ship changed the<$FFFC>battle.<$FFFE>
+37	<$FB00><$0076>No matter how far technology<$FFFC>advances, it means nothing if<$FFFC>people do not change<$FFF5><$FFF8>‥‥.<$FFFE>
+38	<$FB00><$0077>Anyway, head for Estor. Now we<$FFFC>must defeat Emperor Gilmore and<$FFFC>make the revolution succeed.<$FFFE>
+39	<$FB00><$0078>Right. It took two days to lure<$FFFC>the enemy<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0079>Hurry！ We cannot<$FFFC>waste a moment！<$FFFE>
+40	<$FB00><$007A>But thanks to the flying<$FFFC>ship, we can go anywhere<$FFFC>quickly！<$FFFE>
+41	<$FFF8><$FFFA>‥‥‥‥。<$FFFE>
+42	30 minutes later‥‥<$FFFF>
+43	Bored‥‥.<$FFFE>
+44	What is wrong, Clarett？<$FFFE>
+45	I'm bored！<$FFFD>Clouds, clouds, and more clouds.<$FFFC>I'm sick of it！<$FFFE>
+46	Even if you tell me<$FFF8>‥‥‥.<$FFFE>
+47	Come to think of it, we found<$FFFC>a free karaoke ticket！ Let's<$FFFC>go！<$FFFD>With this ship, we can reach<$FFFC>our destination in no time！ Come<$FFFC>on, let's go！？<$FFFE>
+48	Is that really all right？<$FFFE>
+49	It is fine！ Estor will not run<$FFFC>away！ <$FFFB>So come on, let's go！！<$FFFE>
+50	Wouldn't sooner be better？<$FFFE>
+51	<$FFF4>We are going！！ <$FFF3><$FFFB><$FFF4>Right！？<$FFF3><$FFFE>
+52	<$FFFA>If you say so, I don't mind<$FFFC><$FFF8>‥‥‥.<$FFFE>
+53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！<$FFFD>Then let's go to the karaoke place！！<$FFFE>
+54	Is this really all right<$FFF8>‥‥‥.<$FFFE>
+55	Estor Temple<$FFFF>
+56	<$FFF8>‥‥<$FFF6><$FB00><$007B>Indeed, I admire your ideals.<$FFFE>
+57	<$FB00><$007C>Then you will help us？<$FFFE>
+58	<$FB00><$007D>But that is a separate issue. We<$FFFC>cannot aid a revolution.<$FFFE>
+59	<$FB00><$007E>Why not？ Is it the will of<$FFFC>Lushiris？<$FFFE>
+60	<$FFFA><$FB00><$007F>N-no, not exactly<$FFF5><$FFF8>‥‥.<$FFFE>
+61	<$FB00><$0080>Then tell us why, Archbishop.<$FFFE>
+62	<$FB00><$0081>We cannot know the revolution will<$FFFC>succeed. If it failed, what would<$FFFC>become of this temple？<$FFFE>
+63	<$FB00><$0082>But if you help us and bring<$FFFC>the people to our side, it will<$FFFC>succeed！<$FFFE>
+64	<$FB00><$0083>I-in any case, we cannot make<$FFFC>Lord Gilmore our enemy！<$FFFE>
+65	<$FB00><$0084>No<$FFF5><$FFF8>‥‥.<$FFFE>
+66	<$FB00><$0085>Please leave. May Lushiris bless<$FFFC>you.<$FFFE>
+67	<$FB00><$0086>Looks like it was no use<$FFF5><$FFF8>‥‥.<$FFFE>
+68	<$FB00><$0087>What happened？ He was not the<$FFFC>sort to say that.<$FFFE>
+69	<$FB00><$0088>Watching from here, he seemed<$FFFC>afraid of something. There must be<$FFFC>a reason.<$FFFE>
+70	<$FB00><$0089>Looks like it is my turn again.<$FFFE>
+71	<$FB00><$008A>What will you do？<$FFFE>
+72	<$FB00><$008B>I'm a mercenary, remember？ I've<$FFFC>been here before. I'll use my<$FFFC>contacts.<$FFFE>
+73	<$FB00><$008C>Can you do that？<$FFFE>
+74	<$FB00><$008D>Don't underestimate mercenary<$FFFC>networks.<$FFFD><$FB00><$008E>Weaker than thieves, but war<$FFFC>feeds us. If there is a hidden<$FFFC>cause, I'll find it.<$FFFD><$FB00><$008F>I'll pack and leave.<$FFFE>
+75	<$FB00><$0090>It really helps to have Brenda<$FFFC>with us.<$FFFE>
+76	<$FB00><$0091>An ancient flying ship, a<$FFFC>mercenary network‥‥ Who is<$FFFC>she？<$FFFE>
+77	<$FB00><$0092>Yes. She seems a little too<$FFFC>prepared.<$FFFE>
+78	<$FB00><$0093>She is suspicious, isn't she.<$FFFE>
+79	<$FB00><$0094>As I said before, I think she<$FFFC>is good. She did save us.<$FFFE>
+80	<$FB00><$0095>What do you think？<$FFFE>
+81	<$FB00><$0096>I<$FFF5><$FFF8>‥‥‥.<$FFFE>
+82	・She's a good person.<$FFFE>
+83	・She's suspicious.<$FFFE>
+84	・She doesn't look good.<$FFFE>
+85	<$FB00><$0097>Right, right！ We should not<$FFFC>suspect a comrade！<$FFFE>
+86	<$FFF8>‥‥‥.<$FFFE>
+87	<$FB00><$0098>What is her goal？<$FFFE>
+88	<$FFF8>‥‥<$FFF6><$FB00><$0099>But she always helps us<$FFF5><$FFF8>‥‥.<$FFFE>
+89	<$FB00><$009A>There, all set. I'm off. I'll<$FFFC>bring back information by tomorrow<$FFFC>noon.<$FFFD><$FB00><$009B>I stopped the magic reactor<$FFFC>just in case, so please watch<$FFFC>the ship.<$FFFE>
+90	<$FB00><$009C>Why stop the ship's reactor？<$FFFE>
+91	<$FB00><$009D>It is hard to handle. If it ran<$FFFC>wild, things would get ugly.<$FFFD><$FB00><$009E>Well, I'm off.<$FFFE>
