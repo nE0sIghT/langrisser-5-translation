@@ -17,7 +17,7 @@
 15	<$FB00><$004B>Jessica was right to<$FFFC>advise adding Slayers to the<$FFFC>scouts.<$FFFE>
 16	<$FB00><$004C>But Slayers alone lack<$FFFC>finishing power. I will go before<$FFFC>it is too late.<$FFFE>
 17	<$FB00><$004D>Please be careful, McLaine.<$FFFE>
-18	<$FB00><$004E>Worried about me？ Haha,<$FFFC>now I have to show off.<$FFFD><$FB00><$004F>Leave it to me. On<$FFFC>Yeless, I fought Boser and Chaos.<$FFFC>Compared to them, these are<$FFFC>infants.<$FFFE>
+18	<$FB00><$004E>Worried about me？ Haha,<$FFFC>now I have to show off.<$FFFD><$FB00><$004F>Leave it to me. On Yeless, I<$FFFC>fought Boser and Chaos. Compared to<$FFFC>them, these are infants.<$FFFE>
 19	<$FB00><$0050>Do not lower your guard,<$FFFC>Lord McLaine.<$FFFE>
-20	<$FB00><$0051>I know. Just trust my<$FFFC>strength a little more.<$FFFD><$FB00><$0052>All right, lead me<$FFFC>there！<$FFFE>
+20	<$FB00><$0051>I know. Just trust my<$FFFC>strength a little more.<$FFFD><$FB00><$0052>All right, lead me there！<$FFFE>
 21	<$FB00><$0053>Yes sir, this way！<$FFFE><$FFFF>

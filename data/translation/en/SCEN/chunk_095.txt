@@ -22,7 +22,7 @@
 20	<$FFF8>…<$FFF6><$FB00><$007E>This？<$FFFE>
 21	<$FB00><$007F>That's it！ That<$FFFC>medicine<$FFF5><$FFF8>…<$FFF6><$FB00><$0080>Father <$FFF5><$FFF8>…<$FFFE>
 22	<$FB00><$0081>You can tell if it's<$FFFC>poison, right？ Is it really<$FFFC>poison？<$FFFE>
-23	<$FB00><$0082>This is El Sallia's most<$FFFC>common fever medicine. No one<$FFFC>could die from drinking it.<$FFFD><$FB00><$0083>If you like, I can<$FFFC>drink some right here.<$FFFE>
+23	<$FB00><$0082>This is El Sallia's most<$FFFC>common fever medicine. No one<$FFFC>could die from drinking it.<$FFFD><$FB00><$0083>If you like, I can drink some<$FFFC>right here.<$FFFE>
 24	<$FFFA><$FB00><$0084>No, you needn't go that<$FFFC>far.<$FFFE>
 25	<$FB00><$0085>Then why did Father<$FFF5><$FFF8>…？<$FFFE>
 26	<$FB00><$0086>Can't you see？ Someone<$FFFC>must have switched it.<$FFFE>
@@ -37,7 +37,7 @@
 35	<$FFF8><$FFFA>…<$FFFE>
 36	<$FB00><$0091>Brenda！<$FFFE>
 37	<$FFF8>…<$FFF6><$FB00><$0092>Ah, sorry. I said too<$FFFC>much.<$FFFE>
-38	<$FB00><$0093>My brother did seem<$FFFC>changed. Ever since Father collapsed<$FFFC>and he took over the domain<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0094>But I thought it was<$FFFC>because the work was unfamiliar<$FFFC><$FFF5><$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0095>I wanted to believe that.<$FFFE>
+38	<$FB00><$0093>My brother did seem<$FFFC>changed. Ever since Father collapsed<$FFFC>and he took over the domain<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0094>But I thought it was because<$FFFC>the work was unfamiliar <$FFF5><$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0095>I<$FFFC>wanted to believe that.<$FFFE>
 39	<$FB00><$0096>Alfred<$FFF5><$FFF8>…<$FFFE>
 40	<$FB00><$0097>Forgive me for<$FFFC>interrupting, but I must pursue<$FFFC>that demon. Excuse me.<$FFFE>
 41	<$FB00><$0098>And since my name seems<$FFFC>cleared, I'll be going too.<$FFFE>
@@ -68,14 +68,14 @@
 66	<$FB00><$00B6>Hold on. Why do you say<$FFFC>Lambda is your sister？<$FFFE>
 67	<$FB00><$00B7>What do you mean, playing<$FFFC>dumb？ I remember you too.<$FFFE>
 68	<$FB00><$00B8>Me？<$FFFE>
-69	<$FB00><$00B9>Fine. I'll tell it from<$FFFC>the start.<$FFFD><$FB00><$00BA>Marie and I were captured<$FFFC>by Gizarof. I failed, so he meant<$FFFC>to dispose of me.<$FFFE>
+69	<$FB00><$00B9>Fine. I'll tell it from<$FFFC>the start.<$FFFD><$FB00><$00BA>Marie and I were captured by<$FFFC>Gizarof. I failed, so he meant to<$FFFC>dispose of me.<$FFFE>
 70	<$FB00><$00BB>Look at my body. This is<$FFFC>what he turned me into. A lot<$FFFC>happened, but now I remember<$FFFC>everything.<$FFFE>
 71	<$FB00><$00BC>Including that you,<$FFFC>Gizarof's underling, helped me<$FFFC>escape.<$FFFE>
 72	<$FB00><$00BD>But I don't remember.<$FFFE>
-73	<$FB00><$00BE>Then how about this？<$FFFD><$FB00><$00BF>Northwest of here is our<$FFFC>birth town. The war emptied it,<$FFFC>but I can show you.<$FFFE>
+73	<$FB00><$00BE>Then how about this？<$FFFD><$FB00><$00BF>Northwest of here is our birth<$FFFC>town. The war emptied it, but<$FFFC>I can show you.<$FFFE>
 74	<$FB00><$00C0>Then that town really was<$FFF5><$FFF8>…<$FFFE>
 75	<$FFF8>…<$FE32>…<$FE32>…<$FE32>.<$FFFE>
-76	<$FB00><$00C2>But thank goodness. You're<$FFFC>safe, and only your hair changed.<$FFFD><$FB00><$00C3>I'm so glad<$FFF5><$FFF8>… <$FFF6><$FB00><$00C4>Mother and<$FFFC>Father will be overjoyed！<$FFFE>
+76	<$FB00><$00C2>But thank goodness. You're<$FFFC>safe, and only your hair changed.<$FFFD><$FB00><$00C3>I'm so glad<$FFF5><$FFF8>… <$FFF6><$FB00><$00C4>Mother and Father<$FFFC>will be overjoyed！<$FFFE>
 77	<$FB00><$00C5>But<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C6>I<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C7>I<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 78	<$FB00><$00C8>Lambda！<$FFFE>
 79	<$FB00><$00C9>Go after her. She's<$FFFC>confused. Better you, who's been<$FFFC>with her, than me or this new<$FFFC>brother.<$FFFE>
@@ -94,20 +94,20 @@
 92	<$FB00><$00E7>You, uh, McLaine, was it？<$FFFE>
 93	<$FB00><$00E8>What？<$FFFE>
 94	<$FB00><$00E9>Do you know about that<$FFFC>sword？<$FFFE>
-95	<$FB00><$00EA>Yeah. We used Langrisser to<$FFFC>defeat Gizarof.<$FFFD><$FB00><$00EB>That sword can seal<$FFFC>demons. Alhazard, the sword demons<$FFFC>use, holds dark power instead.<$FFFE>
+95	<$FB00><$00EA>Yeah. We used Langrisser to<$FFFC>defeat Gizarof.<$FFFD><$FB00><$00EB>That sword can seal demons.<$FFFC>Alhazard, the sword demons use,<$FFFC>holds dark power instead.<$FFFE>
 96	<$FB00><$00EC>Then that demon was after<$FFFC>that sword？<$FFFE>
 97	<$FB00><$010C>Then that demon was after<$FFFC>that sword？<$FFFE>
 98	<$FB00><$00ED>Demon？ What happened？ Tell<$FFFC>me everything.<$FFFE>
 99	<$FB00><$00EE>Jessica had Alhazard and<$FFFC>Langrisser, but demons attacked and<$FFFC>stole both swords.<$FFFE>
-100	<$FB00><$00EF>What！？ Alhazard is in demon<$FFFC>hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！ If I'd been<$FFFC>here, that never would have<$FFFC>happened！<$FFFE>
-101	<$FB00><$00F1>Good, you're back.<$FFFD><$FB00><$00F2>We were just hearing about<$FFFC>those swords, and it sounds bad.<$FFFE>
+100	<$FB00><$00EF>What！？ Alhazard is in demon<$FFFC>hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！ If I'd been here, that<$FFFC>never would have happened！<$FFFE>
+101	<$FB00><$00F1>Good, you're back.<$FFFD><$FB00><$00F2>We were just hearing about those<$FFFC>swords, and it sounds bad.<$FFFE>
 102	<$FB00><$00F3>Bad？<$FFFE>
 103	<$FB00><$00F4>According to McLaine, one<$FFFC>sword holds dark power<$FFF5><$FFF8>…<$FFFE>
 104	<$FB00><$00F5>If that passed to the<$FFFC>demons, it's serious.<$FFFE>
 105	<$FB00><$010D>What's so bad？<$FFFE>
 106	<$FB00><$010F>He says the demons stole<$FFFC>a sword with dark power.<$FFFE>
 107	<$FB00><$010E>What！？ A sword like that<$FFFC>fell into demon hands！<$FFFE>
-108	<$FB00><$00F6>I'm going to El Sallia.<$FFFC>I can't just stand by.<$FFFD><$FB00><$00F7>Sorry, Marie. We finally<$FFFC>met again, but I can't leave<$FFFC>this alone.<$FFFE>
+108	<$FB00><$00F6>I'm going to El Sallia.<$FFFC>I can't just stand by.<$FFFD><$FB00><$00F7>Sorry, Marie. We finally met again,<$FFFC>but I can't leave this alone.<$FFFE>
 109	<$FFF8>…<$FFFE>
 110	<$FB00><$00F8>What do you think？ I<$FFFC>say we should follow too.<$FFFE>
 111	<$FB00><$00F9>If demons have Alhazard, we<$FFFC>can't ignore it. And Langrisser is<$FFFC>the key to my secret.<$FFFE>
@@ -131,15 +131,15 @@
 129	<$FFF8>…<$FFFE>
 130	<$FB00><$00D4>Come on, Lambda. Let's go<$FFFC>back. Everyone is worried.<$FFFE>
 131	<$FB00><$00D5>Who am I…？ Lambda？ Or<$FFFC>Mariandel？<$FFFD><$FFF8>…<$FFF6><$FB00><$00D6>I'm scared… so scared<$FFF5><$FFF8>…<$FFFE>
-132	<$FB00><$00D7>Scared？<$FFFD><$FB00><$00D8>You weren't artificial.<$FFFC>You have family, and he worries<$FFFC>for you. What is there to fear？<$FFFE>
-133	<$FB00><$00D9>If my memory returns, what<$FFFC>happens to me now？ Will I<$FFFC>vanish？<$FFFD><$FB00><$00DA>I fought beside you, even<$FFFC>if only briefly. Where do those<$FFFC>memories go？<$FFFD><$FB00><$00DB>Do you understand my fear？<$FFFC>Right now, I'm still Lambda.<$FFFE>
+132	<$FB00><$00D7>Scared？<$FFFD><$FB00><$00D8>You weren't artificial. You have<$FFFC>family, and he worries for you.<$FFFC>What is there to fear？<$FFFE>
+133	<$FB00><$00D9>If my memory returns, what<$FFFC>happens to me now？ Will I<$FFFC>vanish？<$FFFD><$FB00><$00DA>I fought beside you, even if only<$FFFC>briefly. Where do those memories<$FFFC>go？<$FFFD><$FB00><$00DB>Do you understand my fear？ Right<$FFFC>now, I'm still Lambda.<$FFFE>
 134	<$FB00><$00DC>Yeah. I understand.<$FFFE>
 135	<$FB00><$00DD>Do you really？ If Marie<$FFFC>revives, Lambda will die… That's<$FFFC>what scares me.<$FFFE>
 136	<$FB00><$00DE>But staying Lambda means<$FFFC>killing Marie, and killing the<$FFFC>feelings of the man who needs<$FFFC>her.<$FFFE>
 137	<$FB00><$00DF>Are you fine with that？<$FFFC>With me…, with Lambda disappearing<$FFFC><$FFF5><$FFF8>…？<$FFFE>
 138	<$FB00><$00E0>Lambda and Marie were<$FFFC>always the same person. Even if<$FFFC>your memory returns, you will still<$FFFC>be you.<$FFFE>
-139	<$FB00><$00E1>This isn't about looks. My<$FFFC>self, my memories, my bonds<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$00E2>I might even forget you.<$FFFC>Are you fine with that<$FFF5><$FFF8>…？<$FFFE>
-140	<$FB00><$00E3>It'll be all right. The<$FFFC>time we traveled together won't<$FFFC>vanish. Our bond won't vanish.<$FFFD><$FB00><$00E4>And if you lose your<$FFFC>memories as Lambda and forget me<$FFF5><$FFF8>…<$FFFE>
+139	<$FB00><$00E1>This isn't about looks. My<$FFFC>self, my memories, my bonds<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$00E2>I might even forget you. Are you<$FFFC>fine with that<$FFF5><$FFF8>…？<$FFFE>
+140	<$FB00><$00E3>It'll be all right. The<$FFFC>time we traveled together won't<$FFFC>vanish. Our bond won't vanish.<$FFFD><$FB00><$00E4>And if you lose your memories as<$FFFC>Lambda and forget me<$FFF5><$FFF8>…<$FFFE>
 141	<$FB00><$00E5>If I forget you<$FFF5><$FFF8>…？<$FFFE>
 142	<$FB00><$00E6>Then we'll meet again.<$FFFE>
 143	<$FFF8>…<$FFFE>

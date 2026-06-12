@@ -17,7 +17,7 @@
 15	<$FB00><$0021>Yes. Princess Clarett's<$FFFC>unit used an ancient weapon to<$FFFC>destroy the flyers overhead.<$FFFE>
 16	<$FB00><$002D>Then our surveillance from<$FFFC>the sky is<$FFF5><$FFF8>…<$FFFE>
 17	<$FB00><$0022>Impossible now. And<$FFFC>messages to each unit are delayed.<$FFFE>
-18	<$FB00><$0023>Damn it！<$FFFD><$FB00><$0024>Fine. Send riders to each<$FFFC>unit. Salrath is nearly crushed.<$FFFC>Move！<$FFFE>
+18	<$FB00><$0023>Damn it！<$FFFD><$FB00><$0024>Fine. Send riders to each unit.<$FFFC>Salrath is nearly crushed. Move！<$FFFE>
 19	<$FB00><$0025>Yes sir. I will send<$FFFC>the riders at once.<$FFFE>
 20	<$FB00><$0026>Good.<$FFFE>
 21	<$FB00><$0027>Riders, deliver messages<$FFFC>to every unit！<$FFFE>
@@ -27,7 +27,7 @@
 25	<$FB00><$002B>Looks like the messengers<$FFFC>left.<$FFFE>
 26	<$FB00><$002C>With their force reduced,<$FFFC>now is our chance to strike HQ.<$FFFC>Finish this at once！<$FFFE>
 27	<$FB00><$009F>Excellency！ Enemy in the<$FFFC>rear！<$FFFE>
-28	<$FB00><$002E>When did they<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>Grr, do not panic！ This<$FFFC>fortress will not fall quickly！<$FFFC>Hold out until the cavalry<$FFFC>returns！<$FFFE>
+28	<$FB00><$002E>When did they<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>Grr, do not panic！ This fortress<$FFFC>will not fall quickly！ Hold out<$FFFC>until the cavalry returns！<$FFFE>
 29	<$FB00><$0030>If the cavalry messengers<$FFFC>return, it will be trouble.<$FFFE>
 30	<$FB00><$0031>I know.<$FFFE>
 31	<$FB00><$0032>The cavalry messengers<$FFFC>will be trouble if they return<$FFF5><$FFF8>…<$FFFE>
@@ -121,7 +121,7 @@
 119	<$FB00><$0037>How dare you while we<$FFFC>were away！<$FFFE>
 120	<$FB00><$0038>The messengers are back！<$FFFE>
 121	<$FB00><$0039>What now？<$FFFE>
-122	<$FB00><$003A>The Kalxath commander is<$FFFC>down. Our goal is met, so avoid<$FFFC>needless fighting<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003B>Everyone, retreat！<$FFFC>Regroup at the ship！<$FFFE>
+122	<$FB00><$003A>The Kalxath commander is<$FFFC>down. Our goal is met, so avoid<$FFFC>needless fighting<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003B>Everyone, retreat！ Regroup at the<$FFFC>ship！<$FFFE>
 123	<$FB00><$003C>Y-yes！<$FFFE>
 124	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Allies escape to map edge<$FFFC>・Defeat all enemies<$FFFE>
 125	・Allies escape to map edge<$FFFC>・Defeat all enemies<$FFFE>

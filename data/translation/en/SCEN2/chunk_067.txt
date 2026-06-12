@@ -23,14 +23,14 @@
 21	<$FB00><$000E>What are you muttering<$FFFC>about？<$FFFE>
 22	<$FB00><$000F>Everyone, I'm sorry. This<$FFFC>is all my fault<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 23	<$FB00><$0010>What！？ What do you mean？<$FFFE>
-24	<$FB00><$0011>I was a spy Gilmore<$FFFC>planted on you.<$FFFD><$FB00><$0012>Leaking Salrath's march<$FFFC>route, burning that airship, that<$FFFC>was all me！<$FFFD><$FB00><$0013>Gilmore's man watched<$FFFC>me, posing as my servant, so I<$FFFC>could not speak until now.<$FFFD><$FB00><$0014>Sometime today he<$FFFC>disappeared from sight<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+24	<$FB00><$0011>I was a spy Gilmore<$FFFC>planted on you.<$FFFD><$FB00><$0012>Leaking Salrath's march route,<$FFFC>burning that airship, that was all<$FFFC>me！<$FFFD><$FB00><$0013>Gilmore's man watched me, posing<$FFFC>as my servant, so I could not<$FFFC>speak until now.<$FFFD><$FB00><$0014>Sometime today he disappeared from<$FFFC>sight<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 25	<$FB00><$0015>You！ How could you<$FFFC>sell out your own fiancee！ And<$FFFC>you call yourself a man？<$FFFE>
-26	<$FB00><$0016>I had no choice！<$FFFC>Gilmore hooked me on a drug.<$FFFC>Without regular doses, I go mad.<$FFFD>But I wanted to save<$FFFC>Clarett at least.<$FFFD><$FB00><$0017>They would not attack<$FFFC>while I was at her side, so I<$FFFC>stayed close<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+26	<$FB00><$0016>I had no choice！<$FFFC>Gilmore hooked me on a drug.<$FFFC>Without regular doses, I go mad.<$FFFD>But I wanted to save Clarett at<$FFFC>least.<$FFFD><$FB00><$0017>They would not attack while I<$FFFC>was at her side, so I stayed<$FFFC>close<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 27	<$FB00><$0018>And then Gilmore cut<$FFFC>you loose as well.<$FFFE>
 28	<$FB00><$0019>That can wait！ Think of<$FFFC>a way to deal with that thing！<$FFFE>
 29	<$FB00><$001A>He's right. Stay like this<$FFFC>and we eat another of those<$FFFC>blasts！<$FFFE>
 30	<$FB00><$001B>Yeah, Virash！ Isn't<$FFFC>there some way？<$FFFE>
-31	<$FB00><$001C>Its Magitek cannon fires<$FFFC>the mana in the air directly.<$FFFC>Think of it as a long-range,<$FFFC>overpowered Blast.<$FFFD><$FB00><$001D>And as you saw, one<$FFFC>shot can level a castle.<$FFFE>
+31	<$FB00><$001C>Its Magitek cannon fires<$FFFC>the mana in the air directly.<$FFFC>Think of it as a long-range,<$FFFC>overpowered Blast.<$FFFD><$FB00><$001D>And as you saw, one shot can<$FFFC>level a castle.<$FFFE>
 32	<$FB00><$001E>How are we supposed to<$FFFC>stand against that？<$FFFE>
 33	<$FB00><$001F>It has a weakness. Jam<$FFFC>something into the cannon's barrel.<$FFFC>If they fire anyway<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 34	<$FB00><$0020>The mana has nowhere to<$FFFC>go, and the cannon destroys<$FFFC>itself！<$FFFE>
@@ -52,6 +52,6 @@
 50	<$FFF7><$FB00><$002C>Uwooohh！<$FFFE>
 51	<$FB00><$0030>He wrecked the Magitek<$FFFC>cannon！<$FFFE>
 52	<$FB00><$0031>Lord Gilmore, the man<$FFFC>still breathes. Your orders？<$FFFE>
-53	<$FB00><$0032>Hmph！ Leave him. He will<$FFFC>not survive those wounds. And<$FFFC>when the drug runs out, madness<$FFFC>will finish him.<$FFFD><$FB00><$0033>Let him die slowly<$FFFC>where he lies！<$FFFE>
+53	<$FB00><$0032>Hmph！ Leave him. He will<$FFFC>not survive those wounds. And<$FFFC>when the drug runs out, madness<$FFFC>will finish him.<$FFFD><$FB00><$0033>Let him die slowly where he<$FFFC>lies！<$FFFE>
 54	<$0000>Glob was beaten, but the moment<$FFFC>they left Velzeria Castle, the<$FFFC>party came under sudden attack.<$FFFD><$0000>Gilmore had fled once, only to<$FFFC>return with an ancient weapon for<$FFFC>a rematch.<$FFFD><$0000>Eric made a desperate charge to<$FFFC>destroy the Magitek cannon. So<$FFFC>that his resolve is not wasted,<$FFFC>Gilmore has to fall.<$FFFD>The last battle against Gilmore<$FFFC>begins.<$FFFE>
 55	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gilmore and Galzork<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

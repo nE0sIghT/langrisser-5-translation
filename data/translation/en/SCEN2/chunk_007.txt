@@ -19,7 +19,7 @@
 17	<$FB00><$0013>Meaning what, Lambda？<$FFFE>
 18	<$FB00><$0014>It drains your strength.<$FFFC>Stay too long and you won't be<$FFFC>able to move.<$FFFE>
 19	<$FB00><$0015>No way！ Come on, let's<$FFFC>get out, quick！<$FFFE>
-20	<$FB00><$0016>I meant to take you at<$FFFC>my leisure once you couldn't move.<$FFFD>But you've seen through<$FFFC>the smoke.<$FFFE>
+20	<$FB00><$0016>I meant to take you at<$FFFC>my leisure once you couldn't move.<$FFFD>But you've seen through the smoke.<$FFFE>
 21	<$FB00><$0017>Aizer！？<$FFFE>
 22	<$FB00><$0018>Well done not falling for<$FFFC>a cheap trick. But how long can<$FFFC>you last？<$FFFE>
 23	<$FB00><$0019>We won't lose to you！<$FFFE>

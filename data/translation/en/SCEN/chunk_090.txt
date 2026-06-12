@@ -16,7 +16,7 @@
 14	<$FB00><$004C>Honestly, maybe I should<$FFFC>study swordsmanship in earnest<$FFF5><$FFF8>… <$FFF6><$FB00><$004D>I<$FFFC>keep being a burden to you.<$FFFE>
 15	<$FB00><$004E>More to the point, would<$FFFC>you explain how it came to this？<$FFFC>Captain Goldry.<$FFFE>
 16	<$FFFA><$FB00><$004F>Th, that is<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0050>What were you thinking,<$FFFC>fighting inside the town？<$FFFD>Your duty was to keep the<$FFFC>peace here, was it not？<$FFFE>
+17	<$FB00><$0050>What were you thinking,<$FFFC>fighting inside the town？<$FFFD>Your duty was to keep the peace<$FFFC>here, was it not？<$FFFE>
 18	<$FB00><$0051>That's exactly why I<$FFFC>fought, sir.<$FFFE>
 19	<$FB00><$0052>Is it？ It looked to me<$FFFC>like you were the one troubling<$FFFC>the folk <$FFF5><$FFF8>…<$FFFE>
 20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw it. That<$FFFC>captain told those people to pay<$FFFC>an outrageous toll<$FFF5><$FFF8>…<$FFFE>
@@ -25,9 +25,9 @@
 23	<$FFF7><$FB00><$0057>Eh？<$FFF5><$FFF8><$FFFE>
 24	<$FB00><$0058>Then the taxes they've<$FFFC>been taking from us were<$FFF5><$FFF8>…<$FFFE>
 25	<$FB00><$0059>Silence！ This town was<$FFFC>put in MY charge！ I do with it<$FFFC>as I please！<$FFFE>
-26	<$FB00><$005A>Goldry！ What do you take<$FFFC>your post for！<$FFFD><$FB00><$005B>You were given authority<$FFFC>to keep the peace in this town,<$FFFC>not to rule over it！<$FFFE>
+26	<$FB00><$005A>Goldry！ What do you take<$FFFC>your post for！<$FFFD><$FB00><$005B>You were given authority to keep<$FFFC>the peace in this town, not to<$FFFC>rule over it！<$FFFE>
 27	<$FFF8><$FB00><$005C>…<$FFFE>
-28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've<$FFFC>been doing just as you pleased.<$FFFD>You are a disgrace to<$FFFC>the Caconsis army.<$FFFE>
-29	<$FB00><$005E>Enough, I've heard plenty！<$FFFC>I quit！<$FFFD><$FB00><$005F>The king promised me a<$FFFC>general's rank, but you made me<$FFFC>a captain！<$FFFD>I have hated that from<$FFFC>the start！<$FFFD><$FB00><$0060>From today, my company is<$FFFC>mercenary again！<$FFFD>You will regret losing us！<$FFFE>
-30	<$FB00><$0061>We've caused this town's<$FFFC>people much trouble.<$FFFD><$FB00><$0063>Next time we will send<$FFFC>someone more dependable. Please<$FFFC>forgive us.<$FFFE>
+28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've<$FFFC>been doing just as you pleased.<$FFFD>You are a disgrace to the<$FFFC>Caconsis army.<$FFFE>
+29	<$FB00><$005E>Enough, I've heard plenty！<$FFFC>I quit！<$FFFD><$FB00><$005F>The king promised me a general's<$FFFC>rank, but you made me a<$FFFC>captain！<$FFFD>I have hated that from the<$FFFC>start！<$FFFD><$FB00><$0060>From today, my company is mercenary<$FFFC>again！<$FFFD>You will regret losing us！<$FFFE>
+30	<$FB00><$0061>We've caused this town's<$FFFC>people much trouble.<$FFFD><$FB00><$0063>Next time we will send someone more<$FFFC>dependable. Please forgive us.<$FFFE>
 31	<$FB00><$0062>Oh no, not at all<$FFF5><$FFF8>…<$FFFE><$FFFF>

@@ -3,37 +3,47 @@
 This document records the current state of reverse-engineering speaker plate
 selection for dialogue line wrapping.
 
-## Decision: PARKED (2026-06-12)
+## Current Decision (2026-06-12)
 
-Exact per-line speaker extraction is parked. The wrapping problem it was
-meant to solve is closed by a cheaper bound that ships:
+Full per-line speaker extraction is still not complete for every chunk, but
+the display-command plate field is now useful where the static VM tracer reaches
+it. The wrapping strategy is:
 
-1. The reserve only has to be a safe upper bound on the plate width, not the
-   exact speaker. A too-large reserve costs a slightly early break; a
-   too-small one causes a mid-word engine cut. Only the latter is a defect.
-2. The chunk VM header word `+0x38` is the speaker-name pool size (verified
+1. Display opcodes `0x0b..0x10` call handler `0x80024424`. For verified chunk
+   45 rows, payload byte 9 is the zero-based speaker-name pool slot. `0xff`
+   means the window has no speaker plate.
+2. When a traced display row maps cleanly back to an `FB00` text record,
+   `lang5_rewrap.py` uses the exact plate width from byte 9.
+3. When no trusted display row exists, the reserve only has to be a safe upper
+   bound on the plate width, not the exact speaker. A too-large reserve costs a
+   slightly early break; a too-small one causes a mid-word engine cut. Only the
+   latter is a defect.
+4. The chunk VM header word `+0x38` is the speaker-name pool size (verified
    against all 131 chunks: it excludes location plates and scene captions
-   such as chunk 75 record 12/14). `lang5_rewrap.py` reserves the widest
-   pool plate per chunk, read straight from the original `SCEN.DAT`.
-3. All speaker plate names are kept at 5 cells or less (titles dropped:
+   such as chunk 75 record 12/14). The fallback reserve is the widest pool
+   plate per chunk, read straight from the original `SCEN.DAT`.
+5. All speaker plate names are kept at 5 cells or less (titles dropped:
    "Marshal Lanford" -> "Lanford" etc.), so the gap between the chunk-wide
    bound and any actual plate is at most 2-3 cells and early breaks are
    marginal. `data/translation/names_base.csv` holds the short forms.
+6. Continuation pages after `<$FFFD>` do not redraw the speaker plate and wrap
+   at full width.
 
 Static tracing remains open-ended in comparison: branch conditions are
 runtime state (opcode `0x7b` targets cannot be chosen statically), chunks
 65/107 do not even enter the linear trace, and full resolution requires
-reimplementing the actor-state opcode semantics. Do not resume it for
-wrapping purposes. If exact speakers are ever needed, hook the plate-draw
-path in an emulator during playtests instead of proving it statically.
+reimplementing the actor-state opcode semantics. Do not resume broad speaker
+name extraction unless a translation/playtest issue cannot be solved with the
+display-byte9 rows plus the safe fallback.
 
 `scripts/lang5_speakers.py` stays as a conservative evidence dumper.
 
 ## Archived Static-Extraction Goal
 
-This was the original goal before the parked decision above. It is kept as
-historical context only. The shipped wrapper now uses the chunk-wide speaker
-pool bound, not exact per-line speaker extraction.
+This was the original goal before the current decision above. It is kept as
+historical context only. The shipped wrapper now uses exact display byte9
+reserves where the VM row maps cleanly to a text record, and the chunk-wide
+speaker-pool bound everywhere else.
 
 The target output is a reproducible extractor:
 
@@ -77,6 +87,8 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
 | DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
 | DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |
+| DONE | Display payload byte 9 is the speaker plate selector where traced. | Chunk 45 maps byte9 `06/07/08/01/00` to Machine/Voice/Woman/Lambda/Sigma and `ff` to no plate, matching in-game observations. | Use byte9 for exact reserve only when the display text id maps cleanly to an `FB00` record. |
+| DONE | Continuation pages after `FFFD` do not redraw the speaker plate. | User playtest: first page can show a blue speaker plate, while the next page in the same record has no name; chunk 1 record 96 demonstrates this. | Reset reserve to zero after page breaks in `lang5_rewrap.py`. |
 | DONE | Runtime actor/plate lookup table exists. | `0x800b2da4` searches table at `0x800eba38` with count `0x800eba46`. | Decode the table source in each chunk. |
 | DONE | Map chunk-local data to runtime `0x800eba38` table. | Header `u32 +0x14` is the table offset; low byte of header `u32 +0x2c` is the entry count. | Use `actor_plate_table()` in `scripts/lang5_speakers.py`. |
 | DONE | Decode the static `0x800eba38` table shape. | Static parser matches `0x800b2da4`: `u16 key`, `u8 field2`, `u8 field3`. | Decode field semantics in the VM handler context. |
@@ -88,7 +100,7 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | PARKED | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
 | PARKED | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
 | PARKED | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
-| DONE | Integrate pool-bound plate reserves into `lang5_rewrap.py`. | Reserve = widest plate of the VM-header speaker pool; plates capped at 5 cells. | Closed by the Decision section. |
+| DONE | Integrate plate reserves into `lang5_rewrap.py`. | Exact display byte9 reserve where traceable, otherwise widest VM-header speaker pool; plates capped at 5 cells; continuation pages reset to full width. | Closed by the Decision section. |
 | DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
 
 ## Archived Work Plan
@@ -182,8 +194,8 @@ reverse-engineering paths.
 - Do not mark any static VM row `confirmed` unless it follows decoded runtime
   behavior.
 - Do not solve this with hand-written per-chunk speaker overrides.
-- Do not resume static VM tracing to improve wrapping; the pool-bound reserve
-  with short plate names ships instead (see the Decision section).
+- Do not resume broad static VM tracing to improve wrapping unless a concrete
+  playtest issue remains after display-byte9 rows and the pool-bound fallback.
 - Do not derive plate bounds from JP line breaks; the JP script engine-wraps
   mid-line and its first lines exceed the window.
 - Do not parse the VM stream only as aligned 16-bit records when interpreting
@@ -515,8 +527,9 @@ chunk index -> FB id -> speaker name -> first-line reserve
 
 ## Rewrap Integration Requirement
 
-`lang5_rewrap.py` must not use one reserve for a whole chunk or record when a
-record has multiple `FB00` markers.
+`lang5_rewrap.py` must not use one reserve for a whole chunk when a trusted
+display row gives a tighter record-level reserve. A fully segment-level reserve
+would still require resolving multiple `FB00` markers inside one record.
 
 Required behavior:
 
@@ -525,7 +538,7 @@ When a FB00 marker is emitted:
   update the active speaker reserve for subsequent printable text.
 
 When a page break is emitted:
-  keep or recompute the active reserve according to the VM/text behavior.
+  reset the active reserve to zero because the speaker plate is not redrawn.
 
 When no speaker is known:
   fall back to the conservative reserve and report the unresolved FB id.

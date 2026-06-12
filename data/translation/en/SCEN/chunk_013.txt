@@ -19,7 +19,7 @@
 17	<$FB00><$002B>Seeing people here<$FFFC>imprisoned must have drained the<$FFFC>will to resist.<$FFFE>
 18	<$FB00><$002C>How do we attack？<$FFFE>
 19	<$FB00><$002D>I see three entrances.<$FFFC>They haven't noticed us yet.<$FFFE>
-20	<$FB00><$002E>I lack experience<$FFFC>commanding battle. I'll leave<$FFFC>command to you.<$FFFD><$FFF8>…<$FFF6><$FB00><$002F>Will you？ I may be<$FFFC>relying on others again<$FFF5><$FFF8>…<$FFFE>
+20	<$FB00><$002E>I lack experience<$FFFC>commanding battle. I'll leave<$FFFC>command to you.<$FFFD><$FFF8>…<$FFF6><$FB00><$002F>Will you？ I may be relying on<$FFFC>others again<$FFF5><$FFF8>…<$FFFE>
 21	<$FB00><$0030>Knowing your limits and<$FFFC>delegating isn't dependence. You'll<$FFFC>do it, right？<$FFFE>
 22	<$FFF7><$FB00><$0031>Yeah.<$FFF5><$FFF8><$FFFE>
 23	・Leave it to me<$FFFE>
@@ -64,7 +64,7 @@
 62	…Not yet…not yet…<$FFFE>
 63	…Oh…gods…<$FFFE>
 64	Lord Creid…this isn't what…<$FFFE>
-65	<$FB00><$0061>Grrr…again… But Gilmore<$FFFC>already knows your movements.<$FFFD><$FB00><$0062>You can act freely only<$FFFC>for now！ Remember that！<$FFFE>
+65	<$FB00><$0061>Grrr…again… But Gilmore<$FFFC>already knows your movements.<$FFFD><$FB00><$0062>You can act freely only for<$FFFC>now！ Remember that！<$FFFE>
 66	<$FB00><$0063>The weaker the dog, the<$FFFC>louder it barks.<$FFFE>
 67	<$FB00><$0064>Operation complete.<$FFFE>
 68	<$FB00><$0065>Now let's explain things<$FFFC>to them.<$FFFE>
@@ -86,7 +86,7 @@
 84	<$FB00><$0045>Right. Don't let anyone<$FFFC>escape！<$FFFE>
 85	<$FB00><$0046>At last, I found you！<$FFFE>
 86	<$FB00><$0047>Creid！<$FFFE>
-87	<$FB00><$0048>I prepared elite troops<$FFFC>just for you. Entertain me！<$FFFD><$FB00><$0049>Good timing. Kill them<$FFFC>with the prisoners！<$FFFE>
+87	<$FB00><$0048>I prepared elite troops<$FFFC>just for you. Entertain me！<$FFFD><$FB00><$0049>Good timing. Kill them with the<$FFFC>prisoners！<$FFFE>
 88	<$FB00><$004A>Sir！<$FFFE>
 89	・Defeat all enemies<$FFFE>
 90	・Liberalist dies<$FFFC>・<$F600><$0000> dies<$FFFE>

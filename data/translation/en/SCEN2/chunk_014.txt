@@ -105,7 +105,7 @@
 103	<$FB00><$0080>Y-yes. This is Eric. My<$FFFC>fiance.<$FFFE>
 104	<$FB00><$0081>Ah, the one you<$FFFC>mentioned before？ <$FFF5><$FFF8>…<$FFF6><$FB00><$0082>So you really<$FFFC>had a fiance<$FFF5><$FFF8>…<$FFFE>
 105	<$FB00><$0083>Well, I am the only<$FFFC>daughter of the Kalxath royal<$FFFC>house. At my age, a fiance is no<$FFFC>surprise.<$FFFE>
-106	<$FB00><$0084>I have been furious at<$FFFC>Gilmore's methods.<$FFFD><$FB00><$0085>But as you know, he<$FFFC>rules by fear, executing anyone<$FFFC>who defies him.<$FFFD><$FB00><$0086>So I could not act<$FFFC>openly.<$FFFD><$FB00><$0087>But when I learned<$FFFC>Clarett had persuaded Duke Lenard<$FFFC>to act, I started waiting for my<$FFFC>chance.<$FFFE>
+106	<$FB00><$0084>I have been furious at<$FFFC>Gilmore's methods.<$FFFD><$FB00><$0085>But as you know, he rules by<$FFFC>fear, executing anyone who defies<$FFFC>him.<$FFFD><$FB00><$0086>So I could not act openly.<$FFFD><$FB00><$0087>But when I learned Clarett had<$FFFC>persuaded Duke Lenard to act, I<$FFFC>started waiting for my chance.<$FFFE>
 107	<$FB00><$0088>Eric.<$FFFE>
 108	<$FB00><$0089>Please let me aid this<$FFFC>operation. I am poor in direct<$FFFC>combat, but I can gather<$FFFC>information<$FFF5><$FFF8>…<$FFFE>
 109	<$FB00><$008A>Thank you, Eric. We will<$FFFC>descend and raid the enemy<$FFFC>headquarters.<$FFFD><$FB00><$008B>Tell Duke Lenard that.<$FFFE>
@@ -115,7 +115,7 @@
 113	<$FB00><$008F>Strike the command HQ<$FFFC>and their orders fall into chaos.<$FFFC>That is a large army's weakness.<$FFFE>
 114	<$FB00><$0090>I see. With this ship, we<$FFFC>can strike the rear headquarters<$FFFC>directly.<$FFFE>
 115	<$FB00><$0091>Exactly. We strike the<$FFFC>enemy headquarters now！ Move out！<$FFFE>
-116	<$FB00><$004F>A lot happened after you<$FFFC>left. After Gilmore named himself<$FFFC>emperor, the country changed.<$FFFD><$FB00><$0050>Many nobles hate him, but<$FFFC>obey to survive. Now almost none<$FFFC>oppose his aristocratic rule.<$FFFE>
+116	<$FB00><$004F>A lot happened after you<$FFFC>left. After Gilmore named himself<$FFFC>emperor, the country changed.<$FFFD><$FB00><$0050>Many nobles hate him, but obey to<$FFFC>survive. Now almost none oppose his<$FFFC>aristocratic rule.<$FFFE>
 117	<$FB00><$0051>No… not you too？<$FFFE>
 118	<$FFF8>…<$FFFE>
 119	<$FB00><$0052>If you still have your<$FFFC>old kindness, if his evil rule<$FFFC>has not stained you, then help<$FFFC>me！<$FFFE>

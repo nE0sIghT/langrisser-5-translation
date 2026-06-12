@@ -19,19 +19,19 @@
 17	<$FB00><$0062>I told you, lend me your<$FFFC>strength.<$FFFE>
 18	<$FB00><$0063>Be specific. Do you<$FFFC>expect help from a vague plea？<$FFFE>
 19	<$FFF8><$FB00><$0064>…<$FFFE>
-20	<$FB00><$0065>While you were gone,<$FFFC>Gilmore became Emperor and took<$FFFC>power.<$FFFD><$FB00><$0066>He lets nobles exploit<$FFFC>the people. For us, his rule is<$FFFC>comfortable.<$FFFD><$FB00><$0067>As I said, no noble<$FFFC>truly thinks you killed the<$FFFC>Emperor.<$FFFD><$FB00><$0068>But if you return, we<$FFFC>lose those privileges.<$FFFE>
+20	<$FB00><$0065>While you were gone,<$FFFC>Gilmore became Emperor and took<$FFFC>power.<$FFFD><$FB00><$0066>He lets nobles exploit the people.<$FFFC>For us, his rule is comfortable.<$FFFD><$FB00><$0067>As I said, no noble truly thinks<$FFFC>you killed the Emperor.<$FFFD><$FB00><$0068>But if you return, we lose those<$FFFC>privileges.<$FFFE>
 21	<$FB00><$0069>Do you think that way<$FFFC>too？<$FFFE>
-22	<$FB00><$006A>I am a noble.<$FFFD><$FB00><$006B>I dislike exploitation,<$FFFC>but to oppose the nobles I need<$FFFC>a better prize<$FFF5><$FFF8>…<$FFF6><$FB00><$006C>Better than now.<$FFFD><$FB00><$006D>What can you give me？<$FFFE>
+22	<$FB00><$006A>I am a noble.<$FFFD><$FB00><$006B>I dislike exploitation, but to<$FFFC>oppose the nobles I need a better<$FFFC>prize<$FFF5><$FFF8>…<$FFF6><$FB00><$006C>Better than now.<$FFFD><$FB00><$006D>What can you give me？<$FFFE>
 23	<$FFF8>…<$FFF6><$FB00><$006E>But Gilmore… he stole<$FFFC>the country<$FFF5><$FFF8>…<$FFFE>
-24	<$FB00><$006F>If life improves for<$FFFC>them, nobles won't curse him.<$FFFD><$FB00><$0070>Give up. This began<$FFFC>because the princess left her<$FFFC>country too long.<$FFFE>
+24	<$FB00><$006F>If life improves for<$FFFC>them, nobles won't curse him.<$FFFD><$FB00><$0070>Give up. This began because the<$FFFC>princess left her country too<$FFFC>long.<$FFFE>
 25	<$FB00><$0071>But I fought demons and<$FFFC>searched for Jessica…<$FFFE>
-26	<$FB00><$0072>Even against demons, you<$FFFC>relied on Jessica.<$FFFD><$FB00><$0073>Perhaps the search was<$FFFC>an excuse to flee the Empire's<$FFFC>chaos？<$FFFE>
+26	<$FB00><$0072>Even against demons, you<$FFFC>relied on Jessica.<$FFFD><$FB00><$0073>Perhaps the search was an excuse<$FFFC>to flee the Empire's chaos？<$FFFE>
 27	<$FFF8><$FB00><$0074>…<$FFFE>
-28	<$FB00><$0075>If such dependence returns<$FFFC>to power, this will repeat.<$FFFD><$FB00><$0076>I won't endanger my<$FFFC>soldiers. Better to leave things<$FFFC>be.<$FFFD><$FB00><$0077>Now leave.<$FFFE>
+28	<$FB00><$0075>If such dependence returns<$FFFC>to power, this will repeat.<$FFFD><$FB00><$0076>I won't endanger my soldiers.<$FFFC>Better to leave things be.<$FFFD><$FB00><$0077>Now leave.<$FFFE>
 29	Three-Country Alliance, Lainforce's<$FFFC>Castle<$FFFF>
 30	<$FFF8>…<$FFF6><$FB00><$0078>Yes. I want back the<$FFFC>lands Gizarof stole.<$FFFE>
 31	<$FB00><$0079>Lord Lambert has no<$FFFC>objection？<$FFFE>
 32	<$FB00><$007A>Y, yes.<$FFFE>
 33	<$FB00><$007B>The Federation let<$FFFC>Gizarof run wild. We must guide<$FFFC>the people correctly.<$FFFE>
-34	<$FB00><$007C>Alvince is right.<$FFFD><$FB00><$007D>Lambert's Sutherland,<$FFFC>Alvince's Reynorz, and my Rochefort<$FFFC>will unite.<$FFFD><$FB00><$007E>With this treaty, the<$FFFC>Three-Country Alliance declares<$FFFC>independence.<$FFFD>Victory over the<$FFFC>Federation！<$FFF5><$FFF7><$FFFE>
+34	<$FB00><$007C>Alvince is right.<$FFFD><$FB00><$007D>Lambert's Sutherland, Alvince's<$FFFC>Reynorz, and my Rochefort will<$FFFC>unite.<$FFFD><$FB00><$007E>With this treaty, the<$FFFC>Three-Country Alliance declares<$FFFC>independence.<$FFFD>Victory over the Federation！<$FFF5><$FFF7><$FFFE>
 35	<$FB00><$007F>Victory to us！<$FFF5><$FFF7><$FFFE>

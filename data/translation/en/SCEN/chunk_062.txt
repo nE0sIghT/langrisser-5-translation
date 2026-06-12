@@ -16,7 +16,7 @@
 16	Rochefort<$FFFF>
 17	Federation Castle, Audience Hall<$FFFF>
 18	<$FB00><$0003>Lanford has returned.<$FFFC>But I would like a satisfactory<$FFFC>explanation for this summons.<$FFFE>
-19	<$FB00><$0004>We want an explanation.<$FFFD><$FB00><$0005>One rebelling alliance<$FFFC>nation is ruled by your father, is<$FFFC>it not？<$FFFE>
+19	<$FB00><$0004>We want an explanation.<$FFFD><$FB00><$0005>One rebelling alliance nation is<$FFFC>ruled by your father, is it not？<$FFFE>
 20	<$FB00><$0006>My father has joined the<$FFFC>alliance. But I intend to fight<$FFFC>as a Federation marshal.<$FFFE>
 21	<$FB00><$0007>I understand your resolve.<$FFFC>But we must avoid misunderstandings<$FFFC>in many respects.<$FFFE>
 22	<$FB00><$0008>Misunderstandings！？<$FFFE>
@@ -25,14 +25,14 @@
 25	<$FB00><$000C>No, I do not<$FFF5><$FFF8>… <$FFF6><$FB00><$000D>But we<$FFFC>must not let needless suspicion<$FFFC>trouble nobles or citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
 26	<$FFF7><$FB00><$0010>Yes sir！<$FFFE>
 27	<$FB00><$0011>What do you intend？<$FFFE>
-28	<$FB00><$0012>You will stay in a cell<$FFFC>for a while. During that time, I<$FFFC>will hold army command.<$FFFD><$FB00><$0013>If the misunderstanding<$FFFC>clears, you should be released<$FFFC>soon<$FFF5><$FFF8>…<$FFFE>
+28	<$FB00><$0012>You will stay in a cell<$FFFC>for a while. During that time, I<$FFFC>will hold army command.<$FFFD><$FB00><$0013>If the misunderstanding clears, you<$FFFC>should be released soon<$FFF5><$FFF8>…<$FFFE>
 29	<$FB00><$0014>What are you thinking,<$FFFC>Russel！<$FFFD><$FB00><$0015>Ru<$FFF8>ss<$FFF7><$00E4><$00E5><$00E5><$00E6>el！！<$FFF5><$FFF8><$FFFE>
 30	Reynorz Army<$0000>VS<$0000>Federation Army<$FFFF>
 31	<$FB00><$0016>Tighten defense and<$FFFC>withdraw slowly！ Leave no openings！<$FFFE>
 32	<$FB00><$0017>Yes sir！<$FFFE>
 33	<$FB00><$0018>First priority is a safe<$FFFC>withdrawal！ Stay defensive！<$FFFE>
 34	<$FB00><$0019>Understood！<$FFFE>
-35	<$FB00><$001A>Hmm, what is this？<$FFFC>Lanford has not appeared.<$FFFD><$FB00><$001B>Convenient for us. Strike<$FFFC>now！ Do not let even one<$FFFC>escape！<$FFFE>
+35	<$FB00><$001A>Hmm, what is this？<$FFFC>Lanford has not appeared.<$FFFD><$FB00><$001B>Convenient for us. Strike now！ Do<$FFFC>not let even one escape！<$FFFE>
 36	<$FB00><$001C>What is wrong？ The left<$FFFC>wing is slow！<$FFFE>
 37	<$FB00><$001D>Emergency！ The left wing<$FFFC>is under attack！<$FFFE>
 38	<$FB00><$001E>Of course it is, this is<$FFFC>war！<$FFFE>
@@ -49,7 +49,7 @@
 49	<$FB00><$0028>W-what are you talking<$FFFC>about？ Put away those dangerous<$FFFC>weapons！<$FFFE>
 50	<$FB00><$0029>Silence！<$FFF5><$FFF7><$FFFE>
 51	<$FB00><$002A>Looks like they took the<$FFFC>bait！<$FFFE>
-52	<$FB00><$002B>If alliance armies cut<$FFFC>each other, at least cracks will<$FFFC>form within it. Just as Virash<$FFFC>planned！<$FFFD><$FB00><$002C>This will surely disrupt<$FFFC>the alliance from now on.<$FFFE>
+52	<$FB00><$002B>If alliance armies cut<$FFFC>each other, at least cracks will<$FFFC>form within it. Just as Virash<$FFFC>planned！<$FFFD><$FB00><$002C>This will surely disrupt the<$FFFC>alliance from now on.<$FFFE>
 53	<$FB00><$002D>Indeed！<$FFFE>
 54	<$FB00><$002E>Good, leave this place<$FFFC>at once！<$FFFE>
 55	<$FB00><$002F>Understood！<$FFFE>

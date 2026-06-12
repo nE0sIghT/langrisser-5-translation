@@ -16,13 +16,13 @@
 14	<$FB00><$002D>Hold on, Lambda.<$FFFC>Something's going on over there.<$FFFE>
 15	<$FB00><$002E>I'll make you regret<$FFFC>crossing me！<$FFFE>
 16	<$FB00><$002F>Don't take me for some<$FFFC>ordinary girl！ I'll have you beaten<$FFFC>in no time！<$FFFE>
-17	<$FB00><$0030>W-wait, Miss Clarett！<$FFFC>I'm really no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here,<$FFFC>the townsfolk will get caught up<$FFFC>in it！<$FFFE>
+17	<$FB00><$0030>W-wait, Miss Clarett！<$FFFC>I'm really no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here, the<$FFFC>townsfolk will get caught up in<$FFFC>it！<$FFFE>
 18	<$FB00><$0032>Say what you like, but<$FFFC>he means to fight, you know？<$FFFE>
 19	<$FB00><$0033>Then at least take it<$FFFC>outside the town, all right？<$FFFE>
 20	<$FB00><$0034>Fine, fine.<$FFFE>
 21	<$FB00><$0035>Why, you！ You won't get<$FFFC>away！<$FFFE>
 22	<$FB00><$0036>Those are Caconsis troops.<$FFFC>They seem to be fighting some<$FFFC>adventurers.<$FFFE>
-23	<$FB00><$0037>Looks to me like the<$FFFC>Caconsis soldiers are simply picking<$FFFC>on them.<$FFFD>What do you say, Lambda？<$FFFC>Shall we help those two？<$FFFE>
+23	<$FB00><$0037>Looks to me like the<$FFFC>Caconsis soldiers are simply picking<$FFFC>on them.<$FFFD>What do you say, Lambda？ Shall we<$FFFC>help those two？<$FFFE>
 24	<$FB00><$0038>I'd rather avoid pointless<$FFFC>battles, but dealing Caconsis a<$FFFC>blow now may serve us later.<$FFFE>
 25	<$FB00><$0039>Then it's settled. Let's<$FFFC>help those two.<$FFFE>
 26	<$FB00><$003A>Understood.<$FFFE>
@@ -109,12 +109,12 @@
 107	<$FB00><$006C>Oh, it was nothing<$FFF5><$FFF8>…<$FFFE>
 108	<$FB00><$006D>Um, what will you two do<$FFFC>now？<$FFFE>
 109	<$FB00><$006E>Why do you ask？<$FFFE>
-110	<$FB00><$006F>If it's all right, could<$FFFC>I travel with you, even part of<$FFFC>the way？<$FFFD>If something like this<$FFFC>happens again, on my own I<$FFF5><$FFF8>…<$FFFE>
+110	<$FB00><$006F>If it's all right, could<$FFFC>I travel with you, even part of<$FFFC>the way？<$FFFD>If something like this happens<$FFFC>again, on my own I<$FFF5><$FFF8>…<$FFFE>
 111	<$FB00><$0070>You mean you want to hire<$FFFC>us？<$FFFE>
 112	<$FB00><$0071>I have money. So<$FFF5><$FFF8>…<$FFFE>
 113	<$FB00><$0072>Sorry, but we are not<$FFFC>mercenaries.<$FFFE>
 114	<$FB00><$0073>No way…<$FFFE>
-115	<$FB00><$0074>Come on, Lambda. Better<$FFFC>than traveling on our own, no？<$FFFD>And there's the matter of<$FFFC>combat affinities, too.<$FFFE>
+115	<$FB00><$0074>Come on, Lambda. Better<$FFFC>than traveling on our own, no？<$FFFD>And there's the matter of combat<$FFFC>affinities, too.<$FFFE>
 116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist that much,<$FFFC>I won't object.<$FFFE>
 117	<$FB00><$0076>Thank you so much. My<$FFFC>name is Alfred.<$FFFE>
 118	<$FB00><$0077>I'm <$F600><$0000>.<$FFFE>

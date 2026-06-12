@@ -11,8 +11,8 @@
 9	Demon<$FFFF>
 10	Velzeria Castle Entrance<$FFFF>
 11	<$FB00><$0003>Forward！ Do not flinch<$FFFC>before mere monsters！<$FFFE>
-12	<$FB00><$0004>Gah, Kalxath still has<$FFFC>an airship… I thought it burned<$FFFC>up the other day<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFD><$FB00><$0005>You lot, do not let<$FFFC>them pass！<$FFFE>
+12	<$FB00><$0004>Gah, Kalxath still has<$FFFC>an airship… I thought it burned<$FFFC>up the other day<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFD><$FB00><$0005>You lot, do not let them pass！<$FFFE>
 13	<$FB00><$0006>Understood. Even if it<$FFFC>costs our lives, we will not let<$FFFC>them through.<$FFFE>
-14	<$FB00><$0007>We meant to strike while<$FFFC>this continent's forces were<$FFFC>attacking, but this is a demon<$FFFC>stronghold indeed.<$FFFD>They will not let us<$FFFC>pass easily.<$FFFD><$FB00><$0008>But we have reasons of<$FFFC>our own. We cannot afford to be<$FFFC>stalled here.<$FFFE>
+14	<$FB00><$0007>We meant to strike while<$FFFC>this continent's forces were<$FFFC>attacking, but this is a demon<$FFFC>stronghold indeed.<$FFFD>They will not let us pass easily.<$FFFD><$FB00><$0008>But we have reasons of our own.<$FFFC>We cannot afford to be stalled<$FFFC>here.<$FFFE>
 15	<$0000>After rescuing the supply convoy,<$FFFC><$F600><$0000>'s group resumed the<$FFFC>march to Velzeria.<$FFFD><$0000>Just as their destination came<$FFFC>within reach, a new enemy stood<$FFFC>in their path.<$FFFE>
 16	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

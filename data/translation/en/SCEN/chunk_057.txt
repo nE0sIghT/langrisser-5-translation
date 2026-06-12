@@ -13,17 +13,17 @@
 11	Salrath, Duke Lenard's Manor<$FFFF>
 12	<$FFF8>…<$FFF6><$FB00><$0003>That is my plan. What<$FFFC>do you think？<$FFFE>
 13	<$FFF8>…<$FFF6><$FB00><$0004>Letting citizens govern<$FFFC>is bold. But are nobles truly<$FFFC>unnecessary？<$FFFE>
-14	<$FB00><$0005>No.<$FFFD><$FB00><$0006>Nobles are educated.<$FFFC>Schools can raise public knowledge,<$FFFC>but that takes time.<$FFFD><$FB00><$0007>So two houses: citizens<$FFFC>draft laws in a lower house.<$FFFD><$FB00><$0008>Nobles review them in an<$FFFC>upper house. Laws pass only if both<$FFFC>agree.<$FFFE>
+14	<$FB00><$0005>No.<$FFFD><$FB00><$0006>Nobles are educated. Schools can<$FFFC>raise public knowledge, but that<$FFFC>takes time.<$FFFD><$FB00><$0007>So two houses: citizens draft laws<$FFFC>in a lower house.<$FFFD><$FB00><$0008>Nobles review them in an upper<$FFFC>house. Laws pass only if both agree.<$FFFE>
 15	<$FB00><$0009>I see. Reasonable. The<$FFFC>citizens would elect their<$FFFC>representatives？<$FFFE>
-16	<$FB00><$000A>Yes. Terms will be<$FFFC>limited, so the same members cannot<$FFFC>monopolize power.<$FFFD><$FB00><$000B>Only those who govern<$FFFC>well should be chosen for the next<$FFFC>parliament.<$FFFE>
+16	<$FB00><$000A>Yes. Terms will be<$FFFC>limited, so the same members cannot<$FFFC>monopolize power.<$FFFD><$FB00><$000B>Only those who govern well should<$FFFC>be chosen for the next parliament.<$FFFE>
 17	<$FB00><$000C>Hmm.<$FFFE>
 18	<$FB00><$000D>But we cannot make this<$FFFC>real alone. I need your help.<$FFFE>
-19	<$FFF8>…<$FFF6><$FB00><$000E>I see. You seek a<$FFFC>nation for the people, not<$FFFC>personal power or blind dependence.<$FFFD><$FB00><$000F>You have a clear<$FFFC>vision, even giving up your status.<$FFFD><$FB00><$0010>Very well. I will help.<$FFFE>
-20	<$FB00><$0011>Thank you, Lord Lenard.<$FFFC>Please use your troops to help<$FFFC>citizens suffering under tyranny.<$FFFD><$FB00><$0012>Force against force is<$FFFC>simple, but I want to save them<$FFFC>quickly.<$FFFE>
-21	<$FB00><$0013>Understood. I will tell<$FFFC>the rescued citizens of your<$FFFC>ideals.<$FFFD><$FB00><$0014>Also, those who opposed<$FFFC>Gilmore for the people's sake are<$FFFC>held in Gaiana Prison.<$FFFE>
+19	<$FFF8>…<$FFF6><$FB00><$000E>I see. You seek a<$FFFC>nation for the people, not<$FFFC>personal power or blind dependence.<$FFFD><$FB00><$000F>You have a clear vision, even<$FFFC>giving up your status.<$FFFD><$FB00><$0010>Very well. I will help.<$FFFE>
+20	<$FB00><$0011>Thank you, Lord Lenard.<$FFFC>Please use your troops to help<$FFFC>citizens suffering under tyranny.<$FFFD><$FB00><$0012>Force against force is simple,<$FFFC>but I want to save them quickly.<$FFFE>
+21	<$FB00><$0013>Understood. I will tell<$FFFC>the rescued citizens of your<$FFFC>ideals.<$FFFD><$FB00><$0014>Also, those who opposed Gilmore<$FFFC>for the people's sake are held in<$FFFC>Gaiana Prison.<$FFFE>
 22	<$FB00><$0015>Then we'll rescue them.<$FFFC>A small group may avoid notice.<$FFFE>
 23	<$FB00><$0016>I also know lower nobles<$FFFC>who may agree with this. I will<$FFFC>seek their aid.<$FFFE>
-24	<$FB00><$0017>After this war, the<$FFFC>Emperor will become only a name.<$FFFD><$FB00><$0018>But for the people's<$FFFC>future, I won't regret it. Father<$FFFC>would understand.<$FFFE>
+24	<$FB00><$0017>After this war, the<$FFFC>Emperor will become only a name.<$FFFD><$FB00><$0018>But for the people's future, I<$FFFC>won't regret it. Father would<$FFFC>understand.<$FFFE>
 25	<$FB00><$0019>Yes. Seeing your growth,<$FFFC>he would surely be proud.<$FFFE>
 26	Salrath Army<$0000>VS<$0000>Kalxath Army<$FFFF>
 27	<$FB00><$001A>Push forward！<$FFFE>

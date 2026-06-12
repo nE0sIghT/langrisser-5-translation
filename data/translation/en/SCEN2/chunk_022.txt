@@ -22,10 +22,10 @@
 20	<$FB00><$001C>You're cornered, Glob.<$FFFC>Prepare yourself！<$FFFE>
 21	<$FB00><$001D>Don't talk nonsense. I<$FFFC>am in a very foul mood today.<$FFFC>Curse yourselves for attacking me<$FFFC>now！<$FFFE>
 22	<$FB00><$001E>Anyone can talk big.<$FFFE>
-23	<$FB00><$001F>Then allow me to show<$FFFC>you proof！<$FFFD><$FB00><$0020>Souls that perished in<$FFFC>this place, become one and fight！<$FFFC>Haa！<$FFFE>
+23	<$FB00><$001F>Then allow me to show<$FFFC>you proof！<$FFFD><$FB00><$0020>Souls that perished in this place,<$FFFC>become one and fight！ Haa！<$FFFE>
 24	<$FB00><$0021>This is<$FFF5><$FFF7>…<$FFFE>
-25	<$FB00><$0022>Countless battles were<$FFFC>fought in this castle, and many<$FFFC>demons died each time.<$FFFD>This wraith is all their<$FFFC>spirits bound into one.<$FFFD><$FB00><$0023>It is made to hunt<$FFFC>whoever bears the mark of<$FFFC>vengeance found here. Until the<$FFFC>bearer is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
-26	<$FB00><$002B>Let me share something<$FFFC>amusing. Step close enough to an<$FFFC>ally, and the mark can be handed<$FFFC>over.<$FFFD><$FB00><$002C>If you want to live,<$FFFC>pass it to someone you hate！ Now<$FFFC>then, entertain me.<$FFF5> <$FFF7><$FB00><$002D>Hee hee hee<$FFFC>hee！<$FFFE>
+25	<$FB00><$0022>Countless battles were<$FFFC>fought in this castle, and many<$FFFC>demons died each time.<$FFFD>This wraith is all their spirits<$FFFC>bound into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears<$FFFC>the mark of vengeance found here.<$FFFC>Until the bearer is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
+26	<$FB00><$002B>Let me share something<$FFFC>amusing. Step close enough to an<$FFFC>ally, and the mark can be handed<$FFFC>over.<$FFFD><$FB00><$002C>If you want to live, pass it to<$FFFC>someone you hate！ Now then,<$FFFC>entertain me.<$FFF5> <$FFF7><$FB00><$002D>Hee hee hee hee！<$FFFE>
 27	Pass the mark from <$F600><$0000><$FFFC>to Marie？<$FFFE>
 28	Pass the mark to <$F600><$0000>？<$FFFE>
 29	Pass the mark from <$F600><$0000><$FFFC>to Alfred？<$FFFE>
@@ -92,7 +92,7 @@
 90	<$FB00><$004A>Im, impossible… My<$FFFC>greatest creation…<$FFFE>
 91	<$FB00><$004B>Looks like you're out of<$FFFC>tricks.<$FFFE>
 92	<$FB00><$004C>You wretches！<$FFFE>
-93	<$FFF7><$FB00><$004D>Gyaaah！！<$FFFD><$FFF6><$FB00><$004E>Well done, well done！<$FFFC>But weak as you are now, you<$FFFC>cannot deal me a mortal wound.<$FFFD><$FB00><$004F>All that effort, for<$FFFC>nothing. Hee hee hee！<$FFFE>
+93	<$FFF7><$FB00><$004D>Gyaaah！！<$FFFD><$FFF6><$FB00><$004E>Well done, well done！ But weak as<$FFFC>you are now, you cannot deal me<$FFFC>a mortal wound.<$FFFD><$FB00><$004F>All that effort, for nothing. Hee<$FFFC>hee hee！<$FFFE>
 94	<$FB00><$0050>He got away again.<$FFFE>
 95	<$FB00><$0051>But we did drive the<$FFFC>monsters out of El Sallia. That<$FFFC>alone is enough.<$FFFE>
 96	<$FB00><$0052>That's true！<$FFFE>

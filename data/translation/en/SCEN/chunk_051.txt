@@ -25,7 +25,7 @@
 23	<$FB00><$0078>We did it！<$FFFE>
 24	<$FFF8><$FB00><$0079>…Nngh…,<$FFF6>why… I took the<$FFFC>dark god…gained Alhazard…, yet I<$FFFC>lose to humans<$FFF5><$FFF8>…？<$FFFE>
 25	<$FB00><$007A>You know why best, don't<$FFFC>you？ <$FFF5><$FFF8><$FE28>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>We too believed in<$FFFC>ourselves.<$FFFE>
-26	<$FB00><$007C>Exactly. You used people<$FFFC>for power.<$FFFD>We made friends our<$FFFC>strength.<$FFFE>
+26	<$FB00><$007C>Exactly. You used people<$FFFC>for power.<$FFFD>We made friends our strength.<$FFFE>
 27	<$FB00><$007D>One who trusts no one<$FFFC>drowns in his own power. How<$FFFC>lonely.<$FFFE>
 28	<$FB00><$007E>I refuse… I will not<$FFFC>accept this… I…will<$FFF5><$FFF8><$FE28>…<$FE28>…<$FE28><$FFFE>
 29	<$FFFA><$FB00><$000C>Pitiful man…<$FFFE>

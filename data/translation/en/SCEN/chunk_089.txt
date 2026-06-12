@@ -12,24 +12,24 @@
 10	Rockwell's chambers<$FFFF>
 11	<$FB00><$0080>Oh, Lambert<$FFF5><$FFF8>… <$FFF6><$FB00><$0081>Good of you<$FFFC>to come.<$FFFE>
 12	<$FB00><$0082>What's this, Rockwell？<$FFFC>Felled by so slight an illness.<$FFFC>You've grown old.<$FFFE>
-13	<$FB00><$0083>Listen to you.<$FFFD>Those eyes of yours aren't<$FFFC>what they were either. They used to<$FFFC>hold more confidence.<$FFFE>
-14	<$FB00><$0084>Hahah. We've both grown<$FFFC>old.<$FFFD>I miss those days we<$FFFC>spent adventuring together.<$FFFE>
+13	<$FB00><$0083>Listen to you.<$FFFD>Those eyes of yours aren't what<$FFFC>they were either. They used to hold<$FFFC>more confidence.<$FFFE>
+14	<$FB00><$0084>Hahah. We've both grown<$FFFC>old.<$FFFD>I miss those days we spent<$FFFC>adventuring together.<$FFFE>
 15	<$FB00><$0085>Indeed. Back before either<$FFFC>of us had even married.<$FFFE>
 16	<$FB00><$0086>Yes. Our last adventure<$FFFC>was nearly 30 years ago now.<$FFFE>
 17	<$FB00><$0087>And now we both have fine<$FFFC>sons <$FFF5><$FFF8>…<$FFFE>
 18	<$FFFA><$FFF8>…<$FFFE>
 19	<$FB00><$0088>Forgive me, Lambert. Your<$FFFC>eldest <$FFF5><$FFF8>…<$FFFE>
-20	<$FB00><$0089>No, don't mind it.<$FFFD>No amount of grief will<$FFFC>bring Clifford back. <$FFF5><$FFF8>…<$FFF6><$FB00><$008A>It's all in<$FFFC>the past now.<$FFFE>
-21	<$FB00><$008B>Still, when I think of<$FFFC>what befell Clifford, I find no<$FFFC>peace.<$FFFD>When might it come for<$FFFC>me<$FFF5><$FFF8>…<$FFFE>
-22	<$FB00><$008C>Don't worry. That was<$FFFC>chance, an accident.<$FFFD>If you've strength to fret<$FFFC>over that, put it into curing your<$FFFC>illness.<$FFFE>
+20	<$FB00><$0089>No, don't mind it.<$FFFD>No amount of grief will bring<$FFFC>Clifford back. <$FFF5><$FFF8>…<$FFF6><$FB00><$008A>It's all in the<$FFFC>past now.<$FFFE>
+21	<$FB00><$008B>Still, when I think of<$FFFC>what befell Clifford, I find no<$FFFC>peace.<$FFFD>When might it come for me<$FFF5><$FFF8>…<$FFFE>
+22	<$FB00><$008C>Don't worry. That was<$FFFC>chance, an accident.<$FFFD>If you've strength to fret over<$FFFC>that, put it into curing your<$FFFC>illness.<$FFFE>
 23	<$FB00><$008D>Father, I've brought your<$FFFC>medicine.<$FFFE>
 24	<$FB00><$008E>Thank you, Alvince.<$FFFE>
-25	<$FB00><$008F>It's been a while, Alvince.<$FFFD>Caring for your father,<$FFFC>and doing well at it, I see.<$FFFE>
-26	<$FB00><$0090>I'm glad to see you<$FFFC>well, Lord Lambert.<$FFFD>We hear much of Lord<$FFFC>Lanford's exploits as well.<$FFFE>
-27	<$FB00><$0091>With me like this, Alvince<$FFFC>bears the burden.<$FFFD>A poor showing for a<$FFFC>father, truly.<$FFFE>
+25	<$FB00><$008F>It's been a while, Alvince.<$FFFD>Caring for your father, and doing<$FFFC>well at it, I see.<$FFFE>
+26	<$FB00><$0090>I'm glad to see you<$FFFC>well, Lord Lambert.<$FFFD>We hear much of Lord Lanford's<$FFFC>exploits as well.<$FFFE>
+27	<$FB00><$0091>With me like this, Alvince<$FFFC>bears the burden.<$FFFD>A poor showing for a father,<$FFFC>truly.<$FFFE>
 28	<$FB00><$0092>Come to think of it,<$FFFC>where is the other one…young<$FFFC>Alfred？<$FFFE>
 29	<$FB00><$0093>My brother is out<$FFFC>searching for medicine to cure<$FFFC>father.<$FFFE>
-30	<$FB00><$0094>I see. Both sons doing<$FFFC>their best for their father.<$FFFD><$FB00><$0095>Well, I mustn't tire the<$FFFC>patient. I should take my leave.<$FFFE>
+30	<$FB00><$0094>I see. Both sons doing<$FFFC>their best for their father.<$FFFD><$FB00><$0095>Well, I mustn't tire the patient.<$FFFC>I should take my leave.<$FFFE>
 31	<$FB00><$0096>Forgive me, Lambert. Some<$FFFC>host I make<$FFF5><$FFF8>…<$FFFE>
 32	<$FB00><$0097>Think nothing of it. Once<$FFFC>you're cured, I'll come calling<$FFFC>again.<$FFFE>
 33	<$FB00><$0098>Lambert<$FFF5><$FFF8>…<$FFFE>

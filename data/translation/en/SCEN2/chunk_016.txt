@@ -16,13 +16,13 @@
 14	<$FB00><$0029>Everyone, listen！ Rebels<$FFFC>are heading here.<$FFFE>
 15	<$FB00><$002A>Is their target this<$FFFC>girl？<$FFFE>
 16	<$FFF8>…<$FFFE>
-17	<$FB00><$002B>Likely. Stay calm.<$FFFD>Gilmore's ring can<$FFFC>teleport her away.<$FFFE>
+17	<$FB00><$002B>Likely. Stay calm.<$FFFD>Gilmore's ring can teleport her<$FFFC>away.<$FFFE>
 18	<$FFF7><$FB00><$002C>Ah<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$002D>If we beat the rebels,<$FFFC>promotion is ours.<$FFFE>
 20	<$FB00><$002E>Understood. We will defeat<$FFFC>the rebels ourselves！<$FFFE>
 21	<$FB00><$002F>Here it is. His daughter<$FFFC>is held in this fort.<$FFFE>
 22	<$FB00><$0030>Rescue her, and the<$FFFC>archbishop will help.<$FFFE>
-23	<$FB00><$0031>Listen.<$FFFD><$FB00><$0032>We do not know how they<$FFFC>will react when they see us.<$FFFD>For the hostage, one<$FFFC>unit circle behind the fort.<$FFFE>
+23	<$FB00><$0031>Listen.<$FFFD><$FB00><$0032>We do not know how they will<$FFFC>react when they see us.<$FFFD>For the hostage, one unit circle<$FFFC>behind the fort.<$FFFE>
 24	<$FB00><$0033>Only one unit？<$FFFE>
 25	<$FB00><$0034>Yes. Go around to that<$FFFC>point.<$FFFE>
 26	<$0000>Flanking unit arrival point<$0000><$FFFF>
@@ -110,7 +110,7 @@
 108	<$FB00><$006C>Thank you. Because of<$FFFC>me, my father<$FFF5><$FFF8>…<$FFFE>
 109	<$FB00><$006D>Yes, but it is all<$FFFC>right now.<$FFFE>
 110	<$FB00><$006E>Now tell the archbishop<$FFFC>she is safe！<$FFFE>
-111	<$FB00><$006F>Um<$FFF5><$FFF8>…<$FFF6><$FB00><$0070>Can I help？ I<$FFFC>heard you want to change this<$FFFC>country.<$FFFD><$FB00><$0071>I cannot fight, but I<$FFFC>want to do what I can.<$FFFE>
+111	<$FB00><$006F>Um<$FFF5><$FFF8>…<$FFF6><$FB00><$0070>Can I help？ I<$FFFC>heard you want to change this<$FFFC>country.<$FFFD><$FB00><$0071>I cannot fight, but I want to do<$FFFC>what I can.<$FFFE>
 112	<$FB00><$0072>Then can you heal the<$FFFC>wounded？<$FFFE>
 113	<$FB00><$0073>Then I will treat them<$FFFC>with Estor's priests.<$FFFE>
 114	<$FB00><$0074>That would help.<$FFFE>

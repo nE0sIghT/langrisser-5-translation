@@ -16,4 +16,4 @@
 14	<$FB00><$0043>Yes. It seems this is<$FFFC>the only sword here. We cannot<$FFFC>find the other.<$FFFE>
 15	<$FB00><$0044>Good！ If we can recover<$FFFC>the sword, we have no business<$FFFC>here！ Pull out！<$FFFE>
 16	<$FFF7><$FB00><$0045>Yes, sir！<$FFF5><$FFF8><$FFFE>
-17	<$FB00><$0046>Grrr… To think they<$FFFC>stole Langrisser<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0047>But they do not seem<$FFFC>connected to Kalxath. Then they<$FFFC>cannot possibly wield it.<$FFFD>We will take it back<$FFFC>later at our leisure！<$FFFE>
+17	<$FB00><$0046>Grrr… To think they<$FFFC>stole Langrisser<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0047>But they do not seem connected to<$FFFC>Kalxath. Then they cannot possibly<$FFFC>wield it.<$FFFD>We will take it back later at our<$FFFC>leisure！<$FFFE>

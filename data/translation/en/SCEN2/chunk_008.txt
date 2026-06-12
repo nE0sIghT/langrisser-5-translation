@@ -22,7 +22,7 @@
 20	<$FB00><$0038>What now？<$FFFE>
 21	<$FB00><$0039>Do as they say, and<$FFFC>they'll learn we really ARE with<$FFFC>Gizarof.<$FFFE>
 22	<$FFF8>…<$FFF6><$FB00><$003A>Nothing for it but to<$FFFC>force our way. Everyone, across<$FFFC>that bridge！<$FFFE>
-23	<$FB00><$003B>Tougher than they look！<$FFFD><$FB00><$003C>Don't push too hard！ We<$FFFC>just hold them until Lady Emily<$FFFC>arrives！<$FFFE>
+23	<$FB00><$003B>Tougher than they look！<$FFFD><$FB00><$003C>Don't push too hard！ We just hold<$FFFC>them until Lady Emily arrives！<$FFFE>
 24	<$FB00><$003D>Sir！<$FFFE>
 25	Everyone, hurry up！<$FFFE>
 26	<$FB00><$0066>Hurry it up, or we leave<$FFFC>you behind.<$FFFE>
@@ -70,13 +70,13 @@
 68	Better with a blade than I！？ No<$FFFC>choice, retreat！<$FFFE>
 69	<$FB00><$004C>Seems no one's chasing us<$FFFC>now. Let's press on while we can.<$FFFE>
 70	<$FB00><$003E>Hm？ What happened here？<$FFFE>
-71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them<$FFFC>and they attacked！<$FFFD>And one looks like the<$FFFC>man who wounded the Caconsis<$FFFC>admiral…<$FFFE>
-72	<$FB00><$0041>Gizarof's remnants, then<$FFF5><$FFF8>…？<$FFFD><$FFF6><$FB00><$0042>Very well. I'll join you！<$FFFC>Capture them！<$FFFE>
+71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them and they<$FFFC>attacked！<$FFFD>And one looks like the man who<$FFFC>wounded the Caconsis admiral…<$FFFE>
+72	<$FB00><$0041>Gizarof's remnants, then<$FFF5><$FFF8>…？<$FFFD><$FFF6><$FB00><$0042>Very well. I'll join you！ Capture<$FFFC>them！<$FFFE>
 73	<$FB00><$0043>Yes, ma'am！<$FFFE>
 74	<$FB00><$0044>Kh！ They've crossed the<$FFFC>bridge <$FFF5><$FFF8>…<$FFFE>
 75	<$FB00><$0045>But we haven't lost them<$FFFC>yet！ Let's give chase！<$FFFE>
 76	<$FB00><$0046>No！ If they drop the<$FFFC>bridge mid-crossing, we're done<$FFFC>for.<$FFFE>
-77	<$FB00><$0047>Chase too far and<$FFFC>they'll drop the bridge on us<$FFF5><$FFF8>…<$FFFD>…<$FFF6><$FB00><$0048>No choice. We give up<$FFFC>the pursuit<$FFF5><$FFF8>…<$FFFE>
+77	<$FB00><$0047>Chase too far and<$FFFC>they'll drop the bridge on us<$FFF5><$FFF8>…<$FFFD>…<$FFF6><$FB00><$0048>No choice. We give up the<$FFFC>pursuit<$FFF5><$FFF8>…<$FFFE>
 78	<$FB00><$0049>Kh！ I'd give chase, but<$FFFC>we can't leave Lady Emily<$FFF5><$FFF8>… <$FE1E><$FFF6><$FB00><$004A>We<$FFFC>pull back for now！<$FFFE>
 79	<$FB00><$004B>Seems they're not<$FFFC>following. Good, let's press on<$FFFC>while we can.<$FFFE>
 80	<$FFF8>Kh！ <$FFF6>The enemy crossed the<$FFFC>bridge<$FFF8>… <$FFF6>We must beat those across<$FFF8>…<$FFFE>

@@ -36,11 +36,11 @@
 34	<$FB00><$00B3>All right, break's over.<$FFFC>Let's move out.<$FFFE>
 35	At the Dark Altar<$FFFF>
 36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could<$FFFC>wield Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
-37	<$FB00><$00B6>You've lost, Boser！ Now<$FFFC>vanish from this world！<$FFFD>We will never let the<$FFFC>darkness have it！<$FFFE>
+37	<$FB00><$00B6>You've lost, Boser！ Now<$FFFC>vanish from this world！<$FFFD>We will never let the darkness<$FFFC>have it！<$FFFE>
 38	…<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take…Alhazard from me. That…I will<$FFFC>not allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>…<$FE14>…<$FFFC><$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
 39	<$FB00><$00BB>What！？ He cast Alhazard away<$FFFC>with magic！？<$FFFE>
 40	<$FB00><$00BC>Heh heh heh, what a<$FFFC>shame. Where Alhazard falls, not<$FFFC>even I know<$FFF5><$FFF8>…<$FFFE>
 41	<$FFF8>…<$FFF6><$FB00><$00BD>G<$FFF7>hah！<$FFFE>
 42	<$FB00><$00BE>We did it<$FFF5><$FFF8>…<$FFFE>
-43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Boser cast away.<$FFFD>Until then, I leave<$FFFC>Langrisser in your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must<$FFFC>stop Gizarof's ambition.<$FFFE>
-44	<$FFF8>…<$FFF6><$FB00><$00C1>Right！ Gizarof is next！<$FFFD><$FB00><$00C2>I know you're weary, but<$FFFC>it won't be long now. Everyone,<$FFFC>stay strong！<$FFFE>
+43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Boser cast away.<$FFFD>Until then, I leave Langrisser in<$FFFC>your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must stop<$FFFC>Gizarof's ambition.<$FFFE>
+44	<$FFF8>…<$FFF6><$FB00><$00C1>Right！ Gizarof is next！<$FFFD><$FB00><$00C2>I know you're weary, but it won't<$FFFC>be long now. Everyone, stay strong！<$FFFE>

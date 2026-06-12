@@ -14,14 +14,14 @@ tags such as the <$0000> indent space count as one cell. All windows
 that auto-wrap (dialogue, narration/briefing, quiz) are 21 cells wide
 (measured in-game with a ruler build).
 
-The engine draws the speaker name plate inline at the start of the
-window, so plated lines are shorter by the plate width. The exact
-speaker of a line is VM runtime state and is not statically resolvable
-(see docs/SPEAKER_NAME_EXTRACTION.md), so the reserve is the widest
-plate in the chunk's speaker pool. The pool size comes from the chunk
-VM header (+0x38) in the original SCEN.DAT, which excludes location
-plates; speaker plate names are kept short (<= 5 cells) so the bound
-stays tight.
+The engine draws the speaker name plate inline at the start of a plated
+window, so plated first lines are shorter by the plate width. When the
+static VM tracer reaches a display command, its byte9 field is used as a
+zero-based speaker-pool slot (0xff means no plate). Missing trace rows
+fall back to the widest plate in the chunk's speaker pool. The pool size
+comes from the chunk VM header (+0x38) in the original SCEN.DAT, which
+excludes location plates; speaker plate names are kept short (<= 5 cells)
+so the fallback bound stays tight.
 
 Choice records (text starting with ・) are kept single-line and reported
 if they exceed the width.
@@ -31,8 +31,8 @@ import re
 from pathlib import Path
 
 from lang5_scen import TAG_RE, Codec, consumes_argument, find_text_block, \
-    load_charmap_tbl, read_chunk_spans
-from lang5_speakers import u32, vm_block
+    load_charmap_tbl, read_chunk_spans, words_from_bytes
+from lang5_speakers import trace_vm_bytecode, u32, vm_block
 
 LINE_BREAK = "<$FFFC>"
 PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
@@ -76,7 +76,8 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
 
     `reserve` is the speaker-plate width: the engine draws the name plate
     and its bracket inline at the start of the window, so the first line
-    of the record and of every page is shorter by that amount."""
+    of a plated record is shorter by that amount. Continuation pages after
+    <$FFFD> do not redraw the plate and therefore restart at full width."""
     out: list[str] = []
     pending_tags: list[str] = []
     atom_parts: list[str] = []
@@ -147,7 +148,7 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
             out.extend(pending_tags)
             pending_tags.clear()
             out.append(tag_text)
-            line_width = reserve
+            line_width = 0
             line_has_text = False
             saw_space = False
             saw_tag_boundary = False
@@ -197,6 +198,70 @@ def speaker_pool_sizes(scen_path: Path) -> dict[int, int]:
         if off:
             sizes[ci] = u32(chunk, off + 0x38)
     return sizes
+
+
+def traced_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
+    """Return chunk -> record -> speaker slot from decoded display commands.
+
+    Display opcodes 0x0b..0x10 pass a zero-based text id and byte9 to
+    handler 0x80024424. In chunk 45 the text id is relative to the first
+    FB00-bearing text record, and byte9 is a zero-based speaker-pool slot;
+    0xff means the window has no speaker plate. The tracer is incomplete for
+    many chunks, so this function only returns rows that map cleanly back to
+    an original FB00 record. Missing records deliberately fall back to the
+    conservative chunk-wide reserve.
+    """
+    out: dict[int, dict[int, int | None]] = {}
+    data = scen_path.read_bytes()
+    for ci, (start, end) in enumerate(read_chunk_spans(data)):
+        chunk = data[start:end]
+        try:
+            block = find_text_block(chunk)
+        except Exception:
+            continue
+        fb_records: set[int] = set()
+        for idx in range(1, block.record_count + 1):
+            a, b = block.record_span(idx)
+            words = words_from_bytes(chunk[a:b])
+            if any(word == 0xFB00 for word in words):
+                fb_records.add(idx)
+        if not fb_records:
+            continue
+        first_fb_record = min(fb_records)
+        rows = trace_vm_bytecode(
+            source_file=scen_path.name,
+            chunk_index=ci,
+            chunk_start=start,
+            chunk=chunk,
+            block=block,
+        )
+        for row in rows:
+            if row.kind != "display_24424" or row.display_text_id is None:
+                continue
+            rec_idx = first_fb_record + row.display_text_id
+            if rec_idx not in fb_records:
+                continue
+            if row.display_byte9 == 0xFF:
+                out.setdefault(ci, {})[rec_idx] = None
+            elif row.display_byte9 is not None:
+                out.setdefault(ci, {})[rec_idx] = row.display_byte9
+    return out
+
+
+def slot_plate_reserves(codec: Codec, records: list[tuple[str, str]],
+                        pool_size: int | None = None) -> dict[int, int]:
+    """Zero-based speaker-pool slot -> plate reserve in rendered cells."""
+    if pool_size is None:
+        return {}
+    by_idx = {int(idx): text for idx, text in records if idx.isdigit()}
+    reserves: dict[int, int] = {}
+    for slot in range(pool_size):
+        text = by_idx.get(slot + 1)
+        if not text or not text.endswith("<$FFFF>"):
+            continue
+        plate = text[: -len("<$FFFF>")]
+        reserves[slot] = visible_cells(codec, plate) + 1
+    return reserves
 
 
 def plate_reserve(codec: Codec, records: list[tuple[str, str]],
@@ -260,6 +325,7 @@ def main() -> None:
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
     scen_path = Path(args.scen)
     pool_sizes = speaker_pool_sizes(scen_path) if scen_path.exists() else {}
+    traced_slots = traced_plate_slots(scen_path) if scen_path.exists() else {}
     if not pool_sizes:
         print(f"WARNING: {args.scen} not found; falling back to the FFFF-prefix "
               "plate heuristic (location plates may inflate the reserve)")
@@ -269,7 +335,10 @@ def main() -> None:
             if "\t" in raw and not raw.startswith("#"):
                 records.append(tuple(raw.split("\t", 1)))
         chunk_idx = int(fp.stem.split("_")[1])
-        chunk_reserve = plate_reserve(codec, records, pool_sizes.get(chunk_idx))
+        pool_size = pool_sizes.get(chunk_idx)
+        chunk_reserve = plate_reserve(codec, records, pool_size)
+        slot_reserves = slot_plate_reserves(codec, records, pool_size)
+        record_slots = traced_slots.get(chunk_idx, {})
         width = args.width
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
@@ -298,6 +367,13 @@ def main() -> None:
                 out_lines.append(f"{idx}\t{new_text}")
             else:
                 force_plate = (chunk_idx, int(idx)) in FORCE_PLATED_RECORDS
+                rec_idx = int(idx)
+                if rec_idx in record_slots:
+                    slot = record_slots[rec_idx]
+                    if slot is None:
+                        reserve = 0
+                    elif slot in slot_reserves:
+                        reserve = slot_reserves[slot]
                 if chunk_idx == 0 and not force_plate:
                     reserve = 0
                 new_text = reflow_record(codec, text, width, reserve, force_plate)

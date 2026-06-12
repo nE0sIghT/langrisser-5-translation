@@ -119,9 +119,12 @@ Edit the staging file, translating record by record:
   pair is one cell when assigned, the player-name macro counts as 8) and a page
   holds up to 4 lines; write normal spaces and punctuation in the text files —
   the encoder picks the compact glyphs automatically. Don't worry about exact
-  line breaks: the re-wrapper handles them, reserving the chunk's widest
-  speaker-plate width on the first line of each spoken page (keep plate names
-  at 5 cells or less);
+  line breaks: the re-wrapper handles them, reserving speaker-plate width on
+  the first line of a plated spoken record. Continuation pages after `<$FFFD>`
+  do not redraw the plate and wrap at full width. When decoded VM display rows
+  identify a record's plate slot, the wrapper uses that exact width; otherwise
+  it falls back to the chunk's widest speaker plate (keep plate names at 5
+  cells or less);
 - choice records (starting with `・`) must stay single-line;
 - the font has no `; — – !? /` — use `,` and full-width `！？`.
 

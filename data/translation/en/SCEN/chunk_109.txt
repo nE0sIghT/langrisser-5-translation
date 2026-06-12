@@ -22,7 +22,7 @@
 20	<$FB00><$0051>Yes. You destroyed the<$FFFC>cannon… We owe this victory to<$FFFC>you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned…<$FFFC>Now I can die in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 22	<$FB00><$0053>Don't you give up！<$FFFC>We'll treat you right away！<$FFFE>
-23	…<$FB00><$0054>I'm sorry, Clarett.<$FFFC>Without me, your fight might have<$FFFC>been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful.<$FFFC>You will rebuild this country, I<$FFFC>know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have<$FFFC>seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+23	…<$FB00><$0054>I'm sorry, Clarett.<$FFFC>Without me, your fight might have<$FFFC>been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will<$FFFC>rebuild this country, I know<$FFFC>it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 24	<$FB00><$0057>Eriiiic！<$FFFE>
 25	Federation Castle, Dungeon<$FFFF>
 26	<$FB00><$0058>Hello！ Is anyone there！<$FFFE>

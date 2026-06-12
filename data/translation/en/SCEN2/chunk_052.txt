@@ -58,9 +58,9 @@
 56	<$FB00><$000C>World Tree？ <$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000D>What's<$FFFC>that？<$FFFE>
 57	<$FB00><$000E>The World Tree is like<$FFFC>the king of all plants.<$FFFE>
 58	<$FB00><$000F>King of plants？<$FFFE>
-59	<$FB00><$0010>In human terms. It is so<$FFFC>holy that people call it the mother<$FFFC>of all plants.<$FFFD><$FB00><$0011>But why would one be<$FFFC>here<$FFF5><$FFF8>…？<$FFFE>
+59	<$FB00><$0010>In human terms. It is so<$FFFC>holy that people call it the mother<$FFFC>of all plants.<$FFFD><$FB00><$0011>But why would one be here<$FFF5><$FFF8>…？<$FFFE>
 60	<$FFF7><$FB00><$0012>Wow<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$0013>So it's that rare？<$FFFE>
-61	<$FB00><$0014>A World Tree has three<$FFFC>names. Up to 50 years it's<$FFFC>Silverleaf, then Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it<$FFFC>becomes a World Tree.<$FFFE>
+61	<$FB00><$0014>A World Tree has three<$FFFC>names. Up to 50 years it's<$FFFC>Silverleaf, then Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a<$FFFC>World Tree.<$FFFE>
 62	<$FB00><$0016>I remember. It's the tree<$FFFC>from the lab where we woke up.<$FFFE>
 63	<$FFFA><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0017>Somehow, it feels<$FFFC>nostalgic. Like someone is gently<$FFFC>holding me <$FFF5><$FFF8>…<$FFFE>
 64	<$FB00><$0018>It did seem to protect us<$FFFC>back then.<$FFFE>
@@ -83,7 +83,7 @@
 81	<$FB00><$0027>I don't know that much.<$FFFC>I only read the tree's feelings.<$FFFE>
 82	<$FB00><$0028>If it is a World Tree,<$FFFC>I can believe it.<$FFFE>
 83	<$FB00><$0029>The World Tree is<$FFFC>mysterious<$FFF5><$FFF8>…<$FFFE>
-84	<$FB00><$002A>But what calamity could it<$FFFC>mean<$FFF5><$FFF8>… <$FE14><$FE14>…<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about<$FFFC>it now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab.<$FFFC>Come on, Lambda.<$FFFE>
+84	<$FB00><$002A>But what calamity could it<$FFFC>mean<$FFF5><$FFF8>… <$FE14><$FE14>…<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about<$FFFC>it now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come on,<$FFFC>Lambda.<$FFFE>
 85	<$FFF7><$FB00><$002D>Yes<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 86	<$FFF8>…<$FFF6><$FB00><$002E>Thank you.<$FFFE>
 87	<$0000>After Gizarof's death,<$FFFC><$F600><$0000> and Lambda had lost<$FFFC>their purpose. Seeking answers, they<$FFFC>went to his lab.<$FFFD><$0000>In the valley, Federation troops<$FFFC>hunted his remnants…<$FFFE>

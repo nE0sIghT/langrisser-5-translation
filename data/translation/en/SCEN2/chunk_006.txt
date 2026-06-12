@@ -16,7 +16,7 @@
 14	<$FB00><$0057>Your orders？ Storm the<$FFFC>front？<$FFFE>
 15	<$FB00><$0058>No choice. Begin the<$FFFC>assault.<$FFFE>
 16	<$FB00><$0059>Sir！<$FFFE>
-17	<$FFF8><$FB00><$005A>Hm？<$FFFD><$FFF6><$FB00><$005B>Lord Alvince, someone's<$FFFC>coming！<$FFFE>
+17	<$FFF8><$FB00><$005A>Hm？<$FFFD><$FFF6><$FB00><$005B>Lord Alvince, someone's coming！<$FFFE>
 18	<$FB00><$005C>Lambda, is this the right<$FFFC>way？<$FFFE>
 19	<$FB00><$005D>Yes. Keep going.<$FFFE>
 20	<$FB00><$005E>Hold up. Awfully noisy<$FFFC>around that fort, no？<$FFFE>
@@ -46,7 +46,7 @@
 44	<$FB00><$0083>Of course I'd never do<$FFFC>that！<$FFFE>
 45	<$FB00><$0089>Less talking, more fighting,<$FFFC>you two.<$FFFE>
 46	<$FB00><$008A>True. Talk can wait till<$FFFC>after the fight.<$FFFE>
-47	<$FB00><$0079>Understood.<$FFFD><$FB00><$007A>Can't the fort's south<$FFFC>door open？<$FFFE>
+47	<$FB00><$0079>Understood.<$FFFD><$FB00><$007A>Can't the fort's south door open？<$FFFE>
 48	<$FB00><$007B>The wall behind me has a<$FFFC>device that unlocks it<$FFF5><$FFF8>…<$FFFE>
 49	<$0000>Unlock switch<$0000><$FFFF>
 50	<$FFF4>Using switches<$FFF3> <$0000>To work a switch,<$FFFC>a commander <$0000>must stop on its<$FFFC>tile. <$0000>Mercenaries cannot use<$FFFC>them.<$FFFD><$0000>A commander next to a <$FFF4>treasure<$FFFC><$0000>chest<$FFF3> likewise takes the item<$FFFC><$0000>inside.<$FFFE>
@@ -89,7 +89,7 @@
 87	<$FB00><$0095>You all right, boy？<$FFFE>
 88	<$FB00><$0096>Y-yes<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0097>Thanks to you,<$FFFC>I'm safe.<$FFFE>
 89	<$FB00><$0098>Now, let's hear the full<$FFFC>story.<$FFFE>
-90	<$FB00><$0099>Did I mention I sought<$FFFC>medicine for my father's fever？<$FFFD><$FB00><$009A>Days ago, a girl from<$FFFC>another continent kindly gave me<$FFFC>some.<$FFFE>
+90	<$FB00><$0099>Did I mention I sought<$FFFC>medicine for my father's fever？<$FFFD><$FB00><$009A>Days ago, a girl from another<$FFFC>continent kindly gave me some.<$FFFE>
 91	<$FB00><$009B>The girl who was with<$FFFC>you back then？<$FFFE>
 92	<$FB00><$009C>Yes. Clarett, I believe<$FFFC>she was called.<$FFFE>
 93	<$FB00><$009D>But it must have been<$FFFC>poison. Father drank it, and he<$FFFC>died.<$FFFE>

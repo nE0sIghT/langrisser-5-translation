@@ -46,19 +46,19 @@
 44	<$FB00><$008E>Confess！ Why did you<$FFFC>frame me？<$FFFE>
 45	<$FB00><$008F>You are<$FFF5><$FFF8>…<$FFF6><$FB00><$0090>You died in<$FFFC>Yeless. Why live？ And I killed<$FFFC>every witness<$FFF5><$FFF8>…<$FFFE>
 46	<$FB00><$0091>So you really are the<$FFFC>culprit <$FFF5><$FFF8>…<$FFFE>
-47	<$FB00><$0092>How you learned it does<$FFFC>not matter.<$FFFD><$FB00><$0093>Yes. I, Necro Glob, used<$FFFC>the emperor's corpse to frame you.<$FFFE>
+47	<$FB00><$0092>How you learned it does<$FFFC>not matter.<$FFFD><$FB00><$0093>Yes. I, Necro Glob, used the<$FFFC>emperor's corpse to frame you.<$FFFE>
 48	<$FB00><$0094>Why did you frame me？<$FFFE>
-49	<$FB00><$0095>I told you. Demons seek<$FFFC>rule. We cursed humans many times<$FFFC>and failed.<$FFFD><$FB00><$0096>Why？ <$FFF5><$FFFB><$FB00><$0097>Light heirs like<$FFFC>you stopped us.<$FFFE>
+49	<$FB00><$0095>I told you. Demons seek<$FFFC>rule. We cursed humans many times<$FFFC>and failed.<$FFFD><$FB00><$0096>Why？ <$FFF5><$FFFB><$FB00><$0097>Light heirs like you<$FFFC>stopped us.<$FFFE>
 50	<$FB00><$0098>Descendants of Light？<$FFFE>
 51	<$FB00><$0099>Kalxath royal blood,<$FFFC>Elthlead's line. It draws<$FFFC>Langrisser's power and seals<$FFFC>demons.<$FFFE>
-52	<$FB00><$009A>Yes. Langrisser and Light<$FFFC>heirs are hated by demons.<$FFFD><$FB00><$009B>When it was lost, I<$FFFC>had to kill them. I cursed<$FFFC>Kalxath, their strongest bloodline.<$FFFE>
+52	<$FB00><$009A>Yes. Langrisser and Light<$FFFC>heirs are hated by demons.<$FFFD><$FB00><$009B>When it was lost, I had to kill<$FFFC>them. I cursed Kalxath, their<$FFFC>strongest bloodline.<$FFFE>
 53	<$FB00><$009C>You were from a ducal<$FFFC>house. Royal blood too.<$FFFE>
 54	<$FB00><$009D>I am also one of them<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$009E>That is why I was cursed<$FFF5><$FFF8>…<$FFFE>
-55	<$FB00><$009F>I expected you to kill<$FFFC>each other. It went well.<$FFFD><$FB00><$00A0>No matter. Gilmore<$FFFC>weakened mankind and made corpses.<$FFFD><$FB00><$00A1>And Langrisser is ours.<$FFFE>
+55	<$FB00><$009F>I expected you to kill<$FFFC>each other. It went well.<$FFFD><$FB00><$00A0>No matter. Gilmore weakened mankind<$FFFC>and made corpses.<$FFFD><$FB00><$00A1>And Langrisser is ours.<$FFFE>
 56	A paper lies below the goddess<$FFFC>statue.<$FFFD><$0000> <$FFF4>Challengers wanted！！<$FFF3><$FFFD>It is a flyer for Pondbag's<$FFFC><$FFF4>Umagee<$FFF3>.<$FFFE>
 57	<$0000> Obtained the <$FFF4>Umagee<$FFF3> flyer！！<$FFFE>
 58	<$FB00><$00A2>Glob！ I will defeat you<$FFFC>myself！ Without you, El Sallia<$FFFC>would not be in chaos！<$FFFE>
-59	<$FB00><$00A3>Thanks to me, you are<$FFFC>revolution heroes.<$FFFD><$FB00><$00A4>And do not forget, the<$FFFC>royals there executed the innocent<$FFFC>Egils.<$FFFE>
+59	<$FB00><$00A3>Thanks to me, you are<$FFFC>revolution heroes.<$FFFD><$FB00><$00A4>And do not forget, the royals<$FFFC>there executed the innocent Egils.<$FFFE>
 60	<$FB00><$00A5>Do not toy with me！<$FFFC>You caused it all！<$FFFE>
 61	<$FB00><$00A6>True, but fools who<$FFFC>are fooled are at fault too. <$FFF5><$FFF8><$FFF7><$FB00><$00A7>Hih<$FFFC>hih hih <$FFF5><$FFF8>…<$FFFE>
 62	<$FB00><$00BD>Prepare yourself, Glob！<$FFFE>
@@ -84,7 +84,7 @@
 82	<$FB00><$00A9>Who can say？ Still,<$FFFC>you left rule to an ambitious<$FFFC>minister.<$FFFE>
 83	<$FFF8><$FB00><$00AA>Kh…<$FFFE>
 84	<$FB00><$00BF>I will avenge father！<$FFFE>
-85	<$FB00><$00C0>I know your grief.<$FFFD><$FB00><$00C1>I wished to show you<$FFFC>his corpse, but he was cremated.<$FFFC>A pity.<$FFFE>
+85	<$FB00><$00C0>I know your grief.<$FFFD><$FB00><$00C1>I wished to show you his corpse,<$FFFC>but he was cremated. A pity.<$FFFE>
 86	<$FB00><$00C2>I will silence that<$FFFC>mouth forever！<$FFFE>
 87	<$FB00><$0051>I will show you my<$FFFC>power！<$FFFE>
 88	<$FB00><$0056>Sorry, I am falling back<$FFFC>first…<$FFFE>
@@ -143,11 +143,11 @@
 141	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
 142	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
 143	No more losses！ Protect the<$FFFC>villagers with everything you have！<$FFFE>
-144	<$FB00><$00AC>Come, dead ones！ Necro<$FFFC>Glob grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFE>
+144	<$FB00><$00AC>Come, dead ones！ Necro<$FFFC>Glob grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagushisoram！<$FFFE>
 145	<$FB00><$00AE>The corpses are<$FFF5><$FFF7>…！<$FFF8><$FFFE>
 146	<$FB00><$00AF>How awful<$FFF5><$FFF8>…<$FFFE>
 147	<$FFF7><$FB00><$00B0>Hih hih hih！ <$FFF5><$FFF6><$FB00><$00B1>There<$FFFC>are still plenty of corpses！<$FFFE>
-148	<$FB00><$00AB>Not done yet！<$FFFD><$FB00><$00AC>Come, dead ones！ Necro<$FFFC>Glob grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFE>
+148	<$FB00><$00AB>Not done yet！<$FFFD><$FB00><$00AC>Come, dead ones！ Necro Glob grants<$FFFC>you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagushisoram！<$FFFE>
 149	<$FFF7><$FB00><$00B0>Hih hih hih！ <$FFF5><$FFF6><$FB00><$00B1>There<$FFFC>are still plenty of corpses！<$FFFE>
 150	<$FB00><$00B2>Mihari Kushizekiki<$FFFC>Hagushisoram！<$FFFD><$FFF8>…<$FE1E>…<$FE1E><$FB00><$00B3>Hm, what is this<$FFF5><$FFF7>…<$FE1E>…<$FE1E>？<$FFFE>
 151	<$FB00><$00B4>Something is wrong？<$FFFE>

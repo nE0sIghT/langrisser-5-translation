@@ -19,7 +19,7 @@
 19	<$FB00><$001B>Looking at this castle<$FFFC>feels somehow… nostalgic.<$FFFE>
 20	<$FB00><$001C>Are your memories<$FFFC>returning？<$FFFE>
 21	<$FB00><$001D>Memories<$FFF5><$FFF8>…<$FFFE>
-22	<$FB00><$001E>Yes！ You served here in<$FFFC>the Imperial Guard.<$FFFD>At nineteen, you became<$FFFC>its youngest captain！<$FFFE>
+22	<$FB00><$001E>Yes！ You served here in<$FFFC>the Imperial Guard.<$FFFD>At nineteen, you became its<$FFFC>youngest captain！<$FFFE>
 23	<$FB00><$001F>It still does not feel<$FFFC>real<$FFF5><$FFF8>…<$FFFE>
 24	<$FB00><$0020>Then you were not<$FFFC>artificial<$FFF5><$FFF8>…<$FFFE>
 25	<$FB00><$0021>I kept this from you, but<$FFFC>it seems I was the one who<$FFFC>stabbed the emperor.<$FFFE>
@@ -30,12 +30,12 @@
 30	<$FB00><$0026>Lambda, do you remember<$FFFC>Omega, the one modified besides<$FFFC>us？<$FFFE>
 31	<$FFF7><$FB00><$0027>Yes.<$FFF5><$FFF8><$FFFE>
 32	<$FB00><$0028>He told me.<$FFFE>
-33	<$FB00><$0029>Hmm, mysteries are<$FFFC>clearing. But should we fight<$FFFC>soon？<$FFFD><$FB00><$002A>Someone familiar waits at<$FFFC>the gate.<$FFFE>
+33	<$FB00><$0029>Hmm, mysteries are<$FFFC>clearing. But should we fight<$FFFC>soon？<$FFFD><$FB00><$002A>Someone familiar waits at the<$FFFC>gate.<$FFFE>
 34	<$FB00><$002B>No. I cannot believe a<$FFFC>clone inherited the original's<$FFFC>memories.<$FFFE>
-35	<$FB00><$002C>The original's memories…<$FFFD><$FFF8>…<$FFF6><$FB00><$002D>Was Omega telling the<$FFFC>truth？ Did I really kill the<$FFFC>emperor？<$FFFE>
-36	<$FB00><$002E>What are you muttering<$FFFC>about？<$FFFD><$FB00><$002F>Anyway, should we fight<$FFFC>soon？ Someone familiar waits at<$FFFC>the gate.<$FFFE>
+35	<$FB00><$002C>The original's memories…<$FFFD><$FFF8>…<$FFF6><$FB00><$002D>Was Omega telling the truth？<$FFFC>Did I really kill the emperor？<$FFFE>
+36	<$FB00><$002E>What are you muttering<$FFFC>about？<$FFFD><$FB00><$002F>Anyway, should we fight soon？<$FFFC>Someone familiar waits at the<$FFFC>gate.<$FFFE>
 37	<$FB00><$0030>You fools, you dare attack<$FFFC>this place…！<$FFFE>
-38	<$FB00><$0031>So Salrath's march was a<$FFFC>diversion.<$FFFD>Even our spy was not<$FFFC>told that much.<$FFFE>
+38	<$FB00><$0031>So Salrath's march was a<$FFFC>diversion.<$FFFD>Even our spy was not told that<$FFFC>much.<$FFFE>
 39	<$FB00><$0032>A spy？<$FFFE>
 40	<$FB00><$0033>You need not know.<$FFFD>You will die here！ Regret<$FFFC>attacking with so few！<$FFFE>
 41	<$FB00><$0034>Do not underestimate us.<$FFFC>Let's go！<$FFFE>

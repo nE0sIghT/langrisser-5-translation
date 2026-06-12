@@ -29,7 +29,7 @@
 27	<$FB00><$0088>Yes. I am counting on<$FFFC>you.<$FFFE>
 28	<$FFF7><$FB00><$0089>Yes sir！<$FFF5><$FFF8><$FFFE>
 29	Near Estor Temple<$FFFF>
-30	<$FB00><$008A>First, I must apologize<$FFFC>to all of you.<$FFFD><$FB00><$008B>While I was away,<$FFFC>Minister Gilmore stole power and<$FFFC>made you suffer.<$FFFD><$FB00><$008C>Now that suffering ends.<$FFFC>This country is not the nobles'<$FFFC>property.<$FFFD>It belongs to you, the<$FFFC>people.<$FFFD><$FB00><$008D>You need not obey nobles<$FFFC>any longer. You will lead<$FFFC>politics.<$FFFD><$FB00><$008E>Build a nation where<$FFFC>each citizen stands responsible and<$FFFC>free！<$FFFD>For a new age, and<$FFFC>for yourselves, fight with us！<$FFFE>
+30	<$FB00><$008A>First, I must apologize<$FFFC>to all of you.<$FFFD><$FB00><$008B>While I was away, Minister<$FFFC>Gilmore stole power and made you<$FFFC>suffer.<$FFFD><$FB00><$008C>Now that suffering ends. This<$FFFC>country is not the nobles'<$FFFC>property.<$FFFD>It belongs to you, the people.<$FFFD><$FB00><$008D>You need not obey nobles any<$FFFC>longer. You will lead politics.<$FFFD><$FB00><$008E>Build a nation where each citizen<$FFFC>stands responsible and free！<$FFFD>For a new age, and for<$FFFC>yourselves, fight with us！<$FFFE>
 31	<$FB00><$008F>Right！ We protect our<$FFFC>lives ourselves！<$FFFE>
 32	<$FB00><$0090>Yes！ We should fight！<$FFFE>
 33	<$FB00><$0091>Let's do it<$00E4><$00E6>！<$FFF5><$FFF7><$FFFE><$FFFF>

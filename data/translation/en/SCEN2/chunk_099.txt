@@ -14,18 +14,18 @@
 12	Officer<$FFFF>
 13	Gaiana Prison<$FFFF>
 14	<$FB00><$0066>Thank you, Princess<$FFFC>Clarett.<$FFFE>
-15	<$FB00><$0067>If the princess has<$FFFC>returned, Gilmore's dictatorship will<$FFFC>soon fall.<$FFFD><$FB00><$0068>Please tell us how we<$FFFC>can help.<$FFFE>
-16	<$FB00><$0069>Thank you.<$FFFD><$FB00><$006A>Yes, with Lord Lenard of<$FFFC>Salrath I raised troops to defeat<$FFFC>Gilmore and save the people.<$FFFD><$FB00><$006B>But first, I must<$FFFC>explain something to you.<$FFFE>
+15	<$FB00><$0067>If the princess has<$FFFC>returned, Gilmore's dictatorship will<$FFFC>soon fall.<$FFFD><$FB00><$0068>Please tell us how we can help.<$FFFE>
+16	<$FB00><$0069>Thank you.<$FFFD><$FB00><$006A>Yes, with Lord Lenard of Salrath I<$FFFC>raised troops to defeat Gilmore and<$FFFC>save the people.<$FFFD><$FB00><$006B>But first, I must explain<$FFFC>something to you.<$FFFE>
 17	<$FB00><$006C>What is that？<$FFFE>
 18	<$FB00><$006D>Actually<$FFF5><$FFF8>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 19	<$FB00><$006E>Such a thing<$FFF5><$FFF8>…！<$FFFE>
 20	<$FB00><$006F>For the people's sake,<$FFFC>that may be best. But what<$FFFC>becomes of the Kalxath royal<$FFFC>family？<$FFFE>
-21	<$FB00><$0070>Do not worry about me.<$FFFC>The age has changed.<$FFFD><$FB00><$0071>Ability, not birth, must<$FFFC>guide people.<$FFFD><$FB00><$0072>If people choose a noble,<$FFFC>fine. They choose who acts for<$FFFC>their happiness.<$FFFE>
+21	<$FB00><$0070>Do not worry about me.<$FFFC>The age has changed.<$FFFD><$FB00><$0071>Ability, not birth, must guide<$FFFC>people.<$FFFD><$FB00><$0072>If people choose a noble, fine.<$FFFC>They choose who acts for their<$FFFC>happiness.<$FFFE>
 22	<$FB00><$0073>You really have changed.<$FFFC>You're nothing like before.<$FFFE>
 23	<$FB00><$0074>Because Brenda scolded<$FFFC>me？<$FFFE>
 24	<$FB00><$0075>I-I didn't really<$FFF5><$FFF8>…<$FFFE>
 25	<$FB00><$0076>Anyway, she wants not<$FFFC>only to save those Gilmore<$FFFC>oppressed, but to prevent future<$FFFC>tyrants.<$FFFD><$FB00><$0077>Will you help her？<$FFFE>
-26	<$FB00><$0078>O-of course.<$FFFD><$FB00><$0079>I'm only surprised<$FFFC>royalty would give up status for<$FFFC>the people.<$FFFE>
+26	<$FB00><$0078>O-of course.<$FFFD><$FB00><$0079>I'm only surprised royalty would<$FFFC>give up status for the people.<$FFFE>
 27	<$FB00><$007A>Please let us follow<$FFFC>Princess Clarett's ideal.<$FFFE>
 28	<$FB00><$007B>Thank you, everyone.<$FFFE>
 29	<$FB00><$007C>Then our role is to<$FFFC>persuade the people, spread your<$FFFC>ideal, and gather allies against<$FFFC>Gilmore.<$FFFE>
@@ -51,7 +51,7 @@
 49	<$FB00><$0091>I'll try something.<$FFFE>
 50	<$FB00><$0092>Brenda<$FFF5><$FFF8>…<$FFFE>
 51	<$FB00><$0093>What do you mean？<$FFFE>
-52	<$FB00><$0094>Even hurrying back from<$FFFC>here takes three days.<$FFFD><$FB00><$0095>And even if we arrived,<$FFFC>how could just us fight them<$FFF5><$FFF8>…？<$FFFE>
+52	<$FB00><$0094>Even hurrying back from<$FFFC>here takes three days.<$FFFD><$FB00><$0095>And even if we arrived, how could<$FFFC>just us fight them<$FFF5><$FFF8>…？<$FFFE>
 53	<$FB00><$0096>Let me handle all of<$FFFC>that, okay？<$FFFE>
 54	<$FFF8>…<$FFF6><$FB00><$0097>We have no better<$FFFC>choice. We should bet on the best<$FFFC>chance.<$FFFE>
 55	<$FB00><$0098>Exactly. And…Clarett？<$FFFE>
@@ -73,7 +73,7 @@
 71	<$FB00><$00A8>Emily, we move too. We<$FFFC>will hold them until the rest<$FFFC>assemble.<$FFFE>
 72	<$FB00><$00A9>Yes, Marshal Lanford！<$FFFE>
 73	Reynorz Army Camp<$FFFF>
-74	<$FB00><$00AA>Fast response. As expected<$FFFC>of General Lanford, who defeated<$FFFC>Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no, Marshal.<$FFFD><$FB00><$00AC>But what can a battered<$FFFC>regular army do？<$FFFE>
+74	<$FB00><$00AA>Fast response. As expected<$FFFC>of General Lanford, who defeated<$FFFC>Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no, Marshal.<$FFFD><$FB00><$00AC>But what can a battered regular<$FFFC>army do？<$FFFE>
 75	<$FB00><$00AD>We have triple their<$FFFC>numbers. They have no chance.<$FFFE>
 76	<$FB00><$00AE>Do not let your guard<$FFFC>down. Our war has only begun.<$FFFE>
 77	<$FB00><$00AF><$FFF7>Sir！<$FFF5><$FFF8><$FFFE><$FFFF>

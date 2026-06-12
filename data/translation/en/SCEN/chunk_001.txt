@@ -43,7 +43,7 @@
 41	<$FB00><$0066>Hurry it up, or we<$FFFC>leave you behind.<$FFFE>
 42	<$FB00><$0049>Seems our foes are<$FFFC>quite skilled.<$FFFE>
 43	<$FB00><$004A>You can tell？<$FFFE>
-44	<$FB00><$004B>Yeah. No wasted movement.<$FFFD><$FB00><$004C>What now？ Want to try<$FFFC>fighting them？<$FFFE>
+44	<$FB00><$004B>Yeah. No wasted movement.<$FFFD><$FB00><$004C>What now？ Want to try fighting<$FFFC>them？<$FFFE>
 45	<$FB00><$004D>We've only just awakened<$FFFC>and can't use our true strength.<$FFFC>Running is wiser.<$FFFE>
 46	<$FB00><$004E>Then we head for the<$FFFC><$FFF4>back gate<$FFF3>. It's the least guarded.<$FFFE>
 47	<$0000>Escape Point<$0000><$FFFF>
@@ -95,7 +95,7 @@
 93	<$FFF8>…<$FFF9><$FFF6><$FB00><$0058><$FFF4>Ω-137<$FFF3>.<$FFFE>
 94	<$FB00><$0059>There was a third<$FFFC>specimen<$FFF5>…<$FFFE>
 95	<$FB00><$005A>What monstrous power！<$FFFE>
-96	<$FB00><$005A>What monstrous power！<$FFFD><$FB00><$005B>Aizer. I will hold the<$FFFC>third specimen. You secure those<$FFFC>two.<$FFFE>
+96	<$FB00><$005A>What monstrous power！<$FFFD><$FB00><$005B>Aizer. I will hold the third<$FFFC>specimen. You secure those two.<$FFFE>
 97	<$FB00><$005C>Sir！<$FFFE>
 98	<$FB00><$0069>Right, let's get clear<$FFFC>of the lab in one go.<$FFFE>
 99	<$FB00><$006A>Agreed.<$FFFE>

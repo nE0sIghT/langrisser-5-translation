@@ -21,7 +21,7 @@
 19	<$FB00><$0039>They're here！<$FFFE>
 20	<$FB00><$003A>We've finally run you<$FFFC>down, Gilmore！ Give it up！<$FFFE>
 21	<$FB00><$003B>You are the ones who<$FFFC>should give up. I have an ancient<$FFFC>weapon, the Magitek giant！<$FFFE>
-22	<$FB00><$003C>We'd best be careful with<$FFFC>it, really.<$FFFD><$FB00><$003D>From what Virash told me,<$FFFC>that model can hit a wide area<$FFFC>all by itself.<$FFFE>
+22	<$FB00><$003C>We'd best be careful with<$FFFC>it, really.<$FFFD><$FB00><$003D>From what Virash told me, that<$FFFC>model can hit a wide area all<$FFFC>by itself.<$FFFE>
 23	<$FB00><$003E>A wide area？<$FFFE>
 24	<$FB00><$003F>In magic terms, something<$FFFC>like a Fireball.<$FFFE>
 25	<$FB00><$0040>So we should treat it as<$FFFC>a powerful spell attack.<$FFFE>
@@ -56,7 +56,7 @@
 54	<$FB00><$005E>B-but…<$FFFE>
 55	<$FB00><$005F>Just fall back！<$FFFE>
 56	<$FB00><$0060>Sorry, at such an<$FFFC>important time…<$FFFE>
-57	<$FB00><$0049>If I fall, you all<$FFFC>fall with me… Magitek giant！<$FFFC>Rampage to your heart's content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all of<$FFFC>you！<$FFFE>
+57	<$FB00><$0049>If I fall, you all<$FFFC>fall with me… Magitek giant！<$FFFC>Rampage to your heart's content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all of you！<$FFFE>
 58	<$FB00><$0046>Im, impossible… How…<$FFFC>could I… lose…<$FFFE>
 59	<$FB00><$0047>This is your reward for<$FFFC>trampling your own people.<$FFFE>
 60	<$FB00><$0048>D, damn it…<$FFFE>

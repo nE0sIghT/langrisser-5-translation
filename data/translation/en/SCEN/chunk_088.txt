@@ -19,7 +19,7 @@
 17	<$FFF8>…<$FE1E>…<$FE1E><$FFF7><$FB00><$0060>Sigh<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0061>Hey, you there. Wait a<$FFFC>second.<$FFFE>
 19	<$FB00><$0062>Y, yes？<$FFFE>
-20	<$FB00><$0063>I overheard you talking<$FFFC>with the shopkeeper.<$FFFD>You're looking for fever<$FFFC>medicine？<$FFFE>
+20	<$FB00><$0063>I overheard you talking<$FFFC>with the shopkeeper.<$FFFD>You're looking for fever medicine？<$FFFE>
 21	…<$FB00><$0064>That's right. My father is<$FFFC>down with a fever, so I'm out<$FFFC>searching<$FFF5>…<$FFFE>
 22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say,<$FFFC>shall I share my medicine？<$FFFE>
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
@@ -27,14 +27,14 @@
 25	<$FB00><$0068>Please, let me have it！<$FFFC>I'll pay whatever it takes！<$FFFE>
 26	<$FB00><$0069>N, no！ I wasn't offering<$FFFC>to make money off you<$FFF5>…<$FFFE>
 27	<$FB00><$006A>But then I couldn't live<$FFFC>with myself！ At least take this<$FFFC>much！<$FFFE>
-28	…<$FB00><$006B>Very well. Then I'll<$FFFC>gladly accept.<$FFFD>Here. This is the fever<$FFFC>medicine.<$FFFE>
+28	…<$FB00><$006B>Very well. Then I'll<$FFFC>gladly accept.<$FFFD>Here. This is the fever medicine.<$FFFE>
 29	<$FB00><$006C>You're a lifesaver！<$FFFE>
 30	<$FB00><$006D>What will you do now？<$FFFE>
-31	<$FB00><$006E>Take the medicine straight<$FFFC>to my father.<$FFFD>My home is in the Reynolds<$FFFC>region.<$FFFE>
+31	<$FB00><$006E>Take the medicine straight<$FFFC>to my father.<$FFFD>My home is in the Reynolds region.<$FFFE>
 32	<$FB00><$006F>Oh？ Then why don't we<$FFFC>travel together a while？<$FFFE>
 33	<$FB00><$0070>Gladly. It must be fate of<$FFFC>a sort.<$FFFE>
 34	On the road to the sorcery lab<$FFFF>
-35	<$FB00><$0071>We'll reach a town soon,<$FFFC>but my data says Caconsis troops<$FFFC>hold it.<$FFFD>It may come to a fight,<$FFFC>so be ready.<$FFFE>
+35	<$FB00><$0071>We'll reach a town soon,<$FFFC>but my data says Caconsis troops<$FFFC>hold it.<$FFFD>It may come to a fight, so be<$FFFC>ready.<$FFFE>
 36	<$FB00><$0072>Best stay on guard, then.<$FFFE>
 37	By the way, before we reach town,<$FFFC>I want to go over a bit more<$FFFC>tactics<$FFF8>…<$FFFE>
 38	What now？<$FFFE>

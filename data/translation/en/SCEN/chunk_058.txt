@@ -16,16 +16,16 @@
 14	<$FB00><$0006>Hold on. You want us to<$FFFC>lend out weapons？ Are you<$FFFC>serious？<$FFFE>
 15	<$FB00><$0007>I agreed to help so you<$FFFC>would hand over the swords. So<$FFFC>lend me something good.<$FFFE>
 16	<$FFFA><$FB00><$0008>Loaning anything with attack<$FFFC>power is risky… <$FFF9>Tell me the<$FFFC>situation first.<$FFFE>
-17	<$FB00><$0009>The main force helping us<$FFFC>was surrounded by Gilmore's army.<$FFFC>They say it won't last three<$FFFC>days.<$FFFD><$FB00><$000A>We can't reach them in<$FFFC>time, and with our numbers<$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$0009>The main force helping us<$FFFC>was surrounded by Gilmore's army.<$FFFC>They say it won't last three<$FFFC>days.<$FFFD><$FB00><$000A>We can't reach them in time, and<$FFFC>with our numbers<$FFF5><$FFF8>…<$FFFE>
 18	<$FFFA><$FB00><$000B>So, fast transport to<$FFFC>scatter the enemy. But it must<$FFFC>have no attack power<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$000C>Do you have anything like<$FFFC>that？<$FFFE>
 20	<$FB00><$000D>I do, in a sense<$FFF5><$FFF8>… <$FE28><$FFF6><$FB00><$000E>It<$FFFC>depends how you use it.<$FFFE>
 21	<$FB00><$000F>Then lend it to me right<$FFFC>now！<$FFFE>
-22	<$FFF8><$FFFA>…<$FFF6><$FB00><$0010>Fine. I will help a<$FFFC>little. <$FFF9>Return it after the<$FFFC>battle. If capture is likely,<$FFFC>destroy it.<$FFFD><$FB00><$0011>It is too advanced for<$FFFC>this age.<$FFFE>
+22	<$FFF8><$FFFA>…<$FFF6><$FB00><$0010>Fine. I will help a<$FFFC>little. <$FFF9>Return it after the<$FFFC>battle. If capture is likely,<$FFFC>destroy it.<$FFFD><$FB00><$0011>It is too advanced for this age.<$FFFE>
 23	<$FB00><$0012>I know！<$FFFE>
 24	Salrath camp<$FFFF>
 25	<$FB00><$0013>Lord Lenard, no good！<$FFFC>Kalxath flyers watch us from above.<$FFFC>We have no retreat route！<$FFFE>
-26	<$FB00><$0014>So we are surrounded. But<$FFFC>if we fall, El Sallia rots. We<$FFFC>cannot lose！<$FFFD><$FB00><$0015>Everyone, hold until<$FFFC>night！ Then their eyes will fail.<$FFFC>All troops, give everything！<$FFFE>
+26	<$FB00><$0014>So we are surrounded. But<$FFFC>if we fall, El Sallia rots. We<$FFFC>cannot lose！<$FFFD><$FB00><$0015>Everyone, hold until night！ Then<$FFFC>their eyes will fail. All troops,<$FFFC>give everything！<$FFFE>
 27	<$FFF7><$FB00><$0016>Yes sir！<$FFF5><$FFF8><$FFFE>
 28	Near Gaiana Prison<$FFFF>
 29	<$FB00><$0017>I said all that before,<$FFFC>but will it be all right<$FFF5><$FFF8>…<$FFFE>
@@ -45,7 +45,7 @@
 43	<$FB00><$0022>I have no proof, but<$FFFC>Brenda is not the kind to run.<$FFFE>
 44	<$FB00><$0023>Maybe she did. Even if we<$FFFC>got there, we alone could not<$FFFC>save them. Anyone values their<$FFFC>life.<$FFFE>
 45	<$FB00><$0024>I don't think Brenda ran.<$FFFC>She is blunt, but she made me<$FFFC>notice my own faults.<$FFFE>
-46	<$FFF8>…<$FFF6><$FB00><$0025>True. And she seems to<$FFFC>have a purpose we do not know.<$FFFD><$FB00><$0026>I doubt she would vanish<$FFFC>before finishing it.<$FFFE>
+46	<$FFF8>…<$FFF6><$FB00><$0025>True. And she seems to<$FFFC>have a purpose we do not know.<$FFFD><$FB00><$0026>I doubt she would vanish before<$FFFC>finishing it.<$FFFE>
 47	<$FFF8><$FFFA><$FB00><$0027>…<$FFFE>
 48	<$FB00><$0028>Don't suspect people,<$FFFC>Alfred.<$FFFE>
 49	<$FB00><$0029>Y-yes, of course. Brenda<$FFFC>is our comrade！<$FFFE>

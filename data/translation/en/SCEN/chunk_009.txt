@@ -25,7 +25,7 @@
 23	<$FB00><$002A>Demons？ <$FFF5><$FFF8>…<$FFF6><$FB00><$002B>In a place like<$FFFC>this！？<$FFFE>
 24	<$FFF8>…<$FFF6><$FB00><$002C>Woman. Hand over Alhazard,<$FFFC>nice and quiet.<$FFFE>
 25	<$FB00><$002D>I cannot give you this<$FFFC>sword！<$FFFE>
-26	<$FB00><$002E>Think hard. One word from<$FFFC>me and they level this port.<$FFFD>Will you guard the sword<$FFFC>and let everyone die？<$FFFE>
+26	<$FB00><$002E>Think hard. One word from<$FFFC>me and they level this port.<$FFFD>Will you guard the sword and<$FFFC>let everyone die？<$FFFE>
 27	<$FFF8>…<$FB00><$002F>Kh！<$FFFE>
 28	<$FB00><$0030>Lady Jessica<$FFF5><$FFF8>…<$FFFE>
 29	<$FB00><$0031>Well？ What will it be？<$FFFE>
@@ -40,7 +40,7 @@
 38	<$FB00><$0038>Hold on, look over there！<$FFFE>
 39	<$FB00><$0039>Boser may be dead, but<$FFFC>with this sword in hand, anything<$FFFC>is possible.<$FFFE>
 40	<$FB00><$003A>You promised. Now leave<$FFFC>this place.<$FFFE>
-41	<$FB00><$003B>True, I'll withdraw. Just<$FFFC>me, that is！<$FFFD><$FB00><$003C>You lot must be hungry？<$FFFC>Eat your fill！<$FFFE>
+41	<$FB00><$003B>True, I'll withdraw. Just<$FFFC>me, that is！<$FFFD><$FB00><$003C>You lot must be hungry？ Eat your<$FFFC>fill！<$FFFE>
 42	<$FB00><$003D>You snake！ Breaking your<$FFFC>promise？<$FFFE>
 43	<$FB00><$003E>Promise？ What promise？<$FFFC>You're simply naive.<$FFFE>
 44	<$FB00><$003F>Ah, that girl is<$FFF5><$FFF8>…<$FFFE>
@@ -48,7 +48,7 @@
 46	<$FB00><$0041>The demons have the<$FFFC>sword！？ Our key to the riddle<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0042>After we came all this way <$FFF5><$FFF8>…<$FFFE>
 47	<$FB00><$0043>No time for that. Those<$FFFC>demons mean to attack the townsfolk.<$FFFE>
 48	<$FB00><$0044>So what's the plan？<$FFFE>
-49	<$FB00><$0045>Caconsis port or not, I<$FFFC>won't stand by while civilians<$FFFC>are slaughtered.<$FFFD><$FB00><$0046>And if he carries the<$FFFC>sword, we take it from him here<$FFFC>and now.<$FFFE>
+49	<$FB00><$0045>Caconsis port or not, I<$FFFC>won't stand by while civilians<$FFFC>are slaughtered.<$FFFD><$FB00><$0046>And if he carries the sword, we<$FFFC>take it from him here and now.<$FFFE>
 50	<$FB00><$0047>Now you're talking！<$FFFE>
 51	<$FB00><$004E>Hold on！ We're coming！<$FFFE>
 52	<$FB00><$004F>Help is coming.<$FFFE>

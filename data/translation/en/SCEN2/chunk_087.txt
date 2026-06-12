@@ -11,10 +11,10 @@
 9	<$FB00><$0076>To the master. He must<$FFFC>hear of this attack.<$FFFE>
 10	<$FB00><$0077>Right. Marshal Gizarof, you<$FFFC>said.<$FFFE>
 11	<$FB00><$0078>Yes.<$FFFE>
-12	<$FB00><$0079>Meeting him, we learn why<$FFFC>we were made. And that should tell<$FFFC>us why we were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one<$FFFC>who woke mid-fight<$FFF5><$FFF8>…<$FFFE>
-13	<$FB00><$007B>That was Omega. A specimen<$FFFC>like you.<$FFFD>Thanks to his waking we<$FFFC>got away with ease.<$FFFE>
+12	<$FB00><$0079>Meeting him, we learn why<$FFFC>we were made. And that should tell<$FFFC>us why we were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one who<$FFFC>woke mid-fight<$FFF5><$FFF8>…<$FFFE>
+13	<$FB00><$007B>That was Omega. A specimen<$FFFC>like you.<$FFFD>Thanks to his waking we got away<$FFFC>with ease.<$FFFE>
 14	<$FB00><$007C>What's become of him？<$FFFC>Shouldn't we have helped him？<$FFFE>
-15	<$FB00><$007D>Go back, get caught<$FFFC>ourselves？ How stupid. It's better<$FFFC>this way.<$FFFD><$FB00><$007E>You too, if I slow you<$FFFC>down, feel free to run on ahead.<$FFFE>
+15	<$FB00><$007D>Go back, get caught<$FFFC>ourselves？ How stupid. It's better<$FFFC>this way.<$FFFD><$FB00><$007E>You too, if I slow you down,<$FFFC>feel free to run on ahead.<$FFFE>
 16	・I'll do just that.<$FFFE>
 17	・I'm not that heartless.<$FFFE>
 18	<$FB00><$007F>I'll do just that.<$FFFE>
@@ -23,8 +23,8 @@
 21	<$FB00><$0082>I'm not that heartless.<$FFFE>
 22	<$FB00><$0083>Meaning I am heartless？<$FFFE>
 23	<$FB00><$0084>Don't twist my words.<$FFFE>
-24	<$FB00><$0085>We are made beings. Not<$FFFC>like ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even<$FFFC>gotten a task from the master yet.<$FFFC>We're of use to no one.<$FFFD><$FB00><$0087>A tool that ends unused<$FFFC>might as well never have been<$FFFC>made.<$FFFD><$FB00><$0088>I will fulfill the<$FFFC>purpose I was created for. That<$FFFC>is why I exist.<$FFFE>
-25	<$FB00><$0089>Why we exist, huh. Why<$FFFC>are people born, what do they live<$FFFC>for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find<$FFFC>their own purpose are happier<$FFFC>than those who just drift along.<$FFFE>
+24	<$FB00><$0085>We are made beings. Not<$FFFC>like ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even gotten a<$FFFC>task from the master yet. We're of<$FFFC>use to no one.<$FFFD><$FB00><$0087>A tool that ends unused might as<$FFFC>well never have been made.<$FFFD><$FB00><$0088>I will fulfill the purpose I<$FFFC>was created for. That is why I<$FFFC>exist.<$FFFE>
+25	<$FB00><$0089>Why we exist, huh. Why<$FFFC>are people born, what do they live<$FFFC>for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own<$FFFC>purpose are happier than those<$FFFC>who just drift along.<$FFFE>
 26	<$FB00><$008B>You understand, then？<$FFFE>
 27	By the way, <$F600><$0000>. Do<$FFFC>you know the basics of battle？<$FFFD>I can teach you from my data.<$FFFE>
 28	Like what？<$FFFE>

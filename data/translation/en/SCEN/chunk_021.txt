@@ -53,7 +53,7 @@
 51	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
 52	<$FB00><$002A>Do you hate me？<$FFFE>
 53	<$FB00><$002B>After what happened to<$FFFC>me, asking me not to hate you is<$FFFC>impossible.<$FFFE>
-54	<$FB00><$002C>Don't put it that way.<$FFFC>You siblings were just the right<$FFFC>specimens Lord Gizarof wanted.<$FFFD><$FB00><$002D>If I had not been<$FFFC>ordered to abduct you,<$FFFC><$F600><$0000> might have attacked<$FFFC>you instead.<$FFFE>
+54	<$FB00><$002C>Don't put it that way.<$FFFC>You siblings were just the right<$FFFC>specimens Lord Gizarof wanted.<$FFFD><$FB00><$002D>If I had not been ordered to<$FFFC>abduct you, <$F600><$0000> might<$FFFC>have attacked you instead.<$FFFE>
 55	<$FB00><$002E>True. If I should hate<$FFFC>anyone, it is Gizarof.<$FFFE>
 56	<$FB00><$002F>That's right.<$FFFE>
 57	<$FB00><$0030>But that does not mean<$FFFC>I can forgive you. Prepare<$FFFC>yourself.<$FFFE>
@@ -91,12 +91,12 @@
 89	<$FB00><$001E>Heh, easy for you to<$FFFC>say. Let's go！<$FFFE>
 90	<$FB00><$0037>Guh！<$FFFE>
 91	<$FB00><$0038>Lord Omega！<$FFFE>
-92	<$FB00><$003A>If all I had to do<$FFFC>was kill them, this would be<$FFFC>easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much<$FFFC>time is good enough…<$FFFD><$FB00><$003B>I am pulling back. The<$FFFC>rest is yours！<$FFFE>
+92	<$FB00><$003A>If all I had to do<$FFFC>was kill them, this would be<$FFFC>easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is<$FFFC>yours！<$FFFE>
 93	<$FB00><$003C>Yes, sir！<$FFFE>
 94	<$FB00><$0039>Lord Omega！<$FFFE>
-95	<$FB00><$003A>If all I had to do<$FFFC>was kill them, this would be<$FFFC>easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much<$FFFC>time is good enough…<$FFFD><$FB00><$003B>I am pulling back. The<$FFFC>rest is yours！<$FFFE>
+95	<$FB00><$003A>If all I had to do<$FFFC>was kill them, this would be<$FFFC>easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is<$FFFC>yours！<$FFFE>
 96	<$FB00><$003D>Yes, sir！<$FFFE>
-97	<$FB00><$0037>Guh！<$FFFD><$FB00><$003A>If all I had to do<$FFFC>was kill them, this would be<$FFFC>easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much<$FFFC>time is good enough…<$FFFE>
+97	<$FB00><$0037>Guh！<$FFFD><$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but<$FFFC>capturing them alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFE>
 98	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this<$FFFC>rate, another me would be far<$FFFC>more useful.<$FFFE>
 99	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this<$FFFC>rate, another me would be far<$FFFC>more useful.<$FFFE>
 100	<$FB00><$0032>You're late！<$FFFE>

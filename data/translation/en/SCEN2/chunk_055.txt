@@ -29,14 +29,14 @@
 27	At Velzeria Castle<$FFFF>
 28	<$FB00><$0014>So you obtained the<$FFFC>swords, Gaiel？<$FFFE>
 29	<$FB00><$0015>Of course. Who do you<$FFFC>think I am？ Besides, you stopped<$FFFC>attacking humans.<$FFFE>
-30	<$FB00><$0016>Hee hee！ Humans now<$FFFC>kill one another.<$FFFD><$FB00><$0017>Let them be and they'll<$FFFC>weaken themselves.<$FFFE>
+30	<$FB00><$0016>Hee hee！ Humans now<$FFFC>kill one another.<$FFFD><$FB00><$0017>Let them be and they'll weaken<$FFFC>themselves.<$FFFE>
 31	<$FB00><$0018>Hmph. If waiting helps<$FFFC>us, use it.<$FFFD><$FB00><$0019>Your scheme worked, Glob.<$FFFE>
 32	<$FB00><$001A>Naturally. Who do you<$FFFC>think I am？ I hear Boser was<$FFFC>crushed on Yeless？<$FFFE>
 33	<$FB00><$001B>Yes. He was defeated by<$FFFC>this sword again.<$FFFE>
 34	<$FB00><$001C>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE28><$FFF6><$FB00><$001D>What an<$FFFC>irritating sword！ Still, well done.<$FFFE>
 35	<$FB00><$001E>They must have relaxed<$FFFC>after defeating Lord Boser.<$FFFE>
 36	<$FB00><$001F>Likely. Else a newcomer<$FFFC>like you could not steal it so<$FFFC>easily.<$FFFE>
-37	<$FB00><$0020>After a thousand years,<$FFFC>I'm still a newcomer？<$FFF5><$FFF8>… <$FFF6><$FB00><$0021>Fine.<$FFFD><$FB00><$0022>Anyway, hold this for<$FFFC>me.<$FFFE>
+37	<$FB00><$0020>After a thousand years,<$FFFC>I'm still a newcomer？<$FFF5><$FFF8>… <$FFF6><$FB00><$0021>Fine.<$FFFD><$FB00><$0022>Anyway, hold this for me.<$FFFE>
 38	<$FB00><$0023>Only Langrisser？ Do you<$FFFC>plan to keep Alhazard with you？<$FFFE>
 39	<$FB00><$0024>Relax. I won't become<$FFFC>Boser. Leading all demons is beyond<$FFFC>me.<$FFFE>
 40	<$FB00><$0025>I'll seek a way to<$FFFC>destroy Langrisser. I may need<$FFFC>Alhazard.<$FFFE>

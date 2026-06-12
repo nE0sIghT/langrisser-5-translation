@@ -12,7 +12,7 @@
 10	<$FFF8>…<$FB00><$0005>This town<$FFF5><$FFF8>… <$FFF6><$FB00><$0006>I'm sure<$FFFC>there was a church just ahead<$FFF5><$FFF8>…<$FFFE>
 11	<$FFF8>…<$FFF6><$FB00><$0007>Turn right ahead. There's<$FFFC>a red roofed house with two<$FFFC>trees in front<$FFF5><$FFF8>…<$FFFE>
 12	<$FB00><$0008>A red-roofed house, two<$FFFC>trees in front. She's right.<$FFFE>
-13	<$FB00><$0009>A boy and a girl<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$000A>Marie caught her doll on this<$FFFC>tree, and the boy got it down.<$FFFD><$FB00><$000B>Who was that girl？ Who<$FFFC>was that boy？<$FFFE>
+13	<$FB00><$0009>A boy and a girl<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$000A>Marie caught her doll on this<$FFFC>tree, and the boy got it down.<$FFFD><$FB00><$000B>Who was that girl？ Who was that<$FFFC>boy？<$FFFE>
 14	<$FB00><$000C>Have you been to this town<$FFFC>before？<$FFFE>
 15	<$FB00><$000D>That can't be. We woke up<$FFFC>in that lab<$FFF5><$FFF8>… <$FFF6><$FB00><$000E>Could this town be<$FFFC>in Lambda's data？<$FFFE>
 16	<$FB00><$000F>If so, why？<$FFFE>
@@ -22,7 +22,7 @@
 20	<$FB00><$0014>What happened, Lambda？<$FFFE>
 21	<$FFF8><$FB00><$0003>…<$FE3C>…<$FE3C>…<$FE3C>…<$FFFE>
 22	<$FB00><$0015>Lambda！<$FFFE>
-23	…<$FB00><$0016>This house<$FFF5>…<$FB00><$0017>this picture<$FFF5>…<$FFFC><$FB00><$0018>A lost thread is about to<$FFFC>reconnect<$FFF5>…<$FFFD>…<$FB00><$0019>It's the girl and boy<$FFFC>in this picture.<$FFFE>
+23	…<$FB00><$0016>This house<$FFF5>…<$FB00><$0017>this picture<$FFF5>…<$FFFC><$FB00><$0018>A lost thread is about to<$FFFC>reconnect<$FFF5>…<$FFFD>…<$FB00><$0019>It's the girl and boy in this<$FFFC>picture.<$FFFE>
 24	<$FB00><$001A>What about those siblings？<$FFFE>
 25	<$FB00><$001B>That doll was the girl's.<$FFFC>It caught on a branch, and the<$FFFC>boy got it down for her.<$FFFE>
 26	<$FB00><$001C>Then you really did live<$FFFC>in this town, didn't you？ You<$FFFC>remember playing with those two.<$FFFE>

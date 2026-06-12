@@ -12,7 +12,7 @@
 12	<$FB00><$0003>Your Majesty, as reported,<$FFFC>the Salrath army has appeared.<$FFFE>
 13	<$FFF8><$FB00><$0004>Heh heh heh. <$FFF5><$FFF6><$FB00><$0005>I see. They<$FFFC>walked right into our net.<$FFFE>
 14	<$FB00><$0006>Yes. Our formation is<$FFFC>already complete.<$FFFE>
-15	<$FB00><$0007>When you know when, where,<$FFFC>and how many troops will pass,<$FFFC>battle is as good as won.<$FFFD><$FB00><$0008>They have no flying ship<$FFFC>this time, either. What will you<$FFFC>do now, rebels？<$FFFE>
+15	<$FB00><$0007>When you know when, where,<$FFFC>and how many troops will pass,<$FFFC>battle is as good as won.<$FFFD><$FB00><$0008>They have no flying ship this time,<$FFFC>either. What will you do now,<$FFFC>rebels？<$FFFE>
 16	Salrath Army on the March<$FFFF>
 17	<$FB00><$0009>Lord Lenard, Kalxath troops<$FFFC>are deployed ahead！<$FFFE>
 18	<$FFFA><$FB00><$000A>I expected this, but<$FFFC>their response is too fast.<$FFFE>
@@ -21,8 +21,8 @@
 21	<$FB00><$000D>Who could it be<$FFF5><$FFF8>…？<$FFFE>
 22	<$FB00><$000E>I do not know. But now<$FFFC>we must focus on the army before<$FFFC>us.<$FFFE>
 23	<$FFF7><$FB00><$000F>Yes sir！<$FFF5><$FFF8><$FFFE>
-24	<$FB00><$0010>Numbers are equal, but<$FFFC>most are untrained peasants.<$FFFD>Fight defensively and keep<$FFFC>their losses low.<$FFFE>
+24	<$FB00><$0010>Numbers are equal, but<$FFFC>most are untrained peasants.<$FFFD>Fight defensively and keep their<$FFFC>losses low.<$FFFE>
 25	<$FB00><$0011>Yes, leave it to us！<$FFFE>
-26	<$FFFA><$FFF8>…<$FFF6><$FB00><$0012>We expected an ambush.<$FFFD><$FFF9><$FB00><$0013>The key to victory is in<$FFFC>your hands, Princess Clarett.<$FFFE>
+26	<$FFFA><$FFF8>…<$FFF6><$FB00><$0012>We expected an ambush.<$FFFD><$FFF9><$FB00><$0013>The key to victory is in your<$FFFC>hands, Princess Clarett.<$FFFE>
 27	<$0000>With Estor Temple's aid, the<$FFFC>popular uprising succeeded.<$FFFD><$0000>The faces listening to Clarett's<$FFFC>speech showed new resolve and<$FFFC>faith in the new politics.<$FFFD><$0000>Now Gilmore must fall, and<$FFFC>noble exploitation must end.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>coordinate with Lenard and head for<$FFFC>Kalxath Castle, where Gilmore<$FFFC>waits.<$FFFE>
 28	Victory terms<$FFFC><$0000><$FFFC>・Defeat Marquis Creid and Captain Kfir<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

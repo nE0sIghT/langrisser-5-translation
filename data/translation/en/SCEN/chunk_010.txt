@@ -19,7 +19,7 @@
 17	<$FB00><$0031>What do you mean？<$FFFE>
 18	<$FB00><$0032>Oh？ You don't know you're<$FFFC>wanted as an accomplice in the<$FFFC>Emperor's murder？<$FFFE>
 19	<$FB00><$0033>An accomplice？ Me？ That<$FFFC>man did the killing！<$FFFE>
-20	<$FB00><$0034>We know you plotted with<$FFFC>him to murder the Emperor.<$FFFD>Now come along quietly, my<$FFFC>5 million gold bounty！<$FFFE>
+20	<$FB00><$0034>We know you plotted with<$FFFC>him to murder the Emperor.<$FFFD>Now come along quietly, my 5<$FFFC>million gold bounty！<$FFFE>
 21	<$FFF8>…<$FFF6><$FB00><$0035>Kh！ Lady Jessica, I'm<$FFFC>sorry to drag you into this.<$FFFE>
 22	<$FB00><$0036>It seems this land, too,<$FFFC>has changed while we were away.<$FFFE>
 23	<$FB00><$0037>That's<$FFF5><$FFF7>…<$FFF6><$FB00><$0038>Clarett and her<$FFFC>friends！<$FFFE>
@@ -29,7 +29,7 @@
 27	<$FFF8>…<$FFF6><$FB00><$003D>Th, that man<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$003E>Hm？ I know that man from<$FFFC>somewhere<$FFF5><$FFF8>…<$FFFE>
 29	<$FFF8>？<$FFFE>
-30	<$FB00><$003F>Wahahah！ The Emperor's<$FFFC>killers, all in one place！<$FFFD>No more excuses, Princess<$FFFC>Clarett！<$FFFD><$FB00><$0040>That you plotted to kill<$FFFC>the Emperor is beyond all doubt！<$FFFE>
+30	<$FB00><$003F>Wahahah！ The Emperor's<$FFFC>killers, all in one place！<$FFFD>No more excuses, Princess Clarett！<$FFFD><$FB00><$0040>That you plotted to kill the<$FFFC>Emperor is beyond all doubt！<$FFFE>
 31	<$FB00><$0041>N, no！ He is<$FFF5><$FFF7>…<$FFFE>
 32	<$FB00><$0042>Enough！ No more talk！<$FFFE>
 33	<$FB00><$0043>Me, her accomplice<$FFF5><$FFF8>…？<$FFFE>
@@ -65,9 +65,9 @@
 63	No… I failed to protect them…<$FFFE>
 64	<$FFF8><$FB00><$0076>Ggh…<$FFF5><$FFF6><$FB00><$0077>How dare you… <$FFF5><$FB00><$0078>But<$FFFC>return now, and you'll find no home<$FFFC>waiting for you！<$FFFE>
 65	<$FB00><$0079>What do you mean by that？<$FFFE>
-66	<$FB00><$007A>True or false, you'll be<$FFFC>hunted as the Emperor's killer<$FFFC>along with that man.<$FFFD><$FB00><$007B>Word of this battle will<$FFFC>soon reach the new Emperor's<$FFFC>ears.<$FFFE>
+66	<$FB00><$007A>True or false, you'll be<$FFFC>hunted as the Emperor's killer<$FFFC>along with that man.<$FFFD><$FB00><$007B>Word of this battle will soon reach<$FFFC>the new Emperor's ears.<$FFFE>
 67	<$FB00><$007C>New Emperor？<$FFFE>
-68	<$FB00><$007D>Perhaps you know him<$FFFC>better as Minister Gilmore？<$FFFD>You are no princess now,<$FFFC>just a common criminal.<$FFFD><$FB00><$007E>There is no future left<$FFFC>for you. Remember that！<$FFFE>
+68	<$FB00><$007D>Perhaps you know him<$FFFC>better as Minister Gilmore？<$FFFD>You are no princess now, just a<$FFFC>common criminal.<$FFFD><$FB00><$007E>There is no future left for you.<$FFFC>Remember that！<$FFFE>
 69	<$FB00><$007F>Ah, wait！ Creid！<$FFFE>
 70	<$FB00><$0080>He's gone.<$FFFE>
 71	<$FB00><$0081>Looks like you two came<$FFFC>through unharmed.<$FFFE>
@@ -167,12 +167,12 @@
 165	<$FB00><$0062>What are you doing！<$FFFC>Losing to nameless riffraff like<$FFFC>these！<$FFFE>
 166	<$FB00><$0063>Milord Marquis, perfect<$FFFC>timing！<$FFFE>
 167	<$FB00><$0065>Marquis Creid！？<$FFFE>
-168	<$FB00><$0066>My, my. If it isn't<$FFFC>Princess Clarett. And that face<$FFFC>beside her <$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0067>I see. No wonder my men<$FFFC>have struggled so.<$FFFE>
+168	<$FB00><$0066>My, my. If it isn't<$FFFC>Princess Clarett. And that face<$FFFC>beside her <$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0067>I see. No wonder my men have<$FFFC>struggled so.<$FFFE>
 169	<$FFF8>…<$FFFE>
-170	<$FB00><$0068>Lord Creid, what is the<$FFFC>meaning of this？<$FFFD>Explain why a bounty<$FFFC>hangs over my head！<$FFFE>
+170	<$FB00><$0068>Lord Creid, what is the<$FFFC>meaning of this？<$FFFD>Explain why a bounty hangs over<$FFFC>my head！<$FFFE>
 171	<$FB00><$0069>You are wanted as an<$FFFC>accomplice in the Emperor's murder.<$FFFE>
 172	<$FB00><$006A>And why on earth would<$FFFC>I murder my own father！<$FFFE>
-173	<$FB00><$006B>That, Princess, you would<$FFFC>know best.<$FFFD><$FB00><$006C>All I can say is that<$FFFC>a decree orders your execution, and<$FFFC>that former Guard captain's too.<$FFFE>
+173	<$FB00><$006B>That, Princess, you would<$FFFC>know best.<$FFFD><$FB00><$006C>All I can say is that a decree<$FFFC>orders your execution, and that<$FFFC>former Guard captain's too.<$FFFE>
 174	<$FB00><$006D>It can't be<$FFF5><$FFF7>…<$FFFE>
 175	<$FB00><$006E>Now, die here！<$FFFE>
 176	・Defeat Marquis Creid<$FFFE>

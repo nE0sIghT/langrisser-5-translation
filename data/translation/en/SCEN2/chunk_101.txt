@@ -22,7 +22,7 @@
 20	<$FB00><$0062>Honestly, their numbers<$FFFC>seemed hopeless. But small forces<$FFFC>can fight differently.<$FFFE>
 21	<$FB00><$0063>The princess will bait them<$FFFC>south with the ship. Escape when<$FFFC>their encirclement breaks.<$FFFE>
 22	<$FB00><$0064>Understood.<$FFFE>
-23	<$FB00><$0065>With Lady Clarett's noble<$FFFC>ideal and her comrades' action,<$FFFC>revolution will succeed.<$FFFD><$FB00><$0066>Listen, for the people's<$FFFC>future, we must not lose！<$FFFE>
+23	<$FB00><$0065>With Lady Clarett's noble<$FFFC>ideal and her comrades' action,<$FFFC>revolution will succeed.<$FFFD><$FB00><$0066>Listen, for the people's future,<$FFFC>we must not lose！<$FFFE>
 24	<$FFF7><$FB00><$0067>Yes sir！<$FFF5><$FFF8><$FFFE>
 25	On the Flying Ship to Estor<$FFFF>
 26	<$FB00><$0068>Eric！ How was everyone in<$FFFC>Salrath？<$FFFE>
@@ -35,7 +35,7 @@
 33	<$FB00><$0070>Sky battleships？<$FFFE>
 34	<$FB00><$0071>I guess, battleships that<$FFFC>could travel from this star to the<$FFFC>moon.<$FFFE>
 35	<$FFF7><$FB00><$0072>Wow… <$FFF5><$FFF8><$FFF6><$FB00><$0073>What was the<$FFFC>ancient magic world like？ I<$FFFC>cannot imagine.<$FFFE>
-36	<$FB00><$0074>Yet ancient magic<$FFFC>civilization still perished.<$FFFC>Technology depends on its use.<$FFFD><$FB00><$0075>This unarmed ship changed<$FFFC>the battle.<$FFFE>
+36	<$FB00><$0074>Yet ancient magic<$FFFC>civilization still perished.<$FFFC>Technology depends on its use.<$FFFD><$FB00><$0075>This unarmed ship changed the<$FFFC>battle.<$FFFE>
 37	<$FB00><$0076>No matter how far<$FFFC>technology advances, it means<$FFFC>nothing if people do not change<$FFF5><$FFF8>…<$FFFE>
 38	<$FB00><$0077>Anyway, head for Estor.<$FFFC>Now we must defeat Emperor Gilmore<$FFFC>and make the revolution succeed.<$FFFE>
 39	<$FB00><$0078>Right. It took two days to<$FFFC>lure the enemy<$FFF5><$FFF8>… <$FFF6><$FB00><$0079>Hurry！ We cannot<$FFFC>waste a moment！<$FFFE>
@@ -73,7 +73,7 @@
 71	<$FB00><$008A>What will you do？<$FFFE>
 72	<$FB00><$008B>I'm a mercenary, remember？<$FFFC>I've been here before. I'll use my<$FFFC>contacts.<$FFFE>
 73	<$FB00><$008C>Can you do that？<$FFFE>
-74	<$FB00><$008D>Don't underestimate<$FFFC>mercenary networks.<$FFFD><$FB00><$008E>Weaker than thieves, but<$FFFC>war feeds us. If there is a<$FFFC>hidden cause, I'll find it.<$FFFD><$FB00><$008F>I'll pack and leave.<$FFFE>
+74	<$FB00><$008D>Don't underestimate<$FFFC>mercenary networks.<$FFFD><$FB00><$008E>Weaker than thieves, but war feeds<$FFFC>us. If there is a hidden cause,<$FFFC>I'll find it.<$FFFD><$FB00><$008F>I'll pack and leave.<$FFFE>
 75	<$FB00><$0090>It really helps to have<$FFFC>Brenda with us.<$FFFE>
 76	<$FB00><$0091>An ancient flying ship, a<$FFFC>mercenary network… Who is she？<$FFFE>
 77	<$FB00><$0092>Yes. She seems a little<$FFFC>too prepared.<$FFFE>
@@ -88,6 +88,6 @@
 86	<$FFF8>…<$FFFE>
 87	<$FB00><$0098>What is her goal？<$FFFE>
 88	<$FFF8>…<$FFF6><$FB00><$0099>But she always helps<$FFFC>us<$FFF5><$FFF8>…<$FFFE>
-89	<$FB00><$009A>There, all set. I'm off.<$FFFC>I'll bring back information by<$FFFC>tomorrow noon.<$FFFD><$FB00><$009B>I stopped the magic<$FFFC>reactor just in case, so please<$FFFC>watch the ship.<$FFFE>
+89	<$FB00><$009A>There, all set. I'm off.<$FFFC>I'll bring back information by<$FFFC>tomorrow noon.<$FFFD><$FB00><$009B>I stopped the magic reactor just<$FFFC>in case, so please watch the<$FFFC>ship.<$FFFE>
 90	<$FB00><$009C>Why stop the ship's<$FFFC>reactor？<$FFFE>
 91	<$FB00><$009D>It is hard to handle. If<$FFFC>it ran wild, things would get<$FFFC>ugly.<$FFFD><$FB00><$009E>Well, I'm off.<$FFFE>

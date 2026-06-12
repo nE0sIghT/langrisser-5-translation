@@ -16,7 +16,7 @@
 14	・<$F600><$0000> dies<$FFFC>・Wheeler escapes<$FFFC>・Out of turns<$FFFE>
 15	Town of Knox・Center<$FFFF>
 16	<$FB00><$0003>This is a pretty large<$FFFC>town.<$FFFE>
-17	<$FB00><$0004>Oh？ You didn't know？ This<$FFFC>town grew up in a mountain pass as<$FFFC>a crossroads of trade.<$FFFD><$FB00><$0005>Avoiding it means a long<$FFFC>detour, so everyone comes through<$FFFC>here.<$FFFE>
+17	<$FB00><$0004>Oh？ You didn't know？ This<$FFFC>town grew up in a mountain pass as<$FFFC>a crossroads of trade.<$FFFD><$FB00><$0005>Avoiding it means a long detour,<$FFFC>so everyone comes through here.<$FFFE>
 18	<$FB00><$0006>So where people gather, a<$FFFC>town prospers, eh.<$FFFE>
 19	<$FB00><$0007>Exactly.<$FFFE>
 20	<$FB00><$0008>No time for sightseeing.<$FFFC>That captain from before is after<$FFFC>us.<$FFFE>
@@ -29,7 +29,7 @@
 27	<$FB00><$000F>That man, he's with the<$FFFC>Caconsis army, if I recall<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$0010>Admiral Wheeler. How<$FFFC>convenient. We'll bring him down<$FFFC>before moving on.<$FFFE>
 29	<$FB00><$0011>Bring him down？<$FFFE>
-30	<$FB00><$0012>That's right. He commands<$FFFC>all Caconsis forces.<$FFFD>Wound him, and Caconsis<$FFFC>can't move as it pleases.<$FFFD><$FB00><$0013>Throwing our enemy Caconsis<$FFFC>into disorder also serves the<$FFFC>master.<$FFFE>
+30	<$FB00><$0012>That's right. He commands<$FFFC>all Caconsis forces.<$FFFD>Wound him, and Caconsis can't move<$FFFC>as it pleases.<$FFFD><$FB00><$0013>Throwing our enemy Caconsis into<$FFFC>disorder also serves the master.<$FFFE>
 31	<$FFF8>…<$FFF6><$FB00><$0014>I suppose that's true.<$FFFE>
 32	<$FB00><$0037>This is taking too long.<$FFFC>Let's hurry.<$FFFE>
 33	<$FB00><$0038>Come to think of it, they<$FFFC>said a general was coming.<$FFFE>
@@ -81,7 +81,7 @@
 79	I refuse to die caught up in<$FFFC>someone's war！<$FFFE>
 80	Ugh… It hurts…<$FFFE>
 81	I don't want to die… I don't…<$FFFE>
-82	<$FFF8><$FB00><$0031>Ggh… <$FFF5><$FFF6><$FB00><$0032>Not once but twice<$FFFC>now<$FFF5>…<$FFFD><$FB00><$0033>Bah, I've had it！ To<$FFFC>blazes with all this！ I'm going<$FFFC>home！<$FFFE>
+82	<$FFF8><$FB00><$0031>Ggh… <$FFF5><$FFF6><$FB00><$0032>Not once but twice<$FFFC>now<$FFF5>…<$FFFD><$FB00><$0033>Bah, I've had it！ To blazes with<$FFFC>all this！ I'm going home！<$FFFE>
 83	<$FB00><$0034>Seems the loudmouth is<$FFFC>gone.<$FFFE>
 84	<$FB00><$0036>Whew, looks like he's<$FFFC>finally gone.<$FFFE>
 85	<$FB00><$0035>Seems the loudmouth is<$FFFC>gone now.<$FFFE>
@@ -89,11 +89,11 @@
 87	…should never have come to this<$FFFC>town…<$FFFE>
 88	…Ad…miral…Wheeler…<$FFFE>
 89	<$FB00><$0015>Fighting inside the town？<$FFFC>What is the garrison captain here<$FFFC>thinking？<$FFFE>
-90	<$FB00><$0016>A man named Goldry, I<$FFFC>believe.<$FFFD>Once a rough sellsword,<$FFFC>favored by the late king and made<$FFFC>a regular, they say.<$FFFE>
+90	<$FB00><$0016>A man named Goldry, I<$FFFC>believe.<$FFFD>Once a rough sellsword, favored by<$FFFC>the late king and made a regular,<$FFFC>they say.<$FFFE>
 91	<$FFF8>…<$FFF6><$FB00><$0017>That explains a lot.<$FFFE>
 92	<$FB00><$0018>A self-centered man,<$FFFC>notorious in the army for finding<$FFFC>excuses to refuse deployment.<$FFFE>
 93	<$FB00><$0019>Honestly, and at a time<$FFFC>when Caconsis can least afford bad<$FFFC>rumors…<$FFFE>
-94	<$FB00><$001A>Admiral, please escape<$FFFC>through the north gate.<$FFFD>General Selena will not<$FFFC>return for some time yet. Until<$FFFC>then, I will hold them off<$FFFC>somehow.<$FFFE>
+94	<$FB00><$001A>Admiral, please escape<$FFFC>through the north gate.<$FFFD>General Selena will not return for<$FFFC>some time yet. Until then, I will<$FFFC>hold them off somehow.<$FFFE>
 95	<$FB00><$001B>There are townsfolk about.<$FFFC>Take every care that no harm comes<$FFFC>to them.<$FFFE>
 96	<$FB00><$001C>Understood, sir. Now,<$FFFC>Admiral, hurry to the north gate.<$FFFE>
 97	<$FB00><$001D>Thank you.<$FFFE>
@@ -113,7 +113,7 @@
 111	<$FB00><$003A>Sir！ This is<$FFF5><$FFF8>…<$FFFE>
 112	<$FB00><$003B>General Selena, look！<$FFFE>
 113	<$FB00><$003C>General Selena！<$FFFE>
-114	<$FB00><$003D>Admiral Wheeler！？ The<$FFFC>admiral is<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003E>Curse you！ You did this<$FFFC>to him！？ Unforgivable！<$FFFE>
+114	<$FB00><$003D>Admiral Wheeler！？ The<$FFFC>admiral is<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003E>Curse you！ You did this to<$FFFC>him！？ Unforgivable！<$FFFE>
 115	<$FB00><$003F>Damn！ We're completely<$FFFC>surrounded <$FFF5><$FFF8>…<$FFFE>
 116	<$FB00><$0043>Now, let's leave this town<$FFFC>at once.<$FFFE>
 117	<$FB00><$0044>Right, let's leave this<$FFFC>town at once.<$FFFE>

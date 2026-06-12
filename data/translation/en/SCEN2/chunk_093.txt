@@ -17,12 +17,12 @@
 15	<$FB00><$0081>With your sword, we beat<$FFFC>Gizarof！<$FFFE>
 16	<$FB00><$002F>Landius. I must return to<$FFFC>heaven soon. May I have the<$FFFC>sword back？<$FFFE>
 17	<$FB00><$0082>Yes, of course.<$FFFE>
-18	<$FB00><$0083>Langrisser, and Alhazard,<$FFFC>Gizarof's sword. Here they are.<$FFFD><$FB00><$0084>Thank you. With them, we<$FFFC>defeated Gizarof and saved Rachel.<$FFFE>
-19	<$FB00><$0085>No.<$FFFD><$FB00><$0086>Langrisser only answered your<$FFFC>wish. You saved her yourself.<$FFFE>
+18	<$FB00><$0083>Langrisser, and Alhazard,<$FFFC>Gizarof's sword. Here they are.<$FFFD><$FB00><$0084>Thank you. With them, we defeated<$FFFC>Gizarof and saved Rachel.<$FFFE>
+19	<$FB00><$0085>No.<$FFFD><$FB00><$0086>Langrisser only answered your wish.<$FFFC>You saved her yourself.<$FFFE>
 20	<$FFF8>…<$FFF6><$FB00><$0087>It is time. I must<$FFFC>return to heaven.<$FFFE>
 21	<$FB00><$0088>Um, Jessica<$FFF5><$FFF8>…<$FFFE>
 22	<$FFF6><$FB00><$0089>Are you really going back<$FFFC>to heaven？<$FFFE>
-23	<$FB00><$008A>McLaine<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take<$FFFC>these swords back to heaven. That<$FFFC>is my duty<$FFF5><$FFF8>…<$FFFE>
+23	<$FB00><$008A>McLaine<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take these<$FFFC>swords back to heaven. That is my<$FFFC>duty<$FFF5><$FFF8>…<$FFFE>
 24	<$FB00><$008C>No, I won't stop you.<$FFFC>But<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>… <$FE14>…<$FE14>.<$FFFE>
 25	<$FFF6><$FB00><$008D>If fate allows, let us<$FFFC>meet again.<$FFFE>
 26	<$FB00><$008E>Then I shall go. Thank<$FFFC>you for your help.<$FFFE>
@@ -33,7 +33,7 @@
 31	<$FB00><$0093>Forgive me. I worried<$FFFC>and followed you.<$FFFE>
 32	<$FB00><$0094>I keep worrying you. But<$FFFC>he is safe. You two can live as<$FFFC>family now.<$FFFE>
 33	<$FB00><$0095>About that<$FFF5><$FFF8>…<$FFFE>
-34	<$FFF6><$FB00><$0096>Big sister Emily. I am<$FFFC>going back to Caconsis.<$FFFD><$FB00><$0097>When this is over, I will<$FFFC>visit. Until then<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$0098>farewell for now.<$FFFE>
+34	<$FFF6><$FB00><$0096>Big sister Emily. I am<$FFFC>going back to Caconsis.<$FFFD><$FB00><$0097>When this is over, I will visit.<$FFFC>Until then<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$0098>farewell for now.<$FFFE>
 35	<$FFFA><$FB00><$0030>Landius<$FFF5><$FFF8>… <$FFF9><$FFF6><$FB00><$0031>I will be<$FFFC>waiting.<$FFFE>
 36	<$FB00><$0099>Lanford<$FFF5><$FFF8>…, <$FE28><$FFF6><$FB00><$009A>take care of my<$FFFC>sister.<$FFFE>
 37	<$FB00><$009B>Leave it to me. Asked or<$FFFC>not, that was already my intent.<$FFFE>
@@ -52,14 +52,14 @@
 50	<$FB00><$003C>They disbanded there and<$FFFC>headed back to their own countries.<$FFFE>
 51	<$FB00><$003D>That's all？ Nothing<$FFFC>unusual happened？<$FFFE>
 52	<$FB00><$003E>Unusual<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$003F>unusual<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
-53	<$FB00><$0040>Oh！ Jessica teleported away<$FFFC>with both strange swords.<$FFFD><$FB00><$0041>I think she was a mage<$FFFC>from El Sallia.<$FFFE>
+53	<$FB00><$0040>Oh！ Jessica teleported away<$FFFC>with both strange swords.<$FFFD><$FB00><$0041>I think she was a mage from El<$FFFC>Sallia.<$FFFE>
 54	<$FB00><$0042>Two swords with strange<$FFFC>powers<$FFF5><$FFF8>…<$FE14><$FE14>… <$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$0043>Could they be<$FFF5><$FFF8>…？<$FFFE>
 55	<$FB00><$0044>No doubt. That is the true<$FFFC>form of the Sage's Crystal.<$FFFE>
 56	<$FB00><$0045>Um<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0046>I can't follow this<$FFFC>at all <$FFF5><$FFF8>…<$FFFE>
 57	<$FB00><$0047>We serve Gizarof. Our<$FFFC>mission was to recover the Sage's<$FFFC>Crystal.<$FFFE>
 58	<$FB00><$0048>What does that crystal have<$FFFC>to do with the swords？<$FFFE>
 59	<$FB00><$0049>The Sage's Crystal was<$FFFC>originally two swords. They fused<$FFFC>into a crystal 200 years ago.<$FFFE>
-60	<$FFF7><$FB00><$004A>Wow<$FFF5><$FFF8>…<$FE14>…<$FE14>. <$FE14><$FFF6><$FB00><$004B>What a strange<$FFFC>story.<$FFFD><$FB00><$004C>So now what？ Look for<$FFFC>the swords？<$FFFE>
+60	<$FFF7><$FB00><$004A>Wow<$FFF5><$FFF8>…<$FE14>…<$FE14>. <$FE14><$FFF6><$FB00><$004B>What a strange<$FFFC>story.<$FFFD><$FB00><$004C>So now what？ Look for the<$FFFC>swords？<$FFFE>
 61	<$FB00><$004D>Well<$FFF5><$FFF8>…<$FFFE>
 62	・Ask Lambda<$FFFE>
 63	・Ask Brenda<$FFFE>
@@ -70,24 +70,24 @@
 68	<$FB00><$0051>No. I never thought<$FFFC>Master would die.<$FFFE>
 69	<$FB00><$0052>Then chasing the swords<$FFFC>sounds best, no？<$FFFE>
 70	<$FB00><$0053>What do you think, Brenda？<$FFFE>
-71	<$FB00><$0054>Let's see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0055>The swords must be<$FFFC>powerful, or you would not have<$FFFC>been ordered to recover them.<$FFFD><$FB00><$0056>Taking them is one option.<$FFFE>
+71	<$FB00><$0054>Let's see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0055>The swords must be powerful, or<$FFFC>you would not have been ordered<$FFFC>to recover them.<$FFFD><$FB00><$0056>Taking them is one option.<$FFFE>
 72	<$FB00><$0057>But Gizarof is dead. If<$FFFC>we recover the swords, who<$FFFC>receives them？<$FFFE>
-73	<$FB00><$0058>Worrying here will not<$FFFC>help. Move first.<$FFFD><$FB00><$0059>Why not chase the<$FFFC>swords？<$FFFE>
-74	<$FB00><$005A>With Gizarof dead, what<$FFFC>should we do？<$FFFD><$FB00><$005B>We could abandon the<$FFFC>mission now<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$005C>But then what？<$FFFE>
+73	<$FB00><$0058>Worrying here will not<$FFFC>help. Move first.<$FFFD><$FB00><$0059>Why not chase the swords？<$FFFE>
+74	<$FB00><$005A>With Gizarof dead, what<$FFFC>should we do？<$FFFD><$FB00><$005B>We could abandon the mission<$FFFC>now<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$005C>But then what？<$FFFE>
 75	<$FB00><$005D>If you are going to<$FFFC>brood, why not chase the swords？<$FFFE>
 76	<$FB00><$005E>Chase the swords<$FFF5><$FFF8>…<$FFFE>
-77	<$FB00><$005F>Why did Gizarof seek the<$FFFC>Sage's Crystal？<$FFFD><$FB00><$0060>If we knew his research,<$FFFC>we would know what to do after<$FFFC>getting the swords.<$FFFE>
+77	<$FB00><$005F>Why did Gizarof seek the<$FFFC>Sage's Crystal？<$FFFD><$FB00><$0060>If we knew his research, we would<$FFFC>know what to do after getting the<$FFFC>swords.<$FFFE>
 78	<$FB00><$0061>Gizarof was<$FFF5><$FFF8>…<$FFFE>
-79	<$FB00><$0062>I will explain. My data<$FFFC>retains part of Master's research.<$FFFD><$FB00><$0063>He had two main goals.<$FFFD><$FB00><$0064>Immortality, and rule over<$FFFC>the world. He pursued many magical<$FFFC>studies for them.<$FFFD><$FB00><$0065>He revived ancient magic,<$FFFC>ancient weapons, and invincible<$FFFC>soldiers.<$FFFD>As you know, he and I<$FFFC>are artificial soldiers made by<$FFFC>Master.<$FFFD><$FB00><$0066>He also mastered enhancement<$FFFC>and cloning to create bodies for<$FFFC>himself.<$FFFE>
+79	<$FB00><$0062>I will explain. My data<$FFFC>retains part of Master's research.<$FFFD><$FB00><$0063>He had two main goals.<$FFFD><$FB00><$0064>Immortality, and rule over the<$FFFC>world. He pursued many magical<$FFFC>studies for them.<$FFFD><$FB00><$0065>He revived ancient magic, ancient<$FFFC>weapons, and invincible soldiers.<$FFFD>As you know, he and I are<$FFFC>artificial soldiers made by Master.<$FFFD><$FB00><$0066>He also mastered enhancement and<$FFFC>cloning to create bodies for<$FFFC>himself.<$FFFE>
 80	<$FB00><$0067>Um, what is a clone？<$FFFE>
-81	<$FB00><$0068>Simply, a copy of a<$FFFC>person.<$FFFD><$FB00><$0069>Memories and personality<$FFFC>are learned, so they cannot be<$FFFC>copied. But body and aptitude can<$FFFC>be.<$FFFE>
+81	<$FB00><$0068>Simply, a copy of a<$FFFC>person.<$FFFD><$FB00><$0069>Memories and personality are<$FFFC>learned, so they cannot be copied.<$FFFC>But body and aptitude can be.<$FFFE>
 82	<$FB00><$006A>What about us？ Are we<$FFFC>clones, or modified beings？<$FFFE>
 83	<$FB00><$006B>No records say what we<$FFFC>are, so I do not know. <$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$006C>And<$FFFC>it does not matter.<$FFFE>
-84	<$FB00><$006D>Hmm. If Gizarof wanted the<$FFFC>Sage's Crystal so badly, it must be<$FFFC>key to his goal.<$FFFD><$FB00><$006E>We should learn what it<$FFFC>is.<$FFFE>
+84	<$FB00><$006D>Hmm. If Gizarof wanted the<$FFFC>Sage's Crystal so badly, it must be<$FFFC>key to his goal.<$FFFD><$FB00><$006E>We should learn what it is.<$FFFE>
 85	<$FB00><$006F>Then let's go to the lab<$FFFC>once.<$FFFE>
 86	<$FB00><$0070>Good idea.<$FFFE>
 87	<$FB00><$0071>You, find out where that<$FFFC>woman teleported to.<$FFFE>
 88	<$FB00><$0072>But she teleported,<$FFFC>right？ How can we track her<$FFF5><$FFF8>…？<$FFFE>
-89	<$FB00><$0073>Not quite. She is from El<$FFFC>Sallia, yes？<$FFFD><$FB00><$0074>Even teleport magic cannot<$FFFC>cross the ocean. She must have<$FFFC>gone to an ocean port.<$FFFE>
+89	<$FB00><$0073>Not quite. She is from El<$FFFC>Sallia, yes？<$FFFD><$FB00><$0074>Even teleport magic cannot cross<$FFFC>the ocean. She must have gone to<$FFFC>an ocean port.<$FFFE>
 90	<$FB00><$0075>Understood. I'll focus on<$FFFC>the larger ports.<$FFFE>
 91	<$FB00><$0076>Good. I'm counting on you.<$FFFE><$FFFF>

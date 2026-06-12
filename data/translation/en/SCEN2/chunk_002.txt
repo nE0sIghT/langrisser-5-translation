@@ -14,15 +14,15 @@
 12	・<$F600><$0000> or Lambda dies<$FFFE>
 13	Tirock Plateau<$FFFF>
 14	<$FB00><$000D>Hm？ All these cliffs make<$FFFC>this place hard to walk.<$FFFE>
-15	<$FB00><$000E>Few spots on the river<$FFFC>ahead have bridges. Detouring to<$FFFC>find another would waste time.<$FFFD><$FB00><$000F>You'll just have to bear<$FFFC>it.<$FFFE>
+15	<$FB00><$000E>Few spots on the river<$FFFC>ahead have bridges. Detouring to<$FFFC>find another would waste time.<$FFFD><$FB00><$000F>You'll just have to bear it.<$FFFE>
 16	<$FB00><$0010>Cool as ever. So that was<$FFFC>your data talking again？<$FFFE>
 17	<$FB00><$0011>That's right. Now let's<$FFFC>hurry on.<$FFFE>
 18	<$FB00><$0012>Wait, Lambda！<$FFFD><$FB00><$0013>Who's there！<$FFFE>
 19	<$FB00><$0014>Just as I thought. I knew<$FFFC>you would pass through here！<$FFFE>
 20	<$FB00><$0015>You're the one from<$FFFC>before<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$0016>The name is Aizer. Remember<$FFFC>it well.<$FFFD><$FB00><$0017>You'll be seeing my face<$FFFC>for a long time, serving under<$FFFC>Lord Lainforce.<$FFFE>
+21	<$FB00><$0016>The name is Aizer. Remember<$FFFC>it well.<$FFFD><$FB00><$0017>You'll be seeing my face for a<$FFFC>long time, serving under Lord<$FFFC>Lainforce.<$FFFE>
 22	<$FB00><$0018>You talk as if you've<$FFFC>already caught us.<$FFFE>
-23	<$FB00><$0019>That's about to come true.<$FFFD><$FB00><$001A>Your power is needed for<$FFFC>Lord Lainforce's plan. I'll take<$FFFC>you by force！<$FFFE>
+23	<$FB00><$0019>That's about to come true.<$FFFD><$FB00><$001A>Your power is needed for Lord<$FFFC>Lainforce's plan. I'll take you by<$FFFC>force！<$FFFE>
 24	<$FB00><$001B>Just try it！<$FFFE>
 25	Don't think you can escape！<$FFFE>
 26	Kh！ Letting them get any closer<$FFFC>is dangerous…<$FFFE>
@@ -32,7 +32,7 @@
 30	Leave this to us. You two run,<$FFFC>quickly.<$FFFE>
 31	Thank you so much.<$FFFE>
 32	<$FB00><$001C>Now, what's our move<$FFF5><$FFF8>…<$FFFE>
-33	<$FB00><$001D>I'll leave it to you. I<$FFFC>will move just as you direct.<$FFFD>Think hard about how to<$FFFC>hold the enemy back.<$FFFE>
+33	<$FB00><$001D>I'll leave it to you. I<$FFFC>will move just as you direct.<$FFFD>Think hard about how to hold the<$FFFC>enemy back.<$FFFE>
 34	<$FB00><$0034>You won't catch me that<$FFFC>easily！<$FFFE>
 35	<$FB00><$0036>Out of my way！ Move！<$FFFE>
 36	<$FB00><$002D>I won't die in a place<$FFFC>like this…<$FFFE>
@@ -70,7 +70,7 @@
 68	<$FB00><$0033>You're coming with us. Give<$FFFC>it up already！<$FFFE>
 69	<$FB00><$003C>Guoh！ <$FFF5><$FFF8>…<$FFF6><$FB00><$003D>Impossible, me of<$FFFC>all people<$FFF5><$FFF8>…<$FFFE>
 70	<$FB00><$003E>Did we get him！？<$FFFE>
-71	<$FB00><$003F>Truly the work of made<$FFFC>beings<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think<$FFFC>such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay hidden in them<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for<$FFFC>now<$FFF5><$FFF8>…<$FFFE>
+71	<$FB00><$003F>Truly the work of made<$FFFC>beings<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think<$FFFC>such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay hidden in them<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
 72	Now then, tell us what you were<$FFFC>doing here！<$FFFE>
 73	Even if I told you, you would<$FFFC>not understand.<$FFFD>Farewell！ Next time, no mercy！<$FFFE>
 74	L…Lord Aizer is<$FFF8>…<$FFFD><$FFF6>Tch！ We're pulling out！<$FFFE>
@@ -112,7 +112,7 @@
 110	<$FB00><$0052>Hm？ What is it？<$FFFE>
 111	<$FB00><$0053>Those people just now are<$FFFC>enemies.<$FFFE>
 112	<$FB00><$0054>Enemies！？<$FFFE>
-113	<$FB00><$0055>The Kingdom of Caconsis is<$FFFC>the master's target. That makes<$FFFC>them enemies.<$FFFD>Getting friendly with<$FFFC>enemies seems unwise.<$FFFE>
+113	<$FB00><$0055>The Kingdom of Caconsis is<$FFFC>the master's target. That makes<$FFFC>them enemies.<$FFFD>Getting friendly with enemies seems<$FFFC>unwise.<$FFFE>
 114	<$FB00><$0056>I see. So those people<$FFFC>were our enemies<$FFF5><$FFF8>…<$FFFE>
 115	<$FB00><$0057>And that's how it is.<$FFFC>Now let's hurry on.<$FFFE>
 116	Curse you… Don't think you've<$FFFC>escaped me…<$FFFE>

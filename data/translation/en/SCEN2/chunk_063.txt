@@ -15,7 +15,7 @@
 13	<$FB00><$0004>Yes. I should be able to<$FFFC>do it the same way I restored<$FFFC>yours. Let us try.<$FFFE>
 14	<$FFFA><$FFF8>…<$FFFE>
 15	<$FB00><$0005>How is it, Marie？ Do<$FFFC>you remember now？ Do you remember<$FFFC>me？<$FFFE>
-16	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0006>Brother.<$FFFD><$FFF9><$FB00><$0007>I remember. My childhood,<$FFFC>and what happened after Gizarof<$FFFC>took me. I remember everything！<$FFFD><$FB00><$0008>Yes. I am Mariandel. I<$FFFC>am Marie.<$FFFE>
+16	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0006>Brother.<$FFFD><$FFF9><$FB00><$0007>I remember. My childhood, and what<$FFFC>happened after Gizarof took me. I<$FFFC>remember everything！<$FFFD><$FB00><$0008>Yes. I am Mariandel. I am Marie.<$FFFE>
 17	<$FB00><$0009>Marie<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$000A>I am glad for you,<$FFFC>Lambda.<$FFFE>
 19	<$FB00><$000B>But I have not<$FFFC>forgotten you. Lambda's memories are<$FFFC>still inside me！<$FFFE>
@@ -39,7 +39,7 @@
 37	<$FFF8>…<$FFF6><$FB00><$001D>No. Nothing has<$FFFC>changed<$FFF5><$FFF8>…<$FFFE>
 38	<$FB00><$001E>No good. It failed.<$FFFE>
 39	<$FB00><$001F>Even someone like you<$FFFC>could not do it, Jessica<$FFF5><$FFF8>…<$FFFE>
-40	<$FB00><$0020>His spirit is unlike that<$FFFC>of a normal person. Any spell I<$FFFC>send into him is absorbed.<$FFFD><$FB00><$0021>Magic cannot restore his<$FFFC>memory. He will have to remember it<$FFFC>on his own.<$FFFE>
+40	<$FB00><$0020>His spirit is unlike that<$FFFC>of a normal person. Any spell I<$FFFC>send into him is absorbed.<$FFFD><$FB00><$0021>Magic cannot restore his memory.<$FFFC>He will have to remember it on his<$FFFC>own.<$FFFE>
 41	<$FB00><$0022>Could that be because of<$FFFC>our modifications？<$FFFE>
 42	<$FB00><$0023>Yes, probably. The three<$FFFC>of us were modified by Gizarof, but<$FFFC>each in a different way.<$FFFE>
 43	<$FB00><$0024>I<$FFF5><$FFF8>…<$FFF6><$FB00><$0025>I remember being told<$FFFC>my magic capacity would be<$FFFC>increased.<$FFFE>
@@ -53,7 +53,7 @@
 51	<$FB00><$0030>He said the experiment<$FFFC>brought me back to life<$FFF5><$FFF8>…<$FFFE>
 52	<$FB00><$0031>Omega？ <$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0032>Yes, you<$FFFC>mentioned that name before.<$FFFE>
 53	<$FB00><$0033>I spoke with him<$FFFC>before. According to him, I died<$FFFC>once and Gizarof revived me.<$FFFE>
-54	<$FB00><$0034>I cannot be sure, but<$FFFC>that may have affected his spirit.<$FFFD><$FB00><$0035>If something could<$FFFC>trigger him, he might remember<$FFFC>naturally<$FFF5><$FFF8>…<$FFFE>
+54	<$FB00><$0034>I cannot be sure, but<$FFFC>that may have affected his spirit.<$FFFD><$FB00><$0035>If something could trigger him, he<$FFFC>might remember naturally<$FFF5><$FFF8>…<$FFFE>
 55	<$FB00><$0036>Then let us go somewhere<$FFFC>that might lead to his memories！<$FFFC>Follow me！<$FFFE>
 56	Scene of the Emperor's Murder<$FFFF>
 57	<$FB00><$0037>This was my father's<$FFFC>room. Father died here… Well？<$FFFE>
@@ -68,15 +68,15 @@
 66	<$FB00><$0041>Then I will ask it.<$FFFC>Plants see, hear and feel. With my<$FFFC>power, I can speak to them.<$FFFE>
 67	<$FFFA><$FB00><$0042>It saw it. It knows<$FFFC>the truth of the emperor's<$FFFC>murder<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>Now, tell me.<$FFFE>
 68	<$FFFA><$FB00><$0044>I see a thin,<$FFFC>earth-colored man strangling<$FFFC>someone who looks like the<$FFFC>emperor.<$FFFE>
-69	<$FFFA><$FB00><$0045>He is on the floor. It<$FFFC>looks as if he was drugged.<$FFFD>The emperor stands beside<$FFFC>him with a sword, but his body<$FFFC>is already dead.<$FFFD><$FB00><$0046>The emperor stabbed his<$FFFC>own chest. Then he put the sword<$FFFC>in his hand and fell.<$FFFE>
-70	<$FFFA><$FB00><$0047>The man who strangled<$FFFC>him enters the room and laughs.<$FFFC>What a vile smile.<$FFFD><$FB00><$0048>Then he knocked over the<$FFFC>desk and vanished, as if covering<$FFFC>his tracks.<$FFFE>
-71	<$FB00><$0049>I can tell the rest.<$FFFC>I heard a loud noise from<$FFFC>father's room and came with the<$FFFC>guards.<$FFFD><$FB00><$004A>He stood in a daze,<$FFFC>holding a bloodstained sword.<$FFFD>When he saw us, he<$FFFC>escaped through that window.<$FFFE>
+69	<$FFFA><$FB00><$0045>He is on the floor. It<$FFFC>looks as if he was drugged.<$FFFD>The emperor stands beside him with<$FFFC>a sword, but his body is already<$FFFC>dead.<$FFFD><$FB00><$0046>The emperor stabbed his own<$FFFC>chest. Then he put the sword in<$FFFC>his hand and fell.<$FFFE>
+70	<$FFFA><$FB00><$0047>The man who strangled<$FFFC>him enters the room and laughs.<$FFFC>What a vile smile.<$FFFD><$FB00><$0048>Then he knocked over the desk and<$FFFC>vanished, as if covering his<$FFFC>tracks.<$FFFE>
+71	<$FB00><$0049>I can tell the rest.<$FFFC>I heard a loud noise from<$FFFC>father's room and came with the<$FFFC>guards.<$FFFD><$FB00><$004A>He stood in a daze, holding a<$FFFC>bloodstained sword.<$FFFD>When he saw us, he escaped<$FFFC>through that window.<$FFFE>
 72	<$FB00><$004B>The tree says the same.<$FFFE>
 73	<$FB00><$004C>That is wonderful！ You<$FFFC>are not the murderer！<$FFFE>
-74	<$FB00><$004D>But that alone will not<$FFFC>prove him innocent.<$FFFD><$FB00><$004E>I do not want to doubt<$FFFC>Marie, but even if she is right,<$FFFC>we have no way to prove it.<$FFFE>
+74	<$FB00><$004D>But that alone will not<$FFFC>prove him innocent.<$FFFD><$FB00><$004E>I do not want to doubt Marie,<$FFFC>but even if she is right, we have<$FFFC>no way to prove it.<$FFFE>
 75	<$FB00><$004F>Yes. I am sorry. I<$FFFC>could not help.<$FFFE>
 76	<$FB00><$0050>No, do not worry about<$FFFC>it.<$FFFE>
-77	<$FB00><$0051>If you cannot remember,<$FFFC>I will tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son,<$FFFC>ruler of northern Liguria, and my<$FFFC>cousin.<$FFFD><$FB00><$0053>Because of your house<$FFFC>and sword skill, father made you<$FFFC>guard captain.<$FFFE>
+77	<$FB00><$0051>If you cannot remember,<$FFFC>I will tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son, ruler of<$FFFC>northern Liguria, and my cousin.<$FFFD><$FB00><$0053>Because of your house and sword<$FFFC>skill, father made you guard<$FFFC>captain.<$FFFE>
 78	<$FB00><$0054>Then my parents<$FFF5><$FFF8>…<$FFFE>
 79	<$FB00><$0055>You were hunted as a<$FFFC>traitor, so House Egil was<$FFFC>abolished and its bloodline ended.<$FFFD><$FFF8>…<$FFF6><$FB00><$0056>Except for you.<$FFFE>
 80	<$FFF8>…<$FFF6><$FB00><$0057>Recovering his memory<$FFFC>may hurt him more than losing it<$FFFC>did.<$FFFE>
