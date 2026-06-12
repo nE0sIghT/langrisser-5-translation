@@ -38,7 +38,7 @@
 36	Handed over Langrisser！<$FFFE>
 37	<$FB00><$0037>So this is the port town of<$FFFC>Fizzit<$FFF5><$FFF8>‥‥.<$FFFE>
 38	<$FB00><$0038>Hold on, look over there！<$FFFE>
-39	<$FB00><$0039>Bozel may be dead, but with<$FFFC>this sword in hand, anything is<$FFFC>possible.<$FFFE>
+39	<$FB00><$0039>Boser may be dead, but with<$FFFC>this sword in hand, anything is<$FFFC>possible.<$FFFE>
 40	<$FB00><$003A>You promised. Now leave this<$FFFC>place.<$FFFE>
 41	<$FB00><$003B>True, I'll withdraw. Just me,<$FFFC>that is！<$FFFD><$FB00><$003C>You lot must be hungry？ Eat<$FFFC>your fill！<$FFFE>
 42	<$FB00><$003D>You snake！ Breaking your<$FFFC>promise？<$FFFE>

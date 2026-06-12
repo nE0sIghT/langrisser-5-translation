@@ -1,0 +1,46 @@
+# file=SCEN.DAT chunk=92 chunk_start=0x106F000
+# block_base=0x61BC block_size=0x0958 records=44
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Merc<$FFFF>
+8	Dark Prince Boser<$FFFF>
+9	Landius<$FFFF>
+10	Archmage Jessica<$FFFF>
+11	Road to the demon castle<$FFFF>
+12	<$FB00><$00A8>Boss！<$FFFE>
+13	<$FB00><$00A9>Well？<$FFFE>
+14	<$FB00><$00AA>We found it. A strange castle<$FFFC>ahead, with demons gathering there.<$FFFE>
+15	<$FB00><$00AB>That'll be the place.<$FFFE>
+16	<$FB00><$00AC>And that's where the<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
+17	<$FB00><$00AE>But word is the Caconsis army is<$FFFC>headed there too. We'd better<$FFFC>hurry.<$FFFE>
+18	<$FB00><$00AF>The Caconsis army？<$FFFE>
+19	<$FB00><$00B0>We should hurry. If Caconsis<$FFFC>carries off the crystal, things<$FFFC>get ugly.<$FFFE>
+20	<$FB00><$00B1>Right. We must get the Sage's<$FFFC>Crystal, whatever it takes！<$FFFE>
+21	<$FB00><$00B2>Also, the enemy has archers.<$FFFC>Best be careful.<$FFFE>
+22	Archers, huh‥‥.<$FFFE>
+23	You know how to handle archers？<$FFFC>I could teach you, if you<$FFFC>like？<$FFFE>
+24	・I know<$FFFE>
+25	・Teach me<$FFFE>
+26	Kill them with magic, or close<$FFFC>the gap in one move and<$FFFC>strike, right？<$FFFE>
+27	Oh, so you knew. That puts my<$FFFC>mind at ease.<$FFFE>
+28	Teach me.<$FFFE>
+29	Archers are mercenaries that<$FFFC>strike from afar, like magic.<$FFFD>Get careless coming close and a<$FFFC>volley will finish you.<$FFFD>But archers have weak spots. Most<$FFFC>fall easily to attack magic.<$FFFE>
+30	Weak to magic, huh.<$FFFD>And if I can't use magic and<$FFFC>still must fight them？<$FFFE>
+31	Let's see. Then close in from<$FFFC>beyond bow range in one move<$FFFC>and strike.<$FFFD>Archers crumble in close combat.<$FFFE>
+32	In short, kill them with magic,<$FFFC>or close the gap in one move<$FFFC>and strike.<$FFFE>
+33	That's the way of it.<$FFFE>
+34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
+35	At the Dark Altar<$FFFF>
+36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFF6><$FB00><$00B5>that you could wield Langrisser<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14>.<$FE14><$FFFE>
+37	<$FB00><$00B6>You've lost, Boser！ Now vanish<$FFFC>from this world！<$FFFD>We will never let the darkness<$FFFC>have it！<$FFFE>
+38	‥‥<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFF6><$FB00><$00B8>they'll take‥Alhazard from me.<$FFFC>That‥I will not allow<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFFC><$FFF6><$FB00><$00BA>Alhazard‥fly！<$FFFE>
+39	<$FB00><$00BB>What！？ He cast Alhazard away with<$FFFC>magic！？<$FFFE>
+40	<$FB00><$00BC>Heh heh heh, what a shame.<$FFFC>Where Alhazard falls, not even I<$FFFC>know<$FFF5><$FFF8>‥‥.<$FFFE>
+41	<$FFF8>‥‥‥<$FFF6><$FB00><$00BD>G<$FFF7>hah！<$FFFE>
+42	<$FB00><$00BE>We did it<$FFF5><$FFF8>‥‥.<$FFFE>
+43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Boser cast away.<$FFFD>Until then, I leave Langrisser<$FFFC>in your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must stop<$FFFC>Gizarof's ambition.<$FFFE>
+44	<$FFF8>‥‥‥<$FFF6><$FB00><$00C1>Right！ Gizarof is next！<$FFFD><$FB00><$00C2>I know you're weary, but it<$FFFC>won't be long now. Everyone, stay<$FFFC>strong！<$FFFE>
