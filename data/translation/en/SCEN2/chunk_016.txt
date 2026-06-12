@@ -100,7 +100,7 @@
 98	But if you do not beat us, it<$FFFC>is the same！<$FFFE>
 99	Lord Creid… they are strong…<$FFFE>
 100	Gwaaah！ I cannot stop bleeding…<$FFFE>
-101	<$FB00><$0066>Why can't I beat<$FFFC>you！？ …Grr！ Next time！<$FFFE>
+101	<$FB00><$0066>Why can't I beat you！？<$FFFC>…Grr！ Next time！<$FFFE>
 102	<$FFF8>…<$FFF6><$FB00><$0067>It is over.<$FFFE>
 103	<$FB00><$0068>The hostage is safe.<$FFFE>
 104	<$FB00><$0069>The archbishop's daughter<$FFFC>is safe！<$FFFE>

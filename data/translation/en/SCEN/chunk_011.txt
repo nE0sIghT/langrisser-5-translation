@@ -127,7 +127,7 @@
 125	<$FB00><$004C>That man<$FFF5><$FFF8>…<$FFFE>
 126	<$FB00><$004D>Creid<$FFF5><$FFF8>…<$FFFE>
 127	<$FB00><$004E>Well. The Emperor's killer<$FFFC>now rebels against the Empire.<$FFFD><$FB00><$004F>By imperial law, I end<$FFFC>you here！<$FFFE>
-128	<$FB00><$0050>Imperial law！？ You<$FFFC>rewrote it to exploit people！<$FFFC>Why！？<$FFFE>
+128	<$FB00><$0050>Imperial law！？ You rewrote<$FFFC>it to exploit people！ Why！？<$FFFE>
 129	<$FB00><$0051>We rule. We may treat<$FFFC>commoners as we please.<$FFFE>
 130	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Defeat<$FFFC>Marquis Creid<$FFFE>
 131	・Defeat Marquis Creid<$FFFE>
@@ -137,7 +137,7 @@
 135	<$FB00><$0055>What is this！ What is all<$FFFC>the noise！<$FFFE>
 136	<$FB00><$004D>Creid…<$FFFE>
 137	<$FB00><$0056>Well. Emperor killers and<$FFFC>rebels. By imperial law, you die.<$FFFE>
-138	<$FB00><$0050>Imperial law！？ You<$FFFC>rewrote it to exploit people！<$FFFC>Why！？<$FFFE>
+138	<$FB00><$0050>Imperial law！？ You rewrote<$FFFC>it to exploit people！ Why！？<$FFFE>
 139	<$FB00><$0051>We rule. We may treat<$FFFC>commoners as we please.<$FFFD><$FB00><$0057>I will form a unit to<$FFFC>hunt you down. Enjoy waiting！<$FFFE>
 140	Whew…<$FFFE>
 141	<$FFF8>…<$FFF6>Still alive<$FFF8>…<$FFFE>

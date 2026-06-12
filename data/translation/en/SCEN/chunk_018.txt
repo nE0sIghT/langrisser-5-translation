@@ -19,7 +19,7 @@
 19	<$FB00><$0036>Silence！ You are the<$FFFC>emperor's murderer！ Do you mean to<$FFFC>kill me too！？<$FFFE>
 20	<$FB00><$0037>Then surrender and return<$FFFC>the throne to Clarett.<$FFFD>Do that, and I may show<$FFFC>mercy.<$FFFE>
 21	<$FB00><$0038>Nonsense！ You are the<$FFFC>ones who will die！<$FFFE>
-22	<$FB00><$0039>What are you doing！？<$FFFC>Kill them at once！<$FFFE>
+22	<$FB00><$0039>What are you doing！？ Kill<$FFFC>them at once！<$FFFE>
 23	<$FB00><$003A>Yes sir！ At once！<$FFFE>
 24	<$FB00><$003B>We have requested<$FFFC>reinforcements from the troops<$FFFC>attacking Salrath！<$FFFE>
 25	<$FB00><$003C>What？<$FFFE>

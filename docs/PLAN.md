@@ -106,11 +106,13 @@ Capacity facts learned while building:
 ## Status snapshot (2026-06-11, end of round 3)
 
 Done: stages 0-3. Toolchain with byte-identical round-trip; font table 100%
-mapped; EN glyph system (Spleen 6x12 pairs, two letters per cell, baseline
-aligned to native glyphs); full EN startup quiz; menu/UI/name runs; width-aware
-reflow; PPF builds without growing files or changing ISO layout. The SCEN
-inserter can now fixed-size repack chunk offsets inside SCEN/SCEN2 when local
-chunk padding is too small.
+mapped; EN glyph system (Spleen 6x12 pairs, two letters per cell, narrow
+`space+letter` and `punctuation+space` pairs, baseline-aligned letters and
+digits, lowered ellipsis, native digit/question/exclamation/colon visual
+overrides); full
+EN startup quiz; menu/UI/name runs; width-aware reflow; PPF builds without
+growing files or changing ISO layout. The SCEN inserter can now fixed-size
+repack chunk offsets inside SCEN/SCEN2 when local chunk padding is too small.
 
 ## Stage 4a — item/class/unit names (next)
 

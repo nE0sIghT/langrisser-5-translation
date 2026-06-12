@@ -15,7 +15,7 @@
 13	<$FB00><$0078>Yes. He now serves as<$FFFC>the new premier.<$FFFE>
 14	<$FB00><$0079>I see. And the<$FFFC>message？<$FFFE>
 15	<$FB00><$007A>Yes. Marshal Lanford is<$FFFC>to report to the castle at once.<$FFFE>
-16	<$FB00><$007B>Return！？ Does he<$FFFC>understand the situation？<$FFFE>
+16	<$FB00><$007B>Return！？ Does he understand<$FFFC>the situation？<$FFFE>
 17	<$FFF8>…<$FFF6><$FB00><$007C>No, forgive me.<$FFFC>Blaming you changes nothing.<$FFFE>
 18	<$FB00><$007D>There is one more thing.<$FFFC>Your request for reinforcements was<$FFFC>denied.<$FFFE>
 19	<$FFF7>…<$FE3C><$FB00><$007E>Wh<$FFF5>…<$FE3C>…<$FE3C>！？<$FFFE>

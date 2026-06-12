@@ -33,5 +33,5 @@
 31	<$FB00><$0079>Lord Lambert has no<$FFFC>objection？<$FFFE>
 32	<$FB00><$007A>Y, yes.<$FFFE>
 33	<$FB00><$007B>The Federation let<$FFFC>Gizarof run wild. We must guide<$FFFC>the people correctly.<$FFFE>
-34	<$FB00><$007C>Alvince is right.<$FFFD><$FB00><$007D>Lambert's Sutherland,<$FFFC>Alvince's Reynorz, and my<$FFFC>Rochefort will unite.<$FFFD><$FB00><$007E>With this treaty, the<$FFFC>Three-Country Alliance declares<$FFFC>independence.<$FFFD>Victory over the<$FFFC>Federation！<$FFF5><$FFF7><$FFFE>
+34	<$FB00><$007C>Alvince is right.<$FFFD><$FB00><$007D>Lambert's Sutherland,<$FFFC>Alvince's Reynorz, and my Rochefort<$FFFC>will unite.<$FFFD><$FB00><$007E>With this treaty, the<$FFFC>Three-Country Alliance declares<$FFFC>independence.<$FFFD>Victory over the<$FFFC>Federation！<$FFF5><$FFF7><$FFFE>
 35	<$FB00><$007F>Victory to us！<$FFF5><$FFF7><$FFFE>

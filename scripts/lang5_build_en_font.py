@@ -29,6 +29,13 @@ FONT_CANDIDATES = [
 # row 10 achieves that; descenders get squashed from 3px to 2px, which is
 # the lesser evil.
 BASELINE_ROW = 10
+LEADING_SPACE_X = 4
+NATIVE_VISUAL_OVERRIDES = {
+    0x0005: "?",  # native ？ is too centered for the EN font.
+    0x0006: "!",  # native ！ is too centered for the EN font.
+    0x0182: ":",  # native colon leaves a visible gap before :Gnome-style labels.
+    **{0x0007 + i: str(i) for i in range(10)},  # keep digit pairs/singles visually uniform.
+}
 
 
 def pick_fonts(path: str, size: int) -> list[ImageFont.FreeTypeFont]:
@@ -64,10 +71,17 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
     img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     d = ImageDraw.Draw(img)
     for k, ch in enumerate(text[:2]):
+        if ch == " ":
+            continue
         font = next((f for f in fonts if font_has(f, ch)), fonts[0])
         ascent, _descent = font.getmetrics()
         bbox = d.textbbox((0, 0), ch, font=font)
-        d.text((k * 6 - bbox[0], BASELINE_ROW - ascent), ch, font=font, fill=0)
+        x = k * 6
+        if len(text) == 2 and text[0] == " " and k == 1:
+            x = LEADING_SPACE_X
+        d.text((x - bbox[0], BASELINE_ROW - ascent), ch, font=font, fill=0)
+    if "…" in text:
+        img = shift_image_down(img, 3)
     img = img.point(lambda v: 0 if v < 140 else 255)
     px = img.load()
     out = bytearray(GLYPH_BYTES)
@@ -75,6 +89,12 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
         if px[i % GLYPH_W, i // GLYPH_W] == 0:
             out[i // 8] |= 1 << (7 - (i % 8))
     return bytes(out)
+
+
+def shift_image_down(img: Image.Image, dy: int) -> Image.Image:
+    out = Image.new("L", img.size, 255)
+    out.paste(img.crop((0, 0, img.width, img.height - dy)), (0, dy))
+    return out
 
 
 def main() -> None:
@@ -119,6 +139,8 @@ def main() -> None:
     fonts = pick_fonts(args.font, args.font_size)
     data = bytearray(Path(args.system_bin).read_bytes())
     for tok, ch in assignments.items():
+        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts)
+    for tok, ch in NATIVE_VISUAL_OVERRIDES.items():
         data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts)
 
     out_bin = Path(args.out_system_bin)

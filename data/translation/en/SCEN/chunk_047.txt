@@ -29,7 +29,7 @@
 27	<$FB00><$0015>If you want it quick,<$FFFC>you'll cooperate with us.<$FFFE>
 28	<$FB00><$0016>Here, the toll. 20 for<$FFFC>the two of us.<$FFFE>
 29	<$FB00><$0017>Not nearly enough<$FFF5><$FFF8>…<$FFFE>
-30	<$FB00><$0018>What！？ What do you<$FFFC>mean？<$FFFE>
+30	<$FB00><$0018>What！？ What do you mean？<$FFFE>
 31	<$FB00><$0019>You look too well-off<$FFFC>for plain adventurers.<$FFFD>The toll for you is<$FFFC>more like 100. For two, 200.<$FFFE>
 32	<$FB00><$001A>200？ That's ten times<$FFFC>the usual！<$FFFE>
 33	<$FB00><$001B>Now, if the little lady<$FFFC>pays with her body, I might<$FFFC>knock it down a bit？<$FFFE>

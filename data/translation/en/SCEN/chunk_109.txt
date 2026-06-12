@@ -46,7 +46,7 @@
 44	Transport Airship Bridge<$FFFF>
 45	<$FFF8>…<$FFF6><$FB00><$006B>Kh！ What was that！<$FFFE>
 46	<$FB00><$006C>Magitek cannon fire！<$FFFE>
-47	<$FB00><$006D>A Magitek cannon！？<$FFFC>…The surface faction！ Where were<$FFFC>we hit？<$FFFE>
+47	<$FB00><$006D>A Magitek cannon！？ …The<$FFFC>surface faction！ Where were we<$FFFC>hit？<$FFFE>
 48	<$FB00><$006E>The drive is hit！ No<$FFFC>control！ No control！<$FFFE>
 49	<$FB00><$006F>Emergency landing！<$FFFE>
 50	Federation Castle, Audience Hall<$FFFF>

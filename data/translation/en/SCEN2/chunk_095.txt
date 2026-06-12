@@ -99,7 +99,7 @@
 97	<$FB00><$010C>Then that demon was after<$FFFC>that sword？<$FFFE>
 98	<$FB00><$00ED>Demon？ What happened？ Tell<$FFFC>me everything.<$FFFE>
 99	<$FB00><$00EE>Jessica had Alhazard and<$FFFC>Langrisser, but demons attacked and<$FFFC>stole both swords.<$FFFE>
-100	<$FB00><$00EF>What！？ Alhazard is in<$FFFC>demon hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！ If I'd been<$FFFC>here, that never would have<$FFFC>happened！<$FFFE>
+100	<$FB00><$00EF>What！？ Alhazard is in demon<$FFFC>hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！ If I'd been<$FFFC>here, that never would have<$FFFC>happened！<$FFFE>
 101	<$FB00><$00F1>Good, you're back.<$FFFD><$FB00><$00F2>We were just hearing about<$FFFC>those swords, and it sounds bad.<$FFFE>
 102	<$FB00><$00F3>Bad？<$FFFE>
 103	<$FB00><$00F4>According to McLaine, one<$FFFC>sword holds dark power<$FFF5><$FFF8>…<$FFFE>

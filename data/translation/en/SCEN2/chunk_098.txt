@@ -61,7 +61,7 @@
 59	<$FB00><$009B>W-well<$FFF5><$FFF8>…<$FFFE>
 60	<$FB00><$009C>What is it, Emily？ Speak<$FFFC>clearly.<$FFFE>
 61	<$FB00><$009D>Alvince of Reynorz and<$FFF5><$FFF8>…<$FE3C>…<$FFFC><$FE3C><$FFF6><$FB00><$009E>Lambert of Sutherland…<$FFFE>
-62	<$FB00><$009F>Sutherland<$FFF5><$FFF8>…<$FE14>… <$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00A0>My<$FFFC>father！？<$FFF5><$FFF7><$FFFE>
+62	<$FB00><$009F>Sutherland<$FFF5><$FFF8>…<$FE14>… <$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00A0>My father！？<$FFF5><$FFF7><$FFFE>
 63	<$FB00><$00A1>I could hardly believe it<$FFFC>either. But<$FFF5><$FFF8>…<$FFFE>
 64	<$FFF8><$FFFA>…<$FFFD><$FFF6><$FB00><$00A3>Even if he is my father,<$FFFC>I can't ignore a threat to the<$FFFC>Federation.<$FFFD><$FFF9><$FB00><$00A4>Gather troops. I will<$FFFC>command them.<$FFFE>
 65	<$FB00><$00A5>But, Lord Lanford<$FFF5><$FFF8>…<$FFFE>

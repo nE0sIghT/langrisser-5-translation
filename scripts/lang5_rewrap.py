@@ -39,10 +39,11 @@ PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
 PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
-# Chunks whose dialogue window keeps the speaker plate across records that
-# carry no FB00 marker of their own (the quiz Operator window: record 199
-# engine-broke at exactly 21 minus the plate width in-game).
-ALWAYS_PLATED = {0}
+# Records whose window keeps the previous speaker plate even though the
+# record carries no FB00 marker of its own. Quiz prompts with their own FB00
+# markers are not plated in-game; record 199 engine-broke at exactly 21 minus
+# the Operator plate width during playtest, so only that tail prompt is forced.
+FORCE_PLATED_RECORDS = {(0, 199)}
 
 
 def cells(codec: Codec, text: str) -> int:
@@ -269,7 +270,6 @@ def main() -> None:
                 records.append(tuple(raw.split("\t", 1)))
         chunk_idx = int(fp.stem.split("_")[1])
         chunk_reserve = plate_reserve(codec, records, pool_sizes.get(chunk_idx))
-        force_plate = chunk_idx in ALWAYS_PLATED
         width = args.width
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
@@ -297,6 +297,9 @@ def main() -> None:
                     print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
+                force_plate = (chunk_idx, int(idx)) in FORCE_PLATED_RECORDS
+                if chunk_idx == 0 and not force_plate:
+                    reserve = 0
                 new_text = reflow_record(codec, text, width, reserve, force_plate)
                 # Page height check: lines between page/terminator controls.
                 for page in re.split(r"<\$FFFD>|<\$FFFE>|<\$FFFF>", new_text):

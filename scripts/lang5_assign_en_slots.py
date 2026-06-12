@@ -19,8 +19,11 @@ from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, wor
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 WORD_RE = re.compile(r"[A-Za-z'.,0-9]+")
+SPACE_LETTER_RE = re.compile(r" ([A-Za-z0-9])")
+PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
 SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…"
 PAIR_TAIL = set("abcdefghijklmnopqrstuvwxyz'.,0123456789")
+PUNCT_PAIRS = ("！？", "？！")
 
 
 def word_pairs(w: str):
@@ -39,12 +42,15 @@ def word_pairs(w: str):
 
 
 def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
-    """Return (singles, menu_pairs, script_pairs).
+    """Return (singles, menu_pairs, spacing_pairs, script_pairs).
 
     Menu labels must fit fixed slot counts, so they get the full pairing
     rules (capital-initial, digits, punctuation) and absolute priority.
-    Script dialogs have room: lowercase pairs only, prioritized by
-    frequency, assigned while the sacrificial pool lasts.
+    Spacing pairs are optional encodings that improve readability and save
+    tokens: leading-space pairs render as a narrow inter-word gap, while
+    punctuation-space pairs render punctuation plus a narrow trailing gap.
+    Script dialogs have room: lowercase pairs only, prioritized by frequency,
+    assigned while the sacrificial pool lasts.
     """
     script_texts: list[str] = []
     for fp in sorted(en_dump_dir.glob("*/chunk_*.txt")):
@@ -58,11 +64,16 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
 
     singles: set[str] = set()
     menu_pairs: collections.Counter = collections.Counter()
+    spacing_pairs: collections.Counter = collections.Counter()
     script_pairs: collections.Counter = collections.Counter()
     for t in script_texts + menu_texts:
         for ch in t:
             if ch in SINGLES:
                 singles.add(ch)
+        spacing_pairs.update(" " + m.group(1) for m in SPACE_LETTER_RE.finditer(t))
+        spacing_pairs.update(m.group(1) + " " for m in PUNCT_SPACE_RE.finditer(t))
+    for p in PUNCT_PAIRS:
+        spacing_pairs[p] += 1_000_000
     for t in menu_texts:
         for m in WORD_RE.finditer(t):
             for p in word_pairs(m.group(0)):
@@ -71,7 +82,7 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
         for m in WORD_RE.finditer(t):
             for p in word_pairs(m.group(0)):
                 script_pairs[p] += 1
-    return singles, menu_pairs, script_pairs
+    return singles, menu_pairs, spacing_pairs, script_pairs
 
 
 def decode_run_key(words: list[int], tok2char: dict[int, str]) -> str:
@@ -175,11 +186,13 @@ def main() -> None:
 
     maps = [Path(p) for p in (args.menu_map or
             ["data/translation/system_menu_map.json", "data/translation/names_map.json"])]
-    singles, menu_pairs, script_pairs = needed_units(Path(args.en_dump), maps)
+    singles, menu_pairs, spacing_pairs, script_pairs = needed_units(Path(args.en_dump), maps)
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
-    optional = [p for p, _ in script_pairs.most_common()
+    optional = [p for p, _ in spacing_pairs.most_common()
                 if p not in existing and p not in must]
+    optional += [p for p, _ in script_pairs.most_common()
+                 if p not in existing and p not in must and p not in optional]
 
     taken = set(existing.values())
     # BTLDAT/MRCUSW/SLPS are mostly code/data whose pseudo-runs would
@@ -216,7 +229,11 @@ def main() -> None:
                      "replaced_char": gmap.get(slot, "")})
 
     with apath.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["index_dec", "en_char", "replaced_char"])
+        w = csv.DictWriter(
+            f,
+            fieldnames=["index_dec", "en_char", "replaced_char"],
+            lineterminator="\n",
+        )
         w.writeheader()
         w.writerows(rows)
     print(f"added {len(need)} assignments (total {len(rows)})")

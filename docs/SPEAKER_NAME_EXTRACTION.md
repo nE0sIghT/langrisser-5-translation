@@ -29,12 +29,11 @@ path in an emulator during playtests instead of proving it statically.
 
 `scripts/lang5_speakers.py` stays as a conservative evidence dumper.
 
-## Goal
+## Archived Static-Extraction Goal
 
-The rewrapper must know the visible speaker plate before each dialogue segment
-so it can reserve the correct number of cells on the first rendered line. A
-single conservative reserve per chunk causes bad line breaks, especially in
-mixed-speaker records such as chunk 45.
+This was the original goal before the parked decision above. It is kept as
+historical context only. The shipped wrapper now uses the chunk-wide speaker
+pool bound, not exact per-line speaker extraction.
 
 The target output is a reproducible extractor:
 
@@ -92,10 +91,11 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | DONE | Integrate pool-bound plate reserves into `lang5_rewrap.py`. | Reserve = widest plate of the VM-header speaker pool; plates capped at 5 cells. | Closed by the Decision section. |
 | DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
 
-## Current Work Plan
+## Archived Work Plan
 
-Work in this exact order unless a step becomes impossible for a documented
-reason.
+Do not execute this plan for wrapping polish unless the parked decision is
+explicitly reversed. It remains here to prevent repeating already tested
+reverse-engineering paths.
 
 1. Make `scripts/lang5_speakers.py` conservative. DONE.
    - Remove any `confirmed` result based only on the rejected high-byte
@@ -138,14 +138,14 @@ reason.
    - Result: `0x7b` reads one ignored byte, then one of two relative skip
      lengths. For chunk 45 at rel `0x0246`, the possible next offsets are
      `0x024c` and `0x025c`.
-6. Continue bytecode tracing after the first `0x7b` branch. ACTIVE.
+6. Continue bytecode tracing after the first `0x7b` branch. PARKED.
    - Extend the known opcode length set from disassembly whenever `--trace-out`
      stops.
    - Keep branch targets as CFG evidence unless the runtime condition is fully
      modeled.
    - Success criterion: chunk 45 trace reaches the end of its reachable display
      command graph without unknown opcodes.
-7. Resolve non-linear entry/control flow for chunks 65 and 107. ACTIVE.
+7. Resolve non-linear entry/control flow for chunks 65 and 107. PARKED.
    - Linear trace from header stream start reaches `opcode 00` with skip length
      `0xfc00`.
    - Determine whether this is an intentional stream exit, alternate entrypoint,

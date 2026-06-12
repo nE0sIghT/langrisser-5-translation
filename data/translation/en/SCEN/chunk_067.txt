@@ -22,7 +22,7 @@
 20	<$FB00><$000D>I see. So that's how it<$FFFC>is. I have outlived my use<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 21	<$FB00><$000E>What are you muttering<$FFFC>about？<$FFFE>
 22	<$FB00><$000F>Everyone, I'm sorry. This<$FFFC>is all my fault<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-23	<$FB00><$0010>What！？ What do you<$FFFC>mean？<$FFFE>
+23	<$FB00><$0010>What！？ What do you mean？<$FFFE>
 24	<$FB00><$0011>I was a spy Gilmore<$FFFC>planted on you.<$FFFD><$FB00><$0012>Leaking Salrath's march<$FFFC>route, burning that airship, that<$FFFC>was all me！<$FFFD><$FB00><$0013>Gilmore's man watched<$FFFC>me, posing as my servant, so I<$FFFC>could not speak until now.<$FFFD><$FB00><$0014>Sometime today he<$FFFC>disappeared from sight<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 25	<$FB00><$0015>You！ How could you<$FFFC>sell out your own fiancee！ And<$FFFC>you call yourself a man？<$FFFE>
 26	<$FB00><$0016>I had no choice！<$FFFC>Gilmore hooked me on a drug.<$FFFC>Without regular doses, I go mad.<$FFFD>But I wanted to save<$FFFC>Clarett at least.<$FFFD><$FB00><$0017>They would not attack<$FFFC>while I was at her side, so I<$FFFC>stayed close<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>

@@ -33,7 +33,7 @@ image in `iso/` (not in git).
 | Path | What it is |
 | --- | --- |
 | `data/font_mapping/groups_report.csv` | the font table: glyph index → character (JP original) |
-| `data/font_mapping/en_slot_assignments.csv` | which rare-kanji slots were given to new glyphs (letters and letter pairs) |
+| `data/font_mapping/en_slot_assignments.csv` | which rare-kanji slots were given to new glyphs (letters, letter pairs, spacing pairs) |
 | `data/fonts/` | bitmap fonts used to render new glyphs (Spleen 6x12 BDF, PixelMplus TTF) |
 | `data/translation/en/SCEN/chunk_NNN.txt` | translated chunks (the build input) |
 | `data/translation/names_base.csv` | item/class/spell/NPC name glossary (jp,en,alt) |
@@ -84,7 +84,8 @@ into slots of rarely-used kanji:
    `glyph index → new character → sacrificed kanji`. For another language,
    make the same kind of file for its alphabet: single letters and/or
    two-letter pairs (a pair packs two 6px letters into one 12x12 cell and
-   halves the byte cost of text).
+   halves the byte cost of text), narrow `space+letter` pairs, and
+   `punctuation+space` pairs.
    `scripts/lang5_assign_en_slots.py` picks sacrificial slots automatically
    from kanji that the translated text no longer needs.
 2. `scripts/lang5_build_en_font.py` renders the assignments into the font
@@ -92,7 +93,10 @@ into slots of rarely-used kanji:
    uses. To use a different font, pass `--font path/to/font.bdf` (or `.ttf`)
    and `--font-size`; the font must contain your alphabet's glyphs and fit a
    12px grid with the baseline on row 10 (the native glyph baseline).
-   Verify the result visually with `scripts/lang5_font_review.py`.
+   The EN build also redraws the native digits, question, exclamation and
+   colon glyphs to match the bitmap Latin font, and lowers the ellipsis to
+   the text baseline. Verify the result visually with
+   `scripts/lang5_font_review.py`.
 
 Caveat: until the whole script is translated, a sacrificed kanji shows up
 as the new glyph in untranslated lines.
@@ -110,11 +114,13 @@ Edit the staging file, translating record by record:
 
 - keep every `<$XXXX>` control tag and its position relative to the text;
   only `<$FFFC>`/`<$FFFD>` line/page breaks may be moved, added or removed;
-- the text window is 21 cells wide (a lowercase pair is one cell, a space
-  or capital is one cell, the player-name macro counts as 8) and a page
-  holds up to 4 lines; don't worry about exact line breaks — the re-wrapper
-  handles them, reserving the chunk's widest speaker-plate width on the
-  first line of each spoken page (keep plate names at 5 cells or less);
+- the text window is 21 cells wide (a lowercase pair is one cell, a narrow
+  `space+letter` or `punctuation+space` pair is one cell when assigned, the
+  player-name macro counts as 8) and a page holds up to 4 lines; write normal
+  spaces and punctuation in the text files — the encoder picks the compact
+  glyphs automatically. Don't worry about exact line breaks: the re-wrapper
+  handles them, reserving the chunk's widest speaker-plate width on the first
+  line of each spoken page (keep plate names at 5 cells or less);
 - choice records (starting with `・`) must stay single-line;
 - the font has no `; — – !? /` — use `,` and full-width `！？`.
 
