@@ -10,16 +10,16 @@
 8	Lambert<$FFFF>
 9	Alvince<$FFFF>
 10	Rockwell's chambers<$FFFF>
-11	<$FB00><$0080>Oh, Lambert<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$0081>Good of you to come.<$FFFE>
+11	<$FB00><$0080>Oh, Lambert<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0081>Good of you<$FFFC>to come.<$FFFE>
 12	<$FB00><$0082>What's this, Rockwell？ Felled by<$FFFC>so slight an illness. You've grown<$FFFC>old.<$FFFE>
 13	<$FB00><$0083>Listen to you.<$FFFD>Those eyes of yours aren't what<$FFFC>they were either. They used to<$FFFC>hold more confidence.<$FFFE>
 14	<$FB00><$0084>Hahah. We've both grown old.<$FFFD>I miss those days we spent<$FFFC>adventuring together.<$FFFE>
 15	<$FB00><$0085>Indeed. Back before either of us<$FFFC>had even married.<$FFFE>
 16	<$FB00><$0086>Yes. Our last adventure was<$FFFC>nearly 30 years ago now.<$FFFE>
-17	<$FB00><$0087>And now we both have fine sons<$FFF5><$FFF8>‥‥.<$FFFE>
+17	<$FB00><$0087>And now we both have fine sons<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 18	<$FFFA><$FFF8>‥‥‥。<$FFFE>
-19	<$FB00><$0088>Forgive me, Lambert. Your eldest<$FFF5><$FFF8>‥‥.<$FFFE>
-20	<$FB00><$0089>No, don't mind it.<$FFFD>No amount of grief will bring<$FFFC>Clifford back.<$FFF5><$FFF8><$FFFC>‥‥<$FFF6><$FB00><$008A>It's all in the past now.<$FFFE>
+19	<$FB00><$0088>Forgive me, Lambert. Your eldest<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
+20	<$FB00><$0089>No, don't mind it.<$FFFD>No amount of grief will bring<$FFFC>Clifford back. <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$008A>It's all in<$FFFC>the past now.<$FFFE>
 21	<$FB00><$008B>Still, when I think of what<$FFFC>befell Clifford, I find no peace.<$FFFD>When might it come for me<$FFF5><$FFF8>‥‥.<$FFFE>
 22	<$FB00><$008C>Don't worry. That was chance, an<$FFFC>accident.<$FFFD>If you've strength to fret over<$FFFC>that, put it into curing your<$FFFC>illness.<$FFFE>
 23	<$FB00><$008D>Father, I've brought your<$FFFC>medicine.<$FFFE>

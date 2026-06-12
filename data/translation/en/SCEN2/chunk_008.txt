@@ -18,7 +18,7 @@
 16	<$FB00><$0033>Huh？ Federation soldiers<$FFF5><$FFF8>‥‥.<$FFFE>
 17	<$FFF8>‥‥<$FFF6><$FB00><$0034>And we were almost there<$FFF5><$FFF8>‥‥.<$FFFE>
 18	<$FB00><$0035>Hm？ Who are you？ Wander here<$FFFC>and you'll be taken for<$FFFC>Gizarof's men.<$FFFE>
-19	<$FFF8>‥‥<$FFF6><$FB00><$0036>Wait. That man matches the one<$FFFC>who wounded the Caconsis<$FFFC>admiral, does he not？<$FFFD><$FB00><$0037>You there, come with us.<$FFFE>
+19	<$FFF8>‥‥<$FFF6><$FB00><$0036>Wait. That man matches the<$FFFC>one who wounded the Caconsis<$FFFC>admiral, does he not？<$FFFD><$FB00><$0037>You there, come with us.<$FFFE>
 20	<$FB00><$0038>What now？<$FFFE>
 21	<$FB00><$0039>Do as they say, and they'll<$FFFC>learn we really ARE with<$FFFC>Gizarof.<$FFFE>
 22	<$FFF8>‥‥<$FFF6><$FB00><$003A>Nothing for it but to force<$FFFC>our way. Everyone, across that<$FFFC>bridge！<$FFFE>
@@ -40,7 +40,7 @@
 38	The wind-blown ticket hangs<$FFFC>caught on a branch. Take it？<$FFFE>
 39	<$0000><$FFFC>Got the <$FFF4>Special invitation<$FFF3>！<$FFFE>
 40	You give up on the ticket.<$FFFE>
-41	To do this well against my troops<$FFF8>‥‥.<$FFFC><$FFF6>Who is that man？<$FFFE>
+41	To do this well against my troops<$FFFC><$FFF8>‥‥. <$FFF6>Who is that man？<$FFFE>
 42	That woman looks skilled. Fighting<$FFFC>her is risky<$FFF8>‥‥.<$FFFE>
 43	That's Emily, a famed Federation<$FFFC>officer. Fighting her now is<$FFFC>pointless.<$FFFE>
 44	Then we'd best stick to the<$FFFC>plan and cross that bridge.<$FFFE>
@@ -73,12 +73,12 @@
 71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them and<$FFFC>they attacked！<$FFFD>And one looks like the man<$FFFC>who wounded the Caconsis<$FFFC>admiral‥‥.<$FFFE>
 72	<$FB00><$0041>Gizarof's remnants, then<$FFF5><$FFF8>‥‥？<$FFFD><$FFF6><$FB00><$0042>Very well. I'll join you！<$FFFC>Capture them！<$FFFE>
 73	<$FB00><$0043>Yes, ma'am！<$FFFE>
-74	<$FB00><$0044>Kh！ They've crossed the bridge<$FFF5><$FFF8>‥‥.<$FFFE>
+74	<$FB00><$0044>Kh！ They've crossed the bridge<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 75	<$FB00><$0045>But we haven't lost them yet！<$FFFC>Let's give chase！<$FFFE>
 76	<$FB00><$0046>No！ If they drop the bridge<$FFFC>mid-crossing, we're done for.<$FFFE>
 77	<$FB00><$0047>Chase too far and they'll drop<$FFFC>the bridge on us<$FFF5><$FFF8>‥‥.<$FFFD>‥‥<$FFF6><$FB00><$0048>No choice. We give up the<$FFFC>pursuit<$FFF5><$FFF8>‥‥.<$FFFE>
-78	<$FB00><$0049>Kh！ I'd give chase, but we<$FFFC>can't leave Lady Emily<$FFF5><$FFF8>‥‥.<$FE1E><$FFFC><$FFF6><$FB00><$004A>We pull back for now！<$FFFE>
+78	<$FB00><$0049>Kh！ I'd give chase, but we<$FFFC>can't leave Lady Emily<$FFF5><$FFF8>‥‥. <$FE1E><$FFF6><$FB00><$004A>We<$FFFC>pull back for now！<$FFFE>
 79	<$FB00><$004B>Seems they're not following.<$FFFC>Good, let's press on while we<$FFFC>can.<$FFFE>
-80	<$FFF8>Kh！<$FFFC><$FFF6>The enemy crossed the bridge<$FFF8>‥‥.<$FFFC><$FFF6>We must beat those across<$FFF8>‥‥.<$FFFE>
+80	<$FFF8>Kh！ <$FFF6>The enemy crossed the<$FFFC>bridge<$FFF8>‥‥. <$FFF6>We must beat those<$FFFC>across<$FFF8>‥‥.<$FFFE>
 81	Victory terms changed！<$FFFC><$0000><$FFFC>・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
 82	・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>

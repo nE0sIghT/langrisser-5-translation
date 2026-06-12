@@ -20,10 +20,10 @@
 18	<$FB00><$0032>Oh？ You don't know you're<$FFFC>wanted as an accomplice in the<$FFFC>Emperor's murder？<$FFFE>
 19	<$FB00><$0033>An accomplice？ Me？ That man did<$FFFC>the killing！<$FFFE>
 20	<$FB00><$0034>We know you plotted with him to<$FFFC>murder the Emperor.<$FFFD>Now come along quietly, my 5<$FFFC>million gold bounty！<$FFFE>
-21	<$FFF8>‥‥<$FFF6><$FB00><$0035>Kh！ Lady Jessica, I'm sorry to<$FFFC>drag you into this.<$FFFE>
+21	<$FFF8>‥‥<$FFF6><$FB00><$0035>Kh！ Lady Jessica, I'm sorry<$FFFC>to drag you into this.<$FFFE>
 22	<$FB00><$0036>It seems this land, too, has<$FFFC>changed while we were away.<$FFFE>
-23	<$FB00><$0037>That's<$FFF5><$FFF7>‥‥<$FFF6><$FB00><$0038>Clarett and her friends！<$FFFE>
-24	<$FB00><$0039>That Jessica woman seems to be<$FFFC>with her too.<$FFF5><$FFFC><$FFF8>‥‥<$FFF6><$FB00><$003A>But something seems off, no？<$FFFE>
+23	<$FB00><$0037>That's<$FFF5><$FFF7>‥‥<$FFF6><$FB00><$0038>Clarett and her<$FFFC>friends！<$FFFE>
+24	<$FB00><$0039>That Jessica woman seems to be<$FFFC>with her too. <$FFF5><$FFF8>‥‥<$FFF6><$FB00><$003A>But something<$FFFC>seems off, no？<$FFFE>
 25	<$FB00><$003B>That's more than odd！ Those<$FFFC>soldiers mean to take them！<$FFFE>
 26	<$FB00><$003C>Sir！？ An armed band has<$FFFC>appeared over there！<$FFFE>
 27	<$FFF8>‥‥<$FFF6><$FB00><$003D>Th, that man<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -41,12 +41,12 @@
 39	・The gray phial<$FFFE>
 40	You take the purple phial. The<$FFFC>gray one drops into the dark.<$FFFD>You drink it. Your body burns<$FFFC>for a moment, but the poisons<$FFFC>seem to wash away.<$FFFD><$0000><$FFFC>Got the skill <$FFF4>Antidote<$FFF3>！<$FFFE>
 41	You take the gray phial. The<$FFFC>purple one drops into the dark.<$FFFD>You drink it. For a time your<$FFFC>body feels heavy as lead.<$FFFD><$0000><$FFFC>Got the skill <$FFF4>Ston 4<$FFF3>！<$FFFE>
-42	<$FFF8>‥‥<$FFF6><$FB00><$006F>Me, the Royal Guard captain！？<$FFFE>
-43	<$FB00><$0070>So he said. And by the sound<$FFFC>of it, Clarett is the slain<$FFFC>Emperor's daughter<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0071>a princess, that is.<$FFFE>
+42	<$FFF8>‥‥<$FFF6><$FB00><$006F>Me, the Royal Guard<$FFFC>captain！？<$FFFE>
+43	<$FB00><$0070>So he said. And by the sound<$FFFC>of it, Clarett is the slain<$FFFC>Emperor's daughter<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0071>a princess,<$FFFC>that is.<$FFFE>
 44	<$FB00><$0072>Guilty or not, with bounties on<$FFFC>your heads, the road ahead looks<$FFFC>rough<$FFF5><$FFF8>‥‥.<$FFFE>
 45	<$FB00><$0073>I'm sorry<$FFF5><$FFF8>‥‥.<$FFFE>
 46	<$FB00><$0074>You've nothing to apologize for.<$FFFC>Besides, we may learn something<$FFFC>about you here.<$FFFE>
-47	<$FB00><$0075>So I once walked this continent<$FFF5><$FFF8>‥‥.<$FFFE>
+47	<$FB00><$0075>So I once walked this continent<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 48	<$FB00><$0030>So this was the limit of my<$FFFC>strength‥‥<$FFFE>
 49	<$FB00><$003A>Kh‥‥ that one hurt‥‥.<$FFFE>
 50	<$FB00><$003B>Leave the rest to me！<$FFFE>
@@ -63,7 +63,7 @@
 61	No‥‥. I failed to protect<$FFFC>them‥‥.<$FFFE>
 62	No‥it can't be‥‥. With<$FFFC>Langrisser still taken‥‥<$FFFE>
 63	No‥‥. I failed to protect<$FFFC>them‥‥.<$FFFE>
-64	<$FFF8><$FB00><$0076>Ggh‥‥<$FFF5><$FFF6><$FB00><$0077>How dare you‥‥.<$FFF5><$FFFC><$FB00><$0078>But return now, and you'll find<$FFFC>no home waiting for you！<$FFFE>
+64	<$FFF8><$FB00><$0076>Ggh‥‥<$FFF5><$FFF6><$FB00><$0077>How dare you‥‥. <$FFF5><$FB00><$0078>But<$FFFC>return now, and you'll find no<$FFFC>home waiting for you！<$FFFE>
 65	<$FB00><$0079>What do you mean by that？<$FFFE>
 66	<$FB00><$007A>True or false, you'll be hunted as<$FFFC>the Emperor's killer along with<$FFFC>that man.<$FFFD><$FB00><$007B>Word of this battle will soon<$FFFC>reach the new Emperor's ears.<$FFFE>
 67	<$FB00><$007C>New Emperor？<$FFFE>
@@ -74,7 +74,7 @@
 72	<$FB00><$0082>Thank you so much.<$FFFE>
 73	<$FB00><$0083>Th, thank you<$FFF5><$FFF8>‥‥.<$FFFE>
 74	<$FB00><$0084>Let's get out of sight, and<$FFFC>quickly. Pursuers could come at<$FFFC>any time.<$FFFE>
-75	<$FFF7><$FB00><$0085>Sigh<$FFF5>‥‥.<$FFFC><$FFF6><$FB00><$0086>I dread the road ahead of us.<$FFFE>
+75	<$FFF7><$FB00><$0085>Sigh<$FFF5>‥‥. <$FFF6><$FB00><$0086>I dread the road<$FFFC>ahead of us.<$FFFE>
 76	<$FB00><$005F>Capture Princess Clarett first！<$FFFC>The man can wait his turn！<$FFFC>He's skilled, stay sharp！<$FFFE>
 77	<$FB00><$0061>‥M‥my lord Marquis！！<$FFFE>
 78	Y, you're good‥‥<$FFFE>
@@ -129,7 +129,7 @@
 127	Come by the center passage！<$FFFE>
 128	Come by the west passage！<$FFFE>
 129	All right.<$FFFE>
-130	Three passages lead toward you<$FFF8>‥‥.<$FFFC><$FFF6>Which one should I take？<$FFFE>
+130	Three passages lead toward you<$FFFC><$FFF8>‥‥. <$FFF6>Which one should I take？<$FFFE>
 131	East passage<$FFFF>
 132	Center passage<$FFFF>
 133	West passage<$FFFF>
@@ -156,10 +156,10 @@
 154	<$FB00><$0055>You mean I've been to this<$FFFC>continent before？<$FFFE>
 155	<$FB00><$0056>Yes.<$FFFE>
 156	<$FB00><$0057>You mean I'm the one who<$FFFC>killed the Emperor？<$FFFE>
-157	<$FFF8><$FFFA>‥‥<$FFF6><$FB00><$0058>I'm sorry. I don't mean to say<$FFFC>you're the killer.<$FFFE>
+157	<$FFF8><$FFFA>‥‥<$FFF6><$FB00><$0058>I'm sorry. I don't mean to<$FFFC>say you're the killer.<$FFFE>
 158	<$FB00><$0059>You mean to say I'm lying？<$FFFE>
-159	<$FFF8><$FFFA>‥‥<$FB00><$005A>I'm sorry. I don't mean to call<$FFFC>you a liar.<$FFFE>
-160	<$FFFA><$FB00><$005B>Gizarof's procedures may simply<$FFFC>have taken those memories.<$FFFC><$FFF9>Like me<$FFF5><$FFF8>‥‥.<$FFFE>
+159	<$FFF8><$FFFA>‥‥<$FB00><$005A>I'm sorry. I don't mean to<$FFFC>call you a liar.<$FFFE>
+160	<$FFFA><$FB00><$005B>Gizarof's procedures may simply<$FFFC>have taken those memories. <$FFF9>Like<$FFFC>me<$FFF5><$FFF8>‥‥.<$FFFE>
 161	<$FB00><$005C>I hope you can find your true<$FFFC>self here.<$FFFE>
 162	<$FB00><$005D>Lambda<$FFF5><$FFF8>‥‥.<$FFFE>
 163	<$FB00><$005E>Anyway, right now we've got<$FFFC>two people to save！<$FFFE>
@@ -167,7 +167,7 @@
 165	<$FB00><$0062>What are you doing！ Losing to<$FFFC>nameless riffraff like these！<$FFFE>
 166	<$FB00><$0063>Milord Marquis, perfect timing！<$FFFE>
 167	<$FB00><$0065>Marquis Creid！？<$FFFE>
-168	<$FB00><$0066>My, my. If it isn't Princess<$FFFC>Clarett. And that face beside her<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$0067>I see. No wonder my men have<$FFFC>struggled so.<$FFFE>
+168	<$FB00><$0066>My, my. If it isn't Princess<$FFFC>Clarett. And that face beside her<$FFFC><$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$0067>I see. No wonder my men have<$FFFC>struggled so.<$FFFE>
 169	<$FFF8>‥‥‥.<$FFFE>
 170	<$FB00><$0068>Lord Creid, what is the meaning<$FFFC>of this？<$FFFD>Explain why a bounty hangs over<$FFFC>my head！<$FFFE>
 171	<$FB00><$0069>You are wanted as an accomplice<$FFFC>in the Emperor's murder.<$FFFE>

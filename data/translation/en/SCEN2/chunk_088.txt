@@ -11,7 +11,7 @@
 9	<$FB00><$0058>Excuse me. Does this store carry<$FFFC>the herb Florier？<$FFFE>
 10	<$FB00><$0059>Florier？ The fever medicine,<$FFFC>yes？<$FFFE>
 11	<$FB00><$005A>Yes. So, do you have any？<$FFFE>
-12	<$FFF8>‥‥<$FFF6><$FB00><$005B>I'm afraid we don't. That herb is<$FFFC>rarely ever found<$FFF5><$FFF8>‥‥.<$FFFE>
+12	<$FFF8>‥‥<$FFF6><$FB00><$005B>I'm afraid we don't. That herb<$FFFC>is rarely ever found<$FFF5><$FFF8>‥‥.<$FFFE>
 13	<$FB00><$005C>And something that expensive is<$FFFC>more than our shop can stock.<$FFFE>
 14	<$FB00><$005D>Then where should I go to find<$FFFC>some？<$FFFE>
 15	<$FB00><$005E>That's hard to say<$FFF5><$FFF8>‥‥.<$FFFE>
@@ -21,7 +21,7 @@
 19	<$FB00><$0062>Y, yes？<$FFFE>
 20	<$FB00><$0063>I overheard you talking with<$FFFC>the shopkeeper.<$FFFD>You're looking for fever<$FFFC>medicine？<$FFFE>
 21	‥‥<$FB00><$0064>That's right. My father is down<$FFFC>with a fever, so I'm out<$FFFC>searching<$FFF5>‥‥.<$FFFE>
-22	<$FB00><$0065>I see, your father<$FFF5>‥‥.<$FFFC><$FB00><$0074>Say, shall I share my medicine？<$FFFE>
+22	<$FB00><$0065>I see, your father<$FFF5>‥‥. <$FB00><$0074>Say,<$FFFC>shall I share my medicine？<$FFFE>
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
 24	<$FB00><$0067>Not Florier, but a medicine from<$FFFC>my home continent. It works well.<$FFFE>
 25	<$FB00><$0068>Please, let me have it！ I'll<$FFFC>pay whatever it takes！<$FFFE>
@@ -42,9 +42,9 @@
 40	・I know it.<$FFFE>
 41	・Remind me, just in case.<$FFFE>
 42	Good. So you know that part.<$FFFE>
-43	Defeating enemy mercenaries or<$FFFC>leaders earns us experience,<$FFFC><$FFF4>EXP<$FFF3> for short.<$FFFD>Defeat a leader and his unit<$FFFC>falls with him.<$FFFD>But mercenaries lost that way<$FFFC>give <$FFF4>half the EXP of direct kills<$FFF3>.<$FFFE>
+43	Defeating enemy mercenaries or<$FFFC>leaders earns us experience,<$FFFC><$FFF4>EXP <$FFF3>for short.<$FFFD>Defeat a leader and his unit<$FFFC>falls with him.<$FFFD>But mercenaries lost that way<$FFFC>give <$FFF4>half the EXP of direct<$FFFC>kills<$FFF3>.<$FFFE>
 44	So to earn proper experience,<$FFFC>better cut down the mercenaries<$FFFC>first？<$FFFE>
-45	Yes. Though <$FFF4>the gold comes in full<$FFF3>, so don't fret over it.<$FFFE>
+45	Yes. Though <$FFF4>the gold comes in<$FFFC>full<$FFF3>, so don't fret over it.<$FFFE>
 46	Mercenaries first, then, and when<$FFFC>pressed, go straight for the<$FFFC>leader‥‥.<$FFFE>
 47	Last one. What about the other<$FFFC>ways to earn experience？<$FFFE>
 48	・I know it.<$FFFE>
@@ -52,7 +52,7 @@
 50	Good. Then that's all.<$FFFE>
 51	Trust my knowledge a little,<$FFFC>will you.<$FFFE>
 52	Remind me, just in case.<$FFFE>
-53	Healing spells like the Heal line<$FFFC>or Cure earn EXP <$FFF4>per person healed<$FFF3>.<$FFFD>But past a certain turn it<$FFFC>stops coming, and each stage<$FFFC>has a cap on it.<$FFFE>
+53	Healing spells like the Heal line<$FFFC>or Cure earn EXP <$FFF4>per person<$FFFC>healed<$FFF3>.<$FFFD>But past a certain turn it<$FFFC>stops coming, and each stage<$FFFC>has a cap on it.<$FFFE>
 54	What about other magic？<$FFFE>
 55	No. Other spells work like normal<$FFFC>attacks, EXP comes from kills.<$FFFE>
 56	Meaning when a leader falls, his<$FFFC>mercenaries go too, at half the<$FFFC>EXP.<$FFFE>

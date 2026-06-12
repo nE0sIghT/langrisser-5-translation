@@ -185,8 +185,13 @@ class Codec:
         return "".join(out)
 
     def encode(self, text: str) -> list[int]:
-        """Greedy longest-match: pair tokens (2 chars) win over singles, so
-        words pack two letters per glyph cell when pair glyphs exist."""
+        """Encode text with pair tokens while avoiding ugly proper-name tails.
+
+        The primary objective is still minimum token count. For equal-cost
+        encodings, prefer layouts that do not leave single lowercase glyphs
+        inside capitalized words (e.g. Sigma => S + ig + ma instead of
+        Si + gm + a).
+        """
         out: list[int] = []
         i = 0
         while i < len(text):
@@ -195,14 +200,58 @@ class Codec:
                 out.append(int(m.group(1), 16))
                 i = m.end()
                 continue
-            tok = self.char2tok.get(text[i : i + 2])
-            if tok is not None:
-                out.append(tok)
-                i += 2
-                continue
-            tok = self.char2tok.get(text[i])
-            if tok is None:
-                raise ValueError(f"cannot encode character {text[i]!r} at position {i}")
-            out.append(tok)
-            i += 1
+            next_tag = TAG_RE.search(text, i)
+            j = next_tag.start() if next_tag else len(text)
+            out.extend(self._encode_plain(text[i:j], i))
+            i = j
         return out
+
+    def _encode_plain(self, text: str, base_pos: int) -> list[int]:
+        n = len(text)
+        # dp[i] = (token_count, visual_penalty, token_list)
+        dp: list[tuple[int, int, list[int]] | None] = [None] * (n + 1)
+        dp[n] = (0, 0, [])
+        for i in range(n - 1, -1, -1):
+            best: tuple[int, int, list[int]] | None = None
+            for width in (2, 1):
+                piece = text[i : i + width]
+                if len(piece) != width:
+                    continue
+                tok = self.char2tok.get(piece)
+                tail = dp[i + width]
+                if tok is None or tail is None:
+                    continue
+                cand = (
+                    1 + tail[0],
+                    self._visual_penalty(text, i, width) + tail[1],
+                    [tok] + tail[2],
+                )
+                if best is None or cand[:2] < best[:2]:
+                    best = cand
+            if best is not None:
+                dp[i] = best
+        if dp[0] is None:
+            for i, ch in enumerate(text):
+                if ch not in self.char2tok and text[i : i + 2] not in self.char2tok:
+                    raise ValueError(
+                        f"cannot encode character {ch!r} at position {base_pos + i}"
+                    )
+            raise ValueError(f"cannot encode text segment at position {base_pos}")
+        return dp[0][2]
+
+    @staticmethod
+    def _visual_penalty(text: str, i: int, width: int) -> int:
+        if width != 1:
+            return 0
+        ch = text[i]
+        if not ("a" <= ch <= "z"):
+            return 0
+        start = i
+        while start > 0 and text[start - 1].isalpha():
+            start -= 1
+        end = i + 1
+        while end < len(text) and text[end].isalpha():
+            end += 1
+        if start < i and end - start > 1 and text[start].isupper():
+            return 10
+        return 0

@@ -40,7 +40,7 @@
 38	<$FB00><$0082>Is it true？<$FFFE>
 39	<$FB00><$0083>Of course I'd never do that！<$FFFE>
 40	<$FB00><$0084>You haven't the nerve for<$FFFC>that.<$FFFE>
-41	<$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0085>I'm glad you believe me, but<$FFF5><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0086>that's hard to take as praise<$FFF5><$FFF8>‥<$FE1E>‥<$FE1E>.<$FFFE>
+41	<$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0085>I'm glad you believe me,<$FFFC>but<$FFF5><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0086>that's hard to take as<$FFFC>praise<$FFF5><$FFF8>‥<$FE1E>‥<$FE1E>.<$FFFE>
 42	<$FB00><$0087>What rubbish<$FFF5><$FFF8>‥‥.<$FFFE>
 43	<$FB00><$0088>Right？ A ridiculous story.<$FFFE>
 44	<$FB00><$0083>Of course I'd never do that！<$FFFE>
@@ -78,16 +78,16 @@
 76	<$FB00><$0077>I knew it‥‥this is all I<$FFFC>amount to‥‥<$FFFE>
 77	<$FB00><$006C>Bah, meddlers！ Whoever you are,<$FFFC>siding with Alfred means death.<$FFFE>
 78	<$FB00><$0072>Prepare yourself, Alfred.<$FFFE>
-79	<$FB00><$0073>Brother<$FFF5><$FFF8>‥<$FE32>‥<$FE32>.<$FE32><$FFFC><$FFF6><$FB00><$0074>Why<$FFF5><$FFF8>‥‥.<$FFFE>
+79	<$FB00><$0073>Brother<$FFF5><$FFF8>‥<$FE32>‥<$FE32>. <$FE32><$FFF6><$FB00><$0074>Why<$FFF5><$FFF8>‥‥.<$FFFE>
 80	<$FB00><$0075>Brother or not, I cannot let<$FFFC>our lord's killer run free.<$FFFE>
 81	<$FB00><$0076>I keep telling you, it wasn't<$FFFC>me！<$FFFE>
 82	<$FB00><$0077>Even now you play innocent！<$FFFE>
-83	<$FB00><$0090>Impossible<$FFF5><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0091>that I would lose<$FFF5><$FFF8>‥‥.<$FFFE>
+83	<$FB00><$0090>Impossible<$FFF5><$FFF8>‥<$FE32>‥<$FE32><$FFF6><$FB00><$0091>that I would lose<$FFFC><$FFF5><$FFF8>‥‥.<$FFFE>
 84	<$FB00><$0092>Brother<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>.<$FE3C><$FFFE>
 85	<$FB00><$0093>You're spared today. But your<$FFFC>patricide is not forgotten！<$FFFE>
 86	<$FB00><$0094>Seems they've gone.<$FFFE>
 87	<$FB00><$0095>You all right, boy？<$FFFE>
-88	<$FB00><$0096>Y-yes<$FFF5><$FFF8>‥<$FE32>‥<$FE32>.<$FE32><$FFFC><$FFF6><$FB00><$0097>Thanks to you, I'm safe.<$FFFE>
+88	<$FB00><$0096>Y-yes<$FFF5><$FFF8>‥<$FE32>‥<$FE32>. <$FE32><$FFF6><$FB00><$0097>Thanks to you, I'm<$FFFC>safe.<$FFFE>
 89	<$FB00><$0098>Now, let's hear the full story.<$FFFE>
 90	<$FB00><$0099>Did I mention I sought medicine<$FFFC>for my father's fever？<$FFFD><$FB00><$009A>Days ago, a girl from another<$FFFC>continent kindly gave me some.<$FFFE>
 91	<$FB00><$009B>The girl who was with you back<$FFFC>then？<$FFFE>

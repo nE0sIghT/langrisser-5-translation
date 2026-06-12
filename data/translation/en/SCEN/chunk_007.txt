@@ -61,7 +61,7 @@
 59	<$FB00><$0072>Sorry‥‥I'll take you up on<$FFFC>that‥‥<$FFFE>
 60	<$FB00><$0026>Futile struggling！<$FFFE>
 61	This time you won't escape！<$FFFE>
-62	<$FFF8><$FB00><$0027>Ggh‥‥.<$FFF5><$FE78><$FFFC><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>.<$FE3C><$FFFC><$FFF6><$FB00><$0029>We have the greater force, and<$FFFC>yet<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
+62	<$FFF8><$FB00><$0027>Ggh‥‥. <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>‥<$FE3C>‥<$FE3C>. <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>‥‥.<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
 63	<$FB00><$002B>Looks like it's over.<$FFFE>
 64	<$FB00><$002C>Honestly, what an ordeal.<$FFFE>
 65	<$FB00><$002D>Truly, I thought I'd die<$FFF5><$FFF8>‥‥.<$FFFE>

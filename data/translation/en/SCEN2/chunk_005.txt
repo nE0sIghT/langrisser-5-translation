@@ -47,7 +47,7 @@
 45	Yes. Aizer especially needs<$FFFC>watching.<$FFFE>
 46	Yeah. Aizer especially needs<$FFFC>watching.<$FFFE>
 47	Pin him down and beat the<$FFFC>others meanwhile？<$FFFE>
-48	I see. Then nothing interferes<$FFFC>when we face Aizer.<$FFFD>Isolate and crush them one by<$FFFC>one<$FFF8>‥‥.<$FFFC><$FFF6>Basic tactics.<$FFFE>
+48	I see. Then nothing interferes<$FFFC>when we face Aizer.<$FFFD>Isolate and crush them one by<$FFFC>one<$FFF8>‥‥. <$FFF6>Basic tactics.<$FFFE>
 49	In your hands. Win or lose, it's<$FFFC>on you.<$FFFE>
 50	<$FB00><$003D>Ugh‥not‥yet‥‥<$FFFE>
 51	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
@@ -55,7 +55,7 @@
 53	<$FB00><$0077>I knew it‥‥this is all I<$FFFC>amount to‥‥<$FFFE>
 54	<$FB00><$0034>Pikemen ahead. Bad news for<$FFFC>riders, they're yours！<$FFFE>
 55	<$FB00><$003D>Brace yourself！<$FFFE>
-56	<$FFF8><$FB00><$004F>Kh！<$FFF5><$FFFC>‥‥<$FFF6><$FB00><$0050>Pathetic. Beaten by the likes of<$FFFC>them<$FFF5><$FFF8>‥‥.<$FFFE>
+56	<$FFF8><$FB00><$004F>Kh！ <$FFF5>‥‥<$FFF6><$FB00><$0050>Pathetic. Beaten by the<$FFFC>likes of them<$FFF5><$FFF8>‥‥.<$FFFE>
 57	<$FB00><$0051>Boss！ We'll take it from here！<$FFFE>
 58	<$FB00><$0052>Sorry, girls. It's all yours.<$FFFE>
 59	B-boss‥‥<$FFFE>
@@ -70,7 +70,7 @@
 68	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
 69	<$FB00><$0041>You said that last time too<$FFF5><$FFF8>‥‥.<$FFFE>
 70	<$FB00><$0042>Quiet, you！<$FFFE>
-71	<$FB00><$0048>How‥‥could I‥‥.<$FFF5><$FFFC><$FB00><$0049>Damn it！ Enough, I quit！<$FFFE>
+71	<$FB00><$0048>How‥‥could I‥‥. <$FFF5><$FB00><$0049>Damn it！<$FFFC>Enough, I quit！<$FFFE>
 72	<$FB00><$004A>Such strength, so soon<$FFF5><$FFF8>‥‥.<$FFFC><$0000><$FFF6><$FB00><$004B>The power hidden in the<$FFFC>specimens‥‥.<$FFFE>
 73	Damn！ If you hadn't meddled‥‥.<$FFFE>
 74	<$FB00><$004C>Lord Aizer, fall back. We'll<$FFFC>handle the rest！<$FFFE>
@@ -87,7 +87,7 @@
 85	‥my strength‥was not‥enough‥‥<$FFFE>
 86	<$FB00><$0056>That's the last of them.<$FFFE>
 87	<$FB00><$0053>No more pursuers, it seems.<$FFFE>
-88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0055>Not my finest showing, huh.<$FFFE>
+88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0055>Not my finest<$FFFC>showing, huh.<$FFFE>
 89	<$FB00><$0057>Thanks. You saved us.<$FFFE>
 90	<$FB00><$0058>Don't mention it.<$FFFE>
 91	<$FB00><$0059>We're safe for a while.<$FFFE>

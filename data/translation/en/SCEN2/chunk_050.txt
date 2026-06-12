@@ -11,11 +11,11 @@
 9	Alvince<$FFFF>
 10	Gizarof's Magic Institute<$FFFF>
 11	<$FB00><$0003>Lord Gizarof. Forgive our delay.<$FFFC>We have arrived.<$FFFE>
-12	<$FB00><$0004>Mm. I have waited long for you.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$0005>Hm？ Only you two？ Where are<$FFFC>the other specimens？<$FFFE>
+12	<$FB00><$0004>Mm. I have waited long for you.<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$0005>Hm？ Only you two？ Where<$FFFC>are the other specimens？<$FFFE>
 13	<$FB00><$0006>Only we escaped unharmed.<$FFFD>There was one more, but he<$FFFC>was taken by parties unknown.<$FFFE>
 14	<$FFF8>‥‥<$FFF6><$FB00><$0007>Parties unknown, you say？<$FFFD><$FFF8>‥‥<$FFF6><$FB00><$0008>No matter. That you two are<$FFFC>safe will suffice.<$FFFD><$FB00><$0009>Now, to business. I have work<$FFFC>for you.<$FFFE>
 15	<$FB00><$000A>Command us as you will. We were<$FFFC>made for that purpose.<$FFFE>
-16	<$FB00><$000B>While you slept, my designs were<$FFFC>thrown into disarray.<$FFFD>For one, the <$FFF4>Sage's Crystal<$FFF3><$FFFC>was stolen by a man called<$FFFC>Ivar.<$FFFE>
+16	<$FB00><$000B>While you slept, my designs were<$FFFC>thrown into disarray.<$FFFD>For one, the <$FFF4>Sage's Crystal <$FFF3>was<$FFFC>stolen by a man called Ivar.<$FFFE>
 17	<$FB00><$000C>The Sage's Crystal<$FFF5><$FFF8>‥‥.<$FFFE>
 18	<$FB00><$000D>That crystal holds magic both<$FFFC>light and dark.<$FFFD>Mastered, its power could<$FFFC>destroy this world with ease.<$FFFE>
 19	<$FB00><$000E>Then our task is to recover the<$FFFC>crystal.<$FFFE>
@@ -55,12 +55,12 @@
 53	<$FB00><$0035>She's right. We'll learn it<$FFFC>anyway once we arrive.<$FFFD>Better to go in knowing as much<$FFFC>as we can.<$FFFE>
 54	<$FB00><$0036>Now you're talking！ So, what is<$FFFC>it？<$FFFE>
 55	<$FB00><$0037>Do you know of the Sage's<$FFFC>Crystal？<$FFFE>
-56	<$FFFA><$FB00><$0038>The Sage's Crystal<$FFF5><$FFF8>‥‥.<$FFFB><$FFFC><$FFF9><$FFF6><$FB00><$0039>That's what you're after？<$FFFE>
+56	<$FFFA><$FB00><$0038>The Sage's Crystal<$FFF5><$FFF8>‥‥. <$FFFB><$FFF9><$FFF6><$FB00><$0039>That's<$FFFC>what you're after？<$FFFE>
 57	<$FB00><$003A>You know it？<$FFFE>
-58	<$FFFA><$FFF8><$FB00><$003B>Hmm<$FFF5>‥‥.<$FE14><$FFFC><$FFF9><$FFF6><$FB00><$003C>I've heard talk, at least.<$FFFD>A treasure of Gotahl village, and<$FFFC>Gizarof got his hands on it,<$FFFC>they say.<$FFFE>
+58	<$FFFA><$FFF8><$FB00><$003B>Hmm<$FFF5>‥‥. <$FE14><$FFF9><$FFF6><$FB00><$003C>I've heard talk, at<$FFFC>least.<$FFFD>A treasure of Gotahl village, and<$FFFC>Gizarof got his hands on it,<$FFFC>they say.<$FFFE>
 59	<$FB00><$003D>Didn't Gizarof have it, then？<$FFFE>
 60	<$FB00><$003E>A mishap let the demon tribe<$FFFC>steal it.<$FFFE>
-61	<$FB00><$003F>That so<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$0040>That's about all we know of the<$FFFC>crystal too.<$FFFD><$FB00><$0041>Instead I'll have my girls watch<$FFFC>these crystal-thieving demons.<$FFFD>If they move before we arrive,<$FFFC>we'll know at once.<$FFFE>
+61	<$FB00><$003F>That so<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$0040>That's about all we<$FFFC>know of the crystal too.<$FFFD><$FB00><$0041>Instead I'll have my girls watch<$FFFC>these crystal-thieving demons.<$FFFD>If they move before we arrive,<$FFFC>we'll know at once.<$FFFE>
 62	<$FB00><$0042>We're counting on it. Then let's<$FFFC>move out.<$FFFE>
 63	Near Fort Sipel<$FFFF>
 64	<$FB00><$0043>Now, come quietly.<$FFFE>

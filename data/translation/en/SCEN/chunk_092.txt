@@ -15,7 +15,7 @@
 13	<$FB00><$00A9>Well？<$FFFE>
 14	<$FB00><$00AA>We found it. A strange castle<$FFFC>ahead, with demons gathering there.<$FFFE>
 15	<$FB00><$00AB>That'll be the place.<$FFFE>
-16	<$FB00><$00AC>And that's where the<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
+16	<$FB00><$00AC>And that's where the<$FFF5><$FFF8>‥‥<$FFFC><$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
 17	<$FB00><$00AE>But word is the Caconsis army is<$FFFC>headed there too. We'd better<$FFFC>hurry.<$FFFE>
 18	<$FB00><$00AF>The Caconsis army？<$FFFE>
 19	<$FB00><$00B0>We should hurry. If Caconsis<$FFFC>carries off the crystal, things<$FFFC>get ugly.<$FFFE>
@@ -35,9 +35,9 @@
 33	That's the way of it.<$FFFE>
 34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
 35	At the Dark Altar<$FFFF>
-36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFF6><$FB00><$00B5>that you could wield Langrisser<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14>.<$FE14><$FFFE>
+36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14>.<$FE14><$FFFE>
 37	<$FB00><$00B6>You've lost, Boser！ Now vanish<$FFFC>from this world！<$FFFD>We will never let the darkness<$FFFC>have it！<$FFFE>
-38	‥‥<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFF6><$FB00><$00B8>they'll take‥Alhazard from me.<$FFFC>That‥I will not allow<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFFC><$FFF6><$FB00><$00BA>Alhazard‥fly！<$FFFE>
+38	‥‥<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take‥Alhazard from me. That‥I<$FFFC>will not allow<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>‥<$FE14>‥<$FFFC><$FE14><$FFF6><$FB00><$00BA>Alhazard‥fly！<$FFFE>
 39	<$FB00><$00BB>What！？ He cast Alhazard away with<$FFFC>magic！？<$FFFE>
 40	<$FB00><$00BC>Heh heh heh, what a shame.<$FFFC>Where Alhazard falls, not even I<$FFFC>know<$FFF5><$FFF8>‥‥.<$FFFE>
 41	<$FFF8>‥‥‥<$FFF6><$FB00><$00BD>G<$FFF7>hah！<$FFFE>

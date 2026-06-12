@@ -15,9 +15,11 @@ import argparse
 import re
 from pathlib import Path
 
-from lang5_scen import TAG_RE, Codec, load_charmap_tbl
+from lang5_scen import TAG_RE, Codec, consumes_argument, load_charmap_tbl
 
 LINE_BREAK = "<$FFFC>"
+PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
+PRINTABLE_TAG_LIMIT = 0xE000
 
 
 def cells(codec: Codec, text: str) -> int:
@@ -41,56 +43,89 @@ def wrap(codec: Codec, text: str, width: int) -> str:
     return LINE_BREAK.join(lines)
 
 
-def reflow_record(codec: Codec, text: str, width: int) -> str:
-    # Split into alternating [text, tag, text, tag, ...] pieces.
-    pieces: list[tuple[str, bool]] = []
-    pos = 0
-    for m in TAG_RE.finditer(text):
-        if m.start() > pos:
-            pieces.append((text[pos : m.start()], False))
-        pieces.append((m.group(0), True))
-        pos = m.end()
-    if pos < len(text):
-        pieces.append((text[pos:], False))
-
-    # Merge FFFC into adjacent text as spaces, keep other tags as barriers.
-    # An FFFC that does not sit between two text pieces is structural
-    # (blank line / break around an effect tag): keep it verbatim.
+def wrap_stream(codec: Codec, text: str, width: int) -> str:
+    """Wrap a mixed text/control stream without treating control tags as a
+    visual line reset. Tags have zero width but create safe break points
+    before the next printable word."""
     out: list[str] = []
-    buf = ""
-    for i, (piece, is_tag) in enumerate(pieces):
-        if is_tag and piece == LINE_BREAK:
-            prev_is_text = bool(buf.strip())
-            next_is_text = i + 1 < len(pieces) and not pieces[i + 1][1]
-            if prev_is_text and next_is_text:
-                buf += " "
-            else:
-                out.append(("T", buf))
-                out.append(("C", piece))
-                buf = ""
-        elif is_tag:
-            out.append(("T", buf))
-            out.append(("C", piece))
-            buf = ""
-        else:
-            buf += piece
-    out.append(("T", buf))
+    pending_tags: list[str] = []
+    line_text = ""
+    saw_space = False
+    saw_tag_boundary = False
+    pos = 0
 
-    rebuilt = ""
-    for i, (kind, val) in enumerate(out):
-        if kind == "C":
-            rebuilt += val
+    def flush_word(word: str) -> None:
+        nonlocal line_text, saw_space, saw_tag_boundary
+        if not word:
+            return
+        sep = " " if saw_space and line_text else ""
+        cand = f"{line_text}{sep}{word}"
+        can_break = bool(line_text) and (saw_space or saw_tag_boundary)
+        if can_break and cells(codec, cand) > width:
+            out.append(LINE_BREAK)
+            line_text = ""
+            sep = ""
+        elif sep:
+            out.append(sep)
+            line_text += sep
+        out.extend(pending_tags)
+        pending_tags.clear()
+        out.append(word)
+        line_text += word
+        saw_space = False
+        saw_tag_boundary = False
+
+    for m in TAG_RE.finditer(text):
+        raw = text[pos : m.start()]
+        for part in re.split(r"(\s+)", raw):
+            if not part:
+                continue
+            if part.isspace():
+                saw_space = True
+            else:
+                flush_word(part)
+        tag = m.group(0)
+        if tag == LINE_BREAK:
+            saw_space = True
+        elif tag in PAGE_BREAKS:
+            out.extend(pending_tags)
+            pending_tags.clear()
+            out.append(tag)
+            line_text = ""
+            saw_space = False
+            saw_tag_boundary = False
+        else:
+            pending_tags.append(tag)
+            saw_tag_boundary = True
+        pos = m.end()
+
+    raw = text[pos:]
+    for part in re.split(r"(\s+)", raw):
+        if not part:
             continue
-        # Spaces next to control tags are meaningful (the tags render no
-        # glyph), so keep one boundary space on each side that had one.
-        lead = " " if val[:1].isspace() and i > 0 else ""
-        trail = " " if val[-1:].isspace() and i < len(out) - 1 else ""
-        val = " ".join(val.split())
-        if val:
-            rebuilt += lead + wrap(codec, val, width) + trail
-        elif lead or trail:
-            rebuilt += " "
-    return rebuilt
+        if part.isspace():
+            saw_space = True
+        else:
+            flush_word(part)
+    out.extend(pending_tags)
+    return "".join(out)
+
+
+def reflow_record(codec: Codec, text: str, width: int) -> str:
+    return wrap_stream(codec, text, width)
+
+
+def has_explicit_printable_or_macro_tags(text: str) -> bool:
+    prev: int | None = None
+    for h in TAG_RE.findall(text):
+        v = int(h, 16)
+        if prev is not None and consumes_argument(prev):
+            prev = v
+            continue
+        if v == 0xF600 or v < PRINTABLE_TAG_LIMIT:
+            return True
+        prev = v
+    return False
 
 
 def main() -> None:
@@ -129,9 +164,12 @@ def main() -> None:
                     print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
-                new_text = reflow_record(codec, text, args.width)
+                if has_explicit_printable_or_macro_tags(text):
+                    new_text = text
+                else:
+                    new_text = reflow_record(codec, text, args.width)
                 # Page height check: lines between page/terminator controls.
-                for page in re.split(r"<\$FFF[ADEF]>|<\$FB00><\$[0-9A-Fa-f]{4}>", new_text):
+                for page in re.split(r"<\$FFFD>|<\$FFFE>|<\$FFFF>", new_text):
                     n = page.count(LINE_BREAK) + 1
                     if page.strip() and n > args.max_lines:
                         print(f"{fp.name} record {idx}: page has {n} lines (max {args.max_lines})")

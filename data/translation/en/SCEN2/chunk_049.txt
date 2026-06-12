@@ -13,7 +13,7 @@
 11	<$FB00><$0007>You look truly happy.<$FFFE>
 12	<$FB00><$0008>Mother died when I was small,<$FFFC>so it's just father, my brother<$FFFC>and me.<$FFFD>But father cares for us all<$FFFC>the more for it.<$FFFD><$FB00><$0009>And since father fell ill, my<$FFFC>brother works in his place<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$000A>Family really is something,<$FFFC>right？ Don't you think？<$FFFE>
 13	<$FFF8>‥‥‥.<$FFFE>
-14	<$FB00><$000B>Ah, yeah‥‥I suppose<$FFF5><$FFF8>‥‥.<$FFFC><$FFF6><$FB00><$000C>I suppose it must be<$FFF5><$FFF8>‥‥.<$FFFE>
+14	<$FB00><$000B>Ah, yeah‥‥I suppose<$FFF5><$FFF8>‥‥. <$FFF6><$FB00><$000C>I<$FFFC>suppose it must be<$FFF5><$FFF8>‥‥.<$FFFE>
 15	<$FB00><$000D>Ahh, I want to be home<$FFFC>already！ Come on, let's hurry！<$FFFE>
 16	<$FFF7><$FB00><$000E>R, right<$FFF5><$FFF8>‥‥.<$FFFE>
 17	<$FFFA><$FB00><$000F>Whew<$FFF5><$FFF8>‥‥.<$FFFE>

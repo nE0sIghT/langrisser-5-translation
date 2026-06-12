@@ -42,7 +42,7 @@
 40	<$FB00><$0024>You little wench！ Who do you<$FFFC>think I am！<$FFFD>I am the great Goldry, a man<$FFFC>of renown in the Caconsis army！<$FFFE>
 41	<$FB00><$0025>Never heard of you！<$FFFE>
 42	<$FB00><$0026>Alfred, let's leave these clowns<$FFFC>be and hurry on.<$FFFE>
-43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0028>is that all right<$FFF5><$FFF8>‥‥.<$FFFE>
+43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>‥‥<$FFF6><$FB00><$0028>is that all<$FFFC>right<$FFF5><$FFF8>‥‥.<$FFFE>
 44	<$FB00><$0029>Of course it's not！ Don't take<$FFFC>us lightly！<$FFFE>
 45	<$FB00><$002A>What！ You want a fight！<$FFFE>
 46	<$0000>Having shaken Aizer's pursuit,<$FFFC><$F600><$0000> and Lambda reach Knox, a town<$FFFC>on the pass.<$FFFD><$0000>There they see a boy and girl<$FFFC>harassed by Goldry, captain of<$FFFC>the Caconsis garrison.<$FFFD><$0000>To save them, <$F600><$0000> and Lambda square off against<$FFFC>the Caconsis troops.<$FFFE>
