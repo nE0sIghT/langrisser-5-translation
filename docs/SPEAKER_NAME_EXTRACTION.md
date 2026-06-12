@@ -54,7 +54,10 @@ BLOCKED     needs another decoded dependency
 | DONE | Map chunk-local data to runtime `0x800eba38` table. | Header `u32 +0x14` is the table offset; low byte of header `u32 +0x2c` is the entry count. | Use `actor_plate_table()` in `scripts/lang5_speakers.py`. |
 | DONE | Decode the static `0x800eba38` table shape. | Static parser matches `0x800b2da4`: `u16 key`, `u8 field2`, `u8 field3`. | Decode field semantics in the VM handler context. |
 | REJECTED | Word-only `FF0B ... FFFF FFFF` pattern scan is executable VM command parsing. | Chunk 45 starts at opcode `0x00`; that handler length-skips payload bytes containing `FF0B` patterns. | Keep word patterns as evidence only, never as command order. |
-| ACTIVE | Build a bytecode trace for the VM stream. | Dispatcher is byte-oriented and opcodes can skip embedded data blocks. | Implement a tracer for opcodes encountered before speaker display commands. |
+| DONE | Build a bytecode trace for the VM stream. | `scripts/lang5_speakers.py --trace-out` reaches real chunk 45 display commands in byte order. | Use trace rows as evidence, not speaker mapping. |
+| DONE | Decode enough opcode lengths to trace chunk 45 into display commands. | Known lengths include `00`, `04/05/09`, `06/07/08/0a`, `0b..10`, `14..1b`, `23..25`, `63`, `6f`, `78`. | Keep extending from disassembly when the tracer stops. |
+| ACTIVE | Decode conditional opcode `0x7b`. | Chunk 45 trace stops at VM rel `0x0246`; jump table routes it through `0x80025a1c` to branch/skip logic. | Model the branch target/skip effect before tracing beyond it. |
+| ACTIVE | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
 | PENDING | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
 | PENDING | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
 | PENDING | Integrate speaker reserves into `lang5_rewrap.py`. | Existing rewrap has static reserve logic. | Change wrapping to update reserve after `FB00`. |
@@ -88,28 +91,44 @@ reason.
    - Result: sampled chunks decode as 4-byte entries. Field semantics still
      depend on the VM handler and remain part of the next step.
 4. Replace word-only VM pseudo-record parsing with byte-accurate command
-   tracing. ACTIVE.
+   tracing. DONE.
    - Treat the VM stream as bytes.
    - Do not treat `FF0B` patterns inside skipped payload blocks as command
      starts.
    - Success criterion: chunk 45 trace reaches the actual display command
      sites in execution order.
-5. Reimplement the relevant subset of `0x80024424`.
+   - Result: `python3 scripts/lang5_speakers.py --chunk 45 --trace-out
+     work/vm_dialog_refs/vm_trace_045.csv` reaches 30 display commands per
+     SCEN/SCEN2 copy and stops at opcode `0x7b`.
+5. Decode branch/conditional VM opcodes required by chunk 45. ACTIVE.
+   - Decode opcode `0x7b`, dispatched through `0x80025a1c`.
+   - Confirm whether it changes the VM pointer by conditional skip, table
+     branch, or fallthrough.
+   - Success criterion: chunk 45 trace continues past VM rel `0x0246` without
+     guessing.
+6. Resolve non-linear entry/control flow for chunks 65 and 107. ACTIVE.
+   - Linear trace from header stream start reaches `opcode 00` with skip length
+     `0xfc00`.
+   - Determine whether this is an intentional stream exit, alternate entrypoint,
+     or an unmodeled conditional branch.
+   - Success criterion: these chunks can be traced into their real dialogue
+     display commands.
+7. Reimplement the relevant subset of `0x80024424`.
    - Model only fields needed for dialogue text and speaker/window plate.
    - Use the static `0x800eba38` table where the handler does runtime lookup.
    - Success criterion: chunk 45 resolves Sigma/Lambda speaker switches
      without manual names.
-6. Decode or confirm `0x800a39a4`.
+8. Decode or confirm `0x800a39a4`.
    - Verify whether `FB00 <id>` only marks the text segment or also triggers
      state selection.
    - Success criterion: no missing link remains between text `FB00` markers and
      VM command targets.
-7. Integrate with rewrap.
+9. Integrate with rewrap.
    - Add an API returning `chunk -> fb_id -> speaker_name/reserve`.
    - Update wrapping to change active reserve after every `FB00` marker.
    - Success criterion: known bad chunk 45 lines wrap without premature word
      splits.
-8. Run required build checks.
+10. Run required build checks.
    - `python3 scripts/lang5_verify_roundtrip.py`
    - `python3 scripts/lang5_rewrap.py`
    - `python3 scripts/lang5_validate_en.py`
@@ -251,6 +270,65 @@ The text window path later reads these structure fields. In particular:
 This strongly suggests that `struct +7` is involved in speaker plate or window
 state selection, but the static mapping from VM bytes to final speaker plate is
 not fully decoded yet.
+
+## Bytecode Trace Evidence
+
+`scripts/lang5_speakers.py` now has a conservative VM bytecode tracer:
+
+```bash
+python3 scripts/lang5_speakers.py \
+  --chunk 45 \
+  --out work/vm_dialog_refs/speaker_045_check.csv \
+  --trace-out work/vm_dialog_refs/vm_trace_045.csv
+```
+
+Observed result:
+
+```text
+speaker rows: 96, confirmed 0, unresolved 96
+trace rows: 148 across SCEN and SCEN2
+display commands: 60 total, 30 per file copy
+stop: opcode 0x7b at VM rel 0x0246 in both SCEN and SCEN2
+```
+
+First chunk 45 display commands reached by the trace:
+
+```text
+rel 0x0078  opcode 0x0b  text id 0000  byte9 06
+rel 0x008a  opcode 0x0b  text id 0001  byte9 06
+rel 0x00b4  opcode 0x0b  text id 0002  byte9 ff
+rel 0x00c0  opcode 0x0b  text id 0003  byte9 07
+rel 0x00cc  opcode 0x0b  text id 0004  byte9 ff
+rel 0x00d8  opcode 0x0b  text id 0005  byte9 07
+rel 0x00f6  opcode 0x0b  text id 0006  byte9 ff
+rel 0x010a  opcode 0x0b  text id 0007  byte9 07
+```
+
+These rows prove that byte tracing reaches executed display commands. They do
+not yet prove speaker names.
+
+Opcode length facts added to the tracer:
+
+```text
+0x00        length = 4 + u16(payload[1:3]); invalid if it exits the VM block
+0x04/05/09 length = opcode + u8 + 0x80022b24 helper + u16
+0x06/07/08/0a length = 4
+0x0b..10   length = 12; calls 0x80024424
+0x14/15/25/6f/78 length = 4
+0x16/18/19/1a/1b/23/24/63 length = 2
+0x17        length = 6 normally, 8 when the helper's first byte is 0xfe
+```
+
+Known current stops:
+
+```text
+chunk 045: opcode 0x7b at VM rel 0x0246, dispatched through 0x80025a1c
+chunk 065: opcode 0x00 at VM rel 0x0064, skip length 0xfc00 exits VM block
+chunk 107: opcode 0x00 at VM rel 0x0064, skip length 0xfc00 exits VM block
+```
+
+The chunk 65/107 result must not be treated as a valid linear trace into
+dialogue. It marks missing control-flow or entrypoint interpretation.
 
 ## Actor/Plate Lookup Table Evidence
 

@@ -56,6 +56,31 @@ class SpeakerSite:
     actor_table: tuple[ActorPlateEntry, ...]
 
 
+@dataclass(frozen=True)
+class VMTraceRow:
+    source_file: str
+    chunk_index: int
+    chunk_start: int
+    vm_off: int
+    stream_start: int
+    step: int
+    rel_off: int
+    opcode: int
+    kind: str
+    length: int | None
+    next_rel_off: int | None
+    payload: bytes
+    stop: bool
+    note: str
+    display_text_id: int | None
+    display_raw_speaker: int | None
+    display_field1_high: int | None
+    display_field1_low: int | None
+    display_flags: int | None
+    display_byte8: int | None
+    display_byte9: int | None
+
+
 def decode_record(codec: Codec, words: list[int]) -> str:
     return codec.decode(words)
 
@@ -164,6 +189,179 @@ def parse_ff0b_command_records(vm: bytes, stream_start: int) -> list[tuple[int, 
         else:
             p = rec_start + 2
     return records
+
+
+def _helper_80022b24_length(vm: bytes, off: int) -> int | None:
+    """Return byte count consumed by helper 0x80022b24 at VM pointer ``off``."""
+    if off + 2 > len(vm):
+        return None
+    return 4 if vm[off] == 0xFE else 2
+
+
+def _vm_step(vm: bytes, p: int) -> tuple[str, int | None, bool, str]:
+    """Decode one VM command enough to advance a conservative byte trace.
+
+    This intentionally models only instruction length and obvious command
+    class. It does not infer speaker names.
+    """
+    if p >= len(vm):
+        return "eof", None, True, "instruction pointer is outside VM block"
+
+    op = vm[p]
+    remaining = len(vm) - p
+
+    if op == 0x00:
+        if remaining < 4:
+            return "skip_block_truncated", None, True, "opcode 00 needs a u16 skip length"
+        skip_len = u16(vm, p + 2)
+        length = 4 + skip_len
+        if p + length > len(vm):
+            return (
+                "skip_block_invalid",
+                length,
+                True,
+                f"opcode 00 skip length 0x{skip_len:04X} exits VM block",
+            )
+        return "skip_block", length, False, f"opcode 00 skip length 0x{skip_len:04X}"
+
+    if op in (0x01, 0x03):
+        return (
+            "control_flow_unimplemented",
+            None,
+            True,
+            "indexed call/jump changes VM pointer through the VM script table",
+        )
+
+    if op == 0x02:
+        return "return_unimplemented", 1, True, "return needs call-stack modeling"
+
+    if op in (0x04, 0x05, 0x09):
+        helper_len = _helper_80022b24_length(vm, p + 2)
+        if helper_len is None:
+            return "actor_state_truncated", None, True, "0x80025110 helper operands truncated"
+        length = 1 + 1 + helper_len + 2
+        if p + length > len(vm):
+            return "actor_state_truncated", None, True, "0x80025110 operands exceed VM block"
+        return (
+            "actor_state_25110",
+            length,
+            False,
+            f"0x80025110; helper 0x80022b24 consumes {helper_len} bytes",
+        )
+
+    if op in (0x06, 0x07, 0x08, 0x0A):
+        if remaining < 4:
+            return "actor_state_25454_truncated", None, True, "0x80025454 operands truncated"
+        return "actor_state_25454", 4, False, "0x80025454 consumes u8 + u16 operands"
+
+    if 0x0B <= op <= 0x10:
+        if remaining < 12:
+            return "display_truncated", None, True, "0x80024424 display command truncated"
+        return "display_24424", 12, False, "0x80024424 display/window command"
+
+    if op == 0x17:
+        if remaining < 2:
+            return "actor_position_truncated", None, True, "opcode 17 first operand truncated"
+        if vm[p + 1] != 0:
+            if remaining < 6:
+                return "actor_position_truncated", None, True, "opcode 17 nonzero form truncated"
+            return "actor_position", 6, False, "opcode 17 nonzero form"
+        helper_len = _helper_80022b24_length(vm, p + 2)
+        if helper_len is None:
+            return "actor_position_truncated", None, True, "opcode 17 helper operands truncated"
+        length = 1 + 1 + helper_len + 2
+        if p + length > len(vm):
+            return "actor_position_truncated", None, True, "opcode 17 operands exceed VM block"
+        return "actor_position", length, False, f"opcode 17 zero form; helper consumes {helper_len} bytes"
+
+    if op in (0x14, 0x15, 0x25, 0x6F, 0x78):
+        if remaining < 4:
+            return "state_len4_truncated", None, True, "known 4-byte state command truncated"
+        return "state_len4", 4, False, "known 4-byte state command"
+
+    if op in (0x16, 0x18, 0x19, 0x1A, 0x1B, 0x23, 0x24, 0x63):
+        if remaining < 2:
+            return "state_len2_truncated", None, True, "known 2-byte state command truncated"
+        return "state_len2", 2, False, "known 2-byte state command"
+
+    if op == 0x7B:
+        return (
+            "conditional_25a1c_unimplemented",
+            None,
+            True,
+            "opcode 7B dispatches through 0x80025a1c and can branch/skip",
+        )
+
+    return "unknown_opcode", None, True, "opcode length not decoded yet"
+
+
+def trace_vm_bytecode(
+    *,
+    source_file: str,
+    chunk_index: int,
+    chunk_start: int,
+    chunk: bytes,
+    block,
+    max_steps: int = 512,
+) -> list[VMTraceRow]:
+    vm_off, vm, stream_start = vm_block(chunk, block)
+    rows: list[VMTraceRow] = []
+    p = stream_start
+    for step in range(max_steps):
+        if p >= len(vm):
+            break
+        kind, length, stop, note = _vm_step(vm, p)
+        opcode = vm[p]
+        next_rel_off = p + length if length is not None else None
+        payload_end = p + (length if length is not None and length > 0 else min(16, len(vm) - p))
+        payload = vm[p + 1 : min(payload_end, len(vm))]
+
+        display_text_id = None
+        display_raw_speaker = None
+        display_field1_high = None
+        display_field1_low = None
+        display_flags = None
+        display_byte8 = None
+        display_byte9 = None
+        if kind == "display_24424" and p + 12 <= len(vm):
+            display_raw_speaker = vm[p + 1]
+            field1 = vm[p + 2]
+            display_field1_low = field1 & 0x0F
+            display_field1_high = field1 >> 4
+            display_flags = vm[p + 3]
+            display_byte8 = vm[p + 8]
+            display_byte9 = vm[p + 9]
+            display_text_id = u16(vm, p + 10)
+
+        rows.append(
+            VMTraceRow(
+                source_file=source_file,
+                chunk_index=chunk_index,
+                chunk_start=chunk_start,
+                vm_off=vm_off,
+                stream_start=stream_start,
+                step=step,
+                rel_off=p,
+                opcode=opcode,
+                kind=kind,
+                length=length,
+                next_rel_off=next_rel_off,
+                payload=payload,
+                stop=stop,
+                note=note,
+                display_text_id=display_text_id,
+                display_raw_speaker=display_raw_speaker,
+                display_field1_high=display_field1_high,
+                display_field1_low=display_field1_low,
+                display_flags=display_flags,
+                display_byte8=display_byte8,
+                display_byte9=display_byte9,
+            )
+        )
+        if stop or length is None or next_rel_off is None or next_rel_off <= p:
+            break
+        p = next_rel_off
+    return rows
 
 
 def slot_to_name(slot: int | None, names: list[tuple[int, str]]) -> tuple[int | None, str]:
@@ -355,6 +553,30 @@ def scan_file(path: Path, codec: Codec, chunk_filter: set[int] | None = None) ->
     return rows
 
 
+def trace_file(path: Path, chunk_filter: set[int] | None = None) -> list[VMTraceRow]:
+    data = path.read_bytes()
+    spans = read_chunk_spans(data)
+    rows: list[VMTraceRow] = []
+    for cidx, (start, end) in enumerate(spans):
+        if chunk_filter is not None and cidx not in chunk_filter:
+            continue
+        chunk = data[start:end]
+        try:
+            block = find_text_block(chunk)
+        except ValueError:
+            continue
+        rows.extend(
+            trace_vm_bytecode(
+                source_file=path.name,
+                chunk_index=cidx,
+                chunk_start=start,
+                chunk=chunk,
+                block=block,
+            )
+        )
+    return rows
+
+
 def confirmed_speaker_slots(path: Path, codec: Codec, chunk_index: int) -> dict[int, int]:
     """Return ``FB00`` argument -> local name-record index for confirmed rows."""
     rows = scan_file(path, codec, {chunk_index})
@@ -422,12 +644,73 @@ def write_csv(rows: list[SpeakerSite], out_path: Path) -> None:
             writer.writerow(row_dict(row))
 
 
+def trace_row_dict(row: VMTraceRow) -> dict[str, str]:
+    return {
+        "source_file": row.source_file,
+        "chunk_index": str(row.chunk_index),
+        "chunk_start": f"0x{row.chunk_start:06X}",
+        "vm_off": f"0x{row.vm_off:04X}",
+        "stream_start": f"0x{row.stream_start:04X}",
+        "step": str(row.step),
+        "rel_off": f"0x{row.rel_off:04X}",
+        "abs_off": f"0x{row.vm_off + row.rel_off:04X}",
+        "opcode": f"{row.opcode:02X}",
+        "kind": row.kind,
+        "length": "" if row.length is None else str(row.length),
+        "next_rel_off": "" if row.next_rel_off is None else f"0x{row.next_rel_off:04X}",
+        "payload": row.payload.hex(" "),
+        "stop": "yes" if row.stop else "no",
+        "note": row.note,
+        "display_text_id": "" if row.display_text_id is None else f"{row.display_text_id:04X}",
+        "display_raw_speaker": "" if row.display_raw_speaker is None else f"{row.display_raw_speaker:02X}",
+        "display_field1_high": "" if row.display_field1_high is None else f"{row.display_field1_high:X}",
+        "display_field1_low": "" if row.display_field1_low is None else f"{row.display_field1_low:X}",
+        "display_flags": "" if row.display_flags is None else f"{row.display_flags:02X}",
+        "display_byte8": "" if row.display_byte8 is None else f"{row.display_byte8:02X}",
+        "display_byte9": "" if row.display_byte9 is None else f"{row.display_byte9:02X}",
+    }
+
+
+def write_trace_csv(rows: list[VMTraceRow], out_path: Path) -> None:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    cols = [
+        "source_file",
+        "chunk_index",
+        "chunk_start",
+        "vm_off",
+        "stream_start",
+        "step",
+        "rel_off",
+        "abs_off",
+        "opcode",
+        "kind",
+        "length",
+        "next_rel_off",
+        "payload",
+        "stop",
+        "note",
+        "display_text_id",
+        "display_raw_speaker",
+        "display_field1_high",
+        "display_field1_low",
+        "display_flags",
+        "display_byte8",
+        "display_byte9",
+    ]
+    with out_path.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=cols)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(trace_row_dict(row))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--font-map", default="data/font_mapping/groups_report.csv")
     ap.add_argument("--out", default="work/vm_dialog_refs/speaker_refs.csv")
+    ap.add_argument("--trace-out", help="write conservative bytecode trace CSV")
     ap.add_argument("--chunk", type=int, action="append", help="scan only this chunk index; may repeat")
     args = ap.parse_args()
 
@@ -441,6 +724,18 @@ def main() -> None:
     confirmed = sum(1 for r in rows if r.confidence == "confirmed")
     unresolved = sum(1 for r in rows if r.confidence != "confirmed")
     print(f"wrote {args.out} rows={len(rows)} confirmed={confirmed} unresolved={unresolved}")
+
+    if args.trace_out:
+        trace_rows: list[VMTraceRow] = []
+        for src in (Path(args.scen), Path(args.scen2)):
+            if src.exists():
+                trace_rows.extend(trace_file(src, chunk_filter))
+        write_trace_csv(trace_rows, Path(args.trace_out))
+        display_rows = sum(1 for r in trace_rows if r.kind == "display_24424")
+        stops = sum(1 for r in trace_rows if r.stop)
+        print(
+            f"wrote {args.trace_out} rows={len(trace_rows)} displays={display_rows} stops={stops}"
+        )
 
 
 if __name__ == "__main__":
