@@ -20,6 +20,7 @@ from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, wor
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 WORD_RE = re.compile(r"[A-Za-z'.,0-9]+")
 SPACE_LETTER_RE = re.compile(r" ([A-Za-z0-9])")
+LETTER_SPACE_RE = re.compile(r"([A-Za-z0-9]) (?=[A-Za-z0-9])")
 PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
 SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…"
 PAIR_TAIL = set("abcdefghijklmnopqrstuvwxyz'.,0123456789")
@@ -47,8 +48,9 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
     Menu labels must fit fixed slot counts, so they get the full pairing
     rules (capital-initial, digits, punctuation) and absolute priority.
     Spacing pairs are optional encodings that improve readability and save
-    tokens: leading-space pairs render as a narrow inter-word gap, while
-    punctuation-space pairs render punctuation plus a narrow trailing gap.
+    tokens: leading/trailing space pairs keep half-width word edges from
+    visually doubling the inter-word gap, while punctuation-space pairs render
+    punctuation plus a narrow trailing gap.
     Script dialogs have room: lowercase pairs only, prioritized by frequency,
     assigned while the sacrificial pool lasts.
     """
@@ -71,6 +73,7 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
             if ch in SINGLES:
                 singles.add(ch)
         spacing_pairs.update(" " + m.group(1) for m in SPACE_LETTER_RE.finditer(t))
+        spacing_pairs.update(m.group(1) + " " for m in LETTER_SPACE_RE.finditer(t))
         spacing_pairs.update(m.group(1) + " " for m in PUNCT_SPACE_RE.finditer(t))
     for p in PUNCT_PAIRS:
         spacing_pairs[p] += 1_000_000
