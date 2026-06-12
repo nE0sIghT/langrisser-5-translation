@@ -12,8 +12,8 @@ The player-name macro <$F600><$0000> counts as NAME_CELLS (the name entry
 screen allows 8 native glyphs — measured in-game); explicit printable
 tags such as the <$0000> indent space count as one cell. Both windows
 that auto-wrap (dialogue and narration/briefing) are 21 cells wide
-(measured in-game with a ruler build); the default width keeps one cell
-of safety margin.
+(measured in-game with a ruler build). Chunk-specific overrides handle
+wider special windows such as the startup quiz.
 
 Choice records (text starting with ・) are kept single-line and reported
 if they exceed the width.
@@ -29,9 +29,11 @@ PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
 PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
-# Chunks whose dialogue window draws no inline speaker plate (verified
-# in-game): the quiz renders full-width text despite FB00 tags.
-RESERVE_OVERRIDE = {0: 0}
+# Chunks whose text box uses the whole measured width. The speaker binding is
+# VM state, not a text token; do not use hand-written speaker maps here.
+RESERVE_OVERRIDE = {0: 0, 45: 0}
+# Chunk 0 uses the wider quiz/operator window, not the standard dialogue box.
+WIDTH_OVERRIDE = {0: 26, 45: 21}
 
 
 def cells(codec: Codec, text: str) -> int:
@@ -220,13 +222,15 @@ def main() -> None:
             if "\t" in raw and not raw.startswith("#"):
                 records.append(tuple(raw.split("\t", 1)))
         chunk_idx = int(fp.stem.split("_")[1])
-        reserve = RESERVE_OVERRIDE.get(chunk_idx, plate_reserve(codec, records))
+        chunk_reserve = RESERVE_OVERRIDE.get(chunk_idx, plate_reserve(codec, records))
+        width = WIDTH_OVERRIDE.get(chunk_idx, args.width)
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" not in raw or raw.startswith("#"):
                 out_lines.append(raw)
                 continue
             idx, text = raw.split("\t", 1)
+            reserve = chunk_reserve
             stripped = TAG_RE.sub("", text)
             if stripped.count("・") > 1:
                 # multi-bullet objective lists keep their structure verbatim
@@ -241,12 +245,13 @@ def main() -> None:
                     new_text = f"{head}<$FFFE>{tail}"
                 else:
                     new_text = " ".join(text.replace(LINE_BREAK, " ").split())
+                choice_width = WIDTH_OVERRIDE.get(chunk_idx, args.choice_width)
                 n = visible_cells(codec, new_text.split("<$FFFE>")[0])
-                if n > args.choice_width:
-                    print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
+                if n > choice_width:
+                    print(f"{fp.name} record {idx}: choice is {n} cells (max {choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
-                new_text = reflow_record(codec, text, args.width, reserve)
+                new_text = reflow_record(codec, text, width, reserve)
                 # Page height check: lines between page/terminator controls.
                 for page in re.split(r"<\$FFFD>|<\$FFFE>|<\$FFFF>", new_text):
                     n = page.count(LINE_BREAK) + 1

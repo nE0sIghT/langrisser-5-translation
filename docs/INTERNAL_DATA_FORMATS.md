@@ -50,5 +50,26 @@ Menu patching strategy:
 - `FFFC` — line/page separator semantics in text path
 - `FFFD`, `FFFE`, `FFFF` — control/termination states in stream handling
 
+## Speaker plate reserves
+
+The first `FFFF`-terminated records in story chunks form a local name-plate
+pool. Dialogue records do not point to that pool directly: `FB00 <id>` is a
+dialogue/event ID, not a name-record index. Example from chunk 45: record 10
+uses `FB00 0003`, while its visible speaker is the local machine-voice plate
+(name record 7 in that chunk).
+
+The reference layer is in the chunk VM bytecode before the text block.
+`scripts/lang5_vm_dialog_refs.py` extracts command sites that reference the
+same `FB00` IDs, with currently confirmed shapes:
+
+```text
+<state> <fb_id> FF0B <flags> FFFF FFFF
+FF00 <fb_id> ... FF0B <flags> FFFF FFFF
+```
+
+The `state` word and optional words before `FF0B` are actor/pose/window state
+and still require dispatch-level interpretation before they can be converted
+to exact speaker plate widths. No hand-written speaker map is canonical.
+
 Detailed dispatch-level evidence is in:
 - `docs/DISASM_SUMMARY.md`

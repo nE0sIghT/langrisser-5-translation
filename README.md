@@ -48,6 +48,7 @@ image in `iso/` (not in git).
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN.DAT  work/extracted/SCEN.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN2.DAT work/extracted/SCEN2.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SYSTEM.BIN work/extracted/SYSTEM.BIN
+python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /SLPS_018.19 work/extracted/SLPS_018.19
 ```
 
 ## Step 1 — dump the original script
@@ -109,10 +110,11 @@ Edit the staging file, translating record by record:
 
 - keep every `<$XXXX>` control tag and its position relative to the text;
   only `<$FFFC>`/`<$FFFD>` line/page breaks may be moved, added or removed;
-- the text windows are 21 cells wide (a lowercase pair is one cell, a
-  space or capital is one cell, the player-name macro counts as 8) and a
+- the standard text window is 21 cells wide (a lowercase pair is one cell,
+  a space or capital is one cell, the player-name macro counts as 8) and a
   page holds up to 4 lines; don't worry about exact line breaks — the
-  re-wrapper handles them;
+  re-wrapper handles them with a 20-cell safety width unless a chunk has a
+  measured window-width override (`chunk_000` quiz/operator window is wider);
 - choice records (starting with `・`) must stay single-line;
 - the font has no `; — – !? /` — use `,` and full-width `！？`.
 
@@ -138,17 +140,23 @@ For names/menus instead of script text: edit `names_base.csv` /
 glossary against the actual `SYSTEM.BIN` runs and reports labels that don't
 fit their slots.
 
+For VM/script diagnostics, `scripts/lang5_vm_dialog_refs.py` extracts
+chunk-local name pools and static VM command sites that reference `FB00`
+dialogue IDs. Its output is evidence for reverse-engineering speaker binding;
+speaker plates are not maintained as hand-written data.
+
 ## Step 4 — rebuild the patch
 
 ```bash
 python3 scripts/lang5_build_ppf.py
 ```
 
-This renders the font, patches `SYSTEM.BIN` (menus + names), syncs
-`SCEN -> SCEN2`, re-inserts all translated chunks with fixed-size container
-repacking, injects everything into a copy of the BIN (sizes unchanged —
-never use `--allow-grow`: the free space overlaps the CD audio tracks) and
-writes `patches/langrisser_v_en.ppf` (PPF3, apply to the original BIN). A
+This renders the font, patches `SYSTEM.BIN` (menus + names), patches
+`SLPS_018.19` (name-entry grid), syncs `SCEN -> SCEN2`, re-inserts all
+translated chunks with fixed-size container repacking, injects everything
+into a copy of the BIN (sizes unchanged — never use `--allow-grow`: the
+free space overlaps the CD audio tracks) and writes
+`patches/langrisser_v_en.ppf` (PPF3, apply to the original BIN). A
 ready-to-boot image is left in `work/build/langrisser_v_en.bin` for emulator
 testing.
 
