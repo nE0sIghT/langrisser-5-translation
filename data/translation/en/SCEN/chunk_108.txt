@@ -1,0 +1,43 @@
+# file=SCEN.DAT chunk=108 chunk_start=0x12FF000
+# block_base=0x5FC0 block_size=0x06C8 records=41
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Virash<$FFFF>
+8	Eric<$FFFF>
+9	Gilmore<$FFFF>
+10	Soldier<$FFFF>
+11	Outside Velzeria Castle<$FFFF>
+12	<$FB00><$005C>Yo, Brenda.<$FFFE>
+13	<$FB00><$005D>Virash<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+14	<$FB00><$005E>Who is he？<$FFFE>
+15	<$FB00><$005F>A pal of mine. You<$FFFC>know, the guy who lent us the<$FFFC>airship.<$FFFE>
+16	<$FB00><$0060>More to the point, what<$FFFC>brings you here？<$FFFE>
+17	<$FB00><$0061>Oh, he showed me the<$FFFC>way.<$FFFE>
+18	<$FB00><$0063>Eric.<$FFFE>
+19	<$FB00><$0064>Ah, Clarett！ I missed<$FFFC>you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+20	<$FB00><$0065>You were worried for<$FFFC>me. Thank you, Eric.<$FFFE>
+21	<$FB00><$0066>Anyway, Brenda. Looks<$FFFC>like you beat the demons. So<$FFFC>where are the swords？<$FFFE>
+22	<$FB00><$0067>Yeah, about that…<$FFFC>they're nowhere in this castle！<$FFFE>
+23	<$FB00><$0068>Hey, hey, that's not the<$FFFC>deal, is it？<$FFFE>
+24	<$FB00><$0069>We were just talking it<$FFFC>over. That demon Gaiel may have<$FFFC>them.<$FFFE>
+25	<$FB00><$006A>Hold on<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+26	<$FB00><$006B>What is it？<$FFFE>
+27	<$FB00><$006C>What if Omega<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+28	<$FB00><$006D>He did say something.<$FFFC>About having bought enough time.<$FFFE>
+29	<$FB00><$006E>Come to think of it,<$FFFC>Lainforce's men were prowling about.<$FFFE>
+30	<$FB00><$006F>Lain's men？ Don't tell<$FFFC>me… Aizer？<$FFFE>
+31	<$FB00><$0070>Yeah, that was the<$FFFC>name, I think.<$FFFE>
+32	<$FB00><$0071>You mean they took the<$FFFC>swords before we got there？<$FFFE>
+33	<$FB00><$0072>It's possible. Remember<$FFFC>all the dead monsters at the<$FFFC>castle entrance？<$FFFE>
+34	<$FB00><$0073>So they did get there<$FFFC>first. That's what the time-buying<$FFFC>was about.<$FFFE>
+35	<$FB00><$0074>They may well have taken<$FFFC>them.<$FFF5><$FFF8> …<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>All right. I'll chase<$FFFC>that lead myself.<$FFFE>
+36	<$FB00><$0076>Clarett！ Now you will<$FFFC>know my power！<$FFF5><$FFF8><$FE3C><$FFFB> <$FE3C><$FB00><$0077>Magitek cannon,<$FFFC>fire！<$FFF5><$FFF7><$FFFE>
+37	Fort near Velzeria<$FFFF>
+38	<$FB00><$0078>You useless oafs！ Aim<$FFFC>properly！ All you hit was the<$FFFC>castle！<$FFFE>
+39	<$FB00><$0079>Forgive us. We never<$FFFC>expected such recoil from the<$FFFC>cannon<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+40	<$FB00><$007A>No back talk！ When is<$FFFC>the next shot？<$FFFE>
+41	<$FB00><$007B>We are charging mana now.<$FFFC>Perhaps an hour more<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
