@@ -11,87 +11,87 @@
 9	Lambda<$FFFF>
 10	Grunt<$FFFF>
 11	Kalxath Castle Audience Hall<$FFFF>
-12	<$FB00><$0003>Hey, Jessica. Could you restore<$FFFC>my sister Marie's memory too？<$FFFE>
-13	<$FB00><$0004>Yes. I should be able to do it<$FFFC>the same way I restored yours.<$FFFC>Let us try.<$FFFE>
+12	<$FB00><$0003>Hey,<$FFFC>Jessica. Could you restore my<$FFFC>sister Marie's memory too？<$FFFE>
+13	<$FB00><$0004>Yes.<$FFFC>I should be able to do it the<$FFFC>same way I restored yours. Let<$FFFC>us try.<$FFFE>
 14	<$FFFA><$FFF8>…<$FFFE>
-15	<$FB00><$0005>How is it, Marie？ Do you<$FFFC>remember now？ Do you remember<$FFFC>me？<$FFFE>
-16	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0006>Brother.<$FFFD><$FFF9><$FB00><$0007>I remember. My childhood, and<$FFFC>what happened after Gizarof took<$FFFC>me. I remember everything！<$FFFD><$FB00><$0008>Yes. I am Mariandel. I am Marie.<$FFFE>
+15	<$FB00><$0005>How<$FFFC>is it, Marie？ Do you remember<$FFFC>now？ Do you remember me？<$FFFE>
+16	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0006>Brother.<$FFFD><$FFF9><$FB00><$0007>I<$FFFC>remember. My childhood, and what<$FFFC>happened after Gizarof took me.<$FFFC>I remember everything！<$FFFD><$FB00><$0008>Yes.<$FFFC>I am Mariandel. I am Marie.<$FFFE>
 17	<$FB00><$0009>Marie<$FFF5><$FFF8>…<$FFFE>
-18	<$FB00><$000A>I am glad for you, Lambda.<$FFFE>
-19	<$FB00><$000B>But I have not forgotten you.<$FFFC>Lambda's memories are still inside<$FFFC>me！<$FFFE>
-20	<$FB00><$000C>Having family really is a good<$FFFC>thing, isn't it？<$FFFE>
-21	<$FB00><$000D>Then which name should we use<$FFFC>from now on？<$FFFE>
-22	<$FB00><$000E>Either one is fine. I am Marie,<$FFFC>and I am also Lambda.<$FFFE>
-23	<$FB00><$000F>No. You should use your true<$FFFC>name, Mariandel.<$FFFE>
-24	<$FFF8>…<$FFF6><$FB00><$0010>All right. Then call me Marie<$FFFC>from now on.<$FFFE>
-25	<$FB00><$0011>Hey, while we are here, why<$FFFC>not have her restore your memory<$FFFC>too？<$FFFE>
+18	<$FB00><$000A>I am<$FFFC>glad for you, Lambda.<$FFFE>
+19	<$FB00><$000B>But<$FFFC>I have not forgotten you.<$FFFC>Lambda's memories are still inside<$FFFC>me！<$FFFE>
+20	<$FB00><$000C>Having<$FFFC>family really is a good thing,<$FFFC>isn't it？<$FFFE>
+21	<$FB00><$000D>Then<$FFFC>which name should we use from<$FFFC>now on？<$FFFE>
+22	<$FB00><$000E>Either<$FFFC>one is fine. I am Marie, and<$FFFC>I am also Lambda.<$FFFE>
+23	<$FB00><$000F>No.<$FFFC>You should use your true name,<$FFFC>Mariandel.<$FFFE>
+24	<$FFF8>…<$FFF6><$FB00><$0010>All<$FFFC>right. Then call me Marie from<$FFFC>now on.<$FFFE>
+25	<$FB00><$0011>Hey,<$FFFC>while we are here, why not<$FFFC>have her restore your memory<$FFFC>too？<$FFFE>
 26	<$FB00><$0012>Mine？<$FFFE>
-27	<$FB00><$0013>Yes！ Ask her while we can！<$FFFC>I know who you were, but you<$FFFC>should remember it yourself.<$FFFE>
-28	<$FB00><$0014>Hey, while we are here, why<$FFFC>not have her examine you too？<$FFFE>
+27	<$FB00><$0013>Yes！<$FFFC>Ask her while we can！ I know<$FFFC>who you were, but you should<$FFFC>remember it yourself.<$FFFE>
+28	<$FB00><$0014>Hey,<$FFFC>while we are here, why not<$FFFC>have her examine you too？<$FFFE>
 29	<$FB00><$0015>I<$FFF5><$FFF8>…<$FFFE>
-30	<$FB00><$0016>It is worth finding out whether<$FFFC>you were created or not, right？<$FFFE>
+30	<$FB00><$0016>It is<$FFFC>worth finding out whether you<$FFFC>were created or not, right？<$FFFE>
 31	<$FFF8><$FB00><$0017>Hmm<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-32	<$FB00><$0018>I do not mind. The choice is<$FFFC>yours.<$FFFE>
-33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0019>Right. I decided I would<$FFFC>not run anymore. Jessica, please<$FFFC>do it.<$FFFE>
+32	<$FB00><$0018>I do<$FFFC>not mind. The choice is yours.<$FFFE>
+33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0019>Right.<$FFFC>I decided I would not run<$FFFC>anymore. Jessica, please do it.<$FFFE>
 34	<$FB00><$001A>No<$FFF5><$FFF8>…<$FFFE>
-35	<$FB00><$001B>What is wrong, Jessica？<$FFFE>
-36	<$FB00><$001C>Well？ Did you remember anything？<$FFFE>
-37	<$FFF8>…<$FFF6><$FB00><$001D>No. Nothing has changed<$FFF5><$FFF8>…<$FFFE>
-38	<$FB00><$001E>No good. It failed.<$FFFE>
-39	<$FB00><$001F>Even someone like you could not<$FFFC>do it, Jessica<$FFF5><$FFF8>…<$FFFE>
-40	<$FB00><$0020>His spirit is unlike that of a<$FFFC>normal person. Any spell I send<$FFFC>into him is absorbed.<$FFFD><$FB00><$0021>Magic cannot restore his memory.<$FFFC>He will have to remember it on<$FFFC>his own.<$FFFE>
-41	<$FB00><$0022>Could that be because of our<$FFFC>modifications？<$FFFE>
-42	<$FB00><$0023>Yes, probably. The three of us<$FFFC>were modified by Gizarof, but each<$FFFC>in a different way.<$FFFE>
-43	<$FB00><$0024>I<$FFF5><$FFF8>…<$FFF6><$FB00><$0025>I remember being told my<$FFFC>magic capacity would be increased.<$FFFE>
-44	<$FB00><$0026>I was told mine was a<$FFFC>mechanical body enhancement<$FFFC>experiment. What about you？<$FFFE>
-45	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0027>I<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0028>I do not know. I do<$FFFC>not know what was done to me.<$FFFC>But according to Omega<$FFF5><$FFF8>…<$FFFE>
-46	<$FB00><$0029>Omega？ Who is that？<$FFFE>
-47	<$FB00><$002A>Marie, you remember him, right？<$FFFC>The one still in a culture<$FFFC>tank when we awoke in the lab.<$FFFE>
-48	<$FB00><$002B>Yes, I remember. His code name<$FFFC>was Omega too.<$FFFE>
-49	<$FB00><$002C>I spoke with him before.<$FFFC>According to him, I<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$002D>well<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$002E>I<$FFFC>apparently died once.<$FFFE>
+35	<$FB00><$001B>What<$FFFC>is wrong, Jessica？<$FFFE>
+36	<$FB00><$001C>Well？<$FFFC>Did you remember anything？<$FFFE>
+37	<$FFF8>…<$FFF6><$FB00><$001D>No.<$FFFC>Nothing has changed<$FFF5><$FFF8>…<$FFFE>
+38	<$FB00><$001E>No<$FFFC>good. It failed.<$FFFE>
+39	<$FB00><$001F>Even<$FFFC>someone like you could not do<$FFFC>it, Jessica<$FFF5><$FFF8>…<$FFFE>
+40	<$FB00><$0020>His<$FFFC>spirit is unlike that of a normal<$FFFC>person. Any spell I send into<$FFFC>him is absorbed.<$FFFD><$FB00><$0021>Magic<$FFFC>cannot restore his memory. He<$FFFC>will have to remember it on his<$FFFC>own.<$FFFE>
+41	<$FB00><$0022>Could<$FFFC>that be because of our<$FFFC>modifications？<$FFFE>
+42	<$FB00><$0023>Yes,<$FFFC>probably. The three of us were<$FFFC>modified by Gizarof, but each in<$FFFC>a different way.<$FFFE>
+43	<$FB00><$0024>I<$FFF5><$FFF8>…<$FFF6><$FB00><$0025>I<$FFFC>remember being told my magic<$FFFC>capacity would be increased.<$FFFE>
+44	<$FB00><$0026>I<$FFFC>was told mine was a mechanical<$FFFC>body enhancement experiment. What<$FFFC>about you？<$FFFE>
+45	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0027>I<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0028>I<$FFFC>do not know. I do not know<$FFFC>what was done to me. But<$FFFC>according to Omega<$FFF5><$FFF8>…<$FFFE>
+46	<$FB00><$0029>Omega？<$FFFC>Who is that？<$FFFE>
+47	<$FB00><$002A>Marie,<$FFFC>you remember him, right？ The<$FFFC>one still in a culture tank<$FFFC>when we awoke in the lab.<$FFFE>
+48	<$FB00><$002B>Yes,<$FFFC>I remember. His code name was<$FFFC>Omega too.<$FFFE>
+49	<$FB00><$002C>I<$FFFC>spoke with him before. According<$FFFC>to him, I<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$002D>well<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$002E>I apparently<$FFFC>died once.<$FFFE>
 50	<$FFF8><$FB00><$002F>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
-51	<$FB00><$0030>He said the experiment brought me<$FFFC>back to life<$FFF5><$FFF8>…<$FFFE>
-52	<$FB00><$0031>Omega？ <$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0032>Yes, you mentioned<$FFFC>that name before.<$FFFE>
-53	<$FB00><$0033>I spoke with him before.<$FFFC>According to him, I died once<$FFFC>and Gizarof revived me.<$FFFE>
-54	<$FB00><$0034>I cannot be sure, but that may<$FFFC>have affected his spirit.<$FFFD><$FB00><$0035>If something could trigger him,<$FFFC>he might remember naturally<$FFF5><$FFF8>…<$FFFE>
-55	<$FB00><$0036>Then let us go somewhere that<$FFFC>might lead to his memories！<$FFFC>Follow me！<$FFFE>
+51	<$FB00><$0030>He<$FFFC>said the experiment brought me<$FFFC>back to life<$FFF5><$FFF8>…<$FFFE>
+52	<$FB00><$0031>Omega？<$FFFC><$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0032>Yes, you mentioned that name<$FFFC>before.<$FFFE>
+53	<$FB00><$0033>I<$FFFC>spoke with him before. According<$FFFC>to him, I died once and Gizarof<$FFFC>revived me.<$FFFE>
+54	<$FB00><$0034>I<$FFFC>cannot be sure, but that may<$FFFC>have affected his spirit.<$FFFD><$FB00><$0035>If<$FFFC>something could trigger him, he<$FFFC>might remember naturally<$FFF5><$FFF8>…<$FFFE>
+55	<$FB00><$0036>Then<$FFFC>let us go somewhere that might<$FFFC>lead to his memories！ Follow me！<$FFFE>
 56	Scene of the Emperor's Murder<$FFFF>
-57	<$FB00><$0037>This was my father's room. Father<$FFFC>died here… Well？<$FFFE>
-58	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0038>No good！ I cannot remember！<$FFFE>
-59	<$FB00><$0039>More importantly, did you really<$FFFC>kill the emperor？<$FFFE>
-60	<$FB00><$003A>It seems so<$FFF5><$FFF8>…<$FFFE>
-61	<$FB00><$003B>Seems so？ You do not even know<$FFFC>yourself. Then do not decide you<$FFFC>are guilty！<$FFFE>
-62	<$FB00><$003C>I will ask<$FFF5><$FFF8>…<$FFFE>
-63	<$FB00><$003D>Ask？ Ask who？<$FFFE>
-64	<$FB00><$003E>Clarett, has this plant always<$FFFC>been here？<$FFFE>
-65	<$FFF7><$FB00><$003F>Huh？ Yes. <$FFF5><$FFF8><$FFF6><$FB00><$0040>Father loved plants.<$FFFC>It has been here since before he<$FFFC>died.<$FFFE>
-66	<$FB00><$0041>Then I will ask it. Plants see,<$FFFC>hear and feel. With my power, I<$FFFC>can speak to them.<$FFFE>
-67	<$FFFA><$FB00><$0042>It saw it. It knows the truth<$FFFC>of the emperor's murder<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>Now, tell<$FFFC>me.<$FFFE>
-68	<$FFFA><$FB00><$0044>I see a thin, earth-colored<$FFFC>man strangling someone who looks<$FFFC>like the emperor.<$FFFE>
-69	<$FFFA><$FB00><$0045>He is on the floor. It looks as<$FFFC>if he was drugged.<$FFFD>The emperor stands beside him<$FFFC>with a sword, but his body is<$FFFC>already dead.<$FFFD><$FB00><$0046>The emperor stabbed his own<$FFFC>chest. Then he put the sword in<$FFFC>his hand and fell.<$FFFE>
-70	<$FFFA><$FB00><$0047>The man who strangled him<$FFFC>enters the room and laughs. What<$FFFC>a vile smile.<$FFFD><$FB00><$0048>Then he knocked over the desk<$FFFC>and vanished, as if covering his<$FFFC>tracks.<$FFFE>
-71	<$FB00><$0049>I can tell the rest. I heard<$FFFC>a loud noise from father's room<$FFFC>and came with the guards.<$FFFD><$FB00><$004A>He stood in a daze, holding a<$FFFC>bloodstained sword.<$FFFD>When he saw us, he escaped<$FFFC>through that window.<$FFFE>
-72	<$FB00><$004B>The tree says the same.<$FFFE>
-73	<$FB00><$004C>That is wonderful！ You are not<$FFFC>the murderer！<$FFFE>
-74	<$FB00><$004D>But that alone will not prove<$FFFC>him innocent.<$FFFD><$FB00><$004E>I do not want to doubt Marie,<$FFFC>but even if she is right, we<$FFFC>have no way to prove it.<$FFFE>
-75	<$FB00><$004F>Yes. I am sorry. I could not<$FFFC>help.<$FFFE>
-76	<$FB00><$0050>No, do not worry about it.<$FFFE>
-77	<$FB00><$0051>If you cannot remember, I will<$FFFC>tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son, ruler<$FFFC>of northern Liguria, and my<$FFFC>cousin.<$FFFD><$FB00><$0053>Because of your house and sword<$FFFC>skill, father made you guard<$FFFC>captain.<$FFFE>
-78	<$FB00><$0054>Then my parents<$FFF5><$FFF8>…<$FFFE>
-79	<$FB00><$0055>You were hunted as a traitor, so<$FFFC>House Egil was abolished and<$FFFC>its bloodline ended.<$FFFD><$FFF8>…<$FFF6><$FB00><$0056>Except for you.<$FFFE>
-80	<$FFF8>…<$FFF6><$FB00><$0057>Recovering his memory may hurt<$FFFC>him more than losing it did.<$FFFE>
-81	<$FB00><$0058>And your homeland, Liguria, became<$FFFC>the domain of Minister Gilmore.<$FFFE>
-82	<$FB00><$0059>I see<$FFF5><$FFF8>…<$FFFE>
-83	<$FB00><$005A>But if your suspicion is cleared<$FFFC><$FFF5><$FFF8>…<$FFFE>
+57	<$FB00><$0037>This<$FFFC>was my father's room. Father died<$FFFC>here… Well？<$FFFE>
+58	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0038>No<$FFFC>good！ I cannot remember！<$FFFE>
+59	<$FB00><$0039>More<$FFFC>importantly, did you really kill<$FFFC>the emperor？<$FFFE>
+60	<$FB00><$003A>It<$FFFC>seems so<$FFF5><$FFF8>…<$FFFE>
+61	<$FB00><$003B>Seems<$FFFC>so？ You do not even know<$FFFC>yourself. Then do not decide you<$FFFC>are guilty！<$FFFE>
+62	<$FB00><$003C>I<$FFFC>will ask<$FFF5><$FFF8>…<$FFFE>
+63	<$FB00><$003D>Ask？<$FFFC>Ask who？<$FFFE>
+64	<$FB00><$003E>Clarett,<$FFFC>has this plant always been here？<$FFFE>
+65	<$FFF7><$FB00><$003F>Huh？<$FFFC>Yes. <$FFF5><$FFF8><$FFF6><$FB00><$0040>Father loved plants. It has<$FFFC>been here since before he died.<$FFFE>
+66	<$FB00><$0041>Then<$FFFC>I will ask it. Plants see, hear<$FFFC>and feel. With my power, I can<$FFFC>speak to them.<$FFFE>
+67	<$FFFA><$FB00><$0042>It<$FFFC>saw it. It knows the truth of<$FFFC>the emperor's murder<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>Now, tell<$FFFC>me.<$FFFE>
+68	<$FFFA><$FB00><$0044>I<$FFFC>see a thin, earth-colored man<$FFFC>strangling someone who looks like<$FFFC>the emperor.<$FFFE>
+69	<$FFFA><$FB00><$0045>He is<$FFFC>on the floor. It looks as if he<$FFFC>was drugged.<$FFFD>The<$FFFC>emperor stands beside him with a<$FFFC>sword, but his body is already<$FFFC>dead.<$FFFD><$FB00><$0046>The<$FFFC>emperor stabbed his own chest.<$FFFC>Then he put the sword in his<$FFFC>hand and fell.<$FFFE>
+70	<$FFFA><$FB00><$0047>The<$FFFC>man who strangled him enters<$FFFC>the room and laughs. What a<$FFFC>vile smile.<$FFFD><$FB00><$0048>Then<$FFFC>he knocked over the desk and<$FFFC>vanished, as if covering his<$FFFC>tracks.<$FFFE>
+71	<$FB00><$0049>I<$FFFC>can tell the rest. I heard a<$FFFC>loud noise from father's room and<$FFFC>came with the guards.<$FFFD><$FB00><$004A>He<$FFFC>stood in a daze, holding a<$FFFC>bloodstained sword.<$FFFD>When<$FFFC>he saw us, he escaped through<$FFFC>that window.<$FFFE>
+72	<$FB00><$004B>The<$FFFC>tree says the same.<$FFFE>
+73	<$FB00><$004C>That<$FFFC>is wonderful！ You are not the<$FFFC>murderer！<$FFFE>
+74	<$FB00><$004D>But<$FFFC>that alone will not prove him<$FFFC>innocent.<$FFFD><$FB00><$004E>I do<$FFFC>not want to doubt Marie, but<$FFFC>even if she is right, we have no<$FFFC>way to prove it.<$FFFE>
+75	<$FB00><$004F>Yes.<$FFFC>I am sorry. I could not help.<$FFFE>
+76	<$FB00><$0050>No,<$FFFC>do not worry about it.<$FFFE>
+77	<$FB00><$0051>If<$FFFC>you cannot remember, I will tell<$FFFC>you what I know.<$FFFD><$FB00><$0052>You<$FFFC>are Duke Egil's son, ruler of<$FFFC>northern Liguria, and my cousin.<$FFFD><$FB00><$0053>Because<$FFFC>of your house and sword skill,<$FFFC>father made you guard captain.<$FFFE>
+78	<$FB00><$0054>Then<$FFFC>my parents<$FFF5><$FFF8>…<$FFFE>
+79	<$FB00><$0055>You<$FFFC>were hunted as a traitor, so<$FFFC>House Egil was abolished and<$FFFC>its bloodline ended.<$FFFD><$FFF8>…<$FFF6><$FB00><$0056>Except<$FFFC>for you.<$FFFE>
+80	<$FFF8>…<$FFF6><$FB00><$0057>Recovering<$FFFC>his memory may hurt him more<$FFFC>than losing it did.<$FFFE>
+81	<$FB00><$0058>And<$FFFC>your homeland, Liguria, became the<$FFFC>domain of Minister Gilmore.<$FFFE>
+82	<$FB00><$0059>I<$FFFC>see<$FFF5><$FFF8>…<$FFFE>
+83	<$FB00><$005A>But<$FFFC>if your suspicion is cleared <$FFF5><$FFF8>…<$FFFE>
 84	<$FB00><$005B>Emergency！<$FFFE>
-85	<$FB00><$005C>What happened？<$FFFE>
-86	<$FB00><$005D>Demons！ Demons from Velzeria are<$FFFC>raising the dead and attacking！<$FFFC>Damage is spreading everywhere！<$FFFE>
-87	<$FB00><$005E>Using the dead？<$FFFE>
-88	<$FB00><$005F>Our war left many dead. The<$FFFC>demons must have been waiting for<$FFFC>this moment.<$FFFE>
-89	<$FB00><$0060>Understood. Send soldiers to<$FFFC>protect the people！ We will go<$FFFC>too！<$FFFE>
-90	<$FB00><$0061>I will help as well. Please lend<$FFFC>me troops.<$FFFE>
-91	<$FB00><$0062>It is dangerous, Jessica. I will<$FFFC>command the troops. Please defend<$FFFC>the castle！<$FFFE>
-92	<$FB00><$0040>All right, let us move！<$FFFE>
+85	<$FB00><$005C>What<$FFFC>happened？<$FFFE>
+86	<$FB00><$005D>Demons！<$FFFC>Demons from Velzeria are raising<$FFFC>the dead and attacking！ Damage<$FFFC>is spreading everywhere！<$FFFE>
+87	<$FB00><$005E>Using<$FFFC>the dead？<$FFFE>
+88	<$FB00><$005F>Our<$FFFC>war left many dead. The demons<$FFFC>must have been waiting for this<$FFFC>moment.<$FFFE>
+89	<$FB00><$0060>Understood.<$FFFC>Send soldiers to protect the<$FFFC>people！ We will go too！<$FFFE>
+90	<$FB00><$0061>I<$FFFC>will help as well. Please lend me<$FFFC>troops.<$FFFE>
+91	<$FB00><$0062>It is<$FFFC>dangerous, Jessica. I will command<$FFFC>the troops. Please defend the<$FFFC>castle！<$FFFE>
+92	<$FB00><$0040>All<$FFFC>right, let us move！<$FFFE>
 93	Before you deploy, there is<$FFFC>something I want to give you…<$FFFE>
 94	For me？<$FFFE>
 95	<$F600><$0000>'s personal weapon<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Assault Magiblade<$FFF3> obtained！<$FFFE>
@@ -99,7 +99,7 @@
 97	It is the Egil family treasure,<$FFFC>the sword you used before.<$FFFD>They say an Egil emperor found<$FFFC>it one thousand years ago while<$FFFC>trying to save his wife.<$FFFD>It is hard to wield, and few<$FFFC>Egils ever mastered it…<$FFFD>I hoped using it might help<$FFFC>your memory return…<$FFFE>
 98	I see. If I once used it, my<$FFFC>body may remember it.<$FFFE>
 99	Thank you, Clarett.<$FFFE>
-100	<$FB00><$0040>Then let us hurry.<$FFFE>
+100	<$FB00><$0040>Then<$FFFC>let us hurry.<$FFFE>
 101	<$0000>Though Gilmore himself escaped,<$FFFC>the party retook Kalxath Castle.<$FFFD><$0000>But the turmoil across El<$FFFC>Sallia had not yet ended.<$FFFD><$0000>The demons, who had been<$FFFC>lying low until now, finally<$FFFC>began to move.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>hurried to a village where the<$FFFC>dead were said to walk.<$FFFE>
 102	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 villager units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 103	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・All villagers defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

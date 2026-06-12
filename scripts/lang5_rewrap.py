@@ -52,17 +52,21 @@ def wrap(codec: Codec, text: str, width: int) -> str:
     return LINE_BREAK.join(lines)
 
 
-def wrap_stream(codec: Codec, text: str, width: int) -> str:
+def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
     """Wrap a mixed text/control stream without treating control tags as a
     visual line reset. Zero-width control tags create safe break points
     before the next printable word; tags glued to the tail of a word (such
     as the highlight-off after the word) stay with that word. The name
-    macro and printable tags carry real cell widths."""
+    macro and printable tags carry real cell widths.
+
+    `reserve` is the speaker-plate width: the engine draws the name plate
+    and its bracket inline at the start of the window, so the first line
+    of the record and of every page is shorter by that amount."""
     out: list[str] = []
     pending_tags: list[str] = []
     atom_parts: list[str] = []
     atom_width = 0
-    line_width = 0
+    line_width = reserve
     line_has_text = False
     saw_space = False
     saw_tag_boundary = False
@@ -128,7 +132,7 @@ def wrap_stream(codec: Codec, text: str, width: int) -> str:
             out.extend(pending_tags)
             pending_tags.clear()
             out.append(tag_text)
-            line_width = 0
+            line_width = reserve
             line_has_text = False
             saw_space = False
             saw_tag_boundary = False
@@ -146,8 +150,27 @@ def wrap_stream(codec: Codec, text: str, width: int) -> str:
     return "".join(out)
 
 
-def reflow_record(codec: Codec, text: str, width: int) -> str:
-    return wrap_stream(codec, text, width)
+def reflow_record(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
+    # The plate reserve only applies to spoken records; narration windows
+    # have no name plate.
+    if "<$FB" not in text:
+        reserve = 0
+    return wrap_stream(codec, text, width, reserve)
+
+
+def plate_reserve(codec: Codec, records: list[tuple[str, str]]) -> int:
+    """Worst-case speaker plate width for a chunk: the FFFF-terminated
+    name records that precede the first FFFE objective record, plus one
+    cell for the bracket the engine draws after the name. (The speaker of
+    a given line is bound in the chunk's VM bytecode, not in the text, so
+    the widest plate is the safe bound.)"""
+    widest = 0
+    for _idx, text in records:
+        if text.endswith("<$FFFE>"):
+            break
+        if text.endswith("<$FFFF>"):
+            widest = max(widest, visible_cells(codec, text[: -len("<$FFFF>")]))
+    return widest + 1 if widest else 0
 
 
 def visible_cells(codec: Codec, text: str) -> int:
@@ -189,6 +212,11 @@ def main() -> None:
 
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
     for fp in sorted(Path(args.en_dump).glob("*/chunk_*.txt")):
+        records = []
+        for raw in fp.read_text(encoding="utf-8").splitlines():
+            if "\t" in raw and not raw.startswith("#"):
+                records.append(tuple(raw.split("\t", 1)))
+        reserve = plate_reserve(codec, records)
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" not in raw or raw.startswith("#"):
@@ -214,7 +242,7 @@ def main() -> None:
                     print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
-                new_text = reflow_record(codec, text, args.width)
+                new_text = reflow_record(codec, text, args.width, reserve)
                 # Page height check: lines between page/terminator controls.
                 for page in re.split(r"<\$FFFD>|<\$FFFE>|<\$FFFF>", new_text):
                     n = page.count(LINE_BREAK) + 1

@@ -10,35 +10,35 @@
 8	Gizarof private<$FFFF>
 9	Marshal Gizarof<$FFFF>
 10	Riverbank at night<$FFFF>
-11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a<$FFFC>while.<$FFFE>
-12	<$FB00><$0005>Who are you？<$FFFE>
-13	<$FB00><$0006>Forgot me？ I'm Omega.<$FFFD><$FB00><$0007>We served Gizarof together.<$FFFC>Remember？<$FFFE>
-14	<$FB00><$0008>I only met Gizarof once.<$FFFE>
-15	<$FB00><$0009>Don't play dumb. <$FFF5><$FFF8>…<$FE14><$FFF6><$FB00><$000A>Wait, did<$FFFC>you lose your memory？<$FFFE>
-16	<$FB00><$000B>Memory？ I'm a clone made in<$FFFC>that laboratory.<$FFFE>
-17	<$FB00><$000C>You're no clone.<$FFFD><$FB00><$000D>Tch, your memory is gone<$FFF5><$FFF8>…<$FFF6><$FB00><$000E>Then I'll<$FFFC>tell you your past！<$FFFE>
+11	<$FB00><$0003>Yo,<$FFFC><$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a while.<$FFFE>
+12	<$FB00><$0005>Who are<$FFFC>you？<$FFFE>
+13	<$FB00><$0006>Forgot me？<$FFFC>I'm Omega.<$FFFD><$FB00><$0007>We served<$FFFC>Gizarof together. Remember？<$FFFE>
+14	<$FB00><$0008>I only met<$FFFC>Gizarof once.<$FFFE>
+15	<$FB00><$0009>Don't play<$FFFC>dumb. <$FFF5><$FFF8>…<$FE14><$FFF6><$FB00><$000A>Wait, did you lose your<$FFFC>memory？<$FFFE>
+16	<$FB00><$000B>Memory？ I'm<$FFFC>a clone made in that laboratory.<$FFFE>
+17	<$FB00><$000C>You're no<$FFFC>clone.<$FFFD><$FB00><$000D>Tch, your<$FFFC>memory is gone<$FFF5><$FFF8>…<$FFF6><$FB00><$000E>Then I'll tell you<$FFFC>your past！<$FFFE>
 18	<$FB00><$000F>My<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0010>past！？<$FFFE>
-19	<$FB00><$0011>You crossed from El Sallia to<$FFFC>Yeless, a first-rate swordsman<$FFFC>with dead eyes.<$FFFD><$FB00><$0012>Gizarof picked you up. I was<$FFFC>his right hand.<$FFFD><$FB00><$0013>Then you came and took the top<$FFFC>spot.<$FFFE>
-20	<$FB00><$0014>Then one day<$FFF5><$FFF8>… you were killed.<$FFFE>
-21	<$FB00><$0015>I was killed<$FFF5><$FFF8>…<$FE3C>…<$FE3C>？<$FFFE>
+19	<$FB00><$0011>You crossed<$FFFC>from El Sallia to Yeless, a<$FFFC>first-rate swordsman with dead<$FFFC>eyes.<$FFFD><$FB00><$0012>Gizarof picked<$FFFC>you up. I was his right<$FFFC>hand.<$FFFD><$FB00><$0013>Then you came<$FFFC>and took the top spot.<$FFFE>
+20	<$FB00><$0014>Then one<$FFFC>day<$FFF5><$FFF8>… you were killed.<$FFFE>
+21	<$FB00><$0015>I was<$FFFC>killed<$FFF5><$FFF8>…<$FE3C>…<$FE3C>？<$FFFE>
 22	Gizarof's Magic Lab<$0000>3 years<$FFFC>ago<$FFFF>
-23	<$FB00><$0016>Emergency, Lord Gizarof！<$FFFE>
-24	<$FB00><$0017>What is this noise？<$FFFE>
-25	<$FB00><$0018><$F600><$0000> has been killed！<$FFFE>
-26	<$FB00><$0019>What！？ He can't be dead！<$FFFE>
-27	<$FB00><$001A>Explain in detail.<$FFFE>
-28	<$FB00><$001B>Yes. A woman from El Sallia came<$FFFC>for revenge.<$FFFD><$FB00><$001C>He didn't dodge. She pierced his<$FFFC>heart, and he died.<$FFFE>
-29	<$FB00><$001D>That fool<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001E>He looked for a<$FFFC>place to die, but still<$FFF5><$FFF8>…<$FFFE>
-30	<$FB00><$001F>A pierced heart. Any other<$FFFC>wounds？<$FFFE>
+23	<$FB00><$0016>Emergency, Lord<$FFFC>Gizarof！<$FFFE>
+24	<$FB00><$0017>What is this<$FFFC>noise？<$FFFE>
+25	<$FB00><$0018><$F600><$0000><$FFFC>has been killed！<$FFFE>
+26	<$FB00><$0019>What！？ He<$FFFC>can't be dead！<$FFFE>
+27	<$FB00><$001A>Explain in<$FFFC>detail.<$FFFE>
+28	<$FB00><$001B>Yes. A woman<$FFFC>from El Sallia came for revenge.<$FFFD><$FB00><$001C>He didn't<$FFFC>dodge. She pierced his heart,<$FFFC>and he died.<$FFFE>
+29	<$FB00><$001D>That fool<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001E>He<$FFFC>looked for a place to die, but<$FFFC>still<$FFF5><$FFF8>…<$FFFE>
+30	<$FB00><$001F>A pierced<$FFFC>heart. Any other wounds？<$FFFE>
 31	<$FB00><$0020>No.<$FFFE>
-32	<$FB00><$0021>I see. Still useful. Take the<$FFFC>corpse to Lab 3, now.<$FFFE>
+32	<$FB00><$0021>I see. Still<$FFFC>useful. Take the corpse to Lab<$FFFC>3, now.<$FFFE>
 33	<$FFF7><$FB00><$0022>Sir！<$FFF5><$FFF8><$FFFE>
-34	<$FB00><$0023>Lord Gizarof, what will you do？<$FFFE>
-35	<$FB00><$0024>A man like him is too useful<$FFFC>to waste. Let his corpse serve<$FFFC>my experiment.<$FFFD><$FB00><$0025>If it works, he revives stronger.<$FFFC>Kukukuku！<$FFFE>
-36	<$FB00><$0026>The experiment worked. You<$FFFC>revived, but dying erased your<$FFFC>memory.<$FFFE>
-37	<$FB00><$0027>Then the man Clarett stabbed<$FFFC>was<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0028>me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>？<$FFFE>
-38	<$FB00><$0029>Yes. I was shocked you became<$FFFC>guard captain and killed<$FFFC>Kalxath's emperor.<$FFFD><$FB00><$002A>Remembering now？<$FFFE>
-39	<$FB00><$002B>I wanted to settle this now, but<$FFFC>another task comes first.<$FFFD><$FB00><$002C>Remember everything before we meet<$FFFC>again, or it won't be fun.<$FFFE>
-40	<$FB00><$002D>It was me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed me<$FFFC>once<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>…<$FFFE>
+34	<$FB00><$0023>Lord Gizarof,<$FFFC>what will you do？<$FFFE>
+35	<$FB00><$0024>A man like<$FFFC>him is too useful to waste. Let<$FFFC>his corpse serve my experiment.<$FFFD><$FB00><$0025>If it works,<$FFFC>he revives stronger. Kukukuku！<$FFFE>
+36	<$FB00><$0026>The experiment<$FFFC>worked. You revived, but dying<$FFFC>erased your memory.<$FFFE>
+37	<$FB00><$0027>Then the man<$FFFC>Clarett stabbed was<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0028>me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>？<$FFFE>
+38	<$FB00><$0029>Yes. I was<$FFFC>shocked you became guard captain<$FFFC>and killed Kalxath's emperor.<$FFFD><$FB00><$002A>Remembering<$FFFC>now？<$FFFE>
+39	<$FB00><$002B>I wanted to<$FFFC>settle this now, but another task<$FFFC>comes first.<$FFFD><$FB00><$002C>Remember<$FFFC>everything before we meet again, or<$FFFC>it won't be fun.<$FFFE>
+40	<$FB00><$002D>It was<$FFFC>me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed me once<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>I can't tell<$FFFC>her this<$FFF5><$FFF8>…<$FFFE>
 41	<$0000>Rejected by Lenard too, Clarett<$FFFC>went east for another ally.<$FFFD><$0000>On the road, another town<$FFFC>suffered under heavy taxes…<$FFFE>
 42	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

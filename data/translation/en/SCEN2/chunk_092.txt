@@ -13,14 +13,14 @@
 11	Road to the demon castle<$FFFF>
 12	<$FB00><$00A8>Boss！<$FFFE>
 13	<$FB00><$00A9>Well？<$FFFE>
-14	<$FB00><$00AA>We found it. A strange castle<$FFFC>ahead, with demons gathering there.<$FFFE>
-15	<$FB00><$00AB>That'll be the place.<$FFFE>
-16	<$FB00><$00AC>And that's where the<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
-17	<$FB00><$00AE>But word is the Caconsis army is<$FFFC>headed there too. We'd better<$FFFC>hurry.<$FFFE>
-18	<$FB00><$00AF>The Caconsis army？<$FFFE>
-19	<$FB00><$00B0>We should hurry. If Caconsis<$FFFC>carries off the crystal, things<$FFFC>get ugly.<$FFFE>
-20	<$FB00><$00B1>Right. We must get the Sage's<$FFFC>Crystal, whatever it takes！<$FFFE>
-21	<$FB00><$00B2>Also, the enemy has archers.<$FFFC>Best be careful.<$FFFE>
+14	<$FB00><$00AA>We<$FFFC>found it. A strange castle<$FFFC>ahead, with demons gathering there.<$FFFE>
+15	<$FB00><$00AB>That'll<$FFFC>be the place.<$FFFE>
+16	<$FB00><$00AC>And<$FFFC>that's where the<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
+17	<$FB00><$00AE>But<$FFFC>word is the Caconsis army is<$FFFC>headed there too. We'd better<$FFFC>hurry.<$FFFE>
+18	<$FB00><$00AF>The<$FFFC>Caconsis army？<$FFFE>
+19	<$FB00><$00B0>We<$FFFC>should hurry. If Caconsis carries<$FFFC>off the crystal, things get<$FFFC>ugly.<$FFFE>
+20	<$FB00><$00B1>Right.<$FFFC>We must get the Sage's Crystal,<$FFFC>whatever it takes！<$FFFE>
+21	<$FB00><$00B2>Also,<$FFFC>the enemy has archers. Best be<$FFFC>careful.<$FFFE>
 22	Archers, huh…<$FFFE>
 23	You know how to handle archers？<$FFFC>I could teach you, if you<$FFFC>like？<$FFFE>
 24	・I know<$FFFE>
@@ -33,14 +33,14 @@
 31	Let's see. Then close in from<$FFFC>beyond bow range in one move<$FFFC>and strike.<$FFFD>Archers crumble in close combat.<$FFFE>
 32	In short, kill them with magic, or<$FFFC>close the gap in one move and<$FFFC>strike.<$FFFE>
 33	That's the way of it.<$FFFE>
-34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
+34	<$FB00><$00B3>All<$FFFC>right, break's over. Let's move<$FFFC>out.<$FFFE>
 35	At the Dark Altar<$FFFF>
-36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
-37	<$FB00><$00B6>You've lost, Boser！ Now vanish<$FFFC>from this world！<$FFFD>We will never let the darkness<$FFFC>have it！<$FFFE>
-38	…<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take…Alhazard from me. That…I<$FFFC>will not allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>…<$FE14>…<$FFFC><$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
-39	<$FB00><$00BB>What！？ He cast Alhazard away with<$FFFC>magic！？<$FFFE>
-40	<$FB00><$00BC>Heh heh heh, what a shame.<$FFFC>Where Alhazard falls, not even I<$FFFC>know<$FFF5><$FFF8>…<$FFFE>
+36	<$FB00><$00B4>To<$FFFC>think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+37	<$FB00><$00B6>You've<$FFFC>lost, Boser！ Now vanish from<$FFFC>this world！<$FFFD>We will<$FFFC>never let the darkness have it！<$FFFE>
+38	…<$FB00><$00B7>At<$FFFC>this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll take…Alhazard<$FFFC>from me. That…I will not<$FFFC>allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes<$FFFC>to no one<$FFF5><$FFF8><$FE14>…<$FE14>… <$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
+39	<$FB00><$00BB>What！？<$FFFC>He cast Alhazard away with<$FFFC>magic！？<$FFFE>
+40	<$FB00><$00BC>Heh<$FFFC>heh heh, what a shame. Where<$FFFC>Alhazard falls, not even I know<$FFF5><$FFF8>…<$FFFE>
 41	<$FFF8>…<$FFF6><$FB00><$00BD>G<$FFF7>hah！<$FFFE>
-42	<$FB00><$00BE>We did it<$FFF5><$FFF8>…<$FFFE>
-43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Boser cast away.<$FFFD>Until then, I leave Langrisser<$FFFC>in your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must stop<$FFFC>Gizarof's ambition.<$FFFE>
-44	<$FFF8>…<$FFF6><$FB00><$00C1>Right！ Gizarof is next！<$FFFD><$FB00><$00C2>I know you're weary, but it<$FFFC>won't be long now. Everyone, stay<$FFFC>strong！<$FFFE>
+42	<$FB00><$00BE>We did<$FFFC>it<$FFF5><$FFF8>…<$FFFE>
+43	<$FB00><$00BF>I must<$FFFC>go search for the Alhazard that<$FFFC>Boser cast away.<$FFFD>Until<$FFFC>then, I leave Langrisser in your<$FFFC>keeping.<$FFFD><$FB00><$00C0>Whatever<$FFFC>happens, you must stop Gizarof's<$FFFC>ambition.<$FFFE>
+44	<$FFF8>…<$FFF6><$FB00><$00C1>Right！<$FFFC>Gizarof is next！<$FFFD><$FB00><$00C2>I know<$FFFC>you're weary, but it won't be<$FFFC>long now. Everyone, stay strong！<$FFFE>

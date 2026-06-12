@@ -15,43 +15,43 @@
 15	Reynorz soldier<$FFFF>
 16	Rochefort soldier<$FFFF>
 17	Federation Castle, Audience Hall<$FFFF>
-18	<$FB00><$0003>Lanford has returned. But I<$FFFC>would like a satisfactory<$FFFC>explanation for this summons.<$FFFE>
-19	<$FB00><$0004>We want an explanation.<$FFFD><$FB00><$0005>One rebelling alliance nation is<$FFFC>ruled by your father, is it<$FFFC>not？<$FFFE>
-20	<$FB00><$0006>My father has joined the<$FFFC>alliance. But I intend to fight<$FFFC>as a Federation marshal.<$FFFE>
-21	<$FB00><$0007>I understand your resolve. But we<$FFFC>must avoid misunderstandings in<$FFFC>many respects.<$FFFE>
+18	<$FB00><$0003>Lanford<$FFFC>has returned. But I would like<$FFFC>a satisfactory explanation for<$FFFC>this summons.<$FFFE>
+19	<$FB00><$0004>We<$FFFC>want an explanation.<$FFFD><$FB00><$0005>One<$FFFC>rebelling alliance nation is ruled<$FFFC>by your father, is it not？<$FFFE>
+20	<$FB00><$0006>My<$FFFC>father has joined the alliance.<$FFFC>But I intend to fight as a<$FFFC>Federation marshal.<$FFFE>
+21	<$FB00><$0007>I<$FFFC>understand your resolve. But we<$FFFC>must avoid misunderstandings in<$FFFC>many respects.<$FFFE>
 22	<$FB00><$0008>Misunderstandings！？<$FFFE>
-23	<$FB00><$0009>That you might use your marshal<$FFFC>rank to gather soldiers and aid<$FFFC>the Three-Country Alliance…<$FFFE>
-24	<$FB00><$000A>What！？ <$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that too,<$FFFC>Premier？<$FFFE>
-25	<$FB00><$000C>No, I do not<$FFF5><$FFF8>… <$FFF6><$FB00><$000D>But we must<$FFFC>not let needless suspicion<$FFFC>trouble nobles or citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
-26	<$FFF7><$FB00><$0010>Yes sir！<$FFFE>
-27	<$FB00><$0011>What do you intend？<$FFFE>
-28	<$FB00><$0012>You will stay in a cell for a<$FFFC>while. During that time, I will<$FFFC>hold army command.<$FFFD><$FB00><$0013>If the misunderstanding clears,<$FFFC>you should be released soon<$FFF5><$FFF8>…<$FFFE>
-29	<$FB00><$0014>What are you thinking, Russel！<$FFFD><$FB00><$0015>Ru<$FFF8>ss<$FFF7><$00E4><$00E5><$00E5><$00E6>el！！<$FFF5><$FFF8><$FFFE>
+23	<$FB00><$0009>That<$FFFC>you might use your marshal rank<$FFFC>to gather soldiers and aid the<$FFFC>Three-Country Alliance…<$FFFE>
+24	<$FB00><$000A>What！？<$FFFC><$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that too,<$FFFC>Premier？<$FFFE>
+25	<$FB00><$000C>No,<$FFFC>I do not<$FFF5><$FFF8>… <$FFF6><$FB00><$000D>But we must not<$FFFC>let needless suspicion trouble<$FFFC>nobles or citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
+26	<$FFF7><$FB00><$0010>Yes<$FFFC>sir！<$FFFE>
+27	<$FB00><$0011>What<$FFFC>do you intend？<$FFFE>
+28	<$FB00><$0012>You<$FFFC>will stay in a cell for a<$FFFC>while. During that time, I will<$FFFC>hold army command.<$FFFD><$FB00><$0013>If<$FFFC>the misunderstanding clears, you<$FFFC>should be released soon<$FFF5><$FFF8>…<$FFFE>
+29	<$FB00><$0014>What<$FFFC>are you thinking, Russel！<$FFFD><$FB00><$0015>Ru<$FFF8>ss<$FFF7><$00E4><$00E5><$00E5><$00E6>el！！<$FFF5><$FFF8><$FFFE>
 30	Reynorz Army<$0000>VS<$0000>Federation Army<$FFFF>
-31	<$FB00><$0016>Tighten defense and withdraw<$FFFC>slowly！ Leave no openings！<$FFFE>
-32	<$FB00><$0017>Yes sir！<$FFFE>
-33	<$FB00><$0018>First priority is a safe<$FFFC>withdrawal！ Stay defensive！<$FFFE>
+31	<$FB00><$0016>Tighten<$FFFC>defense and withdraw slowly！<$FFFC>Leave no openings！<$FFFE>
+32	<$FB00><$0017>Yes<$FFFC>sir！<$FFFE>
+33	<$FB00><$0018>First<$FFFC>priority is a safe withdrawal！<$FFFC>Stay defensive！<$FFFE>
 34	<$FB00><$0019>Understood！<$FFFE>
-35	<$FB00><$001A>Hmm, what is this？ Lanford has<$FFFC>not appeared.<$FFFD><$FB00><$001B>Convenient for us. Strike now！<$FFFC>Do not let even one escape！<$FFFE>
-36	<$FB00><$001C>What is wrong？ The left wing is<$FFFC>slow！<$FFFE>
-37	<$FB00><$001D>Emergency！ The left wing is<$FFFC>under attack！<$FFFE>
-38	<$FB00><$001E>Of course it is, this is war！<$FFFE>
-39	<$FB00><$001F>N-no, the attackers appear to<$FFFC>be Rochefort troops<$FFF5><$FFF8>…<$FFFE>
+35	<$FB00><$001A>Hmm,<$FFFC>what is this？ Lanford has not<$FFFC>appeared.<$FFFD><$FB00><$001B>Convenient<$FFFC>for us. Strike now！ Do not<$FFFC>let even one escape！<$FFFE>
+36	<$FB00><$001C>What<$FFFC>is wrong？ The left wing is<$FFFC>slow！<$FFFE>
+37	<$FB00><$001D>Emergency！<$FFFC>The left wing is under attack！<$FFFE>
+38	<$FB00><$001E>Of<$FFFC>course it is, this is war！<$FFFE>
+39	<$FB00><$001F>N-no,<$FFFC>the attackers appear to be<$FFFC>Rochefort troops<$FFF5><$FFF8>…<$FFFE>
 40	<$FB00><$0020>What！？<$FFFE>
-41	<$FB00><$0021>What should we do, Lord Alvince？<$FFFE>
-42	<$FB00><$0022>Forget the half-dead Federation<$FFFC>army！ Focus on Rochefort！ Do<$FFFC>not let them escape！<$FFFE>
-43	<$FB00><$0023>Yes sir！<$FFFE>
-44	<$FB00><$0024>Damn Lainforce, what is he thinking<$FFFC><$FFF5><$FFF8>…！<$FFFE>
+41	<$FB00><$0021>What<$FFFC>should we do, Lord Alvince？<$FFFE>
+42	<$FB00><$0022>Forget<$FFFC>the half-dead Federation army！<$FFFC>Focus on Rochefort！ Do not let<$FFFC>them escape！<$FFFE>
+43	<$FB00><$0023>Yes<$FFFC>sir！<$FFFE>
+44	<$FB00><$0024>Damn<$FFFC>Lainforce, what is he thinking <$FFF5><$FFF8>…！<$FFFE>
 45	Rochefort Army, Near Camp<$FFFF>
-46	<$FB00><$0025>Good, now！ Everyone hide in the<$FFFC>forest！<$FFFE>
+46	<$FB00><$0025>Good,<$FFFC>now！ Everyone hide in the<$FFFC>forest！<$FFFE>
 47	<$FB00><$0026>Understood！<$FFFE>
-48	<$FB00><$0027>You traitors！ How dare you<$FFFC>betray us！<$FFFE>
-49	<$FB00><$0028>W-what are you talking about？<$FFFC>Put away those dangerous<$FFFC>weapons！<$FFFE>
+48	<$FB00><$0027>You<$FFFC>traitors！ How dare you betray<$FFFC>us！<$FFFE>
+49	<$FB00><$0028>W-what<$FFFC>are you talking about？ Put<$FFFC>away those dangerous weapons！<$FFFE>
 50	<$FB00><$0029>Silence！<$FFF5><$FFF7><$FFFE>
-51	<$FB00><$002A>Looks like they took the bait！<$FFFE>
-52	<$FB00><$002B>If alliance armies cut each other,<$FFFC>at least cracks will form within<$FFFC>it. Just as Virash planned！<$FFFD><$FB00><$002C>This will surely disrupt the<$FFFC>alliance from now on.<$FFFE>
+51	<$FB00><$002A>Looks<$FFFC>like they took the bait！<$FFFE>
+52	<$FB00><$002B>If<$FFFC>alliance armies cut each other, at<$FFFC>least cracks will form within it.<$FFFC>Just as Virash planned！<$FFFD><$FB00><$002C>This<$FFFC>will surely disrupt the alliance<$FFFC>from now on.<$FFFE>
 53	<$FB00><$002D>Indeed！<$FFFE>
-54	<$FB00><$002E>Good, leave this place at once！<$FFFE>
+54	<$FB00><$002E>Good,<$FFFC>leave this place at once！<$FFFE>
 55	<$FB00><$002F>Understood！<$FFFE>
 56	<$0000>After breaking through the<$FFFC>gate, Clarett and the others<$FFFC>entered the castle.<$FFFD><$0000>While the Salrath mixed force<$FFFC>drew Kalxath away as bait,<$FFFC>Gilmore had to be defeated.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>hurried toward Gilmore's throne.<$FFFE>
 57	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gilmore<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

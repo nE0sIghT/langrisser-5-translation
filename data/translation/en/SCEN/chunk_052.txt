@@ -48,43 +48,43 @@
 46	I'm sorry. I will not slow you<$FFFC>down again<$FFF8>…<$FFFE>
 47	Good. Let's hurry on！<$FFFE>
 48	<$FFF8>…<$FE14>…<$FE14><$FFF7><$FB00><$0003>Ah<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
-49	<$FB00><$0004>What's wrong, Lambda？<$FFFE>
-50	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$0005>This tree<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-51	<$FB00><$0006>I feel like I've seen this tree<$FFFC>somewhere.<$FFFE>
-52	<$FB00><$0007>I've never seen it. What about<$FFFC>this tree？<$FFFE>
-53	<$FB00><$0008>Just now, this tree called me to<$FFFC>stop.<$FFFE>
-54	<$FB00><$0009>Come on, trees can't talk.<$FFFE>
-55	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$000A>This tree<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000B>A World Tree？<$FFFE>
-56	<$FB00><$000C>World Tree？ <$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000D>What's that？<$FFFE>
-57	<$FB00><$000E>The World Tree is like the king<$FFFC>of all plants.<$FFFE>
-58	<$FB00><$000F>King of plants？<$FFFE>
-59	<$FB00><$0010>In human terms. It is so holy<$FFFC>that people call it the mother of<$FFFC>all plants.<$FFFD><$FB00><$0011>But why would one be here<$FFF5><$FFF8>…？<$FFFE>
-60	<$FFF7><$FB00><$0012>Wow<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$0013>So it's that rare？<$FFFE>
-61	<$FB00><$0014>A World Tree has three names.<$FFFC>Up to 50 years it's Silverleaf,<$FFFC>then Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a<$FFFC>World Tree.<$FFFE>
-62	<$FB00><$0016>I remember. It's the tree from<$FFFC>the lab where we woke up.<$FFFE>
-63	<$FFFA><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0017>Somehow, it feels nostalgic.<$FFFC>Like someone is gently holding me<$FFFC><$FFF5><$FFF8>…<$FFFE>
-64	<$FB00><$0018>It did seem to protect us back<$FFFC>then.<$FFFE>
-65	<$FFF8>…<$FFF6><$FB00><$0019>What？ <$FFF5><$FFF8><$FFFB>…<$FE32>…<$FE32><$FFF6><$FB00><$001A>What is happening <$FFF5><$FFF8>…？<$FFFE>
-66	<$FB00><$001B>What's wrong, Lambda？<$FFFE>
-67	<$FFFA><$FFF8>…<$FFF6><$FB00><$001C>I understand. We'll be careful,<$FFFC>so don't worry<$FFF5><$FFF8>…<$FFFE>
-68	<$FB00><$001D>What happened, Miss Lambda？<$FFFE>
-69	<$FFFA><$FB00><$001E>A calamity<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FFF9><$FB00><$001F>It told me a<$FFFC>terrible calamity will happen.<$FFFE>
-70	<$FB00><$0020>It told you, the World Tree？<$FFFE>
-71	<$FB00><$0021>You don't have to believe me.<$FFFE>
+49	<$FB00><$0004>What's<$FFFC>wrong, Lambda？<$FFFE>
+50	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$0005>This<$FFFC>tree<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+51	<$FB00><$0006>I feel<$FFFC>like I've seen this tree somewhere.<$FFFE>
+52	<$FB00><$0007>I've<$FFFC>never seen it. What about this<$FFFC>tree？<$FFFE>
+53	<$FB00><$0008>Just<$FFFC>now, this tree called me to stop.<$FFFE>
+54	<$FB00><$0009>Come<$FFFC>on, trees can't talk.<$FFFE>
+55	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$000A>This<$FFFC>tree<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000B>A World Tree？<$FFFE>
+56	<$FB00><$000C>World<$FFFC>Tree？ <$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000D>What's that？<$FFFE>
+57	<$FB00><$000E>The<$FFFC>World Tree is like the king of<$FFFC>all plants.<$FFFE>
+58	<$FB00><$000F>King of<$FFFC>plants？<$FFFE>
+59	<$FB00><$0010>In<$FFFC>human terms. It is so holy that<$FFFC>people call it the mother of all<$FFFC>plants.<$FFFD><$FB00><$0011>But<$FFFC>why would one be here<$FFF5><$FFF8>…？<$FFFE>
+60	<$FFF7><$FB00><$0012>Wow<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$0013>So<$FFFC>it's that rare？<$FFFE>
+61	<$FB00><$0014>A<$FFFC>World Tree has three names. Up<$FFFC>to 50 years it's Silverleaf, then<$FFFC>Golden Tree.<$FFFD><$FB00><$0015>After<$FFFC>100 years, it becomes a World<$FFFC>Tree.<$FFFE>
+62	<$FB00><$0016>I<$FFFC>remember. It's the tree from the<$FFFC>lab where we woke up.<$FFFE>
+63	<$FFFA><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0017>Somehow,<$FFFC>it feels nostalgic. Like someone<$FFFC>is gently holding me <$FFF5><$FFF8>…<$FFFE>
+64	<$FB00><$0018>It did<$FFFC>seem to protect us back then.<$FFFE>
+65	<$FFF8>…<$FFF6><$FB00><$0019>What？<$FFFC><$FFF5><$FFF8><$FFFB>…<$FE32>…<$FE32><$FFF6><$FB00><$001A>What is happening <$FFF5><$FFF8>…？<$FFFE>
+66	<$FB00><$001B>What's<$FFFC>wrong, Lambda？<$FFFE>
+67	<$FFFA><$FFF8>…<$FFF6><$FB00><$001C>I<$FFFC>understand. We'll be careful, so<$FFFC>don't worry<$FFF5><$FFF8>…<$FFFE>
+68	<$FB00><$001D>What<$FFFC>happened, Miss Lambda？<$FFFE>
+69	<$FFFA><$FB00><$001E>A<$FFFC>calamity<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FFF9><$FB00><$001F>It told me a terrible<$FFFC>calamity will happen.<$FFFE>
+70	<$FB00><$0020>It told<$FFFC>you, the World Tree？<$FFFE>
+71	<$FB00><$0021>You<$FFFC>don't have to believe me.<$FFFE>
 72	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
 73	・I believe you<$FFFE>
 74	・Trees can't talk<$FFFE>
 75	・What calamity？<$FFFE>
-76	<$FB00><$0022>No, I believe you. Because of<$FFFC>what happened then.<$FFFE>
-77	<$FFF8>…<$FFF6><$FB00><$0023>Yes. You saw it.<$FFFE>
-78	<$FB00><$0024>Hard to believe a tree can<$FFFC>talk.<$FFFE>
-79	<$FB00><$0025>Plants have feelings too. I can<$FFFC>sense them, that's all.<$FFFE>
-80	<$FB00><$0026>What calamity？ What is going to<$FFFC>happen？<$FFFE>
-81	<$FB00><$0027>I don't know that much. I only<$FFFC>read the tree's feelings.<$FFFE>
-82	<$FB00><$0028>If it is a World Tree, I can<$FFFC>believe it.<$FFFE>
-83	<$FB00><$0029>The World Tree is mysterious<$FFF5><$FFF8>…<$FFFE>
-84	<$FB00><$002A>But what calamity could it mean<$FFF5><$FFF8>…<$FFFC><$FE14><$FE14>…<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about it<$FFFC>now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come<$FFFC>on, Lambda.<$FFFE>
+76	<$FB00><$0022>No, I<$FFFC>believe you. Because of what<$FFFC>happened then.<$FFFE>
+77	<$FFF8>…<$FFF6><$FB00><$0023>Yes.<$FFFC>You saw it.<$FFFE>
+78	<$FB00><$0024>Hard to<$FFFC>believe a tree can talk.<$FFFE>
+79	<$FB00><$0025>Plants<$FFFC>have feelings too. I can sense<$FFFC>them, that's all.<$FFFE>
+80	<$FB00><$0026>What<$FFFC>calamity？ What is going to<$FFFC>happen？<$FFFE>
+81	<$FB00><$0027>I<$FFFC>don't know that much. I only<$FFFC>read the tree's feelings.<$FFFE>
+82	<$FB00><$0028>If it<$FFFC>is a World Tree, I can<$FFFC>believe it.<$FFFE>
+83	<$FB00><$0029>The<$FFFC>World Tree is mysterious<$FFF5><$FFF8>…<$FFFE>
+84	<$FB00><$002A>But<$FFFC>what calamity could it mean<$FFF5><$FFF8>… <$FE14><$FE14>…<$FE14><$FE14>.<$FFFC><$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about it<$FFFC>now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's<$FFFC>hurry to the lab. Come on,<$FFFC>Lambda.<$FFFE>
 85	<$FFF7><$FB00><$002D>Yes<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
-86	<$FFF8>…<$FFF6><$FB00><$002E>Thank you.<$FFFE>
+86	<$FFF8>…<$FFF6><$FB00><$002E>Thank<$FFFC>you.<$FFFE>
 87	<$0000>After Gizarof's death,<$FFFC><$F600><$0000> and Lambda had<$FFFC>lost their purpose. Seeking<$FFFC>answers, they went to his lab.<$FFFD><$0000>In the valley, Federation troops<$FFFC>hunted his remnants…<$FFFE>
 88	Victory<$FFFC><$0000><$FFFC>・All allies cross the bridge<$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -10,75 +10,75 @@
 10	・Defeat Creid and Kfir<$FFFE>
 11	・<$F600><$0000> dies<$FFFE>
 12	Kalxath Castle Gate<$FFFF>
-13	<$FB00><$0014>So this is Kalxath Castle.<$FFFE>
-14	<$FB00><$0015>There are not many soldiers.<$FFFC>The plan worked.<$FFFE>
+13	<$FB00><$0014>So this is<$FFFC>Kalxath Castle.<$FFFE>
+14	<$FB00><$0015>There are not<$FFFC>many soldiers. The plan worked.<$FFFE>
 15	<$FB00><$0016>So far.<$FFFE>
-16	<$FB00><$0017>If we do not hurry, the Salrath<$FFFC>army holding the main force is<$FFFC>in danger.<$FFFE>
+16	<$FB00><$0017>If we do not<$FFFC>hurry, the Salrath army holding<$FFFC>the main force is in danger.<$FFFE>
 17	<$FFF7><$FB00><$0018>Right.<$FFF5><$FFF8><$FFFD>…<$FFF6><$FB00><$0019>Still<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$001A>What is it？<$FFFE>
-19	<$FB00><$001B>Looking at this castle feels<$FFFC>somehow… nostalgic.<$FFFE>
-20	<$FB00><$001C>Are your memories returning？<$FFFE>
+19	<$FB00><$001B>Looking at this<$FFFC>castle feels somehow… nostalgic.<$FFFE>
+20	<$FB00><$001C>Are your memories<$FFFC>returning？<$FFFE>
 21	<$FB00><$001D>Memories<$FFF5><$FFF8>…<$FFFE>
-22	<$FB00><$001E>Yes！ You served here in the<$FFFC>Imperial Guard.<$FFFD>At nineteen, you became its<$FFFC>youngest captain！<$FFFE>
-23	<$FB00><$001F>It still does not feel real<$FFF5><$FFF8>…<$FFFE>
-24	<$FB00><$0020>Then you were not artificial<$FFF5><$FFF8>…<$FFFE>
-25	<$FB00><$0021>I kept this from you, but it<$FFFC>seems I was the one who<$FFFC>stabbed the emperor.<$FFFE>
-26	<$FB00><$0022>But were you not stabbed by<$FFFC>Clarett？<$FFFE>
+22	<$FB00><$001E>Yes！ You served<$FFFC>here in the Imperial Guard.<$FFFD>At nineteen, you<$FFFC>became its youngest captain！<$FFFE>
+23	<$FB00><$001F>It still does<$FFFC>not feel real<$FFF5><$FFF8>…<$FFFE>
+24	<$FB00><$0020>Then you were<$FFFC>not artificial<$FFF5><$FFF8>…<$FFFE>
+25	<$FB00><$0021>I kept this from<$FFFC>you, but it seems I was the<$FFFC>one who stabbed the emperor.<$FFFE>
+26	<$FB00><$0022>But were you<$FFFC>not stabbed by Clarett？<$FFFE>
 27	<$FB00><$0023>Then Gizarof<$FFF5><$FFF8>…？<$FFFE>
-28	<$FB00><$0024>Yes. It seems I died once, then<$FFFC>Gizarof's experiment brought me<$FFFC>back.<$FFFE>
-29	<$FB00><$0025>But how did you learn that？<$FFFE>
-30	<$FB00><$0026>Lambda, do you remember Omega,<$FFFC>the one modified besides us？<$FFFE>
+28	<$FB00><$0024>Yes. It seems I<$FFFC>died once, then Gizarof's<$FFFC>experiment brought me back.<$FFFE>
+29	<$FB00><$0025>But how did<$FFFC>you learn that？<$FFFE>
+30	<$FB00><$0026>Lambda, do you<$FFFC>remember Omega, the one modified<$FFFC>besides us？<$FFFE>
 31	<$FFF7><$FB00><$0027>Yes.<$FFF5><$FFF8><$FFFE>
 32	<$FB00><$0028>He told me.<$FFFE>
-33	<$FB00><$0029>Hmm, mysteries are clearing. But<$FFFC>should we fight soon？<$FFFD><$FB00><$002A>Someone familiar waits at the<$FFFC>gate.<$FFFE>
-34	<$FB00><$002B>No. I cannot believe a clone<$FFFC>inherited the original's memories.<$FFFE>
-35	<$FB00><$002C>The original's memories…<$FFFD><$FFF8>…<$FFF6><$FB00><$002D>Was Omega telling the truth？<$FFFC>Did I really kill the emperor？<$FFFE>
-36	<$FB00><$002E>What are you muttering about？<$FFFD><$FB00><$002F>Anyway, should we fight soon？<$FFFC>Someone familiar waits at the<$FFFC>gate.<$FFFE>
-37	<$FB00><$0030>You fools, you dare attack this<$FFFC>place…！<$FFFE>
-38	<$FB00><$0031>So Salrath's march was a<$FFFC>diversion.<$FFFD>Even our spy was not told that<$FFFC>much.<$FFFE>
+33	<$FB00><$0029>Hmm, mysteries<$FFFC>are clearing. But should we<$FFFC>fight soon？<$FFFD><$FB00><$002A>Someone familiar<$FFFC>waits at the gate.<$FFFE>
+34	<$FB00><$002B>No. I cannot<$FFFC>believe a clone inherited the<$FFFC>original's memories.<$FFFE>
+35	<$FB00><$002C>The original's<$FFFC>memories…<$FFFD><$FFF8>…<$FFF6><$FB00><$002D>Was Omega<$FFFC>telling the truth？ Did I<$FFFC>really kill the emperor？<$FFFE>
+36	<$FB00><$002E>What are you<$FFFC>muttering about？<$FFFD><$FB00><$002F>Anyway, should we<$FFFC>fight soon？ Someone familiar<$FFFC>waits at the gate.<$FFFE>
+37	<$FB00><$0030>You fools, you<$FFFC>dare attack this place…！<$FFFE>
+38	<$FB00><$0031>So Salrath's<$FFFC>march was a diversion.<$FFFD>Even our spy<$FFFC>was not told that much.<$FFFE>
 39	<$FB00><$0032>A spy？<$FFFE>
-40	<$FB00><$0033>You need not know.<$FFFD>You will die here！ Regret<$FFFC>attacking with so few！<$FFFE>
-41	<$FB00><$0034>Do not underestimate us. Let's<$FFFC>go！<$FFFE>
+40	<$FB00><$0033>You need not<$FFFC>know.<$FFFD>You will die<$FFFC>here！ Regret attacking with so<$FFFC>few！<$FFFE>
+41	<$FB00><$0034>Do not<$FFFC>underestimate us. Let's go！<$FFFE>
 42	<$FB00><$0029>Let's go！<$FFFE>
 43	<$FB00><$002B>Take this！<$FFFE>
-44	<$FB00><$002F>If only I had more strength…<$FFFE>
+44	<$FB00><$002F>If only I had<$FFFC>more strength…<$FFFE>
 45	<$FB00><$0034>Here I come<$FFF5><$FFF8>…<$FFFE>
 46	<$FB00><$003D>Ugh…not…yet…<$FFFE>
-47	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
+47	<$FB00><$003E>Don't overdo it,<$FFFC>Lambda！ Fall back！<$FFFE>
 48	<$FB00><$003F>…All right…<$FFFE>
 49	<$FB00><$0074>Here I go！<$FFFE>
-50	<$FB00><$0075>I can fight too！<$FFFE>
-51	<$FB00><$007B>Not yet… I can still fight…<$FFFE>
-52	<$FB00><$007C>Alfred！ Fall back for now！<$FFFE>
+50	<$FB00><$0075>I can fight<$FFFC>too！<$FFFE>
+51	<$FB00><$007B>Not yet… I<$FFFC>can still fight…<$FFFE>
+52	<$FB00><$007C>Alfred！ Fall back<$FFFC>for now！<$FFFE>
 53	<$FB00><$007D>But…<$FFFE>
-54	<$FB00><$007E>Trust your friends！<$FFFE>
-55	<$FB00><$007F>…Understood. I leave the rest<$FFFC>to you…<$FFFE>
-56	<$FB00><$0068>Come and get me！<$FFFE>
-57	<$FB00><$0070>This is getting dicey…<$FFFE>
-58	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
-59	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
+54	<$FB00><$007E>Trust your<$FFFC>friends！<$FFFE>
+55	<$FB00><$007F>…Understood. I<$FFFC>leave the rest to you…<$FFFE>
+56	<$FB00><$0068>Come and get<$FFFC>me！<$FFFE>
+57	<$FB00><$0070>This is getting<$FFFC>dicey…<$FFFE>
+58	<$FB00><$0071>Fall back,<$FFFC>Brenda！ Leave the rest to me！<$FFFE>
+59	<$FB00><$0072>Sorry…I'll take<$FFFC>you up on that…<$FFFE>
 60	<$FB00><$0055>Forgive me！<$FFFE>
-61	<$FB00><$0051>I will show you my power！<$FFFE>
+61	<$FB00><$0051>I will show you<$FFFC>my power！<$FFFE>
 62	<$FB00><$0054>I won't lose！<$FFFE>
 63	<$FB00><$005C>Ow！ You dare！<$FFFE>
-64	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
+64	<$FB00><$005D>Clarett！ Don't<$FFFC>push yourself！<$FFFE>
 65	<$FB00><$005E>B-but…<$FFFE>
 66	<$FB00><$005F>Just fall back！<$FFFE>
-67	<$FB00><$0060>Sorry, at such an important time…<$FFFE>
+67	<$FB00><$0060>Sorry, at such an<$FFFC>important time…<$FFFE>
 68	Why did this happen…？<$FFFE>
 69	At the end… once more… I<$FFFC>wanted to see you…<$FFFE>
 70	L-Lushiris…<$FFFE>
 71	If I am reborn… I want to be<$FFFC>a butterfly…<$FFFE>
 72	I do not want to die…<$FFFE>
 73	So this is fate…<$FFFE>
-74	<$FB00><$003E>I will not lose！ I cannot<$FFFC>lose！ There is nowhere left to<$FFFC>run！<$FFFE>
-75	<$FB00><$003F>Gwoh！ Why… why me…？<$FFFE>
-76	<$FB00><$0040>Will alone is not enough to win.<$FFFE>
-77	<$FB00><$0041>You shall not pass. See the<$FFFC>true power of Kalxath flyers！<$FFFE>
-78	<$FB00><$0042>Ugh… I cannot die yet<$FFF5><$FFF8>…<$FFFE>
-79	<$FB00><$0043>I have something to ask you.<$FFFC>What is this spy…？<$FFFE>
-80	<$FB00><$0044>As if I would tell you<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0045>Farewell！<$FFFE>
-81	<$FB00><$0046>Tch！ He got away！<$FFFE>
+74	<$FB00><$003E>I will not<$FFFC>lose！ I cannot lose！ There is<$FFFC>nowhere left to run！<$FFFE>
+75	<$FB00><$003F>Gwoh！ Why… why<$FFFC>me…？<$FFFE>
+76	<$FB00><$0040>Will alone is<$FFFC>not enough to win.<$FFFE>
+77	<$FB00><$0041>You shall not<$FFFC>pass. See the true power of<$FFFC>Kalxath flyers！<$FFFE>
+78	<$FB00><$0042>Ugh… I cannot<$FFFC>die yet<$FFF5><$FFF8>…<$FFFE>
+79	<$FB00><$0043>I have something<$FFFC>to ask you. What is this spy…？<$FFFE>
+80	<$FB00><$0044>As if I would<$FFFC>tell you<$FFF5><$FFF8>… <$FFF6><$FB00><$0045>Farewell！<$FFFE>
+81	<$FB00><$0046>Tch！ He got<$FFFC>away！<$FFFE>
 82	A hollow tube is visible. What<$FFFC>will you do？<$FFFE>
 83	・Look inside<$FFFE>
 84	・Put in a red berry<$FFFE>
@@ -94,23 +94,23 @@
 94	Took the red berry.<$FFFE>
 95	A forked branch floats there. It<$FFFC>has a blue berry. Take it？<$FFFE>
 96	Took the blue berry.<$FFFE>
-97	<$FB00><$0047>Those two were defeated<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0048>Withdraw！ Retreat！<$FFFE>
-98	<$FB00><$0049>Those two were defeated<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$004A>Withdraw！ Retreat！<$FFFE>
-99	<$FB00><$0047>Those two were defeated<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0048>Withdraw！ Retreat！<$FFFE>
-100	<$FB00><$0049>Those two were defeated<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$004A>Withdraw！ Retreat！<$FFFE>
-101	<$FB00><$004B>Looks like the enemies are<$FFFC>gone.<$FFFE>
-102	<$FB00><$004C>Gilmore is inside.<$FFFE>
-103	<$FB00><$004D>Hurry. While Salrath holds the<$FFFC>enemy, we must defeat Gilmore！<$FFFE>
-104	<$FB00><$0002><$FB00><$0035>Right wing, move out！<$FFFE>
+97	<$FB00><$0047>Those two were<$FFFC>defeated<$FFF5><$FFF8>… <$FFF6><$FB00><$0048>Withdraw！ Retreat！<$FFFE>
+98	<$FB00><$0049>Those two were<$FFFC>defeated<$FFF5><$FFF8>… <$FFF6><$FB00><$004A>Withdraw！ Retreat！<$FFFE>
+99	<$FB00><$0047>Those two were<$FFFC>defeated<$FFF5><$FFF8>… <$FFF6><$FB00><$0048>Withdraw！ Retreat！<$FFFE>
+100	<$FB00><$0049>Those two were<$FFFC>defeated<$FFF5><$FFF8>… <$FFF6><$FB00><$004A>Withdraw！ Retreat！<$FFFE>
+101	<$FB00><$004B>Looks like the<$FFFC>enemies are gone.<$FFFE>
+102	<$FB00><$004C>Gilmore is<$FFFC>inside.<$FFFE>
+103	<$FB00><$004D>Hurry. While<$FFFC>Salrath holds the enemy, we must<$FFFC>defeat Gilmore！<$FFFE>
+104	<$FB00><$0002><$FB00><$0035>Right wing, move<$FFFC>out！<$FFFE>
 105	<$FFF7><$FB00><$0036>Yes sir！<$FFF5><$FFF8><$FFFE>
 106	<$FFF7><$FB00><$003D>Yes！<$FFF5><$FFF8><$FFFE>
 107	<$FFF7><$FB00><$0036>Yes sir！<$FFF5><$FFF8><$FFFE>
-108	<$FB00><$0038>Left wing, move out！<$FFFE>
+108	<$FB00><$0038>Left wing, move<$FFFC>out！<$FFFE>
 109	<$FB00><$0039>Y-yes！<$FFFE>
 110	<$FB00><$003A>Here I go！<$FFFE>
-111	<$FB00><$003B>All units, attack！ Defend this<$FFFC>place at any cost！<$FFFE>
-112	<$FB00><$003C>Lord Creid, we should hold and<$FFFC>wait for reinforcements.<$FFFE>
-113	<$FB00><$003D>Silence！ No more failures！ I<$FFFC>must defeat them and win glory！<$FFFE>
+111	<$FB00><$003B>All units,<$FFFC>attack！ Defend this place at any<$FFFC>cost！<$FFFE>
+112	<$FB00><$003C>Lord Creid, we<$FFFC>should hold and wait for<$FFFC>reinforcements.<$FFFE>
+113	<$FB00><$003D>Silence！ No more<$FFFC>failures！ I must defeat them and<$FFFC>win glory！<$FFFE>
 114	Sir Kfir. Why do you not<$FFFC>move？<$FFFD>You lead flyers, but command<$FFFC>here is mine. Obey orders.<$FFFE>
 115	If you insist, I will obey.<$FFFE>
 116	Our plan was flawed. But now<$FFFC>I can only do what I can…<$FFFE>

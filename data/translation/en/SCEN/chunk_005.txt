@@ -14,23 +14,23 @@
 12	・Defeat all enemies<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
 14	Remote village<$FFFF>
-15	<$FB00><$0017>A ruined village. Lonelier still<$FFFC>at night.<$FFFE>
-16	<$FB00><$0018>Know anything, Lambda？<$FFFE>
-17	<$FB00><$0019>War with Caconsis ruined it. No<$FFFC>one lives here.<$FFFE>
-18	<$FB00><$001A>Yet I sense someone<$FFF5><$FFF8>…<$FFFE>
+15	<$FB00><$0017>A ruined village.<$FFFC>Lonelier still at night.<$FFFE>
+16	<$FB00><$0018>Know anything,<$FFFC>Lambda？<$FFFE>
+17	<$FB00><$0019>War with Caconsis<$FFFC>ruined it. No one lives here.<$FFFE>
+18	<$FB00><$001A>Yet I sense<$FFFC>someone<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$001B>Perceptive of you.<$FFFE>
 20	<$FB00><$001C>You're<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$001D>Hard to find you, till that ruckus<$FFFC>in town…<$FFFE>
+21	<$FB00><$001D>Hard to find you,<$FFFC>till that ruckus in town…<$FFFE>
 22	<$FFF8>…<$FB00><$001E>Kh！<$FFFE>
-23	<$FB00><$001F>You'll come with us.<$FFFE>
-24	<$FB00><$0020>Hiding here, were you！<$FFFE>
-25	<$FB00><$0021>Ah, that man is…<$FFFE>
-26	<$FB00><$0022>You made me a sellsword again！<$FFFC><$0000>I could have been a lord！<$FFFE>
-27	<$FB00><$0023>Talk about misplaced blame.<$FFFE>
-28	<$FB00><$0024>Quiet！ I'll kill you all！<$FFFE>
-29	<$FB00><$0025>A nuisance. But the operation<$FFFC>continues！<$FFFE>
+23	<$FB00><$001F>You'll come with<$FFFC>us.<$FFFE>
+24	<$FB00><$0020>Hiding here, were<$FFFC>you！<$FFFE>
+25	<$FB00><$0021>Ah, that man<$FFFC>is…<$FFFE>
+26	<$FB00><$0022>You made me a<$FFFC>sellsword again！ <$0000>I could have<$FFFC>been a lord！<$FFFE>
+27	<$FB00><$0023>Talk about<$FFFC>misplaced blame.<$FFFE>
+28	<$FB00><$0024>Quiet！ I'll kill<$FFFC>you all！<$FFFE>
+29	<$FB00><$0025>A nuisance. But<$FFFC>the operation continues！<$FFFE>
 30	<$FB00><$0035>Hm？ That woman<$FFF5><$FFF8>…<$FFFE>
-31	<$FB00><$0036>Oh my<$FFF5><$FFF8>…<$FFF6><$FB00><$0037>that's him<$FFF5><$FFF8>…<$FFFE>
+31	<$FB00><$0036>Oh my<$FFF5><$FFF8>…<$FFF6><$FB00><$0037>that's<$FFFC>him<$FFF5><$FFF8>…<$FFFE>
 32	Red berries on the tree. Eat<$FFFC>some？<$FFFE>
 33	・Eat all of it<$FFFE>
 34	・Eat half<$FFFE>
@@ -39,10 +39,10 @@
 37	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 3P！<$FFFE>
 38	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 2P！ <$FFF4>Holy<$FFFC>resist<$FFF3> rose by 2P！<$FFFE>
 39	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 1P！ <$FFF4>Holy<$FFFC>resist<$FFF3> rose by 2P！ <$FFF4>Dark resist<$FFF3><$FFFC>rose by 2P！<$FFFE>
-40	<$FB00><$0026>Cramped little village, though.<$FFFE>
-41	<$FB00><$0027>Against numbers, it helps us.<$FFFE>
-42	<$FB00><$0028>Terrain as our ally, eh. Let's<$FFFC>go！<$FFFE>
-43	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
+40	<$FB00><$0026>Cramped little<$FFFC>village, though.<$FFFE>
+41	<$FB00><$0027>Against numbers,<$FFFC>it helps us.<$FFFE>
+42	<$FB00><$0028>Terrain as our<$FFFC>ally, eh. Let's go！<$FFFE>
+43	<$FB00><$0030>So this was the<$FFFC>limit of my strength…<$FFFE>
 44	Being surrounded means trouble.<$FFFE>
 45	Yes. Aizer especially needs<$FFFC>watching.<$FFFE>
 46	Yeah. Aizer especially needs<$FFFC>watching.<$FFFE>
@@ -50,59 +50,59 @@
 48	I see. Then nothing interferes<$FFFC>when we face Aizer.<$FFFD>Isolate and crush them one by<$FFFC>one<$FFF8>… <$FFF6>Basic tactics.<$FFFE>
 49	In your hands. Win or lose, it's<$FFFC>on you.<$FFFE>
 50	<$FB00><$003D>Ugh…not…yet…<$FFFE>
-51	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
+51	<$FB00><$003E>Don't overdo it,<$FFFC>Lambda！ Fall back！<$FFFE>
 52	<$FB00><$003F>…All right…<$FFFE>
-53	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
-54	<$FB00><$0034>Pikemen ahead. Bad news for<$FFFC>riders, they're yours！<$FFFE>
+53	<$FB00><$0077>I knew it…this<$FFFC>is all I amount to…<$FFFE>
+54	<$FB00><$0034>Pikemen ahead.<$FFFC>Bad news for riders, they're<$FFFC>yours！<$FFFE>
 55	<$FB00><$003D>Brace yourself！<$FFFE>
-56	<$FFF8><$FB00><$004F>Kh！ <$FFF5>…<$FFF6><$FB00><$0050>Pathetic. Beaten by the<$FFFC>likes of them<$FFF5><$FFF8>…<$FFFE>
-57	<$FB00><$0051>Boss！ We'll take it from here！<$FFFE>
-58	<$FB00><$0052>Sorry, girls. It's all yours.<$FFFE>
+56	<$FFF8><$FB00><$004F>Kh！ <$FFF5>…<$FFF6><$FB00><$0050>Pathetic.<$FFFC>Beaten by the likes of them<$FFF5><$FFF8>…<$FFFE>
+57	<$FB00><$0051>Boss！ We'll take<$FFFC>it from here！<$FFFE>
+58	<$FB00><$0052>Sorry, girls. It's<$FFFC>all yours.<$FFFE>
 59	B-boss…<$FFFE>
 60	S-so strong…<$FFFE>
 61	…n-no…Captain！！<$FFFE>
-62	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+62	<$FB00><$003E>Now you'll see<$FFFC>my TRUE strength！<$FFFE>
 63	<$FB00><$003F>Fine, show me.<$FFFE>
 64	<$FB00><$0042>Quiet, you！<$FFFE>
-65	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+65	<$FB00><$003E>Now you'll see<$FFFC>my TRUE strength！<$FFFE>
 66	<$FB00><$0040>Not interested.<$FFFE>
 67	<$FB00><$0042>Quiet, you！<$FFFE>
-68	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
-69	<$FB00><$0041>You said that last time too<$FFF5><$FFF8>…<$FFFE>
+68	<$FB00><$003E>Now you'll see<$FFFC>my TRUE strength！<$FFFE>
+69	<$FB00><$0041>You said that<$FFFC>last time too<$FFF5><$FFF8>…<$FFFE>
 70	<$FB00><$0042>Quiet, you！<$FFFE>
-71	<$FB00><$0048>How…could I… <$FFF5><$FB00><$0049>Damn it！ Enough,<$FFFC>I quit！<$FFFE>
-72	<$FB00><$004A>Such strength, so soon<$FFF5><$FFF8>… <$0000><$FFF6><$FB00><$004B>The<$FFFC>power hidden in the specimens…<$FFFE>
+71	<$FB00><$0048>How…could I…<$FFFC><$FFF5><$FB00><$0049>Damn it！ Enough, I quit！<$FFFE>
+72	<$FB00><$004A>Such strength, so<$FFFC>soon<$FFF5><$FFF8>… <$0000><$FFF6><$FB00><$004B>The power hidden in the<$FFFC>specimens…<$FFFE>
 73	Damn！ If you hadn't meddled…<$FFFE>
-74	<$FB00><$004C>Lord Aizer, fall back. We'll<$FFFC>handle the rest！<$FFFE>
+74	<$FB00><$004C>Lord Aizer, fall<$FFFC>back. We'll handle the rest！<$FFFE>
 75	<$FFF8><$FB00><$004D>Ugh…<$FFF5><$FFF6><$FB00><$004E>Forgive me<$FFF5><$FFF8>…<$FFFE>
-76	<$FB00><$003C>I'll turn the tables！<$FFFE>
+76	<$FB00><$003C>I'll turn the<$FFFC>tables！<$FFFE>
 77	<$FB00><$0043>Come quietly now.<$FFFE>
-78	<$FB00><$0044>What are you after！<$FFFE>
-79	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
+78	<$FB00><$0044>What are you<$FFFC>after！<$FFFE>
+79	<$FB00><$0046>I cannot say.<$FFFC>Only that you are key to his<$FFFC>plan.<$FFFE>
 80	<$FB00><$0043>Come quietly now.<$FFFE>
-81	<$FB00><$0045>Why do you hound us？<$FFFE>
-82	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
-83	<$FB00><$0047>No business with you. Move.<$FFFE>
+81	<$FB00><$0045>Why do you<$FFFC>hound us？<$FFFE>
+82	<$FB00><$0046>I cannot say.<$FFFC>Only that you are key to his<$FFFC>plan.<$FFFE>
+83	<$FB00><$0047>No business with<$FFFC>you. Move.<$FFFE>
 84	Lord Aizer…for…give…me…<$FFFE>
 85	…my strength…was not…enough…<$FFFE>
-86	<$FB00><$0056>That's the last of them.<$FFFE>
-87	<$FB00><$0053>No more pursuers, it seems.<$FFFE>
-88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>…<$FFF6><$FB00><$0055>Not my finest showing,<$FFFC>huh.<$FFFE>
-89	<$FB00><$0057>Thanks. You saved us.<$FFFE>
-90	<$FB00><$0058>Don't mention it.<$FFFE>
-91	<$FB00><$0059>We're safe for a while.<$FFFE>
-92	<$FB00><$002B>Hm？ Fresh troops？<$FFFE>
-93	<$FB00><$002C>Having a rough time？ Want a<$FFFC>hand？<$FFFE>
+86	<$FB00><$0056>That's the last<$FFFC>of them.<$FFFE>
+87	<$FB00><$0053>No more pursuers,<$FFFC>it seems.<$FFFE>
+88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>…<$FFF6><$FB00><$0055>Not my<$FFFC>finest showing, huh.<$FFFE>
+89	<$FB00><$0057>Thanks. You<$FFFC>saved us.<$FFFE>
+90	<$FB00><$0058>Don't mention<$FFFC>it.<$FFFE>
+91	<$FB00><$0059>We're safe for<$FFFC>a while.<$FFFE>
+92	<$FB00><$002B>Hm？ Fresh<$FFFC>troops？<$FFFE>
+93	<$FB00><$002C>Having a rough<$FFFC>time？ Want a hand？<$FFFE>
 94	<$FB00><$002D>Who are you？<$FFFE>
-95	<$FB00><$002E>Not your enemy. Allies to all<$FFFC>and none. An all-women<$FFFC>sellsword band.<$FFFE>
-96	<$FB00><$002F>An all-women sellsword band<$FFF5><$FFF8>…<$FFFE>
-97	<$FB00><$0030>Relax, we'll back you up. No<$FFFC>charge, either！<$FFFE>
-98	<$FB00><$0031>Their cavalry is our edge here.<$FFFE>
-99	<$FB00><$0032>Got it. Help us out！<$FFFE>
-100	<$FB00><$0033>Okay, leave it to us！<$FFFE>
+95	<$FB00><$002E>Not your enemy.<$FFFC>Allies to all and none. An<$FFFC>all-women sellsword band.<$FFFE>
+96	<$FB00><$002F>An all-women<$FFFC>sellsword band<$FFF5><$FFF8>…<$FFFE>
+97	<$FB00><$0030>Relax, we'll back<$FFFC>you up. No charge, either！<$FFFE>
+98	<$FB00><$0031>Their cavalry is<$FFFC>our edge here.<$FFFE>
+99	<$FB00><$0032>Got it. Help us<$FFFC>out！<$FFFE>
+100	<$FB00><$0033>Okay, leave it<$FFFC>to us！<$FFFE>
 101	<$FB00><$0029>Out of my way.<$FFFE>
-102	<$FB00><$002A>You're the one in the way！<$FFFE>
-103	<$FB00><$0038>It IS you, from back then！<$FFFE>
-104	<$FB00><$0039>I remember you too. My, you've<$FFFC>aged.<$FFFE>
-105	<$FB00><$003A>You haven't changed.<$FFFE>
+102	<$FB00><$002A>You're the one<$FFFC>in the way！<$FFFE>
+103	<$FB00><$0038>It IS you, from<$FFFC>back then！<$FFFE>
+104	<$FB00><$0039>I remember you<$FFFC>too. My, you've aged.<$FFFE>
+105	<$FB00><$003A>You haven't<$FFFC>changed.<$FFFE>
 106	<$FB00><$003B>Of course not！<$FFFE>

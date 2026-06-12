@@ -11,13 +11,13 @@
 9	Duke Lenard<$FFFF>
 10	McLaine<$FFFF>
 11	Anti-Demon Force HQ<$FFFF>
-12	<$FB00><$0048>Excuse me！ Monsters ambushed us！<$FFFC>The scouts are already fighting！<$FFFE>
-13	<$FB00><$0049>What is the situation？<$FFFE>
-14	<$FB00><$004A>We are not losing, but there<$FFFC>are so many of them<$FFF5><$FFF8>…<$FFFE>
-15	<$FB00><$004B>Jessica was right to advise<$FFFC>adding Slayers to the scouts.<$FFFE>
-16	<$FB00><$004C>But Slayers alone lack finishing<$FFFC>power. I will go before it is<$FFFC>too late.<$FFFE>
-17	<$FB00><$004D>Please be careful, McLaine.<$FFFE>
-18	<$FB00><$004E>Worried about me？ Haha, now I<$FFFC>have to show off.<$FFFD><$FB00><$004F>Leave it to me. On Yeless, I<$FFFC>fought Boser and Chaos. Compared<$FFFC>to them, these are infants.<$FFFE>
-19	<$FB00><$0050>Do not lower your guard, Lord<$FFFC>McLaine.<$FFFE>
-20	<$FB00><$0051>I know. Just trust my strength<$FFFC>a little more.<$FFFD><$FB00><$0052>All right, lead me there！<$FFFE>
-21	<$FB00><$0053>Yes sir, this way！<$FFFE><$FFFF>
+12	<$FB00><$0048>Excuse me！<$FFFC>Monsters ambushed us！ The scouts<$FFFC>are already fighting！<$FFFE>
+13	<$FB00><$0049>What is<$FFFC>the situation？<$FFFE>
+14	<$FB00><$004A>We are<$FFFC>not losing, but there are so<$FFFC>many of them<$FFF5><$FFF8>…<$FFFE>
+15	<$FB00><$004B>Jessica<$FFFC>was right to advise adding<$FFFC>Slayers to the scouts.<$FFFE>
+16	<$FB00><$004C>But<$FFFC>Slayers alone lack finishing<$FFFC>power. I will go before it is<$FFFC>too late.<$FFFE>
+17	<$FB00><$004D>Please be<$FFFC>careful, McLaine.<$FFFE>
+18	<$FB00><$004E>Worried<$FFFC>about me？ Haha, now I have to<$FFFC>show off.<$FFFD><$FB00><$004F>Leave it<$FFFC>to me. On Yeless, I fought<$FFFC>Boser and Chaos. Compared to<$FFFC>them, these are infants.<$FFFE>
+19	<$FB00><$0050>Do not<$FFFC>lower your guard, Lord McLaine.<$FFFE>
+20	<$FB00><$0051>I know.<$FFFC>Just trust my strength a little<$FFFC>more.<$FFFD><$FB00><$0052>All right,<$FFFC>lead me there！<$FFFE>
+21	<$FB00><$0053>Yes sir,<$FFFC>this way！<$FFFE><$FFFF>

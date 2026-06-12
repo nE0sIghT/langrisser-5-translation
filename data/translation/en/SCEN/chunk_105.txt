@@ -10,23 +10,23 @@
 8	General Aizer<$FFFF>
 9	Soldier<$FFFF>
 10	By the Transport Airship<$FFFF>
-11	<$FB00><$00D7>You took your time, Aizer.<$FFFE>
-12	<$FB00><$00D8>I have many duties. I am not<$FFFC>like you, who only has to run<$FFFC>off and fight.<$FFFE>
-13	<$FFF7><$FB00><$00D9>Heh！ <$FFF5><$FFF6><$FB00><$00DA>Big words<$FFF5><$FFF8>…<$FFFE>
-14	<$FB00><$00DB>And did you capture them？<$FFFE>
-15	<$FB00><$00DC>Do not rush me. Everything has<$FFFC>its proper timing.<$FFFE>
-16	<$FB00><$00DD>Good grief. Your mouth is your<$FFFC>only talent.<$FFFD><$FB00><$00DE>We will begin our mission at<$FFFC>once. We have no time to play,<$FFFC>unlike some people.<$FFFE>
-17	<$FB00><$00DF>Lord Aizer, we should first learn<$FFFC>where the item is located.<$FFFE>
-18	<$FB00><$00E0>Indeed. We must gather information<$FFFC>without alerting anyone. What a<$FFFC>bother.<$FFFE>
-19	<$FB00><$00E1>If you want what you seek, go<$FFFC>to Velzeria.<$FFFE>
-20	<$FB00><$00E2>What？ How do you know that<$FFF5><$FFF8>…？<$FFFE>
-21	<$FB00><$00E3>While waiting for the right<$FFFC>timing, I gathered a little<$FFFC>information for fun.<$FFFD><$FB00><$00E4>After all, my mouth is my only<$FFFC>talent.<$FFFE>
+11	<$FB00><$00D7>You<$FFFC>took your time, Aizer.<$FFFE>
+12	<$FB00><$00D8>I have<$FFFC>many duties. I am not like you,<$FFFC>who only has to run off and<$FFFC>fight.<$FFFE>
+13	<$FFF7><$FB00><$00D9>Heh！<$FFFC><$FFF5><$FFF6><$FB00><$00DA>Big words<$FFF5><$FFF8>…<$FFFE>
+14	<$FB00><$00DB>And<$FFFC>did you capture them？<$FFFE>
+15	<$FB00><$00DC>Do not<$FFFC>rush me. Everything has its<$FFFC>proper timing.<$FFFE>
+16	<$FB00><$00DD>Good<$FFFC>grief. Your mouth is your only<$FFFC>talent.<$FFFD><$FB00><$00DE>We will<$FFFC>begin our mission at once. We<$FFFC>have no time to play, unlike some<$FFFC>people.<$FFFE>
+17	<$FB00><$00DF>Lord<$FFFC>Aizer, we should first learn<$FFFC>where the item is located.<$FFFE>
+18	<$FB00><$00E0>Indeed.<$FFFC>We must gather information without<$FFFC>alerting anyone. What a bother.<$FFFE>
+19	<$FB00><$00E1>If you<$FFFC>want what you seek, go to<$FFFC>Velzeria.<$FFFE>
+20	<$FB00><$00E2>What？<$FFFC>How do you know that<$FFF5><$FFF8>…？<$FFFE>
+21	<$FB00><$00E3>While<$FFFC>waiting for the right timing,<$FFFC>I gathered a little information<$FFFC>for fun.<$FFFD><$FB00><$00E4>After<$FFFC>all, my mouth is my only talent.<$FFFE>
 22	<$FFF7>…<$FB00><$00E5>Urgh<$FFF5><$FFF8>…<$FFFE>
-23	<$FB00><$00E6>Anyway, go to Velzeria. The<$FFFC>demon castle is there.<$FFFD><$FB00><$00F0>What you are looking for should<$FFFC>be inside.<$FFFE>
-24	<$FB00><$00E7>The demon castle？<$FFFE>
-25	<$FB00><$00E8>Well, I suppose I should get<$FFFC>to work too<$FFF5><$FFF8>…<$FFFE>
+23	<$FB00><$00E6>Anyway,<$FFFC>go to Velzeria. The demon castle<$FFFC>is there.<$FFFD><$FB00><$00F0>What<$FFFC>you are looking for should be<$FFFC>inside.<$FFFE>
+24	<$FB00><$00E7>The<$FFFC>demon castle？<$FFFE>
+25	<$FB00><$00E8>Well,<$FFFC>I suppose I should get to work<$FFFC>too<$FFF5><$FFF8>…<$FFFE>
 26	<$FB00><$00E9>Omega.<$FFFE>
 27	<$FFF7><$FB00><$00EA>Huh？<$FFF5><$FFF8><$FFFE>
-28	<$FFFA><$FB00><$00EB>I was wrong. You have my<$FFFC>thanks.<$FFFE>
-29	<$FFF8>…<$FB00><$00EC>Hmph. <$FFF5><$FFF6><$FB00><$00ED>Being thanked by a man<$FFFC>does not make me happy.<$FFFD><$FB00><$00EE>See you. I went to the trouble<$FFFC>of getting that information, so do<$FFFC>not waste it.<$FFFE>
-30	<$FB00><$00EF>Recover the sword from the<$FFFC>demons. After that, I will take<$FFFC>it for myself<$FFF5><$FFF8>…<$FFFE><$FFFF>
+28	<$FFFA><$FB00><$00EB>I was<$FFFC>wrong. You have my thanks.<$FFFE>
+29	<$FFF8>…<$FB00><$00EC>Hmph.<$FFFC><$FFF5><$FFF6><$FB00><$00ED>Being thanked by a man does<$FFFC>not make me happy.<$FFFD><$FB00><$00EE>See<$FFFC>you. I went to the trouble of<$FFFC>getting that information, so do<$FFFC>not waste it.<$FFFE>
+30	<$FB00><$00EF>Recover<$FFFC>the sword from the demons.<$FFFC>After that, I will take it for<$FFFC>myself<$FFF5><$FFF8>…<$FFFE><$FFFF>

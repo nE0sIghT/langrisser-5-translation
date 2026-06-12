@@ -9,137 +9,137 @@
 7	Archmage Jessica<$FFFF>
 8	McLaine<$FFFF>
 9	Fizzit Port, After the Battle<$FFFF>
-10	<$FB00><$0072>I have something to ask you.<$FFFE>
-11	<$FB00><$0073>What is it？<$FFFE>
-12	<$FB00><$0074>Why did you give me poison？<$FFFE>
-13	<$FB00><$0075>Huh？ What are you talking<$FFFC>about？<$FFFE>
-14	<$FB00><$0076>Don't play dumb！ With the<$FFFC>medicine you gave me, Father<$FFF5>…<$FE1E>…<$FFFC><$FE1E><$FB00><$0077>Father<$FFF5>…<$FE1E>…<$FE1E>. <$FE1E><$FB00><$0078>He died！<$FFFE>
-15	<$FB00><$0079>Wait a second！ I never gave<$FFFC>you poison！<$FFFE>
-16	<$FB00><$007A>You're still lying！<$FFFE>
-17	<$FB00><$007B>I'm not lying！ That was proper<$FFFC>fever medicine！<$FFFE>
-18	<$FFF8>…<$FFF6><$FB00><$007C>Please wait. Arguing won't<$FFFC>solve this.<$FFFE>
-19	<$FB00><$007D>Miss Clarett, do you still have<$FFFC>the same medicine you gave him？<$FFFE>
+10	<$FB00><$0072>I<$FFFC>have something to ask you.<$FFFE>
+11	<$FB00><$0073>What<$FFFC>is it？<$FFFE>
+12	<$FB00><$0074>Why<$FFFC>did you give me poison？<$FFFE>
+13	<$FB00><$0075>Huh？<$FFFC>What are you talking about？<$FFFE>
+14	<$FB00><$0076>Don't<$FFFC>play dumb！ With the medicine you<$FFFC>gave me, Father<$FFF5>…<$FE1E>… <$FE1E><$FB00><$0077>Father<$FFF5>…<$FE1E>…<$FE1E>. <$FE1E><$FB00><$0078>He<$FFFC>died！<$FFFE>
+15	<$FB00><$0079>Wait<$FFFC>a second！ I never gave you<$FFFC>poison！<$FFFE>
+16	<$FB00><$007A>You're<$FFFC>still lying！<$FFFE>
+17	<$FB00><$007B>I'm<$FFFC>not lying！ That was proper<$FFFC>fever medicine！<$FFFE>
+18	<$FFF8>…<$FFF6><$FB00><$007C>Please<$FFFC>wait. Arguing won't solve this.<$FFFE>
+19	<$FB00><$007D>Miss<$FFFC>Clarett, do you still have the<$FFFC>same medicine you gave him？<$FFFE>
 20	<$FFF8>…<$FFF6><$FB00><$007E>This？<$FFFE>
-21	<$FB00><$007F>That's it！ That medicine<$FFF5><$FFF8>…<$FFF6><$FB00><$0080>Father <$FFF5><$FFF8>…<$FFFE>
-22	<$FB00><$0081>You can tell if it's poison,<$FFFC>right？ Is it really poison？<$FFFE>
-23	<$FB00><$0082>This is El Sallia's most common<$FFFC>fever medicine. No one could<$FFFC>die from drinking it.<$FFFD><$FB00><$0083>If you like, I can drink some<$FFFC>right here.<$FFFE>
-24	<$FFFA><$FB00><$0084>No, you needn't go that far.<$FFFE>
-25	<$FB00><$0085>Then why did Father<$FFF5><$FFF8>…？<$FFFE>
-26	<$FB00><$0086>Can't you see？ Someone must<$FFFC>have switched it.<$FFFE>
-27	<$FB00><$0087>Switched it？ Who, and why<$FFF5><$FFF8>…？<$FFFE>
-28	<$FB00><$0088>Someone who profited from your<$FFFC>father's death, and wanted you<$FFFC>blamed.<$FFFE>
-29	<$FB00><$0089>Who was it！？ Who could have<$FFFC><$FFF5><$FFF8>…？<$FFFE>
-30	<$FB00><$008A>Alfred. Who did you give the<$FFFC>medicine to？ Who gave it directly<$FFFC>to your father？<$FFFE>
-31	<$FB00><$008B>I gave it to Father's doctor.<$FFFC>But the one who carried it to<$FFFC>his room was my brother<$FFF5><$FFF8>…<$FFFE>
-32	<$FB00><$008C>Then one of those two switched<$FFFC>it, or they did it together.<$FFFE>
-33	<$FB00><$008D>No<$FFF5><$FFF7>…,<$FFF6><$FB00><$008E>why would my brother<$FFF5><$FFF8>…？<$FFFE>
-34	<$FFF8>…<$FB00><$008F>Sorry, kid, but your brother<$FFFC>looked eager to kill you. Like he<$FFFC>needed you silent<$FFF5><$FFF8>…<$FFFE>
+21	<$FB00><$007F>That's<$FFFC>it！ That medicine<$FFF5><$FFF8>…<$FFF6><$FB00><$0080>Father <$FFF5><$FFF8>…<$FFFE>
+22	<$FB00><$0081>You<$FFFC>can tell if it's poison, right？<$FFFC>Is it really poison？<$FFFE>
+23	<$FB00><$0082>This<$FFFC>is El Sallia's most common fever<$FFFC>medicine. No one could die from<$FFFC>drinking it.<$FFFD><$FB00><$0083>If<$FFFC>you like, I can drink some<$FFFC>right here.<$FFFE>
+24	<$FFFA><$FB00><$0084>No,<$FFFC>you needn't go that far.<$FFFE>
+25	<$FB00><$0085>Then<$FFFC>why did Father<$FFF5><$FFF8>…？<$FFFE>
+26	<$FB00><$0086>Can't<$FFFC>you see？ Someone must have<$FFFC>switched it.<$FFFE>
+27	<$FB00><$0087>Switched<$FFFC>it？ Who, and why<$FFF5><$FFF8>…？<$FFFE>
+28	<$FB00><$0088>Someone<$FFFC>who profited from your father's<$FFFC>death, and wanted you blamed.<$FFFE>
+29	<$FB00><$0089>Who<$FFFC>was it！？ Who could have <$FFF5><$FFF8>…？<$FFFE>
+30	<$FB00><$008A>Alfred.<$FFFC>Who did you give the medicine<$FFFC>to？ Who gave it directly to your<$FFFC>father？<$FFFE>
+31	<$FB00><$008B>I<$FFFC>gave it to Father's doctor. But<$FFFC>the one who carried it to his<$FFFC>room was my brother<$FFF5><$FFF8>…<$FFFE>
+32	<$FB00><$008C>Then<$FFFC>one of those two switched it,<$FFFC>or they did it together.<$FFFE>
+33	<$FB00><$008D>No<$FFF5><$FFF7>…,<$FFF6><$FB00><$008E>why<$FFFC>would my brother<$FFF5><$FFF8>…？<$FFFE>
+34	<$FFF8>…<$FB00><$008F>Sorry,<$FFFC>kid, but your brother looked<$FFFC>eager to kill you. Like he needed<$FFFC>you silent<$FFF5><$FFF8>…<$FFFE>
 35	<$FFF8><$FFFA>…<$FFFE>
 36	<$FB00><$0091>Brenda！<$FFFE>
-37	<$FFF8>…<$FFF6><$FB00><$0092>Ah, sorry. I said too much.<$FFFE>
-38	<$FB00><$0093>My brother did seem changed. Ever<$FFFC>since Father collapsed and he<$FFFC>took over the domain<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0094>But I thought it was because<$FFFC>the work was unfamiliar <$FFF5><$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0095>I<$FFFC>wanted to believe that.<$FFFE>
+37	<$FFF8>…<$FFF6><$FB00><$0092>Ah,<$FFFC>sorry. I said too much.<$FFFE>
+38	<$FB00><$0093>My<$FFFC>brother did seem changed. Ever<$FFFC>since Father collapsed and he<$FFFC>took over the domain<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0094>But<$FFFC>I thought it was because the<$FFFC>work was unfamiliar <$FFF5><$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0095>I wanted<$FFFC>to believe that.<$FFFE>
 39	<$FB00><$0096>Alfred<$FFF5><$FFF8>…<$FFFE>
-40	<$FB00><$0097>Forgive me for interrupting, but<$FFFC>I must pursue that demon. Excuse<$FFFC>me.<$FFFE>
-41	<$FB00><$0098>And since my name seems cleared,<$FFFC>I'll be going too.<$FFFE>
-42	<$FB00><$0099>Lady Jessica, if you're returning<$FFFC>to El Sallia, take me too！<$FFFE>
-43	<$FB00><$009A>The ship to El Sallia seems to<$FFFC>have already left<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-44	<$FB00><$009B>We can still see it, but the<$FFFC>next ship is in two days.<$FFFE>
-45	<$FB00><$009C>If it's just two of us, I can<$FFFC>teleport us that far. Clarett,<$FFFC>we're boarding that ship.<$FFFE>
+40	<$FB00><$0097>Forgive<$FFFC>me for interrupting, but I must<$FFFC>pursue that demon. Excuse me.<$FFFE>
+41	<$FB00><$0098>And<$FFFC>since my name seems cleared, I'll<$FFFC>be going too.<$FFFE>
+42	<$FB00><$0099>Lady<$FFFC>Jessica, if you're returning to El<$FFFC>Sallia, take me too！<$FFFE>
+43	<$FB00><$009A>The<$FFFC>ship to El Sallia seems to have<$FFFC>already left<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+44	<$FB00><$009B>We<$FFFC>can still see it, but the<$FFFC>next ship is in two days.<$FFFE>
+45	<$FB00><$009C>If<$FFFC>it's just two of us, I can<$FFFC>teleport us that far. Clarett,<$FFFC>we're boarding that ship.<$FFFE>
 46	<$FB00><$009D><$FFF7>What！？<$FFFE>
-47	<$FB00><$009E>Looks like they're gone.<$FFFE>
-48	<$FB00><$009F>Then what do we<$FFF5><$FFF8>…？<$FFFE>
-49	<$FB00><$00A0>Hm？ Looks like someone is<$FFFC>coming.<$FFFE>
-50	<$FB00><$00A1>What is it？ Need something from<$FFFC>us？<$FFFE>
-51	<$FB00><$00A2>I want to ask something. Did<$FFFC>you see a calm woman in red<$FFFC>clothes with long hair？<$FFFE>
-52	<$FB00><$00A3>You mean that Jessica person from<$FFFC>earlier？<$FFFE>
-53	<$FB00><$00A4>Yes, Jessica. Tell me if you<$FFFC>know.<$FFFE>
-54	<$FB00><$00A5>She just boarded the ship to El<$FFFC>Sallia<$FFF5><$FFF8>…<$FFFE>
-55	<$FB00><$00A6>I see<$FFF5><$FFF8>…<$FFF6><$FB00><$00A7>I was one step too<$FFFC>late<$FFF5><$FFF8>…<$FFFE>
-56	<$FB00><$00A8>Did you need her for<$FFFC>something？<$FFFE>
-57	<$FB00><$00A9>Y-yeah. Nothing that important<$FFFC><$FFF5><$FFF8>… <$FFF6><$FB00><$00AA>Hm？ You are<$FFF5><$FFF8>…！<$FFFE>
+47	<$FB00><$009E>Looks<$FFFC>like they're gone.<$FFFE>
+48	<$FB00><$009F>Then<$FFFC>what do we<$FFF5><$FFF8>…？<$FFFE>
+49	<$FB00><$00A0>Hm？<$FFFC>Looks like someone is coming.<$FFFE>
+50	<$FB00><$00A1>What<$FFFC>is it？ Need something from us？<$FFFE>
+51	<$FB00><$00A2>I<$FFFC>want to ask something. Did you<$FFFC>see a calm woman in red<$FFFC>clothes with long hair？<$FFFE>
+52	<$FB00><$00A3>You<$FFFC>mean that Jessica person from<$FFFC>earlier？<$FFFE>
+53	<$FB00><$00A4>Yes,<$FFFC>Jessica. Tell me if you know.<$FFFE>
+54	<$FB00><$00A5>She<$FFFC>just boarded the ship to El<$FFFC>Sallia<$FFF5><$FFF8>…<$FFFE>
+55	<$FB00><$00A6>I<$FFFC>see<$FFF5><$FFF8>…<$FFF6><$FB00><$00A7>I was one step too late<$FFF5><$FFF8>…<$FFFE>
+56	<$FB00><$00A8>Did<$FFFC>you need her for something？<$FFFE>
+57	<$FB00><$00A9>Y-yeah.<$FFFC>Nothing that important <$FFF5><$FFF8>… <$FFF6><$FB00><$00AA>Hm？<$FFFC>You are<$FFF5><$FFF8>…！<$FFFE>
 58	<$FFF8><$FB00><$00AB>？<$FFFE>
 59	<$FB00><$00AC>And<$FFF5><$FFF8>…<$FFFE>
 60	<$FFF8>…<$FFFE>
-61	<$FB00><$00AD>It can't be<$FFF5>…<$FE28>…<$FE28><$FB00><$00AE>Mariandel<$FFF5>…<$FE28>…<$FE28><$FB00><$00AF>Marie？<$FFFE>
-62	<$FFF8>…<$FB00><$00B0>Who？<$FFFD><$FB00><$00B1>I'm… Lambda<$FFF5><$FFF8>…<$FFFE>
-63	<$FB00><$00B2>Don't you remember me, Marie！<$FFFC>I'm McLaine, your brother！<$FFFE>
+61	<$FB00><$00AD>It<$FFFC>can't be<$FFF5>…<$FE28>…<$FE28><$FB00><$00AE>Mariandel<$FFF5>…<$FE28>…<$FE28><$FB00><$00AF>Marie？<$FFFE>
+62	<$FFF8>…<$FB00><$00B0>Who？<$FFFD><$FB00><$00B1>I'm…<$FFFC>Lambda<$FFF5><$FFF8>…<$FFFE>
+63	<$FB00><$00B2>Don't<$FFFC>you remember me, Marie！ I'm<$FFFC>McLaine, your brother！<$FFFE>
 64	<$FFF7><$FB00><$00B3>Wha<$FFF5>…,<$FFF6><$FB00><$00B4>I<$FFF5><$FFF8>…！<$FFFE>
-65	<$FB00><$00B5>Your hair changed, but there's no<$FFFC>mistake.<$FFFE>
-66	<$FB00><$00B6>Hold on. Why do you say Lambda<$FFFC>is your sister？<$FFFE>
-67	<$FB00><$00B7>What do you mean, playing dumb？<$FFFC>I remember you too.<$FFFE>
+65	<$FB00><$00B5>Your<$FFFC>hair changed, but there's no<$FFFC>mistake.<$FFFE>
+66	<$FB00><$00B6>Hold<$FFFC>on. Why do you say Lambda is<$FFFC>your sister？<$FFFE>
+67	<$FB00><$00B7>What<$FFFC>do you mean, playing dumb？ I<$FFFC>remember you too.<$FFFE>
 68	<$FB00><$00B8>Me？<$FFFE>
-69	<$FB00><$00B9>Fine. I'll tell it from the<$FFFC>start.<$FFFD><$FB00><$00BA>Marie and I were captured by<$FFFC>Gizarof. I failed, so he meant<$FFFC>to dispose of me.<$FFFE>
-70	<$FB00><$00BB>Look at my body. This is what he<$FFFC>turned me into. A lot happened,<$FFFC>but now I remember everything.<$FFFE>
-71	<$FB00><$00BC>Including that you, Gizarof's<$FFFC>underling, helped me escape.<$FFFE>
-72	<$FB00><$00BD>But I don't remember.<$FFFE>
-73	<$FB00><$00BE>Then how about this？<$FFFD><$FB00><$00BF>Northwest of here is our birth<$FFFC>town. The war emptied it, but<$FFFC>I can show you.<$FFFE>
-74	<$FB00><$00C0>Then that town really was<$FFF5><$FFF8>…<$FFFE>
+69	<$FB00><$00B9>Fine.<$FFFC>I'll tell it from the start.<$FFFD><$FB00><$00BA>Marie<$FFFC>and I were captured by Gizarof.<$FFFC>I failed, so he meant to<$FFFC>dispose of me.<$FFFE>
+70	<$FB00><$00BB>Look<$FFFC>at my body. This is what he<$FFFC>turned me into. A lot happened,<$FFFC>but now I remember everything.<$FFFE>
+71	<$FB00><$00BC>Including<$FFFC>that you, Gizarof's underling,<$FFFC>helped me escape.<$FFFE>
+72	<$FB00><$00BD>But<$FFFC>I don't remember.<$FFFE>
+73	<$FB00><$00BE>Then<$FFFC>how about this？<$FFFD><$FB00><$00BF>Northwest<$FFFC>of here is our birth town. The<$FFFC>war emptied it, but I can<$FFFC>show you.<$FFFE>
+74	<$FB00><$00C0>Then<$FFFC>that town really was<$FFF5><$FFF8>…<$FFFE>
 75	<$FFF8>…<$FE32>…<$FE32>…<$FE32>.<$FFFE>
-76	<$FB00><$00C2>But thank goodness. You're safe,<$FFFC>and only your hair changed.<$FFFD><$FB00><$00C3>I'm so glad<$FFF5><$FFF8>… <$FFF6><$FB00><$00C4>Mother and Father<$FFFC>will be overjoyed！<$FFFE>
+76	<$FB00><$00C2>But<$FFFC>thank goodness. You're safe, and<$FFFC>only your hair changed.<$FFFD><$FB00><$00C3>I'm<$FFFC>so glad<$FFF5><$FFF8>… <$FFF6><$FB00><$00C4>Mother and Father will<$FFFC>be overjoyed！<$FFFE>
 77	<$FB00><$00C5>But<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C6>I<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C7>I<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 78	<$FB00><$00C8>Lambda！<$FFFE>
-79	<$FB00><$00C9>Go after her. She's confused.<$FFFC>Better you, who's been with her,<$FFFC>than me or this new brother.<$FFFE>
+79	<$FB00><$00C9>Go<$FFFC>after her. She's confused. Better<$FFFC>you, who's been with her, than me<$FFFC>or this new brother.<$FFFE>
 80	Go after Lambda？<$FFFE>
 81	・No, better not me<$FFFE>
 82	・All right. I'll go<$FFFE>
-83	<$FB00><$00CA>No, I shouldn't be the one.<$FFFE>
-84	<$FB00><$00CB>Then who will go？<$FFFE>
-85	<$FB00><$00CC>Alfred. You go.<$FFFE>
+83	<$FB00><$00CA>No,<$FFFC>I shouldn't be the one.<$FFFE>
+84	<$FB00><$00CB>Then<$FFFC>who will go？<$FFFE>
+85	<$FB00><$00CC>Alfred.<$FFFC>You go.<$FFFE>
 86	<$FB00><$00CD>M-me？<$FFFE>
-87	<$FB00><$00CE>I can't find the right words.<$FFFC>You can do it.<$FFFE>
+87	<$FB00><$00CE>I<$FFFC>can't find the right words. You<$FFFC>can do it.<$FFFE>
 88	<$FB00><$00CF>W-wait！<$FFFE>
-89	<$FB00><$00D0>I'm counting on you.<$FFFE>
+89	<$FB00><$00D0>I'm<$FFFC>counting on you.<$FFFE>
 90	<$FFF8><$FB00><$00D1>Hmm<$FFF5>…<$FFFE>
-91	<$FB00><$00D2>All right. Wait here for us.<$FFFE>
-92	<$FB00><$00E7>You, uh, McLaine, was it？<$FFFE>
+91	<$FB00><$00D2>All<$FFFC>right. Wait here for us.<$FFFE>
+92	<$FB00><$00E7>You,<$FFFC>uh, McLaine, was it？<$FFFE>
 93	<$FB00><$00E8>What？<$FFFE>
-94	<$FB00><$00E9>Do you know about that sword？<$FFFE>
-95	<$FB00><$00EA>Yeah. We used Langrisser to defeat<$FFFC>Gizarof.<$FFFD><$FB00><$00EB>That sword can seal demons.<$FFFC>Alhazard, the sword demons use,<$FFFC>holds dark power instead.<$FFFE>
-96	<$FB00><$00EC>Then that demon was after that<$FFFC>sword？<$FFFE>
-97	<$FB00><$010C>Then that demon was after that<$FFFC>sword？<$FFFE>
-98	<$FB00><$00ED>Demon？ What happened？ Tell me<$FFFC>everything.<$FFFE>
-99	<$FB00><$00EE>Jessica had Alhazard and<$FFFC>Langrisser, but demons attacked<$FFFC>and stole both swords.<$FFFE>
-100	<$FB00><$00EF>What！？ Alhazard is in demon<$FFFC>hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！ If I'd been here, that<$FFFC>never would have happened！<$FFFE>
-101	<$FB00><$00F1>Good, you're back.<$FFFD><$FB00><$00F2>We were just hearing about those<$FFFC>swords, and it sounds bad.<$FFFE>
+94	<$FB00><$00E9>Do<$FFFC>you know about that sword？<$FFFE>
+95	<$FB00><$00EA>Yeah.<$FFFC>We used Langrisser to defeat<$FFFC>Gizarof.<$FFFD><$FB00><$00EB>That<$FFFC>sword can seal demons. Alhazard,<$FFFC>the sword demons use, holds dark<$FFFC>power instead.<$FFFE>
+96	<$FB00><$00EC>Then<$FFFC>that demon was after that<$FFFC>sword？<$FFFE>
+97	<$FB00><$010C>Then<$FFFC>that demon was after that<$FFFC>sword？<$FFFE>
+98	<$FB00><$00ED>Demon？<$FFFC>What happened？ Tell me everything.<$FFFE>
+99	<$FB00><$00EE>Jessica<$FFFC>had Alhazard and Langrisser, but<$FFFC>demons attacked and stole both<$FFFC>swords.<$FFFE>
+100	<$FB00><$00EF>What！？<$FFFC>Alhazard is in demon hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！<$FFFC>If I'd been here, that never<$FFFC>would have happened！<$FFFE>
+101	<$FB00><$00F1>Good,<$FFFC>you're back.<$FFFD><$FB00><$00F2>We<$FFFC>were just hearing about those<$FFFC>swords, and it sounds bad.<$FFFE>
 102	<$FB00><$00F3>Bad？<$FFFE>
-103	<$FB00><$00F4>According to McLaine, one sword<$FFFC>holds dark power<$FFF5><$FFF8>…<$FFFE>
-104	<$FB00><$00F5>If that passed to the demons,<$FFFC>it's serious.<$FFFE>
-105	<$FB00><$010D>What's so bad？<$FFFE>
-106	<$FB00><$010F>He says the demons stole a<$FFFC>sword with dark power.<$FFFE>
-107	<$FB00><$010E>What！？ A sword like that fell<$FFFC>into demon hands！<$FFFE>
-108	<$FB00><$00F6>I'm going to El Sallia. I<$FFFC>can't just stand by.<$FFFD><$FB00><$00F7>Sorry, Marie. We finally met<$FFFC>again, but I can't leave this<$FFFC>alone.<$FFFE>
+103	<$FB00><$00F4>According<$FFFC>to McLaine, one sword holds dark<$FFFC>power<$FFF5><$FFF8>…<$FFFE>
+104	<$FB00><$00F5>If<$FFFC>that passed to the demons, it's<$FFFC>serious.<$FFFE>
+105	<$FB00><$010D>What's<$FFFC>so bad？<$FFFE>
+106	<$FB00><$010F>He<$FFFC>says the demons stole a sword<$FFFC>with dark power.<$FFFE>
+107	<$FB00><$010E>What！？<$FFFC>A sword like that fell into<$FFFC>demon hands！<$FFFE>
+108	<$FB00><$00F6>I'm<$FFFC>going to El Sallia. I can't<$FFFC>just stand by.<$FFFD><$FB00><$00F7>Sorry,<$FFFC>Marie. We finally met again, but<$FFFC>I can't leave this alone.<$FFFE>
 109	<$FFF8>…<$FFFE>
-110	<$FB00><$00F8>What do you think？ I say we<$FFFC>should follow too.<$FFFE>
-111	<$FB00><$00F9>If demons have Alhazard, we can't<$FFFC>ignore it. And Langrisser is the<$FFFC>key to my secret.<$FFFE>
-112	<$FFF8><$FB00><$00FA>I-I<$FFF5><$FFF8>… …<$FFF6><$FB00><$00FB>If I can, I want to<$FFFC>stay with him. It may help my<$FFFC>memory return.<$FFFE>
+110	<$FB00><$00F8>What<$FFFC>do you think？ I say we should<$FFFC>follow too.<$FFFE>
+111	<$FB00><$00F9>If<$FFFC>demons have Alhazard, we can't<$FFFC>ignore it. And Langrisser is the<$FFFC>key to my secret.<$FFFE>
+112	<$FFF8><$FB00><$00FA>I-I<$FFF5><$FFF8>…<$FFFC>…<$FFF6><$FB00><$00FB>If I can, I want to stay with<$FFFC>him. It may help my memory<$FFFC>return.<$FFFE>
 113	<$FB00><$00FC>Marie<$FFF5><$FFF8>…<$FFFE>
-114	<$FB00><$00FD>I'd be lying if I said I<$FFFC>wasn't afraid, but<$FFF5><$FFF8>…<$FFFE>
-115	<$FB00><$00FE>That's fine. He's family you<$FFFC>finally found. Recover your true<$FFFC>self.<$FFFE>
-116	<$FFF8>…<$FFF6><$FB00><$00FF>Thank you.<$FFFD><$FFF8>…<$FFF6><$FB00><$0100>I'm sorry. Only I<$FFF5><$FFF8>…<$FFFE>
+114	<$FB00><$00FD>I'd<$FFFC>be lying if I said I wasn't<$FFFC>afraid, but<$FFF5><$FFF8>…<$FFFE>
+115	<$FB00><$00FE>That's<$FFFC>fine. He's family you finally<$FFFC>found. Recover your true self.<$FFFE>
+116	<$FFF8>…<$FFF6><$FB00><$00FF>Thank<$FFFC>you.<$FFFD><$FFF8>…<$FFF6><$FB00><$0100>I'm<$FFFC>sorry. Only I<$FFF5><$FFF8>…<$FFFE>
 117	<$FB00><$0101>Lambda<$FFF5><$FFF8>…<$FFFE>
-118	<$FB00><$0102>I have nowhere to go, so please<$FFFC>let me follow wherever you go.<$FFFE>
-119	<$FB00><$0103>Looks like it's settled.<$FFFE>
-120	<$FB00><$0104>Yeah. We'll take the next ship<$FFFC>to El Sallia！<$FFFE>
-121	<$FB00><$0105>After all that, I'm a little<$FFFC>tired. Let's rest early today.<$FFFE>
-122	<$FB00><$0106>Yes, I'll go too<$FFF5><$FFF7>…<$FFFE>
-123	<$FFF8>…<$FFF6><$FB00><$0107>Um<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>. <$FE14><$FFF6><$FB00><$0108>Tell me about my past<$FFFC><$FFF5><$FFF8>…<$FFFE>
-124	<$FB00><$0109>Well, you loved flowers<$FFF5><$FFF8>…<$FFFE>
-125	<$FB00><$0109>Well, you loved flowers<$FFF5><$FFF8>…<$FFFE>
-126	<$FFF8>…<$FFF6><$FB00><$010A>I'm glad for you, Lambda.<$FFFE>
-127	<$FB00><$010B>But I<$FFF5><$FFF8>…<$FFFE>
-128	<$FFF8>…<$FFF6><$FB00><$0002><$FB00><$00D3>I knew you'd be here<$FFF5><$FFF8>…<$FFFE>
+118	<$FB00><$0102>I<$FFFC>have nowhere to go, so please<$FFFC>let me follow wherever you go.<$FFFE>
+119	<$FB00><$0103>Looks<$FFFC>like it's settled.<$FFFE>
+120	<$FB00><$0104>Yeah.<$FFFC>We'll take the next ship to El<$FFFC>Sallia！<$FFFE>
+121	<$FB00><$0105>After<$FFFC>all that, I'm a little tired.<$FFFC>Let's rest early today.<$FFFE>
+122	<$FB00><$0106>Yes,<$FFFC>I'll go too<$FFF5><$FFF7>…<$FFFE>
+123	<$FFF8>…<$FFF6><$FB00><$0107>Um<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFC><$FE14><$FFF6><$FB00><$0108>Tell me about my past <$FFF5><$FFF8>…<$FFFE>
+124	<$FB00><$0109>Well,<$FFFC>you loved flowers<$FFF5><$FFF8>…<$FFFE>
+125	<$FB00><$0109>Well,<$FFFC>you loved flowers<$FFF5><$FFF8>…<$FFFE>
+126	<$FFF8>…<$FFF6><$FB00><$010A>I'm<$FFFC>glad for you, Lambda.<$FFFE>
+127	<$FB00><$010B>But<$FFFC>I<$FFF5><$FFF8>…<$FFFE>
+128	<$FFF8>…<$FFF6><$FB00><$0002><$FB00><$00D3>I<$FFFC>knew you'd be here<$FFF5><$FFF8>…<$FFFE>
 129	<$FFF8>…<$FFFE>
-130	<$FB00><$00D4>Come on, Lambda. Let's go back.<$FFFC>Everyone is worried.<$FFFE>
-131	<$FB00><$00D5>Who am I…？ Lambda？ Or<$FFFC>Mariandel？<$FFFD><$FFF8>…<$FFF6><$FB00><$00D6>I'm scared… so scared<$FFF5><$FFF8>…<$FFFE>
-132	<$FB00><$00D7>Scared？<$FFFD><$FB00><$00D8>You weren't artificial. You have<$FFFC>family, and he worries for you.<$FFFC>What is there to fear？<$FFFE>
-133	<$FB00><$00D9>If my memory returns, what happens<$FFFC>to me now？ Will I vanish？<$FFFD><$FB00><$00DA>I fought beside you, even if only<$FFFC>briefly. Where do those memories<$FFFC>go？<$FFFD><$FB00><$00DB>Do you understand my fear？ Right<$FFFC>now, I'm still Lambda.<$FFFE>
-134	<$FB00><$00DC>Yeah. I understand.<$FFFE>
-135	<$FB00><$00DD>Do you really？ If Marie revives,<$FFFC>Lambda will die… That's what<$FFFC>scares me.<$FFFE>
-136	<$FB00><$00DE>But staying Lambda means killing<$FFFC>Marie, and killing the feelings<$FFFC>of the man who needs her.<$FFFE>
-137	<$FB00><$00DF>Are you fine with that？ With<$FFFC>me…, with Lambda disappearing <$FFF5><$FFF8>…？<$FFFE>
-138	<$FB00><$00E0>Lambda and Marie were always the<$FFFC>same person. Even if your memory<$FFFC>returns, you will still be you.<$FFFE>
-139	<$FB00><$00E1>This isn't about looks. My self,<$FFFC>my memories, my bonds<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$00E2>I might even forget you. Are<$FFFC>you fine with that<$FFF5><$FFF8>…？<$FFFE>
-140	<$FB00><$00E3>It'll be all right. The time we<$FFFC>traveled together won't vanish.<$FFFC>Our bond won't vanish.<$FFFD><$FB00><$00E4>And if you lose your memories as<$FFFC>Lambda and forget me<$FFF5><$FFF8>…<$FFFE>
-141	<$FB00><$00E5>If I forget you<$FFF5><$FFF8>…？<$FFFE>
-142	<$FB00><$00E6>Then we'll meet again.<$FFFE>
+130	<$FB00><$00D4>Come<$FFFC>on, Lambda. Let's go back.<$FFFC>Everyone is worried.<$FFFE>
+131	<$FB00><$00D5>Who<$FFFC>am I…？ Lambda？ Or Mariandel？<$FFFD><$FFF8>…<$FFF6><$FB00><$00D6>I'm<$FFFC>scared… so scared<$FFF5><$FFF8>…<$FFFE>
+132	<$FB00><$00D7>Scared？<$FFFD><$FB00><$00D8>You<$FFFC>weren't artificial. You have<$FFFC>family, and he worries for you.<$FFFC>What is there to fear？<$FFFE>
+133	<$FB00><$00D9>If<$FFFC>my memory returns, what happens to<$FFFC>me now？ Will I vanish？<$FFFD><$FB00><$00DA>I<$FFFC>fought beside you, even if only<$FFFC>briefly. Where do those memories<$FFFC>go？<$FFFD><$FB00><$00DB>Do<$FFFC>you understand my fear？ Right<$FFFC>now, I'm still Lambda.<$FFFE>
+134	<$FB00><$00DC>Yeah.<$FFFC>I understand.<$FFFE>
+135	<$FB00><$00DD>Do<$FFFC>you really？ If Marie revives,<$FFFC>Lambda will die… That's what<$FFFC>scares me.<$FFFE>
+136	<$FB00><$00DE>But<$FFFC>staying Lambda means killing<$FFFC>Marie, and killing the feelings<$FFFC>of the man who needs her.<$FFFE>
+137	<$FB00><$00DF>Are<$FFFC>you fine with that？ With me…,<$FFFC>with Lambda disappearing <$FFF5><$FFF8>…？<$FFFE>
+138	<$FB00><$00E0>Lambda<$FFFC>and Marie were always the same<$FFFC>person. Even if your memory<$FFFC>returns, you will still be you.<$FFFE>
+139	<$FB00><$00E1>This<$FFFC>isn't about looks. My self, my<$FFFC>memories, my bonds<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$00E2>I<$FFFC>might even forget you. Are you<$FFFC>fine with that<$FFF5><$FFF8>…？<$FFFE>
+140	<$FB00><$00E3>It'll<$FFFC>be all right. The time we<$FFFC>traveled together won't vanish.<$FFFC>Our bond won't vanish.<$FFFD><$FB00><$00E4>And<$FFFC>if you lose your memories as<$FFFC>Lambda and forget me<$FFF5><$FFF8>…<$FFFE>
+141	<$FB00><$00E5>If<$FFFC>I forget you<$FFF5><$FFF8>…？<$FFFE>
+142	<$FB00><$00E6>Then<$FFFC>we'll meet again.<$FFFE>
 143	<$FFF8>…<$FFFE>

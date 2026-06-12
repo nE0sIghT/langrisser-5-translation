@@ -7,82 +7,82 @@
 5	Brenda<$FFFF>
 6	Marshal Lanford<$FFFF>
 7	Operator<$FFFF>
-8	<$FB00><$0001>Lord Gizarof. The specimen is<$FFFC>ready for cultivation. Awaiting<$FFFC>your orders.<$FFFE>
+8	<$FB00><$0001>Lord Gizarof. The<$FFFC>specimen is ready for cultivation.<$FFFC>Awaiting your orders.<$FFFE>
 9	Set the equipment the specimen<$FFFC>will carry on completion. Press<$FFFC>the ○ button.<$FFFE>
-10	<$FB00><$001F>Growth program setup is complete.<$FFFC>Projected abilities upon completion<$FFFC>are as follows.<$FFFE>
-11	<$FB00><$0021>Then we will redo the setup from<$FFFC>the beginning.<$FFFE>
-12	<$FB00><$0022>From here on, the options are<$FFFC>not mandatory.<$FFFD><$FB00><$0023>A general tactics guide can be<$FFFC>programmed in as knowledge. You<$FFFC>may review it here.<$FFFD><$FB00><$0024>Review it？<$FFFE>
+10	<$FB00><$001F>Growth program<$FFFC>setup is complete. Projected<$FFFC>abilities upon completion are as<$FFFC>follows.<$FFFE>
+11	<$FB00><$0021>Then we will redo<$FFFC>the setup from the beginning.<$FFFE>
+12	<$FB00><$0022>From here on,<$FFFC>the options are not mandatory.<$FFFD><$FB00><$0023>A general<$FFFC>tactics guide can be programmed<$FFFC>in as knowledge. You may review<$FFFC>it here.<$FFFD><$FB00><$0024>Review it？<$FFFE>
 13	Finally, choose the expected<$FFFC>difficulty of the battles ahead.<$FFFE>
 14	・NORMAL<$FFFE>
 15	・HARD<$FFFE>
 16	<$FFF4>HARD <$FFF3>makes experience harder to<$FFFC>earn, and enemies are stronger.<$FFFC>Confirm？<$FFFE>
 17	<$FFFA>∑066, virtual battle program<$FFFC>launched. Please prepare for<$FFFC>input.<$FFFE>
 18	<$FFFA>∑066, set complete. Launching<$FFFC>cultivation program…<$FFFE>
-19	<$FB00><$0002>First, set the final growth<$FFFC>form.<$FFFD><$FB00><$0003>3 of these 4 metals will be<$FFFC>mixed into the culture fluid.<$FFFC>Choose the one to leave out.<$FFFE>
+19	<$FB00><$0002>First, set the<$FFFC>final growth form.<$FFFD><$FB00><$0003>3 of these 4<$FFFC>metals will be mixed into the<$FFFC>culture fluid. Choose the one to<$FFFC>leave out.<$FFFE>
 20	・Gold<$FFFE>
 21	・Silver<$FFFE>
 22	・Bronze<$FFFE>
 23	・Iron<$FFFE>
-24	<$FB00><$0004>To shape the specimen's growth,<$FFFC>set the spirit influences. Choose<$FFFC>the strongest one first.<$FFFE>
+24	<$FB00><$0004>To shape the<$FFFC>specimen's growth, set the spirit<$FFFC>influences. Choose the strongest<$FFFC>one first.<$FFFE>
 25	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 26	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
 27	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
 28	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-29	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
+29	<$FB00><$0005>Choose the spirit<$FFFC>with the second strongest<$FFFC>influence.<$FFFE>
 30	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
 31	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
 32	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-33	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
+33	<$FB00><$0005>Choose the spirit<$FFFC>with the second strongest<$FFFC>influence.<$FFFE>
 34	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 35	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
 36	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-37	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
+37	<$FB00><$0005>Choose the spirit<$FFFC>with the second strongest<$FFFC>influence.<$FFFE>
 38	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 39	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
 40	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-41	<$FB00><$0005>Choose the spirit with the second<$FFFC>strongest influence.<$FFFE>
+41	<$FB00><$0005>Choose the spirit<$FFFC>with the second strongest<$FFFC>influence.<$FFFE>
 42	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 43	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
 44	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-45	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
+45	<$FB00><$0006>Choose the spirit<$FFFC>with the third strongest<$FFFC>influence.<$FFFE>
 46	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 47	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
-48	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
+48	<$FB00><$0006>Choose the spirit<$FFFC>with the third strongest<$FFFC>influence.<$FFFE>
 49	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 50	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-51	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
+51	<$FB00><$0006>Choose the spirit<$FFFC>with the third strongest<$FFFC>influence.<$FFFE>
 52	・<$FFF4>Earth<$FFF3>:Gnome<$FFFE>
 53	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-54	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
+54	<$FB00><$0006>Choose the spirit<$FFFC>with the third strongest<$FFFC>influence.<$FFFE>
 55	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
 56	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
-57	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
+57	<$FB00><$0006>Choose the spirit<$FFFC>with the third strongest<$FFFC>influence.<$FFFE>
 58	・<$FFF4>Water<$FFF3>:Undine<$FFFE>
 59	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-60	<$FB00><$0006>Choose the spirit with the third<$FFFC>strongest influence.<$FFFE>
+60	<$FB00><$0006>Choose the spirit<$FFFC>with the third strongest<$FFFC>influence.<$FFFE>
 61	・<$FFF4>Fire<$FFF3>:Salamander<$FFFE>
 62	・<$FFF4>Wind<$FFF3>:Sylph<$FFFE>
-63	<$FB00><$0007>A zodiac gem will boost his<$FFFC>growth. Choose the specimen's<$FFFC>guardian sign.<$FFFE>
+63	<$FB00><$0007>A zodiac gem<$FFFC>will boost his growth. Choose<$FFFC>the specimen's guardian sign.<$FFFE>
 64	・Capricorn<$FFFE>
 65	・Aquarius<$FFFE>
 66	・Pisces<$FFFE>
 67	・Next zodiac list<$FFFE>
-68	<$FB00><$0008>Select guardian sign.<$FFFE>
+68	<$FB00><$0008>Select guardian<$FFFC>sign.<$FFFE>
 69	・Aries<$FFFE>
 70	・Taurus<$FFFE>
 71	・Gemini<$FFFE>
 72	・Next zodiac list<$FFFE>
-73	<$FB00><$0008>Select guardian sign.<$FFFE>
+73	<$FB00><$0008>Select guardian<$FFFC>sign.<$FFFE>
 74	・Cancer<$FFFE>
 75	・Leo<$FFFE>
 76	・Virgo<$FFFE>
 77	・Next zodiac list<$FFFE>
-78	<$FB00><$0008>Select guardian sign.<$FFFE>
+78	<$FB00><$0008>Select guardian<$FFFC>sign.<$FFFE>
 79	・Libra<$FFFE>
 80	・Scorpio<$FFFE>
 81	・Sagittarius<$FFFE>
 82	・Back to first list<$FFFE>
-83	<$FB00><$0009>Next, choose a gem.<$FFFE>
+83	<$FB00><$0009>Next, choose a<$FFFC>gem.<$FFFE>
 84	・Onyx<$FFFE>
 85	・Amethyst<$FFFE>
 86	・Ruby<$FFFE>
@@ -102,97 +102,97 @@
 100	・Agate<$FFFE>
 101	・Sapphire<$FFFE>
 102	・Back to first list<$FFFE>
-103	<$FB00><$000C>Now set his behavior pattern.<$FFFC>Choose the strongest tendency.<$FFFE>
+103	<$FB00><$000C>Now set his<$FFFC>behavior pattern. Choose the<$FFFC>strongest tendency.<$FFFE>
 104	・Kindness<$FFFE>
 105	・Resolution<$FFFE>
 106	・Courage<$FFFE>
 107	・Strength<$FFFE>
-108	<$FB00><$001C>Detailed settings: which ideal<$FFFC>best matches the specimen？<$FFFE>
+108	<$FB00><$001C>Detailed settings:<$FFFC>which ideal best matches the<$FFFC>specimen？<$FFFE>
 109	・Survive whatever the cost<$FFFE>
 110	・Risk himself for allies<$FFFE>
 111	・Kill allies for secrecy<$FFFE>
 112	・Lives over the mission<$FFFE>
-113	<$FB00><$001D>Choose the study program to<$FFFC>weight most during growth.<$FFFE>
+113	<$FB00><$001D>Choose the study<$FFFC>program to weight most during<$FFFC>growth.<$FFFE>
 114	・Theology<$FFFE>
 115	・Sorcery<$FFFE>
 116	・Defensive tactics<$FFFE>
 117	・Offensive tactics<$FFFE>
-118	<$FB00><$000D>Set his reaction when he<$FFFC>encounters love.<$FFFE>
+118	<$FB00><$000D>Set his reaction<$FFFC>when he encounters love.<$FFFE>
 119	・Active response<$FFFE>
 120	・Passive response<$FFFE>
 121	・Skeptical response<$FFFE>
 122	・No response<$FFFE>
-123	<$FB00><$0017>When he faces despair, what will<$FFFC>save him？<$FFFE>
+123	<$FB00><$0017>When he faces<$FFFC>despair, what will save him？<$FFFE>
 124	・Unbroken will<$FFFE>
 125	・Lover or close friend<$FFFE>
 126	・Passage of time<$FFFE>
 127	・A divine miracle<$FFFE>
-128	<$FB00><$000E>What emotion is the driving<$FFFC>source of his courage？<$FFFE>
+128	<$FB00><$000E>What emotion is<$FFFC>the driving source of his<$FFFC>courage？<$FFFE>
 129	・Friendship or love<$FFFE>
 130	・Indomitable will<$FFFE>
 131	・Selfless heart<$FFFE>
 132	・Strong obsession<$FFFE>
-133	<$FB00><$000F>Define true strength.<$FFFE>
+133	<$FB00><$000F>Define true<$FFFC>strength.<$FFFE>
 134	・Brilliant intellect<$FFFE>
 135	・High combat ability<$FFFE>
 136	・Strong spiritual power<$FFFE>
 137	・Inspiring leadership<$FFFE>
-138	<$FB00><$000B>Set his stance toward the<$FFFC>Goddess of Light and the God<$FFFC>of Chaos.<$FFFE>
+138	<$FB00><$000B>Set his stance<$FFFC>toward the Goddess of Light and<$FFFC>the God of Chaos.<$FFFE>
 139	・Faith in the Light Goddess<$FFFE>
 140	・Faith in the Chaos God<$FFFE>
 141	・No faith in gods<$FFFE>
 142	・The specimen's own will<$FFFE>
-143	<$FB00><$0010>Choose the specimen's preferred<$FFFC>color.<$FFFE>
+143	<$FB00><$0010>Choose the<$FFFC>specimen's preferred color.<$FFFE>
 144	・Purple<$FFFE>
 145	・White<$FFFE>
 146	・Yellow<$FFFE>
 147	・Red<$FFFE>
-148	<$FB00><$0018>Program one animal trait into<$FFFC>his battle pattern.<$FFFE>
+148	<$FB00><$0018>Program one<$FFFC>animal trait into his battle<$FFFC>pattern.<$FFFE>
 149	・Tiger<$FFFE>
 150	・Wolf<$FFFE>
 151	・Horse<$FFFE>
 152	・Hawk<$FFFE>
-153	<$FB00><$0013>Set his field of interest during<$FFFC>growth.<$FFFE>
+153	<$FB00><$0013>Set his field<$FFFC>of interest during growth.<$FFFE>
 154	・Wealth and power<$FFFE>
 155	・Eternal beauty<$FFFE>
 156	・Lost knowledge<$FFFE>
 157	・The conqueror's tactics<$FFFE>
-158	<$FB00><$0012>Once awakened, what should his<$FFFC>power be used for？<$FFFE>
+158	<$FB00><$0012>Once awakened,<$FFFC>what should his power be used<$FFFC>for？<$FFFE>
 159	・To rule everything<$FFFE>
 160	・To become a god<$FFFE>
 161	・To bring peace<$FFFE>
 162	・For people's happiness<$FFFE>
-163	<$FB00><$0019>Define what it means to be a<$FFFC>man.<$FFFE>
+163	<$FB00><$0019>Define what it<$FFFC>means to be a man.<$FFFE>
 164	・One with a burning soul<$FFFE>
 165	・One with a body of steel<$FFFE>
 166	・One who fights for love<$FFFE>
 167	・One who upholds justice<$FFFE>
-168	<$FB00><$0011>Set his ideal mindset before<$FFFC>battle.<$FFFE>
+168	<$FB00><$0011>Set his ideal<$FFFC>mindset before battle.<$FFFE>
 169	・Fight by pure instinct<$FFFE>
 170	・Fight filled with revenge<$FFFE>
 171	・Obey mission selflessly<$FFFE>
 172	・Fight only in defense<$FFFE>
-173	<$FB00><$0014>Which tactic is he best at？<$FFFE>
+173	<$FB00><$0014>Which tactic is<$FFFC>he best at？<$FFFE>
 174	・Ambush tactics<$FFFE>
 175	・Overwhelming force<$FFFE>
 176	・Information warfare<$FFFE>
 177	・Psychological warfare<$FFFE>
-178	<$FB00><$001B>Set commander aptitude. Choose<$FFFC>his preferred troop type.<$FFFE>
+178	<$FB00><$001B>Set commander<$FFFC>aptitude. Choose his preferred<$FFFC>troop type.<$FFFE>
 179	・Small elite force<$FFFE>
 180	・Numbers over strength<$FFFE>
 181	・One strong commander<$FFFE>
 182	・A force loyal to command<$FFFE>
-183	<$FB00><$001A>Set his action pattern when<$FFFC>ambushed by a superior force.<$FFFE>
+183	<$FB00><$001A>Set his action<$FFFC>pattern when ambushed by a<$FFFC>superior force.<$FFFE>
 184	・Retreat and regroup<$FFFE>
 185	・Immediate counterattack<$FFFE>
 186	・Hold and regroup<$FFFE>
 187	・Scout first, then react<$FFFE>
-188	<$FB00><$0016>Choose one area for final<$FFFC>enhancement.<$FFFE>
+188	<$FB00><$0016>Choose one area<$FFFC>for final enhancement.<$FFFE>
 189	・Might<$FFFE>
 190	・Intellect<$FFFE>
 191	・Command<$FFFE>
 192	・Charisma<$FFFE>
-193	<$FB00><$0015>Stimulate one primal instinct to<$FFFC>draw out latent power.<$FFFE>
+193	<$FB00><$0015>Stimulate one<$FFFC>primal instinct to draw out latent<$FFFC>power.<$FFFE>
 194	・Predatory instinct<$FFFE>
 195	・Sleep instinct<$FFFE>
 196	・Aggressive instinct<$FFFE>

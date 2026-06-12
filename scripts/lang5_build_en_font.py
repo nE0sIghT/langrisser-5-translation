@@ -102,6 +102,13 @@ def main() -> None:
     for row in csv.DictReader(open(args.groups_report, encoding="utf-8")):
         if row["index_dec"].isdigit() and len((row["char"] or "")) == 1:
             tok2char[int(row["index_dec"])] = row["char"]
+    # An assigned char must win over a native glyph with the same label
+    # (the JP font has its own a/m/p for am/pm clocks; they are styled
+    # fullwidth and clash visually with the rendered lowercase). The
+    # encoder takes the lowest token per char, so drop the duplicates.
+    assigned_chars = set(assignments.values())
+    for tok in [t for t, c in tok2char.items() if c in assigned_chars]:
+        del tok2char[tok]
     for tok, ch in assignments.items():
         tok2char[tok] = ch
     tok2char[0x0000] = " "

@@ -106,6 +106,19 @@ def main() -> None:
             else:
                 out[key] = chosen
 
+    # Emit every remaining glossary entry as a speculative key: strings
+    # hidden behind offset tables never appear as clean runs, but the
+    # verbatim-scan pass of the menu patcher can still find and patch
+    # them as long as a key exists. Budget: one slot per JP char (the
+    # scan re-checks the exact fit with the real encoder).
+    for core, cands in base.items():
+        key = core + "{FFFF}"
+        if key in out:
+            continue
+        chosen = next((c for c in cands if est_cells(c) <= len(core)), None)
+        if chosen:
+            out[key] = chosen
+
     Path(args.out).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"mapped={len(out)} misfits={len(misfits)} unmatched_jp={len(unmatched)}")
     for m in misfits[:30]:

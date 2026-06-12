@@ -9,31 +9,31 @@
 7	McLaine<$FFFF>
 8	Archmage Jessica<$FFFF>
 9	Kalxath Castle Audience Hall<$FFFF>
-10	<$FB00><$0003>Hey, you made it back too.<$FFFE>
-11	<$FB00><$0004>Brother. I am glad you are<$FFFC>safe<$FFF5><$FFF8>…<$FFFE>
-12	<$FB00><$0005>Yeah. Once Glob fell, the<$FFFC>corpses stopped. Burning them took<$FFFC>time.<$FFFE>
-13	<$FB00><$0006>The spell must have broken when<$FFFC>we beat that Glob guy.<$FFFE>
-14	<$FFF8>…<$FFF6><$FB00><$0007>I see. Necro Glob. So that<$FFFC>man<$FFF5><$FFF8>…<$FFFE>
-15	<$FB00><$0008>You know him？<$FFFE>
-16	<$FB00><$0009>Yes. I have not fought him in<$FFFC>a thousand years, but he served<$FFFC>Boser even then.<$FFFD><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000A>I see. Glob has revived.<$FFFE>
-17	<$FB00><$000B>The way you speak of demons,<$FFFC>they sound immortal.<$FFFE>
-18	<$FB00><$000C>Not truly immortal. But Boser's<$FFFC>direct generals come close.<$FFFD><$FB00><$000D>They are below Boser, yet with<$FFFC>time they may revive.<$FFFE>
-19	<$FB00><$000E>Then Boser, the one we beat,<$FFFC>will revive someday？<$FFFE>
-20	<$FB00><$000F>Yes. While Alhazard exists and no<$FFFC>next Boser is chosen, he can<$FFFC>revive endlessly.<$FFFE>
-21	<$FB00><$0010>Is there no way to stop that？<$FFFE>
-22	<$FB00><$0011>Unless Chaos, their source of<$FFFC>power, is destroyed, no.<$FFFD><$FB00><$0054>At best, destroy Alhazard and<$FFFC>weaken Boser and the demons.<$FFFE>
-23	<$FB00><$0012>Alhazard is the sword stolen at<$FFFC>the port, right？<$FFFE>
-24	<$FB00><$0013>Yes. Langrisser and Alhazard, holy<$FFFC>and evil swords, have clashed<$FFFC>since ancient days.<$FFFD><$FB00><$0014>That is mankind's war with<$FFFC>demons. Langrisser's power sealed<$FFFC>them until now.<$FFFE>
-25	<$FB00><$0015>But that Langrisser is in demon<$FFFC>hands. <$FFF5><$FFF8>…<$FFF6><$FB00><$0016>That is trouble.<$FFFE>
-26	<$FB00><$0017>Even so, we cannot stay silent.<$FFFC>We must beat the demons ourselves.<$FFFE>
-27	<$FB00><$0018>How can we defeat demons with<$FFFC>only our own strength？<$FFFE>
-28	<$FB00><$0019>The demons live northeast, in<$FFFC>Velzeria. The stolen swords are<$FFFC>likely there.<$FFFE>
-29	<$FB00><$001A>Then we take the swords back and<$FFFC>beat the demons.<$FFFE>
-30	<$FB00><$001B>True.<$FFFD><$FB00><$001C>Now is our chance, while Glob<$FFFC>is wounded.<$FFFE>
-31	<$FB00><$001D>Understood. I will form troops<$FFFC>and strike Velzeria at once.<$FFFE>
-32	<$FB00><$001E>I will help, modest though my<$FFFC>aid may be.<$FFFE>
-33	<$FB00><$001F>I will help too. Use me however<$FFFC>you need.<$FFFE>
-34	<$FB00><$0020>Thank you, Jessica, McLaine.<$FFFD><$FB00><$0021>For this battle, I will name<$FFFC>you temporary commanders.<$FFFE>
+10	<$FB00><$0003>Hey,<$FFFC>you made it back too.<$FFFE>
+11	<$FB00><$0004>Brother.<$FFFC>I am glad you are safe<$FFF5><$FFF8>…<$FFFE>
+12	<$FB00><$0005>Yeah.<$FFFC>Once Glob fell, the corpses<$FFFC>stopped. Burning them took time.<$FFFE>
+13	<$FB00><$0006>The<$FFFC>spell must have broken when we<$FFFC>beat that Glob guy.<$FFFE>
+14	<$FFF8>…<$FFF6><$FB00><$0007>I<$FFFC>see. Necro Glob. So that man<$FFF5><$FFF8>…<$FFFE>
+15	<$FB00><$0008>You<$FFFC>know him？<$FFFE>
+16	<$FB00><$0009>Yes.<$FFFC>I have not fought him in a<$FFFC>thousand years, but he served<$FFFC>Boser even then.<$FFFD><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000A>I<$FFFC>see. Glob has revived.<$FFFE>
+17	<$FB00><$000B>The<$FFFC>way you speak of demons, they<$FFFC>sound immortal.<$FFFE>
+18	<$FB00><$000C>Not<$FFFC>truly immortal. But Boser's<$FFFC>direct generals come close.<$FFFD><$FB00><$000D>They<$FFFC>are below Boser, yet with time<$FFFC>they may revive.<$FFFE>
+19	<$FB00><$000E>Then<$FFFC>Boser, the one we beat, will<$FFFC>revive someday？<$FFFE>
+20	<$FB00><$000F>Yes.<$FFFC>While Alhazard exists and no next<$FFFC>Boser is chosen, he can revive<$FFFC>endlessly.<$FFFE>
+21	<$FB00><$0010>Is<$FFFC>there no way to stop that？<$FFFE>
+22	<$FB00><$0011>Unless<$FFFC>Chaos, their source of power, is<$FFFC>destroyed, no.<$FFFD><$FB00><$0054>At<$FFFC>best, destroy Alhazard and weaken<$FFFC>Boser and the demons.<$FFFE>
+23	<$FB00><$0012>Alhazard<$FFFC>is the sword stolen at the<$FFFC>port, right？<$FFFE>
+24	<$FB00><$0013>Yes.<$FFFC>Langrisser and Alhazard, holy and<$FFFC>evil swords, have clashed since<$FFFC>ancient days.<$FFFD><$FB00><$0014>That<$FFFC>is mankind's war with demons.<$FFFC>Langrisser's power sealed them<$FFFC>until now.<$FFFE>
+25	<$FB00><$0015>But<$FFFC>that Langrisser is in demon hands.<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$0016>That is trouble.<$FFFE>
+26	<$FB00><$0017>Even<$FFFC>so, we cannot stay silent. We<$FFFC>must beat the demons ourselves.<$FFFE>
+27	<$FB00><$0018>How<$FFFC>can we defeat demons with only<$FFFC>our own strength？<$FFFE>
+28	<$FB00><$0019>The<$FFFC>demons live northeast, in Velzeria.<$FFFC>The stolen swords are likely<$FFFC>there.<$FFFE>
+29	<$FB00><$001A>Then<$FFFC>we take the swords back and beat<$FFFC>the demons.<$FFFE>
+30	<$FB00><$001B>True.<$FFFD><$FB00><$001C>Now<$FFFC>is our chance, while Glob is<$FFFC>wounded.<$FFFE>
+31	<$FB00><$001D>Understood.<$FFFC>I will form troops and strike<$FFFC>Velzeria at once.<$FFFE>
+32	<$FB00><$001E>I<$FFFC>will help, modest though my aid<$FFFC>may be.<$FFFE>
+33	<$FB00><$001F>I<$FFFC>will help too. Use me however<$FFFC>you need.<$FFFE>
+34	<$FB00><$0020>Thank<$FFFC>you, Jessica, McLaine.<$FFFD><$FB00><$0021>For<$FFFC>this battle, I will name you<$FFFC>temporary commanders.<$FFFE>
 35	<$0000>Necro Glob's return forced<$FFFC>Clarett's group to purge the<$FFFC>demons.<$FFFD><$0000>In Velzeria lay stolen Langrisser<$FFFC>and Alhazard.<$FFFD><$0000>They marched with Kalxath<$FFFC>troops, but the rear supply<$FFFC>convoy was attacked.<$FFFD><$0000>Without supplies, they moved to<$FFFC>aid the convoy.<$FFFE>
 36	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 37	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -11,33 +11,33 @@
 9	Kalxath cmd.<$FFFF>
 10	Kalxath off.<$FFFF>
 11	Salrath, Duke Lenard's Manor<$FFFF>
-12	<$FFF8>…<$FFF6><$FB00><$0003>That is my plan. What do you<$FFFC>think？<$FFFE>
-13	<$FFF8>…<$FFF6><$FB00><$0004>Letting citizens govern is bold.<$FFFC>But are nobles truly<$FFFC>unnecessary？<$FFFE>
-14	<$FB00><$0005>No.<$FFFD><$FB00><$0006>Nobles are educated. Schools can<$FFFC>raise public knowledge, but that<$FFFC>takes time.<$FFFD><$FB00><$0007>So two houses: citizens draft<$FFFC>laws in a lower house.<$FFFD><$FB00><$0008>Nobles review them in an upper<$FFFC>house. Laws pass only if both<$FFFC>agree.<$FFFE>
-15	<$FB00><$0009>I see. Reasonable. The citizens<$FFFC>would elect their<$FFFC>representatives？<$FFFE>
-16	<$FB00><$000A>Yes. Terms will be limited, so<$FFFC>the same members cannot monopolize<$FFFC>power.<$FFFD><$FB00><$000B>Only those who govern well should<$FFFC>be chosen for the next<$FFFC>parliament.<$FFFE>
+12	<$FFF8>…<$FFF6><$FB00><$0003>That<$FFFC>is my plan. What do you think？<$FFFE>
+13	<$FFF8>…<$FFF6><$FB00><$0004>Letting<$FFFC>citizens govern is bold. But are<$FFFC>nobles truly unnecessary？<$FFFE>
+14	<$FB00><$0005>No.<$FFFD><$FB00><$0006>Nobles<$FFFC>are educated. Schools can raise<$FFFC>public knowledge, but that takes<$FFFC>time.<$FFFD><$FB00><$0007>So<$FFFC>two houses: citizens draft laws<$FFFC>in a lower house.<$FFFD><$FB00><$0008>Nobles<$FFFC>review them in an upper house.<$FFFC>Laws pass only if both agree.<$FFFE>
+15	<$FB00><$0009>I<$FFFC>see. Reasonable. The citizens<$FFFC>would elect their<$FFFC>representatives？<$FFFE>
+16	<$FB00><$000A>Yes.<$FFFC>Terms will be limited, so the<$FFFC>same members cannot monopolize<$FFFC>power.<$FFFD><$FB00><$000B>Only<$FFFC>those who govern well should be<$FFFC>chosen for the next parliament.<$FFFE>
 17	<$FB00><$000C>Hmm.<$FFFE>
-18	<$FB00><$000D>But we cannot make this real<$FFFC>alone. I need your help.<$FFFE>
-19	<$FFF8>…<$FFF6><$FB00><$000E>I see. You seek a nation for<$FFFC>the people, not personal power<$FFFC>or blind dependence.<$FFFD><$FB00><$000F>You have a clear vision, even<$FFFC>giving up your status.<$FFFD><$FB00><$0010>Very well. I will help.<$FFFE>
-20	<$FB00><$0011>Thank you, Lord Lenard. Please<$FFFC>use your troops to help citizens<$FFFC>suffering under tyranny.<$FFFD><$FB00><$0012>Force against force is simple,<$FFFC>but I want to save them quickly.<$FFFE>
-21	<$FB00><$0013>Understood. I will tell the<$FFFC>rescued citizens of your ideals.<$FFFD><$FB00><$0014>Also, those who opposed Gilmore<$FFFC>for the people's sake are held<$FFFC>in Gaiana Prison.<$FFFE>
-22	<$FB00><$0015>Then we'll rescue them. A small<$FFFC>group may avoid notice.<$FFFE>
-23	<$FB00><$0016>I also know lower nobles who<$FFFC>may agree with this. I will<$FFFC>seek their aid.<$FFFE>
-24	<$FB00><$0017>After this war, the Emperor will<$FFFC>become only a name.<$FFFD><$FB00><$0018>But for the people's future, I<$FFFC>won't regret it. Father would<$FFFC>understand.<$FFFE>
-25	<$FB00><$0019>Yes. Seeing your growth, he would<$FFFC>surely be proud.<$FFFE>
+18	<$FB00><$000D>But<$FFFC>we cannot make this real alone. I<$FFFC>need your help.<$FFFE>
+19	<$FFF8>…<$FFF6><$FB00><$000E>I<$FFFC>see. You seek a nation for the<$FFFC>people, not personal power or<$FFFC>blind dependence.<$FFFD><$FB00><$000F>You<$FFFC>have a clear vision, even giving<$FFFC>up your status.<$FFFD><$FB00><$0010>Very<$FFFC>well. I will help.<$FFFE>
+20	<$FB00><$0011>Thank<$FFFC>you, Lord Lenard. Please use your<$FFFC>troops to help citizens suffering<$FFFC>under tyranny.<$FFFD><$FB00><$0012>Force<$FFFC>against force is simple, but I<$FFFC>want to save them quickly.<$FFFE>
+21	<$FB00><$0013>Understood.<$FFFC>I will tell the rescued citizens<$FFFC>of your ideals.<$FFFD><$FB00><$0014>Also,<$FFFC>those who opposed Gilmore for<$FFFC>the people's sake are held in<$FFFC>Gaiana Prison.<$FFFE>
+22	<$FB00><$0015>Then<$FFFC>we'll rescue them. A small<$FFFC>group may avoid notice.<$FFFE>
+23	<$FB00><$0016>I<$FFFC>also know lower nobles who may<$FFFC>agree with this. I will seek<$FFFC>their aid.<$FFFE>
+24	<$FB00><$0017>After<$FFFC>this war, the Emperor will become<$FFFC>only a name.<$FFFD><$FB00><$0018>But<$FFFC>for the people's future, I<$FFFC>won't regret it. Father would<$FFFC>understand.<$FFFE>
+25	<$FB00><$0019>Yes.<$FFFC>Seeing your growth, he would<$FFFC>surely be proud.<$FFFE>
 26	Salrath Army<$0000>VS<$0000>Kalxath Army<$FFFF>
-27	<$FB00><$001A>Push forward！<$FFFE>
-28	<$FB00><$001B>Don't lose ground！ Push back！<$FFFE>
-29	<$FB00><$001C>No good！ We can't hold the<$FFFC>line！<$FFFE>
-30	<$FB00><$001D>Tch…no point wasting troops<$FFFC>here！ Retreat and regroup！<$FFFE>
+27	<$FB00><$001A>Push<$FFFC>forward！<$FFFE>
+28	<$FB00><$001B>Don't<$FFFC>lose ground！ Push back！<$FFFE>
+29	<$FB00><$001C>No<$FFFC>good！ We can't hold the line！<$FFFE>
+30	<$FB00><$001D>Tch…no<$FFFC>point wasting troops here！<$FFFC>Retreat and regroup！<$FFFE>
 31	<$FFF7><$FB00><$001E>Sir！<$FFF5><$FFF8><$FFFE>
-32	<$FB00><$001F>Lord Lenard, the enemy is<$FFFC>withdrawing！<$FFFE>
-33	<$FB00><$0020>Good. The people here are free<$FFFC>now.<$FFFE>
-34	<$FB00><$0021>But now war with the Empire is<$FFFC>certain.<$FFFE>
-35	<$FB00><$0022>I knew that. If someone must<$FFFC>act, I will wager on Clarett's<$FFFC>ideal.<$FFFE>
-36	<$FFF8>…<$FFF6><$FB00><$0023>Can this country be reborn？<$FFFE>
-37	<$FB00><$0024>It should… no, we must change<$FFFC>it！ To do that, we must win<$FFFC>this hard war！<$FFFE>
-38	<$FB00><$0025>Everyone！ I rely on you！<$FFFE>
+32	<$FB00><$001F>Lord<$FFFC>Lenard, the enemy is<$FFFC>withdrawing！<$FFFE>
+33	<$FB00><$0020>Good.<$FFFC>The people here are free now.<$FFFE>
+34	<$FB00><$0021>But<$FFFC>now war with the Empire is<$FFFC>certain.<$FFFE>
+35	<$FB00><$0022>I<$FFFC>knew that. If someone must act,<$FFFC>I will wager on Clarett's ideal.<$FFFE>
+36	<$FFF8>…<$FFF6><$FB00><$0023>Can<$FFFC>this country be reborn？<$FFFE>
+37	<$FB00><$0024>It<$FFFC>should… no, we must change it！<$FFFC>To do that, we must win this<$FFFC>hard war！<$FFFE>
+38	<$FB00><$0025>Everyone！<$FFFC>I rely on you！<$FFFE>
 39	<$FFF7><$FB00><$0026>Yeahhh！<$FFF5><$FFF8><$FFFE>
 40	<$0000>With Salrath's aid, Clarett<$FFFC>headed for Gaiana Prison to free<$FFFC>Liberalists jailed for opposing<$FFFC>the Emperor.<$FFFD><$0000>If these local nobles joined<$FFFC>her, they could help break<$FFFC>Gilmore's misrule.<$FFFD><$0000>At midnight, <$F600><$0000>'s<$FFFC>group surrounded the prison.<$FFFE>
 41	Victory<$FFFC><$0000><$FFFC>・Defeat all wardens<$FFFD>Defeat<$FFFC><$0000><$FFFC>・A warden escapes<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

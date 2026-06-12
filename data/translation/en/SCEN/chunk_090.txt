@@ -12,22 +12,22 @@
 10	Folk<$FFFF>
 11	Knox ～North gate～<$FFFF>
 12	<$FB00><$004A>Oww<$FFF5><$FFF8>…<$FFFE>
-13	<$FB00><$004B>Are you all right, Admiral？<$FFFE>
-14	<$FB00><$004C>Honestly, maybe I should study<$FFFC>swordsmanship in earnest<$FFF5><$FFF8>… <$FFF6><$FB00><$004D>I keep<$FFFC>being a burden to you.<$FFFE>
-15	<$FB00><$004E>More to the point, would you<$FFFC>explain how it came to this？<$FFFC>Captain Goldry.<$FFFE>
+13	<$FB00><$004B>Are you all<$FFFC>right, Admiral？<$FFFE>
+14	<$FB00><$004C>Honestly,<$FFFC>maybe I should study<$FFFC>swordsmanship in earnest<$FFF5><$FFF8>… <$FFF6><$FB00><$004D>I keep<$FFFC>being a burden to you.<$FFFE>
+15	<$FB00><$004E>More to the<$FFFC>point, would you explain how it<$FFFC>came to this？ Captain Goldry.<$FFFE>
 16	<$FFFA><$FB00><$004F>Th, that is<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0050>What were you thinking, fighting<$FFFC>inside the town？<$FFFD>Your duty was to keep the peace<$FFFC>here, was it not？<$FFFE>
-18	<$FB00><$0051>That's exactly why I fought,<$FFFC>sir.<$FFFE>
-19	<$FB00><$0052>Is it？ It looked to me like you<$FFFC>were the one troubling the folk<$FFFC><$FFF5><$FFF8>…<$FFFE>
-20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw it. That captain<$FFFC>told those people to pay an<$FFFC>outrageous toll<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$0055>That's right！ He demanded ten<$FFFC>times the usual toll.<$FFFE>
-22	<$FB00><$0056>A toll？ I recall giving no<$FFFC>order to collect any such thing<$FFFC><$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$0050>What were you<$FFFC>thinking, fighting inside the<$FFFC>town？<$FFFD>Your duty was<$FFFC>to keep the peace here, was it<$FFFC>not？<$FFFE>
+18	<$FB00><$0051>That's exactly<$FFFC>why I fought, sir.<$FFFE>
+19	<$FB00><$0052>Is it？ It<$FFFC>looked to me like you were the<$FFFC>one troubling the folk <$FFF5><$FFF8>…<$FFFE>
+20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw<$FFFC>it. That captain told those<$FFFC>people to pay an outrageous toll<$FFF5><$FFF8>…<$FFFE>
+21	<$FB00><$0055>That's right！<$FFFC>He demanded ten times the usual<$FFFC>toll.<$FFFE>
+22	<$FB00><$0056>A toll？ I<$FFFC>recall giving no order to collect<$FFFC>any such thing <$FFF5><$FFF8>…<$FFFE>
 23	<$FFF7><$FB00><$0057>Eh？<$FFF5><$FFF8><$FFFE>
-24	<$FB00><$0058>Then the taxes they've been<$FFFC>taking from us were<$FFF5><$FFF8>…<$FFFE>
-25	<$FB00><$0059>Silence！ This town was put in<$FFFC>MY charge！ I do with it as I<$FFFC>please！<$FFFE>
-26	<$FB00><$005A>Goldry！ What do you take your<$FFFC>post for！<$FFFD><$FB00><$005B>You were given authority to keep<$FFFC>the peace in this town, not to<$FFFC>rule over it！<$FFFE>
+24	<$FB00><$0058>Then the<$FFFC>taxes they've been taking from us<$FFFC>were<$FFF5><$FFF8>…<$FFFE>
+25	<$FB00><$0059>Silence！ This<$FFFC>town was put in MY charge！ I<$FFFC>do with it as I please！<$FFFE>
+26	<$FB00><$005A>Goldry！ What<$FFFC>do you take your post for！<$FFFD><$FB00><$005B>You were<$FFFC>given authority to keep the<$FFFC>peace in this town, not to rule<$FFFC>over it！<$FFFE>
 27	<$FFF8><$FB00><$005C>…<$FFFE>
-28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've been<$FFFC>doing just as you pleased.<$FFFD>You are a disgrace to the<$FFFC>Caconsis army.<$FFFE>
-29	<$FB00><$005E>Enough, I've heard plenty！ I<$FFFC>quit！<$FFFD><$FB00><$005F>The king promised me a general's<$FFFC>rank, but you made me a<$FFFC>captain！<$FFFD>I have hated that from the<$FFFC>start！<$FFFD><$FB00><$0060>From today, my company is<$FFFC>mercenary again！<$FFFD>You will regret losing us！<$FFFE>
-30	<$FB00><$0061>We've caused this town's people<$FFFC>much trouble.<$FFFD><$FB00><$0063>Next time we will send someone<$FFFC>more dependable. Please forgive<$FFFC>us.<$FFFE>
-31	<$FB00><$0062>Oh no, not at all<$FFF5><$FFF8>…<$FFFE><$FFFF>
+28	<$FFF8>…<$FFF6><$FB00><$005D>So with us<$FFFC>away, you've been doing just as<$FFFC>you pleased.<$FFFD>You are a<$FFFC>disgrace to the Caconsis army.<$FFFE>
+29	<$FB00><$005E>Enough, I've<$FFFC>heard plenty！ I quit！<$FFFD><$FB00><$005F>The king<$FFFC>promised me a general's rank,<$FFFC>but you made me a captain！<$FFFD>I have hated<$FFFC>that from the start！<$FFFD><$FB00><$0060>From today, my<$FFFC>company is mercenary again！<$FFFD>You will<$FFFC>regret losing us！<$FFFE>
+30	<$FB00><$0061>We've caused<$FFFC>this town's people much trouble.<$FFFD><$FB00><$0063>Next time we<$FFFC>will send someone more dependable.<$FFFC>Please forgive us.<$FFFE>
+31	<$FB00><$0062>Oh no, not<$FFFC>at all<$FFF5><$FFF8>…<$FFFE><$FFFF>
