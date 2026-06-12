@@ -1,0 +1,39 @@
+# file=SCEN.DAT chunk=91 chunk_start=0x1052000
+# block_base=0x2D78 block_size=0x05F8 records=37
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Marshal Lanford<$FFFF>
+7	Merc<$FFFF>
+8	After the battle<$FFFF>
+9	<$FB00><$005A>Um, my home is close now, so<$FFFC>I'll take my leave here.<$FFFD>I want to get this medicine to<$FFFC>my father quickly.<$FFFE>
+10	Alfred left the party！<$FFFE>
+11	<$FB00><$005B>Sure. Take care out there.<$FFFE>
+12	<$FB00><$005C>Thank you for everything. You<$FFFC>take care too, Lambda. Goodbye！<$FFFE>
+13	<$FB00><$005D>Now that the boy's seen off,<$FFFC>mind if I ask you something？<$FFFE>
+14	<$FFF8><$FB00><$005E>？<$FFFE>
+15	<$FB00><$005F>Introductions first. I'm Brenda.<$FFFD>I run a mercenary band, women<$FFFC>only.<$FFFE>
+16	<$FB00><$0060>You saw what we can do just<$FFFC>now.<$FFFE>
+17	<$FB00><$0061>Even if we didn't look our best<$FFFC>back there.<$FFFE>
+18	<$FB00><$0062>So, what did you want to ask？<$FFFE>
+19	<$FB00><$0063>Right. You two work for<$FFFC>Gizarof, don't you？<$FFFE>
+20	<$FB00><$0064>What makes you think so？<$FFFE>
+21	<$FB00><$0065>Don't underestimate a mercenary's<$FFFC>information network.<$FFFD><$FB00><$0071>Hired blades live by the<$FFFC>contract.<$FFFD>We keep tabs on every power<$FFFC>around.<$FFFE>
+22	<$FB00><$0066>So it would seem.<$FFFE>
+23	<$FB00><$0067>Word I got says Gizarof's in a<$FFFC>tight spot himself.<$FFFD>Times like that, a man wants<$FFFC>able hands, no？<$FFFE>
+24	<$FFF8>‥‥。<$FFFE>
+25	・Brenda would do fine.<$FFFE>
+26	・True enough.<$FFFE>
+27	・Able hands, huh‥‥.<$FFFE>
+28	<$FB00><$0068>Right？<$FFFE>
+29	<$FB00><$0069>That back there was a fluke,<$FFFC>I tell you.<$FFFE>
+30	<$FB00><$006A>What's that？ You doubt me？<$FFFE>
+31	<$FB00><$006B>So that's the deal. I want you<$FFFC>to put in a word with Gizarof.<$FFFE>
+32	<$FB00><$006C>A word we can manage.<$FFFE>
+33	<$FB00><$006D>Yes. Whether he hires you is<$FFFC>the master's call.<$FFFE>
+34	<$FB00><$006E>Then I'll be coming along.<$FFFE>
+35	Brenda joined the party！<$FFFE>
+36	<$FB00><$006F>You lot, keep the information<$FFFC>coming.<$FFFE>
+37	<$FB00><$0070>Yes, boss！<$FFFE><$FFFF>
