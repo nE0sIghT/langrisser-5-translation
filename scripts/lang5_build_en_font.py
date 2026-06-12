@@ -29,7 +29,7 @@ FONT_CANDIDATES = [
 # row 10 achieves that; descenders get squashed from 3px to 2px, which is
 # the lesser evil.
 BASELINE_ROW = 10
-LEADING_SPACE_X = 4
+LEADING_SPACE_X = 6
 NATIVE_VISUAL_OVERRIDES = {
     0x0005: "?",  # native ？ is too centered for the EN font.
     0x0006: "!",  # native ！ is too centered for the EN font.
