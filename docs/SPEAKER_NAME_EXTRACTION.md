@@ -45,12 +45,15 @@ BLOCKED     needs another decoded dependency
 | REJECTED | The high byte before `FF0B` is a direct speaker slot. | Chunk 45 maps `0x0013` to Sigma by this heuristic, but the line is Lambda. | Remove or downgrade `vm_direct_00` confirmed output. |
 | REJECTED | A chunk-wide widest-name reserve is acceptable. | It prevents overflow but creates wrong early breaks in visible game text. | Use only as fallback for unresolved IDs. |
 | REJECTED | A record-wide reserve is enough. | Records can switch speakers after an internal `FB00`. | Use active reserve changes after `FB00`. |
+| DONE | `scripts/lang5_speakers.py` no longer emits heuristic speaker confirmations. | Chunk 45 now reports `confirmed=0`; former `vm_direct_00` rows are `vm_state_byte_rejected/unresolved`. | Use it only as an evidence dumper until runtime behavior is decoded. |
 | DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
 | DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
 | DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |
 | DONE | Runtime actor/plate lookup table exists. | `0x800b2da4` searches table at `0x800eba38` with count `0x800eba46`. | Decode the table source in each chunk. |
-| ACTIVE | Map chunk-local data to runtime `0x800eba38` table. | Loader around `0x8003b44c` assigns globals from loaded header offsets. | Parse the loaded-header structure from chunk data. |
-| ACTIVE | Decode byte-accurate `FF0B`/`0x0b` command targeting. | Chunk 45 suggests the opcode can target the following `FB00` ID. | Replace word-record scanner with byte command parser. |
+| DONE | Map chunk-local data to runtime `0x800eba38` table. | Header `u32 +0x14` is the table offset; low byte of header `u32 +0x2c` is the entry count. | Use `actor_plate_table()` in `scripts/lang5_speakers.py`. |
+| DONE | Decode the static `0x800eba38` table shape. | Static parser matches `0x800b2da4`: `u16 key`, `u8 field2`, `u8 field3`. | Decode field semantics in the VM handler context. |
+| REJECTED | Word-only `FF0B ... FFFF FFFF` pattern scan is executable VM command parsing. | Chunk 45 starts at opcode `0x00`; that handler length-skips payload bytes containing `FF0B` patterns. | Keep word patterns as evidence only, never as command order. |
+| ACTIVE | Build a bytecode trace for the VM stream. | Dispatcher is byte-oriented and opcodes can skip embedded data blocks. | Implement a tracer for opcodes encountered before speaker display commands. |
 | PENDING | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
 | PENDING | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
 | PENDING | Integrate speaker reserves into `lang5_rewrap.py`. | Existing rewrap has static reserve logic. | Change wrapping to update reserve after `FB00`. |
@@ -61,28 +64,35 @@ BLOCKED     needs another decoded dependency
 Work in this exact order unless a step becomes impossible for a documented
 reason.
 
-1. Make `scripts/lang5_speakers.py` conservative.
+1. Make `scripts/lang5_speakers.py` conservative. DONE.
    - Remove any `confirmed` result based only on the rejected high-byte
      heuristic.
    - Keep such rows as evidence with `unresolved` confidence if they are useful.
    - Success criterion: no known-false chunk 45 row is marked confirmed.
-2. Decode the chunk loader structure.
+   - Result: chunk 45 writes `confirmed=0`; the old high-byte evidence is
+     labeled `vm_state_byte_rejected`.
+2. Decode the chunk loader structure. DONE.
    - Start at `0x8003b44c`.
    - Trace how loaded-header offsets become `0x800eba38`, `0x800eba46`,
      `0x800eb2ac`, `0x800eb8fc`, and `0x800eb574`.
    - Success criterion: a script can locate and dump the `0x800eba38` table
      for sampled chunks from static SCEN data.
-3. Decode the `0x800eba38` table format.
+   - Result: `scripts/lang5_speakers.py` now parses `0x800eba38` from chunk
+     header `+0x14` and count from header `+0x2c`.
+3. Decode the `0x800eba38` table format. DONE.
    - Use `0x800b2da4` as the reference behavior.
    - Confirm entry width and field semantics on multiple chunks.
    - Success criterion: static dumps match the table shape expected by the
      function: `u16 key`, `u8 field2`, `u8 field3`.
+   - Result: sampled chunks decode as 4-byte entries. Field semantics still
+     depend on the VM handler and remain part of the next step.
 4. Replace word-only VM pseudo-record parsing with byte-accurate command
-   parsing.
+   tracing. ACTIVE.
    - Treat the VM stream as bytes.
-   - Identify real opcode positions, especially `0x0b` inside `FF0B`.
-   - Success criterion: chunk 45 command sites target the correct following
-     `FB00` IDs where handler payload layout requires it.
+   - Do not treat `FF0B` patterns inside skipped payload blocks as command
+     starts.
+   - Success criterion: chunk 45 trace reaches the actual display command
+     sites in execution order.
 5. Reimplement the relevant subset of `0x80024424`.
    - Model only fields needed for dialogue text and speaker/window plate.
    - Use the static `0x800eba38` table where the handler does runtime lookup.
@@ -116,6 +126,8 @@ reason.
 - Do not accept chunk-wide or record-wide reserves as the final solution.
 - Do not parse the VM stream only as aligned 16-bit records when interpreting
   opcode dispatch.
+- Do not treat `FF0B <flags> FFFF FFFF` pattern matches inside opcode `0x00`
+  length-skipped payload as executed display commands.
 - Do not wire `scripts/lang5_speakers.py` into rewrap until chunk 45 resolves
   correctly without manual overrides.
 
@@ -261,21 +273,38 @@ for each entry:
 ```
 
 This table likely maps actor or scene-state IDs to text/window/speaker fields.
-The table is loaded from chunk data by the scenario loader, so a complete static
-extractor must decode where it lives in each chunk.
+The table is loaded from chunk data by the scenario loader.
 
 Loader evidence around `0x8003b44c`:
 
 ```text
-0x800eba46 = value from loaded header + 0x2c
-0x800eba38 = data base + *(loaded header + 0x14)
+0x800eba46 = low byte of header u32 + 0x2c
+0x800eba38 = data base + *(header u32 + 0x14)
 0x800eb2ac = *(loaded header + 0x38)
 0x800eb8fc = data base + *(loaded header + 0x3c)
 0x800eb574 = data base + *(loaded header + 0x34)
 ```
 
-The exact relationship between these loaded-header offsets and the per-chunk VM
-header still needs to be pinned down.
+The `0x800eba38` table location and entry shape are now decoded:
+
+```text
+chunk header + 0x14  u32 table offset
+chunk header + 0x2c  u32 entry count, low byte used by the game
+
+entry +0x00  u16 key
+entry +0x02  u8  field2
+entry +0x03  u8  field3
+```
+
+Sample static dumps:
+
+```text
+chunk 045: 0007:00:00 0008:01:00
+chunk 065: 0012:00:00 0040:01:00 008F:02:00 0090:02:00 ...
+chunk 107: 0012:00:00 0040:01:00 00E1:02:01 00E2:02:01 ...
+```
+
+Field semantics still have to be interpreted in the VM handler context.
 
 ## Text Control Dispatcher Evidence
 
@@ -328,22 +357,22 @@ Therefore this heuristic must not be used as confirmed data.
 False. The local name pool is only a list of available plates. The dialogue VM
 selects among those plates using additional state.
 
-## `FF0B` Command Alignment Issue
+### `FF0B` pattern scanning is command execution
 
-The VM byte stream is byte-oriented, while the current evidence parser scans
-word-oriented pseudo-records ending in:
+False. The old evidence parser scans word-oriented pseudo-records ending in:
 
 ```text
 FF0B <flags> FFFF FFFF
 ```
 
-For opcode dispatch, the actual command opcode may be the low byte `0x0b`
-inside word `FF0B`. In that interpretation, handler payload bytes after the
-opcode include the suffix bytes and then the next pseudo-record's state/id.
+These patterns exist in chunk data, but they are not sufficient to prove VM
+execution order. Chunk 45 starts its VM stream at opcode `0x00`; that handler
+uses a length field and can skip bytes containing `FF0B` patterns as embedded
+payload data.
 
-In chunk 45, this means an `FF0B` command can target the following `FB00 <id>`,
-not the preceding pseudo-record. The extractor must model command start
-alignment at byte precision, not only word records.
+Therefore `FF0B` pattern rows may be useful evidence, but they must not be
+treated as executed display commands. The extractor needs a bytecode trace from
+the VM dispatcher.
 
 ## Required Extractor Behavior
 
@@ -352,10 +381,11 @@ The production speaker extractor should:
 1. Parse the local name pool.
 2. Parse the VM header and command stream.
 3. Decode the per-chunk actor/name lookup table loaded into `0x800eba38`.
-4. Interpret `0x0b..0x10` commands using byte-accurate opcode positions.
-5. Resolve each targeted `FB00 <id>` to a speaker name slot.
-6. Mark unresolved cases explicitly instead of guessing.
-7. Provide an API for rewrap:
+4. Trace VM bytecode from the real dispatcher entry point.
+5. Interpret `0x0b..0x10` commands only when the trace reaches them.
+6. Resolve each targeted `FB00 <id>` to a speaker name slot.
+7. Mark unresolved cases explicitly instead of guessing.
+8. Provide an API for rewrap:
 
 ```text
 chunk index -> FB id -> speaker name -> first-line reserve
@@ -383,21 +413,20 @@ Choice records and non-dialogue records must keep their existing special rules.
 
 ## Current Implementation Risk
 
-The untracked `scripts/lang5_speakers.py` is useful as an evidence dumper, but
-its `confirmed` rows are not safe while `vm_direct_00` is based on the rejected
-high-byte heuristic. Before wiring it into rewrap, it must be changed so only
-dispatch-verified mappings are marked confirmed.
+`scripts/lang5_speakers.py` is useful as an evidence dumper. It must remain
+conservative: no row may be marked `confirmed` unless it follows decoded
+runtime behavior. The rejected high-byte heuristic is now emitted as
+`vm_state_byte_rejected` with `unresolved` confidence.
 
 ## Next Reverse-Engineering Steps
 
-1. Fully decode `0x800a39a4` and adjacent `FBxx` handling.
-2. Fully decode the loader data structure that populates `0x800eba38` and
-   `0x800eba46`.
-3. Parse the `0x800eba38` table statically from each chunk.
-4. Reimplement the `0x80024424` command effect for the subset that selects
+1. Build a bytecode tracer for the VM stream, starting with opcodes observed in
+   chunk 45.
+2. Fully decode `0x800a39a4` and adjacent `FBxx` handling.
+3. Reimplement the `0x80024424` command effect for the subset that selects
    dialogue text and speaker plate state.
-5. Validate against chunk 45:
+4. Validate against chunk 45:
    - Sigma lines resolve to Sigma.
    - Lambda lines resolve to Lambda.
    - multi-speaker records switch reserve after each `FB00`.
-6. Run rewrap and verify the known bad lines no longer split words early.
+5. Run rewrap and verify the known bad lines no longer split words early.
