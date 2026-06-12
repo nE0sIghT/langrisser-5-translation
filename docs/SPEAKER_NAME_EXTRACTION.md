@@ -46,6 +46,7 @@ BLOCKED     needs another decoded dependency
 | REJECTED | A chunk-wide widest-name reserve is acceptable. | It prevents overflow but creates wrong early breaks in visible game text. | Use only as fallback for unresolved IDs. |
 | REJECTED | A record-wide reserve is enough. | Records can switch speakers after an internal `FB00`. | Use active reserve changes after `FB00`. |
 | DONE | `scripts/lang5_speakers.py` no longer emits heuristic speaker confirmations. | Chunk 45 now reports `confirmed=0`; former `vm_direct_00` rows are `vm_state_byte_rejected/unresolved`. | Use it only as an evidence dumper until runtime behavior is decoded. |
+| DONE | `scripts/lang5_vm_dialog_refs.py` is documented as legacy evidence only. | Its header no longer calls the `FF0B` patterns confirmed command shapes. | Do not use it for execution order. |
 | DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
 | DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
 | DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |

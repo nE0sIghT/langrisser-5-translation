@@ -8,13 +8,15 @@ the speaker/name semantics can be reverse-engineered from game data instead
 of maintained as hand-written maps.
 
 The extractor is deliberately conservative: it emits evidence rows, not a
-speaker assignment. Current confirmed command shapes near dialogue calls:
+speaker assignment. The legacy pattern scan finds word-oriented records near
+dialogue calls:
 
     <state> <fb_id> FF0B <flags> FFFF FFFF
     FF00 <fb_id> ... FF0B <flags> FFFF FFFF
 
-The ``state`` and optional words before ``FF0B`` still need dispatch-level
-interpretation.
+These patterns are not trusted execution-order data. The VM is byte-oriented,
+and some ``FF0B`` patterns can live inside skipped payload blocks. Use
+``lang5_speakers.py`` for the current speaker evidence ledger.
 """
 
 from __future__ import annotations
