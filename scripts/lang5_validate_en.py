@@ -11,14 +11,10 @@ import re
 from pathlib import Path
 
 from lang5_scen import (Codec, TAG_RE, consumes_argument, find_text_block,
-                        load_charmap_tbl, read_chunk_spans, words_to_bytes)
+                        load_charmap_tbl, read_chunk_spans)
+from lang5_sceninsert import rebuild_chunk_fixed, trim_blobs_to_fit
 
 ASCII_BAD = re.compile(r"[!?;—–]")
-CHUNK_ALIGN = 0x800
-
-
-def align_up(value: int, align: int = CHUNK_ALIGN) -> int:
-    return (value + align - 1) & ~(align - 1)
 
 
 def read_records(path: Path) -> dict[int, str]:
@@ -51,51 +47,28 @@ def control_signature(text: str) -> list[str]:
 
 def repacked_file_size(src: Path, records_by_chunk: dict[int, dict[int, str]],
                        codec: Codec) -> tuple[int, list[str]]:
+    """Exact fixed-size repack simulation: rebuilds every edited chunk with
+    the builder's own chunk/padding logic and applies the same container
+    padding reclaim, so the reported total matches lang5_sceninsert."""
     data = src.read_bytes()
     spans = read_chunk_spans(data)
     header_size = spans[0][0]
-    lengths: list[int] = []
-    savings: list[int] = []
+    blobs: list[bytes] = []
     problems: list[str] = []
     for cidx, (s, e) in enumerate(spans):
         chunk = data[s:e]
-        tail_zero = len(chunk) - len(chunk.rstrip(b"\x00"))
         edits = records_by_chunk.get(cidx, {})
         if edits:
             block = find_text_block(chunk)
-            payloads: list[bytes] = []
-            for ridx in range(1, block.record_count + 1):
-                a, b = block.record_span(ridx)
-                if ridx in edits:
-                    payloads.append(words_to_bytes(codec.encode(edits[ridx])))
-                else:
-                    payloads.append(chunk[a:b])
-            table_len = 2 + 2 * len(block.offsets)
-            body_len = sum(len(p) for p in payloads)
-            needed = table_len + body_len
-            if needed > 0xFFFF:
-                problems.append(
-                    f"{src.name} chunk {cidx:03d}: text block would exceed u16 size"
-                )
-            out_size = block.size if needed <= block.size else needed
-            if out_size <= block.size + (tail_zero & ~1):
-                chunk_len = len(chunk)
-            else:
-                chunk_len = align_up(len(chunk) + out_size - block.size)
-        else:
-            chunk_len = len(chunk)
-        lengths.append(chunk_len)
-        savings.append(len(chunk) - align_up(len(chunk.rstrip(b"\x00"))))
+            try:
+                chunk = rebuild_chunk_fixed(chunk, block, edits, codec,
+                                            f"{src.name} chunk {cidx:03d}")
+            except SystemExit as exc:
+                problems.append(str(exc))
+        blobs.append(chunk)
 
-    total = header_size + sum(lengths)
-    if total > len(data):
-        for saved in reversed(savings):
-            if saved <= 0:
-                continue
-            total -= saved
-            if total <= len(data):
-                break
-    return total, problems
+    blobs, chunks_total = trim_blobs_to_fit(blobs, len(data) - header_size)
+    return header_size + chunks_total, problems
 
 
 def main() -> None:

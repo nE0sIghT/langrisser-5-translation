@@ -91,17 +91,32 @@ def trim_aligned_chunk(chunk: bytes) -> bytes:
     return chunk[:size].ljust(size, b"\x00")
 
 
-def rebuild_container_fixed_size(data: bytes, chunks: list[bytes],
-                                 spans: list[tuple[int, int]],
-                                 label: str) -> bytes:
-    header_size = spans[0][0]
-    header = bytearray(data[:header_size])
-    blobs = list(chunks)
-    total = header_size + sum(len(chunk) for chunk in blobs)
+def rebuild_chunk_fixed(chunk: bytes, block: TextBlock, edits: dict[int, str],
+                        codec: Codec, label: str) -> bytes:
+    """Rebuild one chunk for the fixed-size repack: the text block may grow,
+    growth is absorbed into the chunk's own trailing zero padding when
+    possible, and the result is 0x800-aligned."""
+    blob = rebuild_block(chunk, block, edits, codec, 0xFFFF, label)
+    new_chunk = chunk[: block.base] + blob + chunk[block.base + block.size :]
+    if len(new_chunk) > len(chunk):
+        orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
+        stripped = new_chunk.rstrip(b"\x00")
+        removable = min(orig_tz, len(new_chunk) - len(stripped))
+        if len(new_chunk) - removable <= len(chunk):
+            new_chunk = new_chunk[: len(new_chunk) - removable]
+            new_chunk += b"\x00" * (len(chunk) - len(new_chunk))
+    if len(new_chunk) % CHUNK_ALIGN:
+        new_chunk += b"\x00" * (CHUNK_ALIGN - len(new_chunk) % CHUNK_ALIGN)
+    return new_chunk
 
-    if total > len(data):
-        # Reclaim whole-sector trailing padding only when the translated
-        # chunks actually need container-level space.
+
+def trim_blobs_to_fit(blobs: list[bytes], capacity: int) -> tuple[list[bytes], int]:
+    """Reclaim whole-sector trailing zero padding, from the last chunk
+    backwards, until the chunks fit the capacity (or nothing is left to
+    trim). Returns the adjusted chunk list and its total size."""
+    blobs = list(blobs)
+    total = sum(len(blob) for blob in blobs)
+    if total > capacity:
         for i in range(len(blobs) - 1, -1, -1):
             trimmed = trim_aligned_chunk(blobs[i])
             saved = len(blobs[i]) - len(trimmed)
@@ -109,8 +124,20 @@ def rebuild_container_fixed_size(data: bytes, chunks: list[bytes],
                 continue
             blobs[i] = trimmed
             total -= saved
-            if total <= len(data):
+            if total <= capacity:
                 break
+    return blobs, total
+
+
+def rebuild_container_fixed_size(data: bytes, chunks: list[bytes],
+                                 spans: list[tuple[int, int]],
+                                 label: str) -> bytes:
+    header_size = spans[0][0]
+    header = bytearray(data[:header_size])
+    # Reclaim whole-sector trailing padding only when the translated
+    # chunks actually need container-level space.
+    blobs, chunks_total = trim_blobs_to_fit(list(chunks), len(data) - header_size)
+    total = header_size + chunks_total
 
     if total > len(data):
         raise SystemExit(
@@ -154,25 +181,28 @@ def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
         edits = parse_dump_file(dump_path) if dump_path.exists() else {}
         if edits:
             block = find_text_block(chunk)
-            orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
-            if allow_grow or fixed_size_repack:
-                max_size = 0xFFFF
+            if fixed_size_repack:
+                new_chunk = rebuild_chunk_fixed(chunk, block, edits, codec,
+                                                f"{src.name} chunk {cidx}")
             else:
-                max_size = block.size + (orig_tz & ~1)
-            blob = rebuild_block(chunk, block, edits, codec, max_size,
-                                 f"{src.name} chunk {cidx}")
-            new_chunk = chunk[: block.base] + blob + chunk[block.base + block.size :]
-            if len(new_chunk) > len(chunk) and not allow_grow:
-                # Absorb growth into the chunk's own trailing zero padding
-                # so the container layout (and the ISO) stays untouched.
                 orig_tz = len(chunk) - len(chunk.rstrip(b"\x00"))
-                stripped = new_chunk.rstrip(b"\x00")
-                removable = min(orig_tz, len(new_chunk) - len(stripped))
-                if len(new_chunk) - removable <= len(chunk):
-                    new_chunk = new_chunk[: len(new_chunk) - removable]
-                    new_chunk += b"\x00" * (len(chunk) - len(new_chunk))
-            if len(new_chunk) % CHUNK_ALIGN:
-                new_chunk += b"\x00" * (CHUNK_ALIGN - len(new_chunk) % CHUNK_ALIGN)
+                if allow_grow:
+                    max_size = 0xFFFF
+                else:
+                    max_size = block.size + (orig_tz & ~1)
+                blob = rebuild_block(chunk, block, edits, codec, max_size,
+                                     f"{src.name} chunk {cidx}")
+                new_chunk = chunk[: block.base] + blob + chunk[block.base + block.size :]
+                if len(new_chunk) > len(chunk) and not allow_grow:
+                    # Absorb growth into the chunk's own trailing zero padding
+                    # so the container layout (and the ISO) stays untouched.
+                    stripped = new_chunk.rstrip(b"\x00")
+                    removable = min(orig_tz, len(new_chunk) - len(stripped))
+                    if len(new_chunk) - removable <= len(chunk):
+                        new_chunk = new_chunk[: len(new_chunk) - removable]
+                        new_chunk += b"\x00" * (len(chunk) - len(new_chunk))
+                if len(new_chunk) % CHUNK_ALIGN:
+                    new_chunk += b"\x00" * (CHUNK_ALIGN - len(new_chunk) % CHUNK_ALIGN)
             if len(new_chunk) != len(chunk):
                 grew = True
                 print(f"{src.name} chunk {cidx}: grown 0x{len(chunk):X} -> 0x{len(new_chunk):X}")
