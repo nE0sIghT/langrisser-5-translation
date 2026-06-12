@@ -52,8 +52,9 @@ python3 scripts/lang5_build_ppf.py          # full build must succeed
 
 ## Repository conventions
 
-- Commit author: `Yuri Konotopov <ykonotopov@gmail.com>`, no Co-Authored-By
-  trailers. Messages: functional English, present tense.
+- Commit author: `Yuri Konotopov <ykonotopov@gmail.com>`. Include a
+  `Co-Authored-By` trailer identifying the agent. Messages: functional
+  English, present tense.
 - No Russian (or other non-English) text in code, comments or data files.
 - `work/`, `iso/`, `patches/`, `archive/`, `external/` are not in git;
   everything under `data/` and `scripts/` is.
