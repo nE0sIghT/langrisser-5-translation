@@ -1,0 +1,203 @@
+# file=SCEN.DAT chunk=29 chunk_start=0x4AF800
+# block_base=0xAE74 block_size=0x2148 records=201
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	McLain<$FFFF>
+8	Town<$FFFF>
+9	Omega<$FFFF>
+10	C.Knights 8<$FFFF>
+11	C.Knights 9<$FFFF>
+12	Lainforce<$FFFF>
+13	Officer<$FFFF>
+14	C.Knights 7<$FFFF>
+15	・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFE>
+16	・All citizens killed<$FFFC>・<$F600><$0000> dies<$FFFE>
+17	Valtar Town, Northeast District<$FFFF>
+18	<$FB00><$0042>I'll save every one of<$FFFC>you！ Don't give up！<$FFFE>
+19	<$FB00><$0043>Y, yes！<$FFFE>
+20	<$FB00><$0044>Even so<$FFF5><$FFF8>…,<$FFF6><$FB00><$0045>against that<$FFFC>many enemies, can I save them<$FFFC>alone<$FFF5><$FFF8>….<$FFFE>
+21	<$FFF8><$FB00><$0046>Hm？<$FFF5> <$FFF6><$FB00><$0047>Is that… McLain？<$FFFE>
+22	<$FB00><$0048>B, brother？ Why are<$FFFC>you here？<$FFFE>
+23	<$FB00><$004A>Lanford, and Marie<$FFFC>too！<$FFFE>
+24	<$FB00><$0049>Weren't you in El<$FFFC>Sallia<$FFF5><$FFF8>….<$FFFE>
+25	…<$FFF6><$FB00><$004B>I heard this city<$FFFC>was under attack and rushed back.<$FFFE>
+26	<$FB00><$004C>Is there something so<$FFFC>important here？ It hardly seems a<$FFFC>strategic point<$FFF5><$FFF8>….<$FFFE>
+27	<$FB00><$004D>This place<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>has an<$FFFC>ancient weapon buried in it.<$FFFE>
+28	<$FB00><$004F>Is that what Lainforce<$FFFC>is after？<$FFFE>
+29	<$FB00><$0050>That weapon, what manner<$FFFC>of thing is it？ Could you tell<$FFFC>us？<$FFFE>
+30	<$FB00><$0051>A sky battleship. Big<$FFFC>as a parent to all airships,<$FFFC>fitted with many Magitek cannons.<$FFFE>
+31	<$FFF8>…<$FFF6><$FB00><$0052>I see. So that's what<$FFFC>was buried here.<$FFFE>
+32	<$FB00><$0053>Isn't that why you<$FFFC>came back？<$FFFE>
+33	<$FB00><$0054>A wholly personal<$FFFC>matter.<$FFF5> <$FB00><$0002><$FB00><$0055>Marie, listen well！ Father<$FFFC>and mother are here！<$FFFE>
+34	<$FB00><$0056>Father and mother are！？<$FFFE>
+35	<$FB00><$0057>Yeah. They should have<$FFFC>taken shelter in this town.<$FFFE>
+36	<$FB00><$0058>And, are they safe？<$FFFE>
+37	<$FB00><$0059>I don't know.<$FFF5> <$FB00><$005A>But if<$FFFC>we get through this, we can ask<$FFFC>where the other citizens fled.<$FFFE>
+38	<$FB00><$005B>Right, we'll back you<$FFFC>up！<$FFFE>
+39	<$FFF8><$FB00><$005C>Heh heh heh！<$FFF5> <$FFF6><$FB00><$005D>What an<$FFFC>interesting fellow. A fine chance<$FFFC>to take him down.<$FFFE>
+40	<$FB00><$005E>You there！ Attack the<$FFFC>citizens too！<$FFFE>
+41	<$FB00><$005F>I refuse. We've no<$FFFC>wish to wage a needless fight.<$FFFE>
+42	<$FB00><$0060>You won't heed my<$FFFC>words！？ I hold command from<$FFFC>Lainforce.<$FFFD><$FB00><$0061>To defy me is to defy Lainforce,<$FFFC>you understand？<$FFFE>
+43	<$FFF8><$FFFA>….<$FFFE>
+44	<$FB00><$0062>Good. The citizens are<$FFFC>their weakness. To win, we use<$FFFC>them<$FFF5><$FFF8>….<$FFFE>
+45	<$FB00><$0063>Father… mother<$FFF5><$FFF8>…<$FFFE>
+46	What do you say to her？<$FFFE>
+47	・Hold it together, Marie！<$FFFE>
+48	・I'll reunite you with them！<$FFFE>
+49	・Now we fight！<$FFFE>
+50	Hold it together, Marie！ …It's<$FFFC>all right. I'm sure your parents<$FFFC>are safe.<$FFFE>
+51	<$FFF8>….<$FFFE>
+52	If we get out of here alive,<$FFFC>you'll see them.<$FFFE>
+53	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
+54	<$FB00><$0064>Don't worry, Marie. I'll<$FFFC>reunite you with your parents<$FFFC>without fail！<$FFFE>
+55	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
+56	What are you standing dazed for！<$FFFC>Now we fight！<$FFFE>
+57	<$FFF8>….<$FFFE>
+58	Think of yourself now！ If we get<$FFFC>out alive, you can search for<$FFFC>them！<$FFFE>
+59	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
+60	<$FB00><$0065>For that, we take no<$FFFC>risks. We get the citizens out,<$FFFC>then escape ourselves.<$FFFE>
+61	・Even one unit of citizens is killed<$FFFC>・<$F600><$0000> dies<$FFFE>
+62	<$FB00><$00A3>I can't lose！ Even<$FFFC>without Langrisser, I'm a finished<$FFFC>body with this power！ Behold my<$FFFC>strength！<$FFFE>
+63	<$FB00><$00A4>Omega's aura is<$FFFC>swelling？ He's used his power！<$FFFE>
+64	<$FB00><$00A5>I amplify mental energy<$FFFC>and make it my own. A failed<$FFFC>product like you never even knew<$FFFC>how to use it！<$FFFD><$FB00><$00A6>Here I come！<$FFFE>
+65	<$FB00><$00A7>I can't escape while<$FFFC>everyone's still here<$FFF5><$FFF8>….<$FFFE>
+66	<$FB00><$00AE>First we get the<$FFFC>citizens out. We go after.<$FFFE>
+67	Let this one escape first？<$FFFE>
+68	<$FB00><$00A8>I'll go on ahead.<$FFFE>
+69	Let this one escape first？<$FFFE>
+70	<$FB00><$00A9>Excuse me, I'll go<$FFFC>ahead.<$FFFE>
+71	Let this one escape first？<$FFFE>
+72	<$FB00><$00AA>I'll go first, but you<$FFFC>take care too！<$FFFE>
+73	Let this one escape first？<$FFFE>
+74	<$FB00><$00AB>Pardon me, going<$FFFC>ahead！<$FFF5><$FFF8> …<$FFF6><$FB00><$00AC>Be careful.<$FFFE>
+75	Let this one escape first？<$FFFE>
+76	<$FB00><$00AD>I'll go ahead, but mind<$FFFC>yourself.<$FFFE>
+77	<$FB00><$0093>Now I can go see my<$FFFC>mother！<$FFFE>
+78	<$FB00><$0094>W, we're saved<$FFF5><$FFF8>….<$FFFE>
+79	<$FB00><$0095>Lucky！ We made it！<$FFFE>
+80	Good. Time for me to escape too.<$FFFE>
+81	<$FB00><$002C>Take this！<$FFFE>
+82	Glad of it！ That you'd fight<$FFFC>instead of fleeing！<$FFFE>
+83	No need to flee. Here I come,<$FFFC>Omega！<$FFFE>
+84	<$FB00><$0030>So this was the limit<$FFFC>of my strength…<$FFFE>
+85	<$FB00><$0046>Here goes.<$FFFE>
+86	<$FB00><$0047>Come if you dare.<$FFFE>
+87	<$FB00><$00B7>Aah！<$FFFE>
+88	<$FB00><$00B8>Marie！<$FFFE>
+89	<$FB00><$00B9>B, brother<$FFF5><$FFF8>… <$FFF6><$FB00><$00BA>I'm<$FFFC>still all right<$FFF5><$FFF8>….<$FFFE>
+90	<$FB00><$00BB>Don't talk nonsense！ If<$FFFC>anything happened to you, I couldn't<$FFFC>face our parents！<$FFFE>
+91	<$FB00><$00BC>Leave this to me,<$FFFC>Marie.<$FFFE>
+92	<$FB00><$00BD>All right.<$FFF5><$FFF8> …<$FFF6><$FB00><$00BE>Please.<$FFFE>
+93	<$FB00><$0075>I can fight too！<$FFFE>
+94	<$FB00><$0076>I won't lose！<$FFFE>
+95	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
+96	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+97	<$FB00><$007D>But…<$FFFE>
+98	<$FB00><$007E>Trust your comrades！<$FFFE>
+99	<$FB00><$007F>…Understood… The rest<$FFFC>is yours…<$FFFE>
+100	<$FB00><$0068>Come and get it！<$FFFE>
+101	<$FB00><$0069>Who do you think I<$FFFC>am！<$FFFE>
+102	<$FFF8>…<$FB00><$00C0>Lain<$FFF5><$FFF8>….<$FFFE>
+103	<$FB00><$00C1>I regret ever meeting<$FFFC>you. Had we never met, we'd not<$FFFC>be fighting like this.<$FFFE>
+104	<$FB00><$00C2>You'll pin it all on<$FFFC>the god of fate？<$FFF5> <$FB00><$00C3>That I can't<$FFFC>accept！<$FFFE>
+105	<$FB00><$0070>This is getting dicey…<$FFFE>
+106	<$FB00><$0071>Fall back, Brenda！<$FFFC>Leave the rest to me！<$FFFE>
+107	<$FB00><$0072>Sorry… I'll take you<$FFFC>up on that…<$FFFE>
+108	<$FB00><$0054>I won't lose！<$FFFE>
+109	<$FB00><$0056>Sorry, I'll pull back<$FFFC>first…<$FFFE>
+110	<$FB00><$0085>By this sword, I'll<$FFFC>defeat you！<$FFFE>
+111	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+112	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
+113	<$FB00><$008F>Are you all right,<$FFFC>Lanford！？<$FFFE>
+114	<$FB00><$0090>A wound like this is<$FFFC>a scratch…<$FFFE>
+115	<$FB00><$0091>Don't push it！ Leave<$FFFC>the rest to us！<$FFFE>
+116	<$FB00><$0092>…At such a crucial<$FFFC>time, forgive me…<$FFFE>
+117	<$FB00><$006F>U, um, what should we<$FFFC>do<$FFF5><$FFF8>…？<$FFFE>
+118	U, um, your orders, please….<$FFFE>
+119	<$FB00><$0070>Right<$FFF5><$FFF8>….<$FFFE>
+120	・Flee north<$FFFE>
+121	・Flee northeast<$FFFE>
+122	・Flee east<$FFFE>
+123	・Don't move yet<$FFFE>
+124	<$FB00><$0071>Flee to the north！<$FFFE>
+125	<$FB00><$0072>Flee to the northeast！<$FFFE>
+126	<$FB00><$0073>Flee to the east！<$FFFE>
+127	Don't move yet. I'll give the word<$FFFC>as I read the situation！<$FFFE>
+128	<$FB00><$0074>Y, yes！<$FFFE>
+129	<$FB00><$0087>Kyaaa！ Help！<$FFF5><$FFF7><$FFFE>
+130	<$FB00><$008A>What！？ The citizens are<$FFFC>hit！<$FFFE>
+131	<$FB00><$008B>No<$FFF5><$FFF8>… <$FFF6><$FB00><$008C>Did I give the<$FFFC>wrong order？<$FFFE>
+132	<$FB00><$008D>M, mother…<$FFFE>
+133	<$FB00><$0088>No！ Stop！<$FFFE>
+134	<$FB00><$008E>Why… does it come to<$FFFC>this…<$FFFE>
+135	<$FB00><$0089>Waah！ Help me！<$FFFE>
+136	<$FB00><$008F>It hurts, it hurts…<$FFFE>
+137	<$FB00><$0066>I'll cover you. What do<$FFFC>you want？<$FFFE>
+138	・Head for the north gate<$FFFE>
+139	・Head for the northeast gate<$FFFE>
+140	・Head for the east gate<$FFFE>
+141	・Fight as you please<$FFFE>
+142	<$FB00><$0067>Head for the north<$FFFC>gate.<$FFFE>
+143	<$FB00><$0068>Got it, north.<$FFFE>
+144	<$FB00><$0069>Head for the northeast<$FFFC>gate.<$FFFE>
+145	<$FB00><$006A>Got it, northeast.<$FFFE>
+146	<$FB00><$006B>Head for the east<$FFFC>gate.<$FFFE>
+147	<$FB00><$006C>Got it, east.<$FFFE>
+148	<$FB00><$006D>Just fight as you<$FFFC>please.<$FFFE>
+149	<$FB00><$006E>Got it, then I'll do<$FFFC>as I like！<$FFFE>
+150	<$FB00><$00B2>U, gh… I slipped<$FFFC>up！<$FFFE>
+151	<$FB00><$00B3>Brother！ Don't push<$FFFC>yourself！<$FFFE>
+152	<$FB00><$00B4>Fall back, McLain.<$FFFC>We'll manage the rest！<$FFFE>
+153	<$FB00><$00B5>Sorry about this….<$FFFE>
+154	…Gh… what strength….<$FFFE>
+155	Wh, what！？<$FFFE>
+156	Here I come！<$FFFE>
+157	I still have things left undone…<$FFFE>
+158	I… cannot die yet….<$FFFE>
+159	…That a surface-dweller holds<$FFFC>such power…. …Kh！<$FFFE>
+160	<$FB00><$0075>This time you won't<$FFFC>escape！ This time I'll settle it！<$FFFE>
+161	<$FB00><$0076>Omega<$FFF5><$FFF8>….<$FFFE>
+162	<$FB00><$0077>Why do you hunt us？<$FFFE>
+163	<$FB00><$0078>What Lainforce wants is<$FFFC>you, Lambda. He seems to need the<$FFFC>power you hold.<$FFFE>
+164	<$FB00><$0079>Then why hunt him？<$FFFE>
+165	<$FB00><$007A>Because defeating him<$FFFC>is what I live for！<$FFFE>
+166	<$FB00><$007B>What grudge do you bear<$FFFC>me, Omega.<$FFFE>
+167	<$FB00><$007C>Seems you can't recall<$FFFC>on your own.<$FFF5> <$FB00><$007D>Then I'll tell you！<$FFFD><$FB00><$007E>Ever since you came to Lord<$FFFC>Gizarof, every honor was stolen by<$FFFC>you. Even the men who once looked<$FFFC>up to me left to become yours.<$FFFD><$FB00><$007F>And all for one thing, a word:<$FFFC>charisma….<$FFFE>
+168	<$FB00><$0080>That's a baseless<$FFFC>grudge！ It's not as if he ever<$FFFC>meant you ill, is it？<$FFFE>
+169	<$FB00><$0081>Say what you like！<$FFFC>Until I beat you and make them<$FFFC>acknowledge me, I can't become<$FFFC>myself！<$FFFD><$FB00><$0082>I, the finished product, cannot lose<$FFFC>to you, the unfinished one！<$FFFD><$FB00><$0083>For Lord Gizarof's sake too！<$FFFE>
+170	<$FB00><$0084>For Gizarof？<$FFFE>
+171	<$FB00><$0085>Yes. To repay my debt<$FFFC>to Lord Gizarof, who raised me.<$FFF5><$FFFC><$FB00><$0086>That is how I live！<$FFFE>
+172	The ones I sent around still<$FFFC>aren't here. So many useless fools.<$FFFE>
+173	<$FB00><$00B6>What… even this isn't<$FFFC>enough…！？ To beat him, I must<$FFFC>raise my power higher still….<$FFFE>
+174	…Impossible…. I won't forget this<$FFFC>humiliation！<$FFFE>
+175	Curse it… my carelessness…. I<$FFFC>can't die in a place like this.<$FFFC>…I've no choice but to withdraw<$FFFC>for now….<$FFFE>
+176	<$FB00><$00BF>Whew. No enemies left,<$FFFC>it seems. Let's escape while we<$FFFC>can.<$FFFE>
+177	<$FB00><$0090>Sorry, my mistake….<$FFFE>
+178	<$FB00><$0091>The citizens are wiped<$FFFC>out！？ What did we struggle for！<$FFFC>This means nothing！<$FFFE>
+179	<$FFF8><$FB00><$0092>Kh….<$FFFE>
+180	You're late！ What are you doing！<$FFFE>
+181	My apologies.<$FFFE>
+182	Spare me the excuses！ Hurry<$FFFC>after the citizens！<$FFFE>
+183	Sir！<$FFFE>
+184	Lord Omega<$FFF8>…. <$FFF6>Then we've no choice<$FFFC>but to hunt the citizens as<$FFFC>planned！<$FFFE>
+185	<$FB00><$0096>Right, only us left<$FFFC>now….<$FFFE>
+186	<$FB00><$0097>The town's northeast<$FFFC>was in an uproar, and this is<$FFFC>what's behind it.<$FFFE>
+187	<$FB00><$0098>Lain<$FFF5><$FFF8>….<$FFFE>
+188	<$FB00><$0099>And raising your sword<$FFFC>against the defenseless, what is<$FFFC>the meaning of this, Omega？<$FFFE>
+189	<$FFF8><$FB00><$009A>…G….<$FFFE>
+190	<$FFF8><$FB00><$009A>…G….<$FFFE>
+191	<$FFF8><$FB00><$009A>…G….<$FFFE>
+192	<$FB00><$009B>From now, I forbid any<$FFFC>hand laid on the citizens！ Those<$FFFC>with no will to resist aren't worth<$FFFC>killing！<$FFFE>
+193	<$FB00><$009C>Sir！<$FFFE>
+194	<$FB00><$009D>Now we can fight fair<$FFFC>and square. I'd not have it said<$FFFC>I won by cowardly tactics.<$FFFE>
+195	<$FB00><$009E>Don't talk as you<$FFFC>please！<$FFFE>
+196	<$FB00><$009F>Spirited as ever.<$FFFC>Surrender and become my subordinate,<$FFFC>and I'll spare your life.<$FFFE>
+197	<$FB00><$00A0>As if I'd ever lose to<$FFFC>you！<$FFFE>
+198	<$FFF8>…<$FB00><$00A1>No help for it<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$00A2>Take the specimen girl, kill the<$FFFC>rest！<$FFFE>
+199	<$FB00><$00AF>Right, time I escaped<$FFFC>too.<$FFFE>
+200	<$FB00><$00B0>Wait！ You're fleeing！<$FFF5><$FFF7><$FFFE>
+201	<$FB00><$00B1>So long, Omega.<$FFFE><$FFFF>
