@@ -150,10 +150,11 @@ repack chunk offsets inside SCEN/SCEN2 when local chunk padding is too small.
 
 1. Battle log composite messages (name-prefix runs like 「の効果！」) need
    template-aware translation.
-2. Credits: staff names stay JP or get a romanized block.
-3. Title screen logo/graphics (bitmap, optional).
-4. Verify every scenario boots and completes (savestate sweep).
-5. Release packaging: PPF + README; xdelta as alternative format.
+2. Title screen logo/graphics (bitmap, optional).
+3. Verify every scenario boots and completes (savestate sweep).
+4. Release packaging: PPF + README; xdelta as alternative format.
+
+Credits/staff roll is intentionally left untranslated (kept in JP).
 
 ## Plan B (only if needed)
 
