@@ -1,0 +1,137 @@
+# file=SCEN.DAT chunk=40 chunk_start=0x6D7000
+# block_base=0x7594 block_size=0x149C records=135
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Goldry<$FFFF>
+8	Soldier<$FFFF>
+9	・Beat 5 in a row<$FFFE>
+10	・<$F600><$0000> dies<$FFFE>
+11	Umagee<$0000>IN<$0000>Pondbag<$FFFF>
+12	So this is the <$FFF4>Umagee<$FFF3> arcade？<$FFFE>
+13	Yeah, judging by the map on the<$FFFC>flyer, this should be the place.<$FFFE>
+14	There's even a horse statue out<$FFFC>front, so this has to be it.<$FFFE>
+15	<$FFFA><$FFF8>…<$FFFE>
+16	What's wrong, Marie？<$FFFE>
+17	I've got a bad feeling about<$FFFC>this.<$FFFE>
+18	Why？ Such a fun looking place？<$FFFD>It'll be fine！ Come on, let's go<$FFFC>in！<$FFFE>
+19	Y, you！！<$FFFE>
+20	Agh！！ That pervert！！<$FFFE>
+21	Fancy meeting you here！ Don't<$FFFC>think you'll make it out alive！！<$FFFD>Men！！<$FFFD><$0000> <$0000><$0000><$0000><$0000><$FFF4>dead silence<$FFF3><$FFFD><$FFF8>D-damn it！！ Those guys were dead<$FFFC>weight for job hunting, so I left<$FFFC>them back in Yeles…<$0663><$FFFD><$FFF8>Wait… wasn't my voice actor the<$FFFC>same as Gaiel's？ …I can use<$FFFC>that…<$FFFE>
+22	<$FFF7>Ahh, <$FFFB><$FFF6>well…<$FFFB> I'm not such a<$FFFC>villain myself. Let's just settle<$FFFC>this with a single game.<$FFFE>
+23	A game？<$FFFE>
+24	<$FFFB>That's right, a game. First, let<$FFFC>me explain the rules.<$FFFD>You and my underlings fight one<$FFFC>on one, survival style. Whichever<$FFFC>side's last commander falls, loses！<$FFFD>Naturally, my side's commander is<$FFFC>me. And your side's commander is<$FFFC><$F600><$0000>！ that's you.<$FFFE>
+25	Interesting. I accept.<$FFFE>
+26	When the first one loses, the<$FFFC>second steps up, and so on, with<$FFFC>no breaks.<$FFFD>But since it's a duel inside the<$FFFC>game, getting beaten here doesn't<$FFFC>add to your loss count.<$FFFD>Still, each bout has a time limit.<$FFFC><$FFF4>250 counts per bout！<$FFF3> One turn is<$FFFC>50 counts, so that's <$FFF4>a full 5<$FFFC>turns<$FFF3>.<$FFFD>So on the 6th turn after a bout<$FFFC>starts, you lose that bout. Well？<$FFFC>Getting cold feet！？<$FFFE>
+27	Against the likes of you, I<$FFFC>won't need 5 turns.<$FFFE>
+28	When the first one loses, the<$FFFC>second steps up, and so on, with<$FFFC>no breaks.<$FFFD>But since it's a duel inside the<$FFFC>game, getting beaten here doesn't<$FFFC>add to your loss count.<$FFFD>Still, each bout has a time limit.<$FFFC><$FFF4>300 counts per bout！<$FFF3> One turn is<$FFFC>50 counts, so that's <$FFF4>a full 6<$FFFC>turns<$FFF3>.<$FFFD>So on the 7th turn after a bout<$FFFC>starts, you lose that bout. Well？<$FFFC>Getting cold feet！？<$FFFE>
+29	Against you lot, I won't even<$FFFC>need 6 turns.<$FFFE>
+30	Big words, brat！<$FFFD>By the way, the total turn count<$FFFC>carries over, so think hard about<$FFFC>when you get called in！<$FFFE>
+31	All right, let's fight！ Decide<$FFFC>your order！<$FFFE>
+32	<$F600><$0000> will go out last.<$FFFC>So, who goes first？<$FFFE>
+33	・Marie<$FFFE>
+34	・Alfred<$FFFE>
+35	・Brenda<$FFFE>
+36	・Clarett<$FFFE>
+37	Who goes second？<$FFFE>
+38	・Alfred<$FFFE>
+39	・Brenda<$FFFE>
+40	・Clarett<$FFFE>
+41	Who goes second？<$FFFE>
+42	・Marie<$FFFE>
+43	・Brenda<$FFFE>
+44	・Clarett<$FFFE>
+45	Who goes second？<$FFFE>
+46	・Marie<$FFFE>
+47	・Alfred<$FFFE>
+48	・Clarett<$FFFE>
+49	Who goes second？<$FFFE>
+50	・Marie<$FFFE>
+51	・Alfred<$FFFE>
+52	・Brenda<$FFFE>
+53	It's decided！<$FFFE>
+54	We've decided too！ Now then, to<$FFFC>the arena！<$FFFE>
+55	Inside the Game<$FFFF>
+56	We fight inside this thing…<$FFFE>
+57	Surprised！？ With my power, hacking<$FFFC>into the digital world is child's<$FFFC>play！<$FFFD>Now then！ Let's begin！<$FFFE>
+58	Counting on you, <$F600><$FFE5>！<$FFFE>
+59	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>1<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+60	<$0000> <$0000><$0000><$0000><$0000><$0000><$FFF4>TIME<$0000>OVER<$FFF3> <$0000><$FFFC><$0000><$0000><$0000><$0000><$0000><$FFF4>YOU<$0000>LOSE<$FFF3><$FFFE>
+61	I'm sorry, everyone…<$FFFE>
+62	<$0000> <$0000><$0000><$0000><$0000><$0000><$FFF4>TIME<$0000>OVER<$FFF3> <$0000><$FFFC><$0000><$0000><$0000><$0000><$0000><$FFF4>YOU<$0000>LOSE<$FFF3><$FFFE>
+63	I'm sorry, everyone…<$FFFE>
+64	I'm beaten…<$FFFE>
+65	I lost…<$FFFE>
+66	…so strong<$FFFE>
+67	I can't… anymore…<$FFFE>
+68	<$FB00><$002C>Take this！<$FFFE>
+69	I'm sorry… everyone…<$FFFE>
+70	<$FB00><$0046>Let's go.<$FFFE>
+71	I'm sorry…<$FFFE>
+72	<$FB00><$0076>I won't lose！<$FFFE>
+73	I wasn't good enough…<$FFFE>
+74	<$FB00><$0069>Who do you think I<$FFFC>am！<$FFFE>
+75	Sorry…<$FFFE>
+76	<$FB00><$0054>I won't lose！<$FFFE>
+77	Sorry…<$FFFE>
+78	Behold the power of me, the<$FFFC>champion of Pondbag！<$FFFD>Here goes！ My ultimate Genius<$FFFC>Blade！ <$0000><$0000><$0000>COMMAND<$FFFC><$0000><$0000><$0000><$FFF4>←↓→↓→<$FFF3><$0000>+<$0000><$FFF4>Heavy P<$FFF3><$FFFE>
+79	Nngh… This is getting bad…<$FFFB> In<$FFFC>that case…<$FFFE>
+80	Fire！ Fire～！<$FFFE>
+81	Nngh… This is getting bad…<$FFFB> In<$FFFC>that case…<$FFFE>
+82	Fire！ Fire～！<$FFFE>
+83	Exactly half the time left… I'd<$FFFC>better hurry！<$FFFE>
+84	Half the battle time is gone. I<$FFFC>need to finish this soon…<$FFFE>
+85	Only half the time is left. I<$FFFC>have to hurry…<$FFFE>
+86	Looks like time just passed the<$FFFC>halfway point.<$FFFE>
+87	Looks like less than half the time<$FFFC>remains.<$FFFE>
+88	Come on, next！ Here we go！<$FFFE>
+89	I really am the strongest！ Let's<$FFFC>keep this up！<$FFFE>
+90	Bwahahaha！ Now you know my<$FFFC>power！<$FFFE>
+91	Only you are left now！ Prepare<$FFFC>yourself, <$F600><$0000>！<$FFFE>
+92	Counting on you, <$F600><$FFE6>！<$FFFE>
+93	Don't lose, <$F600><$FFE7>！<$FFFE>
+94	There's no one left after this.<$FFFC><$F600><$FFE8>, it's up to you！<$FFFE>
+95	So it's finally my turn…<$FFFD>Here I go！<$FFFE>
+96	Tch！ Now even I have to fight…<$FFFD>Argh！ Here goes！<$FFFE>
+97	Who goes third？<$FFFE>
+98	・Brenda<$FFFE>
+99	・Clarett<$FFFE>
+100	Clarett is the one left.<$FFFE>
+101	Brenda is the one left.<$FFFE>
+102	Who goes third？<$FFFE>
+103	・Alfred<$FFFE>
+104	・Brenda<$FFFE>
+105	Brenda is the one left.<$FFFE>
+106	Alfred is the one left.<$FFFE>
+107	Who goes third？<$FFFE>
+108	・Alfred<$FFFE>
+109	・Clarett<$FFFE>
+110	Clarett is the one left.<$FFFE>
+111	Alfred is the one left.<$FFFE>
+112	Who goes third？<$FFFE>
+113	・Marie<$FFFE>
+114	・Clarett<$FFFE>
+115	Clarett is the one left.<$FFFE>
+116	Marie is the one left.<$FFFE>
+117	Who goes third？<$FFFE>
+118	・Marie<$FFFE>
+119	・Brenda<$FFFE>
+120	Brenda is the one left.<$FFFE>
+121	Marie is the one left.<$FFFE>
+122	Who goes third？<$FFFE>
+123	・Marie<$FFFE>
+124	・Alfred<$FFFE>
+125	Alfred is the one left.<$FFFE>
+126	Marie is the one left.<$FFFE>
+127	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>2<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+128	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>3<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+129	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>4<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+130	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>5<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+131	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>6<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+132	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>7<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+133	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>8<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+134	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>9<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
+135	<$0000> <$0000><$0000><$0000><$FFF4>FINAL<$0000>BOUT<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
