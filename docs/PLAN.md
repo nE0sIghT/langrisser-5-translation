@@ -91,7 +91,10 @@ Capacity facts learned while building:
 - Text block location: the game computes `text_off = vm_off + vm_size`
   (vm_off = u32 at chunk+0, vm_size = u32 at chunk+vm_off+0x3C), confirmed
   on all 262 chunks and by archived runtime RE. Growing the block keeps
-  the base; only the chunk suffix shifts (in-game effect to be verified).
+  the base; only the chunk suffix shifts. For battle chunks this is not
+  currently safe: a shifted suffix has been observed to corrupt portrait/map
+  assets. Use block-budget validation for battle chunks until
+  `docs/BATTLE_SUFFIX_FORMAT.md` is resolved.
 - The inserter first absorbs block growth into the chunk's own trailing zero
   padding. If that is not enough, fixed-size repack may move later chunks and
   reclaim whole-sector padding elsewhere in the same SCEN/SCEN2 file. The
@@ -138,8 +141,11 @@ Still open outside the main story route:
    budget allows.
 4. Battle log composite messages (name-prefix runs like 「の効果！」) need
    template-aware translation if they appear untranslated in playtesting.
-5. Title screen logo/graphics (bitmap, optional).
-6. Release packaging: PPF + README; xdelta as alternative format.
+5. Battle chunk suffix relocation is not implemented. `scripts/lang5_battle_suffix.py`
+   identifies the archive-like suffix after text blocks, but the runtime fields
+   that must be updated when the suffix moves are still unknown.
+6. Title screen logo/graphics (bitmap, optional).
+7. Release packaging: PPF + README; xdelta as alternative format.
 
 Credits/staff roll is intentionally left untranslated (kept in JP).
 

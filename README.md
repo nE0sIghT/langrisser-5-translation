@@ -151,6 +151,8 @@ For battle chunks with portrait/asset regressions, also run
 `python3 scripts/lang5_validate_en.py N --budget-mode block`: this stricter
 mode requires the translation to fit inside the original text block so the
 following chunk data stays at byte-identical offsets.
+`scripts/lang5_battle_suffix.py` reports the archive-like battle suffix that
+currently forces this stricter rule.
 
 For names/menus instead of script text: edit `names_base.csv` /
 `system_menu_map.json`; `scripts/lang5_build_names_map.py` expands the
@@ -195,4 +197,6 @@ The pipeline is not tied to English:
 - `translation.txt` — borgor's GameFAQs scene-by-scene EN script; its
   wording may be reused where it fits the JP line and the byte budget.
 - `docs/PLAN.md` — verified container format, root-cause notes, roadmap.
+- `docs/BATTLE_SUFFIX_FORMAT.md` — current notes on the battle chunk payload
+  after the text block.
 - `external/lang3` — the Langrisser 3 toolkit this one is modeled on.

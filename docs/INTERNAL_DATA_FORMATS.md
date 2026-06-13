@@ -16,11 +16,16 @@ Container layout:
 Each chunk:
 1. Local record offset table (`u16` ascending offsets)
 2. Record byte streams (word-oriented script data)
+3. Optional non-text suffix data after the text block
 
 Record word format:
 - `u16` tokens
 - printable tokens are generally `< 0xE000`
 - control tokens are mostly high ranges (`0xFxxx`, `0xFFxx`)
+
+Battle chunks `001`-`042` have an archive-like suffix immediately after the
+text block. Its current reverse-engineering notes and relocation risk are in
+`docs/BATTLE_SUFFIX_FORMAT.md`.
 
 ## Text stream model
 
