@@ -1,0 +1,106 @@
+# file=SCEN.DAT chunk=118 chunk_start=0x14B1800
+# block_base=0x6FC8 block_size=0x22A4 records=104
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Lainforce<$FFFF>
+8	Aizer<$FFFF>
+9	Virash<$FFFF>
+10	Landius<$FFFF>
+11	Emily<$FFFF>
+12	After the Battle<$FFFF>
+13	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0038>Gh… it can't<$FFFC>be<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0039>that I should be the one<$FFFC>defeated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+14	<$FB00><$003A>Lainforce. As promised,<$FFFC>answer my question.<$FFFE>
+15	<$FB00><$003B>What is it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+16	<$FB00><$003C>What is your true aim.<$FFFE>
+17	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$003D>My true aim, you<$FFFC>say？<$FFFE>
+18	<$FFF7><$FB00><$003E>Yeah.<$FFF5><$FFF8><$FE1E> <$FFF6><$FB00><$003F>Crimso stays in<$FFFC>the sky and your kin's crisis is<$FFFC>past. Why fight on so hard？<$FFFE>
+19	<$FFF7><$FB00><$0040>…Wha…？<$FFF5><$FFF8><$FFFE>
+20	<$FB00><$0041>I want to know too. At<$FFFC>the least, I've a right to ask.<$FFFD><$FB00><$0042>If you only meant to restore<$FFFC>Crimso's orbit, why did you have<$FFFC>to attack my village？<$FFFE>
+21	<$FB00><$0043>That was<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+22	<$FB00><$0044>I'll tell the rest from<$FFFC>here<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FB00><$0045>Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+24	<$FB00><$0046>And Virash too！ You,<$FFFC>you're the one who attacked our<$FFFC>village<$FFF5><$FFF8>…<$FE14>…<$FE14>！<$FFFE>
+25	<$FB00><$0047>Don't be so hasty,<$FFFC>Brenda.<$FFF5> <$FB00><$0048>He has something to say<$FFFC>at the end.<$FFF5> <$FE28><$FB00><$0049>It'd be good to hear<$FFFC>his last wish.<$FFFE>
+26	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$004A>All right<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+27	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$004B>Forgive me, Lord<$FFFC>Virash, Lady Brenda.<$FFFE>
+28	<$FB00><$004C>It was I who attacked<$FFFC>that village. And without Lord<$FFFC>Lainforce's knowledge.<$FFFE>
+29	<$FB00><$004D>What！<$FFF5><$FFF7><$FFFE>
+30	<$FB00><$004E>At first, Lord Lainforce<$FFFC>and I approached Recrio Village.<$FFFD>It kept a map of the Crimsolander<$FFFC>military sites used in the last<$FFFC>great war.<$FFFE>
+31	<$FB00><$004F>Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+32	<$FFF8><$FB00><$0050>Shh！<$FFFE>
+33	<$FB00><$0051>But there Lord Lainforce<$FFFC>met you, Lady Brenda, and his<$FFFC>heart changed.<$FFFE>
+34	<$FFFA><$FB00><$0052>Stop, Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+35	<$FB00><$0053>No. I cannot pass on<$FFFC>until I clear the misunderstanding<$FFFC>between you two. Forgive my<$FFFC>rudeness, but let me speak.<$FFFE>
+36	<$FFF8><$FFFA>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+37	<$FB00><$0054>That Lord Lainforce's<$FFFC>feelings then were no lie, you, Lady<$FFFC>Brenda, of all people, must know<$FFFC>best.<$FFFE>
+38	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>I didn't want to<$FFFC>doubt it either<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0056>but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FB00><$0057>Lord Lainforce was taken<$FFFC>with you. And Crimsonia's long-held<$FFFC>wish, to rule this surface once<$FFFC>more, came into peril.<$FFFD><$FB00><$0058>So Zero lied to Lord Lainforce. That<$FFFC>you already had a fiancee, and<$FFFC>weren't serious about him.<$FFFE>
+40	<$FB00><$0059>What！<$FFF5><$FFF8><$FE1E><$FE1E> <$FFF6><$FB00><$005A>But I… saw<$FFFC>Brenda and that man talking<$FFFC>fondly<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+41	<$FFF6><$FB00><$005B>I saw Brenda laughing<$FFFC>happily at that man's words<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+42	<$FB00><$005C>Talking fondly<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$005D>Virash is like a brother to me,<$FFFC>you know？<$FFFE>
+43	<$FB00><$005E>I carried messages<$FFFC>between the Crimsolanders, so I<$FFFC>was rarely in Recrio Village.<$FFFD><$FB00><$005F>You must have seen the time I<$FFFC>came home after long and she was<$FFFC>sharing news with me.<$FFFE>
+44	<$FB00><$0060>Then<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0061>it was a<$FFFC>misunderstanding<$FFF5><$FFF8>…<$FE1E>…<$FE14>.<$FFFE>
+45	<$FB00><$0062>Looking back, even that<$FFFC>misunderstanding may have been<$FFFC>carefully set up by Zero.<$FFFD><$FB00><$0063>Zero, who always forced heavy<$FFFC>duties on him, on that one day<$FFFC>allowed Lord Lainforce to go out.<$FFFE>
+46	<$FB00><$0064>Why would Zero go so<$FFFC>far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+47	<$FB00><$0065>That man was faithful to<$FFFC>his duty. Faithful enough to kill<$FFFC>his own feelings for it.<$FFFD><$FB00><$0066>Would Lord Lainforce's change of<$FFFC>heart doom Crimsonia. That alone<$FFFC>was on his mind.<$FFFD><$FB00><$0067>One day, Zero ordered me thus.<$FFFC>Attack Recrio Village, without Lord<$FFFC>Lainforce.<$FFFD><$FB00><$0068>So on my own, I called Lady Brenda<$FFFC>to that hill, and attacked the<$FFFC>village meanwhile.<$FFF5><$FE1E><$FE14> <$FB00><$0069>That deepened the<$FFFC>misunderstanding between you two.<$FFFD><$FB00><$006A>I am sorry.<$FFFE>
+48	<$FB00><$006B>So that's how it<$FFFC>was<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE3C> <$FFF6><$FB00><$006C>I put you through<$FFFC>nothing but pain. My thanks.<$FFFE>
+49	<$FB00><$006D>But why？<$FFF5> <$FB00><$006E>You who<$FFFC>loved Brenda so much, why do you<$FFFC>fight like this？<$FFFE>
+50	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006F>Zero's influence,<$FFFC>perhaps.<$FFFD><$FB00><$0070>I am a prince of Crimsonia. A<$FFFC>prince must cast off private<$FFFC>feeling for his people.<$FFFD><$FFF9><$FB00><$0071>Brenda. When our love ended, I<$FFFC>awoke to my duty.<$FFFD><$FB00><$0072>And to forget you, I cast myself<$FFFC>away<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+51	<$FB00><$0073>Lain<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+52	<$FB00><$0074>But I lost<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FB00><$0075>Crimsonia is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF8><$FFFA><$FB00><$0076>Heh.<$FFF5><$FE28> <$FFF6><$FB00><$0077>What was it<$FFFC>all for, the things I've done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+53	<$FB00><$0078>Lord Lainforce. Do you<$FFFC>still cling to winning and<$FFFC>losing？<$FFFD><$FB00><$0079>And you did stop Crimso. Now,<$FFFC>isn't it all right to show your<$FFFC>true feelings？<$FFFE>
+54	<$FB00><$007A>My<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007B>true<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007C>feelings, you<$FFFC>say….<$FFFE>
+55	<$FB00><$007D>Your wish was to save<$FFFC>Crimsonia from its crisis.<$FFFD><$FFF6><$FB00><$007E>Just because some of Crimsonia long<$FFFC>for past glory, you need not<$FFFC>pursue it.<$FFFD><$FB00><$007F>You, the prince, hold the right<$FFFC>to decide your people's future.<$FFFE>
+56	<$FB00><$0080>What would you have me<$FFFC>do, Aizer.<$FFFE>
+57	<$FB00><$0081>Coexistence. You once said<$FFFC>this to me.<$FFFD>How wonderful it would be to<$FFFC>coexist with surface-dwellers, like<$FFFC>the Crimsolanders.<$FFFD><$FB00><$0082>I am of the surface, yet I<$FFFC>believe you and I understood each<$FFFC>other. It is by no means<$FFFC>impossible<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+58	<$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0083>True.<$FFFD>I'm one who lost once.<$FFF5><$FFF8><$FE1E> <$FFF6><$FB00><$0084>But what<$FFFC>we have done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+59	<$FB00><$0085>We Crimsolanders only wish<$FFFC>to live quietly alongside humans.<$FFFC>If Crimsonia has no will to fight,<$FFFC>there's no need to be enemies.<$FFFD><$FB00><$0086>And your last trump card, the<$FFFC>sky battleship, was sunk by the<$FFFC>ultimate weapon's attack.<$FFFE>
+60	<$FB00><$0087>What！<$FFF5><$FFF7><$FE1E> <$FFF6><$FB00><$0088>Then Zero is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+61	<$FB00><$0089>Now is not the time to<$FFFC>quarrel among ourselves.<$FFFD><$FB00><$008A>Unless we take Alhazard from the<$FFFC>demons<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008B>no, the true holy sword,<$FFFC>this surface will fall into their<$FFFC>hands.<$FFFE>
+62	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>Understood.<$FFFE>
+63	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008D>It seems my part is<$FFFC>done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+64	<$FFF6><$FB00><$008E>That I cannot see the<$FFFC>world where Lord Lainforce and<$FFFC>humans coexist<$FE14>…<$FE14>…<$FE14> is<$FE14>…<$FE14>…<$FE14> my one<$FFFC>regret<$FE14>…<$FE14>…<$FFF5><$FFFE>
+65	<$FB00><$008F>Aizer！ Don't die,<$FFFC>Aizer！ I haven't yet repaid my<$FFFC>debt to you！<$FFFE>
+66	…<$FE1E>…<$FE1E><$FB00><$0090>Lain…for…ce…, my<$FFFC>lord…<$FFF5><$FFF8><$FFFE>
+67	<$FFFA><$FB00><$0091>I'm sorry, Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0092>I<$FFFC>put you through nothing but<$FFFC>hardship<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0093>My debt I'll repay by saving this<$FFFC>world. Watch over me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+68	<$FFF6><$FB00><$0094>But so the use of the<$FFFC>ultimate weapon is known at last.<$FFFE>
+69	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0095>Lainforce. Tell us<$FFFC>about this ultimate weapon.<$FFFE>
+70	<$FB00><$0096>The ultimate weapon used<$FFFC>in the ancient war is the<$FFFC>bombardment from that blue moon<$FFFC>floating in the night sky, Peiria.<$FFFE>
+71	<$FB00><$0097>In other words, a<$FFFC>high-output magitek cannon firing<$FFFC>from orbit. Peiria was an artificial<$FFFC>body to begin with.<$FFFE>
+72	<$FB00><$0098>That moon is artificial！？<$FFFE>
+73	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0099>Unbelievable<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+74	<$FFFA><$FB00><$009A>So ancient magitek made<$FFFC>such things possible<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+75	<$FB00><$009B>And the holy sword is<$FFFC>the key that controls that cannon.<$FFFE>
+76	<$FB00><$009C>So that's why Brenda was<$FFFC>searching for the holy sword.<$FFFE>
+77	<$FFFA><$FB00><$009D>Sorry. It was a secret,<$FFFC>you see.<$FFFE>
+78	<$FB00><$0002><$FB00><$009E>The holy sword gathers<$FFFC>mana from the air and sends it<$FFFC>to Peiria, then strikes down at<$FFFC>the wielder's chosen place.<$FFFD>But one shot uses a great deal<$FFFC>of mana.<$FFFE>
+79	<$FB00><$009F>So there's a limit to<$FFFC>how many times it can fire.<$FFFE>
+80	<$FB00><$00A0>In the ancient war, they<$FFFC>used up the surface's mana<$FFFC>entirely.<$FFFD>Because of it the surface mana<$FFFC>was depleted for over a thousand<$FFFC>years.<$FFFD><$FB00><$00A1>As a result, the mana-drive<$FFFC>magitek systems became mere junk.<$FFFD><$FB00><$00A2>And the ancient magic<$FFFC>civilization, its population<$FFFC>war-slashed and its mana gone,<$FFFC>effectively perished.<$FFFE>
+81	<$FB00><$00A3>By the way, Lainforce, do<$FFFC>you know how many more shots it<$FFFC>can fire？<$FFFE>
+82	<$FB00><$00A4>For Crimso, half the<$FFFC>air's mana was used.<$FFFD>By calculation, the ultimate weapon's<$FFFC>continuous-use limit is three<$FFFC>shots.<$FFFE>
+83	<$FB00><$00A5>It fired once on the<$FFFC>sky battleship, so that leaves two,<$FFFC>right？<$FFFE>
+84	<$FB00><$00A6>It can fire two more<$FFFC>shots strong enough to sink a<$FFFC>battleship in one blow<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+85	<$FB00><$00A7>Then what about<$FFFC>Langrisser？<$FFF5><$FFF8><$FFFB> <$FB00><$00A8>It too should be made<$FFFC>from a holy sword. If we use it<$FFFC>to disrupt the ultimate weapon<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+86	<$FB00><$00A9>As I said before, the<$FFFC>holy sword that became Langrisser is<$FFFC>a replica we Crimsolanders made.<$FFFC>And an unfinished one at that.<$FFFD><$FB00><$00AA>To control it with Langrisser,<$FFFC>you'd have to go to Peiria's very<$FFFC>core.<$FFFE>
+87	<$FB00><$00AB>And there's a<$FFFC>fundamental difference in structure.<$FFFD>What Langrisser draws on is not<$FFFC>mana but the power of human<$FFFC>will.<$FFFD><$FB00><$00AC>But to extract human will as<$FFFC>energy, unlike pure mana, you need<$FFFC>over a thousand people at once.<$FFFD><$FB00><$00AD>In short, it's like a defective<$FFFC>product.<$FFFE>
+88	<$FB00><$00AE>In the end, we have to<$FFFC>take Alhazard from the demons.<$FFFE>
+89	<$FB00><$00AF>But the ultimate weapon<$FFFC>has a weakness too.<$FFF5><$FFFB> <$FB00><$00B0>It can't<$FFFC>strike where Peiria cannot see.<$FFFD><$FB00><$00B1>To fire, the target area must not<$FFFC>be covered by cloud, and from that<$FFFC>point the moon's elevation must be<$FFFC>30 degrees or more.<$FFFE>
+90	<$FFFA><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$00B2>I see. We might be<$FFFC>able to use that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+91	<$FFFA><$FB00><$00B3>Virash？<$FFF5> <$FFF9><$FB00><$00B4>Being coy is a<$FFFC>bad habit.<$FFFE>
+92	<$FB00><$00B5>The ancient magic<$FFFC>civilization even controlled the<$FFFC>weather. Move that device, and you<$FFFC>can make clouds form.<$FFFD><$FB00><$00B6>If it's still as I found it<$FFFC>before, there should be energy left<$FFFC>to keep clouds up for about three<$FFFC>days.<$FFFE>
+93	<$FB00><$00B7>Tell us where it is.<$FFFC>We'll head there at once！<$FFFE>
+94	<$FB00><$00B8>Then take my subordinate,<$FFFC>a magitek engineer, with you.<$FFFE>
+95	<$FFF8><$FB00><$00B9>Mm.<$FFFE>
+96	<$FB00><$00BA>Emily, command the<$FFFC>Federation troops and keep the<$FFFC>demons in check.<$FFFE>
+97	<$FB00><$00BB>Understood.<$FFFE>
+98	<$FB00><$00BC>I'll tell the admiral of<$FFFC>this too and try to get him to<$FFFC>send troops.<$FFFE>
+99	<$FB00><$00BD>I'm counting on you.<$FFFD>And split the units into small<$FFFC>groups, don't bunch them up. We<$FFFC>can't have them be ultimate-weapon<$FFFC>targets.<$FFFE>
+100	<$FB00><$00BE>I know.<$FFFE>
+101	<$FB00><$00BF>Let's go, sister！<$FFFE>
+102	<$FFF7><$FB00><$00C0>Yes！<$FFF5><$FFF8><$FFFE>
+103	<$FB00><$00C1>I'll command the Crimson<$FFFC>Knights and keep the demons in<$FFFC>check. I'm counting on you！<$FFFE>
+104	<$FB00><$00C2>Yeah. Leave it to me！<$FFFE>
