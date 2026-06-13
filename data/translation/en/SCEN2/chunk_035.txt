@@ -1,0 +1,88 @@
+# file=SCEN.DAT chunk=35 chunk_start=0x60C800
+# block_base=0xAEB4 block_size=0x1034 records=86
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Gaiel<$FFFF>
+8	Monster<$FFFF>
+9	Control prog.<$FFFF>
+10	・Defeat Gaiel within 20 turns<$FFFE>
+11	・20 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>
+12	Demon Temple, Interior<$FFFF>
+13	<$FFF8><$FB00><$0003>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0004>So<$FFFC>you've come at last.<$FFFE>
+14	<$FFF8>…<$FFF6><$FB00><$0005>Gaiel. You can't<$FFFC>escape now.<$FFFE>
+15	<$FB00><$0006>Escape？<$FFF5> <$FB00><$0007>When have I<$FFFC>ever fled？<$FFF5> <$FB00><$0008>I'll thank you not to<$FFFC>lump me with Glob.<$FFFE>
+16	<$FB00><$0009>You who tried to<$FFFC>attack us, your own allies and<$FFFC>all, what can you say.<$FFFE>
+17	<$FB00><$000A>Allies？<$FFF5> <$FB00><$000B>Who are my<$FFFC>allies？<$FFF5> <$FB00><$000C>Back when I served Boser,<$FFFC>perhaps, but not now.<$FFFD><$FB00><$000D>I care nothing for the demons'<$FFFC>future. I will rule this world！<$FFFE>
+18	<$FB00><$000E>That I will never<$FFFC>allow！<$FFF5> <$FB00><$000F>By the blood of Kalxath,<$FFFC>I'll defeat you！<$FFF5> <$FB00><$0010>Prepare yourself！<$FFFE>
+19	<$FB00><$0011>An heir of the light<$FFFC>and Langrisser.<$FFF5><$FB00><$0012>What a vexing pair.<$FFF5><$FFFC><$FB00><$0013>But Lord Gaiel won't flinch at<$FFFC>the likes of that！<$FFFE>
+20	・Defeat Gaiel within 18 turns<$FFFE>
+21	・18 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>
+22	<$FFF8><$FB00><$0014>Hm？<$FFF5> <$FB00><$0015>The clouds are<$FFFC>clearing, bit by bit<$FFF5><$FFF8>…<$FB00><$0016>Heh heh<$FFFC>heh！<$FFF5> <$FFF6><$FB00><$0017>Luck has come around to me！<$FFFE>
+23	<$FB00><$0018>The weather control<$FFFC>is fading<$FFF5><$FFF8>…. <$FFF6><$FB00><$0019>We have to hurry, this<$FFFC>is bad！<$FFFE>
+24	<$FB00><$001A>It's growing brighter<$FFFC>little by little.<$FFFE>
+25	<$FB00><$001B>This is bad.<$FFF5> <$FB00><$001C>The<$FFFC>clouds clearing is only a matter of<$FFFC>time<$FFF5><$FFF8>….<$FFFE>
+26	<$FB00><$0023>I can see stars<$FFFC>through the gaps in the clouds<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$0024>We're out of time….<$FFFE>
+27	<$FB00><$0023>I can see stars<$FFFC>through the gaps in the clouds<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$0024>We're out of time….<$FFFE>
+28	Skilled indeed.<$FFFD>But how about this！<$FFFE>
+29	Here a pillar's base is missing<$FFFC>and a deep hole opens. Listening<$FFFC>close, a voice comes from within.<$FFFD>I shall put some questions to<$FFFC>you. Answer honestly.<$FFFD>Answer the voice's questions？<$FFFE>
+30	Are you content with your present<$FFFC>self？<$FFFE>
+31	Why do you fight？<$FFFE>
+32	・Because I love battle<$FFFE>
+33	・To protect the human world from demons<$FFFE>
+34	Do you love this world？<$FFFE>
+35	I have heard your heart well.<$FFFD>Then I'll lend my power to your<$FFFC>ideal.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Drake Rod<$FFF3> obtained！<$FFFE>
+36	…I see. Then live by your own<$FFFC>strength.<$FFFD>The voice fell silent.<$FFFE>
+37	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
+38	<$FB00><$004B>No… that I should…<$FFFE>
+39	<$FB00><$004C>Marie, leave this to<$FFFC>us and pull back！<$FFFE>
+40	…<$FB00><$004D>I'm sorry….<$FFFE>
+41	<$FB00><$007B>I can still… I<$FFFC>can still fight…<$FFFE>
+42	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+43	<$FB00><$007D>But…<$FFFE>
+44	<$FB00><$007E>Trust your comrades！<$FFFE>
+45	<$FB00><$007F>…Understood… The rest<$FFFC>is yours…<$FFFE>
+46	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
+47	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
+48	<$FB00><$006D>Yeah, I'm fine… I<$FFFC>can still go…<$FFFE>
+49	<$FB00><$006E>Fall back, Brenda！<$FFFC>Don't overdo it！<$FFFE>
+50	<$FB00><$006F>…I'll do that. I<$FFFC>don't want to drag you down…<$FFFE>
+51	<$FB00><$005C>Ow！ Y, you！<$FFFE>
+52	<$FB00><$005D>Clarett！？ Don't overdo<$FFFC>it！<$FFFE>
+53	<$FB00><$005E>B, but….<$FFFE>
+54	<$FB00><$005F>Enough, fall back！<$FFFE>
+55	<$FB00><$0060>Sorry, at such a<$FFFC>crucial time….<$FFFE>
+56	<$FB00><$008A>Lanford！<$FFFE>
+57	<$FB00><$008B>…I'm all right….<$FFFC>I won't leave it all to you…<$FFFE>
+58	<$FB00><$008C>Trust us！<$FFFE>
+59	<$FB00><$008D>…Comrades, eh. Then<$FFFC>I'll fall back.<$FFFE>
+60	Gogah！<$FFFE>
+61	WOOOO…N！<$FFFE>
+62	Hiii！ A scar, on my face！<$FFFE>
+63	…….<$FFFE>
+64	Gyaaah！<$FFFE>
+65	…SHAAA….<$FFFE>
+66	GROOOO…！<$FFFE>
+67	…I'll be waiting in hell… …you<$FFFC>humans….<$FFFE>
+68	<$FB00><$002B>Your defeat.<$FFFE>
+69	<$FFF8>…<$FB00><$002C>Heh heh heh<$FFF5>….<$FFFE>
+70	<$FB00><$002D>What's so funny？<$FFFE>
+71	<$FFF8>…<$FFF6><$FB00><$002E>A world I cannot<$FFFC>have, I do not need. I'll<$FFFC>destroy it.<$FFFE>
+72	<$FB00><$002F>However you fire the<$FFFC>ultimate weapon, one shot can't<$FFFC>destroy this world.<$FFF5> <$FB00><$0030>Spare me the<$FFFC>bluff.<$FFFE>
+73	<$FFF8>…<$FFF6><$FB00><$0031>Heh heh heh！ A<$FFFC>bluff…？ Do you truly think it<$FFFC>a bluff？<$FFFD><$FB00><$0032>The remaining mana is one shot's<$FFFC>worth, but there is a way<$FFF5><$FFF8>….<$FFFE>
+74	<$FB00><$0033>What do you mean to<$FFFC>do？<$FFFE>
+75	<$FB00><$0034>This！<$FFFD><$FB00><$0035>Move, Peiria！<$FFFE>
+76	…<$FB00><$0036>Command accepted.<$FFFC>NOW BEGINNING<$FFFC>MOVEMENT TOWARD<$FFFC>CRIMSO.<$FFFE>
+77	<$FB00><$0037>Toward Crimso<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>Don't<$FFFC>tell me, you'll crash the moons<$FFFC>together？<$FFFE>
+78	<$FB00><$0039>Heh heh heh！ If<$FFFC>two moons collide, this surface<$FFFC>won't escape unscathed<$FFF5><$FFF8>….<$FFFD>…<$FFF6><$FB00><$003A>I'll be waiting… in hell… ahead<$FFFC>of you<$FFF5><$FFF8>….<$FFFE>
+79	<$FB00><$003B>Wh, what do we do？<$FFFE>
+80	<$FB00><$003C>Whatever happens, we<$FFFC>have to tell Lainforce and the<$FFFC>others！<$FFFE>
+81	<$FB00><$001D>I can make out the<$FFFC>blue moon through the clouds<$FFF5><$FFF8>….<$FFFE>
+82	<$FB00><$001E>Just a little more.<$FFF5><$FFFC><$FB00><$001F>The moment the clouds fully break<$FFFC>is your end！<$FFFE>
+83	<$FB00><$0020>Now, show yourself<$FFFC>quickly, Peiria！<$FFFE>
+84	<$FB00><$0021>No time！<$FFF5> <$FB00><$0022>We have to<$FFFC>beat him at once！<$FFFE>
+85	<$FFF8><$FB00><$0025>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0026>You've<$FFFC>lost.<$FFF5> <$FB00><$0027>Behold that blue moon！<$FFF5> <$FB00><$0028>How<$FFFC>cold and beautiful！<$FFFD><$FB00><$0029>Now, Peiria！ Erase these ones！<$FFFE>
+86	<$FB00><$002A>No！<$FFF5><$FFF7><$FFFE>

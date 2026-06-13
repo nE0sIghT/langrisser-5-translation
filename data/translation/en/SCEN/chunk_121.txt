@@ -1,0 +1,45 @@
+# file=SCEN.DAT chunk=121 chunk_start=0x152C800
+# block_base=0x5758 block_size=0x0AD8 records=43
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Virash<$FFFF>
+8	Lainforce<$FFFF>
+9	Lainforce's Castle<$FFFF>
+10	<$FB00><$003D>To think there was such<$FFFC>a method<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+11	<$FB00><$003E>What are you admiring it<$FFFC>for！<$FFF5> <$FB00><$003F>Peiria is in danger, you<$FFFC>know？<$FFFE>
+12	<$FB00><$0040>I just tried to stop<$FFFC>Peiria with Alhazard, but there<$FFFC>wasn't enough mana left to move it<$FFFC>again.<$FFFE>
+13	<$FB00><$0041>Then there's no saving<$FFFC>us？<$FFF5> <$FB00><$0042>There's no other way？<$FFFE>
+14	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0043>What was it all for,<$FFFC>the things we did<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$0044>It's not that there's no<$FFFC>way.<$FFFE>
+16	<$FB00><$0045>Truly, Virash？<$FFFE>
+17	<$FB00><$0046>Alhazard is surely no use<$FFFC>now.<$FFF5> <$FB00><$0047>But Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$0048>Langrisser？<$FFF5> <$FB00><$0049>But it's<$FFFC>unfinished<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FFF7><$FB00><$004A>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$004B>With Langrisser's<$FFFC>power, it can't be moved from<$FFFC>here.<$FFFD><$FB00><$004C>But board Peiria, and moving it<$FFFC>isn't impossible.<$FFFE>
+20	<$FB00><$004D>True enough<$FFF5><$FFF8>…<$FE14>…<$FE14>. <$FFF6><$FB00><$004E>But one<$FFFC>more problem remains<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+21	<$FB00><$004F>One more problem？<$FFFE>
+22	<$FFF7><$FB00><$0050>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0051>Langrisser, which<$FFFC>draws on human will, uses no mana<$FFFC>at all.<$FFFD><$FFFA><$FB00><$0052>But to gather enough will to<$FFFC>control Peiria, you need a<$FFFC>thousand people.<$FFFD><$FB00><$0053>How to carry that many to<$FFFC>Peiria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FB00><$0054>At the Crimsolander base<$FFFC>there should be one more<$FFFC>mid-sized sky battleship, no？<$FFFE>
+24	<$FB00><$0055>Even stripping all its<$FFFC>arms, a thousand is impossible.<$FFFE>
+25	<$FB00><$0056>There are small craft<$FFFC>too, but their output could never<$FFFC>reach Peiria.<$FFFE>
+26	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0057>In effect, no<$FFFC>recourse, then.<$FFFE>
+27	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0058>It's all right.<$FFF5> <$FB00><$0059>If<$FFFC>even just we can reach Peiria, we<$FFFC>should be able to stop it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+28	<$FB00><$005A>What are you saying？<$FFFE>
+29	<$FB00><$005B>For an ordinary person it<$FFFC>may be impossible.<$FFF5> <$FB00><$005C>But I,<$FFFC>remodeled by Gizarof, can do it.<$FFFE>
+30	<$FB00><$005D>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+31	<$FB00><$005E>The remodeling done to<$FFFC>Omega and me amplifies power<$FFFC>taken in from outside.<$FFF5><$FFFD><$FB00><$005F>If it's only amplifying the human<$FFFC>will gathered by Langrisser, just us<$FFFC>can draw enough power.<$FFFE>
+32	<$FB00><$0060>But your ability can<$FFFC>only be used once.<$FFFE>
+33	<$FB00><$0061>Precisely because it's a<$FFFC>one-time ability.<$FFF5> <$FB00><$0062>If not now,<$FFFC>when？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0063>Don't worry, one use won't<$FFFC>kill me.<$FFFE>
+34	<$FB00><$0064>There seems no other<$FFFC>way.<$FFF5> <$FB00><$0065>Use the sky battleship.<$FFFE>
+35	<$FB00><$0066>No, the battleship's<$FFFC>better used to bring Crimsonia down<$FFFC>to the surface.<$FFF5> <$FB00><$0067>Lend me a small<$FFFC>craft instead.<$FFFE>
+36	<$FB00><$0068>What about power？<$FFF5><$FFFB> <$FB00><$0069>It<$FFFC>could never break free of gravity.<$FFFE>
+37	<$FB00><$006A>Not with an ordinary<$FFFC>crystal.<$FFF5> <$FB00><$006B>But there's a high-purity<$FFFC>crystal.<$FFFE>
+38	<$FB00><$006C>That's it！<$FFF5> <$FB00><$006D>The crystal<$FFFC>my father and the others<$FFFC>found<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006E>So what my father did<$FFFC>was not wasted after all<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+40	<$FB00><$006F>Understood.<$FFF5><$FFFB> <$FB00><$0070>I'll order<$FFFC>the engineers to make the swap.<$FFF5><$FFFC><$FB00><$0071>I'll head for Crimso on the sky<$FFFC>battleship.<$FFFE>
+41	<$FB00><$0072>I'll help too.<$FFF5> <$FB00><$0073>We're no<$FFFC>longer at odds, after all<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+42	<$FFF8><$FB00><$0074>Mm.<$FFFE>
+43	<$FB00><$0075>Peiria is in your hands！<$FFFE><$FFFF>
