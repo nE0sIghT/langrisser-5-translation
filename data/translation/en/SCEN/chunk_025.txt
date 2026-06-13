@@ -1,0 +1,141 @@
+# file=SCEN.DAT chunk=25 chunk_start=0x3EA000
+# block_base=0x9328 block_size=0x1770 records=139
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Goldry<$FFFF>
+8	Landius<$FFFF>
+9	Soldier<$FFFF>
+10	・Defeat Goldry within 20 turns<$FFFE>
+11	・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
+12	Tunnel to Reynorz<$FFFF>
+13	<$FB00><$0046>Step aside quietly. We<$FFFC>must hurry on to Sutherland.<$FFFE>
+14	<$FB00><$0047>I've a job of my own.<$FFFC>Let no one through here！<$FFFE>
+15	<$FB00><$0048>What now, Lanford？<$FFFE>
+16	<$FB00><$0049>I cannot simply back off<$FFFC>because someone says no.<$FFFE>
+17	<$FB00><$004A>Then we force our way<$FFFC>through.<$FFFE>
+18	<$FB00><$004B>Hold it！ Don't try<$FFFC>anything funny！ My orders are to<$FFFC>collapse the tunnel itself if I<$FFFC>can't hold it.<$FFFE>
+19	<$FFF8><$FB00><$004C>Tch！<$FFFE>
+20	<$FB00><$004D>Halfway up this mountain<$FFFC>there's a tunnel to the far<$FFFC>side. Through it, Reynorz is<$FFFC>close.<$FFFE>
+21	<$FB00><$004E>Huh. I've wandered all<$FFFC>over, but I never knew there<$FFFC>was a tunnel here.<$FFFE>
+22	<$FB00><$004F>Well, few people try to<$FFFC>cross such rugged mountains.<$FFFE>
+23	<$FB00><$0050>Good thing we have<$FFFC>Alfred. A detour would have cost<$FFFC>us dearly.<$FFFE>
+24	<$FB00><$0051>Everyone, wait. It's<$FFFC>noisy up ahead.<$FFFE>
+25	<$FB00><$0052>Th, that's<$FFF5><$FFF8>…<$FFFE>
+26	<$FB00><$0053>Captain！ Suspicious<$FFFC>figures from below too！<$FFFE>
+27	<$FB00><$0054>What？<$FFF5><$FFF8> …<$FFF6><$FB00><$0055>Hm？ Those are<$FFF5><$FFF8>…<$FFFE>
+28	<$FB00><$0056>Ah！ That's the creep<$FFFC>who was in Caconsis！<$FFFE>
+29	<$FB00><$0057>So he quit Caconsis and<$FFFC>hired on with the Three-Country<$FFFC>Alliance.<$FFFE>
+30	<$FB00><$0058>No mistake. It's them.<$FFFC>Them above all I won't let<$FFFC>through！ You there, prep the<$FFFC>tunnel for demolition！<$FFFE>
+31	<$FB00><$0059>Right now？<$FFFE>
+32	<$FB00><$005A>Yes！ Use that blasting<$FFFC>powder Lord Zero gave us！ All of<$FFFC>it, and the tunnel's done for.<$FFFD><$FB00><$005B>Hold them off until I'm ready！<$FFFE>
+33	<$FB00><$005C>U, understood. Please<$FFFC>hurry.<$FFFE>
+34	<$FB00><$005D>Leave it to me.<$FFFE>
+35	<$FB00><$005E>They mean to wreck the<$FFFC>tunnel with that strange device.<$FFFE>
+36	<$FB00><$005F>But can they really do<$FFFC>that？<$FFFE>
+37	<$FB00><$0060>Right, you folks don't<$FFFC>know about blasting powder.<$FFFE>
+38	<$FB00><$0061>Is that Crimsonia's<$FFFC>ancient magic too？<$FFFE>
+39	<$FB00><$0062>No, not magic. Put<$FFFC>simply, it's a powder that explodes<$FFFC>when lit.<$FFFE>
+40	<$FB00><$0063>Something Lainforce gave<$FFFC>Goldry, no doubt.<$FFFE>
+41	<$FB00><$0064>Probably. With that<$FFFC>powder, a tunnel like this<$FFFC>collapses in an instant. Best stop<$FFFC>him fast.<$FFFE>
+42	・Defeat Goldry within 16 turns<$FFFE>
+43	<$FB00><$0073>Still quite a lot<$FFFC>left. Setting it all will take a<$FFFC>while yet.<$FFFE>
+44	…All right？ Will we make it in<$FFFC>time？<$FFFE>
+45	Yeah, I think we'll be fine,<$FFFC>probably…<$FFFE>
+46	・If he's the enemy, we'll be fine.<$FFFE>
+47	・Since it's Goldry we face…<$FFFE>
+48	・Him I can never forgive.<$FFFE>
+49	If he's the one we face, we'll<$FFFC>be fine.<$FFFE>
+50	R, right.<$FFFE>
+51	See？<$FFFE>
+52	Damn it！ Infuriating brats！<$FFFE>
+53	With Goldry for an opponent,<$FFFC>there's no telling what he'll do.<$FFFE>
+54	True… If he botches handling the<$FFFC>powder…<$FFFE>
+55	Yeah. Best to hurry.<$FFFE>
+56	He's the one who tried to force<$FFFC>himself on Clarett, wasn't he？<$FFFE>
+57	Yes. Demanded she pay an outrageous<$FFFC>toll with her body.<$FFFE>
+58	Him I can never forgive！<$FFFE>
+59	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now<$FFFC>just light it<$FFF5><$FFF8>…<$FFFE>
+60	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now<$FFFC>just light it<$FFF5><$FFF8>…<$FFFE>
+61	<$FB00><$007D>How did they get this<$FFFC>far<$FFF5><$FFF8>… <$FFF6><$FB00><$007E>Couldn't you hold a little<$FFFC>longer！ Truly useless lot！<$FFFE>
+62	<$FB00><$0065>Which side do we attack<$FFFC>from？<$FFFE>
+63	<$FB00><$0066>The west path is wide<$FFFC>but the long way. The east is<$FFFC>narrow and crawling with enemies,<$FFFC>but the shortest route.<$FFFD>Split up, or push through<$FFFC>together…<$FFFE>
+64	<$FB00><$0067>You'll manage it. I'm<$FFFC>counting on you！<$FFFE>
+65	<$FB00><$002C>Take this！<$FFFE>
+66	<$FB00><$002B>Eat this！<$FFFE>
+67	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
+68	<$FB00><$0046>Here goes.<$FFFE>
+69	<$FB00><$0047>Come if you dare.<$FFFE>
+70	<$FB00><$004E>Forgive me… I have to<$FFFC>pull back first…<$FFFE>
+71	<$FB00><$004F>Don't push it. Leave<$FFFC>the rest to us！<$FFFE>
+72	<$FB00><$0050>Please…<$FFFE>
+73	<$FB00><$0074>Here I go！<$FFFE>
+74	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
+75	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+76	<$FB00><$007D>But…<$FFFE>
+77	<$FB00><$007E>Trust your comrades！<$FFFE>
+78	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
+79	<$FB00><$0067>Here I go！<$FFFE>
+80	<$FB00><$0068>Come and get it！<$FFFE>
+81	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
+82	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
+83	<$FB00><$006D>Yeah, I'm fine… I can<$FFFC>still go…<$FFFE>
+84	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
+85	<$FB00><$006F>…I'll do that. I don't<$FFFC>want to drag you down…<$FFFE>
+86	<$FB00><$0054>I won't lose！<$FFFE>
+87	<$FB00><$0055>Give it up！<$FFFE>
+88	<$FB00><$0057>Aah！<$FFFE>
+89	<$FB00><$0058>Are you all right,<$FFFC>Clarett！？<$FFFE>
+90	<$FB00><$0059>This is a bit much…<$FFFE>
+91	<$FB00><$005A>Leave the rest to us<$FFFC>and fall back！<$FFFE>
+92	<$FB00><$005B>Sorry, it's in your<$FFFC>hands…<$FFFE>
+93	<$FB00><$0068>What now, Lanford？ They<$FFFC>mean to wreck the tunnel.<$FFFE>
+94	<$FB00><$0069>I will never allow it.<$FFFC>We fight, Landius.<$FFFE>
+95	<$FB00><$006A>Understood.<$FFFE>
+96	Time we moved out too？<$FFFE>
+97	Yeah.<$FFFE>
+98	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+99	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
+100	…Kh！ Forgive me, Lanford…<$FFFE>
+101	No…<$FFFE>
+102	D, damn…<$FFFE>
+103	I'll kill every last one of you！<$FFFE>
+104	S, strong… too strong…<$FFFE>
+105	My cavalry… can't be…<$FFFE>
+106	I never should have followed a<$FFFC>captain like him…<$FFFE>
+107	Uwooh！ I'm falling<$00E4><$00E5><$00E6>！！<$FFFE>
+108	Th, this… is true strength…<$FFFE>
+109	C, captain… it hurts…<$FFFE>
+110	<$FB00><$0072>He did say to handle it<$FFFC>with care. I'm no good at this<$FFFC>fiddly work, though…<$FFFE>
+111	<$FB00><$007C>Enough, I won't be<$FFFC>hindered！ I'll make you feel my<$FFFC>terror！<$FFFE>
+112	<$FB00><$007D>How did they get this<$FFFC>far<$FFF5><$FFF8>… <$FFF6><$FB00><$007E>Couldn't you hold a little<$FFFC>longer！ Truly useless lot！<$FFFE>
+113	<$FB00><$0083>U, ugh… I'm… I'm…<$FFFC>Damn it！ You'll pay for this！<$FFFE>
+114	<$FFF8>…<$FFF6><$FB00><$0084>It's over.<$FFFE>
+115	<$FB00><$0085>The tunnel's safe too.<$FFFC>Now we can press on.<$FFFE>
+116	<$FB00><$007F>Wh, what…<$FFFE>
+117	<$FB00><$0080>You're the only one<$FFFC>left. Give it up.<$FFFE>
+118	<$FB00><$0081>D, damn<$FFF5><$FFF8>… <$FFF6><$FB00><$0082>Even if I'm<$FFFC>the last one, I'll wreck this<$FFFC>tunnel！<$FFFE>
+119	Now just that man is left.<$FFFE>
+120	Landius. Shall we wait for them<$FFFC>and strike all at once？<$FFFE>
+121	Good idea. We'll regroup while we<$FFFC>wait.<$FFFE>
+122	<$FFF8>… <$FFF6>Someone's fighting up above too.<$FFFE>
+123	<$FB00><$006B>Y, you're Lanford！<$FFFE>
+124	<$FB00><$006C>Alfred！ It's been a<$FFFC>while.<$FFFE>
+125	<$FB00><$006D>It has, sir.<$FFFE>
+126	<$FB00><$006E>You too？<$FFFE>
+127	<$FB00><$006F>Yes. My brother has<$FFFC>joined the Three-Country Alliance,<$FFFC>and I mean to stop him.<$FFFE>
+128	<$FB00><$0070>Our goal is the same,<$FFFC>it seems. First we must deal with<$FFFC>this.<$FFFE>
+129	<$FB00><$0071>Right.<$FFFE>
+130	Good, nearly done.<$FFFE>
+131	Hold out just a little longer,<$FFFC>you lot！<$FFFE>
+132	U, understood…<$FFFE>
+133	Kh, best to hurry…<$FFFE>
+134	<$FB00><$0076>Right, ignite！<$FFF5><$FFF7><$FFFE>
+135	<$FB00><$0077>Stop！<$FFF5><$FFF7><$FFFE>
+136	<$FB00><$007B>N, no… No one said it<$FFFC>would explode…<$FFFE>
+137	<$FB00><$0078>No…<$FFFE>
+138	<$FB00><$0079>The tunnel…<$FFFE>
+139	<$FB00><$007A>Now we cannot go on…<$FFFE>

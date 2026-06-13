@@ -1,0 +1,48 @@
+# file=SCEN.DAT chunk=111 chunk_start=0x13A0000
+# block_base=0x44B8 block_size=0x0984 records=46
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Landius<$FFFF>
+8	After the Battle<$FFFF>
+9	<$FB00><$0086>Are you all right,<$FFFC>Lanford？<$FFFE>
+10	<$FB00><$0087>Thanks to you, I'm saved.<$FFFE>
+11	<$FB00><$0088>Lanford. And these<$FFFC>people？<$FFFE>
+12	<$FB00><$0089>Ah, this is Alfred. The<$FFFC>son of my father's dear friend.<$FFFE>
+13	<$FB00><$008A>A pleasure. I'm Alfred.<$FFFE>
+14	<$FB00><$008B>Landius, well met. I<$FFFC>serve now as envoy of the<$FFFC>Caconsis Kingdom.<$FFFE>
+15	<$FB00><$008C>Landius of the Caconsis<$FFFC>Kingdom<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE28> <$FFF6><$FB00><$008D>Could you be the<$FFFC>one my brother mentioned<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+16	<$FB00><$008E>Your brother？<$FFFE>
+17	<$FB00><$008F>Now that you mention<$FFFC>it, you said your brother fought<$FFFC>in Caconsis.<$FFFE>
+18	<$FB00><$0090>A man named McLain. Do<$FFFC>you know him？<$FFFE>
+19	<$FB00><$0091>Know him？ He fought at<$FFFC>our side as a comrade.<$FFFE>
+20	<$FB00><$0092>McLain's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I<$FFFC>see, so you're Marie. I'm glad<$FFFC>you're safe. Have you met McLain<$FFFC>yet？<$FFFE>
+21	<$FB00><$0094>Yes. He's on the El<$FFFC>Sallia continent now, but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FB00><$0095>El Sallia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0096>Ah, he<$FFFC>went after Jessica<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FB00><$0097>In any case, his kin<$FFFC>is safe. He'll be glad of it.<$FFFE>
+24	<$FB00><$0098>Speaking of kin, Alfred's<$FFFC>and yours<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+25	<$FB00><$0099>Yes. Lanford, there's<$FFFC>something I must tell you.<$FFFE>
+26	<$FB00><$009A>What is it, Alfred？<$FFFE>
+27	<$FB00><$009B>Listen well. The<$FFFC>Three-Country Alliance now throwing<$FFFC>the Federation into chaos<$FFFD>has someone pulling the strings<$FFFC>behind it.<$FFFE>
+28	<$FB00><$009C>Behind it？<$FFFE>
+29	<$FB00><$009D>This is no mere civil<$FFFC>war. It concerns Yeless… no, the<$FFFC>whole world.<$FFFE>
+30	<$FB00><$009E>Tell me everything.<$FFFE>
+31	<$FFFA><$FB00><$009F>The red moon Crimso,<$FFFC>and Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+32	<$FB00><$00A0>We want to thwart his<$FFFC>ambition and protect this world.<$FFFC>That's why we aid her and<$FFFC>Alfred.<$FFFE>
+33	<$FB00><$00A1>By rights we Crimsolanders<$FFFC>should handle it ourselves, but we<$FFFC>can't keep up the brave front<$FFFC>forever.<$FFFE>
+34	<$FB00><$00A2>Understood. Forgive me,<$FFFC>Landius. From here I will act with<$FFFC>these people.<$FFFD><$FB00><$00A3>With Crimsonia's ambition using my<$FFFC>father, I cannot stand by and<$FFFC>watch.<$FFFE>
+35	<$FB00><$00A4>I thought you'd say<$FFFC>that, Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll<$FFFC>return to Caconsis once and report<$FFFC>the situation to the admiral.<$FFFE>
+36	<$FFFA><$FB00><$00A6>And as for Emily<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+37	<$FB00><$00A7>I know. I'll find a<$FFFC>way to reach your sister myself.<$FFFE>
+38	<$FB00><$00A8>I'm sorry. I'm counting<$FFFC>on you.<$FFFE>
+39	<$FB00><$00A9>Take care, then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+40	<$0000> Lanford joined the party！<$FFFE>
+41	<$FB00><$00AA>It seems you've come to<$FFFC>an accord.<$FFFE>
+42	<$FB00><$00AB>Let's hurry！<$FFFE>
+43	<$FB00><$00AC>So, which one first？<$FFFE>
+44	<$FB00><$00AD>Alfred's domain is nearer<$FFFC>than mine.<$FFFE>
+45	<$FB00><$00AE>Then we start from<$FFFC>Alfred's side？<$FFFE>
+46	<$FB00><$00AF>Right, let's go！<$FFFE>

@@ -1,0 +1,70 @@
+# file=SCEN.DAT chunk=69 chunk_start=0xCB7000
+# block_base=0x5B90 block_size=0x1338 records=68
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Virash<$FFFF>
+8	Brenda's Sickroom<$FFFF>
+9	<$FFF8><$FE3C>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0003>Where… am I<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+10	<$FB00><$0004>Awake at last, Brenda.<$FFFE>
+11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0005>Virash<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+12	<$FB00><$0006>Hah！ Lainforce！？<$FFFE>
+13	<$FB00><$0007>He saved his men and<$FFFC>pulled back.<$FFFE>
+14	<$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0008>I see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$0009>Awake at last, Brenda.<$FFFE>
+16	<$FB00><$000A>Are you all right？<$FFFE>
+17	<$FB00><$000B>Yeah. Sorry to worry<$FFFC>you.<$FFFE>
+18	<$FB00><$000C>Worry we did. You were<$FFFC>like a different person,<$FFFC>Brenda<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+20	<$FB00><$000D>Did something happen<$FFFC>between you and that man？<$FFFE>
+21	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$000E>He… he is the one<$FFFC>who<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FB00><$000F>He is the man who<$FFFC>attacked our village.<$FFFE>
+23	<$FB00><$0010>Attacked your village？<$FFFE>
+24	<$FB00><$0011>Yeah. Killed every<$FFFC>villager. Then broke the dam<$FFFC>holding the river, to pass it off<$FFFC>as a flood.<$FFFE>
+25	<$FFF8><$FB00><$0012>Hmm.<$FFF5><$FFF8><$FE28> <$FFF6><$FB00><$0013>He didn't seem like<$FFFC>such a bad man, though.<$FFFE>
+26	<$FB00><$0014>But what reason could he<$FFFC>have to attack a village？<$FFFE>
+27	<$FFFA><$FB00><$0015>That is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+28	<$FB00><$0016>It's time you told us.<$FFFC>Virash, who are you really？<$FFFE>
+29	<$FB00><$0017>I can't stay quiet any<$FFFC>longer. Isn't it time you told<$FFFC>the truth？<$FFFE>
+30	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0018>I suppose so. What<$FFFC>I'm about to tell you is all<$FFFC>true. More than you could ever<$FFFC>imagine.<$FFFE>
+31	<$FB00><$001A>I can't believe there<$FFFC>was such a terrible war<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+32	<$FB00><$001B>Then the airship Virash<$FFFC>lent us, was it a relic of that<$FFFC>age？<$FFFE>
+33	<$FB00><$001C>That's right. You've<$FFFC>started to grasp it, I think.<$FFFD>Brenda and I are descendants of<$FFFC>the Crimsonia labor class who<$FFFC>survived.<$FFFE>
+34	<$FB00><$001D>Those survivors are<$FFFC>called Crimsolanders, and our home,<$FFFC>Recrio Village,<$FFFD>was a place where Crimsolanders<$FFFC>lived side by side with the<$FFFC>earth-dwellers here.<$FFFE>
+35	<$FB00><$001E>Then Lainforce, who<$FFFC>attacked that Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+36	<$FB00><$001F>He is of the ruling<$FFFC>class from the red moon Crimso.<$FFFC>He came down to the surface during<$FFFC>Crimso's approach 200 years ago.<$FFFD><$FB00><$0020>And as Crimso nears again, he<$FFFC>schemes to seize this land once<$FFFC>more.<$FFFD><$FB00><$0021>Unlike us Crimsolanders, who seek to<$FFFC>coexist with humans, the<$FFFC>Crimsonians have never given up<$FFFC>ruling the surface.<$FFFE>
+37	<$FB00><$0022>We fight them to stop<$FFFC>exactly that.<$FFFE>
+38	<$FB00><$0023>Then if Lainforce were to<$FFFC>win<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FB00><$0024>He is the kind to wipe<$FFFC>out a village of his own people<$FFFC>without a thought. And Crimso<$FFFC>still holds many weapons.<$FFFD><$FB00><$0025>If he brings those to bear, we<$FFFC>have not the slightest chance of<$FFFC>winning.<$FFFE>
+40	<$FB00><$0026>So to keep this world at<$FFFC>peace, we have to stop him<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+41	<$FB00><$0027>Right now he's formed<$FFFC>the Three-Country Alliance and<$FFFC>made war on the Federation.<$FFFD>Amid the chaos of Gizarof's<$FFFC>revolt, he could win with ease.<$FFFE>
+42	<$FB00><$0028>And this Three-Country<$FFFC>Alliance, what is it？<$FFFE>
+43	<$FB00><$0029>Ah, of course. You were<$FFFC>in El Sallia, so you wouldn't<$FFFC>know.<$FFFE>
+44	<$FB00><$002A>The Three-Country<$FFFC>Alliance is an anti-Federation pact<$FFFD>made by Rochefort's lord Lainforce,<$FFFC>Sutherland's lord Lambert,<$FFFD>and Reynorz's lord Alvince.<$FFFE>
+45	<$FB00><$002B>Officially it's to take<$FFFC>back the lands Gizarof seized,<$FFFC>but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+46	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$002C>Reynorz… don't tell<$FFFC>me<$FFF5><$FFF7>…<$FE14>…<$FE14><$FFF6><$FB00><$002D>Brother joined without knowing<$FFFC>Lainforce's true aim<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+47	<$FB00><$002E>He's likely being used.<$FFFE>
+48	<$FB00><$002F>Everyone, lend me your<$FFFC>strength this time. My brother<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0030>I<$FFFC>have to stop my brother！<$FFFE>
+49	<$FB00><$0031>Right. Stopping the<$FFFC>Three-Country Alliance also means<$FFFC>crushing Lainforce's ambition.<$FFFE>
+50	<$FB00><$0032>Then our goals are the<$FFFC>same. Let's go stop Alfred's<$FFFC>brother.<$FFFE>
+51	<$FB00><$0034>Brenda, go with them.<$FFFC>And I think the two of you<$FFFC>should keep Langrisser.<$FFFE>
+52	<$FB00><$0033>Virash<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+53	<$FB00><$0035>Are you sure we should<$FFFC>hold it？<$FFFE>
+54	<$FB00><$0036>Yeah. The holy sword<$FFFC>that became that blade was forged<$FFFC>by us Crimsolanders in the great<$FFFC>war of old.<$FFFD><$FB00><$0037>Unfinished, sadly. But now it is<$FFFC>Langrisser, and in the hand of<$FFFC>one called heir of the light, it<$FFFC>can call forth new power.<$FFFD><$FB00><$0038>You should hold it, not us.<$FFFE>
+55	<$FB00><$0039>I see. So what will you<$FFFC>do, Virash？<$FFFE>
+56	<$FB00><$003A>Search for the true holy<$FFFC>sword.<$FFFE>
+57	<$FB00><$003B>The true holy sword？<$FFFE>
+58	<$FB00><$003C>If the holy sword that<$FFFC>became Langrisser is not the real<$FFFC>one, then the real one is<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$003D>Don't<$FFFC>tell me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+59	<$FFFA><$FB00><$003E>The true holy sword has<$FFFC>become a demon blade that opposes<$FFFC>Langrisser.<$FFFE>
+60	<$FB00><$003F>Alhazard<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+61	<$FB00><$0040>That's right.<$FFFD><$FB00><$0041>And the power the true holy<$FFFC>sword holds could call that great<$FFFC>war back to this land.<$FFFE>
+62	<$FB00><$0042>So that's why Lainforce<$FFFC>and the others are searching for<$FFFC>it.<$FFFE>
+63	<$FB00><$0043>The demon Gaiel has<$FFFC>it, you said. We'll look into<$FFFC>that. We'll send word if anything<$FFFC>comes up.<$FFFD><$FB00><$0044>For now, you handle the<$FFFC>Three-Country Alliance.<$FFFE>
+64	<$FB00><$0045>Right. First we persuade<$FFFC>Alfred's brother and shut the<$FFFC>Alliance down.<$FFFE>
+65	<$0000>From Virash's tale, the party<$FFFC>learned Lainforce's aim, and set<$FFFC>out for Reynorz to stop Alvince,<$FFFC>who was being used by him.<$FFFD><$0000>But the tunnel to their<$FFFC>destination was held by Goldry,<$FFFC>once of the Caconsis army,<$FFFD>now hired by the Three-Country<$FFFC>Alliance…<$FFFE>
+66	・Defeat Goldry within 20 turns<$FFFE>
+67	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry within 16 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
+68	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry within 20 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
