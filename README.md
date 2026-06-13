@@ -152,9 +152,10 @@ For battle chunks with portrait/asset regressions, also run
 mode requires the translation to fit inside the original text block so the
 following chunk data stays at byte-identical offsets.
 The normal inserter keeps grown text blocks 4-byte aligned, matching the
-original battle suffix alignment; block mode remains the conservative fallback
-until aligned battle growth is verified in-game. `scripts/lang5_battle_suffix.py`
-reports the battle suffix asset-slot table behind this rule.
+original battle suffix alignment. Aligned growth has been verified in-game on
+chunk 002; block mode is now a diagnostic fallback only if a future battle
+asset regression appears. `scripts/lang5_battle_suffix.py` reports the battle
+suffix asset-slot table behind this rule.
 
 For names/menus instead of script text: edit `names_base.csv` /
 `system_menu_map.json`; `scripts/lang5_build_names_map.py` expands the

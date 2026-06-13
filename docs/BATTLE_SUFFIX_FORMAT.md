@@ -28,6 +28,9 @@ same dead ends are not repeated.
   asset slots and slot offsets. Updated `lang5_sceninsert.py` and
   `lang5_validate_en.py` so grown text blocks are 4-byte aligned and budget
   checks include that padding.
+- 2026-06-13: Restored the fuller chunk `002` translation and built it with the
+  suffix shifted by `0x13C`, leaving the suffix start 4-byte aligned. In-game
+  testing confirmed the battle images/portraits stayed intact.
 
 ## Current Working Model
 
@@ -146,9 +149,10 @@ This matches the newer Langrisser III tooling note that sprite data after a
 text block must stay 4-byte aligned; otherwise sprite data shifts by 2 bytes
 and corrupts on screen.
 
-Working hypothesis: battle text block growth is safe only if the rebuilt text
-block size keeps `text_block.base + text_block.size` 4-byte aligned and all
-file/chunk size invariants still pass.
+Confirmed rule: battle text block growth is safe when the rebuilt text block
+size keeps `text_block.base + text_block.size` 4-byte aligned and all file/chunk
+size invariants still pass. The old chunk `002` regression came from an
+unaligned `2 mod 4` suffix start, not from moving the suffix.
 
 ## Hypotheses
 
@@ -158,7 +162,7 @@ file/chunk size invariants still pass.
 | H-002 | Invalid read PCs `0x800B3FA4`/`0x800B3FA8` identify the root suffix parser. | Rejected | Those addresses are a copy helper. The bad source pointer is produced by earlier asset-table code. |
 | H-003 | Actor table byte 2 selects the suffix asset slot. | Confirmed enough for tooling | `0x800B2CE4` scans byte 2 over actor entries, uses the maximum as the count of suffix offsets to read, and downstream code indexes the resulting pointer table. |
 | H-004 | The game hardcodes the original suffix offset. | Not supported | `0x8003B44C` and `0x800B2CE4` use the current computed suffix base. If growth failed, another invariant was broken. |
-| H-005 | The chunk `002` portrait regression came from 2-byte suffix misalignment, not from suffix movement itself. | Likely, pending build test | Original battle suffix starts are all 4-byte aligned; the broken build shifted chunk `002` by `0x13A`. Implement 4-byte alignment for grown text blocks and test a controlled build. |
+| H-005 | The chunk `002` portrait regression came from 2-byte suffix misalignment, not from suffix movement itself. | Confirmed | Original battle suffix starts are all 4-byte aligned; the broken build shifted chunk `002` by `0x13A`. A restored chunk `002` build shifted the suffix by `0x13C`, kept it 4-byte aligned, and passed in-game image/portrait testing. |
 | H-006 | Slot 0 is a default/empty asset. | Open | Slot 0 often points to a tail region, sometimes all zeroes, sometimes structured data. It must be preserved and not sorted away. |
 | H-007 | Full data-track growth via rebuilt BIN/CUE would solve battle chunk growth. | Rejected for this issue | It may solve external disc capacity, but it does not fix malformed or misaligned battle suffix data inside a chunk. |
 
@@ -171,21 +175,24 @@ file/chunk size invariants still pass.
 3. Update validation so budget checks include the 4-byte growth padding cost.
    Done in `scripts/lang5_validate_en.py`.
 4. Produce a controlled build that allows battle chunk growth only when the
-   resulting suffix start remains 4-byte aligned.
+   resulting suffix start remains 4-byte aligned. Done with chunk `002`.
 5. If the controlled aligned build fixes the portrait regression, replace the
-   current battle-only block-budget rule with an alignment-aware rule.
-6. If aligned growth still breaks assets, park H-005 as rejected and continue
+   current battle-only block-budget rule with an alignment-aware rule. Done.
+6. If a future aligned growth build still breaks assets, continue
    with dynamic tracing of the producer/consumer path around `0x800B2CE4`,
    `0x800B319C`, and `0x800B3084`.
 
 ## Current Safety Rule
 
-Until H-005 is tested in-game, the conservative rule remains:
+Normal builds may grow battle text blocks as long as the rebuilt suffix start
+remains 4-byte aligned and the fixed-size SCEN/SCEN2 repack validates. The
+inserter and validator account for this padding automatically.
+
+Use block-budget mode only as a regression diagnostic:
 
 ```bash
 python3 scripts/lang5_validate_en.py <chunk> --budget-mode block
 ```
 
 This keeps the suffix byte-identical at its original offset. It is safe but
-may force unnecessary compression if the real requirement is only 4-byte
-alignment.
+may force unnecessary compression; it is no longer the default budget rule.
