@@ -6,6 +6,6 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	<$0000>After saving the Sarlas army from<$FFFC>danger, <$F600><$0000> and the<$FFFC>others head straight for Estoll.<$FFFD>But thanks to bored Clarett's<$FFFC>pushy idea, the party ends up at<$FFFC>a karaoke parlor instead.<$FFFE>
+7	<$0000>After saving the Sarlas army from<$FFFC>danger, <$F600><$0000> and the<$FFFC>others head straight for Estor.<$FFFD>But thanks to bored Clarett's<$FFFC>pushy idea, <$F600><$0000> and<$FFFC>company wind up at a karaoke<$FFFC>parlor instead.<$FFFE>
 8	Victory<$FFFC><$0000><$FFFC>・All sing within 20 turns<$FFFD>Defeat<$FFFC><$0000><$FFFC>・The enemy out-sings everyone<$FFFC>・Turn over<$FFFE>
 9	Victory<$FFFC><$0000><$FFFC>・All sing within 30 turns<$FFFD>Defeat<$FFFC><$0000><$FFFC>・The enemy out-sings everyone<$FFFC>・Turn over<$FFFE><$FFFF>
