@@ -23,6 +23,33 @@ from lang5_scen import Codec, load_charmap_csv, load_charmap_tbl
 ASCII_NORMALIZE = str.maketrans({"?": "？", "!": "！", "’": "'", "‘": "'"})
 
 
+def encode_replacement(en: str, seg: list[int], codec: Codec) -> list[int]:
+    """Encode a SYSTEM replacement without folding leading reserved spaces.
+
+    Some save/menu templates start with literal 0x0000 cells that the game
+    later uses as an overlay field (for example the scenario number in save
+    titles). The compact encoder can otherwise merge the last reserved space
+    with the first Latin letter into a " space+letter" pair, which makes the
+    runtime overlay draw on top of the Latin glyph.
+    """
+    text = en.translate(ASCII_NORMALIZE)
+    lead_zeroes = 0
+    for w in seg:
+        if w != 0x0000:
+            break
+        lead_zeroes += 1
+    if not lead_zeroes:
+        return codec.encode(text)
+
+    stripped = text
+    removed = 0
+    while removed < lead_zeroes and stripped.startswith(" "):
+        stripped = stripped[1:]
+        removed += 1
+    space = codec.char2tok.get(" ", 0)
+    return [space] * lead_zeroes + codec.encode(stripped)
+
+
 def decode_run(words: list[int], tok2ch: dict[int, str]) -> str:
     out = []
     for w in words:
@@ -81,7 +108,7 @@ def main() -> None:
         if en:
             slots = [i for i, w in enumerate(seg) if w < 0xE000]
             try:
-                toks = codec.encode(en.translate(ASCII_NORMALIZE))
+                toks = encode_replacement(en, seg, codec)
             except ValueError as exc:
                 rows.append({"offset_hex": f"0x{a*2:05X}", "word_count": str(len(seg)),
                              "decoded_jp": dec, "mapped_en": en,

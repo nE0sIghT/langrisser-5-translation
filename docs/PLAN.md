@@ -113,7 +113,6 @@ story scenarios 1-36 are translated as durable per-chunk assets in
 
 Still open outside the main story route:
 
-- Tutorial battle chunk 37.
 - Optional map intros 82-86 and optional battles 38-42.
 - Recap chunks 129 and 130.
 - In-game QA and wording/line-break polish across the completed content.
@@ -121,7 +120,8 @@ Still open outside the main story route:
 
 ## Stage 4 — remaining script coverage
 
-1. Translate tutorial battle chunk 37. This completes the startup quiz flow.
+1. Tutorial battle chunk 37 is translated. This completes the startup quiz
+   flow.
 2. Translate optional maps in intro/battle pairs:
    `82+38`, `83+39`, `84+40`, `85+41`, `86+42`.
 3. Translate recap chunks 129 and 130.

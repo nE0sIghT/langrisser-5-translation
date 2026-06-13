@@ -42,6 +42,9 @@ Menu patching strategy:
 - decode with canonical token map
 - replace mapped runs via fixed dictionary
 - preserve run length and control words
+- preserve leading literal `0x0000` cells in SYSTEM strings; save-screen
+  templates use them as runtime overlay fields for scenario/state numbers,
+  so pair-glyph compression must not fold them into the following Latin text
 
 ## Control token groups (high-level)
 
