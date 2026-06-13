@@ -7,21 +7,21 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	On the highway<$FFFF>
-8	<$FB00><$0003>Now we follow this road<$FFFC>home. Ahh, I can't wait to be<$FFFC>back.<$FFFE>
-9	<$FB00><$0004>You're in high spirits,<$FFFC>Alfred.<$FFFE>
-10	<$FB00><$0005>Of course！ We've got the<$FFFC>cure for my father's fever.<$FFFD>Now he'll be himself again.<$FFFD><$FB00><$0006>Once father's well, the three of<$FFFC>us can go hunting again with my<$FFFC>brother.<$FFFE>
+8	<$FB00><$0003>Now we follow this road home.<$FFFC>Ahh, I can't wait to be back.<$FFFE>
+9	<$FB00><$0004>You're in high spirits, Alfred.<$FFFE>
+10	<$FB00><$0005>Of course！ We've got the cure<$FFFC>for my father's fever.<$FFFD>Now he'll be himself again.<$FFFD><$FB00><$0006>Once father's well, the three of us can go<$FFFC>hunting again with my brother.<$FFFE>
 11	<$FB00><$0007>You look truly happy.<$FFFE>
-12	<$FB00><$0008>Mother died when I was<$FFFC>small, so it's just father, my<$FFFC>brother and me.<$FFFD>But father cares for us all the<$FFFC>more for it.<$FFFD><$FB00><$0009>And since father fell ill, my<$FFFC>brother works in his place<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$000A>Family really is something, right？<$FFFE>
+12	<$FB00><$0008>Mother died when I was small, so<$FFFC>it's just father, my brother and me.<$FFFD>But father cares for us all the more for<$FFFC>it.<$FFFD><$FB00><$0009>And since father fell ill, my brother<$FFFC>works in his place<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$000A>Family really is something, right？<$FFFE>
 13	<$FFF8>…<$FFFE>
-14	<$FB00><$000B>Ah, yeah…I suppose<$FFF5><$FFF8>… <$FFF6><$FB00><$000C>I<$FFFC>suppose it must be<$FFF5><$FFF8>…<$FFFE>
-15	<$FB00><$000D>Ahh, I want to be home<$FFFC>already！ Come on, let's hurry！<$FFFE>
+14	<$FB00><$000B>Ah, yeah…I suppose<$FFF5><$FFF8>… <$FFF6><$FB00><$000C>I suppose<$FFFC>it must be<$FFF5><$FFF8>…<$FFFE>
+15	<$FB00><$000D>Ahh, I want to be home already！<$FFFC>Come on, let's hurry！<$FFFE>
 16	<$FFF7><$FB00><$000E>R, right<$FFF5><$FFF8>…<$FFFE>
 17	<$FFFA><$FB00><$000F>Whew<$FFF5><$FFF8>…<$FFFE>
-18	<$FB00><$0010>We are made beings.<$FFFD>Made to serve as the master's<$FFFC>hands, with no ties of blood to<$FFFC>anyone.<$FFFD><$FFF8>…<$FFF6><$FB00><$0011>Do you envy him？<$FFFE>
+18	<$FB00><$0010>We are made beings.<$FFFD>Made to serve as the master's hands, with<$FFFC>no ties of blood to anyone.<$FFFD><$FFF8>…<$FFF6><$FB00><$0011>Do you envy him？<$FFFE>
 19	<$FFF8>…<$FFF6><$FB00><$0012>I don't really know.<$FFFE>
-20	<$FB00><$0013>But blood ties or not, we<$FFFC>aren't alone. Right, Lambda？<$FFFE>
-21	<$FFF8><$FFFA>…<$FFFD><$FFF9><$FFF6><$FB00><$0014>True. At the least, we are not<$FFFC>lonely.<$FFFE>
-22	<$FB00><$0015>So we'll be fine. Let's<$FFFC>hurry on.<$FFFE>
+20	<$FB00><$0013>But blood ties or not, we aren't<$FFFC>alone. Right, Lambda？<$FFFE>
+21	<$FFF8><$FFFA>…<$FFFD><$FFF9><$FFF6><$FB00><$0014>True. At the least, we are not lonely.<$FFFE>
+22	<$FB00><$0015>So we'll be fine. Let's hurry<$FFFC>on.<$FFFE>
 23	<$FFF7><$FB00><$0016>Yes.<$FFF5><$FFF8><$FFFE>
-24	<$0000>With Wheeler beaten and Knox<$FFFC>behind them, <$F600><$0000>'s band<$FFFC>hurries on toward Gizarof.<$FFFD><$0000>But in a ruined village on the<$FFFC>way, Lainforce's man Aizer lies in<$FFFC>ambush.<$FFFD><$0000>And Goldry, cast out of the<$FFFC>Caconsis army, closes in on them<$FFFC>too.<$FFFE>
+24	<$0000>With Wheeler beaten and Knox behind<$FFFC>them, <$F600><$0000>'s band hurries on<$FFFC>toward Gizarof.<$FFFD><$0000>But in a ruined village on the way,<$FFFC>Lainforce's man Aizer lies in ambush.<$FFFD><$0000>And Goldry, cast out of the Caconsis<$FFFC>army, closes in on them too.<$FFFE>
 25	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

@@ -13,95 +13,95 @@
 11	Officer<$FFFF>
 12	・Defeat all enemies<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
-14	Valtar City, Underground Dock<$FFFC>Entrance<$FFFF>
-15	<$FB00><$002B>The decoy team drew<$FFFC>the enemy off nicely. Only one<$FFFC>unit of guards left.<$FFFE>
-16	<$FB00><$002C>Then just us will be<$FFFC>enough.<$FFFE>
-17	<$FB00><$002D>We can handle this on<$FFFC>our own.<$FFFE>
-18	<$FB00><$002E>That lot's easy pickings<$FFFC>for us.<$FFFE>
+14	Valtar City, Underground Dock Entrance<$FFFF>
+15	<$FB00><$002B>The decoy team drew the<$FFFC>enemy off nicely. Only one unit of guards<$FFFC>left.<$FFFE>
+16	<$FB00><$002C>Then just us will be enough.<$FFFE>
+17	<$FB00><$002D>We can handle this on our<$FFFC>own.<$FFFE>
+18	<$FB00><$002E>That lot's easy pickings for<$FFFC>us.<$FFFE>
 19	<$FB00><$002F>Let's take them down<$FFFC>ourselves.<$FFFE>
-20	<$FB00><$0030>Let's beat them while<$FFFC>we can.<$FFFE>
+20	<$FB00><$0030>Let's beat them while we<$FFFC>can.<$FFFE>
 21	<$FB00><$0031>Right. Here we go.<$FFFE>
-22	<$FB00><$0032>Hm！ Enemies！<$FFF5> <$FB00><$0033>Even if<$FFFC>it's just us, we won't flinch！<$FFFE>
-23	<$FB00><$0034>We'll see how long<$FFFC>that bravado lasts.<$FFFE>
+22	<$FB00><$0032>Hm！ Enemies！<$FFF5> <$FB00><$0033>Even if it's<$FFFC>just us, we won't flinch！<$FFFE>
+23	<$FB00><$0034>We'll see how long that<$FFFC>bravado lasts.<$FFFE>
 24	A sign stands on the lawn.<$FFFD><$0000> <$0000><$0000><$0000><$0000><$0000><$FFF4>Beware lightning！<$FFF3><$FFFD>Leave the spot quickly？<$FFFE>
-25	You hurry away, and lightning<$FFFC>strikes near the sign. …Glad<$FFFC>you're safe.<$FFFE>
+25	You hurry away, and lightning strikes near<$FFFC>the sign. …Glad you're safe.<$FFFE>
 26	You stay where you are….<$FFFE>
-27	A voice came from nowhere.<$FFFD>To withstand my lightning, splendid.<$FFFC>Take this as a reward！<$FFFD><$0000> <$0000><$FFF4>Mjollnir<$FFF3> obtained！<$FFFE>
-28	A voice came from nowhere.<$FFFD>It seems you couldn't withstand my<$FFFC>lightning. But for your spirit, I<$FFFC>grant you this power！<$FFFD><$0000> <$FFF4>Thunder magic resist<$FFF3> rose by<$FFFC>2！<$FFFE>
+27	A voice came from nowhere.<$FFFD>To withstand my lightning, splendid. Take<$FFFC>this as a reward！<$FFFD><$0000> <$0000><$FFF4>Mjollnir<$FFF3> obtained！<$FFFE>
+28	A voice came from nowhere.<$FFFD>It seems you couldn't withstand my<$FFFC>lightning. But for your spirit, I grant<$FFFC>you this power！<$FFFD><$0000> <$FFF4>Thunder magic resist<$FFF3> rose by 2！<$FFFE>
 29	<$FB00><$0048>So many enemies. At this<$FFFC>rate we'll be beaten.<$FFFE>
-30	<$FB00><$0049>Too many enemies. At<$FFFC>this rate<$FFF5><$FFF8>…<$FFFE>
-31	<$FB00><$004A>Too many enemies. This<$FFFC>is getting dangerous<$FFF5>…<$FFFE>
-32	<$FB00><$004B>Too many enemies. At<$FFFC>this rate we'll be beaten<$FFF5>…<$FFFE>
+30	<$FB00><$0049>Too many enemies. At this<$FFFC>rate<$FFF5><$FFF8>…<$FFFE>
+31	<$FB00><$004A>Too many enemies. This is<$FFFC>getting dangerous<$FFF5>…<$FFFE>
+32	<$FB00><$004B>Too many enemies. At this<$FFFC>rate we'll be beaten<$FFF5>…<$FFFE>
 33	<$FB00><$004C>Lots of enemies. This is<$FFFC>bad<$FFF5>…<$FFFE>
-34	<$FB00><$004D>Let's use the streets<$FFFC>to buy time. Our comrades should<$FFFC>be back soon！<$FFFE>
+34	<$FB00><$004D>Let's use the streets to buy<$FFFC>time. Our comrades should be back soon！<$FFFE>
 35	<$FB00><$002B>Eat this！<$FFFE>
 36	<$FB00><$002C>Take this！<$FFFE>
-37	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
+37	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
 38	<$FB00><$0046>Here goes.<$FFFE>
 39	<$FB00><$004B>No… that I should…<$FFFE>
-40	<$FB00><$004C>Marie, leave this to us<$FFFC>and pull back！<$FFFE>
+40	<$FB00><$004C>Marie, leave this to us and<$FFFC>pull back！<$FFFE>
 41	…<$FB00><$004D>I'm sorry….<$FFFE>
 42	<$FB00><$0075>I can fight too！<$FFFE>
-43	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
-44	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+43	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
+44	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 45	<$FB00><$007D>But…<$FFFE>
 46	<$FB00><$007E>Trust your comrades！<$FFFE>
-47	<$FB00><$007F>…Understood… The rest<$FFFC>is yours…<$FFFE>
+47	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
 48	<$FB00><$0068>Come and get it！<$FFFE>
 49	<$FB00><$0070>This is getting dicey…<$FFFE>
-50	<$FB00><$0071>Fall back, Brenda！<$FFFC>Leave the rest to me！<$FFFE>
-51	<$FB00><$0072>Sorry… I'll take you<$FFFC>up on that…<$FFFE>
-52	<$FB00><$0051>I'll show you my<$FFFC>power！<$FFFE>
+50	<$FB00><$0071>Fall back, Brenda！ Leave<$FFFC>the rest to me！<$FFFE>
+51	<$FB00><$0072>Sorry… I'll take you up on<$FFFC>that…<$FFFE>
+52	<$FB00><$0051>I'll show you my power！<$FFFE>
 53	<$FB00><$005C>Ow！ Y, you！<$FFFE>
-54	<$FB00><$005D>Clarett！？ Don't overdo<$FFFC>it！<$FFFE>
+54	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 55	<$FB00><$005E>B, but….<$FFFE>
 56	<$FB00><$005F>Enough, fall back！<$FFFE>
-57	<$FB00><$0060>Sorry, at such a<$FFFC>crucial time….<$FFFE>
+57	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
 58	<$FB00><$0083>Here I go！<$FFFE>
 59	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
-60	<$FB00><$008F>Are you all right,<$FFFC>Lanford！？<$FFFE>
-61	<$FB00><$0090>A wound like this is<$FFFC>a scratch…<$FFFE>
-62	<$FB00><$0091>Don't push it！ Leave<$FFFC>the rest to us！<$FFFE>
-63	<$FB00><$0092>…At such a crucial<$FFFC>time, forgive me…<$FFFE>
-64	<$FB00><$0035>D, damn… Lord<$FFFC>Omegaaa！！<$FFFE>
-65	<$FB00><$0036>Did we get him<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0037>Hm？ This presence<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>We're<$FFFC>surrounded！？<$FFFE>
+60	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
+61	<$FB00><$0090>A wound like this is a<$FFFC>scratch…<$FFFE>
+62	<$FB00><$0091>Don't push it！ Leave the<$FFFC>rest to us！<$FFFE>
+63	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
+64	<$FB00><$0035>D, damn… Lord Omegaaa！！<$FFFE>
+65	<$FB00><$0036>Did we get him<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0037>Hm？ This presence<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>We're surrounded！？<$FFFE>
 66	<$FB00><$0039>An ambush<$FFF5><$FFF8>….<$FFFE>
 67	<$FB00><$003A>A, an ambush？<$FFFE>
-68	<$FFF8><$FB00><$003B>Tch！<$FFF5><$FFF6><$FB00><$003C>I figured as<$FFFC>much！<$FFFE>
+68	<$FFF8><$FB00><$003B>Tch！<$FFF5><$FFF6><$FB00><$003C>I figured as much！<$FFFE>
 69	<$FB00><$003D>They read us！？<$FFFE>
 70	<$FB00><$003E>It was going too<$FFFC>smoothly<$FFF5><$FFF8>….<$FFFE>
-71	<$FB00><$003F>That's right. Curse your<$FFFC>folly for charging in alone like<$FFFC>this！<$FFFD><$FB00><$0040>No more holding back！ With my<$FFFC>power, I'll crush you！ On Lord<$FFFC>Gizarof's name！<$FFFE>
-72	<$FB00><$0041>I can't lose here.<$FFFC>Whatever it takes, I have to buy<$FFFC>time until the decoy team returns.<$FFFE>
+71	<$FB00><$003F>That's right. Curse your<$FFFC>folly for charging in alone like this！<$FFFD><$FB00><$0040>No more holding back！ With my power, I'll<$FFFC>crush you！ On Lord Gizarof's name！<$FFFE>
+72	<$FB00><$0041>I can't lose here. Whatever<$FFFC>it takes, I have to buy time until the<$FFFC>decoy team returns.<$FFFE>
 73	<$FB00><$0057>Why… why does a<$FFFC>surface-dweller hold such power….<$FFFE>
 74	<$FB00><$0058>Acht！<$FFFE>
-75	<$FB00><$0059>I'm counting on you,<$FFFC>Neun… Lord Lainforce….<$FFFE>
-76	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimson<$FFFC>Knights aren't much either！<$FFFE>
-77	<$FB00><$0054>That the glorious<$FFFC>Crimson Knights should fall to a<$FFFC>surface-dweller….<$FFFE>
+75	<$FB00><$0059>I'm counting on you, Neun…<$FFFC>Lord Lainforce….<$FFFE>
+76	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimson Knights<$FFFC>aren't much either！<$FFFE>
+77	<$FB00><$0054>That the glorious Crimson<$FFFC>Knights should fall to a<$FFFC>surface-dweller….<$FFFE>
 78	<$FB00><$0055>Neun！<$FFFE>
-79	<$FB00><$0056>I'm counting on you,<$FFFC>Acht… Lord Lainforce….<$FFFE>
-80	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimson<$FFFC>Knights aren't much either！<$FFFE>
+79	<$FB00><$0056>I'm counting on you, Acht…<$FFFC>Lord Lainforce….<$FFFE>
+80	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimson Knights<$FFFC>aren't much either！<$FFFE>
 81	<$FB00><$005C>Gh… guh！<$FFFE>
-82	<$FB00><$005D>The match is decided,<$FFFC>Omega.<$FFFE>
+82	<$FB00><$005D>The match is decided, Omega.<$FFFE>
 83	<$FB00><$005E>Wh, why<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Lord Gizarof's<$FFFC>remodeling<$FFF5><$FFF8>….<$FFFE>
-84	<$FB00><$0060>Remodeling is just<$FFFC>remodeling.<$FFF5> <$FB00><$0061>You grew complacent with<$FFFC>it and forgot to hone yourself.<$FFFE>
-85	<$FB00><$0062>Remodeling is no more<$FFFC>than remodeling.<$FFF5> <$FB00><$0063>Haven't you grown<$FFFC>complacent and forgotten to hone<$FFFC>yourself？<$FFFE>
-86	<$FB00><$0064>…Only I can prove<$FFFC>Lord Gizarof's great work… only<$FFFC>I<$FFF5><$FFF8>…. <$FFF6><$FB00><$0065>I must win with this<$FFFC>power… for Lord Gizarof….<$FFFE>
+84	<$FB00><$0060>Remodeling is just<$FFFC>remodeling.<$FFF5> <$FB00><$0061>You grew complacent with it<$FFFC>and forgot to hone yourself.<$FFFE>
+85	<$FB00><$0062>Remodeling is no more than<$FFFC>remodeling.<$FFF5> <$FB00><$0063>Haven't you grown complacent<$FFFC>and forgotten to hone yourself？<$FFFE>
+86	<$FB00><$0064>…Only I can prove Lord<$FFFC>Gizarof's great work… only I<$FFF5><$FFF8>…. <$FFF6><$FB00><$0065>I must win<$FFFC>with this power… for Lord Gizarof….<$FFFE>
 87	<$FB00><$0066>Omega<$FFF5><$FFF8>…. <$FFF6><$FB00><$0067>To care for<$FFFC>Gizarof so deeply<$FFF5><$FFF8>….<$FFFE>
 88	Wh, why….<$FFFE>
-89	Tell my wife… tell my wife….<$FFFC>I….<$FFFE>
-90	…I won't die！ There's no way<$FFFC>I, of all people, would die…<$FFFC>guhah！<$FFFE>
+89	Tell my wife… tell my wife…. I….<$FFFE>
+90	…I won't die！ There's no way I, of all<$FFFC>people, would die… guhah！<$FFFE>
 91	You'll… pay for this…. …Uu….<$FFFE>
 92	With my strength….<$FFFE>
 93	Is everyone all right！？<$FFFE>
 94	How's the battle going？<$FFFE>
-95	<$FB00><$0068>No enemies left, it<$FFFC>seems.<$FFFE>
+95	<$FB00><$0068>No enemies left, it seems.<$FFFE>
 96	<$FB00><$0069>Let's get underground<$FFFC>quickly.<$FFFE>
 97	<$FB00><$006A>Right. Let's hurry.<$FFFE>
-98	<$FB00><$0042>I'll show you the true<$FFFC>use of our power！<$FFF5> <$FFF7><$FB00><$0043>Nuooooh！<$FFFE>
-99	<$FB00><$0044>He used his power<$FFFC>again<$FFF5><$FFF8>…. <$FFF6><$FB00><$0045>Hm？ This is different<$FFFC>from before！<$FFFE>
-100	<$FB00><$0046>Amplify others' morale<$FFFC>and mental energy and make it your<$FFFC>own.<$FFFD>This is the power's true use！<$FFF5><$FFFC><$FB00><$0047>Now die, you defective！<$FFFE>
+98	<$FB00><$0042>I'll show you the true use<$FFFC>of our power！<$FFF5> <$FFF7><$FB00><$0043>Nuooooh！<$FFFE>
+99	<$FB00><$0044>He used his power again<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$0045>Hm？ This is different from before！<$FFFE>
+100	<$FB00><$0046>Amplify others' morale and<$FFFC>mental energy and make it your own.<$FFFD>This is the power's true use！<$FFF5> <$FB00><$0047>Now die,<$FFFC>you defective！<$FFFE>
 101	<$FB00><$004E>Sorry to keep you！<$FFFE>
 102	<$FB00><$004F>Kept you waiting！<$FFFE>
 103	<$FB00><$0050>Everyone！<$FFFE>
 104	<$FFF8><$FB00><$0051>Tch！<$FFF5> <$FFF6><$FB00><$0052>They're back<$FFFC>already！<$FFFE>
-105	<$FB00><$0053>We can't get<$FFFC>underground with them still here.<$FFFC>We beat them now！<$FFFE>
+105	<$FB00><$0053>We can't get underground<$FFFC>with them still here. We beat them now！<$FFFE>

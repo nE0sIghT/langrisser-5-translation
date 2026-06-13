@@ -14,27 +14,27 @@
 12	Rosenshill<$FFFF>
 13	Russel<$FFFF>
 14	Reynorz Army<$0000>VS<$0000>Federation Army<$FFFF>
-15	<$FB00><$0003>We cannot lose here！<$FFFC>Push, push, and keep pushing！<$FFFE>
+15	<$FB00><$0003>We cannot lose here！ Push,<$FFFC>push, and keep pushing！<$FFFE>
 16	<$FFF7><$FB00><$0004>Yes sir！<$FFF5><$FFF8><$FFFE>
-17	<$FB00><$0005>Heh heh heh！ I will<$FFFC>not be beaten by the likes of<$FFFC>you！<$FFFE>
-18	<$FB00><$0006>Deploy both wings！<$FFFC>Encircle the enemy！<$FFFE>
-19	<$FFF8><$FB00><$0007>Kh…！ <$FFF5><$FFF6><$FB00><$0008>We are being<$FFFC>flanked！<$FFFE>
-20	<$FB00><$0009>Lord Lanford, the front<$FFFC>is being pushed back！<$FFFE>
-21	<$FB00><$000A>It cannot be helped. This<$FFFC>unit was formed for marching speed.<$FFFC>But we cannot withdraw here！<$FFFD><$FB00><$000B>Listen！ Other units will join us<$FFFC>soon！ Until then, we hold alone,<$FFFC>whatever it takes！<$FFFE>
+17	<$FB00><$0005>Heh heh heh！ I will not be<$FFFC>beaten by the likes of you！<$FFFE>
+18	<$FB00><$0006>Deploy both wings！ Encircle<$FFFC>the enemy！<$FFFE>
+19	<$FFF8><$FB00><$0007>Kh…！ <$FFF5><$FFF6><$FB00><$0008>We are being flanked！<$FFFE>
+20	<$FB00><$0009>Lord Lanford, the front is<$FFFC>being pushed back！<$FFFE>
+21	<$FB00><$000A>It cannot be helped. This unit<$FFFC>was formed for marching speed. But we<$FFFC>cannot withdraw here！<$FFFD><$FB00><$000B>Listen！ Other units will join us soon！<$FFFC>Until then, we hold alone, whatever it<$FFFC>takes！<$FFFE>
 22	<$FFF7><$FB00><$000C>Yes sir！<$FFF5><$FFF8><$FFFE>
 23	Federation Castle, Audience Hall<$FFFF>
 24	<$FB00><$000D>Long time, Princess. No,<$FFFC>Queen. Russel has returned.<$FFFD><$FB00><$000E>Forgive my silence until now.<$FFFE>
-25	<$FB00><$000F>No, Russel. I have<$FFFC>heard the story.<$FFFD><$FB00><$0010>Even if it was Gizarof's plot, we<$FFFC>executed your father. What a<$FFFC>terrible mistake we made.<$FFFE>
-26	<$FB00><$0011>Even knowing the truth,<$FFFC>my father will not return now <$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0012>Never<$FFF5><$FFF8>…<$FFFE>
-27	<$FB00><$0013>Then as part of our<$FFFC>apology, please take the premier's<$FFFC>seat.<$FFFE>
+25	<$FB00><$000F>No, Russel. I have heard the<$FFFC>story.<$FFFD><$FB00><$0010>Even if it was Gizarof's plot, we executed<$FFFC>your father. What a terrible mistake we<$FFFC>made.<$FFFE>
+26	<$FB00><$0011>Even knowing the truth, my<$FFFC>father will not return now <$FFF5><$FFF8>… <$FFF6><$FB00><$0012>Never<$FFF5><$FFF8>…<$FFFE>
+27	<$FB00><$0013>Then as part of our apology,<$FFFC>please take the premier's seat.<$FFFE>
 28	<$FB00><$0014>Me？<$FFFE>
-29	<$FB00><$0015>Yes. After Gizarof's<$FFFC>chaos, no premier has been named<$FFFC>since your father's execution.<$FFFD><$FB00><$0016>You know the office well. With<$FFFC>your popularity, it is natural.<$FFFD><$FB00><$0017>The Three Kingdom Alliance now<$FFFC>rebels against the Federation.<$FFFC>Please aid us.<$FFFE>
-30	<$FB00><$0018>If Her Majesty says so<$FFFC>much, I cannot refuse. Very well.<$FFFC>I will fulfill this great duty.<$FFFE>
-31	<$FB00><$0019>We will hold a formal<$FFFC>investiture soon.<$FFFD><$FB00><$001A>I count on you, Premier Russel.<$FFFC>Everyone, support Russel.<$FFFE>
+29	<$FB00><$0015>Yes. After Gizarof's chaos, no<$FFFC>premier has been named since your father's<$FFFC>execution.<$FFFD><$FB00><$0016>You know the office well. With your<$FFFC>popularity, it is natural.<$FFFD><$FB00><$0017>The Three Kingdom Alliance now rebels<$FFFC>against the Federation. Please aid us.<$FFFE>
+30	<$FB00><$0018>If Her Majesty says so much, I<$FFFC>cannot refuse. Very well. I will fulfill<$FFFC>this great duty.<$FFFE>
+31	<$FB00><$0019>We will hold a formal<$FFFC>investiture soon.<$FFFD><$FB00><$001A>I count on you, Premier Russel. Everyone,<$FFFC>support Russel.<$FFFE>
 32	<$FB00><$001B>Yes, Your Majesty！<$FFFE>
-33	<$FB00><$001C>Then, what is our<$FFFC>current response to the Three<$FFFC>Kingdom Alliance？<$FFFE>
-34	<$FB00><$001D>Marshal Lanford is<$FFFC>personally commanding at the front.<$FFFE>
+33	<$FB00><$001C>Then, what is our current<$FFFC>response to the Three Kingdom Alliance？<$FFFE>
+34	<$FB00><$001D>Marshal Lanford is personally<$FFFC>commanding at the front.<$FFFE>
 35	<$FB00><$001E>I see<$FFF5><$FFF8>…<$FFFE>
-36	<$FFF6><$FB00><$001F>I cannot decide now, but<$FFFC>I will gather information and<$FFFC>issue orders soon.<$FFFE>
-37	<$0000>The party wiped out Kalxath's<$FFFC>flying corps and cut enemy<$FFFC>coordination.<$FFFD><$0000>If they strike HQ now and ruin<$FFFC>enemy command, the battle will<$FFFC>turn.<$FFFD><$0000><$F600><$0000>'s group steers the<$FFFC>flying ship toward enemy HQ…<$FFFE>
+36	<$FFF6><$FB00><$001F>I cannot decide now, but I<$FFFC>will gather information and issue orders<$FFFC>soon.<$FFFE>
+37	<$0000>The party wiped out Kalxath's flying<$FFFC>corps and cut enemy coordination.<$FFFD><$0000>If they strike HQ now and ruin enemy<$FFFC>command, the battle will turn.<$FFFD><$0000><$F600><$0000>'s group steers the<$FFFC>flying ship toward enemy HQ…<$FFFE>
 38	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

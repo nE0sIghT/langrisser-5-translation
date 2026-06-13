@@ -10,30 +10,30 @@
 8	Virash<$FFFF>
 9	Landius<$FFFF>
 10	A few days later, Kalxath Castle<$FFFF>
-11	<$FB00><$0003>My work ends here. You<$FFFC>have won true freedom. Freedom<$FFFC>means no one binds you, but you<$FFFC>must choose your own chains.<$FFFD><$FB00><$0004>Each of you must live with<$FFFC>responsibility. At times, the old<$FFFC>way may even seem easier.<$FFFD><$FB00><$0005>But do not lose heart. Your future<$FFFC>is yours to choose.<$FFFE>
-12	<$FB00><$0006>Hurrah！ Long live<$FFFC>freedom！<$FFFE>
+11	<$FB00><$0003>My work ends here. You have<$FFFC>won true freedom. Freedom means no one<$FFFC>binds you, but you must choose your own<$FFFC>chains.<$FFFD><$FB00><$0004>Each of you must live with responsibility.<$FFFC>At times, the old way may even seem<$FFFC>easier.<$FFFD><$FB00><$0005>But do not lose heart. Your future is<$FFFC>yours to choose.<$FFFE>
+12	<$FB00><$0006>Hurrah！ Long live freedom！<$FFFE>
 13	<$FB00><$0007>You did it, Clarett.<$FFFE>
 14	<$FB00><$0008>Yeah. That was splendid.<$FFFE>
 15	<$FB00><$0009>What's wrong, Virash？<$FFFE>
 16	<$FB00><$000A>I found Langrisser's<$FFFC>location！<$FFFE>
 17	<$FB00><$000B>What！？<$FFFE>
-18	<$FB00><$000C>One of Lainforce's men<$FFFC>had it. We managed to shoot down<$FFFC>their cargo ship, but it<$FFFC>crash-landed in the mountains.<$FFFD><$FB00><$000D>There is no way we can search it<$FFFC>all ourselves. I want your help<$FFFC>recovering it.<$FFFE>
+18	<$FB00><$000C>One of Lainforce's men had it.<$FFFC>We managed to shoot down their cargo ship,<$FFFC>but it crash-landed in the mountains.<$FFFD><$FB00><$000D>There is no way we can search it all<$FFFC>ourselves. I want your help recovering it.<$FFFE>
 19	<$FB00><$000E>I will help too.<$FFFE>
 20	<$FB00><$000F>But you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-21	<$FB00><$0010>I am no longer this<$FFFC>country's ruler. This country<$FFFC>belongs to its people. My work is<$FFFC>done.<$FFFD><$FB00><$0011>And besides, I promised, didn't<$FFFC>I？<$FFFE>
-22	<$FB00><$0012>I will go as well. I<$FFFC>want to know what Langrisser has to<$FFFC>do with me.<$FFFE>
-23	<$FB00><$0013>Then it's settled. Everyone<$FFFC>aboard the airship. I'll fly you<$FFFC>there.<$FFFE>
+21	<$FB00><$0010>I am no longer this country's<$FFFC>ruler. This country belongs to its people.<$FFFC>My work is done.<$FFFD><$FB00><$0011>And besides, I promised, didn't I？<$FFFE>
+22	<$FB00><$0012>I will go as well. I want to<$FFFC>know what Langrisser has to do with me.<$FFFE>
+23	<$FB00><$0013>Then it's settled. Everyone<$FFFC>aboard the airship. I'll fly you there.<$FFFE>
 24	<$FB00><$0014>There？<$FFFE>
 25	<$FB00><$0015>Yeless！<$FFFE>
 26	On the road to Caconsis<$FFFF>
 27	<$FB00><$0016>What's wrong, Lanford？<$FFFE>
-28	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0017>I still cannot go to<$FFFC>Caconsis. If word spreads that I<$FFFC>defected there, Caconsis will be in<$FFFC>danger.<$FFFE>
-29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0019>So I<$FFFC>asked Admiral Wheeler to arrange<$FFFC>a secret entry into Caconsis. They<$FFFC>agreed.<$FFFE>
-30	<$FB00><$001A>I see. But there is<$FFFC>something else on my mind.<$FFFE>
-31	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001B>Your father, who<$FFFC>joined the Three-Country Alliance？<$FFFE>
-32	<$FB00><$001C>Yes. I had an older<$FFFC>brother, a fine man. He is gone<$FFFC>now.<$FFFD><$FB00><$001D>After he died, Father changed. He<$FFFC>suddenly disowned me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$001E>Now he backs the alliance and<$FFFC>bares his fangs at the<$FFFC>Federation. I feel there is a<$FFFC>reason. I want to find it.<$FFFE>
-33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by<$FFFC>my own hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-34	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0020>All right, Lanford.<$FFFC>But I'm coming with you. My sister<$FFFC>told me to look after you.<$FFFE>
+28	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0017>I still cannot go to<$FFFC>Caconsis. If word spreads that I defected<$FFFC>there, Caconsis will be in danger.<$FFFE>
+29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0019>So I asked<$FFFC>Admiral Wheeler to arrange a secret entry<$FFFC>into Caconsis. They agreed.<$FFFE>
+30	<$FB00><$001A>I see. But there is something<$FFFC>else on my mind.<$FFFE>
+31	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001B>Your father, who joined<$FFFC>the Three-Country Alliance？<$FFFE>
+32	<$FB00><$001C>Yes. I had an older brother, a<$FFFC>fine man. He is gone now.<$FFFD><$FB00><$001D>After he died, Father changed. He suddenly<$FFFC>disowned me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$001E>Now he backs the alliance and bares his<$FFFC>fangs at the Federation. I feel there is a<$FFFC>reason. I want to find it.<$FFFE>
+33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by my<$FFFC>own hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+34	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0020>All right, Lanford. But<$FFFC>I'm coming with you. My sister told me to<$FFFC>look after you.<$FFFE>
 35	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0021>Heh. Emily, of<$FFFC>course<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-36	<$0000>Aizer's men carried Langrisser<$FFFC>away from El Sallia.<$FFFD><$0000>But Virash shot down the airship<$FFFC>carrying the sacred sword in<$FFFC>northeastern Yeless.<$FFFD><$0000>To recover Langrisser from the<$FFFC>enemy airship, <$F600><$0000> and<$FFFC>the others return to Yeless. <$0000>But<$FFFC>others also seek the sword.<$FFFE>
+36	<$0000>Aizer's men carried Langrisser away from<$FFFC>El Sallia.<$FFFD><$0000>But Virash shot down the airship<$FFFC>carrying the sacred sword in northeastern<$FFFC>Yeless.<$FFFD><$0000>To recover Langrisser from the enemy<$FFFC>airship, <$F600><$0000> and the others<$FFFC>return to Yeless. <$0000>But others also seek<$FFFC>the sword.<$FFFE>
 37	Victory terms<$FFFC><$0000><$FFFC>・Langrisser bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC>・Langrisser is stolen and<$FFFC><$0000>carried off north<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

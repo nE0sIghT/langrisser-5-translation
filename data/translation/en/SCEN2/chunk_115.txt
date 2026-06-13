@@ -9,29 +9,29 @@
 7	Town<$FFFF>
 8	McClaine<$FFFF>
 9	Near the City of Valtar<$FFFF>
-10	<$FB00><$00C4>Thank you. You saved<$FFFC>us.<$FFFE>
-11	<$FB00><$00C5>I want to ask, do you<$FFFC>know where the folk who took<$FFFC>shelter from the town of Poria<$FFFC>are？<$FFFE>
-12	<$FFFA><$FB00><$00C6>From the town of<$FFFC>Poria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF9><$FFF6><$FB00><$00C7>Could it be<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+10	<$FB00><$00C4>Thank you. You saved us.<$FFFE>
+11	<$FB00><$00C5>I want to ask, do you know<$FFFC>where the folk who took shelter from the<$FFFC>town of Poria are？<$FFFE>
+12	<$FFFA><$FB00><$00C6>From the town of Poria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF9><$FFF6><$FB00><$00C7>Could it be<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	<$FB00><$00C8>You know something？<$FFFE>
-14	<$FB00><$00C9>I'm not certain, but<$FFFC>some were taken to the underground<$FFFC>factory.<$FFFD>Those here from the start weren't<$FFFC>taken, so<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-15	<$FB00><$00CA>You mean the ones taken<$FFFC>might be the Poria people.<$FFFE>
+14	<$FB00><$00C9>I'm not certain, but some were<$FFFC>taken to the underground factory.<$FFFD>Those here from the start weren't taken,<$FFFC>so<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$00CA>You mean the ones taken might<$FFFC>be the Poria people.<$FFFE>
 16	<$FB00><$00CB>Yes.<$FFFE>
 17	<$FB00><$00CC>Damn it！<$FFFE>
 18	<$FB00><$00CD>Ah, brother！<$FFFE>
 19	<$FB00><$00CE>Wh, what do we do<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-20	<$FB00><$00CF>Isn't it obvious, we<$FFFC>rescue them. We do！<$FFFE>
-21	<$FB00><$00D0>Right. Do you know where<$FFFC>the entrance to that underground<$FFFC>factory is？<$FFFE>
-22	<$FB00><$00D1>I believe there are<$FFFC>stairs leading down in front of<$FFFC>the church.<$FFFE>
-23	<$FB00><$00D2>In front of the church,<$FFFC>then.<$FFFE>
-24	<$FB00><$00D3>But there are many<$FFFC>soldiers at the entrance.<$FFFE>
-25	<$FB00><$00D4>So they say. What do we<$FFFC>do？<$FFFE>
+20	<$FB00><$00CF>Isn't it obvious, we rescue<$FFFC>them. We do！<$FFFE>
+21	<$FB00><$00D0>Right. Do you know where the<$FFFC>entrance to that underground factory is？<$FFFE>
+22	<$FB00><$00D1>I believe there are stairs<$FFFC>leading down in front of the church.<$FFFE>
+23	<$FB00><$00D2>In front of the church, then.<$FFFE>
+24	<$FB00><$00D3>But there are many soldiers at<$FFFC>the entrance.<$FFFE>
+25	<$FB00><$00D4>So they say. What do we do？<$FFFE>
 26	<$FB00><$00D5>We just draw the guards'<$FFFC>attention away.<$FFFE>
-27	<$FB00><$00D6>I see. Then how about<$FFFC>this.<$FFFE>
-28	<$FB00><$00D7>When it's dark, four of<$FFFC>us first draw the enemy off and<$FFFC>lure them elsewhere.<$FFFD>Then the other two force their<$FFFC>way in.<$FFFE>
-29	<$FB00><$00D8>I like it. I'm for<$FFFC>it.<$FFFE>
-30	<$FB00><$00D9>Right, let's go with<$FFFC>that.<$FFFE>
-31	<$FB00><$00DA>I'd like you to be one<$FFFC>of the two who break in. You<$FFFC>can wield Langrisser, after all.<$FFFE>
-32	<$FB00><$00DB>Me, huh.<$FFF5> <$FB00><$00DC>And who's the<$FFFC>other one？<$FFFE>
-33	<$FB00><$00DD>That's for you to<$FFFC>decide. Choose whoever you want<$FFFC>supporting you.<$FFFE>
-34	<$FB00><$00DE>Right. The other four<$FFFC>can shake the enemy and rush in<$FFFC>after.<$FFFE>
-35	<$FB00><$00DF>Well, just decide by the<$FFFC>time we break in.<$FFFE>
+27	<$FB00><$00D6>I see. Then how about this.<$FFFE>
+28	<$FB00><$00D7>When it's dark, four of us<$FFFC>first draw the enemy off and lure them<$FFFC>elsewhere.<$FFFD>Then the other two force their way in.<$FFFE>
+29	<$FB00><$00D8>I like it. I'm for it.<$FFFE>
+30	<$FB00><$00D9>Right, let's go with that.<$FFFE>
+31	<$FB00><$00DA>I'd like you to be one of the<$FFFC>two who break in. You can wield<$FFFC>Langrisser, after all.<$FFFE>
+32	<$FB00><$00DB>Me, huh.<$FFF5> <$FB00><$00DC>And who's the other<$FFFC>one？<$FFFE>
+33	<$FB00><$00DD>That's for you to decide.<$FFFC>Choose whoever you want supporting you.<$FFFE>
+34	<$FB00><$00DE>Right. The other four can<$FFFC>shake the enemy and rush in after.<$FFFE>
+35	<$FB00><$00DF>Well, just decide by the time<$FFFC>we break in.<$FFFE>

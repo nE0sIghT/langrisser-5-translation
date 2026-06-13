@@ -8,54 +8,54 @@
 6	Lanford<$FFFF>
 7	Shop<$FFFF>
 8	In town<$FFFF>
-9	<$FB00><$0058>Excuse me. Does this store<$FFFC>carry the herb Florier？<$FFFE>
-10	<$FB00><$0059>Florier？ The fever<$FFFC>medicine, yes？<$FFFE>
-11	<$FB00><$005A>Yes. So, do you have<$FFFC>any？<$FFFE>
-12	<$FFF8>…<$FFF6><$FB00><$005B>I'm afraid we don't. That<$FFFC>herb is rarely ever found<$FFF5><$FFF8>…<$FFFE>
-13	<$FB00><$005C>And something that<$FFFC>expensive is more than our shop<$FFFC>can stock.<$FFFE>
-14	<$FB00><$005D>Then where should I go to<$FFFC>find some？<$FFFE>
+9	<$FB00><$0058>Excuse me. Does this store carry<$FFFC>the herb Florier？<$FFFE>
+10	<$FB00><$0059>Florier？ The fever medicine,<$FFFC>yes？<$FFFE>
+11	<$FB00><$005A>Yes. So, do you have any？<$FFFE>
+12	<$FFF8>…<$FFF6><$FB00><$005B>I'm afraid we don't. That herb<$FFFC>is rarely ever found<$FFF5><$FFF8>…<$FFFE>
+13	<$FB00><$005C>And something that expensive is<$FFFC>more than our shop can stock.<$FFFE>
+14	<$FB00><$005D>Then where should I go to find<$FFFC>some？<$FFFE>
 15	<$FB00><$005E>That's hard to say<$FFF5><$FFF8>…<$FFFE>
 16	<$FFF8>…<$FFF6><$FB00><$005F>I see<$FFF5><$FFF8>…<$FFFE>
 17	<$FFF8>…<$FE1E>…<$FE1E><$FFF7><$FB00><$0060>Sigh<$FFF5><$FFF8>…<$FFFE>
-18	<$FB00><$0061>Hey, you there. Wait a<$FFFC>second.<$FFFE>
+18	<$FB00><$0061>Hey, you there. Wait a second.<$FFFE>
 19	<$FB00><$0062>Y, yes？<$FFFE>
-20	<$FB00><$0063>I overheard you talking<$FFFC>with the shopkeeper.<$FFFD>You're looking for fever medicine？<$FFFE>
-21	…<$FB00><$0064>That's right. My father is<$FFFC>down with a fever, so I'm out<$FFFC>searching<$FFF5>…<$FFFE>
-22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say,<$FFFC>shall I share my medicine？<$FFFE>
+20	<$FB00><$0063>I overheard you talking with the<$FFFC>shopkeeper.<$FFFD>You're looking for fever medicine？<$FFFE>
+21	…<$FB00><$0064>That's right. My father is<$FFFC>down with a fever, so I'm out searching<$FFF5>…<$FFFE>
+22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say, shall I<$FFFC>share my medicine？<$FFFE>
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
-24	<$FB00><$0067>Not Florier, but a<$FFFC>medicine from my home continent. It<$FFFC>works well.<$FFFE>
-25	<$FB00><$0068>Please, let me have it！<$FFFC>I'll pay whatever it takes！<$FFFE>
-26	<$FB00><$0069>N, no！ I wasn't offering<$FFFC>to make money off you<$FFF5>…<$FFFE>
-27	<$FB00><$006A>But then I couldn't live<$FFFC>with myself！ At least take this<$FFFC>much！<$FFFE>
-28	…<$FB00><$006B>Very well. Then I'll<$FFFC>gladly accept.<$FFFD>Here. This is the fever medicine.<$FFFE>
+24	<$FB00><$0067>Not Florier, but a medicine from<$FFFC>my home continent. It works well.<$FFFE>
+25	<$FB00><$0068>Please, let me have it！ I'll pay<$FFFC>whatever it takes！<$FFFE>
+26	<$FB00><$0069>N, no！ I wasn't offering to<$FFFC>make money off you<$FFF5>…<$FFFE>
+27	<$FB00><$006A>But then I couldn't live with<$FFFC>myself！ At least take this much！<$FFFE>
+28	…<$FB00><$006B>Very well. Then I'll gladly<$FFFC>accept.<$FFFD>Here. This is the fever medicine.<$FFFE>
 29	<$FB00><$006C>You're a lifesaver！<$FFFE>
 30	<$FB00><$006D>What will you do now？<$FFFE>
-31	<$FB00><$006E>Take the medicine straight<$FFFC>to my father.<$FFFD>My home is in the Reynolds region.<$FFFE>
-32	<$FB00><$006F>Oh？ Then why don't we<$FFFC>travel together a while？<$FFFE>
-33	<$FB00><$0070>Gladly. It must be fate of<$FFFC>a sort.<$FFFE>
+31	<$FB00><$006E>Take the medicine straight to my<$FFFC>father.<$FFFD>My home is in the Reynolds region.<$FFFE>
+32	<$FB00><$006F>Oh？ Then why don't we travel<$FFFC>together a while？<$FFFE>
+33	<$FB00><$0070>Gladly. It must be fate of a<$FFFC>sort.<$FFFE>
 34	On the road to the sorcery lab<$FFFF>
-35	<$FB00><$0071>We'll reach a town soon,<$FFFC>but my data says Caconsis troops<$FFFC>hold it.<$FFFD>It may come to a fight, so be<$FFFC>ready.<$FFFE>
+35	<$FB00><$0071>We'll reach a town soon, but my<$FFFC>data says Caconsis troops hold it.<$FFFD>It may come to a fight, so be ready.<$FFFE>
 36	<$FB00><$0072>Best stay on guard, then.<$FFFE>
-37	By the way, before we reach town,<$FFFC>I want to go over a bit more<$FFFC>tactics<$FFF8>…<$FFFE>
+37	By the way, before we reach town, I want<$FFFC>to go over a bit more tactics<$FFF8>…<$FFFE>
 38	What now？<$FFFE>
-39	Do you know how experience is<$FFFC>earned for defeating enemies？<$FFFE>
+39	Do you know how experience is earned for<$FFFC>defeating enemies？<$FFFE>
 40	・I know it.<$FFFE>
 41	・Remind me, just in case.<$FFFE>
 42	Good. So you know that part.<$FFFE>
-43	Defeating enemy mercenaries or<$FFFC>leaders earns us experience, <$FFF4>EXP<$FFFC><$FFF3>for short.<$FFFD>Defeat a leader and his unit<$FFFC>falls with him.<$FFFD>But mercenaries lost that way give<$FFFC><$FFF4>half the EXP of direct kills<$FFF3>.<$FFFE>
-44	So to earn proper experience, better<$FFFC>cut down the mercenaries first？<$FFFE>
-45	Yes. Though <$FFF4>the gold comes in<$FFFC>full<$FFF3>, so don't fret over it.<$FFFE>
-46	Mercenaries first, then, and when<$FFFC>pressed, go straight for the<$FFFC>leader…<$FFFE>
-47	Last one. What about the other<$FFFC>ways to earn experience？<$FFFE>
+43	Defeating enemy mercenaries or leaders<$FFFC>earns us experience, <$FFF4>EXP <$FFF3>for short.<$FFFD>Defeat a leader and his unit falls with<$FFFC>him.<$FFFD>But mercenaries lost that way give <$FFF4>half<$FFFC>the EXP of direct kills<$FFF3>.<$FFFE>
+44	So to earn proper experience, better cut<$FFFC>down the mercenaries first？<$FFFE>
+45	Yes. Though <$FFF4>the gold comes in full<$FFF3>, so<$FFFC>don't fret over it.<$FFFE>
+46	Mercenaries first, then, and when pressed,<$FFFC>go straight for the leader…<$FFFE>
+47	Last one. What about the other ways to<$FFFC>earn experience？<$FFFE>
 48	・I know it.<$FFFE>
 49	・Remind me, just in case.<$FFFE>
 50	Good. Then that's all.<$FFFE>
-51	Trust my knowledge a little, will<$FFFC>you.<$FFFE>
+51	Trust my knowledge a little, will you.<$FFFE>
 52	Remind me, just in case.<$FFFE>
-53	Healing spells like the Heal line<$FFFC>or Cure earn EXP <$FFF4>per person<$FFFC>healed<$FFF3>.<$FFFD>But past a certain turn it stops<$FFFC>coming, and each stage has a<$FFFC>cap on it.<$FFFE>
+53	Healing spells like the Heal line or Cure<$FFFC>earn EXP <$FFF4>per person healed<$FFF3>.<$FFFD>But past a certain turn it stops coming,<$FFFC>and each stage has a cap on it.<$FFFE>
 54	What about other magic？<$FFFE>
-55	No. Other spells work like normal<$FFFC>attacks, EXP comes from kills.<$FFFE>
-56	Meaning when a leader falls, his<$FFFC>mercenaries go too, at half the<$FFFC>EXP.<$FFFE>
-57	But if an area or unit spell<$FFFC>brings a mercenary's HP to 0, it<$FFFC>counts as a proper kill.<$FFFE>
-58	So magic attacks take some thought<$FFFC>as well.<$FFFE>
-59	<$FB00><$0073>That's about all I wanted<$FFFC>to say. Now let's hurry on.<$FFFE><$FFFF>
+55	No. Other spells work like normal attacks,<$FFFC>EXP comes from kills.<$FFFE>
+56	Meaning when a leader falls, his<$FFFC>mercenaries go too, at half the EXP.<$FFFE>
+57	But if an area or unit spell brings a<$FFFC>mercenary's HP to 0, it counts as a<$FFFC>proper kill.<$FFFE>
+58	So magic attacks take some thought as<$FFFC>well.<$FFFE>
+59	<$FB00><$0073>That's about all I wanted to<$FFFC>say. Now let's hurry on.<$FFFE><$FFFF>

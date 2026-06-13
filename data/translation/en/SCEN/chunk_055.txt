@@ -11,36 +11,36 @@
 9	Glob<$FFFF>
 10	Gaiel<$FFFF>
 11	At Lambert's Estate<$FFFF>
-12	<$FB00><$0003>What business have you in<$FFFC>this house, Lanford？<$FFFE>
-13	<$FB00><$0004>Father. I have been<$FFFC>appointed marshal of the Federation<$FFFC>army.<$FFFE>
-14	<$FB00><$0005>So what？ That has<$FFFC>nothing to do with me.<$FFFE>
+12	<$FB00><$0003>What business have you in this<$FFFC>house, Lanford？<$FFFE>
+13	<$FB00><$0004>Father. I have been appointed<$FFFC>marshal of the Federation army.<$FFFE>
+14	<$FB00><$0005>So what？ That has nothing to<$FFFC>do with me.<$FFFE>
 15	<$FB00><$0006>But, Father！<$FFFE>
-16	<$FB00><$0007>You were disowned from<$FFFC>this house. Leave at once, and<$FFFC>never show yourself before me<$FFFC>again！<$FFFE>
+16	<$FB00><$0007>You were disowned from this<$FFFC>house. Leave at once, and never show<$FFFC>yourself before me again！<$FFFE>
 17	<$FFF8><$FFFA><$FB00><$0008>…<$FFFE>
-18	<$FB00><$0009>I must attend a friend's<$FFFC>funeral. Be gone before I return,<$FFFC>or I will cut you down！<$FFFE>
+18	<$FB00><$0009>I must attend a friend's<$FFFC>funeral. Be gone before I return, or I<$FFFC>will cut you down！<$FFFE>
 19	<$FB00><$000A>Father<$FFF5><$FFF8>…<$FE28>…<$FE28>. <$FE28><$FFF6><$FB00><$000B>Why have you<$FFFC>changed <$FFF5><$FFF8>…<$FE28>…<$FE28>？<$FFFE>
-20	<$FFF6><$FB00><$000C>You know, don't you？<$FFFC>Why has Father changed？<$FFFE>
-21	<$FB00><$000D>I cannot say it, but<$FFFC>it is all for your sake, Lord<$FFFC>Lanford.<$FFFE>
-22	<$FB00><$000E>What do you mean,<$FFFC>Masterson？ For my sake？<$FFFE>
-23	<$FB00><$000F>Yes. The master changed<$FFFC>after Lord Clifford died.<$FFFE>
-24	<$FB00><$0010>Father changed after my<$FFFC>brother died. But why？ What did<$FFFC>his death mean？<$FFFE>
-25	<$FB00><$0011>That is not mine to<$FFFC>tell. For today, please leave<$FFF5><$FFF8>…<$FFFE>
-26	<$FB00><$0012>So my brother's death is<$FFFC>the reason<$FFF5><$FFF8>… <$FFF6><$FB00><$0013>But what happened<$FFF5><$FFF8>…？<$FFFE>
+20	<$FFF6><$FB00><$000C>You know, don't you？ Why has<$FFFC>Father changed？<$FFFE>
+21	<$FB00><$000D>I cannot say it, but it is all<$FFFC>for your sake, Lord Lanford.<$FFFE>
+22	<$FB00><$000E>What do you mean, Masterson？<$FFFC>For my sake？<$FFFE>
+23	<$FB00><$000F>Yes. The master changed after<$FFFC>Lord Clifford died.<$FFFE>
+24	<$FB00><$0010>Father changed after my<$FFFC>brother died. But why？ What did his death<$FFFC>mean？<$FFFE>
+25	<$FB00><$0011>That is not mine to tell. For<$FFFC>today, please leave<$FFF5><$FFF8>…<$FFFE>
+26	<$FB00><$0012>So my brother's death is the<$FFFC>reason<$FFF5><$FFF8>… <$FFF6><$FB00><$0013>But what happened<$FFF5><$FFF8>…？<$FFFE>
 27	At Velzeria Castle<$FFFF>
-28	<$FB00><$0014>So you obtained the<$FFFC>swords, Gaiel？<$FFFE>
-29	<$FB00><$0015>Of course. Who do you<$FFFC>think I am？ Besides, you stopped<$FFFC>attacking humans.<$FFFE>
-30	<$FB00><$0016>Hee hee！ Humans now<$FFFC>kill one another.<$FFFD><$FB00><$0017>Let them be and they'll weaken<$FFFC>themselves.<$FFFE>
-31	<$FB00><$0018>Hmph. If waiting helps<$FFFC>us, use it.<$FFFD><$FB00><$0019>Your scheme worked, Glob.<$FFFE>
-32	<$FB00><$001A>Naturally. Who do you<$FFFC>think I am？ I hear Boser was<$FFFC>crushed on Yeless？<$FFFE>
-33	<$FB00><$001B>Yes. He was defeated by<$FFFC>this sword again.<$FFFE>
+28	<$FB00><$0014>So you obtained the swords,<$FFFC>Gaiel？<$FFFE>
+29	<$FB00><$0015>Of course. Who do you think I<$FFFC>am？ Besides, you stopped attacking humans.<$FFFE>
+30	<$FB00><$0016>Hee hee！ Humans now kill one<$FFFC>another.<$FFFD><$FB00><$0017>Let them be and they'll weaken themselves.<$FFFE>
+31	<$FB00><$0018>Hmph. If waiting helps us, use<$FFFC>it.<$FFFD><$FB00><$0019>Your scheme worked, Glob.<$FFFE>
+32	<$FB00><$001A>Naturally. Who do you think I<$FFFC>am？ I hear Boser was crushed on Yeless？<$FFFE>
+33	<$FB00><$001B>Yes. He was defeated by this<$FFFC>sword again.<$FFFE>
 34	<$FB00><$001C>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE28><$FFF6><$FB00><$001D>What an<$FFFC>irritating sword！ Still, well done.<$FFFE>
-35	<$FB00><$001E>They must have relaxed<$FFFC>after defeating Lord Boser.<$FFFE>
-36	<$FB00><$001F>Likely. Else a newcomer<$FFFC>like you could not steal it so<$FFFC>easily.<$FFFE>
-37	<$FB00><$0020>After a thousand years,<$FFFC>I'm still a newcomer？<$FFF5><$FFF8>… <$FFF6><$FB00><$0021>Fine.<$FFFD><$FB00><$0022>Anyway, hold this for me.<$FFFE>
-38	<$FB00><$0023>Only Langrisser？ Do you<$FFFC>plan to keep Alhazard with you？<$FFFE>
-39	<$FB00><$0024>Relax. I won't become<$FFFC>Boser. Leading all demons is beyond<$FFFC>me.<$FFFE>
-40	<$FB00><$0025>I'll seek a way to<$FFFC>destroy Langrisser. I may need<$FFFC>Alhazard.<$FFFE>
-41	<$FB00><$0026>Alhazard is our demon<$FFFC>treasure. Do not get strange<$FFFC>ideas！<$FFFE>
+35	<$FB00><$001E>They must have relaxed after<$FFFC>defeating Lord Boser.<$FFFE>
+36	<$FB00><$001F>Likely. Else a newcomer like<$FFFC>you could not steal it so easily.<$FFFE>
+37	<$FB00><$0020>After a thousand years, I'm<$FFFC>still a newcomer？<$FFF5><$FFF8>… <$FFF6><$FB00><$0021>Fine.<$FFFD><$FB00><$0022>Anyway, hold this for me.<$FFFE>
+38	<$FB00><$0023>Only Langrisser？ Do you plan<$FFFC>to keep Alhazard with you？<$FFFE>
+39	<$FB00><$0024>Relax. I won't become Boser.<$FFFC>Leading all demons is beyond me.<$FFFE>
+40	<$FB00><$0025>I'll seek a way to destroy<$FFFC>Langrisser. I may need Alhazard.<$FFFE>
+41	<$FB00><$0026>Alhazard is our demon<$FFFC>treasure. Do not get strange ideas！<$FFFE>
 42	<$FB00><$0027>Relax. I always put the<$FFFC>demons' future first.<$FFFE>
-43	<$0000>Denied by Jessica, Clarett sought<$FFFC>Salrath's army from Duke Lenard.<$FFFD><$0000>Near Salrath, the party found<$FFFC>villagers fleeing noble oppression,<$FFFC>chased by soldiers…<$FFFE>
+43	<$0000>Denied by Jessica, Clarett sought<$FFFC>Salrath's army from Duke Lenard.<$FFFD><$0000>Near Salrath, the party found villagers<$FFFC>fleeing noble oppression, chased by<$FFFC>soldiers…<$FFFE>
 44	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・All villagers die<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

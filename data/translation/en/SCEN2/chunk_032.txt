@@ -22,70 +22,70 @@
 20	Lainforce Castle<$FFFF>
 21	<$FB00><$0010>So Lainforce is here<$FFF5><$FFF8>….<$FFFE>
 22	<$FB00><$0011>Come out, Lainforce！<$FFFE>
-23	<$FB00><$0012>Breaking into a man's<$FFFC>castle uninvited and making a din,<$FFFC>I'll thank you to stop.<$FFFE>
-24	<$FB00><$0013>Prepare yourself,<$FFFC>Lainforce. We'll shatter your<$FFFC>ambition.<$FFFE>
-25	<$FB00><$0014>It seems we're fated<$FFFC>to fight.<$FFF5> <$FB00><$0015>Striking the moment I'd<$FFFC>sent my men away, a fine stroke.<$FFFD><$FB00><$0016>But I won't simply hand you the<$FFFC>victory.<$FFFE>
-26	<$FB00><$0017>There's something I've<$FFFC>been meaning to ask you.<$FFFE>
-27	<$FB00><$0018>That comes after this<$FFFC>fight. If you can win, then ask！<$FFFE>
+23	<$FB00><$0012>Breaking into a man's castle<$FFFC>uninvited and making a din, I'll thank you<$FFFC>to stop.<$FFFE>
+24	<$FB00><$0013>Prepare yourself, Lainforce.<$FFFC>We'll shatter your ambition.<$FFFE>
+25	<$FB00><$0014>It seems we're fated to<$FFFC>fight.<$FFF5> <$FB00><$0015>Striking the moment I'd sent my<$FFFC>men away, a fine stroke.<$FFFD><$FB00><$0016>But I won't simply hand you the victory.<$FFFE>
+26	<$FB00><$0017>There's something I've been<$FFFC>meaning to ask you.<$FFFE>
+27	<$FB00><$0018>That comes after this fight.<$FFFC>If you can win, then ask！<$FFFE>
 28	We will protect you.<$FFFE>
-29	Lord Lainforce, please watch from<$FFFC>there.<$FFFE>
+29	Lord Lainforce, please watch from there.<$FFFE>
 30	No, I'll fight too.<$FFFE>
 31	<$FB00><$002C>We will protect you.<$FFFE>
-32	<$FB00><$002D>Lord Lainforce, please<$FFFC>watch from there.<$FFFE>
+32	<$FB00><$002D>Lord Lainforce, please watch<$FFFC>from there.<$FFFE>
 33	<$FB00><$002E>I leave it to you.<$FFFE>
-34	<$FB00><$002F>You've nowhere left to<$FFFC>run, Lainforce.<$FFFE>
-35	<$FB00><$0030>A call to surrender？<$FFFC>A poor joke.<$FFFE>
-36	<$FB00><$0031>I won't let you<$FFFC>escape, Lain！<$FFFE>
+34	<$FB00><$002F>You've nowhere left to run,<$FFFC>Lainforce.<$FFFE>
+35	<$FB00><$0030>A call to surrender？ A poor<$FFFC>joke.<$FFFE>
+36	<$FB00><$0031>I won't let you escape,<$FFFC>Lain！<$FFFE>
 37	<$FB00><$0032>Brenda<$FFF5><$FFF8>…. <$FE2D>…<$FE2D>…<$FE2D>…<$FE2D>.<$FFFE>
-38	<$FB00><$0033>What, if you've<$FFFC>something to say, say it plainly！<$FFFE>
-39	<$FFF8>…<$FFF6><$FB00><$0034>No.<$FFFA>The me of now<$FFFC>has no words for you.<$FFFE>
+38	<$FB00><$0033>What, if you've something to<$FFFC>say, say it plainly！<$FFFE>
+39	<$FFF8>…<$FFF6><$FB00><$0034>No.<$FFFA>The me of now has no<$FFFC>words for you.<$FFFE>
 40	<$FB00><$0035>I don't like it！<$FFFE>
-41	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
-42	<$FB00><$0048>Kh… but I can still<$FFFC>go….<$FFFE>
-43	<$FB00><$0049>Marie！ Don't push it,<$FFFC>fall back！<$FFFE>
+41	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+42	<$FB00><$0048>Kh… but I can still go….<$FFFE>
+43	<$FB00><$0049>Marie！ Don't push it, fall<$FFFC>back！<$FFFE>
 44	<$FB00><$004A>…Please, don't lose….<$FFFE>
-45	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
-46	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+45	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
+46	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 47	<$FB00><$007D>But…<$FFFE>
 48	<$FB00><$007E>Trust your comrades！<$FFFE>
-49	<$FB00><$007F>…Understood… The rest<$FFFC>is yours…<$FFFE>
+49	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
 50	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
-51	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
-52	<$FB00><$006D>Yeah, I'm fine… I<$FFFC>can still go…<$FFFE>
-53	<$FB00><$006E>Fall back, Brenda！<$FFFC>Don't overdo it！<$FFFE>
-54	<$FB00><$006F>…I'll do that. I<$FFFC>don't want to drag you down…<$FFFE>
+51	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+52	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>go…<$FFFE>
+53	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
+54	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
 55	<$FB00><$0057>Aah！<$FFFE>
-56	<$FB00><$0058>Are you all right,<$FFFC>Clarett！？<$FFFE>
+56	<$FB00><$0058>Are you all right, Clarett！？<$FFFE>
 57	<$FB00><$0059>This is a bit much…<$FFFE>
-58	<$FB00><$005A>Leave the rest to us<$FFFC>and fall back！<$FFFE>
-59	<$FB00><$005B>Sorry, it's in your<$FFFC>hands…<$FFFE>
+58	<$FB00><$005A>Leave the rest to us and<$FFFC>fall back！<$FFFE>
+59	<$FB00><$005B>Sorry, it's in your hands…<$FFFE>
 60	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
-61	<$FB00><$008F>Are you all right,<$FFFC>Lanford！？<$FFFE>
-62	<$FB00><$0090>A wound like this is<$FFFC>a scratch…<$FFFE>
-63	<$FB00><$0091>Don't push it！ Leave<$FFFC>the rest to us！<$FFFE>
-64	<$FB00><$0092>…At such a crucial<$FFFC>time, forgive me…<$FFFE>
+61	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
+62	<$FB00><$0090>A wound like this is a<$FFFC>scratch…<$FFFE>
+63	<$FB00><$0091>Don't push it！ Leave the<$FFFC>rest to us！<$FFFE>
+64	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
 65	Kh！ It can't be…<$FFFE>
 66	Landius！ Don't push yourself！<$FFFE>
 67	Sorry, sister…. I'll fall back….<$FFFE>
-68	Fall back, Landius. If anything<$FFFC>happened to you, I couldn't face<$FFFC>Emily.<$FFFE>
+68	Fall back, Landius. If anything happened<$FFFC>to you, I couldn't face Emily.<$FFFE>
 69	Sorry, Lanford….<$FFFE>
-70	Don't push it, stay back. Just us<$FFFC>is enough.<$FFFE>
+70	Don't push it, stay back. Just us is<$FFFC>enough.<$FFFE>
 71	I'm sorry….<$FFFE>
-72	<$FB00><$0020>In truth I came here<$FFFC>with something to tell you, Lord<$FFFC>Lanford.<$FFFE>
+72	<$FB00><$0020>In truth I came here with<$FFFC>something to tell you, Lord Lanford.<$FFFE>
 73	<$FB00><$0021>What is it？<$FFFE>
-74	<$FB00><$0022>That Russel was a<$FFFC>monster reached the court.<$FFFD>Queen Rosenshill, on learning it,<$FFFC>has restored your command of the<$FFFC>army.<$FFFE>
-75	<$FB00><$0023>Heh, I see.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>So I'm no<$FFFC>longer in the dishonor of a<$FFFC>jailbreaker.<$FFFE>
-76	<$FB00><$0025>The Queen also wishes<$FFFC>to apologize deeply for it.<$FFFE>
+74	<$FB00><$0022>That Russel was a monster<$FFFC>reached the court.<$FFFD>Queen Rosenshill, on learning it, has<$FFFC>restored your command of the army.<$FFFE>
+75	<$FB00><$0023>Heh, I see.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>So I'm no<$FFFC>longer in the dishonor of a jailbreaker.<$FFFE>
+76	<$FB00><$0025>The Queen also wishes to<$FFFC>apologize deeply for it.<$FFFE>
 77	<$FB00><$0026>Well done, Emily.<$FFFE>
-78	<$FB00><$0027>Now we can count on<$FFFC>the Federation's forces.<$FFFE>
-79	<$FFF8><$FB00><$0028>Mm.<$FFF5> <$FFF6><$FB00><$0029>The time has come<$FFFC>to put an end to this war at<$FFFC>last.<$FFFD><$FB00><$002A>For that, I'll have you work a<$FFFC>little longer, Emily.<$FFFE>
+78	<$FB00><$0027>Now we can count on the<$FFFC>Federation's forces.<$FFFE>
+79	<$FFF8><$FB00><$0028>Mm.<$FFF5> <$FFF6><$FB00><$0029>The time has come to<$FFFC>put an end to this war at last.<$FFFD><$FB00><$002A>For that, I'll have you work a little<$FFFC>longer, Emily.<$FFFE>
 80	<$FB00><$002B>Yes！<$FFFE>
 81	Uu…！<$FFFE>
 82	Hah, Emily！<$FFFE>
 83	Forgive me, Lord Lanford….<$FFFE>
-84	Stay back. Enemies like these, just<$FFFC>us is enough.<$FFFE>
+84	Stay back. Enemies like these, just us is<$FFFC>enough.<$FFFE>
 85	Yes….<$FFFE>
-86	Stay back, sister！ I'll manage the<$FFFC>rest！<$FFFE>
+86	Stay back, sister！ I'll manage the rest！<$FFFE>
 87	I'm counting on you, Landius….<$FFFE>
 88	Stay back. Just us is enough.<$FFFE>
 89	I'm sorry….<$FFFE>
@@ -93,22 +93,22 @@
 91	Kyaaa…. Still… I… aah….<$FFFE>
 92	That I should lose….<$FFFE>
 93	That I should lose….<$FFFE>
-94	I won't let you reach Lord<$FFFC>Lainforce….<$FFFE>
-95	I won't let you reach Lord<$FFFC>Lainforce….<$FFFE>
+94	I won't let you reach Lord Lainforce….<$FFFE>
+95	I won't let you reach Lord Lainforce….<$FFFE>
 96	M, my wife….<$FFFE>
 97	L, Lain…force…, my lord….<$FFFE>
-98	Not yet… I have one last…<$FFFC>trump card….<$FFFE>
-99	Not yet… there's something I<$FFFC>must still do….<$FFFE>
-100	I'll… let you… pass no<$FFFC>further….<$FFFE>
-101	I'll… let you… pass no<$FFFC>further….<$FFFE>
+98	Not yet… I have one last… trump card….<$FFFE>
+99	Not yet… there's something I must still<$FFFC>do….<$FFFE>
+100	I'll… let you… pass no further….<$FFFE>
+101	I'll… let you… pass no further….<$FFFE>
 102	Lord Lainforce… forgive me….<$FFFE>
-103	Even if my life… runs out….<$FFFC>Crimso… will… guhah！<$FFFE>
+103	Even if my life… runs out…. Crimso…<$FFFC>will… guhah！<$FFFE>
 104	<$FFF8>…<$FFF6><$FB00><$0036>Uu<$FFF5><$FFF8>….<$FFFE>
 105	<$FB00><$0037>Did we get him！<$FFFE>
 106	<$FB00><$0019>Lord Lanford！<$FFFE>
 107	<$FB00><$001A>Emily？<$FFFE>
-108	<$FB00><$001B>It's little, but we'll<$FFFC>lend our strength too.<$FFFE>
+108	<$FB00><$001B>It's little, but we'll lend<$FFFC>our strength too.<$FFFE>
 109	<$FB00><$001C>Hah, and Lord Lanford？<$FFFE>
-110	<$FB00><$001D>No need to worry. He's<$FFFC>only resting a while.<$FFFE>
+110	<$FB00><$001D>No need to worry. He's only<$FFFC>resting a while.<$FFFE>
 111	<$FB00><$001E>I see, good.<$FFFE>
-112	<$FB00><$001F>In Lanford's place, I'll<$FFFC>do my best！<$FFFE>
+112	<$FB00><$001F>In Lanford's place, I'll do<$FFFC>my best！<$FFFE>

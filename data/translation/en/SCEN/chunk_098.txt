@@ -12,68 +12,68 @@
 10	Merc<$FFFF>
 11	Near town<$FFFF>
 12	<$FB00><$006B>Wait, Clarett.<$FFFE>
-13	<$FB00><$006C>What？ I'm just a woman<$FFFC>who runs away！ Leave me alone！<$FFF5><$FFF7><$FFFE>
-14	<$FB00><$006D>Listen, Clarett. I have<$FFFC>hidden something from you too.<$FFFE>
+13	<$FB00><$006C>What？ I'm just a woman who runs<$FFFC>away！ Leave me alone！<$FFF5><$FFF7><$FFFE>
+14	<$FB00><$006D>Listen, Clarett. I have hidden<$FFFC>something from you too.<$FFFE>
 15	<$FB00><$006E>From me？<$FFFE>
-16	<$FFFA><$FB00><$006F>You said I couldn't have<$FFFC>killed the Emperor.<$FFFD><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0070>But you were wrong. The man<$FFFC>you stabbed on Yeless was me.<$FFFE>
+16	<$FFFA><$FB00><$006F>You said I couldn't have killed<$FFFC>the Emperor.<$FFFD><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0070>But you were wrong. The man you<$FFFC>stabbed on Yeless was me.<$FFFE>
 17	<$FFF7><$FB00><$0071>What！？<$FFF5><$FFF8><$FFFE>
-18	<$FB00><$0072>A man from my past told<$FFFC>me.<$FFFD><$FB00><$0073>You said it wasn't me, and I<$FFFC>hid behind that.<$FFFD><$FB00><$0074>So I was running too.<$FFFE>
-19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>No<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0076>Then why are<$FFFC>you alive？ You died then, I<$FFFC>know it！<$FFFE>
-20	<$FB00><$0077>Gizarof used me for<$FFFC>research. His experiment revived<$FFFC>me.<$FFFE>
+18	<$FB00><$0072>A man from my past told me.<$FFFD><$FB00><$0073>You said it wasn't me, and I hid behind<$FFFC>that.<$FFFD><$FB00><$0074>So I was running too.<$FFFE>
+19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>No<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0076>Then why are you<$FFFC>alive？ You died then, I know it！<$FFFE>
+20	<$FB00><$0077>Gizarof used me for research.<$FFFC>His experiment revived me.<$FFFE>
 21	<$FFF8><$FFFA>…<$FFFE>
-22	<$FB00><$0079>So I killed your father.<$FFFC>What now？ Stab me again？<$FFFE>
+22	<$FB00><$0079>So I killed your father. What<$FFFC>now？ Stab me again？<$FFFE>
 23	…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
-24	<$FB00><$007A>No. Enough. You died once<$FFFC>and atoned. You don't need to<$FFFC>die twice.<$FFFD><$FB00><$007B>Besides<$FFF5><$FFF8>…<$FFFE>
+24	<$FB00><$007A>No. Enough. You died once and<$FFFC>atoned. You don't need to die twice.<$FFFD><$FB00><$007B>Besides<$FFF5><$FFF8>…<$FFFE>
 25	<$FB00><$007C>Besides？<$FFFE>
-26	<$FB00><$007D>I don't want to kill you<$FFFC>twice.<$FFFE>
+26	<$FB00><$007D>I don't want to kill you twice.<$FFFE>
 27	<$FFF8>…<$FB00><$007E>Clarett<$FFF5><$FFF8>…<$FFFE>
 28	<$FFF8>…<$FB00><$007F>Thank you.<$FFFE>
 29	<$FB00><$0080><$FFF7>Huh！？<$FFF5><$FFF8><$FFFE>
-30	<$FB00><$0081>Because you told the<$FFFC>truth. That gives me courage.<$FFFD><$FB00><$0082>I relied on others. Now I'll act<$FFFC>myself.<$FFFE>
-31	<$FB00><$0083>Right. If you never act<$FFFC>yourself, you won't overcome<$FFFC>anything.<$FFFE>
+30	<$FB00><$0081>Because you told the truth. That<$FFFC>gives me courage.<$FFFD><$FB00><$0082>I relied on others. Now I'll act myself.<$FFFE>
+31	<$FB00><$0083>Right. If you never act<$FFFC>yourself, you won't overcome anything.<$FFFE>
 32	<$FB00><$0084>Exactly.<$FFFE>
 33	<$FB00><$0085>What do you think I was<$FFFC>considering here？<$FFFE>
 34	<$FFF8>…<$FFF6><$FB00><$0086>That's a hard one.<$FFFE>
-35	<$FB00><$0087>Since returning from<$FFFC>Yeless, I wondered something.<$FFFD><$FB00><$0088>Why is Caconsis lively, while this<$FFFC>continent is not？<$FFFE>
+35	<$FB00><$0087>Since returning from Yeless, I<$FFFC>wondered something.<$FFFD><$FB00><$0088>Why is Caconsis lively, while this<$FFFC>continent is not？<$FFFE>
 36	<$FB00><$0089>Did you find the answer？<$FFFE>
-37	<$FB00><$008A>The answer is the people's<$FFFC>spirit.<$FFFD><$FB00><$008B>The late Caconsis king was proud<$FFFC>but timid, slow to decide.<$FFFD><$FB00><$008C>So the people had to solve<$FFFC>problems themselves.<$FFFE>
-38	<$FB00><$008D>If the rulers abandon<$FFFC>them, they must become independent.<$FFFE>
-39	<$FB00><$008E>I want this continent's<$FFFC>people to stand on their own. I<$FFFC>won't abandon them.<$FFFD><$FB00><$008F>If they join politics, they may<$FFFC>live with more hope.<$FFFE>
+37	<$FB00><$008A>The answer is the people's<$FFFC>spirit.<$FFFD><$FB00><$008B>The late Caconsis king was proud but<$FFFC>timid, slow to decide.<$FFFD><$FB00><$008C>So the people had to solve problems<$FFFC>themselves.<$FFFE>
+38	<$FB00><$008D>If the rulers abandon them, they<$FFFC>must become independent.<$FFFE>
+39	<$FB00><$008E>I want this continent's people<$FFFC>to stand on their own. I won't abandon<$FFFC>them.<$FFFD><$FB00><$008F>If they join politics, they may live with<$FFFC>more hope.<$FFFE>
 40	<$FB00><$0090>Better than living by orders<$FFFC>from nobles.<$FFFE>
-41	<$FB00><$0091>Yes. Nobles aren't needed.<$FFFC>What matters is each citizen's<$FFFC>life！<$FFFE>
-42	<$FB00><$0092>Politics by the people,<$FFFC>for the people. I like it.<$FFFD><$FB00><$0093>But what about the nobles？<$FFFE>
-43	<$FB00><$0094>I've thought of that too.<$FFFC>Stay with me a bit longer？<$FFFE>
+41	<$FB00><$0091>Yes. Nobles aren't needed. What<$FFFC>matters is each citizen's life！<$FFFE>
+42	<$FB00><$0092>Politics by the people, for the<$FFFC>people. I like it.<$FFFD><$FB00><$0093>But what about the nobles？<$FFFE>
+43	<$FB00><$0094>I've thought of that too. Stay<$FFFC>with me a bit longer？<$FFFE>
 44	<$FB00><$0095><$FFF7>Of course.<$FFF5><$FFF8><$FFFE>
 45	Near town<$FFFF>
-46	…Was I running from Father and<$FFFC>Jessica？ I always let others<$FFFC>decide.<$FFFD>Brenda was right. I must change.<$FFFD>First I need my own way to save<$FFFC>this country.<$FFFD>Caconsis was lively. This land is<$FFFC>not. Why？<$FFFE>
+46	…Was I running from Father and Jessica？<$FFFC>I always let others decide.<$FFFD>Brenda was right. I must change.<$FFFD>First I need my own way to save this<$FFFC>country.<$FFFD>Caconsis was lively. This land is not.<$FFFC>Why？<$FFFE>
 47	<$FFFA><$FFF8>…<$FFFE>
 48	<$FFF9><$FFF6>I see. It is the people's spirit.<$FFFE>
-49	The late Caconsis king was proud<$FFFC>but timid, slow to decide.<$FFFD>So the people stopped relying on<$FFFC>him and learned to solve problems<$FFFC>themselves…<$FFFE>
-50	<$FFFA><$FFF8>…<$FFFD><$FFF9><$FFF6>I want this continent's people to<$FFFC>stand on their own. I won't<$FFFC>abandon them.<$FFFD>If they join politics, they may<$FFFC>live with more hope.<$FFFE>
-51	Yes. Nobles aren't needed. What<$FFFC>matters is each citizen's life！<$FFFE>
-52	Politics by the people, for the<$FFFC>people. This is it！<$FFFE>
+49	The late Caconsis king was proud but<$FFFC>timid, slow to decide.<$FFFD>So the people stopped relying on him and<$FFFC>learned to solve problems themselves…<$FFFE>
+50	<$FFFA><$FFF8>…<$FFFD><$FFF9><$FFF6>I want this continent's people to stand on<$FFFC>their own. I won't abandon them.<$FFFD>If they join politics, they may live with<$FFFC>more hope.<$FFFE>
+51	Yes. Nobles aren't needed. What matters is<$FFFC>each citizen's life！<$FFFE>
+52	Politics by the people, for the people.<$FFFC>This is it！<$FFFE>
 53	Federation Castle<$FFFF>
 54	<$FB00><$0096>Marshal Lanford！<$FFFE>
 55	<$FB00><$0097>What is it, Emily？<$FFFE>
-56	<$FB00><$0098>Emergency！ Lainforce's<$FFFC>Three-Country Alliance has<$FFFC>rebelled！<$FFFE>
-57	<$FB00><$0099>A revolt？ They used the<$FFFC>chaos after Gizarof<$FFF5><$FFF8>…<$FFFE>
+56	<$FB00><$0098>Emergency！ Lainforce's<$FFFC>Three-Country Alliance has rebelled！<$FFFE>
+57	<$FB00><$0099>A revolt？ They used the chaos<$FFFC>after Gizarof<$FFF5><$FFF8>…<$FFFE>
 58	<$FFF6><$FB00><$009A>Who supports Lainforce？<$FFFE>
 59	<$FB00><$009B>W-well<$FFF5><$FFF8>…<$FFFE>
 60	<$FB00><$009C>What is it, Emily？ Speak<$FFFC>clearly.<$FFFE>
 61	<$FB00><$009D>Alvince of Reynorz and<$FFF5><$FFF8>…<$FE3C>…<$FFFC><$FE3C><$FFF6><$FB00><$009E>Lambert of Sutherland…<$FFFE>
 62	<$FB00><$009F>Sutherland<$FFF5><$FFF8>…<$FE14>… <$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00A0>My father！？<$FFF5><$FFF7><$FFFE>
 63	<$FB00><$00A1>I could hardly believe it<$FFFC>either. But<$FFF5><$FFF8>…<$FFFE>
-64	<$FFF8><$FFFA>…<$FFFD><$FFF6><$FB00><$00A3>Even if he is my father, I can't<$FFFC>ignore a threat to the Federation.<$FFFD><$FFF9><$FB00><$00A4>Gather troops. I will command<$FFFC>them.<$FFFE>
+64	<$FFF8><$FFFA>…<$FFFD><$FFF6><$FB00><$00A3>Even if he is my father, I can't ignore a<$FFFC>threat to the Federation.<$FFFD><$FFF9><$FB00><$00A4>Gather troops. I will command them.<$FFFE>
 65	<$FB00><$00A5>But, Lord Lanford<$FFF5><$FFF8>…<$FFFE>
-66	<$FB00><$00A6>Thank you, but I am<$FFFC>marshal. My duty is to defeat<$FFFC>Federation threats, family or not.<$FFFE>
-67	<$FB00><$00A7>Understood. I will gather<$FFFC>the troops at once.<$FFFE>
-68	<$FFF8>…<$FFF6><$FB00><$00A8>My father, of all<$FFFC>people<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$00A9>What happened to him<$FFF5><$FFF8>…？<$FFFE>
+66	<$FB00><$00A6>Thank you, but I am marshal. My<$FFFC>duty is to defeat Federation threats,<$FFFC>family or not.<$FFFE>
+67	<$FB00><$00A7>Understood. I will gather the<$FFFC>troops at once.<$FFFE>
+68	<$FFF8>…<$FFF6><$FB00><$00A8>My father, of all people<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$00A9>What happened to him<$FFF5><$FFF8>…？<$FFFE>
 69	In the mountains<$FFFF>
-70	<$FFF8>…<$FFF6><$FB00><$00AA>I see. So Lainforce<$FFFC>finally moved. Good work, you may<$FFFC>go.<$FFFE>
+70	<$FFF8>…<$FFF6><$FB00><$00AA>I see. So Lainforce finally<$FFFC>moved. Good work, you may go.<$FFFE>
 71	<$FFF7><$FB00><$00AB>Sir！<$FFF5><$FFF8><$FFFE>
-72	<$FB00><$00AC>What now, Virash？ Boss and<$FFFC>the others aren't here.<$FFFE>
-73	<$FB00><$00AD>Hmm. We'll see how far<$FFFC>the Federation army gets<$FFF5><$FFF8>…<$FFFE>
+72	<$FB00><$00AC>What now, Virash？ Boss and the<$FFFC>others aren't here.<$FFFE>
+73	<$FB00><$00AD>Hmm. We'll see how far the<$FFFC>Federation army gets<$FFF5><$FFF8>…<$FFFE>
 74	<$FB00><$00AE>But Caconsis helped us beat<$FFFC>Gizarof, right？<$FFFD><$FB00><$00B2>Even with Lanford, relying on the<$FFFC>Federation is risky.<$FFFE>
-75	<$FB00><$00AF>True. If needed, we'll<$FFFC>act. I may need your help.<$FFFE>
-76	<$FB00><$00B0>We know. Boss told us to<$FFFC>help you, Virash.<$FFFE>
-77	<$FB00><$00B1>Then let's plan our<$FFFC>operation.<$FFFE><$FFFF>
+75	<$FB00><$00AF>True. If needed, we'll act. I<$FFFC>may need your help.<$FFFE>
+76	<$FB00><$00B0>We know. Boss told us to help<$FFFC>you, Virash.<$FFFE>
+77	<$FB00><$00B1>Then let's plan our operation.<$FFFE><$FFFF>

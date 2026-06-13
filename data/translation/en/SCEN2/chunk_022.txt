@@ -12,27 +12,27 @@
 10	・Defeat Necro Glob<$FFFE>
 11	・<$F600><$0000> dies<$FFFE>
 12	Inside Velzeria Castle<$FFFF>
-13	<$FB00><$0015>We got in awfully<$FFFC>easily.<$FFFE>
-14	<$FB00><$0016>And the halls were full<$FFFC>of dead monsters.<$FFFE>
-15	<$FB00><$0017>Maybe there are no<$FFFC>monsters left？<$FFFE>
+13	<$FB00><$0015>We got in awfully easily.<$FFFE>
+14	<$FB00><$0016>And the halls were full of<$FFFC>dead monsters.<$FFFE>
+15	<$FB00><$0017>Maybe there are no monsters<$FFFC>left？<$FFFE>
 16	<$FB00><$0018>I doubt that.<$FFFE>
 17	<$FB00><$0019>Quite right！<$FFFE>
 18	<$FB00><$001A>Over there！<$FFFE>
-19	<$FB00><$001B>My, my. What a day<$FFFC>for visitors.<$FFFE>
-20	<$FB00><$001C>You're cornered, Glob.<$FFFC>Prepare yourself！<$FFFE>
-21	<$FB00><$001D>Don't talk nonsense. I<$FFFC>am in a very foul mood today.<$FFFC>Curse yourselves for attacking me<$FFFC>now！<$FFFE>
+19	<$FB00><$001B>My, my. What a day for<$FFFC>visitors.<$FFFE>
+20	<$FB00><$001C>You're cornered, Glob. Prepare<$FFFC>yourself！<$FFFE>
+21	<$FB00><$001D>Don't talk nonsense. I am in a<$FFFC>very foul mood today. Curse yourselves for<$FFFC>attacking me now！<$FFFE>
 22	<$FB00><$001E>Anyone can talk big.<$FFFE>
-23	<$FB00><$001F>Then allow me to show<$FFFC>you proof！<$FFFD><$FB00><$0020>Souls that perished in this place,<$FFFC>become one and fight！ Haa！<$FFFE>
+23	<$FB00><$001F>Then allow me to show you<$FFFC>proof！<$FFFD><$FB00><$0020>Souls that perished in this place, become<$FFFC>one and fight！ Haa！<$FFFE>
 24	<$FB00><$0021>This is<$FFF5><$FFF7>…<$FFFE>
-25	<$FB00><$0022>Countless battles were<$FFFC>fought in this castle, and many<$FFFC>demons died each time.<$FFFD>This wraith is all their spirits<$FFFC>bound into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears<$FFFC>the mark of vengeance found here.<$FFFC>Until the bearer is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
-26	<$FB00><$002B>Let me share something<$FFFC>amusing. Step close enough to an<$FFFC>ally, and the mark can be handed<$FFFC>over.<$FFFD><$FB00><$002C>If you want to live, pass it to<$FFFC>someone you hate！ Now then,<$FFFC>entertain me.<$FFF5> <$FFF7><$FB00><$002D>Hee hee hee hee！<$FFFE>
-27	Pass the mark from <$F600><$0000><$FFFC>to Marie？<$FFFE>
+25	<$FB00><$0022>Countless battles were fought<$FFFC>in this castle, and many demons died each<$FFFC>time.<$FFFD>This wraith is all their spirits bound<$FFFC>into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears the mark<$FFFC>of vengeance found here. Until the bearer<$FFFC>is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
+26	<$FB00><$002B>Let me share something<$FFFC>amusing. Step close enough to an ally, and<$FFFC>the mark can be handed over.<$FFFD><$FB00><$002C>If you want to live, pass it to someone<$FFFC>you hate！ Now then, entertain me.<$FFF5> <$FFF7><$FB00><$002D>Hee<$FFFC>hee hee hee！<$FFFE>
+27	Pass the mark from <$F600><$0000> to<$FFFC>Marie？<$FFFE>
 28	Pass the mark to <$F600><$0000>？<$FFFE>
-29	Pass the mark from <$F600><$0000><$FFFC>to Alfred？<$FFFE>
+29	Pass the mark from <$F600><$0000> to<$FFFC>Alfred？<$FFFE>
 30	Pass the mark to <$F600><$0000>？<$FFFE>
-31	Pass the mark from <$F600><$0000><$FFFC>to Brenda？<$FFFE>
+31	Pass the mark from <$F600><$0000> to<$FFFC>Brenda？<$FFFE>
 32	Pass the mark to <$F600><$0000>？<$FFFE>
-33	Pass the mark from <$F600><$0000><$FFFC>to Clarett？<$FFFE>
+33	Pass the mark from <$F600><$0000> to<$FFFC>Clarett？<$FFFE>
 34	Pass the mark to <$F600><$0000>？<$FFFE>
 35	Pass the mark to Alfred？<$FFFE>
 36	Pass the mark to Marie？<$FFFE>
@@ -46,27 +46,27 @@
 44	Pass the mark to Alfred？<$FFFE>
 45	Pass the mark to Clarett？<$FFFE>
 46	Pass the mark to Brenda？<$FFFE>
-47	Hardly enough troops, this. For my<$FFFC>own amusement, let us raise a<$FFFC>few more.<$FFFE>
+47	Hardly enough troops, this. For my own<$FFFC>amusement, let us raise a few more.<$FFFE>
 48	<$FB00><$002B>Take this！<$FFFE>
-49	<$FB00><$002D>I won't die in a<$FFFC>place like this…<$FFFE>
+49	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
 50	<$FB00><$0046>Let's go.<$FFFE>
-51	<$FB00><$004E>I'm sorry… I must fall<$FFFC>back…<$FFFE>
-52	<$FB00><$004F>Don't push yourself.<$FFFC>Leave the rest to us！<$FFFE>
+51	<$FB00><$004E>I'm sorry… I must fall back…<$FFFE>
+52	<$FB00><$004F>Don't push yourself. Leave the<$FFFC>rest to us！<$FFFE>
 53	<$FB00><$0050>Please…<$FFFE>
 54	<$FB00><$0075>I can fight too！<$FFFE>
-55	<$FB00><$0077>So this… is all I<$FFFC>amount to…<$FFFE>
-56	<$FB00><$0069>Who do you think I<$FFFC>am！<$FFFE>
+55	<$FB00><$0077>So this… is all I amount to…<$FFFE>
+56	<$FB00><$0069>Who do you think I am！<$FFFE>
 57	<$FB00><$0070>This is getting dicey…<$FFFE>
 58	<$FB00><$0071>Fall back, Brenda！ We'll<$FFFC>handle it！<$FFFE>
-59	<$FB00><$0072>Sorry… I'll take you up<$FFFC>on that…<$FFFE>
+59	<$FB00><$0072>Sorry… I'll take you up on<$FFFC>that…<$FFFE>
 60	<$FB00><$0054>I won't lose！<$FFFE>
 61	<$FB00><$0057>Aah！<$FFFE>
-62	<$FB00><$0058>Are you all right,<$FFFC>Clarett！？<$FFFE>
-63	<$FB00><$0059>This is a bit much for<$FFFC>me…<$FFFE>
-64	<$FB00><$005A>Leave the rest to us<$FFFC>and fall back！<$FFFE>
-65	<$FB00><$005B>Sorry… it's in your<$FFFC>hands…<$FFFE>
+62	<$FB00><$0058>Are you all right, Clarett！？<$FFFE>
+63	<$FB00><$0059>This is a bit much for me…<$FFFE>
+64	<$FB00><$005A>Leave the rest to us and fall<$FFFC>back！<$FFFE>
+65	<$FB00><$005B>Sorry… it's in your hands…<$FFFE>
 66	Why, you…<$FFFE>
-67	Eeeek！ You dare, you mere<$FFFC>humans！<$FFFE>
+67	Eeeek！ You dare, you mere humans！<$FFFE>
 68	N, no… not to mere humans…<$FFFE>
 69	…SYUU…<$FFFE>
 70	Tch…！ Failed to finish them off…<$FFFE>
@@ -79,34 +79,34 @@
 77	…WOOOO…<$FFFE>
 78	BWOOOO…<$FFFE>
 79	GRRRR…<$FFFE>
-80	<$FB00><$0040>Enough！ Fight seriously,<$FFFC>you lot！ Look how close you<$FFFC>have let them come！<$FFFE>
-81	<$FB00><$0041>Father's killer！ This time<$FFFC>I will avenge him！<$FFFE>
-82	<$FB00><$0042>Revenge, vendettas… such<$FFFC>narrow minds are the worst of<$FFFC>humanity.<$FFFE>
+80	<$FB00><$0040>Enough！ Fight seriously, you<$FFFC>lot！ Look how close you have let them<$FFFC>come！<$FFFE>
+81	<$FB00><$0041>Father's killer！ This time I<$FFFC>will avenge him！<$FFFE>
+82	<$FB00><$0042>Revenge, vendettas… such<$FFFC>narrow minds are the worst of humanity.<$FFFE>
 83	<$FB00><$0043>Shut up！<$FFFE>
-84	<$FB00><$0044>You won't escape.<$FFFC>Prepare yourself！<$FFFE>
-85	<$FB00><$0045>As if I would lose so<$FFFC>easily！<$FFFE>
+84	<$FB00><$0044>You won't escape. Prepare<$FFFC>yourself！<$FFFE>
+85	<$FB00><$0045>As if I would lose so easily！<$FFFE>
 86	<$FB00><$0046>WOOOOOOH！<$FFFE>
-87	<$FB00><$0047>Now, vent your grudge on<$FFFC>the humans to your heart's<$FFFC>content！<$FFFE>
-88	<$FFF7><$FB00><$0048>Hee hee hee hee…<$FFF5> <$FFF6><$FB00><$0049>Do<$FFFC>you really think you can win！<$FFFE>
+87	<$FB00><$0047>Now, vent your grudge on the<$FFFC>humans to your heart's content！<$FFFE>
+88	<$FFF7><$FB00><$0048>Hee hee hee hee…<$FFF5> <$FFF6><$FB00><$0049>Do you<$FFFC>really think you can win！<$FFFE>
 89	<$FB00><$0046>WOOOOOOH！<$FFFE>
-90	<$FB00><$004A>Im, impossible… My<$FFFC>greatest creation…<$FFFE>
+90	<$FB00><$004A>Im, impossible… My greatest<$FFFC>creation…<$FFFE>
 91	<$FB00><$004B>Looks like you're out of<$FFFC>tricks.<$FFFE>
 92	<$FB00><$004C>You wretches！<$FFFE>
-93	<$FFF7><$FB00><$004D>Gyaaah！！<$FFFD><$FFF6><$FB00><$004E>Well done, well done！ But weak as<$FFFC>you are now, you cannot deal me<$FFFC>a mortal wound.<$FFFD><$FB00><$004F>All that effort, for nothing. Hee<$FFFC>hee hee！<$FFFE>
+93	<$FFF7><$FB00><$004D>Gyaaah！！<$FFFD><$FFF6><$FB00><$004E>Well done, well done！ But weak as you are<$FFFC>now, you cannot deal me a mortal wound.<$FFFD><$FB00><$004F>All that effort, for nothing. Hee hee<$FFFC>hee！<$FFFE>
 94	<$FB00><$0050>He got away again.<$FFFE>
-95	<$FB00><$0051>But we did drive the<$FFFC>monsters out of El Sallia. That<$FFFC>alone is enough.<$FFFE>
+95	<$FB00><$0051>But we did drive the monsters<$FFFC>out of El Sallia. That alone is enough.<$FFFE>
 96	<$FB00><$0052>That's true！<$FFFE>
-97	<$FB00><$0053>That leaves Gilmore, but<$FFFC>his forces don't amount to much.<$FFFC>El Sallia should settle down now.<$FFFE>
+97	<$FB00><$0053>That leaves Gilmore, but his<$FFFC>forces don't amount to much. El Sallia<$FFFC>should settle down now.<$FFFE>
 98	<$FB00><$0054>Thank you, everyone.<$FFFE>
-99	<$FB00><$0055>Now comes the time to<$FFFC>build Kalxath's new order.<$FFFE>
+99	<$FB00><$0055>Now comes the time to build<$FFFC>Kalxath's new order.<$FFFE>
 100	<$FB00><$0056>Come to think of it<$FFF5><$FFF8>…<$FFFE>
 101	<$FB00><$0057>What is it, Marie？<$FFFE>
 102	<$FB00><$0058>Whatever happened to the<$FFFC>swords stolen at the port？<$FFFE>
 103	<$FB00><$0059>That's right. Where are<$FFFC>Langrisser and Alhazard？<$FFFE>
-104	<$FB00><$005A>Is that demon Gaiel<$FFFC>still carrying them around？<$FFFE>
-105	<$FB00><$005B>No use wondering. Leave<$FFFC>the search to the soldiers. Let's<$FFFC>hurry and rejoin Jessica.<$FFFE>
-106	Enough！ Worthless, all of you！<$FFFC>Beaten this easily by humans！<$FFFD>Have you no shame！ I, Lord Glob,<$FFFC>will show you how a real battle<$FFFC>is fought！<$FFFD>Study it in hell！<$FFFE>
-107	Oh dear, the mark's bearer has<$FFFC>fallen<$FFF8>… <$0000><$FFF6>Then, a new bearer<$FFF8>…<$FFFE>
+104	<$FB00><$005A>Is that demon Gaiel still<$FFFC>carrying them around？<$FFFE>
+105	<$FB00><$005B>No use wondering. Leave the<$FFFC>search to the soldiers. Let's hurry and<$FFFC>rejoin Jessica.<$FFFE>
+106	Enough！ Worthless, all of you！ Beaten<$FFFC>this easily by humans！<$FFFD>Have you no shame！ I, Lord Glob, will<$FFFC>show you how a real battle is fought！<$FFFD>Study it in hell！<$FFFE>
+107	Oh dear, the mark's bearer has fallen<$FFF8>…<$FFFC><$0000><$FFF6>Then, a new bearer<$FFF8>…<$FFFE>
 108	<$FB00><$0025>You shall bear it！<$FFFE>
 109	<$FB00><$0026>So it's me<$FFF5><$FFF8>…<$FFFE>
 110	<$FB00><$0026>So it's me<$FFF5><$FFF8>…<$FFFE>
@@ -124,6 +124,6 @@
 122	<$FFF7><$FB00><$0035>Whaat,<$FFF5><$FFF6><$FB00><$0036>me<$FFF5><$FFF7>…<$FFFE>
 123	<$FB00><$0037>Fine, fine.<$FFFE>
 124	<$FB00><$0038>Leave it to me！<$FFFE>
-125	<$FB00><$003D>Oh, you poor things.<$FFFC>You want to fight more, don't<$FFFC>you？ To tear more humans apart？<$FFFC>Then rise again！<$FFFE>
+125	<$FB00><$003D>Oh, you poor things. You want<$FFFC>to fight more, don't you？ To tear more<$FFFC>humans apart？ Then rise again！<$FFFE>
 126	Whoa, they're back again！<$FFFE>
 127	I knew that was coming…<$FFFE><$FFFF>

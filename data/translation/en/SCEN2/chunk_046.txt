@@ -9,12 +9,12 @@
 7	Virash<$FFFF>
 8	In the mountains<$FFFF>
 9	<$FB00><$0003>Those two. Gizarof's trump<$FFFC>cards.<$FFFE>
-10	<$FB00><$0004>What can they do, I<$FFFC>wonder<$FFF5>…<$FFFE>
-11	<$FB00><$0005>No telling.<$FFFD>But if the trump cards are out,<$FFFC>a losing Gizarof may yet turn<$FFFC>this around.<$FFFD><$FB00><$0006>Not that we care who wins.<$FFFD>But I'd rather the Regenburg and<$FFFC>Caconsis allies won and calmed this<$FFFC>chaos down.<$FFFE>
-12	<$FB00><$0007>Gizarof's a real headache,<$FFFC>stirring up the Federation at a<$FFFC>time like this.<$FFFD>He's only giving Lainforce an<$FFFC>opening.<$FFFE>
-13	<$FB00><$0008>True enough. Not that I<$FFFC>care what becomes of Gizarof<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0009>Now, Brenda. Your task is to<$FFFC>contact those two and<$FFF5><$FFF8>…<$FFFE>
-14	<$FB00><$000A>You don't have to repeat<$FFFC>it, I know！ Don't you worry.<$FFFD>Have I ever botched a job？<$FFFE>
-15	<$FB00><$000B>I trust you, of course.<$FFFC>But this time is not like the<$FFFC>others.<$FFFE>
+10	<$FB00><$0004>What can they do, I wonder<$FFF5>…<$FFFE>
+11	<$FB00><$0005>No telling.<$FFFD>But if the trump cards are out, a losing<$FFFC>Gizarof may yet turn this around.<$FFFD><$FB00><$0006>Not that we care who wins.<$FFFD>But I'd rather the Regenburg and Caconsis<$FFFC>allies won and calmed this chaos down.<$FFFE>
+12	<$FB00><$0007>Gizarof's a real headache,<$FFFC>stirring up the Federation at a time like<$FFFC>this.<$FFFD>He's only giving Lainforce an opening.<$FFFE>
+13	<$FB00><$0008>True enough. Not that I care<$FFFC>what becomes of Gizarof<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0009>Now, Brenda. Your task is to contact those<$FFFC>two and<$FFF5><$FFF8>…<$FFFE>
+14	<$FB00><$000A>You don't have to repeat it, I<$FFFC>know！ Don't you worry.<$FFFD>Have I ever botched a job？<$FFFE>
+15	<$FB00><$000B>I trust you, of course. But this<$FFFC>time is not like the others.<$FFFE>
 16	<$FB00><$000C>Eh, I'll manage.<$FFFE>
-17	<$0000>Fleeing the sorcery laboratory,<$FFFC><$F600><$0000> and Lambda set out<$FFFC>for Gizarof.<$FFFD><$0000>Who are they, and what were<$FFFC>they made for…<$FFFD><$0000>Meeting Gizarof would answer<$FFFC>everything.<$FFFD><$0000>But Aizer, who led the raid on<$FFFC>the lab, once more bars the<$FFFC>fugitives' way.<$FFFE>
+17	<$0000>Fleeing the sorcery laboratory,<$FFFC><$F600><$0000> and Lambda set out for<$FFFC>Gizarof.<$FFFD><$0000>Who are they, and what were they made<$FFFC>for…<$FFFD><$0000>Meeting Gizarof would answer everything.<$FFFD><$0000>But Aizer, who led the raid on the lab,<$FFFC>once more bars the fugitives' way.<$FFFE>
 18	Victory terms<$FFFC><$0000><$FFFC>・<$F600><$0000> and Lambda escape west<$FFFC>・Defeat Aizer<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> or Lambda dies<$FFFE><$FFFF>

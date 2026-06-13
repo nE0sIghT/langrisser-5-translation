@@ -6,5 +6,5 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	<$0000>On the way to storm Velzeria<$FFFC>Castle, <$F600><$0000> and the<$FFFC>others stop by the <$FFF4>Umagee<$FFF3> arcade in<$FFFC>Pondbag.<$FFFD>There they find Goldry, who was<$FFFC>supposed to be job hunting.<$FFFD>He had forgotten all about his<$FFFC>mercenaries and was just goofing<$FFFC>off.<$FFFE>
+7	<$0000>On the way to storm Velzeria Castle,<$FFFC><$F600><$0000> and the others stop by<$FFFC>the <$FFF4>Umagee<$FFF3> arcade in Pondbag.<$FFFD>There they find Goldry, who was supposed<$FFFC>to be job hunting.<$FFFD>He had forgotten all about his mercenaries<$FFFC>and was just goofing off.<$FFFE>
 8	Victory<$FFFC><$0000><$FFFC>・Beat 5 in a row<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

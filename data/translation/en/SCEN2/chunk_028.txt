@@ -13,55 +13,55 @@
 11	・Defeat Ferakia<$FFFE>
 12	・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Russel's Manor<$FFFF>
-14	<$FB00><$0024>Surely something can be<$FFFC>done！<$FFF5> <$FB00><$0025>I must examine the treasure<$FFFC>my father gave<$FFF5><$FFF8>….<$FFFE>
-15	<$FB00><$0026>I've told you many times,<$FFFC>I cannot show you that crystal.<$FFFE>
-16	<$FB00><$0027>There's no talking to<$FFFC>you！ Call your master！<$FFFE>
-17	<$FB00><$0028>Lord Russel does not meet<$FFFC>those without an appointment. First<$FFFC>make an appointment, and<$FFF5><$FFF8>….<$FFFE>
+14	<$FB00><$0024>Surely something can be done！<$FFF5><$FFFC><$FB00><$0025>I must examine the treasure my father<$FFFC>gave<$FFF5><$FFF8>….<$FFFE>
+15	<$FB00><$0026>I've told you many times, I<$FFFC>cannot show you that crystal.<$FFFE>
+16	<$FB00><$0027>There's no talking to you！<$FFFC>Call your master！<$FFFE>
+17	<$FB00><$0028>Lord Russel does not meet<$FFFC>those without an appointment. First make<$FFFC>an appointment, and<$FFF5><$FFF8>….<$FFFE>
 18	<$FB00><$0029>What is this racket？<$FFFE>
-19	<$FB00><$002A>Lord Russel. These<$FFFC>people<$FFF5><$FFF8>….<$FFFE>
+19	<$FB00><$002A>Lord Russel. These people<$FFF5><$FFF8>….<$FFFE>
 20	<$FB00><$002B>Russel<$FFF5><$FFF8>….<$FFFE>
-21	<$FB00><$002C>Hm？ If it isn't Lanford.<$FFFC>I wondered where you'd gone after<$FFFC>breaking out of the dungeon<$FFF5><$FFF8>….<$FFFE>
-22	<$FB00><$002D>I fight to stop the<$FFFC>Three-Country Alliance. I would<$FFFC>have your aid too.<$FFFD><$FB00><$002E>First, let me examine the crystal<$FFFC>my father gave you.<$FFFE>
-23	<$FB00><$002F>What does a jailbreaker<$FFFC>have to say？ If you wish to talk<$FFFC>so badly, you can wait quietly in<$FFFC>a cell until I return.<$FFFD><$FB00><$0030>You there, seize them！<$FFFE>
+21	<$FB00><$002C>Hm？ If it isn't Lanford. I<$FFFC>wondered where you'd gone after breaking<$FFFC>out of the dungeon<$FFF5><$FFF8>….<$FFFE>
+22	<$FB00><$002D>I fight to stop the<$FFFC>Three-Country Alliance. I would have<$FFFC>your aid too.<$FFFD><$FB00><$002E>First, let me examine the crystal my<$FFFC>father gave you.<$FFFE>
+23	<$FB00><$002F>What does a jailbreaker have<$FFFC>to say？ If you wish to talk so badly, you<$FFFC>can wait quietly in a cell until I return.<$FFFD><$FB00><$0030>You there, seize them！<$FFFE>
 24	<$FB00><$0031>Yes, at once.<$FFFE>
 25	<$FB00><$0032>Wait！<$FFFE>
 26	<$FB00><$0033>Ugh！ This light…！<$FFFE>
 27	<$FB00><$0034>Curse it<$FFF5><$FFF8>….<$FFFE>
 28	<$FB00><$0035>That form！<$FFFE>
 29	<$FB00><$0036>I, impossible… uwaah！<$FFF5><$FFF7><$FFFE>
-30	<$FB00><$0037>To think you'd have<$FFFC>Langrisser. That fool Glob, he<$FFFC>botched it！<$FFFE>
-31	<$FB00><$0038>Where is the real<$FFFC>Russel？<$FFFE>
+30	<$FB00><$0037>To think you'd have<$FFFC>Langrisser. That fool Glob, he botched<$FFFC>it！<$FFFE>
+31	<$FB00><$0038>Where is the real Russel？<$FFFE>
 32	<$FB00><$0039>He wasn't very tasty.<$FFFE>
 33	<$FB00><$003A>You mean<$FFF5><$FFF8>….<$FFFE>
-34	<$FB00><$003B>He was wandering the<$FFFC>woods in a daze. I only borrowed<$FFFC>his rank and his face.<$FFFE>
-35	<$FB00><$003C>Lanford. Now we know it's<$FFFC>a demon, no need to hold back.<$FFFC>Let's take the crystal at once.<$FFFE>
+34	<$FB00><$003B>He was wandering the woods in<$FFFC>a daze. I only borrowed his rank and his<$FFFC>face.<$FFFE>
+35	<$FB00><$003C>Lanford. Now we know it's a<$FFFC>demon, no need to hold back. Let's take<$FFFC>the crystal at once.<$FFFE>
 36	<$FB00><$003D>Right.<$FFFE>
-37	<$FB00><$003E>Now that you've seen this<$FFFC>form, I can't let you live.<$FFFC>Least of all if you can use<$FFFC>Langrisser.<$FFFD><$FB00><$003F>And you lot, how long will you<$FFFC>keep your human disguises！<$FFFE>
-38	<$FB00><$0040>Cover me while I<$FFFC>destroy the crystal in the back！<$FFFE>
+37	<$FB00><$003E>Now that you've seen this<$FFFC>form, I can't let you live. Least of all<$FFFC>if you can use Langrisser.<$FFFD><$FB00><$003F>And you lot, how long will you keep your<$FFFC>human disguises！<$FFFE>
+38	<$FB00><$0040>Cover me while I destroy the<$FFFC>crystal in the back！<$FFFE>
 39	<$FB00><$0041>GRRR….<$FFFE>
-40	<$FB00><$0042>This is no concern of<$FFFC>you demons, is it？<$FFFE>
-41	<$FB00><$0043>Concern or not, I love<$FFFC>getting in others' way！<$FFFD><$FB00><$0044>And you say you need it to stop<$FFFC>the Three-Country Alliance？<$FFFC>Knowing that, all the more reason<$FFFC>to smash that crystal.<$FFFE>
-42	<$FB00><$0045>Strange. Why would a<$FFFC>demon side with the Three-Country<$FFFC>Alliance？<$FFFE>
-43	<$FB00><$0046>What good would knowing<$FFFC>do you？ You'll all die here<$FFFC>anyway！<$FFFE>
-44	<$FB00><$0047>Looks like there's no<$FFFC>choice but to fight.<$FFFE>
-45	<$FB00><$0048>That crystal does hold no<$FFFC>small magic. Dangerous to leave in<$FFFC>human hands.<$FFFD><$FB00><$0049>And with that much power, it seems<$FFFC>none but I could destroy it<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$004A>What a bother, truly.<$FFFE>
+40	<$FB00><$0042>This is no concern of you<$FFFC>demons, is it？<$FFFE>
+41	<$FB00><$0043>Concern or not, I love getting<$FFFC>in others' way！<$FFFD><$FB00><$0044>And you say you need it to stop the<$FFFC>Three-Country Alliance？ Knowing that,<$FFFC>all the more reason to smash that crystal.<$FFFE>
+42	<$FB00><$0045>Strange. Why would a demon<$FFFC>side with the Three-Country Alliance？<$FFFE>
+43	<$FB00><$0046>What good would knowing do<$FFFC>you？ You'll all die here anyway！<$FFFE>
+44	<$FB00><$0047>Looks like there's no choice<$FFFC>but to fight.<$FFFE>
+45	<$FB00><$0048>That crystal does hold no<$FFFC>small magic. Dangerous to leave in human<$FFFC>hands.<$FFFD><$FB00><$0049>And with that much power, it seems none<$FFFC>but I could destroy it<$FFF5><$FFF8>… <$FFF6><$FB00><$004A>What a bother,<$FFFC>truly.<$FFFE>
 46	<$FB00><$0051>Almost there.<$FFF5> <$FB00><$0052>Ahahaha！<$FFFC>Humans, thinking to beat me！<$FFFD><$FB00><$0053>Don't get too full of yourselves！<$FFFE>
-47	<$FB00><$0054>This is bad！ If the<$FFFC>crystal is destroyed<$FFF5><$FFF8>….<$FFFE>
-48	<$FB00><$0055>Hurry, everyone！ Focus<$FFFC>our attacks on that demon woman！<$FFFE>
-49	<$FB00><$0056>Kh！ What are you doing,<$FFFC>cover me properly！<$FFFE>
+47	<$FB00><$0054>This is bad！ If the crystal<$FFFC>is destroyed<$FFF5><$FFF8>….<$FFFE>
+48	<$FB00><$0055>Hurry, everyone！ Focus our<$FFFC>attacks on that demon woman！<$FFFE>
+49	<$FB00><$0056>Kh！ What are you doing, cover<$FFFC>me properly！<$FFFE>
 50	Opened the door！<$FFFE>
 51	Opened the door！<$FFFE>
-52	Damn it！ I won't let you go<$FFFC>any further！<$FFFE>
+52	Damn it！ I won't let you go any further！<$FFFE>
 53	Hah！ Stop me if you can！<$FFFE>
 54	Opened the door！<$FFFE>
 55	<$FB00><$0057>No！<$FFFE>
-56	<$FB00><$0058>Ahahaha！ Too bad, boy<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0059>This crystal, I'll do this to it！<$FFFE>
+56	<$FB00><$0058>Ahahaha！ Too bad, boy<$FFF5><$FFF8>… <$FFF6><$FB00><$0059>This<$FFFC>crystal, I'll do this to it！<$FFFE>
 57	<$FB00><$005A>Aah, the crystal！<$FFFE>
-58	<$FB00><$005B>Now the clue to breaking<$FFFC>the curse is<$FFF5><$FFF8>….<$FFFE>
-59	<$FB00><$005C>Sorry, Lanford<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>If only<$FFFC>I'd done better<$FFF5><$FFF8>….<$FFFE>
+58	<$FB00><$005B>Now the clue to breaking the<$FFFC>curse is<$FFF5><$FFF8>….<$FFFE>
+59	<$FB00><$005C>Sorry, Lanford<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>If only I'd<$FFFC>done better<$FFF5><$FFF8>….<$FFFE>
 60	<$0000> <$0000>Got the Magical Bikini！<$FFFE>
-61	The ground bulges in a mound. Dig<$FFFC>a little, and a<$FFFC>mischievous-looking Gnome pops out.<$FFFD>Hey, hey！ Well found！ Care to<$FFFC>try the <$FFF4>Ultimate Gamble<$FFF3>？<$FFFE>
-62	Then pick whichever box you like<$FFFC>from these！ Two of them are<$FFFC>empty！<$FFFE>
+61	The ground bulges in a mound. Dig a<$FFFC>little, and a mischievous-looking Gnome<$FFFC>pops out.<$FFFD>Hey, hey！ Well found！ Care to try the<$FFFC><$FFF4>Ultimate Gamble<$FFF3>？<$FFFE>
+62	Then pick whichever box you like from<$FFFC>these！ Two of them are empty！<$FFFE>
 63	・Red box<$FFFE>
 64	・White box<$FFFE>
 65	・Green box<$FFFE>
@@ -79,39 +79,39 @@
 77	Once you've made up your mind, come<$FFFC>again！<$FFFE>
 78	<$FB00><$002B>Eat this！<$FFFE>
 79	<$FB00><$002C>Take this！<$FFFE>
-80	<$FB00><$002F>If only I had more<$FFFC>strength…<$FFFE>
+80	<$FB00><$002F>If only I had more strength…<$FFFE>
 81	<$FB00><$0046>Here goes.<$FFFE>
 82	<$FB00><$0047>Come if you dare.<$FFFE>
 83	<$FB00><$004B>No… that I should…<$FFFE>
-84	<$FB00><$004C>Marie, leave this to us<$FFFC>and pull back！<$FFFE>
+84	<$FB00><$004C>Marie, leave this to us and<$FFFC>pull back！<$FFFE>
 85	…<$FB00><$004D>I'm sorry….<$FFFE>
 86	<$FB00><$0075>I can fight too！<$FFFE>
 87	<$FB00><$0076>I won't lose！<$FFFE>
-88	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
-89	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+88	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
+89	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 90	<$FB00><$007D>But…<$FFFE>
 91	<$FB00><$007E>Trust your comrades！<$FFFE>
 92	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
 93	<$FB00><$0067>Here I go！<$FFFE>
 94	<$FB00><$0068>Come and get it！<$FFFE>
 95	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
-96	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
-97	<$FB00><$006D>Yeah, I'm fine… I can<$FFFC>still go…<$FFFE>
+96	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+97	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>go…<$FFFE>
 98	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
-99	<$FB00><$006F>…I'll do that. I don't<$FFFC>want to drag you down…<$FFFE>
+99	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
 100	<$FB00><$0054>I won't lose！<$FFFE>
 101	<$FB00><$0055>Give it up！<$FFFE>
 102	<$FB00><$005C>Ow！ Y, you！<$FFFE>
-103	<$FB00><$005D>Clarett！？ Don't overdo<$FFFC>it！<$FFFE>
+103	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 104	<$FB00><$005E>B, but….<$FFFE>
 105	<$FB00><$005F>Enough, fall back！<$FFFE>
 106	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
 107	<$FB00><$0085>By this sword, I'll defeat<$FFFC>you！<$FFFE>
 108	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
 109	<$FB00><$008A>Lanford！<$FFFE>
-110	<$FB00><$008B>…I'm all right…. I<$FFFC>won't leave it all to you…<$FFFE>
+110	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
 111	<$FB00><$008C>Trust us！<$FFFE>
-112	<$FB00><$008D>…Comrades, eh. Then I'll<$FFFC>fall back.<$FFFE>
+112	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
 113	Gwooooh….<$FFFE>
 114	U, uu… how galling…<$FFFE>
 115	WOOO！<$FFFE>
@@ -122,17 +122,17 @@
 120	…G…GG….<$FFFE>
 121	SHAAAAA！<$FFFE>
 122	…SYUU….<$FFFE>
-123	<$FB00><$005E>U, uu<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>To think humans<$FFFC>held such power<$FFF5><$FFF8>….<$FFFE>
+123	<$FB00><$005E>U, uu<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>To think humans held<$FFFC>such power<$FFF5><$FFF8>….<$FFFE>
 124	<$FB00><$0060>I'll avenge Russel.<$FFFE>
-125	<$FB00><$0061>Is this too the power<$FFFC>of Langrisser<$FFF5><$FFF8>… <$FFF6><$FB00><$0062>But I can't afford<$FFFC>to die here just yet！<$FFFE>
+125	<$FB00><$0061>Is this too the power of<$FFFC>Langrisser<$FFF5><$FFF8>… <$FFF6><$FB00><$0062>But I can't afford to die here<$FFFC>just yet！<$FFFE>
 126	<$FB00><$0063>Kh！ Quick to flee<$FFF5><$FFF8>….<$FFFE>
-127	<$FFF8>…<$FFF6><$FB00><$0064>At least the crystal<$FFFC>is safe.<$FFFE>
-128	<$FB00><$0065>Still, that demon's<$FFFC>manner, it felt as if she sides<$FFFC>with the Three-Country Alliance.<$FFFE>
-129	<$FB00><$0066>Something's behind it.<$FFFC>Crimsonians and humans would never<$FFFC>team with demons, at least.<$FFFD><$FB00><$0067>More to the point, let's have<$FFFC>Virash look at this. He'll surely<$FFFC>understand.<$FFFE>
+127	<$FFF8>…<$FFF6><$FB00><$0064>At least the crystal is<$FFFC>safe.<$FFFE>
+128	<$FB00><$0065>Still, that demon's manner, it<$FFFC>felt as if she sides with the<$FFFC>Three-Country Alliance.<$FFFE>
+129	<$FB00><$0066>Something's behind it.<$FFFC>Crimsonians and humans would never team<$FFFC>with demons, at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
 130	Empty！？ A wasted effort<$FFF8>….<$FFFE>
 131	<$FFF8>…. <$FFF6>Looks like there's nothing.<$FFFE>
 132	Huh？ It's empty<$FFF8>….<$FFFE>
-133	It's empty！？ What a cheapskate,<$FFFC>honestly！<$FFFE>
+133	It's empty！？ What a cheapskate, honestly！<$FFFE>
 134	Awful！ It's totally empty！<$FFFE>
 135	Looks like it's already been taken.<$FFFC>Nothing inside<$FFF8>….<$FFFE>
 136	<$FB00><$0041>GYOOOOON！<$FFFE>
@@ -140,7 +140,7 @@
 138	<$FB00><$004C>What… an ambush？<$FFFE>
 139	<$FB00><$004D>Heh, an ambush！？<$FFFE>
 140	<$FB00><$004E>An ambush, well played！<$FFFE>
-141	<$FB00><$004F>Eh, an ambush in a<$FFFC>place like this？<$FFFE>
-142	<$FB00><$0050>An ambush. Demons do<$FFFC>think, it seems.<$FFFE>
+141	<$FB00><$004F>Eh, an ambush in a place like<$FFFC>this？<$FFFE>
+142	<$FB00><$0050>An ambush. Demons do think, it<$FFFC>seems.<$FFFE>
 143	SYUGOOO！<$FFFE>
 144	Kh, there are still more！？<$FFFE><$FFFF>

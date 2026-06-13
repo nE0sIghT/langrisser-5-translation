@@ -79,34 +79,37 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
     of a plated record is shorter by that amount. Continuation pages after
     <$FFFD> do not redraw the plate and therefore restart at full width."""
     out: list[str] = []
+    line_parts: list[str] = []
     pending_tags: list[str] = []
     atom_parts: list[str] = []
-    atom_width = 0
-    line_width = reserve
+    line_reserve = reserve
     line_has_text = False
     saw_space = False
     saw_tag_boundary = False
 
     def flush_atom() -> None:
-        nonlocal atom_width, line_width, line_has_text, saw_space, saw_tag_boundary
+        nonlocal line_reserve, line_has_text, saw_space, saw_tag_boundary
         if not atom_parts and not pending_tags:
             return
         if atom_parts:
-            sep = 1 if saw_space and line_has_text else 0
+            sep = " " if saw_space and line_has_text else ""
             can_break = line_has_text and (saw_space or saw_tag_boundary)
-            if can_break and line_width + sep + atom_width > width:
+            candidate = "".join(line_parts + ([sep] if sep else [])
+                                + pending_tags + atom_parts)
+            if can_break and line_reserve + visible_cells(codec, candidate) > width:
                 out.append(LINE_BREAK)
-                line_width = 0
-                sep = 0
+                line_parts.clear()
+                line_reserve = 0
+                sep = ""
             elif sep:
-                out.append(" ")
-                line_width += 1
+                out.append(sep)
+                line_parts.append(sep)
             out.extend(pending_tags)
+            line_parts.extend(pending_tags)
             pending_tags.clear()
             out.extend(atom_parts)
+            line_parts.extend(atom_parts)
             atom_parts.clear()
-            line_width += atom_width
-            atom_width = 0
             line_has_text = True
             saw_space = False
             saw_tag_boundary = False
@@ -124,7 +127,6 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
                 saw_space = True
             else:
                 atom_parts.append(part)
-                atom_width += cells(codec, part)
         if i == len(tags):
             break
         m = tags[i]
@@ -136,10 +138,8 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
             consumed = 2
         if val == NAME_MACRO:
             atom_parts.append(tag_text)
-            atom_width += NAME_CELLS
         elif val < PRINTABLE_TAG_LIMIT:
             atom_parts.append(tag_text)
-            atom_width += 1
         elif tag_text == LINE_BREAK:
             flush_atom()
             saw_space = True
@@ -148,7 +148,8 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
             out.extend(pending_tags)
             pending_tags.clear()
             out.append(tag_text)
-            line_width = 0
+            line_parts.clear()
+            line_reserve = 0
             line_has_text = False
             saw_space = False
             saw_tag_boundary = False

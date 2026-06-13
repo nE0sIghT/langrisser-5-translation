@@ -6,5 +6,5 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	<$0000>The party descends into the<$FFFC>underground cavern where the<$FFFC>strongest gather. There an<$FFFC>unimaginable battle lay in wait…<$FFFE>
+7	<$0000>The party descends into the underground<$FFFC>cavern where the strongest gather. There<$FFFC>an unimaginable battle lay in wait…<$FFFE>
 8	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

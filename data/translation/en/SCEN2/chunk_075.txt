@@ -12,53 +12,53 @@
 10	Virash<$FFFF>
 11	Zero<$FFFF>
 12	Marie Praying to the World Tree<$FFFF>
-13	<$FB00><$0003>World Tree<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0004>King of all<$FFFC>plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0005>Lend me your power.<$FFF5><$FE1E><$FE1E><$FFFC><$FB00><$0006>Gather mana, to Crimso….<$FFFE>
+13	<$FB00><$0003>World Tree<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0004>King of all<$FFFC>plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0005>Lend me your power.<$FFF5><$FE1E><$FE1E> <$FB00><$0006>Gather<$FFFC>mana, to Crimso….<$FFFE>
 14	After the Ritual<$FFFF>
-15	<$FB00><$0007>You have my thanks.<$FFF5><$FE1E> <$FB00><$0008>The<$FFFC>worst, the extinction of Crimsonia,<$FFFC>is averted.<$FFFE>
-16	<$FB00><$0009>But we cannot simply<$FFFC>stand by and watch your rule.<$FFFE>
-17	<$FB00><$000A>I know that. The strong<$FFFC>ruling is nature's law. Were we<$FFFC>without power, it would be wholly<$FFFC>impossible.<$FFFD><$FB00><$000B>For now, enjoy this long-awaited<$FFFC>reunion. Then leave this city.<$FFFC>Until then I'll not lay a hand<$FFFC>on you.<$FFFE>
+15	<$FB00><$0007>You have my thanks.<$FFF5><$FE1E> <$FB00><$0008>The<$FFFC>worst, the extinction of Crimsonia, is<$FFFC>averted.<$FFFE>
+16	<$FB00><$0009>But we cannot simply stand by<$FFFC>and watch your rule.<$FFFE>
+17	<$FB00><$000A>I know that. The strong ruling<$FFFC>is nature's law. Were we without power, it<$FFFC>would be wholly impossible.<$FFFD><$FB00><$000B>For now, enjoy this long-awaited reunion.<$FFFC>Then leave this city. Until then I'll not<$FFFC>lay a hand on you.<$FFFE>
 18	<$FB00><$000C>Mother！<$FFFE>
 19	<$FB00><$000D>Oh, Marie<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000E>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$000F>I'd given you up for dead<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-20	<$FB00><$0010>Sorry, mother, for<$FFFC>worrying you. Gizarof captured<$FFFC>us<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-21	<$FB00><$0011>So that's what happened.<$FFFC>But I'm glad you're both safe<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-22	<$FB00><$0012>M, mother<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0013>I wanted<$FFFC>to come back sooner, but in this<$FFFC>body<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-23	<$FB00><$0014>What are you saying.<$FFFC>Whatever shape you take, a parent<$FFFC>never abandons a child.<$FFFE>
+20	<$FB00><$0010>Sorry, mother, for worrying<$FFFC>you. Gizarof captured us<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+21	<$FB00><$0011>So that's what happened. But<$FFFC>I'm glad you're both safe<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FB00><$0012>M, mother<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0013>I wanted to<$FFFC>come back sooner, but in this body<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FB00><$0014>What are you saying. Whatever<$FFFC>shape you take, a parent never abandons a<$FFFC>child.<$FFFE>
 24	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0015>Mother<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-25	<$FB00><$0016>Your father waits over<$FFFC>there. Come, let's talk at length.<$FFFE>
+25	<$FB00><$0016>Your father waits over there.<$FFFC>Come, let's talk at length.<$FFFE>
 26	<$FB00><$0017>I'm glad for you.<$FFFE>
 27	<$FFF7><$FB00><$0018>Yeah.<$FFF5><$FFF8><$FFFE>
-28	<$FB00><$0019>Now, what do you mean to<$FFFC>do next？<$FFFE>
-29	<$FB00><$001A>That's right. Thanks to<$FFFC>your rash move, Lainforce and the<$FFFC>rest gained the advantage.<$FFFD><$FB00><$001B>You'll have to take responsibility.<$FFFE>
+28	<$FB00><$0019>Now, what do you mean to do<$FFFC>next？<$FFFE>
+29	<$FB00><$001A>That's right. Thanks to your<$FFFC>rash move, Lainforce and the rest gained<$FFFC>the advantage.<$FFFD><$FB00><$001B>You'll have to take responsibility.<$FFFE>
 30	<$FB00><$001C>Hey, Brenda！<$FFFE>
 31	<$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$001D>I'm sorry, Brenda.<$FFFC>But<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-32	<$FB00><$001E>Just kidding！<$FFF5><$FFF8><$FFFB> <$FFF6><$FB00><$0002><$FB00><$001F>If you<$FFFC>were the sort to abandon others,<$FFFC>I wouldn't be standing here.<$FFFE>
+32	<$FB00><$001E>Just kidding！<$FFF5><$FFF8><$FFFB> <$FFF6><$FB00><$0002><$FB00><$001F>If you were<$FFFC>the sort to abandon others, I wouldn't be<$FFFC>standing here.<$FFFE>
 33	<$FB00><$0020>True enough.<$FFFE>
-34	<$FB00><$0021>I take no joy in fellow<$FFFC>Crimsonians perishing. On behalf of<$FFFC>my people, my thanks.<$FFFE>
-35	<$FB00><$0022>But it's certain<$FFFC>Lainforce gained the upper hand.<$FFFC>This won't be left as it is.<$FFFE>
-36	<$FFF7><$FB00><$0023>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>As I swore to<$FFFC>Marie, I'll protect this world.<$FFFE>
+34	<$FB00><$0021>I take no joy in fellow<$FFFC>Crimsonians perishing. On behalf of my<$FFFC>people, my thanks.<$FFFE>
+35	<$FB00><$0022>But it's certain Lainforce<$FFFC>gained the upper hand. This won't be left<$FFFC>as it is.<$FFFE>
+36	<$FFF7><$FB00><$0023>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>As I swore to Marie,<$FFFC>I'll protect this world.<$FFFE>
 37	<$FB00><$0025>So it's time.<$FFFE>
 38	<$FB00><$0026>You head for Lainforce's<$FFFC>castle.<$FFFE>
 39	<$FB00><$0027>You're telling us to take<$FFFC>Lainforce's castle by ourselves？<$FFFE>
-40	<$FB00><$0028>It'll be fine.<$FFF5> <$FB00><$0029>His<$FFFC>castle has only a handful of<$FFFC>soldiers now. Most are massed at a<$FFFC>few locations.<$FFFE>
-41	<$FB00><$002A>Why has it come to<$FFFC>that？<$FFFE>
-42	<$FB00><$002B>We'll look into that.<$FFF5><$FFFC><$FB00><$002C>And we'll watch the massed units,<$FFFC>and strike if we see an opening.<$FFFE>
+40	<$FB00><$0028>It'll be fine.<$FFF5> <$FB00><$0029>His castle has<$FFFC>only a handful of soldiers now. Most are<$FFFC>massed at a few locations.<$FFFE>
+41	<$FB00><$002A>Why has it come to that？<$FFFE>
+42	<$FB00><$002B>We'll look into that.<$FFF5> <$FB00><$002C>And<$FFFC>we'll watch the massed units, and strike<$FFFC>if we see an opening.<$FFFE>
 43	<$FB00><$0032>Okay！<$FFFE>
-44	<$FB00><$009B>We'll take Rochefort<$FFFC>Castle ourselves！<$FFFE>
-45	<$FB00><$002E>No, he's not at<$FFFC>Rochefort Castle, but another one.<$FFFE>
-46	<$FB00><$002F>He's not in his own<$FFFC>castle？<$FFFE>
-47	<$FB00><$0030>I can't make sense of<$FFFC>the Crimsonia army's recent moves<$FFFC>myself.<$FFFD>But after searching every way, I<$FFFC>finally found his hiding place.<$FFFD><$FB00><$0031>At the foot of Melville Mountain<$FFFC>there's a small castle. He should<$FFFC>be there.<$FFFE>
+44	<$FB00><$009B>We'll take Rochefort Castle<$FFFC>ourselves！<$FFFE>
+45	<$FB00><$002E>No, he's not at Rochefort<$FFFC>Castle, but another one.<$FFFE>
+46	<$FB00><$002F>He's not in his own castle？<$FFFE>
+47	<$FB00><$0030>I can't make sense of the<$FFFC>Crimsonia army's recent moves myself.<$FFFD>But after searching every way, I finally<$FFFC>found his hiding place.<$FFFD><$FB00><$0031>At the foot of Melville Mountain there's a<$FFFC>small castle. He should be there.<$FFFE>
 48	<$FB00><$002D>Understood.<$FFFE>
 49	<$FB00><$0033>Leave the rest to me！<$FFFE>
-50	<$FB00><$0034>Let me give you some<$FFFC>advice.<$FFFD><$FB00><$0035>His castle is guarded by a<$FFFC>magitek system, so you can't get<$FFFC>in as you are. But there's a<$FFFC>place that controls this system.<$FFFE>
-51	<$FB00><$0036>So you mean attack from<$FFFC>there.<$FFFE>
-52	<$FB00><$0037>There's an islet in the<$FFFC>river by the castle. There should<$FFFC>be a small building on it.<$FFFE>
+50	<$FB00><$0034>Let me give you some advice.<$FFFD><$FB00><$0035>His castle is guarded by a magitek system,<$FFFC>so you can't get in as you are. But<$FFFC>there's a place that controls this system.<$FFFE>
+51	<$FB00><$0036>So you mean attack from there.<$FFFE>
+52	<$FB00><$0037>There's an islet in the river<$FFFC>by the castle. There should be a small<$FFFC>building on it.<$FFFE>
 53	Valtar City, Underground Dock<$FFFF>
-54	<$FB00><$0038>Where are you going,<$FFFC>Zero.<$FFFE>
-55	<$FB00><$0039>I'm setting out to<$FFFC>strike the demons.<$FFFE>
-56	<$FB00><$003A>The demons.<$FFF5><$FE1E> <$FB00><$003B>I gave no<$FFFC>order for such an operation.<$FFFE>
-57	<$FB00><$003C>I act on my own<$FFFC>judgment.<$FFF5> <$FB00><$003D>The crisis past for<$FFFC>Crimso, the urgent task is to take<$FFFC>Alhazard from the demons.<$FFFE>
-58	<$FB00><$003E>I gave no leave. And to<$FFFC>abandon me, your lord, what is<$FFFC>the meaning of this？<$FFFE>
+54	<$FB00><$0038>Where are you going, Zero.<$FFFE>
+55	<$FB00><$0039>I'm setting out to strike the<$FFFC>demons.<$FFFE>
+56	<$FB00><$003A>The demons.<$FFF5><$FE1E> <$FB00><$003B>I gave no order<$FFFC>for such an operation.<$FFFE>
+57	<$FB00><$003C>I act on my own judgment.<$FFF5><$FFFC><$FB00><$003D>The crisis past for Crimso, the urgent<$FFFC>task is to take Alhazard from the demons.<$FFFE>
+58	<$FB00><$003E>I gave no leave. And to<$FFFC>abandon me, your lord, what is the meaning<$FFFC>of this？<$FFFE>
 59	<$FB00><$003F>Then dismiss me.<$FFF5><$FFFB> <$FB00><$0040>Now<$FFFC>then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 60	<$FB00><$0041>Z, Zero！<$FFFE>
-61	<$0000>By Marie and the World Tree's<$FFFC>power, this world's mana was sent<$FFFC>to Crimso, and Crimso returns to<$FFFC>its true orbit.<$FFFD><$0000>As a result, Lainforce's aim<$FFFC>drew one step nearer.<$FFFD><$0000>But strangely, Lainforce had<$FFFC>moved most of his men out of<$FFFC>the castle and relocated himself<$FFFC>elsewhere.<$FFFD><$0000><$F600><$0000>'s band heads for<$FFFC>the Melville Mountain castle to<$FFFC>defeat Lainforce.<$FFFD><$0000>Small as it is, the castle<$FFFC>shows a perfect defense through<$FFFC>an ancient magitek system. <$0000>First<$FFFC>they had to neutralize it.<$FFFE>
+61	<$0000>By Marie and the World Tree's power,<$FFFC>this world's mana was sent to Crimso, and<$FFFC>Crimso returns to its true orbit.<$FFFD><$0000>As a result, Lainforce's aim drew one<$FFFC>step nearer.<$FFFD><$0000>But strangely, Lainforce had moved most<$FFFC>of his men out of the castle and relocated<$FFFC>himself elsewhere.<$FFFD><$0000><$F600><$0000>'s band heads for the<$FFFC>Melville Mountain castle to defeat<$FFFC>Lainforce.<$FFFD><$0000>Small as it is, the castle shows a<$FFFC>perfect defense through an ancient magitek<$FFFC>system. <$0000>First they had to neutralize it.<$FFFE>
 62	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

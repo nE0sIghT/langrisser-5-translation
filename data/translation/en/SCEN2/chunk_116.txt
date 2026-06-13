@@ -10,47 +10,47 @@
 8	McClaine<$FFFF>
 9	Mother<$FFFF>
 10	Valtar City, Underground Dock<$FFFF>
-11	<$FB00><$006B>Where's gone the bravado<$FFFC>you had just now？<$FFFE>
+11	<$FB00><$006B>Where's gone the bravado you<$FFFC>had just now？<$FFFE>
 12	<$FB00><$006C>That's filthy, Lainforce！<$FFFC>Using hostages<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-13	<$FB00><$006D>How is it filthy.<$FFFC>Without spending soldiers or spilling<$FFFC>blood, I can capture you.<$FFF5> <$FB00><$006E>Is<$FFFC>there a cleaner plan than this？<$FFFE>
+13	<$FB00><$006D>How is it filthy. Without<$FFFC>spending soldiers or spilling blood, I can<$FFFC>capture you.<$FFF5> <$FB00><$006E>Is there a cleaner plan than<$FFFC>this？<$FFFE>
 14	<$FFFA><$FFF8><$FB00><$006F>…Kh….<$FFFE>
 15	<$FB00><$0070>Hah, McClaine！<$FFFE>
 16	<$FB00><$0071>Brother！<$FFFE>
-17	<$FB00><$0072>Ho. So you're brother<$FFFC>and sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+17	<$FB00><$0072>Ho. So you're brother and<$FFFC>sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 18	<$FB00><$0073>Taking hostages<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0074>how low<$FFFC>can you sink！<$FFFE>
 19	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$0075>Mariandel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0076>You're<$FFFC>alive, both of you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$0077>M… mother<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
-21	<$FB00><$0078>That's how it is,<$FFFC>Marie<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E> <$FFF6><$FB00><$0079>Like this, we can't<$FFFC>lift a finger<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-22	<$FB00><$007A>Omega's report told me<$FFFC>she's from Poria. So I took her<$FFFC>into custody.<$FFFE>
+21	<$FB00><$0078>That's how it is, Marie<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E><$FFFC><$FFF6><$FB00><$0079>Like this, we can't lift a finger<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FB00><$007A>Omega's report told me she's<$FFFC>from Poria. So I took her into custody.<$FFFE>
 23	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>Forgive me, Mariandel.<$FFFC>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-24	<$FB00><$007C>Now, the touching reunion<$FFFC>ends here.<$FFF5><$FFFB> <$FB00><$007D>I too dislike<$FFFC>pointless killing. Let's make a<$FFFC>deal.<$FFFE>
-25	<$FB00><$007E>A deal？<$FFF5><$FFFB> <$FB00><$007F>And if we<$FFFC>agree, you'll free the hostage？<$FFFE>
-26	<$FB00><$0080>Just so. Not only the<$FFFC>hostage, I'll spare you as well.<$FFF5><$FFFB><$FFFC><$FB00><$0081>Well？<$FFFE>
-27	<$FB00><$0082>Don't be fooled！ There's<$FFFC>no guarantee he'll keep his word！<$FFFE>
+24	<$FB00><$007C>Now, the touching reunion ends<$FFFC>here.<$FFF5><$FFFB> <$FB00><$007D>I too dislike pointless killing.<$FFFC>Let's make a deal.<$FFFE>
+25	<$FB00><$007E>A deal？<$FFF5><$FFFB> <$FB00><$007F>And if we agree,<$FFFC>you'll free the hostage？<$FFFE>
+26	<$FB00><$0080>Just so. Not only the hostage,<$FFFC>I'll spare you as well.<$FFF5><$FFFB> <$FB00><$0081>Well？<$FFFE>
+27	<$FB00><$0082>Don't be fooled！ There's no<$FFFC>guarantee he'll keep his word！<$FFFE>
 28	<$FB00><$0083>Let's at least hear it.<$FFFC>Deciding can wait until after.<$FFFE>
-29	<$FB00><$0084>A wise choice. Then I'll<$FFFC>state my terms.<$FFFD><$FB00><$0085>What we want is you, this woman's<$FFFC>daughter.<$FFFE>
+29	<$FB00><$0084>A wise choice. Then I'll state<$FFFC>my terms.<$FFFD><$FB00><$0085>What we want is you, this woman's<$FFFC>daughter.<$FFFE>
 30	<$FB00><$0086>M, me<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
-31	<$FB00><$0087>You, what do you mean to<$FFFC>do with Marie.<$FFFE>
-32	<$FB00><$0088>Don't be so alarmed. I'll<$FFFC>do her no harm. I only want to<$FFFC>borrow her power. The power to<$FFFC>commune with the World Tree.<$FFFE>
-33	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0089>How do you know<$FFFC>that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-34	<$FB00><$008A>No wonder. It was I<$FFFC>who gave Gizarof the World Tree<$FFFC>sample.<$FFFD><$FB00><$008B>Her remodeling used the World<$FFFC>Tree. That's why she holds so<$FFFC>vast a magic capacity.<$FFFE>
+31	<$FB00><$0087>You, what do you mean to do<$FFFC>with Marie.<$FFFE>
+32	<$FB00><$0088>Don't be so alarmed. I'll do<$FFFC>her no harm. I only want to borrow her<$FFFC>power. The power to commune with the World<$FFFC>Tree.<$FFFE>
+33	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0089>How do you know that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+34	<$FB00><$008A>No wonder. It was I who gave<$FFFC>Gizarof the World Tree sample.<$FFFD><$FB00><$008B>Her remodeling used the World Tree. That's<$FFFC>why she holds so vast a magic capacity.<$FFFE>
 35	<$FB00><$008C>The World Tree, in my<$FFFC>body<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-36	<$FB00><$008D>So that's why she can<$FFFC>talk to plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-37	<$FB00><$008E>Just so.<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$008F>The World<$FFFC>Tree, king of all plants<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0090>It births mana into this world,<$FFFC>communes with all plants, and<$FFFC>bends mana at will.<$FFFD>Naturally, she holds that power<$FFFC>too.<$FFFE>
-38	<$FB00><$0091>Don't tell me,<$FFFC>you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0092>mean to gather mana<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-39	<$FB00><$0093>Oho, you noticed.<$FFFD><$FB00><$0094>You know our homeland Crimso faces<$FFFC>extinction.<$FFFD><$FB00><$0095>On its 200-year extreme elliptical<$FFFC>orbit, Crimso scarcely receives the<$FFFC>sun. In that time we pass the<$FFFC>years in long sleep.<$FFFD><$FB00><$0096>But the cold-sleep devices need<$FFFC>mana too. Crimso, its mana near<$FFFC>spent, has no next 200 years.<$FFFD><$FB00><$0097>And since Chaos was summoned,<$FFFC>the Chaos Gate left open on Crimso<$FFFC>is active.<$FFFD><$FB00><$0098>Left alone, monsters from the Gate<$FFFC>will destroy the kin still on<$FFFC>Crimso.<$FFFE>
-40	<$FB00><$0099>So if Marie's power<$FFFC>sends mana to Crimso, Crimso stays<$FFFC>in this land's orbit again.<$FFFE>
-41	<$FB00><$009A>This is our first and<$FFFC>last chance.<$FFF5> <$FB00><$009B>For it we spent 200<$FFFC>years planting World Trees and<$FFFC>filling this land with mana.<$FFFD><$FB00><$009C>To carry out this plan, I'll be<$FFFC>ogre or devil！ Until you<$FFFC>cooperate, I'll spare no slaughter！<$FFFE>
+36	<$FB00><$008D>So that's why she can talk to<$FFFC>plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+37	<$FB00><$008E>Just so.<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$008F>The World Tree, king<$FFFC>of all plants<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0090>It births mana into this world, communes<$FFFC>with all plants, and bends mana at will.<$FFFD>Naturally, she holds that power too.<$FFFE>
+38	<$FB00><$0091>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0092>mean to<$FFFC>gather mana<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FB00><$0093>Oho, you noticed.<$FFFD><$FB00><$0094>You know our homeland Crimso faces<$FFFC>extinction.<$FFFD><$FB00><$0095>On its 200-year extreme elliptical<$FFFC>orbit, Crimso scarcely receives the sun.<$FFFC>In that time we pass the years in long<$FFFC>sleep.<$FFFD><$FB00><$0096>But the cold-sleep devices need mana too.<$FFFC>Crimso, its mana near spent, has no next<$FFFC>200 years.<$FFFD><$FB00><$0097>And since Chaos was summoned, the Chaos<$FFFC>Gate left open on Crimso is active.<$FFFD><$FB00><$0098>Left alone, monsters from the Gate will<$FFFC>destroy the kin still on Crimso.<$FFFE>
+40	<$FB00><$0099>So if Marie's power sends mana<$FFFC>to Crimso, Crimso stays in this land's<$FFFC>orbit again.<$FFFE>
+41	<$FB00><$009A>This is our first and last<$FFFC>chance.<$FFF5> <$FB00><$009B>For it we spent 200 years<$FFFC>planting World Trees and filling this land<$FFFC>with mana.<$FFFD><$FB00><$009C>To carry out this plan, I'll be ogre or<$FFFC>devil！ Until you cooperate, I'll spare no<$FFFC>slaughter！<$FFFE>
 42	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$009D>He means it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF9><$FFF6><$FB00><$009E>Please cooperate, Marie.<$FFFE>
 43	<$FB00><$009F>But if Crimso stops<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 44	<$FB00><$00A0>It means they gain the<$FFFC>advantage.<$FFFE>
 45	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00A1>If I weren't here<$FFF5><$FFF8>…<$FE14>…<$FFFE>
 46	<$FFF7><$FB00><$00A2>Eh？<$FFF5><$FFF8><$FFFE>
-47	<$FB00><$00A3>If I weren't here, no<$FFFC>needless fighting would happen. If<$FFFC>I died！<$FFFE>
-48	<$FB00><$00A4>What are you saying,<$FFFC>Marie！<$FFFE>
-49	<$FB00><$00A5>If I help them, this<$FFFC>world falls to Crimsonia. War<$FFFC>spreads again.<$FFFD><$FB00><$00A6>If I don't, Crimsonia perishes.<$FFFC>But for that, innocent people are<$FFFC>put in danger.<$FFFD><$FB00><$00A7>But if I weren't here, it would<$FFFC>all settle cleanly！<$FFFE>
-50	<$FB00><$00A8>Don't be reckless！ Trust<$FFFC>us！<$FFF5><$FE3C> <$FB00><$00A9>Even if Crimso is saved, we<$FFFC>won't hand the surface to them！<$FFFE>
+47	<$FB00><$00A3>If I weren't here, no needless<$FFFC>fighting would happen. If I died！<$FFFE>
+48	<$FB00><$00A4>What are you saying, Marie！<$FFFE>
+49	<$FB00><$00A5>If I help them, this world<$FFFC>falls to Crimsonia. War spreads again.<$FFFD><$FB00><$00A6>If I don't, Crimsonia perishes. But for<$FFFC>that, innocent people are put in danger.<$FFFD><$FB00><$00A7>But if I weren't here, it would all settle<$FFFC>cleanly！<$FFFE>
+50	<$FB00><$00A8>Don't be reckless！ Trust us！<$FFF5><$FE3C><$FFFC><$FB00><$00A9>Even if Crimso is saved, we won't hand the<$FFFC>surface to them！<$FFFE>
 51	<$FB00><$00AA>But<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
-52	<$FB00><$00AB>For now, do as he says.<$FFFC>Let's give them a chance to live<$FFFC>too.<$FFFD><$FB00><$00AC>Leave what comes after to me！<$FFFC>I'll never give up the surface！<$FFFE>
+52	<$FB00><$00AB>For now, do as he says. Let's<$FFFC>give them a chance to live too.<$FFFD><$FB00><$00AC>Leave what comes after to me！ I'll never<$FFFC>give up the surface！<$FFFE>
 53	<$FE00>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$00AD><$FFFA>All right.<$FFFE>
-54	<$FB00><$00AE>I thank you for your<$FFFC>cooperation.<$FFFD><$FB00><$00AF>In short, send half this land's mana<$FFFC>to Crimso. For you, who commune<$FFFC>with the World Tree, it should be<$FFFC>simple.<$FFFD><$FB00><$00B0>Now, all is ready. Let me guide<$FFFC>you.<$FFFE><$FFFF>
+54	<$FB00><$00AE>I thank you for your<$FFFC>cooperation.<$FFFD><$FB00><$00AF>In short, send half this land's mana to<$FFFC>Crimso. For you, who commune with the<$FFFC>World Tree, it should be simple.<$FFFD><$FB00><$00B0>Now, all is ready. Let me guide you.<$FFFE><$FFFF>

@@ -16,123 +16,123 @@
 14	・Defeat all enemies<$FFFE>
 15	・<$F600><$0000> dies<$FFFE>
 16	Magitek Control Facility<$FFFF>
-17	<$FB00><$0042>So the control device<$FFFC>is here.<$FFFE>
+17	<$FB00><$0042>So the control device is<$FFFC>here.<$FFFE>
 18	<$FB00><$0043>That room is most likely<$FFFC>where the control device is.<$FFFE>
 19	<$FB00><$0044>So it seems.<$FFFE>
-20	<$FB00><$0045>But a sturdy-looking<$FFFC>door is shut, you see？<$FFFE>
-21	<$FB00><$0046>There should be a<$FFFC>device somewhere to open the door.<$FFFE>
-22	<$FB00><$0047>Is it that thing<$FFFC>visible in the back？<$FFFE>
-23	<$FB00><$0048>Yeah, that's it！<$FFF5> <$FB00><$0049>There<$FFFC>are two, and unless both switches<$FFFC>are thrown, the control room door<$FFFC>won't open.<$FFFE>
-24	<$FB00><$004A>Split into two teams,<$FFFC>or three<$FFF5><$FFF8>….<$FFFE>
-25	<$FB00><$004B>Think it through. We've<$FFFC>come this far, failure isn't<$FFFC>allowed.<$FFFE>
-26	<$FB00><$004C>Intruders found！<$FFFC>Intruders found！<$FFFE>
-27	<$FB00><$004D>What！<$FFF5> <$FB00><$004E>Enemies, in a<$FFFC>place like this？<$FFFE>
+20	<$FB00><$0045>But a sturdy-looking door<$FFFC>is shut, you see？<$FFFE>
+21	<$FB00><$0046>There should be a device<$FFFC>somewhere to open the door.<$FFFE>
+22	<$FB00><$0047>Is it that thing visible in<$FFFC>the back？<$FFFE>
+23	<$FB00><$0048>Yeah, that's it！<$FFF5> <$FB00><$0049>There<$FFFC>are two, and unless both switches are<$FFFC>thrown, the control room door won't open.<$FFFE>
+24	<$FB00><$004A>Split into two teams, or<$FFFC>three<$FFF5><$FFF8>….<$FFFE>
+25	<$FB00><$004B>Think it through. We've come<$FFFC>this far, failure isn't allowed.<$FFFE>
+26	<$FB00><$004C>Intruders found！ Intruders<$FFFC>found！<$FFFE>
+27	<$FB00><$004D>What！<$FFF5> <$FB00><$004E>Enemies, in a place<$FFFC>like this？<$FFFE>
 28	<$FB00><$004F>NOW ENTERING<$FFFC>INTERCEPT MODE！<$FFFE>
-29	<$FB00><$0050>Get word to Lord<$FFFC>Aizer！<$FFF5> <$FB00><$0051>Hold this place no matter<$FFFC>what！<$FFFE>
+29	<$FB00><$0050>Get word to Lord Aizer！<$FFF5><$FFFC><$FB00><$0051>Hold this place no matter what！<$FFFE>
 30	<$FB00><$0052>Looks like we've been<$FFFC>noticed.<$FFFD><$FB00><$0053>Hurry！<$FFFE>
-31	<$FB00><$005D>Alarm raised. In 500<$FFFC>counts the control panel will be<$FFFC>disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly<$FFFC>enter the release code at the<$FFFC>control panel.<$FFFE>
+31	<$FB00><$005D>Alarm raised. In 500 counts<$FFFC>the control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
 32	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
 33	・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
-34	<$FB00><$005B>Alarm raised. In 700<$FFFC>counts the control panel will be<$FFFC>disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly<$FFFC>enter the release code at the<$FFFC>control panel.<$FFFE>
+34	<$FB00><$005B>Alarm raised. In 700 counts<$FFFC>the control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
 35	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 19 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
 36	・Fail to reach the control panel within 19 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
-37	<$FB00><$005D>Alarm raised. In 500<$FFFC>counts the control panel will be<$FFFC>disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly<$FFFC>enter the release code at the<$FFFC>control panel.<$FFFE>
-38	<$FB00><$005F>This is bad. If the<$FFFC>shutter comes down, we can't<$FFFC>touch the control device！<$FFFE>
-39	<$FB00><$0060>Everyone, hurry！ Reach<$FFFC>the control panel before the<$FFFC>shutter falls！！<$FFFE>
-40	<$FB00><$0070>Control panel, preparing<$FFFC>to lock down. If false, promptly<$FFFC>enter the release code.<$FFFE>
-41	<$FB00><$0070>Control panel, preparing<$FFFC>to lock down. If false, promptly<$FFFC>enter the release code.<$FFFE>
-42	<$FB00><$0071>Warning. The control<$FFFC>panel will soon be locked. If<$FFFC>false, promptly enter the release<$FFFC>code.<$FFFE>
-43	<$FB00><$0071>Warning. The control<$FFFC>panel will soon be locked. If<$FFFC>false, promptly enter the release<$FFFC>code.<$FFFE>
+37	<$FB00><$005D>Alarm raised. In 500 counts<$FFFC>the control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
+38	<$FB00><$005F>This is bad. If the shutter<$FFFC>comes down, we can't touch the control<$FFFC>device！<$FFFE>
+39	<$FB00><$0060>Everyone, hurry！ Reach the<$FFFC>control panel before the shutter falls！！<$FFFE>
+40	<$FB00><$0070>Control panel, preparing to<$FFFC>lock down. If false, promptly enter the<$FFFC>release code.<$FFFE>
+41	<$FB00><$0070>Control panel, preparing to<$FFFC>lock down. If false, promptly enter the<$FFFC>release code.<$FFFE>
+42	<$FB00><$0071>Warning. The control panel<$FFFC>will soon be locked. If false, promptly<$FFFC>enter the release code.<$FFFE>
+43	<$FB00><$0071>Warning. The control panel<$FFFC>will soon be locked. If false, promptly<$FFFC>enter the release code.<$FFFE>
 44	<$0000> <$F600><$FFFD> pushed the wall<$FFFC>switch！<$FFFE>
 45	<$0000> <$F600><$FFFD> pushed the wall<$FFFC>switch！<$FFFE>
-46	<$FB00><$0064>I just move this,<$FFFC>right？<$FFFE>
-47	<$FB00><$0065>I just move this,<$FFFC>right？<$FFFE>
-48	<$FB00><$0066>Erm, which one<$FFF5><$FFF8>…<$FFF6><$FB00><$0067>this<$FFFC>one？<$FFFE>
+46	<$FB00><$0064>I just move this, right？<$FFFE>
+47	<$FB00><$0065>I just move this, right？<$FFFE>
+48	<$FB00><$0066>Erm, which one<$FFF5><$FFF8>…<$FFF6><$FB00><$0067>this one？<$FFFE>
 49	<$FB00><$0068>Push this, and this<$FFF5><$FFF8>….<$FFFE>
-50	<$FB00><$0069>Which one<$FFF5><$FFF8>…. <$FFF6><$FB00><$006A>Ah, just<$FFFC>push them at random！<$FFFE>
+50	<$FB00><$0069>Which one<$FFF5><$FFF8>…. <$FFF6><$FB00><$006A>Ah, just push<$FFFC>them at random！<$FFFE>
 51	<$FB00><$006B>This stops the magitek<$FFFC>system.<$FFFE>
-52	<$FB00><$006C>All defense systems<$FFFC>halted. Alert lifted.<$FFFE>
+52	<$FB00><$006C>All defense systems halted.<$FFFC>Alert lifted.<$FFFE>
 53	<$FB00><$006D>We did it！<$FFFE>
-54	<$FB00><$006E>Curse you<$FFF5><$FFF8>…！ <$FFF6><$FB00><$006F>Don't<$FFFC>think you'll leave here alive！<$FFFE>
+54	<$FB00><$006E>Curse you<$FFF5><$FFF8>…！ <$FFF6><$FB00><$006F>Don't think<$FFFC>you'll leave here alive！<$FFFE>
 55	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD><$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
 56	・Defeat all enemies<$FFFE>
 57	・<$F600><$0000> dies<$FFFE>
-58	A gargoyle statue stands in the<$FFFC>water. In its hand it grips a<$FFFC>keen-looking sword.<$FFFD>Take the sword？<$FFFE>
+58	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a keen-looking sword.<$FFFD>Take the sword？<$FFFE>
 59	<$0000> <$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
-60	A locking sound came from the<$FFFC>right.<$FFFE>
-61	A gargoyle statue stands in the<$FFFC>water. In its hand it grips a<$FFFC>splendid suit of armor.<$FFFD>Take the armor？<$FFFE>
+60	A locking sound came from the right.<$FFFE>
+61	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a splendid suit of<$FFFC>armor.<$FFFD>Take the armor？<$FFFE>
 62	<$0000> <$FFF4>Aeneas Mail<$FFF3> obtained！<$FFFE>
-63	A locking sound came from the<$FFFC>left.<$FFFE>
+63	A locking sound came from the left.<$FFFE>
 64	<$FB00><$007A>I'm pressing on！<$FFFE>
 65	<$FB00><$002B>Eat this！<$FFFE>
 66	<$FB00><$002E>Sorry… everyone…<$FFFE>
 67	<$FB00><$007B>Clear the way！<$FFFE>
 68	<$FB00><$0046>Here goes.<$FFFE>
 69	<$FB00><$004B>No… that I should…<$FFFE>
-70	<$FB00><$004C>Marie, leave this to us<$FFFC>and pull back！<$FFFE>
+70	<$FB00><$004C>Marie, leave this to us and<$FFFC>pull back！<$FFFE>
 71	…<$FB00><$004D>I'm sorry….<$FFFE>
 72	<$FB00><$007D>Don't get in my way！<$FFFE>
 73	<$FB00><$0076>I won't lose！<$FFFE>
-74	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
-75	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+74	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
+75	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 76	<$FB00><$007D>But…<$FFFE>
 77	<$FB00><$007E>Trust your comrades！<$FFFE>
-78	<$FB00><$007F>…Understood… The rest<$FFFC>is yours…<$FFFE>
-79	<$FB00><$0078>Aizer！ I'm going<$FFFC>through to Lain！<$FFFE>
-80	<$FB00><$0079>I'll not let you<$FFFC>reach Lord Lainforce！<$FFFE>
-81	<$FB00><$0069>Who do you think I<$FFFC>am！<$FFFE>
+78	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
+79	<$FB00><$0078>Aizer！ I'm going through to<$FFFC>Lain！<$FFFE>
+80	<$FB00><$0079>I'll not let you reach Lord<$FFFC>Lainforce！<$FFFE>
+81	<$FB00><$0069>Who do you think I am！<$FFFE>
 82	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
-83	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
-84	<$FB00><$006D>Yeah, I'm fine… I<$FFFC>can still go…<$FFFE>
-85	<$FB00><$006E>Fall back, Brenda！<$FFFC>Don't overdo it！<$FFFE>
-86	<$FB00><$006F>…I'll do that. I<$FFFC>don't want to drag you down…<$FFFE>
+83	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+84	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>go…<$FFFE>
+85	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
+86	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
 87	<$FB00><$007C>Get out of the way！<$FFFE>
 88	<$FB00><$0054>I won't lose！<$FFFE>
 89	<$FB00><$005C>Ow！ Y, you！<$FFFE>
-90	<$FB00><$005D>Clarett！？ Don't overdo<$FFFC>it！<$FFFE>
+90	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 91	<$FB00><$005E>B, but….<$FFFE>
 92	<$FB00><$005F>Enough, fall back！<$FFFE>
-93	<$FB00><$0060>Sorry, at such a<$FFFC>crucial time….<$FFFE>
+93	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
 94	<$FB00><$007E>Don't get in my way！<$FFFE>
 95	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
 96	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
-97	<$FB00><$008F>Are you all right,<$FFFC>Lanford！？<$FFFE>
-98	<$FB00><$0090>A wound like this is<$FFFC>a scratch…<$FFFE>
-99	<$FB00><$0091>Don't push it！ Leave<$FFFC>the rest to us！<$FFFE>
-100	<$FB00><$0092>…At such a crucial<$FFFC>time, forgive me…<$FFFE>
+97	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
+98	<$FB00><$0090>A wound like this is a<$FFFC>scratch…<$FFFE>
+99	<$FB00><$0091>Don't push it！ Leave the<$FFFC>rest to us！<$FFFE>
+100	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
 101	…V…VV…W….<$FFFE>
 102	…V…vv….<$FFFE>
 103	I can't die here….<$FFFE>
 104	L, Lord Ai…zer….<$FFFE>
-105	…I don't want to die…. …I<$FFFC>don't want to die…. …I don't<$FFFC>want to die…. …I don't want to<$FFFC>die….<$FFFE>
+105	…I don't want to die…. …I don't want<$FFFC>to die…. …I don't want to die…. …I<$FFFC>don't want to die….<$FFFE>
 106	<$FB00><$0082>…Gh… uu….<$FFFE>
 107	<$FB00><$0083>This is the end, Aizer.<$FFFE>
 108	<$FFF8>…<$FFF6><$FB00><$0084>Lady Brenda… Lord<$FFFC>Lainforce is… uu….<$FFFE>
-109	I can't fall here. I must<$FFFC>protect Lord Lain…force….<$FFFE>
+109	I can't fall here. I must protect Lord<$FFFC>Lain…force….<$FFFE>
 110	That the Crimson Knights should….<$FFFE>
-111	…To think surface-dwellers held<$FFFC>such skill…. But next time I<$FFFC>won't lose….<$FFFE>
+111	…To think surface-dwellers held such<$FFFC>skill…. But next time I won't lose….<$FFFE>
 112	…That I should fall to<$FFFC>surface-dwellers….<$FFFE>
-113	I can't lose here…. …but…<$FFFC>already….<$FFFE>
-114	<$FB00><$0080>Now to deal with the<$FFFC>control device….<$FFFE>
-115	<$0000> Operated the control panel and<$FFFC>halted the magitek system.<$FFFE>
+113	I can't lose here…. …but… already….<$FFFE>
+114	<$FB00><$0080>Now to deal with the control<$FFFC>device….<$FFFE>
+115	<$0000> Operated the control panel and halted<$FFFC>the magitek system.<$FFFE>
 116	<$FFF8>…<$FB00><$0081>It's over.<$FFFE>
-117	<$FB00><$0085>So now we can get<$FFFC>into his castle.<$FFFE>
-118	<$FB00><$0086>At last, the showdown<$FFFC>with Lain.<$FFFE>
-119	<$FB00><$0087>Yeah. Everyone, stay<$FFFC>sharp！<$FFFE>
-120	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Cut<$FFFC>the power to the control device<$FFFE>
+117	<$FB00><$0085>So now we can get into his<$FFFC>castle.<$FFFE>
+118	<$FB00><$0086>At last, the showdown with<$FFFC>Lain.<$FFFE>
+119	<$FB00><$0087>Yeah. Everyone, stay sharp！<$FFFE>
+120	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Cut the<$FFFC>power to the control device<$FFFE>
 121	・Cut the power to the control device<$FFFE>
 122	<$FB00><$0054>Mh, you're<$FFF5><$FFF8>….<$FFFE>
 123	<$FB00><$0055>Aizer<$FFF5><$FFF8>….<$FFFE>
-124	<$FB00><$0056>I see. So the<$FFFC>Crimsolanders told you of this<$FFFC>control room<$FFF5><$FFF8>….<$FFFE>
-125	<$FB00><$0057>Too bad, Aizer. However<$FFFC>mighty the magitek weapons guarding<$FFFC>it, useless if they don't move,<$FFFC>no？<$FFFE>
-126	<$FB00><$0058>But if you can't stop<$FFFC>it, you've no chance.<$FFF5> <$FB00><$0059>Bring the<$FFFC>panel shutter down remotely！ Never<$FFFC>let them stop the system！<$FFFE>
+124	<$FB00><$0056>I see. So the Crimsolanders<$FFFC>told you of this control room<$FFF5><$FFF8>….<$FFFE>
+125	<$FB00><$0057>Too bad, Aizer. However<$FFFC>mighty the magitek weapons guarding it,<$FFFC>useless if they don't move, no？<$FFFE>
+126	<$FB00><$0058>But if you can't stop it,<$FFFC>you've no chance.<$FFF5> <$FB00><$0059>Bring the panel<$FFFC>shutter down remotely！ Never let them<$FFFC>stop the system！<$FFFE>
 127	<$FB00><$005A>Understood！<$FFFE>
-128	<$FB00><$0061>Right, the control room<$FFFC>door is open！<$FFFE>
-129	<$FB00><$0062>Now we just cut the<$FFFC>power to the magitek system from<$FFFC>the panel！<$FFFE>
+128	<$FB00><$0061>Right, the control room door<$FFFC>is open！<$FFFE>
+129	<$FB00><$0062>Now we just cut the power to<$FFFC>the magitek system from the panel！<$FFFE>
 130	<$FB00><$0063>No good！ Beat them<$FFFC>quickly！<$FFFE>
 131	<$FB00><$007F>I won't allow it！<$FFFE>
-132	<$FB00><$0072>Locking the control<$FFFC>panel. The defense systems now<$FFFC>shift to top-level alert.<$FFFE>
+132	<$FB00><$0072>Locking the control panel.<$FFFC>The defense systems now shift to<$FFFC>top-level alert.<$FFFE>
 133	<$FB00><$0073>Control panel locked.<$FFFC>Shifting to top-level alert.<$FFFE>
-134	<$FB00><$0074>No！ The control<$FFFC>device！<$FFFE>
-135	<$FFF7><$FB00><$0075>Hahaha！<$FFF5><$FFF8> <$FFF6><$FB00><$0076>Now none but<$FFFC>Lord Lainforce, who holds the<$FFFC>release code, can disarm this<$FFFC>defense system！ You've lost！<$FFFE>
+134	<$FB00><$0074>No！ The control device！<$FFFE>
+135	<$FFF7><$FB00><$0075>Hahaha！<$FFF5><$FFF8> <$FFF6><$FB00><$0076>Now none but Lord<$FFFC>Lainforce, who holds the release code, can<$FFFC>disarm this defense system！ You've lost！<$FFFE>
 136	<$FB00><$0077>Sorry, everyone<$FFF5><$FFF8>….<$FFFE>

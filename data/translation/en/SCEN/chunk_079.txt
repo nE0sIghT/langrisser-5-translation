@@ -15,14 +15,14 @@
 13	Shelfaniel<$FFFF>
 14	Caconsis Army in Combat<$FFFF>
 15	G… curse you….<$FFFE>
-16	Careful！ They fight to the<$FFFC>death！<$FFFE>
+16	Careful！ They fight to the death！<$FFFE>
 17	Understood！<$FFFE>
 18	Guhah！<$FFFE>
 19	Damn, the odds are against us….<$FFFE>
 20	Sister, that magic just now！？<$FFFE>
 21	Jessica！<$FFFE>
-22	It's been a while. Now, just a<$FFFC>little more. Let's give it our<$FFFC>all！<$FFFE>
+22	It's been a while. Now, just a little<$FFFC>more. Let's give it our all！<$FFFE>
 23	Yes！<$FFFE>
-24	<$0000>Having beaten Necro Glob,<$FFFC><$F600><$0000>'s band cornered Gaiel<$FFFC>at last.<$FFFD><$0000>A few hours remain until the<$FFFC>weather control fades. <$0000>In what<$FFFC>little time is left, they must<$FFFC>defeat Gaiel.<$FFFD><$0000>Humanity, or the demons？ <$0000>The<$FFFC>battle that stakes the future is<$FFFC>about to begin.<$FFFE>
+24	<$0000>Having beaten Necro Glob,<$FFFC><$F600><$0000>'s band cornered Gaiel at<$FFFC>last.<$FFFD><$0000>A few hours remain until the weather<$FFFC>control fades. <$0000>In what little time is<$FFFC>left, they must defeat Gaiel.<$FFFD><$0000>Humanity, or the demons？ <$0000>The battle<$FFFC>that stakes the future is about to begin.<$FFFE>
 25	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gaiel within 18 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・18 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>
 26	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gaiel within 20 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・20 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>

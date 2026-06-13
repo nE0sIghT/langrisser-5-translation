@@ -11,23 +11,23 @@
 9	Jessica<$FFFF>
 10	Lenard<$FFFF>
 11	By the Transport Airship<$FFFF>
-12	<$FB00><$0003>Listen well. Whatever<$FFFC>happens, this sword must reach Lord<$FFFC>Lainforce.<$FFFE>
-13	<$FB00><$0004>And what will you do,<$FFFC>Lord Aizer？<$FFFE>
-14	<$FB00><$0005>We stay and hunt for<$FFFC>the other sword. We came all the<$FFFC>way to El Sallia. I mean to<$FFFC>search every corner.<$FFFE>
-15	<$FB00><$0006>Understood. Then we will<$FFFC>head back ahead of you.<$FFFE>
-16	<$FB00><$0007>Good. I'm counting on<$FFFC>you.<$FFFE>
+12	<$FB00><$0003>Listen well. Whatever happens,<$FFFC>this sword must reach Lord Lainforce.<$FFFE>
+13	<$FB00><$0004>And what will you do, Lord<$FFFC>Aizer？<$FFFE>
+14	<$FB00><$0005>We stay and hunt for the other<$FFFC>sword. We came all the way to El Sallia. I<$FFFC>mean to search every corner.<$FFFE>
+15	<$FB00><$0006>Understood. Then we will head<$FFFC>back ahead of you.<$FFFE>
+16	<$FB00><$0007>Good. I'm counting on you.<$FFFE>
 17	Velzeria Expedition Camp<$FFFF>
 18	<$FB00><$0008>Jessica！<$FFFE>
 19	<$FB00><$0009>You took your time.<$FFFE>
-20	<$FB00><$000A>Sorry. We were ambushed on<$FFFC>the way.<$FFFE>
+20	<$FB00><$000A>Sorry. We were ambushed on the<$FFFC>way.<$FFFE>
 21	<$FB00><$000B>I see.<$FFFE>
-22	<$FB00><$000C>So, how goes the<$FFFC>battle？<$FFFE>
-23	<$FB00><$000D>McClaine is leading his<$FFFC>troops against the demons now.<$FFFE>
-24	<$FB00><$000E>My brother… I hope he's<$FFFC>all right.<$FFFE>
-25	<$FB00><$000F>No need to worry. He<$FFFC>fought the demons at Yeless.<$FFFD><$FB00><$0010>And he is far stronger than you<$FFFC>give him credit for.<$FFFE>
-26	<$FB00><$0011>More to the point: while<$FFFC>we draw the monsters out, you slip<$FFFC>into Velzeria Castle.<$FFFE>
-27	<$FB00><$0012>True. A small band like<$FFFC>yours could creep in unseen.<$FFFE>
+22	<$FB00><$000C>So, how goes the battle？<$FFFE>
+23	<$FB00><$000D>McClaine is leading his troops<$FFFC>against the demons now.<$FFFE>
+24	<$FB00><$000E>My brother… I hope he's all<$FFFC>right.<$FFFE>
+25	<$FB00><$000F>No need to worry. He fought<$FFFC>the demons at Yeless.<$FFFD><$FB00><$0010>And he is far stronger than you give him<$FFFC>credit for.<$FFFE>
+26	<$FB00><$0011>More to the point: while we<$FFFC>draw the monsters out, you slip into<$FFFC>Velzeria Castle.<$FFFE>
+27	<$FB00><$0012>True. A small band like yours<$FFFC>could creep in unseen.<$FFFE>
 28	<$FB00><$0013>The same plan we used to<$FFFC>retake Kalxath Castle.<$FFFE>
 29	<$FB00><$0014>Understood. We will settle<$FFFC>this quickly.<$FFFE>
-30	<$0000>Shaking off Omega,<$FFFC><$F600><$0000>'s band reached<$FFFC>Velzeria Castle.<$FFFD><$0000>While the Kalxath regulars fought<$FFFC>on, they slipped inside.<$FFFD><$0000>In the deepest hall of Velzeria,<$FFFC>Necro Glob awaited them.<$FFFD><$0000>For a world where the people<$FFFC>of El Sallia can live in peace,<$FFFC><$F600><$0000>'s band challenges<$FFFC>Glob.<$FFFE>
+30	<$0000>Shaking off Omega, <$F600><$0000>'s<$FFFC>band reached Velzeria Castle.<$FFFD><$0000>While the Kalxath regulars fought on,<$FFFC>they slipped inside.<$FFFD><$0000>In the deepest hall of Velzeria, Necro<$FFFC>Glob awaited them.<$FFFD><$0000>For a world where the people of El<$FFFC>Sallia can live in peace,<$FFFC><$F600><$0000>'s band challenges Glob.<$FFFE>
 31	Victory terms<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -9,15 +9,15 @@
 7	Zero<$FFFF>
 8	Lainforce<$FFFF>
 9	Near the City of Valtar<$FFFF>
-10	<$FB00><$0003>It'll be dark soon, so<$FFFC>let's choose the break-in team.<$FFFE>
-11	<$FB00><$0004>Pick one person to<$FFFC>support you.<$FFFE>
+10	<$FB00><$0003>It'll be dark soon, so let's<$FFFC>choose the break-in team.<$FFFE>
+11	<$FB00><$0004>Pick one person to support<$FFFC>you.<$FFFE>
 12	<$FB00><$0005>Right<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	Who do you name？<$FFFE>
 14	・Marie<$FFFE>
 15	・Brenda<$FFFE>
 16	・Clarett<$FFFE>
 17	・Another member<$FFFE>
-18	<$FB00><$0006>Whatever happens, I'll<$FFFC>protect you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$0006>Whatever happens, I'll protect<$FFFC>you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 19	<$FB00><$0007>I see. All right.<$FFFE>
 20	<$FB00><$0008>With me along, no need to<$FFFC>worry. Rest easy.<$FFFE>
 21	<$FB00><$0009>Yes, yes.<$FFFE>
@@ -27,35 +27,35 @@
 25	・Alfred<$FFFE>
 26	・Lanford<$FFFE>
 27	・Back to the previous choice<$FFFE>
-28	<$FB00><$000C>All right, I'll do my<$FFFC>best！<$FFFE>
+28	<$FB00><$000C>All right, I'll do my best！<$FFFE>
 29	<$FB00><$000D>Leave it to me.<$FFFE>
-30	<$FB00><$000E>Then the rest of you,<$FFFC>draw the enemy off！<$FFFE>
-31	<$FB00><$000C>All right, I'll do my<$FFFC>best！<$FFFE>
+30	<$FB00><$000E>Then the rest of you, draw the<$FFFC>enemy off！<$FFFE>
+31	<$FB00><$000C>All right, I'll do my best！<$FFFE>
 32	<$FB00><$000D>Leave it to me.<$FFFE>
 33	<$FB00><$000F>Right, let's move too！<$FFFE>
 34	Valtar City, Underground Dock<$FFFF>
-35	<$FB00><$0010>My report. A moment ago<$FFFC>the mana density in the air<$FFFC>reached our target value. Phase<$FFFC>one of the plan is complete.<$FFFE>
-36	<$FB00><$0011>I see.<$FFFD><$FB00><$0012>Some 200 years since we came down<$FFFC>to this star.<$FFF5><$FFFB> <$FB00><$0013>Replanting World<$FFFC>Trees to restore the depleted mana<$FFFC>has paid off.<$FFFE>
-37	<$FB00><$0014>Yes. After we capture<$FFFC>that girl, phase two will follow<$FFFC>at once.<$FFFE>
-38	<$FB00><$0015>Indeed. If it comes to<$FFFC>it, I won't shrink from force.<$FFFE>
+35	<$FB00><$0010>My report. A moment ago the<$FFFC>mana density in the air reached our target<$FFFC>value. Phase one of the plan is complete.<$FFFE>
+36	<$FB00><$0011>I see.<$FFFD><$FB00><$0012>Some 200 years since we came down to this<$FFFC>star.<$FFF5><$FFFB> <$FB00><$0013>Replanting World Trees to restore<$FFFC>the depleted mana has paid off.<$FFFE>
+37	<$FB00><$0014>Yes. After we capture that<$FFFC>girl, phase two will follow at once.<$FFFE>
+38	<$FB00><$0015>Indeed. If it comes to it, I<$FFFC>won't shrink from force.<$FFFE>
 39	<$FB00><$0016>Just so.<$FFFE>
-40	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0017>Zero's habits have<$FFFC>rubbed off on me, it seems.<$FFFE>
+40	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0017>Zero's habits have rubbed<$FFFC>off on me, it seems.<$FFFE>
 41	<$FFF7><$FB00><$0018>Hah？<$FFF5><$FFF8><$FFFE>
 42	<$FFF9><$FB00><$0019>No, never mind.<$FFFE>
-43	<$FB00><$001A>The battleship's refit<$FFFC>will soon be done, but it took<$FFFC>longer than expected.<$FFFD>And Chaos has revived once<$FFFC>already. We must hurry.<$FFFE>
-44	<$FB00><$001B>As you will. There is<$FFFC>one more thing to report.<$FFFE>
+43	<$FB00><$001A>The battleship's refit will<$FFFC>soon be done, but it took longer than<$FFFC>expected.<$FFFD>And Chaos has revived once already. We<$FFFC>must hurry.<$FFFE>
+44	<$FB00><$001B>As you will. There is one more<$FFFC>thing to report.<$FFFE>
 45	<$FB00><$001C>What is it.<$FFFE>
-46	<$FB00><$001D>A report from the unit<$FFFC>sent to trace the true holy sword.<$FFFE>
+46	<$FB00><$001D>A report from the unit sent to<$FFFC>trace the true holy sword.<$FFFE>
 47	<$FB00><$001E>From Aizer？<$FFFE>
-48	<$FB00><$001F>Yes.<$FFFD><$FB00><$0020>By Aizer's report, the holy sword<$FFFC>that passed into demon hands is<$FFFC>now called Alhazard.<$FFFD><$FB00><$0021>It seems a demon named Gaiel<$FFFC>carries it about.<$FFFE>
+48	<$FB00><$001F>Yes.<$FFFD><$FB00><$0020>By Aizer's report, the holy sword that<$FFFC>passed into demon hands is now called<$FFFC>Alhazard.<$FFFD><$FB00><$0021>It seems a demon named Gaiel carries it<$FFFC>about.<$FFFE>
 49	<$FB00><$0022>And where is it？<$FFFE>
-50	<$FB00><$0023>Gaiel has left El Sallia<$FFFC>and crossed to Yeless. He seems<$FFFC>to be combing ancient texts,<$FFFC>researching the holy sword.<$FFFE>
-51	<$FB00><$0024>The chance he reaches<$FFFC>the ultimate weapon？<$FFFE>
-52	<$FB00><$0025>Likely it will become<$FFFC>known to him before long.<$FFFE>
-53	<$FB00><$0026>If he learns of the<$FFFC>ultimate weapon, we can't stay<$FFFC>gathered in one place.<$FFFD>Best split the men and move them<$FFFC>from the castle elsewhere.<$FFFE>
-54	<$FB00><$0027>Then I'll see to the<$FFFC>arrangements. For defense until<$FFFC>everyone withdraws, I'd entrust it<$FFFC>to Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-55	<$FB00><$0028>Leave it to him. Assign<$FFFC>two of the Crimson Knights. Tell<$FFFC>him to take the utmost care.<$FFFE>
+50	<$FB00><$0023>Gaiel has left El Sallia and<$FFFC>crossed to Yeless. He seems to be combing<$FFFC>ancient texts, researching the holy sword.<$FFFE>
+51	<$FB00><$0024>The chance he reaches the<$FFFC>ultimate weapon？<$FFFE>
+52	<$FB00><$0025>Likely it will become known to<$FFFC>him before long.<$FFFE>
+53	<$FB00><$0026>If he learns of the ultimate<$FFFC>weapon, we can't stay gathered in one<$FFFC>place.<$FFFD>Best split the men and move them from the<$FFFC>castle elsewhere.<$FFFE>
+54	<$FB00><$0027>Then I'll see to the<$FFFC>arrangements. For defense until everyone<$FFFC>withdraws, I'd entrust it to Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+55	<$FB00><$0028>Leave it to him. Assign two of<$FFFC>the Crimson Knights. Tell him to take the<$FFFC>utmost care.<$FFFE>
 56	<$FB00><$0029>As you will.<$FFFE>
-57	<$FFFA><$FB00><$002A>To face even the demons<$FFFC>in a situation like this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-58	<$0000>The rescued citizens reveal the<$FFFC>Poria refugees are made to dig<$FFFC>out the battleship.<$FFFD><$0000><$F600><$0000>'s band slips into<$FFFC>Valtar once more.<$FFFD><$0000>To send <$F600><$0000> and one<$FFFC>other past the guards, they run<$FFFC>the decoy plan.<$FFFE>
+57	<$FFFA><$FB00><$002A>To face even the demons in a<$FFFC>situation like this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+58	<$0000>The rescued citizens reveal the Poria<$FFFC>refugees are made to dig out the<$FFFC>battleship.<$FFFD><$0000><$F600><$0000>'s band slips into<$FFFC>Valtar once more.<$FFFD><$0000>To send <$F600><$0000> and one other<$FFFC>past the guards, they run the decoy plan.<$FFFE>
 59	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

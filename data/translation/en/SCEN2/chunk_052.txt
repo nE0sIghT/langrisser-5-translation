@@ -8,83 +8,83 @@
 6	Lanford<$FFFF>
 7	On the Road to the Lab<$FFFF>
 8	We are almost at the lab.<$FFFE>
-9	We may have rushed. Alfred is<$FFFC>falling behind.<$FFFE>
-10	No time to waste. I can explain<$FFFC><$FFF4>two mercenary types<$FFF3>. Listen？<$FFFE>
+9	We may have rushed. Alfred is falling<$FFFC>behind.<$FFFE>
+10	No time to waste. I can explain <$FFF4>two<$FFFC>mercenary types<$FFF3>. Listen？<$FFFE>
 11	Mixed mercenaries, right…？<$FFFE>
 12	・I know it<$FFFE>
 13	・Explain it<$FFFE>
-14	The <$FFF4>Mixed Mercs skill <$FFF3>lets you<$FFFC>hire two mercenary types.<$FFFE>
-15	Right. Then, when assigning mercs<$FFFC><$FFF8>…<$FFFE>
-16	Choose the first type, then choose<$FFFC>the second. After that, set each<$FFFC>count, right？<$FFFE>
+14	The <$FFF4>Mixed Mercs skill <$FFF3>lets you hire two<$FFFC>mercenary types.<$FFFE>
+15	Right. Then, when assigning mercs <$FFF8>…<$FFFE>
+16	Choose the first type, then choose the<$FFFC>second. After that, set each count,<$FFFC>right？<$FFFE>
 17	Exactly.<$FFFE>
-18	To command two mercenary types,<$FFFC>you need the <$FFF4>Mixed Mercs skill<$FFF3>.<$FFFE>
+18	To command two mercenary types, you need<$FFFC>the <$FFF4>Mixed Mercs skill<$FFF3>.<$FFFE>
 19	How do we learn it？<$FFFE>
-20	At LV10 after battle EXP, you<$FFFC>can <$FFF4>Class Change<$FFF3>. New classes<$FFFC>teach new skills.<$FFFE>
-21	When assigning mercs, choose both<$FFFC>types first, then each number.<$FFFD>Until now it was <$FFF4>Choose Mercs<$FFF3>,<$FFFC>then <$FFF4>Set Number<$FFF3>.<$FFFD>With mixed mercs, pick type one,<$FFFC>type two, then each number.<$FFFE>
-22	So choose two types before choosing<$FFFC>how many mercs to hire.<$FFFE>
+20	At LV10 after battle EXP, you can<$FFFC><$FFF4>Class Change<$FFF3>. New classes teach new<$FFFC>skills.<$FFFE>
+21	When assigning mercs, choose both types<$FFFC>first, then each number.<$FFFD>Until now it was <$FFF4>Choose Mercs<$FFF3>, then <$FFF4>Set<$FFFC>Number<$FFF3>.<$FFFD>With mixed mercs, pick type one, type two,<$FFFC>then each number.<$FFFE>
+22	So choose two types before choosing how<$FFFC>many mercs to hire.<$FFFE>
 23	That's the way of it.<$FFFE>
-24	One more thing. I want to check<$FFFC><$FFF4>summoned beast magic <$FFF3>too.<$FFFE>
+24	One more thing. I want to check <$FFF4>summoned<$FFFC>beast magic <$FFF3>too.<$FFFE>
 25	Summoned beast magic…<$FFFE>
 26	・I know it<$FFFE>
 27	・Explain it<$FFFE>
-28	If <$FFF4>casting time <$FFF3>fits within <$FFF4>action<$FFFC>points<$FFF3>, the spell fires at once.<$FFFD>If not, it waits until the next<$FFFC>action, right？<$FFFE>
-29	Exactly. A short-cast spell can<$FFFC>be used right away.<$FFFE>
-30	For beast magic, if <$FFF4>action points<$FFFC>exceed casting time<$FFF3>, it fires at<$FFFC>once.<$FFFD>If not, it waits until the next<$FFFC>command.<$FFFE>
-31	I see. Short-cast spells can fire<$FFFC>right away.<$FFFE>
-32	Still, he is late. He should be<$FFFC>here by now.<$FFFE>
+28	If <$FFF4>casting time <$FFF3>fits within <$FFF4>action<$FFFC>points<$FFF3>, the spell fires at once.<$FFFD>If not, it waits until the next action,<$FFFC>right？<$FFFE>
+29	Exactly. A short-cast spell can be used<$FFFC>right away.<$FFFE>
+30	For beast magic, if <$FFF4>action points exceed<$FFFC>casting time<$FFF3>, it fires at once.<$FFFD>If not, it waits until the next command.<$FFFE>
+31	I see. Short-cast spells can fire right<$FFFC>away.<$FFFE>
+32	Still, he is late. He should be here by<$FFFC>now.<$FFFE>
 33	Please wait for me！<$FFFE>
-34	Honestly, what a slug. If we<$FFFC>dawdle, Caconsis will find the<$FFFC>lab！<$FFFE>
+34	Honestly, what a slug. If we dawdle,<$FFFC>Caconsis will find the lab！<$FFFE>
 35	I'm sorry…<$FFFE>
-36	She's right. We should hurry as<$FFFC>much as we can.<$FFFE>
+36	She's right. We should hurry as much as we<$FFFC>can.<$FFFE>
 37	What will you do？<$FFFE>
 38	・Worry about Alfred<$FFFE>
 39	・Scold Alfred<$FFFE>
 40	・Hurry onward<$FFFE>
-41	Are you all right, Alfred？ Want<$FFFC>to rest？<$FFFE>
-42	I, I'm fine. I cannot slow<$FFFC>everyone down.<$FFFE>
-43	Come on, Alfred！ Every moment<$FFFC>counts right now！<$FFFE>
-44	You don't need to get that angry,<$FFFC>do you？<$FFFE>
+41	Are you all right, Alfred？ Want to rest？<$FFFE>
+42	I, I'm fine. I cannot slow everyone down.<$FFFE>
+43	Come on, Alfred！ Every moment counts<$FFFC>right now！<$FFFE>
+44	You don't need to get that angry, do you？<$FFFE>
 45	But…<$FFFE>
-46	I'm sorry. I will not slow you<$FFFC>down again<$FFF8>…<$FFFE>
+46	I'm sorry. I will not slow you down<$FFFC>again<$FFF8>…<$FFFE>
 47	Good. Let's hurry on！<$FFFE>
 48	<$FFF8>…<$FE14>…<$FE14><$FFF7><$FB00><$0003>Ah<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 49	<$FB00><$0004>What's wrong, Lambda？<$FFFE>
 50	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$0005>This tree<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-51	<$FB00><$0006>I feel like I've seen this<$FFFC>tree somewhere.<$FFFE>
-52	<$FB00><$0007>I've never seen it. What<$FFFC>about this tree？<$FFFE>
-53	<$FB00><$0008>Just now, this tree called<$FFFC>me to stop.<$FFFE>
-54	<$FB00><$0009>Come on, trees can't<$FFFC>talk.<$FFFE>
-55	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$000A>This tree<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000B>A World<$FFFC>Tree？<$FFFE>
-56	<$FB00><$000C>World Tree？ <$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000D>What's<$FFFC>that？<$FFFE>
-57	<$FB00><$000E>The World Tree is like<$FFFC>the king of all plants.<$FFFE>
+51	<$FB00><$0006>I feel like I've seen this tree<$FFFC>somewhere.<$FFFE>
+52	<$FB00><$0007>I've never seen it. What about<$FFFC>this tree？<$FFFE>
+53	<$FB00><$0008>Just now, this tree called me to<$FFFC>stop.<$FFFE>
+54	<$FB00><$0009>Come on, trees can't talk.<$FFFE>
+55	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$000A>This tree<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000B>A World Tree？<$FFFE>
+56	<$FB00><$000C>World Tree？ <$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000D>What's that？<$FFFE>
+57	<$FB00><$000E>The World Tree is like the king<$FFFC>of all plants.<$FFFE>
 58	<$FB00><$000F>King of plants？<$FFFE>
-59	<$FB00><$0010>In human terms. It is so<$FFFC>holy that people call it the mother<$FFFC>of all plants.<$FFFD><$FB00><$0011>But why would one be here<$FFF5><$FFF8>…？<$FFFE>
+59	<$FB00><$0010>In human terms. It is so holy<$FFFC>that people call it the mother of all<$FFFC>plants.<$FFFD><$FB00><$0011>But why would one be here<$FFF5><$FFF8>…？<$FFFE>
 60	<$FFF7><$FB00><$0012>Wow<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$0013>So it's that rare？<$FFFE>
-61	<$FB00><$0014>A World Tree has three<$FFFC>names. Up to 50 years it's<$FFFC>Silverleaf, then Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a<$FFFC>World Tree.<$FFFE>
-62	<$FB00><$0016>I remember. It's the tree<$FFFC>from the lab where we woke up.<$FFFE>
-63	<$FFFA><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0017>Somehow, it feels<$FFFC>nostalgic. Like someone is gently<$FFFC>holding me <$FFF5><$FFF8>…<$FFFE>
-64	<$FB00><$0018>It did seem to protect us<$FFFC>back then.<$FFFE>
-65	<$FFF8>…<$FFF6><$FB00><$0019>What？ <$FFF5><$FFF8><$FFFB>…<$FE32>…<$FE32><$FFF6><$FB00><$001A>What is<$FFFC>happening <$FFF5><$FFF8>…？<$FFFE>
+61	<$FB00><$0014>A World Tree has three names. Up<$FFFC>to 50 years it's Silverleaf, then Golden<$FFFC>Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a World Tree.<$FFFE>
+62	<$FB00><$0016>I remember. It's the tree from<$FFFC>the lab where we woke up.<$FFFE>
+63	<$FFFA><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0017>Somehow, it feels nostalgic.<$FFFC>Like someone is gently holding me <$FFF5><$FFF8>…<$FFFE>
+64	<$FB00><$0018>It did seem to protect us back<$FFFC>then.<$FFFE>
+65	<$FFF8>…<$FFF6><$FB00><$0019>What？ <$FFF5><$FFF8><$FFFB>…<$FE32>…<$FE32><$FFF6><$FB00><$001A>What is happening<$FFFC><$FFF5><$FFF8>…？<$FFFE>
 66	<$FB00><$001B>What's wrong, Lambda？<$FFFE>
 67	<$FFFA><$FFF8>…<$FFF6><$FB00><$001C>I understand. We'll be<$FFFC>careful, so don't worry<$FFF5><$FFF8>…<$FFFE>
 68	<$FB00><$001D>What happened, Miss Lambda？<$FFFE>
 69	<$FFFA><$FB00><$001E>A calamity<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FFF9><$FB00><$001F>It told me a<$FFFC>terrible calamity will happen.<$FFFE>
-70	<$FB00><$0020>It told you, the World<$FFFC>Tree？<$FFFE>
-71	<$FB00><$0021>You don't have to believe<$FFFC>me.<$FFFE>
+70	<$FB00><$0020>It told you, the World Tree？<$FFFE>
+71	<$FB00><$0021>You don't have to believe me.<$FFFE>
 72	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
 73	・I believe you<$FFFE>
 74	・Trees can't talk<$FFFE>
 75	・What calamity？<$FFFE>
-76	<$FB00><$0022>No, I believe you.<$FFFC>Because of what happened then.<$FFFE>
+76	<$FB00><$0022>No, I believe you. Because of<$FFFC>what happened then.<$FFFE>
 77	<$FFF8>…<$FFF6><$FB00><$0023>Yes. You saw it.<$FFFE>
-78	<$FB00><$0024>Hard to believe a tree<$FFFC>can talk.<$FFFE>
-79	<$FB00><$0025>Plants have feelings too. I<$FFFC>can sense them, that's all.<$FFFE>
-80	<$FB00><$0026>What calamity？ What is<$FFFC>going to happen？<$FFFE>
-81	<$FB00><$0027>I don't know that much.<$FFFC>I only read the tree's feelings.<$FFFE>
-82	<$FB00><$0028>If it is a World Tree,<$FFFC>I can believe it.<$FFFE>
-83	<$FB00><$0029>The World Tree is<$FFFC>mysterious<$FFF5><$FFF8>…<$FFFE>
-84	<$FB00><$002A>But what calamity could it<$FFFC>mean<$FFF5><$FFF8>… <$FE14><$FE14>…<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about<$FFFC>it now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come on,<$FFFC>Lambda.<$FFFE>
+78	<$FB00><$0024>Hard to believe a tree can talk.<$FFFE>
+79	<$FB00><$0025>Plants have feelings too. I can<$FFFC>sense them, that's all.<$FFFE>
+80	<$FB00><$0026>What calamity？ What is going to<$FFFC>happen？<$FFFE>
+81	<$FB00><$0027>I don't know that much. I only<$FFFC>read the tree's feelings.<$FFFE>
+82	<$FB00><$0028>If it is a World Tree, I can<$FFFC>believe it.<$FFFE>
+83	<$FB00><$0029>The World Tree is mysterious<$FFF5><$FFF8>…<$FFFE>
+84	<$FB00><$002A>But what calamity could it<$FFFC>mean<$FFF5><$FFF8>… <$FE14><$FE14>…<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about it<$FFFC>now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come on, Lambda.<$FFFE>
 85	<$FFF7><$FB00><$002D>Yes<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 86	<$FFF8>…<$FFF6><$FB00><$002E>Thank you.<$FFFE>
-87	<$0000>After Gizarof's death,<$FFFC><$F600><$0000> and Lambda had lost<$FFFC>their purpose. Seeking answers, they<$FFFC>went to his lab.<$FFFD><$0000>In the valley, Federation troops<$FFFC>hunted his remnants…<$FFFE>
+87	<$0000>After Gizarof's death, <$F600><$0000><$FFFC>and Lambda had lost their purpose. Seeking<$FFFC>answers, they went to his lab.<$FFFD><$0000>In the valley, Federation troops hunted<$FFFC>his remnants…<$FFFE>
 88	Victory<$FFFC><$0000><$FFFC>・All allies cross the bridge<$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

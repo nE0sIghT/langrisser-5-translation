@@ -13,27 +13,27 @@
 11	・Defeat all enemies<$FFFE>
 12	・<$F600><$0000> dies<$FFFE>
 13	Kalxath Headquarters<$FFFF>
-14	<$FB00><$0020>What？ The flyers were<$FFFC>wiped out？<$FFFE>
-15	<$FB00><$0021>Yes. Princess Clarett's<$FFFC>unit used an ancient weapon to<$FFFC>destroy the flyers overhead.<$FFFE>
-16	<$FB00><$002D>Then our surveillance from<$FFFC>the sky is<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0022>Impossible now. And<$FFFC>messages to each unit are delayed.<$FFFE>
-18	<$FB00><$0023>Damn it！<$FFFD><$FB00><$0024>Fine. Send riders to each unit.<$FFFC>Salrath is nearly crushed. Move！<$FFFE>
-19	<$FB00><$0025>Yes sir. I will send<$FFFC>the riders at once.<$FFFE>
+14	<$FB00><$0020>What？ The flyers were wiped<$FFFC>out？<$FFFE>
+15	<$FB00><$0021>Yes. Princess Clarett's unit<$FFFC>used an ancient weapon to destroy the<$FFFC>flyers overhead.<$FFFE>
+16	<$FB00><$002D>Then our surveillance from the<$FFFC>sky is<$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$0022>Impossible now. And messages<$FFFC>to each unit are delayed.<$FFFE>
+18	<$FB00><$0023>Damn it！<$FFFD><$FB00><$0024>Fine. Send riders to each unit. Salrath is<$FFFC>nearly crushed. Move！<$FFFE>
+19	<$FB00><$0025>Yes sir. I will send the<$FFFC>riders at once.<$FFFE>
 20	<$FB00><$0026>Good.<$FFFE>
-21	<$FB00><$0027>Riders, deliver messages<$FFFC>to every unit！<$FFFE>
+21	<$FB00><$0027>Riders, deliver messages to<$FFFC>every unit！<$FFFE>
 22	<$FB00><$0028>Understood！<$FFFE>
 23	<$FB00><$0029>Leave it to us！<$FFFE>
-24	<$FB00><$002A>I am counting on you.<$FFFC>Failure now would make us a<$FFFC>laughingstock.<$FFFE>
+24	<$FB00><$002A>I am counting on you. Failure<$FFFC>now would make us a laughingstock.<$FFFE>
 25	<$FB00><$002B>Looks like the messengers<$FFFC>left.<$FFFE>
-26	<$FB00><$002C>With their force reduced,<$FFFC>now is our chance to strike HQ.<$FFFC>Finish this at once！<$FFFE>
+26	<$FB00><$002C>With their force reduced, now<$FFFC>is our chance to strike HQ. Finish this<$FFFC>at once！<$FFFE>
 27	<$FB00><$009F>Excellency！ Enemy in the<$FFFC>rear！<$FFFE>
-28	<$FB00><$002E>When did they<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>Grr, do not panic！ This fortress<$FFFC>will not fall quickly！ Hold out<$FFFC>until the cavalry returns！<$FFFE>
+28	<$FB00><$002E>When did they<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>Grr, do not panic！ This fortress will not<$FFFC>fall quickly！ Hold out until the cavalry<$FFFC>returns！<$FFFE>
 29	<$FB00><$0030>If the cavalry messengers<$FFFC>return, it will be trouble.<$FFFE>
 30	<$FB00><$0031>I know.<$FFFE>
-31	<$FB00><$0032>The cavalry messengers<$FFFC>will be trouble if they return<$FFF5><$FFF8>…<$FFFE>
-32	I cannot escape while the<$FFFC>commander remains.<$FFFE>
+31	<$FB00><$0032>The cavalry messengers will be<$FFFC>trouble if they return<$FFF5><$FFF8>…<$FFFE>
+32	I cannot escape while the commander<$FFFC>remains.<$FFFE>
 33	Escape？<$FFFE>
-34	<$FFF7><$FB00><$0055>Whew<$FFF5><$FFF8>… <$FFF6><$FB00><$0056>Looks like it is<$FFFC>over.<$FFFE>
+34	<$FFF7><$FB00><$0055>Whew<$FFF5><$FFF8>… <$FFF6><$FB00><$0056>Looks like it is over.<$FFFE>
 35	Send ahead？<$FFFE>
 36	<$FB00><$0043>I will go ahead. You be<$FFFC>careful.<$FFFE>
 37	<$FFF7><$FB00><$0044>Right.<$FFF5><$FFF8><$FFFE>
@@ -42,33 +42,33 @@
 40	<$FB00><$0046>Go ahead, Alfred.<$FFFE>
 41	<$FB00><$0047>Y-yes.<$FFFE>
 42	Send ahead？<$FFFE>
-43	<$FB00><$0048>Safe enough here. You<$FFFC>hurry too！<$FFFE>
+43	<$FB00><$0048>Safe enough here. You hurry<$FFFC>too！<$FFFE>
 44	<$FB00><$0049>I know.<$FFFE>
 45	Send ahead？<$FFFE>
-46	<$FB00><$004A>I will go ahead, but do<$FFFC>not overdo it！<$FFFE>
+46	<$FB00><$004A>I will go ahead, but do not<$FFFC>overdo it！<$FFFE>
 47	<$FB00><$004B>Do not worry.<$FFFE>
-48	The top of a black stone coffin<$FFFC>shows above the water. The wall<$FFFC>inscription reads this.<$FFFD><$FFF4>Here I seal my flesh, and my soul<$FFFC>seeks eternal battle. Do not<$FFFC>disturb my body's sleep.<$FFF3><$FFFD>What will you do？<$FFFE>
+48	The top of a black stone coffin shows<$FFFC>above the water. The wall inscription<$FFFC>reads this.<$FFFD><$FFF4>Here I seal my flesh, and my soul seeks<$FFFC>eternal battle. Do not disturb my body's<$FFFC>sleep.<$FFF3><$FFFD>What will you do？<$FFFE>
 49	・Open the coffin<$FFFE>
 50	・Call out<$FFFE>
 51	・Leave quietly<$FFFE>
-52	When the coffin is opened, the<$FFFC>body inside crumbles to dust…<$FFFE>
-53	When you call loudly, a spirit<$FFFC>appears from within.<$FFFD>Why do you disturb my sleep？<$FFFE>
+52	When the coffin is opened, the body inside<$FFFC>crumbles to dust…<$FFFE>
+53	When you call loudly, a spirit appears<$FFFC>from within.<$FFFD>Why do you disturb my sleep？<$FFFE>
 54	・Fight<$FFFE>
 55	・Talk<$FFFE>
 56	・Do nothing<$FFFE>
-57	You would fight me？ Hmph… I<$FFFC>like it. With you, I may enjoy<$FFFC>many more days of battle.<$FFFD><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be<$FFFC>hired！<$FFFE>
-58	I have no time for your foolish<$FFFC>talk. Leave this place！<$FFFE>
+57	You would fight me？ Hmph… I like it. With<$FFFC>you, I may enjoy many more days of battle.<$FFFD><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be hired！<$FFFE>
+58	I have no time for your foolish talk.<$FFFC>Leave this place！<$FFFE>
 59	Begone if you have no business！<$FFFE>
-60	A relief engraved with a crest is<$FFFC>embedded here.<$FFFE>
-61	About one quarter of the crested<$FFFC>relief juts out from the wall.<$FFFE>
-62	About half of the crested relief<$FFFC>juts out from the wall.<$FFFE>
-63	About three quarters of the<$FFFC>crested relief juts out from the<$FFFC>wall.<$FFFE>
-64	The crested relief juts out from<$FFFC>the wall. What will you do？<$FFFE>
+60	A relief engraved with a crest is embedded<$FFFC>here.<$FFFE>
+61	About one quarter of the crested relief<$FFFC>juts out from the wall.<$FFFE>
+62	About half of the crested relief juts out<$FFFC>from the wall.<$FFFE>
+63	About three quarters of the crested relief<$FFFC>juts out from the wall.<$FFFE>
+64	The crested relief juts out from the wall.<$FFFC>What will you do？<$FFFE>
 65	・Press it<$FFFE>
 66	・Slide it sideways<$FFFE>
 67	・Break it<$FFFE>
-68	You press it into the wall, and<$FFFC>it clicks.<$FFFE>
-69	Sliding it aside reveals a small<$FFFC>box behind the relief. Inside is<$FFFC>a <$FFF4>karaoke pass for 5, 30 free<$FFFC>minutes<$FFF3>.<$FFFD><$0000> <$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
+68	You press it into the wall, and it clicks.<$FFFE>
+69	Sliding it aside reveals a small box<$FFFC>behind the relief. Inside is a <$FFF4>karaoke<$FFFC>pass for 5, 30 free minutes<$FFF3>.<$FFFD><$0000> <$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
 70	The relief crumbles with a rattle.<$FFFE>
 71	<$FB00><$002B>Take this！<$FFFE>
 72	<$FB00><$002C>Take this！<$FFFE>
@@ -76,28 +76,28 @@
 74	<$FB00><$0037>Don't get in my way<$FFF5><$FFF8>…<$FFFE>
 75	<$FB00><$0034>Here I come<$FFF5><$FFF8>…<$FFFE>
 76	<$FB00><$003D>Ugh…not…yet…<$FFFE>
-77	<$FB00><$003E>Don't overdo it, Lambda！<$FFFC>Fall back！<$FFFE>
+77	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
 78	<$FB00><$003F>…All right…<$FFFE>
 79	<$FB00><$0075>I can fight too！<$FFFE>
 80	<$FB00><$0076>I won't lose！<$FFFE>
 81	<$FB00><$0078>Am I not good enough…<$FFFE>
-82	<$FB00><$0079>Leave the rest to us,<$FFFC>Alfred！<$FFFE>
-83	<$FB00><$007A>Sorry…I'll take you up<$FFFC>on that…<$FFFE>
+82	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
+83	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
 84	<$FB00><$0068>Come and get me！<$FFFE>
 85	<$FB00><$0063>Try this one！<$FFFE>
 86	<$FB00><$0070>This is getting dicey…<$FFFE>
-87	<$FB00><$0071>Fall back, Brenda！ Leave<$FFFC>the rest to me！<$FFFE>
-88	<$FB00><$0072>Sorry…I'll take you up<$FFFC>on that…<$FFFE>
+87	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
+88	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
 89	<$FB00><$0052>I can't lose！<$FFFE>
 90	<$FB00><$0055>Forgive me！<$FFFE>
 91	<$FB00><$005C>Ow！ You dare！<$FFFE>
 92	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
 93	<$FB00><$005E>B-but…<$FFFE>
 94	<$FB00><$005F>Just fall back！<$FFFE>
-95	<$FB00><$0060>Sorry, at such an<$FFFC>important time…<$FFFE>
+95	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
 96	…U… uugh…<$FFFE>
-97	W-why… No one should be able to<$FFFC>defeat me…<$FFFE>
-98	Aah！<$FFFD>…I'm sorry, Roberto… I think…<$FFFC>I am done…<$FFFE>
+97	W-why… No one should be able to defeat<$FFFC>me…<$FFFE>
+98	Aah！<$FFFD>…I'm sorry, Roberto… I think… I am<$FFFC>done…<$FFFE>
 99	C-Carna！ …You bastard！<$FFFE>
 100	Sorry… Carna…<$FFFE>
 101	No… No！ Roberto！<$FFFE>
@@ -107,34 +107,34 @@
 105	Not even a scratch…<$FFFE>
 106	Uooooh！<$FFFE>
 107	…My… strength… guh！<$FFFE>
-108	Why…！？ The proud Kalxath flying<$FFFC>corps… <$FFFB>Damn！<$FFFE>
-109	<$FFF7><$FB00><$0055>Whew<$FFF5><$FFF8>… <$FFF6><$FB00><$0056>Looks like it is<$FFFC>over.<$FFFE>
-110	<$FB00><$0057>Honestly, I did not<$FFFC>think we could defeat them all.<$FFFE>
-111	<$FB00><$0058>Then hurry back to the<$FFFC>flying ship.<$FFFE>
-112	<$FB00><$0059>Now we use the flying<$FFFC>ship from above to help Salrath<$FFFC>escape！<$FFFE>
-113	Damn！ They struck when we were<$FFFC>thin…<$FFFE>
-114	All units, attack！ Do not let<$FFFC>them into the fort！<$FFFE>
+108	Why…！？ The proud Kalxath flying corps…<$FFFC><$FFFB>Damn！<$FFFE>
+109	<$FFF7><$FB00><$0055>Whew<$FFF5><$FFF8>… <$FFF6><$FB00><$0056>Looks like it is over.<$FFFE>
+110	<$FB00><$0057>Honestly, I did not think we<$FFFC>could defeat them all.<$FFFE>
+111	<$FB00><$0058>Then hurry back to the flying<$FFFC>ship.<$FFFE>
+112	<$FB00><$0059>Now we use the flying ship<$FFFC>from above to help Salrath escape！<$FFFE>
+113	Damn！ They struck when we were thin…<$FFFE>
+114	All units, attack！ Do not let them into<$FFFC>the fort！<$FFFE>
 115	Yes sir！<$FFFE>
-116	Now we just endure until the<$FFFC>messengers return.<$FFFE>
-117	Looks like we can only endure<$FFFC>until the messengers return.<$FFFE>
-118	<$FFF7><$FB00><$0035>Yes sir！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0036>What is<$FFFC>this？<$FFFE>
-119	<$FB00><$0037>How dare you while we<$FFFC>were away！<$FFFE>
+116	Now we just endure until the messengers<$FFFC>return.<$FFFE>
+117	Looks like we can only endure until the<$FFFC>messengers return.<$FFFE>
+118	<$FFF7><$FB00><$0035>Yes sir！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0036>What is this？<$FFFE>
+119	<$FB00><$0037>How dare you while we were<$FFFC>away！<$FFFE>
 120	<$FB00><$0038>The messengers are back！<$FFFE>
 121	<$FB00><$0039>What now？<$FFFE>
-122	<$FB00><$003A>The Kalxath commander is<$FFFC>down. Our goal is met, so avoid<$FFFC>needless fighting<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003B>Everyone, retreat！ Regroup at the<$FFFC>ship！<$FFFE>
+122	<$FB00><$003A>The Kalxath commander is down.<$FFFC>Our goal is met, so avoid needless<$FFFC>fighting<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003B>Everyone, retreat！ Regroup at the ship！<$FFFE>
 123	<$FB00><$003C>Y-yes！<$FFFE>
 124	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Allies escape to map edge<$FFFC>・Defeat all enemies<$FFFE>
 125	・Allies escape to map edge<$FFFC>・Defeat all enemies<$FFFE>
-126	<$FB00><$003D>Ha ha ha！ With the<$FFFC>cavalry back, you have no chance！<$FFFE>
-127	<$FB00><$003E>Our goal is command<$FFFC>confusion. First defeat the<$FFFC>commander, then everyone escapes！<$FFFE>
+126	<$FB00><$003D>Ha ha ha！ With the cavalry<$FFFC>back, you have no chance！<$FFFE>
+127	<$FB00><$003E>Our goal is command confusion.<$FFFC>First defeat the commander, then everyone<$FFFC>escapes！<$FFFE>
 128	<$FB00><$003F>Understood！<$FFFE>
 129	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Defeat commander, escape to map edge<$FFFC>・Defeat all enemies<$FFFE>
 130	・Defeat commander, escape to map edge<$FFFC>・Defeat all enemies<$FFFE>
-131	<$FB00><$0052>Good. Everyone seems to<$FFFC>have escaped.<$FFFE>
-132	<$FB00><$0053>Good. Everyone seems to<$FFFC>be out already.<$FFFE>
-133	I cannot escape while the<$FFFC>commander remains.<$FFFE>
+131	<$FB00><$0052>Good. Everyone seems to have<$FFFC>escaped.<$FFFE>
+132	<$FB00><$0053>Good. Everyone seems to be out<$FFFC>already.<$FFFE>
+133	I cannot escape while the commander<$FFFC>remains.<$FFFE>
 134	<$FB00><$008B>Only me left.<$FFFE>
-135	<$FB00><$004C>Everyone, hurry and<$FFFC>escape！ I will stay to the end！<$FFFE>
+135	<$FB00><$004C>Everyone, hurry and escape！ I<$FFFC>will stay to the end！<$FFFE>
 136	<$FB00><$004D>But<$FFF5><$FFF8>…<$FFFE>
 137	<$FB00><$0050>Yes！ Then<$FFF5><$FFF8>…<$FFFE>
 138	<$FB00><$004F>But you<$FFF5><$FFF8>…<$FFFE>
@@ -143,9 +143,9 @@
 141	<$FB00><$004D>But<$FFF5><$FFF8>…<$FFFE>
 142	<$FB00><$004F>But you<$FFF5><$FFF8>…<$FFFE>
 143	<$FB00><$004E>B-but<$FFF5><$FFF8>…<$FFFE>
-144	<$FB00><$0051>It is all right. Once I<$FFFC>confirm everyone is safe, I will<$FFFC>escape too！<$FFFE>
+144	<$FB00><$0051>It is all right. Once I<$FFFC>confirm everyone is safe, I will escape<$FFFC>too！<$FFFE>
 145	Everyone, hurry and escape！<$FFFE>
-146	<$FB00><$0059>Now we use the flying<$FFFC>ship from above to help Salrath<$FFFC>escape！<$FFFE>
-147	<$FB00><$0040>Found you！ I will<$FFFC>avenge my men！<$FFFE>
+146	<$FB00><$0059>Now we use the flying ship<$FFFC>from above to help Salrath escape！<$FFFE>
+147	<$FB00><$0040>Found you！ I will avenge my<$FFFC>men！<$FFFE>
 148	<$FB00><$0041>Cavalry, then flyers<$FFF5><$FFF8>… <$FFF6><$FB00><$0042>This<$FFFC>will be rough.<$FFFE>
-149	Step on the floor relief and it<$FFFC>sinks. A distant click sounds.<$FFFE><$FFFF>
+149	Step on the floor relief and it sinks. A<$FFFC>distant click sounds.<$FFFE><$FFFF>
