@@ -17,9 +17,9 @@
 15	<$FB00><$008C>Landius of the Caconsis<$FFFC>Kingdom<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE28> <$FFF6><$FB00><$008D>Could you be the<$FFFC>one my brother mentioned<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 16	<$FB00><$008E>Your brother？<$FFFE>
 17	<$FB00><$008F>Now that you mention<$FFFC>it, you said your brother fought<$FFFC>in Caconsis.<$FFFE>
-18	<$FB00><$0090>A man named McLain. Do<$FFFC>you know him？<$FFFE>
+18	<$FB00><$0090>A man named McClaine.<$FFFC>Do you know him？<$FFFE>
 19	<$FB00><$0091>Know him？ He fought at<$FFFC>our side as a comrade.<$FFFE>
-20	<$FB00><$0092>McLain's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I<$FFFC>see, so you're Marie. I'm glad<$FFFC>you're safe. Have you met McLain<$FFFC>yet？<$FFFE>
+20	<$FB00><$0092>McClaine's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I<$FFFC>see, so you're Marie. I'm glad<$FFFC>you're safe. Have you met McClaine<$FFFC>yet？<$FFFE>
 21	<$FB00><$0094>Yes. He's on the El<$FFFC>Sallia continent now, but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 22	<$FB00><$0095>El Sallia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0096>Ah, he<$FFFC>went after Jessica<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 23	<$FB00><$0097>In any case, his kin<$FFFC>is safe. He'll be glad of it.<$FFFE>

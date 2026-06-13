@@ -8,7 +8,7 @@
 6	Lanford<$FFFF>
 7	Lainforce<$FFFF>
 8	Mother<$FFFF>
-9	McLain<$FFFF>
+9	McClaine<$FFFF>
 10	Virash<$FFFF>
 11	Zero<$FFFF>
 12	Marie Praying to the World Tree<$FFFF>
@@ -18,7 +18,7 @@
 16	<$FB00><$0009>But we cannot simply<$FFFC>stand by and watch your rule.<$FFFE>
 17	<$FB00><$000A>I know that. The strong<$FFFC>ruling is nature's law. Were we<$FFFC>without power, it would be wholly<$FFFC>impossible.<$FFFD><$FB00><$000B>For now, enjoy this long-awaited<$FFFC>reunion. Then leave this city.<$FFFC>Until then I'll not lay a hand<$FFFC>on you.<$FFFE>
 18	<$FB00><$000C>Mother！<$FFFE>
-19	<$FB00><$000D>Oh, Marie<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000E>McLain<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$000F>I'd given you up for dead<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FB00><$000D>Oh, Marie<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000E>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$000F>I'd given you up for dead<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$0010>Sorry, mother, for<$FFFC>worrying you. Gizarof captured<$FFFC>us<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 21	<$FB00><$0011>So that's what happened.<$FFFC>But I'm glad you're both safe<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 22	<$FB00><$0012>M, mother<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0013>I wanted<$FFFC>to come back sooner, but in this<$FFFC>body<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>

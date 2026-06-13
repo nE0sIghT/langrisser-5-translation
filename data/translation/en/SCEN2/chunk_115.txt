@@ -7,7 +7,7 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Town<$FFFF>
-8	McLain<$FFFF>
+8	McClaine<$FFFF>
 9	Near the City of Valtar<$FFFF>
 10	<$FB00><$00C4>Thank you. You saved<$FFFC>us.<$FFFE>
 11	<$FB00><$00C5>I want to ask, do you<$FFFC>know where the folk who took<$FFFC>shelter from the town of Poria<$FFFC>are？<$FFFE>

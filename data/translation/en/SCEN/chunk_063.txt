@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	McLain<$FFFF>
+7	McClaine<$FFFF>
 8	Jessica<$FFFF>
 9	Lambda<$FFFF>
 10	Grunt<$FFFF>

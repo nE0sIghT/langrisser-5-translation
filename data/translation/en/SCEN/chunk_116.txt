@@ -7,14 +7,14 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Lainforce<$FFFF>
-8	McLain<$FFFF>
+8	McClaine<$FFFF>
 9	Mother<$FFFF>
 10	Valtar City, Underground Dock<$FFFF>
 11	<$FB00><$006B>Where's gone the bravado<$FFFC>you had just now？<$FFFE>
 12	<$FB00><$006C>That's filthy, Lainforce！<$FFFC>Using hostages<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	<$FB00><$006D>How is it filthy.<$FFFC>Without spending soldiers or spilling<$FFFC>blood, I can capture you.<$FFF5> <$FB00><$006E>Is<$FFFC>there a cleaner plan than this？<$FFFE>
 14	<$FFFA><$FFF8><$FB00><$006F>…Kh….<$FFFE>
-15	<$FB00><$0070>Hah, McLain！<$FFFE>
+15	<$FB00><$0070>Hah, McClaine！<$FFFE>
 16	<$FB00><$0071>Brother！<$FFFE>
 17	<$FB00><$0072>Ho. So you're brother<$FFFC>and sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 18	<$FB00><$0073>Taking hostages<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0074>how low<$FFFC>can you sink！<$FFFE>
@@ -22,7 +22,7 @@
 20	<$FB00><$0077>M… mother<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
 21	<$FB00><$0078>That's how it is,<$FFFC>Marie<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E> <$FFF6><$FB00><$0079>Like this, we can't<$FFFC>lift a finger<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 22	<$FB00><$007A>Omega's report told me<$FFFC>she's from Poria. So I took her<$FFFC>into custody.<$FFFE>
-23	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>Forgive me, Mariandel.<$FFFC>McLain<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>Forgive me, Mariandel.<$FFFC>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 24	<$FB00><$007C>Now, the touching reunion<$FFFC>ends here.<$FFF5><$FFFB> <$FB00><$007D>I too dislike<$FFFC>pointless killing. Let's make a<$FFFC>deal.<$FFFE>
 25	<$FB00><$007E>A deal？<$FFF5><$FFFB> <$FB00><$007F>And if we<$FFFC>agree, you'll free the hostage？<$FFFE>
 26	<$FB00><$0080>Just so. Not only the<$FFFC>hostage, I'll spare you as well.<$FFF5><$FFFB><$FFFC><$FB00><$0081>Well？<$FFFE>

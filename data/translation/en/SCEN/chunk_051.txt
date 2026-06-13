@@ -9,7 +9,7 @@
 7	Gizarof<$FFFF>
 8	Landius<$FFFF>
 9	Lanford<$FFFF>
-10	McLain<$FFFF>
+10	McClaine<$FFFF>
 11	At the Dark Altar<$FFFF>
 12	<$FB00><$0003>This is the place？ No<$FFFC>one is here.<$FFFE>
 13	<$FB00><$0004>Strong magic lingers here.<$FFFE>

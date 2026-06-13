@@ -7,7 +7,7 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Jessica<$FFFF>
-8	McLain<$FFFF>
+8	McClaine<$FFFF>
 9	Fizzit Port, After the Battle<$FFFF>
 10	<$FB00><$0072>I have something to ask<$FFFC>you.<$FFFE>
 11	<$FB00><$0073>What is it？<$FFFE>
@@ -62,7 +62,7 @@
 60	<$FFF8>…<$FFFE>
 61	<$FB00><$00AD>It can't<$FFFC>be<$FFF5>…<$FE28>…<$FE28><$FB00><$00AE>Mariandel<$FFF5>…<$FE28>…<$FE28><$FB00><$00AF>Marie？<$FFFE>
 62	<$FFF8>…<$FB00><$00B0>Who？<$FFFD><$FB00><$00B1>I'm… Lambda<$FFF5><$FFF8>…<$FFFE>
-63	<$FB00><$00B2>Don't you remember me,<$FFFC>Marie！ I'm McLain, your brother！<$FFFE>
+63	<$FB00><$00B2>Don't you remember me,<$FFFC>Marie！ I'm McClaine, your<$FFFC>brother！<$FFFE>
 64	<$FFF7><$FB00><$00B3>Wha<$FFF5>…,<$FFF6><$FB00><$00B4>I<$FFF5><$FFF8>…！<$FFFE>
 65	<$FB00><$00B5>Your hair changed, but<$FFFC>there's no mistake.<$FFFE>
 66	<$FB00><$00B6>Hold on. Why do you say<$FFFC>Lambda is your sister？<$FFFE>
@@ -91,7 +91,7 @@
 89	<$FB00><$00D0>I'm counting on you.<$FFFE>
 90	<$FFF8><$FB00><$00D1>Hmm<$FFF5>…<$FFFE>
 91	<$FB00><$00D2>All right. Wait here for<$FFFC>us.<$FFFE>
-92	<$FB00><$00E7>You, uh, McLain, was it？<$FFFE>
+92	<$FB00><$00E7>You, uh, McClaine, was<$FFFC>it？<$FFFE>
 93	<$FB00><$00E8>What？<$FFFE>
 94	<$FB00><$00E9>Do you know about that<$FFFC>sword？<$FFFE>
 95	<$FB00><$00EA>Yeah. We used Langrisser to<$FFFC>defeat Gizarof.<$FFFD><$FB00><$00EB>That sword can seal demons.<$FFFC>Alhazard, the sword demons use,<$FFFC>holds dark power instead.<$FFFE>
@@ -102,7 +102,7 @@
 100	<$FB00><$00EF>What！？ Alhazard is in demon<$FFFC>hands？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00F0>Damn！ If I'd been here, that<$FFFC>never would have happened！<$FFFE>
 101	<$FB00><$00F1>Good, you're back.<$FFFD><$FB00><$00F2>We were just hearing about those<$FFFC>swords, and it sounds bad.<$FFFE>
 102	<$FB00><$00F3>Bad？<$FFFE>
-103	<$FB00><$00F4>According to McLain, one<$FFFC>sword holds dark power<$FFF5><$FFF8>…<$FFFE>
+103	<$FB00><$00F4>According to McClaine, one<$FFFC>sword holds dark power<$FFF5><$FFF8>…<$FFFE>
 104	<$FB00><$00F5>If that passed to the<$FFFC>demons, it's serious.<$FFFE>
 105	<$FB00><$010D>What's so bad？<$FFFE>
 106	<$FB00><$010F>He says the demons stole<$FFFC>a sword with dark power.<$FFFE>

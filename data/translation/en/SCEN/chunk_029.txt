@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	McLain<$FFFF>
+7	McClaine<$FFFF>
 8	Town<$FFFF>
 9	Omega<$FFFF>
 10	C.Knights 8<$FFFF>
@@ -20,7 +20,7 @@
 18	<$FB00><$0042>I'll save every one of<$FFFC>you！ Don't give up！<$FFFE>
 19	<$FB00><$0043>Y, yes！<$FFFE>
 20	<$FB00><$0044>Even so<$FFF5><$FFF8>…,<$FFF6><$FB00><$0045>against that<$FFFC>many enemies, can I save them<$FFFC>alone<$FFF5><$FFF8>….<$FFFE>
-21	<$FFF8><$FB00><$0046>Hm？<$FFF5> <$FFF6><$FB00><$0047>Is that… McLain？<$FFFE>
+21	<$FFF8><$FB00><$0046>Hm？<$FFF5> <$FFF6><$FB00><$0047>Is that… McClaine？<$FFFE>
 22	<$FB00><$0048>B, brother？ Why are<$FFFC>you here？<$FFFE>
 23	<$FB00><$004A>Lanford, and Marie<$FFFC>too！<$FFFE>
 24	<$FB00><$0049>Weren't you in El<$FFFC>Sallia<$FFF5><$FFF8>….<$FFFE>
@@ -151,7 +151,7 @@
 149	<$FB00><$006E>Got it, then I'll do<$FFFC>as I like！<$FFFE>
 150	<$FB00><$00B2>U, gh… I slipped<$FFFC>up！<$FFFE>
 151	<$FB00><$00B3>Brother！ Don't push<$FFFC>yourself！<$FFFE>
-152	<$FB00><$00B4>Fall back, McLain.<$FFFC>We'll manage the rest！<$FFFE>
+152	<$FB00><$00B4>Fall back, McClaine.<$FFFC>We'll manage the rest！<$FFFE>
 153	<$FB00><$00B5>Sorry about this….<$FFFE>
 154	…Gh… what strength….<$FFFE>
 155	Wh, what！？<$FFFE>

@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	McLain<$FFFF>
+7	McClaine<$FFFF>
 8	Jessica<$FFFF>
 9	Kalxath Castle Audience Hall<$FFFF>
 10	<$FB00><$0003>Hey, you made it back<$FFFC>too.<$FFFE>
@@ -33,7 +33,7 @@
 31	<$FB00><$001D>Understood. I will form<$FFFC>troops and strike Velzeria at once.<$FFFE>
 32	<$FB00><$001E>I will help, modest<$FFFC>though my aid may be.<$FFFE>
 33	<$FB00><$001F>I will help too. Use me<$FFFC>however you need.<$FFFE>
-34	<$FB00><$0020>Thank you, Jessica,<$FFFC>McLain.<$FFFD><$FB00><$0021>For this battle, I will name you<$FFFC>temporary commanders.<$FFFE>
+34	<$FB00><$0020>Thank you, Jessica,<$FFFC>McClaine.<$FFFD><$FB00><$0021>For this battle, I will name you<$FFFC>temporary commanders.<$FFFE>
 35	<$0000>Necro Glob's return forced<$FFFC>Clarett's group to purge the<$FFFC>demons.<$FFFD><$0000>In Velzeria lay stolen Langrisser<$FFFC>and Alhazard.<$FFFD><$0000>They marched with Kalxath troops,<$FFFC>but the rear supply convoy was<$FFFC>attacked.<$FFFD><$0000>Without supplies, they moved to<$FFFC>aid the convoy.<$FFFE>
 36	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 37	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

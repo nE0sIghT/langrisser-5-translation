@@ -6,7 +6,7 @@
 6	Lanford<$FFFF>
 7	Gilmore<$FFFF>
 8	Officer<$FFFF>
-9	McLain<$FFFF>
+9	McClaine<$FFFF>
 10	Jessica<$FFFF>
 11	・Defeat Gilmore<$FFFE>
 12	・<$F600><$0000> dies<$FFFE>

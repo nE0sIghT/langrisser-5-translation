@@ -13,7 +13,7 @@
 11	Aizer<$FFFF>
 12	Lainforce<$FFFF>
 13	Omega<$FFFF>
-14	McLain<$FFFF>
+14	McClaine<$FFFF>
 15	Federation Castle, Audience Hall<$FFFF>
 16	<$FB00><$0003>General Lanford, you have<$FFFC>done well ending Gizarof's rebellion.<$FFFE>
 17	<$FB00><$0004>I merely did my duty as<$FFFC>a Federation soldier.<$FFFD><$FB00><$0005>And we had help from Caconsis.<$FFFC>This was not my strength alone.<$FFFE>

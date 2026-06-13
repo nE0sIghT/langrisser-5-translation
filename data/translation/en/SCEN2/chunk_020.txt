@@ -100,7 +100,7 @@
 98	<$FB00><$0043>Save your thanks, or you<$FFFC>will run out later.<$FFFE>
 99	<$FB00><$0044>When Kalxath is at peace,<$FFFC>thank us all at once.<$FFFE>
 100	<$FB00><$0045>Still, I am happy you<$FFFC>all fight for this country. Thank<$FFFC>you.<$FFFE>
-101	<$FB00><$0046>Then hurry. McLain and<$FFFC>Jessica may already be fighting.<$FFFE>
+101	<$FB00><$0046>Then hurry. McClaine and<$FFFC>Jessica may already be fighting.<$FFFE>
 102	<$FB00><$0047>Right. We should hurry<$FFFC>too.<$FFFE>
 103	A huge shadow crossed the sky.<$FFFD>I am Snow Dragon. My children grew<$FFFC>strong thanks to you. I came to<$FFFC>repay you.<$FFFE>
 104	<$F600><$0000> can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>

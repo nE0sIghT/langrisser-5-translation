@@ -54,6 +54,6 @@
 52	<$FB00><$003F>Then go find it, quick！<$FFFC>Argue with me after that！<$FFFE>
 53	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF9><$FFF6><$FB00><$0040>Understood.<$FFFE>
 54	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0041>Honestly, that man's<$FFFC>grown so arrogant the moment Lord<$FFFC>Boser vanished<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-55	<$0000>Lambert told them Lainforce's aim,<$FFFC>then took his own life to break<$FFFC>the curse on his house.<$FFFD><$0000>The sky battleship Lainforce<$FFFC>seeks is buried in the city of<$FFFC>Valtar.<$FFFD><$0000>Rushing into the city, the<$FFFC>party found the Crimson Knights<$FFFC>led by Omega, and McLain standing<$FFFC>against them.<$FFFE>
+55	<$0000>Lambert told them Lainforce's aim,<$FFFC>then took his own life to break<$FFFC>the curse on his house.<$FFFD><$0000>The sky battleship Lainforce<$FFFC>seeks is buried in the city of<$FFFC>Valtar.<$FFFD><$0000>Rushing into the city, the<$FFFC>party found the Crimson Knights<$FFFC>led by Omega, and McClaine standing<$FFFC>against them.<$FFFE>
 56	Victory terms<$FFFC><$0000><$FFFC>・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Even one unit of citizens is killed<$FFFC>・<$F600><$0000> dies<$FFFE>
 57	Victory terms<$FFFC><$0000><$FFFC>・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・All citizens killed<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>
