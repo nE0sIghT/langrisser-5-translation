@@ -5,7 +5,8 @@ arbitrary (current work: English; Russian etc. is possible) — only the glyph
 set and per-language data files differ, see "Another language" below.
 
 Requirements: Python 3.10+, Pillow (`pip install pillow`), original BIN/CUE
-image in `iso/` (not in git).
+image in `iso/` (not in git). Release title-credit rendering uses the bundled
+`data/fonts/LiberationSansNarrow-Bold.ttf` font.
 
 ## How the game stores text
 
@@ -34,7 +35,7 @@ image in `iso/` (not in git).
 | --- | --- |
 | `data/font_mapping/groups_report.csv` | the font table: glyph index → character (JP original) |
 | `data/font_mapping/en_slot_assignments.csv` | which rare-kanji slots were given to new glyphs (letters, letter pairs, spacing pairs) |
-| `data/fonts/` | bitmap fonts used to render new glyphs (Spleen 6x12 BDF, PixelMplus TTF) |
+| `data/fonts/` | fonts used by the build: Spleen/PixelMplus for game glyphs, Liberation Sans Narrow Bold for title credits |
 | `data/translation/en/SCEN/chunk_NNN.txt` | translated chunks (the build input) |
 | `data/translation/names_base.csv` | item/class/spell/NPC name glossary (jp,en,alt) |
 | `data/translation/system_menu_map.json` | menu/UI label replacements |
@@ -48,6 +49,7 @@ image in `iso/` (not in git).
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN.DAT  work/extracted/SCEN.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN2.DAT work/extracted/SCEN2.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SYSTEM.BIN work/extracted/SYSTEM.BIN
+python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/IMG.DAT    work/extracted/IMG.DAT
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /SLPS_018.19 work/extracted/SLPS_018.19
 ```
 
@@ -174,13 +176,23 @@ python3 scripts/lang5_build_ppf.py
 ```
 
 This renders the font, patches `SYSTEM.BIN` (menus + names), patches
-`SLPS_018.19` (name-entry grid), syncs `SCEN -> SCEN2`, re-inserts all
-translated chunks with fixed-size container repacking, injects everything
-into a copy of the BIN (sizes unchanged — never use `--allow-grow`: the
-free space overlaps the CD audio tracks) and writes
+`SLPS_018.19` (name-entry grid), patches `IMG.DAT` title-screen credits and
+the project QR code, syncs `SCEN -> SCEN2`, re-inserts all translated chunks
+with fixed-size container repacking, injects everything into a copy of the
+BIN (sizes unchanged — never use `--allow-grow`: the free space overlaps the
+CD audio tracks) and writes
 `patches/langrisser_v_en.ppf` (PPF3, apply to the original BIN). A
 ready-to-boot image is left in `work/build/langrisser_v_en.bin` for emulator
 testing.
+
+The title-screen credit line is generated from `--patch-version` and the
+current git commit (`git rev-parse --short=8 HEAD`), for example:
+
+```bash
+python3 scripts/lang5_build_ppf.py --patch-version 1.0
+```
+
+The build also writes title previews to `work/build/title_credits_*.png`.
 
 ## Another language
 
@@ -202,4 +214,6 @@ The pipeline is not tied to English:
 - `docs/PLAN.md` — verified container format, root-cause notes, roadmap.
 - `docs/BATTLE_SUFFIX_FORMAT.md` — current notes on the battle chunk payload
   after the text block.
+- `docs/IMG_DAT_FORMAT.md` — current notes and tooling for the `IMG.DAT`
+  image container and the verified title-screen bitmap layout.
 - `external/lang3` — the Langrisser 3 toolkit this one is modeled on.

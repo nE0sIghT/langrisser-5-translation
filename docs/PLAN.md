@@ -112,17 +112,17 @@ Capacity facts learned while building:
 ## Status snapshot (2026-06-13)
 
 Done: stages 0-3, the full main story route, startup quiz, tutorial battle,
-all optional map intros/battles, recap chunks 129-130, menu/UI/name runs, and
-the English glyph system. The current build validates with fixed-size
-SCEN/SCEN2 repacking and produces a PPF without growing any disc file. Main
-story scenarios 1-36, optional chunks 38-42/82-86, and recap chunks 129-130
-are translated as durable per-chunk assets in `data/translation/en/SCEN/` and
-mirrored in `SCEN2/`.
+all optional map intros/battles, recap chunks 129-130, menu/UI/name runs, the
+English glyph system, and the title-screen credit/QR patch. The current build
+validates with fixed-size SCEN/SCEN2 repacking and produces a PPF without
+growing any disc file. Main story scenarios 1-36, optional chunks 38-42/82-86,
+and recap chunks 129-130 are translated as durable per-chunk assets in
+`data/translation/en/SCEN/` and mirrored in `SCEN2/`.
 
 Still open outside the main story route:
 
 - In-game QA and wording/line-break polish across the completed content.
-- Optional graphics/title work and release packaging.
+- Release packaging.
 
 ## Stage 4 — remaining script coverage
 
@@ -148,7 +148,11 @@ Still open outside the main story route:
    `scripts/lang5_battle_suffix.py` identifies the suffix asset-slot table and
    the inserter keeps grown text blocks 4-byte aligned. Block-budget mode is a
    fallback diagnostic, not the normal translation budget.
-6. Title screen logo/graphics (bitmap, optional).
+6. Title screen credit graphics are part of the standard build.
+   `scripts/lang5_imgdat.py title-credits` patches asset 10 in-place, using
+   the bundled `LiberationSansNarrow-Bold.ttf`, the requested patch version,
+   the current git commit hash, and a QR code for the project repository.
+   The command also writes raw/display previews for QA.
 7. Release packaging: PPF + README; xdelta as alternative format.
 
 Credits/staff roll is intentionally left untranslated (kept in JP).

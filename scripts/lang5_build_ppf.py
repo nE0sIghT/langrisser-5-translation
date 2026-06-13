@@ -24,11 +24,14 @@ def main() -> None:
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
+    ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
+    ap.add_argument("--patch-version", default="1.0")
     ap.add_argument("--work-bin", default="work/build/langrisser_v_en.bin")
     ap.add_argument("--out-ppf", default="patches/langrisser_v_en.ppf")
     args = ap.parse_args()
 
     scripts = Path(__file__).parent
+    Path("work/build").mkdir(parents=True, exist_ok=True)
 
     run(scripts / "lang5_build_en_font.py", "--system-bin", args.system,
         "--out-system-bin", "work/build/SYSTEM.BIN.font",
@@ -60,6 +63,14 @@ def main() -> None:
         "--dump-dir", args.en_dump, "--charmap", "work/tables/lang5_en.tbl",
         "--out-scen", "work/build/SCEN.en.DAT", "--out-scen2", "work/build/SCEN2.en.DAT")
 
+    run(scripts / "lang5_imgdat.py", "title-credits",
+        args.imgdat,
+        "--out-imgdat", "work/build/IMG.DAT.en",
+        "--version", args.patch_version,
+        "--out-raw-preview", "work/build/title_credits_raw.png",
+        "--out-display", "work/build/title_credits_display.png",
+        "--out-crop", "work/build/title_credits_crop.png")
+
     work_bin = Path(args.work_bin)
     work_bin.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(args.orig_bin, work_bin)
@@ -68,6 +79,7 @@ def main() -> None:
         ("/L5/SCEN.DAT", "work/build/SCEN.en.DAT"),
         ("/L5/SCEN2.DAT", "work/build/SCEN2.en.DAT"),
         ("/L5/SYSTEM.BIN", "work/build/SYSTEM.BIN.en"),
+        ("/L5/IMG.DAT", "work/build/IMG.DAT.en"),
         ("/SLPS_018.19", "work/build/SLPS_018.19.en"),
     ):
         # No --allow-grow: relocation is unsafe on this disc (the free tail
