@@ -23,7 +23,7 @@
 21	<$FB00><$000C>There is no time.<$FFFC>I'm starting.<$FFFE>
 22	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$000D>Yes<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>
 23	<$FB00><$000E>Stop！<$FFF5><$FFF7><$FE14><$FE14> <$FFF6><$FB00><$000F>Even if you<$FFFC>save the world, if you can't be<$FFFC>saved<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-24	<$FB00><$0010>But we came here to<$FFFC>destroy Pelia.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FB00><$0011>We have to do it.<$FFFE>
+24	<$FB00><$0010>But we came here to<$FFFC>destroy Peiria.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FB00><$0011>We have to do it.<$FFFE>
 25	<$FFF8>…<$FE14>…<$FE14>…<$FE14><$FB00><$0012>Yes<$FFF5>…<$FE14>…<$FE14>.<$FFFE>
 26	<$FB00><$0013>Stop！<$FFF5><$FFF7><$FE14><$FE14><$FE14> <$FFF6><$FB00><$0014>You already<$FFFC>used that ability once！<$FFFE>
 27	<$FB00><$0015>But if I don't do<$FFFC>it, the world<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
@@ -44,7 +44,7 @@
 42	<$FFFA><$FFF6><$FB00><$002B>Please… World Tree…<$FFFC>lend us strength<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 43	<$FFFA><$FB00><$002C>Everyone<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$002D>Give me all<$FFFC>your power, all your feelings<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF9><$FFF6><$FB00><$002E>Give<$FFFC>them to me！<$FFF5><$FFF7><$FFFE>
 44	<$FFF7><$FB00><$002F><$FFF4>U<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>h<$FE14>！<$FFF3><$FFFE>
-45	<$FB00><$0030>Warning. Pelia's<$FFFC>self-destruct device has activated.<$FFFC>All humans inside, evacuate to<$FFFC>Crimso at once.<$FFFD><$FB00><$0031>Repeating. Pelia's self-destruct<$FFFC>device has activated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FB00><$0030>Warning. Peiria's<$FFFC>self-destruct device has activated.<$FFFC>All humans inside, evacuate to<$FFFC>Crimso at once.<$FFFD><$FB00><$0031>Repeating. Peiria's self-destruct<$FFFC>device has activated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FB00><$0032>We did it！ We did<$FFFC>it！<$FFFE>
 47	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0033>Yes, it seems we<$FFFC>succeeded. But we have no way to<$FFFC>escape.<$FFFE>
 48	…<$FE14>…<$FE14>…<$FE14><$FB00><$0034>Helping<$FE14>…<$FE14>people<$FE14>…<$FE14>…<$FE14>isn't<$FE14>…<$FE14>bad<$FE14>…<$FE14>…<$FE14>guh！<$FFFE>
@@ -70,7 +70,7 @@
 68	<$FB00><$0045>Virash！<$FFFE>
 69	<$FB00><$0047>Hurry！ If we're too<$FFFC>slow, the blast will catch us！<$FFFE>
 70	Inside Virash's Airship<$FFFF>
-71	<$FB00><$0048>Pelia is exploding！<$FFFC>Hold on, the shock wave is<$FFFC>coming！<$FFFE>
+71	<$FB00><$0048>Peiria is exploding！<$FFFC>Hold on, the shock wave is<$FFFC>coming！<$FFFE>
 72	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0049>Looks like we're<$FFFC>saved<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 73	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0049>Looks like we're<$FFFC>saved<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 74	<$FB00><$004A>Too soon to relax.<$FFFC>The shock seems to have corrupted<$FFFC>the autopilot data. The magitek<$FFFC>reactor is safe, but…<$FFFE>
@@ -92,7 +92,7 @@
 90	<$FB00><$005C>I am Sieghart. Or<$FFFC>perhaps to you I should call<$FFFC>myself Langrisser.<$FFFE>
 91	<$FB00><$005D>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 92	<$FB00><$005E>I spent long ages<$FFFC>within the sword, watching over this<$FFFC>era.<$FFFE>
-93	<$FB00><$005F>I see<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFFA><$FFF6><$FB00><$0060>Your power<$FFFC>stopped Pelia.<$FFFE>
+93	<$FB00><$005F>I see<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFFA><$FFF6><$FB00><$0060>Your power<$FFFC>stopped Peiria.<$FFFE>
 94	<$FB00><$0061>That is wrong. It was<$FFFC>your power.<$FFFD><$FB00><$0062>I can only gather people's<$FFFC>feelings. Without your power and<$FFFC>their feelings, I can do nothing.<$FFFE>
 95	<$FFFA><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0063>Either way is<$FFFC>fine. If this world<$FE14>…<$FE14>…<$FE14>if people's<$FFFC>happiness was protected<$FE14>…<$FE14>…<$FE14>.<$FE14> I'm<$FFFC>tired<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFE>
 96	<$FB00><$0064>You did protect<$FFFC>people's happiness. Now it is your<$FFFC>turn to seize your own.<$FFFE>
@@ -100,20 +100,20 @@
 98	<$FB00><$0066>Can you not hear<$FFFC>it？ Can you not feel it？ Her<$FFFC>feelings, her love<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FE14><$FE14> <$FFF6><$FB00><$0067>Now, open<$FFFC>your eyes！<$FFFE>
 99	<$FB00><$0069>Come, noble soul.<$FFFC>Sleep within me. And together we<$FFFC>shall watch. The future of this<$FFFC>world you saved<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FE14><$FE14><$FFFE>
 100	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$006A>Ah<$FFF5><$FFF8>…<$FE14>.<$FFFE>
-101	<$FB00><$006D>…U…ugh… Pelia…<$FFFE>
-102	……<$FB00><$006E>It's all right！<$FFFC>Pelia was destroyed. Pelia and<$FFFC>Crimso won't collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because<$FFFC>you fought… the surface is safe！<$FFFE>
+101	<$FB00><$006D>…U…ugh… Peiria…<$FFFE>
+102	……<$FB00><$006E>It's all right！<$FFFC>Peiria was destroyed. Peiria and<$FFFC>Crimso won't collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because<$FFFC>you fought… the surface is safe！<$FFFE>
 103	<$FB00><$0070>I see, good…<$FFFE>
 104	……<$FB00><$0071>Ah, it really is<$FFFC>you…<$FFFE>
 105	<$FB00><$0072>Sorry I worried you,<$FFFC>Marie…<$FFFE>
 106	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$006B>Eh！？<$FFFE>
-107	……<$FB00><$006D>U…ugh… Pelia…<$FFFE>
-108	……<$FB00><$0073>It's all right！<$FFFC>Pelia was destroyed. Pelia and<$FFFC>Crimso won't collide.<$FFFD>……<$FB00><$0074>Everyone is safe… Crimso, our<$FFFC>planet, everyone…<$FFFE>
+107	……<$FB00><$006D>U…ugh… Peiria…<$FFFE>
+108	……<$FB00><$0073>It's all right！<$FFFC>Peiria was destroyed. Peiria and<$FFFC>Crimso won't collide.<$FFFD>……<$FB00><$0074>Everyone is safe… Crimso, our<$FFFC>planet, everyone…<$FFFE>
 109	<$FB00><$0070>I see, good…<$FFFE>
 110	<$FB00><$0075>You stupid, stupid,<$FFFC>stupid man！ I really thought you<$FFFC>had died！<$FFFE>
 111	<$FB00><$0076>Sorry I worried you,<$FFFC>Clarett…<$FFFE>
 112	…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$006C>No way<$FFF5>…<$FE14>…<$FE14>？<$FFFE>
-113	……<$FB00><$006D>U…ugh… Pelia…<$FFFE>
-114	……<$FB00><$0077>It's all right！<$FFFC>Pelia was destroyed. Pelia and<$FFFC>Crimso won't collide.<$FFFD>……<$FB00><$0078>Because you fought… everyone,<$FFFC>everyone was saved…<$FFFE>
+113	……<$FB00><$006D>U…ugh… Peiria…<$FFFE>
+114	……<$FB00><$0077>It's all right！<$FFFC>Peiria was destroyed. Peiria and<$FFFC>Crimso won't collide.<$FFFD>……<$FB00><$0078>Because you fought… everyone,<$FFFC>everyone was saved…<$FFFE>
 115	<$FB00><$0070>I see, good…<$FFFE>
 116	……<$FB00><$0079>You're alive…<$FFFC>you're really alive…<$FFFE>
 117	<$FB00><$007A>What's wrong, Brenda？<$FFFC>Your face is a mess.<$FFFE>
@@ -133,7 +133,7 @@
 131	<$FB00><$008B>Lain！<$FFFE>
 132	<$FB00><$008C>All of you did<$FFFC>well.<$FFF5><$FFF8><$FE14><$FE14> <$FFF6><$FB00><$008D>Bringing Crimsonia down to<$FFFC>the surface was worth it.<$FFFD><$FB00><$008E>From now on, I entrust my people<$FFFC>to you. I can leave Crimsonia in<$FFFC>your hands without fear.<$FFFE>
 133	<$FB00><$008F>What are you saying？<$FFFC>Entrust？<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-134	<$FB00><$0090>It seems Pelia's<$FFFC>blast threw us off course again.<$FFFE>
+134	<$FB00><$0090>It seems Peiria's<$FFFC>blast threw us off course again.<$FFFE>
 135	<$FB00><$0091>Then escape right<$FFFC>now！<$FFFE>
 136	<$FB00><$0092>Unfortunately, the last<$FFFC>ship departed moments ago.<$FFFE>
 137	<$FB00><$0093>No<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>

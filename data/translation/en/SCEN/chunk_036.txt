@@ -13,7 +13,7 @@
 11	Control prog.<$FFFF>
 12	・Defeat all enemies<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
-14	Pelia Core<$FFFF>
+14	Peiria Core<$FFFF>
 15	<$FB00><$005C>Looks like my path<$FFFC>was right after all<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>Hm？ What's<$FFFC>that！<$FFFE>
 16	<$FB00><$005E>I'm sorry…<$FFFE>
 17	<$FB00><$005F>Forgive me. I made<$FFFC>a mistake at the end.<$FFFE>

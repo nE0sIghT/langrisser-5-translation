@@ -38,9 +38,9 @@
 36	<$FB00><$0056>Yes.<$FFFE>
 37	<$FB00><$0041>Leave it to me！<$FFFE>
 38	<$FB00><$000D>Leave it to me.<$FFFE>
-39	And so the party boarded the<$FFFC>airship and launched into space<$FFFC>for Pelia…<$FFFE>
-40	Aboard the Airship to Pelia<$FFFF>
-41	<$FB00><$0003>Brenda, how long until<$FFFC>we reach Pelia？<$FFFE>
+39	And so the party boarded the<$FFFC>airship and launched into space<$FFFC>for Peiria…<$FFFE>
+40	Aboard the Airship to Peiria<$FFFF>
+41	<$FB00><$0003>Brenda, how long until<$FFFC>we reach Peiria？<$FFFE>
 42	<$FB00><$0004>About an hour, I'd say.<$FFFE>
 43	<$FB00><$0005>Look<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0006>Our world has<$FFFC>gotten so small<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 44	<$FB00><$0007>It was blue and<$FFFC>beautiful.<$FFFE>
@@ -48,10 +48,10 @@
 46	<$FB00><$0009>It is strange. Hard to<$FFFC>believe we lived on something so<$FFFC>round.<$FFFE>
 47	<$FB00><$000A>Whoa, incoming<$FFFC>transmission<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 48	<$FB00><$000B>How are things there？<$FFFE>
-49	<$FB00><$000C>We're heading for Pelia<$FFFC>now. We should arrive soon.<$FFFE>
+49	<$FB00><$000C>We're heading for Peiria<$FFFC>now. We should arrive soon.<$FFFE>
 50	<$FB00><$000D>More importantly, how is<$FFFC>Crimso？<$FFFE>
 51	<$FB00><$000E>As expected, Chaos's<$FFFC>revival has filled it with<$FFFC>monsters.<$FFFD><$FB00><$000F>All Crimson Knights are rescuing<$FFFC>the people. The demons should soon<$FFFC>be driven out.<$FFFE>
-52	<$FB00><$0010>Using spare sky<$FFFC>battleships, we're evacuating<$FFFC>everyone.<$FFF5> <$FB00><$0011>By the time Pelia blows,<$FFFC>it should be done.<$FFFE>
+52	<$FB00><$0010>Using spare sky<$FFFC>battleships, we're evacuating<$FFFC>everyone.<$FFF5> <$FB00><$0011>By the time Peiria blows,<$FFFC>it should be done.<$FFFE>
 53	<$FB00><$0012>So it all depends on<$FFFC>us.<$FFFE>
 54	<$FB00><$0013>We're counting on you,<$FFFC>everyone.<$FFFE>
 55	<$FB00><$0014>Please don't add more<$FFFC>pressure.<$FFFE>
@@ -62,16 +62,16 @@
 60	<$FB00><$001B>What was that！？<$FFFE>
 61	<$FB00><$001C>A shot grazed the hull！<$FFFE>
 62	<$FB00><$001D>A shot<$FFF5><$FFF8>…<$FE14>…<$FE14>！<$FFFE>
-63	<$FB00><$001E>Pelia's defense system！<$FFFE>
+63	<$FB00><$001E>Peiria's defense system！<$FFFE>
 64	<$FB00><$001F>No, not after coming<$FFFC>this far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 65	<$FB00><$0020>Can you do anything,<$FFFC>Brenda？<$FFFE>
 66	<$FB00><$0021>We're not getting shot<$FFFC>down here！<$FFFD><$FB00><$0022>Everybody, hold on tight！<$FFF5> <$FB00><$0023>This'll<$FFFC>be rough, but we're forcing our<$FFFC>way in！<$FFFE>
-67	Inside Pelia, Passage to the Core<$FFFF>
+67	Inside Peiria, Passage to the Core<$FFFF>
 68	<$FB00><$0024>Looks like we got inside<$FFFC>somehow.<$FFFE>
 69	<$FB00><$0025>But the ship<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 70	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0026>I'm sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0027>If<$FFFC>I'd piloted better, this wouldn't<$FFFC>have happened<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 71	<$FB00><$0028>Not getting shot down is<$FFFC>enough.<$FFFE>
-72	<$FB00><$0029>Right！ If we had<$FFFC>crashed, we couldn't even blow up<$FFFC>Pelia.<$FFF5> <$FB00><$002A>We'll think about getting<$FFFC>home later.<$FFFE>
+72	<$FB00><$0029>Right！ If we had<$FFFC>crashed, we couldn't even blow up<$FFFC>Peiria.<$FFF5> <$FB00><$002A>We'll think about getting<$FFFC>home later.<$FFFE>
 73	<$FB00><$002B>Exactly.<$FFFE>
 74	<$FB00><$002C>Look<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$002D>The path splits<$FFFC>here.<$FFFE>
 75	<$FB00><$002E>Six paths total<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E><$FFFC><$FFF6><$FB00><$002F>Brenda, can you tell？<$FFFE>
@@ -104,7 +104,7 @@
 102	<$FB00><$0057>H-honeymoon？<$FFFE>
 103	<$FFF7><$FB00><$0058>Ahaha！<$FFF5><$FFF8><$FFFB> <$FFF6><$FB00><$0059>Then I'll check<$FFFC>this way！<$FFFE>
 104	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$005A>Time for me to go<$FFFC>too.<$FFFE>
-105	<$0000>At Pelia, <$F600><$0000>'s party<$FFFC>headed for the core. <$0000>Before them<$FFFC>lay six branching passages.<$FFFD><$0000>No time to hesitate. <$0000>The six<$FFFC>split up, each trusting their<$FFFC>path. <$0000>And each hoping it led<$FFFC>forward.<$FFFE>
+105	<$0000>At Peiria, <$F600><$0000>'s party<$FFFC>headed for the core. <$0000>Before them<$FFFC>lay six branching passages.<$FFFD><$0000>No time to hesitate. <$0000>The six<$FFFC>split up, each trusting their<$FFFC>path. <$0000>And each hoping it led<$FFFC>forward.<$FFFE>
 106	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
 107	Outside the Inn<$FFFF>
 108	…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
@@ -122,7 +122,7 @@
 120	…<$FB00><$0019>I'm sorry. I'm the<$FFFC>only one who got her memories<$FFFC>back.<$FFFE>
 121	<$FB00><$001A>It can't be helped. I<$FFFC>died, and Gizarof modified my mind<$FFFC>too.<$FFFD><$FB00><$001B>But now I don't even hate<$FFFC>Gizarof. I almost feel grateful.<$FFFE>
 122	<$FB00><$001C>Why？<$FFFE>
-123	<$FB00><$001D>If Gizarof hadn't modified<$FFFC>me, there'd be no way to stop<$FFFC>Pelia.<$FFFE>
+123	<$FB00><$001D>If Gizarof hadn't modified<$FFFC>me, there'd be no way to stop<$FFFC>Peiria.<$FFFE>
 124	…<$FB00><$001E>Hehehe…<$FFFE>
 125	<$FB00><$001F>W-what？ Did I say<$FFFC>something strange？<$FFFE>
 126	<$FB00><$0020>Sorry. It sounded so much<$FFFC>like you.<$FFFE>
@@ -182,7 +182,7 @@
 180	<$FB00><$0094>It must be hard to bridge<$FFFC>a gulf once made. But if you<$FFFC>don't try, it never will be<$FFFC>bridged.<$FFFE>
 181	<$FB00><$0095>I know. …I know, but<$FFFC>I'm not that skillful a woman…<$FFFE>
 182	…<$FB00><$0096>Sorry. I went too far<$FFFC>again.<$FFFE>
-183	…<$FB00><$0097>It's fine. For now<$FFFC>I'll focus on Pelia. Everything<$FFFC>comes after that.<$FFFE>
+183	…<$FB00><$0097>It's fine. For now<$FFFC>I'll focus on Peiria. Everything<$FFFC>comes after that.<$FFFE>
 184	<$FB00><$0098>Right. Let's do our best<$FFFC>tomorrow with no regrets.<$FFFE>
 185	<$FB00><$0099>Yeah, leave it to me！<$FFFE>
 186	…<$FB00><$009A>Heh. You're a strange<$FFFC>man.<$FFFE>
@@ -261,7 +261,7 @@
 259	<$FB00><$00B0>Thinking？<$FFFE>
 260	<$FB00><$00B1>Yes. I was thinking over<$FFFC>my journey so far.<$FFFD><$FB00><$00B2>At first I only sought Father's<$FFFC>medicine. I just drifted along.<$FFFC>Looking back, I was running from<$FFFC>reality.<$FFFD><$FB00><$00B3>Meeting all of you changed me,<$FFFC>little by little.<$FFFD><$FB00><$00B4>Without you, I'd still live by<$FFFC>others' will. Or my brother might<$FFFC>have killed me first.<$FFFE>
 261	<$FB00><$00B5>Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-262	<$FB00><$00B6>Now I don't know<$FFFC>whether my brother truly was<$FFFC>bound by the curse.<$FFFD><$FB00><$00B7>But the crystal that caused that<$FFFC>curse will now carry us to<$FFFC>Pelia…<$FFFE>
+262	<$FB00><$00B6>Now I don't know<$FFFC>whether my brother truly was<$FFFC>bound by the curse.<$FFFD><$FB00><$00B7>But the crystal that caused that<$FFFC>curse will now carry us to<$FFFC>Peiria…<$FFFE>
 263	<$FB00><$00B8>Yes. Because Alfred and<$FFFC>Lanford's father found that crystal,<$FFFC>tragedy followed.<$FFFD><$FB00><$00B9>But thanks to that same crystal, we<$FFFC>exposed Ferakia, and now we can<$FFFC>travel to the stars.<$FFFE>
 264	<$FFFA><$FB00><$00BA>The curse is gone, and<$FFFC>its power now sends hope into<$FFFC>the sky<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 265	<$FB00><$00BB>That's right.<$FFFE>
@@ -279,7 +279,7 @@
 277	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00CA>Yes. Tomorrow decides<$FFFC>this world's fate. And we are<$FFFC>the ones who will decide it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 278	<$FB00><$00CB>What is it？ Are you<$FFFC>afraid？<$FFFE>
 279	<$FB00><$00CC>I'd be lying if I said<$FFFC>I wasn't. But if we don't do<$FFFC>it, who can？<$FFFE>
-280	<$FB00><$00CD>Indeed. Only you can<$FFFC>stop Pelia.<$FFFD><$FB00><$00CE>All we can do is make sure you<$FFFC>face it at your best.<$FFFE>
+280	<$FB00><$00CD>Indeed. Only you can<$FFFC>stop Peiria.<$FFFD><$FB00><$00CE>All we can do is make sure you<$FFFC>face it at your best.<$FFFE>
 281	<$FFFA><$FB00><$00CF>Thank you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF9><$FB00><$00D0>Aren't you afraid, Lanford？<$FFFE>
 282	<$FFFA><$FB00><$00D1>I have fought many<$FFFC>battles bearing a nation's fate,<$FFFC>but this is on another scale.<$FFFC>Honestly, I am full of unease.<$FFFE>
 283	<$FFF9><$FB00><$00D2>But I have someone I<$FFFC>would stake my life to protect.<$FFFC>And I want to protect this world<$FFFC>she loves.<$FFFE>
@@ -298,7 +298,7 @@
 296	<$FFF7><$FB00><$00DE>Huh？<$FFF5><$FFF8><$FFFE>
 297	<$FB00><$00DF>Surprised？<$FFFD><$FB00><$00E0>But I doubt I am wrong.<$FFFE>
 298	<$FB00><$00E1>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-299	<$FB00><$00EB>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$00EC>I see<$FFF5><$FFF8>…<$FE14>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00ED>I never noticed.<$FFF5> <$FB00><$00EE>I<$FFFC>was focused only on what lay<$FFFC>ahead, with no room for that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FB00><$00EF>When this battle ends, maybe I'll<$FFFC>ask Brenda how she feels.<$FFFD><$FB00><$00F0>But first we have to do something<$FFFC>about Pelia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+299	<$FB00><$00EB>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$00EC>I see<$FFF5><$FFF8>…<$FE14>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00ED>I never noticed.<$FFF5> <$FB00><$00EE>I<$FFFC>was focused only on what lay<$FFFC>ahead, with no room for that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FB00><$00EF>When this battle ends, maybe I'll<$FFFC>ask Brenda how she feels.<$FFFD><$FB00><$00F0>But first we have to do something<$FFFC>about Peiria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 300	<$FB00><$00DA>I do not know if you<$FFFC>noticed, but Clarett seems to care<$FFFC>for you deeply.<$FFFE>
 301	<$FB00><$00DB>Clarett does？<$FFFE>
 302	<$FB00><$00DC>Yes. Did you not notice<$FFFC>how differently she acts with<$FFFC>you？<$FFFE>
