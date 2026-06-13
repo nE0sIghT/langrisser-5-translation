@@ -147,6 +147,11 @@ translated chunks into
 `data/translation/en` — untranslated kanji whose glyph slots were sacrificed
 will fail the encode check.
 
+For battle chunks with portrait/asset regressions, also run
+`python3 scripts/lang5_validate_en.py N --budget-mode block`: this stricter
+mode requires the translation to fit inside the original text block so the
+following chunk data stays at byte-identical offsets.
+
 For names/menus instead of script text: edit `names_base.csv` /
 `system_menu_map.json`; `scripts/lang5_build_names_map.py` expands the
 glossary against the actual `SYSTEM.BIN` runs and reports labels that don't

@@ -80,7 +80,7 @@ def main() -> None:
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--stem", default="SCEN")
-    ap.add_argument("--budget-mode", choices=("fixed-repack", "local"),
+    ap.add_argument("--budget-mode", choices=("fixed-repack", "local", "block"),
                     default="fixed-repack")
     args = ap.parse_args()
 
@@ -125,15 +125,21 @@ def main() -> None:
         s, e = spans[cidx]
         chunk = data[s:e]
         block = find_text_block(chunk)
+        table_len = 2 + 2 * len(block.offsets)
         tz = len(chunk) - len(chunk.rstrip(b"\x00"))
-        budget = block.size + (tz & ~1) - (2 + 2 * len(block.offsets))
+        if args.budget_mode == "block":
+            # The translated records must fit inside the original text block.
+            # This preserves all following chunk data at byte-identical offsets.
+            budget = block.size - table_len
+        else:
+            budget = block.size + (tz & ~1) - table_len
         if body <= budget:
             status = "OK"
         elif args.budget_mode == "fixed-repack":
             status = "REPACK"
         else:
             status = "OVER BUDGET"
-        if body > budget and args.budget_mode == "local":
+        if body > budget and args.budget_mode in ("local", "block"):
             problems += 1
         print(f"chunk {cidx:03d}: body={body} budget={budget} {status}"
               + (f" jp_left={jp_left}" if jp_left else ""))

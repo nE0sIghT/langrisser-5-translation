@@ -14,15 +14,15 @@
 12	・<$F600><$0000> or Lambda dies<$FFFE>
 13	Tirock Plateau<$FFFF>
 14	<$FB00><$000D>Hm？ All these cliffs make this<$FFFC>place hard to walk.<$FFFE>
-15	<$FB00><$000E>Few spots on the river ahead<$FFFC>have bridges. Detouring to find another<$FFFC>would waste time.<$FFFD><$FB00><$000F>You'll just have to bear it.<$FFFE>
+15	<$FB00><$000E>Bridges are scarce ahead. A<$FFFC>detour would waste time.<$FFFD><$FB00><$000F>You'll have to bear it.<$FFFE>
 16	<$FB00><$0010>Cool as ever. So that was your<$FFFC>data talking again？<$FFFE>
 17	<$FB00><$0011>That's right. Now let's hurry<$FFFC>on.<$FFFE>
 18	<$FB00><$0012>Wait, Lambda！<$FFFD><$FB00><$0013>Who's there！<$FFFE>
 19	<$FB00><$0014>Just as I thought. I knew you<$FFFC>would pass through here！<$FFFE>
 20	<$FB00><$0015>You're the one from before<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$0016>The name is Aizer. Remember it<$FFFC>well.<$FFFD><$FB00><$0017>You'll be seeing my face for a long time,<$FFFC>serving under Lord Lainforce.<$FFFE>
+21	<$FB00><$0016>Aizer. Remember it well.<$FFFD><$FB00><$0017>You'll soon serve Lord Lainforce.<$FFFE>
 22	<$FB00><$0018>You talk as if you've already<$FFFC>caught us.<$FFFE>
-23	<$FB00><$0019>That's about to come true.<$FFFD><$FB00><$001A>Your power is needed for Lord Lainforce's<$FFFC>plan. I'll take you by force！<$FFFE>
+23	<$FB00><$0019>It is about to be true.<$FFFD><$FB00><$001A>Lord Lainforce needs your power. I'll take<$FFFC>you by force！<$FFFE>
 24	<$FB00><$001B>Just try it！<$FFFE>
 25	Don't think you can escape！<$FFFE>
 26	Kh！ Letting them get any closer is<$FFFC>dangerous…<$FFFE>
@@ -32,7 +32,7 @@
 30	Leave this to us. You two run, quickly.<$FFFE>
 31	Thank you so much.<$FFFE>
 32	<$FB00><$001C>Now, what's our move<$FFF5><$FFF8>…<$FFFE>
-33	<$FB00><$001D>I'll leave it to you. I will<$FFFC>move just as you direct.<$FFFD>Think hard about how to hold the enemy<$FFFC>back.<$FFFE>
+33	<$FB00><$001D>I'll leave it to you. I'll<$FFFC>follow your orders.<$FFFD>Think how to hold the enemy back.<$FFFE>
 34	<$FB00><$0034>You won't catch me that easily！<$FFFE>
 35	<$FB00><$0036>Out of my way！ Move！<$FFFE>
 36	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
@@ -45,14 +45,14 @@
 43	Admiral！<$FFFE>
 44	Sorry, General Selena. Let me fall back<$FFFC>for now…<$FFFE>
 45	No point in forcing it. We withdraw…<$FFFE>
-46	<$FB00><$0038>The Federation is in chaos over<$FFFC>Gizarof's revolt. What are you doing at a<$FFFC>time like this？<$FFFE>
+46	<$FB00><$0038>Gizarof's revolt has thrown the<$FFFC>Federation into chaos. Why are you here？<$FFFE>
 47	<$FFF8>…<$FFF6><$FB00><$0039>The woman general of Caconsis.<$FFFE>
 48	<$FB00><$003A>Answer me！<$FFFE>
-49	<$FB00><$003B>Hmph. I owe you no answers.<$FFFC>Stand against me and I won't go easy,<$FFFC>woman or not.<$FFFE>
+49	<$FB00><$003B>Hmph. I owe you no answers.<$FFFC>Stand in my way and I won't spare you.<$FFFE>
 50	Th…that can't be…<$FFFE>
 51	Don't force it. Fall back, now！<$FFFE>
 52	My apologies…<$FFFE>
-53	<$FB00><$001E>To cross the river we need a<$FFFC>bridge. <$FFF4>There are two bridges<$FFF3>. We hold<$FFFC>them there.<$FFFE>
+53	<$FB00><$001E>We need a bridge to cross.<$FFFC><$FFF4>There are two bridges<$FFF3>. Hold them.<$FFFE>
 54	<$FB00><$001F>Understood！<$FFFE>
 55	<$FB00><$0020>Leave it to me！<$FFFE>
 56	S…so strong… Lord Aizer<$00E4><$00E5><$00E6>！<$FFFE>
@@ -62,48 +62,48 @@
 60	<$FB00><$002C>Why do you keep hounding us？<$FFFE>
 61	<$FB00><$002D>I owe you no answers. Now<$FFFC>behave！<$FFFE>
 62	I owe you no answers. Now behave！<$FFFE>
-63	<$FB00><$002E>It seems the Federation soldiers<$FFFC>are the ones picking the fight.<$FFFE>
+63	<$FB00><$002E>The Federation soldiers seem to<$FFFC>have started this.<$FFFE>
 64	<$FB00><$002F>What shall we do, Admiral？<$FFFE>
 65	<$FB00><$0030>Hmm. We can't just leave them.<$FFFE>
-66	<$FB00><$0031>Understood. I will cover them.<$FFFC>Please wait here, Admiral.<$FFFE>
+66	<$FB00><$0031>Understood. I'll cover them.<$FFFC>Please wait here, Admiral.<$FFFE>
 67	<$FB00><$0032>I'm counting on you, General<$FFFC>Selena.<$FFFE>
 68	<$FB00><$0033>You're coming with us. Give it<$FFFC>up already！<$FFFE>
 69	<$FB00><$003C>Guoh！ <$FFF5><$FFF8>…<$FFF6><$FB00><$003D>Impossible, me of all<$FFFC>people<$FFF5><$FFF8>…<$FFFE>
 70	<$FB00><$003E>Did we get him！？<$FFFE>
-71	<$FB00><$003F>Truly the work of made<$FFFC>beings<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay<$FFFC>hidden in them<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
+71	<$FB00><$003F>Made beings indeed<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32><$FFFC><$FFF6><$FB00><$0040>Such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>hidden in them<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
 72	Now then, tell us what you were doing<$FFFC>here！<$FFFE>
 73	Even if I told you, you would not<$FFFC>understand.<$FFFD>Farewell！ Next time, no mercy！<$FFFE>
 74	L…Lord Aizer is<$FFF8>…<$FFFD><$FFF6>Tch！ We're pulling out！<$FFFE>
 75	<$FB00><$0021>So only that one is left.<$FFFE>
-76	<$FB00><$0022>Mmgh<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0023>We had to hurry the<$FFFC>pursuit, but perhaps I brought too few<$FFFC>men.<$FFFE>
+76	<$FB00><$0022>Mmgh<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0023>We rushed the pursuit,<$FFFC>but I brought too few men.<$FFFE>
 77	<$FB00><$0024>There's no need to force a<$FFFC>fight. Right now, moving on comes first.<$FFFE>
 78	<$FB00><$0025>Yeah. That's true, but<$FFF5><$FFF8>…<$FFFE>
-79	A pixie is perched on a stake jutting from<$FFFC>the water. The fairy looks at you and<$FFFC>grins.<$FFFD>You look like you're in trouble？ Want me<$FFFC>to help you out？<$FFFE>
+79	A pixie sits on a stake in the water. The<$FFFC>fairy looks at you and grins.<$FFFD>You look stuck. Want help？<$FFFE>
 80	・Accept the help<$FFFE>
 81	・Manage on your own<$FFFE>
 82	・Ignore it<$FFFE>
 83	Then here, take this.<$FFFD><$0000> <$0000>Got 50P gold！<$FFFE>
-84	Wow！ Aren't you something！ Fine, I'll<$FFFC>lend you just a little strength！<$FFFD><$0000> <$0000><$FFF4>Strength<$FFF3> rose by 1！<$FFFE>
+84	Wow！ Not bad！ Fine, I'll lend a little<$FFFC>strength！<$FFFD><$0000> <$0000><$FFF4>Strength<$FFF3> rose by 1！<$FFFE>
 85	<$0000> Tch！<$FFFD><$0000> The pixie flew away.<$FFFE>
 86	<$FB00><$0026>Sir, Admiral Wheeler！ Someone is<$FFFC>fighting up ahead！<$FFFE>
 87	<$FB00><$0027>Who could it be？ Surely not<$FFFC>Landius and his men？<$FFFE>
-88	<$FFF8>…<$FFF6><$FB00><$0028>No, it isn't. One side looks<$FFFC>like Federation troops<$FFF5><$FFF8>…<$FFF6><$FB00><$0029>but the ones<$FFFC>fighting them look like a pair of<$FFFC>adventurers.<$FFFE>
+88	<$FFF8>…<$FFF6><$FB00><$0028>No. One side looks like<$FFFC>Federation troops<$FFF5><$FFF8>…<$FFF6><$FB00><$0029>but the other side<$FFFC>looks like two adventurers.<$FFFE>
 89	<$FB00><$002A>Adventurers？<$FFFE>
-90	Hey there, you two, are you all right？ We<$FFFC>heard sounds of fighting and came to<$FFFC>look<$FFF8>…<$FFFD>Though it seems you didn't need any help.<$FFFE>
+90	Hey, you two all right？ We heard fighting<$FFFC>and came to look<$FFF8>…<$FFFD>Seems you needed no help.<$FFFE>
 91	So it seems. Still, those were Federation<$FFFC>soldiers<$FFF8>…<$FFFE>
 92	What on earth happened here？<$FFFE>
 93	Well…<$FFFE>
 94	They suddenly attacked us. We only fought<$FFFC>back.<$FFFE>
 95	They attacked first<$FFF8>…<$FFFE>
-96	Admiral, could they be remnants of<$FFFC>Gizarof's forces？<$FFFE>
-97	Hard to say. They seemed too well<$FFFC>organized for that, though.<$FFFE>
+96	Could they be Gizarof remnants？<$FFFE>
+97	Hard to say. They looked too organized.<$FFFE>
 98	<$FB00><$0046>Looks like you're safe now.<$FFFC>Good, good.<$FFFE>
 99	<$FB00><$0047>I don't know who you are, but<$FFFC>thank you.<$FFFE>
 100	<$FB00><$0048>Oh, I didn't do anything myself.<$FFFE>
 101	<$FFF8>…<$FFF6><$FB00><$0049>We're going.<$FFFE>
 102	<$FB00><$004A>Yeah, I know.<$FFFE>
-103	<$FB00><$004B>Well then, we're in a hurry, so<$FFFC>excuse us.<$FFFE>
-104	<$FB00><$004C>The Federation is at war right<$FFFC>now. Travel carefully.<$FFFE>
+103	<$FB00><$004B>We're in a hurry, so excuse us.<$FFFE>
+104	<$FB00><$004C>The Federation is at war. Travel<$FFFC>carefully.<$FFFE>
 105	<$FB00><$004D>Admiral. We should hurry as<$FFFC>well.<$FFFE>
 106	<$FB00><$004E>Oh my, that's right.<$FFFE>
 107	<$FB00><$004F>Then we'll excuse ourselves too.<$FFFE>
@@ -112,7 +112,7 @@
 110	<$FB00><$0052>Hm？ What is it？<$FFFE>
 111	<$FB00><$0053>Those people just now are<$FFFC>enemies.<$FFFE>
 112	<$FB00><$0054>Enemies！？<$FFFE>
-113	<$FB00><$0055>The Kingdom of Caconsis is the<$FFFC>master's target. That makes them enemies.<$FFFD>Getting friendly with enemies seems<$FFFC>unwise.<$FFFE>
+113	<$FB00><$0055>Caconsis is the master's target.<$FFFC>That makes them enemies.<$FFFD>Getting close to enemies is unwise.<$FFFE>
 114	<$FB00><$0056>I see. So those people were our<$FFFC>enemies<$FFF5><$FFF8>…<$FFFE>
 115	<$FB00><$0057>And that's how it is. Now let's<$FFFC>hurry on.<$FFFE>
 116	Curse you… Don't think you've escaped<$FFFC>me…<$FFFE>
