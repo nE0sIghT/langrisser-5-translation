@@ -8,7 +8,7 @@
 6	Lanford<$FFFF>
 7	Landius<$FFFF>
 8	Jessica<$FFFF>
-9	McLaine<$FFFF>
+9	McLain<$FFFF>
 10	Emily<$FFFF>
 11	Lanford<$FFFF>
 12	Merc<$FFFF>
@@ -22,7 +22,7 @@
 20	<$FFF8>…<$FFF6><$FB00><$0087>It is time. I must<$FFFC>return to heaven.<$FFFE>
 21	<$FB00><$0088>Um, Jessica<$FFF5><$FFF8>…<$FFFE>
 22	<$FFF6><$FB00><$0089>Are you really going back<$FFFC>to heaven？<$FFFE>
-23	<$FB00><$008A>McLaine<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take these<$FFFC>swords back to heaven. That is my<$FFFC>duty<$FFF5><$FFF8>…<$FFFE>
+23	<$FB00><$008A>McLain<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take these<$FFFC>swords back to heaven. That is my<$FFFC>duty<$FFF5><$FFF8>…<$FFFE>
 24	<$FB00><$008C>No, I won't stop you.<$FFFC>But<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>… <$FE14>…<$FE14>.<$FFFE>
 25	<$FFF6><$FB00><$008D>If fate allows, let us<$FFFC>meet again.<$FFFE>
 26	<$FB00><$008E>Then I shall go. Thank<$FFFC>you for your help.<$FFFE>
