@@ -58,8 +58,8 @@
 56	Operate the unlock switch？<$FFFE>
 57	<$FB00><$008F>Good, the door is open.<$FFFE>
 58	A fairy waves from a stake. <$0000> Say, happy<$FFFC>with your forces？<$FFFE>
-59	I see. Well then, good luck！<$FFFD>The fairy vanished.<$FFFE>
-60	Then you may hire more mercenaries. Six<$FFFC>units at most, though！<$FFFD><$0000> <$FFF4>Max mercenaries<$FFF3> rose by 1！<$FFFE>
+59	I see. Well then, good luck！ The fairy<$FFFC>vanished.<$FFFE>
+60	Then you may hire more mercenaries. Six<$FFFC>units at most, though！ <$0000> <$FFF4>Max<$FFFC>mercenaries<$FFF3> rose by 1！<$FFFE>
 61	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
 62	<$FB00><$002C>Take this！<$FFFE>
 63	<$FB00><$0039>It's getting too dangerous…I'll<$FFFC>be falling back first…<$FFFE>

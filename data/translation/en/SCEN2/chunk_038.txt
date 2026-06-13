@@ -47,7 +47,7 @@
 45	U-um…<$FFFD><$FFF8>mumble mumble…<$FFFE>
 46	<$FFF8>………<$FFFD><$FFF6><$FFF4>An apron dress, you say？<$FFF3><$FFFE>
 47	<$FFF4>Gwaah, not so loud！！！<$FFF3><$FFFE>
-48	<$FFF4>Why you feeble little！！！！<$FFF3><$FFFD><$FFF4>I'll punish you later！！！！！<$FFF3><$FFFE>
+48	<$FFF4>Why you feeble little！！！！<$FFF3> <$FFF4>I'll<$FFFC>punish you later！！！！！<$FFF3><$FFFE>
 49	<$FFF8>Pfft……<$FFFE>
 50	You！ you just snickered at me, didn't<$FFFC>you！？<$FFFE>
 51	Protein, pleee～～ase.<$FFFE>
@@ -82,7 +82,7 @@
 80	<$FFF8>Waaah, he's looking over here and<$FFFC>grinning～～<$0663> I hate this part-time<$FFFC>job～～～<$FFFE>
 81	To think that with no new recruits at the<$FFFC>gym, even buying goods at a sale is such a<$FFFC>struggle…<$FFFB> <$FFF4>haaah～～～……<$FFF3><$FFFE>
 82	Are things really that hard for you？<$FFFE>
-83	Mm. some chain branch of our gym<$FFFC>apparently brought in young men to boost<$FFFC>membership…<$FFFD>…<$00E4><$00E5><$00E5><$00E5><$00E5><$00E5><$00E6>staaare<$FFFE>
+83	Mm. some chain branch of our gym<$FFFC>apparently brought in young men to boost<$FFFC>membership… …<$00E4><$00E5><$00E5><$00E5><$00E5><$00E5><$00E6>staaare<$FFFE>
 84	<$FFFA>What are you getting at？<$FFFE>
 85	Why you feeble little！！ a true man<$FFFC>throws himself in with nothing but his<$FFFC>bare body！！<$FFFE>
 86	Oooh, Big Bro Baran, I'm so sorry<$0663><$FFFE>
@@ -123,39 +123,39 @@
 121	Oooh, then surpass me！！<$FFFE>
 122	Adon！！ my iron fist will wake you up！！<$FFFE>
 123	Adoooon, I don't want to be alone！！<$FFFE>
-124	To lose to such a feeble fellow…<$FFFD>nnngh. I must train my body harder…<$FFFE>
+124	To lose to such a feeble fellow… nnngh. I<$FFFC>must train my body harder…<$FFFE>
 125	Nngh… you've all gotten stronger…<$FFFE>
-126	Big Bro Baran… snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
-127	Nngh, I've come to my senses！ this is no<$FFFC>place for me！<$FFFD>back to the gym！ we start over from<$FFFC>scratch！！<$FFFE>
+126	Big Bro Baran… snap out of it！ is your<$FFFC>builder spirit really only that much！？<$FFFE>
+127	Nngh, I've come to my senses！ this is no<$FFFC>place for me！ back to the gym！ we start<$FFFC>over from scratch！！<$FFFE>
 128	Yes, brother！！<$FFFE>
 129	Understood！！<$FFFE>
-130	I've taken a liking to you. from today<$FFFC>you're little Josephine.<$FFFD>now, little Josephine, come along with me.<$FFFE>
+130	I've taken a liking to you. from today<$FFFC>you're little Josephine. now, little<$FFFC>Josephine, come along with me.<$FFFE>
 131	Yes, madam…<$FFFE>
-132	…Young one, that was a good punch…<$FFFD>but in this world, you're still number 2…<$FFFE>
+132	…Young one, that was a good punch… but in<$FFFC>this world, you're still number 2…<$FFFE>
 133	Nngh… I really can't beat Big Bro Baran…<$FFFE>
-134	Adon！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
+134	Adon！！ snap out of it！ is your builder<$FFFC>spirit really only that much！？<$FFFE>
 135	Ohh, bravooo！ that's Big Bro Baran for<$FFFC>you！ I've come to my senses.<$FFFE>
 136	All right, we start over from scratch！！<$FFFE>
 137	Yes, brother！！<$FFFE>
 138	Nngh… to think I couldn't beat Samson…<$FFFE>
-139	Adon！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
+139	Adon！！ snap out of it！ is your builder<$FFFC>spirit really only that much！？<$FFFE>
 140	Ohh, excellent！！ forgive me, Samson, I've<$FFFC>come to my senses.<$FFFE>
 141	We train all over again from scratch！！<$FFFE>
 142	Okay！！<$FFFE>
-143	I've taken a liking to you. from today<$FFFC>you're little Carol.<$FFFD>now, little Carol, come along with me.<$FFFE>
+143	I've taken a liking to you. from today<$FFFC>you're little Carol. now, little Carol,<$FFFC>come along with me.<$FFFE>
 144	Yes, madam…<$FFFE>
 145	Cup noodles alone really aren't enough…<$FFFC>I'm done for！！<$FFFE>
 146	Nngh… I really can't beat Big Bro Baran…<$FFFE>
-147	Samson！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
+147	Samson！！ snap out of it！ is your builder<$FFFC>spirit really only that much！？<$FFFE>
 148	Ohh, bravooo！ that's Big Bro Baran for<$FFFC>you！ the scales have fallen from my<$FFFC>eyes！<$FFFE>
 149	All right, we start over from scratch！！<$FFFE>
 150	Yes, brother！！<$FFFE>
 151	Nngh… to think I couldn't beat Adon…<$FFFE>
-152	Samson！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
+152	Samson！！ snap out of it！ is your builder<$FFFC>spirit really only that much！？<$FFFE>
 153	Ohh, excellent！！ forgive me, Adon, I've<$FFFC>come to my senses.<$FFFE>
 154	We train all over again from scratch！！<$FFFE>
 155	Okay！！<$FFFE>
-156	I've taken a liking to you. from today<$FFFC>you're little Mike.<$FFFD>now, little Mike, come along with me.<$FFFE>
+156	I've taken a liking to you. from today<$FFFC>you're little Mike. now, little Mike, come<$FFFC>along with me.<$FFFE>
 157	Yes, madam…<$FFFE>
 158	Why am I the only <$FFF4>Mike<$FFF3>！？ besides, there's<$FFFC>no <$FFF4>hair<$FFF3> on me！<$FFFE>
 159	It doesn't matter！！ I've decided and<$FFFC>that's final！！<$FFFE>
@@ -189,20 +189,20 @@
 187	Welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
 188	Oh？ I left it at home.<$FFFE>
 189	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
-190	I forgot it, what can I do！ are you<$FFFC>telling me to go home for it now！<$FFFD>or are you saying you won't let a regular<$FFFC>like me buy anything！？<$FFFE>
-191	N-no. nothing of the sort…<$FFFD>you only ever look and never buy, though…<$FFFE>
+190	I forgot it, what can I do！ are you<$FFFC>telling me to go home for it now！ or are<$FFFC>you saying you won't let a regular like me<$FFFC>buy anything！？<$FFFE>
+191	N-no. nothing of the sort… you only<$FFFC>ever look and never buy, though…<$FFFE>
 192	Good. then I'll be going in！<$FFFE>
 193	Catherine！ come along！<$FFFE>
 194	WOOOF！！<$FFFE>
 195	M-madam！？ such a dangerous animal is<$FFF8>…<$FFFE>
-196	What do you mean, dangerous animal！ this<$FFFC>is Catherine the dog, a male！ a member of<$FFFC>my family！<$FFFD>and you call him a dangerous animal…<$FFFE>
+196	What do you mean, dangerous animal！ this<$FFFC>is Catherine the dog, a male！ a member of<$FFFC>my family！ and you call him a dangerous<$FFFC>animal…<$FFFE>
 197	A-aha, aha…<$FFFD>my apologies. please, do come in<$FFF8>…<$FFFD><$FFF8>just you wait, someday！<$FFFE>
 198	Welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
 199	I don't have one.<$FFFE>
 200	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
 201	That last person got in without one！ so<$FFFC>you're saying I'm the one who can't？<$FFFE>
 202	Then, since that crawler is dangerous<$FFF8>…<$FFFE>
-203	This little one dies if separated from me,<$FFFC>you know？ leave him out here and he'll<$FFFC>die.<$FFFD>will you take responsibility if that<$FFFC>happens？<$FFFE>
+203	This little one dies if separated from me,<$FFFC>you know？ leave him out here and he'll<$FFFC>die. will you take responsibility if that<$FFFC>happens？<$FFFE>
 204	<$FFF8>I give up…<$FFF6> please, do come in<$FFF8>…<$FFFE>
 205	<$FFF8>Ugh！ another one just like the others…<$FFFE>
 206	Welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
@@ -216,10 +216,10 @@
 214	<$FFF8>Anyone can just enter a pageant！<$FFF6><$FFFB> very<$FFFC>well. please come in.<$FFFE>
 215	<$FFF8>Maybe I should quit this job…<$FFFE>
 216	Little Pyonko～！ not that way～！<$FFFE>
-217	<$FFF8>Now it's a poison frog…<$FFF6><$FFFD>welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
+217	<$FFF8>Now it's a poison frog…<$FFF6> welcome！ do you<$FFFC>have a special invitation ticket？<$FFFE>
 218	Oh my. little Pyonko went in all by<$FFFC>himself. he'll come right out, so let me<$FFFC>in！<$FFFE>
 219	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
-220	Hey！ what'll you do if Pyonko goes<$FFFC>missing！<$FFFD>I'm going in！<$FFFE>
+220	Hey！ what'll you do if Pyonko goes<$FFFC>missing！ I'm going in！<$FFFE>
 221	Little Pyonko～！！<$FFFE>
 222	<$FFFA><$FFF8>I just can't anymore…<$FFFE>
 223	Now then, let me present today's feature<$FFFC>items♡<$FFFE>
@@ -228,20 +228,20 @@
 226	・About the <$FFF4>Book of Spacetime<$FFF3><$FFFE>
 227	・To the next item<$FFFE>
 228	・End explanations<$FFFE>
-229	Ah yes, the <$FFF4>Maid Employment Contract<$FFF3>.<$FFFD>By signing a personal contract with the<$FFFC>Maid Dispatch Association, you can hire<$FFFC>maids at the mercenary office.<$FFFD>They have zero combat ability, but they're<$FFFC>experts at cleaning, laundry, cooking,<$FFFC>shopping, and all household work.<$FFFE>
+229	Ah yes, the <$FFF4>Maid Employment Contract<$FFF3>. By<$FFFC>signing a personal contract with the Maid<$FFFC>Dispatch Association, you can hire maids<$FFFC>at the mercenary office.<$FFFD>They have zero combat ability, but they're<$FFFC>experts at cleaning, laundry, cooking,<$FFFC>shopping, and all household work.<$FFFE>
 230	Highly recommended for single men prone to<$FFFC>a sloppy lifestyle♡<$FFFE>
-231	Today, at a special sale price, the<$FFFC>contract fee is an amazing <$FFF4>1000P<$FFF3>.<$FFFD>only one contract per customer, so if<$FFFC>interested, please act fast.<$FFFE>
-232	Ah yes, the <$FFF4>Book of Spacetime, a copy<$FFF3>.<$FFFD>This is a grimoire inscribed with magic<$FFFC>that bends time and space to let a unit<$FFFC>that has already acted move again.<$FFFD>Normally only renowned mages can obtain<$FFFC>this rare grimoire, but today we offer an<$FFFC>excerpt of the copy at a reasonable price.<$FFFE>
+231	Today, at a special sale price, the<$FFFC>contract fee is an amazing <$FFF4>1000P<$FFF3>. only<$FFFC>one contract per customer, so if<$FFFC>interested, please act fast.<$FFFE>
+232	Ah yes, the <$FFF4>Book of Spacetime, a copy<$FFF3>.<$FFFC>This is a grimoire inscribed with magic<$FFFC>that bends time and space to let a unit<$FFFC>that has already acted move again.<$FFFD>Normally only renowned mages can obtain<$FFFC>this rare grimoire, but today we offer an<$FFFC>excerpt of the copy at a reasonable price.<$FFFE>
 233	It's magic with limited uses, but in the<$FFFC>crucial moment its power shines through…<$FFFE>
-234	whether it does or not is up to the user.<$FFFD>as for the price you're wondering about,<$FFFC>since it's an excerpt of a copy… we'll<$FFFC>let it go for <$FFF4>800P<$FFF3>.<$FFFE>
+234	whether it does or not is up to the user.<$FFFC>as for the price you're wondering about,<$FFFC>since it's an excerpt of a copy… we'll<$FFFC>let it go for <$FFF4>800P<$FFF3>.<$FFFE>
 235	What would you like explained？<$FFFE>
 236	・About the <$FFF4>Book of the Strike<$FFF3><$FFFE>
 237	・About the <$FFF4>Apron Dress<$FFF3><$FFFE>
 238	・To the previous item<$FFFE>
-239	Ah yes, the <$FFF4>Book of the Strike, reprint<$FFFC>edition<$FFF3>.<$FFFD>Going back in time to… checking the cheat<$FFFC>sheet<$FFFD>…uh, anyway, it's a book written by<$FFFC>someone long ago<$0663> apparently it wasn't<$FFFD>read this and anyone can learn the<$FFFC><$FFF4>Critical skill<$FFF3>, a fine product indeed.<$FFFE>
+239	Ah yes, the <$FFF4>Book of the Strike, reprint<$FFFC>edition<$FFF3>. Going back in time to… checking<$FFFC>the cheat sheet<$FFFD>…uh, anyway, it's a book written by<$FFFC>someone long ago<$0663> apparently it wasn't<$FFFC>read this and anyone can learn the<$FFFC><$FFF4>Critical skill<$FFF3>, a fine product indeed.<$FFFE>
 240	So it's a skill recommended for those<$FFFC>whose AT is too low to pierce the<$FFFC>enemy's DF？<$FFFE>
 241	That's right. regardless of warrior class,<$FFFC>it's recommended for everyone.<$FFFD>today at a special price, it's an<$FFFC>amazing！ just <$FFF4>500P<$FFF3>！！ a must-have to<$FFFC>keep one copy in every home.<$FFFE>
-242	Ah yes, the <$FFF4>Apron Dress<$FFF3>.<$FFFD>It's an apron dress of the same design as<$FFFC>the ones we wear. made from sturdy fabric,<$FFFC>so it's durable and long-lasting.<$FFFE>
+242	Ah yes, the <$FFF4>Apron Dress<$FFF3>. It's an apron<$FFFC>dress of the same design as the ones we<$FFFC>wear. made from sturdy fabric, so it's<$FFFC>durable and long-lasting.<$FFFE>
 243	Only women can wear it, but wearing it<$FFFC>grants the blessing of the Maid Goddess,<$FFFC>letting you transform into a maid.<$FFFD>now, as for the price you're wondering<$FFFC>about… how much could it be？<$FFFE>
 244	Yes. as for the price… it's an amazing,<$FFFC>bleeding-us-dry bargain of <$FFF4>30P<$FFF3>！！<$FFFE>
 245	An irresistible item for maid fans.<$FFFE>
@@ -298,21 +298,21 @@
 296	Then let's meet again in 99 years♡<$FFFE>
 297	<$FFFA><$FFF8>………<$FFFB> <$FFF6><$FFF9>if we're still alive by then<$FFF8>…<$FFFE>
 298	This one here, how much！？<$FFFE>
-299	Huh？<$FFFB> oh, no… pardon me…<$0663><$FFFD>that gentleman is a customer, not<$FFFC>merchandise…<$FFFE>
+299	Huh？<$FFFB> oh, no… pardon me…<$0663> that<$FFFC>gentleman is a customer, not merchandise…<$FFFE>
 300	<$FFF4>How much, I said！？<$FFF3><$FFFE>
 301	Y-yes<$0663><$FFFB> screw it… how about 8…<$FFFC>800P…<$FFFE>
 302	Sold！！<$FFFE>
 303	<$0000> <$FFF4>Baran has been sold off！！<$FFF3><$FFFE>
 304	Noo<$00E4><$00E5><$00E5><$00E5><$00E6>, I'm not<$FFFC>merchandise<$00E4><$00E5><$00E5><$00E6>！！<$FFFE>
 305	Are you all right…？<$FFFE>
-306	<$FFF8>…Ohh！？<$0000>I sense a wonderful adventure！<$FFFD><$FFF4>sharp look<$FFF3><$FFFD>No, lovely young lady. for your sake, this<$FFFC>Baran will gladly do 100,000 squats and<$FFFC>a million sit-ups♡<$FFFE>
+306	<$FFF8>…Ohh！？<$0000>I sense a wonderful adventure！<$FFFC><$FFF4>sharp look<$FFF3> No, lovely young lady. for your<$FFFC>sake, this Baran will gladly do 100,000<$FFFC>squats and a million sit-ups♡<$FFFE>
 307	Big Bro Baran, you're absolutely smitten.<$FFFE>
 308	Hmph, this is training for the muscles<$FFFC>under my nose！<$FFFE>
 309	<$FFF8>This guy isn't even making sense… <$FFF6>anyway,<$FFFC>please head to the warehouse.<$FFFE>
 310	And where is this warehouse？<$FFFE>
 311	Right here. now then, off you go～～♡<$FFFE>
 312	This one here, how much！？<$FFFE>
-313	Huh？<$FFFB> oh, no… pardon me…<$0663><$FFFD>that gentleman is a customer, not<$FFFC>merchandise…<$FFFE>
+313	Huh？<$FFFB> oh, no… pardon me…<$0663> that<$FFFC>gentleman is a customer, not merchandise…<$FFFE>
 314	<$FFF4>How much, I said！？<$FFF3><$FFFE>
 315	Y-yes<$0663><$FFFB> screw it… how about 5…<$FFFC>500P…<$FFFE>
 316	Sold！！<$FFFE>
@@ -325,12 +325,12 @@
 323	Poooosiiing！<$FFFE>
 324	<$FFF8>These people really are weird… let's just<$FFFC>hurry them off to the warehouse<$FFFE>
 325	This one here, how much！？<$FFFE>
-326	Huh？<$FFFB> oh, no… pardon me…<$0663><$FFFD>that gentleman is a customer, not<$FFFC>merchandise…<$FFFE>
+326	Huh？<$FFFB> oh, no… pardon me…<$0663> that<$FFFC>gentleman is a customer, not merchandise…<$FFFE>
 327	<$FFF4>How much, I said！？<$FFF3><$FFFE>
 328	Y-yes<$0663><$FFFB> screw it… how about 5… 30P…<$FFFE>
 329	…Well, fine. sold！！<$FFFE>
 330	<$0000> <$FFF4>Samson has been sold off！！<$FFF3><$FFFE>
-331	Why is my price only 30P<$00E4><$00E5><$00E6>！？<$FFFD><$FFF4>I won't accept this<$00E4><$00E5><$00E5><$00E5><$00E6>！！<$FFF3> a cry<$FFFC>from the soul<$FFFE>
+331	Why is my price only 30P<$00E4><$00E5><$00E6>！？ <$FFF4>I<$FFFC>won't accept this<$00E4><$00E5><$00E5><$00E5><$00E6>！！<$FFF3> a cry<$FFFC>from the soul<$FFFE>
 332	Samson, such is life.<$FFFE>
 333	I won't accept this！！！<$FFFE>
 334	Please accept it and head to the<$FFFC>warehouse♡<$FFFE>

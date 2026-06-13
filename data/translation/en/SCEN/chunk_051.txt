@@ -25,9 +25,9 @@
 23	<$FB00><$0078>We did it！<$FFFE>
 24	<$FFF8><$FB00><$0079>…Nngh…,<$FFF6>why… I took the dark<$FFFC>god…gained Alhazard…, yet I lose to<$FFFC>humans<$FFF5><$FFF8>…？<$FFFE>
 25	<$FB00><$007A>You know why best, don't you？<$FFFC><$FFF5><$FFF8><$FE28>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>We too believed in ourselves.<$FFFE>
-26	<$FB00><$007C>Exactly. You used people for<$FFFC>power.<$FFFD>We made friends our strength.<$FFFE>
+26	<$FB00><$007C>Exactly. You used people for<$FFFC>power. We made friends our strength.<$FFFE>
 27	<$FB00><$007D>One who trusts no one drowns in<$FFFC>his own power. How lonely.<$FFFE>
 28	<$FB00><$007E>I refuse… I will not accept<$FFFC>this… I…will<$FFF5><$FFF8><$FE28>…<$FE28>…<$FE28><$FFFE>
 29	<$FFFA><$FB00><$000C>Pitiful man…<$FFFE>
-30	<$0000><$F600><$0000>'s group reached the<$FFFC>demon stronghold, but Caconsis had taken<$FFFC>the Sage's Crystal.<$FFFD><$0000>As they gave chase, Aizer blocked the<$FFFC>way.<$FFFE>
+30	<$0000><$F600><$0000>'s group reached the<$FFFC>demon stronghold, but Caconsis had taken<$FFFC>the Sage's Crystal. <$0000>As they gave chase,<$FFFC>Aizer blocked the way.<$FFFE>
 31	Victory<$FFFC><$0000><$FFFC>・Defeat Aizer<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

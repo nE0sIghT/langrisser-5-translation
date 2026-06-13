@@ -20,16 +20,16 @@
 18	To command two mercenary types, you need<$FFFC>the <$FFF4>Mixed Mercs skill<$FFF3>.<$FFFE>
 19	How do we learn it？<$FFFE>
 20	At LV10 after battle EXP, you can<$FFFC><$FFF4>Class Change<$FFF3>. New classes teach new<$FFFC>skills.<$FFFE>
-21	When assigning mercs, choose both types<$FFFC>first, then each number.<$FFFD>Until now it was <$FFF4>Choose Mercs<$FFF3>, then <$FFF4>Set<$FFFC>Number<$FFF3>.<$FFFD>With mixed mercs, pick type one, type two,<$FFFC>then each number.<$FFFE>
+21	When assigning mercs, choose both types<$FFFC>first, then each number. Until now it was<$FFFC><$FFF4>Choose Mercs<$FFF3>, then <$FFF4>Set Number<$FFF3>.<$FFFD>With mixed mercs, pick type one, type two,<$FFFC>then each number.<$FFFE>
 22	So choose two types before choosing how<$FFFC>many mercs to hire.<$FFFE>
 23	That's the way of it.<$FFFE>
 24	One more thing. I want to check <$FFF4>summoned<$FFFC>beast magic <$FFF3>too.<$FFFE>
 25	Summoned beast magic…<$FFFE>
 26	・I know it<$FFFE>
 27	・Explain it<$FFFE>
-28	If <$FFF4>casting time <$FFF3>fits within <$FFF4>action<$FFFC>points<$FFF3>, the spell fires at once.<$FFFD>If not, it waits until the next action,<$FFFC>right？<$FFFE>
+28	If <$FFF4>casting time <$FFF3>fits within <$FFF4>action<$FFFC>points<$FFF3>, the spell fires at once. If not,<$FFFC>it waits until the next action, right？<$FFFE>
 29	Exactly. A short-cast spell can be used<$FFFC>right away.<$FFFE>
-30	For beast magic, if <$FFF4>action points exceed<$FFFC>casting time<$FFF3>, it fires at once.<$FFFD>If not, it waits until the next command.<$FFFE>
+30	For beast magic, if <$FFF4>action points exceed<$FFFC>casting time<$FFF3>, it fires at once. If not, it<$FFFC>waits until the next command.<$FFFE>
 31	I see. Short-cast spells can fire right<$FFFC>away.<$FFFE>
 32	Still, he is late. He should be here by<$FFFC>now.<$FFFE>
 33	Please wait for me！<$FFFE>

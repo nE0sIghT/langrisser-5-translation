@@ -65,7 +65,7 @@
 63	It's nothing… A scratch like this…<$FFFE>
 64	But if anything happens to you now…<$FFFC>Please, don't push yourself, rest！<$FFFE>
 65	Forgive me, Aizer.<$FFFE>
-66	To think they would beat not just Aizer<$FFFC>but me as well…<$FFFD>But I cannot die here…<$FFFE>
+66	To think they would beat not just Aizer<$FFFC>but me as well… But I cannot die here…<$FFFE>
 67	Im…impossible… Was I careless…<$FFFE>
 68	Stand back, Aizer. I can't have you die<$FFFC>yet.<$FFFE>
 69	My apologies, Lord Lainforce.<$FFFE>
@@ -79,8 +79,8 @@
 77	There is a switch on the panel. Press it？<$FFFE>
 78	The sound came from here！<$FFFE>
 79	The machine started up.<$FFFE>
-80	A black robe appeared on the table！<$FFFD><$0000><$0000>Got the <$FFF4>Dark Robe<$FFF3>！<$FFFE>
-81	A single wand appeared on the table！<$FFFD><$0000><$0000>Got the <$FFF4>Wand<$FFF3>！<$FFFE>
+80	A black robe appeared on the table！<$FFFC><$0000><$0000>Got the <$FFF4>Dark Robe<$FFF3>！<$FFFE>
+81	A single wand appeared on the table！<$FFFC><$0000><$0000>Got the <$FFF4>Wand<$FFF3>！<$FFFE>
 82	<$FB00><$003D>So you're the target<$FFFC>specimen？<$FFFE>
 83	<$FB00><$003E>Or is it you？<$FFFE>
 84	？<$FB00><$0042>What are you talking about？<$FFFE>
@@ -112,7 +112,7 @@
 110	<$FB00><$005D>D…damn… If only I had<$FFFC><$FFF4>Langrisser<$FFF3>, scum like you would <$FFF5><$FFF8>…<$FFFE>
 111	I have come for you, Lord Lainforce.<$FFFE>
 112	Z…Zero…<$FFFE>
-113	What a state you are in…<$FFFD>How did this happen with you at his side,<$FFFC>Aizer？<$FFFE>
+113	What a state you are in… How did this<$FFFC>happen with you at his side, Aizer？<$FFFE>
 114	Ugh…ugh…<$FFFE>
 115	Never mind that, Zero. The third<$FFFC>specimen…<$FFFE>
 116	By your will.<$FFFE>

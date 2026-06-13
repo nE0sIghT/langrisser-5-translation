@@ -23,9 +23,9 @@
 21	<$FB00><$0049>Where are you, brother！<$FFFE>
 22	<$FB00><$004A>Such noise, Alfred. Father<$FFFC>told you to be quiet indoors, did he not？<$FFFD><$FB00><$004B>And how dare a great criminal who murdered<$FFFC>his own parent show his face in this<$FFFC>manor.<$FFFE>
 23	<$FB00><$004C>We already know you switched<$FFFC>the medicine！<$FFFE>
-24	<$FB00><$004D>That's right. But Alfred was a<$FFFC>fool to be deceived.<$FFFD><$FB00><$004E>Thanks to it, I hold great wealth and<$FFFC>power now. The truth no longer matters.<$FFFD>Kill you all, and none will be left to<$FFFC>speak of it.<$FFFE>
+24	<$FB00><$004D>That's right. But Alfred was a<$FFFC>fool to be deceived.<$FFFD><$FB00><$004E>Thanks to it, I hold great wealth and<$FFFC>power now. The truth no longer matters.<$FFFC>Kill you all, and none will be left to<$FFFC>speak of it.<$FFFE>
 25	<$FB00><$004F>Never mind that, brother！<$FFFC>Lainforce is deceiving you！ What he means<$FFFC>to do is<$FFF5><$FFF8>…<$FFFE>
-26	<$FB00><$0050>Silence. I trust nothing that<$FFFC>man says. He thinks to use me to feed his<$FFFC>greed.<$FFFD><$FB00><$0051>But greed is a feeling all hold. I have it<$FFFC>too.<$FFFD>No, I joined him because I saw my greed<$FFFC>runs deeper than most.<$FFFE>
+26	<$FB00><$0050>Silence. I trust nothing that<$FFFC>man says. He thinks to use me to feed his<$FFFC>greed.<$FFFD><$FB00><$0051>But greed is a feeling all hold. I have it<$FFFC>too. No, I joined him because I saw my<$FFFC>greed runs deeper than most.<$FFFE>
 27	<$FB00><$0052>Brother<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$0053>Greed is a primal yet noble<$FFFC>feeling in man. Without it, man cannot<$FFFC>move forward.<$FFFD><$FB00><$0054>Swordsmanship, learning, wealth, honor,<$FFFC>all were born of greed.<$FFFD><$FB00><$0055>This greed is the decisive difference<$FFFC>between beast and man！<$FFFE>
 29	<$FB00><$0056>Alvince. I knew a man who held<$FFFC>ambition as great as yours.<$FFFE>
@@ -107,8 +107,8 @@
 105	GOOON…<$FFFE>
 106	G…GG…<$FFFE>
 107	V…VO…N…<$FFFE>
-108	It seems this is the end of it.<$FFFD>No more worry of our escape being blocked.<$FFFC>Everyone, hurry and escape！<$FFFE>
-109	It seems this is the end of it.<$FFFD>No more worry of our escape being blocked.<$FFFC>Hurry and escape！<$FFFE>
+108	It seems this is the end of it. No more<$FFFC>worry of our escape being blocked.<$FFFC>Everyone, hurry and escape！<$FFFE>
+109	It seems this is the end of it. No more<$FFFC>worry of our escape being blocked. Hurry<$FFFC>and escape！<$FFFE>
 110	<$FB00><$0063>Enough, what are you doing！<$FFFC>Worthless wretches！<$FFFE>
 111	<$FB00><$0064>Prepare yourself！<$FFFE>
 112	<$FB00><$0065>Heh heh heh！ I cannot be<$FFFC>beaten by the likes of you！<$FFFE>

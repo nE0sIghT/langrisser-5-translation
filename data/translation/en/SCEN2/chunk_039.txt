@@ -22,7 +22,7 @@
 20	Drinks are charged separately, though…<$FFFE>
 21	That's fine. We'll order those later.<$FFFE>
 22	Then let me show you to your room～♪<$FFFE>
-23	Don't give up～ like a shooting star～ a<$FFFC>way of life that shines as it runs～♪<$FFFD>Don't forget～ I'll be here～ I'll always<$FFFC>support you～ no matter when～♪<$FFFE>
+23	Don't give up～ like a shooting star～ a<$FFFC>way of life that shines as it runs～♪<$FFFC>Don't forget～ I'll be here～ I'll always<$FFFC>support you～ no matter when～♪<$FFFE>
 24	Big Bro Baran～！ You're the best～！<$FFFE>
 25	Bravo～！<$FFFE>
 26	Now, for the score…<$FFFE>
@@ -63,14 +63,14 @@
 61	Glare！<$FFFE>
 62	Waaah<$0663> I'm truly very sorry<$0663><$FFFE>
 63	All right. Let's head back, everyone…<$FFFE>
-64	Hooold it！<$FFFD>Meeting here must be some kind of fate.<$FFFC>You lot, sing with us！<$FFFE>
+64	Hooold it！ Meeting here must be some kind<$FFFC>of fate. You lot, sing with us！<$FFFE>
 65	Whaat！ Really！？<$FFFE>
 66	Bro！？<$FFFE>
 67	A true gentleman cannot abandon ladies in<$FFFC>distress… Isn't that right, Adon？<$FFFE>
 68	Yes, brotherrr…！<$FFFE>
 69	So there you have it. Sing with us.<$FFFE>
 70	Sorry about this.<$FFFE>
-71	However！<$FFFD>Just singing would be boring. Let's make<$FFFC>it a contest, shall we？<$FFFE>
+71	However！ Just singing would be boring.<$FFFC>Let's make it a contest, shall we？<$FFFE>
 72	Figures… I thought this sounded too good<$FFFC>to be true…<$FFFE>
 73	I'll do the contest！ If I compete, I get<$FFFC>to sing, right？<$FFFE>
 74	What do you think？<$FFFE>
@@ -84,17 +84,17 @@
 82	Good grief…<$FFFE>
 83	Either's fine with me. I'll leave it to<$FFFC>everyone！<$FFFE>
 84	Then let's sing！ It's decided！<$FFFE>
-85	Looks like it's settled…<$FFFD>Then I'll announce the rules！<$FFFD>There is just one microphone here. Grab<$FFFC>it, carry it to the stage, and sing your<$FFFC>signature song.<$FFFE>
+85	Looks like it's settled… Then I'll<$FFFC>announce the rules！ There is just one<$FFFC>microphone here. Grab it, carry it to the<$FFFC>stage, and sing your signature song.<$FFFE>
 86	The stage？<$FFFE>
 87	Stage<$FFFF>
-88	Right here！ Leave this spot and you're<$FFFC>disqualified！<$FFFD>And you must sing one full chorus. A<$FFFC>chorus counts as done on your next action.<$FFFE>
+88	Right here！ Leave this spot and you're<$FFFC>disqualified！ And you must sing one full<$FFFC>chorus. A chorus counts as done on your<$FFFC>next action.<$FFFE>
 89	So you start singing once you reach the<$FFFC>stage？<$FFFE>
 90	Now, once you finish singing, pass the mic<$FFFC>to an ally who hasn't sung yet. You can<$FFFC>hand it over by getting close to them.<$FFFD>When all your allies have finished<$FFFC>singing, you win…<$FFFE>
 91	But, these folks can only sing for 20<$FFFC>minutes…<$FFFE>
 92	Then we'll add a time limit. Counting 1<$FFFC>minute as 1 turn, settle it within 20<$FFFC>turns.<$FFFE>
 93	But, these folks can only sing for 30<$FFFC>minutes…<$FFFE>
 94	Then we'll add a time limit. Counting 1<$FFFC>minute as 1 turn, settle it within 30<$FFFC>turns.<$FFFE>
-95	Interesting. I've no interest in singing,<$FFFC>but a contest I'll accept！<$FFFD>Everyone, prepare for battle！ Choose your<$FFFC>mercenaries！<$FFFE>
+95	Interesting. I've no interest in singing,<$FFFC>but a contest I'll accept！ Everyone,<$FFFC>prepare for battle！ Choose your<$FFFC>mercenaries！<$FFFE>
 96	Oh no you don't<$0663> Your coupon is for <$FFF4>up<$FFFC>to 5 people, 20 min free<$FFF3>, you see<$0663><$FFFE>
 97	Oh no you don't<$0663> Your coupon is for <$FFF4>up<$FFFC>to 5 people, 30 min free<$FFF3>, you see<$0663><$FFFE>
 98	Guess we have to fight without<$FFFC>mercenaries.<$FFFE>
@@ -122,7 +122,7 @@
 120	Karaoke really is the best～！<$FFFE>
 121	Song goes on… ♪Like this～great earth～<$FFFC><$0000>to live boldly～<$0000>that is a true man～♪<$FFFE>
 122	Nwahaha！ No man suits enka quite like<$FFFC>me！<$FFFE>
-123	Song goes on…<$FFFD>With <$FFF4>Big-Bro<$FFF3>,<$0000>la la la<$FFFC>la,<$0000>let's<$0000>head out window<$FFFC>shopping<$0000>matching shorts<$FFFD>Baran, Adon and Samson<$0000><$FFF4>tehe♡<$FFF3> split in<$FFFC>two<$0000>like Mt. Tsukuba～♪<$FFFE>
+123	Song goes on… With <$FFF4>Big-Bro<$FFF3>,<$0000>la la la<$FFFC>la,<$0000>let's<$0000>head out window<$FFFC>shopping<$0000>matching shorts<$FFFD>Baran, Adon and Samson<$0000><$FFF4>tehe♡<$FFF3> split in<$FFFC>two<$0000>like Mt. Tsukuba～♪<$FFFE>
 124	<$FFF4>Su-per-satisfied<$FFF3><$0000>des！<$FFFE>
 125	Song goes on… ♪Straighten your<$FFFC>spine<$0000>stretch and bend <$0000>muscle<$FFFC>exercise<$0000>1, 2, 3, 4…♪<$FFFE>
 126	Huff, huff… wrong song choice, des…<$FFFC>Couldn't catch my breath, thought I'd die,<$FFFC>des！<$FFFE>
@@ -135,12 +135,12 @@
 133	AH～, still unseen～ I reach my hand<$FFFC>into the era and search～ where is the<$FFFC>real me～<$FFFE>
 134	I've sung my part.<$FFFE>
 135	Believe it or not, I've taken singing<$FFFC>lessons！ Please feel my song with your<$FFFC>heart！<$FFFE>
-136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break<$FFFC>through this night～and run～♪<$FFFC>BRAKE<$0000>THE<$0000>SUN no one looks<$FFFC>back～♪<$FFFE>
+136	1, 2, 3… BRAKE<$0000>THE<$0000>NIGHT<$FFFC>break through this night～and run～♪<$FFFC>BRAKE<$0000>THE<$0000>SUN no one looks<$FFFC>back～♪<$FFFE>
 137	Huh？ But I've already sung…<$FFFE>
 138	My song's got a kinda long intro, though…<$FFFC>Music, start！<$FFFE>
 139	For someone, for something I keep on<$FFFC>fighting～ happiness was long, long ago～<$FFFC>a dream I'm tired of seeing～♪<$FFFE>
 140	I've already had my turn, though.<$FFFE>
-141	Everyone～！ thanks-for-wait-ing～♡<$FFFC>it's the pretty warrior princess Clarett♡<$FFFD>Let's get pumped！ Let's come on, music！<$FFFC>Everybody sing along！<$FFFE>
+141	Everyone～！ thanks-for-wait-ing～♡<$FFFC>it's the pretty warrior princess Clarett♡<$FFFC>Let's get pumped！ Let's come on, music！<$FFFC>Everybody sing along！<$FFFE>
 142	What can I do？ for your sake～♪ you who<$FFFC>fear no pain<$0000>am I only watching over<$FFFC>you？<$FFFD>if that's just ordinary love<$0000>I'll shatter<$FFFC>it burning like a flame<$0000>that is my<$FFFC>stance～♪<$FFFE>
 143	Huh？ I get to sing again？<$FFFE>
 144	Pass the mic to Lambda？<$FFFE>
@@ -164,9 +164,9 @@
 162	Pass the mic to Clarett？<$FFFE>
 163	Pass the mic to Brenda？<$FFFE>
 164	Whoa！ I'll settle this with style！<$FFFE>
-165	For real men, it's enka～！<$FFFD>♪Over fields, over mountains, over seas,<$FFFC><$0000>over valleys, over rivers～<$FFFC><$0000>wind<$0000>clouds<$0000>rain<$0000>snow<$0000>and thunder<$FFFD><$0000>even hail～<$0000>I take it all with my<$FFFC>body～♪<$FFFE>
+165	For real men, it's enka～！ ♪Over fields,<$FFFC>over mountains, over seas, <$0000>over<$FFFC>valleys, over rivers～<$FFFC><$0000>wind<$0000>clouds<$0000>rain<$0000>snow<$0000>and thunder<$FFFD><$0000>even hail～<$0000>I take it all with my<$FFFC>body～♪<$FFFE>
 166	Just listen to our theme song, would<$FFFC>ya～！<$FFFE>
-167	La la la, la la♪<$FFFD>With <$FFF4>Big-Bro<$FFF3>,<$0000>la la la<$FFFC>la,<$0000>together<$0000>let's dance put your<$FFFC>strength in<$0000>strike a pose<$FFFD>Baran, Adon and Samson<$0000><$FFF4>tehe♡<$FFF3> boom！ go<$FFFC>the fireworks<$0000>so pretty～♪<$FFFE>
+167	La la la, la la♪ With <$FFF4>Big-Bro<$FFF3>,<$0000>la<$FFFC>la la la,<$0000>together<$0000>let's dance put your<$FFFC>strength in<$0000>strike a pose<$FFFD>Baran, Adon and Samson<$0000><$FFF4>tehe♡<$FFF3> boom！ go<$FFFC>the fireworks<$0000>so pretty～♪<$FFFE>
 168	Let's go pop！<$FFFE>
 169	Stuff your cheeks with protein<$FFFC>dumbbell<$0000>dumbbell<$0000>1, 2, 3, 4！ slather<$FFFC>on the vaseline smile<$0000>smile<$0000>1, 2, 3,<$FFFC>4！<$FFFE>
 170	Adon！ the mic, take it～！<$FFFE>
@@ -213,7 +213,7 @@
 211	Not yet, not yet, des…<$FFFE>
 212	Listen to my song～！<$FFFE>
 213	Karaoke sure is fun…！<$FFFE>
-214	The red setting sun<$0000>in the darkening<$FFFC>night sky the moon grows ever brighter<$FFFD>migrating birds rest their wings<$0000>and now<$FFFC>will surely fall asleep<$FFFE>
+214	The red setting sun<$0000>in the darkening<$FFFC>night sky the moon grows ever brighter<$FFFC>migrating birds rest their wings<$0000>and now<$FFFC>will surely fall asleep<$FFFE>
 215	Today the stage is all mine！<$FFFE>
 216	Let's<$0000>go！ go<$0000>go<$0000>go！<$FFFE>
 217	Everybody！ are you feeling it～！<$FFFE>
@@ -221,11 +221,11 @@
 219	Hehehe… tonight I'm positively shining…<$FFFE>
 220	Ahh～youth～ my～youth～ give it<$FFFC>back！<$0000>give it back！<$0000>give it back～！<$FFFC>almost～<$0000>…<$0000>thirty<$FFFE>
 221	Am I big？ am I great？ yeah！<$FFFC>rock'n'roll～♪<$FFFE>
-222	Don't give up<$0000>like a shooting star a way<$FFFC>of life that shines as it runs<$FFFD>don't forget<$0000>I'm here for you I'll<$FFFC>support you<$0000>no matter when<$FFFE>
+222	Don't give up<$0000>like a shooting star a way<$FFFC>of life that shines as it runs don't<$FFFC>forget<$0000>I'm here for you I'll support<$FFFC>you<$0000>no matter when<$FFFE>
 223	Ugh, the best♡ like, feeling totally<$FFFC>alive？ y'know～？ outdated slang<$FFFE>
 224	Will this be over soon…？<$FFFE>
 225	Ahh～, I seriously wanna go do karaoke,<$FFFC>des！ <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
-226	The morning sun<$0000>rising in the eastern<$FFFC>sky calls me to journey again today<$FFFD>sometimes I feel like giving up but<$FFFC>wonderful things happen too<$FFFE>
+226	The morning sun<$0000>rising in the eastern<$FFFC>sky calls me to journey again today<$FFFC>sometimes I feel like giving up but<$FFFC>wonderful things happen too<$FFFE>
 227	Truth is, I'm a <$FFF4>man<$FFF3>…<$FFFB> <$0000> just kidding,<$FFFC>that's a lie<$FFF4>♡<$FFF3><$FFFE>
 228	…Hey, what else am I supposed to talk<$FFFC>about？<$FFFE>
 229	This is bad！ the villagers are running<$FFFC>out of material！<$FFFE>
@@ -233,7 +233,7 @@
 231	A fragment called a dream each person<$FFFC>carries within we are born<$0000>and live on,<$FFFC>after all so never be swept away<$FFFE>
 232	Yaawn… I'm so sleepy…<$FFFB> don't make a girl<$FFFC>pull an all-nighter.<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
 233	Ahh～, I seriously wanna go do karaoke,<$FFFC>des！ <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
-234	The morning sun<$0000>rising in the eastern<$FFFC>sky calls me to journey again today<$FFFD>sometimes I feel like giving up but<$FFFC>wonderful things happen too<$FFFE>
+234	The morning sun<$0000>rising in the eastern<$FFFC>sky calls me to journey again today<$FFFC>sometimes I feel like giving up but<$FFFC>wonderful things happen too<$FFFE>
 235	Truth is, I'm a <$FFF4>man<$FFF3>…<$FFFB> <$0000> just kidding,<$FFFC>that's a lie<$FFF4>♡<$FFF3><$FFFE>
 236	…Hey, what else am I supposed to talk<$FFFC>about？<$FFFE>
 237	This is bad！ the villagers are running<$FFFC>out of material！<$FFFE>
@@ -248,7 +248,7 @@
 246	Karaoke really is the best for relieving<$FFFC>stress！ the dev folks said so too.<$FFFE>
 247	The dev folks… who？<$FFFE>
 248	No, um… well…<$FFFE>
-249	Quit spouting nonsense！<$FFFD>come on, we're heading to Estor, right！<$FFFE>
+249	Quit spouting nonsense！ come on, we're<$FFFC>heading to Estor, right！<$FFFE>
 250	All right, let's head for Estor！<$FFFE>
 251	Bro～… the mic's on you…<$FFFE>
 252	<$0000> The mic passed into Baran's hands！<$FFFE>
@@ -270,18 +270,18 @@
 268	Heh heh heh！ you're the first to give us<$FFFC>this much trouble！<$FFFE>
 269	Bro！ shall we bust out that move soon！？<$FFFE>
 270	Mmmf～～♡ I'm fired up～～♡<$FFFE>
-271	All right！<$FFFD>Adon！ Samson！ build up～！<$FFFE>
+271	All right！ Adon！ Samson！ build up～！<$FFFE>
 272	O～～kay！ brotherrr！<$FFFE>
 273	Ye～～s！ brotherrr！<$FFFE>
 274	<$0000> <$0000><$0000><$0000><$FFF4>Sweat swap, complete！<$FFFC><$0000><$0000><$0000>let's build up～～！<$FFF3><$FFFE>
-275	Stat change complete！<$FFFD>here we go！ you brats！<$FFFE>
-276	？<$FFFD>what even changed？<$FFFE>
+275	Stat change complete！ here we go！ you<$FFFC>brats！<$FFFE>
+276	？ what even changed？<$FFFE>
 277	Fight us and you'll find out！<$FFFE>
 278	So it's still not enough…<$FFFB> then！<$FFFE>
 279	<$0000> <$0000><$0000><$FFF4>Build Up, Part 2！<$FFF3><$FFFE>
 280	<$0000> <$0000><$0000><$FFF4>Super Strong Version！<$FFF3><$FFFE>
 281	That's kind of cheating～<$0663><$FFFE>
-282	Nngh…<$FFFB> even this isn't enough power！？<$FFFD>then！<$FFFE>
+282	Nngh…<$FFFB> even this isn't enough power！？<$FFFC>then！<$FFFE>
 283	<$0000> <$0000><$0000><$FFF4>Build Up, Part 3！<$FFF3><$FFFE>
 284	<$0000> <$0000><$0000><$FFF4>True Man Version！<$FFF3><$FFFE>
 285	I just can't keep up anymore…<$0663><$FFFE>

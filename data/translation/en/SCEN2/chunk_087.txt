@@ -12,7 +12,7 @@
 10	<$FB00><$0077>Right. Marshal Gizarof, you<$FFFC>said.<$FFFE>
 11	<$FB00><$0078>Yes.<$FFFE>
 12	<$FB00><$0079>Meeting him, we learn why we<$FFFC>were made. And that should tell us why we<$FFFC>were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one who woke<$FFFC>mid-fight<$FFF5><$FFF8>…<$FFFE>
-13	<$FB00><$007B>That was Omega. A specimen like<$FFFC>you.<$FFFD>Thanks to his waking we got away with<$FFFC>ease.<$FFFE>
+13	<$FB00><$007B>That was Omega. A specimen like<$FFFC>you. Thanks to his waking we got away with<$FFFC>ease.<$FFFE>
 14	<$FB00><$007C>What's become of him？ Shouldn't<$FFFC>we have helped him？<$FFFE>
 15	<$FB00><$007D>Go back, get caught ourselves？<$FFFC>How stupid. It's better this way.<$FFFD><$FB00><$007E>You too, if I slow you down, feel free to<$FFFC>run on ahead.<$FFFE>
 16	・I'll do just that.<$FFFE>
@@ -26,22 +26,22 @@
 24	<$FB00><$0085>We are made beings. Not like<$FFFC>ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even gotten a task<$FFFC>from the master yet. We're of use to no<$FFFC>one.<$FFFD><$FB00><$0087>A tool that ends unused might as well<$FFFC>never have been made.<$FFFD><$FB00><$0088>I will fulfill the purpose I was created<$FFFC>for. That is why I exist.<$FFFE>
 25	<$FB00><$0089>Why we exist, huh. Why are<$FFFC>people born, what do they live for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own purpose are<$FFFC>happier than those who just drift along.<$FFFE>
 26	<$FB00><$008B>You understand, then？<$FFFE>
-27	By the way, <$F600><$0000>. Do you know<$FFFC>the basics of battle？<$FFFD>I can teach you from my data.<$FFFE>
+27	By the way, <$F600><$0000>. Do you know<$FFFC>the basics of battle？ I can teach you from<$FFFC>my data.<$FFFE>
 28	Like what？<$FFFE>
-29	The difference between us <$FFF4>leaders <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>, say.<$FFFD>Well？ Remember it？<$FFFE>
+29	The difference between us <$FFF4>leaders <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>, say. Well？ Remember it？<$FFFE>
 30	・I know it.<$FFFE>
 31	・Remind me, just in case.<$FFFE>
 32	Good. You know the basics, then.<$FFFE>
-33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries before you<$FFFC>deploy.<$FFFD>How many you can hire depends on the<$FFFC>leader, <$FFF4>up to 6 <$FFF3>under one command.<$FFFE>
+33	A unit is made of a <$FFF4>leader <$FFF3>and<$FFFC><$FFF4>mercenaries<$FFF3>. Hire mercenaries before you<$FFFC>deploy. How many you can hire depends on<$FFFC>the leader, <$FFF4>up to 6 <$FFF3>under one command.<$FFFE>
 34	Yeah. That much I know.<$FFFE>
-35	Each leader has a <$FFF4>command range <$FFF3>that<$FFFC>grants <$FFF4>bonuses <$FFF3>to mercenaries fighting<$FFFC>inside it.<$FFFD>The bonuses are <$FFF4>『A+』『D+』『M+』<$FFF3>,<$FFFC>for <$FFF4>attack <$FFF3>, <$FFF4>defense <$FFF3>and <$FFF4>magic<$FFFC>resistance<$FFF3>.<$FFFD>Ranges show blue for us, green for NPCs,<$FFFC>red for enemies.<$FFFD>So when mercenaries fight, keep them<$FFFC>inside that range.<$FFFE>
-36	Command range… I'll keep it in mind.<$FFFD>And when I give orders, what should I<$FFFC>watch for？<$FFFE>
-37	Orders go out by unit.<$FFFD>Who moves next is set by whoever in the<$FFFC>unit has acted the most.<$FFFD>If ordering each mercenary is a chore, use<$FFFC><$FFF4>Cmd. <$FFF3>Mercenaries set to <$FFF4>Auto <$FFF3>follow it<$FFFC>on their own.<$FFFD>Mercenaries also <$FFF4>stock unused action<$FFFC>points for their next order<$FFF3>.<$FFFD>The unit acts on its lowest stock, arrows<$FFFC>above the action meter show the amount.<$FFFD>One warning, leaders cannot stock action<$FFFC>points.<$FFFE>
+35	Each leader has a <$FFF4>command range <$FFF3>that<$FFFC>grants <$FFF4>bonuses <$FFF3>to mercenaries fighting<$FFFC>inside it.<$FFFD>The bonuses are <$FFF4>『A+』『D+』『M+』<$FFF3>,<$FFFC>for <$FFF4>attack <$FFF3>, <$FFF4>defense <$FFF3>and <$FFF4>magic<$FFFC>resistance<$FFF3>. Ranges show blue for us, green<$FFFC>for NPCs, red for enemies.<$FFFD>So when mercenaries fight, keep them<$FFFC>inside that range.<$FFFE>
+36	Command range… I'll keep it in mind. And<$FFFC>when I give orders, what should I watch<$FFFC>for？<$FFFE>
+37	Orders go out by unit. Who moves next is<$FFFC>set by whoever in the unit has acted the<$FFFC>most.<$FFFD>If ordering each mercenary is a chore, use<$FFFC><$FFF4>Cmd. <$FFF3>Mercenaries set to <$FFF4>Auto <$FFF3>follow it<$FFFC>on their own.<$FFFD>Mercenaries also <$FFF4>stock unused action<$FFFC>points for their next order<$FFF3>. The unit<$FFFC>acts on its lowest stock, arrows above the<$FFFC>action meter show the amount.<$FFFD>One warning, leaders cannot stock action<$FFFC>points.<$FFFE>
 38	So, orders go by unit, and the next turn<$FFFC>follows whoever acted most.<$FFFD>Use Cmd. to skip ordering each mercenary,<$FFFC>and they carry spare action points to the<$FFFC>next turn.<$FFFE>
 39	Last one. Do you know how to stall enemies<$FFFC>efficiently？<$FFFE>
 40	Bring the <$FFF4>leader's HP to 7 or less<$FFF3>,<$FFFC>right？ I know that much.<$FFFE>
-41	Mercenaries and leaders both have <$FFF4>10 HP at<$FFFC>most<$FFF3>.<$FFFD>Healing restores <$FFF4>3 HP and 2 MP<$FFF3>.<$FFFD>Any unit at <$FFF4>7 HP or less <$FFF3>will try to<$FFFC>heal, but <$FFF4>only leaders have the Heal<$FFFC>command<$FFF3>.<$FFFD>Mercenaries can't recover unless they<$FFFC>start the next turn <$FFF4>next to their leader<$FFF3>.<$FFFD>Turn that around and you can stall whole<$FFFC>units.<$FFFE>
-42	I see. At <$FFF4>7 or less<$FFF3>, a leader stops to<$FFFC>heal.<$FFFD>So wound the leader, and the whole unit<$FFFC>grinds to a halt.<$FFFE>
+41	Mercenaries and leaders both have <$FFF4>10 HP at<$FFFC>most<$FFF3>. Healing restores <$FFF4>3 HP and 2 MP<$FFF3>.<$FFFD>Any unit at <$FFF4>7 HP or less <$FFF3>will try to<$FFFC>heal, but <$FFF4>only leaders have the Heal<$FFFC>command<$FFF3>.<$FFFD>Mercenaries can't recover unless they<$FFFC>start the next turn <$FFF4>next to their leader<$FFF3>.<$FFFC>Turn that around and you can stall whole<$FFFC>units.<$FFFE>
+42	I see. At <$FFF4>7 or less<$FFF3>, a leader stops to<$FFFC>heal. So wound the leader, and the whole<$FFFC>unit grinds to a halt.<$FFFE>
 43	Exactly. Though rarely, some leaders won't<$FFFC>heal even when hurt.<$FFFE>
 44	Got the basic tactics now？<$FFFE>
 45	・Got it<$FFFE>

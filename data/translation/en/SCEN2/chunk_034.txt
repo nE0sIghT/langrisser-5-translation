@@ -46,7 +46,7 @@
 44	<$FB00><$0037>I'm in a foul mood right<$FFFC>now.<$FFF5> <$FB00><$0038>I'll turn your attack right back on<$FFFC>you！<$FFFE>
 45	<$FB00><$0039>We'll see about that！<$FFFE>
 46	Stairs lead deep underground. Go down？<$FFFE>
-47	Going down, you find a rusted double door<$FFFC>of metal. On it is written <$FFF4>Come！ You who<$FFFC>have mastered the mightiest！<$FFF3>.<$FFFD>Open the door？<$FFFE>
+47	Going down, you find a rusted double door<$FFFC>of metal. On it is written <$FFF4>Come！ You who<$FFFC>have mastered the mightiest！<$FFF3>. Open the<$FFFC>door？<$FFFE>
 48	With a dull groan, the door opened. Beyond<$FFFC>is a wide cavern. Better to explore it<$FFFC>once the battle's done.<$FFFE>
 49	The door was heavy and would not open….<$FFFE>
 50	<$FB00><$003A>Not only destroying my<$FFFC>people, but plunging El Sallia into war.<$FFF5><$FFFC><$FB00><$003B>You'll atone for that crime！<$FFFE>

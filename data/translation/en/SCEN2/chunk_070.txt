@@ -69,5 +69,5 @@
 67	<$FB00><$003A>Anyway, where are the others？<$FFFE>
 68	<$FB00><$003B>Ah, they're out searching for<$FFFC>you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$003C>I'll go call them！<$FFFE>
 69	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$003D>U, uu… So that's the<$FFFC>remodeling done to me<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFD><$FFF6><$FB00><$003E>In that moment, I felt all my powers<$FFFC>surge. It seems that power, used without<$FFFC>thinking, is what saved me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$003F>Even so<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0040>I'm tired<$FFF5><$FFF8>…<$FE14>…<$FFFE>
-70	<$0000>With Lanford among them,<$FFFC><$F600><$0000>'s band reached Reynorz<$FFFC>and made for the manor of Alfred's brother<$FFFC>Alvince.<$FFFD><$0000>First they must persuade him and so<$FFFC>block Lainforce's ambition.<$FFFD><$0000>The party slips into Alvince's manor…<$FFFE>
+70	<$0000>With Lanford among them,<$FFFC><$F600><$0000>'s band reached Reynorz<$FFFC>and made for the manor of Alfred's brother<$FFFC>Alvince.<$FFFD><$0000>First they must persuade him and so<$FFFC>block Lainforce's ambition. <$0000>The party<$FFFC>slips into Alvince's manor…<$FFFE>
 71	Victory terms<$FFFC><$0000><$FFFC>・Defeat Alvince<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

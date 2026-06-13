@@ -13,6 +13,6 @@
 11	<$FB00><$0003>Forward！ Do not flinch before<$FFFC>mere monsters！<$FFFE>
 12	<$FB00><$0004>Gah, Kalxath still has an<$FFFC>airship… I thought it burned up the other<$FFFC>day<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFD><$FB00><$0005>You lot, do not let them pass！<$FFFE>
 13	<$FB00><$0006>Understood. Even if it costs<$FFFC>our lives, we will not let them through.<$FFFE>
-14	<$FB00><$0007>We meant to strike while this<$FFFC>continent's forces were attacking, but<$FFFC>this is a demon stronghold indeed.<$FFFD>They will not let us pass easily.<$FFFD><$FB00><$0008>But we have reasons of our own. We cannot<$FFFC>afford to be stalled here.<$FFFE>
+14	<$FB00><$0007>We meant to strike while this<$FFFC>continent's forces were attacking, but<$FFFC>this is a demon stronghold indeed. They<$FFFC>will not let us pass easily.<$FFFD><$FB00><$0008>But we have reasons of our own. We cannot<$FFFC>afford to be stalled here.<$FFFE>
 15	<$0000>After rescuing the supply convoy,<$FFFC><$F600><$0000>'s group resumed the march<$FFFC>to Velzeria.<$FFFD><$0000>Just as their destination came within<$FFFC>reach, a new enemy stood in their path.<$FFFE>
 16	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

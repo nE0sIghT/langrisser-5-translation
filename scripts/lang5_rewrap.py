@@ -4,9 +4,11 @@
 Within each record, text between control tags is re-wrapped: existing
 <$FFFC> line breaks are treated as soft (replaced by spaces) and new ones
 are inserted so that no rendered line exceeds the width budget in glyph
-CELLS (pair tokens count as one cell). Words are never split. All other
-control tags (FB00+arg, FFFD pages, FFF4/FFF3 highlights, terminators)
-stay exactly where they are.
+CELLS (pair tokens count as one cell). Words are never split. <$FFFD> page
+breaks are compacted only when the following page is plain text with no
+event controls; voice/dialogue controls stay page-hard. All other control
+tags (FB00+arg, FFF4/FFF3 highlights, terminators) stay exactly where they
+are.
 
 The player-name macro <$F600><$0000> counts as NAME_CELLS (the name entry
 screen allows 8 native glyphs — measured in-game); explicit printable
@@ -35,7 +37,9 @@ from lang5_scen import TAG_RE, Codec, consumes_argument, find_text_block, \
 from lang5_speakers import trace_vm_bytecode, u32, vm_block
 
 LINE_BREAK = "<$FFFC>"
-PAGE_BREAKS = {"<$FFFD>", "<$FFFE>", "<$FFFF>"}
+PAGE_BREAK = "<$FFFD>"
+TERMINATORS = {"<$FFFE>", "<$FFFF>"}
+PAGE_BREAKS = {PAGE_BREAK, *TERMINATORS}
 PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
@@ -167,14 +171,111 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
     return "".join(out)
 
 
+def safe_page_continuation(text: str, start: int) -> bool:
+    """True if the page after an FFFD can be treated as plain continuation.
+
+    The check is intentionally conservative: scan until the next page/end
+    marker and reject any event/control opcode. Printable tags, line breaks,
+    highlights, and the player-name macro are text-like and safe.
+    """
+    tags = [m for m in TAG_RE.finditer(text) if m.start() >= start]
+    i = 0
+    while i < len(tags):
+        m = tags[i]
+        tag_text = m.group(0)
+        val = int(m.group(1), 16)
+        if tag_text in PAGE_BREAKS:
+            return True
+        if tag_text == LINE_BREAK or tag_text in ("<$FFF4>", "<$FFF3>"):
+            i += 1
+            continue
+        if val < PRINTABLE_TAG_LIMIT:
+            i += 1
+            continue
+        if val == NAME_MACRO:
+            if i + 1 >= len(tags) or tags[i + 1].start() != m.end():
+                return False
+            i += 2
+            continue
+        return False
+    return True
+
+
+def structural_page_markers(text: str) -> list[tuple[int, int, str]]:
+    """Return page/end markers that are not arguments of control opcodes."""
+    out: list[tuple[int, int, str]] = []
+    tags = list(TAG_RE.finditer(text))
+    i = 0
+    while i < len(tags):
+        m = tags[i]
+        val = int(m.group(1), 16)
+        consumed = 1
+        if consumes_argument(val) and i + 1 < len(tags) \
+                and tags[i + 1].start() == m.end():
+            consumed = 2
+        if consumed == 1 and m.group(0) in PAGE_BREAKS:
+            out.append((m.start(), m.end(), m.group(0)))
+        i += consumed
+    return out
+
+
+def page_segments(text: str) -> list[str]:
+    """Split on structural page/end markers, ignoring control arguments."""
+    out: list[str] = []
+    start = 0
+    for a, b, _tag in structural_page_markers(text):
+        out.append(text[start:a])
+        start = b
+    out.append(text[start:])
+    return out
+
+
+def page_heights_ok(text: str, max_lines: int) -> bool:
+    """Check rendered page height after wrapping."""
+    for page in page_segments(text):
+        if page.strip() and page.count(LINE_BREAK) + 1 > max_lines:
+            return False
+    return True
+
+
+def compact_safe_pages(codec: Codec, text: str, width: int, reserve: int,
+                       max_lines: int) -> str:
+    """Iteratively demote safe FFFD page breaks to soft line breaks.
+
+    Each candidate is rewrapped and accepted only if it stays within the
+    page-height budget. This keeps voiced/event boundaries intact while
+    allowing plain continuation pages to fill the window.
+    """
+    current = text
+    while True:
+        changed = False
+        for pos, end, tag in structural_page_markers(current):
+            if tag != PAGE_BREAK:
+                continue
+            if not safe_page_continuation(current, end):
+                continue
+            candidate = current[:pos] + LINE_BREAK + current[end:]
+            wrapped = wrap_stream(codec, candidate, width, reserve)
+            if page_heights_ok(wrapped, max_lines):
+                current = candidate
+                changed = True
+                break
+        if not changed:
+            return current
+
+
 def reflow_record(codec: Codec, text: str, width: int, reserve: int = 0,
-                  force_plate: bool = False) -> str:
+                  force_plate: bool = False, max_lines: int = 4,
+                  compact_pages: bool = True) -> str:
     # The plate reserve only applies to spoken records; narration windows
     # have no name plate. Some windows keep the previous speaker's plate
     # on records without their own FB00 marker (force_plate).
     if "<$FB" not in text and not force_plate:
         reserve = 0
+    if compact_pages:
+        text = compact_safe_pages(codec, text, width, reserve, max_lines)
     return wrap_stream(codec, text, width, reserve)
+
 
 
 def speaker_pool_sizes(scen_path: Path) -> dict[int, int]:
@@ -379,7 +480,7 @@ def main() -> None:
                     reserve = 0
                 new_text = reflow_record(codec, text, width, reserve, force_plate)
                 # Page height check: lines between page/terminator controls.
-                for page in re.split(r"<\$FFFD>|<\$FFFE>|<\$FFFF>", new_text):
+                for page in page_segments(new_text):
                     n = page.count(LINE_BREAK) + 1
                     if page.strip() and n > args.max_lines:
                         print(f"{fp.name} record {idx}: page has {n} lines (max {args.max_lines})")

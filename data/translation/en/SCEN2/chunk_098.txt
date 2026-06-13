@@ -45,11 +45,11 @@
 43	<$FB00><$0094>I've thought of that too. Stay<$FFFC>with me a bit longer？<$FFFE>
 44	<$FB00><$0095><$FFF7>Of course.<$FFF5><$FFF8><$FFFE>
 45	Near town<$FFFF>
-46	…Was I running from Father and Jessica？<$FFFC>I always let others decide.<$FFFD>Brenda was right. I must change.<$FFFD>First I need my own way to save this<$FFFC>country.<$FFFD>Caconsis was lively. This land is not.<$FFFC>Why？<$FFFE>
+46	…Was I running from Father and Jessica？<$FFFC>I always let others decide. Brenda was<$FFFC>right. I must change. First I need my own<$FFFC>way to save this country.<$FFFD>Caconsis was lively. This land is not.<$FFFC>Why？<$FFFE>
 47	<$FFFA><$FFF8>…<$FFFE>
 48	<$FFF9><$FFF6>I see. It is the people's spirit.<$FFFE>
-49	The late Caconsis king was proud but<$FFFC>timid, slow to decide.<$FFFD>So the people stopped relying on him and<$FFFC>learned to solve problems themselves…<$FFFE>
-50	<$FFFA><$FFF8>…<$FFFD><$FFF9><$FFF6>I want this continent's people to stand on<$FFFC>their own. I won't abandon them.<$FFFD>If they join politics, they may live with<$FFFC>more hope.<$FFFE>
+49	The late Caconsis king was proud but<$FFFC>timid, slow to decide. So the people<$FFFC>stopped relying on him and learned to<$FFFC>solve problems themselves…<$FFFE>
+50	<$FFFA><$FFF8>…<$FFFD><$FFF9><$FFF6>I want this continent's people to stand on<$FFFC>their own. I won't abandon them. If they<$FFFC>join politics, they may live with more<$FFFC>hope.<$FFFE>
 51	Yes. Nobles aren't needed. What matters is<$FFFC>each citizen's life！<$FFFE>
 52	Politics by the people, for the people.<$FFFC>This is it！<$FFFE>
 53	Federation Castle<$FFFF>

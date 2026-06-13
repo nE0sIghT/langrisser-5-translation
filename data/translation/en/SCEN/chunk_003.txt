@@ -22,7 +22,7 @@
 20	<$FB00><$0034>Fine, fine.<$FFFE>
 21	<$FB00><$0035>Why, you！ You won't get away！<$FFFE>
 22	<$FB00><$0036>Those are Caconsis troops. They<$FFFC>seem to be fighting some adventurers.<$FFFE>
-23	<$FB00><$0037>Looks to me like the Caconsis<$FFFC>soldiers are simply picking on them.<$FFFD>What do you say, Lambda？ Shall we help<$FFFC>those two？<$FFFE>
+23	<$FB00><$0037>Looks to me like the Caconsis<$FFFC>soldiers are simply picking on them. What<$FFFC>do you say, Lambda？ Shall we help those<$FFFC>two？<$FFFE>
 24	<$FB00><$0038>I'd rather avoid pointless<$FFFC>battles, but dealing Caconsis a blow now<$FFFC>may serve us later.<$FFFE>
 25	<$FB00><$0039>Then it's settled. Let's help<$FFFC>those two.<$FFFE>
 26	<$FB00><$003A>Understood.<$FFFE>
@@ -55,12 +55,12 @@
 53	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 54	Before we fight, mind if I check one<$FFFC>thing？<$FFFE>
 55	What is it？<$FFFE>
-56	Do you remember <$FFF4>combat affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
+56	Do you remember <$FFF4>combat affinity<$FFF3>？ Some<$FFFC>call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
 57	Yeah, I remember. <$FFF4>Infantry beat pikemen<$FFFC>and lose to cavalry. <$FFF3>That sort of thing.<$FFFE>
 58	As long as you know it, that's fine.<$FFFE>
 59	No, I don't remember.<$FFFE>
 60	Then remember well what I'm about to say.<$FFFC>It's the most basic rule of battle.<$FFFE>
-61	Every soldier has a <$FFF4>class type <$FFF3>, each<$FFFC>strong against some foes and weak to<$FFFC>others. The types work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to cavalry.<$FFFC>Pikemen beat cavalry but lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear no type,<$FFFC>but they lose when struck up close.<$FFFD>Fliers move far but defend poorly, only<$FFFC>archers make easy prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry, but<$FFFC>strong against the undead.<$FFF3><$FFFE>
+61	Every soldier has a <$FFF4>class type <$FFF3>, each<$FFFC>strong against some foes and weak to<$FFFC>others. The types work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to cavalry.<$FFFC>Pikemen beat cavalry but lose to infantry.<$FFF3><$FFFC><$FFF4>Cavalry beat infantry but lose to pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear no type,<$FFFC>but they lose when struck up close. Fliers<$FFFC>move far but defend poorly, only archers<$FFFC>make easy prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry, but<$FFFC>strong against the undead.<$FFF3><$FFFE>
 62	<$FFF4>Types <$FFF3>and <$FFF4>affinities<$FFF3>, huh…<$FFFE>
 63	Well？ Shall I explain it once more？<$FFFE>
 64	No. I've got it now.<$FFFE>
@@ -73,7 +73,7 @@
 71	You're infantry yourself, so be careful.<$FFFC>If the cavalry catches you, you're done<$FFFC>for.<$FFFE>
 72	You're infantry yourself, so watch out. If<$FFFC>the cavalry catches you, it's all over.<$FFFE>
 73	Right. If I use the fences well, I think I<$FFFC>can avoid their attacks.<$FFFE>
-74	Plotting with those feeble heads is a<$FFFC>waste of time.<$FFFD>Even pikemen are small fry before my<$FFFC>might. Be smart and drop your weapons,<$FFFC>eh？<$FFFE>
+74	Plotting with those feeble heads is a<$FFFC>waste of time. Even pikemen are small fry<$FFFC>before my might. Be smart and drop your<$FFFC>weapons, eh？<$FFFE>
 75	We'll see about that.<$FFFE>
 76	I…I knew it…fighting is…beyond me…<$FFFE>
 77	No… We couldn't save him…<$FFFE>
@@ -83,11 +83,11 @@
 81	<$FB00><$0045>You can't, Miss Clarett！<$FFFE>
 82	<$FB00><$0046>Fool！ You think you can run from<$FFFC>me！<$FFFE>
 83	I'm not about to die in a place like<$FFFC>this… See you！<$FFFE>
-84	Damn！ She got away！<$FFFD>A prize like that！<$FFFD>And it's all your fault！<$FFFE>
+84	Damn！ She got away！ A prize like that！<$FFFC>And it's all your fault！<$FFFE>
 85	Good grief…<$FFFE>
 86	Hey, brats！ Don't think you can anger me<$FFFC>and just walk away！<$FFFE>
 87	Wait, Captain. They're pikemen. You'd best<$FFFC>leave this to us<$FFF8>…<$FFFE>
-88	Shut it！<$FFFD>Nobody mocks me and gets away with it！<$FFFD>No matter what, I'll crush those brats<$FFFC>with my own hands！<$FFFE>
+88	Shut it！ Nobody mocks me and gets away<$FFFC>with it！ No matter what, I'll crush those<$FFFC>brats with my own hands！<$FFFE>
 89	<$FE14>…<$FE14>…<$FE14>…<$FE14>…<$FE14>Still, I'm counting on your puny<$FFFC>help, if only a little.<$FFFE>
 90	Y-yes, sir. Understood.<$FFFD>But the girl, I fear catching her is<$FFFC>beyond us<$FFF8>…<$FFFE>
 91	<$FE14>I, <$FE14>I know that already！ Then we'll catch<$FFFC>the boy at least and shake him down！<$FFFE>
@@ -114,7 +114,7 @@
 112	<$FB00><$0071>I have money. So<$FFF5><$FFF8>…<$FFFE>
 113	<$FB00><$0072>Sorry, but we are not<$FFFC>mercenaries.<$FFFE>
 114	<$FB00><$0073>No way…<$FFFE>
-115	<$FB00><$0074>Come on, Lambda. Better than<$FFFC>traveling on our own, no？<$FFFD>And there's the matter of combat<$FFFC>affinities, too.<$FFFE>
+115	<$FB00><$0074>Come on, Lambda. Better than<$FFFC>traveling on our own, no？ And there's the<$FFFC>matter of combat affinities, too.<$FFFE>
 116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist that much, I<$FFFC>won't object.<$FFFE>
 117	<$FB00><$0076>Thank you so much. My name is<$FFFC>Alfred.<$FFFE>
 118	<$FB00><$0077>I'm <$F600><$0000>.<$FFFE>
@@ -132,14 +132,14 @@
 130	<$FB00><$007F>Then let's hurry.<$FFFE>
 131	…if I hadn't served such a captain…I<$FFFC>might have lived longer…<$FFFE>
 132	Im…impossible…<$FFFE>
-133	A scrap of cloth peeks out from a hole in<$FFFC>the ground.<$FFFD>As you watch, it slowly slips inside.<$FFFC>…What will you do？<$FFFE>
+133	A scrap of cloth peeks out from a hole in<$FFFC>the ground. As you watch, it slowly slips<$FFFC>inside. …What will you do？<$FFFE>
 134	・Yank it hard<$FFFE>
 135	・Pull it normally<$FFFE>
 136	・Pull it gently<$FFFE>
-137	You yank the cloth, and several gnomes<$FFFC>come tumbling out with it.<$FFFD>Please, give it back！ We're making clothes<$FFFC>from this cloth！<$FFFD>We'll give you something instead！<$FFFD>Accept the offered trade？<$FFFE>
+137	You yank the cloth, and several gnomes<$FFFC>come tumbling out with it. Please, give it<$FFFC>back！ We're making clothes from this<$FFFC>cloth！ We'll give you something instead！<$FFFD>Accept the offered trade？<$FFFE>
 138	Thank you！ Here, we'll even throw in a<$FFFC>little extra！<$FFFE>
-139	<$0000> Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000> <$F600><$0000>'s <$FFF4>friendship<$FFF3> rose！<$FFFE>
-140	Waaah, you're so mean！<$FFFD>The gnomes went back into their hole in<$FFFC>tears！<$FFFE>
+139	<$0000> Got a <$FFF4>Club<$FFF3>！ <$0000> <$F600><$0000>'s<$FFFC><$FFF4>friendship<$FFF3> rose！<$FFFE>
+140	Waaah, you're so mean！ The gnomes went<$FFFC>back into their hole in tears！<$FFFE>
 141	<$0000> Got the Megingjord！<$FFFE>
 142	The pull from inside is strong, and in a<$FFFC>blink the cloth vanishes down the hole.<$FFFE>
 143	Alfred joined the party！<$FFFE>

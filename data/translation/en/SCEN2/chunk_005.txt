@@ -36,9 +36,9 @@
 34	・Eat half<$FFFE>
 35	・Take one bite<$FFFE>
 36	・Not right now<$FFFE>
-37	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 3P！<$FFFE>
-38	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 2P！ <$FFF4>Holy resist<$FFF3><$FFFC>rose by 2P！<$FFFE>
-39	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 1P！ <$FFF4>Holy resist<$FFF3><$FFFC>rose by 2P！ <$FFF4>Dark resist<$FFF3> rose by 2P！<$FFFE>
+37	Juicy berries clear your head. <$0000> <$FFF4>Max<$FFFC>MP<$FFF3> rose by 3P！<$FFFE>
+38	Juicy berries clear your head. <$0000> <$FFF4>Max<$FFFC>MP<$FFF3> rose by 2P！ <$FFF4>Holy resist<$FFF3> rose by<$FFFC>2P！<$FFFE>
+39	Juicy berries clear your head. <$0000> <$FFF4>Max<$FFFC>MP<$FFF3> rose by 1P！ <$FFF4>Holy resist<$FFF3> rose by<$FFFC>2P！ <$FFF4>Dark resist<$FFF3> rose by 2P！<$FFFE>
 40	<$FB00><$0026>Cramped little village, though.<$FFFE>
 41	<$FB00><$0027>Against numbers, it helps us.<$FFFE>
 42	<$FB00><$0028>Terrain as our ally, eh. Let's<$FFFC>go！<$FFFE>

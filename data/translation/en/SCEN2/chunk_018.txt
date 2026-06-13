@@ -17,7 +17,7 @@
 17	<$FB00><$0034>What do you mean！？ You call a<$FFFC>noble death meaningless！？<$FFFE>
 18	<$FB00><$0035>If he died for you and you lose<$FFFC>anyway, then yes, meaningless.<$FFFE>
 19	<$FB00><$0036>Silence！ You are the emperor's<$FFFC>murderer！ Do you mean to kill me too！？<$FFFE>
-20	<$FB00><$0037>Then surrender and return the<$FFFC>throne to Clarett.<$FFFD>Do that, and I may show mercy.<$FFFE>
+20	<$FB00><$0037>Then surrender and return the<$FFFC>throne to Clarett. Do that, and I may show<$FFFC>mercy.<$FFFE>
 21	<$FB00><$0038>Nonsense！ You are the ones who<$FFFC>will die！<$FFFE>
 22	<$FB00><$0039>What are you doing！？ Kill them<$FFFC>at once！<$FFFE>
 23	<$FB00><$003A>Yes sir！ At once！<$FFFE>

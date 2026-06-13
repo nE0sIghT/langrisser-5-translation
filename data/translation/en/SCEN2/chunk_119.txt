@@ -34,7 +34,7 @@
 32	<$FFF7><$FB00><$0089>Ooo<$00E4><$00E5><$00E6>h！<$FFF5><$FFF8><$FFFE>
 33	Demon Stronghold<$FFFF>
 34	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008A>Hmph, so Ferakia was<$FFFC>killed by humans.<$FFF5> <$FB00><$008B>That woman was all<$FFFC>talk after all.<$FFFD><$FFF9><$FB00><$008C>Well, dancing to Boser's tune, her limits<$FFFC>were plain.<$FFFE>
-35	<$FB00><$008D>Boser is just a convenient<$FFFC>puppet manipulated by Alhazard.<$FFFD>In the end, no more than the one who sets<$FFFC>the stage for Chaos to revive in this<$FFFC>world.<$FFFE>
+35	<$FB00><$008D>Boser is just a convenient<$FFFC>puppet manipulated by Alhazard. In the<$FFFC>end, no more than the one who sets the<$FFFC>stage for Chaos to revive in this world.<$FFFE>
 36	<$FB00><$008E>Hmph, I've no intention of<$FFFC>being such a trifling thing. I've no<$FFFC>interest in the demons' victory.<$FFFE>
 37	<$FB00><$008F>My aim is to surpass Boser and<$FFFC>Chaos both.<$FFFD>I will rule this world.<$FFF5> <$FB00><$0090>For that, how to<$FFFC>erase the troublesome Chaos Gate's<$FFFC>power<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 38	Federation Army on the March<$FFFF>

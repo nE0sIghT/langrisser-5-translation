@@ -12,7 +12,7 @@
 10	<$FB00><$0003>Lord Lainforce, it seems<$FFFC>Reynorz has fallen.<$FFFE>
 11	<$FB00><$0004>Alvince was never counted<$FFFC>among our strength.<$FFFD><$FB00><$0005>I drew him in to scatter the Federation's<$FFFC>targets. The original aim is met.<$FFFD><$FB00><$0006>By the way, how goes the ship？<$FFFE>
 12	<$FB00><$0007>Almost certainly right beneath<$FFFC>the city of Valtar. But Valtar is not<$FFFC>under our army's control.<$FFFE>
-13	<$FB00><$0008>Then we force the matter.<$FFF5><$FFFB><$FFFC><$FB00><$0009>Alvince is beaten and Lambert slow to<$FFFC>move.<$FFFD>I won't let our plan be delayed for their<$FFFC>sake.<$FFFE>
+13	<$FB00><$0008>Then we force the matter.<$FFF5><$FFFB><$FFFC><$FB00><$0009>Alvince is beaten and Lambert slow to<$FFFC>move. I won't let our plan be delayed for<$FFFC>their sake.<$FFFE>
 14	<$FB00><$000A>As you will. I'd like to send<$FFFC>Omega for the operation？<$FFFE>
 15	<$FB00><$000B>No, I'll command it directly.<$FFFC>But summon Omega as well. More soldiers,<$FFFC>the better.<$FFFD><$FB00><$000C>And Zero. Call up the Knights too. This<$FFFC>time you take the field as well.<$FFFE>
 16	<$FB00><$000D>As you will.<$FFFE>

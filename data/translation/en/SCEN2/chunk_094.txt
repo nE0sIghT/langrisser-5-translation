@@ -11,14 +11,14 @@
 9	Road to the Magic Lab<$FFFF>
 10	<$F600><$0000>, got a moment？<$FFFE>
 11	What is it, Brenda？<$FFFE>
-12	About that bargain invitation we found,<$FFFC>why not stop by？<$FFFD>From the way those soldiers looked, they<$FFFC>won't reach the lab right away.<$FFFE>
+12	About that bargain invitation we found,<$FFFC>why not stop by？ From the way those<$FFFC>soldiers looked, they won't reach the lab<$FFFC>right away.<$FFFE>
 13	True.<$FFFE>
 14	What do you think, <$F600><$0000>？<$FFFE>
 15	What will you do？<$FFFE>
 16	<$FFFA>Let's see<$FFF8>… <$FFFB><$FFF6><$FFF9>At that pace, we should have a<$FFFC>little time.<$FFFE>
 17	Right？<$FFFE>
 18	But Brenda, wasn't that different from<$FFFC>what you said before…？<$FFFE>
-19	That was then. This is now.<$FFFD>If you fret over details, you'll never<$FFFC>become a big person.<$FFFE>
+19	That was then. This is now. If you fret<$FFFC>over details, you'll never become a big<$FFFC>person.<$FFFE>
 20	Uh, <$FFF7>right…<$FFFE>
 21	Then let's go. We don't have that much<$FFFC>time to spare.<$FFFE>
 22	Right. No time like the present.<$FFFE>
@@ -31,10 +31,10 @@
 29	<$FB00><$0052>In pursuit of immortality, I<$FFFC>leave this in case of my demise …<$FFFE>
 30	<$FB00><$0053>Do you know how to use it？<$FFFE>
 31	<$FB00><$0054>I will try.<$FFFE>
-32	<$FB00><$0055>The Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago on El Sallia,<$FFFC>east of here.<$FFFD>30 years ago, dark god Gendrasil brought<$FFFC>it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still cannot return it<$FFFC>to sword form. With more research,<$FFFC>someday<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+32	<$FB00><$0055>The Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago on El Sallia,<$FFFC>east of here. 30 years ago, dark god<$FFFC>Gendrasil brought it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still cannot return it<$FFFC>to sword form. With more research,<$FFFC>someday<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 33	…<$FE32>…<$FE3C>…<$FE46>…<$FE50>…<$FE5A>.<$FFFE>
 34	<$FFF8>…<$FE3C>…<$FE28><$FFF6><$FB00><$0058>The magic is unstable.<$FFFE>
-35	<$FB00><$0059>I built a mechanism into Sigma<$FFFC>and Omega.<$FFFD>With Langrisser equipped, both can draw<$FFFC>out their given power.<$FFFE>
+35	<$FB00><$0059>I built a mechanism into Sigma<$FFFC>and Omega. With Langrisser equipped, both<$FFFC>can draw out their given power.<$FFFE>
 36	<$FB00><$005A>That power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46>.<$FFFE>
 37	<$FB00><$005B>What is that power？ Lambda！<$FFFE>
 38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it now<$FFFC><$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>

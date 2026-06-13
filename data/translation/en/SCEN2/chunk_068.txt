@@ -35,5 +35,5 @@
 33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by my<$FFFC>own hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 34	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0020>All right, Lanford. But<$FFFC>I'm coming with you. My sister told me to<$FFFC>look after you.<$FFFE>
 35	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0021>Heh. Emily, of<$FFFC>course<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-36	<$0000>Aizer's men carried Langrisser away from<$FFFC>El Sallia.<$FFFD><$0000>But Virash shot down the airship<$FFFC>carrying the sacred sword in northeastern<$FFFC>Yeless.<$FFFD><$0000>To recover Langrisser from the enemy<$FFFC>airship, <$F600><$0000> and the others<$FFFC>return to Yeless. <$0000>But others also seek<$FFFC>the sword.<$FFFE>
+36	<$0000>Aizer's men carried Langrisser away from<$FFFC>El Sallia. <$0000>But Virash shot down the<$FFFC>airship carrying the sacred sword in<$FFFC>northeastern Yeless.<$FFFD><$0000>To recover Langrisser from the enemy<$FFFC>airship, <$F600><$0000> and the others<$FFFC>return to Yeless. <$0000>But others also seek<$FFFC>the sword.<$FFFE>
 37	Victory terms<$FFFC><$0000><$FFFC>・Langrisser bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC>・Langrisser is stolen and<$FFFC><$0000>carried off north<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

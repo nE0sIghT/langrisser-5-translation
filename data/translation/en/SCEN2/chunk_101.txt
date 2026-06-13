@@ -44,15 +44,15 @@
 42	30 minutes later…<$FFFF>
 43	Bored…<$FFFE>
 44	What is wrong, Clarett？<$FFFE>
-45	I'm bored！<$FFFD>Clouds, clouds, and more clouds. I'm sick<$FFFC>of it！<$FFFE>
+45	I'm bored！ Clouds, clouds, and more<$FFFC>clouds. I'm sick of it！<$FFFE>
 46	Even if you tell me<$FFF8>…<$FFFE>
-47	Come to think of it, we found a free<$FFFC>karaoke ticket！ Let's go！<$FFFD>With this ship, we can reach our<$FFFC>destination in no time！ Come on, let's<$FFFC>go！？<$FFFE>
+47	Come to think of it, we found a free<$FFFC>karaoke ticket！ Let's go！ With this ship,<$FFFC>we can reach our destination in no time！<$FFFC>Come on, let's go！？<$FFFE>
 48	Is that really all right？<$FFFE>
 49	It is fine！ Estor will not run away！ <$FFFB>So<$FFFC>come on, let's go！！<$FFFE>
 50	Wouldn't sooner be better？<$FFFE>
 51	<$FFF4>We are going！！ <$FFF3><$FFFB><$FFF4>Right！？<$FFF3><$FFFE>
 52	<$FFFA>If you say so, I don't mind <$FFF8>…<$FFFE>
-53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！<$FFFD>Then let's go to the karaoke place！！<$FFFE>
+53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！ Then let's go to the<$FFFC>karaoke place！！<$FFFE>
 54	Is this really all right<$FFF8>…<$FFFE>
 55	Estor Temple<$FFFF>
 56	<$FFF8>…<$FFF6><$FB00><$007B>Indeed, I admire your ideals.<$FFFE>

@@ -29,7 +29,7 @@
 27	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$004B>Forgive me, Lord Virash,<$FFFC>Lady Brenda.<$FFFE>
 28	<$FB00><$004C>It was I who attacked that<$FFFC>village. And without Lord Lainforce's<$FFFC>knowledge.<$FFFE>
 29	<$FB00><$004D>What！<$FFF5><$FFF7><$FFFE>
-30	<$FB00><$004E>At first, Lord Lainforce and I<$FFFC>approached Recrio Village.<$FFFD>It kept a map of the Crimsolander military<$FFFC>sites used in the last great war.<$FFFE>
+30	<$FB00><$004E>At first, Lord Lainforce and I<$FFFC>approached Recrio Village. It kept a map<$FFFC>of the Crimsolander military sites used in<$FFFC>the last great war.<$FFFE>
 31	<$FB00><$004F>Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 32	<$FFF8><$FB00><$0050>Shh！<$FFFE>
 33	<$FB00><$0051>But there Lord Lainforce met<$FFFC>you, Lady Brenda, and his heart changed.<$FFFE>
@@ -56,7 +56,7 @@
 54	<$FB00><$007A>My<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007B>true<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007C>feelings, you<$FFFC>say….<$FFFE>
 55	<$FB00><$007D>Your wish was to save<$FFFC>Crimsonia from its crisis.<$FFFD><$FFF6><$FB00><$007E>Just because some of Crimsonia long for<$FFFC>past glory, you need not pursue it.<$FFFD><$FB00><$007F>You, the prince, hold the right to decide<$FFFC>your people's future.<$FFFE>
 56	<$FB00><$0080>What would you have me do,<$FFFC>Aizer.<$FFFE>
-57	<$FB00><$0081>Coexistence. You once said<$FFFC>this to me.<$FFFD>How wonderful it would be to coexist with<$FFFC>surface-dwellers, like the<$FFFC>Crimsolanders.<$FFFD><$FB00><$0082>I am of the surface, yet I believe you and<$FFFC>I understood each other. It is by no means<$FFFC>impossible<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+57	<$FB00><$0081>Coexistence. You once said<$FFFC>this to me. How wonderful it would be to<$FFFC>coexist with surface-dwellers, like the<$FFFC>Crimsolanders.<$FFFD><$FB00><$0082>I am of the surface, yet I believe you and<$FFFC>I understood each other. It is by no means<$FFFC>impossible<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 58	<$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0083>True.<$FFFD>I'm one who lost once.<$FFF5><$FFF8><$FE1E> <$FFF6><$FB00><$0084>But what we have<$FFFC>done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 59	<$FB00><$0085>We Crimsolanders only wish to<$FFFC>live quietly alongside humans. If<$FFFC>Crimsonia has no will to fight, there's no<$FFFC>need to be enemies.<$FFFD><$FB00><$0086>And your last trump card, the sky<$FFFC>battleship, was sunk by the ultimate<$FFFC>weapon's attack.<$FFFE>
 60	<$FB00><$0087>What！<$FFF5><$FFF7><$FE1E> <$FFF6><$FB00><$0088>Then Zero is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
@@ -79,14 +79,14 @@
 77	<$FFFA><$FB00><$009D>Sorry. It was a secret, you<$FFFC>see.<$FFFE>
 78	<$FB00><$0002><$FB00><$009E>The holy sword gathers mana<$FFFC>from the air and sends it to Peiria, then<$FFFC>strikes down at the wielder's chosen<$FFFC>place.<$FFFD>But one shot uses a great deal of mana.<$FFFE>
 79	<$FB00><$009F>So there's a limit to how many<$FFFC>times it can fire.<$FFFE>
-80	<$FB00><$00A0>In the ancient war, they used<$FFFC>up the surface's mana entirely.<$FFFD>Because of it the surface mana was<$FFFC>depleted for over a thousand years.<$FFFD><$FB00><$00A1>As a result, the mana-drive magitek<$FFFC>systems became mere junk.<$FFFD><$FB00><$00A2>And the ancient magic civilization, its<$FFFC>population war-slashed and its mana gone,<$FFFC>effectively perished.<$FFFE>
+80	<$FB00><$00A0>In the ancient war, they used<$FFFC>up the surface's mana entirely. Because of<$FFFC>it the surface mana was depleted for over<$FFFC>a thousand years.<$FFFD><$FB00><$00A1>As a result, the mana-drive magitek<$FFFC>systems became mere junk.<$FFFD><$FB00><$00A2>And the ancient magic civilization, its<$FFFC>population war-slashed and its mana gone,<$FFFC>effectively perished.<$FFFE>
 81	<$FB00><$00A3>By the way, Lainforce, do you<$FFFC>know how many more shots it can fire？<$FFFE>
-82	<$FB00><$00A4>For Crimso, half the air's<$FFFC>mana was used.<$FFFD>By calculation, the ultimate weapon's<$FFFC>continuous-use limit is three shots.<$FFFE>
+82	<$FB00><$00A4>For Crimso, half the air's<$FFFC>mana was used. By calculation, the<$FFFC>ultimate weapon's continuous-use limit<$FFFC>is three shots.<$FFFE>
 83	<$FB00><$00A5>It fired once on the sky<$FFFC>battleship, so that leaves two, right？<$FFFE>
 84	<$FB00><$00A6>It can fire two more shots<$FFFC>strong enough to sink a battleship in one<$FFFC>blow<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 85	<$FB00><$00A7>Then what about Langrisser？<$FFF5><$FFF8><$FFFB><$FFFC><$FB00><$00A8>It too should be made from a holy sword.<$FFFC>If we use it to disrupt the ultimate<$FFFC>weapon<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 86	<$FB00><$00A9>As I said before, the holy<$FFFC>sword that became Langrisser is a replica<$FFFC>we Crimsolanders made. And an unfinished<$FFFC>one at that.<$FFFD><$FB00><$00AA>To control it with Langrisser, you'd have<$FFFC>to go to Peiria's very core.<$FFFE>
-87	<$FB00><$00AB>And there's a fundamental<$FFFC>difference in structure.<$FFFD>What Langrisser draws on is not mana but<$FFFC>the power of human will.<$FFFD><$FB00><$00AC>But to extract human will as energy,<$FFFC>unlike pure mana, you need over a thousand<$FFFC>people at once.<$FFFD><$FB00><$00AD>In short, it's like a defective product.<$FFFE>
+87	<$FB00><$00AB>And there's a fundamental<$FFFC>difference in structure. What Langrisser<$FFFC>draws on is not mana but the power of<$FFFC>human will.<$FFFD><$FB00><$00AC>But to extract human will as energy,<$FFFC>unlike pure mana, you need over a thousand<$FFFC>people at once.<$FFFD><$FB00><$00AD>In short, it's like a defective product.<$FFFE>
 88	<$FB00><$00AE>In the end, we have to take<$FFFC>Alhazard from the demons.<$FFFE>
 89	<$FB00><$00AF>But the ultimate weapon has a<$FFFC>weakness too.<$FFF5><$FFFB> <$FB00><$00B0>It can't strike where<$FFFC>Peiria cannot see.<$FFFD><$FB00><$00B1>To fire, the target area must not be<$FFFC>covered by cloud, and from that point the<$FFFC>moon's elevation must be 30 degrees or<$FFFC>more.<$FFFE>
 90	<$FFFA><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$00B2>I see. We might be able to<$FFFC>use that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
@@ -98,7 +98,7 @@
 96	<$FB00><$00BA>Emily, command the Federation<$FFFC>troops and keep the demons in check.<$FFFE>
 97	<$FB00><$00BB>Understood.<$FFFE>
 98	<$FB00><$00BC>I'll tell the admiral of this<$FFFC>too and try to get him to send troops.<$FFFE>
-99	<$FB00><$00BD>I'm counting on you.<$FFFD>And split the units into small groups,<$FFFC>don't bunch them up. We can't have them be<$FFFC>ultimate-weapon targets.<$FFFE>
+99	<$FB00><$00BD>I'm counting on you. And split<$FFFC>the units into small groups, don't bunch<$FFFC>them up. We can't have them be<$FFFC>ultimate-weapon targets.<$FFFE>
 100	<$FB00><$00BE>I know.<$FFFE>
 101	<$FB00><$00BF>Let's go, sister！<$FFFE>
 102	<$FFF7><$FB00><$00C0>Yes！<$FFF5><$FFF8><$FFFE>

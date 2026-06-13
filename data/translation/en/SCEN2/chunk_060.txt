@@ -22,7 +22,7 @@
 20	<$FB00><$000F>You said it too. She seems<$FFFC>obsessed with Langrisser and Alhazard.<$FFFE>
 21	<$FB00><$0010>Hey, I said not to mention<$FFFC>that！<$FFFE>
 22	<$FB00><$0011>No, let me say it. She asked for<$FFFC>Langrisser and Alhazard in return for<$FFFC>helping Clarett！<$FFFD><$FB00><$0012>Why does she want those swords？ Is she<$FFFC>planning something？<$FFFE>
-23	<$FB00><$0013>Remember Gizarof's death？<$FFFD>We had no goal, but she urged us to seek<$FFFC>the swords.<$FFFE>
+23	<$FB00><$0013>Remember Gizarof's death？ We had<$FFFC>no goal, but she urged us to seek the<$FFFC>swords.<$FFFE>
 24	<$FB00><$0014>Forget that, we need to put out<$FFFC>the fire！<$FFFE>
 25	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0015>It is too late.<$FFFE>
 26	Next Noon<$FFFF>

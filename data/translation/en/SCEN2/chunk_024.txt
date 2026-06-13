@@ -33,8 +33,8 @@
 31	Huh？ What are you talking about？<$FFFE>
 32	Now that you mention it, I remember this<$FFFC>place too… Maybe I'm imagining it？<$FFFE>
 33	You are not imagining it. We have<$FFFC>Langrisser, after all.<$FFFE>
-34	…<$FFFD>You're right. Why is that？<$FFFE>
-35	Maybe because we used a cheat？<$FFFD>More importantly, we have a problem！ What<$FFFC>happens to this stage's victory terms？<$FFFE>
+34	… You're right. Why is that？<$FFFE>
+35	Maybe because we used a cheat？ More<$FFFC>importantly, we have a problem！ What<$FFFC>happens to this stage's victory terms？<$FFFE>
 36	We already have Langrisser, so the victory<$FFFC>terms are met！ Victory without fighting！<$FFFC>Lucky us♪<$FFFE>
 37	I doubt they will allow that.<$FFFE>
 38	Then what do we do？<$FFFE>
@@ -186,21 +186,21 @@
 184	<$0000> <$0000><$0000><$0000><$FFF4>Sword stolen！<$FFF3><$FFFE>
 185	<$FB00><$0045>So this is Langrisser！ …I<$FFFC>feel the power！<$FFFE>
 186	<$FB00><$0046>Damn！ Omega has Langrisser！<$FFFE>
-187	Huh, so this is Langrisser… Looks like a<$FFFC>dull blade to me…<$FFFD>Well, whatever. Doryaaa！<$FFFE>
-188	…Huh？ Nothing changed！？<$FFFD>Damn！ One more time！ Doryaaa！<$FFFE>
+187	Huh, so this is Langrisser… Looks like a<$FFFC>dull blade to me… Well, whatever.<$FFFC>Doryaaa！<$FFFE>
+188	…Huh？ Nothing changed！？ Damn！ One more<$FFFC>time！ Doryaaa！<$FFFE>
 189	Why！？ Damn it！ Ooooooryaaaa！！<$FFFE>
 190	<$0000><$0000>15 minutes later<$0000><$0000><$FFFF>
 191	…Huff, huff, huff…<$FFFE>
 192	…Still not done, Omega？<$FFFE>
 193	One more！ Just let me try once more！<$FFFE>
 194	Fine. This is the last one, all right？<$FFFE>
-195	S, sorry…<$FFFD>Here I go！ <$FFF4>Nwooooooryaaa！！！<$FFF3><$FFFE>
+195	S, sorry… Here I go！ <$FFF4>Nwooooooryaaa！！！<$FFF3><$FFFE>
 196	<$FFF7><$FB00><$0047>Hah hah hah<$00E4><$00E6>！<$FFF5><$FFF8> <$FFF6><$FB00><$0048>This is my<$FFFC>true power！ Come on！ We settle this<$FFFC>here！<$FFFE>
-197	…Did it work！？<$FFFD>It worked…！<$FFFE>
+197	…Did it work！？ It worked…！<$FFFE>
 198	Hahaha, it worked！！ <$F600><$0000>, it<$FFFC>worked！！<$FFFE>
 199	<$FFF8>…<$FFF7>Yeah, <$FFF6>good for you<$FFF8>…<$FFFE>
 200	<$FFF8>…<$FFF7>Idiot<$FFF8>…<$FFFE>
-201	<$FFF7>Nuhahahaha！ <$FFF6>Sorry for the wait！ Now, let's<$FFFC>begin！<$FFFD>We settle this here！<$FFFE>
+201	<$FFF7>Nuhahahaha！ <$FFF6>Sorry for the wait！ Now, let's<$FFFC>begin！ We settle this here！<$FFFE>
 202	<$FFFA><$FFF8>…<$FFF6>Whew<$FFF8>…<$FFFE>
 203	But this feels kind of strange…<$FFFE>
 204	<$0000> Found Langrisser！<$FFFE>
@@ -249,7 +249,7 @@
 247	Tch！ If you break it, Zero will nag me.<$FFFC>Bring it to Lainforce instead！<$FFFE>
 248	Sir. Understood.<$FFFE>
 249	Lord Omega. We found cargo, but will now<$FFFC>join the attack！<$FFFE>
-250	No longer needed. It will only get in the<$FFFC>way.<$FFFD>Bring it to Lainforce instead.<$FFFE>
+250	No longer needed. It will only get in the<$FFFC>way. Bring it to Lainforce instead.<$FFFE>
 251	Sir. Understood.<$FFFE>
 252	We found cargo<$FFF8>… <$FFF6>It may be important. I<$FFFC>will bring it to Lord Lainforce.<$FFFE>
 253	Cargo found. I will send it to Lord<$FFFC>Lainforce now.<$FFFE>

@@ -29,5 +29,5 @@
 27	<$FB00><$0012>True. A small band like yours<$FFFC>could creep in unseen.<$FFFE>
 28	<$FB00><$0013>The same plan we used to<$FFFC>retake Kalxath Castle.<$FFFE>
 29	<$FB00><$0014>Understood. We will settle<$FFFC>this quickly.<$FFFE>
-30	<$0000>Shaking off Omega, <$F600><$0000>'s<$FFFC>band reached Velzeria Castle.<$FFFD><$0000>While the Kalxath regulars fought on,<$FFFC>they slipped inside.<$FFFD><$0000>In the deepest hall of Velzeria, Necro<$FFFC>Glob awaited them.<$FFFD><$0000>For a world where the people of El<$FFFC>Sallia can live in peace,<$FFFC><$F600><$0000>'s band challenges Glob.<$FFFE>
+30	<$0000>Shaking off Omega, <$F600><$0000>'s<$FFFC>band reached Velzeria Castle. <$0000>While the<$FFFC>Kalxath regulars fought on, they slipped<$FFFC>inside.<$FFFD><$0000>In the deepest hall of Velzeria, Necro<$FFFC>Glob awaited them. <$0000>For a world where<$FFFC>the people of El Sallia can live in peace,<$FFFC><$F600><$0000>'s band challenges Glob.<$FFFE>
 31	Victory terms<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -24,7 +24,7 @@
 22	<$FB00><$001E>Anyone can talk big.<$FFFE>
 23	<$FB00><$001F>Then allow me to show you<$FFFC>proof！<$FFFD><$FB00><$0020>Souls that perished in this place, become<$FFFC>one and fight！ Haa！<$FFFE>
 24	<$FB00><$0021>This is<$FFF5><$FFF7>…<$FFFE>
-25	<$FB00><$0022>Countless battles were fought<$FFFC>in this castle, and many demons died each<$FFFC>time.<$FFFD>This wraith is all their spirits bound<$FFFC>into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears the mark<$FFFC>of vengeance found here. Until the bearer<$FFFC>is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
+25	<$FB00><$0022>Countless battles were fought<$FFFC>in this castle, and many demons died each<$FFFC>time. This wraith is all their spirits<$FFFC>bound into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears the mark<$FFFC>of vengeance found here. Until the bearer<$FFFC>is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
 26	<$FB00><$002B>Let me share something<$FFFC>amusing. Step close enough to an ally, and<$FFFC>the mark can be handed over.<$FFFD><$FB00><$002C>If you want to live, pass it to someone<$FFFC>you hate！ Now then, entertain me.<$FFF5> <$FFF7><$FB00><$002D>Hee<$FFFC>hee hee hee！<$FFFE>
 27	Pass the mark from <$F600><$0000> to<$FFFC>Marie？<$FFFE>
 28	Pass the mark to <$F600><$0000>？<$FFFE>
@@ -72,7 +72,7 @@
 70	Tch…！ Failed to finish them off…<$FFFE>
 71	…SYUU…<$FFFE>
 72	…G…G…G…G…<$FFFE>
-73	Beaten by mere humans…<$FFFD>Gh… ghah！<$FFFE>
+73	Beaten by mere humans… Gh… ghah！<$FFFE>
 74	WOOOO！<$FFFE>
 75	BWOOOO…<$FFFE>
 76	GRRRR…<$FFFE>
@@ -105,7 +105,7 @@
 103	<$FB00><$0059>That's right. Where are<$FFFC>Langrisser and Alhazard？<$FFFE>
 104	<$FB00><$005A>Is that demon Gaiel still<$FFFC>carrying them around？<$FFFE>
 105	<$FB00><$005B>No use wondering. Leave the<$FFFC>search to the soldiers. Let's hurry and<$FFFC>rejoin Jessica.<$FFFE>
-106	Enough！ Worthless, all of you！ Beaten<$FFFC>this easily by humans！<$FFFD>Have you no shame！ I, Lord Glob, will<$FFFC>show you how a real battle is fought！<$FFFD>Study it in hell！<$FFFE>
+106	Enough！ Worthless, all of you！ Beaten<$FFFC>this easily by humans！ Have you no<$FFFC>shame！ I, Lord Glob, will show you how a<$FFFC>real battle is fought！ Study it in hell！<$FFFE>
 107	Oh dear, the mark's bearer has fallen<$FFF8>…<$FFFC><$0000><$FFF6>Then, a new bearer<$FFF8>…<$FFFE>
 108	<$FB00><$0025>You shall bear it！<$FFFE>
 109	<$FB00><$0026>So it's me<$FFF5><$FFF8>…<$FFFE>

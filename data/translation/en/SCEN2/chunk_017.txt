@@ -19,7 +19,7 @@
 19	<$FB00><$001B>Looking at this castle feels<$FFFC>somehow… nostalgic.<$FFFE>
 20	<$FB00><$001C>Are your memories returning？<$FFFE>
 21	<$FB00><$001D>Memories<$FFF5><$FFF8>…<$FFFE>
-22	<$FB00><$001E>Yes！ You served here in the<$FFFC>Imperial Guard.<$FFFD>At nineteen, you became its youngest<$FFFC>captain！<$FFFE>
+22	<$FB00><$001E>Yes！ You served here in the<$FFFC>Imperial Guard. At nineteen, you became<$FFFC>its youngest captain！<$FFFE>
 23	<$FB00><$001F>It still does not feel real<$FFF5><$FFF8>…<$FFFE>
 24	<$FB00><$0020>Then you were not artificial<$FFF5><$FFF8>…<$FFFE>
 25	<$FB00><$0021>I kept this from you, but it<$FFFC>seems I was the one who stabbed the<$FFFC>emperor.<$FFFE>
@@ -35,9 +35,9 @@
 35	<$FB00><$002C>The original's memories…<$FFFD><$FFF8>…<$FFF6><$FB00><$002D>Was Omega telling the truth？ Did I<$FFFC>really kill the emperor？<$FFFE>
 36	<$FB00><$002E>What are you muttering about？<$FFFD><$FB00><$002F>Anyway, should we fight soon？ Someone<$FFFC>familiar waits at the gate.<$FFFE>
 37	<$FB00><$0030>You fools, you dare attack this<$FFFC>place…！<$FFFE>
-38	<$FB00><$0031>So Salrath's march was a<$FFFC>diversion.<$FFFD>Even our spy was not told that much.<$FFFE>
+38	<$FB00><$0031>So Salrath's march was a<$FFFC>diversion. Even our spy was not told that<$FFFC>much.<$FFFE>
 39	<$FB00><$0032>A spy？<$FFFE>
-40	<$FB00><$0033>You need not know.<$FFFD>You will die here！ Regret attacking with<$FFFC>so few！<$FFFE>
+40	<$FB00><$0033>You need not know. You will die<$FFFC>here！ Regret attacking with so few！<$FFFE>
 41	<$FB00><$0034>Do not underestimate us. Let's<$FFFC>go！<$FFFE>
 42	<$FB00><$0029>Let's go！<$FFFE>
 43	<$FB00><$002B>Take this！<$FFFE>
@@ -85,8 +85,8 @@
 85	・Put in a blue berry<$FFFE>
 86	・Pour in water<$FFFE>
 87	You looked inside, but it was too dark to<$FFFC>see.<$FFFE>
-88	The red berry made the tube glow faintly.<$FFFD>Try the blue berry next？<$FFFE>
-89	The blue berry made the tube shine and<$FFFC>wrap you in light.<$FFFD><$0000> Learned skill <$FFF4>Healing<$FFF3>！<$FFFE>
+88	The red berry made the tube glow faintly.<$FFFC>Try the blue berry next？<$FFFE>
+89	The blue berry made the tube shine and<$FFFC>wrap you in light. <$0000> Learned skill<$FFFC><$FFF4>Healing<$FFF3>！<$FFFE>
 90	The light quickly faded, and the tube<$FFFC>returned to normal.<$FFFE>
 91	You put in the blue berry, but nothing<$FFFC>happened.<$FFFE>
 92	When you poured in water, the tube quickly<$FFFC>filled up.<$FFFE>
@@ -111,6 +111,6 @@
 111	<$FB00><$003B>All units, attack！ Defend this<$FFFC>place at any cost！<$FFFE>
 112	<$FB00><$003C>Lord Creid, we should hold and<$FFFC>wait for reinforcements.<$FFFE>
 113	<$FB00><$003D>Silence！ No more failures！ I<$FFFC>must defeat them and win glory！<$FFFE>
-114	Sir Kfir. Why do you not move？<$FFFD>You lead flyers, but command here is mine.<$FFFC>Obey orders.<$FFFE>
+114	Sir Kfir. Why do you not move？ You lead<$FFFC>flyers, but command here is mine. Obey<$FFFC>orders.<$FFFE>
 115	If you insist, I will obey.<$FFFE>
 116	Our plan was flawed. But now I can only do<$FFFC>what I can…<$FFFE>

@@ -22,7 +22,7 @@
 20	<$FB00><$000D>What's this ∑066？<$FFFE>
 21	<$FB00><$000E>Your development code, ∑066. I<$FFFC>am ^052. Call me Lambda.<$FFFE>
 22	<$FB00><$000F>∑066<$FFF5>…<$FB00><$0010>^052<$FFF5>…<$FB00><$0011>Lambda<$FFF5>…？<$FFFE>
-23	<$FB00><$0012>What is it, ∑066<$FFF5>…<$FB00><$0013>I'll just call<$FFFC>you Sigma.<$FFFD>And what do you mean to do, pointing that<$FFFC>sword at me？<$FFFE>
+23	<$FB00><$0012>What is it, ∑066<$FFF5>…<$FB00><$0013>I'll just call<$FFFC>you Sigma. And what do you mean to do,<$FFFC>pointing that sword at me？<$FFFE>
 24	<$FB00><$0014>Huh！？ Why is my sword out <$FFF5>… <$FB00><$0015>My body<$FFFC>acted on its own <$FFF5>…<$FFFE>
 25	<$FB00><$0016>Will you cut me down or not？ If<$FFFC>not, put the sword away. If so, be quick<$FFFC>about it.<$FFFE>
 26	<$FB00><$0017>Now hold on！ I can't cut down someone who<$FFFC>may not even be my enemy！<$FFFE>
@@ -32,11 +32,11 @@
 30	<$FB00><$001B>Sibling<$FFF5>…？<$FFFE>
 31	<$FB00><$001C>Yes. Beings made in the same<$FFFC>culture tank.<$FFFD>…<$FB00><$001D>Have you not noticed？ Or were you never<$FFFC>taught？<$FFFE>
 32	<$FB00><$001E>Wait a second！ What are you talking<$FFFC>about！ Explain！<$FFFE>
-33	<$FB00><$001F>So you were never taught. Fine. I<$FFFC>will tell you<$FFF5>…<$FFFD><$FB00><$0020>This is a sorcery laboratory, where all<$FFFC>manner of magic research is done.<$FFFD><$FB00><$0021>The data says we were made by experiment,<$FFFC>you for combat power, I for magic.<$FFFD>That sword you drew on me may be a fruit<$FFFC>of that experiment.<$FFFE>
+33	<$FB00><$001F>So you were never taught. Fine. I<$FFFC>will tell you<$FFF5>…<$FFFD><$FB00><$0020>This is a sorcery laboratory, where all<$FFFC>manner of magic research is done.<$FFFD><$FB00><$0021>The data says we were made by experiment,<$FFFC>you for combat power, I for magic. That<$FFFC>sword you drew on me may be a fruit of<$FFFC>that experiment.<$FFFE>
 34	<$FB00><$0022>Who made us, and what for<$FFF5>…<$FFFE>
 35	<$FB00><$0023>Our master is Marshal Gizarof.<$FFFE>
 36	<$FB00><$0024>And who is this Gizarof？ Why run<$FFFC>experiments like these？<$FFFE>
-37	<$FB00><$0025>I don't know.<$FFFD>The data only says, marshal of the<$FFFC>Regenburg Federation. By the way, Sigma.<$FFFE>
+37	<$FB00><$0025>I don't know. The data only says,<$FFFC>marshal of the Regenburg Federation. By<$FFFC>the way, Sigma.<$FFFE>
 38	<$FB00><$0026>Don't call me that！ That is not my name！<$FFFE>
 39	<$FB00><$0027>Then what should I call you？<$FFFE>
 40	<$FB00><$002D>Fine. Sigma will do. …So, what<$FFFC>is it？<$FFFE>
@@ -46,8 +46,8 @@
 44	<$FB00><$002C>I don't. Because I am me.<$FFFD>As a mere identifier, Lambda is plenty. By<$FFFC>the way<$FFF5>…<$FFFE>
 45	<$FB00><$002E>What will you do now？ Stay here<$FFFC>like this forever？<$FFFE>
 46	<$FB00><$002F>Good question…<$FFFE>
-47	<$FB00><$0030>Intruders in the laboratory.<$FFFC>Intruders in the laboratory.<$FFFD>Numerous intruders. All of them are armed.<$FFFE>
-48	…<$FB00><$0031>Enemies, it seems.<$FFFD>The data says the master has many of<$FFFC>those. We can't stay here anymore.<$FFFE>
+47	<$FB00><$0030>Intruders in the laboratory.<$FFFC>Intruders in the laboratory. Numerous<$FFFC>intruders. All of them are armed.<$FFFE>
+48	…<$FB00><$0031>Enemies, it seems. The data says<$FFFC>the master has many of those. We can't<$FFFC>stay here anymore.<$FFFE>
 49	…<$FB00><$0032>Whew. Let's go, Lambda.<$FFFE>
-50	<$0000>In Gizarof's sorcery laboratory, the<$FFFC>specimens <$F600><$0000> and Lambda<$FFFC>awaken.<$FFFD><$0000><$F600><$0000> has no memory. And amid<$FFFC>the confusion, alarms suddenly blare<$FFFC>through the halls.<$FFFD><$0000><$0000>Knowing nothing, the two are swept<$FFFC>into battle.<$FFFE>
+50	<$0000>In Gizarof's sorcery laboratory, the<$FFFC>specimens <$F600><$0000> and Lambda<$FFFC>awaken.<$FFFD><$0000><$F600><$0000> has no memory. And amid<$FFFC>the confusion, alarms suddenly blare<$FFFC>through the halls. <$0000><$0000>Knowing nothing,<$FFFC>the two are swept into battle.<$FFFE>
 51	Victory terms<$FFFC><$0000><$FFFC>・<$F600><$0000> and Lambda escape the lab<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> or Lambda dies<$FFFE>

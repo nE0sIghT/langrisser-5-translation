@@ -46,7 +46,7 @@
 44	<$FB00><$009B>We'll take Rochefort Castle<$FFFC>ourselves！<$FFFE>
 45	<$FB00><$002E>No, he's not at Rochefort<$FFFC>Castle, but another one.<$FFFE>
 46	<$FB00><$002F>He's not in his own castle？<$FFFE>
-47	<$FB00><$0030>I can't make sense of the<$FFFC>Crimsonia army's recent moves myself.<$FFFD>But after searching every way, I finally<$FFFC>found his hiding place.<$FFFD><$FB00><$0031>At the foot of Melville Mountain there's a<$FFFC>small castle. He should be there.<$FFFE>
+47	<$FB00><$0030>I can't make sense of the<$FFFC>Crimsonia army's recent moves myself. But<$FFFC>after searching every way, I finally found<$FFFC>his hiding place.<$FFFD><$FB00><$0031>At the foot of Melville Mountain there's a<$FFFC>small castle. He should be there.<$FFFE>
 48	<$FB00><$002D>Understood.<$FFFE>
 49	<$FB00><$0033>Leave the rest to me！<$FFFE>
 50	<$FB00><$0034>Let me give you some advice.<$FFFD><$FB00><$0035>His castle is guarded by a magitek system,<$FFFC>so you can't get in as you are. But<$FFFC>there's a place that controls this system.<$FFFE>
@@ -60,5 +60,5 @@
 58	<$FB00><$003E>I gave no leave. And to<$FFFC>abandon me, your lord, what is the meaning<$FFFC>of this？<$FFFE>
 59	<$FB00><$003F>Then dismiss me.<$FFF5><$FFFB> <$FB00><$0040>Now<$FFFC>then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 60	<$FB00><$0041>Z, Zero！<$FFFE>
-61	<$0000>By Marie and the World Tree's power,<$FFFC>this world's mana was sent to Crimso, and<$FFFC>Crimso returns to its true orbit.<$FFFD><$0000>As a result, Lainforce's aim drew one<$FFFC>step nearer.<$FFFD><$0000>But strangely, Lainforce had moved most<$FFFC>of his men out of the castle and relocated<$FFFC>himself elsewhere.<$FFFD><$0000><$F600><$0000>'s band heads for the<$FFFC>Melville Mountain castle to defeat<$FFFC>Lainforce.<$FFFD><$0000>Small as it is, the castle shows a<$FFFC>perfect defense through an ancient magitek<$FFFC>system. <$0000>First they had to neutralize it.<$FFFE>
+61	<$0000>By Marie and the World Tree's power,<$FFFC>this world's mana was sent to Crimso, and<$FFFC>Crimso returns to its true orbit.<$FFFD><$0000>As a result, Lainforce's aim drew one<$FFFC>step nearer. <$0000>But strangely, Lainforce<$FFFC>had moved most of his men out of the<$FFFC>castle and relocated himself elsewhere.<$FFFD><$0000><$F600><$0000>'s band heads for the<$FFFC>Melville Mountain castle to defeat<$FFFC>Lainforce.<$FFFD><$0000>Small as it is, the castle shows a<$FFFC>perfect defense through an ancient magitek<$FFFC>system. <$0000>First they had to neutralize it.<$FFFE>
 62	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

@@ -30,7 +30,7 @@
 28	<$FB00><$0079>However hard the method, I<$FFFC>would have you tell us.<$FFFE>
 29	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$007A>All right. I'll tell you.<$FFFD><$FB00><$007B>Whether to do it is for you to decide.<$FFFE>
 30	<$FB00><$007C>Please.<$FFFE>
-31	<$FB00><$007D>The method itself is simple.<$FFFD>One of the cursed bloodline goes to where<$FFFC>the curse was triggered and gives up their<$FFFC>life.<$FFFD><$FB00><$007E>With that blood, the curse will vanish.<$FFFE>
+31	<$FB00><$007D>The method itself is simple.<$FFFC>One of the cursed bloodline goes to where<$FFFC>the curse was triggered and gives up their<$FFFC>life.<$FFFD><$FB00><$007E>With that blood, the curse will vanish.<$FFFE>
 32	<$FB00><$007F>That means… someone has to<$FFFC>die？<$FFFE>
 33	<$FB00><$0080>And so the curse ends.<$FFFE>
 34	<$FB00><$0081>Lanford, or Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>

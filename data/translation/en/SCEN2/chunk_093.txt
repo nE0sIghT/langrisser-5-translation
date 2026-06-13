@@ -78,7 +78,7 @@
 76	<$FB00><$005E>Chase the swords<$FFF5><$FFF8>…<$FFFE>
 77	<$FB00><$005F>Why did Gizarof seek the Sage's<$FFFC>Crystal？<$FFFD><$FB00><$0060>If we knew his research, we would know<$FFFC>what to do after getting the swords.<$FFFE>
 78	<$FB00><$0061>Gizarof was<$FFF5><$FFF8>…<$FFFE>
-79	<$FB00><$0062>I will explain. My data retains<$FFFC>part of Master's research.<$FFFD><$FB00><$0063>He had two main goals.<$FFFD><$FB00><$0064>Immortality, and rule over the world. He<$FFFC>pursued many magical studies for them.<$FFFD><$FB00><$0065>He revived ancient magic, ancient weapons,<$FFFC>and invincible soldiers.<$FFFD>As you know, he and I are artificial<$FFFC>soldiers made by Master.<$FFFD><$FB00><$0066>He also mastered enhancement and cloning<$FFFC>to create bodies for himself.<$FFFE>
+79	<$FB00><$0062>I will explain. My data retains<$FFFC>part of Master's research.<$FFFD><$FB00><$0063>He had two main goals.<$FFFD><$FB00><$0064>Immortality, and rule over the world. He<$FFFC>pursued many magical studies for them.<$FFFD><$FB00><$0065>He revived ancient magic, ancient weapons,<$FFFC>and invincible soldiers. As you know, he<$FFFC>and I are artificial soldiers made by<$FFFC>Master.<$FFFD><$FB00><$0066>He also mastered enhancement and cloning<$FFFC>to create bodies for himself.<$FFFE>
 80	<$FB00><$0067>Um, what is a clone？<$FFFE>
 81	<$FB00><$0068>Simply, a copy of a person.<$FFFD><$FB00><$0069>Memories and personality are learned, so<$FFFC>they cannot be copied. But body and<$FFFC>aptitude can be.<$FFFE>
 82	<$FB00><$006A>What about us？ Are we clones,<$FFFC>or modified beings？<$FFFE>

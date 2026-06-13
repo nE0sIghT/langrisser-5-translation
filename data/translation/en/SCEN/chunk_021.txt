@@ -91,12 +91,12 @@
 89	<$FB00><$001E>Heh, easy for you to say.<$FFFC>Let's go！<$FFFE>
 90	<$FB00><$0037>Guh！<$FFFE>
 91	<$FB00><$0038>Lord Omega！<$FFFE>
-92	<$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but capturing<$FFFC>them alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
+92	<$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but capturing<$FFFC>them alive is tricky… Still, buying this<$FFFC>much time is good enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
 93	<$FB00><$003C>Yes, sir！<$FFFE>
 94	<$FB00><$0039>Lord Omega！<$FFFE>
-95	<$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but capturing<$FFFC>them alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
+95	<$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but capturing<$FFFC>them alive is tricky… Still, buying this<$FFFC>much time is good enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
 96	<$FB00><$003D>Yes, sir！<$FFFE>
-97	<$FB00><$0037>Guh！<$FFFD><$FB00><$003A>If all I had to do was kill them, this<$FFFC>would be easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFE>
+97	<$FB00><$0037>Guh！<$FFFD><$FB00><$003A>If all I had to do was kill them, this<$FFFC>would be easy, but capturing them alive is<$FFFC>tricky… Still, buying this much time is<$FFFC>good enough…<$FFFE>
 98	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this rate,<$FFFC>another me would be far more useful.<$FFFE>
 99	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this rate,<$FFFC>another me would be far more useful.<$FFFE>
 100	<$FB00><$0032>You're late！<$FFFE>
@@ -106,8 +106,8 @@
 104	<$FB00><$0034>Excuses later. Focus on<$FFFC>defeating these people now！<$FFFE>
 105	<$FFF7><$FB00><$0035>Yes, sir！<$FFF5><$FFF6><$FFFE>
 106	<$FFF7><$FB00><$0035>Yes, sir！<$FFF5><$FFF6><$FFFE>
-107	！？<$FFFD>Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>
-108	！？<$FFFD>Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>
+107	！？ Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>
+108	！？ Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>
 109	<$FB00><$003E>It is finally over.<$FFFE>
 110	<$FB00><$003F>We lost time in an unexpected<$FFFC>place.<$FFFE>
 111	<$FB00><$0040>Then let us hurry.<$FFFE>

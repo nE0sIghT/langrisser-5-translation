@@ -94,7 +94,7 @@
 92	<$FB00><$0063>Clarett. I wanted to see you <$FFF5><$FFF8>…<$FFFE>
 93	Damn！ My flying corps felled so easily…<$FFFE>
 94	There is something like a golden switch.<$FFFC>Press it？<$FFFE>
-95	Emergency alert！ Disinfectant gas will<$FFFC>now be sprayed！<$FFFD><$0000> Skill <$FFF4>Detox<$FFF3> learned！<$FFFE>
+95	Emergency alert！ Disinfectant gas will<$FFFC>now be sprayed！ <$0000> Skill <$FFF4>Detox<$FFF3> learned！<$FFFE>
 96	<$FB00><$0078>Looks like no enemies are left.<$FFFE>
 97	<$FB00><$0079>Now air control is ours.<$FFFE>
 98	<$FB00><$007A>But Salrath is not safe yet. The<$FFFC>enemy has ten times their force.<$FFFE>

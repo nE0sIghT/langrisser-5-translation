@@ -29,7 +29,7 @@
 27	<$FB00><$000F>That man, he's with the Caconsis<$FFFC>army, if I recall<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$0010>Admiral Wheeler. How convenient.<$FFFC>We'll bring him down before moving on.<$FFFE>
 29	<$FB00><$0011>Bring him down？<$FFFE>
-30	<$FB00><$0012>That's right. He commands all<$FFFC>Caconsis forces.<$FFFD>Wound him, and Caconsis can't move as it<$FFFC>pleases.<$FFFD><$FB00><$0013>Throwing our enemy Caconsis into disorder<$FFFC>also serves the master.<$FFFE>
+30	<$FB00><$0012>That's right. He commands all<$FFFC>Caconsis forces. Wound him, and Caconsis<$FFFC>can't move as it pleases.<$FFFD><$FB00><$0013>Throwing our enemy Caconsis into disorder<$FFFC>also serves the master.<$FFFE>
 31	<$FFF8>…<$FFF6><$FB00><$0014>I suppose that's true.<$FFFE>
 32	<$FB00><$0037>This is taking too long. Let's<$FFFC>hurry.<$FFFE>
 33	<$FB00><$0038>Come to think of it, they said a<$FFFC>general was coming.<$FFFE>
@@ -89,11 +89,11 @@
 87	…should never have come to this town…<$FFFE>
 88	…Ad…miral…Wheeler…<$FFFE>
 89	<$FB00><$0015>Fighting inside the town？ What<$FFFC>is the garrison captain here thinking？<$FFFE>
-90	<$FB00><$0016>A man named Goldry, I believe.<$FFFD>Once a rough sellsword, favored by the<$FFFC>late king and made a regular, they say.<$FFFE>
+90	<$FB00><$0016>A man named Goldry, I believe.<$FFFC>Once a rough sellsword, favored by the<$FFFC>late king and made a regular, they say.<$FFFE>
 91	<$FFF8>…<$FFF6><$FB00><$0017>That explains a lot.<$FFFE>
 92	<$FB00><$0018>A self-centered man, notorious<$FFFC>in the army for finding excuses to refuse<$FFFC>deployment.<$FFFE>
 93	<$FB00><$0019>Honestly, and at a time when<$FFFC>Caconsis can least afford bad rumors…<$FFFE>
-94	<$FB00><$001A>Admiral, please escape through<$FFFC>the north gate.<$FFFD>General Selena will not return for some<$FFFC>time yet. Until then, I will hold them off<$FFFC>somehow.<$FFFE>
+94	<$FB00><$001A>Admiral, please escape through<$FFFC>the north gate. General Selena will not<$FFFC>return for some time yet. Until then, I<$FFFC>will hold them off somehow.<$FFFE>
 95	<$FB00><$001B>There are townsfolk about. Take<$FFFC>every care that no harm comes to them.<$FFFE>
 96	<$FB00><$001C>Understood, sir. Now, Admiral,<$FFFC>hurry to the north gate.<$FFFE>
 97	<$FB00><$001D>Thank you.<$FFFE>

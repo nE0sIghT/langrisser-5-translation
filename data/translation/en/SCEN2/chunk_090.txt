@@ -16,7 +16,7 @@
 14	<$FB00><$004C>Honestly, maybe I should study<$FFFC>swordsmanship in earnest<$FFF5><$FFF8>… <$FFF6><$FB00><$004D>I keep being a<$FFFC>burden to you.<$FFFE>
 15	<$FB00><$004E>More to the point, would you<$FFFC>explain how it came to this？ Captain<$FFFC>Goldry.<$FFFE>
 16	<$FFFA><$FB00><$004F>Th, that is<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0050>What were you thinking, fighting<$FFFC>inside the town？<$FFFD>Your duty was to keep the peace here, was<$FFFC>it not？<$FFFE>
+17	<$FB00><$0050>What were you thinking, fighting<$FFFC>inside the town？ Your duty was to keep<$FFFC>the peace here, was it not？<$FFFE>
 18	<$FB00><$0051>That's exactly why I fought,<$FFFC>sir.<$FFFE>
 19	<$FB00><$0052>Is it？ It looked to me like you<$FFFC>were the one troubling the folk <$FFF5><$FFF8>…<$FFFE>
 20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw it. That captain<$FFFC>told those people to pay an outrageous<$FFFC>toll<$FFF5><$FFF8>…<$FFFE>
@@ -27,7 +27,7 @@
 25	<$FB00><$0059>Silence！ This town was put in<$FFFC>MY charge！ I do with it as I please！<$FFFE>
 26	<$FB00><$005A>Goldry！ What do you take your<$FFFC>post for！<$FFFD><$FB00><$005B>You were given authority to keep the peace<$FFFC>in this town, not to rule over it！<$FFFE>
 27	<$FFF8><$FB00><$005C>…<$FFFE>
-28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've been<$FFFC>doing just as you pleased.<$FFFD>You are a disgrace to the Caconsis army.<$FFFE>
-29	<$FB00><$005E>Enough, I've heard plenty！ I<$FFFC>quit！<$FFFD><$FB00><$005F>The king promised me a general's rank, but<$FFFC>you made me a captain！<$FFFD>I have hated that from the start！<$FFFD><$FB00><$0060>From today, my company is mercenary<$FFFC>again！<$FFFD>You will regret losing us！<$FFFE>
+28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've been<$FFFC>doing just as you pleased. You are a<$FFFC>disgrace to the Caconsis army.<$FFFE>
+29	<$FB00><$005E>Enough, I've heard plenty！ I<$FFFC>quit！<$FFFD><$FB00><$005F>The king promised me a general's rank, but<$FFFC>you made me a captain！ I have hated that<$FFFC>from the start！<$FFFD><$FB00><$0060>From today, my company is mercenary<$FFFC>again！ You will regret losing us！<$FFFE>
 30	<$FB00><$0061>We've caused this town's people<$FFFC>much trouble.<$FFFD><$FB00><$0063>Next time we will send someone more<$FFFC>dependable. Please forgive us.<$FFFE>
 31	<$FB00><$0062>Oh no, not at all<$FFF5><$FFF8>…<$FFFE><$FFFF>

@@ -42,7 +42,7 @@
 40	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0017>Zero's habits have rubbed<$FFFC>off on me, it seems.<$FFFE>
 41	<$FFF7><$FB00><$0018>Hah？<$FFF5><$FFF8><$FFFE>
 42	<$FFF9><$FB00><$0019>No, never mind.<$FFFE>
-43	<$FB00><$001A>The battleship's refit will<$FFFC>soon be done, but it took longer than<$FFFC>expected.<$FFFD>And Chaos has revived once already. We<$FFFC>must hurry.<$FFFE>
+43	<$FB00><$001A>The battleship's refit will<$FFFC>soon be done, but it took longer than<$FFFC>expected. And Chaos has revived once<$FFFC>already. We must hurry.<$FFFE>
 44	<$FB00><$001B>As you will. There is one more<$FFFC>thing to report.<$FFFE>
 45	<$FB00><$001C>What is it.<$FFFE>
 46	<$FB00><$001D>A report from the unit sent to<$FFFC>trace the true holy sword.<$FFFE>
@@ -52,10 +52,10 @@
 50	<$FB00><$0023>Gaiel has left El Sallia and<$FFFC>crossed to Yeless. He seems to be combing<$FFFC>ancient texts, researching the holy sword.<$FFFE>
 51	<$FB00><$0024>The chance he reaches the<$FFFC>ultimate weapon？<$FFFE>
 52	<$FB00><$0025>Likely it will become known to<$FFFC>him before long.<$FFFE>
-53	<$FB00><$0026>If he learns of the ultimate<$FFFC>weapon, we can't stay gathered in one<$FFFC>place.<$FFFD>Best split the men and move them from the<$FFFC>castle elsewhere.<$FFFE>
+53	<$FB00><$0026>If he learns of the ultimate<$FFFC>weapon, we can't stay gathered in one<$FFFC>place. Best split the men and move them<$FFFC>from the castle elsewhere.<$FFFE>
 54	<$FB00><$0027>Then I'll see to the<$FFFC>arrangements. For defense until everyone<$FFFC>withdraws, I'd entrust it to Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 55	<$FB00><$0028>Leave it to him. Assign two of<$FFFC>the Crimson Knights. Tell him to take the<$FFFC>utmost care.<$FFFE>
 56	<$FB00><$0029>As you will.<$FFFE>
 57	<$FFFA><$FB00><$002A>To face even the demons in a<$FFFC>situation like this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-58	<$0000>The rescued citizens reveal the Poria<$FFFC>refugees are made to dig out the<$FFFC>battleship.<$FFFD><$0000><$F600><$0000>'s band slips into<$FFFC>Valtar once more.<$FFFD><$0000>To send <$F600><$0000> and one other<$FFFC>past the guards, they run the decoy plan.<$FFFE>
+58	<$0000>The rescued citizens reveal the Poria<$FFFC>refugees are made to dig out the<$FFFC>battleship. <$0000><$F600><$0000>'s band<$FFFC>slips into Valtar once more.<$FFFD><$0000>To send <$F600><$0000> and one other<$FFFC>past the guards, they run the decoy plan.<$FFFE>
 59	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

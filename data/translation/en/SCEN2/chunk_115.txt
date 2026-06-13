@@ -27,7 +27,7 @@
 25	<$FB00><$00D4>So they say. What do we do？<$FFFE>
 26	<$FB00><$00D5>We just draw the guards'<$FFFC>attention away.<$FFFE>
 27	<$FB00><$00D6>I see. Then how about this.<$FFFE>
-28	<$FB00><$00D7>When it's dark, four of us<$FFFC>first draw the enemy off and lure them<$FFFC>elsewhere.<$FFFD>Then the other two force their way in.<$FFFE>
+28	<$FB00><$00D7>When it's dark, four of us<$FFFC>first draw the enemy off and lure them<$FFFC>elsewhere. Then the other two force their<$FFFC>way in.<$FFFE>
 29	<$FB00><$00D8>I like it. I'm for it.<$FFFE>
 30	<$FB00><$00D9>Right, let's go with that.<$FFFE>
 31	<$FB00><$00DA>I'd like you to be one of the<$FFFC>two who break in. You can wield<$FFFC>Langrisser, after all.<$FFFE>

@@ -26,7 +26,7 @@
 24	<$FB00><$0098>Speaking of kin, Alfred's and<$FFFC>yours<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 25	<$FB00><$0099>Yes. Lanford, there's<$FFFC>something I must tell you.<$FFFE>
 26	<$FB00><$009A>What is it, Alfred？<$FFFE>
-27	<$FB00><$009B>Listen well. The<$FFFC>Three-Country Alliance now throwing the<$FFFC>Federation into chaos<$FFFD>has someone pulling the strings behind it.<$FFFE>
+27	<$FB00><$009B>Listen well. The<$FFFC>Three-Country Alliance now throwing the<$FFFC>Federation into chaos has someone pulling<$FFFC>the strings behind it.<$FFFE>
 28	<$FB00><$009C>Behind it？<$FFFE>
 29	<$FB00><$009D>This is no mere civil war. It<$FFFC>concerns Yeless… no, the whole world.<$FFFE>
 30	<$FB00><$009E>Tell me everything.<$FFFE>

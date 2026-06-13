@@ -32,7 +32,7 @@
 30	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0018>I suppose so. What I'm<$FFFC>about to tell you is all true. More than<$FFFC>you could ever imagine.<$FFFE>
 31	<$FB00><$001A>I can't believe there was such<$FFFC>a terrible war<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 32	<$FB00><$001B>Then the airship Virash lent<$FFFC>us, was it a relic of that age？<$FFFE>
-33	<$FB00><$001C>That's right. You've started<$FFFC>to grasp it, I think.<$FFFD>Brenda and I are descendants of the<$FFFC>Crimsonia labor class who survived.<$FFFE>
+33	<$FB00><$001C>That's right. You've started<$FFFC>to grasp it, I think. Brenda and I are<$FFFC>descendants of the Crimsonia labor class<$FFFC>who survived.<$FFFE>
 34	<$FB00><$001D>Those survivors are called<$FFFC>Crimsolanders, and our home, Recrio<$FFFC>Village,<$FFFD>was a place where Crimsolanders lived side<$FFFC>by side with the earth-dwellers here.<$FFFE>
 35	<$FB00><$001E>Then Lainforce, who attacked<$FFFC>that Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 36	<$FB00><$001F>He is of the ruling class from<$FFFC>the red moon Crimso. He came down to the<$FFFC>surface during Crimso's approach 200<$FFFC>years ago.<$FFFD><$FB00><$0020>And as Crimso nears again, he schemes to<$FFFC>seize this land once more.<$FFFD><$FB00><$0021>Unlike us Crimsolanders, who seek to<$FFFC>coexist with humans, the Crimsonians have<$FFFC>never given up ruling the surface.<$FFFE>
@@ -40,10 +40,10 @@
 38	<$FB00><$0023>Then if Lainforce were to<$FFFC>win<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 39	<$FB00><$0024>He is the kind to wipe out a<$FFFC>village of his own people without a<$FFFC>thought. And Crimso still holds many<$FFFC>weapons.<$FFFD><$FB00><$0025>If he brings those to bear, we have not<$FFFC>the slightest chance of winning.<$FFFE>
 40	<$FB00><$0026>So to keep this world at<$FFFC>peace, we have to stop him<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-41	<$FB00><$0027>Right now he's formed the<$FFFC>Three-Country Alliance and made war on<$FFFC>the Federation.<$FFFD>Amid the chaos of Gizarof's revolt, he<$FFFC>could win with ease.<$FFFE>
+41	<$FB00><$0027>Right now he's formed the<$FFFC>Three-Country Alliance and made war on<$FFFC>the Federation. Amid the chaos of<$FFFC>Gizarof's revolt, he could win with ease.<$FFFE>
 42	<$FB00><$0028>And this Three-Country<$FFFC>Alliance, what is it？<$FFFE>
 43	<$FB00><$0029>Ah, of course. You were in El<$FFFC>Sallia, so you wouldn't know.<$FFFE>
-44	<$FB00><$002A>The Three-Country Alliance<$FFFC>is an anti-Federation pact<$FFFD>made by Rochefort's lord Lainforce,<$FFFC>Sutherland's lord Lambert,<$FFFD>and Reynorz's lord Alvince.<$FFFE>
+44	<$FB00><$002A>The Three-Country Alliance<$FFFC>is an anti-Federation pact made by<$FFFC>Rochefort's lord Lainforce, Sutherland's<$FFFC>lord Lambert, and Reynorz's lord Alvince.<$FFFE>
 45	<$FB00><$002B>Officially it's to take back<$FFFC>the lands Gizarof seized, but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$002C>Reynorz… don't tell<$FFFC>me<$FFF5><$FFF7>…<$FE14>…<$FE14><$FFF6><$FB00><$002D>Brother joined without knowing<$FFFC>Lainforce's true aim<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 47	<$FB00><$002E>He's likely being used.<$FFFE>
@@ -64,7 +64,7 @@
 62	<$FB00><$0042>So that's why Lainforce and<$FFFC>the others are searching for it.<$FFFE>
 63	<$FB00><$0043>The demon Gaiel has it, you<$FFFC>said. We'll look into that. We'll send<$FFFC>word if anything comes up.<$FFFD><$FB00><$0044>For now, you handle the Three-Country<$FFFC>Alliance.<$FFFE>
 64	<$FB00><$0045>Right. First we persuade<$FFFC>Alfred's brother and shut the Alliance<$FFFC>down.<$FFFE>
-65	<$0000>From Virash's tale, the party learned<$FFFC>Lainforce's aim, and set out for Reynorz<$FFFC>to stop Alvince, who was being used by<$FFFC>him.<$FFFD><$0000>But the tunnel to their destination was<$FFFC>held by Goldry, once of the Caconsis army,<$FFFD>now hired by the Three-Country Alliance…<$FFFE>
+65	<$0000>From Virash's tale, the party learned<$FFFC>Lainforce's aim, and set out for Reynorz<$FFFC>to stop Alvince, who was being used by<$FFFC>him.<$FFFD><$0000>But the tunnel to their destination was<$FFFC>held by Goldry, once of the Caconsis army,<$FFFC>now hired by the Three-Country Alliance…<$FFFE>
 66	・Defeat Goldry within 20 turns<$FFFE>
 67	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry within 16 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
 68	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry within 20 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>

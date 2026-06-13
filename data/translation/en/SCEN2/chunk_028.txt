@@ -60,7 +60,7 @@
 58	<$FB00><$005B>Now the clue to breaking the<$FFFC>curse is<$FFF5><$FFF8>….<$FFFE>
 59	<$FB00><$005C>Sorry, Lanford<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>If only I'd<$FFFC>done better<$FFF5><$FFF8>….<$FFFE>
 60	<$0000> <$0000>Got the Magical Bikini！<$FFFE>
-61	The ground bulges in a mound. Dig a<$FFFC>little, and a mischievous-looking Gnome<$FFFC>pops out.<$FFFD>Hey, hey！ Well found！ Care to try the<$FFFC><$FFF4>Ultimate Gamble<$FFF3>？<$FFFE>
+61	The ground bulges in a mound. Dig a<$FFFC>little, and a mischievous-looking Gnome<$FFFC>pops out. Hey, hey！ Well found！ Care to<$FFFC>try the <$FFF4>Ultimate Gamble<$FFF3>？<$FFFE>
 62	Then pick whichever box you like from<$FFFC>these！ Two of them are empty！<$FFFE>
 63	・Red box<$FFFE>
 64	・White box<$FFFE>

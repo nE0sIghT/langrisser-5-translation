@@ -68,9 +68,9 @@
 66	<$FB00><$0041>Then I will ask it. Plants<$FFFC>see, hear and feel. With my power, I can<$FFFC>speak to them.<$FFFE>
 67	<$FFFA><$FB00><$0042>It saw it. It knows the truth<$FFFC>of the emperor's murder<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>Now, tell me.<$FFFE>
 68	<$FFFA><$FB00><$0044>I see a thin, earth-colored<$FFFC>man strangling someone who looks like the<$FFFC>emperor.<$FFFE>
-69	<$FFFA><$FB00><$0045>He is on the floor. It looks<$FFFC>as if he was drugged.<$FFFD>The emperor stands beside him with a<$FFFC>sword, but his body is already dead.<$FFFD><$FB00><$0046>The emperor stabbed his own chest. Then he<$FFFC>put the sword in his hand and fell.<$FFFE>
+69	<$FFFA><$FB00><$0045>He is on the floor. It looks<$FFFC>as if he was drugged. The emperor stands<$FFFC>beside him with a sword, but his body is<$FFFC>already dead.<$FFFD><$FB00><$0046>The emperor stabbed his own chest. Then he<$FFFC>put the sword in his hand and fell.<$FFFE>
 70	<$FFFA><$FB00><$0047>The man who strangled him<$FFFC>enters the room and laughs. What a vile<$FFFC>smile.<$FFFD><$FB00><$0048>Then he knocked over the desk and<$FFFC>vanished, as if covering his tracks.<$FFFE>
-71	<$FB00><$0049>I can tell the rest. I heard a<$FFFC>loud noise from father's room and came<$FFFC>with the guards.<$FFFD><$FB00><$004A>He stood in a daze, holding a bloodstained<$FFFC>sword.<$FFFD>When he saw us, he escaped through that<$FFFC>window.<$FFFE>
+71	<$FB00><$0049>I can tell the rest. I heard a<$FFFC>loud noise from father's room and came<$FFFC>with the guards.<$FFFD><$FB00><$004A>He stood in a daze, holding a bloodstained<$FFFC>sword. When he saw us, he escaped through<$FFFC>that window.<$FFFE>
 72	<$FB00><$004B>The tree says the same.<$FFFE>
 73	<$FB00><$004C>That is wonderful！ You are<$FFFC>not the murderer！<$FFFE>
 74	<$FB00><$004D>But that alone will not prove<$FFFC>him innocent.<$FFFD><$FB00><$004E>I do not want to doubt Marie, but even if<$FFFC>she is right, we have no way to prove it.<$FFFE>
@@ -96,10 +96,10 @@
 94	For me？<$FFFE>
 95	<$F600><$0000>'s personal weapon<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Assault Magiblade<$FFF3> obtained！<$FFFE>
 96	…This sword…？<$FFFE>
-97	It is the Egil family treasure, the sword<$FFFC>you used before.<$FFFD>They say an Egil emperor found it one<$FFFC>thousand years ago while trying to save<$FFFC>his wife.<$FFFD>It is hard to wield, and few Egils ever<$FFFC>mastered it…<$FFFD>I hoped using it might help your memory<$FFFC>return…<$FFFE>
+97	It is the Egil family treasure, the sword<$FFFC>you used before. They say an Egil emperor<$FFFC>found it one thousand years ago while<$FFFC>trying to save his wife.<$FFFD>It is hard to wield, and few Egils ever<$FFFC>mastered it… I hoped using it might help<$FFFC>your memory return…<$FFFE>
 98	I see. If I once used it, my body may<$FFFC>remember it.<$FFFE>
 99	Thank you, Clarett.<$FFFE>
 100	<$FB00><$0040>Then let us hurry.<$FFFE>
-101	<$0000>Though Gilmore himself escaped, the<$FFFC>party retook Kalxath Castle.<$FFFD><$0000>But the turmoil across El Sallia had not<$FFFC>yet ended.<$FFFD><$0000>The demons, who had been lying low until<$FFFC>now, finally began to move.<$FFFD><$0000><$F600><$0000> and the others hurried<$FFFC>to a village where the dead were said to<$FFFC>walk.<$FFFE>
+101	<$0000>Though Gilmore himself escaped, the<$FFFC>party retook Kalxath Castle. <$0000>But the<$FFFC>turmoil across El Sallia had not yet<$FFFC>ended.<$FFFD><$0000>The demons, who had been lying low until<$FFFC>now, finally began to move.<$FFFD><$0000><$F600><$0000> and the others hurried<$FFFC>to a village where the dead were said to<$FFFC>walk.<$FFFE>
 102	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 villager units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 103	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・All villagers defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

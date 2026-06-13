@@ -57,10 +57,10 @@
 55	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD><$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
 56	・Defeat all enemies<$FFFE>
 57	・<$F600><$0000> dies<$FFFE>
-58	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a keen-looking sword.<$FFFD>Take the sword？<$FFFE>
+58	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a keen-looking sword.<$FFFC>Take the sword？<$FFFE>
 59	<$0000> <$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
 60	A locking sound came from the right.<$FFFE>
-61	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a splendid suit of<$FFFC>armor.<$FFFD>Take the armor？<$FFFE>
+61	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a splendid suit of<$FFFC>armor. Take the armor？<$FFFE>
 62	<$0000> <$FFF4>Aeneas Mail<$FFF3> obtained！<$FFFE>
 63	A locking sound came from the left.<$FFFE>
 64	<$FB00><$007A>I'm pressing on！<$FFFE>

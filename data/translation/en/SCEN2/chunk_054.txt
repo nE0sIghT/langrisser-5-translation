@@ -50,5 +50,5 @@
 48	<$FFF8><$FB00><$0029>Hm？<$FFFE>
 49	<$FFF8>… <$FFF6><$FB00><$002B>Be…careful<$FFF5><$FFF8>…<$FFFE>
 50	<$FB00><$002C>Yeah. Marie, hurry and<$FFFC>remember me too. See you！<$FFFE>
-51	<$0000>El Sallia. <$0000>In the gods' tongue, the<$FFFC>name means land filled with light. It is<$FFFC>Jessica's home, and Langrisser's home.<$FFFD><$0000>Pursuing Jessica and the swords stolen<$FFFC>by Gaiel, <$F600><$0000>'s group crossed<$FFFC>to El Sallia.<$FFFD><$0000>There they found Clarett and Jessica<$FFFC>surrounded by soldiers…<$FFFE>
+51	<$0000>El Sallia. <$0000>In the gods' tongue, the<$FFFC>name means land filled with light. It is<$FFFC>Jessica's home, and Langrisser's home.<$FFFD><$0000>Pursuing Jessica and the swords stolen<$FFFC>by Gaiel, <$F600><$0000>'s group crossed<$FFFC>to El Sallia. <$0000>There they found Clarett<$FFFC>and Jessica surrounded by soldiers…<$FFFE>
 52	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC>・Jessica or Clarett dies<$FFFC>・<$F600><$0000> dies<$FFFE>

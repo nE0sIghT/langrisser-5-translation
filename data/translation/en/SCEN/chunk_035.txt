@@ -27,15 +27,15 @@
 25	<$FB00><$001B>This is bad.<$FFF5> <$FB00><$001C>The clouds<$FFFC>clearing is only a matter of time<$FFF5><$FFF8>….<$FFFE>
 26	<$FB00><$0023>I can see stars through<$FFFC>the gaps in the clouds<$FFF5><$FFF8>…. <$FFF6><$FB00><$0024>We're out of<$FFFC>time….<$FFFE>
 27	<$FB00><$0023>I can see stars through<$FFFC>the gaps in the clouds<$FFF5><$FFF8>…. <$FFF6><$FB00><$0024>We're out of<$FFFC>time….<$FFFE>
-28	Skilled indeed.<$FFFD>But how about this！<$FFFE>
-29	Here a pillar's base is missing and a deep<$FFFC>hole opens. Listening close, a voice comes<$FFFC>from within.<$FFFD>I shall put some questions to you. Answer<$FFFC>honestly.<$FFFD>Answer the voice's questions？<$FFFE>
+28	Skilled indeed. But how about this！<$FFFE>
+29	Here a pillar's base is missing and a deep<$FFFC>hole opens. Listening close, a voice comes<$FFFC>from within. I shall put some questions to<$FFFC>you. Answer honestly.<$FFFD>Answer the voice's questions？<$FFFE>
 30	Are you content with your present self？<$FFFE>
 31	Why do you fight？<$FFFE>
 32	・Because I love battle<$FFFE>
 33	・To protect the human world from demons<$FFFE>
 34	Do you love this world？<$FFFE>
-35	I have heard your heart well.<$FFFD>Then I'll lend my power to your ideal.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Drake Rod<$FFF3> obtained！<$FFFE>
-36	…I see. Then live by your own strength.<$FFFD>The voice fell silent.<$FFFE>
+35	I have heard your heart well. Then I'll<$FFFC>lend my power to your ideal. <$0000><$FFFC><$0000><$0000><$0000><$FFF4>Drake Rod<$FFF3> obtained！<$FFFE>
+36	…I see. Then live by your own strength.<$FFFC>The voice fell silent.<$FFFE>
 37	<$FB00><$002D>I won't die in a place<$FFFC>like this…<$FFFE>
 38	<$FB00><$004B>No… that I should…<$FFFE>
 39	<$FB00><$004C>Marie, leave this to us<$FFFC>and pull back！<$FFFE>
