@@ -1,0 +1,10 @@
+# file=SCEN.DAT chunk=82 chunk_start=0xF50800
+# block_base=0x189C block_size=0x016C records=8
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	<$0000>On the way back to Gizarof's<$FFFC>lab, <$F600><$0000> and the others<$FFFC>get VIP tickets to a huge<$FFFC>bargain sale.<$FFFD>With the little time left before<$FFFC>the Federal troops reach the lab,<$FFFC>they stop by the sale. The usual<$FFFC>big brothers were there too…<$FFFE>
+8	Victory<$FFFC><$0000><$FFFC>・Goods all sell out<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

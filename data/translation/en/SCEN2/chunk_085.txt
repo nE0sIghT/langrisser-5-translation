@@ -1,0 +1,10 @@
+# file=SCEN.DAT chunk=85 chunk_start=0xFBC800
+# block_base=0x1B38 block_size=0x0120 records=8
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	<$0000>The party heads for the spot<$FFFC>marked on the map Alfred found. Is<$FFFC>there really treasure waiting<$FFFC>there…<$FFFE>
+8	Victory<$FFFC><$0000><$FFFC>・Wipe out the impostors<$FFFD>Defeat<$FFFC><$0000><$FFFC>・All 3 heroines lured off by impostors<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>
