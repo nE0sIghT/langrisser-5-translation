@@ -103,56 +103,43 @@ Capacity facts learned while building:
   the need for aggressive line cuts, but tight chunks still need editorial
   trimming when the whole SCEN/SCEN2 file budget is exhausted.
 
-## Status snapshot (2026-06-11, end of round 3)
+## Status snapshot (2026-06-13)
 
-Done: stages 0-3. Toolchain with byte-identical round-trip; font table 100%
-mapped; EN glyph system (Spleen 6x12 pairs, two letters per cell, narrow
-`space+letter`, `letter+space`, `punctuation+space` and `letter+punctuation`
-pairs, baseline-aligned letters and
-digits, lowered ellipsis, native digit/question/exclamation/colon visual
-overrides); full
-EN startup quiz; menu/UI/name runs; width-aware reflow; PPF builds without
-growing files or changing ISO layout. The SCEN inserter can now fixed-size
-repack chunk offsets inside SCEN/SCEN2 when local chunk padding is too small.
+Done: stages 0-3, the full main story route, startup quiz, menu/UI/name runs,
+and the English glyph system. The current build validates with fixed-size
+SCEN/SCEN2 repacking and produces a PPF without growing any disc file. Main
+story scenarios 1-36 are translated as durable per-chunk assets in
+`data/translation/en/SCEN/` and mirrored in `SCEN2/`.
 
-## Stage 4a — item/class/unit names (next)
+Still open outside the main story route:
 
-1. Translate the name databases: item names + item descriptions and class
-   names in SYSTEM.BIN (~1800 runs), unit names in ALLUSW/ALLUSB.
-   Mechanism: same menu-map dictionary; mostly katakana -> EN, highly
-   mechanizable, fit-checked by the cell-accurate patcher.
-2. This also fixes the equipment "roulette" in the quiz (record 9 flow).
-3. Bonus: every translated run frees its kanji for the pair-glyph pool.
+- Tutorial battle chunk 37.
+- Optional map intros 82-86 and optional battles 38-42.
+- Recap chunks 129 and 130.
+- In-game QA and wording/line-break polish across the completed content.
+- Optional graphics/title work and release packaging.
 
-## Stage 4b — quiz polish
+## Stage 4 — remaining script coverage
 
-1. With pair glyphs the quiz uses 2891/4531 words: restore the fuller
-   phrasing of the records that were trimmed to fit (tutorials 198-204,
-   intro lines), re-verify in DuckStation.
-
-## Stage 4c — story alignment (the main volume)
-
-1. Map chunks to translation.txt scenes ("Scenario N" / "Scenario N Clear")
-   via speaker names and line order; SCEN vs SCEN2 chunk diffs decide which
-   file carries which variant.
-2. Scene-by-scene alignment of guide lines to JP records (LLM-assisted,
-   ~70-80% automation), stored as per-chunk EN dump files — the durable
-   asset. Human proofreading per scene.
-3. Per-chunk capacity: EN density now ~= JP thanks to pairs; block growth
-   into chunk tail padding covers the rest; report-driven trims where a
-   chunk still overflows.
-4. Glossary for names/terms (Sigma, Lambda, Clarett, McClaine...) kept as
-   data so script and menus stay consistent.
-5. Pair-slot pool self-balances: translated chunks free their rare kanji;
-   re-run lang5_assign_en_slots.py as coverage grows.
+1. Translate tutorial battle chunk 37. This completes the startup quiz flow.
+2. Translate optional maps in intro/battle pairs:
+   `82+38`, `83+39`, `84+40`, `85+41`, `86+42`.
+3. Translate recap chunks 129 and 130.
+4. After every completed chunk pair: rewrap, validate, rebuild PPF, regenerate
+   review HTML, and commit only the durable translation assets plus any
+   required documentation updates.
 
 ## Stage 5 — full-game polish
 
-1. Battle log composite messages (name-prefix runs like 「の効果！」) need
-   template-aware translation.
-2. Title screen logo/graphics (bitmap, optional).
-3. Verify every scenario boots and completes (savestate sweep).
-4. Release packaging: PPF + README; xdelta as alternative format.
+1. Playtest the whole main route plus tutorial and optional maps.
+2. Review line breaks and speaker-plate wrapping in-game, especially first
+   lines of spoken records and choice rows.
+3. Revisit `docs/COMPRESSION_DEBT.md` and restore compressed nuance where
+   budget allows.
+4. Battle log composite messages (name-prefix runs like 「の効果！」) need
+   template-aware translation if they appear untranslated in playtesting.
+5. Title screen logo/graphics (bitmap, optional).
+6. Release packaging: PPF + README; xdelta as alternative format.
 
 Credits/staff roll is intentionally left untranslated (kept in JP).
 
