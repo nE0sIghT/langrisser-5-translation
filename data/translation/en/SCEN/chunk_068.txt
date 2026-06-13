@@ -30,7 +30,7 @@
 28	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0017>I still cannot go to<$FFFC>Caconsis. If word spreads that I<$FFFC>defected there, Caconsis will be in<$FFFC>danger.<$FFFE>
 29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0019>So I<$FFFC>asked Admiral Wheeler to arrange<$FFFC>a secret entry into Caconsis. They<$FFFC>agreed.<$FFFE>
 30	<$FB00><$001A>I see. But there is<$FFFC>something else on my mind.<$FFFE>
-31	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001B>Your father, who<$FFFC>joined the Three-Nation Alliance？<$FFFE>
+31	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001B>Your father, who<$FFFC>joined the Three-Country Alliance？<$FFFE>
 32	<$FB00><$001C>Yes. I had an older<$FFFC>brother, a fine man. He is gone<$FFFC>now.<$FFFD><$FB00><$001D>After he died, Father changed. He<$FFFC>suddenly disowned me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$001E>Now he backs the alliance and<$FFFC>bares his fangs at the<$FFFC>Federation. I feel there is a<$FFFC>reason. I want to find it.<$FFFE>
 33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by<$FFFC>my own hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 34	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0020>All right, Lanford.<$FFFC>But I'm coming with you. My sister<$FFFC>told me to look after you.<$FFFE>
