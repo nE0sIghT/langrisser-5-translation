@@ -98,7 +98,7 @@ bit 15      STP/semitransparency flag
 The PNG exporter converts the 5-bit color channels to 8-bit RGB and ignores
 the STP bit for preview rendering.
 
-Asset 10 title-screen palette:
+Title-screen palette:
 
 | Field | Value |
 | --- | --- |
@@ -165,17 +165,19 @@ else:
 Encoding must write only logical pixels and preserve the 32-byte gap contents
 and block padding bytes.
 
-## Known Image Profile: Title Screen
+## Known Image Profiles: Title Screens
 
-Profile name in `scripts/lang5_imgdat.py`: `title10`.
+Profile names in `scripts/lang5_imgdat.py`: `title10` and `title11`. These
+are the two title screens seen in-game; they alternate around the opening
+movie/title loop. They share the same bitmap layout and credit coordinates.
 
 | Field | Value |
 | --- | --- |
-| Asset index | 10 |
-| Asset offset in `IMG.DAT` | `0x0e6000` |
+| Asset indices | 10 and 11 |
+| Asset offsets in `IMG.DAT` | `0x0e6000`, `0x11c800` |
 | Asset size | 223,232 bytes |
 | Bitmap relative offset inside asset | `0x12020` |
-| Bitmap absolute offset in `IMG.DAT` | `0x0f8020` |
+| Bitmap absolute offsets in `IMG.DAT` | `0x0f8020`, `0x12e820` |
 | Logical bitmap size | 640 x 225 |
 | Source row range represented by profile | 0..224 |
 | Background index | `0xfe` |
@@ -186,12 +188,15 @@ Profile name in `scripts/lang5_imgdat.py`: `title10`.
 | Display framebuffer size | 640 x 240 |
 | Display preview aspect | 640 x 480 |
 
-Decode command:
+Decode commands:
 
 ```bash
 python3 scripts/lang5_imgdat.py decode-gap-bitmap work/extracted/IMG.DAT \
   --profile title10 \
   --out work/title_credits/title10_decoded.png
+python3 scripts/lang5_imgdat.py decode-gap-bitmap work/extracted/IMG.DAT \
+  --profile title11 \
+  --out work/title_credits/title11_decoded.png
 ```
 
 The output is RGB by default. Pass `--index-debug` only when a diagnostic
@@ -208,10 +213,12 @@ python3 scripts/lang5_imgdat.py title-credits work/extracted/IMG.DAT \
   --out-crop work/build/title_credits_crop.png
 ```
 
-The command writes an edited same-size copy of `IMG.DAT`, decodes the edited
-container again, and writes PNG previews from that decoded data. It writes
-both the raw `640x225` asset preview and a display-aspect `640x480` preview.
-It does not render over an emulator screenshot.
+The command writes an edited same-size copy of `IMG.DAT`, patching both
+title profiles. It decodes the edited container again and writes PNG previews
+from that decoded data. It writes both the raw `640x225` asset preview and a
+display-aspect `640x480` preview for `title10`; matching `*_title11.png`
+previews are written for `title11`. It does not render over an emulator
+screenshot.
 
 The display-aspect preview inserts the raw bitmap into a `640x240` frame at
 `y=8` and vertically doubles the frame. The raw asset remains `640x225`; only
@@ -231,7 +238,7 @@ The release text is generated from:
 Rendered text:
 
 ```text
-Translation v<version> (<commit>) by nE0sIghT
+Translation v<version> (<commit>) by Yuri `nE0sIghT` Konotopov
 Thanks to CyberWarriorX for the Langrisser III toolkit
 Thanks to borgor for the Langrisser V translation guide
 ```

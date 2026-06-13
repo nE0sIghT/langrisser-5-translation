@@ -149,10 +149,11 @@ Still open outside the main story route:
    the inserter keeps grown text blocks 4-byte aligned. Block-budget mode is a
    fallback diagnostic, not the normal translation budget.
 6. Title screen credit graphics are part of the standard build.
-   `scripts/lang5_imgdat.py title-credits` patches asset 10 in-place, using
-   the bundled `LiberationSansNarrow-Bold.ttf`, the requested patch version,
-   the current git commit hash, and a QR code for the project repository.
-   The command also writes raw/display previews for QA.
+   `scripts/lang5_imgdat.py title-credits` patches the two title-screen
+   assets 10 and 11 in-place, using the bundled
+   `LiberationSansNarrow-Bold.ttf`, the requested patch version, the current
+   git commit hash, and a QR code for the project repository. The command
+   also writes raw/display previews for QA.
 7. Release packaging: PPF + README; xdelta as alternative format.
 
 Credits/staff roll is intentionally left untranslated (kept in JP).

@@ -127,6 +127,16 @@ class GapBitmapProfile:
         return global_y - self.global_row0
 
 
+TITLE_GAP_AFTER_X_BY_ROW_POS = {
+    3: 96,
+    6: 192,
+    9: 288,
+    12: 384,
+    15: 480,
+    18: 576,
+    22: 32,
+}
+
 PROFILES = {
     "title10": GapBitmapProfile(
         name="title10",
@@ -137,26 +147,34 @@ PROFILES = {
         block_rows=25,
         block_bytes=0x4000,
         gap_bytes=32,
-        gap_after_x_by_row_pos={
-            3: 96,
-            6: 192,
-            9: 288,
-            12: 384,
-            15: 480,
-            18: 576,
-            22: 32,
-        },
+        gap_after_x_by_row_pos=TITLE_GAP_AFTER_X_BY_ROW_POS,
         global_row0=0,
         background_index=254,
         ink_index=44,
         palette_rel_offset=0x36220,
-    )
+    ),
+    "title11": GapBitmapProfile(
+        name="title11",
+        asset_index=11,
+        rel_offset=0x12020,
+        width=640,
+        height=225,
+        block_rows=25,
+        block_bytes=0x4000,
+        gap_bytes=32,
+        gap_after_x_by_row_pos=TITLE_GAP_AFTER_X_BY_ROW_POS,
+        global_row0=0,
+        background_index=254,
+        ink_index=44,
+        palette_rel_offset=0x36220,
+    ),
 }
+TITLE_PATCH_PROFILE_NAMES = ("title10", "title11")
 
 TITLE_CREDIT_SPECS = [
     TitleCreditLineSpec(line_index=0, font_size=20, stroke_width=0.14, raw_height=11, global_y=195),
     TitleCreditLineSpec(line_index=1, font_size=17, stroke_width=0.12, raw_height=9, global_y=208),
-    TitleCreditLineSpec(line_index=2, font_size=17, stroke_width=0.12, raw_height=9, global_y=218),
+    TitleCreditLineSpec(line_index=2, font_size=17, stroke_width=0.12, raw_height=9, global_y=216),
 ]
 
 
@@ -180,7 +198,7 @@ def git_short_hash(repo_root: str | Path | None = None) -> str:
 
 def title_credit_lines(version: str, commit_hash: str) -> list[str]:
     return [
-        f"Translation v{version} ({commit_hash}) by nE0sIghT",
+        f"Translation v{version} ({commit_hash}) by Yuri `nE0sIghT` Konotopov",
         "Thanks to CyberWarriorX for the Langrisser III toolkit",
         "Thanks to borgor for the Langrisser V translation guide",
     ]
@@ -669,43 +687,64 @@ def cmd_decode_gap_bitmap(args: argparse.Namespace) -> None:
 
 
 def cmd_title_credits_preview(args: argparse.Namespace) -> None:
-    profile = PROFILES["title10"]
     data = read_img(args.imgdat)
-    _, asset = get_asset(data, profile.asset_index)
-    rows = decode_gap_bitmap(asset, profile)
-    palette = read_palette(asset, profile)
-    if palette is None:
-        raise ValueError(f"{profile.name} has no palette configured")
-
     commit_hash = args.commit_hash or git_short_hash()
-    draw_title_credits(rows, profile, palette, args.version, commit_hash, args.font)
-    if not args.no_qr:
-        draw_title_qr(
-            rows,
-            profile,
-            palette,
-            args.qr_url,
-            args.qr_x,
-            args.qr_y,
-            args.qr_module_width,
-            args.qr_module_height,
-        )
 
-    edited_asset = encode_gap_bitmap(asset, rows, profile)
-    replace_asset(data, profile.asset_index, edited_asset)
+    for profile_name in TITLE_PATCH_PROFILE_NAMES:
+        profile = PROFILES[profile_name]
+        _, asset = get_asset(data, profile.asset_index)
+        rows = decode_gap_bitmap(asset, profile)
+        palette = read_palette(asset, profile)
+        if palette is None:
+            raise ValueError(f"{profile.name} has no palette configured")
+
+        draw_title_credits(rows, profile, palette, args.version, commit_hash, args.font)
+        if not args.no_qr:
+            draw_title_qr(
+                rows,
+                profile,
+                palette,
+                args.qr_url,
+                args.qr_x,
+                args.qr_y,
+                args.qr_module_width,
+                args.qr_module_height,
+            )
+
+        edited_asset = encode_gap_bitmap(asset, rows, profile)
+        replace_asset(data, profile.asset_index, edited_asset)
 
     out_imgdat = Path(args.out_imgdat)
     out_imgdat.parent.mkdir(parents=True, exist_ok=True)
     out_imgdat.write_bytes(data)
-    write_title_asset_previews(data, profile, args.out_raw_preview, args.out_display, args.out_crop)
+    write_title_asset_previews(data, PROFILES["title10"], args.out_raw_preview, args.out_display, args.out_crop)
+    if args.out_display:
+        display_path = Path(args.out_display)
+        title11_display = display_path.with_name(f"{display_path.stem}_title11{display_path.suffix}")
+    else:
+        title11_display = None
+    if args.out_raw_preview:
+        raw_path = Path(args.out_raw_preview)
+        title11_raw = raw_path.with_name(f"{raw_path.stem}_title11{raw_path.suffix}")
+    else:
+        title11_raw = None
+    if args.out_crop:
+        crop_path = Path(args.out_crop)
+        title11_crop = crop_path.with_name(f"{crop_path.stem}_title11{crop_path.suffix}")
+    else:
+        title11_crop = None
+    write_title_asset_previews(data, PROFILES["title11"], title11_raw, title11_display, title11_crop)
 
     print(f"edited IMG.DAT -> {out_imgdat}")
     if args.out_raw_preview:
         print(f"raw preview -> {args.out_raw_preview}")
+        print(f"title11 raw preview -> {title11_raw}")
     if args.out_display:
         print(f"display preview -> {args.out_display}")
+        print(f"title11 display preview -> {title11_display}")
     if args.out_crop:
         print(f"display crop -> {args.out_crop}")
+        print(f"title11 display crop -> {title11_crop}")
 
 
 def build_parser() -> argparse.ArgumentParser:
