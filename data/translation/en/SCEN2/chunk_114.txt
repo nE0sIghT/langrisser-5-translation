@@ -1,0 +1,49 @@
+# file=SCEN.DAT chunk=114 chunk_start=0x1403800
+# block_base=0x58DC block_size=0x0944 records=47
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Lambert<$FFFF>
+8	Lainforce<$FFFF>
+9	Virash<$FFFF>
+10	Rochefort Castle<$FFFF>
+11	<$FB00><$0068>One moment, Lord<$FFFC>Lainforce！<$FFFE>
+12	<$FB00><$0069>What is it？ You have<$FFFC>business with me？<$FFFE>
+13	<$FB00><$006A>It's time you told me<$FFFC>how to break the curse.<$FFFE>
+14	<$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$006B>Alvince and my butler<$FFFC>Masterson are both slain. By the<$FFFC>reports, my son Lanford was among<$FFFC>them.<$FFFD><$FB00><$006C>At this rate, the day my son<$FFFC>and I fight is not far off.<$FFFC>That would be the curse fulfilled.<$FFFE>
+16	<$FB00><$006D>I can tell you, but<$FFFC>whether the curse breaks I cannot<$FFFC>say. And whether it even need be<$FFFC>broken now, who can tell.<$FFFE>
+17	<$FB00><$006E>Wh… that's fine. Tell<$FFFC>me！<$FFFE>
+18	<$FB00><$006F>Very well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	A Room at the Inn<$FFFF>
+20	<$FB00><$0070>So, what is it, Virash.<$FFFC>Do you know how to break it？<$FFFE>
+21	<$FB00><$0071>A, ah<$FFF5><$FFF8>…<$FE14>…<$FE14>,<$FE14><$FFF6><$FB00><$0072>I know.<$FFFE>
+22	<$FB00><$0073>Then tell us.<$FFFE>
+23	<$FB00><$0074>That's… well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+24	<$FB00><$0075>You're being cagey！<$FFFC>We're in a hurry, you know？<$FFFE>
+25	<$FB00><$0076>Is the method so<$FFFC>difficult？<$FFFE>
+26	<$FB00><$0077>Difficult, and yet<$FFFC>simple<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+27	<$FB00><$0078>That tells us nothing！<$FFFE>
+28	<$FB00><$0079>However hard the method,<$FFFC>I would have you tell us.<$FFFE>
+29	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$007A>All right. I'll tell<$FFFC>you.<$FFFD><$FB00><$007B>Whether to do it is for you to<$FFFC>decide.<$FFFE>
+30	<$FB00><$007C>Please.<$FFFE>
+31	<$FB00><$007D>The method itself is<$FFFC>simple.<$FFFD>One of the cursed bloodline goes<$FFFC>to where the curse was triggered<$FFFC>and gives up their life.<$FFFD><$FB00><$007E>With that blood, the curse will<$FFFC>vanish.<$FFFE>
+32	<$FB00><$007F>That means… someone has<$FFFC>to die？<$FFFE>
+33	<$FB00><$0080>And so the curse ends.<$FFFE>
+34	<$FB00><$0081>Lanford, or Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+35	<$FB00><$0082>Lanford！<$FFFE>
+36	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$0083>A simple matter,<$FFFC>isn't it. I'll go to that ruin.<$FFFC>It was brief, but I'm grateful to<$FFFC>you all.<$FFFE>
+37	<$FB00><$0084>Wait, Lanford！<$FFFE>
+38	<$FB00><$0085>We'll go after him！<$FFFE>
+39	<$FB00><$0086>Brenda！<$FFFE>
+40	<$FB00><$0087>Hm？ What is it, if<$FFFC>you've something to say, out with<$FFFC>it！<$FFFE>
+41	<$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0088>I'm sorry. I got<$FFFC>your mercenary band killed.<$FFFE>
+42	<$FFF7><$FB00><$0089>Eh！？<$FFF5><$FFFE>
+43	<$FB00><$008A>Lainforce's next target is<$FFFC>the sky battleship sleeping beneath<$FFFC>Valtar.<$FFFD><$FB00><$008B>While I held off his main force,<$FFFC>I asked the girls to destroy<$FFFC>the battleship, but it seems the<$FFFC>Crimson Knights appeared.<$FFFE>
+44	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>The Crimson<$FFFC>Knights<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FB00><$008D>I'm sorry, Brenda.<$FFF5> <$FB00><$008E>Had<$FFFC>I gone with them, they need not<$FFFC>have died so pointlessly. This one<$FFFC>is my failure.<$FFFE>
+46	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008F>It hurts, but it<$FFFC>can't be helped. This is war. They<$FFFC>knew the risk too.<$FFFE>
+47	<$FB00><$0090>I'll clear their regret<$FFFC>by beating Lain！<$FFFE><$FFFF>

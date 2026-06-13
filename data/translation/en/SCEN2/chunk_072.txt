@@ -1,0 +1,50 @@
+# file=SCEN.DAT chunk=72 chunk_start=0xD46800
+# block_base=0x85EC block_size=0x0950 records=48
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Virash<$FFFF>
+8	Magitek<$FFFF>
+9	Grunt<$FFFF>
+10	Soldier<$FFFF>
+11	Zero<$FFFF>
+12	Merc<$FFFF>
+13	Lainforce<$FFFF>
+14	C.Knights 8<$FFFF>
+15	C.Knights 9<$FFFF>
+16	Near the City of Valtar<$FFFF>
+17	<$FB00><$0003>Don't fear their<$FFFC>numbers！ We have the Magitek<$FFFC>giant！<$FFFE>
+18	<$FB00><$0004>VOOON！<$FFFE>
+19	<$FFF7><$FB00><$0005>Fire<$00E4><$00E6>！<$FFF5><$FFF8><$FFFE>
+20	<$FFF7><$FB00><$0006>Uwa<$00E4><$00E6>！<$FFFE>
+21	<$FB00><$0007>Lord Zero！ The enemy<$FFFC>brought out an ancient weapon！<$FFFE>
+22	<$FB00><$0008>Don't panic. The<$FFFC>Crimsolanders, who until now<$FFFC>avoided drawing notice, have thrown<$FFFC>such force at us.<$FFFD>That alone proves they have no<$FFFC>fallback left.<$FFFE>
+23	<$FB00><$0009>But at this rate<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+24	<$FB00><$000A>We have our own<$FFFC>preparations. Bring out the thing.<$FFFE>
+25	<$FB00><$000B>Stop them whatever it<$FFFC>takes！<$FFFE>
+26	<$FB00><$000C>What, what's happening？<$FFFE>
+27	<$FB00><$000D>You aren't the only<$FFFC>ones with an ancient weapon.<$FFFD><$FB00><$000E>Begin the attack.<$FFFE>
+28	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$000F>Impressive！ Until<$FFFC>the girls destroy the battleship,<$FFFC>we cannot lose！<$FFFE>
+29	Valtar City, Underground Dock<$FFFF>
+30	<$FB00><$0010>This is<$FFF5><$FFF7>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0011>I've never<$FFFC>seen an airship this huge！<$FFFE>
+31	<$FB00><$0012>This is the sky<$FFFC>battleship Lainforce is after.<$FFFD>In this age, one of these alone<$FFFC>could subjugate the surface. It<$FFFC>could even reach Crimso<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+32	<$FB00><$0013>True, it's dangerous if<$FFFC>it falls into Crimsonia's hands.<$FFFE>
+33	<$FB00><$0014>Now, while Virash holds<$FFFC>off the enemy, let's destroy it.<$FFFE>
+34	<$FFF7><$FB00><$0015>Yeah！<$FFF5><$FFF8><$FFFE>
+35	<$FB00><$0016>You'll come quietly<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+36	<$FB00><$0017>Who's there！？<$FFFE>
+37	<$FB00><$0018>Thanks for guiding us<$FFFC>in. Crimsolanders, the lot of you.<$FFFE>
+38	<$FB00><$0019>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF8>…<$FE1E>…<$FE14><$FFF6><$FB00><$001A>To think you'd even field the<$FFFC>Crimson Knights<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FB00><$001B>Don't underestimate Lord<$FFFC>Lainforce's foresight. That you'd<$FFFC>plot to destroy the battleship, he<$FFFC>saw it all.<$FFFE>
+40	<$FB00><$001C>Well, now that we know<$FFFC>how to get in here, you've<$FFFC>outlived your use. Die here.<$FFFE>
+41	<$FB00><$001D>I'll return to the<$FFFC>castle once. The rest is yours.<$FFFE>
+42	<$FFF7><$FB00><$001E>Haha.<$FFF5><$FFF8><$FFFE>
+43	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001F>Hey, these guys<$FFFC>are<$FFF5><$FFF8>…<$FE14>…<$FE1E>？<$FFFE>
+44	<$FB00><$0020>An elite knight order<$FFFC>of nine, Eins through Neun, of<$FFFC>Crimsonia.<$FFFD>That is the Crimson Knights. Each<$FFFC>one a match for a thousand<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0021>Looks like this is<$FFFC>as far as we go<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+46	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0022>Boss, Virash<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0023>I'm<$FFFC>sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+47	<$0000>Having heard of the curse from<$FFFC>Masterson, the party made for<$FFFC>Premier Russel's manor.<$FFFD><$0000>They came to learn the truth of<$FFFC>the curse on Lanford's house.<$FFFD><$0000>But there, Russel's dreadful true<$FFFC>nature comes to light….<$FFFE>
+48	Victory terms<$FFFC><$0000><$FFFC>・Defeat Ferakia<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>
