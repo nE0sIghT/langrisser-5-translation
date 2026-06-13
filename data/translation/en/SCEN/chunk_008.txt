@@ -35,7 +35,7 @@
 33	You plug the hole with a nearby stone.<$FFFC>Nothing happens.<$FFFE>
 34	You drop some bread. It rolls away into<$FFFC>the depths.<$FFFE>
 35	You reach in and find a bird's nest at the<$FFFC>bottom. Take it？<$FFFE>
-36	Inside lies a ticket, a special<$FFFC>bargain-sale invitation. But a gust from<$FFFC>the east snatches it away westward.<$FFFE>
+36	Inside lies a ticket, a special<$FFFC>bargain-sale invitation.<$FFFD>But a gust from the east snatches it away<$FFFC>westward.<$FFFE>
 37	You pull your hand back empty.<$FFFE>
 38	The wind-blown ticket hangs caught on a<$FFFC>branch. Take it？<$FFFE>
 39	<$0000> Got the <$FFF4>Special invitation<$FFF3>！<$FFFE>
@@ -44,8 +44,8 @@
 42	That woman looks skilled. Fighting her is<$FFFC>risky<$FFF8>…<$FFFE>
 43	That's Emily, a famed Federation officer.<$FFFC>Fighting her now is pointless.<$FFFE>
 44	Then we'd best stick to the plan and cross<$FFFC>that bridge.<$FFFE>
-45	Right. Drop the bridge once we reach the<$FFFC>far bank, and we shake the pursuit.<$FFFC>Everyone, to the far shore, quick！<$FFFE>
-46	Best stick to the plan and cross that<$FFFC>bridge. Then we drop it and shake the<$FFFC>pursuit. Everyone, to the far shore,<$FFFC>quick！<$FFFE>
+45	Right. Drop the bridge once we reach the<$FFFC>far bank, and we shake the pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
+46	Best stick to the plan and cross that<$FFFC>bridge. Then we drop it and shake the<$FFFC>pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
 47	Escape point<$FFFF>
 48	<$FB00><$002B>Take this！<$FFFE>
 49	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
@@ -70,7 +70,7 @@
 68	Better with a blade than I！？ No choice,<$FFFC>retreat！<$FFFE>
 69	<$FB00><$004C>Seems no one's chasing us now.<$FFFC>Let's press on while we can.<$FFFE>
 70	<$FB00><$003E>Hm？ What happened here？<$FFFE>
-71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them and they<$FFFC>attacked！ And one looks like the man who<$FFFC>wounded the Caconsis admiral…<$FFFE>
+71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them and they<$FFFC>attacked！<$FFFD>And one looks like the man who wounded the<$FFFC>Caconsis admiral…<$FFFE>
 72	<$FB00><$0041>Gizarof's remnants, then<$FFF5><$FFF8>…？<$FFFD><$FFF6><$FB00><$0042>Very well. I'll join you！ Capture them！<$FFFE>
 73	<$FB00><$0043>Yes, ma'am！<$FFFE>
 74	<$FB00><$0044>Kh！ They've crossed the bridge<$FFFC><$FFF5><$FFF8>…<$FFFE>

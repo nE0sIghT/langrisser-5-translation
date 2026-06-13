@@ -19,7 +19,7 @@
 17	<$FB00><$0013>Meaning what, Lambda？<$FFFE>
 18	<$FB00><$0014>It drains your strength. Stay<$FFFC>too long and you won't be able to move.<$FFFE>
 19	<$FB00><$0015>No way！ Come on, let's get out,<$FFFC>quick！<$FFFE>
-20	<$FB00><$0016>I meant to take you at my<$FFFC>leisure once you couldn't move. But you've<$FFFC>seen through the smoke.<$FFFE>
+20	<$FB00><$0016>I meant to take you at my<$FFFC>leisure once you couldn't move.<$FFFD>But you've seen through the smoke.<$FFFE>
 21	<$FB00><$0017>Aizer！？<$FFFE>
 22	<$FB00><$0018>Well done not falling for a<$FFFC>cheap trick. But how long can you last？<$FFFE>
 23	<$FB00><$0019>We won't lose to you！<$FFFE>
@@ -32,17 +32,17 @@
 30	<$FB00><$001E>Everyone, the exit is near.<$FFFE>
 31	<$FB00><$001F>The exit！ Everyone, we're almost<$FFFC>out！<$FFFE>
 32	<$FB00><$0020>Stay sharp, everyone！ The exit's<$FFFC>close！<$FFFE>
-33	As you near the rock, a voice suddenly<$FFFC>speaks. I was a spirit dove, a messenger<$FFFC>of the gods…<$FFFD>Now my body turns to stone and my life<$FFFC>burns out. Let me grant you one last gift.<$FFFC>Which power do you wish？<$FFFE>
+33	As you near the rock, a voice suddenly<$FFFC>speaks.<$FFFD>I was a spirit dove, a messenger of the<$FFFC>gods…<$FFFD>Now my body turns to stone and my life<$FFFC>burns out. Let me grant you one last gift.<$FFFD>Which power do you wish？<$FFFE>
 34	・Power to protect<$FFFE>
 35	・Power to fight<$FFFE>
-36	Then receive this magic… <$0000> Learned the<$FFFC>spell <$FFF4>Heal 1<$FFF3>！ …The dove quietly turned to<$FFFC>stone.<$FFFE>
-37	Then receive this magic… <$0000> Learned the<$FFFC>spell <$FFF4>MP Drain<$FFF3>！ …The dove quietly<$FFFC>turned to stone.<$FFFE>
+36	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>…The dove quietly turned to stone.<$FFFE>
+37	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>MP Drain<$FFF3>！<$FFFD>…The dove quietly turned to stone.<$FFFE>
 38	Something glints now and then in the dark.<$FFFC>What do you do？<$FFFE>
 39	・Reach out<$FFFE>
 40	・Watch and wait<$FFFE>
 41	・Ignore it<$FFFE>
-42	<$0000> <$FFF4>Grrraaawwl！！<$FFF3> A wounded beast is<$FFFC>nursing its injuries. You quietly slip<$FFFC>away so as not to provoke it.<$FFFE>
-43	A wounded beast rests there. You stroke it<$FFFC>gently, it purrs and hands you a small<$FFFC>pouch. <$0000> Got <$FFF4>500P gold<$FFF3>！<$FFFE>
+42	<$0000> <$FFF4>Grrraaawwl！！<$FFF3><$FFFD>A wounded beast is nursing its injuries.<$FFFC>You quietly slip away so as not to provoke<$FFFC>it.<$FFFE>
+43	A wounded beast rests there. You stroke it<$FFFC>gently, it purrs and hands you a small<$FFFC>pouch.<$FFFD><$0000> Got <$FFF4>500P gold<$FFF3>！<$FFFE>
 44	<$FB00><$0022>You'll pay for that, twice<$FFFC>over！<$FFFE>
 45	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 46	<$FB00><$0023>Unforgivable.<$FFFE>

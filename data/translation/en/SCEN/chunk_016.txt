@@ -16,17 +16,17 @@
 14	<$FB00><$0029>Everyone, listen！ Rebels are<$FFFC>heading here.<$FFFE>
 15	<$FB00><$002A>Is their target this girl？<$FFFE>
 16	<$FFF8>…<$FFFE>
-17	<$FB00><$002B>Likely. Stay calm. Gilmore's<$FFFC>ring can teleport her away.<$FFFE>
+17	<$FB00><$002B>Likely. Stay calm.<$FFFD>Gilmore's ring can teleport her away.<$FFFE>
 18	<$FFF7><$FB00><$002C>Ah<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$002D>If we beat the rebels,<$FFFC>promotion is ours.<$FFFE>
 20	<$FB00><$002E>Understood. We will defeat the<$FFFC>rebels ourselves！<$FFFE>
 21	<$FB00><$002F>Here it is. His daughter is<$FFFC>held in this fort.<$FFFE>
 22	<$FB00><$0030>Rescue her, and the archbishop<$FFFC>will help.<$FFFE>
-23	<$FB00><$0031>Listen.<$FFFD><$FB00><$0032>We do not know how they will react when<$FFFC>they see us. For the hostage, one unit<$FFFC>circle behind the fort.<$FFFE>
+23	<$FB00><$0031>Listen.<$FFFD><$FB00><$0032>We do not know how they will react when<$FFFC>they see us.<$FFFD>For the hostage, one unit circle behind<$FFFC>the fort.<$FFFE>
 24	<$FB00><$0033>Only one unit？<$FFFE>
 25	<$FB00><$0034>Yes. Go around to that point.<$FFFE>
 26	<$0000>Flanking unit arrival point<$0000><$FFFF>
-27	<$FB00><$0035>The rest hit the front. While<$FFFC>we draw them, the flanker guards her.<$FFFC>Agreed？<$FFFE>
+27	<$FB00><$0035>The rest hit the front. While<$FFFC>we draw them, the flanker guards her.<$FFFD>Agreed？<$FFFE>
 28	<$FB00><$0036>Hmm, not bad.<$FFFE>
 29	<$FB00><$0037>I think it is good.<$FFFE>
 30	<$FB00><$0038>So who goes around？<$FFFE>
@@ -60,9 +60,9 @@
 58	<$FFF7><$FB00><$0063>Aah<$00E4><$00E5><$00E6>！<$FFFE>
 59	<$FB00><$0064>Damn！ Brenda's lead <$FFF5><$FFF8>…<$FFFE>
 60	<$FB00><$0065>Wah ha ha！ Now Estor will not<$FFFC>help you！ Wah ha ha！<$FFFE>
-61	Tablet says: <$0000> Left, then right Step on<$FFFC>both<$FFFE>
+61	Tablet says:<$FFFD><$0000> Left, then right Step on both<$FFFE>
 62	A sound came from the right.<$FFFE>
-63	A small bow appeared. <$0000> Obtained<$FFFC><$FFF4>Hading<$FFF3>！<$FFFE>
+63	A small bow appeared.<$FFFD><$0000> Obtained <$FFF4>Hading<$FFF3>！<$FFFE>
 64	Draw them until Lambda circles around！<$FFFE>
 65	Draw them until Alfred circles around！<$FFFE>
 66	Draw them until Brenda circles around！<$FFFE>
@@ -94,7 +94,7 @@
 92	My sword can't pierce them…<$FFFE>
 93	<$FB00><$0058>I-impossible… to die here…<$FFFE>
 94	<$FB00><$0059>Now she cannot be teleported.<$FFFE>
-95	C-Commander！ Damn… at least I take the<$FFFC>girl with us！<$FFFE>
+95	C-Commander！<$FFFD>Damn… at least I take the girl with us！<$FFFE>
 96	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 97	・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 98	But if you do not beat us, it is the<$FFFC>same！<$FFFE>
@@ -138,7 +138,7 @@
 136	<$FB00><$005F>I will not let you run wild in<$FFFC>my territory！<$FFFE>
 137	They will catch us！ They got us good…<$FFFE>
 138	Commander！ If she will be rescued anyway,<$FFFC>then…<$FFFE>
-139	Right！ Then wound them at least！ Fine,<$FFFC>kill the hostage if you must！<$FFFE>
+139	Right！ Then wound them at least！<$FFFD>Fine, kill the hostage if you must！<$FFFE>
 140	Yes sir！<$FFFE>
 141	Leave it to us！<$FFFE>
 142	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Hostage teleported or killed<$FFFC>・<$F600><$0000> dies<$FFFE>
@@ -150,7 +150,7 @@
 148	Huh？ Maybe my turn is<$FFF8>…？<$FFFE>
 149	Sorry, it ended already. The enemy barely<$FFFC>resisted.<$FFFE>
 150	I see. Glad it went well.<$FFFE>
-151	！？ What？ No turn for me？<$FFFE>
+151	！？<$FFFD>What？ No turn for me？<$FFFE>
 152	Sorry, it ended already. The enemy barely<$FFFC>resisted.<$FFFE>
 153	Do not worry. The rescue worked, that is<$FFFC>enough.<$FFFE>
 154	Wait！ I will save you！ <$FE32>…<$FE14>…<$FE14>… <$FE14>huh？<$FFFE>

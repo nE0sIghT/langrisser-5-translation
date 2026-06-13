@@ -62,7 +62,7 @@
 60	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now just<$FFFC>light it<$FFF5><$FFF8>…<$FFFE>
 61	<$FB00><$007D>How did they get this far<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$007E>Couldn't you hold a little longer！ Truly<$FFFC>useless lot！<$FFFE>
 62	<$FB00><$0065>Which side do we attack from？<$FFFE>
-63	<$FB00><$0066>The west path is wide but the<$FFFC>long way. The east is narrow and crawling<$FFFC>with enemies, but the shortest route.<$FFFC>Split up, or push through together…<$FFFE>
+63	<$FB00><$0066>The west path is wide but the<$FFFC>long way. The east is narrow and crawling<$FFFC>with enemies, but the shortest route.<$FFFD>Split up, or push through together…<$FFFE>
 64	<$FB00><$0067>You'll manage it. I'm counting<$FFFC>on you！<$FFFE>
 65	<$FB00><$002C>Take this！<$FFFE>
 66	<$FB00><$002B>Eat this！<$FFFE>

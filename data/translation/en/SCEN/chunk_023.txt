@@ -68,13 +68,13 @@
 66	N, no…<$FFFE>
 67	…U… ugh…<$FFFE>
 68	Curse it, what are you doing！ Finish them<$FFFC>already！<$FFFE>
-69	Against this Magitek giant you won't last<$FFFC>a moment！ Go！ Magitek giant Galzork！<$FFFE>
+69	Against this Magitek giant you won't last<$FFFC>a moment！<$FFFD>Go！ Magitek giant Galzork！<$FFFE>
 70	‥‥VOOON‥‥<$FFFE>
 71	<$FB00><$0043>Taste the power of an ancient<$FFFC>weapon！<$FFFE>
-72	Whether Gilmore wins or loses is no<$FFFC>concern of mine. But I will not go on<$FFFC>losing to you！ I fight for my own pride！<$FFFE>
+72	Whether Gilmore wins or loses is no<$FFFC>concern of mine. But I will not go on<$FFFC>losing to you！<$FFFD>I fight for my own pride！<$FFFE>
 73	<$FB00><$007F>This time will not go like the<$FFFC>others！<$FFFE>
 74	<$FB00><$0080>…Worthy… of the… royal<$FFFC>knights… ghah！<$FFFE>
-75	In the shadow of a sharp-pointed rock lay<$FFFC>a spear with an eerie glow. <$0000> <$FFF4>Bloody<$FFFC>Lance<$FFF3> obtained！<$FFFE>
+75	In the shadow of a sharp-pointed rock lay<$FFFC>a spear with an eerie glow.<$FFFD><$0000> <$FFF4>Bloody Lance<$FFF3> obtained！<$FFFE>
 76	<$FB00><$007D>Heh. We have your rear now.<$FFF5><$FFFC><$FB00><$007E>On the honor of the Kalxath Sky Corps, we<$FFFC>cannot lose to you！<$FFFE>
 77	…There is no place left for me to live…<$FFFE>
 78	<$FFF8>…<$FFF6><$FB00><$004B>It's over.<$FFFE>

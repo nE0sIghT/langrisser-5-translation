@@ -47,16 +47,16 @@
 45	Send ahead？<$FFFE>
 46	<$FB00><$004A>I will go ahead, but do not<$FFFC>overdo it！<$FFFE>
 47	<$FB00><$004B>Do not worry.<$FFFE>
-48	The top of a black stone coffin shows<$FFFC>above the water. The wall inscription<$FFFC>reads this.<$FFFD><$FFF4>Here I seal my flesh, and my soul seeks<$FFFC>eternal battle. Do not disturb my body's<$FFFC>sleep.<$FFF3> What will you do？<$FFFE>
+48	The top of a black stone coffin shows<$FFFC>above the water. The wall inscription<$FFFC>reads this.<$FFFD><$FFF4>Here I seal my flesh, and my soul seeks<$FFFC>eternal battle. Do not disturb my body's<$FFFC>sleep.<$FFF3><$FFFD>What will you do？<$FFFE>
 49	・Open the coffin<$FFFE>
 50	・Call out<$FFFE>
 51	・Leave quietly<$FFFE>
 52	When the coffin is opened, the body inside<$FFFC>crumbles to dust…<$FFFE>
-53	When you call loudly, a spirit appears<$FFFC>from within. Why do you disturb my sleep？<$FFFE>
+53	When you call loudly, a spirit appears<$FFFC>from within.<$FFFD>Why do you disturb my sleep？<$FFFE>
 54	・Fight<$FFFE>
 55	・Talk<$FFFE>
 56	・Do nothing<$FFFE>
-57	You would fight me？ Hmph… I like it. With<$FFFC>you, I may enjoy many more days of battle.<$FFFC><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be hired！<$FFFE>
+57	You would fight me？ Hmph… I like it. With<$FFFC>you, I may enjoy many more days of battle.<$FFFD><$0000> Mercenary <$FFF4>Shade<$FFF3> can now be hired！<$FFFE>
 58	I have no time for your foolish talk.<$FFFC>Leave this place！<$FFFE>
 59	Begone if you have no business！<$FFFE>
 60	A relief engraved with a crest is embedded<$FFFC>here.<$FFFE>
@@ -68,7 +68,7 @@
 66	・Slide it sideways<$FFFE>
 67	・Break it<$FFFE>
 68	You press it into the wall, and it clicks.<$FFFE>
-69	Sliding it aside reveals a small box<$FFFC>behind the relief. Inside is a <$FFF4>karaoke<$FFFC>pass for 5, 30 free minutes<$FFF3>. <$0000><$FFFC><$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
+69	Sliding it aside reveals a small box<$FFFC>behind the relief. Inside is a <$FFF4>karaoke<$FFFC>pass for 5, 30 free minutes<$FFF3>.<$FFFD><$0000> <$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
 70	The relief crumbles with a rattle.<$FFFE>
 71	<$FB00><$002B>Take this！<$FFFE>
 72	<$FB00><$002C>Take this！<$FFFE>
@@ -97,7 +97,7 @@
 95	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
 96	…U… uugh…<$FFFE>
 97	W-why… No one should be able to defeat<$FFFC>me…<$FFFE>
-98	Aah！ …I'm sorry, Roberto… I think… I am<$FFFC>done…<$FFFE>
+98	Aah！<$FFFD>…I'm sorry, Roberto… I think… I am<$FFFC>done…<$FFFE>
 99	C-Carna！ …You bastard！<$FFFE>
 100	Sorry… Carna…<$FFFE>
 101	No… No！ Roberto！<$FFFE>

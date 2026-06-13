@@ -45,13 +45,13 @@
 43	・Take one egg<$FFFE>
 44	・Break the nest<$FFFE>
 45	・Do nothing<$FFFE>
-46	As you reach for an egg, its snow dragon<$FFFC>parent returns！ You flee in panic.<$FFFE>
+46	As you reach for an egg, its snow dragon<$FFFC>parent returns！<$FFFD>You flee in panic.<$FFFE>
 47	You break the nest, but find nothing. The<$FFFC>eggs fall below…<$FFFE>
-48	A gust strikes the nest. You catch a<$FFFC>falling egg. The snow dragon returns,<$FFFC>thanks you, and promises a future reward.<$FFFE>
+48	A gust strikes the nest. You catch a<$FFFC>falling egg.<$FFFD>The snow dragon returns, thanks you, and<$FFFC>promises a future reward.<$FFFE>
 49	A red flower blooms. Eat it？<$FFFE>
-50	Eating it makes your body feel one with<$FFFC>the world. <$0000> Magic <$FFF4>Teleport<$FFF3> can now be<$FFFC>learned！<$FFFE>
+50	Eating it makes your body feel one with<$FFFC>the world.<$FFFD><$0000> Magic <$FFF4>Teleport<$FFF3> can now be learned！<$FFFE>
 51	A blue flower blooms. Eat it？<$FFFE>
-52	Eating it fills you with healing power. <$0000><$FFFC><$0000>Skill <$FFF4>Regenerate<$FFF3> learned！<$FFFE>
+52	Eating it fills you with healing power.<$FFFD><$0000> <$0000>Skill <$FFF4>Regenerate<$FFF3> learned！<$FFFE>
 53	<$FB00><$0047>North bridge or through town.<$FFFC>Think carefully.<$FFFE>
 54	<$FB00><$0048>I know.<$FFFE>
 55	<$FB00><$0029>Let's go！<$FFFE>

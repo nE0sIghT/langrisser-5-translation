@@ -28,9 +28,9 @@
 26	・Touch it with your hand<$FFFE>
 27	・Press your forehead to it<$FFFE>
 28	・Drape a cloth over it<$FFFE>
-29	The crystal's magic seems to flow into<$FFFC>your body. <$0000> <$FFF4>Phys-Mag resist<$FFF3> rose by<$FFFC>2！<$FFFE>
-30	The crystal's magic seems to flow into<$FFFC>your body. <$0000> <$FFF4>Max MP<$FFF3> rose by 4！<$FFFE>
-31	The cloth changed shape before your eyes<$FFFC>under the crystal's magic…. <$0000> <$FFF4>Goddess<$FFFC>Dress<$FFF3> obtained！<$FFFE>
+29	The crystal's magic seems to flow into<$FFFC>your body.<$FFFD><$0000> <$FFF4>Phys-Mag resist<$FFF3> rose by 2！<$FFFE>
+30	The crystal's magic seems to flow into<$FFFC>your body.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 4！<$FFFE>
+31	The cloth changed shape before your eyes<$FFFC>under the crystal's magic….<$FFFD><$0000> <$FFF4>Goddess Dress<$FFF3> obtained！<$FFFE>
 32	<$FB00><$002E>Sorry… everyone…<$FFFE>
 33	<$FB00><$004B>No… that I should…<$FFFE>
 34	<$FB00><$004C>Marie, leave this to us and<$FFFC>pull back！<$FFFE>

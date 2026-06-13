@@ -68,7 +68,7 @@
 66	<$FB00><$0063>The weaker the dog, the louder<$FFFC>it barks.<$FFFE>
 67	<$FB00><$0064>Operation complete.<$FFFE>
 68	<$FB00><$0065>Now let's explain things to<$FFFC>them.<$FFFE>
-69	A thin cloth hangs on a stake rising from<$FFFC>the water. <$0000> Got the <$FFF4>Celestial Robe<$FFF3>！<$FFFE>
+69	A thin cloth hangs on a stake rising from<$FFFC>the water.<$FFFD><$0000> Got the <$FFF4>Celestial Robe<$FFF3>！<$FFFE>
 70	<$FB00><$003A>Hah！ Intruders！<$FFFE>
 71	<$FB00><$003B>What？ How many？<$FFFE>
 72	<$FB00><$003C>One…two…five units！<$FFFE>

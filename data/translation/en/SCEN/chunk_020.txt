@@ -22,7 +22,7 @@
 20	<$FB00><$0028>There are five units, so if<$FFFC>three or more fall, we cannot march.<$FFFE>
 21	<$FB00><$0029>If we drop the bridges to this<$FFFC>island, we can slow them down.<$FFFE>
 22	<$FB00><$002A>Right. Cut the ropes, and the<$FFFC>bridges should fall.<$FFFE>
-23	At a bridge foot, choose whether to cut<$FFFC>the ropes. <$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No<$FFFC><$FFF3>waits for later.<$FFFE>
+23	At a bridge foot, choose whether to cut<$FFFC>the ropes.<$FFFD><$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No <$FFF3>waits for later.<$FFFE>
 24	<$FB00><$002B>At a bridge, we will ask what<$FFFC>to do.<$FFFE>
 25	<$FB00><$002C>Understood. I count on you！<$FFFE>
 26	・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
@@ -49,7 +49,7 @@
 47	Good luck！<$FFFE>
 48	We will deliver these supplies！<$FFFE>
 49	Whew！ I thought I was dead…<$FFFE>
-50	A red lotus blooms. A woman appears on the<$FFFC>lake. You are fated to change the age.<$FFFC>Take this sword. <$0000> <$0000><$FFF4>Excalibur<$FFF3><$FFFC>obtained！<$FFFE>
+50	A red lotus blooms. A woman appears on the<$FFFC>lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
 51	<$FB00><$002B>Take this！<$FFFE>
 52	<$FFF7><$FB00><$002A>Hah！<$FFF5><$FFF8><$FFFE>
 53	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
@@ -102,7 +102,7 @@
 100	<$FB00><$0045>Still, I am happy you all<$FFFC>fight for this country. Thank you.<$FFFE>
 101	<$FB00><$0046>Then hurry. McClaine and<$FFFC>Jessica may already be fighting.<$FFFE>
 102	<$FB00><$0047>Right. We should hurry too.<$FFFE>
-103	A huge shadow crossed the sky. I am Snow<$FFFC>Dragon. My children grew strong thanks to<$FFFC>you. I came to repay you.<$FFFE>
+103	A huge shadow crossed the sky.<$FFFD>I am Snow Dragon. My children grew strong<$FFFC>thanks to you. I came to repay you.<$FFFE>
 104	<$F600><$0000> can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>
 105	Marie can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
 106	Alfred can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>

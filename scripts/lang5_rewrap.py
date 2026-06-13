@@ -4,11 +4,12 @@
 Within each record, text between control tags is re-wrapped: existing
 <$FFFC> line breaks are treated as soft (replaced by spaces) and new ones
 are inserted so that no rendered line exceeds the width budget in glyph
-CELLS (pair tokens count as one cell). Words are never split. <$FFFD> page
-breaks are compacted only when the following page is plain text with no
-event controls; voice/dialogue controls stay page-hard. All other control
-tags (FB00+arg, FFF4/FFF3 highlights, terminators) stay exactly where they
-are.
+CELLS (pair tokens count as one cell). Words are never split. In non-battle
+scene chunks, <$FFFD> page breaks are compacted only when the following page
+is plain text with no event controls; battle chunks keep page breaks hard
+because battle scripts can couple paging to portrait/event state. All other
+control tags (FB00+arg, FFF4/FFF3 highlights, terminators) stay exactly
+where they are.
 
 The player-name macro <$F600><$0000> counts as NAME_CELLS (the name entry
 screen allows 8 native glyphs — measured in-game); explicit printable
@@ -48,6 +49,18 @@ NAME_CELLS = 8
 # markers are not plated in-game; record 199 engine-broke at exactly 21 minus
 # the Operator plate width during playtest, so only that tail prompt is forced.
 FORCE_PLATED_RECORDS = {(0, 199)}
+BATTLE_CHUNKS = set(range(1, 43))
+
+
+def can_compact_pages(chunk_idx: int, compact_battle_pages: bool = False) -> bool:
+    """Only scene/recap chunks get automatic FFFD demotion by default.
+
+    Battle chunks have VM/event state around dialogue and portraits; playtest
+    found that demoting seemingly plain FFFD continuations there can corrupt
+    character images. Keep those page breaks structural unless explicitly
+    requested for experiments.
+    """
+    return compact_battle_pages or chunk_idx not in BATTLE_CHUNKS
 
 
 def cells(codec: Codec, text: str) -> int:
@@ -422,6 +435,8 @@ def main() -> None:
     # The JP script routinely shows 4-line pages after engine wrap (594 of
     # them; 5-line pages exist but are rare), so 4 is the safe page height.
     ap.add_argument("--max-lines", type=int, default=4)
+    ap.add_argument("--compact-battle-pages", action="store_true",
+                    help="Experimental: also demote safe-looking FFFD breaks in battle chunks.")
     args = ap.parse_args()
 
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
@@ -439,6 +454,7 @@ def main() -> None:
         chunk_idx = int(fp.stem.split("_")[1])
         pool_size = pool_sizes.get(chunk_idx)
         chunk_reserve = plate_reserve(codec, records, pool_size)
+        compact_pages = can_compact_pages(chunk_idx, args.compact_battle_pages)
         slot_reserves = slot_plate_reserves(codec, records, pool_size)
         record_slots = traced_slots.get(chunk_idx, {})
         width = args.width
@@ -478,7 +494,11 @@ def main() -> None:
                         reserve = slot_reserves[slot]
                 if chunk_idx == 0 and not force_plate:
                     reserve = 0
-                new_text = reflow_record(codec, text, width, reserve, force_plate)
+                new_text = reflow_record(
+                    codec, text, width, reserve, force_plate,
+                    max_lines=args.max_lines,
+                    compact_pages=compact_pages,
+                )
                 # Page height check: lines between page/terminator controls.
                 for page in page_segments(new_text):
                     n = page.count(LINE_BREAK) + 1

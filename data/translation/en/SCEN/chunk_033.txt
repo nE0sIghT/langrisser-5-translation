@@ -41,7 +41,7 @@
 39	Got it. We'll cover you. Head for the<$FFFC>device！<$FFFE>
 40	Right. I'm counting on your cover.<$FFFE>
 41	Wait a little longer！<$FFFE>
-42	There's no telling the device will work<$FFFC>easily. Will we really make it？ Anyway,<$FFFC>call me once it's safe！<$FFFE>
+42	There's no telling the device will work<$FFFC>easily. Will we really make it？<$FFFD>Anyway, call me once it's safe！<$FFFE>
 43	Call the Engineer over？<$FFFE>
 44	<$FB00><$0023>The way to the device is<$FFFC>secure. Come now！<$FFFE>
 45	<$FB00><$0024>Understood. I'll head for the<$FFFC>control device now.<$FFFE>
@@ -83,7 +83,7 @@
 81	<$FB00><$002B>Can you repair it？<$FFFE>
 82	<$FB00><$002C>Give me a while.<$FFFE>
 83	From here it's up to you. Good luck！<$FFFE>
-84	Part of the snow has melted, and something<$FFFC>is buried in view. Dig it up, and a<$FFFC>heat-bearing staff emerges. <$0000><$FFFC><$0000><$0000><$0000><$FFF4>Scorching Staff<$FFF3> obtained！<$FFFE>
+84	Part of the snow has melted, and something<$FFFC>is buried in view. Dig it up, and a<$FFFC>heat-bearing staff emerges.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Scorching Staff<$FFF3> obtained！<$FFFE>
 85	<$FB00><$002B>Eat this！<$FFFE>
 86	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
 87	<$FB00><$0046>Here goes.<$FFFE>

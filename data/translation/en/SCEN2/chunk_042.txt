@@ -25,7 +25,7 @@
 23	This is the sanctuary where you battle the<$FFFC>strongest foes. Your comrades are<$FFFC>somewhere inside this room.<$FFFE>
 24	However, not only your allies but enemies<$FFFC>lurk within the room.<$FFFE>
 25	This won't be easy to clear.<$FFFE>
-26	Naturally. And on this stage, your prize<$FFFC>depends on how fast you clear it. Let me<$FFFC>tell you the prizes you can win.<$FFFE>
+26	Naturally.<$FFFD>And on this stage, your prize depends on<$FFFC>how fast you clear it. Let me tell you the<$FFFC>prizes you can win.<$FFFE>
 27	・Within 10T<$0000>→<$0000>Assault Suit<$FFFC>・11T<$0000><$0000><$0000>→<$0000>Skill:Healing<$FFFE>
 28	・Within 10T<$0000>→<$0000>Assault Suit<$FFFC>・11T<$0000><$0000><$0000>→<$0000>Light Veil<$FFFE>
 29	・Within 10T<$0000>→<$0000>Runestone<$FFFC>・11T<$0000><$0000><$0000>→<$0000>Skill:Healing<$FFFE>
@@ -52,7 +52,7 @@
 50	・20T<$0000><$0000><$0000>→<$0000>Aeneas Mail<$FFFC>・21T+<$0000>→<$0000>Sonic Band<$FFFE>
 51	Those are the prizes. Now then, are you<$FFFC>ready？<$FFFE>
 52	Any time you like.<$FFFE>
-53	Inside the box are four smaller boxes.<$FFFC>Each box is labeled <$FFF4>Dash<$FFF3>, <$FFF4>Ston 4<$FFF3>,<$FFFC><$FFF4>Antidote<$FFF3>, <$FFF4>Magic user<$FFF3>. Will you open one？<$FFFE>
+53	Inside the box are four smaller boxes.<$FFFC>Each box is labeled <$FFF4>Dash<$FFF3>, <$FFF4>Ston 4<$FFF3>,<$FFFC><$FFF4>Antidote<$FFF3>, <$FFF4>Magic user<$FFF3>.<$FFFD>Will you open one？<$FFFE>
 54	Which box will you open？<$FFFE>
 55	・Dash<$FFFE>
 56	・Ston 4<$FFFE>
@@ -104,7 +104,7 @@
 102	<$FB00><$0081>D, damn… I won't give up… I<$FFFC>will… take this world… in my…<$FFFE>
 103	<$FB00><$0046>Im, impossible… How… could<$FFFC>I… lose…<$FFFE>
 104	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To think that I<$FFFC>could lose…<$FFFE>
-105	A voice came from nowhere… Well cleared.<$FFFC>Let me grant you a blessing…<$FFFE>
+105	A voice came from nowhere…<$FFFD>Well cleared. Let me grant you a<$FFFC>blessing…<$FFFE>
 106	<$0000> Got Sonic Band！<$FFFE>
 107	<$0000> Got Angel Feather！<$FFFE>
 108	<$0000> Got the Aeneas Mail！<$FFFE>

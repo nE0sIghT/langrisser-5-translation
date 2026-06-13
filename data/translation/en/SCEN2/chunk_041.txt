@@ -19,12 +19,12 @@
 17	Town in the Mountains<$FFFF>
 18	Nuuurgh！ Well？ Don't you think it's a<$FFFC>spitting image？<$FFFE>
 19	Impressive, des！ Even the voice is<$FFFC>identical, des！<$FFFE>
-20	Mm. The casting was listed in a game<$FFFC>magazine, so I got the general feel. For<$FFFC>me, who trains daily, nothing is<$FFFC>impossible.<$FFFE>
+20	Mm. The casting was listed in a game<$FFFC>magazine, so I got the general feel.<$FFFD>For me, who trains daily, nothing is<$FFFC>impossible.<$FFFE>
 21	Bro. This stage has no voice acting, des.<$FFFE>
 22	…<$FE14>…<$FE14>…<$FE14>…<$FE14> Did you say something？<$FFFE>
 23	N-nothing at all, des！<$FFFE>
 24	Now the <$FFF4>Save the Gym<$FFF3> operation is sure to<$FFFC>succeed, des！<$FFFE>
-25	Mm. A gym truly needs some flair. That is<$FFFC>why I put on this disguise. Now we simply<$FFFC>recruit the young ladies around here.<$FFFE>
+25	Mm. A gym truly needs some flair. That is<$FFFC>why I put on this disguise.<$FFFD>Now we simply recruit the young ladies<$FFFC>around here.<$FFFE>
 26	Then membership will boom, the gym will be<$FFFC>spotless, and it won't reek of sweat<$FFFC>anymore, des！<$FFFE>
 27	You fool～！ Sweat is the true status of a<$FFFC>real man！ How dare you call it a stink！<$FFFE>
 28	W-why are you coming out from over<$FFFC>there, des？<$FFFE>
@@ -67,7 +67,7 @@
 65	Umanin are sold for 50P, but there's no<$FFFC>clerk in sight<$FFF8>…<$FFFE>
 66	Bursting with juices<$FFF8>… I wonder if it's<$FFFC>tasty？？<$FFFE>
 67	Hmm, I wonder if this is any good. What<$FFFC>should I do<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6>nah, I'll pass！<$FFFE>
-68	Something is written on the pedestal.<$FFFC><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
+68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
 69	What's wrong？ did you find the treasure？<$FFFE>
 70	T-treasure！？<$FFFE>
 71	By the look of it, you haven't found it.<$FFFE>
@@ -81,7 +81,7 @@
 79	What is it？ did you find treasure or<$FFFC>something？<$FFFE>
 80	T-treasure？ no, there's no treasure,<$FFFC>des, but…<$FFFE>
 81	I see. good luck searching.<$FFFE>
-82	Y-yes<$FFF8>… Nuuurgh… there's just no<$FFFC>getting through to her, des…<$FFFE>
+82	Y-yes<$FFF8>…<$FFFD>Nuuurgh… there's just no getting through<$FFFC>to her, des…<$FFFE>
 83	Want a Big Bro Bento, des？<$FFFE>
 84	Huh, this？ n-not really, but.<$FFFE>
 85	It's written all over your face that you<$FFFC>want it, des. Here, let me treat you to<$FFFC>one, des！<$FFFE>
@@ -95,7 +95,7 @@
 93	Hm？ …ah, it's you. so？ did you find this<$FFFC>treasure of yours？<$FFFE>
 94	Oooh！ the treasure, the treasure, you<$FFFC>mean the treasure, des！？<$FFFE>
 95	？ you're acting kind of strange, aren't<$FFFC>you？ huh？<$FFFE>
-96	N-no… it was such amazing treasure that<$FFFC>I lost my composure, des！ Some kind of<$FFFC>ancient relic, or something…<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Note: total fabrication<$FFF3><$FFFE>
+96	N-no… it was such amazing treasure that<$FFFC>I lost my composure, des！<$FFFD>Some kind of ancient relic, or something…<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Note: total fabrication<$FFF3><$FFFE>
 97	Ancient！？<$FFFE>
 98	That's right, des！ and so duplicates of<$FFFC>us got made…<$FFFB> anyway, it's a real mess,<$FFFC>des！<$FFFE>
 99	All right！ I'll go take a look. so？<$FFFC>where's the place？<$FFFE>
@@ -250,7 +250,7 @@
 248	What is the meaning of this？<$FFFE>
 249	Now what is the meaning of this？<$FFFE>
 250	Nuuurgh… so I was caught off guard…<$FFFE>
-251	Baran has arrived！ well done seeing<$FFFC>through my disguise！ but that is where<$FFFC>your luck runs out！ today becomes the day<$FFFC>you die<$00E4><$00E5><$00E6>！<$FFFE>
+251	Baran has arrived！ well done seeing<$FFFC>through my disguise！ but that is where<$FFFC>your luck runs out！<$FFFD>today becomes the day you die<$00E4><$00E5><$00E6>！<$FFFE>
 252	A-a splendid attack, des！<$FFFE>
 253	Adon has arrived！<$FFFE>
 254	Mmh～. guess we'll have to try other<$FFFC>girls, des.<$FFFE>
@@ -275,7 +275,7 @@
 273	Victory condition changed！ <$0000> ・Wipe out<$FFFC>the brothers<$FFFE>
 274	・Wipe out the brothers<$FFFE>
 275	H-huh！？ sorry, I made a mistake！<$FFFE>
-276	Huh？ huh？ I'm sorry. I made a<$FFFC>mistake～.<$FFFE>
+276	Huh？ huh？<$FFFD>I'm sorry. I made a mistake～.<$FFFE>
 277	Here you go.<$FFFE>
 278	Who should I give this present to<$FFF8>…<$FFFE>
 279	・<$F600><$0000><$FFFE>

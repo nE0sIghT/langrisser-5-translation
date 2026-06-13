@@ -25,7 +25,7 @@
 23	<$FB00><$002A>Demons？ <$FFF5><$FFF8>…<$FFF6><$FB00><$002B>In a place like this！？<$FFFE>
 24	<$FFF8>…<$FFF6><$FB00><$002C>Woman. Hand over Alhazard,<$FFFC>nice and quiet.<$FFFE>
 25	<$FB00><$002D>I cannot give you this sword！<$FFFE>
-26	<$FB00><$002E>Think hard. One word from me and<$FFFC>they level this port. Will you guard the<$FFFC>sword and let everyone die？<$FFFE>
+26	<$FB00><$002E>Think hard. One word from me and<$FFFC>they level this port.<$FFFD>Will you guard the sword and let everyone<$FFFC>die？<$FFFE>
 27	<$FFF8>…<$FB00><$002F>Kh！<$FFFE>
 28	<$FB00><$0030>Lady Jessica<$FFF5><$FFF8>…<$FFFE>
 29	<$FB00><$0031>Well？ What will it be？<$FFFE>

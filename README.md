@@ -121,10 +121,12 @@ Edit the staging file, translating record by record:
   the encoder picks the compact glyphs automatically. Don't worry about exact
   line breaks: the re-wrapper handles them, reserving speaker-plate width on
   the first line of a plated spoken record. Continuation pages after `<$FFFD>`
-  do not redraw the plate and wrap at full width. When decoded VM display rows
-  identify a record's plate slot, the wrapper uses that exact width; otherwise
-  it falls back to the chunk's widest speaker plate (keep plate names at 5
-  cells or less);
+  do not redraw the plate and wrap at full width. The wrapper may compact
+  plain-text continuation pages in non-battle scene chunks, but battle chunks
+  keep `<$FFFD>` hard because battle scripts can tie paging to portrait/event
+  state. When decoded VM display rows identify a record's plate slot, the
+  wrapper uses that exact width; otherwise it falls back to the chunk's widest
+  speaker plate (keep plate names at 5 cells or less);
 - choice records (starting with `・`) must stay single-line;
 - the font has no `; — – !? /` — use `,` and full-width `！？`.
 
