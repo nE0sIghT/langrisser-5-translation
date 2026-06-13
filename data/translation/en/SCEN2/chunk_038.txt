@@ -246,8 +246,8 @@
 244	Yes. as for the price… it's an<$FFFC>amazing, bleeding-us-dry bargain of<$FFFC><$FFF4>30P<$FFF3>！！<$FFFE>
 245	An irresistible item for maid fans.<$FFFE>
 246	What would you like to purchase？<$FFFE>
-247	・<$FFF4>Maid Employment Contract<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000>1000P<$FFFE>
-248	・<$FFF4>Book of Spacetime, copy<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000><$0000>800P<$FFFE>
+247	・<$FFF4>Maid Contract<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000>1000P<$FFFE>
+248	・<$FFF4>Spacetime Book<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000><$0000>800P<$FFFE>
 249	・To other bargains<$FFFE>
 250	・Buy nothing<$FFFE>
 251	I'm so sorry<$0663> we're<$FFFC>short-staffed right now and<$FFFC>can't accept new contracts<$0663><$FFFE>
@@ -257,7 +257,7 @@
 255	The <$FFF4>Book of Spacetime<$FFF3>, is that<$FFFC>all right？<$FFFE>
 256	Thank you very much.<$FFFE>
 257	What would you like to purchase？<$FFFE>
-258	・<$FFF4>Book of the Strike, reprint<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000>500P<$FFFE>
+258	・<$FFF4>Strike Book<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000>500P<$FFFE>
 259	・<$FFF4>Apron Dress<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>30P<$FFFE>
 260	・To other bargains<$FFFE>
 261	Um… I'm so sorry<$0663><$FFFC><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it seems we've<$FFFC>run out of that item.<$FFFE>

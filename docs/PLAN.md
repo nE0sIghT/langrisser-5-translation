@@ -105,16 +105,17 @@ Capacity facts learned while building:
 
 ## Status snapshot (2026-06-13)
 
-Done: stages 0-3, the full main story route, startup quiz, menu/UI/name runs,
-and the English glyph system. The current build validates with fixed-size
-SCEN/SCEN2 repacking and produces a PPF without growing any disc file. Main
-story scenarios 1-36 are translated as durable per-chunk assets in
+Done: stages 0-3, the full main story route, startup quiz, tutorial battle,
+all optional map intros/battles, world-situation recap chunk 129,
+menu/UI/name runs, and the English glyph system. The current build validates
+with fixed-size SCEN/SCEN2 repacking and produces a PPF without growing any
+disc file. Main story scenarios 1-36, optional chunks 38-42/82-86, and recap
+chunk 129 are translated as durable per-chunk assets in
 `data/translation/en/SCEN/` and mirrored in `SCEN2/`.
 
 Still open outside the main story route:
 
-- Optional map intros 82-86 and optional battles 38-42.
-- Recap chunks 129 and 130.
+- Recap/bios chunk 130.
 - In-game QA and wording/line-break polish across the completed content.
 - Optional graphics/title work and release packaging.
 
@@ -122,9 +123,10 @@ Still open outside the main story route:
 
 1. Tutorial battle chunk 37 is translated. This completes the startup quiz
    flow.
-2. Translate optional maps in intro/battle pairs:
+2. Optional maps are translated in intro/battle pairs:
    `82+38`, `83+39`, `84+40`, `85+41`, `86+42`.
-3. Translate recap chunks 129 and 130.
+3. World-situation recap chunk 129 is translated; translate recap/bios chunk
+   130.
 4. After every completed chunk pair: rewrap, validate, rebuild PPF, regenerate
    review HTML, and commit only the durable translation assets plus any
    required documentation updates.
