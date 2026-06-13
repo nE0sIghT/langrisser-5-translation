@@ -1,0 +1,36 @@
+# file=SCEN.DAT chunk=77 chunk_start=0xE5C800
+# block_base=0x6070 block_size=0x0988 records=34
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Wheeler<$FFFF>
+8	Landius<$FFFF>
+9	Selena<$FFFF>
+10	Angelina<$FFFF>
+11	Shelfaniel<$FFFF>
+12	Rosenshill<$FFFF>
+13	Emily<$FFFF>
+14	Caconsis Castle, Audience Hall<$FFFF>
+15	I see, so that's how it was.<$FFFE>
+16	So we must take Alhazard from the<$FFFC>demons.<$FFFE>
+17	With the Federation Army on board<$FFFC>too, there's no problem sending<$FFFC>troops. General Selena, gather the<$FFFC>soldiers quickly.<$FFFE>
+18	Understood.<$FFFE>
+19	Still, well done, Envoy Landius.<$FFFE>
+20	Honestly, I can't believe that a<$FFFC>year ago I was living in Gotahl<$FFFC>Village.<$FFFD>By the way, Admiral. You'll give me<$FFFC>a unit to lead too, I trust.<$FFFE>
+21	Of course. I've no intention of<$FFFC>leaving the hero who shattered<$FFFC>Gizarof's ambition idle.<$FFFE>
+22	Oh my, so we get to leave the<$FFFC>castle for once too？<$FFFE>
+23	That's right, Admiral.<$FFFE>
+24	…This is trouble….<$FFFE>
+25	Federation Castle, Audience Hall<$FFFF>
+26	<$FB00><$0003>It's a hard tale to<$FFFC>believe at once.<$FFFE>
+27	<$FB00><$0004>But it's the truth. We<$FFFC>must hurry to subjugate the<$FFFC>demons.<$FFFE>
+28	<$FB00><$0005>Understood. I grant the<$FFFC>sortie. Tell me the concrete plan.<$FFFE>
+29	<$FB00><$0006>I have my orders from<$FFFC>Marshal Lanford.<$FFF5> <$FB00><$0007>The marshal formed<$FFFC>an elite unit and is on the<$FFFC>move.<$FFFD><$FB00><$0008>As said, the ultimate weapon is<$FFFC>weak to clouds.<$FFFD>So the marshal went to the<$FFFC>ancient weather-control ruin.<$FFFD>If he succeeds, it's neutralized<$FFFC>for days.<$FFFD><$FB00><$0009>Meanwhile, our task is to surround<$FFFC>the demons and contain area<$FFFC>damage.<$FFF5><$FFFD><$FB00><$000A>The Caconsis Army has promised to<$FFFC>aid us.<$FFFE>
+30	<$FB00><$000B>I understand the plan.<$FFF5><$FFFC><$FB00><$000C>Then General Emily, I once again<$FFFC>command the sortie.<$FFFE>
+31	<$FFF7><$FB00><$000D>Yes！<$FFF5><$FFF8><$FFFE>
+32	<$0000>Defeated by <$F600><$0000>'s band,<$FFFC>Lainforce chose the path of<$FFFC>coexistence with humans.<$FFFD><$0000>With that, only the demons<$FFFC>remained as the enemy.<$FFFD><$0000>Gaiel at last learned Alhazard's<$FFFC>true power, the use of the<$FFFC><$FFF4>ultimate weapon Peiria<$FFF3>.<$FFFD><$0000>But the ultimate weapon had a<$FFFC>weakness.<$FFFD><$0000>It cannot fire accurately where<$FFFC>Peiria has no line of sight.<$FFFD><$0000>Moving the ancient relic, the<$FFFC><$FFF4>weather control device<$FFF3>, its clouds<$FFFC>can block the bombardment.<$FFFD><$0000><$F600><$0000>'s band headed for<$FFFC>the ancient ruin to activate it.<$FFFD><$0000>But the demons would not sit<$FFFC>idly by.<$FFFD><$0000>Now, before the weather control<$FFFC>device, a fierce battle is about<$FFFC>to unfold.<$FFFE>
+33	Victory terms<$FFFC><$0000><$FFFC>・Defeat Glob<$FFFC>・Activate the weather device and reach turn 15<$FFFD>Defeat terms<$FFFC>・Reach turn 15 without activating the device<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+34	Victory terms<$FFFC><$0000><$FFFC>・Defeat Glob<$FFFC>・Activate the weather device and reach turn 20<$FFFD>Defeat terms<$FFFC>・Reach turn 20 without activating the device<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
