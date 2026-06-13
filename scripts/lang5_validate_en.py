@@ -12,7 +12,7 @@ from pathlib import Path
 
 from lang5_scen import (Codec, TAG_RE, consumes_argument, find_text_block,
                         load_charmap_tbl, read_chunk_spans)
-from lang5_sceninsert import rebuild_chunk_fixed, trim_blobs_to_fit
+from lang5_sceninsert import align_up, rebuild_chunk_fixed, trim_blobs_to_fit
 
 ASCII_BAD = re.compile(r"[!?;—–]")
 
@@ -127,21 +127,29 @@ def main() -> None:
         block = find_text_block(chunk)
         table_len = 2 + 2 * len(block.offsets)
         tz = len(chunk) - len(chunk.rstrip(b"\x00"))
+        needed = table_len + body
+        effective_size = block.size if needed <= block.size else align_up(needed, 4)
+        effective_body = effective_size - table_len
         if args.budget_mode == "block":
             # The translated records must fit inside the original text block.
             # This preserves all following chunk data at byte-identical offsets.
             budget = block.size - table_len
         else:
             budget = block.size + (tz & ~1) - table_len
-        if body <= budget:
+        compared_body = body if args.budget_mode == "block" else effective_body
+        if compared_body <= budget:
             status = "OK"
         elif args.budget_mode == "fixed-repack":
             status = "REPACK"
         else:
             status = "OVER BUDGET"
-        if body > budget and args.budget_mode in ("local", "block"):
+        if compared_body > budget and args.budget_mode in ("local", "block"):
             problems += 1
-        print(f"chunk {cidx:03d}: body={body} budget={budget} {status}"
+        pad_note = (
+            f" aligned_body={effective_body}"
+            if needed > block.size and effective_body != body else ""
+        )
+        print(f"chunk {cidx:03d}: body={body}{pad_note} budget={budget} {status}"
               + (f" jp_left={jp_left}" if jp_left else ""))
     if args.budget_mode == "fixed-repack":
         for src in (Path(args.scen), Path(args.scen2)):

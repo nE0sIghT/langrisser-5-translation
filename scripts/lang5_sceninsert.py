@@ -52,7 +52,9 @@ def rebuild_block(chunk: bytes, block: TextBlock, edits: dict[int, str],
                   codec: Codec, max_size: int, label: str) -> bytes:
     """Re-encode records into a new text block image. The result keeps the
     original block size when the text fits; otherwise it is exactly as
-    large as needed, up to max_size."""
+    large as needed, 4-byte aligned, up to max_size. Original chunks keep
+    every text block end 4-byte aligned; battle suffix data is read with
+    word loads immediately after the block."""
     table_len = 2 + 2 * len(block.offsets)
 
     payloads: list[bytes] = []
@@ -65,12 +67,12 @@ def rebuild_block(chunk: bytes, block: TextBlock, edits: dict[int, str],
     body = b"".join(payloads)
 
     needed = table_len + len(body)
-    if needed > max_size:
+    out_size = block.size if needed <= block.size else align_up(needed, 4)
+    if out_size > max_size:
         raise SystemExit(
             f"{label}: text needs {len(body)} bytes, available budget is "
             f"{max_size - table_len}. Shorten the text or use --allow-grow."
         )
-    out_size = block.size if needed <= block.size else needed  # fits => suffix does not move
     if out_size > 0xFFFF:
         raise SystemExit(f"{label}: text block would exceed u16 size limit")
 

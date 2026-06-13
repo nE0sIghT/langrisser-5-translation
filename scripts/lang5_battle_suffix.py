@@ -2,9 +2,9 @@
 """Inspect the non-text payload after Langrisser V battle text blocks.
 
 The script is diagnostic only. It parses the text block, derives the suffix
-start, then checks whether the suffix begins with the archive-like table seen
-in battle chunks. It also reports narrow structural references that look like
-chunk-local pointers into the suffix.
+start, then checks the sprite/asset pointer table seen in battle chunks. It
+also reports narrow structural references that look like chunk-local pointers
+into the suffix.
 """
 from __future__ import annotations
 
@@ -46,19 +46,24 @@ class VmInfo:
 class SuffixInfo:
     base: int
     suffix_len: int
-    payload_size: int
-    table_bytes: int
     offsets: list[int]
     unique_offsets: list[int]
 
     @property
-    def used_len(self) -> int:
-        # The leading u32 is a size word. Offsets are relative to base+4.
-        return 4 + self.payload_size
+    def table_bytes(self) -> int:
+        return 4 * len(self.offsets)
 
     @property
-    def trailing_len(self) -> int:
-        return self.suffix_len - self.used_len
+    def first_payload_offset(self) -> int:
+        if len(self.offsets) >= 2:
+            return self.offsets[1]
+        return self.table_bytes
+
+    @property
+    def slot0_tail_len(self) -> int:
+        if not self.offsets:
+            return 0
+        return self.suffix_len - self.offsets[0]
 
 
 def parse_vm(chunk: bytes, text_base: int) -> VmInfo | None:
@@ -75,36 +80,35 @@ def parse_vm(chunk: bytes, text_base: int) -> VmInfo | None:
     return VmInfo(off, size)
 
 
-def parse_suffix(chunk: bytes, base: int) -> SuffixInfo | None:
+def actor_slot_count(chunk: bytes) -> tuple[int, list[tuple[int, int, int, int]]]:
+    if len(chunk) < 0x30:
+        return 0, []
+    actor_off = u32(chunk, 0x14)
+    count = u32(chunk, 0x2C) & 0xFF
+    entries: list[tuple[int, int, int, int]] = []
+    for idx in range(count):
+        off = actor_off + 4 * idx
+        if off + 4 > len(chunk):
+            break
+        entries.append(tuple(chunk[off:off + 4]))
+    if not entries:
+        return 0, []
+    return max(entry[2] for entry in entries) + 1, entries
+
+
+def parse_suffix(chunk: bytes, base: int, slot_count: int) -> SuffixInfo | None:
     suffix_len = len(chunk) - base
-    if suffix_len < 8:
+    if slot_count <= 0 or suffix_len < 4 * slot_count:
         return None
 
-    payload_size = u32(chunk, base)
-    table_bytes = u32(chunk, base + 4)
-    if table_bytes < 4 or table_bytes % 4:
-        return None
-    if 4 + payload_size > suffix_len:
-        return None
-    if table_bytes > payload_size:
-        return None
-
-    table_abs = base + 4
-    count = table_bytes // 4
-    if table_abs + count * 4 > len(chunk):
-        return None
-    offsets = [u32(chunk, table_abs + i * 4) for i in range(count)]
-    if not offsets or offsets[0] != table_bytes:
-        return None
-    if any(off < table_bytes or off >= payload_size for off in offsets):
+    offsets = [u32(chunk, base + i * 4) for i in range(slot_count)]
+    if any(off < 0 or off >= suffix_len for off in offsets):
         return None
 
     unique_offsets = sorted(set(offsets))
     return SuffixInfo(
         base=base,
         suffix_len=suffix_len,
-        payload_size=payload_size,
-        table_bytes=table_bytes,
         offsets=offsets,
         unique_offsets=unique_offsets,
     )
@@ -141,7 +145,8 @@ def row_for_chunk(chunk_idx: int, chunk: bytes, scan_full: bool) -> dict[str, st
     block = find_text_block(chunk)
     vm = parse_vm(chunk, block.base)
     suffix_base = block.base + block.size
-    suffix = parse_suffix(chunk, suffix_base)
+    slot_count, actor_entries = actor_slot_count(chunk)
+    suffix = parse_suffix(chunk, suffix_base, slot_count)
 
     row: dict[str, str] = {
         "chunk": f"{chunk_idx:03d}",
@@ -152,20 +157,22 @@ def row_for_chunk(chunk_idx: int, chunk: bytes, scan_full: bool) -> dict[str, st
         "vm_off": f"0x{vm.offset:X}" if vm else "",
         "vm_size": f"0x{vm.size:X}" if vm else "",
         "suffix_len": f"0x{len(chunk) - suffix_base:X}",
-        "archive_payload_size": "",
-        "archive_table_bytes": "",
-        "archive_entries": "",
-        "archive_unique_offsets": "",
-        "archive_trailing": "",
+        "actor_entries": str(len(actor_entries)),
+        "asset_slots": str(slot_count),
+        "asset_table_bytes": "",
+        "asset_offsets": "",
+        "asset_unique_offsets": "",
+        "slot0_tail": "",
+        "first_payload_offset": "",
         "structural_refs": "",
     }
 
     if not suffix:
         return row
 
-    target_values = {suffix.base, suffix.base + suffix.used_len}
-    # Offsets in the suffix table are relative to suffix_base + 4.
-    target_values.update(suffix.base + 4 + off for off in suffix.offsets)
+    target_values = {suffix.base}
+    # Runtime builds pointer_table[i] = suffix_base + u32(suffix_base + 4*i).
+    target_values.update(suffix.base + off for off in suffix.offsets)
     target_values.update(suffix.offsets)
 
     refs = find_u32_refs(
@@ -176,11 +183,11 @@ def row_for_chunk(chunk_idx: int, chunk: bytes, scan_full: bool) -> dict[str, st
 
     row.update(
         {
-            "archive_payload_size": f"0x{suffix.payload_size:X}",
-            "archive_table_bytes": f"0x{suffix.table_bytes:X}",
-            "archive_entries": str(len(suffix.offsets)),
-            "archive_unique_offsets": ",".join(f"0x{o:X}" for o in suffix.unique_offsets),
-            "archive_trailing": f"0x{suffix.trailing_len:X}",
+            "asset_table_bytes": f"0x{suffix.table_bytes:X}",
+            "asset_offsets": ",".join(f"0x{o:X}" for o in suffix.offsets),
+            "asset_unique_offsets": ",".join(f"0x{o:X}" for o in suffix.unique_offsets),
+            "slot0_tail": f"0x{suffix.slot0_tail_len:X}",
+            "first_payload_offset": f"0x{suffix.first_payload_offset:X}",
             "structural_refs": ";".join(
                 f"{name}+0x{off:X}=0x{val:X}" for name, off, val in refs
             ),
@@ -217,9 +224,10 @@ def main() -> int:
     if args.csv:
         fieldnames = [
             "chunk", "chunk_len", "text_base", "text_size", "text_end",
-            "vm_off", "vm_size", "suffix_len", "archive_payload_size",
-            "archive_table_bytes", "archive_entries", "archive_unique_offsets",
-            "archive_trailing", "structural_refs", "error",
+            "vm_off", "vm_size", "suffix_len", "actor_entries",
+            "asset_slots", "asset_table_bytes", "asset_offsets",
+            "asset_unique_offsets", "slot0_tail", "first_payload_offset",
+            "structural_refs", "error",
         ]
         writer = csv.DictWriter(sys.stdout, fieldnames=fieldnames)
         writer.writeheader()
@@ -233,8 +241,8 @@ def main() -> int:
             continue
         print(
             f"{row['chunk']}: text_end={row['text_end']} suffix={row['suffix_len']} "
-            f"archive={row['archive_payload_size']} table={row['archive_table_bytes']} "
-            f"entries={row['archive_entries']} trailing={row['archive_trailing']}"
+            f"slots={row['asset_slots']} table={row['asset_table_bytes']} "
+            f"first_payload={row['first_payload_offset']} slot0_tail={row['slot0_tail']}"
         )
         if row.get("structural_refs"):
             print(f"  refs: {row['structural_refs']}")

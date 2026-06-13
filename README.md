@@ -151,8 +151,10 @@ For battle chunks with portrait/asset regressions, also run
 `python3 scripts/lang5_validate_en.py N --budget-mode block`: this stricter
 mode requires the translation to fit inside the original text block so the
 following chunk data stays at byte-identical offsets.
-`scripts/lang5_battle_suffix.py` reports the archive-like battle suffix that
-currently forces this stricter rule.
+The normal inserter keeps grown text blocks 4-byte aligned, matching the
+original battle suffix alignment; block mode remains the conservative fallback
+until aligned battle growth is verified in-game. `scripts/lang5_battle_suffix.py`
+reports the battle suffix asset-slot table behind this rule.
 
 For names/menus instead of script text: edit `names_base.csv` /
 `system_menu_map.json`; `scripts/lang5_build_names_map.py` expands the

@@ -23,9 +23,9 @@ Record word format:
 - printable tokens are generally `< 0xE000`
 - control tokens are mostly high ranges (`0xFxxx`, `0xFFxx`)
 
-Battle chunks `001`-`042` have an archive-like suffix immediately after the
-text block. Its current reverse-engineering notes and relocation risk are in
-`docs/BATTLE_SUFFIX_FORMAT.md`.
+Battle chunks `001`-`042` have a suffix asset-slot pointer table immediately
+after the text block. Its current reverse-engineering notes and alignment risk
+are in `docs/BATTLE_SUFFIX_FORMAT.md`.
 
 ## Text stream model
 

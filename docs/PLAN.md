@@ -91,10 +91,11 @@ Capacity facts learned while building:
 - Text block location: the game computes `text_off = vm_off + vm_size`
   (vm_off = u32 at chunk+0, vm_size = u32 at chunk+vm_off+0x3C), confirmed
   on all 262 chunks and by archived runtime RE. Growing the block keeps
-  the base; only the chunk suffix shifts. For battle chunks this is not
-  currently safe: a shifted suffix has been observed to corrupt portrait/map
-  assets. Use block-budget validation for battle chunks until
-  `docs/BATTLE_SUFFIX_FORMAT.md` is resolved.
+  the base; only the chunk suffix shifts. Battle chunks start their suffix
+  with an asset-slot pointer table read through 32-bit loads. All original
+  battle suffix starts are 4-byte aligned, so the inserter now 4-aligns grown
+  text blocks. Use block-budget validation as the conservative fallback until
+  aligned battle growth is verified in-game.
 - The inserter first absorbs block growth into the chunk's own trailing zero
   padding. If that is not enough, fixed-size repack may move later chunks and
   reclaim whole-sector padding elsewhere in the same SCEN/SCEN2 file. The
@@ -141,9 +142,10 @@ Still open outside the main story route:
    budget allows.
 4. Battle log composite messages (name-prefix runs like 「の効果！」) need
    template-aware translation if they appear untranslated in playtesting.
-5. Battle chunk suffix relocation is not implemented. `scripts/lang5_battle_suffix.py`
-   identifies the archive-like suffix after text blocks, but the runtime fields
-   that must be updated when the suffix moves are still unknown.
+5. Battle chunk aligned-growth verification is open. `scripts/lang5_battle_suffix.py`
+   identifies the suffix asset-slot table and the inserter keeps grown text
+   blocks 4-byte aligned, but in-game confirmation is still needed before
+   dropping battle block-budget compression debt.
 6. Title screen logo/graphics (bitmap, optional).
 7. Release packaging: PPF + README; xdelta as alternative format.
 
