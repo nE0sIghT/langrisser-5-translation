@@ -1,0 +1,112 @@
+# file=SCEN.DAT chunk=27 chunk_start=0x450800
+# block_base=0x66F4 block_size=0x18D4 records=110
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Masterson<$FFFF>
+8	Officer<$FFFF>
+9	・Defeat Butler Masterson<$FFFE>
+10	・<$F600><$0000> dies<$FFFE>
+11	Sutherland Domain<$FFFF>
+12	<$FB00><$000E>Say, feels like we've<$FFFC>walked quite a way. Still more to<$FFFC>go？<$FFFE>
+13	<$FB00><$000F>Just a little farther, I<$FFFC>think. Right, Lanford？<$FFFE>
+14	<$FB00><$0010>Yeah. Past this plain, my<$FFFC>father's manor will come into view<$FFFC>before long. Shall we rest soon？<$FFFE>
+15	<$FB00><$0011>Wait！ Everyone, stay<$FFFC>sharp！<$FFFE>
+16	<$FB00><$0012>What is it？<$FFFE>
+17	<$FB00><$0013>A presence<$FFF5><$FFF8>…<$FFF6><$FB00><$0014>Enemies<$FFF5><$FFF8>….<$FFFE>
+18	<$FB00><$0015>So you noticed.<$FFFE>
+19	<$FB00><$0016>Masterson！<$FFFE>
+20	<$FB00><$0017>I heard Lord Alvince<$FFFC>had fallen. Thinking you'd arrive<$FFFC>here before long, I've been waiting.<$FFFE>
+21	<$FB00><$0018>Waiting, you say, but it<$FFFC>hardly feels like a welcome.<$FFFE>
+22	<$FB00><$0019>Stand aside, Masterson. As<$FFFC>a soldier of the Federation, I<$FFFC>must stop my father.<$FFFE>
+23	<$FB00><$001A>Then, as one who serves<$FFFC>Lord Lambert, I must protect my<$FFFC>master.<$FFF5><$FFF8> <$FFF6><$FB00><$001B>A battle cannot be avoided,<$FFFC>it seems<$FFF5><$FFF8>….<$FFFE>
+24	<$FB00><$001C>To think it would come<$FFFC>to fighting you.<$FFFE>
+25	A crystal glowing with stored<$FFFC>magic peeks from the ground. What<$FFFC>do you do？<$FFFE>
+26	・Touch it with your hand<$FFFE>
+27	・Press your forehead to it<$FFFE>
+28	・Drape a cloth over it<$FFFE>
+29	The crystal's magic seems to flow<$FFFC>into your body.<$FFFD><$0000> <$FFF4>Phys-Mag resist<$FFF3> rose by 2！<$FFFE>
+30	The crystal's magic seems to flow<$FFFC>into your body.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 4！<$FFFE>
+31	The cloth changed shape before<$FFFC>your eyes under the crystal's<$FFFC>magic….<$FFFD><$0000> <$FFF4>Goddess Dress<$FFF3> obtained！<$FFFE>
+32	<$FB00><$002E>Sorry… everyone…<$FFFE>
+33	<$FB00><$004B>No… that I should…<$FFFE>
+34	<$FB00><$004C>Marie, leave this to us<$FFFC>and pull back！<$FFFE>
+35	…<$FB00><$004D>I'm sorry….<$FFFE>
+36	<$FB00><$007B>I can still… I can<$FFFC>still fight…<$FFFE>
+37	<$FB00><$007C>Alfred！ Pull back for<$FFFC>now！<$FFFE>
+38	<$FB00><$007D>But…<$FFFE>
+39	<$FB00><$007E>Trust your comrades！<$FFFE>
+40	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
+41	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
+42	<$FB00><$006C>Brenda！ Are you all<$FFFC>right！？<$FFFE>
+43	<$FB00><$006D>Yeah, I'm fine… I can<$FFFC>still go…<$FFFE>
+44	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
+45	<$FB00><$006F>…I'll do that. I don't<$FFFC>want to drag you down…<$FFFE>
+46	<$FB00><$0057>Aah！<$FFFE>
+47	<$FB00><$0058>Are you all right,<$FFFC>Clarett！？<$FFFE>
+48	<$FB00><$0059>This is a bit much…<$FFFE>
+49	<$FB00><$005A>Leave the rest to us<$FFFC>and fall back！<$FFFE>
+50	<$FB00><$005B>Sorry, it's in your<$FFFC>hands…<$FFFE>
+51	Until I've stopped my father, I<$FFFC>cannot be beaten. Stand aside,<$FFFC>Masterson！<$FFFE>
+52	That I cannot do. The only act<$FFFC>allowed me is to protect my<$FFFC>master.<$FFFE>
+53	I'm resolved. If you won't yield<$FFFC>the way, Masterson, then I'll defeat<$FFFC>you！<$FFFE>
+54	I too come in earnest. Let me<$FFFC>see how far your skill has<$FFFC>grown, Lord Lanford.<$FFFE>
+55	<$FB00><$0020>Must we truly fight<$FFF5><$FFF8>….<$FFFE>
+56	<$FB00><$0021>Turning my sword on you<$FFFC>is not my wish either, Lord<$FFFC>Lanford, but it cannot be helped.<$FFFE>
+57	<$FB00><$0022>I cannot lose. I'll beat<$FFFC>you and learn the truth of my<$FFFC>father's change of heart！<$FFFE>
+58	<$FB00><$0023>Here I come, Lord<$FFFC>Lanford.<$FFFE>
+59	Forgive me. Lord Lanford<$FFF8>….<$FFFE>
+60	Never mind. Come with all you<$FFFC>have！<$FFFE>
+61	<$FB00><$0024>Uu…<$FFFE>
+62	<$FB00><$0025>Lanford！<$FFFE>
+63	<$FB00><$0026>I'm all right<$FFF5><$FFF8>… <$FFF6><$FB00><$0027>A<$FFFC>wound like this won't kill me<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0028>But<$FFF5><$FFF8>…<$FFFE>
+64	<$FB00><$0029>I know. We'll handle<$FFFC>the rest.<$FFFE>
+65	<$FB00><$002A>Sorry<$FFF5><$FFF8>….<$FFFE>
+66	<$FB00><$002B>Forgive me, Lord Lanford.<$FFFE>
+67	I, I'm sorry… I'll go on ahead…<$FFFE>
+68	I, I can let you advance no<$FFFC>further…<$FFFE>
+69	…Guhah！<$FFFE>
+70	I, I've failed…<$FFFE>
+71	…At least… one more stroke…<$FFFE>
+72	I, I can still… fight…<$FFFE>
+73	Nuuh… I cannot win…<$FFFE>
+74	Lord Masterson… forgive me…<$FFFE>
+75	…Now I needn't fight Lord<$FFFC>Lanford… after all…<$FFFE>
+76	<$FB00><$001D>Whatever happens, I will<$FFFC>not let you and the master come<$FFFC>to blows.<$FFFE>
+77	<$FB00><$001E>Tell me, Masterson. What<$FFFC>in the world happened to my<$FFFC>father.<$FFFE>
+78	<$FB00><$001F>It is not a thing I<$FFFC>may lightly speak of<$FFF5><$FFF8>….<$FFFE>
+79	<$FB00><$002F>Gh… guh…<$FFFE>
+80	<$FB00><$0030>Lord Masterson！<$FFFE>
+81	<$FB00><$0031>Lower your weapon<$FFF5><$FFF8>… <$FFF6><$FB00><$0032>We<$FFFC>have lost<$FFF5><$FFF8>….<$FFFE>
+82	<$FB00><$0033>But<$FFF5><$FFF8>….<$FFFE>
+83	<$FFF8><$FFFA>….<$FFFE>
+84	<$FB00><$0034>There's no beating the<$FFFC>weight of years<$FFF5><$FFF8>… <$FFF6><$FB00><$0035>Lord Lanford. Let<$FFFC>me tell you why the master turned<$FFFC>cold toward you<$FFF5><$FFF8>….<$FFFE>
+85	<$FB00><$0036>Masterson<$FFF5><$FFF8>….<$FFFE>
+86	<$FB00><$0037>You know the tale of<$FFFC>how, in his youth, the master<$FFFC>adventured with his dear friend Lord<$FFFC>Rockwell<$FFF5><$FFF8>….<$FFFE>
+87	<$FB00><$0038>Yeah, I heard it often<$FFFC>as a child.<$FFFE>
+88	<$FB00><$0039>At the end of that last<$FFFC>adventure, they brought home a<$FFFC>relic of the magic civilization,<$FFFC>and there received a curse.<$FFFE>
+89	<$FB00><$003A>A curse<$FFF5><$FFF8>…？<$FFFE>
+90	<$FB00><$003B>The curse is that blood<$FFFC>kin slay one another<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$003C>The master disowned you, severing<$FFFC>ties so the curse would not fall<$FFFC>upon you.<$FFFD><$FB00><$003D>But to tell you this would only<$FFFC>deepen your love for him and undo<$FFFC>the meaning of disowning you.<$FFFD><$FB00><$003E>I speak now hoping that, knowing<$FFFC>it, you will avoid fighting<$FFFC>him….<$FFFE>
+91	<$FB00><$003F>So that's why he could<$FFFC>not tell me<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>Forgive me,<$FFFC>Masterson. Here, I swear it: I<$FFFC>will not fight my father.<$FFFE>
+92	<$FFF8>…<$FFF6><$FB00><$0041>Then… was my brother's<$FFFC>madness also the curse<$FFF5><$FFF8>….<$FFFE>
+93	<$FB00><$0042>Likely<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>he must be under<$FFFC>the same curse<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0044>Whether it is truly a curse I<$FFFC>have no way to know<$FFF5><$FFF8>… <$FFF6><$FB00><$0045>but since<$FFFC>Lord Clifford passed, the master<$FFFC>had been deeply troubled.<$FFFD><$FB00><$0046>Lainforce preyed upon that.<$FFFE>
+94	<$FB00><$0047>Lainforce did such a<$FFFC>thing？<$FFFE>
+95	<$FB00><$0048>Is such a curse even<$FFFC>possible, Brenda？<$FFFE>
+96	<$FB00><$0049>I have heard that long<$FFFC>ago, as the magic civilization<$FFFC>flowered, so too did curses, a<$FFFC>kind of by-product of it.<$FFFE>
+97	<$FB00><$004A>Then if we understand the<$FFFC>curse, mightn't we find how to<$FFFC>break it？<$FFFE>
+98	<$FB00><$004B>Yeah. Study the curse<$FFFC>closely and it should become clear.<$FFFC>For that, we need the item that<$FFFC>triggered it<$FFF5><$FFF8>….<$FFFE>
+99	<$FB00><$004C>If the curse is broken,<$FFFC>my father will have no need to aid<$FFFC>Lainforce.<$FFFD><$FB00><$004D>Masterson. The relic of the magic<$FFFC>civilization my father brought home,<$FFFC>where is it now？<$FFFE>
+100	<$FB00><$004E>I believe… it was<$FFFC>presented to the Premier's<$FFFC>manor…. That is all I know….<$FFFD><$FB00><$004F>Lord Lanford. Please, do not let<$FFFC>the master's care go to waste….<$FFFE>
+101	<$FB00><$0050>Masterson. I'm sorry<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0051>I will break the curse without<$FFFC>fail and mend things with my<$FFFC>father. So rest easy now….<$FFFE>
+102	<$FB00><$0052>Let's hurry to the<$FFFC>Premier's manor.<$FFFE>
+103	<$FB00><$0053>I'm sorry, Alfred. Had<$FFFC>I known sooner, I might have<$FFFC>saved your brother.<$FFFE>
+104	<$FB00><$0054>Grieving what's done<$FFFC>changes nothing. For now, let's<$FFFC>think of saving Lord Lambert.<$FFFE>
+105	<$FFF8>…<$FFF6><$FB00><$002C>It seems I'm the only<$FFFC>one left.<$FFFE>
+106	<$FB00><$002D>Why not give up now,<$FFFC>Masterson. I don't wish to fight<$FFFC>any longer.<$FFFE>
+107	<$FB00><$002E>No. To keep you and<$FFFC>the master from fighting, even if<$FFFC>this body perishes, I will not<$FFFC>withdraw.<$FFFE>
+108	<$FFF8>…<$FFF6><$FB00><$002C>It seems I'm the only<$FFFC>one left.<$FFFE>
+109	<$FB00><$002D>Why not give up now,<$FFFC>Masterson. I don't wish to fight<$FFFC>any longer.<$FFFE>
+110	<$FB00><$002E>No. To keep you and<$FFFC>the master from fighting, even if<$FFFC>this body perishes, I will not<$FFFC>withdraw.<$FFFE>
