@@ -47,7 +47,7 @@
 45	・Do nothing<$FFFE>
 46	As you reach for an egg, its snow dragon<$FFFC>parent returns！<$FFFD>You flee in panic.<$FFFE>
 47	You break the nest, but find nothing. The<$FFFC>eggs fall below…<$FFFE>
-48	A gust strikes the nest. You catch a<$FFFC>falling egg.<$FFFD>The snow dragon returns, thanks you, and<$FFFC>promises a future reward.<$FFFE>
+48	Watching silently, a sudden gust strikes<$FFFC>the nest！ An egg is about to fall, and you<$FFFC>catch it just in time.<$FFFD>Then the snow dragon, the egg's parent,<$FFFC>returns and speaks.<$FFFD>Kind-hearted human. Thank you for<$FFFC>protecting my egg. I can do nothing now,<$FFFC>but I vow to repay you one day.<$FFFE>
 49	A red flower blooms. Eat it？<$FFFE>
 50	Eating it makes your body feel one with<$FFFC>the world.<$FFFD><$0000> Magic <$FFF4>Teleport<$FFF3> can now be learned！<$FFFE>
 51	A blue flower blooms. Eat it？<$FFFE>
@@ -103,7 +103,7 @@
 101	<$FB00><$005D>Saving them, then being hated,<$FFFC>is hard to take.<$FFFE>
 102	<$FFF7><$FB00><$005E>Yeah<$FFF5><$FFF8>…<$FFFE>
 103	<$FB00><$0060>Right！ They say they'll starve,<$FFFC>but do nothing.<$FFFE>
-104	<$FB00><$005F>Right！ Without us they'd<$FFFC>starve. All they did was run.<$FFFE>
+104	<$FB00><$005F>That's right！ If we hadn't<$FFFC>happened by, they would have starved to<$FFFC>death. And all they did was run, without<$FFFC>even trying to act.<$FFFE>
 105	<$FB00><$0061>But can you say that？<$FFFD><$FB00><$0062>You were framed for killing your father,<$FFFC>yet only ran.<$FFFE>
 106	<$FB00><$0063>You're one to talk. Salrath's<$FFFC>lord said you also rely on others and run.<$FFFE>
 107	<$FFF8><$FB00><$0064>…！<$FFFE>

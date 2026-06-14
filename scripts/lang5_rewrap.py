@@ -376,9 +376,11 @@ def traced_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
     return out
 
 
-def display_plate_slots(scen_path: Path,
-                        pool_sizes: dict[int, int]) -> dict[int, dict[int, int | None]]:
-    """Per-record speaker slot from a linear scan of VM display commands.
+def display_plate_slots(
+    scen_path: Path,
+    pool_sizes: dict[int, int],
+) -> tuple[dict[int, dict[int, int | None]], set[int], dict[int, set[int]]]:
+    """Per-record display metadata from a linear scan of VM display commands.
 
     traced_plate_slots follows control flow and stops on the tutorial-style
     chunks whose bytecode it cannot walk (it misreads an early opcode-00 skip).
@@ -391,8 +393,10 @@ def display_plate_slots(scen_path: Path,
     virtual-battle intro) come from these display commands like the FB00-less
     chunks. Other FB00 chunks keep the exact path-traced behaviour.
 
-    Returns (chunk -> record -> slot, set of chunks whose plate persists across
-    unresolved records, i.e. the FB00-less ones).
+    Returns:
+    - chunk -> record -> speaker slot (None means no plate)
+    - chunks whose plate persists across unresolved records (the FB00-less ones)
+    - chunk -> records that draw a yes/no confirmation box
     """
     out: dict[int, dict[int, int | None]] = {}
     persistent: set[int] = set()
