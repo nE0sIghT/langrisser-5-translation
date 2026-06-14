@@ -35,7 +35,7 @@ from pathlib import Path
 
 from lang5_scen import TAG_RE, Codec, consumes_argument, find_text_block, \
     load_charmap_tbl, read_chunk_spans, words_from_bytes
-from lang5_speakers import trace_vm_bytecode, u32, vm_block
+from lang5_speakers import trace_vm_bytecode, u16, u32, vm_block
 
 LINE_BREAK = "<$FFFC>"
 PAGE_BREAK = "<$FFFD>"
@@ -44,11 +44,6 @@ PAGE_BREAKS = {PAGE_BREAK, *TERMINATORS}
 PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
-# Records whose window keeps the previous speaker plate even though the
-# record carries no FB00 marker of its own. Quiz prompts with their own FB00
-# markers are not plated in-game; record 199 engine-broke at exactly 21 minus
-# the Operator plate width during playtest, so only that tail prompt is forced.
-FORCE_PLATED_RECORDS = {(0, 199)}
 BATTLE_CHUNKS = set(range(1, 43))
 
 
@@ -363,6 +358,66 @@ def traced_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
     return out
 
 
+def display_plate_slots(scen_path: Path,
+                        pool_sizes: dict[int, int]) -> dict[int, dict[int, int | None]]:
+    """Per-record speaker slot from a linear scan of VM display commands.
+
+    traced_plate_slots follows control flow and stops on the tutorial-style
+    chunks whose bytecode it cannot walk (it misreads an early opcode-00 skip).
+    The display opcodes 0x0b..0x10 (handler 0x80024424) still sit in the VM
+    block in order: byte9 is a zero-based speaker slot (0xff = no plate) and the
+    u16 text id at +10 counts from the chunk's first text record. Chunks without
+    FB00 markers are scanned (the engine keeps the plate across their FB00-less
+    records). The quiz chunk 0 is scanned too: it does carry FB00 markers, but
+    those are portrait cues, not speaker plates, and its real plates (the
+    virtual-battle intro) come from these display commands like the FB00-less
+    chunks. Other FB00 chunks keep the exact path-traced behaviour.
+
+    Returns (chunk -> record -> slot, set of chunks whose plate persists across
+    unresolved records, i.e. the FB00-less ones).
+    """
+    out: dict[int, dict[int, int | None]] = {}
+    persistent: set[int] = set()
+    data = scen_path.read_bytes()
+    for ci, (start, end) in enumerate(read_chunk_spans(data)):
+        pool_size = pool_sizes.get(ci) or 0
+        if pool_size == 0:
+            continue
+        chunk = data[start:end]
+        try:
+            block = find_text_block(chunk)
+        except Exception:
+            continue
+        first_text: int | None = None
+        has_fb = False
+        for idx in range(1, block.record_count + 1):
+            words = words_from_bytes(chunk[slice(*block.record_span(idx))])
+            if 0xFB00 in words:
+                has_fb = True
+            if first_text is None and 0xFFFE in words and 0xFFFF not in words:
+                first_text = idx
+        if first_text is None or (has_fb and ci != 0):
+            continue
+        _vm_off, vm, _ss = vm_block(chunk, block)
+        rec_slots: dict[int, int | None] = {}
+        p = 0
+        while p + 12 <= len(vm):
+            if (0x0B <= vm[p] <= 0x10 and vm[p + 3] in (0x00, 0x01, 0x03)
+                    and (vm[p + 9] == 0xFF or vm[p + 9] < pool_size)
+                    and u16(vm, p + 10) < block.record_count):
+                rec = first_text + u16(vm, p + 10)
+                if rec <= block.record_count:
+                    rec_slots.setdefault(rec, None if vm[p + 9] == 0xFF else vm[p + 9])
+                p += 12
+                continue
+            p += 1
+        if rec_slots:
+            out[ci] = rec_slots
+            if not has_fb:
+                persistent.add(ci)
+    return out, persistent
+
+
 def slot_plate_reserves(codec: Codec, records: list[tuple[str, str]],
                         pool_size: int | None = None) -> dict[int, int]:
     """Zero-based speaker-pool slot -> plate reserve in rendered cells."""
@@ -443,6 +498,10 @@ def main() -> None:
     scen_path = Path(args.scen)
     pool_sizes = speaker_pool_sizes(scen_path) if scen_path.exists() else {}
     traced_slots = traced_plate_slots(scen_path) if scen_path.exists() else {}
+    if scen_path.exists():
+        display_slots, persistent_chunks = display_plate_slots(scen_path, pool_sizes)
+    else:
+        display_slots, persistent_chunks = {}, set()
     if not pool_sizes:
         print(f"WARNING: {args.scen} not found; falling back to the FFFF-prefix "
               "plate heuristic (location plates may inflate the reserve)")
@@ -456,7 +515,21 @@ def main() -> None:
         chunk_reserve = plate_reserve(codec, records, pool_size)
         compact_pages = can_compact_pages(chunk_idx, args.compact_battle_pages)
         slot_reserves = slot_plate_reserves(codec, records, pool_size)
-        record_slots = traced_slots.get(chunk_idx, {})
+        # Path-traced slots are authoritative; the linear display scan fills in
+        # the chunks the tracer cannot walk. Require several resolved plates
+        # before trusting the scan: a lone display match in a narration chunk
+        # (e.g. the recap chunks 129/130) is byte-slide noise and must not force
+        # a plate reserve on every line.
+        disp = display_slots.get(chunk_idx, {})
+        confident = sum(1 for s in disp.values() if s is not None) >= 3
+        record_slots = dict(traced_slots.get(chunk_idx, {}))
+        if confident:
+            for rec, slot in disp.items():
+                record_slots.setdefault(rec, slot)
+        # Unresolved dialogue keeps the persistent plate only in the FB00-less
+        # chunks where one speaker narrates the whole block; the quiz's plate
+        # does not persist, so there byte9 only governs the records it resolves.
+        plated_no_fb = confident and chunk_idx in persistent_chunks
         width = args.width
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
@@ -484,14 +557,20 @@ def main() -> None:
                     print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
-                force_plate = (chunk_idx, int(idx)) in FORCE_PLATED_RECORDS
+                force_plate = False
                 rec_idx = int(idx)
                 if rec_idx in record_slots:
                     slot = record_slots[rec_idx]
                     if slot is None:
                         reserve = 0
-                    elif slot in slot_reserves:
-                        reserve = slot_reserves[slot]
+                    else:
+                        if slot in slot_reserves:
+                            reserve = slot_reserves[slot]
+                        force_plate = True
+                elif plated_no_fb and not text.rstrip().endswith("<$FFFF>"):
+                    force_plate = True
+                # The quiz's FB00 markers are portraits, not speaker plates, so
+                # records byte9 did not resolve to a plate carry no reserve.
                 if chunk_idx == 0 and not force_plate:
                     reserve = 0
                 new_text = reflow_record(

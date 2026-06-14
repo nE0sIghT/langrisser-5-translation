@@ -15,7 +15,7 @@
 13	Finally, choose the expected difficulty of<$FFFC>the battles ahead.<$FFFE>
 14	・NORMAL<$FFFE>
 15	・HARD<$FFFE>
-16	<$FFF4>HARD <$FFF3>makes experience harder to earn,<$FFFC>and enemies are stronger. Confirm？<$FFFE>
+16	<$FFF4>HARD <$FFF3>makes experience harder<$FFFC>to earn, and enemies are stronger.<$FFFC>Confirm？<$FFFE>
 17	<$FFFA>∑066, virtual battle program launched.<$FFFC>Please prepare for input.<$FFFE>
 18	<$FFFA>∑066, set complete. Launching cultivation<$FFFC>program…<$FFFE>
 19	<$FB00><$0002>First, set the final growth form.<$FFFD><$FB00><$0003>3 of these 4 metals will be mixed into the<$FFFC>culture fluid. Choose the one to leave<$FFFC>out.<$FFFE>
@@ -197,10 +197,10 @@
 195	・Sleep instinct<$FFFE>
 196	・Aggressive instinct<$FFFE>
 197	・Sexual instinct<$FFFE>
-198	Each stage opens with a story scene, then<$FFFC>moves to the <$FFF4>preparations menu<$FFF3>. There<$FFFC>you hire mercenaries, buy and equip items,<$FFFC>and deploy commanders.<$FFFD>Once all commanders are placed, <$FFF4>Deploy<$FFFC><$FFF3>starts the battle. The first battlefield<$FFFC>has no shop or mercenary post, and<$FFFC>deployment is fixed.<$FFFD>Press the <$FFF4>△ button <$FFF3>on any command to view<$FFFC>its description.<$FFFE>
+198	Each stage opens with a story<$FFFC>scene, then moves to the <$FFF4>preparations<$FFFC>menu<$FFF3>. There you hire mercenaries, buy and<$FFFC>equip items, and deploy commanders.<$FFFD>Once all commanders are placed, <$FFF4>Deploy<$FFFC><$FFF3>starts the battle. The first battlefield<$FFFC>has no shop or mercenary post, and<$FFFC>deployment is fixed.<$FFFD>Press the <$FFF4>△ button <$FFF3>on any command to view<$FFFC>its description.<$FFFE>
 199	The specimen can experience a<$FFFC><$FFF4>virtual battle <$FFF3>to learn how combat works.<$FFFC>Try it？<$FFFE>
-200	First, some basic knowledge about the<$FFFC><$FFF4>action system<$FFF3>. It runs close to real<$FFFC>time. Turn counts only matter in timed<$FFFC>scenarios.<$FFFD>Each unit may act when its commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns flow by. The<$FFFC>meter is in the info bar below. Its size<$FFFC>shows the action capacity.<$FFFD>Issuing a command deducts its action cost<$FFFC>from the meter. So units act whenever the<$FFFC>meter is full, not once per turn. Now<$FFFC>launching the virtual battle program.<$FFFE>
-201	Finally, two key topics can be input. Even<$FFFC>without the virtual battle, these are<$FFFC>worth teaching. <$FFF4>Action system: basics<$FFFC><$FFF3>Review？<$FFFE>
+200	First, some basic knowledge<$FFFC>about the <$FFF4>action system<$FFF3>. It runs close to<$FFFC>real time. Turn counts only matter in<$FFFC>timed scenarios.<$FFFD>Each unit may act when its commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns flow by. The<$FFFC>meter is in the info bar below. Its size<$FFFC>shows the action capacity.<$FFFD>Issuing a command deducts its action cost<$FFFC>from the meter. So units act whenever the<$FFFC>meter is full, not once per turn. Now<$FFFC>launching the virtual battle program.<$FFFE>
+201	Finally, two key topics can be<$FFFC>input. Even without the virtual battle,<$FFFC>these are worth teaching. <$FFF4>Action system:<$FFFC>basics <$FFF3>Review？<$FFFE>
 202	The action order system runs close to real<$FFFC>time. Turns are only a guide. Units act<$FFFC>when the commander's <$FFF4>action meter <$FFF3>fills<$FFFC>as turns pass.<$FFFD>Issuing a command deducts its cost from<$FFFC>the meter. So units act whenever their<$FFFC>meter is full, not once per turn. The next<$FFFC>unit to act is shown at the top right.<$FFFE>
 203	<$FFF4>Action system: meter <$FFF3>Review？<$FFFE>
-204	The action meter is shown in the info bar<$FFFC>at the bottom. Its size is the action<$FFFC>capacity. When it fills, the commander may<$FFFC>act.<$FFFD>Two colors: yellow is the current amount,<$FFFC>red is the cost to attack.<$FFFE><$FFFF>
+204	The action meter is shown in the<$FFFC>info bar at the bottom. Its size is the<$FFFC>action capacity. When it fills, the<$FFFC>commander may act.<$FFFD>Two colors: yellow is the current amount,<$FFFC>red is the cost to attack.<$FFFE><$FFFF>
