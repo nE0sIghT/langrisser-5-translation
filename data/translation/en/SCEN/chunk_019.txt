@@ -134,7 +134,7 @@
 132	Exactly！ First father, and now even the<$FFFC>dead of this village！！<$FFFE>
 133	No kidding.<$FFFE>
 134	I need to blow off steam, or I will lose<$FFFC>my mind！<$FFFE>
-135	In that case, why not visit Pondbag？<$FFFD>They say the arcade there called <$FFF4>Umagee<$FFFC><$FFF3>has all sorts of interesting things.<$FFFE>
+135	In that case, why not visit Pondbag？<$FFFD>They say the arcade there called <$FFF4>Umagee<$FFF3><$FFFC>has all sorts of interesting things.<$FFFE>
 136	<$FFFA>Pondbag<$FFF8>… <$FFFB><$FFF9><$FFF6>Great, let us go！！<$FFFD>A little detour will not hurt！<$FFFE>
 137	An amusement hall？ Nice.<$FFFD>In Yeless, I often slipped out to play<$FFFC>with my brother…<$FFFE>
 138	Then it is settled！ To Pondbag！<$FFFE>
