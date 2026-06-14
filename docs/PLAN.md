@@ -34,8 +34,10 @@ Other established facts:
   (18 bytes/glyph) at offset 0 of SYSTEM.BIN. Verified visually.
 - Tokens < 0xE000 printable; 0xF6xx/0xFBxx consume argument words;
   0xFFFC..0xFFFF are separators/terminators (see DISASM_SUMMARY.md).
-- `translation.txt` (GameFAQs guide by borgor) is a full scene-by-scene
-  "Speaker : line" EN script keyed by "Scenario N" / "Scenario N Clear".
+- `work/translation.txt` is the GameFAQs guide by borgor
+  (https://gamefaqs.gamespot.com/saturn/562834-langrisser-v-the-end-of-legend/faqs/41339),
+  a full scene-by-scene "Speaker : line" EN script keyed by "Scenario N" /
+  "Scenario N Clear".
 - The legacy auto-alignment (`jp_en_full_records.json`) is statistically
   misaligned garbage and must not be used. Only the curated chunk-0 quiz
   overrides and the menu map are worth keeping.

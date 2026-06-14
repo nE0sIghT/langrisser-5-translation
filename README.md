@@ -1,12 +1,68 @@
 # Langrisser V (PS1) Translation Toolkit
 
-Toolkit for translating Langrisser V (PS1, SLPS-01818). Target language is
-arbitrary (current work: English; Russian etc. is possible) — only the glyph
-set and per-language data files differ, see "Another language" below.
+Toolkit for translating Langrisser V (PS1, SLPS-01818). The active target is
+English; other target languages can reuse the same extraction, validation and
+repacking flow with different glyph assignments and translation data.
 
-Requirements: Python 3.10+, Pillow (`pip install pillow`), original BIN/CUE
-image in `iso/` (not in git). Release title-credit rendering uses the bundled
-`data/fonts/LiberationSansNarrow-Bold.ttf` font.
+## Applying the patch
+
+Provide your own original Langrisser V disc image (see *Original Image
+Verification* below for the exact `.bin`). The patch only modifies the `.bin`;
+your `.cue` is unchanged.
+
+- **DuckStation:** drop the `.ppf` next to your `.bin` with the same base name
+  (`yourgame.bin` + `yourgame.ppf`) and run the game as usual — DuckStation
+  applies the patch on the fly and never touches your image.
+- **Permanent patch / other emulators:** apply the `.ppf` to the `.bin` with any
+  PPF tool (`applyppf`, ROMPatcher.js, Flips, ...); keep the `.cue` as-is.
+
+Then verify your result against the release `SHA256SUMS`.
+
+## Donations
+
+If you want to support the work or say thanks, donations are welcome:
+
+- EVM (Ethereum, Polygon, BSC, Arbitrum, ...): `0x6b513f6853003726502ec258351fcf6b82336d49`
+- Boosty: https://boosty.to/ne0sight/donate
+
+## License
+
+This toolkit is licensed under the GNU GPL version 3 or later. See `LICENSE`.
+Game assets are not included in this repository.
+
+Bundled third-party fonts:
+
+- `data/fonts/spleen-6x12.bdf` — Spleen 6x12, BSD 2-Clause; see
+  `data/fonts/Spleen-LICENSE`.
+- `data/fonts/PixelMplus*.ttf` — PixelMplus / M+ Fonts, M+ Font License; see
+  `data/fonts/PixelMplus-README.txt`.
+- `data/fonts/LiberationSansNarrow-Bold.ttf` — Liberation Sans Narrow,
+  GPL-2 with font exception; see
+  `data/fonts/LiberationSansNarrow-COPYRIGHT.txt`.
+
+## Requirements
+
+- Python 3.10+
+- Pillow (`pip install pillow`)
+- Original BIN/CUE image in `iso/`
+
+## Original Image Verification
+
+The build scripts expect the original Langrisser V PS1 image in `iso/`.
+The current verified local image is:
+
+- `iso/SLPS-01818-9-B.bin`
+  - Size: `696248448` bytes
+  - CRC32: `5d13a8df`
+  - MD5: `7a9e431453fde9301188841f215bff98`
+  - SHA-1: `e096604f2d4d69b48eb3c1b20ca5ea26e1ea8766`
+  - SHA-256: `af3f5e1d6912f31f712d43cf71d954481fa9814021e62b41fdd8fce0c9429247`
+- `iso/SLPS-01818-9-B.cue`
+  - Size: `224` bytes
+  - CRC32: `2683304f`
+  - MD5: `455eca5422d06973bb32f7fed4ce2416`
+  - SHA-1: `f2f2f1abf836e26acfd37030d7d9a378cca2a0de`
+  - SHA-256: `754cfdc98d0aa354dd1d8cd0c5e4d377883a2acccf9636fd5e9826f1b1e52a66`
 
 ## How the game stores text
 
@@ -43,7 +99,14 @@ image in `iso/` (not in git). Release title-credit rendering uses the bundled
 | `work/wip_en/` | staging area for chunks being translated |
 | `docs/PLAN.md` | format notes and the project plan |
 
-## Step 0 — extract game files (once)
+## Translation Flow
+
+The workflow starts from a clean original image, extracts the game files into
+`work/`, dumps the Japanese script for reference, edits English chunk files
+under `data/translation/en/SCEN/`, validates the fixed-size repack budget, and
+finally writes a PPF3 patch plus a ready-to-test BIN/CUE copy.
+
+### 1. Extract Game Files
 
 ```bash
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/SCEN.DAT  work/extracted/SCEN.DAT
@@ -53,7 +116,7 @@ python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /L5/IMG.DAT    work/
 python3 scripts/iso_mode2.py iso/SLPS-01818-9-B.bin extract /SLPS_018.19 work/extracted/SLPS_018.19
 ```
 
-## Step 1 — dump the original script
+### 2. Dump The Original Script
 
 ```bash
 python3 scripts/lang5_scendump.py          # -> work/scriptdump/SCEN*/chunk_NNN.txt
@@ -77,10 +140,10 @@ python3 scripts/lang5_scenario.py prefill 11  # stage all chunks of scenario 11
 python3 scripts/lang5_review_html.py        # JP/EN review pages -> work/review/
 ```
 
-## Step 2 — glyphs for your language
+### 3. Prepare English Glyphs
 
-The JP font has no lowercase Latin and no Cyrillic. New glyphs are written
-into slots of rarely-used kanji:
+The JP font has no lowercase Latin. New glyphs are written into slots of
+rarely-used kanji:
 
 1. `data/font_mapping/en_slot_assignments.csv` maps
    `glyph index → new character → sacrificed kanji`. For another language,
@@ -103,7 +166,7 @@ into slots of rarely-used kanji:
 Caveat: until the whole script is translated, a sacrificed kanji shows up
 as the new glyph in untranslated lines.
 
-## Step 3 — translate a scenario
+### 4. Translate A Scenario
 
 ```bash
 python3 scripts/lang5_scenario.py prefill 6   # stages chunks 50, 6, 92
@@ -169,7 +232,7 @@ chunk-local name pools and static VM command sites that reference `FB00`
 dialogue IDs. Its output is evidence for reverse-engineering speaker binding;
 speaker plates are not maintained as hand-written data.
 
-## Step 4 — rebuild the patch
+### 5. Rebuild The Patch
 
 ```bash
 python3 scripts/lang5_build_ppf.py
@@ -201,19 +264,19 @@ The pipeline is not tied to English:
 1. Create `data/translation/<lang>/SCEN/` and pass it via `--en-dump`
    (`lang5_tm_prefill.py`, `lang5_validate_en.py`, `lang5_rewrap.py`,
    `lang5_build_ppf.py` all accept it).
-2. Make your own slot-assignments CSV (e.g. Cyrillic letters and frequent
-   pairs) and a bitmap font that has those glyphs; pass both to
+2. Make your own slot-assignments CSV for the target alphabet and frequent
+   pairs, plus a bitmap font that has those glyphs; pass both to
    `lang5_build_en_font.py`.
 3. Translate `names_base.csv` / `system_menu_map.json` values into your
    language; the fit checks are language-agnostic (they count cells).
 
 ## Reference
 
-- `translation.txt` — borgor's GameFAQs scene-by-scene EN script; its
-  wording may be reused where it fits the JP line and the byte budget.
+- Borgor's GameFAQs scene-by-scene EN script:
+  https://gamefaqs.gamespot.com/saturn/562834-langrisser-v-the-end-of-legend/faqs/41339.
+  Its wording may be reused where it fits the JP line and the byte budget.
 - `docs/PLAN.md` — verified container format, root-cause notes, roadmap.
 - `docs/BATTLE_SUFFIX_FORMAT.md` — current notes on the battle chunk payload
   after the text block.
 - `docs/IMG_DAT_FORMAT.md` — current notes and tooling for the `IMG.DAT`
   image container and the verified title-screen bitmap layout.
-- `external/lang3` — the Langrisser 3 toolkit this one is modeled on.

@@ -244,7 +244,7 @@ Thanks to borgor for the Langrisser V translation guide
 ```
 
 The renderer uses the bundled `data/fonts/LiberationSansNarrow-Bold.ttf`
-font (SIL Open Font License 1.1; copyright notice is stored next to the font).
+font (GPL-2 with font exception; copyright notice is stored next to the font).
 Text is rendered with FreeType supersampling to an alpha mask, downsampled to
 the raw title bitmap height, and alpha-mapped to existing cyan-ish palette
 entries. The text is pasted transparently: source title pixels are preserved
