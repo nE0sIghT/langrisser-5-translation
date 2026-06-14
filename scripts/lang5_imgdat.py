@@ -23,7 +23,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 TOC_SIZE = 0x800
-DEFAULT_PATCH_VERSION = "1.0"
+DEFAULT_PATCH_VERSION = "1"
 TITLE_CREDIT_TARGET_RGB = (150, 220, 230)
 TITLE_CREDIT_FONT_CANDIDATES = [
     "data/fonts/LiberationSansNarrow-Bold.ttf",
@@ -198,7 +198,7 @@ def git_short_hash(repo_root: str | Path | None = None) -> str:
 
 def title_credit_lines(version: str, commit_hash: str) -> list[str]:
     return [
-        f"Translation v{version} ({commit_hash}) by Yuri `nE0sIghT` Konotopov",
+        f'Translation v{version} ({commit_hash}) by Yuri "nE0sIghT" Konotopov',
         "Thanks to CyberWarriorX for the Langrisser III toolkit",
         "Thanks to borgor for the Langrisser V translation guide",
     ]

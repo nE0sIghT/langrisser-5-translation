@@ -189,7 +189,7 @@ The title-screen credit line is generated from `--patch-version` and the
 current git commit (`git rev-parse --short=8 HEAD`), for example:
 
 ```bash
-python3 scripts/lang5_build_ppf.py --patch-version 1.0
+python3 scripts/lang5_build_ppf.py --patch-version 1
 ```
 
 The build also writes title previews to `work/build/title_credits_*.png`.

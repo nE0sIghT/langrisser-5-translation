@@ -13,7 +13,7 @@ python3 scripts/lang5_imgdat.py extract work/extracted/IMG.DAT 10 work/title_ass
 python3 scripts/lang5_imgdat.py replace work/extracted/IMG.DAT 10 work/title_asset10.bin work/IMG_roundtrip.DAT
 python3 scripts/lang5_imgdat.py title-credits work/extracted/IMG.DAT \
   --out-imgdat work/build/IMG.DAT.en \
-  --version 1.0 \
+  --version 1 \
   --out-display work/build/title_credits_display.png
 ```
 
@@ -207,7 +207,7 @@ Production title-credit patch command:
 ```bash
 python3 scripts/lang5_imgdat.py title-credits work/extracted/IMG.DAT \
   --out-imgdat work/build/IMG.DAT.en \
-  --version 1.0 \
+  --version 1 \
   --out-raw-preview work/build/title_credits_raw.png \
   --out-display work/build/title_credits_display.png \
   --out-crop work/build/title_credits_crop.png
@@ -232,13 +232,13 @@ standard patch build and injects the resulting `/L5/IMG.DAT`.
 
 The release text is generated from:
 
-- `--version` / `lang5_build_ppf.py --patch-version` (`1.0` by default);
+- `--version` / `lang5_build_ppf.py --patch-version` (`1` by default);
 - `git rev-parse --short=8 HEAD` unless `--commit-hash` is passed.
 
 Rendered text:
 
 ```text
-Translation v<version> (<commit>) by Yuri `nE0sIghT` Konotopov
+Translation v<version> (<commit>) by Yuri "nE0sIghT" Konotopov
 Thanks to CyberWarriorX for the Langrisser III toolkit
 Thanks to borgor for the Langrisser V translation guide
 ```
