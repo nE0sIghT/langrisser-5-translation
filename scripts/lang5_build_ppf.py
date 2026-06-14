@@ -25,7 +25,7 @@ def main() -> None:
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
-    ap.add_argument("--patch-version", default="1")
+    ap.add_argument("--patch-version", default="dev")
     ap.add_argument("--work-bin", default="work/build/langrisser_v_en.bin")
     ap.add_argument("--out-ppf", default="patches/langrisser_v_en.ppf")
     args = ap.parse_args()

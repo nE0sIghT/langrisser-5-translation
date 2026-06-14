@@ -7,3 +7,4 @@ external/
 archive/
 !archive/legacy_20260219/README.md
 patches/
+dist/
