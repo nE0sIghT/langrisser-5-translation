@@ -30,7 +30,7 @@
 28	<$FB00><$0014>So you obtained the swords,<$FFFC>Gaiel？<$FFFE>
 29	<$FB00><$0015>Of course. Who do you think I<$FFFC>am？ Besides, you stopped attacking humans.<$FFFE>
 30	<$FB00><$0016>Hee hee！ Humans now kill one<$FFFC>another.<$FFFD><$FB00><$0017>Let them be and they'll weaken themselves.<$FFFE>
-31	<$FB00><$0018>Hmph. If waiting helps us, use<$FFFC>it.<$FFFD><$FB00><$0019>Your scheme worked, Glob.<$FFFE>
+31	<$FB00><$0018>Hmph. If merely waiting will<$FFFC>improve the situation, there is no reason<$FFFC>not to use it.<$FFFD><$FB00><$0019>It seems your scheme has borne fruit,<$FFFC>Glob.<$FFFE>
 32	<$FB00><$001A>Naturally. Who do you think I<$FFFC>am？ I hear Boser was crushed on Yeless？<$FFFE>
 33	<$FB00><$001B>Yes. He was defeated by this<$FFFC>sword again.<$FFFE>
 34	<$FB00><$001C>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE28><$FFF6><$FB00><$001D>What an<$FFFC>irritating sword！ Still, well done.<$FFFE>

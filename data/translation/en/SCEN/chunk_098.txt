@@ -45,7 +45,7 @@
 43	<$FB00><$0094>I've thought of that too. Stay<$FFFC>with me a bit longer？<$FFFE>
 44	<$FB00><$0095><$FFF7>Of course.<$FFF5><$FFF8><$FFFE>
 45	Near town<$FFFF>
-46	…Was I running from Father and Jessica？<$FFFC>I always let others decide. Brenda was<$FFFC>right. I must change. First I need my own<$FFFC>way to save this country.<$FFFD>Caconsis was lively. This land is not.<$FFFC>Why？<$FFFE>
+46	…Was I running away… from Father, and<$FFFC>from Jessica…？ I could never decide<$FFFC>things myself, and always used someone<$FFFC>else's judgment as my guide.<$FFFD>Even before Brenda said it, maybe I was<$FFFC>running away… I have to change. First, I<$FFFC>must find my own way to save this country<$FFFC>from this misery…<$FFFD>Caconsis was full of life. But this land<$FFFC>is not… Why？<$FFFE>
 47	<$FFFA><$FFF8>…<$FFFE>
 48	<$FFF9><$FFF6>I see. It is the people's spirit.<$FFFE>
 49	The late Caconsis king was proud but<$FFFC>timid, slow to decide. So the people<$FFFC>stopped relying on him and learned to<$FFFC>solve problems themselves…<$FFFE>
@@ -74,6 +74,6 @@
 72	<$FB00><$00AC>What now, Virash？ Boss and the<$FFFC>others aren't here.<$FFFE>
 73	<$FB00><$00AD>Hmm. We'll see how far the<$FFFC>Federation army gets<$FFF5><$FFF8>…<$FFFE>
 74	<$FB00><$00AE>But Caconsis helped us beat<$FFFC>Gizarof, right？<$FFFD><$FB00><$00B2>Even with Lanford, relying on the<$FFFC>Federation is risky.<$FFFE>
-75	<$FB00><$00AF>True. If needed, we'll act. I<$FFFC>may need your help.<$FFFE>
+75	<$FB00><$00AF>True. If things come to that, we<$FFFC>will have to do something ourselves. We<$FFFC>may need you to work for us.<$FFFE>
 76	<$FB00><$00B0>We know. Boss told us to help<$FFFC>you, Virash.<$FFFE>
 77	<$FB00><$00B1>Then let's plan our operation.<$FFFE><$FFFF>

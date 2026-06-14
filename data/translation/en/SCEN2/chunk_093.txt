@@ -72,7 +72,7 @@
 70	<$FB00><$0053>What do you think, Brenda？<$FFFE>
 71	<$FB00><$0054>Let's see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0055>The swords must be powerful, or you would<$FFFC>not have been ordered to recover them.<$FFFD><$FB00><$0056>Taking them is one option.<$FFFE>
 72	<$FB00><$0057>But Gizarof is dead. If we<$FFFC>recover the swords, who receives them？<$FFFE>
-73	<$FB00><$0058>Worrying here will not help.<$FFFC>Move first.<$FFFD><$FB00><$0059>Why not chase the swords？<$FFFE>
+73	<$FB00><$0058>Even if you sit here lost in<$FFFC>thought, nothing will change. You have to<$FFFC>move first.<$FFFD><$FB00><$0059>Why not chase the swords？<$FFFE>
 74	<$FB00><$005A>With Gizarof dead, what should<$FFFC>we do？<$FFFD><$FB00><$005B>We could abandon the mission now<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$005C>But then what？<$FFFE>
 75	<$FB00><$005D>If you are going to brood, why<$FFFC>not chase the swords？<$FFFE>
 76	<$FB00><$005E>Chase the swords<$FFF5><$FFF8>…<$FFFE>

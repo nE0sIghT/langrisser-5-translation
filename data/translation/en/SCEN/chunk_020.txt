@@ -49,7 +49,7 @@
 47	Good luck！<$FFFE>
 48	We will deliver these supplies！<$FFFE>
 49	Whew！ I thought I was dead…<$FFFE>
-50	A red lotus blooms. A woman appears on the<$FFFC>lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
+50	A single red lotus blooms. As you gaze at<$FFFC>it, a beautiful woman appears on the lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
 51	<$FB00><$002B>Take this！<$FFFE>
 52	<$FFF7><$FB00><$002A>Hah！<$FFF5><$FFF8><$FFFE>
 53	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
@@ -97,12 +97,12 @@
 95	<$FB00><$0040>Thanks to you, not one unit<$FFFC>was hurt. Thank you.<$FFFE>
 96	<$FB00><$0041>Everyone worked hard for it.<$FFFE>
 97	<$FB00><$0042>Yes. Thank you, everyone.<$FFFE>
-98	<$FB00><$0043>Save your thanks, or you will<$FFFC>run out later.<$FFFE>
-99	<$FB00><$0044>When Kalxath is at peace,<$FFFC>thank us all at once.<$FFFE>
-100	<$FB00><$0045>Still, I am happy you all<$FFFC>fight for this country. Thank you.<$FFFE>
+98	<$FB00><$0043>Of course. If you thank us for<$FFFC>every little thing, who knows how many<$FFFC>times you will thank us from here on？<$FFFE>
+99	<$FB00><$0044>When this war ends and peace<$FFFC>returns to Kalxath, thank us all at once.<$FFFE>
+100	<$FB00><$0045>Still, I am happy that you are<$FFFC>all lending strength to this country. So,<$FFFC>thank you.<$FFFE>
 101	<$FB00><$0046>Then hurry. McClaine and<$FFFC>Jessica may already be fighting.<$FFFE>
 102	<$FB00><$0047>Right. We should hurry too.<$FFFE>
-103	A huge shadow crossed the sky.<$FFFD>I am Snow Dragon. My children grew strong<$FFFC>thanks to you. I came to repay you.<$FFFE>
+103	A huge shadow suddenly crossed the sky.<$FFFD>I am Snow Dragon. Thanks to you, my<$FFFC>children have grown strong. I came today<$FFFC>to repay that debt.<$FFFE>
 104	<$F600><$0000> can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>
 105	Marie can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
 106	Alfred can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>

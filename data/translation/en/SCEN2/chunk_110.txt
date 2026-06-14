@@ -54,7 +54,7 @@
 52	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0002><$FB00><$0088>For now, I suppose I<$FFFC>should thank you.<$FFFE>
 53	<$FB00><$0089>I do not need it. It is true<$FFFC>that our actions destroyed your village.<$FFFD><$FB00><$008A>But you, how can you fail to protect your<$FFFC>own woman？<$FFFE>
 54	<$FB00><$008B>Wh, what<$FFF5><$FFF7>…<$FE1E>…<$FE1E>！？<$FFFE>
-55	<$FB00><$008C>I would keep her safe, even<$FFFC>at my life's cost.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>Losing to<$FFFC>him？<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+55	<$FB00><$008C>If it were me, I would never<$FFFC>let her face danger, even if I had to<$FFFC>throw my life away.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>To lose to a man<$FFFC>like this？<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 56	<$FB00><$008E>Enough. Farewell.<$FFFE>
 57	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$008F>What was that about<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 58	Recrio Village, Brenda's memory<$FFFF>
