@@ -45,6 +45,9 @@ PRINTABLE_TAG_LIMIT = 0xE000
 NAME_MACRO = 0xF600
 NAME_CELLS = 8
 BATTLE_CHUNKS = set(range(1, 43))
+# A yes/no confirmation box (display opcode 0x0c) covers the right side of the
+# window's 3rd and 4th lines; reserve this many cells there so text clears it.
+YESNO_TAIL_RESERVE = 8
 
 
 def can_compact_pages(chunk_idx: int, compact_battle_pages: bool = False) -> bool:
@@ -79,7 +82,8 @@ def wrap(codec: Codec, text: str, width: int) -> str:
     return LINE_BREAK.join(lines)
 
 
-def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
+def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0,
+                tail_reserve: int = 0) -> str:
     """Wrap a mixed text/control stream without treating control tags as a
     visual line reset. Zero-width control tags create safe break points
     before the next printable word; tags glued to the tail of a word (such
@@ -98,9 +102,14 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
     line_has_text = False
     saw_space = False
     saw_tag_boundary = False
+    line_no = 0
+    # The yes/no box only sits on the page that shows the prompt (the last
+    # page); earlier pages of a multi-page record use the full width.
+    page_no = 0
+    last_page = sum(1 for _a, _b, t in structural_page_markers(text) if t == PAGE_BREAK)
 
     def flush_atom() -> None:
-        nonlocal line_reserve, line_has_text, saw_space, saw_tag_boundary
+        nonlocal line_reserve, line_has_text, saw_space, saw_tag_boundary, line_no
         if not atom_parts and not pending_tags:
             return
         if atom_parts:
@@ -108,8 +117,12 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
             can_break = line_has_text and (saw_space or saw_tag_boundary)
             candidate = "".join(line_parts + ([sep] if sep else [])
                                 + pending_tags + atom_parts)
-            if can_break and line_reserve + visible_cells(codec, candidate) > width:
+            # A yes/no confirmation box sits over the right of the 3rd and 4th
+            # lines, so those lines (0-based index >= 2) lose tail_reserve cells.
+            extra = tail_reserve if (line_no >= 2 and page_no == last_page) else 0
+            if can_break and line_reserve + visible_cells(codec, candidate) + extra > width:
                 out.append(LINE_BREAK)
+                line_no += 1
                 line_parts.clear()
                 line_reserve = 0
                 sep = ""
@@ -160,8 +173,11 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0) -> str:
             out.extend(pending_tags)
             pending_tags.clear()
             out.append(tag_text)
+            if tag_text == PAGE_BREAK:
+                page_no += 1
             line_parts.clear()
             line_reserve = 0
+            line_no = 0
             line_has_text = False
             saw_space = False
             saw_tag_boundary = False
@@ -274,15 +290,17 @@ def compact_safe_pages(codec: Codec, text: str, width: int, reserve: int,
 
 def reflow_record(codec: Codec, text: str, width: int, reserve: int = 0,
                   force_plate: bool = False, max_lines: int = 4,
-                  compact_pages: bool = True) -> str:
+                  compact_pages: bool = True, tail_reserve: int = 0) -> str:
     # The plate reserve only applies to spoken records; narration windows
     # have no name plate. Some windows keep the previous speaker's plate
     # on records without their own FB00 marker (force_plate).
     if "<$FB" not in text and not force_plate:
         reserve = 0
-    if compact_pages:
+    # Yes/no records are single-page prompts; skip page compaction so the
+    # tail reserve cannot collide with a merged page.
+    if compact_pages and not tail_reserve:
         text = compact_safe_pages(codec, text, width, reserve, max_lines)
-    return wrap_stream(codec, text, width, reserve)
+    return wrap_stream(codec, text, width, reserve, tail_reserve)
 
 
 
@@ -378,6 +396,7 @@ def display_plate_slots(scen_path: Path,
     """
     out: dict[int, dict[int, int | None]] = {}
     persistent: set[int] = set()
+    yesno: dict[int, set[int]] = {}
     data = scen_path.read_bytes()
     for ci, (start, end) in enumerate(read_chunk_spans(data)):
         pool_size = pool_sizes.get(ci) or 0
@@ -408,6 +427,11 @@ def display_plate_slots(scen_path: Path,
                 rec = first_text + u16(vm, p + 10)
                 if rec <= block.record_count:
                     rec_slots.setdefault(rec, None if vm[p + 9] == 0xFF else vm[p + 9])
+                    # opcode 0x0c draws a yes/no confirmation box over the
+                    # bottom-right of the window (verified: every 0x0c record
+                    # ends in a question, e.g. "Pass the mic to Lambda？").
+                    if vm[p] == 0x0C:
+                        yesno.setdefault(ci, set()).add(rec)
                 p += 12
                 continue
             p += 1
@@ -415,7 +439,7 @@ def display_plate_slots(scen_path: Path,
             out[ci] = rec_slots
             if not has_fb:
                 persistent.add(ci)
-    return out, persistent
+    return out, persistent, yesno
 
 
 def slot_plate_reserves(codec: Codec, records: list[tuple[str, str]],
@@ -499,9 +523,9 @@ def main() -> None:
     pool_sizes = speaker_pool_sizes(scen_path) if scen_path.exists() else {}
     traced_slots = traced_plate_slots(scen_path) if scen_path.exists() else {}
     if scen_path.exists():
-        display_slots, persistent_chunks = display_plate_slots(scen_path, pool_sizes)
+        display_slots, persistent_chunks, yesno_slots = display_plate_slots(scen_path, pool_sizes)
     else:
-        display_slots, persistent_chunks = {}, set()
+        display_slots, persistent_chunks, yesno_slots = {}, set(), {}
     if not pool_sizes:
         print(f"WARNING: {args.scen} not found; falling back to the FFFF-prefix "
               "plate heuristic (location plates may inflate the reserve)")
@@ -522,6 +546,7 @@ def main() -> None:
         # a plate reserve on every line.
         disp = display_slots.get(chunk_idx, {})
         confident = sum(1 for s in disp.values() if s is not None) >= 3
+        yesno_records = yesno_slots.get(chunk_idx, set())
         record_slots = dict(traced_slots.get(chunk_idx, {}))
         if confident:
             for rec, slot in disp.items():
@@ -573,10 +598,12 @@ def main() -> None:
                 # records byte9 did not resolve to a plate carry no reserve.
                 if chunk_idx == 0 and not force_plate:
                     reserve = 0
+                tail_reserve = YESNO_TAIL_RESERVE if rec_idx in yesno_records else 0
                 new_text = reflow_record(
                     codec, text, width, reserve, force_plate,
                     max_lines=args.max_lines,
                     compact_pages=compact_pages,
+                    tail_reserve=tail_reserve,
                 )
                 # Page height check: lines between page/terminator controls.
                 for page in page_segments(new_text):
