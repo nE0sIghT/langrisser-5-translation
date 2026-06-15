@@ -14,7 +14,10 @@ your `.cue` is unchanged.
   (`yourgame.bin` + `yourgame.ppf`) and run the game as usual — DuckStation
   applies the patch on the fly and never touches your image.
 - **Permanent patch / other emulators:** apply the `.ppf` to the `.bin` with any
-  PPF tool (`applyppf`, ROMPatcher.js, Flips, ...); keep the `.cue` as-is.
+  PPF3.0 tool — [ROMPatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
+  (browser), `ApplyPPF3`, or PPF-O-Matic 3; keep the `.cue` as-is (PPF only
+  modifies the `.bin`). The patch embeds the PPF3.0 image-validation block, so
+  these tools confirm you are patching the exact original image.
 
 Then verify your result against the release `SHA256SUMS`.
 
