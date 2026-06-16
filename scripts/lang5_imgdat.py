@@ -637,6 +637,37 @@ def decode_image(asset: bytes, start: int, packet_count: int, width: int,
     return [bytearray(pixels[y * width : (y + 1) * width]) for y in range(height)]
 
 
+def encode_image(asset: bytes, start: int, packet_count: int, width: int,
+                 block_rows: int, rows: list[bytearray]) -> bytes:
+    """Inverse of decode_image: write edited index rows back into the packets.
+
+    Packet headers and each block's trailing padding are left untouched, so an
+    unedited round-trip is byte-identical.
+    """
+    pixels_per_block = block_rows * width
+    flat = bytearray()
+    for row in rows:
+        if len(row) != width:
+            raise ValueError(f"row width {len(row)} != image width {width}")
+        flat += row
+    out = bytearray(asset)
+    p = 0
+    fi = 0
+    while p < packet_count:
+        block = flat[fi : fi + pixels_per_block]
+        fi += len(block)
+        bp = 0
+        for k in range(PACKETS_PER_BLOCK):
+            if p + k >= packet_count or bp >= len(block):
+                break
+            off = start + (p + k) * PACKET_BYTES
+            n = min(PACKET_BYTES - PACKET_HEADER_BYTES, len(block) - bp)
+            out[off + PACKET_HEADER_BYTES : off + PACKET_HEADER_BYTES + n] = block[bp : bp + n]
+            bp += n
+        p += PACKETS_PER_BLOCK
+    return bytes(out)
+
+
 CLUT_BYTES = 256 * 2
 
 
