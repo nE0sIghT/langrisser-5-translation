@@ -262,9 +262,91 @@ QR generation package. A non-default `--qr-url` requires Python's optional
 preview's vertical x2 display scaling each module appears as a square `2x2`
 screen block.
 
+## Scanline-packet container (universal image layout)
+
+Every image asset is a stream of fixed `0x800`-byte (2048) **scanline packets**.
+A packet is `0x20` bytes of header followed by `0x7E0` (2016) bytes of pixel
+data, so an asset's size is always an exact multiple of 2048. The gap-bitmap
+"32-byte gap" documented above is exactly this `0x20` per-scanline header seen
+from the pixel stream's point of view (`2016 + 32 = 2048`).
+
+Packet header (16-bit little-endian words; offsets relative to the packet):
+
+| Word | Byte | Meaning |
+| ---: | ---: | --- |
+| `u16[0]` | `0x00` | magic `0x0160` |
+| `u16[3]` | `0x06` | bit depth (`8` = 8bpp indexed) |
+| `u16[10]` | `0x14` | image width in 16-bit VRAM words; **width_px = u16[10] * 2** |
+| `u16[11]` | `0x16` | block_rows (rows of `width_px` that fill one `0x4000` block) |
+| `u16[13]` | `0x1a` | packet stride, always `0x800` (2048) |
+
+An **image** is a run of consecutive packets that share the same width. A single
+asset holds several images back to back (e.g. a low-res preview followed by the
+full-size graphic). The runs are separated by short non-packet gaps that hold
+the 256-entry RGB555 CLUT for the preceding image(s). To decode an image:
+concatenate the `0x7E0` data bodies of its packets, then reshape the result to
+`width_px` (each packet body spans ~2.6 logical rows, so rows wrap across
+packets — this is why the gap-bitmap gap lands at a different `x` on each row).
+
+Observed image inventory (width x height), from
+`scripts/lang5_imgdat.py dump-all`:
+
+| Asset | Images |
+| ---: | --- |
+| 0 | a set of small assets (icon/sprite tiles, 112x144 / 168x96); palette unsure |
+| 7 | 3x 184x87 |
+| 8 | 3x 368x215 (character portraits - e.g. the blue-haired shop maid) |
+| 9 | 3x 224x72 |
+| 10, 11 | 320x200 start/load/config menu background + 640x225 title screen |
+| 12 | **768x252 prologue poem** + 960x256 + 640x225 (left = menu bg) + 224x72 |
+| 13 | 320x200 |
+| 14 | 1224x182 + 1024x255 ending staff-credits + 320x200 |
+| 15 | 416x494 CAST credits + 320x450 + 320x200 + 224x72 + 88x183 |
+
+The asset 10/11/13 `320x200` blocks (type 8, VRAM `(640, 256)`) are the menu
+background, not previews, but decode as noise as plain 8bpp - the same artwork
+appears coherent as the left half of asset 12's `640x225` image, so the
+`(640, 256)` copy uses a different packing. The prologue poem's canonical frame
+is palette index 1 (`0x9ca20`, dark-red text); the colourful-frame picker in
+`dump-all` may choose a lighter highlight frame instead.
+
+The opening prologue poem (the scrolling "wall of text" on the title attract
+loop) is **asset 12, image 0** (768x252, 8bpp). Translating it is a graphics
+edit: redraw the text into the indexed bitmap and re-pack it into the scanline
+packets, leaving every `0x20` packet header untouched.
+
+`block_rows` and the per-row gap positions are fully determined by the width
+through the scanline rule, so `scripts/lang5_imgdat.py` derives them with
+`scanline_gaps(width, block_rows)` instead of hand-listing them per profile.
+
+### Block types and palettes
+
+Every block (packet) header word `u16[3]` is a **type**, and `u16[8]`/`u16[9]`
+are the block's VRAM destination X/Y. Observed types:
+
+| `u16[3]` | stride `u16[13]` | meaning |
+| ---: | ---: | --- |
+| 8 | 2048 | 8bpp indexed image scanline (the images above) |
+| 4 | 1024 | 4bpp indexed block |
+| 1 / 2 / 3 | — | **CLUT block** (`u16[10]` = 256 colours, `u16[11]` = palette count) |
+
+A **CLUT block** is the palette store: its `0x20` header (width word 256) is
+followed by `u16[11]` consecutive 256-entry RGB555 palettes, normally uploaded
+to VRAM `(0, 500)`. When a CLUT block carries more than one palette they are
+**animation frames** that share one image - the title flame (asset 10/11: two
+palettes at `0x36020` / `0x36220`) and the prologue poem's line highlight
+(asset 12: four palettes at `0x9c820`+`k*0x200`). `clut_palettes()` collects
+them all and `dump-all` renders each image with its most colourful frame.
+`title10/11` keep their hand-set `palette_rel_offset` (`0x36220`) for the
+byte-exact credits build.
+
 ## Unknowns
 
-- Full header field semantics.
-- Which other assets use the same gap-bitmap layout.
-- Automatic profile detection for all image assets.
-- Importing edited indexed PNGs back into arbitrary `IMG.DAT` assets.
+- A few header words are still unlabelled (`u16[6]` ~0x1f00 range, likely a
+  VRAM/CLUT reference; the exact per-image height field).
+- Assets 1-6 use a different (non-`0x0160`) layout and are not decoded yet.
+- The small `type=8` blocks uploaded to VRAM `(640, 256)` (the asset 10/11/13
+  "previews") still decode as noise as plain 8bpp - probably a different pixel
+  packing or a scratch/effect buffer rather than a displayable image.
+- `type=4` (4bpp) blocks are detected but not yet decoded.
+- Importing edited indexed PNGs back into arbitrary `IMG.DAT` images.

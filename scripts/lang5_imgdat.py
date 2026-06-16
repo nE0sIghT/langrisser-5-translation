@@ -15,6 +15,7 @@ import argparse
 import json
 import struct
 import subprocess
+from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -136,6 +137,37 @@ TITLE_GAP_AFTER_X_BY_ROW_POS = {
     18: 576,
     22: 32,
 }
+
+# Gap-bitmap unification. An IMG.DAT image is stored as whole PlayStation VRAM
+# scanlines: each 2048-byte scanline holds 2016 bytes of image data followed by
+# a 32-byte strip (the scanline's unused 16-px right edge in VRAM). So a 32-byte
+# gap is inserted into the logical pixel stream every 2016 bytes. A 0x4000 block
+# is exactly eight scanlines (8 * 2048). For width 640 that is 25.2 rows, so the
+# title profile packs 25 rows (7 gaps) and 160 padding bytes per block; for
+# width 768 it is exactly 21 rows (8 gaps) with no padding.
+VRAM_SCANLINE_BYTES = 2048
+SCANLINE_GAP_BYTES = 32
+SCANLINE_DATA_BYTES = VRAM_SCANLINE_BYTES - SCANLINE_GAP_BYTES  # 2016
+
+
+def scanline_gaps(width: int, block_rows: int) -> dict[int, int]:
+    """Gap positions (row_pos -> gap_after_x) for a gap-bitmap of this width.
+
+    A 32-byte gap falls every SCANLINE_DATA_BYTES logical bytes. A boundary gap
+    that lands exactly on the block's last row is recorded as gap_after_x=width.
+    """
+    gaps: dict[int, int] = {}
+    for k in range(1, (block_rows * width) // SCANLINE_DATA_BYTES + 1):
+        row, x = divmod(k * SCANLINE_DATA_BYTES, width)
+        if row < block_rows:
+            gaps[row] = x
+        else:
+            gaps[block_rows - 1] = width  # boundary gap closes the last row
+    return gaps
+
+
+# The hand-verified title layout must equal the generic rule.
+assert scanline_gaps(640, 25) == TITLE_GAP_AFTER_X_BY_ROW_POS
 
 PROFILES = {
     "title10": GapBitmapProfile(
@@ -539,6 +571,139 @@ def read_palette(asset: bytes, profile: GapBitmapProfile) -> list[tuple[int, int
     return [rgb555_to_rgb888(word) for word in words]
 
 
+# --- Universal scanline-packet container (see docs/IMG_DAT_FORMAT.md) ---
+# Every image asset is a stream of 2048-byte packets: a 0x20 header (magic
+# 0x0160) followed by 2016 bytes of 8bpp pixel data. width_px = u16[10] * 2.
+# Consecutive same-width packets form one image; CLUTs live in the gaps.
+PACKET_BYTES = VRAM_SCANLINE_BYTES        # 2048
+PACKET_HEADER_BYTES = SCANLINE_GAP_BYTES  # 0x20
+PACKET_MAGIC = 0x0160
+
+
+def _u16(buf: bytes, off: int) -> int:
+    return buf[off] | (buf[off + 1] << 8)
+
+
+def is_packet_header(asset: bytes, off: int) -> bool:
+    return (
+        off + PACKET_BYTES <= len(asset)
+        and _u16(asset, off) == PACKET_MAGIC
+        and _u16(asset, off + 0x06) == 8
+        and _u16(asset, off + 0x1A) == PACKET_BYTES
+    )
+
+
+PACKETS_PER_BLOCK = 8  # 0x4000 block / 0x800 packet
+
+
+def image_groups(asset: bytes) -> list[tuple[int, int, int, int]]:
+    """(start_offset, packet_count, width_px, block_rows) for each image."""
+    groups: list[list[int]] = []
+    prev_end: int | None = None
+    for off in range(0, len(asset) - PACKET_HEADER_BYTES, PACKET_BYTES):
+        if not is_packet_header(asset, off):
+            prev_end = None
+            continue
+        width = _u16(asset, off + 0x14) * 2
+        block_rows = _u16(asset, off + 0x16)
+        if groups and prev_end == off and groups[-1][2] == width:
+            groups[-1][1] += 1
+        else:
+            groups.append([off, 1, width, block_rows])
+        prev_end = off + PACKET_BYTES
+    return [tuple(g) for g in groups]
+
+
+def decode_image(asset: bytes, start: int, packet_count: int, width: int,
+                 block_rows: int) -> list[bytearray]:
+    """Reshape an image to `width`, dropping each 0x4000 block's trailing pad.
+
+    A 0x4000 block is PACKETS_PER_BLOCK packets and stores exactly
+    block_rows * width pixel bytes; the remainder of the bodies is padding.
+    """
+    pixels_per_block = block_rows * width
+    pixels = bytearray()
+    p = 0
+    while p < packet_count:
+        body = bytearray()
+        for k in range(PACKETS_PER_BLOCK):
+            if p + k >= packet_count:
+                break
+            off = start + (p + k) * PACKET_BYTES
+            body += asset[off + PACKET_HEADER_BYTES : off + PACKET_BYTES]
+        pixels += body[:pixels_per_block]
+        p += PACKETS_PER_BLOCK
+    height = len(pixels) // width
+    return [bytearray(pixels[y * width : (y + 1) * width]) for y in range(height)]
+
+
+CLUT_BYTES = 256 * 2
+
+
+def read_clut_at(asset: bytes, offset: int) -> list[tuple[int, int, int]] | None:
+    if offset < 0 or offset + CLUT_BYTES > len(asset):
+        return None
+    words = struct.unpack_from("<256H", asset, offset)
+    return [rgb555_to_rgb888(w) for w in words]
+
+
+def clut_palettes(asset: bytes) -> list[list[tuple[int, int, int]]]:
+    """Every 256-colour palette stored in the asset's CLUT blocks.
+
+    A CLUT block is a 0x0160 header with width word 256 and a non-image type
+    (1/2/3); u16[11] holds how many 256-entry palettes follow the header. An
+    image with several palettes is animated (e.g. the title flame, the poem's
+    line highlight), so they are all returned and the caller picks one.
+    """
+    palettes: list[list[tuple[int, int, int]]] = []
+    off = 0
+    while off + PACKET_HEADER_BYTES <= len(asset):
+        if (_u16(asset, off) == PACKET_MAGIC and _u16(asset, off + 0x14) == 256
+                and _u16(asset, off + 0x06) in (1, 2, 3)):
+            count = _u16(asset, off + 0x16) or 1
+            base = off + PACKET_HEADER_BYTES
+            for k in range(count):
+                pal = read_clut_at(asset, base + k * CLUT_BYTES)
+                if pal is not None:
+                    palettes.append(pal)
+            off = base + count * CLUT_BYTES
+            continue
+        off += 0x10
+    return palettes
+
+
+def pick_palette(pixels: bytes, palettes: list[list[tuple[int, int, int]]]):
+    """Pick the most colourful palette variant for an image's pixel indices."""
+    if not palettes:
+        return None
+    counts = Counter(pixels)
+
+    def richness(pal: list[tuple[int, int, int]]) -> int:
+        total = 0
+        for idx, n in counts.items():
+            r, g, b = pal[idx]
+            total += (max(r, g, b) - min(r, g, b) + max(r, g, b)) * n
+        return total
+
+    return max(palettes, key=richness)
+
+
+def find_clut(asset: bytes, lo: int, hi: int) -> list[tuple[int, int, int]] | None:
+    """Locate a 256-entry RGB555 CLUT in [lo, hi) by colour smoothness."""
+    best: tuple[int, int] | None = None
+    for off in range(lo, max(lo, hi - CLUT_BYTES) + 1, 16):
+        words = struct.unpack_from("<256H", asset, off)
+        if len(set(words)) < 64:
+            continue
+        smooth = sum(abs((words[i] & 31) - (words[i + 1] & 31)) for i in range(255))
+        if best is None or smooth < best[0]:
+            best = (smooth, off)
+    if best is None:
+        return None
+    words = struct.unpack_from("<256H", asset, best[1])
+    return [rgb555_to_rgb888(w) for w in words]
+
+
 def render_rows(rows: list[bytearray], profile: GapBitmapProfile, scale: int,
                 palette: list[tuple[int, int, int]] | None = None) -> Image.Image:
     img = Image.new("RGB", (profile.width, len(rows)), (0, 0, 0))
@@ -686,6 +851,33 @@ def cmd_decode_gap_bitmap(args: argparse.Namespace) -> None:
     print(f"decoded {profile.name} -> {out}")
 
 
+def cmd_dump_all(args: argparse.Namespace) -> None:
+    data = read_img(args.imgdat)
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    count = 0
+    for ent in parse_toc(data):
+        asset = bytes(data[ent.offset : ent.end])
+        palettes = clut_palettes(asset)
+        for gi, (start, packets, width, block_rows) in enumerate(image_groups(asset)):
+            if width <= 0 or block_rows <= 0:
+                continue
+            rows = decode_image(asset, start, packets, width, block_rows)
+            height = len(rows)
+            palette = pick_palette(b"".join(bytes(r) for r in rows), palettes)
+            img = Image.new("RGB", (width, height), (0, 0, 0))
+            px = img.load()
+            for y, row in enumerate(rows):
+                for x, value in enumerate(row):
+                    px[x, y] = palette[value] if palette else (value, value, value)
+            if args.scale != 1:
+                img = img.resize((width * args.scale, height * args.scale), Image.Resampling.NEAREST)
+            name = out_dir / f"asset{ent.index:02d}_img{gi}_{width}x{height}.png"
+            img.save(name)
+            count += 1
+    print(f"dumped {count} images to {out_dir}")
+
+
 def cmd_title_credits_preview(args: argparse.Namespace) -> None:
     data = read_img(args.imgdat)
     commit_hash = args.commit_hash or git_short_hash()
@@ -772,6 +964,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("asset_file")
     p.add_argument("out")
     p.set_defaults(func=cmd_replace)
+
+    p = sub.add_parser("dump-all", help="decode every image in every asset to PNG (palette auto-detected)")
+    p.add_argument("imgdat")
+    p.add_argument("--out-dir", default="work/img_dump")
+    p.add_argument("--scale", type=int, default=1)
+    p.set_defaults(func=cmd_dump_all)
 
     p = sub.add_parser("decode-gap-bitmap", help="decode a known gap-bitmap profile to PNG")
     p.add_argument("imgdat")
