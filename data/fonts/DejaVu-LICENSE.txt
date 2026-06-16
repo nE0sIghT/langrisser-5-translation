@@ -1,0 +1,4 @@
+DejaVu Fonts (DejaVuSerif-Bold.ttf) — used to render the English prologue poem
+graphic (IMG.DAT asset 12). DejaVu fonts are based on Bitstream Vera and are
+free to use/redistribute under the Bitstream Vera + Arev permissive license.
+See https://dejavu-fonts.github.io/License.html

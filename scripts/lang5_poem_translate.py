@@ -15,7 +15,7 @@ import importlib.util
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 SCRIPTS = Path(__file__).resolve().parent
 _spec = importlib.util.spec_from_file_location("lang5_imgdat", SCRIPTS / "lang5_imgdat.py")
@@ -25,14 +25,18 @@ _spec.loader.exec_module(imd)
 
 ASSET_INDEX = 12
 IMAGE_INDEX = 0
-FILL_INDEX = 89          # glyph body (red in the canonical poem palette)
-EDGE_INDEX = 209         # antialias edge (darker red)
 BG_INDEX = 0
-FONT = "data/fonts/LiberationSansNarrow-Bold.ttf"
-FONT_SIZE = 13
+# The original poem glyphs are a few shades of red over a black outline. Map the
+# antialiased coverage to the poem palette's red ramp (bright core -> dark edge)
+# and draw a black outline so the glyphs read over the starfield/monument behind
+# them. These indices animate red<->cream with the title's palette cycling.
+RED_RAMP = ((185, 89), (120, 176), (55, 209))  # alpha threshold -> index
+OUTLINE_INDEX = 212      # black outline / shadow
+FONT = "data/fonts/DejaVuSerif-Bold.ttf"
+FONT_SIZE = 12
 LINE_HEIGHT = 19
-TOP_MARGIN = 20
-SUPERSAMPLE = 3
+TOP_MARGIN = 18
+SUPERSAMPLE = 4
 
 
 def load_columns(path: Path) -> list[list[str]]:
@@ -47,6 +51,13 @@ def load_columns(path: Path) -> list[list[str]]:
     return [c for c in columns if any(s.strip() for s in c)]
 
 
+def ramp_index(value: int) -> int | None:
+    for threshold, index in RED_RAMP:
+        if value >= threshold:
+            return index
+    return None
+
+
 def stamp_line(rows: list[bytearray], width: int, height: int, text: str,
                center_x: int, top_y: int, font_path: str) -> None:
     if not text.strip():
@@ -55,8 +66,11 @@ def stamp_line(rows: list[bytearray], width: int, height: int, text: str,
     draw = ImageDraw.Draw(big)
     font = ImageFont.truetype(font_path, FONT_SIZE * SUPERSAMPLE)
     text_w = draw.textlength(text, font=font)
-    draw.text(((width * SUPERSAMPLE - text_w) / 2, 0), text, fill=255, font=font)
-    small = big.resize((width, LINE_HEIGHT), Image.LANCZOS).load()
+    draw.text(((width * SUPERSAMPLE - text_w) / 2, SUPERSAMPLE), text, fill=255, font=font)
+    small = big.resize((width, LINE_HEIGHT), Image.LANCZOS)
+    glyph = small.load()
+    outline = small.filter(ImageFilter.MaxFilter(3)).load()  # dilated for the outline
+    edge_alpha = RED_RAMP[-1][0]
     for yy in range(LINE_HEIGHT):
         gy = top_y + yy
         if not 0 <= gy < height:
@@ -65,11 +79,11 @@ def stamp_line(rows: list[bytearray], width: int, height: int, text: str,
             gx = center_x - width // 2 + xx
             if not 0 <= gx < len(rows[gy]):
                 continue
-            value = small[xx, yy]
-            if value > 140:
-                rows[gy][gx] = FILL_INDEX
-            elif value > 55:
-                rows[gy][gx] = EDGE_INDEX
+            index = ramp_index(glyph[xx, yy])
+            if index is not None:
+                rows[gy][gx] = index
+            elif outline[xx, yy] >= edge_alpha:
+                rows[gy][gx] = OUTLINE_INDEX
 
 
 def main() -> None:
