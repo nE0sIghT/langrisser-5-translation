@@ -51,6 +51,28 @@ def load_columns(path: Path) -> list[list[str]]:
     return [c for c in columns if any(s.strip() for s in c)]
 
 
+def clear_overflow_blocks(asset: bytes, after_offset: int, width_word: int) -> bytes:
+    """Blank the poem's bottom rows that spill into trailing non-image blocks.
+
+    The poem's last few scanlines are stored just after the main image as
+    `type=2` blocks (same width, VRAM row 508). They are not part of the image
+    the encoder rewrites, so the original Japanese remnants would still show at
+    the column seams while scrolling. Zero their pixel data, keeping each block's
+    0x20 header. Stop at the next image (`type=8`) or a CLUT (different width).
+    """
+    out = bytearray(asset)
+    off = after_offset
+    while off + imd.PACKET_HEADER_BYTES <= len(out):
+        if imd._u16(out, off) != imd.PACKET_MAGIC:
+            break
+        if imd._u16(out, off + 0x06) == 8 or imd._u16(out, off + 0x14) != width_word:
+            break
+        for i in range(off + imd.PACKET_HEADER_BYTES, min(off + imd.PACKET_BYTES, len(out))):
+            out[i] = BG_INDEX
+        off += imd.PACKET_BYTES
+    return bytes(out)
+
+
 def ramp_index(value: int) -> int | None:
     for threshold, index in RED_RAMP:
         if value >= threshold:
@@ -105,13 +127,20 @@ def main() -> None:
     if not columns:
         raise SystemExit("poem file has no columns")
     step = width // len(columns)
+    # The engine scrolls the columns one after another, so each column must fill
+    # the full image height; otherwise the background shows through the gap at a
+    # column boundary. Spread each column's lines from the top edge to the bottom.
+    span = height - LINE_HEIGHT
     for ci, lines in enumerate(columns):
         center_x = step * ci + step // 2
         for li, line in enumerate(lines):
-            stamp_line(rows, width, height, line, center_x,
-                       TOP_MARGIN + li * LINE_HEIGHT, args.font)
+            top_y = li * span // max(1, len(lines) - 1)
+            stamp_line(rows, width, height, line, center_x, top_y, args.font)
 
     patched_asset = imd.encode_image(asset, start, packets, width, block_rows, rows)
+    group_end = start + packets * imd.PACKET_BYTES
+    width_word = imd._u16(asset, start + 0x14)
+    patched_asset = clear_overflow_blocks(patched_asset, group_end, width_word)
     imd.replace_asset(data, ASSET_INDEX, patched_asset)
     out = Path(args.out_imgdat)
     out.parent.mkdir(parents=True, exist_ok=True)
