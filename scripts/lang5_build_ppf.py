@@ -71,6 +71,13 @@ def main() -> None:
         "--out-display", "work/build/title_credits_display.png",
         "--out-crop", "work/build/title_credits_crop.png")
 
+    # Redraw the prologue poem graphic in English on top of the title credits
+    # (different asset, so the two IMG.DAT edits do not overlap).
+    run(scripts / "lang5_poem_translate.py",
+        "--imgdat", "work/build/IMG.DAT.en",
+        "--out-imgdat", "work/build/IMG.DAT.en",
+        "--out-preview", "work/build/poem_en_preview.png")
+
     work_bin = Path(args.work_bin)
     work_bin.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(args.orig_bin, work_bin)
