@@ -243,7 +243,8 @@ python3 scripts/lang5_build_ppf.py
 
 This renders the font, patches `SYSTEM.BIN` (menus + names), patches
 `SLPS_018.19` (name-entry grid), patches `IMG.DAT` title-screen credits and
-the project QR code, syncs `SCEN -> SCEN2`, re-inserts all translated chunks
+the project QR code, redraws the prologue poem graphic (see *Translating
+graphics* below), syncs `SCEN -> SCEN2`, re-inserts all translated chunks
 with fixed-size container repacking, injects everything into a copy of the
 BIN (sizes unchanged — never use `--allow-grow`: the free space overlaps the
 CD audio tracks) and writes
@@ -259,6 +260,41 @@ python3 scripts/lang5_build_ppf.py --patch-version 1
 ```
 
 The build also writes title previews to `work/build/title_credits_*.png`.
+
+## Translating graphics (the prologue poem)
+
+The opening poem on the title attract loop is a picture, not script text: it
+lives in `IMG.DAT` as asset 12, image 0 (a 768x252 8bpp indexed bitmap). It is
+translated by redrawing the bitmap from a plain text file, so no image editor is
+needed - you only type the English.
+
+1. **Write the text.** Edit `data/translation/poem_prologue.txt`:
+
+   - Lines starting with `#` are comments.
+   - The poem is split into **three blocks separated by a line containing only
+     `---`**. In game the poem scrolls as a vertical crawl that reads the three
+     blocks one after another, so block 1 is the first screenful, block 2 the
+     next, block 3 the last. Keep three blocks.
+   - Each line is centred automatically, and the lines in a block are spread to
+     fill the full height so the blocks join seamlessly while scrolling. Aim for
+     a similar number of lines per block (the original uses ~11-12).
+
+2. **Build the graphic.** Either run the step on its own:
+
+   ```bash
+   python3 scripts/lang5_poem_translate.py
+   ```
+
+   or just run the full patch build (`lang5_build_ppf.py` runs it automatically,
+   on top of the title-screen edit). It decodes the indexed bitmap, redraws the
+   English with the bundled `data/fonts/DejaVuSerif-Bold.ttf` (black outline plus
+   the poem palette's red shades), re-encodes the picture into its `IMG.DAT`
+   scanline packets **without changing the asset size**, and writes the patched
+   `work/build/IMG.DAT.poem` plus a preview `work/build/poem_en_preview.png`.
+
+To retarget the font, colours or layout, change the constants at the top of
+`scripts/lang5_poem_translate.py`. The container/packet format the writer uses
+is documented in `docs/IMG_DAT_FORMAT.md`.
 
 ## Another language
 
