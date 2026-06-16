@@ -1,0 +1,1106 @@
+[
+ {
+  "offset": "0x15BE6",
+  "words": 22,
+  "jp": "現在行動对象になっている部隊の行動k終了し,",
+  "en": "Ends the action of the current unit and"
+ },
+ {
+  "offset": "0x15BF6",
+  "words": 14,
+  "jp": "っている部隊の行動k終了し,",
+  "en": ""
+ },
+ {
+  "offset": "0x15C14",
+  "words": 12,
+  "jp": "カウンタk進行させます.",
+  "en": "advances the counter."
+ },
+ {
+  "offset": "0x15C36",
+  "words": 22,
+  "jp": "各部隊の状態やマップ上のポイントなどが,ある",
+  "en": "Shows each unit's status and map"
+ },
+ {
+  "offset": "0x15C64",
+  "words": 8,
+  "jp": "程度わかります.",
+  "en": "at a glance."
+ },
+ {
+  "offset": "0x15C76",
+  "words": 18,
+  "jp": "六まかな戦況k把握するのに便利です.",
+  "en": "Handy to read the whole battle."
+ },
+ {
+  "offset": "0x15CA0",
+  "words": 21,
+  "jp": "このステージの勝利・敗北条件k表示します.",
+  "en": "Shows this stage's win and loss terms."
+ },
+ {
+  "offset": "0x15CCC",
+  "words": 21,
+  "jp": "勝利条件k1つでも满たせばステージクリア.",
+  "en": "Meet any win condition to clear it."
+ },
+ {
+  "offset": "0x15CF8",
+  "words": 22,
+  "jp": "逆に敗北条件k1つでも满たせばゲームオーバー",
+  "en": "Meet any loss condition and it is game"
+ },
+ {
+  "offset": "0x15D26",
+  "words": 6,
+  "jp": "になります.",
+  "en": "over."
+ },
+ {
+  "offset": "0x15D34",
+  "words": 22,
+  "jp": "メッセージの表示スピードや戦{?0110}シーンのON・",
+  "en": "A command to set message speed, battle"
+ },
+ {
+  "offset": "0x15D62",
+  "words": 20,
+  "jp": "OFFなどk設定するためのコマンドです.",
+  "en": "scene on/off and other options."
+ },
+ {
+  "offset": "0x15D94",
+  "words": 22,
+  "jp": "SAVEした場所から再開するためのコマンド.",
+  "en": "A command to resume from where you"
+ },
+ {
+  "offset": "0x15DC2",
+  "words": 22,
+  "jp": "SAVEデータには,『シナリオクリア時』『作",
+  "en": "saved. Saves come in 3 kinds: scenario"
+ },
+ {
+  "offset": "0x15DF0",
+  "words": 22,
+  "jp": "戦準備時』『面攻略途中』の\\n種類があります.",
+  "en": "clear, battle prep and mid-stage."
+ },
+ {
+  "offset": "0x15E22",
+  "words": 20,
+  "jp": "現在の状態k保仔するためのコマンドです.",
+  "en": "A command to save your current state."
+ },
+ {
+  "offset": "0x15E4C",
+  "words": 22,
+  "jp": "LOADの『？面の途中から』k選ぶことで,再",
+  "en": "Pick 'mid-stage' in LOAD to resume"
+ },
+ {
+  "offset": "0x15E7A",
+  "words": 6,
+  "jp": "開できます.",
+  "en": "from it."
+ },
+ {
+  "offset": "0x15E8C",
+  "words": 22,
+  "jp": "各部隊の命令順位,およびカーソル部の部隊位置",
+  "en": "Check each unit's order and the unit"
+ },
+ {
+  "offset": "0x15EBA",
+  "words": 22,
+  "jp": "とデータk確認できます.また魔法詠唱中の部隊",
+  "en": "at the cursor. Units casting magic"
+ },
+ {
+  "offset": "0x15EE8",
+  "words": 22,
+  "jp": "は,番号の下にマーカーが表示されます.L1ボ",
+  "en": "show a marker under their number. L1"
+ },
+ {
+  "offset": "0x15F16",
+  "words": 22,
+  "jp": "タンとR1ボタンでマップ拡六縮小が行えます.",
+  "en": "and R1 zoom the map in and out."
+ },
+ {
+  "offset": "0x15F44",
+  "words": 21,
+  "jp": "方向キーの左右で,メッセージの表示速度k变",
+  "en": "Press left or right to change the"
+ },
+ {
+  "offset": "0x15F70",
+  "words": 6,
+  "jp": "更できます.",
+  "en": "the speed."
+ },
+ {
+  "offset": "0x15F7E",
+  "words": 22,
+  "jp": "メッセージ表示中は,×ボタンk押すことで,表",
+  "en": "While a message shows, press the X"
+ },
+ {
+  "offset": "0x15FAC",
+  "words": 14,
+  "jp": "示k高速にする事も可能です.",
+  "en": "button to speed it up."
+ },
+ {
+  "offset": "0x15FCA",
+  "words": 21,
+  "jp": "方向キーの左右で,ゲームのスピードk变更で",
+  "en": "Press left or right to change the game"
+ },
+ {
+  "offset": "0x15FF6",
+  "words": 4,
+  "jp": "きます.",
+  "en": "speed."
+ },
+ {
+  "offset": "0x16000",
+  "words": 20,
+  "jp": "これによって思考時間などが早くなります.",
+  "en": "This makes thinking time faster."
+ },
+ {
+  "offset": "0x1602E",
+  "words": 21,
+  "jp": "方向キーの左右で,戦{?0110}シーンk見るか見ない",
+  "en": "Press left or right to set whether"
+ },
+ {
+  "offset": "0x1605A",
+  "words": 22,
+  "jp": "かk設定できます.ONは全戦{?0110}k見る.リアル",
+  "en": "battle scenes play. ON shows all. Real"
+ },
+ {
+  "offset": "0x16088",
+  "words": 22,
+  "jp": "はPC（命令可能なユニット）が戦{?0110}した時のみ",
+  "en": "shows only your PC units' battles."
+ },
+ {
+  "offset": "0x160B6",
+  "words": 21,
+  "jp": "見る.OFFは全戦{?0110}k見ないようにします.",
+  "en": "OFF hides all battle scenes."
+ },
+ {
+  "offset": "0x160E2",
+  "words": 21,
+  "jp": "方向キーの左右で,メッセージ中の音声k再生",
+  "en": "Press left or right to set whether"
+ },
+ {
+  "offset": "0x1610E",
+  "words": 22,
+  "jp": "するかしないかk設定できます.音声がONの場",
+  "en": "message voices play. When voice is ON,"
+ },
+ {
+  "offset": "0x1613C",
+  "words": 22,
+  "jp": "合でも,再生中に×ボタンk押すことで,その音",
+  "en": "press X during a line to stop just"
+ },
+ {
+  "offset": "0x1616A",
+  "words": 14,
+  "jp": "声のみ,再生k中止できます.",
+  "en": "that voice."
+ },
+ {
+  "offset": "0x16188",
+  "words": 21,
+  "jp": "方向キーの左右で,ステレオがモノラルかk設",
+  "en": "Press left or right to set stereo or"
+ },
+ {
+  "offset": "0x161B4",
+  "words": 6,
+  "jp": "定できます.",
+  "en": "mono."
+ },
+ {
+  "offset": "0x161CA",
+  "words": 21,
+  "jp": "方向キーの左右で,情報バー（画面下に表示さ",
+  "en": "Press left or right to change the info"
+ },
+ {
+  "offset": "0x161F6",
+  "words": 19,
+  "jp": "れるウィンドウ）の背景k变更できます.",
+  "en": "bar background, the lower window."
+ },
+ {
+  "offset": "0x16226",
+  "words": 22,
+  "jp": "指揮官k移動させるコマンドです.この後,移動",
+  "en": "A command to move a commander. A move"
+ },
+ {
+  "offset": "0x16254",
+  "words": 22,
+  "jp": "範{?00F6}が表示されるので,その範{?00F6}内から移動先k",
+  "en": "range appears, pick a spot inside it."
+ },
+ {
+  "offset": "0x16282",
+  "words": 22,
+  "jp": "決めて下さい.移動範{?00F6}が2色で表示された場合",
+  "en": "If the range shows in two colors, the"
+ },
+ {
+  "offset": "0x162B0",
+  "words": 19,
+  "jp": "中心側が,移動後攻{?00FE}ができる部分です.",
+  "en": "inner side can attack after moving."
+ },
+ {
+  "offset": "0x162D8",
+  "words": 22,
+  "jp": "魔法k使用するためのコマンド.各魔法ごとに消",
+  "en": "A command to cast magic. Each spell has"
+ },
+ {
+  "offset": "0x16306",
+  "words": 22,
+  "jp": "費するMPと,詠唱時間が決まっています.詠唱",
+  "en": "an MP cost and a cast time. A long"
+ },
+ {
+  "offset": "0x16334",
+  "words": 22,
+  "jp": "の長い魔法は,佣兵の命令k数回に分け実行しま",
+  "en": "cast splits the merc orders over turns."
+ },
+ {
+  "offset": "0x16362",
+  "words": 22,
+  "jp": "す.また詠唱終了後,魔法の对象者k選びます.",
+  "en": "After casting, pick the spell's target."
+ },
+ {
+  "offset": "0x16390",
+  "words": 22,
+  "jp": "攻{?00FE}k行うコマンドで,この後,攻{?00FE}可能範{?00F6}が",
+  "en": "An attack command. An attack range then"
+ },
+ {
+  "offset": "0x163BE",
+  "words": 22,
+  "jp": "表示されます.攻{?00FE}で消費される行動量は,行動",
+  "en": "appears. The action cost is shown on"
+ },
+ {
+  "offset": "0x163EC",
+  "words": 22,
+  "jp": "メーターに色違いで表示されています.攻{?00FE}後,",
+  "en": "the action meter in a different color."
+ },
+ {
+  "offset": "0x1641A",
+  "words": 22,
+  "jp": "行動量が残っていれば,続けて移動が行えます.",
+  "en": "If action is left, you can move again."
+ },
+ {
+  "offset": "0x16448",
+  "words": 22,
+  "jp": "指揮官のHPk\\n,MPk2ポイント回復するコ",
+  "en": "Restores 1 HP and 2 MP to the"
+ },
+ {
+  "offset": "0x16476",
+  "words": 6,
+  "jp": "マンドです.",
+  "en": "commander."
+ },
+ {
+  "offset": "0x16484",
+  "words": 22,
+  "jp": "実行後,次の命令まで50C（1ターン）かかり",
+  "en": "After use it costs 50C, one turn, until"
+ },
+ {
+  "offset": "0x164BA",
+  "words": 22,
+  "jp": "異界から魔獸k召噢するコマンド.樣々な能力k",
+  "en": "A command to summon a beast from another"
+ },
+ {
+  "offset": "0x164E8",
+  "words": 22,
+  "jp": "持った魔獸k呼び寄せることができますが,召噢",
+  "en": "world. You can call beasts with various"
+ },
+ {
+  "offset": "0x16516",
+  "words": 22,
+  "jp": "できる魔獸は,1人1体までです.また魔獸は佣",
+  "en": "powers, but only one per person. The"
+ },
+ {
+  "offset": "0x16544",
+  "words": 10,
+  "jp": "兵として报われます.",
+  "en": "It joins as a merc."
+ },
+ {
+  "offset": "0x1655A",
+  "words": 22,
+  "jp": "『自動』コマンドk使用した際の,佣兵や魔獸の",
+  "en": "Sets the action pattern of mercs and"
+ },
+ {
+  "offset": "0x16588",
+  "words": 18,
+  "jp": "行動パターンk設定するコマンドです.",
+  "en": "beasts under the 'Auto' command."
+ },
+ {
+  "offset": "0x165B6",
+  "words": 19,
+  "jp": "魔法実行k15C待機するコマンドです.",
+  "en": "Waits 15C before a cast."
+ },
+ {
+  "offset": "0x165DE",
+  "words": 22,
+  "jp": "佣兵は行動する事が可能ですが,15C分以上の",
+  "en": "Mercs can still act, but if they spend"
+ },
+ {
+  "offset": "0x1660C",
+  "words": 22,
+  "jp": "行動量k消費した場合,指揮官の魔法発動が{?03B5}れ",
+  "en": "over 15C of action, the commander's"
+ },
+ {
+  "offset": "0x1663A",
+  "words": 8,
+  "jp": "る事になります.",
+  "en": "spell delays."
+ },
+ {
+  "offset": "0x1664C",
+  "words": 22,
+  "jp": "詠唱k行っていた魔法k中止するコマンドです.",
+  "en": "A command to cancel the spell you were"
+ },
+ {
+  "offset": "0x1667A",
+  "words": 20,
+  "jp": "すぐに他の行動k取り直すことが出来ます.",
+  "en": "casting. You can act again at once."
+ },
+ {
+  "offset": "0x166AC",
+  "words": 22,
+  "jp": "ユニットk移動させるコマンドです.この後,移",
+  "en": "A command to move a unit. A move range"
+ },
+ {
+  "offset": "0x166DA",
+  "words": 22,
+  "jp": "動範{?00F6}が表示されるので,その範{?00F6}内から移動先",
+  "en": "appears, pick a spot inside it. If the"
+ },
+ {
+  "offset": "0x16708",
+  "words": 22,
+  "jp": "k決めて下さい.移動範{?00F6}が2色で表示された場",
+  "en": "range shows in two colors, the inner"
+ },
+ {
+  "offset": "0x16736",
+  "words": 21,
+  "jp": "合,中心側が,移動後攻{?00FE}ができる部分です.",
+  "en": "side lets you attack after moving."
+ },
+ {
+  "offset": "0x16762",
+  "words": 22,
+  "jp": "攻{?00FE}k行うコマンドで,この後,攻{?00FE}可能範{?00F6}が",
+  "en": "An attack command. An attack range then"
+ },
+ {
+  "offset": "0x16790",
+  "words": 22,
+  "jp": "表示されます.攻{?00FE}で消費される行動量は,行動",
+  "en": "appears. The action cost is shown on"
+ },
+ {
+  "offset": "0x167BE",
+  "words": 22,
+  "jp": "メーターに色違いで表示されています.攻{?00FE}後,",
+  "en": "the action meter in a different color."
+ },
+ {
+  "offset": "0x167EC",
+  "words": 22,
+  "jp": "行動量が残っていれば,続けて移動が行えます.",
+  "en": "If action is left, you can move again."
+ },
+ {
+  "offset": "0x1681A",
+  "words": 22,
+  "jp": "魔法k使用するためのコマンド.各魔法ごとに消",
+  "en": "A command to cast magic. Each spell has"
+ },
+ {
+  "offset": "0x16848",
+  "words": 22,
+  "jp": "費するMPと,詠唱時間が決まっています.詠唱",
+  "en": "an MP cost and a cast time. A long cast"
+ },
+ {
+  "offset": "0x16876",
+  "words": 22,
+  "jp": "の長い魔法は,次回以降の命令時に実行可能とな",
+  "en": "becomes ready on a later order."
+ },
+ {
+  "offset": "0x168A4",
+  "words": 20,
+  "jp": "ります.実行時に,魔法の对象k選びます.",
+  "en": "On use, pick the spell's target."
+ },
+ {
+  "offset": "0x168CE",
+  "words": 22,
+  "jp": "未行動の佣兵や魔獸k,自動で行動させるコマン",
+  "en": "A command to auto-act idle mercs and"
+ },
+ {
+  "offset": "0x168FC",
+  "words": 4,
+  "jp": "ドです.",
+  "en": "beasts."
+ },
+ {
+  "offset": "0x16906",
+  "words": 20,
+  "jp": "行動パターンは,『指令』内容に従います.",
+  "en": "They follow the 'Order' pattern."
+ },
+ {
+  "offset": "0x16934",
+  "words": 13,
+  "jp": "このまま命令k終了します.",
+  "en": "Ends the orders here."
+ },
+ {
+  "offset": "0x16950",
+  "words": 22,
+  "jp": "この部隊への命令は終了となり,次の部隊へ命令",
+  "en": "Orders for this unit end and move on to"
+ },
+ {
+  "offset": "0x1697E",
+  "words": 6,
+  "jp": "が移ります.",
+  "en": "next unit."
+ },
+ {
+  "offset": "0x16990",
+  "words": 22,
+  "jp": "自分にかなり有利な戦{?0110}以外,攻{?00FE}kしかけませ",
+  "en": "Attacks only in clearly favorable"
+ },
+ {
+  "offset": "0x169BE",
+  "words": 22,
+  "jp": "ん.{?025A}本的に,ダメージk4以上受ける戦{?0110}は,",
+  "en": "fights. Avoids any fight taking 4 or"
+ },
+ {
+  "offset": "0x169EC",
+  "words": 6,
+  "jp": "行いません.",
+  "en": "more damage."
+ },
+ {
+  "offset": "0x169FE",
+  "words": 22,
+  "jp": "少々のダメージk食らっても,自分に有利と判断",
+  "en": "Even taking some damage, it attacks if"
+ },
+ {
+  "offset": "0x16A2C",
+  "words": 17,
+  "jp": "したら,どんどん戦{?0110}kしかけます.",
+  "en": "it judges the fight favorable."
+ },
+ {
+  "offset": "0x16A50",
+  "words": 21,
+  "jp": "{?0174}k少しでも早く倒したい時に向いています.",
+  "en": "Good for downing a foe a bit faster."
+ },
+ {
+  "offset": "0x16A80",
+  "words": 22,
+  "jp": "常に指揮官k{?00F6}むように移動し,自分からは一切",
+  "en": "Always moves to surround the commander"
+ },
+ {
+  "offset": "0x16AAE",
+  "words": 10,
+  "jp": "攻{?00FE}kしかけません.",
+  "en": "never attacking."
+ },
+ {
+  "offset": "0x16AC4",
+  "words": 22,
+  "jp": "勝手に戦{?0110}して欲しくない場合に向いています.",
+  "en": "Good when you do not want random fights."
+ },
+ {
+  "offset": "0x16AF6",
+  "words": 22,
+  "jp": "{?0174}が指揮官・佣兵に関わらず,最も有利な{?0174}に向",
+  "en": "Attacks the best target, commander or"
+ },
+ {
+  "offset": "0x16B24",
+  "words": 12,
+  "jp": "かって攻{?00FE}k仕掛けます.",
+  "en": "merc alike."
+ },
+ {
+  "offset": "0x16B46",
+  "words": 22,
+  "jp": "できるだけ指揮官優先に攻{?00FE}k仕掛けるようにし",
+  "en": "Tries to attack commanders first."
+ },
+ {
+  "offset": "0x16B84",
+  "words": 22,
+  "jp": "できるだけ佣兵優先に攻{?00FE}k仕掛けるようにしま",
+  "en": "Tries to attack mercs first."
+ },
+ {
+  "offset": "0x16BC0",
+  "words": 22,
+  "jp": "指揮官の消費行動量k調整します.最六消費kし",
+  "en": "Adjusts the commander's action cost. If"
+ },
+ {
+  "offset": "0x16BEE",
+  "words": 22,
+  "jp": "ていなければ,ある程度の余分消費が可能です.",
+  "en": "not at max cost, some extra is allowed."
+ },
+ {
+  "offset": "0x16C1C",
+  "words": 22,
+  "jp": "これで佣兵の行動量k增やすことが出来ますが,",
+  "en": "This raises the mercs' action, but your"
+ },
+ {
+  "offset": "0x16C4A",
+  "words": 18,
+  "jp": "次の命令が来る順番が,{?03B5}くなります.",
+  "en": "next order comes around later."
+ },
+ {
+  "offset": "0x16C70",
+  "words": 22,
+  "jp": "クラスチェンジによって变更される指揮官のデー",
+  "en": "Shows the commander data changed by a"
+ },
+ {
+  "offset": "0x16C9E",
+  "words": 22,
+  "jp": "タk表示しています.AT・DF・MPと指揮修",
+  "en": "class change. AT, DF, MP and command"
+ },
+ {
+  "offset": "0x16CCC",
+  "words": 22,
+  "jp": "正值は,次のLV10になるまでの成長值です.",
+  "en": "values are the growth up to next LV10."
+ },
+ {
+  "offset": "0x16CFA",
+  "words": 21,
+  "jp": "他のパラメータは,このクラス固有の值です.",
+  "en": "Other stats are fixed to this class."
+ },
+ {
+  "offset": "0x16D26",
+  "words": 22,
+  "jp": "クラスチェンジによって雇える佣兵と,竟える魔",
+  "en": "Shows the mercs you can hire and the"
+ },
+ {
+  "offset": "0x16D54",
+  "words": 22,
+  "jp": "法k表示しています.また雇える佣兵数も增减し",
+  "en": "magic learned by a class change. Hire"
+ },
+ {
+  "offset": "0x16D82",
+  "words": 22,
+  "jp": "ますが,最低\\n～最六6までの範{?00F6}k超えること",
+  "en": "count shifts too, within a 1 to 6 range."
+ },
+ {
+  "offset": "0x16DB0",
+  "words": 7,
+  "jp": "はありません.",
+  "en": "within range."
+ },
+ {
+  "offset": "0x16DC0",
+  "words": 114,
+  "jp": "Gぁきくつへやゆキツホン{?00E4}魔移攻在認報属武状济見墅嶋堀野和收充空Ⅴ督同旅短側鉄味重適合威锻日考今槍役訓放信議走興各号驚漢獲像爆起{?041D}靭婚驱邸任想屋賜凯抛如養脑個魅赦穴拒齿鳩万臣題七愚伐各指揮官に佣兵k配属するためのコマンドです.",
+  "en": ""
+ },
+ {
+  "offset": "0x16EA6",
+  "words": 22,
+  "jp": "雇える佣兵の最六数や種類は,クラスチェンジk",
+  "en": "The hireable mercs and kinds change with"
+ },
+ {
+  "offset": "0x16ED4",
+  "words": 11,
+  "jp": "行うことで变化します.",
+  "en": "each class change."
+ },
+ {
+  "offset": "0x16EF0",
+  "words": 20,
+  "jp": "アイテム（装備品）k購入・壳却・装備する",
+  "en": "A command to buy, sell and equip items."
+ },
+ {
+  "offset": "0x16F1A",
+  "words": 19,
+  "jp": "コマンド.各ステージごとに,壳っている",
+  "en": "Each stage sells different"
+ },
+ {
+  "offset": "0x16F42",
+  "words": 11,
+  "jp": "アイテムが異なります.",
+  "en": "items."
+ },
+ {
+  "offset": "0x16F5E",
+  "words": 22,
+  "jp": "マップ上に指揮官k配置するコマンド.ステージ",
+  "en": "A command to place commanders on the map."
+ },
+ {
+  "offset": "0x16F8C",
+  "words": 22,
+  "jp": "によっては,配置場所が最初から決まっている場",
+  "en": "Some stages fix the starting spots from"
+ },
+ {
+  "offset": "0x16FBA",
+  "words": 22,
+  "jp": "所があります.戦{?0110}の相性などk考えた配置k行",
+  "en": "the start. Placing with battle matchups"
+ },
+ {
+  "offset": "0x16FE8",
+  "words": 20,
+  "jp": "うと,面攻略k有利に進める事ができます.",
+  "en": "in mind makes the stage easier."
+ },
+ {
+  "offset": "0x17012",
+  "words": 22,
+  "jp": "メッセージの表示スピードや戦{?0110}シーンのON・",
+  "en": "A command to set message speed, battle"
+ },
+ {
+  "offset": "0x17040",
+  "words": 20,
+  "jp": "OFFなどk設定するためのコマンドです.",
+  "en": "scene on/off and other options."
+ },
+ {
+  "offset": "0x17072",
+  "words": 22,
+  "jp": "ここでの状態k記憶するコマンドです.LOAD",
+  "en": "A command to save the state here. To"
+ },
+ {
+  "offset": "0x170A0",
+  "words": 22,
+  "jp": "する場合は『？面の作戦準備から』k選んで下さ",
+  "en": "load it, pick 'stage battle prep'."
+ },
+ {
+  "offset": "0x170CE",
+  "words": 22,
+  "jp": "い.面攻略kある程度始めてからやり直す際に,",
+  "en": "Handy when redoing a stage after you"
+ },
+ {
+  "offset": "0x170FC",
+  "words": 5,
+  "jp": "便利です.",
+  "en": "begin."
+ },
+ {
+  "offset": "0x17108",
+  "words": 22,
+  "jp": "SAVEした場所から再開するためのコマンド.",
+  "en": "A command to resume from where you"
+ },
+ {
+  "offset": "0x17136",
+  "words": 22,
+  "jp": "SAVEデータには,『シナリオクリア時』『作",
+  "en": "saved. Saves come in 3 kinds: scenario"
+ },
+ {
+  "offset": "0x17164",
+  "words": 22,
+  "jp": "戦準備時』『面攻略途中』の\\n種類があります.",
+  "en": "clear, battle prep and mid-stage."
+ },
+ {
+  "offset": "0x17196",
+  "words": 14,
+  "jp": "面攻略k始めるコマンドです.",
+  "en": "Begins the stage."
+ },
+ {
+  "offset": "0x171B4",
+  "words": 22,
+  "jp": "指揮官全員k『指揮官配置』で配置していないと",
+  "en": "You must use 'Placement' on every"
+ },
+ {
+  "offset": "0x171E2",
+  "words": 6,
+  "jp": "選べません.",
+  "en": "commander."
+ },
+ {
+  "offset": "0x171F4",
+  "words": 21,
+  "jp": "佣兵k配属させたい指揮官k選択して下さい.",
+  "en": "Pick the commander to assign mercs to."
+ },
+ {
+  "offset": "0x17220",
+  "words": 20,
+  "jp": "佣兵混在のスキルk持っていれば,2種類の",
+  "en": "With the mixed-merc skill you can pick"
+ },
+ {
+  "offset": "0x1724A",
+  "words": 10,
+  "jp": "佣兵k選択できます.",
+  "en": "two merc types."
+ },
+ {
+  "offset": "0x17264",
+  "words": 21,
+  "jp": "方向キーの左右で,佣兵k增减して下さい.佣",
+  "en": "Press left or right to add or drop"
+ },
+ {
+  "offset": "0x17290",
+  "words": 22,
+  "jp": "兵の雇える最六数は指揮官によって異なり,\\n～",
+  "en": "mercs. The max hire count varies by"
+ },
+ {
+  "offset": "0x172BE",
+  "words": 22,
+  "jp": "6隊までです.混在のスキルがある場合,この最",
+  "en": "commander, up to 6. With the mixed skill,"
+ },
+ {
+  "offset": "0x172EC",
+  "words": 22,
+  "jp": "六数の範{?00F6}内で自由に数k決める事ができます.",
+  "en": "set any number within that max freely."
+ },
+ {
+  "offset": "0x1731A",
+  "words": 14,
+  "jp": "佣兵選択メニューへ房ります.",
+  "en": "Back to merc selection."
+ },
+ {
+  "offset": "0x17344",
+  "words": 11,
+  "jp": "配属の決定k行います.",
+  "en": "Confirms assignment."
+ },
+ {
+  "offset": "0x1735C",
+  "words": 22,
+  "jp": "決定後に变更k行う場合,もう1度『佣兵配属』",
+  "en": "To change it later, pick 'Assign Mercs'"
+ },
+ {
+  "offset": "0x1738A",
+  "words": 11,
+  "jp": "から選び直して下さい.",
+  "en": "again."
+ },
+ {
+  "offset": "0x173A6",
+  "words": 12,
+  "jp": "雇いたい佣兵k選びます.",
+  "en": "Pick the merc to hire."
+ },
+ {
+  "offset": "0x173C0",
+  "words": 22,
+  "jp": "『混在』スキルk持っている場合は,2種類の佣",
+  "en": "With the 'Mixed' skill you can pick two"
+ },
+ {
+  "offset": "0x173EE",
+  "words": 12,
+  "jp": "兵k選ぶことができます.",
+  "en": "merc types."
+ },
+ {
+  "offset": "0x17408",
+  "words": 17,
+  "jp": "佣兵k選んだ後,雇う数k決めます.",
+  "en": "After picking, set the hire count."
+ },
+ {
+  "offset": "0x1742C",
+  "words": 22,
+  "jp": "アイテムk購入するためのコマンド.この後,購",
+  "en": "A command to buy items. Then pick the"
+ },
+ {
+  "offset": "0x1745A",
+  "words": 22,
+  "jp": "入したいアイテムk選びますが,この時カーソル",
+  "en": "item to buy. Commanders who can equip"
+ },
+ {
+  "offset": "0x17488",
+  "words": 22,
+  "jp": "部分のアイテムが装備できる指揮官は,画面下に",
+  "en": "the cursor item show at the bottom of"
+ },
+ {
+  "offset": "0x174B6",
+  "words": 7,
+  "jp": "表示されます.",
+  "en": "the screen."
+ },
+ {
+  "offset": "0x174C6",
+  "words": 22,
+  "jp": "所持アイテムk,買值の\\n↗4で壳却できます.",
+  "en": "Sell held items at 1/4 the buy price."
+ },
+ {
+  "offset": "0x174F4",
+  "words": 22,
+  "jp": "この後,壳却したいアイテムk選びますが,装備",
+  "en": "Then pick the item to sell. Equipped"
+ },
+ {
+  "offset": "0x17522",
+  "words": 22,
+  "jp": "中の物は,名称が暗く表示されます.またその時",
+  "en": "items show dimmed, and their holder"
+ },
+ {
+  "offset": "0x17550",
+  "words": 16,
+  "jp": "装備者が,画面下に表示されます.",
+  "en": "shows at the bottom."
+ },
+ {
+  "offset": "0x17572",
+  "words": 22,
+  "jp": "装備变更k行うコマンドです.各アイテムには,",
+  "en": "A command to change gear. Each item has"
+ },
+ {
+  "offset": "0x175A0",
+  "words": 22,
+  "jp": "芹や杖などといったカテゴリーがあり,指揮官の",
+  "en": "a category like sword or staff, and a"
+ },
+ {
+  "offset": "0x175CE",
+  "words": 22,
+  "jp": "属性によって,装備できるカテゴリーが決まって",
+  "en": "a commander's type sets what they"
+ },
+ {
+  "offset": "0x175FC",
+  "words": 4,
+  "jp": "います.",
+  "en": "use."
+ },
+ {
+  "offset": "0x17606",
+  "words": 15,
+  "jp": "購入したいアイテムk選びます.",
+  "en": "Pick the item to buy."
+ },
+ {
+  "offset": "0x17626",
+  "words": 22,
+  "jp": "購入後,そのアイテムk直接装備することができ",
+  "en": "After buying, you can equip it directly."
+ },
+ {
+  "offset": "0x17654",
+  "words": 22,
+  "jp": "ます.その場合,購入後,装備させたい指揮官k",
+  "en": "If so, pick the commander to equip after"
+ },
+ {
+  "offset": "0x17682",
+  "words": 7,
+  "jp": "選んで下さい.",
+  "en": "buying."
+ },
+ {
+  "offset": "0x17692",
+  "words": 15,
+  "jp": "壳却したいアイテムk選びます.",
+  "en": "Pick the item to sell."
+ },
+ {
+  "offset": "0x176B2",
+  "words": 22,
+  "jp": "すでに誰かが装備しているアイテムは,名前が暗",
+  "en": "Items already equipped by someone show"
+ },
+ {
+  "offset": "0x176E0",
+  "words": 10,
+  "jp": "く表示されています.",
+  "en": "with dim names."
+ },
+ {
+  "offset": "0x176F6",
+  "words": 17,
+  "jp": "壳却金額は,購入金額の\\n↗4です.",
+  "en": "Sell price is 1/4 the buy price."
+ },
+ {
+  "offset": "0x1771A",
+  "words": 15,
+  "jp": "購入したアイテムk装備します.",
+  "en": "Equips the bought item."
+ },
+ {
+  "offset": "0x1773A",
+  "words": 22,
+  "jp": "装備させる指揮官の選択は,画面下のユニットk",
+  "en": "Pick the commander to equip from the"
+ },
+ {
+  "offset": "0x17768",
+  "words": 16,
+  "jp": "方向キーの左右で選んで行います.",
+  "en": "units below, with left or right."
+ },
+ {
+  "offset": "0x1778E",
+  "words": 22,
+  "jp": "装備させたいアイテムk選びます.クラスごとに",
+  "en": "Pick the item to equip. Each class has"
+ },
+ {
+  "offset": "0x177BC",
+  "words": 22,
+  "jp": "装備可能なアイテムが決まっており,装備できな",
+  "en": "set equippable items, and ones you"
+ },
+ {
+  "offset": "0x177EA",
+  "words": 22,
+  "jp": "い物は,名前が暗く表示されています.『武器→",
+  "en": "cannot use show dim. Order: weapon →"
+ },
+ {
+  "offset": "0x17818",
+  "words": 20,
+  "jp": "防具→その他』の順で,装備k決定します.",
+  "en": "armor → other sets the gear."
+ },
+ {
+  "offset": "0x17842",
+  "words": 18,
+  "jp": "装備变更k行いたい指揮官k選びます.",
+  "en": "Pick the commander to re-equip."
+ },
+ {
+  "offset": "0x17868",
+  "words": 20,
+  "jp": "『武器』『防具』『その他』の順に,装備k",
+  "en": "Set gear in the order weapon, armor,"
+ },
+ {
+  "offset": "0x17892",
+  "words": 9,
+  "jp": "決定していきます.",
+  "en": "then other."
+ },
+ {
+  "offset": "0x178AA",
+  "words": 22,
+  "jp": "マップに配置する指揮官k選んで下さい.指揮官",
+  "en": "Pick the commander to place on the map."
+ },
+ {
+  "offset": "0x178D8",
+  "words": 22,
+  "jp": "k選んだ後,マップ上にあるマーカーに指揮官k",
+  "en": "Then place them on a marker on the"
+ },
+ {
+  "offset": "0x17906",
+  "words": 7,
+  "jp": "配置させます.",
+  "en": "map."
+ },
+ {
+  "offset": "0x1791A",
+  "words": 22,
+  "jp": "アイテムk購入し,その後,装備させる指揮官k",
+  "en": "Buy an item, then pick the commander to"
+ },
+ {
+  "offset": "0x17948",
+  "words": 22,
+  "jp": "選びます.装備できる指揮官は,画面下に表示さ",
+  "en": "equip. Those who can equip are shown"
+ },
+ {
+  "offset": "0x17976",
+  "words": 6,
+  "jp": "れています.",
+  "en": "below."
+ }
+]

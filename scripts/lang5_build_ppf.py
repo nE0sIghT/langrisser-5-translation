@@ -51,6 +51,13 @@ def main() -> None:
         "--exe-out", "work/build/SLPS_018.19.en",
         "--tbl", "work/tables/lang5_en.tbl")
 
+    # Triangle-button command help text (data/translation/system_help.json).
+    run(scripts / "lang5_help_insert.py",
+        "--system-in", "work/build/SYSTEM.BIN.en",
+        "--system-out", "work/build/SYSTEM.BIN.en",
+        "--tbl", "work/tables/lang5_en.tbl",
+        "--strict")
+
     # SCEN2 text blocks are byte-identical to SCEN: sync translations.
     src_dir = Path(args.en_dump) / "SCEN"
     dst_dir = Path(args.en_dump) / "SCEN2"
