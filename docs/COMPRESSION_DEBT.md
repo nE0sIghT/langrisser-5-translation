@@ -33,7 +33,18 @@ though they still need normal playtest and style polish.
 
 ## Open Items
 
-No open compression-debt items after the 2026-06-14 polish pass.
+### SYSTEM.BIN triangle-button help (`data/translation/system_help.json`, `system_desc.json`)
+
+The help strings are FFFF-terminated glyph runs at fixed offsets, so each
+display line must fit the original line's glyph budget. English was compressed
+to fit, line by line. Items below are the knowing semantic losses.
+
+| ID | Location | Compression |
+| --- | --- | --- |
+| HD-001 | Item stat lines with a runtime number (`+\n`/`\n` placeholder, e.g. mace/club/stone-axe "攻撃消費行動量+N", "MP x1/4 ... 待機-NC") | The original embeds a value the game fills in that did not survive the dump; rendered as `N`/`up`/`down`. Restore the real numbers from a RAM/table dump. |
+| HD-002 | Spell stat lines (`属性:/目標:/解除:`) | The formal "Attribute / Target / Dispel" labels were shortened to `Element. Hits N unit/troop/area. Cure: X`. Tone/formality reduced; meaning kept. |
+| HD-003 | Weapon/armor/unit flavor descriptions | Trailing hedges ("...という" = "they say") and decorative adjectives were dropped per line to fit; lore is preserved but prose is terser than the JP. |
+| HD-004 | `%`-free rewrites | A few stat lines that used "割" (tenths) were written as multipliers (`AT x1.2`, `MP x1/4`) instead of percentages where the phrasing did not fit. |
 
 ## Closed Items
 

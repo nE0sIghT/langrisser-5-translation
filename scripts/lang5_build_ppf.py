@@ -51,10 +51,12 @@ def main() -> None:
         "--exe-out", "work/build/SLPS_018.19.en",
         "--tbl", "work/tables/lang5_en.tbl")
 
-    # Triangle-button command help text (data/translation/system_help.json).
+    # Triangle-button help text (menu commands + equip/shop/status descriptions).
     run(scripts / "lang5_help_insert.py",
         "--system-in", "work/build/SYSTEM.BIN.en",
         "--system-out", "work/build/SYSTEM.BIN.en",
+        "--help-json", "data/translation/system_help.json",
+        "--help-json", "data/translation/system_desc.json",
         "--tbl", "work/tables/lang5_en.tbl",
         "--strict")
 

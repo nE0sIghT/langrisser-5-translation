@@ -241,7 +241,8 @@ speaker plates are not maintained as hand-written data.
 python3 scripts/lang5_build_ppf.py
 ```
 
-This renders the font, patches `SYSTEM.BIN` (menus + names), patches
+This renders the font, patches `SYSTEM.BIN` (menus + names), inserts the
+triangle-button help text (see *Translating the help text* below), patches
 `SLPS_018.19` (name-entry grid), patches `IMG.DAT` title-screen credits and
 the project QR code, redraws the prologue poem graphic (see *Translating
 graphics* below), syncs `SCEN -> SCEN2`, re-inserts all translated chunks
@@ -260,6 +261,42 @@ python3 scripts/lang5_build_ppf.py --patch-version 1
 ```
 
 The build also writes title previews to `work/build/title_credits_*.png`.
+
+## Translating the help text
+
+The text shown when you press the triangle button (help for menu commands, and
+the unit/class/weapon/item/magic/monster descriptions in the equip, shop and
+status screens) lives in `SYSTEM.BIN` as `FFFF`-terminated glyph runs at fixed
+offsets, so each display line must fit the original line's glyph budget.
+
+1. **Dump** the runs to an editable JSON (one entry per run: offset, word
+   budget, decoded JP, empty `en`):
+
+   ```bash
+   python3 scripts/lang5_help_dump.py --out data/translation/system_help.json   # menu commands
+   python3 scripts/lang5_help_dump.py --start 0x9c00 --end 0x15810 \
+       --out data/translation/system_desc.json                                  # descriptions
+   ```
+
+2. **Translate** by filling each entry's `en`. Keep it short: a line of `w`
+   words fits roughly `w` glyph codes, and the encoder packs `~2` characters per
+   code with the font's pair glyphs. Leave `en` empty to keep the original
+   Japanese. Missing punctuation can be added to the font via
+   `data/font_mapping/en_slot_assignments.csv` (assign it an unused kana slot).
+
+3. **Insert / check.** `lang5_build_ppf.py` runs this automatically, or run it
+   directly; `--strict` fails on any over-budget or unencodable line:
+
+   ```bash
+   python3 scripts/lang5_help_insert.py \
+       --help-json data/translation/system_help.json \
+       --help-json data/translation/system_desc.json \
+       --system-in work/build/SYSTEM.BIN.en --system-out work/build/SYSTEM.BIN.en \
+       --strict
+   ```
+
+Knowing semantic compressions made to fit the budgets are tracked in
+`docs/COMPRESSION_DEBT.md`.
 
 ## Translating graphics (the prologue poem)
 

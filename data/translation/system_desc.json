@@ -1,0 +1,9854 @@
+[
+ {
+  "offset": "0x09C00",
+  "words": 5,
+  "jp": "イブナイト",
+  "en": ""
+ },
+ {
+  "offset": "0x09C0C",
+  "words": 7,
+  "jp": "ブレイブナイト",
+  "en": ""
+ },
+ {
+  "offset": "0x09C1C",
+  "words": 8,
+  "jp": "サーベルタイガー",
+  "en": ""
+ },
+ {
+  "offset": "0x09C2E",
+  "words": 5,
+  "jp": "サキュバス",
+  "en": ""
+ },
+ {
+  "offset": "0x09C42",
+  "words": 8,
+  "jp": "リビングアーマー",
+  "en": ""
+ },
+ {
+  "offset": "0x09C54",
+  "words": 8,
+  "jp": "グレートドラゴン",
+  "en": ""
+ },
+ {
+  "offset": "0x09C66",
+  "words": 8,
+  "jp": "スーパーギャザー",
+  "en": ""
+ },
+ {
+  "offset": "0x09C78",
+  "words": 7,
+  "jp": "ソードマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09C88",
+  "words": 7,
+  "jp": "ソードマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09C98",
+  "words": 7,
+  "jp": "ソードマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09CA8",
+  "words": 5,
+  "jp": "マーシャル",
+  "en": ""
+ },
+ {
+  "offset": "0x09CB4",
+  "words": 5,
+  "jp": "マーシャル",
+  "en": ""
+ },
+ {
+  "offset": "0x09CC0",
+  "words": 5,
+  "jp": "マーシャル",
+  "en": ""
+ },
+ {
+  "offset": "0x09CCC",
+  "words": 5,
+  "jp": "マーシャル",
+  "en": ""
+ },
+ {
+  "offset": "0x09CD8",
+  "words": 5,
+  "jp": "マーシャル",
+  "en": ""
+ },
+ {
+  "offset": "0x09CE4",
+  "words": 6,
+  "jp": "ジャイアント",
+  "en": ""
+ },
+ {
+  "offset": "0x09CF2",
+  "words": 5,
+  "jp": "レンジャー",
+  "en": ""
+ },
+ {
+  "offset": "0x09CFE",
+  "words": 5,
+  "jp": "レンジャー",
+  "en": ""
+ },
+ {
+  "offset": "0x09D0A",
+  "words": 5,
+  "jp": "レンジャー",
+  "en": ""
+ },
+ {
+  "offset": "0x09D16",
+  "words": 8,
+  "jp": "ミスリルゴーレム",
+  "en": ""
+ },
+ {
+  "offset": "0x09D28",
+  "words": 7,
+  "jp": "ハイプリースト",
+  "en": ""
+ },
+ {
+  "offset": "0x09D38",
+  "words": 7,
+  "jp": "ハイプリースト",
+  "en": ""
+ },
+ {
+  "offset": "0x09D48",
+  "words": 7,
+  "jp": "ハイプリースト",
+  "en": ""
+ },
+ {
+  "offset": "0x09D58",
+  "words": 4,
+  "jp": "セイント",
+  "en": ""
+ },
+ {
+  "offset": "0x09D62",
+  "words": 4,
+  "jp": "セイント",
+  "en": ""
+ },
+ {
+  "offset": "0x09D6C",
+  "words": 4,
+  "jp": "セイント",
+  "en": ""
+ },
+ {
+  "offset": "0x09D76",
+  "words": 7,
+  "jp": "ダークセイント",
+  "en": ""
+ },
+ {
+  "offset": "0x09D86",
+  "words": 5,
+  "jp": "ウィザード",
+  "en": ""
+ },
+ {
+  "offset": "0x09D92",
+  "words": 5,
+  "jp": "ウィザード",
+  "en": ""
+ },
+ {
+  "offset": "0x09D9E",
+  "words": 5,
+  "jp": "ウィザード",
+  "en": ""
+ },
+ {
+  "offset": "0x09DAA",
+  "words": 5,
+  "jp": "ウィザード",
+  "en": ""
+ },
+ {
+  "offset": "0x09DB6",
+  "words": 8,
+  "jp": "ダークウィザード",
+  "en": ""
+ },
+ {
+  "offset": "0x09DC8",
+  "words": 6,
+  "jp": "アークメイジ",
+  "en": ""
+ },
+ {
+  "offset": "0x09DD6",
+  "words": 6,
+  "jp": "アークメイジ",
+  "en": ""
+ },
+ {
+  "offset": "0x09DE4",
+  "words": 6,
+  "jp": "アークメイジ",
+  "en": ""
+ },
+ {
+  "offset": "0x09DF2",
+  "words": 6,
+  "jp": "アークメイジ",
+  "en": ""
+ },
+ {
+  "offset": "0x09E00",
+  "words": 7,
+  "jp": "サーペンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x09E10",
+  "words": 7,
+  "jp": "サーペンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x09E20",
+  "words": 7,
+  "jp": "サーペンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x09E38",
+  "words": 7,
+  "jp": "ドラゴンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x09E48",
+  "words": 7,
+  "jp": "ドラゴンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x09E58",
+  "words": 7,
+  "jp": "ドラゴンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x09E68",
+  "words": 6,
+  "jp": "スフィンクス",
+  "en": ""
+ },
+ {
+  "offset": "0x09E76",
+  "words": 7,
+  "jp": "ナイトマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09E86",
+  "words": 7,
+  "jp": "ナイトマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09E96",
+  "words": 7,
+  "jp": "ナイトマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09EA6",
+  "words": 7,
+  "jp": "ナイトマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09EB6",
+  "words": 5,
+  "jp": "ケルベロス",
+  "en": ""
+ },
+ {
+  "offset": "0x09EC2",
+  "words": 7,
+  "jp": "アークデーモン",
+  "en": ""
+ },
+ {
+  "offset": "0x09ED8",
+  "words": 5,
+  "jp": "バンパイア",
+  "en": ""
+ },
+ {
+  "offset": "0x09EE4",
+  "words": 7,
+  "jp": "カオスドラゴン",
+  "en": ""
+ },
+ {
+  "offset": "0x09EF4",
+  "words": 6,
+  "jp": "ガルツォーク",
+  "en": ""
+ },
+ {
+  "offset": "0x09F0E",
+  "words": 5,
+  "jp": "エンペラー",
+  "en": ""
+ },
+ {
+  "offset": "0x09F26",
+  "words": 4,
+  "jp": "クイーン",
+  "en": ""
+ },
+ {
+  "offset": "0x09F30",
+  "words": 4,
+  "jp": "ビルダー",
+  "en": ""
+ },
+ {
+  "offset": "0x09F3A",
+  "words": 4,
+  "jp": "ビルダー",
+  "en": ""
+ },
+ {
+  "offset": "0x09F44",
+  "words": 4,
+  "jp": "ビルダー",
+  "en": ""
+ },
+ {
+  "offset": "0x09F4E",
+  "words": 4,
+  "jp": "ビルダー",
+  "en": ""
+ },
+ {
+  "offset": "0x09F58",
+  "words": 6,
+  "jp": "ハイマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09F66",
+  "words": 6,
+  "jp": "ハイマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09F74",
+  "words": 5,
+  "jp": "アバタール",
+  "en": ""
+ },
+ {
+  "offset": "0x09F80",
+  "words": 5,
+  "jp": "プリンセス",
+  "en": ""
+ },
+ {
+  "offset": "0x09F8C",
+  "words": 8,
+  "jp": "ダークプリンセス",
+  "en": ""
+ },
+ {
+  "offset": "0x09F9E",
+  "words": 7,
+  "jp": "ダークマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09FAE",
+  "words": 7,
+  "jp": "ダークマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09FBE",
+  "words": 5,
+  "jp": "ハーミット",
+  "en": ""
+ },
+ {
+  "offset": "0x09FCA",
+  "words": 8,
+  "jp": "サーペンマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09FDC",
+  "words": 8,
+  "jp": "ドラゴンマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x09FEE",
+  "words": 8,
+  "jp": "ドラゴンマスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A000",
+  "words": 7,
+  "jp": "ロイヤルガード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A010",
+  "words": 7,
+  "jp": "ロイヤルガード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A020",
+  "words": 7,
+  "jp": "ロイヤルガード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A030",
+  "words": 5,
+  "jp": "デスロード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A03C",
+  "words": 7,
+  "jp": "マスターゾンビ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A04C",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A056",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A060",
+  "words": 135,
+  "jp": "！5BGLQYいがげじそぢどねぱふべみゅるkィェギサゼツヌバピヘホマメヨヲ{?00D3}{?00DA}{?00E1}体佣判{?00FE}自防消追時確竟敗音果出面可足混麻去復目始▢化房躍子岩緑秀美千岸康鮎健隆满保也史規拔準聞@娘提親巫税怨民店带単殊銳品多耻倍頃最鎧付{?029D}锻麟性暗狩破意打{?02E4}少主板遠集呼息弓森反）ソルジャー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A170",
+  "words": 5,
+  "jp": "ソルジャー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A17C",
+  "words": 5,
+  "jp": "ソルジャー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A188",
+  "words": 4,
+  "jp": "レギオン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A192",
+  "words": 4,
+  "jp": "レギオン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A19C",
+  "words": 4,
+  "jp": "レギオン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1A6",
+  "words": 7,
+  "jp": "グレナディーア",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1B6",
+  "words": 7,
+  "jp": "グレナディーア",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1C6",
+  "words": 7,
+  "jp": "グレナディーア",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1D6",
+  "words": 5,
+  "jp": "シビリアン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1E2",
+  "words": 5,
+  "jp": "ウルフマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1EE",
+  "words": 4,
+  "jp": "オーガー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A1F8",
+  "words": 4,
+  "jp": "トロール",
+  "en": ""
+ },
+ {
+  "offset": "0x0A202",
+  "words": 6,
+  "jp": "ダークガード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A230",
+  "words": 5,
+  "jp": "ウォリアー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A23C",
+  "words": 5,
+  "jp": "ウォリアー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A248",
+  "words": 5,
+  "jp": "ウォリアー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A26C",
+  "words": 6,
+  "jp": "ファランクス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A27A",
+  "words": 6,
+  "jp": "ファランクス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A288",
+  "words": 6,
+  "jp": "ファランクス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A296",
+  "words": 7,
+  "jp": "ボーンゴーレム",
+  "en": ""
+ },
+ {
+  "offset": "0x0A2A6",
+  "words": 7,
+  "jp": "マッドゴーレム",
+  "en": ""
+ },
+ {
+  "offset": "0x0A2E0",
+  "words": 6,
+  "jp": "エクソシスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0A2EE",
+  "words": 6,
+  "jp": "エクソシスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0A2FC",
+  "words": 6,
+  "jp": "エクソシスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0A30A",
+  "words": 6,
+  "jp": "クルセイダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A318",
+  "words": 6,
+  "jp": "クルセイダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A326",
+  "words": 6,
+  "jp": "クルセイダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A334",
+  "words": 7,
+  "jp": "ダークリザード",
+  "en": "Dark Lizard"
+ },
+ {
+  "offset": "0x0A344",
+  "words": 6,
+  "jp": "リザードマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A352",
+  "words": 6,
+  "jp": "リザードマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A360",
+  "words": 6,
+  "jp": "リザードマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A36E",
+  "words": 7,
+  "jp": "ロードリザード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A37E",
+  "words": 7,
+  "jp": "ロードリザード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A38E",
+  "words": 7,
+  "jp": "ロードリザード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A39E",
+  "words": 7,
+  "jp": "ダークマーマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3AE",
+  "words": 4,
+  "jp": "マーマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3B8",
+  "words": 4,
+  "jp": "マーマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3C2",
+  "words": 4,
+  "jp": "マーマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3CC",
+  "words": 7,
+  "jp": "マーマンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3DC",
+  "words": 7,
+  "jp": "マーマンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3EC",
+  "words": 7,
+  "jp": "マーマンロード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A3FC",
+  "words": 6,
+  "jp": "シーウォーム",
+  "en": ""
+ },
+ {
+  "offset": "0x0A40A",
+  "words": 7,
+  "jp": "ポイズントード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A41A",
+  "words": 7,
+  "jp": "ダークニクシー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A42A",
+  "words": 4,
+  "jp": "ニクシー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A434",
+  "words": 4,
+  "jp": "ニクシー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A43E",
+  "words": 4,
+  "jp": "ニクシー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A448",
+  "words": 6,
+  "jp": "ダークエルフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A46E",
+  "words": 5,
+  "jp": "ハイエルフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A47A",
+  "words": 5,
+  "jp": "ハイエルフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A486",
+  "words": 5,
+  "jp": "ハイエルフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A492",
+  "words": 4,
+  "jp": "バリスタ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A49C",
+  "words": 4,
+  "jp": "バリスタ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4A6",
+  "words": 4,
+  "jp": "バリスタ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4B0",
+  "words": 4,
+  "jp": "バリスタ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4BA",
+  "words": 5,
+  "jp": "スナイパー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4C6",
+  "words": 5,
+  "jp": "スナイパー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4D2",
+  "words": 5,
+  "jp": "スナイパー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4DE",
+  "words": 4,
+  "jp": "ウィッチ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4E8",
+  "words": 6,
+  "jp": "ケンタウロス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A4F6",
+  "words": 6,
+  "jp": "ケンタウロス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A504",
+  "words": 6,
+  "jp": "ケンタウロス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A512",
+  "words": 4,
+  "jp": "ランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A51C",
+  "words": 4,
+  "jp": "ランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A526",
+  "words": 4,
+  "jp": "ランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A530",
+  "words": 5,
+  "jp": "ドラグーン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A53C",
+  "words": 5,
+  "jp": "ドラグーン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A548",
+  "words": 5,
+  "jp": "ドラグーン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A554",
+  "words": 7,
+  "jp": "ヘビーランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A564",
+  "words": 7,
+  "jp": "ヘビーランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A574",
+  "words": 7,
+  "jp": "ヘビーランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A584",
+  "words": 8,
+  "jp": "ロイヤルランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A596",
+  "words": 8,
+  "jp": "ロイヤルランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5A8",
+  "words": 8,
+  "jp": "ロイヤルランサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5BA",
+  "words": 5,
+  "jp": "クロウラー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5C6",
+  "words": 5,
+  "jp": "オルトロス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5D2",
+  "words": 6,
+  "jp": "スコーピオン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5E0",
+  "words": 5,
+  "jp": "コカトリス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5EC",
+  "words": 5,
+  "jp": "ヒポグリフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A5F8",
+  "words": 5,
+  "jp": "ヒポグリフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A604",
+  "words": 5,
+  "jp": "ヒポグリフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A610",
+  "words": 8,
+  "jp": "アークエンジェル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A622",
+  "words": 8,
+  "jp": "アークエンジェル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A634",
+  "words": 8,
+  "jp": "アークエンジェル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A646",
+  "words": 4,
+  "jp": "うみにん",
+  "en": ""
+ },
+ {
+  "offset": "0x0A650",
+  "words": 4,
+  "jp": "うみにん",
+  "en": ""
+ },
+ {
+  "offset": "0x0A65A",
+  "words": 4,
+  "jp": "うみにん",
+  "en": ""
+ },
+ {
+  "offset": "0x0A664",
+  "words": 4,
+  "jp": "うみにん",
+  "en": ""
+ },
+ {
+  "offset": "0x0A66E",
+  "words": 4,
+  "jp": "ハーピー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A678",
+  "words": 5,
+  "jp": "ガーゴイル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A684",
+  "words": 5,
+  "jp": "グレムリン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A690",
+  "words": 6,
+  "jp": "ハーブローク",
+  "en": ""
+ },
+ {
+  "offset": "0x0A69E",
+  "words": 6,
+  "jp": "ハーブローク",
+  "en": ""
+ },
+ {
+  "offset": "0x0A6AC",
+  "words": 6,
+  "jp": "ハーブローク",
+  "en": ""
+ },
+ {
+  "offset": "0x0A6BA",
+  "words": 8,
+  "jp": "スカイアーチャー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A6CC",
+  "words": 8,
+  "jp": "スカイアーチャー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A6DE",
+  "words": 8,
+  "jp": "スカイアーチャー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A6F0",
+  "words": 5,
+  "jp": "ナイトメア",
+  "en": ""
+ },
+ {
+  "offset": "0x0A6FC",
+  "words": 8,
+  "jp": "レッサーデーモン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A70E",
+  "words": 8,
+  "jp": "レッサーデーモン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A720",
+  "words": 5,
+  "jp": "スペクター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A72C",
+  "words": 4,
+  "jp": "シェード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A736",
+  "words": 4,
+  "jp": "シェード",
+  "en": ""
+ },
+ {
+  "offset": "0x0A740",
+  "words": 5,
+  "jp": "スケルトン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A74C",
+  "words": 8,
+  "jp": "ゾンビファイター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A75E",
+  "words": 8,
+  "jp": "ファイアドラゴン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A770",
+  "words": 7,
+  "jp": "スノードラゴン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A786",
+  "words": 6,
+  "jp": "ブラックゲル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A794",
+  "words": 8,
+  "jp": "トランスポーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A7A6",
+  "words": 8,
+  "jp": "トランスポーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A7B8",
+  "words": 8,
+  "jp": "トランスポーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A7CA",
+  "words": 8,
+  "jp": "トランスポーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0A7DC",
+  "words": 26,
+  "jp": "07EKQZあぅおくこすたっとはへぽもスレイプニル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A812",
+  "words": 6,
+  "jp": "ヴァルキリー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A820",
+  "words": 6,
+  "jp": "フェニックス",
+  "en": ""
+ },
+ {
+  "offset": "0x0A82E",
+  "words": 5,
+  "jp": "スパイダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A83A",
+  "words": 5,
+  "jp": "メデューサ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A846",
+  "words": 8,
+  "jp": "イェルムンガルド",
+  "en": ""
+ },
+ {
+  "offset": "0x0A858",
+  "words": 4,
+  "jp": "ピクシー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A868",
+  "words": 4,
+  "jp": "フレイヤ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A872",
+  "words": 4,
+  "jp": "ホーント",
+  "en": ""
+ },
+ {
+  "offset": "0x0A884",
+  "words": 5,
+  "jp": "フェンリル",
+  "en": ""
+ },
+ {
+  "offset": "0x0A890",
+  "words": 5,
+  "jp": "セラフィム",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8A4",
+  "words": 4,
+  "jp": "ビルダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8AE",
+  "words": 6,
+  "jp": "ベールゼブブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8BC",
+  "words": 8,
+  "jp": "ホーリードラゴン",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8CE",
+  "words": 4,
+  "jp": "混沌の王",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8D8",
+  "words": 4,
+  "jp": "光の女神",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8E2",
+  "words": 4,
+  "jp": "光の女神",
+  "en": ""
+ },
+ {
+  "offset": "0x0A8EC",
+  "words": 35,
+  "jp": ",！258CHMQVZぁうぉぎこざせだつでぬばびふぷぼまめやらろ步兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A954",
+  "words": 4,
+  "jp": "神官戦士",
+  "en": ""
+ },
+ {
+  "offset": "0x0A95E",
+  "words": 4,
+  "jp": "召噢術師",
+  "en": "Summoner"
+ },
+ {
+  "offset": "0x0A970",
+  "words": 4,
+  "jp": "通常水兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A98A",
+  "words": 4,
+  "jp": "水上弓兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A99A",
+  "words": 4,
+  "jp": "機械弓兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A9A4",
+  "words": 4,
+  "jp": "長距離弓",
+  "en": ""
+ },
+ {
+  "offset": "0x0A9B4",
+  "words": 4,
+  "jp": "特殊騎兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A9BE",
+  "words": 4,
+  "jp": "重装騎兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0A9D6",
+  "words": 4,
+  "jp": "对空开兵",
+  "en": "Flier"
+ },
+ {
+  "offset": "0x0A9F6",
+  "words": 4,
+  "jp": "不死步兵",
+  "en": "Undead"
+ },
+ {
+  "offset": "0x0AA10",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0AA2A",
+  "words": 70,
+  "jp": "！8DJOXいおげざたとはぴべむやらkィエケズダテニバフペャレヴ{?00D3}{?00D9}{?00DF}{?00E3}体正指法召了防費順加詠続取勝部音情属强再可他舍乱睡去後接ファイアー",
+  "en": ""
+ },
+ {
+  "offset": "0x0AAB8",
+  "words": 8,
+  "jp": "ファイアーボール",
+  "en": ""
+ },
+ {
+  "offset": "0x0AACA",
+  "words": 4,
+  "jp": "フリーズ",
+  "en": ""
+ },
+ {
+  "offset": "0x0AAD4",
+  "words": 5,
+  "jp": "ブリザード",
+  "en": ""
+ },
+ {
+  "offset": "0x0AAE0",
+  "words": 4,
+  "jp": "サンダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0AAEA",
+  "words": 8,
+  "jp": "サンダーストーム",
+  "en": ""
+ },
+ {
+  "offset": "0x0AAFC",
+  "words": 8,
+  "jp": "ウィンドカッター",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB0E",
+  "words": 5,
+  "jp": "トルネード",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB1A",
+  "words": 7,
+  "jp": "アースクエイク",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB32",
+  "words": 8,
+  "jp": "ホーリーブレイズ",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB44",
+  "words": 8,
+  "jp": "ターンアンデッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB56",
+  "words": 6,
+  "jp": "MPドレイン",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB64",
+  "words": 4,
+  "jp": "ブラスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB6E",
+  "words": 4,
+  "jp": "スリープ",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB78",
+  "words": 6,
+  "jp": "コンフューズ",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB8E",
+  "words": 4,
+  "jp": "ミュート",
+  "en": ""
+ },
+ {
+  "offset": "0x0AB98",
+  "words": 5,
+  "jp": "デクライン",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABAC",
+  "words": 4,
+  "jp": "バインド",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABB6",
+  "words": 8,
+  "jp": "プロテクション1",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABC8",
+  "words": 8,
+  "jp": "プロテクション2",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABDA",
+  "words": 5,
+  "jp": "アタック1",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABE6",
+  "words": 5,
+  "jp": "アタック2",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABF2",
+  "words": 4,
+  "jp": "クイック",
+  "en": ""
+ },
+ {
+  "offset": "0x0ABFC",
+  "words": 4,
+  "jp": "レジスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC06",
+  "words": 4,
+  "jp": "ヒール1",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC10",
+  "words": 4,
+  "jp": "ヒール2",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC1A",
+  "words": 8,
+  "jp": "フォースヒール1",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC2C",
+  "words": 8,
+  "jp": "フォースヒール2",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC3E",
+  "words": 4,
+  "jp": "ファイン",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC48",
+  "words": 4,
+  "jp": "アゲイン",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC52",
+  "words": 5,
+  "jp": "テレポート",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC5E",
+  "words": 5,
+  "jp": "クワイエト",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC72",
+  "words": 4,
+  "jp": "レーザー",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC84",
+  "words": 6,
+  "jp": "スレイプニル",
+  "en": ""
+ },
+ {
+  "offset": "0x0AC92",
+  "words": 6,
+  "jp": "ヴァルキリー",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACA0",
+  "words": 6,
+  "jp": "フェニックス",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACAE",
+  "words": 5,
+  "jp": "スパイダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACBA",
+  "words": 5,
+  "jp": "メデューサ",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACC6",
+  "words": 8,
+  "jp": "イェルムンガルド",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACD8",
+  "words": 4,
+  "jp": "ピクシー",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACE8",
+  "words": 4,
+  "jp": "フレイヤ",
+  "en": ""
+ },
+ {
+  "offset": "0x0ACF2",
+  "words": 4,
+  "jp": "ホーント",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD04",
+  "words": 5,
+  "jp": "フェンリル",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD10",
+  "words": 5,
+  "jp": "セラフィム",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD24",
+  "words": 4,
+  "jp": "ビルダー",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD2E",
+  "words": 6,
+  "jp": "ベールゼブブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD3C",
+  "words": 8,
+  "jp": "ホーリードラゴン",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD4E",
+  "words": 4,
+  "jp": "混沌の王",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD58",
+  "words": 4,
+  "jp": "光の女神",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD62",
+  "words": 6,
+  "jp": "テレポート先",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD84",
+  "words": 5,
+  "jp": "かんせつ1",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD90",
+  "words": 5,
+  "jp": "かんせつ2",
+  "en": ""
+ },
+ {
+  "offset": "0x0AD9C",
+  "words": 6,
+  "jp": "HPドレイン",
+  "en": ""
+ },
+ {
+  "offset": "0x0ADAA",
+  "words": 6,
+  "jp": "HPドレイン",
+  "en": ""
+ },
+ {
+  "offset": "0x0ADB8",
+  "words": 28,
+  "jp": ".\\nADKSYぁいぉぎこじそっどはふほめょろアォ剣装備",
+  "en": ""
+ },
+ {
+  "offset": "0x0ADF2",
+  "words": 5,
+  "jp": "金属鎧装備",
+  "en": ""
+ },
+ {
+  "offset": "0x0ADFE",
+  "words": 6,
+  "jp": "魔術道具装備",
+  "en": ""
+ },
+ {
+  "offset": "0x0AE12",
+  "words": 6,
+  "jp": "クリティカル",
+  "en": ""
+ },
+ {
+  "offset": "0x0AE20",
+  "words": 7,
+  "jp": "リジェネレート",
+  "en": ""
+ },
+ {
+  "offset": "0x0AE30",
+  "words": 5,
+  "jp": "ヒーリング",
+  "en": ""
+ },
+ {
+  "offset": "0x0AE3C",
+  "words": 4,
+  "jp": "判断上昇",
+  "en": ""
+ },
+ {
+  "offset": "0x0AE4C",
+  "words": 4,
+  "jp": "解毒能力",
+  "en": ""
+ },
+ {
+  "offset": "0x0AE56",
+  "words": 4,
+  "jp": "毒攻{?00FE}1",
+  "en": "Poison 1"
+ },
+ {
+  "offset": "0x0AE60",
+  "words": 4,
+  "jp": "毒攻{?00FE}2",
+  "en": "Poison 2"
+ },
+ {
+  "offset": "0x0AE6A",
+  "words": 4,
+  "jp": "毒攻{?00FE}\\n",
+  "en": "Poison N"
+ },
+ {
+  "offset": "0x0AE74",
+  "words": 4,
+  "jp": "毒攻{?00FE}4",
+  "en": "Poison 4"
+ },
+ {
+  "offset": "0x0AE7E",
+  "words": 5,
+  "jp": "マヒ攻{?00FE}1",
+  "en": "Paralyze 1"
+ },
+ {
+  "offset": "0x0AE8A",
+  "words": 5,
+  "jp": "マヒ攻{?00FE}2",
+  "en": "Paralyze 2"
+ },
+ {
+  "offset": "0x0AE96",
+  "words": 5,
+  "jp": "マヒ攻{?00FE}\\n",
+  "en": "Paralyze N"
+ },
+ {
+  "offset": "0x0AEA2",
+  "words": 5,
+  "jp": "マヒ攻{?00FE}4",
+  "en": "Paralyze 4"
+ },
+ {
+  "offset": "0x0AEAE",
+  "words": 5,
+  "jp": "石化攻{?00FE}1",
+  "en": "Petrify 1"
+ },
+ {
+  "offset": "0x0AEBA",
+  "words": 5,
+  "jp": "石化攻{?00FE}2",
+  "en": "Petrify 2"
+ },
+ {
+  "offset": "0x0AEC6",
+  "words": 5,
+  "jp": "石化攻{?00FE}\\n",
+  "en": "Petrify N"
+ },
+ {
+  "offset": "0x0AED2",
+  "words": 5,
+  "jp": "石化攻{?00FE}4",
+  "en": "Petrify 4"
+ },
+ {
+  "offset": "0x0AEDE",
+  "words": 4,
+  "jp": "佣兵混在",
+  "en": "Mix merc"
+ },
+ {
+  "offset": "0x0AEE8",
+  "words": 6,
+  "jp": "指揮能力上昇",
+  "en": ""
+ },
+ {
+  "offset": "0x0AEF6",
+  "words": 6,
+  "jp": "指揮能力上昇",
+  "en": ""
+ },
+ {
+  "offset": "0x0AF04",
+  "words": 98,
+  "jp": ",07FJQZいがごぜだでにびぺめられイキサソヂテニピポュレン{?00D5}{?00DE}{?00E6}值数判移機防官量位選続定条音果所再→舍痺止效点济{?0195}子岩粥宗美井谷龍健生满吾收新分事{?0202}電車教宰提死師貴執護技旅簡的剣非施早星なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0AFD2",
+  "words": 6,
+  "jp": "グラディウス",
+  "en": ""
+ },
+ {
+  "offset": "0x0AFE0",
+  "words": 7,
+  "jp": "マインゴーシュ",
+  "en": ""
+ },
+ {
+  "offset": "0x0AFF8",
+  "words": 6,
+  "jp": "{?0301}斬りの短剣",
+  "en": "Wind Dagger"
+ },
+ {
+  "offset": "0x0B006",
+  "words": 8,
+  "jp": "メサイヤンソード",
+  "en": ""
+ },
+ {
+  "offset": "0x0B018",
+  "words": 6,
+  "jp": "ロングソード",
+  "en": ""
+ },
+ {
+  "offset": "0x0B026",
+  "words": 7,
+  "jp": "グレートソード",
+  "en": ""
+ },
+ {
+  "offset": "0x0B036",
+  "words": 7,
+  "jp": "ミスリルソード",
+  "en": ""
+ },
+ {
+  "offset": "0x0B046",
+  "words": 7,
+  "jp": "アイスブレード",
+  "en": ""
+ },
+ {
+  "offset": "0x0B05E",
+  "words": 6,
+  "jp": "フルンチング",
+  "en": ""
+ },
+ {
+  "offset": "0x0B074",
+  "words": 7,
+  "jp": "エクスカリバー",
+  "en": ""
+ },
+ {
+  "offset": "0x0B084",
+  "words": 6,
+  "jp": "强襲型魔光剣",
+  "en": "Beam Sword"
+ },
+ {
+  "offset": "0x0B092",
+  "words": 6,
+  "jp": "アルハザード",
+  "en": ""
+ },
+ {
+  "offset": "0x0B0A0",
+  "words": 7,
+  "jp": "ラングリッサー",
+  "en": ""
+ },
+ {
+  "offset": "0x0B0B6",
+  "words": 7,
+  "jp": "バトルアックス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B0C6",
+  "words": 8,
+  "jp": "ミスリルアックス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B0D8",
+  "words": 7,
+  "jp": "デビルアックス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B0E8",
+  "words": 7,
+  "jp": "ルーンアックス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B0F8",
+  "words": 4,
+  "jp": "鉄アレイ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B10A",
+  "words": 4,
+  "jp": "フレイル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B114",
+  "words": 8,
+  "jp": "モーニングスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0B126",
+  "words": 8,
+  "jp": "フォースハンマー",
+  "en": ""
+ },
+ {
+  "offset": "0x0B138",
+  "words": 7,
+  "jp": "ダグザのこん棒",
+  "en": ""
+ },
+ {
+  "offset": "0x0B148",
+  "words": 6,
+  "jp": "ミョッルニル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B15E",
+  "words": 7,
+  "jp": "ミスリルランス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B16E",
+  "words": 8,
+  "jp": "ブラッディランス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B180",
+  "words": 7,
+  "jp": "フレイムランス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B190",
+  "words": 6,
+  "jp": "竜騎士の騎槍",
+  "en": ""
+ },
+ {
+  "offset": "0x0B19E",
+  "words": 4,
+  "jp": "ズフタフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1A8",
+  "words": 4,
+  "jp": "スタッフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1BA",
+  "words": 8,
+  "jp": "クリスタルロッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1CC",
+  "words": 8,
+  "jp": "ウィザードロッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1DE",
+  "words": 4,
+  "jp": "灼熱の杖",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1E8",
+  "words": 4,
+  "jp": "生命の杖",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1F2",
+  "words": 4,
+  "jp": "奇跡の杖",
+  "en": ""
+ },
+ {
+  "offset": "0x0B1FC",
+  "words": 4,
+  "jp": "竜王の杖",
+  "en": ""
+ },
+ {
+  "offset": "0x0B206",
+  "words": 6,
+  "jp": "ショートボウ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B214",
+  "words": 5,
+  "jp": "ロングボウ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B220",
+  "words": 7,
+  "jp": "エルブン・ボウ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B230",
+  "words": 5,
+  "jp": "ハディング",
+  "en": ""
+ },
+ {
+  "offset": "0x0B23C",
+  "words": 7,
+  "jp": "アルテミスの弓",
+  "en": ""
+ },
+ {
+  "offset": "0x0B24C",
+  "words": 8,
+  "jp": "プレートアーマー",
+  "en": ""
+ },
+ {
+  "offset": "0x0B25E",
+  "words": 8,
+  "jp": "ミスリルアーマー",
+  "en": ""
+ },
+ {
+  "offset": "0x0B270",
+  "words": 7,
+  "jp": "ナイトプレート",
+  "en": ""
+ },
+ {
+  "offset": "0x0B280",
+  "words": 7,
+  "jp": "オーラプレート",
+  "en": ""
+ },
+ {
+  "offset": "0x0B290",
+  "words": 7,
+  "jp": "アサルトスーツ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B2A0",
+  "words": 4,
+  "jp": "六地の鎧",
+  "en": "GeoMail"
+ },
+ {
+  "offset": "0x0B2AA",
+  "words": 7,
+  "jp": "チェインメイル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B2BA",
+  "words": 8,
+  "jp": "ブレストプレート",
+  "en": ""
+ },
+ {
+  "offset": "0x0B2CC",
+  "words": 8,
+  "jp": "ドラゴンスケイル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B2DE",
+  "words": 7,
+  "jp": "アエネアスの鎧",
+  "en": ""
+ },
+ {
+  "offset": "0x0B2EE",
+  "words": 6,
+  "jp": "ハードレザー",
+  "en": ""
+ },
+ {
+  "offset": "0x0B2FC",
+  "words": 4,
+  "jp": "ワセリン",
+  "en": ""
+ },
+ {
+  "offset": "0x0B306",
+  "words": 7,
+  "jp": "エプロンドレス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B326",
+  "words": 7,
+  "jp": "メギンギョルズ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B336",
+  "words": 7,
+  "jp": "マジカルビキニ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B346",
+  "words": 8,
+  "jp": "ミラージュローブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B358",
+  "words": 5,
+  "jp": "天女の羽衣",
+  "en": ""
+ },
+ {
+  "offset": "0x0B364",
+  "words": 4,
+  "jp": "{?0224}の法衣",
+  "en": "Dk Robe"
+ },
+ {
+  "offset": "0x0B36E",
+  "words": 6,
+  "jp": "女神のドレス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B37C",
+  "words": 7,
+  "jp": "レッグガーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0B38C",
+  "words": 4,
+  "jp": "グリーブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B396",
+  "words": 7,
+  "jp": "スピードブーツ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B3AE",
+  "words": 5,
+  "jp": "ネックレス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B3BA",
+  "words": 6,
+  "jp": "アミュレット",
+  "en": ""
+ },
+ {
+  "offset": "0x0B3C8",
+  "words": 6,
+  "jp": "{?02CA}霊石の指輪",
+  "en": "Spirit Ring"
+ },
+ {
+  "offset": "0x0B3D6",
+  "words": 8,
+  "jp": "クリスタルアンク",
+  "en": ""
+ },
+ {
+  "offset": "0x0B3E8",
+  "words": 5,
+  "jp": "守りの指輪",
+  "en": ""
+ },
+ {
+  "offset": "0x0B3F4",
+  "words": 4,
+  "jp": "力の指輪",
+  "en": ""
+ },
+ {
+  "offset": "0x0B3FE",
+  "words": 4,
+  "jp": "ティアラ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B408",
+  "words": 4,
+  "jp": "クラウン",
+  "en": ""
+ },
+ {
+  "offset": "0x0B412",
+  "words": 6,
+  "jp": "スターピアス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B420",
+  "words": 6,
+  "jp": "光のヴェール",
+  "en": ""
+ },
+ {
+  "offset": "0x0B42E",
+  "words": 6,
+  "jp": "霸王の首饰り",
+  "en": "Lord Charm"
+ },
+ {
+  "offset": "0x0B43C",
+  "words": 4,
+  "jp": "竜王の冠",
+  "en": ""
+ },
+ {
+  "offset": "0x0B446",
+  "words": 7,
+  "jp": "ソニックバンド",
+  "en": ""
+ },
+ {
+  "offset": "0x0B456",
+  "words": 7,
+  "jp": "ルーンストーン",
+  "en": ""
+ },
+ {
+  "offset": "0x0B46E",
+  "words": 5,
+  "jp": "タリスマン",
+  "en": ""
+ },
+ {
+  "offset": "0x0B47A",
+  "words": 5,
+  "jp": "类のオーブ",
+  "en": "Fire Orb"
+ },
+ {
+  "offset": "0x0B486",
+  "words": 5,
+  "jp": "聖王の護符",
+  "en": ""
+ },
+ {
+  "offset": "0x0B492",
+  "words": 5,
+  "jp": "天使の羽根",
+  "en": ""
+ },
+ {
+  "offset": "0x0B49E",
+  "words": 7,
+  "jp": "ホーリーリング",
+  "en": ""
+ },
+ {
+  "offset": "0x0B4AE",
+  "words": 4,
+  "jp": "血の盟約",
+  "en": ""
+ },
+ {
+  "offset": "0x0B4B8",
+  "words": 4,
+  "jp": "血の盟約",
+  "en": ""
+ },
+ {
+  "offset": "0x0B4C2",
+  "words": 333,
+  "jp": ".17EJSapいおけざたでのふほゃりんウガゲジゾツナバフベメリン超{?00D9}{?00E0}+雇範動待令防官量左中竟件普士置制壳他熟去復接契見撤実粥美安增紀□龍渡愛保孝史失充拔環準豪聞Ⅴ@皇教巨女{?0224}人村巫徵盟侯守店携弱俩殊鉄刀彫感向倒段级並碎斬得堡模文全{?02C7}狂道球昇騎吸場射秘楽月損遥信革燃肌衣災妖冠界善賢憶買握背従狼等诚暴惯{?03E2}猛夢陰給狭風凄禁係壁即域鳥張蛇歌末葬供駿势脱藥審辞疑亡改為想預政率麾陽横宣軌崖担牲案託辛∑羯獅私権忠概顔観君迷穴栄拒荒第鏈弟狡吊腹鉛刑七纳延歳紋踏版派覗斉百貢幾算談候客八♪替詮企歡産嘆掘恩芝渣締几雨貧区土兼苗据酷噂晚镇皮宁婦{?0667}洗粋逸叫曲{?0681}聘夕泉才↓油枢^酬社溪謁拶剩掲堪推龟症圈基摄麗惚草克漠募箇抽{?0722}{?0728}{?072E}{?0733}{?0738}{?073D}{?0744}{?074A}{?0751}{?0755}{?075A}{?075D}{?0762}{?0768}{?076D}{?0772}{?0779}{?077E}{?0782}{?0787}{?078C}{?0792}{?0796}{?079C}{?07A1}{?07A6}{?07AB}シグマ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B766",
+  "words": 5,
+  "jp": "クラレット",
+  "en": ""
+ },
+ {
+  "offset": "0x0B772",
+  "words": 6,
+  "jp": "アルフレッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0B780",
+  "words": 4,
+  "jp": "ブレンダ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B78A",
+  "words": 8,
+  "jp": "ランフォード元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0B79C",
+  "words": 7,
+  "jp": "マリアンデール",
+  "en": ""
+ },
+ {
+  "offset": "0x0B7B8",
+  "words": 5,
+  "jp": "クラレット",
+  "en": ""
+ },
+ {
+  "offset": "0x0B7C4",
+  "words": 6,
+  "jp": "アルフレッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0B7D2",
+  "words": 4,
+  "jp": "ブレンダ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B7DC",
+  "words": 8,
+  "jp": "ランフォード元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0B7EE",
+  "words": 7,
+  "jp": "マリアンデール",
+  "en": ""
+ },
+ {
+  "offset": "0x0B7FE",
+  "words": 6,
+  "jp": "アルヴィンス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B80C",
+  "words": 6,
+  "jp": "ロックウェル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B81A",
+  "words": 5,
+  "jp": "ランベルト",
+  "en": ""
+ },
+ {
+  "offset": "0x0B826",
+  "words": 7,
+  "jp": "レインフォルス",
+  "en": ""
+ },
+ {
+  "offset": "0x0B836",
+  "words": 6,
+  "jp": "アイゼル将車",
+  "en": "Gn.Aizel"
+ },
+ {
+  "offset": "0x0B844",
+  "words": 5,
+  "jp": "Cナイツ1",
+  "en": "CK 1"
+ },
+ {
+  "offset": "0x0B850",
+  "words": 5,
+  "jp": "Cナイツ2",
+  "en": "CK 2"
+ },
+ {
+  "offset": "0x0B85C",
+  "words": 5,
+  "jp": "Cナイツ\\n",
+  "en": "CK 3"
+ },
+ {
+  "offset": "0x0B868",
+  "words": 5,
+  "jp": "Cナイツ4",
+  "en": "CK 4"
+ },
+ {
+  "offset": "0x0B874",
+  "words": 5,
+  "jp": "Cナイツ5",
+  "en": "CK 5"
+ },
+ {
+  "offset": "0x0B880",
+  "words": 5,
+  "jp": "Cナイツ6",
+  "en": "CK 6"
+ },
+ {
+  "offset": "0x0B88C",
+  "words": 5,
+  "jp": "Cナイツ7",
+  "en": "CK 7"
+ },
+ {
+  "offset": "0x0B898",
+  "words": 5,
+  "jp": "Cナイツ8",
+  "en": "CK 8"
+ },
+ {
+  "offset": "0x0B8A4",
+  "words": 5,
+  "jp": "Cナイツ9",
+  "en": "CK 9"
+ },
+ {
+  "offset": "0x0B8B0",
+  "words": 4,
+  "jp": "参謀ゼロ",
+  "en": ""
+ },
+ {
+  "offset": "0x0B8C2",
+  "words": 7,
+  "jp": "ギルモア新皇帝",
+  "en": ""
+ },
+ {
+  "offset": "0x0B8D2",
+  "words": 8,
+  "jp": "エストール六司教",
+  "en": "Estoll Bishop"
+ },
+ {
+  "offset": "0x0B8E4",
+  "words": 5,
+  "jp": "六司教の娘",
+  "en": "Bp.Girl"
+ },
+ {
+  "offset": "0x0B8F0",
+  "words": 4,
+  "jp": "エリック",
+  "en": ""
+ },
+ {
+  "offset": "0x0B8FA",
+  "words": 6,
+  "jp": "レナード公爵",
+  "en": ""
+ },
+ {
+  "offset": "0x0B908",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0B916",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0B924",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0B932",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0B940",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0B94E",
+  "words": 6,
+  "jp": "ガルツォーク",
+  "en": ""
+ },
+ {
+  "offset": "0x0B95C",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0B966",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0B970",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0B97A",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0B984",
+  "words": 7,
+  "jp": "ガーディアン1",
+  "en": ""
+ },
+ {
+  "offset": "0x0B994",
+  "words": 7,
+  "jp": "ガーディアン2",
+  "en": ""
+ },
+ {
+  "offset": "0x0B9A4",
+  "words": 7,
+  "jp": "ガーディアン\\n",
+  "en": "Guardian"
+ },
+ {
+  "offset": "0x0B9B4",
+  "words": 7,
+  "jp": "ガーディアン4",
+  "en": ""
+ },
+ {
+  "offset": "0x0B9C4",
+  "words": 7,
+  "jp": "ガーディアン5",
+  "en": ""
+ },
+ {
+  "offset": "0x0B9D4",
+  "words": 6,
+  "jp": "宰相ラッセル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B9E2",
+  "words": 4,
+  "jp": "ラッセル",
+  "en": ""
+ },
+ {
+  "offset": "0x0B9EC",
+  "words": 6,
+  "jp": "将車エミリー",
+  "en": "Gn.Emily"
+ },
+ {
+  "offset": "0x0B9FA",
+  "words": 6,
+  "jp": "副官エミリー",
+  "en": ""
+ },
+ {
+  "offset": "0x0BA08",
+  "words": 8,
+  "jp": "ローゼンシル女王",
+  "en": ""
+ },
+ {
+  "offset": "0x0BA1A",
+  "words": 8,
+  "jp": "ランディウス六使",
+  "en": "Landius Envoy"
+ },
+ {
+  "offset": "0x0BA2C",
+  "words": 6,
+  "jp": "ランディウス",
+  "en": ""
+ },
+ {
+  "offset": "0x0BA3A",
+  "words": 6,
+  "jp": "ウィラー提督",
+  "en": ""
+ },
+ {
+  "offset": "0x0BA48",
+  "words": 5,
+  "jp": "セレナ将車",
+  "en": "Gn.Serena"
+ },
+ {
+  "offset": "0x0BA54",
+  "words": 8,
+  "jp": "シェルファニール",
+  "en": ""
+ },
+ {
+  "offset": "0x0BA66",
+  "words": 6,
+  "jp": "アンジェリナ",
+  "en": ""
+ },
+ {
+  "offset": "0x0BA74",
+  "words": 8,
+  "jp": "{?0224}の王子ボーゼル",
+  "en": "Prince Bozel"
+ },
+ {
+  "offset": "0x0BA86",
+  "words": 7,
+  "jp": "魔将車ガイエル",
+  "en": "Gn.Gaiel"
+ },
+ {
+  "offset": "0x0BA96",
+  "words": 8,
+  "jp": "变幻のフェラキア",
+  "en": "Ferakia"
+ },
+ {
+  "offset": "0x0BAA8",
+  "words": 7,
+  "jp": "死人使いグロブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0BAB8",
+  "words": 6,
+  "jp": "ヴィラージュ",
+  "en": ""
+ },
+ {
+  "offset": "0x0BAC6",
+  "words": 7,
+  "jp": "ゴルドリー隊長",
+  "en": ""
+ },
+ {
+  "offset": "0x0BAEA",
+  "words": 7,
+  "jp": "ゴタール村村長",
+  "en": ""
+ },
+ {
+  "offset": "0x0BAFA",
+  "words": 8,
+  "jp": "六魔術師ジェシカ",
+  "en": "Mg.Jessica"
+ },
+ {
+  "offset": "0x0BB0C",
+  "words": 5,
+  "jp": "マクレーン",
+  "en": ""
+ },
+ {
+  "offset": "0x0BB18",
+  "words": 6,
+  "jp": "ギザロフ元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBAE",
+  "words": 4,
+  "jp": "一般人1",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBB8",
+  "words": 4,
+  "jp": "一般人2",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBC2",
+  "words": 4,
+  "jp": "一般人\\n",
+  "en": "Civilian"
+ },
+ {
+  "offset": "0x0BBCC",
+  "words": 4,
+  "jp": "一般人4",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBD6",
+  "words": 4,
+  "jp": "一般人5",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBE0",
+  "words": 4,
+  "jp": "一般人6",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBEA",
+  "words": 4,
+  "jp": "一般人7",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBF4",
+  "words": 4,
+  "jp": "一般人8",
+  "en": ""
+ },
+ {
+  "offset": "0x0BBFE",
+  "words": 4,
+  "jp": "一般人9",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC08",
+  "words": 5,
+  "jp": "一般人10",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC14",
+  "words": 4,
+  "jp": "一般兵1",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC1E",
+  "words": 4,
+  "jp": "一般兵2",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC28",
+  "words": 4,
+  "jp": "一般兵\\n",
+  "en": "Footman"
+ },
+ {
+  "offset": "0x0BC32",
+  "words": 4,
+  "jp": "一般兵4",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC3C",
+  "words": 4,
+  "jp": "一般兵5",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC46",
+  "words": 4,
+  "jp": "一般兵6",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC50",
+  "words": 4,
+  "jp": "一般兵7",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC5A",
+  "words": 4,
+  "jp": "一般兵8",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC64",
+  "words": 4,
+  "jp": "一般兵9",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC6E",
+  "words": 5,
+  "jp": "一般兵10",
+  "en": ""
+ },
+ {
+  "offset": "0x0BC7A",
+  "words": 5,
+  "jp": "連邦車隊長",
+  "en": "Fed.Cpt"
+ },
+ {
+  "offset": "0x0BC86",
+  "words": 6,
+  "jp": "連邦車司令官",
+  "en": "Fed.Cmd"
+ },
+ {
+  "offset": "0x0BC94",
+  "words": 7,
+  "jp": "連邦車指揮官1",
+  "en": "Fed 1"
+ },
+ {
+  "offset": "0x0BCA4",
+  "words": 7,
+  "jp": "連邦車指揮官2",
+  "en": "Fed 2"
+ },
+ {
+  "offset": "0x0BCB4",
+  "words": 7,
+  "jp": "連邦車指揮官\\n",
+  "en": "Fed 3"
+ },
+ {
+  "offset": "0x0BCC4",
+  "words": 7,
+  "jp": "連邦車指揮官4",
+  "en": "Fed 4"
+ },
+ {
+  "offset": "0x0BCD4",
+  "words": 7,
+  "jp": "連邦車指揮官5",
+  "en": "Fed 5"
+ },
+ {
+  "offset": "0x0BCE4",
+  "words": 7,
+  "jp": "連邦車指揮官6",
+  "en": "Fed 6"
+ },
+ {
+  "offset": "0x0BCF4",
+  "words": 7,
+  "jp": "連邦車指揮官7",
+  "en": "Fed 7"
+ },
+ {
+  "offset": "0x0BD04",
+  "words": 7,
+  "jp": "連邦車指揮官8",
+  "en": "Fed 8"
+ },
+ {
+  "offset": "0x0BD14",
+  "words": 7,
+  "jp": "連邦車指揮官9",
+  "en": "Fed 9"
+ },
+ {
+  "offset": "0x0BD24",
+  "words": 8,
+  "jp": "連邦車指揮官10",
+  "en": "Fed 10"
+ },
+ {
+  "offset": "0x0BD36",
+  "words": 8,
+  "jp": "連邦車指揮官11",
+  "en": "Fed 11"
+ },
+ {
+  "offset": "0x0BD48",
+  "words": 8,
+  "jp": "連邦車指揮官12",
+  "en": "Fed 12"
+ },
+ {
+  "offset": "0x0BD5A",
+  "words": 8,
+  "jp": "連邦車指揮官1\\n",
+  "en": "Fed 13"
+ },
+ {
+  "offset": "0x0BD6C",
+  "words": 8,
+  "jp": "連邦車指揮官14",
+  "en": "Fed 14"
+ },
+ {
+  "offset": "0x0BD7E",
+  "words": 8,
+  "jp": "カコンシス車隊長",
+  "en": "Kak.Cpt"
+ },
+ {
+  "offset": "0x0BD90",
+  "words": 8,
+  "jp": "カコンシス車司令",
+  "en": "Kak.Cmd"
+ },
+ {
+  "offset": "0x0BDA2",
+  "words": 7,
+  "jp": "カコンシス車1",
+  "en": "Kak 1"
+ },
+ {
+  "offset": "0x0BDB2",
+  "words": 7,
+  "jp": "カコンシス車2",
+  "en": "Kak 2"
+ },
+ {
+  "offset": "0x0BDC2",
+  "words": 7,
+  "jp": "カコンシス車\\n",
+  "en": "Kak 3"
+ },
+ {
+  "offset": "0x0BDD2",
+  "words": 7,
+  "jp": "カコンシス車4",
+  "en": "Kak 4"
+ },
+ {
+  "offset": "0x0BDE2",
+  "words": 7,
+  "jp": "カコンシス車5",
+  "en": "Kak 5"
+ },
+ {
+  "offset": "0x0BDF2",
+  "words": 7,
+  "jp": "カコンシス車6",
+  "en": "Kak 6"
+ },
+ {
+  "offset": "0x0BE02",
+  "words": 7,
+  "jp": "カコンシス車7",
+  "en": "Kak 7"
+ },
+ {
+  "offset": "0x0BE12",
+  "words": 7,
+  "jp": "カコンシス車8",
+  "en": "Kak 8"
+ },
+ {
+  "offset": "0x0BE22",
+  "words": 7,
+  "jp": "カコンシス車9",
+  "en": "Kak 9"
+ },
+ {
+  "offset": "0x0BE32",
+  "words": 8,
+  "jp": "カコンシス車10",
+  "en": "Kak 10"
+ },
+ {
+  "offset": "0x0BE44",
+  "words": 8,
+  "jp": "カコンシス車11",
+  "en": "Kak 11"
+ },
+ {
+  "offset": "0x0BE56",
+  "words": 8,
+  "jp": "カコンシス車12",
+  "en": "Kak 12"
+ },
+ {
+  "offset": "0x0BE68",
+  "words": 8,
+  "jp": "カコンシス車1\\n",
+  "en": "Kak 13"
+ },
+ {
+  "offset": "0x0BE7A",
+  "words": 8,
+  "jp": "カコンシス車14",
+  "en": "Kak 14"
+ },
+ {
+  "offset": "0x0BE8C",
+  "words": 6,
+  "jp": "モンスター1",
+  "en": ""
+ },
+ {
+  "offset": "0x0BE9A",
+  "words": 6,
+  "jp": "モンスター2",
+  "en": ""
+ },
+ {
+  "offset": "0x0BEA8",
+  "words": 6,
+  "jp": "モンスター\\n",
+  "en": "Monster"
+ },
+ {
+  "offset": "0x0BEB6",
+  "words": 6,
+  "jp": "モンスター4",
+  "en": ""
+ },
+ {
+  "offset": "0x0BEC4",
+  "words": 6,
+  "jp": "モンスター5",
+  "en": ""
+ },
+ {
+  "offset": "0x0BED2",
+  "words": 6,
+  "jp": "モンスター6",
+  "en": ""
+ },
+ {
+  "offset": "0x0BEE0",
+  "words": 6,
+  "jp": "モンスター7",
+  "en": ""
+ },
+ {
+  "offset": "0x0BEEE",
+  "words": 6,
+  "jp": "モンスター8",
+  "en": ""
+ },
+ {
+  "offset": "0x0BEFC",
+  "words": 6,
+  "jp": "モンスター9",
+  "en": ""
+ },
+ {
+  "offset": "0x0BF0A",
+  "words": 7,
+  "jp": "モンスター10",
+  "en": ""
+ },
+ {
+  "offset": "0x0BF1A",
+  "words": 7,
+  "jp": "モンスター11",
+  "en": ""
+ },
+ {
+  "offset": "0x0BF2A",
+  "words": 7,
+  "jp": "モンスター12",
+  "en": ""
+ },
+ {
+  "offset": "0x0BF3A",
+  "words": 7,
+  "jp": "モンスター1\\n",
+  "en": "Monster 1"
+ },
+ {
+  "offset": "0x0BF4A",
+  "words": 7,
+  "jp": "モンスター14",
+  "en": ""
+ },
+ {
+  "offset": "0x0BF62",
+  "words": 4,
+  "jp": "サムソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0BFA4",
+  "words": 4,
+  "jp": "兄貴10",
+  "en": ""
+ },
+ {
+  "offset": "0x0BFAE",
+  "words": 4,
+  "jp": "兄貴11",
+  "en": ""
+ },
+ {
+  "offset": "0x0BFB8",
+  "words": 4,
+  "jp": "兄貴12",
+  "en": ""
+ },
+ {
+  "offset": "0x0BFC2",
+  "words": 4,
+  "jp": "兄貴1\\n",
+  "en": "Bro 1"
+ },
+ {
+  "offset": "0x0BFCC",
+  "words": 4,
+  "jp": "兄貴14",
+  "en": ""
+ },
+ {
+  "offset": "0x0BFD6",
+  "words": 4,
+  "jp": "徵税官1",
+  "en": "Tax 1"
+ },
+ {
+  "offset": "0x0BFE0",
+  "words": 4,
+  "jp": "徵税官2",
+  "en": "Tax 2"
+ },
+ {
+  "offset": "0x0BFEA",
+  "words": 4,
+  "jp": "徵税官\\n",
+  "en": "Tax 3"
+ },
+ {
+  "offset": "0x0BFF4",
+  "words": 4,
+  "jp": "徵税官4",
+  "en": "Tax 4"
+ },
+ {
+  "offset": "0x0BFFE",
+  "words": 4,
+  "jp": "徵税官5",
+  "en": "Tax 5"
+ },
+ {
+  "offset": "0x0C008",
+  "words": 5,
+  "jp": "帝国車隊長",
+  "en": "Emp.Cpt"
+ },
+ {
+  "offset": "0x0C014",
+  "words": 7,
+  "jp": "クフィール団長",
+  "en": ""
+ },
+ {
+  "offset": "0x0C024",
+  "words": 5,
+  "jp": "帝国車司令",
+  "en": "Emp.Cmd"
+ },
+ {
+  "offset": "0x0C030",
+  "words": 6,
+  "jp": "帝国車士官1",
+  "en": "Emp 1"
+ },
+ {
+  "offset": "0x0C03E",
+  "words": 6,
+  "jp": "帝国車士官2",
+  "en": "Emp 2"
+ },
+ {
+  "offset": "0x0C04C",
+  "words": 6,
+  "jp": "帝国車士官\\n",
+  "en": "Emp 3"
+ },
+ {
+  "offset": "0x0C05A",
+  "words": 6,
+  "jp": "帝国車士官4",
+  "en": "Emp 4"
+ },
+ {
+  "offset": "0x0C068",
+  "words": 6,
+  "jp": "帝国車士官5",
+  "en": "Emp 5"
+ },
+ {
+  "offset": "0x0C076",
+  "words": 6,
+  "jp": "帝国車士官6",
+  "en": "Emp 6"
+ },
+ {
+  "offset": "0x0C084",
+  "words": 6,
+  "jp": "帝国車士官7",
+  "en": "Emp 7"
+ },
+ {
+  "offset": "0x0C092",
+  "words": 6,
+  "jp": "帝国車士官8",
+  "en": "Emp 8"
+ },
+ {
+  "offset": "0x0C0A0",
+  "words": 6,
+  "jp": "帝国車士官9",
+  "en": "Emp 9"
+ },
+ {
+  "offset": "0x0C0AE",
+  "words": 7,
+  "jp": "帝国車士官10",
+  "en": "Emp 10"
+ },
+ {
+  "offset": "0x0C0BE",
+  "words": 7,
+  "jp": "帝国車士官11",
+  "en": "Emp 11"
+ },
+ {
+  "offset": "0x0C0CE",
+  "words": 7,
+  "jp": "帝国車士官12",
+  "en": "Emp 12"
+ },
+ {
+  "offset": "0x0C0DE",
+  "words": 7,
+  "jp": "帝国車士官1\\n",
+  "en": "Emp 13"
+ },
+ {
+  "offset": "0x0C0EE",
+  "words": 7,
+  "jp": "帝国車士官14",
+  "en": "Emp 14"
+ },
+ {
+  "offset": "0x0C0FE",
+  "words": 5,
+  "jp": "同盟車隊長",
+  "en": "Aly.Cpt"
+ },
+ {
+  "offset": "0x0C10A",
+  "words": 5,
+  "jp": "同盟車司令",
+  "en": "Aly.Cmd"
+ },
+ {
+  "offset": "0x0C116",
+  "words": 6,
+  "jp": "同盟車士官1",
+  "en": "Aly 1"
+ },
+ {
+  "offset": "0x0C124",
+  "words": 6,
+  "jp": "同盟車士官2",
+  "en": "Aly 2"
+ },
+ {
+  "offset": "0x0C132",
+  "words": 6,
+  "jp": "同盟車士官\\n",
+  "en": "Aly 3"
+ },
+ {
+  "offset": "0x0C140",
+  "words": 6,
+  "jp": "同盟車士官4",
+  "en": "Aly 4"
+ },
+ {
+  "offset": "0x0C14E",
+  "words": 6,
+  "jp": "同盟車士官5",
+  "en": "Aly 5"
+ },
+ {
+  "offset": "0x0C15C",
+  "words": 6,
+  "jp": "同盟車士官6",
+  "en": "Aly 6"
+ },
+ {
+  "offset": "0x0C16A",
+  "words": 6,
+  "jp": "同盟車士官7",
+  "en": "Aly 7"
+ },
+ {
+  "offset": "0x0C178",
+  "words": 6,
+  "jp": "同盟車士官8",
+  "en": "Aly 8"
+ },
+ {
+  "offset": "0x0C186",
+  "words": 6,
+  "jp": "同盟車士官9",
+  "en": "Aly 9"
+ },
+ {
+  "offset": "0x0C194",
+  "words": 7,
+  "jp": "同盟車士官10",
+  "en": "Aly 10"
+ },
+ {
+  "offset": "0x0C1A4",
+  "words": 7,
+  "jp": "同盟車士官11",
+  "en": "Aly 11"
+ },
+ {
+  "offset": "0x0C1B4",
+  "words": 7,
+  "jp": "同盟車士官12",
+  "en": "Aly 12"
+ },
+ {
+  "offset": "0x0C1C4",
+  "words": 7,
+  "jp": "同盟車士官1\\n",
+  "en": "Aly 13"
+ },
+ {
+  "offset": "0x0C1D4",
+  "words": 7,
+  "jp": "同盟車士官14",
+  "en": "Aly 14"
+ },
+ {
+  "offset": "0x0C20C",
+  "words": 8,
+  "jp": "執事マスターソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0C21E",
+  "words": 8,
+  "jp": "執事マスターソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0C236",
+  "words": 8,
+  "jp": "サルラス車兵士1",
+  "en": "Slr 1"
+ },
+ {
+  "offset": "0x0C248",
+  "words": 8,
+  "jp": "サルラス車兵士2",
+  "en": "Slr 2"
+ },
+ {
+  "offset": "0x0C25A",
+  "words": 8,
+  "jp": "サルラス車兵士\\n",
+  "en": "Slr 3"
+ },
+ {
+  "offset": "0x0C26C",
+  "words": 8,
+  "jp": "サルラス車兵士4",
+  "en": "Slr 4"
+ },
+ {
+  "offset": "0x0C27E",
+  "words": 8,
+  "jp": "サルラス車兵士5",
+  "en": "Slr 5"
+ },
+ {
+  "offset": "0x0C290",
+  "words": 8,
+  "jp": "サルラス車兵士6",
+  "en": "Slr 6"
+ },
+ {
+  "offset": "0x0C2A2",
+  "words": 8,
+  "jp": "サルラス車兵士7",
+  "en": "Slr 7"
+ },
+ {
+  "offset": "0x0C2B4",
+  "words": 8,
+  "jp": "サルラス車兵士8",
+  "en": "Slr 8"
+ },
+ {
+  "offset": "0x0C30E",
+  "words": 4,
+  "jp": "部下10",
+  "en": ""
+ },
+ {
+  "offset": "0x0C326",
+  "words": 6,
+  "jp": "クェイド侯爵",
+  "en": ""
+ },
+ {
+  "offset": "0x0C3AC",
+  "words": 4,
+  "jp": "女佣兵1",
+  "en": "FMrc 1"
+ },
+ {
+  "offset": "0x0C3B6",
+  "words": 4,
+  "jp": "女佣兵2",
+  "en": "FMrc 2"
+ },
+ {
+  "offset": "0x0C3C0",
+  "words": 4,
+  "jp": "女佣兵\\n",
+  "en": "FMrc 3"
+ },
+ {
+  "offset": "0x0C3CA",
+  "words": 4,
+  "jp": "女佣兵4",
+  "en": "FMrc 4"
+ },
+ {
+  "offset": "0x0C3D4",
+  "words": 4,
+  "jp": "女佣兵5",
+  "en": "FMrc 5"
+ },
+ {
+  "offset": "0x0C406",
+  "words": 4,
+  "jp": "守備兵1",
+  "en": ""
+ },
+ {
+  "offset": "0x0C410",
+  "words": 4,
+  "jp": "守備兵2",
+  "en": ""
+ },
+ {
+  "offset": "0x0C41A",
+  "words": 4,
+  "jp": "守備兵\\n",
+  "en": "Guard"
+ },
+ {
+  "offset": "0x0C424",
+  "words": 4,
+  "jp": "守備兵4",
+  "en": ""
+ },
+ {
+  "offset": "0x0C42E",
+  "words": 4,
+  "jp": "守備兵5",
+  "en": ""
+ },
+ {
+  "offset": "0x0C490",
+  "words": 4,
+  "jp": "魔動技師",
+  "en": ""
+ },
+ {
+  "offset": "0x0C49A",
+  "words": 8,
+  "jp": "クリムゾンナイツ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C4E8",
+  "words": 6,
+  "jp": "ジークハルト",
+  "en": ""
+ },
+ {
+  "offset": "0x0C4F6",
+  "words": 6,
+  "jp": "オペレーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0C504",
+  "words": 6,
+  "jp": "オペレーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0C51A",
+  "words": 6,
+  "jp": "ラソフォード",
+  "en": ""
+ },
+ {
+  "offset": "0x0C528",
+  "words": 6,
+  "jp": "アルフしッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0C536",
+  "words": 5,
+  "jp": "オバさま1",
+  "en": ""
+ },
+ {
+  "offset": "0x0C542",
+  "words": 5,
+  "jp": "オバさま2",
+  "en": ""
+ },
+ {
+  "offset": "0x0C54E",
+  "words": 5,
+  "jp": "オバさま\\n",
+  "en": "Madam"
+ },
+ {
+  "offset": "0x0C55A",
+  "words": 5,
+  "jp": "オバさま4",
+  "en": ""
+ },
+ {
+  "offset": "0x0C56E",
+  "words": 6,
+  "jp": "アルバイト1",
+  "en": ""
+ },
+ {
+  "offset": "0x0C57C",
+  "words": 6,
+  "jp": "アルバイト2",
+  "en": ""
+ },
+ {
+  "offset": "0x0C58A",
+  "words": 7,
+  "jp": "ゴルドリー隊長",
+  "en": ""
+ },
+ {
+  "offset": "0x0C59A",
+  "words": 5,
+  "jp": "カコンシス",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5A6",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5B2",
+  "words": 4,
+  "jp": "カルザス",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5BC",
+  "words": 4,
+  "jp": "サルラス",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5C6",
+  "words": 4,
+  "jp": "クェイド",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5D0",
+  "words": 6,
+  "jp": "マスターソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5DE",
+  "words": 5,
+  "jp": "クフィール",
+  "en": ""
+ },
+ {
+  "offset": "0x0C5EA",
+  "words": 6,
+  "jp": "ランフォード",
+  "en": ""
+ },
+ {
+  "offset": "0x0C600",
+  "words": 4,
+  "jp": "アイゼル",
+  "en": ""
+ },
+ {
+  "offset": "0x0C610",
+  "words": 4,
+  "jp": "ギルモア",
+  "en": ""
+ },
+ {
+  "offset": "0x0C61A",
+  "words": 5,
+  "jp": "エストール",
+  "en": ""
+ },
+ {
+  "offset": "0x0C626",
+  "words": 4,
+  "jp": "レナード",
+  "en": ""
+ },
+ {
+  "offset": "0x0C630",
+  "words": 4,
+  "jp": "エミリー",
+  "en": ""
+ },
+ {
+  "offset": "0x0C63A",
+  "words": 6,
+  "jp": "ローゼンシル",
+  "en": ""
+ },
+ {
+  "offset": "0x0C648",
+  "words": 4,
+  "jp": "ウィラー",
+  "en": ""
+ },
+ {
+  "offset": "0x0C65A",
+  "words": 4,
+  "jp": "ボーゼル",
+  "en": ""
+ },
+ {
+  "offset": "0x0C664",
+  "words": 4,
+  "jp": "ガイエル",
+  "en": ""
+ },
+ {
+  "offset": "0x0C66E",
+  "words": 5,
+  "jp": "フェラキア",
+  "en": ""
+ },
+ {
+  "offset": "0x0C682",
+  "words": 5,
+  "jp": "ゴルドリー",
+  "en": ""
+ },
+ {
+  "offset": "0x0C68E",
+  "words": 4,
+  "jp": "ゴタール",
+  "en": ""
+ },
+ {
+  "offset": "0x0C698",
+  "words": 4,
+  "jp": "ジェシカ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C6A2",
+  "words": 4,
+  "jp": "ギザロフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C6AC",
+  "words": 4,
+  "jp": "ギザロフ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C6B6",
+  "words": 333,
+  "jp": ".17EJSapいおけざたでのふほゃりんウガゲジゾツナバフベメリン超{?00D9}{?00E0}+雇範動待令防官量加時取利速情士所参者舍麻{?0174}上地毒名葉哉戸惠彦野康太山久满本吉浩期新充容込境準項陣電Ⅴ帥車帝教巨女{?0224}人村祭兄国執侯民警族带弱片受短鉄銳彫早悪比最粉斬得刃竜性日减欠恐道鎖少乗类兆端-訓矢（席跡固議衣仰好輪統世包立限略便称握押{?03B5}掛男家己精近住格獲惯弹旺虫犬針望捕害視赤爆起除{?041D}滑髪恋罪供伏急絡詰疑薦港務勘虐監麾門線船{?04C5}留宙埋如堕∑宮蜘懐義彩権臨斡淡訳杭構挟痛齿里登静袋{?056F}枚枝搜污姬畳偽央嘘挖青伐蓄桁咲陛牢庄导憤届棺章踏泡继筒股業隠縁抹紙頑斥拉都哀貨測怠図排歡館献慮掘慕卑札陷覧窟隙区{?0633}融昧穫苗粘惜晚喫{?065B}婦戚炊庭庫曲{?0681}颊泉↓Ω析医酬至河剩腐委窓填售摄麗韩洋逢賭拘{?071E}{?0727}{?072F}{?0737}{?073F}{?0748}{?074F}シグマ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C95A",
+  "words": 5,
+  "jp": "クラレット",
+  "en": ""
+ },
+ {
+  "offset": "0x0C966",
+  "words": 6,
+  "jp": "アルフレッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0C974",
+  "words": 4,
+  "jp": "ブレンダ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C97E",
+  "words": 8,
+  "jp": "ランフォード元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0C990",
+  "words": 7,
+  "jp": "マリアンデール",
+  "en": ""
+ },
+ {
+  "offset": "0x0C9AC",
+  "words": 5,
+  "jp": "クラレット",
+  "en": ""
+ },
+ {
+  "offset": "0x0C9B8",
+  "words": 6,
+  "jp": "アルフレッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0C9C6",
+  "words": 4,
+  "jp": "ブレンダ",
+  "en": ""
+ },
+ {
+  "offset": "0x0C9D0",
+  "words": 8,
+  "jp": "ランフォード元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0C9E2",
+  "words": 7,
+  "jp": "マリアンデール",
+  "en": ""
+ },
+ {
+  "offset": "0x0C9F2",
+  "words": 6,
+  "jp": "アルヴィンス",
+  "en": ""
+ },
+ {
+  "offset": "0x0CA00",
+  "words": 6,
+  "jp": "ロックウェル",
+  "en": ""
+ },
+ {
+  "offset": "0x0CA0E",
+  "words": 5,
+  "jp": "ランベルト",
+  "en": ""
+ },
+ {
+  "offset": "0x0CA1A",
+  "words": 7,
+  "jp": "レインフォルス",
+  "en": ""
+ },
+ {
+  "offset": "0x0CA2A",
+  "words": 6,
+  "jp": "アイゼル将車",
+  "en": "Gn.Aizel"
+ },
+ {
+  "offset": "0x0CA38",
+  "words": 5,
+  "jp": "Cナイツ1",
+  "en": "CK 1"
+ },
+ {
+  "offset": "0x0CA44",
+  "words": 5,
+  "jp": "Cナイツ2",
+  "en": "CK 2"
+ },
+ {
+  "offset": "0x0CA50",
+  "words": 5,
+  "jp": "Cナイツ\\n",
+  "en": "CK 3"
+ },
+ {
+  "offset": "0x0CA5C",
+  "words": 5,
+  "jp": "Cナイツ4",
+  "en": "CK 4"
+ },
+ {
+  "offset": "0x0CA68",
+  "words": 5,
+  "jp": "Cナイツ5",
+  "en": "CK 5"
+ },
+ {
+  "offset": "0x0CA74",
+  "words": 5,
+  "jp": "Cナイツ6",
+  "en": "CK 6"
+ },
+ {
+  "offset": "0x0CA80",
+  "words": 5,
+  "jp": "Cナイツ7",
+  "en": "CK 7"
+ },
+ {
+  "offset": "0x0CA8C",
+  "words": 5,
+  "jp": "Cナイツ8",
+  "en": "CK 8"
+ },
+ {
+  "offset": "0x0CA98",
+  "words": 5,
+  "jp": "Cナイツ9",
+  "en": "CK 9"
+ },
+ {
+  "offset": "0x0CAA4",
+  "words": 4,
+  "jp": "参謀ゼロ",
+  "en": ""
+ },
+ {
+  "offset": "0x0CAB6",
+  "words": 7,
+  "jp": "ギルモア新皇帝",
+  "en": ""
+ },
+ {
+  "offset": "0x0CAC6",
+  "words": 8,
+  "jp": "エストール六司教",
+  "en": "Estoll Bishop"
+ },
+ {
+  "offset": "0x0CAD8",
+  "words": 5,
+  "jp": "六司教の娘",
+  "en": "Bp.Girl"
+ },
+ {
+  "offset": "0x0CAE4",
+  "words": 4,
+  "jp": "エリック",
+  "en": ""
+ },
+ {
+  "offset": "0x0CAEE",
+  "words": 6,
+  "jp": "レナード公爵",
+  "en": ""
+ },
+ {
+  "offset": "0x0CAFC",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB0A",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB18",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB26",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB34",
+  "words": 6,
+  "jp": "リベラリスト",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB42",
+  "words": 6,
+  "jp": "ガルツォーク",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB50",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB5A",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB64",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB6E",
+  "words": 4,
+  "jp": "魔動巨兵",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB78",
+  "words": 6,
+  "jp": "ガーディアン",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB86",
+  "words": 6,
+  "jp": "ガーディアン",
+  "en": ""
+ },
+ {
+  "offset": "0x0CB94",
+  "words": 6,
+  "jp": "ガーディアン",
+  "en": ""
+ },
+ {
+  "offset": "0x0CBA2",
+  "words": 6,
+  "jp": "ガーディアン",
+  "en": ""
+ },
+ {
+  "offset": "0x0CBB0",
+  "words": 6,
+  "jp": "ガーディアン",
+  "en": ""
+ },
+ {
+  "offset": "0x0CBBE",
+  "words": 6,
+  "jp": "宰相ラッセル",
+  "en": ""
+ },
+ {
+  "offset": "0x0CBCC",
+  "words": 4,
+  "jp": "ラッセル",
+  "en": ""
+ },
+ {
+  "offset": "0x0CBD6",
+  "words": 6,
+  "jp": "将車エミリー",
+  "en": "Gn.Emily"
+ },
+ {
+  "offset": "0x0CBE4",
+  "words": 6,
+  "jp": "副官エミリー",
+  "en": ""
+ },
+ {
+  "offset": "0x0CBF2",
+  "words": 8,
+  "jp": "ローゼンシル女王",
+  "en": ""
+ },
+ {
+  "offset": "0x0CC04",
+  "words": 8,
+  "jp": "ランディウス六使",
+  "en": "Landius Envoy"
+ },
+ {
+  "offset": "0x0CC16",
+  "words": 6,
+  "jp": "ランディウス",
+  "en": ""
+ },
+ {
+  "offset": "0x0CC24",
+  "words": 6,
+  "jp": "ウィラー提督",
+  "en": ""
+ },
+ {
+  "offset": "0x0CC32",
+  "words": 5,
+  "jp": "セレナ将車",
+  "en": "Gn.Serena"
+ },
+ {
+  "offset": "0x0CC3E",
+  "words": 8,
+  "jp": "シェルファニール",
+  "en": ""
+ },
+ {
+  "offset": "0x0CC50",
+  "words": 6,
+  "jp": "アンジェリナ",
+  "en": ""
+ },
+ {
+  "offset": "0x0CC5E",
+  "words": 8,
+  "jp": "{?0224}の王子ボーゼル",
+  "en": "Prince Bozel"
+ },
+ {
+  "offset": "0x0CC70",
+  "words": 7,
+  "jp": "魔将車ガイエル",
+  "en": "Gn.Gaiel"
+ },
+ {
+  "offset": "0x0CC80",
+  "words": 8,
+  "jp": "变幻のフェラキア",
+  "en": "Ferakia"
+ },
+ {
+  "offset": "0x0CC92",
+  "words": 7,
+  "jp": "死人使いグロブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0CCA2",
+  "words": 6,
+  "jp": "ヴィラージュ",
+  "en": ""
+ },
+ {
+  "offset": "0x0CCB0",
+  "words": 7,
+  "jp": "ゴルドリー隊長",
+  "en": ""
+ },
+ {
+  "offset": "0x0CCD4",
+  "words": 7,
+  "jp": "ゴタール村村長",
+  "en": ""
+ },
+ {
+  "offset": "0x0CCE4",
+  "words": 8,
+  "jp": "六魔術師ジェシカ",
+  "en": "Mg.Jessica"
+ },
+ {
+  "offset": "0x0CCF6",
+  "words": 5,
+  "jp": "マクレーン",
+  "en": ""
+ },
+ {
+  "offset": "0x0CD02",
+  "words": 6,
+  "jp": "ギザロフ元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0CE1A",
+  "words": 5,
+  "jp": "連邦車隊長",
+  "en": "Fed.Cpt"
+ },
+ {
+  "offset": "0x0CE26",
+  "words": 6,
+  "jp": "連邦車司令官",
+  "en": "Fed.Cmd"
+ },
+ {
+  "offset": "0x0CE34",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE42",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE50",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE5E",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE6C",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE7A",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE88",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CE96",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CEA4",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CEB2",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CEC0",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CECE",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CEDC",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CEEA",
+  "words": 6,
+  "jp": "連邦車指揮官",
+  "en": "Fed.Off"
+ },
+ {
+  "offset": "0x0CEF8",
+  "words": 8,
+  "jp": "カコンシス車隊長",
+  "en": "Kak.Cpt"
+ },
+ {
+  "offset": "0x0CF0A",
+  "words": 8,
+  "jp": "カコンシス車司令",
+  "en": "Kak.Cmd"
+ },
+ {
+  "offset": "0x0CF1C",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF2E",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF40",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF52",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF64",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF76",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF88",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CF9A",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CFAC",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CFBE",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CFD0",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CFE2",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0CFF4",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0D006",
+  "words": 8,
+  "jp": "カコンシス車士官",
+  "en": "Kak.Off"
+ },
+ {
+  "offset": "0x0D018",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D024",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D030",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D03C",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D048",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D054",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D060",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D06C",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D078",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D084",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D090",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D09C",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D0A8",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D0B4",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D0C8",
+  "words": 4,
+  "jp": "サムソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0D144",
+  "words": 7,
+  "jp": "カルザス車隊長",
+  "en": "Klz.Cpt"
+ },
+ {
+  "offset": "0x0D154",
+  "words": 7,
+  "jp": "クフィール団長",
+  "en": ""
+ },
+ {
+  "offset": "0x0D164",
+  "words": 7,
+  "jp": "カルザス車司令",
+  "en": "Klz.Cmd"
+ },
+ {
+  "offset": "0x0D174",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D184",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D194",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D1A4",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D1B4",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D1C4",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D1D4",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D1E4",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D1F4",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D204",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D214",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D224",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D234",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D244",
+  "words": 7,
+  "jp": "カルザス車士官",
+  "en": "Klz.Off"
+ },
+ {
+  "offset": "0x0D254",
+  "words": 7,
+  "jp": "三国同盟車隊長",
+  "en": "3P.Cpt"
+ },
+ {
+  "offset": "0x0D264",
+  "words": 7,
+  "jp": "三国同盟車司令",
+  "en": "3P.Cmd"
+ },
+ {
+  "offset": "0x0D274",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D284",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D294",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D2A4",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D2B4",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D2C4",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D2D4",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D2E4",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D2F4",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D304",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D314",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D324",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D334",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D344",
+  "words": 7,
+  "jp": "三国同盟車士官",
+  "en": "3P.Off"
+ },
+ {
+  "offset": "0x0D372",
+  "words": 8,
+  "jp": "執事マスターソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0D384",
+  "words": 8,
+  "jp": "執事マスターソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0D39C",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D3AC",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D3BC",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D3CC",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D3DC",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D3EC",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D3FC",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D40C",
+  "words": 7,
+  "jp": "サルラス車兵士",
+  "en": "Slr"
+ },
+ {
+  "offset": "0x0D466",
+  "words": 6,
+  "jp": "クェイド侯爵",
+  "en": ""
+ },
+ {
+  "offset": "0x0D582",
+  "words": 4,
+  "jp": "魔動技師",
+  "en": ""
+ },
+ {
+  "offset": "0x0D58C",
+  "words": 8,
+  "jp": "クリムゾンナイツ",
+  "en": ""
+ },
+ {
+  "offset": "0x0D5CE",
+  "words": 6,
+  "jp": "ジークハルト",
+  "en": ""
+ },
+ {
+  "offset": "0x0D5DC",
+  "words": 6,
+  "jp": "オペレーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D5EA",
+  "words": 6,
+  "jp": "オペレーター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D600",
+  "words": 6,
+  "jp": "ラソフォード",
+  "en": ""
+ },
+ {
+  "offset": "0x0D60E",
+  "words": 6,
+  "jp": "アルフしッド",
+  "en": ""
+ },
+ {
+  "offset": "0x0D61C",
+  "words": 4,
+  "jp": "オバさま",
+  "en": ""
+ },
+ {
+  "offset": "0x0D626",
+  "words": 4,
+  "jp": "オバさま",
+  "en": ""
+ },
+ {
+  "offset": "0x0D630",
+  "words": 4,
+  "jp": "オバさま",
+  "en": ""
+ },
+ {
+  "offset": "0x0D63A",
+  "words": 4,
+  "jp": "オバさま",
+  "en": ""
+ },
+ {
+  "offset": "0x0D64C",
+  "words": 5,
+  "jp": "アルバイト",
+  "en": ""
+ },
+ {
+  "offset": "0x0D658",
+  "words": 5,
+  "jp": "アルバイト",
+  "en": ""
+ },
+ {
+  "offset": "0x0D664",
+  "words": 7,
+  "jp": "ゴルドリー隊長",
+  "en": ""
+ },
+ {
+  "offset": "0x0D674",
+  "words": 5,
+  "jp": "カコンシス",
+  "en": ""
+ },
+ {
+  "offset": "0x0D680",
+  "words": 5,
+  "jp": "モンスター",
+  "en": ""
+ },
+ {
+  "offset": "0x0D68C",
+  "words": 4,
+  "jp": "カルザス",
+  "en": ""
+ },
+ {
+  "offset": "0x0D696",
+  "words": 4,
+  "jp": "サルラス",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6A0",
+  "words": 4,
+  "jp": "クェイド",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6AA",
+  "words": 6,
+  "jp": "マスターソン",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6B8",
+  "words": 5,
+  "jp": "クフィール",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6C4",
+  "words": 6,
+  "jp": "ランフォード",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6D2",
+  "words": 7,
+  "jp": "マリアンデール",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6E2",
+  "words": 6,
+  "jp": "アイゼル将車",
+  "en": "Gn.Aizel"
+ },
+ {
+  "offset": "0x0D6F0",
+  "words": 4,
+  "jp": "参謀ゼロ",
+  "en": ""
+ },
+ {
+  "offset": "0x0D6FA",
+  "words": 7,
+  "jp": "ギルモア新皇帝",
+  "en": ""
+ },
+ {
+  "offset": "0x0D70A",
+  "words": 8,
+  "jp": "エストール六司教",
+  "en": "Estoll Bishop"
+ },
+ {
+  "offset": "0x0D71C",
+  "words": 6,
+  "jp": "レナード公爵",
+  "en": ""
+ },
+ {
+  "offset": "0x0D72A",
+  "words": 6,
+  "jp": "将車エミリー",
+  "en": "Gn.Emily"
+ },
+ {
+  "offset": "0x0D738",
+  "words": 8,
+  "jp": "ローゼンシル女王",
+  "en": ""
+ },
+ {
+  "offset": "0x0D74A",
+  "words": 6,
+  "jp": "ウィラー提督",
+  "en": ""
+ },
+ {
+  "offset": "0x0D758",
+  "words": 5,
+  "jp": "セレナ将車",
+  "en": "Gn.Serena"
+ },
+ {
+  "offset": "0x0D764",
+  "words": 8,
+  "jp": "{?0224}の王子ボーゼル",
+  "en": "Prince Bozel"
+ },
+ {
+  "offset": "0x0D776",
+  "words": 7,
+  "jp": "魔将車ガイエル",
+  "en": "Gn.Gaiel"
+ },
+ {
+  "offset": "0x0D786",
+  "words": 8,
+  "jp": "变幻のフェラキア",
+  "en": "Ferakia"
+ },
+ {
+  "offset": "0x0D798",
+  "words": 7,
+  "jp": "死人使いグロブ",
+  "en": ""
+ },
+ {
+  "offset": "0x0D7A8",
+  "words": 7,
+  "jp": "ゴルドリー隊長",
+  "en": ""
+ },
+ {
+  "offset": "0x0D7B8",
+  "words": 7,
+  "jp": "ゴタール村村長",
+  "en": ""
+ },
+ {
+  "offset": "0x0D7C8",
+  "words": 8,
+  "jp": "六魔術師ジェシカ",
+  "en": "Mg.Jessica"
+ },
+ {
+  "offset": "0x0D7DA",
+  "words": 6,
+  "jp": "ギザロフ元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0D7E8",
+  "words": 6,
+  "jp": "ギザロフ元帥",
+  "en": ""
+ },
+ {
+  "offset": "0x0D7F6",
+  "words": 261,
+  "jp": "\\nQSZごせひべんゥゼッドホル・{?00E6}断戦回&低照能止点葉川堀辺生由分{?0201}教副徵警殊波苦银麟代壊{?02E4}{?02F8}熱-邪含座服天忘厳侶直背男険獄憎资妨会滨葬父審二港東卿訪载占航磨秤紹ヶ栅展登深挖青嫌继洞徹候騙怠諸札澄穫科堵粋踊累癖校委録閃掌戮{?072A}{?0741}{?0758}{?076F}{?0780}{?0797}{?07AE}{?07B5}{?07C8}{?07DF}{?07F6}{?0805}{?0818}{?0822}{?0839}{?0847}{?085A}{?0871}{?0888}{?0897}{?08A8}{?08BF}{?08D6}{?08ED}{?0902}{?0919}{?0930}{?093C}{?0950}{?0967}{?097E}{?0992}{?09A2}{?09B9}{?09CB}{?09E2}{?09E9}{?0A00}{?0A0E}{?0A25}{?0A2C}{?0A43}{?0A58}{?0A6F}{?0A76}{?0A8D}{?0AA2}{?0AB9}{?0AC0}{?0AD7}{?0AEE}{?0B05}{?0B0E}{?0B25}{?0B3A}{?0B51}{?0B58}{?0B6F}{?0B7D}{?0B94}{?0B9D}{?0BB4}{?0BC5}{?0BDC}{?0BE6}{?0BFD}{?0C14}{?0C1A}{?0C21}{?0C38}{?0C4F}{?0C58}{?0C67}{?0C7E}{?0C94}{?0CAB}{?0CBA}{?0CD1}{?0CE8}{?0CF0}{?0CF7}{?0D0E}{?0D25}{?0D3A}{?0D41}{?0D58}{?0D6F}{?0D83}{?0D8A}{?0DA1}{?0DB8}{?0DCD}{?0DD4}{?0DEB}{?0E02}{?0E13}{?0E23}{?0E3A}{?0E51}{?0E66}{?0E6F}{?0E86}{?0E9D}{?0EB3}{?0EBC}{?0ED3}{?0EEA}{?0EFD}{?0F0C}{?0F23}{?0F3A}{?0F50}{?0F5F}{?0F76}{?0F7E}{?0F94}{?0F9D}{?0FB4}{?0FCB}{?0FE1}{?0FF5}{?100C}{?1023}{?1032}{?103A}{?1051}{?1068}{?1078}{?1085}{?109C}{?10B1}{?10C7}{?10D0}{?10E7}{?10FE}{?1111}{?1125}{?113C}{?114D}{?114F}最も{?025A}本的な兵士.",
+  "en": ""
+ },
+ {
+  "offset": "0x0DA02",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DA34",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DA42",
+  "words": 22,
+  "jp": "武装强化した重装步兵.ソルジャーと比べ,{?025A}本",
+  "en": "Heavy armed infantry. Vs a Soldier its base"
+ },
+ {
+  "offset": "0x0DA70",
+  "words": 6,
+  "jp": "能力が高い.",
+  "en": "very able."
+ },
+ {
+  "offset": "0x0DA7E",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DAAC",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DABA",
+  "words": 22,
+  "jp": "厳しい訓練k受けた兵士で,非常に高い戦{?0110}能力",
+  "en": "A hard-trained soldier with high battle"
+ },
+ {
+  "offset": "0x0DAE8",
+  "words": 4,
+  "jp": "k誇る.",
+  "en": "high."
+ },
+ {
+  "offset": "0x0DAF2",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DB20",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DB2E",
+  "words": 5,
+  "jp": "一般市民.",
+  "en": "Commoner."
+ },
+ {
+  "offset": "0x0DB3A",
+  "words": 17,
+  "jp": "戦う事はできないので,注意が必要.",
+  "en": "It cannot fight, so be careful."
+ },
+ {
+  "offset": "0x0DB5E",
+  "words": 15,
+  "jp": "特に騎馬には非常に不利である.",
+  "en": "Very weak against cavalry."
+ },
+ {
+  "offset": "0x0DB7E",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DB8C",
+  "words": 22,
+  "jp": "狼男のレッサー種.しかし素早い動きk活かした",
+  "en": "A lesser werewolf that uses quick moves for"
+ },
+ {
+  "offset": "0x0DBBA",
+  "words": 17,
+  "jp": "ヒット&アウェイ戦法k得意とする.",
+  "en": "It excels at hit-and-run."
+ },
+ {
+  "offset": "0x0DBDE",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DC0C",
+  "words": 9,
+  "jp": "スキル:マヒ攻{?00FE}1",
+  "en": "Skill: Paralyze 1"
+ },
+ {
+  "offset": "0x0DC20",
+  "words": 22,
+  "jp": "身長2mk越す,肉食性の巨人.動きは钝いが,",
+  "en": "A meat-eating giant over 2m. Slow, but its"
+ },
+ {
+  "offset": "0x0DC4E",
+  "words": 13,
+  "jp": "その破壊力はあなどれない.",
+  "en": "power cannot be ignored."
+ },
+ {
+  "offset": "0x0DC6A",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DC98",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DCA6",
+  "words": 22,
+  "jp": "巨六な怪力モンスター.オーガーと同じく動きは",
+  "en": "A huge brute monster. Like an Ogre it is"
+ },
+ {
+  "offset": "0x0DCD4",
+  "words": 16,
+  "jp": "钝いが,戦{?0110}能力は恐ろしく高い.",
+  "en": "slow but very strong in battle."
+ },
+ {
+  "offset": "0x0DCF6",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DD24",
+  "words": 9,
+  "jp": "スキル:ヒーリング",
+  "en": "Skill: Healing"
+ },
+ {
+  "offset": "0x0DD38",
+  "words": 22,
+  "jp": "{?0224}の力k得た兵士で,驚異的な戦{?0110}能力k持つ.",
+  "en": "A holy soldier with amazing battle power."
+ },
+ {
+  "offset": "0x0DD66",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DD98",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0DDAA",
+  "words": 22,
+  "jp": "リンゴ神,オーカダが创造したと言われている,",
+  "en": "Said made by the apple god Okada, a woman"
+ },
+ {
+  "offset": "0x0DDD8",
+  "words": 11,
+  "jp": "家事全般kこなす女性.",
+  "en": "she does housework."
+ },
+ {
+  "offset": "0x0DDF0",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DE1E",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DE2C",
+  "words": 22,
+  "jp": "追いはぎ等k働く悪漢.通常の步兵と比べ,身の",
+  "en": "A bandit. Vs normal infantry it is more"
+ },
+ {
+  "offset": "0x0DE5A",
+  "words": 17,
+  "jp": "こなしに優れており,機動力が高い.",
+  "en": "agile and mobile."
+ },
+ {
+  "offset": "0x0DE7E",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DEAC",
+  "words": 10,
+  "jp": "スキル:クリティカル",
+  "en": "Skill: Critical"
+ },
+ {
+  "offset": "0x0DEC2",
+  "words": 22,
+  "jp": "己の肉体k桂限まで高めた戦士.素早い行動と高",
+  "en": "A warrior honed to the limit. Fast and"
+ },
+ {
+  "offset": "0x0DEF0",
+  "words": 18,
+  "jp": "い機動力k活かした戦いk得意とする.",
+  "en": "very mobile, he excels in battle."
+ },
+ {
+  "offset": "0x0DF16",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0DF44",
+  "words": 10,
+  "jp": "スキル:クリティカル",
+  "en": "Skill: Critical"
+ },
+ {
+  "offset": "0x0DF5A",
+  "words": 22,
+  "jp": "\\nm以上もの長い槍k持ち,对騎馬戦の訓練k受",
+  "en": "Armed with a very long spear, trained for"
+ },
+ {
+  "offset": "0x0DF88",
+  "words": 22,
+  "jp": "けた兵士.防御面に優れているが機動力は劣る.",
+  "en": "cavalry. Strong defense, low mobility."
+ },
+ {
+  "offset": "0x0DFB6",
+  "words": 19,
+  "jp": "騎馬に对しては有利だが,步兵には不利.",
+  "en": "Strong vs cavalry, weak vs infantry."
+ },
+ {
+  "offset": "0x0DFDE",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0DFEC",
+  "words": 22,
+  "jp": "パイク兵のエリートk集めた佣兵隊.そのため{?025A}",
+  "en": "A band of elite pikemen, so its base"
+ },
+ {
+  "offset": "0x0E01A",
+  "words": 7,
+  "jp": "本能力が高い.",
+  "en": "high stats."
+ },
+ {
+  "offset": "0x0E02A",
+  "words": 19,
+  "jp": "騎馬に对しては有利だが,步兵には不利.",
+  "en": "Strong vs cavalry, weak vs infantry."
+ },
+ {
+  "offset": "0x0E052",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E060",
+  "words": 22,
+  "jp": "骨で作られているゴーレムで,長い槍k持ち,对",
+  "en": "A bone golem with a long spear, good at"
+ },
+ {
+  "offset": "0x0E08E",
+  "words": 10,
+  "jp": "騎馬戦k得意とする.",
+  "en": "anti-cavalry."
+ },
+ {
+  "offset": "0x0E0A4",
+  "words": 19,
+  "jp": "騎馬に对しては有利だが,步兵には不利.",
+  "en": "Strong vs cavalry, weak vs infantry."
+ },
+ {
+  "offset": "0x0E0CC",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0E0DE",
+  "words": 22,
+  "jp": "ドロからできたゴーレムで,高い戦{?0110}能力に加え",
+  "en": "A clay golem with high battle power and"
+ },
+ {
+  "offset": "0x0E10C",
+  "words": 12,
+  "jp": "再生能力kもあわせ持つ.",
+  "en": "also has regeneration."
+ },
+ {
+  "offset": "0x0E126",
+  "words": 19,
+  "jp": "騎馬に对しては有利だが,步兵には不利.",
+  "en": "Strong vs cavalry, weak vs infantry."
+ },
+ {
+  "offset": "0x0E14E",
+  "words": 14,
+  "jp": "スキル:解毒能力・ヒーリング",
+  "en": "Skill: Antidote, Healing"
+ },
+ {
+  "offset": "0x0E16C",
+  "words": 22,
+  "jp": "步兵の一種だが神に仕えることで,对魔族,アン",
+  "en": "Infantry serving god, with power vs demons"
+ },
+ {
+  "offset": "0x0E19A",
+  "words": 14,
+  "jp": "デッド戦用の能力k得ている.",
+  "en": "and undead."
+ },
+ {
+  "offset": "0x0E1B8",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E1E6",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E1F4",
+  "words": 22,
+  "jp": "修行k精むことによって,モンク以上に神の加護",
+  "en": "Trained beyond a Monk in divine grace,"
+ },
+ {
+  "offset": "0x0E222",
+  "words": 5,
+  "jp": "k得た者.",
+  "en": "holy."
+ },
+ {
+  "offset": "0x0E22E",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E25C",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0E26E",
+  "words": 22,
+  "jp": "魔族やアンデッドk诚ぼすために,厳しい修行k",
+  "en": "hard-trained to destroy demons and"
+ },
+ {
+  "offset": "0x0E29C",
+  "words": 7,
+  "jp": "精んだ聖職者.",
+  "en": "a cleric."
+ },
+ {
+  "offset": "0x0E2AC",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E2DA",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E2E8",
+  "words": 22,
+  "jp": "对魔族,アンデッド戦よりも,对人間戦k得意と",
+  "en": "Better vs humans than vs demons or undead."
+ },
+ {
+  "offset": "0x0E316",
+  "words": 5,
+  "jp": "する僧兵.",
+  "en": "a monk."
+ },
+ {
+  "offset": "0x0E322",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E350",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E35E",
+  "words": 22,
+  "jp": "{?0224}の神に仕えるリザードマンで,步兵に近い能力",
+  "en": "A lizardman of the holy god, with near-"
+ },
+ {
+  "offset": "0x0E38C",
+  "words": 20,
+  "jp": "k持つが,水上でも高い機動力k発揮する.",
+  "en": "infantry power, mobile on water too."
+ },
+ {
+  "offset": "0x0E3B6",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E3E4",
+  "words": 8,
+  "jp": "スキル:毒攻{?00FE}1",
+  "en": "Skill: Poison 1"
+ },
+ {
+  "offset": "0x0E3F6",
+  "words": 22,
+  "jp": "步兵に近い能力k持つトカゲ男.しかし水上でも",
+  "en": "A lizard man with near-infantry power, very"
+ },
+ {
+  "offset": "0x0E424",
+  "words": 16,
+  "jp": "高い機動力k発揮する事ができる.",
+  "en": "mobile on water too."
+ },
+ {
+  "offset": "0x0E446",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E474",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E482",
+  "words": 22,
+  "jp": "リザードマンの上位種族であり,高い戦{?0110}能力k",
+  "en": "A higher lizardman race with high battle"
+ },
+ {
+  "offset": "0x0E4B0",
+  "words": 21,
+  "jp": "誇る.通常の步兵よりも水上戦に向いている.",
+  "en": "power, better on water than infantry."
+ },
+ {
+  "offset": "0x0E4DC",
+  "words": 22,
+  "jp": "槍兵に对しては有利だが,騎馬には不利である.",
+  "en": "Strong vs spearmen, weak vs cavalry."
+ },
+ {
+  "offset": "0x0E50A",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E518",
+  "words": 22,
+  "jp": "{?0224}の神に仕える男の人魚.陸上での行動には不向",
+  "en": "A merman of the holy god. Poor on land"
+ },
+ {
+  "offset": "0x0E546",
+  "words": 22,
+  "jp": "きだが,水上の移動や戦{?0110}に,最も適した兵であ",
+  "en": "but best suited to water moves and combat."
+ },
+ {
+  "offset": "0x0E57A",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E588",
+  "words": 22,
+  "jp": "男の人魚であり,陸上での行動には不向きだが,",
+  "en": "A merman, poor on land but"
+ },
+ {
+  "offset": "0x0E5B6",
+  "words": 19,
+  "jp": "水上の移動や戦{?0110}に最も適した兵である.",
+  "en": "best suited to water moves and combat."
+ },
+ {
+  "offset": "0x0E5E2",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E5F0",
+  "words": 22,
+  "jp": "マーマンの上位種族であり,{?025A}本能力も非常に高",
+  "en": "A higher merman race with very high base"
+ },
+ {
+  "offset": "0x0E61E",
+  "words": 22,
+  "jp": "い.陸での行動には不向きだが,水上の移動や戦",
+  "en": "stats. Poor on land but great at water"
+ },
+ {
+  "offset": "0x0E64C",
+  "words": 12,
+  "jp": "{?0110}に最も適した兵である.",
+  "en": "moves and combat."
+ },
+ {
+  "offset": "0x0E666",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0E674",
+  "words": 22,
+  "jp": "水中に住む巨六なウォーム.凶暴な性格で,非常",
+  "en": "A huge underwater worm. Savage and very"
+ },
+ {
+  "offset": "0x0E6A2",
+  "words": 22,
+  "jp": "に危険なモンスターである.水上戦k得意とする",
+  "en": "dangerous. Strong on water, and it also"
+ },
+ {
+  "offset": "0x0E6D0",
+  "words": 20,
+  "jp": "が,地上戦もそれなりにこなす事ができる.",
+  "en": "fights decently on land."
+ },
+ {
+  "offset": "0x0E6FA",
+  "words": 9,
+  "jp": "スキル:マヒ攻{?00FE}2",
+  "en": "Skill: Paralyze 2"
+ },
+ {
+  "offset": "0x0E70E",
+  "words": 22,
+  "jp": "体長1mほどの巨六ガエルの一種で,强力な毒で",
+  "en": "A 1m giant frog that hunts prey with"
+ },
+ {
+  "offset": "0x0E73C",
+  "words": 22,
+  "jp": "獲物k襲う.水上戦k得意とするが,地上戦もそ",
+  "en": "strong poison. Strong on water, decent on"
+ },
+ {
+  "offset": "0x0E76A",
+  "words": 13,
+  "jp": "れなりにこなす事ができる.",
+  "en": "land too."
+ },
+ {
+  "offset": "0x0E786",
+  "words": 8,
+  "jp": "スキル:毒攻{?00FE}4",
+  "en": "Skill: Poison 4"
+ },
+ {
+  "offset": "0x0E798",
+  "words": 22,
+  "jp": "{?0224}の神に仕える女性ニクス.陸上での行動には不",
+  "en": "A female Nix of the holy god. Poor on"
+ },
+ {
+  "offset": "0x0E7C6",
+  "words": 22,
+  "jp": "向きだが,水上の移動や戦{?0110}に適している.また",
+  "en": "land but good at water moves and combat."
+ },
+ {
+  "offset": "0x0E7F4",
+  "words": 21,
+  "jp": "巨六な弓k使った攻{?00FE}は,非常に强力である.",
+  "en": "Her huge bow attack is very powerful."
+ },
+ {
+  "offset": "0x0E820",
+  "words": 16,
+  "jp": "間接攻{?00FE}:14マス↗スキル:なし",
+  "en": "Indirect: 14 tiles. Skill: none"
+ },
+ {
+  "offset": "0x0E842",
+  "words": 22,
+  "jp": "美しい乙女の姿kした女性のニクス.陸での行動",
+  "en": "A fair-maiden Nix. Poor on land but good"
+ },
+ {
+  "offset": "0x0E870",
+  "words": 22,
+  "jp": "は不向きだが,水上の移動や戦{?0110}に適している.",
+  "en": "at water moves and combat."
+ },
+ {
+  "offset": "0x0E89E",
+  "words": 22,
+  "jp": "また巨六な弓による攻{?00FE}は,非常に强力である.",
+  "en": "Her huge bow attack is also very strong."
+ },
+ {
+  "offset": "0x0E8CC",
+  "words": 16,
+  "jp": "間接攻{?00FE}:14マス↗スキル:なし",
+  "en": "Indirect: 14 tiles. Skill: none"
+ },
+ {
+  "offset": "0x0E8EE",
+  "words": 22,
+  "jp": "{?0224}の神に仕える,肌の黒いエルフで,弓の报いk",
+  "en": "A dark-skinned elf of the holy god, skilled"
+ },
+ {
+  "offset": "0x0E91C",
+  "words": 22,
+  "jp": "得意とする.しかし防御能力が低いため,通常攻",
+  "en": "with the bow. But low defense, so a normal"
+ },
+ {
+  "offset": "0x0E94A",
+  "words": 6,
+  "jp": "{?00FE}には弱い.",
+  "en": "weak, melee."
+ },
+ {
+  "offset": "0x0E958",
+  "words": 18,
+  "jp": "間接攻{?00FE}:10マス↗スキル:解毒能力",
+  "en": "Indirect: 10 tiles. Skill: Antidote"
+ },
+ {
+  "offset": "0x0E97E",
+  "words": 22,
+  "jp": "森に住む,長身の美しい種族.弓の报いに惯れて",
+  "en": "A tall fair forest race, skilled with the"
+ },
+ {
+  "offset": "0x0E9AC",
+  "words": 22,
+  "jp": "おり,間接攻{?00FE}が可能である.しかし防御能力が",
+  "en": "bow for indirect attacks. But its defense"
+ },
+ {
+  "offset": "0x0E9DA",
+  "words": 14,
+  "jp": "低いため,通常攻{?00FE}には弱い.",
+  "en": "weak to normal attacks."
+ },
+ {
+  "offset": "0x0E9F8",
+  "words": 18,
+  "jp": "間接攻{?00FE}:10マス↗スキル:解毒能力",
+  "en": "Indirect: 10 tiles. Skill: Antidote"
+ },
+ {
+  "offset": "0x0EA1E",
+  "words": 9,
+  "jp": "エルフの上位種族.",
+  "en": "A higher elf race."
+ },
+ {
+  "offset": "0x0EA32",
+  "words": 22,
+  "jp": "多くの点で,通常のエルフより優れた能力k持ち",
+  "en": "In many ways better than a normal elf, with"
+ },
+ {
+  "offset": "0x0EA60",
+  "words": 13,
+  "jp": "高い魔法耐性も備えている.",
+  "en": "high magic resistance too."
+ },
+ {
+  "offset": "0x0EA7C",
+  "words": 18,
+  "jp": "間接攻{?00FE}:10マス↗スキル:解毒能力",
+  "en": "Indirect: 10 tiles. Skill: Antidote"
+ },
+ {
+  "offset": "0x0EAA2",
+  "words": 22,
+  "jp": "機械仕掛けの弓によって,膏威的な破壊力と射程",
+  "en": "A mechanical bow gives it great power and"
+ },
+ {
+  "offset": "0x0EAD0",
+  "words": 22,
+  "jp": "k持つ.その反面,魔法や直接攻{?00FE}には弱く,攻",
+  "en": "range. But it is weak to magic and melee,"
+ },
+ {
+  "offset": "0x0EAFE",
+  "words": 14,
+  "jp": "{?00FE}に消費する行動量も六きい.",
+  "en": "and its attack cost is high."
+ },
+ {
+  "offset": "0x0EB1C",
+  "words": 16,
+  "jp": "間接攻{?00FE}:18マス↗スキル:なし",
+  "en": "Indirect 18. Skill: none"
+ },
+ {
+  "offset": "0x0EB3E",
+  "words": 22,
+  "jp": "报いが難しいとされる長弓k使いこなす佣兵隊で",
+  "en": "A merc band with hard-to-use longbows,"
+ },
+ {
+  "offset": "0x0EB6C",
+  "words": 22,
+  "jp": "長い射程距離と素早い行動力k持つ.しかし防御",
+  "en": "with long range and quick moves. But its"
+ },
+ {
+  "offset": "0x0EB9A",
+  "words": 22,
+  "jp": "能力が皆無に等しいため,报いに注意k要する.",
+  "en": "defense is near zero, so attack with care."
+ },
+ {
+  "offset": "0x0EBC8",
+  "words": 20,
+  "jp": "間接攻{?00FE}:14マス↗スキル:クリティカル",
+  "en": "Indirect: 14 tiles. Skill: Critical"
+ },
+ {
+  "offset": "0x0EBF2",
+  "words": 22,
+  "jp": "魔法のエネルギー弹k开ばせる魔女の集団.簡単",
+  "en": "A coven of witches firing magic bolts. The"
+ },
+ {
+  "offset": "0x0EC20",
+  "words": 22,
+  "jp": "な魔法なので威力は弱いが,その射程距離と魔法",
+  "en": "spell is simple and weak, but its range and"
+ },
+ {
+  "offset": "0x0EC4E",
+  "words": 11,
+  "jp": "耐性は,あなどれない.",
+  "en": "magic resist matter."
+ },
+ {
+  "offset": "0x0EC66",
+  "words": 19,
+  "jp": "間接攻{?00FE}:14マス↗スキル:ヒーリング",
+  "en": "Indirect: 14 tiles. Skill: Healing"
+ },
+ {
+  "offset": "0x0EC8E",
+  "words": 22,
+  "jp": "半人半馬の種族で,弓の报いが得意.小さな弓な",
+  "en": "A half-horse race skilled with the bow. Its"
+ },
+ {
+  "offset": "0x0ECBC",
+  "words": 22,
+  "jp": "ので射程は短いが,高い機動力で充分に補える.",
+  "en": "bow is short-range, but mobility makes up."
+ },
+ {
+  "offset": "0x0ECEA",
+  "words": 19,
+  "jp": "しかし直接攻{?00FE}には弱いので注意が必要.",
+  "en": "But weak to melee, so be careful."
+ },
+ {
+  "offset": "0x0ED12",
+  "words": 15,
+  "jp": "間接攻{?00FE}:7マス↗スキル:なし",
+  "en": "Indirect: 7 tiles. Skill: none"
+ },
+ {
+  "offset": "0x0ED32",
+  "words": 22,
+  "jp": "騎兵の{?025A}本的な部隊.高い機動力と攻{?00FE}力k誇り",
+  "en": "A basic cavalry unit with high mobility and"
+ },
+ {
+  "offset": "0x0ED60",
+  "words": 17,
+  "jp": "ヒット&アウェイ戦法k得意とする.",
+  "en": "It excels at hit-and-run."
+ },
+ {
+  "offset": "0x0ED84",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0EDB2",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0EDC0",
+  "words": 22,
+  "jp": "いくつもの戦場k戦い拔いた旺戦の騎兵隊.その",
+  "en": "A veteran cavalry of many battles, so it"
+ },
+ {
+  "offset": "0x0EDEE",
+  "words": 13,
+  "jp": "ため優れた戦{?0110}能力k持つ.",
+  "en": "has great battle skill."
+ },
+ {
+  "offset": "0x0EE0A",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0EE38",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0EE46",
+  "words": 22,
+  "jp": "重装備化したランサー隊で,高い戦{?0110}能力k持つ",
+  "en": "A heavy lancer unit with high battle power,"
+ },
+ {
+  "offset": "0x0EE74",
+  "words": 20,
+  "jp": "が,その重さゆえに移動不能な場所が多い.",
+  "en": "but its weight blocks many terrains."
+ },
+ {
+  "offset": "0x0EE9E",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0EECC",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0EEDA",
+  "words": 22,
+  "jp": "選りすぐりのヘビーランサー隊で組{?03E2}された,最",
+  "en": "A picked elite of heavy lancers, the"
+ },
+ {
+  "offset": "0x0EF08",
+  "words": 20,
+  "jp": "强の騎兵隊.ただし移動不能な場所が多い.",
+  "en": "best cavalry. Many terrains block it."
+ },
+ {
+  "offset": "0x0EF32",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0EF60",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0EF6E",
+  "words": 22,
+  "jp": "巨六ないも虫で,□からのびる巨六な触手で相手",
+  "en": "A giant caterpillar that strikes with huge"
+ },
+ {
+  "offset": "0x0EF9C",
+  "words": 22,
+  "jp": "に襲いかかる.自然地形での移動や戦{?0110}が得意.",
+  "en": "tentacles. Good at moving in wild terrain."
+ },
+ {
+  "offset": "0x0EFCA",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0EFF8",
+  "words": 8,
+  "jp": "スキル:毒攻{?00FE}1",
+  "en": "Skill: Poison 1"
+ },
+ {
+  "offset": "0x0F00A",
+  "words": 22,
+  "jp": "地獄の番犬とも呼ばれる凶暴な怪犬で,子馬ほど",
+  "en": "A savage hellhound, big as a foal."
+ },
+ {
+  "offset": "0x0F038",
+  "words": 20,
+  "jp": "の六きさがある.自然地形での行動が得意.",
+  "en": "Good at acting in wild terrain."
+ },
+ {
+  "offset": "0x0F062",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0F090",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0F09E",
+  "words": 22,
+  "jp": "巨六サソリの一種で,戦{?0110}能力自体は低いが,尻",
+  "en": "A giant scorpion. Its battle power is low,"
+ },
+ {
+  "offset": "0x0F0CC",
+  "words": 13,
+  "jp": "尾の先の針には猛毒がある.",
+  "en": "its tail sting is deadly."
+ },
+ {
+  "offset": "0x0F0E8",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0F116",
+  "words": 8,
+  "jp": "スキル:毒攻{?00FE}\\n",
+  "en": "Skill: Poison N"
+ },
+ {
+  "offset": "0x0F128",
+  "words": 22,
+  "jp": "トカゲの尾k持つ巨六なニワトリ型モンスター.",
+  "en": "A giant chicken monster with a lizard tail."
+ },
+ {
+  "offset": "0x0F156",
+  "words": 16,
+  "jp": "石化能力k持つ危険な生物である.",
+  "en": "A dangerous petrifying beast."
+ },
+ {
+  "offset": "0x0F178",
+  "words": 22,
+  "jp": "步兵に对しては有利だが,槍兵には不利である.",
+  "en": "Strong vs infantry, weak vs spearmen."
+ },
+ {
+  "offset": "0x0F1A6",
+  "words": 9,
+  "jp": "スキル:石化攻{?00FE}\\n",
+  "en": "Skill: Petrify"
+ },
+ {
+  "offset": "0x0F1BA",
+  "words": 22,
+  "jp": "上半身がワシで下半身が馬という魔獸で,戦{?0110}用",
+  "en": "A beast, eagle above and horse below, bred"
+ },
+ {
+  "offset": "0x0F1E8",
+  "words": 22,
+  "jp": "に調教されている.機動性k活かした摆護戦k得",
+  "en": "for war. It excels at mobile escort combat."
+ },
+ {
+  "offset": "0x0F216",
+  "words": 5,
+  "jp": "意とする.",
+  "en": "It excels."
+ },
+ {
+  "offset": "0x0F222",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0F230",
+  "words": 22,
+  "jp": "背中に美しい羽根k持つ天使.高い魔法耐性と防",
+  "en": "An angel with fair wings. High magic resist"
+ },
+ {
+  "offset": "0x0F25E",
+  "words": 22,
+  "jp": "御能力k持つが,やはり機動性k活かした摆護攻",
+  "en": "and defense, but it excels at mobile escort."
+ },
+ {
+  "offset": "0x0F28C",
+  "words": 8,
+  "jp": "{?00FE}に適している.",
+  "en": "good for escort."
+ },
+ {
+  "offset": "0x0F29E",
+  "words": 14,
+  "jp": "スキル:解毒能力,ヒーリング",
+  "en": "Skill: Antidote, Healing"
+ },
+ {
+  "offset": "0x0F2BC",
+  "words": 22,
+  "jp": "謎の生物.前回水上弓兵が强かったので,それk",
+  "en": "A mystery beast. The water archer was strong"
+ },
+ {
+  "offset": "0x0F2EA",
+  "words": 21,
+  "jp": "希望するが,佣兵神,ミャッチに却下される.",
+  "en": "last time, but god Myatch refused it."
+ },
+ {
+  "offset": "0x0F316",
+  "words": 22,
+  "jp": "カラーによって,能力が異なると言われている.",
+  "en": "Its powers are said to vary by color."
+ },
+ {
+  "offset": "0x0F344",
+  "words": 14,
+  "jp": "スキル:解毒能力,ヒーリング",
+  "en": "Skill: Antidote, Healing"
+ },
+ {
+  "offset": "0x0F362",
+  "words": 22,
+  "jp": "女性の頭kした,ワシの姿の开兵.戦{?0110}能力はそ",
+  "en": "A flier, eagle body and a woman's head."
+ },
+ {
+  "offset": "0x0F390",
+  "words": 22,
+  "jp": "れほど高くないので,機動性k活かした摆護攻{?00FE}",
+  "en": "Battle power is low, so use mobile escort."
+ },
+ {
+  "offset": "0x0F3BE",
+  "words": 7,
+  "jp": "に適している.",
+  "en": "for escort."
+ },
+ {
+  "offset": "0x0F3CE",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0F3DC",
+  "words": 22,
+  "jp": "古えの魔術によって创られた,悪魔の石像に似た",
+  "en": "A beast like a demon statue, made by old"
+ },
+ {
+  "offset": "0x0F40A",
+  "words": 22,
+  "jp": "魔獸.高い能力k持っているため,相手によって",
+  "en": "magic. Its power is high, so against some"
+ },
+ {
+  "offset": "0x0F438",
+  "words": 20,
+  "jp": "は,正面から戦いk挑むことも可能である.",
+  "en": "foes it can fight head-on."
+ },
+ {
+  "offset": "0x0F462",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0F470",
+  "words": 22,
+  "jp": "空の高い所に住む妖{?02CA}で,开兵に对する攻{?00FE}k得",
+  "en": "A high-sky spirit, skilled at attacking"
+ },
+ {
+  "offset": "0x0F49E",
+  "words": 22,
+  "jp": "意とする.しかし全体的な能力は低いので,开兵",
+  "en": "fliers. But its overall power is low, so vs"
+ },
+ {
+  "offset": "0x0F4CC",
+  "words": 19,
+  "jp": "以外k相手にすると,まず勝ち目はない.",
+  "en": "non-fliers it has little chance."
+ },
+ {
+  "offset": "0x0F4F4",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0F502",
+  "words": 22,
+  "jp": "巨六なワシで,空の王者である.开兵k捕らえる",
+  "en": "A giant eagle, king of the sky. Good at"
+ },
+ {
+  "offset": "0x0F530",
+  "words": 22,
+  "jp": "事に長けているが,{?025A}本的な能力は低いので,开",
+  "en": "catching fliers, but its base power is low,"
+ },
+ {
+  "offset": "0x0F55E",
+  "words": 20,
+  "jp": "兵以外k相手にすると,まず勝ち目はない.",
+  "en": "so vs non-fliers it has little chance."
+ },
+ {
+  "offset": "0x0F588",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0F596",
+  "words": 22,
+  "jp": "小さい弓k持った开兵隊.直接攻{?00FE}に弱く,能力",
+  "en": "A flier unit with small bows. Weak to melee"
+ },
+ {
+  "offset": "0x0F5C4",
+  "words": 22,
+  "jp": "も今一つなので,射程攻{?00FE}と开兵の機動性k充分",
+  "en": "and modest, so use its range and flight"
+ },
+ {
+  "offset": "0x0F5F2",
+  "words": 16,
+  "jp": "に活かした戦いkする必要がある.",
+  "en": "mobility well in battle."
+ },
+ {
+  "offset": "0x0F614",
+  "words": 15,
+  "jp": "間接攻{?00FE}:7マス↗スキル:なし",
+  "en": "Indirect: 7 tiles. Skill: none"
+ },
+ {
+  "offset": "0x0F634",
+  "words": 22,
+  "jp": "下级魔族に分類される夢魔の一種.戦{?0110}能力や魔",
+  "en": "A lesser demon succubus. Its power and"
+ },
+ {
+  "offset": "0x0F662",
+  "words": 22,
+  "jp": "法耐性は,並の兵士よりも高く,また背中の翼で",
+  "en": "magic resist beat a common soldier, and its"
+ },
+ {
+  "offset": "0x0F690",
+  "words": 20,
+  "jp": "开行するため,障害物の影響k受けにくい.",
+  "en": "wings let it fly past obstacles."
+ },
+ {
+  "offset": "0x0F6BA",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0F6CC",
+  "words": 22,
+  "jp": "レッサー種ではあるが,純魔族の部類に入る.そ",
+  "en": "A lesser kind, but a true demon, so it"
+ },
+ {
+  "offset": "0x0F6FA",
+  "words": 22,
+  "jp": "のため優れた戦{?0110}能力と魔法耐性k持つ.开行能",
+  "en": "has great battle power and magic resist. It"
+ },
+ {
+  "offset": "0x0F728",
+  "words": 21,
+  "jp": "力も持っており,障害物の影響k受けにくい.",
+  "en": "can fly past obstacles too."
+ },
+ {
+  "offset": "0x0F754",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0F766",
+  "words": 22,
+  "jp": "この世に怨念k持ったまま死だ者の霊で,生前の",
+  "en": "The ghost of one who died with a grudge,"
+ },
+ {
+  "offset": "0x0F794",
+  "words": 22,
+  "jp": "姿kした影に見える.障害物k無視した移動がで",
+  "en": "seen as a shade of its old form. It moves"
+ },
+ {
+  "offset": "0x0F7C2",
+  "words": 18,
+  "jp": "きるが,僧侶にとの戦{?0110}は不利である.",
+  "en": "past obstacles, but weak vs priests."
+ },
+ {
+  "offset": "0x0F7E8",
+  "words": 14,
+  "jp": "スキル:解毒能力・マヒ攻{?00FE}1",
+  "en": "Skill: Antidote, Paralyze 1"
+ },
+ {
+  "offset": "0x0F806",
+  "words": 22,
+  "jp": "物陰に潜む死霊で,生者に对する激しい憎しみの",
+  "en": "A wraith in shadow, with fierce hate for"
+ },
+ {
+  "offset": "0x0F834",
+  "words": 22,
+  "jp": "ため,恐るべき力k持つ.霊体なので障害物k無",
+  "en": "the living. As a spirit it moves past"
+ },
+ {
+  "offset": "0x0F862",
+  "words": 21,
+  "jp": "視した移動ができるが,僧侶との戦{?0110}は不利.",
+  "en": "obstacles, but is weak vs priests."
+ },
+ {
+  "offset": "0x0F88E",
+  "words": 14,
+  "jp": "スキル:解毒能力・マヒ攻{?00FE}\\n",
+  "en": "Skill: Antidote, Paralyze"
+ },
+ {
+  "offset": "0x0F8AC",
+  "words": 22,
+  "jp": "邪悪な呪法によって,かりそめの命k与えられた",
+  "en": "Given a fleeting life by an evil curse."
+ },
+ {
+  "offset": "0x0F8DA",
+  "words": 7,
+  "jp": "ガイコツ戦士.",
+  "en": "A skeleton."
+ },
+ {
+  "offset": "0x0F8EA",
+  "words": 21,
+  "jp": "槍兵には有利だが,騎馬や僧侶に对して不利.",
+  "en": "Strong vs spears, weak vs horse, priests."
+ },
+ {
+  "offset": "0x0F916",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0F928",
+  "words": 22,
+  "jp": "邪術によって强化した死体kゾンビ化したもの.",
+  "en": "A corpse made into a zombie by dark arts."
+ },
+ {
+  "offset": "0x0F956",
+  "words": 22,
+  "jp": "そのため通常のゾンビより高い戦{?0110}能力k持つ.",
+  "en": "So it has higher battle power than a zombie."
+ },
+ {
+  "offset": "0x0F984",
+  "words": 21,
+  "jp": "槍兵には有利だが,騎馬や僧侶に对して不利.",
+  "en": "Strong vs spears, weak vs horse, priests."
+ },
+ {
+  "offset": "0x0F9B0",
+  "words": 19,
+  "jp": "スキル:解毒能力・毒攻{?00FE}1・マヒ攻{?00FE}2",
+  "en": "Skill: Antidote, Poison 1, Paralyze 2"
+ },
+ {
+  "offset": "0x0F9D8",
+  "words": 22,
+  "jp": "レッサードラゴンの一種で,全身が赤い.知能は",
+  "en": "A lesser dragon, all red. Its intelligence"
+ },
+ {
+  "offset": "0x0FA06",
+  "words": 22,
+  "jp": "低いが,高熱の类のブレスは岩kも溶かすと言わ",
+  "en": "is low, but its hot breath melts even rock,"
+ },
+ {
+  "offset": "0x0FA34",
+  "words": 14,
+  "jp": "れている.しかし動きは钝い.",
+  "en": "they say. But it is slow."
+ },
+ {
+  "offset": "0x0FA52",
+  "words": 7,
+  "jp": "スキル:类攻{?00FE}",
+  "en": "Skill: Fire"
+ },
+ {
+  "offset": "0x0FA62",
+  "words": 22,
+  "jp": "レッサードラゴンの一種で,全身が雪のように白",
+  "en": "A lesser dragon, snow-white all over."
+ },
+ {
+  "offset": "0x0FA90",
+  "words": 22,
+  "jp": "い.あらゆる生物k一瞬で凍りつかせる冷気のブ",
+  "en": "Its icy breath freezes any creature fast."
+ },
+ {
+  "offset": "0x0FABE",
+  "words": 15,
+  "jp": "レスk吐く.しかし動きは钝い.",
+  "en": "But it is slow."
+ },
+ {
+  "offset": "0x0FADE",
+  "words": 12,
+  "jp": "スキル:冷攻{?00FE}・解毒能力",
+  "en": "Skill: Freeze, Antidote"
+ },
+ {
+  "offset": "0x0FAF8",
+  "words": 22,
+  "jp": "ゲル状の生物で,知能はほとんどない.獲物k溶",
+  "en": "A gel creature with almost no mind. A"
+ },
+ {
+  "offset": "0x0FB26",
+  "words": 20,
+  "jp": "かしながら消化,吸收する原始生物である.",
+  "en": "a primal beast that melts and eats prey."
+ },
+ {
+  "offset": "0x0FB50",
+  "words": 21,
+  "jp": "並の攻{?00FE}は受け付けないが,火と僧侶に弱い.",
+  "en": "Shrugs off normal hits. Weak to fire."
+ },
+ {
+  "offset": "0x0FB7C",
+  "words": 8,
+  "jp": "スキル:解毒能力",
+  "en": "Skill: Antidote"
+ },
+ {
+  "offset": "0x0FB8E",
+  "words": 22,
+  "jp": "ゲルの突然变異種で,石化や毒などの恐ろしい能",
+  "en": "A mutant gel with petrify, poison and other"
+ },
+ {
+  "offset": "0x0FBBC",
+  "words": 22,
+  "jp": "力k持っている.しかも防御力が高く,並の攻{?00FE}",
+  "en": "fearsome powers. High defense too. Normal"
+ },
+ {
+  "offset": "0x0FBEA",
+  "words": 18,
+  "jp": "は受け付けないが,火と僧侶には弱い.",
+  "en": "attacks fail. Fire and priests work."
+ },
+ {
+  "offset": "0x0FC10",
+  "words": 19,
+  "jp": "スキル:解毒能力・石化攻{?00FE}1・毒攻{?00FE}\\n",
+  "en": "Skill: Antidote, Petrify 1, Poison"
+ },
+ {
+  "offset": "0x0FC38",
+  "words": 22,
+  "jp": "補給物资k運ぶ部隊.戦{?0110}能力がほとんど無いた",
+  "en": "A supply unit. It has almost no battle"
+ },
+ {
+  "offset": "0x0FC66",
+  "words": 16,
+  "jp": "め,護衛無しの行動は危険である.",
+  "en": "so going alone is risky."
+ },
+ {
+  "offset": "0x0FC8C",
+  "words": 6,
+  "jp": "スキル:なし",
+  "en": ""
+ },
+ {
+  "offset": "0x0FC9A",
+  "words": 398,
+  "jp": "GWけざねべんイセヒミメ{?00D5}正待{?0110}中低未杯先名水光野児孝期華巨連団带難星験银麟文{?02C7}打殴尽遠秘許字衝衣志疲形～{?03B5}诚襲似狭{?041D}底炸救亡協政侵語占誤困義醒訳甘孤讓例{?0593}吠閣股蓮{?05F5}迎渣局蔡貝洗垂畜酬蹴縛圈壮頻膳{?0732}{?0741}{?0758}{?076F}{?077F}{?078E}{?07A5}{?07BC}{?07D3}{?07E6}{?07FD}{?0814}{?0826}{?0835}{?084C}{?0861}{?0877}{?0886}{?089D}{?08B4}{?08C9}{?08D8}{?08EF}{?0906}{?091A}{?0930}{?0947}{?095E}{?0973}{?0982}{?0999}{?09B0}{?09C6}{?09DC}{?09F3}{?0A0A}{?0A1B}{?0A31}{?0A48}{?0A5E}{?0A70}{?0A86}{?0A9D}{?0AB2}{?0AC6}{?0AD6}{?0AED}{?0B04}{?0B1B}{?0B2B}{?0B42}{?0B59}{?0B5D}{?0B6D}{?0B84}{?0B9B}{?0BAA}{?0BBD}{?0BD4}{?0BEB}{?0BFC}{?0C0A}{?0C21}{?0C38}{?0C4F}{?0C5D}{?0C74}{?0C8B}{?0C99}{?0CAC}{?0CC3}{?0CDA}{?0CF1}{?0D04}{?0D1B}{?0D32}{?0D43}{?0D59}{?0D70}{?0D87}{?0D90}{?0DA7}{?0DBE}{?0DD5}{?0DDF}{?0DF6}{?0E0D}{?0E24}{?0E3A}{?0E51}{?0E68}{?0E7C}{?0E91}{?0EA8}{?0EBF}{?0ED6}{?0EED}{?0EF3}{?0F0A}{?0F21}{?0F2E}{?0F30}{?0F47}{?0F5E}{?0F74}{?0F85}{?0F9C}{?0FB3}{?0FCA}{?0FD9}{?0FEF}{?1006}{?1018}{?1025}{?103C}{?1053}{?106A}{?107B}{?1092}{?109E}{?10B5}{?10BF}{?10D6}{?10ED}{?1102}{?1104}{?111B}{?1131}{?1148}{?115C}{?1173}{?118A}{?119F}{?11B0}{?11C7}{?11DE}{?11F5}{?11FF}{?1216}{?122D}{?1244}{?124F}{?1266}{?1274}{?1289}{?1294}{?12AB}{?12C2}{?12C9}{?12CB}{?12E2}{?12F9}{?1310}{?131D}{?1334}{?134B}{?135E}{?1365}{?137C}{?1393}{?13A6}{?13B3}{?13C5}{?13DC}{?13F3}{?13FB}{?1412}{?1429}{?1435}{?1440}{?1457}{?146E}{?1485}{?1490}{?14A7}{?14BE}{?14D5}{?14EC}{?1503}{?150A}{?1521}{?152E}{?1545}{?1551}{?1560}{?1562}{?1579}{?1590}{?1596}{?15A5}{?15B6}{?15CD}{?15E4}{?15F1}{?1607}{?161E}{?1629}{?1637}{?164E}{?1662}{?1679}{?168B}{?16A2}{?16B9}{?16D0}{?16E3}{?16FA}{?1711}{?1728}{?1730}{?1747}{?1759}{?176B}{?176D}{?1784}{?1791}{?17A3}{?17A5}{?17BC}{?17C4}{?17D1}{?17E2}{?17F9}{?1810}{?1822}{?1833}{?184A}{?1861}{?1869}{?1880}{?1897}{?18AE}{?18BA}{?18D1}{?18E8}{?18FF}{?1916}{?1924}{?193B}{?1952}{?1969}{?1980}{?1997}{?19AE}{?19B5}{?19C6}{?19DD}{?19F4}{?19F9}{?1A08}{?1A1F}{?1A34}{?1A4B}{?1A62}{?1A77}{?1A8E}{?1AA5}{?1AAB}{?1AC2}{?1AD9}{?1AED}{?1AFC}{?1B13}{?1B2A}{?1B3F}{?1B45}{?1B5C}{?1B73}{?1B8A}{?1B9F}{?1BB6}{?1BCD}{?1BE4}{?1BF0}{?1C07}{?1C1E}{?1C35}攻{?00FE}力は低いが,小型で携带しやすいため,旅人",
+  "en": ""
+ },
+ {
+  "offset": "0x0FFB8",
+  "words": 15,
+  "jp": "の護身用として愛用されている.",
+  "en": "is favored for self-defense."
+ },
+ {
+  "offset": "0x0FFD8",
+  "words": 22,
+  "jp": "また鞋いため,力の弱い者でも簡単に报うことが",
+  "en": "It is light, so even the weak can wield it"
+ },
+ {
+  "offset": "0x10006",
+  "words": 4,
+  "jp": "できる.",
+  "en": "able."
+ },
+ {
+  "offset": "0x10010",
+  "words": 22,
+  "jp": "片手用のショートソード.报いやすく安俩で,そ",
+  "en": "A one-handed short sword. Easy and cheap,"
+ },
+ {
+  "offset": "0x1003E",
+  "words": 11,
+  "jp": "れなりの攻{?00FE}力もある.",
+  "en": "with decent power."
+ },
+ {
+  "offset": "0x10056",
+  "words": 22,
+  "jp": "そのため,兵士の{?025A}本的な武器とする国もあると",
+  "en": "Some lands make it a soldier's basic weapon."
+ },
+ {
+  "offset": "0x1008C",
+  "words": 22,
+  "jp": "攻{?00FE}kする事よりも,相手の攻{?00FE}k受け流すため",
+  "en": "A special dagger used to parry attacks"
+ },
+ {
+  "offset": "0x100BA",
+  "words": 22,
+  "jp": "に用いる特殊な短剣.そのため防御的な側面が强",
+  "en": "rather than to attack. So it is defensive,"
+ },
+ {
+  "offset": "0x100E8",
+  "words": 12,
+  "jp": "い.ただし报いが難しい.",
+  "en": "but hard to use."
+ },
+ {
+  "offset": "0x10106",
+  "words": 22,
+  "jp": "いん鉄で造られ,切れ味が非常に銳い.刀身が波",
+  "en": "Forged of fine steel, very sharp. Its wavy"
+ },
+ {
+  "offset": "0x10134",
+  "words": 22,
+  "jp": "型にうねっており,高い殺傷能力k持つ.刀身に",
+  "en": "blade gives high killing power. The lovely"
+ },
+ {
+  "offset": "0x10162",
+  "words": 22,
+  "jp": "施された美しい彫刻は,芸術品としても優れる.",
+  "en": "carving on it is fine art as well."
+ },
+ {
+  "offset": "0x10190",
+  "words": 12,
+  "jp": "追加スキル:クリティカル",
+  "en": "Bonus skill: Critical"
+ },
+ {
+  "offset": "0x101AA",
+  "words": 22,
+  "jp": "まるで重さk感じさせない短剣で,殺傷能力は非",
+  "en": "A dagger that feels weightless. Its killing"
+ },
+ {
+  "offset": "0x101D8",
+  "words": 22,
+  "jp": "常に低い.しかし素早い攻{?00FE}が可能となるため,",
+  "en": "power is very low, but it strikes fast, so"
+ },
+ {
+  "offset": "0x10206",
+  "words": 17,
+  "jp": "より多くの手数k出すことができる.",
+  "en": "it can land more blows."
+ },
+ {
+  "offset": "0x1022A",
+  "words": 20,
+  "jp": "熟練の戦士向きに作られたといわれている.",
+  "en": "Said to be made for skilled warriors."
+ },
+ {
+  "offset": "0x10254",
+  "words": 22,
+  "jp": "馬と星のロゴがある,ちょっとダサくて耻ずかし",
+  "en": "A sword with a horse-and-star logo, a bit"
+ },
+ {
+  "offset": "0x10282",
+  "words": 22,
+  "jp": "い剣.切れ味が悪いため,この剣で{?0174}k倒すと,",
+  "en": "lame. It is dull, so a kill with it gives"
+ },
+ {
+  "offset": "0x102B0",
+  "words": 9,
+  "jp": "径験值が2倍入る.",
+  "en": "double experience."
+ },
+ {
+  "offset": "0x102C4",
+  "words": 9,
+  "jp": "苦行者のための剣.",
+  "en": "A monk's sword."
+ },
+ {
+  "offset": "0x102D8",
+  "words": 22,
+  "jp": "片手用の長剣.报いやすく值段も比較的手頃なた",
+  "en": "A one-handed long sword. Easy to use and"
+ },
+ {
+  "offset": "0x10306",
+  "words": 18,
+  "jp": "め,初心者から上级者まであつかえる.",
+  "en": "fairly cheap, for novice to expert."
+ },
+ {
+  "offset": "0x1032C",
+  "words": 22,
+  "jp": "突く事にも切る事にも適した,最もポピュラーな",
+  "en": "Good for thrust and cut, the most popular"
+ },
+ {
+  "offset": "0x1035A",
+  "words": 5,
+  "jp": "剣である.",
+  "en": "a sword."
+ },
+ {
+  "offset": "0x10366",
+  "words": 22,
+  "jp": "身長ほどの六きさがある両手用長剣.並の戦士で",
+  "en": "A two-hand sword tall as a man. A common"
+ },
+ {
+  "offset": "0x10394",
+  "words": 22,
+  "jp": "は重くて报えないが,幅広で重量のある刀身から",
+  "en": "soldier finds it too heavy, but its broad,"
+ },
+ {
+  "offset": "0x103C2",
+  "words": 22,
+  "jp": "操り出される攻{?00FE}は,相手k鎧ごと粉碎する程の",
+  "en": "heavy blade shatters a foe, armor and all."
+ },
+ {
+  "offset": "0x103F0",
+  "words": 5,
+  "jp": "力k持つ.",
+  "en": "has power."
+ },
+ {
+  "offset": "0x103FC",
+  "words": 22,
+  "jp": "魔法金属であるミスリル银k刀身に使っており,",
+  "en": "Its blade is mithril silver, a magic metal,"
+ },
+ {
+  "offset": "0x1042A",
+  "words": 18,
+  "jp": "銳い切れ味と適度な重量k合わせ持つ.",
+  "en": "sharp-edged and well balanced."
+ },
+ {
+  "offset": "0x10450",
+  "words": 22,
+  "jp": "魔法が付加されていない剣の中では,最高の威力",
+  "en": "The strongest of non-magic swords."
+ },
+ {
+  "offset": "0x1047E",
+  "words": 4,
+  "jp": "がある.",
+  "en": "it has."
+ },
+ {
+  "offset": "0x10488",
+  "words": 20,
+  "jp": "斬りつけた相手k凍らせる力k持つ魔力剣.",
+  "en": "A magic sword freezing what it cuts."
+ },
+ {
+  "offset": "0x104B2",
+  "words": 22,
+  "jp": "冷気k带びた刀身は,決して溶けることのない{?029D}",
+  "en": "Its icy blade is made of never-melting"
+ },
+ {
+  "offset": "0x104E0",
+  "words": 11,
+  "jp": "によって造られている.",
+  "en": "frost."
+ },
+ {
+  "offset": "0x104F8",
+  "words": 15,
+  "jp": "また,冷気魔法k{?029E}る力k得る.",
+  "en": "It grants ice magic power."
+ },
+ {
+  "offset": "0x10518",
+  "words": 22,
+  "jp": "柄の部分から,プラズマが刀身のように出ている",
+  "en": "Plasma extends from the hilt like a blade."
+ },
+ {
+  "offset": "0x10546",
+  "words": 4,
+  "jp": "魔力剣.",
+  "en": "magic."
+ },
+ {
+  "offset": "0x10550",
+  "words": 22,
+  "jp": "雷神の力が封印されており,雷魔法k{?029E}る力k得",
+  "en": "It seals a thunder god, granting thunder"
+ },
+ {
+  "offset": "0x10584",
+  "words": 22,
+  "jp": "人間の血k用いて锻えられた,呪われた魔剣.刃",
+  "en": "A cursed sword forged with human blood. Its"
+ },
+ {
+  "offset": "0x105B2",
+  "words": 22,
+  "jp": "に毒が堡られており,相手k傷つけるだけで,死",
+  "en": "edge holds poison, so a mere wound can"
+ },
+ {
+  "offset": "0x105E0",
+  "words": 16,
+  "jp": "にいたらしめる事ができるという.",
+  "en": "kill, they say."
+ },
+ {
+  "offset": "0x10602",
+  "words": 10,
+  "jp": "追加スキル:毒攻{?00FE}4",
+  "en": "Bonus: Poison 4"
+ },
+ {
+  "offset": "0x10618",
+  "words": 22,
+  "jp": "鋼すら一{?00FE}で断ち斬る运說の剣.堅い麟に费われ",
+  "en": "A legend sword that cuts steel in one blow."
+ },
+ {
+  "offset": "0x10646",
+  "words": 22,
+  "jp": "た竜でさえ,一刀両断する程の切れ味があるとい",
+  "en": "Even a scaled dragon it can cleave, they"
+ },
+ {
+  "offset": "0x10674",
+  "words": 4,
+  "jp": "われる.",
+  "en": "so."
+ },
+ {
+  "offset": "0x1067E",
+  "words": 12,
+  "jp": "竜属に对して效果がある.",
+  "en": "Effective vs dragons."
+ },
+ {
+  "offset": "0x10698",
+  "words": 22,
+  "jp": "刀身に特殊な模樣が施されている聖剣.持つ者に",
+  "en": "A holy sword with a special pattern. Its"
+ },
+ {
+  "offset": "0x106C6",
+  "words": 22,
+  "jp": "神の加護があるといわれ,运說の英雄が愛用した",
+  "en": "wielder gains divine grace, used by a legend"
+ },
+ {
+  "offset": "0x106F4",
+  "words": 22,
+  "jp": "とされる.聖属性の效果k持ち,ホーリーブレイ",
+  "en": "hero. It is holy-element and grants Holy"
+ },
+ {
+  "offset": "0x10722",
+  "words": 11,
+  "jp": "ズが{?029E}れるようになる.",
+  "en": "Blaze."
+ },
+ {
+  "offset": "0x1073A",
+  "words": 22,
+  "jp": "古代魔法文明時代に作られた剣.マナドライブ式",
+  "en": "A sword of the old magic age. A mana-drive"
+ },
+ {
+  "offset": "0x10768",
+  "words": 22,
+  "jp": "小型魔動砲が取り付けられており,1日に1度だ",
+  "en": "small magic cannon is fixed to it, firing"
+ },
+ {
+  "offset": "0x10796",
+  "words": 22,
+  "jp": "け,砲{?00FE}が行える.また重心バランスが優れてお",
+  "en": "once a day. Its balance is fine too,"
+ },
+ {
+  "offset": "0x107C4",
+  "words": 18,
+  "jp": "り,素早い連続攻{?00FE}k可能としている.",
+  "en": "allowing fast combo attacks."
+ },
+ {
+  "offset": "0x107EA",
+  "words": 22,
+  "jp": "混沌の王カオスが锻えた,暗黒の魔剣.{?0224}の王子",
+  "en": "A dark sword forged by Chaos, lord of chaos."
+ },
+ {
+  "offset": "0x10818",
+  "words": 22,
+  "jp": "ボーゼルが愛用する剣で,この剣に認められた者",
+  "en": "Prince Bozel uses it. One it accepts can"
+ },
+ {
+  "offset": "0x10846",
+  "words": 21,
+  "jp": "は,全ての魔物k支配する事ができるという.",
+  "en": "rule all monsters, they say."
+ },
+ {
+  "offset": "0x10872",
+  "words": 11,
+  "jp": "攻{?00FE}消費行動量k5鞋减",
+  "en": "Attack cost -5."
+ },
+ {
+  "offset": "0x1088A",
+  "words": 22,
+  "jp": "光輝と{?0224}が争った古えの時代,時の王ジークハル",
+  "en": "In the old age when light and dark warred,"
+ },
+ {
+  "offset": "0x108B8",
+  "words": 22,
+  "jp": "トが自らの命kもって锻えた聖剣.光の女神ルシ",
+  "en": "king Sieghart forged this holy sword at the"
+ },
+ {
+  "offset": "0x108E6",
+  "words": 20,
+  "jp": "リスの加護k受け,暗黒の魔剣と相对する.",
+  "en": "cost of his life. It foils dark swords."
+ },
+ {
+  "offset": "0x10910",
+  "words": 11,
+  "jp": "攻{?00FE}消費行動量k5鞋减",
+  "en": "Attack cost -5."
+ },
+ {
+  "offset": "0x10928",
+  "words": 22,
+  "jp": "片手用の小型芹.手頃な六きさで报いやすいため",
+  "en": "A small one-hand axe. Handy and easy,"
+ },
+ {
+  "offset": "0x10956",
+  "words": 13,
+  "jp": "狩{?02C7}などによく用いられる.",
+  "en": "often used for hunting."
+ },
+ {
+  "offset": "0x10972",
+  "words": 22,
+  "jp": "武器としての威力は低いが,值段から考えれば充",
+  "en": "Low power, but good value for the price."
+ },
+ {
+  "offset": "0x109A0",
+  "words": 6,
+  "jp": "分といえる.",
+  "en": "fair value."
+ },
+ {
+  "offset": "0x109AE",
+  "words": 22,
+  "jp": "長い柄の先に両刃の芹k取り付けた,戦{?0110}用の六",
+  "en": "A big war axe, double blade on a long haft."
+ },
+ {
+  "offset": "0x109DC",
+  "words": 22,
+  "jp": "きな芹.攻{?00FE}力は高いが,非常に重いのが欠点.",
+  "en": "High attack, but very heavy is its flaw."
+ },
+ {
+  "offset": "0x10A0A",
+  "words": 21,
+  "jp": "非力な者では持ち上げるだけで{?02CA}一杯である.",
+  "en": "The weak can barely even lift it."
+ },
+ {
+  "offset": "0x10A36",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+\\nペナルティ",
+  "en": "Attack cost up. Penalty"
+ },
+ {
+  "offset": "0x10A54",
+  "words": 22,
+  "jp": "魔法金属であるミスリル银k使った両刃芹.巨六",
+  "en": "A double axe of mithril silver. Its huge"
+ },
+ {
+  "offset": "0x10A82",
+  "words": 22,
+  "jp": "な芹頭から生まれる破壊力はすさまじいが,他の",
+  "en": "head gives fearsome power, yet it is far"
+ },
+ {
+  "offset": "0x10AB0",
+  "words": 17,
+  "jp": "芹と比べ,はるかに鞋く报いやすい.",
+  "en": "far lighter than other axes."
+ },
+ {
+  "offset": "0x10AD4",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+1ペナルティ",
+  "en": "Attack cost +1. Penalty"
+ },
+ {
+  "offset": "0x10AF2",
+  "words": 22,
+  "jp": "振るう者には狂気k,受ける者には恐怖k与える",
+  "en": "A cursed axe: madness to its wielder, terror"
+ },
+ {
+  "offset": "0x10B20",
+  "words": 22,
+  "jp": "呪われた芹.装備した者は,{?0174}k倒す事しか考え",
+  "en": "to its target. The wielder thinks only of"
+ },
+ {
+  "offset": "0x10B4E",
+  "words": 18,
+  "jp": "られず,防御がおろそかになるという.",
+  "en": "killing, and neglects defense."
+ },
+ {
+  "offset": "0x10B74",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+4ペナルティ",
+  "en": "Attack cost +4. Penalty"
+ },
+ {
+  "offset": "0x10B92",
+  "words": 22,
+  "jp": "破壊と沈黙k意味するルーンk芹頭に刻んだ,巨",
+  "en": "A huge stone axe, its head carved with runes"
+ },
+ {
+  "offset": "0x10BC0",
+  "words": 22,
+  "jp": "六な石芹.すさまじい破壊力k持つだけでなく,",
+  "en": "of ruin and silence. Fearsome power, and"
+ },
+ {
+  "offset": "0x10BEE",
+  "words": 19,
+  "jp": "魔力付加によって重量が鞋减されている.",
+  "en": "magic also cuts its weight."
+ },
+ {
+  "offset": "0x10C16",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ",
+  "en": "Attack cost +2. Penalty"
+ },
+ {
+  "offset": "0x10C34",
+  "words": 22,
+  "jp": "マッチョな兄貴が,常に携带している锻鍊道具.",
+  "en": "A workout tool a macho bro always carries."
+ },
+ {
+  "offset": "0x10C62",
+  "words": 22,
+  "jp": "いつでも,どこでも肉体k锻鍊できるところが喜",
+  "en": "He loves that he can train his body anywhere"
+ },
+ {
+  "offset": "0x10C90",
+  "words": 22,
+  "jp": "ばれている.武器としては今一つだが,兄貴k仲",
+  "en": "As a weapon it is so-so, but they say it"
+ },
+ {
+  "offset": "0x10CBE",
+  "words": 16,
+  "jp": "間にできるという言い运えがある.",
+  "en": "makes the bro your friend."
+ },
+ {
+  "offset": "0x10CE0",
+  "words": 22,
+  "jp": "堅い木k加工しただけの,きわめて原始的な打{?00FE}",
+  "en": "A crude club, just shaped hard wood. But its"
+ },
+ {
+  "offset": "0x10D0E",
+  "words": 22,
+  "jp": "武器.しかし重量があるため,その威力はあなど",
+  "en": "weight makes its power not to be ignored."
+ },
+ {
+  "offset": "0x10D3C",
+  "words": 4,
+  "jp": "れない.",
+  "en": "cannot."
+ },
+ {
+  "offset": "0x10D46",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+\\nペナルティ",
+  "en": "Attack cost up. Penalty"
+ },
+ {
+  "offset": "0x10D64",
+  "words": 22,
+  "jp": "長い柄の先に,銳いトゲのある鉄球k鎖で取り付",
+  "en": "A mace: a spiked iron ball chained to a long"
+ },
+ {
+  "offset": "0x10D92",
+  "words": 22,
+  "jp": "けたメイスの一種.威力もあり,また攻{?00FE}もかわ",
+  "en": "haft. It has power and dodges hits, yet is"
+ },
+ {
+  "offset": "0x10DC0",
+  "words": 22,
+  "jp": "されにくいという利点k持つが,报いが難しい.",
+  "en": "hard to wield."
+ },
+ {
+  "offset": "0x10DEE",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ",
+  "en": "Attack cost +2. Penalty"
+ },
+ {
+  "offset": "0x10E0C",
+  "words": 22,
+  "jp": "長い柄の先に金属製のトゲk取り付けたメイスの",
+  "en": "A mace with metal spikes on a long haft. You"
+ },
+ {
+  "offset": "0x10E3A",
+  "words": 22,
+  "jp": "一種で,相手k殴って攻{?00FE}する.威力が六きいわ",
+  "en": "strike foes with it. Its power is great, but"
+ },
+ {
+  "offset": "0x10E68",
+  "words": 15,
+  "jp": "りに,报いが非常に簡単である.",
+  "en": "but it is very easy to use."
+ },
+ {
+  "offset": "0x10E88",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ",
+  "en": "Attack cost +2. Penalty"
+ },
+ {
+  "offset": "0x10EA6",
+  "words": 22,
+  "jp": "{?02CA}神力k使うことによって,その威力k高める巨",
+  "en": "A huge magic hammer that boosts its power"
+ },
+ {
+  "offset": "0x10ED4",
+  "words": 22,
+  "jp": "六な魔法{?02E4}.しかし{?02CA}神力が切れると,その重さ",
+  "en": "with willpower. But when willpower runs out,"
+ },
+ {
+  "offset": "0x10F02",
+  "words": 22,
+  "jp": "がアダとなる.攻{?00FE}每にMP2消費でAT2割上",
+  "en": "its weight hurts. Each hit costs 2 MP for"
+ },
+ {
+  "offset": "0x10F30",
+  "words": 18,
+  "jp": "昇.逆にMPがなくなると,2割减少.",
+  "en": "AT x1.2. With no MP, x0.8."
+ },
+ {
+  "offset": "0x10F56",
+  "words": 22,
+  "jp": "怪力の神ダグザが使用したと运えられるこん棒.",
+  "en": "A club said used by Dagda, god of strength."
+ },
+ {
+  "offset": "0x10F84",
+  "words": 22,
+  "jp": "あまりにも重く巨六なため,常人には使うことは",
+  "en": "So heavy and huge that a normal person"
+ },
+ {
+  "offset": "0x10FB2",
+  "words": 17,
+  "jp": "おろか,持ち上げる事すら出来ない.",
+  "en": "cannot lift it, let alone use it."
+ },
+ {
+  "offset": "0x10FD6",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+4ペナルティ",
+  "en": "Attack cost +4. Penalty"
+ },
+ {
+  "offset": "0x10FF4",
+  "words": 22,
+  "jp": "雷神トールが愛用するハンマー.投げれば雷のご",
+  "en": "The hammer of Thor, thunder god. Thrown, it"
+ },
+ {
+  "offset": "0x11022",
+  "words": 20,
+  "jp": "とく目標に向かい{?0174}k粉碎し,手元に房る.",
+  "en": "crushes the foe and returns to hand."
+ },
+ {
+  "offset": "0x1104C",
+  "words": 21,
+  "jp": "またトールの加護が得られるとも运えられる.",
+  "en": "It may grant Thor blessing too."
+ },
+ {
+  "offset": "0x11078",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ",
+  "en": "Attack cost +2. Penalty"
+ },
+ {
+  "offset": "0x11096",
+  "words": 22,
+  "jp": "主に相手k馬などから突き落とすために用いられ",
+  "en": "A very long lance, mainly to knock foes off"
+ },
+ {
+  "offset": "0x110C4",
+  "words": 22,
+  "jp": "る,非常に長い騎槍.乗り物のスピードk利用し",
+  "en": "their mounts. Using the mount speed, its"
+ },
+ {
+  "offset": "0x110F2",
+  "words": 20,
+  "jp": "た必殺の一{?00FE}は,板金鎧すら貫く程である.",
+  "en": "deadly thrust pierces even plate armor."
+ },
+ {
+  "offset": "0x1111C",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+\\nペナルティ",
+  "en": "Attack cost up. Penalty"
+ },
+ {
+  "offset": "0x1113A",
+  "words": 22,
+  "jp": "魔法金属ミスリルで作られた騎槍で,普通のラン",
+  "en": "A lance of mithril, the magic metal. Lighter"
+ },
+ {
+  "offset": "0x11168",
+  "words": 22,
+  "jp": "スよりも鞋く寸夫である.そのため,貫通力に優",
+  "en": "and tougher than a normal lance, so it"
+ },
+ {
+  "offset": "0x11196",
+  "words": 19,
+  "jp": "れ,强烈な一{?00FE}k{?02F8}き込むことができる.",
+  "en": "pierces well with a fierce thrust."
+ },
+ {
+  "offset": "0x111BE",
+  "words": 21,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ・クリティカル",
+  "en": "Attack cost +2. Penalty. Critical"
+ },
+ {
+  "offset": "0x111EA",
+  "words": 22,
+  "jp": "多くの持ち主の間kめぐり,血k吸い続ける魔性",
+  "en": "A demon lance passed among many owners,"
+ },
+ {
+  "offset": "0x11218",
+  "words": 22,
+  "jp": "の騎槍.威力は低いが,貫いた相手の生気k吸い",
+  "en": "ever drinking blood. Weak, but it drains"
+ },
+ {
+  "offset": "0x11246",
+  "words": 20,
+  "jp": "尽くし,持ち主に生命力k与える力k持つ.",
+  "en": "a pierced foe life to feed its wielder."
+ },
+ {
+  "offset": "0x11270",
+  "words": 14,
+  "jp": "攻{?00FE}消費行動量+4ペナルティ",
+  "en": "Attack cost +4. Penalty"
+ },
+ {
+  "offset": "0x1128E",
+  "words": 22,
+  "jp": "类の魔神の化身ともいわれる,魔法のランス.穂",
+  "en": "A magic lance, said a fire demon avatar."
+ },
+ {
+  "offset": "0x112BC",
+  "words": 22,
+  "jp": "先や柄から,永遠に消えることのない灼熱の类k",
+  "en": "Undying flames pour from its tip and haft,"
+ },
+ {
+  "offset": "0x112EA",
+  "words": 21,
+  "jp": "吹き出しており,类魔法k{?029E}る力k得られる.",
+  "en": "and it grants power over fire magic."
+ },
+ {
+  "offset": "0x11316",
+  "words": 21,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ・クリティカル",
+  "en": "Attack cost +2. Penalty. Critical"
+ },
+ {
+  "offset": "0x11342",
+  "words": 22,
+  "jp": "运說の竜騎士が用いたとされる騎槍.鞋く寸夫な",
+  "en": "A lance said used by a legend dragon knight."
+ },
+ {
+  "offset": "0x11370",
+  "words": 22,
+  "jp": "造りで,强力な破壊力k持っている.{?0301}の{?02CA}霊の",
+  "en": "Light yet tough, with great power. It may"
+ },
+ {
+  "offset": "0x1139E",
+  "words": 16,
+  "jp": "加護k受けているとも运えられる.",
+  "en": "hold a dragon spirit blessing."
+ },
+ {
+  "offset": "0x113C0",
+  "words": 21,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ・クリティカル",
+  "en": "Attack cost +2. Penalty. Critical"
+ },
+ {
+  "offset": "0x113EC",
+  "words": 22,
+  "jp": "戦場k求めてさまよう魔槍.槍自身が戦いの兆し",
+  "en": "A demon spear that roams seeking battle. It"
+ },
+ {
+  "offset": "0x1141A",
+  "words": 21,
+  "jp": "k感じ取り,类k発して戦場へ向かっていく.",
+  "en": "senses war, flares fire, and heads to it."
+ },
+ {
+  "offset": "0x11446",
+  "words": 17,
+  "jp": "常人には手に負えない代物といえる.",
+  "en": "A normal person cannot handle it."
+ },
+ {
+  "offset": "0x1146A",
+  "words": 21,
+  "jp": "攻{?00FE}消費行動量+2ペナルティ・クリティカル",
+  "en": "Attack cost +2. Penalty. Critical"
+ },
+ {
+  "offset": "0x11496",
+  "words": 22,
+  "jp": "魔法使いの護身用として用いられると同時に,呪",
+  "en": "Used by mages for defense and also to aid"
+ },
+ {
+  "offset": "0x114C4",
+  "words": 20,
+  "jp": "文詠唱時の{?02CA}神集中k助ける役目も持つ杖.",
+  "en": "focus while casting spells."
+ },
+ {
+  "offset": "0x114EE",
+  "words": 19,
+  "jp": "見習い魔法使いが持つ一般的な物である.",
+  "en": "A common apprentice mage staff."
+ },
+ {
+  "offset": "0x11516",
+  "words": 15,
+  "jp": "魔法射程+2・魔法ダメージ+1",
+  "en": "Mag range +2, dmg +1"
+ },
+ {
+  "offset": "0x11536",
+  "words": 22,
+  "jp": "一人前の魔法使いと認められた者のみが所有でき",
+  "en": "A special enchanted staff only a full mage"
+ },
+ {
+  "offset": "0x11564",
+  "words": 22,
+  "jp": "る,魔力付与された特殊な杖.武器としての能力",
+  "en": "may own. It has no weapon power, but it aids"
+ },
+ {
+  "offset": "0x11592",
+  "words": 22,
+  "jp": "は無いが,術者の{?02CA}神集中k助ける役目k持つ.",
+  "en": "the caster focus."
+ },
+ {
+  "offset": "0x115C0",
+  "words": 15,
+  "jp": "魔法射程+4・魔法ダメージ+1",
+  "en": "Mag range +4, dmg +1"
+ },
+ {
+  "offset": "0x115E0",
+  "words": 22,
+  "jp": "杖の先端に魔力付加された美しいクリスタルが付",
+  "en": "A lovely enchanted crystal sits on its tip,"
+ },
+ {
+  "offset": "0x1160E",
+  "words": 22,
+  "jp": "けられており,術者の魔法效果k增幅する事がで",
+  "en": "amplifying the caster magic effect."
+ },
+ {
+  "offset": "0x11644",
+  "words": 15,
+  "jp": "魔法射程+5・魔法ダメージ+1",
+  "en": "Mag range +5, dmg +1"
+ },
+ {
+  "offset": "0x11664",
+  "words": 22,
+  "jp": "六魔術師と呼ばれる者たちが所有できるロッド.",
+  "en": "A rod only great mages may own."
+ },
+ {
+  "offset": "0x11692",
+  "words": 22,
+  "jp": "呪文效果k高めるための工夫が施されているため",
+  "en": "It is built to boost spell effects, so the"
+ },
+ {
+  "offset": "0x116C0",
+  "words": 14,
+  "jp": "術者の力が充分に発揮できる.",
+  "en": "caster can use full power."
+ },
+ {
+  "offset": "0x116DE",
+  "words": 18,
+  "jp": "魔法射程+8・範{?00F6}+1・ダメージ+1",
+  "en": "Mag range +8, area +1, dmg +1"
+ },
+ {
+  "offset": "0x11704",
+  "words": 22,
+  "jp": "杖の先に水晶がはめ込まれており,その中には类",
+  "en": "A crystal is set in its tip, and within it"
+ },
+ {
+  "offset": "0x11732",
+  "words": 22,
+  "jp": "と化した魔神が眠っている.力ある術者は,その",
+  "en": "sleeps a fire demon. A strong caster can"
+ },
+ {
+  "offset": "0x11760",
+  "words": 16,
+  "jp": "魔神k使役する事ができるという.",
+  "en": "command that demon, they say."
+ },
+ {
+  "offset": "0x11782",
+  "words": 13,
+  "jp": "魔法射程+5・ダメージ+1",
+  "en": "Mag range +5, dmg +1"
+ },
+ {
+  "offset": "0x1179E",
+  "words": 22,
+  "jp": "生命の息吹に满ちあふれた杖.持つ物の治癌能力",
+  "en": "A staff full of life breath. It boosts the"
+ },
+ {
+  "offset": "0x117CC",
+  "words": 22,
+  "jp": "k高めるだけでなく,癌しの魔法k{?029E}る力k与え",
+  "en": "holder healing and grants power over heal"
+ },
+ {
+  "offset": "0x117FA",
+  "words": 22,
+  "jp": "るという.魔法射程+5・ダメージ+1",
+  "en": "magic. Mag range +5, dmg +1"
+ },
+ {
+  "offset": "0x11828",
+  "words": 13,
+  "jp": "追加スキル:リジェネレート",
+  "en": "Bonus skill: Regenerate"
+ },
+ {
+  "offset": "0x11844",
+  "words": 22,
+  "jp": "运說の六魔術師が愛用したとされる杖.術者の魔",
+  "en": "A staff said used by a legend archmage. It"
+ },
+ {
+  "offset": "0x11872",
+  "words": 22,
+  "jp": "法效果k高めるだけでなく,强力な呪文k{?029E}る力",
+  "en": "boosts spell effects and grants power over"
+ },
+ {
+  "offset": "0x118A0",
+  "words": 13,
+  "jp": "k得ることができるという.",
+  "en": "strong spells, they say."
+ },
+ {
+  "offset": "0x118BC",
+  "words": 18,
+  "jp": "魔法射程+7・範{?00F6}+2・ダメージ+1",
+  "en": "Mag range +7, area +2, dmg +1"
+ },
+ {
+  "offset": "0x118E2",
+  "words": 22,
+  "jp": "竜王が人の姿kとった時,使ったとされる神秘的",
+  "en": "A mystic staff said used by the dragon king"
+ },
+ {
+  "offset": "0x11910",
+  "words": 22,
+  "jp": "な杖.心正しき所有者と認められた者は,真の力",
+  "en": "in human form. One found pure of heart can"
+ },
+ {
+  "offset": "0x1193E",
+  "words": 22,
+  "jp": "k引き出すと运えられる.魔法詠唱&待機-5C",
+  "en": "draw its true power. Cast and wait -5C"
+ },
+ {
+  "offset": "0x1196C",
+  "words": 18,
+  "jp": "魔法射程+6・範{?00F6}+2・ダメージ+1",
+  "en": "Mag range +6, area +2, dmg +1"
+ },
+ {
+  "offset": "0x11992",
+  "words": 22,
+  "jp": "80{?0317}m程の小さな弓.そのため开距離は短いが",
+  "en": "A small 80cm bow. Its range is short,"
+ },
+ {
+  "offset": "0x119C0",
+  "words": 22,
+  "jp": "持ち運びが比較的楽である.しかし重い防具が邪",
+  "en": "but it is easy to carry. Heavy armor gets in"
+ },
+ {
+  "offset": "0x119EE",
+  "words": 16,
+  "jp": "魔になるため,防御力が低くなる.",
+  "en": "the way, so defense drops."
+ },
+ {
+  "offset": "0x11A10",
+  "words": 21,
+  "jp": "間接:7マス・攻{?00FE}消費行動量10ペナルティ",
+  "en": "Indirect 7. Cost 10. Penalty"
+ },
+ {
+  "offset": "0x11A3C",
+  "words": 22,
+  "jp": "いちいの木で作られた長弓.破壊力,貫通力に富",
+  "en": "A longbow of yew. Rich in power and"
+ },
+ {
+  "offset": "0x11A6A",
+  "words": 22,
+  "jp": "み,开距離もあるが,报いこなすにはかなりの訓",
+  "en": "piercing, with range too, but it needs much"
+ },
+ {
+  "offset": "0x11A98",
+  "words": 8,
+  "jp": "練k必要とする.",
+  "en": "needs training."
+ },
+ {
+  "offset": "0x11AAA",
+  "words": 22,
+  "jp": "間接:10マス・攻{?00FE}消費行動量16ペナルティ",
+  "en": "Indirect 10. Cost 16. Penalty"
+ },
+ {
+  "offset": "0x11AD8",
+  "words": 22,
+  "jp": "森の種族で弓の名手でもあるエルフが,持ち步く",
+  "en": "A magic bow carried by elves, the forest"
+ },
+ {
+  "offset": "0x11B06",
+  "words": 22,
+  "jp": "魔法の弓.優れた开距離k持っているが,多少か",
+  "en": "race of master archers. Great range, but a"
+ },
+ {
+  "offset": "0x11B34",
+  "words": 9,
+  "jp": "さばる欠点がある.",
+  "en": "bit bulky."
+ },
+ {
+  "offset": "0x11B48",
+  "words": 22,
+  "jp": "間接:14マス・攻{?00FE}消費行動量20ペナルティ",
+  "en": "Indirect 14. Cost 20. Penalty"
+ },
+ {
+  "offset": "0x11B76",
+  "words": 22,
+  "jp": "普段は手の中に收まるほど小さいが,引き絞ると",
+  "en": "Usually small enough to hold, it grows huge"
+ },
+ {
+  "offset": "0x11BA4",
+  "words": 22,
+  "jp": "六きくなる魔法の弓.はるか昔,弓の名手であっ",
+  "en": "when drawn. Long ago a northern god gave it"
+ },
+ {
+  "offset": "0x11BD2",
+  "words": 21,
+  "jp": "た王子に,北方の神が与えたといわれている.",
+  "en": "to a prince, a master archer, they say."
+ },
+ {
+  "offset": "0x11BFE",
+  "words": 22,
+  "jp": "間接:14マス・攻{?00FE}消費行動量22ペナルティ",
+  "en": "Indirect 14. Cost 22. Penalty"
+ },
+ {
+  "offset": "0x11C2C",
+  "words": 22,
+  "jp": "月の女神アルテミスの弓.放たれた矢に月の魔力",
+  "en": "The bow of Artemis, moon goddess. Its arrows"
+ },
+ {
+  "offset": "0x11C5A",
+  "words": 19,
+  "jp": "が宿るため,相手の心k狂わせるという.",
+  "en": "hold moon magic that maddens the foe."
+ },
+ {
+  "offset": "0x11C82",
+  "words": 20,
+  "jp": "非常に六きな弓で,开距離も破壊力もある.",
+  "en": "A very large bow with range and power."
+ },
+ {
+  "offset": "0x11CAC",
+  "words": 22,
+  "jp": "間接:18マス・攻{?00FE}消費行動量\\n0ぺナルティ",
+  "en": "Indirect 18. Cost N. Penalty"
+ },
+ {
+  "offset": "0x11CDA",
+  "words": 22,
+  "jp": "鉄板k打ちつけて造られた,全身鎧.防御力に富",
+  "en": "Full armor of riveted iron plates. Rich in"
+ },
+ {
+  "offset": "0x11D08",
+  "words": 22,
+  "jp": "み,並の攻{?00FE}ではまったく傷k与えることができ",
+  "en": "defense. Normal attacks cannot wound it at"
+ },
+ {
+  "offset": "0x11D36",
+  "words": 22,
+  "jp": "ない.その反面,非常に重くなっており,機動性",
+  "en": "all. But it is very heavy, hurting mobility."
+ },
+ {
+  "offset": "0x11D64",
+  "words": 5,
+  "jp": "に欠ける.",
+  "en": "lacks it."
+ },
+ {
+  "offset": "0x11D70",
+  "words": 22,
+  "jp": "魔法金属である,ミスリル银で造られたプレート",
+  "en": "Plate armor of mithril silver, magic metal."
+ },
+ {
+  "offset": "0x11D9E",
+  "words": 22,
+  "jp": "アーマー.そのため,板金鎧のわりには非常に鞋",
+  "en": "For plate armor it is very light,"
+ },
+ {
+  "offset": "0x11DCC",
+  "words": 12,
+  "jp": "く,また防御能力も高い.",
+  "en": "with high defense too."
+ },
+ {
+  "offset": "0x11DEA",
+  "words": 22,
+  "jp": "騎士として認められた者が装備k許される,ミス",
+  "en": "Mithril silver armor only true knights may"
+ },
+ {
+  "offset": "0x11E18",
+  "words": 22,
+  "jp": "リル银製の鎧.装饰のような無数の溝により,强",
+  "en": "wear. Countless decorative grooves keep it"
+ },
+ {
+  "offset": "0x11E46",
+  "words": 21,
+  "jp": "度k損なうことなく,鞋量化に成功している.",
+  "en": "strong while making it light."
+ },
+ {
+  "offset": "0x11E72",
+  "words": 16,
+  "jp": "攻{?00FE}消費行動量k5鞋减（佣兵含）",
+  "en": "Attack cost -5 (mercs too)."
+ },
+ {
+  "offset": "0x11E94",
+  "words": 22,
+  "jp": "非常に珍しい魔法金属,オリハルコンで造られた",
+  "en": "Armor of orichalcum, a rare magic metal."
+ },
+ {
+  "offset": "0x11EC2",
+  "words": 22,
+  "jp": "鎧.著用者自身のオーラk强化し,その身k護る",
+  "en": "It boosts the wearer aura to guard them,"
+ },
+ {
+  "offset": "0x11EF0",
+  "words": 22,
+  "jp": "機能k持つ.そのため,見た目よりも遥かに鞋量",
+  "en": "so it is far lighter than it looks."
+ },
+ {
+  "offset": "0x11F1E",
+  "words": 14,
+  "jp": "で,かつ優れた防御力k誇る.",
+  "en": "with great defense too."
+ },
+ {
+  "offset": "0x11F3C",
+  "words": 21,
+  "jp": "全身が未知の合金で造られた巨六な人型の鎧.",
+  "en": "Huge humanoid armor of an unknown alloy."
+ },
+ {
+  "offset": "0x11F68",
+  "words": 22,
+  "jp": "胴体部には人が乗れる座席もあり,また肩の部分",
+  "en": "A person can sit in the torso, and the"
+ },
+ {
+  "offset": "0x11F96",
+  "words": 17,
+  "jp": "には{?0201}ZEAR-1{?0202}の文字がある.",
+  "en": "shoulder reads 'ZEAR-1'."
+ },
+ {
+  "offset": "0x11FBA",
+  "words": 12,
+  "jp": "未知の文明からの贈り物.",
+  "en": "A gift from afar."
+ },
+ {
+  "offset": "0x11FD4",
+  "words": 22,
+  "jp": "六地母神が,その信者たちに授けたとされる聖な",
+  "en": "Holy armor said given by the earth mother to"
+ },
+ {
+  "offset": "0x12002",
+  "words": 22,
+  "jp": "る鎧.著用者は六地母神の加護k受け,わずかだ",
+  "en": "her faithful. The wearer gains her grace and"
+ },
+ {
+  "offset": "0x12030",
+  "words": 22,
+  "jp": "が魔法に对する耐性k得る.また時折,奇跡の力",
+  "en": "slight magic resistance. At times a miracle"
+ },
+ {
+  "offset": "0x1205E",
+  "words": 16,
+  "jp": "によって,体力が回復するという.",
+  "en": "restores their health, they say."
+ },
+ {
+  "offset": "0x12080",
+  "words": 22,
+  "jp": "鎖k編んで造られた鎧で,プレート式の鎧よりも",
+  "en": "Armor woven of chain, lighter and easier to"
+ },
+ {
+  "offset": "0x120AE",
+  "words": 11,
+  "jp": "鞋く,また動きやすい.",
+  "en": "move in than plate."
+ },
+ {
+  "offset": "0x120C6",
+  "words": 22,
+  "jp": "優れた防御力のわりには安俩なため,多くの戦士",
+  "en": "For its good defense it is cheap, so many"
+ },
+ {
+  "offset": "0x120F4",
+  "words": 9,
+  "jp": "に愛用されている.",
+  "en": "warriors favor it."
+ },
+ {
+  "offset": "0x12108",
+  "words": 22,
+  "jp": "チェインメイルの一種で,胸部に板金k用いる事",
+  "en": "A chainmail that uses a chest plate to raise"
+ },
+ {
+  "offset": "0x12136",
+  "words": 22,
+  "jp": "で防御效果k高めている.その板金部分にはミス",
+  "en": "defense. The plate part uses mithril"
+ },
+ {
+  "offset": "0x12164",
+  "words": 20,
+  "jp": "リル银k使用しており,鞋量になっている.",
+  "en": "silver, keeping it light."
+ },
+ {
+  "offset": "0x12192",
+  "words": 22,
+  "jp": "竜のウロコk革の下地にぬいつけた鎧.そのため",
+  "en": "Armor of dragon scales sewn onto leather, so"
+ },
+ {
+  "offset": "0x121C0",
+  "words": 21,
+  "jp": "鋼よりも鞋く,また高い衝{?00FE}吸收能力k持つ.",
+  "en": "lighter than steel with high shock soak."
+ },
+ {
+  "offset": "0x121EC",
+  "words": 22,
+  "jp": "类や冷気に对しても耐性k持つが,材料自体が貴",
+  "en": "It resists fire and cold, but its material"
+ },
+ {
+  "offset": "0x1221A",
+  "words": 19,
+  "jp": "重なため,非常に数が少なく高俩である.",
+  "en": "is rare, so it is scarce and costly."
+ },
+ {
+  "offset": "0x12242",
+  "words": 22,
+  "jp": "英雄アエネアスが身につけていた运說の鎧で,い",
+  "en": "Legend armor worn by the hero Aeneas. No"
+ },
+ {
+  "offset": "0x12270",
+  "words": 22,
+  "jp": "かなる武器も,傷すら付けられないという.锻冶",
+  "en": "weapon can even scratch it, they say. Said"
+ },
+ {
+  "offset": "0x1229E",
+  "words": 20,
+  "jp": "の神が造ったとされ,優れた防御力k誇る.",
+  "en": "made by the smith god, with top defense."
+ },
+ {
+  "offset": "0x122C8",
+  "words": 16,
+  "jp": "攻{?00FE}消費行動量k\\n鞋减（佣兵含）",
+  "en": "Cost down (mercs too)."
+ },
+ {
+  "offset": "0x122EA",
+  "words": 22,
+  "jp": "オイルで煮固めた革kあつく重ねて造られた鎧.",
+  "en": "Armor of thick oil-boiled leather layers."
+ },
+ {
+  "offset": "0x12318",
+  "words": 22,
+  "jp": "やや重くなるものの,金属鎧と比べ遥かに鞋く,",
+  "en": "A bit heavy, but far lighter than metal"
+ },
+ {
+  "offset": "0x12346",
+  "words": 22,
+  "jp": "それなりの强度も持っている.そのため力の弱い",
+  "en": "armor, and fairly strong. So even a weak"
+ },
+ {
+  "offset": "0x12374",
+  "words": 9,
+  "jp": "者でも著用できる.",
+  "en": "all can wear it."
+ },
+ {
+  "offset": "0x12388",
+  "words": 22,
+  "jp": "ビルダー御用達のワックス.体にハリとツヤk与",
+  "en": "A bodybuilder wax. It firms and shines the"
+ },
+ {
+  "offset": "0x123B6",
+  "words": 22,
+  "jp": "えるが防御效果は全くない.また燃えやすいとい",
+  "en": "body but gives no defense, and burns easily."
+ },
+ {
+  "offset": "0x123E4",
+  "words": 22,
+  "jp": "う欠点もあるが,これk堡れば,兄貴とお友達に",
+  "en": "But put it on and you may befriend the bro,"
+ },
+ {
+  "offset": "0x12412",
+  "words": 10,
+  "jp": "なれる可能性がある.",
+  "en": "they say."
+ },
+ {
+  "offset": "0x12428",
+  "words": 22,
+  "jp": "メイドさんが使用するエプロン付きドレス.ヒラ",
+  "en": "A maid dress with an apron. It has"
+ },
+ {
+  "offset": "0x12456",
+  "words": 13,
+  "jp": "ヒラのフリルが付いている.",
+  "en": "fluttery frills."
+ },
+ {
+  "offset": "0x12472",
+  "words": 20,
+  "jp": "身につければ,メイドさんになれるという.",
+  "en": "Wear it and you become a maid, they say."
+ },
+ {
+  "offset": "0x1249C",
+  "words": 10,
+  "jp": "女性のみ装備できる.",
+  "en": "Females only."
+ },
+ {
+  "offset": "0x124B2",
+  "words": 22,
+  "jp": "ただの服であるため,防具としての效果は期待で",
+  "en": "Just clothes, so do not expect armor value."
+ },
+ {
+  "offset": "0x124E0",
+  "words": 22,
+  "jp": "きない.ただし何も著用しないよりは,いくらか",
+  "en": "Still, it is a little better than wearing"
+ },
+ {
+  "offset": "0x1250E",
+  "words": 6,
+  "jp": "ましである.",
+  "en": "is better."
+ },
+ {
+  "offset": "0x12520",
+  "words": 22,
+  "jp": "寸夫な布地で作られた服のような物.鞋く,ゆっ",
+  "en": "Clothes of sturdy cloth. Light and loose,"
+ },
+ {
+  "offset": "0x1254E",
+  "words": 22,
+  "jp": "たりとしており,魔術師たちがよく身につける.",
+  "en": "often worn by mages."
+ },
+ {
+  "offset": "0x1257C",
+  "words": 22,
+  "jp": "わずかではあるが,{?0174}の魔法から身k護る,保護",
+  "en": "A protective spell on it guards a little"
+ },
+ {
+  "offset": "0x125AA",
+  "words": 12,
+  "jp": "の呪文がかけられている.",
+  "en": "against enemy magic."
+ },
+ {
+  "offset": "0x125C4",
+  "words": 22,
+  "jp": "雷神トールが身に著けた,しめる事によって力が",
+  "en": "A magic belt worn by Thor. Tightening it"
+ },
+ {
+  "offset": "0x125F2",
+  "words": 22,
+  "jp": "增す魔法の力带.これk著用し,トールに認めら",
+  "en": "raises power. One who wears it and is owned"
+ },
+ {
+  "offset": "0x12620",
+  "words": 18,
+  "jp": "れた者は,雷神の力k得られるという.",
+  "en": "by Thor gains the thunder god power."
+ },
+ {
+  "offset": "0x12646",
+  "words": 6,
+  "jp": "AT5％上昇",
+  "en": "AT +5%"
+ },
+ {
+  "offset": "0x12654",
+  "words": 22,
+  "jp": "あらゆる魔法に对して高い耐性のある,不思議な",
+  "en": "A strange bikini with high resistance to all"
+ },
+ {
+  "offset": "0x12682",
+  "words": 22,
+  "jp": "ビキニ.ほとんど肌k露出しているにもかかわら",
+  "en": "magic. Though it bares most of the skin,"
+ },
+ {
+  "offset": "0x126B0",
+  "words": 18,
+  "jp": "ず,なぜか,わずかな防御效果がある.",
+  "en": "somehow it gives a little defense."
+ },
+ {
+  "offset": "0x126D6",
+  "words": 12,
+  "jp": "当然,女性のみ装備可能.",
+  "en": "Females only, of course."
+ },
+ {
+  "offset": "0x126F0",
+  "words": 17,
+  "jp": "神秘的なオーラk放つ魔法のローブ.",
+  "en": "A magic robe with a mystic aura."
+ },
+ {
+  "offset": "0x12714",
+  "words": 22,
+  "jp": "込められた魔法の力によって,攻{?00FE}k受けた際の",
+  "en": "Its sealed magic softens the shock of being"
+ },
+ {
+  "offset": "0x12742",
+  "words": 22,
+  "jp": "衝{?00FE}kやわらげるだけでなく,{?0174}の魔法に对して",
+  "en": "hit, and against enemy magic it"
+ },
+ {
+  "offset": "0x12770",
+  "words": 7,
+  "jp": "も耐性k持つ.",
+  "en": "resists too."
+ },
+ {
+  "offset": "0x12780",
+  "words": 22,
+  "jp": "天女が身にまとっている,薄手の羽衣.高い魔法",
+  "en": "A thin feather robe of a sky maiden. Its"
+ },
+ {
+  "offset": "0x127AE",
+  "words": 22,
+  "jp": "耐性k持っている.これk身につけた者は,天女",
+  "en": "resists magic well. One who wears it can"
+ },
+ {
+  "offset": "0x127DC",
+  "words": 11,
+  "jp": "k仲間にできるという.",
+  "en": "befriend a sky maiden."
+ },
+ {
+  "offset": "0x127F4",
+  "words": 10,
+  "jp": "女性のみ装備できる.",
+  "en": "Females only."
+ },
+ {
+  "offset": "0x1280A",
+  "words": 22,
+  "jp": "混沌の神に仕える暗黒司祭が著用する法衣.生け",
+  "en": "A robe worn by dark priests of Chaos. Soaked"
+ },
+ {
+  "offset": "0x12838",
+  "words": 22,
+  "jp": "贄の血がしみ込み,不気味な色になっている.ま",
+  "en": "in sacrifice blood, an eerie color, and it"
+ },
+ {
+  "offset": "0x12866",
+  "words": 22,
+  "jp": "た激しい悪臭も発するが,これ無しにはカオスの",
+  "en": "a foul stench, but without it the Chaos"
+ },
+ {
+  "offset": "0x12894",
+  "words": 10,
+  "jp": "召噢儀式は行えない.",
+  "en": "summon rite fails."
+ },
+ {
+  "offset": "0x128AA",
+  "words": 22,
+  "jp": "光の女神がまとう,薄手の美しいドレス.著用者",
+  "en": "A thin dress of the light goddess. The"
+ },
+ {
+  "offset": "0x128D8",
+  "words": 22,
+  "jp": "はルシリスの加護が得られ,樣々な災いから護ら",
+  "en": "wearer gains Lucious grace, safe from many"
+ },
+ {
+  "offset": "0x12906",
+  "words": 22,
+  "jp": "れる.また信仰あつき者は,ルシリスk呼び竟ま",
+  "en": "evils. The devout can even call Lucious"
+ },
+ {
+  "offset": "0x12934",
+  "words": 22,
+  "jp": "す事ができるという.追加スキル:解毒能力",
+  "en": "forth, they say. Bonus skill: Antidote"
+ },
+ {
+  "offset": "0x12962",
+  "words": 22,
+  "jp": "脚部k守るために装備する,革kなめして作られ",
+  "en": "Tanned leather greaves worn to guard the"
+ },
+ {
+  "offset": "0x12990",
+  "words": 6,
+  "jp": "たすねあて.",
+  "en": "shin guards."
+ },
+ {
+  "offset": "0x1299E",
+  "words": 22,
+  "jp": "六した防御力は得られないが,手頃な值段のため",
+  "en": "legs. Not much defense, but cheap, so"
+ },
+ {
+  "offset": "0x129CC",
+  "words": 12,
+  "jp": "多くの兵士が使っている.",
+  "en": "many soldiers use them."
+ },
+ {
+  "offset": "0x129E6",
+  "words": 22,
+  "jp": "足下に对するあらゆる攻{?00FE}から身k守れるように",
+  "en": "Plate boots that guard the feet from all"
+ },
+ {
+  "offset": "0x12A14",
+  "words": 11,
+  "jp": "板金で作られたブーツ.",
+  "en": "attacks below."
+ },
+ {
+  "offset": "0x12A2C",
+  "words": 14,
+  "jp": "非常に優れた防御效果k持つ.",
+  "en": "They have very high defense."
+ },
+ {
+  "offset": "0x12A4E",
+  "words": 22,
+  "jp": "白い羽根k取り付けた,不思議な魔法のブーツ.",
+  "en": "Strange magic boots set with white feathers."
+ },
+ {
+  "offset": "0x12A7C",
+  "words": 22,
+  "jp": "身につけると,体が鞋くなり,开ぶように走る事",
+  "en": "Worn, the body lightens and you run as if"
+ },
+ {
+  "offset": "0x12AAA",
+  "words": 5,
+  "jp": "ができる.",
+  "en": "is able."
+ },
+ {
+  "offset": "0x12AB6",
+  "words": 14,
+  "jp": "いたずら好きな妖{?02CA}の忘れ物.",
+  "en": "Left by a prankish spirit."
+ },
+ {
+  "offset": "0x12AD4",
+  "words": 16,
+  "jp": "神の祝福k受けた,聖なるクロス.",
+  "en": "A holy cross blessed by god."
+ },
+ {
+  "offset": "0x12AF6",
+  "words": 22,
+  "jp": "持つ者の兵士たちに,神の加護が与えられる.そ",
+  "en": "It grants god grace to the holder soldiers,"
+ },
+ {
+  "offset": "0x12B24",
+  "words": 22,
+  "jp": "のため,{?0174}の攻{?00FE}や魔法に对して,わずかだが護",
+  "en": "so against enemy attacks and magic they get"
+ },
+ {
+  "offset": "0x12B52",
+  "words": 12,
+  "jp": "りの力が得られるという.",
+  "en": "a little protection."
+ },
+ {
+  "offset": "0x12B6C",
+  "words": 21,
+  "jp": "人k惹き付ける,不思議な力k秘めた装身具.",
+  "en": "An accessory with a strange charm power."
+ },
+ {
+  "offset": "0x12B98",
+  "words": 22,
+  "jp": "身につけると雇える佣兵が1隊增える.（ただし",
+  "en": "Worn, you can hire one more merc unit (but"
+ },
+ {
+  "offset": "0x12BC6",
+  "words": 10,
+  "jp": "6隊よりは增えない）",
+  "en": "not above 6)."
+ },
+ {
+  "offset": "0x12BDC",
+  "words": 13,
+  "jp": "また部隊指揮能力も高める.",
+  "en": "It also raises command."
+ },
+ {
+  "offset": "0x12BF8",
+  "words": 22,
+  "jp": "エメラルドkあしらって作ったお守りで,災いか",
+  "en": "An emerald charm with magic to guard the"
+ },
+ {
+  "offset": "0x12C26",
+  "words": 19,
+  "jp": "ら身k護るための魔力が込められている.",
+  "en": "wearer from harm."
+ },
+ {
+  "offset": "0x12C4E",
+  "words": 22,
+  "jp": "魔法攻{?00FE}に对して强い耐性k持つため,魔術師k",
+  "en": "It strongly resists magic attacks, so"
+ },
+ {
+  "offset": "0x12C7C",
+  "words": 17,
+  "jp": "相手にする戦士達が好んで著用する.",
+  "en": "warriors who face mages favor it."
+ },
+ {
+  "offset": "0x12CA0",
+  "words": 22,
+  "jp": "{?02CA}霊王によって魔力k込められた宝石k饰った,",
+  "en": "A strange ring set with a gem charged by the"
+ },
+ {
+  "offset": "0x12CCE",
+  "words": 22,
+  "jp": "不思議な指輪.この指輪kはめた指揮者の部隊は",
+  "en": "spirit king. The unit of a leader wearing it"
+ },
+ {
+  "offset": "0x12CFC",
+  "words": 22,
+  "jp": "{?02CA}霊の力に護られ,{?0174}の魔法に强くなるという.",
+  "en": "is guarded by spirits, strong vs magic."
+ },
+ {
+  "offset": "0x12D2A",
+  "words": 18,
+  "jp": "また魔術師の魔力k高める效果もある.",
+  "en": "It also raises a mage power."
+ },
+ {
+  "offset": "0x12D50",
+  "words": 22,
+  "jp": "紫水晶でつくられたアンク.部隊全体k{?0174}の魔法",
+  "en": "An amethyst ankh. It guards the whole unit"
+ },
+ {
+  "offset": "0x12D7E",
+  "words": 22,
+  "jp": "から護るだけでなく,兵の志気k高める效果もあ",
+  "en": "from enemy magic and also lifts morale."
+ },
+ {
+  "offset": "0x12DAC",
+  "words": 22,
+  "jp": "る.また戦いの際には,護りの魔法が発動する事",
+  "en": "In battle a guard spell may also trigger."
+ },
+ {
+  "offset": "0x12DDA",
+  "words": 7,
+  "jp": "もあるという.",
+  "en": "so they say."
+ },
+ {
+  "offset": "0x12DEA",
+  "words": 22,
+  "jp": "守護のルーンが刻まれた黄金の指輪.装備すれば",
+  "en": "A gold ring carved with a guard rune. Worn,"
+ },
+ {
+  "offset": "0x12E18",
+  "words": 17,
+  "jp": "神秘的な加護k受けることができる.",
+  "en": "you gain a mystic blessing."
+ },
+ {
+  "offset": "0x12E3C",
+  "words": 17,
+  "jp": "車の指揮官が好んで身につけている.",
+  "en": "Chariot leaders favor it."
+ },
+ {
+  "offset": "0x12E64",
+  "words": 22,
+  "jp": "力のルーンが刻まれた黄金の指輪.装備すれば,",
+  "en": "A gold ring carved with a power rune. Worn,"
+ },
+ {
+  "offset": "0x12E92",
+  "words": 12,
+  "jp": "神秘的な力k発揮できる.",
+  "en": "you wield mystic power."
+ },
+ {
+  "offset": "0x12EAC",
+  "words": 17,
+  "jp": "車の指揮官が好んで身につけている.",
+  "en": "Chariot leaders favor it."
+ },
+ {
+  "offset": "0x12ED4",
+  "words": 22,
+  "jp": "银製の美しいティアラで,装備した者の魔力k高",
+  "en": "A lovely silver tiara that raises the wearer"
+ },
+ {
+  "offset": "0x12F02",
+  "words": 7,
+  "jp": "める力k持つ.",
+  "en": "has power."
+ },
+ {
+  "offset": "0x12F12",
+  "words": 12,
+  "jp": "当然,女性のみ装備可能.",
+  "en": "Females only, of course."
+ },
+ {
+  "offset": "0x12F2C",
+  "words": 16,
+  "jp": "知力+5・魔法射程+4・範{?00F6}+\\n",
+  "en": "Int +5, range +4, area +N"
+ },
+ {
+  "offset": "0x12F4E",
+  "words": 22,
+  "jp": "色とりどりの宝石で饰られた,非常に美しい黄金",
+  "en": "A very lovely gold crown set with many gems."
+ },
+ {
+  "offset": "0x12F7C",
+  "words": 22,
+  "jp": "の王冠.身に付ける者に王者としての威厳k与え",
+  "en": "It gives the wearer kingly dignity and"
+ },
+ {
+  "offset": "0x12FAA",
+  "words": 17,
+  "jp": "人々k統制する魔力k与えるという.",
+  "en": "magic to rule the people."
+ },
+ {
+  "offset": "0x12FCE",
+  "words": 16,
+  "jp": "攻{?00FE}消費行動量k\\n鞋减（佣兵含）",
+  "en": "Cost down (mercs too)."
+ },
+ {
+  "offset": "0x12FF0",
+  "words": 22,
+  "jp": "プラチナの上にダイアk星のようにちりばめたピ",
+  "en": "Earrings of platinum studded with diamonds"
+ },
+ {
+  "offset": "0x1301E",
+  "words": 22,
+  "jp": "アス.呪文詠唱時の{?02CA}神集中k助け,疲劳kおさ",
+  "en": "like stars. They aid casting focus and ease"
+ },
+ {
+  "offset": "0x1304C",
+  "words": 7,
+  "jp": "える力k持つ.",
+  "en": "grants power."
+ },
+ {
+  "offset": "0x1305C",
+  "words": 22,
+  "jp": "消費MP\\n↗4・魔法範{?00F6}+1・魔法待機-\\nC",
+  "en": "MP x1/4, area +1, wait -NC"
+ },
+ {
+  "offset": "0x1308A",
+  "words": 22,
+  "jp": "神々の祝福k受け,神秘的な光k放つヴェール.",
+  "en": "A veil blessed by gods, with a mystic glow."
+ },
+ {
+  "offset": "0x130B8",
+  "words": 22,
+  "jp": "神聖な力によって,{?02CA}神力k回復させる事ができ",
+  "en": "Its holy power can restore willpower."
+ },
+ {
+  "offset": "0x130E6",
+  "words": 11,
+  "jp": "る.女性のみ装備可能.",
+  "en": "Females only."
+ },
+ {
+  "offset": "0x130FE",
+  "words": 22,
+  "jp": "知力+5・魔法詠唱-15C・魔法待機-10C",
+  "en": "Int +5, cast -15C, mag wait -10C"
+ },
+ {
+  "offset": "0x1312C",
+  "words": 22,
+  "jp": "六国k興した数多くの英雄たちが,その身に付け",
+  "en": "A necklace worn by the many heroes who built"
+ },
+ {
+  "offset": "0x1315A",
+  "words": 22,
+  "jp": "ていた首饰り.世界k統べる力k与えるといわれ",
+  "en": "great realms. It is said to grant power to"
+ },
+ {
+  "offset": "0x13188",
+  "words": 22,
+  "jp": "6隊の佣兵k指揮できるようになる.また兵たち",
+  "en": "rule the world. You can lead 6 merc units,"
+ },
+ {
+  "offset": "0x131B6",
+  "words": 13,
+  "jp": "の能力k高める效力も持つ.",
+  "en": "it raises their stats too."
+ },
+ {
+  "offset": "0x131D2",
+  "words": 22,
+  "jp": "ドラゴンロードがその頭上にいだいたとされる运",
+  "en": "The legend crown of the Dragon Lord."
+ },
+ {
+  "offset": "0x13200",
+  "words": 22,
+  "jp": "說の冠.装備した者は,素晴らしい采配kふるう",
+  "en": "Its wearer commands superbly, they say. The"
+ },
+ {
+  "offset": "0x1322E",
+  "words": 22,
+  "jp": "といわれる.また力ある者は,竜王の力が得られ",
+  "en": "strong can also gain the dragon king power,"
+ },
+ {
+  "offset": "0x1325C",
+  "words": 22,
+  "jp": "ると运えられている.知力+5",
+  "en": "they say. Int +5"
+ },
+ {
+  "offset": "0x1328A",
+  "words": 22,
+  "jp": "{?0301}のルーンが刻まれた,银製のヘアバンド.身に",
+  "en": "A silver hairband carved with a dragon rune."
+ },
+ {
+  "offset": "0x132B8",
+  "words": 22,
+  "jp": "つけた者は,武器k鞋々と{?029E}れるようになるとい",
+  "en": "Worn, you can wield weapons with ease."
+ },
+ {
+  "offset": "0x132E6",
+  "words": 6,
+  "jp": "われている.",
+  "en": "they say."
+ },
+ {
+  "offset": "0x132F4",
+  "words": 16,
+  "jp": "攻{?00FE}消費行動量15鞋减（佣兵含）",
+  "en": "Cost -15 (mercs too)."
+ },
+ {
+  "offset": "0x13316",
+  "words": 22,
+  "jp": "古代ルーン文字k刻んだ秘石.そのルーンは未だ",
+  "en": "A secret stone carved with old runes. They"
+ },
+ {
+  "offset": "0x13344",
+  "words": 22,
+  "jp": "解明されておらず,別名{?0201}神秘の石{?0202}とも呼ばれ",
+  "en": "are still unread, so it is called the"
+ },
+ {
+  "offset": "0x13372",
+  "words": 4,
+  "jp": "ている.",
+  "en": "it is."
+ },
+ {
+  "offset": "0x1337C",
+  "words": 14,
+  "jp": "その效力は謎に包まれている.",
+  "en": "The 'Mystery Stone'."
+ },
+ {
+  "offset": "0x1339A",
+  "words": 22,
+  "jp": "美しい透明なクリスタルで作られており,持ち主",
+  "en": "Made of a clear, lovely crystal, it has a"
+ },
+ {
+  "offset": "0x133C8",
+  "words": 20,
+  "jp": "の魔力k增幅させる,不思議な效力がある.",
+  "en": "strange power to boost the holder magic."
+ },
+ {
+  "offset": "0x133F2",
+  "words": 22,
+  "jp": "强力な魔法k{?029E}る高位の魔術師ほど,このオーブ",
+  "en": "The greater the mage, the more they prize"
+ },
+ {
+  "offset": "0x13420",
+  "words": 22,
+  "jp": "k重宝するという.MP50％上昇",
+  "en": "orb, they say. MP +50%"
+ },
+ {
+  "offset": "0x1344E",
+  "words": 20,
+  "jp": "身につけた者に神秘的な力k与えるお守り.",
+  "en": "A charm granting mystic power."
+ },
+ {
+  "offset": "0x13478",
+  "words": 22,
+  "jp": "剣の形kしており,戦での加護k約束している.",
+  "en": "Sword-shaped, it vows grace in battle."
+ },
+ {
+  "offset": "0x134A6",
+  "words": 22,
+  "jp": "兵士たちの志気k高め,强力な部隊kつくること",
+  "en": "It lifts morale to form a strong unit."
+ },
+ {
+  "offset": "0x134D4",
+  "words": 5,
+  "jp": "ができる.",
+  "en": "is able."
+ },
+ {
+  "offset": "0x134E0",
+  "words": 22,
+  "jp": "クリスタルに类の魔神k封じており,中心には消",
+  "en": "A crystal sealing a fire demon, with an"
+ },
+ {
+  "offset": "0x1350E",
+  "words": 22,
+  "jp": "えることのない类が燃えている.持ち主の魔力k",
+  "en": "undying flame at its core. It boosts the"
+ },
+ {
+  "offset": "0x1353C",
+  "words": 19,
+  "jp": "增幅させるだけでなく,类の耐性もある.",
+  "en": "holder magic and resists fire too."
+ },
+ {
+  "offset": "0x13564",
+  "words": 14,
+  "jp": "魔法射程+1・MP50％上昇",
+  "en": "Mag range +1, MP +50%"
+ },
+ {
+  "offset": "0x13582",
+  "words": 22,
+  "jp": "天上界の聖王が,善行kなす者に与えるという神",
+  "en": "A mystic charm said from the holy king of"
+ },
+ {
+  "offset": "0x135B0",
+  "words": 22,
+  "jp": "秘的な護符.これk持つ者に指揮された部隊は,",
+  "en": "heaven to the good. A unit led by its holder"
+ },
+ {
+  "offset": "0x135DE",
+  "words": 20,
+  "jp": "神聖な力と强い{?02CA}神力k得ることができる.",
+  "en": "gains holy power and strong willpower."
+ },
+ {
+  "offset": "0x13608",
+  "words": 5,
+  "jp": "知力+15",
+  "en": "Int +15"
+ },
+ {
+  "offset": "0x13614",
+  "words": 22,
+  "jp": "六天使が开び立つ時に落とした,純白の美しい羽",
+  "en": "A charm of white feathers dropped by an"
+ },
+ {
+  "offset": "0x13642",
+  "words": 22,
+  "jp": "で造られたお守り.並外れた耐魔法效果k持つた",
+  "en": "archangel in flight. Its huge magic defense"
+ },
+ {
+  "offset": "0x13670",
+  "words": 22,
+  "jp": "め,最高の護符とも呼ばれる.また僧侶達の間で",
+  "en": "makes it the best charm. Among priests"
+ },
+ {
+  "offset": "0x1369E",
+  "words": 20,
+  "jp": "は,六天使の加護があると信じられている.",
+  "en": "it is believed to hold archangel grace."
+ },
+ {
+  "offset": "0x136C8",
+  "words": 22,
+  "jp": "光の女神がつけている神聖な指輪.魔力k桂限ま",
+  "en": "A holy ring worn by the light goddess. It"
+ },
+ {
+  "offset": "0x136F6",
+  "words": 22,
+  "jp": "で高め,部隊k{?0174}の魔法から護る.また女神の力",
+  "en": "maxes magic and guards the unit from enemy"
+ },
+ {
+  "offset": "0x13724",
+  "words": 22,
+  "jp": "の一部k具現化すると,賢者たちは运えている.",
+  "en": "magic. Sages say it holds part of her power."
+ },
+ {
+  "offset": "0x13752",
+  "words": 11,
+  "jp": "魔法射程+\\n・範{?00F6}+2",
+  "en": "Range +N, area +2"
+ },
+ {
+  "offset": "0x1376A",
+  "words": 22,
+  "jp": "混沌の王との間に交わされた,血文字で書かれた",
+  "en": "A pact with the lord of Chaos, written in"
+ },
+ {
+  "offset": "0x13798",
+  "words": 22,
+  "jp": "盟約書.{?0224}の力によって,部隊の力k增すだけで",
+  "en": "blood. By dark power it raises unit power"
+ },
+ {
+  "offset": "0x137C6",
+  "words": 22,
+  "jp": "なく,優れた耐魔法效果で部隊k護るが,神聖な",
+  "en": "and guards it well from magic, but it grows"
+ },
+ {
+  "offset": "0x137F4",
+  "words": 22,
+  "jp": "力に弱くなる.知力+8・魔法待機-\\nC",
+  "en": "weak to holy. Int +8, mag wait -NC"
+ },
+ {
+  "offset": "0x13822",
+  "words": 250,
+  "jp": "Gぁぐたぶろゥシノパペョ{?00DB}数機費決敗果强混獸開表粥增隆也境皇親町弱殺段银麟减恐製吸眠开許奇然激黄世僧桂賢握越獲犬赤忌巢罪脱路為漏殿船担散養虎淡礼拒讓例週骸碑股蓮营嘆勧澄蔡{?065B}灌換[医挨叙胞菜草些{?0721}{?0738}{?0748}{?0756}{?076D}{?0784}{?079B}{?07A9}{?07C0}{?07D7}{?07EE}{?07FF}{?0816}{?082D}{?0836}{?084D}{?0864}{?087B}{?088A}{?089E}{?08B5}{?08CC}{?08DE}{?08ED}{?0904}{?091B}{?0927}{?0936}{?094D}{?0964}{?097A}{?0990}{?09A7}{?09BE}{?09C2}{?09D0}{?09E7}{?09FE}{?0A05}{?0A13}{?0A2A}{?0A35}{?0A4B}{?0A5A}{?0A71}{?0A7D}{?0A86}{?0A9A}{?0A9C}{?0A9E}{?0AA0}{?0AA2}{?0AA4}{?0AA6}{?0AA8}{?0AAA}{?0AC1}{?0AD4}{?0AE0}{?0AEB}{?0B02}{?0B19}{?0B1F}{?0B2B}{?0B42}{?0B59}{?0B6F}{?0B7B}{?0B92}{?0BA9}{?0BB8}{?0BC3}{?0BDA}{?0BF1}{?0BFB}{?0C07}{?0C1E}{?0C35}{?0C49}{?0C55}{?0C6C}{?0C83}{?0C91}{?0C9C}{?0CB3}{?0CC8}{?0CD6}{?0CE2}{?0CF9}{?0D10}{?0D23}{?0D2F}{?0D46}{?0D5D}{?0D70}{?0D7B}{?0D92}{?0DA5}{?0DB1}{?0DBD}{?0DD4}{?0DEB}{?0DF3}{?0DFF}{?0E15}{?0E2C}{?0E3B}{?0E47}{?0E5E}{?0E75}{?0E83}{?0E8F}{?0EA6}{?0EBD}{?0ECC}{?0ED8}{?0EEF}{?0F06}{?0F13}{?0F1F}{?0F36}{?0F4D}{?0F5D}{?0F69}{?0F80}{?0F97}{?0FA3}{?0FAF}{?0FC6}{?0FDD}{?0FE4}術者の両手に高熱の火弹k発生させ,目標へと开",
+  "en": ""
+ },
+ {
+  "offset": "0x13A18",
+  "words": 22,
+  "jp": "ばす魔法.簡単な呪文のわりに射程距離や威力に",
+  "en": "A spell. For a simple one, range and power"
+ },
+ {
+  "offset": "0x13A46",
+  "words": 14,
+  "jp": "優れるが,単体しか租えない.",
+  "en": "are good, but hits one."
+ },
+ {
+  "offset": "0x13A64",
+  "words": 14,
+  "jp": "属性:类↗目標:{?0174}1ユニット",
+  "en": "Fire. Hits 1 unit."
+ },
+ {
+  "offset": "0x13A82",
+  "words": 22,
+  "jp": "强力なエネルギーk持つ火球k発生させ,目標地",
+  "en": "Makes a powerful fireball and blasts it at"
+ },
+ {
+  "offset": "0x13AB0",
+  "words": 22,
+  "jp": "点で爆発させる.遠くまで火球k开ばせるが,爆",
+  "en": "the target spot. It flies far, but the blast"
+ },
+ {
+  "offset": "0x13ADE",
+  "words": 7,
+  "jp": "発範{?00F6}が狭い.",
+  "en": "small area."
+ },
+ {
+  "offset": "0x13AEE",
+  "words": 17,
+  "jp": "属性:类↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Fire. Hits foes in area."
+ },
+ {
+  "offset": "0x13B12",
+  "words": 22,
+  "jp": "指先から强力な冷気k放ち,{?0174}部隊k凍てつかせ",
+  "en": "Fires strong cold from the fingertip to"
+ },
+ {
+  "offset": "0x13B46",
+  "words": 8,
+  "jp": "初级魔術の1つ.",
+  "en": "a basic spell."
+ },
+ {
+  "offset": "0x13B58",
+  "words": 12,
+  "jp": "属性:冷↗目標:{?0174}1部隊",
+  "en": "Ice. Hits 1 troop."
+ },
+ {
+  "offset": "0x13B72",
+  "words": 22,
+  "jp": "目標地点に强烈な吹雪k発生させ,無数の{?029D}k{?0174}",
+  "en": "Makes a fierce blizzard, hurling"
+ },
+ {
+  "offset": "0x13BA0",
+  "words": 22,
+  "jp": "に浴びせる.魔法の效果範{?00F6}が広いわりに{?02CA}神力",
+  "en": "countless ice at foes. Wide area, yet its"
+ },
+ {
+  "offset": "0x13BCE",
+  "words": 17,
+  "jp": "の消費が少ないが,射程距離が短い.",
+  "en": "low cost, but short range."
+ },
+ {
+  "offset": "0x13BF2",
+  "words": 17,
+  "jp": "属性:冷↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Ice. Hits foes in area."
+ },
+ {
+  "offset": "0x13C16",
+  "words": 22,
+  "jp": "気流と地{?0408}とk{?029E}ることにより,{?0174}部隊の頭上に",
+  "en": "By ruling air and earth, it hits above the"
+ },
+ {
+  "offset": "0x13C44",
+  "words": 6,
+  "jp": "雷k落とす.",
+  "en": "drops bolts."
+ },
+ {
+  "offset": "0x13C52",
+  "words": 15,
+  "jp": "水上にいる目標には威力が增す.",
+  "en": "Stronger vs targets on water."
+ },
+ {
+  "offset": "0x13C72",
+  "words": 12,
+  "jp": "属性:雷↗目標:{?0174}1部隊",
+  "en": "Thunder. Hits 1 troop."
+ },
+ {
+  "offset": "0x13C8C",
+  "words": 22,
+  "jp": "目標上空に雷雲k呼び寄せ,稲妻の風k卷き起こ",
+  "en": "Calls thunderclouds above the target and"
+ },
+ {
+  "offset": "0x13CBA",
+  "words": 7,
+  "jp": "す强力な呪文.",
+  "en": "strong spell."
+ },
+ {
+  "offset": "0x13CCA",
+  "words": 15,
+  "jp": "水上にいる目標には威力が增す.",
+  "en": "Stronger vs targets on water."
+ },
+ {
+  "offset": "0x13CEA",
+  "words": 17,
+  "jp": "属性:雷↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Thunder. Hits foes in area."
+ },
+ {
+  "offset": "0x13D0E",
+  "words": 22,
+  "jp": "{?0301}の{?02CA}霊k使役し,かまいたちk発生させて,{?0174}",
+  "en": "Commands wind spirits to make cutting winds"
+ },
+ {
+  "offset": "0x13D3C",
+  "words": 22,
+  "jp": "k切り刻む.並外れた射程と高い威力k誇るが,",
+  "en": "cut foes. Great range and power, but it"
+ },
+ {
+  "offset": "0x13D6A",
+  "words": 22,
+  "jp": "単体しか租えない.开行ユニットに威力がある.",
+  "en": "hits only one. Strong vs flying units."
+ },
+ {
+  "offset": "0x13D98",
+  "words": 14,
+  "jp": "属性:{?0301}↗目標:{?0174}1ユニット",
+  "en": "Wind. Hits 1 unit."
+ },
+ {
+  "offset": "0x13DB6",
+  "words": 22,
+  "jp": "気流k{?029E}り,目標地点に巨六な竜卷k発生させる",
+  "en": "Rules air to make a huge tornado at the"
+ },
+ {
+  "offset": "0x13DE4",
+  "words": 22,
+  "jp": "呪文.射程,範{?00F6}ともに優れるが,{?02CA}神力の消費",
+  "en": "target. Great range and area, but its cost"
+ },
+ {
+  "offset": "0x13E12",
+  "words": 22,
+  "jp": "が六きい.また开行ユニットに对し威力がある.",
+  "en": "is high. Strong vs flying units too."
+ },
+ {
+  "offset": "0x13E40",
+  "words": 17,
+  "jp": "属性:{?0301}↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Wind. Hits foes in area."
+ },
+ {
+  "offset": "0x13E64",
+  "words": 22,
+  "jp": "六地の{?02CA}霊王に働きかけ,広範{?00F6}に六地震k起こ",
+  "en": "Calls the earth spirit king to make a wide"
+ },
+ {
+  "offset": "0x13E92",
+  "words": 22,
+  "jp": "す.凄まじい破壊力k持つ反面,術者k中心にし",
+  "en": "quake. Fearsome power, but it centers on the"
+ },
+ {
+  "offset": "0x13EC0",
+  "words": 22,
+  "jp": "か発動できず,また{?02CA}神消費の度合いも六きい.",
+  "en": "caster only, and its cost is high."
+ },
+ {
+  "offset": "0x13EEE",
+  "words": 17,
+  "jp": "属性:地↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Earth. Hits foes in area."
+ },
+ {
+  "offset": "0x13F12",
+  "words": 22,
+  "jp": "星界より隕石k呼び寄せ,目標に落下させる非常",
+  "en": "Calls a meteor from the stars to fall on the"
+ },
+ {
+  "offset": "0x13F40",
+  "words": 22,
+  "jp": "に高度な呪文.超高速で落下する隕石は,周{?00F6}に",
+  "en": "target, a high spell. The fast meteor deals"
+ },
+ {
+  "offset": "0x13F6E",
+  "words": 13,
+  "jp": "壊诚的なダメージk与える.",
+  "en": "ruinous damage around it."
+ },
+ {
+  "offset": "0x13F8A",
+  "words": 17,
+  "jp": "属性:物↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Force. Hits foes in area."
+ },
+ {
+  "offset": "0x13FAE",
+  "words": 22,
+  "jp": "神の奇跡によって神聖な类k発生させる.射程が",
+  "en": "By a god miracle it makes holy fire. Range"
+ },
+ {
+  "offset": "0x13FDC",
+  "words": 22,
+  "jp": "短く,また威力も低いが,邪悪な魔物に对しては",
+  "en": "and power are low, but vs evil monsters it"
+ },
+ {
+  "offset": "0x1400A",
+  "words": 8,
+  "jp": "强烈な力k持つ.",
+  "en": "strong power."
+ },
+ {
+  "offset": "0x1401C",
+  "words": 17,
+  "jp": "属性:聖↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Holy. Hits foes in area."
+ },
+ {
+  "offset": "0x14040",
+  "words": 22,
+  "jp": "術者の持つホーリーシンボルから,聖なる光k発",
+  "en": "Holy light shines from the caster holy"
+ },
+ {
+  "offset": "0x1406E",
+  "words": 22,
+  "jp": "する呪文.その光にふれたアンデッドは,たちど",
+  "en": "symbol. Undead touched by it die at once."
+ },
+ {
+  "offset": "0x1409C",
+  "words": 8,
+  "jp": "ころに消诚する.",
+  "en": "they vanish."
+ },
+ {
+  "offset": "0x140AE",
+  "words": 19,
+  "jp": "属性:聖↗目標:範{?00F6}内の{?0174}佣兵ユニット",
+  "en": "Holy. Hits merc foes in area."
+ },
+ {
+  "offset": "0x140D6",
+  "words": 8,
+  "jp": "{?0174}からMPk寺う",
+  "en": "Drains foe MP"
+ },
+ {
+  "offset": "0x140E8",
+  "words": 14,
+  "jp": "属性:{?0224}↗目標:{?0174}1ユニット",
+  "en": "Dark. Hits 1 unit."
+ },
+ {
+  "offset": "0x1410E",
+  "words": 22,
+  "jp": "太古に封印された禁忌の呪文.術者の手に純エネ",
+  "en": "A forbidden spell sealed of old. Pure energy"
+ },
+ {
+  "offset": "0x1413C",
+  "words": 22,
+  "jp": "ルギー弹k発生させ,それk目標に放つ.射程が",
+  "en": "forms in the caster hand and fires at the"
+ },
+ {
+  "offset": "0x1416A",
+  "words": 22,
+  "jp": "短く,目標も1体のみだが,最强の威力k誇る.",
+  "en": "target. Short range, one foe, but top power."
+ },
+ {
+  "offset": "0x14198",
+  "words": 14,
+  "jp": "属性:物↗目標:{?0174}1ユニット",
+  "en": "Force. Hits 1 unit."
+ },
+ {
+  "offset": "0x141B6",
+  "words": 22,
+  "jp": "眠りk司る{?02CA}霊に働きかけ,目標周{?00F6}の{?0174}k眠ら",
+  "en": "Calls a sleep spirit to make foes around the"
+ },
+ {
+  "offset": "0x141E4",
+  "words": 22,
+  "jp": "せる.对象者は,しばらく時間が径つか,攻{?00FE}k",
+  "en": "target sleep. They wake after a time or when"
+ },
+ {
+  "offset": "0x14212",
+  "words": 22,
+  "jp": "受けるまで眠り続ける.解除:ファイン",
+  "en": "attacked. Cure: Fine"
+ },
+ {
+  "offset": "0x14240",
+  "words": 17,
+  "jp": "属性:{?0224}↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Dark. Hits foes in area."
+ },
+ {
+  "offset": "0x14264",
+  "words": 22,
+  "jp": "月の女神の力k借りて,{?0174}に混乱k起こさせる.",
+  "en": "Borrows the moon goddess power to confuse"
+ },
+ {
+  "offset": "0x14292",
+  "words": 22,
+  "jp": "混乱した部隊は,{?0174}味方関係なく,手近な目標に",
+  "en": "foes. A confused unit attacks the nearest"
+ },
+ {
+  "offset": "0x142C0",
+  "words": 22,
+  "jp": "攻{?00FE}kしかける.解除:ファイン",
+  "en": "target, friend or foe. Cure: Fine"
+ },
+ {
+  "offset": "0x142EE",
+  "words": 12,
+  "jp": "属性:{?0224}↗目標:{?0174}1部隊",
+  "en": "Dark. Hits 1 troop."
+ },
+ {
+  "offset": "0x14308",
+  "words": 22,
+  "jp": "部隊指揮k混乱させる事によって,佣兵の戦力k",
+  "en": "By confusing command, a strong spell that"
+ },
+ {
+  "offset": "0x14336",
+  "words": 22,
+  "jp": "下げる强力な呪文.A+,D+,M+k半分にす",
+  "en": "cuts merc power, halves AT+ DF+ MP+."
+ },
+ {
+  "offset": "0x14364",
+  "words": 22,
+  "jp": "る.解除:ファイン",
+  "en": "Cure: Fine"
+ },
+ {
+  "offset": "0x14392",
+  "words": 12,
+  "jp": "属性:{?0224}↗目標:{?0174}1部隊",
+  "en": "Dark. Hits 1 troop."
+ },
+ {
+  "offset": "0x143AC",
+  "words": 22,
+  "jp": "{?0301}の{?02CA}霊の力k借りて,空気振動kなくす呪文.",
+  "en": "Borrows wind spirits to still air vibration."
+ },
+ {
+  "offset": "0x143DA",
+  "words": 22,
+  "jp": "音k発する事ができなくなるため,魔法範{?00F6}内の",
+  "en": "No sound can be made, so it seals enemy"
+ },
+ {
+  "offset": "0x14408",
+  "words": 22,
+  "jp": "{?0174}の魔法k封じる事ができる.解除:ファイン",
+  "en": "magic in the area. Cure: Fine"
+ },
+ {
+  "offset": "0x14436",
+  "words": 17,
+  "jp": "属性:{?0224}↗目標:範{?00F6}内の{?0174}ユニット",
+  "en": "Dark. Hits foes in area."
+ },
+ {
+  "offset": "0x1445A",
+  "words": 22,
+  "jp": "目標となる{?0174}部隊のオーラ力k弱め,魔法に对す",
+  "en": "Weakens the target foe aura, lowering its"
+ },
+ {
+  "offset": "0x14488",
+  "words": 21,
+  "jp": "る耐性k下げる呪文.この呪文は必ずかかる.",
+  "en": "magic resist. This spell always lands."
+ },
+ {
+  "offset": "0x144B4",
+  "words": 22,
+  "jp": "解除:レジスト・ファイン",
+  "en": "Cure: Resist, Fine"
+ },
+ {
+  "offset": "0x144E2",
+  "words": 12,
+  "jp": "属性:{?0224}↗目標:{?0174}1部隊",
+  "en": "Dark. Hits 1 troop."
+ },
+ {
+  "offset": "0x144FC",
+  "words": 22,
+  "jp": "目標の判断能力k钝らせ,命令実行カウントk1",
+  "en": "Dulls the target mind, delaying its order"
+ },
+ {
+  "offset": "0x1452A",
+  "words": 22,
+  "jp": "ターン{?03B5}くさせる呪文.抵抗された場合も,20",
+  "en": "by one turn. Even if resisted, it delays the"
+ },
+ {
+  "offset": "0x14558",
+  "words": 19,
+  "jp": "カウント分,命令k{?03B5}らせる事ができる.",
+  "en": "order by 20 counts."
+ },
+ {
+  "offset": "0x14580",
+  "words": 22,
+  "jp": "属性:{?0224}↗目標:{?0174}1部隊解除:ファイン",
+  "en": "Dark. Hits 1 troop. Cure: Fine"
+ },
+ {
+  "offset": "0x145AE",
+  "words": 22,
+  "jp": "目標のまわりにいる{?02CA}霊に働きかけ,移動k妨げ",
+  "en": "Calls spirits around the target to block its"
+ },
+ {
+  "offset": "0x145DC",
+  "words": 17,
+  "jp": "る呪文.{?0174}部隊の移動力k0にする.",
+  "en": "movement. Sets the foe move to 0."
+ },
+ {
+  "offset": "0x14600",
+  "words": 22,
+  "jp": "解除:クイック・ファイン",
+  "en": "Cure: Quick, Fine"
+ },
+ {
+  "offset": "0x1462E",
+  "words": 12,
+  "jp": "属性:{?0224}↗目標:{?0174}1部隊",
+  "en": "Dark. Hits 1 troop."
+ },
+ {
+  "offset": "0x14648",
+  "words": 22,
+  "jp": "魔法の防御壁k体の回りに作る呪文で,{?0174}の通常",
+  "en": "Makes a magic wall around the body, easing"
+ },
+ {
+  "offset": "0x14676",
+  "words": 20,
+  "jp": "攻{?00FE}によるダメージkおさえる事ができる.",
+  "en": "damage from normal enemy attacks."
+ },
+ {
+  "offset": "0x146A0",
+  "words": 17,
+  "jp": "ただし魔法攻{?00FE}に对する耐性はない.",
+  "en": "But it gives no magic resistance."
+ },
+ {
+  "offset": "0x146C4",
+  "words": 13,
+  "jp": "DF+\\n↗目標:味方1部隊",
+  "en": "DF +N. 1 ally troop"
+ },
+ {
+  "offset": "0x146E0",
+  "words": 22,
+  "jp": "强力な魔法防御k施す呪文で,{?0174}の通常攻{?00FE}によ",
+  "en": "A strong magic guard that greatly eases"
+ },
+ {
+  "offset": "0x1470E",
+  "words": 19,
+  "jp": "るダメージk六幅におさえる事ができる.",
+  "en": "damage from normal enemy attacks."
+ },
+ {
+  "offset": "0x14736",
+  "words": 17,
+  "jp": "ただし魔法攻{?00FE}に对する耐性はない.",
+  "en": "But it gives no magic resistance."
+ },
+ {
+  "offset": "0x1475A",
+  "words": 13,
+  "jp": "DF+5↗目標:味方1部隊",
+  "en": "DF +5. 1 ally troop"
+ },
+ {
+  "offset": "0x14776",
+  "words": 22,
+  "jp": "兵たちの使用する武器に魔力k与え,威力k增加",
+  "en": "Gives magic to soldier weapons to boost"
+ },
+ {
+  "offset": "0x147A4",
+  "words": 22,
+  "jp": "させる呪文.支摆魔法として,非常にポピュラー",
+  "en": "power. A very popular support spell."
+ },
+ {
+  "offset": "0x147D2",
+  "words": 7,
+  "jp": "なものである.",
+  "en": "it is so."
+ },
+ {
+  "offset": "0x147E2",
+  "words": 13,
+  "jp": "AT+\\n↗目標:味方1部隊",
+  "en": "AT +N. 1 ally troop"
+ },
+ {
+  "offset": "0x147FE",
+  "words": 22,
+  "jp": "兵たちの使用する武器に,强力な魔力k付与する",
+  "en": "Grants strong magic to soldier weapons. With"
+ },
+ {
+  "offset": "0x1482C",
+  "words": 22,
+  "jp": "呪文.アタック1以上の力k持ち,少々の{?0174}でも",
+  "en": "1+ attack, even a weak foe is"
+ },
+ {
+  "offset": "0x1485A",
+  "words": 15,
+  "jp": "やすやすと倒す事が可能になる.",
+  "en": "easily downed."
+ },
+ {
+  "offset": "0x1487A",
+  "words": 13,
+  "jp": "AT+5↗目標:味方1部隊",
+  "en": "AT +5. 1 ally troop"
+ },
+ {
+  "offset": "0x14896",
+  "words": 22,
+  "jp": "魔力によって体の動きk活発にし,移動力k高め",
+  "en": "Magic quickens the body to raise move. It"
+ },
+ {
+  "offset": "0x148C4",
+  "words": 22,
+  "jp": "る呪文.通常の步兵部隊すら,高速機動部隊にす",
+  "en": "can turn even normal infantry into a fast"
+ },
+ {
+  "offset": "0x148F2",
+  "words": 22,
+  "jp": "る程の力k持つ.解除:バインド",
+  "en": "mobile unit. Cure: Bind"
+ },
+ {
+  "offset": "0x14920",
+  "words": 13,
+  "jp": "MV+5↗目標:味方1部隊",
+  "en": "MV +5. 1 ally troop"
+ },
+ {
+  "offset": "0x1493C",
+  "words": 22,
+  "jp": "目標のオーラ力k高め,魔法に对する耐性k高め",
+  "en": "Raises the target aura to raise its magic"
+ },
+ {
+  "offset": "0x1496A",
+  "words": 22,
+  "jp": "る魔法.ほとんどの{?0174}魔法k無力化する事が可能",
+  "en": "resist. It can nullify most enemy magic."
+ },
+ {
+  "offset": "0x14998",
+  "words": 22,
+  "jp": "である.解除:デクライン",
+  "en": "Cure: Decline"
+ },
+ {
+  "offset": "0x149C6",
+  "words": 16,
+  "jp": "魔法耐性+\\n0↗目標:味方1部隊",
+  "en": "Mag resist +N0. 1 ally troop"
+ },
+ {
+  "offset": "0x149E8",
+  "words": 22,
+  "jp": "六地母神の力k借り,癌しの力k生み出す呪文.",
+  "en": "Borrows the earth mother power to heal."
+ },
+ {
+  "offset": "0x14A16",
+  "words": 22,
+  "jp": "僧たちの{?025A}本的な力の1つで,多少の傷なら,充",
+  "en": "A basic priest power. It can fully heal a"
+ },
+ {
+  "offset": "0x14A44",
+  "words": 8,
+  "jp": "分に回復できる.",
+  "en": "heals well."
+ },
+ {
+  "offset": "0x14A56",
+  "words": 22,
+  "jp": "HPが最六\\n回復↗目標:範{?00F6}内の味方ユニット",
+  "en": "Heal up to N HP. Allies in area"
+ },
+ {
+  "offset": "0x14A84",
+  "words": 22,
+  "jp": "高位の僧たちが使う呪文で,六地母神の持つ强力",
+  "en": "A high-priest spell of earth mother great"
+ },
+ {
+  "offset": "0x14AB2",
+  "words": 22,
+  "jp": "な癌しの奇跡k起こす.そのためどんな傷でもた",
+  "en": "healing miracle. Any wound is instantly"
+ },
+ {
+  "offset": "0x14AE0",
+  "words": 14,
+  "jp": "ちどころに全快させてしまう.",
+  "en": "fully healed."
+ },
+ {
+  "offset": "0x14AFE",
+  "words": 19,
+  "jp": "HP全回復↗目標:範{?00F6}内の味方ユニット",
+  "en": "Full HP heal. Allies in area"
+ },
+ {
+  "offset": "0x14B26",
+  "words": 22,
+  "jp": "光の女神の力k借り,癌しの力k生み出す.通常",
+  "en": "Borrows the light goddess power to heal."
+ },
+ {
+  "offset": "0x14B54",
+  "words": 22,
+  "jp": "のヒール{?041D}と異なり,1部隊全員の傷k回復させ",
+  "en": "Unlike Heal, it heals a whole troop, and its"
+ },
+ {
+  "offset": "0x14B82",
+  "words": 17,
+  "jp": "る.また魔法射程距離も非常に長い.",
+  "en": "magic range is very long too."
+ },
+ {
+  "offset": "0x14BA6",
+  "words": 14,
+  "jp": "HP\\n回復↗目標:味方1部隊",
+  "en": "Heal N HP. 1 ally troop"
+ },
+ {
+  "offset": "0x14BC4",
+  "words": 22,
+  "jp": "光の女神の力k借り,强力な癌しの奇跡k起こす",
+  "en": "Borrows the light goddess power for a strong"
+ },
+ {
+  "offset": "0x14BF2",
+  "words": 22,
+  "jp": "呪文.魔法射程距離が非常に長く,また1部隊全",
+  "en": "heal miracle. Very long range, and it fully"
+ },
+ {
+  "offset": "0x14C20",
+  "words": 11,
+  "jp": "員の傷k全回復させる.",
+  "en": "heals a whole troop."
+ },
+ {
+  "offset": "0x14C38",
+  "words": 14,
+  "jp": "HP全回復↗目標:味方1部隊",
+  "en": "Full HP heal. 1 ally troop"
+ },
+ {
+  "offset": "0x14C56",
+  "words": 22,
+  "jp": "目標の体に働く{?02CA}霊力のバランスk正常な状態に",
+  "en": "Restores the target spirit balance,"
+ },
+ {
+  "offset": "0x14C84",
+  "words": 22,
+  "jp": "房す事により,毒などk無效化する呪文.悪影響",
+  "en": "nullifying poison and the like. It cures all"
+ },
+ {
+  "offset": "0x14CB2",
+  "words": 21,
+  "jp": "k及ぼす全てのステイタス異常k回復できる.",
+  "en": "harmful status effects."
+ },
+ {
+  "offset": "0x14CDE",
+  "words": 21,
+  "jp": "ステイタス回復↗目標:範{?00F6}内の味方ユニット",
+  "en": "Cure status. Allies in area"
+ },
+ {
+  "offset": "0x14D0A",
+  "words": 22,
+  "jp": "時と空間k{?029E}る神の力で奇跡k起こし,目標とな",
+  "en": "By a god power over time and space, it makes"
+ },
+ {
+  "offset": "0x14D38",
+  "words": 22,
+  "jp": "る指揮官か佣兵k,即座に行動可能な状態にする",
+  "en": "a target leader or merc able to act at once."
+ },
+ {
+  "offset": "0x14D6E",
+  "words": 13,
+  "jp": "行動可能↗目標:味方1部隊",
+  "en": "Can act. 1 ally troop"
+ },
+ {
+  "offset": "0x14D8A",
+  "words": 22,
+  "jp": "厳しい修行k精んだ者だけが会得できる高度な呪",
+  "en": "A high spell the hard-trained learn. It"
+ },
+ {
+  "offset": "0x14DB8",
+  "words": 22,
+  "jp": "文で,目標部隊k一瞬のうちに他の場所へ転送す",
+  "en": "instantly teleports a target troop away."
+ },
+ {
+  "offset": "0x14DE6",
+  "words": 6,
+  "jp": "る力k持つ.",
+  "en": "has power."
+ },
+ {
+  "offset": "0x14DF4",
+  "words": 13,
+  "jp": "瞬間移動↗目標:味方1部隊",
+  "en": "Teleport. 1 ally troop"
+ },
+ {
+  "offset": "0x14E10",
+  "words": 22,
+  "jp": "500カウントの間,その地域での魔法や召噢k",
+  "en": "For 500 counts, it disables magic and"
+ },
+ {
+  "offset": "0x14E3E",
+  "words": 10,
+  "jp": "使用不能にする呪文.",
+  "en": "summon there."
+ },
+ {
+  "offset": "0x14E54",
+  "words": 21,
+  "jp": "古代魔法の1つで,抵抗することはできない.",
+  "en": "An old magic that cannot be resisted."
+ },
+ {
+  "offset": "0x14E80",
+  "words": 14,
+  "jp": "魔法&召噢禁止↗目標:全部隊",
+  "en": "No magic/summon. All troops"
+ },
+ {
+  "offset": "0x14E9E",
+  "words": 22,
+  "jp": "500カウントの間,每ターン始めに味方指揮官",
+  "en": "For 500 counts, at each turn start an ally"
+ },
+ {
+  "offset": "0x14ECC",
+  "words": 11,
+  "jp": "のHPk1回復させる.",
+  "en": "regains 1 HP."
+ },
+ {
+  "offset": "0x14EE4",
+  "words": 8,
+  "jp": "古代魔法の1つ.",
+  "en": "an old spell."
+ },
+ {
+  "offset": "0x14EF6",
+  "words": 19,
+  "jp": "每ターンHP1回復↗目標:全自車指揮官",
+  "en": "Heal 1 HP/turn. All allied leaders"
+ },
+ {
+  "offset": "0x14F3E",
+  "words": 22,
+  "jp": "世界で最も速く走る,8本足の灰色の馬.その名",
+  "en": "The world's fastest horse, gray, eight legs."
+ },
+ {
+  "offset": "0x14F6C",
+  "words": 18,
+  "jp": "は『滑走するもの』という意味k持つ.",
+  "en": "Its name means 'the gliding one'."
+ },
+ {
+  "offset": "0x14F92",
+  "words": 11,
+  "jp": "北方の神の愛馬である.",
+  "en": "Steed of a north god."
+ },
+ {
+  "offset": "0x14FAA",
+  "words": 10,
+  "jp": "召噢に必要なMP:7",
+  "en": "Summon MP: 7"
+ },
+ {
+  "offset": "0x14FC0",
+  "words": 22,
+  "jp": "北方の神に仕える武装した乙女で,全身が光り輝",
+  "en": "An armed maiden of a north god, glowing all"
+ },
+ {
+  "offset": "0x14FEE",
+  "words": 22,
+  "jp": "いて見える.戦場で倒れた勇者k,天上へ運ぶ役",
+  "en": "over. She carries fallen heroes to heaven."
+ },
+ {
+  "offset": "0x1501C",
+  "words": 5,
+  "jp": "目k持つ.",
+  "en": "has eyes."
+ },
+ {
+  "offset": "0x15028",
+  "words": 11,
+  "jp": "召噢に必要なMP:14",
+  "en": "Summon MP: 14"
+ },
+ {
+  "offset": "0x15040",
+  "words": 22,
+  "jp": "不死の象徵とされる黄金色の鳥.彼らは500年",
+  "en": "A golden bird, a sign of immortality. After"
+ },
+ {
+  "offset": "0x1506E",
+  "words": 22,
+  "jp": "間生きると,自らの身体k类に投じて灰になる.",
+  "en": "500 years it casts itself into fire to ash,"
+ },
+ {
+  "offset": "0x1509C",
+  "words": 21,
+  "jp": "そしてその灰から再び类のように{?042A}るという.",
+  "en": "and rises again from the ash like fire."
+ },
+ {
+  "offset": "0x150C8",
+  "words": 11,
+  "jp": "召噢に必要なMP:20",
+  "en": "Summon MP: 20"
+ },
+ {
+  "offset": "0x150E0",
+  "words": 22,
+  "jp": "足k含めると,体長\\nmはある六型のクモ.巢k",
+  "en": "A huge spider, N m with legs. It spins no"
+ },
+ {
+  "offset": "0x1510E",
+  "words": 22,
+  "jp": "張ることはなく,素早い動きで獲物k捕らえ,强",
+  "en": "but catches prey with quick moves and a"
+ },
+ {
+  "offset": "0x1513C",
+  "words": 14,
+  "jp": "力なマヒ毒k使ってしとめる.",
+  "en": "strong paralyzing poison."
+ },
+ {
+  "offset": "0x1515A",
+  "words": 10,
+  "jp": "召噢に必要なMP:8",
+  "en": "Summon MP: 8"
+ },
+ {
+  "offset": "0x15170",
+  "words": 22,
+  "jp": "神の呪いk受け,髪が無数のヘビとなった女性モ",
+  "en": "A female monster cursed so her hair became"
+ },
+ {
+  "offset": "0x1519E",
+  "words": 22,
+  "jp": "ンスター.その恐ろしい魔眼には,人k瞬時に石",
+  "en": "snakes. Her dread evil eye turns people to"
+ },
+ {
+  "offset": "0x151CC",
+  "words": 9,
+  "jp": "化させる力がある.",
+  "en": "stone at once."
+ },
+ {
+  "offset": "0x151E0",
+  "words": 11,
+  "jp": "召噢に必要なMP:17",
+  "en": "Summon MP: 17"
+ },
+ {
+  "offset": "0x151F8",
+  "words": 22,
+  "jp": "世界k诚ぼすとされる,六海の底にすむ六蛇.六",
+  "en": "A great deep-sea serpent, said to doom"
+ },
+ {
+  "offset": "0x15226",
+  "words": 22,
+  "jp": "地k取り卷く程の六きさがあると言われている.",
+  "en": "the world. Said large enough to ring the"
+ },
+ {
+  "offset": "0x15254",
+  "words": 19,
+  "jp": "またその牙には,强力な毒があるという.",
+  "en": "land, with strong poison fangs."
+ },
+ {
+  "offset": "0x1527C",
+  "words": 11,
+  "jp": "召噢に必要なMP:24",
+  "en": "Summon MP: 24"
+ },
+ {
+  "offset": "0x15294",
+  "words": 22,
+  "jp": "身長が数十センチほどの,背中に羽k持つ愛らし",
+  "en": "A lovely girl spirit, tens of cm tall, with"
+ },
+ {
+  "offset": "0x152C2",
+  "words": 22,
+  "jp": "い少女の妖{?02CA}.魔法k使った摆護が得意だが,素",
+  "en": "wings. Good at magic escort, but it can also"
+ },
+ {
+  "offset": "0x152F0",
+  "words": 13,
+  "jp": "早さk活かした戦いも可能.",
+  "en": "fight using its speed."
+ },
+ {
+  "offset": "0x1530C",
+  "words": 10,
+  "jp": "召噢に必要なMP:7",
+  "en": "Summon MP: 7"
+ },
+ {
+  "offset": "0x15322",
+  "words": 22,
+  "jp": "{?0301}の{?02CA}霊の一種で,{?0301}の魔神とも呼ばれる.强靭",
+  "en": "A wind spirit, also called a wind demon. It"
+ },
+ {
+  "offset": "0x15350",
+  "words": 20,
+  "jp": "な肉体k持っており,その戦{?0110}能力は高い.",
+  "en": "has a tough body and high battle skill."
+ },
+ {
+  "offset": "0x1537A",
+  "words": 13,
+  "jp": "また{?0301}の魔法k自在に{?029E}る.",
+  "en": "It wields wind magic too."
+ },
+ {
+  "offset": "0x15396",
+  "words": 11,
+  "jp": "召噢に必要なMP:14",
+  "en": "Summon MP: 14"
+ },
+ {
+  "offset": "0x153AE",
+  "words": 22,
+  "jp": "最も美しいと言われる,北方の女神.恋歌k好む",
+  "en": "The fairest north goddess, said. She loves"
+ },
+ {
+  "offset": "0x153DC",
+  "words": 22,
+  "jp": "事から,恋愛k司る神とされる.またこの女神の",
+  "en": "love songs, so she rules love. Gold is said"
+ },
+ {
+  "offset": "0x1540A",
+  "words": 18,
+  "jp": "滨から黄金が生まれたという說がある.",
+  "en": "was born from her tears."
+ },
+ {
+  "offset": "0x15430",
+  "words": 11,
+  "jp": "召噢に必要なMP:20",
+  "en": "Summon MP: 20"
+ },
+ {
+  "offset": "0x15448",
+  "words": 22,
+  "jp": "この世に强い未練k残したために,成仏できずい",
+  "en": "A ghost that cannot pass on for its strong"
+ },
+ {
+  "offset": "0x15476",
+  "words": 22,
+  "jp": "る霊.生者に强い憎しみk持っている.また接触",
+  "en": "regret. It hates the living, and can"
+ },
+ {
+  "offset": "0x154A4",
+  "words": 18,
+  "jp": "する事で,相手kマヒさせる力もある.",
+  "en": "paralyze a foe too."
+ },
+ {
+  "offset": "0x154CA",
+  "words": 10,
+  "jp": "召噢に必要なMP:8",
+  "en": "Summon MP: 8"
+ },
+ {
+  "offset": "0x154E0",
+  "words": 22,
+  "jp": "ヘビの体にコウモリの羽根k生やした魔族だが,",
+  "en": "A demon, a snake body with bat wings, but it"
+ },
+ {
+  "offset": "0x1550E",
+  "words": 18,
+  "jp": "美しい女性に变身する事で男k惑わす.",
+  "en": "charms men as a fair woman."
+ },
+ {
+  "offset": "0x15534",
+  "words": 11,
+  "jp": "リリム達の母でもある.",
+  "en": "Mother of the Lilim."
+ },
+ {
+  "offset": "0x1554C",
+  "words": 11,
+  "jp": "召噢に必要なMP:17",
+  "en": "Summon MP: 17"
+ },
+ {
+  "offset": "0x15564",
+  "words": 22,
+  "jp": "日々成長k続ける凶暴な怪狼で,特殊な足かせに",
+  "en": "A savage wolf that grows daily, bound by"
+ },
+ {
+  "offset": "0x15592",
+  "words": 22,
+  "jp": "よって囚われている.世界終末の際,神々k吞み",
+  "en": "special shackles. At world end it will eat"
+ },
+ {
+  "offset": "0x155C0",
+  "words": 7,
+  "jp": "込むとされる.",
+  "en": "they say."
+ },
+ {
+  "offset": "0x155D0",
+  "words": 11,
+  "jp": "召噢に必要なMP:24",
+  "en": "Summon MP: 24"
+ },
+ {
+  "offset": "0x155E8",
+  "words": 21,
+  "jp": "最上级に位置する天使で,神の愛kあらわす.",
+  "en": "The highest angel, a sign of god's love."
+ },
+ {
+  "offset": "0x15614",
+  "words": 22,
+  "jp": "多くの羽k持った美しい人間の姿で現れ,信者達",
+  "en": "It appears as a fair human with many wings,"
+ },
+ {
+  "offset": "0x15642",
+  "words": 14,
+  "jp": "の罪k清めると言われている.",
+  "en": "said to cleanse sins."
+ },
+ {
+  "offset": "0x15660",
+  "words": 11,
+  "jp": "召噢に必要なMP:\\n5",
+  "en": "Summon MP: N5"
+ },
+ {
+  "offset": "0x15678",
+  "words": 22,
+  "jp": "北方の神々の中で最も勇猛として知られ,戦いに",
+  "en": "Known as the bravest north god, skilled"
+ },
+ {
+  "offset": "0x156A6",
+  "words": 22,
+  "jp": "長けている.雷神という名の通り,雷k支配する",
+  "en": "in war. As thunder god, he rules thunder,"
+ },
+ {
+  "offset": "0x156D4",
+  "words": 13,
+  "jp": "が,冠婚葬祭の清めも行う.",
+  "en": "but blesses life rites."
+ },
+ {
+  "offset": "0x156F0",
+  "words": 11,
+  "jp": "召噢に必要なMP:\\n5",
+  "en": "Summon MP: N5"
+ },
+ {
+  "offset": "0x15708",
+  "words": 22,
+  "jp": "日々の锻鍊で,己の肉体k桂限まで高めた戦士.",
+  "en": "A warrior who honed his body to the limit."
+ },
+ {
+  "offset": "0x15736",
+  "words": 22,
+  "jp": "テカテカ光る筋肉モリモリの体には,恐ろしいま",
+  "en": "His shiny, bulging muscles hold fearsome"
+ },
+ {
+  "offset": "0x15764",
+  "words": 14,
+  "jp": "でのパワーが秘められている.",
+  "en": "power within."
+ },
+ {
+  "offset": "0x15782",
+  "words": 11,
+  "jp": "召噢に必要なMP:\\n8",
+  "en": "Summon MP: N8"
+ },
+ {
+  "offset": "0x1579A",
+  "words": 22,
+  "jp": "悪魔世界の六公で,よくハエの姿で現れる.その",
+  "en": "A great duke of the demon world, oft a fly."
+ },
+ {
+  "offset": "0x157C8",
+  "words": 22,
+  "jp": "羽根には,交差させた骨と頭盖骨が描かれている",
+  "en": "Its wings bear crossed bones and a skull,"
+ },
+ {
+  "offset": "0x157F6",
+  "words": 12,
+  "jp": "と言う.六食の罪k司る.",
+  "en": "It rules gluttony."
+ },
+ {
+  "offset": "0x15810",
+  "words": 11,
+  "jp": "召噢に必要なMP:\\n0",
+  "en": "Summon MP: N0"
+ },
+ {
+  "offset": "0x15828",
+  "words": 22,
+  "jp": "竜王の一角で,桂めて神に近い仔在.その身体は",
+  "en": "A dragon king, a being very close to a god."
+ },
+ {
+  "offset": "0x15856",
+  "words": 22,
+  "jp": "神聖な光で輝いているという.高い知能k有し,",
+  "en": "It glows with holy light, high intellect,"
+ },
+ {
+  "offset": "0x15884",
+  "words": 15,
+  "jp": "强力な魔法k{?029E}ることも出来る.",
+  "en": "and can wield strong magic."
+ },
+ {
+  "offset": "0x158A4",
+  "words": 11,
+  "jp": "召噢に必要なMP:\\n5",
+  "en": "Summon MP: N5"
+ },
+ {
+  "offset": "0x158BC",
+  "words": 22,
+  "jp": "混沌の王であるカオスの分身.それゆえにカオス",
+  "en": "An avatar of Chaos, lord of chaos. So it"
+ },
+ {
+  "offset": "0x158EA",
+  "words": 22,
+  "jp": "本来の力は発揮できないが,人間が制御できる限",
+  "en": "cannot show its true power, but it holds the"
+ },
+ {
+  "offset": "0x15918",
+  "words": 11,
+  "jp": "界の强さk持っている.",
+  "en": "the human limit."
+ },
+ {
+  "offset": "0x15930",
+  "words": 11,
+  "jp": "召噢に必要なMP:40",
+  "en": "Summon MP: 40"
+ },
+ {
+  "offset": "0x15948",
+  "words": 22,
+  "jp": "光の女神ルシリスの分身.女神の力の一部k具現",
+  "en": "An avatar of Lucious, the light goddess. It"
+ },
+ {
+  "offset": "0x15976",
+  "words": 22,
+  "jp": "化させたものだが,その能力はあらゆるものk超",
+  "en": "embodies part of her power, beyond all else."
+ },
+ {
+  "offset": "0x159B2",
+  "words": 11,
+  "jp": "召噢に必要なMP:40",
+  "en": "Summon MP: 40"
+ }
+]

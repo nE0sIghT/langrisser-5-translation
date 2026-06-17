@@ -23,7 +23,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.en")
     ap.add_argument("--system-out", default="work/build/SYSTEM.BIN.en")
-    ap.add_argument("--help-json", default="data/translation/system_help.json")
+    ap.add_argument("--help-json", action="append", default=None,
+                    help="Translation JSON (repeatable).")
     ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
     ap.add_argument("--strict", action="store_true",
                     help="Exit non-zero if any entry is over budget or unencodable.")
@@ -31,7 +32,10 @@ def main() -> None:
 
     codec = Codec(load_charmap_tbl(Path(args.tbl)))
     data = bytearray(Path(args.system_in).read_bytes())
-    entries = json.loads(Path(args.help_json).read_text(encoding="utf-8"))
+    json_paths = args.help_json or ["data/translation/system_help.json"]
+    entries = []
+    for jp in json_paths:
+        entries.extend(json.loads(Path(jp).read_text(encoding="utf-8")))
 
     inserted = 0
     problems = []
