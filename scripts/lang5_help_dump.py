@@ -33,7 +33,7 @@ def load_codemap(tbl_path: str) -> dict[int, str]:
 def decode_run(words: list[int], codemap: dict[int, str]) -> str:
     out: list[str] = []
     for w in words:
-        if w in (0x000A, 0xFFFC):
+        if w == 0xFFFC:
             out.append("\\n")
         elif w >= 0xFB00:
             out.append(f"{{{w:04X}}}")

@@ -86,7 +86,7 @@
  {
   "offset": "0x15DF0",
   "words": 22,
-  "jp": "戦準備時』『面攻略途中』の\\n種類があります.",
+  "jp": "戦準備時』『面攻略途中』の3種類があります.",
   "en": "clear, battle prep and mid-stage."
  },
  {
@@ -320,8 +320,8 @@
  {
   "offset": "0x16448",
   "words": 22,
-  "jp": "指揮官のHPk\\n,MPk2ポイント回復するコ",
-  "en": "Restores 1 HP and 2 MP to the"
+  "jp": "指揮官のHPk3,MPk2ポイント回復するコ",
+  "en": "Restores 3 HP and 2 MP to the"
  },
  {
   "offset": "0x16476",
@@ -656,8 +656,8 @@
  {
   "offset": "0x16D82",
   "words": 22,
-  "jp": "ますが,最低\\n～最六6までの範{?00F6}k超えること",
-  "en": "count shifts too, within a 1 to 6 range."
+  "jp": "ますが,最低3～最六6までの範{?00F6}k超えること",
+  "en": "count shifts too, within a 3 to 6 range."
  },
  {
   "offset": "0x16DB0",
@@ -776,7 +776,7 @@
  {
   "offset": "0x17164",
   "words": 22,
-  "jp": "戦準備時』『面攻略途中』の\\n種類があります.",
+  "jp": "戦準備時』『面攻略途中』の3種類があります.",
   "en": "clear, battle prep and mid-stage."
  },
  {
@@ -824,7 +824,7 @@
  {
   "offset": "0x17290",
   "words": 22,
-  "jp": "兵の雇える最六数は指揮官によって異なり,\\n～",
+  "jp": "兵の雇える最六数は指揮官によって異なり,3～",
   "en": "mercs. The max hire count varies by"
  },
  {
@@ -914,8 +914,8 @@
  {
   "offset": "0x174C6",
   "words": 22,
-  "jp": "所持アイテムk,買值の\\n↗4で壳却できます.",
-  "en": "Sell held items at 1/4 the buy price."
+  "jp": "所持アイテムk,買值の3↗4で壳却できます.",
+  "en": "Sell held items at 3/4 the buy price."
  },
  {
   "offset": "0x174F4",
@@ -1004,8 +1004,8 @@
  {
   "offset": "0x176F6",
   "words": 17,
-  "jp": "壳却金額は,購入金額の\\n↗4です.",
-  "en": "Sell price is 1/4 the buy price."
+  "jp": "壳却金額は,購入金額の3↗4です.",
+  "en": "Sell price is 3/4 the buy price."
  },
  {
   "offset": "0x1771A",

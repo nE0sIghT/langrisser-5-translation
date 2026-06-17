@@ -41,7 +41,6 @@ to fit, line by line. Items below are the knowing semantic losses.
 
 | ID | Location | Compression |
 | --- | --- | --- |
-| HD-001 | Item stat lines with a runtime number (`+\n`/`\n` placeholder, e.g. mace/club/stone-axe "攻撃消費行動量+N", "MP x1/4 ... 待機-NC") | The original embeds a value the game fills in that did not survive the dump; rendered as `N`/`up`/`down`. Restore the real numbers from a RAM/table dump. |
 | HD-002 | Spell stat lines (`属性:/目標:/解除:`) | The formal "Attribute / Target / Dispel" labels were shortened to `Element. Hits N unit/troop/area. Cure: X`. Tone/formality reduced; meaning kept. |
 | HD-003 | Weapon/armor/unit flavor descriptions | Trailing hedges ("...という" = "they say") and decorative adjectives were dropped per line to fit; lore is preserved but prose is terser than the JP. |
 | HD-004 | `%`-free rewrites | A few stat lines that used "割" (tenths) were written as multipliers (`AT x1.2`, `MP x1/4`) instead of percentages where the phrasing did not fit. |
@@ -69,3 +68,4 @@ to fit, line by line. Items below are the knowing semantic losses.
 | CD-017 | Recap, `chunk_129.txt` | all recap records | Closed 2026-06-14. Full JP/EN review found dense wording but no actionable lost lore, chronology, or character framing requiring text changes. |
 | CD-018 | Recap/bios, `chunk_130.txt` | all ending biography records | Closed 2026-06-14. Full JP/EN review found compressed ceremonial phrasing but preserved the branch outcomes, character epilogues, deaths, marriages, reforms, and world-state details. |
 | CD-019 | Scenario 2 battle, `chunk_002.txt` | `15,21,23,33,46,49,53,63,66,71,76,79,84,88,90,96,97,103,104,113` | Closed 2026-06-13. The fuller text was restored after the battle suffix alignment rule was confirmed: chunk `002` may shift its suffix when the new suffix start remains 4-byte aligned. In-game testing confirmed battle images/portraits stayed intact. |
+| HD-001 | SYSTEM.BIN help stat lines that decoded with an `N`/`up`/`down` placeholder | Closed 2026-06-17. Not a runtime value at all: glyph code `0x000A` is the digit `3` in this font, but `lang5_help_dump.py` decoded it as a line break, so embedded `3`/`13`/`30`/`35`/`38` numbers were lost. Fixed the decoder and restored every real number from the data (e.g. "Attack cost +3", "Summon MP: 35", "Sell at 3/4 buy price", "Monster 13", "Skill: Petrify 3"). No RAM dump needed. |

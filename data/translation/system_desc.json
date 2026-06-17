@@ -1634,7 +1634,7 @@
  {
   "offset": "0x0ADB8",
   "words": 28,
-  "jp": ".\\nADKSYぁいぉぎこじそっどはふほめょろアォ剣装備",
+  "jp": ".3ADKSYぁいぉぎこじそっどはふほめょろアォ剣装備",
   "en": ""
  },
  {
@@ -1694,8 +1694,8 @@
  {
   "offset": "0x0AE6A",
   "words": 4,
-  "jp": "毒攻{?00FE}\\n",
-  "en": "Poison N"
+  "jp": "毒攻{?00FE}3",
+  "en": "Poison 3"
  },
  {
   "offset": "0x0AE74",
@@ -1718,8 +1718,8 @@
  {
   "offset": "0x0AE96",
   "words": 5,
-  "jp": "マヒ攻{?00FE}\\n",
-  "en": "Paralyze N"
+  "jp": "マヒ攻{?00FE}3",
+  "en": "Paralyze 3"
  },
  {
   "offset": "0x0AEA2",
@@ -1742,8 +1742,8 @@
  {
   "offset": "0x0AEC6",
   "words": 5,
-  "jp": "石化攻{?00FE}\\n",
-  "en": "Petrify N"
+  "jp": "石化攻{?00FE}3",
+  "en": "Petrify 3"
  },
  {
   "offset": "0x0AED2",
@@ -2384,7 +2384,7 @@
  {
   "offset": "0x0B85C",
   "words": 5,
-  "jp": "Cナイツ\\n",
+  "jp": "Cナイツ3",
   "en": "CK 3"
  },
  {
@@ -2534,8 +2534,8 @@
  {
   "offset": "0x0B9A4",
   "words": 7,
-  "jp": "ガーディアン\\n",
-  "en": "Guardian"
+  "jp": "ガーディアン3",
+  "en": "Guardian 3"
  },
  {
   "offset": "0x0B9B4",
@@ -2690,8 +2690,8 @@
  {
   "offset": "0x0BBC2",
   "words": 4,
-  "jp": "一般人\\n",
-  "en": "Civilian"
+  "jp": "一般人3",
+  "en": "Civln 3"
  },
  {
   "offset": "0x0BBCC",
@@ -2750,8 +2750,8 @@
  {
   "offset": "0x0BC28",
   "words": 4,
-  "jp": "一般兵\\n",
-  "en": "Footman"
+  "jp": "一般兵3",
+  "en": "Footmn 3"
  },
  {
   "offset": "0x0BC32",
@@ -2822,7 +2822,7 @@
  {
   "offset": "0x0BCB4",
   "words": 7,
-  "jp": "連邦車指揮官\\n",
+  "jp": "連邦車指揮官3",
   "en": "Fed 3"
  },
  {
@@ -2882,7 +2882,7 @@
  {
   "offset": "0x0BD5A",
   "words": 8,
-  "jp": "連邦車指揮官1\\n",
+  "jp": "連邦車指揮官13",
   "en": "Fed 13"
  },
  {
@@ -2918,7 +2918,7 @@
  {
   "offset": "0x0BDC2",
   "words": 7,
-  "jp": "カコンシス車\\n",
+  "jp": "カコンシス車3",
   "en": "Kak 3"
  },
  {
@@ -2978,7 +2978,7 @@
  {
   "offset": "0x0BE68",
   "words": 8,
-  "jp": "カコンシス車1\\n",
+  "jp": "カコンシス車13",
   "en": "Kak 13"
  },
  {
@@ -3002,8 +3002,8 @@
  {
   "offset": "0x0BEA8",
   "words": 6,
-  "jp": "モンスター\\n",
-  "en": "Monster"
+  "jp": "モンスター3",
+  "en": "Monster 3"
  },
  {
   "offset": "0x0BEB6",
@@ -3062,8 +3062,8 @@
  {
   "offset": "0x0BF3A",
   "words": 7,
-  "jp": "モンスター1\\n",
-  "en": "Monster 1"
+  "jp": "モンスター13",
+  "en": "Monster 13"
  },
  {
   "offset": "0x0BF4A",
@@ -3098,8 +3098,8 @@
  {
   "offset": "0x0BFC2",
   "words": 4,
-  "jp": "兄貴1\\n",
-  "en": "Bro 1"
+  "jp": "兄貴13",
+  "en": "Bro 13"
  },
  {
   "offset": "0x0BFCC",
@@ -3122,7 +3122,7 @@
  {
   "offset": "0x0BFEA",
   "words": 4,
-  "jp": "徵税官\\n",
+  "jp": "徵税官3",
   "en": "Tax 3"
  },
  {
@@ -3170,7 +3170,7 @@
  {
   "offset": "0x0C04C",
   "words": 6,
-  "jp": "帝国車士官\\n",
+  "jp": "帝国車士官3",
   "en": "Emp 3"
  },
  {
@@ -3230,7 +3230,7 @@
  {
   "offset": "0x0C0DE",
   "words": 7,
-  "jp": "帝国車士官1\\n",
+  "jp": "帝国車士官13",
   "en": "Emp 13"
  },
  {
@@ -3266,7 +3266,7 @@
  {
   "offset": "0x0C132",
   "words": 6,
-  "jp": "同盟車士官\\n",
+  "jp": "同盟車士官3",
   "en": "Aly 3"
  },
  {
@@ -3326,7 +3326,7 @@
  {
   "offset": "0x0C1C4",
   "words": 7,
-  "jp": "同盟車士官1\\n",
+  "jp": "同盟車士官13",
   "en": "Aly 13"
  },
  {
@@ -3362,7 +3362,7 @@
  {
   "offset": "0x0C25A",
   "words": 8,
-  "jp": "サルラス車兵士\\n",
+  "jp": "サルラス車兵士3",
   "en": "Slr 3"
  },
  {
@@ -3422,7 +3422,7 @@
  {
   "offset": "0x0C3C0",
   "words": 4,
-  "jp": "女佣兵\\n",
+  "jp": "女佣兵3",
   "en": "FMrc 3"
  },
  {
@@ -3452,8 +3452,8 @@
  {
   "offset": "0x0C41A",
   "words": 4,
-  "jp": "守備兵\\n",
-  "en": "Guard"
+  "jp": "守備兵3",
+  "en": "Guard 3"
  },
  {
   "offset": "0x0C424",
@@ -3524,8 +3524,8 @@
  {
   "offset": "0x0C54E",
   "words": 5,
-  "jp": "オバさま\\n",
-  "en": "Madam"
+  "jp": "オバさま3",
+  "en": "Madam 3"
  },
  {
   "offset": "0x0C55A",
@@ -3800,7 +3800,7 @@
  {
   "offset": "0x0CA50",
   "words": 5,
-  "jp": "Cナイツ\\n",
+  "jp": "Cナイツ3",
   "en": "CK 3"
  },
  {
@@ -4886,7 +4886,7 @@
  {
   "offset": "0x0D7F6",
   "words": 261,
-  "jp": "\\nQSZごせひべんゥゼッドホル・{?00E6}断戦回&低照能止点葉川堀辺生由分{?0201}教副徵警殊波苦银麟代壊{?02E4}{?02F8}熱-邪含座服天忘厳侶直背男険獄憎资妨会滨葬父審二港東卿訪载占航磨秤紹ヶ栅展登深挖青嫌继洞徹候騙怠諸札澄穫科堵粋踊累癖校委録閃掌戮{?072A}{?0741}{?0758}{?076F}{?0780}{?0797}{?07AE}{?07B5}{?07C8}{?07DF}{?07F6}{?0805}{?0818}{?0822}{?0839}{?0847}{?085A}{?0871}{?0888}{?0897}{?08A8}{?08BF}{?08D6}{?08ED}{?0902}{?0919}{?0930}{?093C}{?0950}{?0967}{?097E}{?0992}{?09A2}{?09B9}{?09CB}{?09E2}{?09E9}{?0A00}{?0A0E}{?0A25}{?0A2C}{?0A43}{?0A58}{?0A6F}{?0A76}{?0A8D}{?0AA2}{?0AB9}{?0AC0}{?0AD7}{?0AEE}{?0B05}{?0B0E}{?0B25}{?0B3A}{?0B51}{?0B58}{?0B6F}{?0B7D}{?0B94}{?0B9D}{?0BB4}{?0BC5}{?0BDC}{?0BE6}{?0BFD}{?0C14}{?0C1A}{?0C21}{?0C38}{?0C4F}{?0C58}{?0C67}{?0C7E}{?0C94}{?0CAB}{?0CBA}{?0CD1}{?0CE8}{?0CF0}{?0CF7}{?0D0E}{?0D25}{?0D3A}{?0D41}{?0D58}{?0D6F}{?0D83}{?0D8A}{?0DA1}{?0DB8}{?0DCD}{?0DD4}{?0DEB}{?0E02}{?0E13}{?0E23}{?0E3A}{?0E51}{?0E66}{?0E6F}{?0E86}{?0E9D}{?0EB3}{?0EBC}{?0ED3}{?0EEA}{?0EFD}{?0F0C}{?0F23}{?0F3A}{?0F50}{?0F5F}{?0F76}{?0F7E}{?0F94}{?0F9D}{?0FB4}{?0FCB}{?0FE1}{?0FF5}{?100C}{?1023}{?1032}{?103A}{?1051}{?1068}{?1078}{?1085}{?109C}{?10B1}{?10C7}{?10D0}{?10E7}{?10FE}{?1111}{?1125}{?113C}{?114D}{?114F}最も{?025A}本的な兵士.",
+  "jp": "3QSZごせひべんゥゼッドホル・{?00E6}断戦回&低照能止点葉川堀辺生由分{?0201}教副徵警殊波苦银麟代壊{?02E4}{?02F8}熱-邪含座服天忘厳侶直背男険獄憎资妨会滨葬父審二港東卿訪载占航磨秤紹ヶ栅展登深挖青嫌继洞徹候騙怠諸札澄穫科堵粋踊累癖校委録閃掌戮{?072A}{?0741}{?0758}{?076F}{?0780}{?0797}{?07AE}{?07B5}{?07C8}{?07DF}{?07F6}{?0805}{?0818}{?0822}{?0839}{?0847}{?085A}{?0871}{?0888}{?0897}{?08A8}{?08BF}{?08D6}{?08ED}{?0902}{?0919}{?0930}{?093C}{?0950}{?0967}{?097E}{?0992}{?09A2}{?09B9}{?09CB}{?09E2}{?09E9}{?0A00}{?0A0E}{?0A25}{?0A2C}{?0A43}{?0A58}{?0A6F}{?0A76}{?0A8D}{?0AA2}{?0AB9}{?0AC0}{?0AD7}{?0AEE}{?0B05}{?0B0E}{?0B25}{?0B3A}{?0B51}{?0B58}{?0B6F}{?0B7D}{?0B94}{?0B9D}{?0BB4}{?0BC5}{?0BDC}{?0BE6}{?0BFD}{?0C14}{?0C1A}{?0C21}{?0C38}{?0C4F}{?0C58}{?0C67}{?0C7E}{?0C94}{?0CAB}{?0CBA}{?0CD1}{?0CE8}{?0CF0}{?0CF7}{?0D0E}{?0D25}{?0D3A}{?0D41}{?0D58}{?0D6F}{?0D83}{?0D8A}{?0DA1}{?0DB8}{?0DCD}{?0DD4}{?0DEB}{?0E02}{?0E13}{?0E23}{?0E3A}{?0E51}{?0E66}{?0E6F}{?0E86}{?0E9D}{?0EB3}{?0EBC}{?0ED3}{?0EEA}{?0EFD}{?0F0C}{?0F23}{?0F3A}{?0F50}{?0F5F}{?0F76}{?0F7E}{?0F94}{?0F9D}{?0FB4}{?0FCB}{?0FE1}{?0FF5}{?100C}{?1023}{?1032}{?103A}{?1051}{?1068}{?1078}{?1085}{?109C}{?10B1}{?10C7}{?10D0}{?10E7}{?10FE}{?1111}{?1125}{?113C}{?114D}{?114F}最も{?025A}本的な兵士.",
   "en": ""
  },
  {
@@ -5138,8 +5138,8 @@
  {
   "offset": "0x0DF5A",
   "words": 22,
-  "jp": "\\nm以上もの長い槍k持ち,对騎馬戦の訓練k受",
-  "en": "Armed with a very long spear, trained for"
+  "jp": "3m以上もの長い槍k持ち,对騎馬戦の訓練k受",
+  "en": "Armed with a 3m+ spear, trained for"
  },
  {
   "offset": "0x0DF88",
@@ -5888,8 +5888,8 @@
  {
   "offset": "0x0F116",
   "words": 8,
-  "jp": "スキル:毒攻{?00FE}\\n",
-  "en": "Skill: Poison N"
+  "jp": "スキル:毒攻{?00FE}3",
+  "en": "Skill: Poison 3"
  },
  {
   "offset": "0x0F128",
@@ -5912,8 +5912,8 @@
  {
   "offset": "0x0F1A6",
   "words": 9,
-  "jp": "スキル:石化攻{?00FE}\\n",
-  "en": "Skill: Petrify"
+  "jp": "スキル:石化攻{?00FE}3",
+  "en": "Skill: Petrify 3"
  },
  {
   "offset": "0x0F1BA",
@@ -6200,8 +6200,8 @@
  {
   "offset": "0x0F88E",
   "words": 14,
-  "jp": "スキル:解毒能力・マヒ攻{?00FE}\\n",
-  "en": "Skill: Antidote, Paralyze"
+  "jp": "スキル:解毒能力・マヒ攻{?00FE}3",
+  "en": "Skill: Antidote, Paralyze 3"
  },
  {
   "offset": "0x0F8AC",
@@ -6344,8 +6344,8 @@
  {
   "offset": "0x0FC10",
   "words": 19,
-  "jp": "スキル:解毒能力・石化攻{?00FE}1・毒攻{?00FE}\\n",
-  "en": "Skill: Antidote, Petrify 1, Poison"
+  "jp": "スキル:解毒能力・石化攻{?00FE}1・毒攻{?00FE}3",
+  "en": "Skill: Antidote, Petrify 1, Poison 3"
  },
  {
   "offset": "0x0FC38",
@@ -6800,8 +6800,8 @@
  {
   "offset": "0x10A36",
   "words": 14,
-  "jp": "攻{?00FE}消費行動量+\\nペナルティ",
-  "en": "Attack cost up. Penalty"
+  "jp": "攻{?00FE}消費行動量+3ペナルティ",
+  "en": "Attack cost +3. Penalty"
  },
  {
   "offset": "0x10A54",
@@ -6920,8 +6920,8 @@
  {
   "offset": "0x10D46",
   "words": 14,
-  "jp": "攻{?00FE}消費行動量+\\nペナルティ",
-  "en": "Attack cost up. Penalty"
+  "jp": "攻{?00FE}消費行動量+3ペナルティ",
+  "en": "Attack cost +3. Penalty"
  },
  {
   "offset": "0x10D64",
@@ -7064,8 +7064,8 @@
  {
   "offset": "0x1111C",
   "words": 14,
-  "jp": "攻{?00FE}消費行動量+\\nペナルティ",
-  "en": "Attack cost up. Penalty"
+  "jp": "攻{?00FE}消費行動量+3ペナルティ",
+  "en": "Attack cost +3. Penalty"
  },
  {
   "offset": "0x1113A",
@@ -7490,8 +7490,8 @@
  {
   "offset": "0x11CAC",
   "words": 22,
-  "jp": "間接:18マス・攻{?00FE}消費行動量\\n0ぺナルティ",
-  "en": "Indirect 18. Cost N. Penalty"
+  "jp": "間接:18マス・攻{?00FE}消費行動量30ぺナルティ",
+  "en": "Indirect 18. Cost 30. Penalty"
  },
  {
   "offset": "0x11CDA",
@@ -7718,8 +7718,8 @@
  {
   "offset": "0x122C8",
   "words": 16,
-  "jp": "攻{?00FE}消費行動量k\\n鞋减（佣兵含）",
-  "en": "Cost down (mercs too)."
+  "jp": "攻{?00FE}消費行動量k3鞋减（佣兵含）",
+  "en": "Cost -30% (mercs too)."
  },
  {
   "offset": "0x122EA",
@@ -8222,8 +8222,8 @@
  {
   "offset": "0x12F2C",
   "words": 16,
-  "jp": "知力+5・魔法射程+4・範{?00F6}+\\n",
-  "en": "Int +5, range +4, area +N"
+  "jp": "知力+5・魔法射程+4・範{?00F6}+3",
+  "en": "Int +5, range +4, area +3"
  },
  {
   "offset": "0x12F4E",
@@ -8246,8 +8246,8 @@
  {
   "offset": "0x12FCE",
   "words": 16,
-  "jp": "攻{?00FE}消費行動量k\\n鞋减（佣兵含）",
-  "en": "Cost down (mercs too)."
+  "jp": "攻{?00FE}消費行動量k3鞋减（佣兵含）",
+  "en": "Cost -30% (mercs too)."
  },
  {
   "offset": "0x12FF0",
@@ -8270,8 +8270,8 @@
  {
   "offset": "0x1305C",
   "words": 22,
-  "jp": "消費MP\\n↗4・魔法範{?00F6}+1・魔法待機-\\nC",
-  "en": "MP x1/4, area +1, wait -NC"
+  "jp": "消費MP3↗4・魔法範{?00F6}+1・魔法待機-3C",
+  "en": "MP cost 3/4, area +1, wait -3C"
  },
  {
   "offset": "0x1308A",
@@ -8534,8 +8534,8 @@
  {
   "offset": "0x13752",
   "words": 11,
-  "jp": "魔法射程+\\n・範{?00F6}+2",
-  "en": "Range +N, area +2"
+  "jp": "魔法射程+3・範{?00F6}+2",
+  "en": "Range +3, area +2"
  },
  {
   "offset": "0x1376A",
@@ -8558,8 +8558,8 @@
  {
   "offset": "0x137F4",
   "words": 22,
-  "jp": "力に弱くなる.知力+8・魔法待機-\\nC",
-  "en": "weak to holy. Int +8, mag wait -NC"
+  "jp": "力に弱くなる.知力+8・魔法待機-3C",
+  "en": "weak to holy. Int +8, mag wait -3C"
  },
  {
   "offset": "0x13822",
@@ -9068,8 +9068,8 @@
  {
   "offset": "0x146C4",
   "words": 13,
-  "jp": "DF+\\n↗目標:味方1部隊",
-  "en": "DF +N. 1 ally troop"
+  "jp": "DF+3↗目標:味方1部隊",
+  "en": "DF +3. 1 ally troop"
  },
  {
   "offset": "0x146E0",
@@ -9116,8 +9116,8 @@
  {
   "offset": "0x147E2",
   "words": 13,
-  "jp": "AT+\\n↗目標:味方1部隊",
-  "en": "AT +N. 1 ally troop"
+  "jp": "AT+3↗目標:味方1部隊",
+  "en": "AT +3. 1 ally troop"
  },
  {
   "offset": "0x147FE",
@@ -9188,8 +9188,8 @@
  {
   "offset": "0x149C6",
   "words": 16,
-  "jp": "魔法耐性+\\n0↗目標:味方1部隊",
-  "en": "Mag resist +N0. 1 ally troop"
+  "jp": "魔法耐性+30↗目標:味方1部隊",
+  "en": "Mag resist +30. 1 ally troop"
  },
  {
   "offset": "0x149E8",
@@ -9212,8 +9212,8 @@
  {
   "offset": "0x14A56",
   "words": 22,
-  "jp": "HPが最六\\n回復↗目標:範{?00F6}内の味方ユニット",
-  "en": "Heal up to N HP. Allies in area"
+  "jp": "HPが最六3回復↗目標:範{?00F6}内の味方ユニット",
+  "en": "Heal up to 3 HP. Allies in area"
  },
  {
   "offset": "0x14A84",
@@ -9260,8 +9260,8 @@
  {
   "offset": "0x14BA6",
   "words": 14,
-  "jp": "HP\\n回復↗目標:味方1部隊",
-  "en": "Heal N HP. 1 ally troop"
+  "jp": "HP3回復↗目標:味方1部隊",
+  "en": "Heal 3 HP. 1 ally troop"
  },
  {
   "offset": "0x14BC4",
@@ -9476,8 +9476,8 @@
  {
   "offset": "0x150E0",
   "words": 22,
-  "jp": "足k含めると,体長\\nmはある六型のクモ.巢k",
-  "en": "A huge spider, N m with legs. It spins no"
+  "jp": "足k含めると,体長3mはある六型のクモ.巢k",
+  "en": "A huge spider, 3 m with legs. It spins no"
  },
  {
   "offset": "0x1510E",
@@ -9710,8 +9710,8 @@
  {
   "offset": "0x15660",
   "words": 11,
-  "jp": "召噢に必要なMP:\\n5",
-  "en": "Summon MP: N5"
+  "jp": "召噢に必要なMP:35",
+  "en": "Summon MP: 35"
  },
  {
   "offset": "0x15678",
@@ -9734,8 +9734,8 @@
  {
   "offset": "0x156F0",
   "words": 11,
-  "jp": "召噢に必要なMP:\\n5",
-  "en": "Summon MP: N5"
+  "jp": "召噢に必要なMP:35",
+  "en": "Summon MP: 35"
  },
  {
   "offset": "0x15708",
@@ -9758,8 +9758,8 @@
  {
   "offset": "0x15782",
   "words": 11,
-  "jp": "召噢に必要なMP:\\n8",
-  "en": "Summon MP: N8"
+  "jp": "召噢に必要なMP:38",
+  "en": "Summon MP: 38"
  },
  {
   "offset": "0x1579A",
@@ -9782,8 +9782,8 @@
  {
   "offset": "0x15810",
   "words": 11,
-  "jp": "召噢に必要なMP:\\n0",
-  "en": "Summon MP: N0"
+  "jp": "召噢に必要なMP:30",
+  "en": "Summon MP: 30"
  },
  {
   "offset": "0x15828",
@@ -9806,8 +9806,8 @@
  {
   "offset": "0x158A4",
   "words": 11,
-  "jp": "召噢に必要なMP:\\n5",
-  "en": "Summon MP: N5"
+  "jp": "召噢に必要なMP:35",
+  "en": "Summon MP: 35"
  },
  {
   "offset": "0x158BC",
