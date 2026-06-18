@@ -330,6 +330,12 @@
   "en": "After use, it takes 50C until next order."
  },
  {
+  "offset": "0x164B2",
+  "words": 3,
+  "jp": "ます.",
+  "en": "{BLANK}"
+ },
+ {
   "offset": "0x164BA",
   "words": 22,
   "jp": "異界から魔獸k召噢するコマンド.樣々な能力k",
@@ -582,10 +588,22 @@
   "en": "Tries to attack commanders first."
  },
  {
+  "offset": "0x16B74",
+  "words": 3,
+  "jp": "ます.",
+  "en": "{BLANK}"
+ },
+ {
   "offset": "0x16B84",
   "words": 22,
   "jp": "できるだけ佣兵優先に攻{?00FE}k仕掛けるようにしま",
   "en": "Tries to attack mercs first."
+ },
+ {
+  "offset": "0x16BB2",
+  "words": 2,
+  "jp": "す.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x16BC0",
@@ -664,6 +682,12 @@
   "words": 114,
   "jp": "Gぁきくつへやゆキツホン{?00E4}魔移攻在認報属武状济見墅嶋堀野和收充空Ⅴ督同旅短側鉄味重適合威锻日考今槍役訓放信議走興各号驚漢獲像爆起{?041D}靭婚驱邸任想屋賜凯抛如養脑個魅赦穴拒齿鳩万臣題七愚伐各指揮官に佣兵k配属するためのコマンドです.",
   "en": ""
+ },
+ {
+  "offset": "0x16E78",
+  "words": 22,
+  "jp": "各指揮官に佣兵k配属するためのコマンドです.",
+  "en": "Command to assign mercs to each commander."
  },
  {
   "offset": "0x16EA6",

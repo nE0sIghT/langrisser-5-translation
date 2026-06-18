@@ -2253,7 +2253,7 @@
   "offset": "0x0B492",
   "words": 5,
   "jp": "天使の羽根",
-  "en": ""
+  "en": "Angel Wing"
  },
  {
   "offset": "0x0B49E",
@@ -4890,6 +4890,12 @@
   "en": ""
  },
  {
+  "offset": "0x0D9EE",
+  "words": 9,
+  "jp": "最も{025A}本的な兵士.",
+  "en": "A basic soldier."
+ },
+ {
   "offset": "0x0DA02",
   "words": 22,
   "jp": "槍兵に对しては有利だが,騎馬には不利である.",
@@ -5410,6 +5416,12 @@
   "words": 22,
   "jp": "きだが,水上の移動や戦{?0110}に,最も適した兵であ",
   "en": "but best suited to water moves and combat."
+ },
+ {
+  "offset": "0x0E574",
+  "words": 2,
+  "jp": "る.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x0E57A",
@@ -6372,6 +6384,12 @@
   "en": ""
  },
  {
+  "offset": "0x0FF8A",
+  "words": 22,
+  "jp": "攻{00FE}力は低いが,小型で携带しやすいため,旅人",
+  "en": "Weak, but small and easy to carry, so it"
+ },
+ {
   "offset": "0x0FFB8",
   "words": 15,
   "jp": "の護身用として愛用されている.",
@@ -6406,6 +6424,12 @@
   "words": 22,
   "jp": "そのため,兵士の{?025A}本的な武器とする国もあると",
   "en": "Some lands make it a soldier's basic weapon."
+ },
+ {
+  "offset": "0x10084",
+  "words": 3,
+  "jp": "いう.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x1008C",
@@ -6609,7 +6633,13 @@
   "offset": "0x10550",
   "words": 22,
   "jp": "雷神の力が封印されており,雷魔法k{?029E}る力k得",
-  "en": "It seals a thunder god, granting thunder"
+  "en": "Seals a thunder god, grants thunder magic."
+ },
+ {
+  "offset": "0x1057E",
+  "words": 2,
+  "jp": "る.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x10584",
@@ -7246,6 +7276,12 @@
   "words": 22,
   "jp": "けられており,術者の魔法效果k增幅する事がで",
   "en": "amplifying the caster's magic effect."
+ },
+ {
+  "offset": "0x1163C",
+  "words": 3,
+  "jp": "きる.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x11644",
@@ -8568,6 +8604,12 @@
   "en": ""
  },
  {
+  "offset": "0x139EA",
+  "words": 22,
+  "jp": "術者の両手に高熱の火弹k発生させ,目標へと开",
+  "en": "A hot fireball forms and hits the target."
+ },
+ {
   "offset": "0x13A18",
   "words": 22,
   "jp": "ばす魔法.簡単な呪文のわりに射程距離や威力に",
@@ -8614,6 +8656,12 @@
   "words": 22,
   "jp": "指先から强力な冷気k放ち,{?0174}部隊k凍てつかせ",
   "en": "Freezes a troop with finger-borne cold."
+ },
+ {
+  "offset": "0x13B40",
+  "words": 2,
+  "jp": "る.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x13B46",
@@ -9322,6 +9370,12 @@
   "words": 22,
   "jp": "る指揮官か佣兵k,即座に行動可能な状態にする",
   "en": "a target leader or merc able to act at once."
+ },
+ {
+  "offset": "0x14D66",
+  "words": 3,
+  "jp": "呪文.",
+  "en": "{BLANK}"
  },
  {
   "offset": "0x14D6E",

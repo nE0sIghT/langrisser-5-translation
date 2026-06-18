@@ -45,6 +45,12 @@ def main() -> None:
             continue
         off = int(e["offset"], 16)
         budget = int(e["words"])
+        if en == "{BLANK}":
+            # Clear a leftover JP run (e.g. a short sentence-tail line whose
+            # meaning is already carried by the preceding translated line).
+            struct.pack_into("<%dH" % budget, data, off, *([FFFF] * budget))
+            inserted += 1
+            continue
         try:
             toks = codec.encode(en)
         except Exception as exc:  # unencodable character
