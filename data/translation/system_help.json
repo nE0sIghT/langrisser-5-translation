@@ -6,12 +6,6 @@
   "en": "Ends the action of the current unit and"
  },
  {
-  "offset": "0x15BF6",
-  "words": 14,
-  "jp": "っている部隊の行動k終了し,",
-  "en": ""
- },
- {
   "offset": "0x15C14",
   "words": 12,
   "jp": "カウンタk進行させます.",

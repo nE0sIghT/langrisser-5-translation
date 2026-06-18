@@ -274,7 +274,7 @@ offsets, so each display line must fit the original line's glyph budget.
 
    ```bash
    python3 scripts/lang5_help_dump.py --out data/translation/system_help.json   # menu commands
-   python3 scripts/lang5_help_dump.py --start 0x9c00 --end 0x15810 \
+   python3 scripts/lang5_help_dump.py --start 0x9c00 --end 0x159ca \
        --out data/translation/system_desc.json                                  # descriptions
    ```
 

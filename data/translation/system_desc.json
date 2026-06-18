@@ -7965,13 +7965,13 @@
   "offset": "0x128D8",
   "words": 22,
   "jp": "はルシリスの加護が得られ,樣々な災いから護ら",
-  "en": "wearer gains Lucious grace, safe from many"
+  "en": "wearer gains Lushiris' grace, safe from"
  },
  {
   "offset": "0x12906",
   "words": 22,
   "jp": "れる.また信仰あつき者は,ルシリスk呼び竟ま",
-  "en": "evils. The devout can even call Lucious"
+  "en": "evils. The devout can even call her"
  },
  {
   "offset": "0x12934",
@@ -9819,13 +9819,13 @@
   "offset": "0x158EA",
   "words": 22,
   "jp": "本来の力は発揮できないが,人間が制御できる限",
-  "en": "cannot show its true power, but it holds the"
+  "en": "cannot show its true power, but has"
  },
  {
   "offset": "0x15918",
   "words": 11,
   "jp": "界の强さk持っている.",
-  "en": "the human limit."
+  "en": "humanity's limit."
  },
  {
   "offset": "0x15930",
@@ -9837,13 +9837,19 @@
   "offset": "0x15948",
   "words": 22,
   "jp": "光の女神ルシリスの分身.女神の力の一部k具現",
-  "en": "An avatar of Lucious, the light goddess. It"
+  "en": "An avatar of Lushiris, goddess of light."
  },
  {
   "offset": "0x15976",
   "words": 22,
   "jp": "化させたものだが,その能力はあらゆるものk超",
-  "en": "embodies part of her power, beyond all else."
+  "en": "Only part of her power, yet still"
+ },
+ {
+  "offset": "0x159A4",
+  "words": 6,
+  "jp": "越している.",
+  "en": "beyond all."
  },
  {
   "offset": "0x159B2",

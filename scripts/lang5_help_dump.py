@@ -48,7 +48,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--system-bin", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--tbl", default="data/tables/lang5_jp.tbl")
-    ap.add_argument("--start", type=lambda x: int(x, 0), default=0x15BF6)
+    ap.add_argument("--start", type=lambda x: int(x, 0), default=0x15BE6)
     ap.add_argument("--end", type=lambda x: int(x, 0), default=0x17990)
     ap.add_argument("--min-words", type=int, default=4)
     ap.add_argument("--out", default="data/translation/system_help.json")
