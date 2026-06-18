@@ -308,13 +308,17 @@ needed - you only type the English.
 1. **Write the text.** Edit `data/translation/poem_prologue.txt`:
 
    - Lines starting with `#` are comments.
-   - The poem is split into **three blocks separated by a line containing only
-     `---`**. In game the poem scrolls as a vertical crawl that reads the three
-     blocks one after another, so block 1 is the first screenful, block 2 the
-     next, block 3 the last. Keep three blocks.
-   - Each line is centred automatically, and the lines in a block are spread to
-     fill the full height so the blocks join seamlessly while scrolling. Aim for
-     a similar number of lines per block (the original uses ~11-12).
+   - **Blank lines** split the poem into **four blocks**, matching the original.
+     In game the poem is **one continuous vertical scroll** (the three stored
+     768px columns are stacked top-to-bottom into one tall strip), so the blocks
+     are not separate screens - a blank line just adds a one-line gap between
+     stanzas. Keep four blocks.
+   - Every line is centred automatically and sits on a single **uniform line
+     pitch** - there is no per-block stretching, and lines may straddle a column
+     boundary and rejoin seamlessly. The pitch is the original 20px unless the
+     English runs longer, in which case it is compressed just enough to leave a
+     readable blank tail at the bottom of the last screen (so the reader has time
+     to finish before it scrolls off).
 
 2. **Build the graphic.** Either run the step on its own:
 
@@ -326,8 +330,10 @@ needed - you only type the English.
    on top of the title-screen edit). It decodes the indexed bitmap, redraws the
    English with the bundled `data/fonts/DejaVuSerif-Bold.ttf` (black outline plus
    the poem palette's red shades), re-encodes the picture into its `IMG.DAT`
-   scanline packets **without changing the asset size**, and writes the patched
-   `work/build/IMG.DAT.poem` plus a preview `work/build/poem_en_preview.png`.
+   scanline packets - both the main image **and** the small `type=2` remainder
+   block that holds each column's bottom rows - **without changing the asset
+   size**, and writes the patched `work/build/IMG.DAT.poem` plus a preview
+   `work/build/poem_en_preview.png`.
 
 To retarget the font, colours or layout, change the constants at the top of
 `scripts/lang5_poem_translate.py`. The container/packet format the writer uses

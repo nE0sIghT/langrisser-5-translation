@@ -305,7 +305,7 @@ Observed decoded type-8 image inventory (width x height), from
 | 8 | 3x 368x215 (character portraits - e.g. the blue-haired shop maid) |
 | 9 | 3x 224x72 |
 | 10, 11 | 320x200 start/load/config menu background + 640x225 title screen |
-| 12 | **768x252 prologue poem** + 960x256 + 640x225 (left = menu bg) + 224x72 |
+| 12 | **768x256 prologue poem** (decodes as 768x252 + a 4-row `type=2` tail; 3 stacked 256x256 scroll columns) + 960x256 + 640x225 (left = menu bg) + 224x72 |
 | 13 | 320x200 |
 | 14 | 1224x182 + 1024x255 ending staff-credits + 320x200 |
 | 15 | 416x494 CAST credits + 320x450 + 320x200 + 224x72 + 88x183 |
@@ -318,9 +318,24 @@ is palette index 1 (`0x9ca20`, dark-red text); the colourful-frame picker in
 `dump-all` may choose a lighter highlight frame instead.
 
 The opening prologue poem (the scrolling "wall of text" on the title attract
-loop) is **asset 12, image 0** (768x252, 8bpp). Translating it is a graphics
-edit: redraw the text into the indexed bitmap and re-pack it into the scanline
-packets, leaving every `0x20` packet header untouched.
+loop) is **asset 12, image 0**. The decoded `type=8` group is 768x252, but the
+real image is **768x256**: the bottom 4 rows live in the `type=2` remainder
+block right after it (VRAM `(0, 508)`, contiguous with the main image at VRAM Y
+256-507). 256 rows do not divide evenly into the 21-rows-per-`0x4000`-block
+packing (`256 = 12*21 + 4`), so the packer emits 12 full blocks plus a 4-row
+`type=2` tail. Both runs are the **same image** and both must be rewritten.
+
+In game that 768x256 image is **three 256x256 columns** stacked top-to-bottom
+into one continuous vertical scroll (column 0, then 1, then 2 = a 768px-tall
+strip). A line of text may straddle a column boundary (strip rows 256 / 512):
+its bottom sliver is the column's last rows, which - being rows 252-255 of the
+768-wide image - are exactly the `type=2` remainder block. Blanking that block
+(rather than rewriting it) drops those slivers and leaves a black seam between
+"screens". `scripts/lang5_poem_translate.py` renders the whole 768px strip on one
+uniform line pitch, slices it back into the three columns, and writes the main
+image **and** the remainder block. Translating it is a graphics edit: redraw the
+text into the indexed bitmap and re-pack it into the scanline packets, leaving
+every `0x20` packet header untouched.
 
 `block_rows` and the per-row gap positions are fully determined by the width
 through the scanline rule, so `scripts/lang5_imgdat.py` derives them with
@@ -336,7 +351,8 @@ are the block's VRAM destination X/Y. Observed types:
 | 8 | 2048 | 8bpp indexed image scanline (the images above) |
 | 7 | 1792 | Unsupported indexed/sprite-like blocks used by assets 1-6 |
 | 4 | 1024 | 4bpp indexed block |
-| 1 / 2 / 3 | — | **CLUT block** (`u16[10]` = 256 colours, `u16[11]` = palette count) |
+| 1 / 2 / 3 | — | **CLUT block** when the width word `u16[10]` is 256 (`u16[11]` = palette count) |
+| 2 | 2048 | **image remainder**: a short `type=8`-style tail whose width word matches the preceding image (e.g. the prologue poem's last 4 rows), not a CLUT |
 
 A **CLUT block** is the palette store: its `0x20` header (width word 256) is
 followed by `u16[11]` consecutive 256-entry RGB555 palettes, normally uploaded
