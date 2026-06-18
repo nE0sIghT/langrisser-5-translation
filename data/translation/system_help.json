@@ -327,7 +327,7 @@
   "offset": "0x16484",
   "words": 22,
   "jp": "実行後,次の命令まで50C（1ターン）かかり",
-  "en": "After use it costs 50C, one turn, until"
+  "en": "After use, it takes 50C until next order."
  },
  {
   "offset": "0x164BA",

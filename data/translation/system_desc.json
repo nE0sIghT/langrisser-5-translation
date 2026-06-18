@@ -4905,13 +4905,13 @@
   "offset": "0x0DA42",
   "words": 22,
   "jp": "武装强化した重装步兵.ソルジャーと比べ,{?025A}本",
-  "en": "Heavy armed infantry. Vs a Soldier its base"
+  "en": "Heavily armed infantry. Higher base"
  },
  {
   "offset": "0x0DA70",
   "words": 6,
   "jp": "能力が高い.",
-  "en": "very able."
+  "en": "stats."
  },
  {
   "offset": "0x0DA7E",
@@ -4935,7 +4935,7 @@
   "offset": "0x0DAE8",
   "words": 4,
   "jp": "k誇る.",
-  "en": "high."
+  "en": "skill."
  },
  {
   "offset": "0x0DAF2",
@@ -5049,7 +5049,7 @@
   "offset": "0x0DD38",
   "words": 22,
   "jp": "{?0224}の力k得た兵士で,驚異的な戦{?0110}能力k持つ.",
-  "en": "A holy soldier with amazing battle power."
+  "en": "A dark-powered soldier with amazing battle"
  },
  {
   "offset": "0x0DD66",
@@ -5067,13 +5067,13 @@
   "offset": "0x0DDAA",
   "words": 22,
   "jp": "リンゴ神,オーカダが创造したと言われている,",
-  "en": "Said made by the apple god Okada, a woman"
+  "en": "Said made by apple god Okada, a woman"
  },
  {
   "offset": "0x0DDD8",
   "words": 11,
   "jp": "家事全般kこなす女性.",
-  "en": "she does housework."
+  "en": "skilled at chores."
  },
  {
   "offset": "0x0DDF0",
@@ -5259,13 +5259,13 @@
   "offset": "0x0E1F4",
   "words": 22,
   "jp": "修行k精むことによって,モンク以上に神の加護",
-  "en": "Trained beyond a Monk in divine grace,"
+  "en": "A monk trained further, gaining divine"
  },
  {
   "offset": "0x0E222",
   "words": 5,
   "jp": "k得た者.",
-  "en": "holy."
+  "en": "grace."
  },
  {
   "offset": "0x0E22E",
@@ -5283,13 +5283,13 @@
   "offset": "0x0E26E",
   "words": 22,
   "jp": "魔族やアンデッドk诚ぼすために,厳しい修行k",
-  "en": "hard-trained to destroy demons and"
+  "en": "A cleric hard-trained to destroy demons"
  },
  {
   "offset": "0x0E29C",
   "words": 7,
   "jp": "精んだ聖職者.",
-  "en": "a cleric."
+  "en": "and undead."
  },
  {
   "offset": "0x0E2AC",
@@ -5307,13 +5307,13 @@
   "offset": "0x0E2E8",
   "words": 22,
   "jp": "对魔族,アンデッド戦よりも,对人間戦k得意と",
-  "en": "Better vs humans than vs demons or undead."
+  "en": "A monk-soldier better vs humans than"
  },
  {
   "offset": "0x0E316",
   "words": 5,
   "jp": "する僧兵.",
-  "en": "a monk."
+  "en": "monsters."
  },
  {
   "offset": "0x0E322",
@@ -5565,13 +5565,13 @@
   "offset": "0x0E91C",
   "words": 22,
   "jp": "得意とする.しかし防御能力が低いため,通常攻",
-  "en": "with the bow. But low defense, so a normal"
+  "en": "with the bow. But low defense makes it"
  },
  {
   "offset": "0x0E94A",
   "words": 6,
   "jp": "{?00FE}には弱い.",
-  "en": "weak, melee."
+  "en": "weak."
  },
  {
   "offset": "0x0E958",
@@ -5589,13 +5589,13 @@
   "offset": "0x0E9AC",
   "words": 22,
   "jp": "おり,間接攻{?00FE}が可能である.しかし防御能力が",
-  "en": "bow for indirect attacks. But its defense"
+  "en": "bow for indirect attacks, but its defense"
  },
  {
   "offset": "0x0E9DA",
   "words": 14,
   "jp": "低いため,通常攻{?00FE}には弱い.",
-  "en": "weak to normal attacks."
+  "en": "is low vs melee."
  },
  {
   "offset": "0x0E9F8",
@@ -5829,7 +5829,7 @@
   "offset": "0x0EF9C",
   "words": 22,
   "jp": "に襲いかかる.自然地形での移動や戦{?0110}が得意.",
-  "en": "tentacles. Good at moving in wild terrain."
+  "en": "tentacles. Good in wild terrain combat."
  },
  {
   "offset": "0x0EFCA",
@@ -5877,7 +5877,7 @@
   "offset": "0x0F0CC",
   "words": 13,
   "jp": "尾の先の針には猛毒がある.",
-  "en": "its tail sting is deadly."
+  "en": "tail poison is deadly."
  },
  {
   "offset": "0x0F0E8",
@@ -5925,13 +5925,13 @@
   "offset": "0x0F1E8",
   "words": 22,
   "jp": "に調教されている.機動性k活かした摆護戦k得",
-  "en": "for war. It excels at mobile escort combat."
+  "en": "for war. It excels at mobile support"
  },
  {
   "offset": "0x0F216",
   "words": 5,
   "jp": "意とする.",
-  "en": "It excels."
+  "en": "combat."
  },
  {
   "offset": "0x0F222",
@@ -5949,13 +5949,13 @@
   "offset": "0x0F25E",
   "words": 22,
   "jp": "御能力k持つが,やはり機動性k活かした摆護攻",
-  "en": "and defense, but it excels at mobile escort."
+  "en": "and defense, and suits mobile support"
  },
  {
   "offset": "0x0F28C",
   "words": 8,
   "jp": "{?00FE}に適している.",
-  "en": "good for escort."
+  "en": "attacks."
  },
  {
   "offset": "0x0F29E",
@@ -5997,13 +5997,13 @@
   "offset": "0x0F390",
   "words": 22,
   "jp": "れほど高くないので,機動性k活かした摆護攻{?00FE}",
-  "en": "Battle power is low, so use mobile escort."
+  "en": "Battle power is low, so use its mobility"
  },
  {
   "offset": "0x0F3BE",
   "words": 7,
   "jp": "に適している.",
-  "en": "for escort."
+  "en": "for support."
  },
  {
   "offset": "0x0F3CE",
@@ -6213,7 +6213,7 @@
   "offset": "0x0F8DA",
   "words": 7,
   "jp": "ガイコツ戦士.",
-  "en": "A skeleton."
+  "en": "Bone warrior."
  },
  {
   "offset": "0x0F8EA",
@@ -6309,13 +6309,13 @@
   "offset": "0x0FB26",
   "words": 20,
   "jp": "かしながら消化,吸收する原始生物である.",
-  "en": "a primal beast that melts and eats prey."
+  "en": "It melts, digests and absorbs prey."
  },
  {
   "offset": "0x0FB50",
   "words": 21,
   "jp": "並の攻{?00FE}は受け付けないが,火と僧侶に弱い.",
-  "en": "Shrugs off normal hits. Weak to fire."
+  "en": "Normal hits fail. Fire, priests work."
  },
  {
   "offset": "0x0FB7C",
@@ -6357,7 +6357,7 @@
   "offset": "0x0FC66",
   "words": 16,
   "jp": "め,護衛無しの行動は危険である.",
-  "en": "so going alone is risky."
+  "en": "power, so going alone is risky."
  },
  {
   "offset": "0x0FC8C",
@@ -6381,13 +6381,13 @@
   "offset": "0x0FFD8",
   "words": 22,
   "jp": "また鞋いため,力の弱い者でも簡単に报うことが",
-  "en": "It is light, so even the weak can wield it"
+  "en": "It is light, so even weak users can"
  },
  {
   "offset": "0x10006",
   "words": 4,
   "jp": "できる.",
-  "en": "able."
+  "en": "use it."
  },
  {
   "offset": "0x10010",
@@ -6519,7 +6519,7 @@
   "offset": "0x1035A",
   "words": 5,
   "jp": "剣である.",
-  "en": "a sword."
+  "en": "sword."
  },
  {
   "offset": "0x10366",
@@ -6543,7 +6543,7 @@
   "offset": "0x103F0",
   "words": 5,
   "jp": "力k持つ.",
-  "en": "has power."
+  "en": "power."
  },
  {
   "offset": "0x103FC",
@@ -6561,13 +6561,13 @@
   "offset": "0x10450",
   "words": 22,
   "jp": "魔法が付加されていない剣の中では,最高の威力",
-  "en": "The strongest of non-magic swords."
+  "en": "Of non-magic swords, it has top"
  },
  {
   "offset": "0x1047E",
   "words": 4,
   "jp": "がある.",
-  "en": "it has."
+  "en": "power."
  },
  {
   "offset": "0x10488",
@@ -6603,7 +6603,7 @@
   "offset": "0x10546",
   "words": 4,
   "jp": "魔力剣.",
-  "en": "magic."
+  "en": "sword."
  },
  {
   "offset": "0x10550",
@@ -6651,7 +6651,7 @@
   "offset": "0x10674",
   "words": 4,
   "jp": "われる.",
-  "en": "so."
+  "en": "say."
  },
  {
   "offset": "0x1067E",
@@ -6669,7 +6669,7 @@
   "offset": "0x106C6",
   "words": 22,
   "jp": "神の加護があるといわれ,运說の英雄が愛用した",
-  "en": "wielder gains divine grace, used by a legend"
+  "en": "wielder gains grace, used by legendary"
  },
  {
   "offset": "0x106F4",
@@ -6747,7 +6747,7 @@
   "offset": "0x108E6",
   "words": 20,
   "jp": "リスの加護k受け,暗黒の魔剣と相对する.",
-  "en": "cost of his life. It foils dark swords."
+  "en": "cost of his life. It opposes dark magic."
  },
  {
   "offset": "0x10910",
@@ -6813,7 +6813,7 @@
   "offset": "0x10A82",
   "words": 22,
   "jp": "な芹頭から生まれる破壊力はすさまじいが,他の",
-  "en": "head gives fearsome power, yet it is far"
+  "en": "head gives fearsome power, yet it is"
  },
  {
   "offset": "0x10AB0",
@@ -6891,7 +6891,7 @@
   "offset": "0x10C90",
   "words": 22,
   "jp": "ばれている.武器としては今一つだが,兄貴k仲",
-  "en": "As a weapon it is so-so, but they say it"
+  "en": "As a weapon it is mediocre, but they say it"
  },
  {
   "offset": "0x10CBE",
@@ -6909,13 +6909,13 @@
   "offset": "0x10D0E",
   "words": 22,
   "jp": "武器.しかし重量があるため,その威力はあなど",
-  "en": "weight makes its power not to be ignored."
+  "en": "weapon. Yet its weight gives it real power."
  },
  {
   "offset": "0x10D3C",
   "words": 4,
   "jp": "れない.",
-  "en": "cannot."
+  "en": "power."
  },
  {
   "offset": "0x10D46",
@@ -6933,7 +6933,7 @@
   "offset": "0x10D92",
   "words": 22,
   "jp": "けたメイスの一種.威力もあり,また攻{?00FE}もかわ",
-  "en": "haft. It has power and dodges hits, yet is"
+  "en": "haft. Powerful and hard to dodge, but"
  },
  {
   "offset": "0x10DC0",
@@ -6957,13 +6957,13 @@
   "offset": "0x10E3A",
   "words": 22,
   "jp": "一種で,相手k殴って攻{?00FE}する.威力が六きいわ",
-  "en": "strike foes with it. Its power is great, but"
+  "en": "strike foes with it. Its power is great,"
  },
  {
   "offset": "0x10E68",
   "words": 15,
   "jp": "りに,报いが非常に簡単である.",
-  "en": "but it is very easy to use."
+  "en": "yet it is very easy to use."
  },
  {
   "offset": "0x10E88",
@@ -7035,7 +7035,7 @@
   "offset": "0x1104C",
   "words": 21,
   "jp": "またトールの加護が得られるとも运えられる.",
-  "en": "It may grant Thor blessing too."
+  "en": "It may grant Thor's blessing too."
  },
  {
   "offset": "0x11078",
@@ -7053,7 +7053,7 @@
   "offset": "0x110C4",
   "words": 22,
   "jp": "る,非常に長い騎槍.乗り物のスピードk利用し",
-  "en": "their mounts. Using the mount speed, its"
+  "en": "their mounts. Using the mount's speed, its"
  },
  {
   "offset": "0x110F2",
@@ -7107,7 +7107,7 @@
   "offset": "0x11246",
   "words": 20,
   "jp": "尽くし,持ち主に生命力k与える力k持つ.",
-  "en": "a pierced foe life to feed its wielder."
+  "en": "a foe's life to feed its wielder."
  },
  {
   "offset": "0x11270",
@@ -7143,7 +7143,7 @@
   "offset": "0x11342",
   "words": 22,
   "jp": "运說の竜騎士が用いたとされる騎槍.鞋く寸夫な",
-  "en": "A lance said used by a legend dragon knight."
+  "en": "A lance of a legendary dragon knight."
  },
  {
   "offset": "0x11370",
@@ -7155,7 +7155,7 @@
   "offset": "0x1139E",
   "words": 16,
   "jp": "加護k受けているとも运えられる.",
-  "en": "hold a dragon spirit blessing."
+  "en": "hold a wind spirit blessing."
  },
  {
   "offset": "0x113C0",
@@ -7227,7 +7227,7 @@
   "offset": "0x11592",
   "words": 22,
   "jp": "は無いが,術者の{?02CA}神集中k助ける役目k持つ.",
-  "en": "the caster focus."
+  "en": "the caster's focus."
  },
  {
   "offset": "0x115C0",
@@ -7245,7 +7245,7 @@
   "offset": "0x1160E",
   "words": 22,
   "jp": "けられており,術者の魔法效果k增幅する事がで",
-  "en": "amplifying the caster magic effect."
+  "en": "amplifying the caster's magic effect."
  },
  {
   "offset": "0x11644",
@@ -7311,7 +7311,7 @@
   "offset": "0x117CC",
   "words": 22,
   "jp": "k高めるだけでなく,癌しの魔法k{?029E}る力k与え",
-  "en": "holder healing and grants power over heal"
+  "en": "holder's healing and grants power over heal"
  },
  {
   "offset": "0x117FA",
@@ -7329,7 +7329,7 @@
   "offset": "0x11844",
   "words": 22,
   "jp": "运說の六魔術師が愛用したとされる杖.術者の魔",
-  "en": "A staff said used by a legend archmage. It"
+  "en": "A staff said used by a legendary archmage."
  },
  {
   "offset": "0x11872",
@@ -7407,13 +7407,13 @@
   "offset": "0x11A6A",
   "words": 22,
   "jp": "み,开距離もあるが,报いこなすにはかなりの訓",
-  "en": "piercing, with range too, but it needs much"
+  "en": "piercing, with range too, but it takes much"
  },
  {
   "offset": "0x11A98",
   "words": 8,
   "jp": "練k必要とする.",
-  "en": "needs training."
+  "en": "training."
  },
  {
   "offset": "0x11AAA",
@@ -7515,7 +7515,7 @@
   "offset": "0x11D64",
   "words": 5,
   "jp": "に欠ける.",
-  "en": "lacks it."
+  "en": "is poor."
  },
  {
   "offset": "0x11D70",
@@ -7569,7 +7569,7 @@
   "offset": "0x11EC2",
   "words": 22,
   "jp": "鎧.著用者自身のオーラk强化し,その身k護る",
-  "en": "It boosts the wearer aura to guard them,"
+  "en": "It boosts the wearer's aura to guard them,"
  },
  {
   "offset": "0x11EF0",
@@ -7605,13 +7605,13 @@
   "offset": "0x11FBA",
   "words": 12,
   "jp": "未知の文明からの贈り物.",
-  "en": "A gift from afar."
+  "en": "Gift from unknown civ."
  },
  {
   "offset": "0x11FD4",
   "words": 22,
   "jp": "六地母神が,その信者たちに授けたとされる聖な",
-  "en": "Holy armor said given by the earth mother to"
+  "en": "Holy armor said given by Earth Mother to"
  },
  {
   "offset": "0x12002",
@@ -7737,13 +7737,13 @@
   "offset": "0x12346",
   "words": 22,
   "jp": "それなりの强度も持っている.そのため力の弱い",
-  "en": "armor, and fairly strong. So even a weak"
+  "en": "armor, and fairly strong. So even weak"
  },
  {
   "offset": "0x12374",
   "words": 9,
   "jp": "者でも著用できる.",
-  "en": "all can wear it."
+  "en": "weak can wear it."
  },
  {
   "offset": "0x12388",
@@ -7803,13 +7803,13 @@
   "offset": "0x124E0",
   "words": 22,
   "jp": "きない.ただし何も著用しないよりは,いくらか",
-  "en": "Still, it is a little better than wearing"
+  "en": "better than wearing nothing."
  },
  {
   "offset": "0x1250E",
   "words": 6,
   "jp": "ましである.",
-  "en": "is better."
+  "en": "better."
  },
  {
   "offset": "0x12520",
@@ -7845,13 +7845,13 @@
   "offset": "0x125F2",
   "words": 22,
   "jp": "增す魔法の力带.これk著用し,トールに認めら",
-  "en": "raises power. One who wears it and is owned"
+  "en": "raises power. One approved by Thor"
  },
  {
   "offset": "0x12620",
   "words": 18,
   "jp": "れた者は,雷神の力k得られるという.",
-  "en": "by Thor gains the thunder god power."
+  "en": "gains thunder god power."
  },
  {
   "offset": "0x12646",
@@ -7899,13 +7899,13 @@
   "offset": "0x12742",
   "words": 22,
   "jp": "衝{?00FE}kやわらげるだけでなく,{?0174}の魔法に对して",
-  "en": "hit, and against enemy magic it"
+  "en": "hit, and it also resists enemy"
  },
  {
   "offset": "0x12770",
   "words": 7,
   "jp": "も耐性k持つ.",
-  "en": "resists too."
+  "en": "magic."
  },
  {
   "offset": "0x12780",
@@ -7941,13 +7941,13 @@
   "offset": "0x12838",
   "words": 22,
   "jp": "贄の血がしみ込み,不気味な色になっている.ま",
-  "en": "in sacrifice blood, an eerie color, and it"
+  "en": "in sacrificial blood, an eerie color, and"
  },
  {
   "offset": "0x12866",
   "words": 22,
   "jp": "た激しい悪臭も発するが,これ無しにはカオスの",
-  "en": "a foul stench, but without it the Chaos"
+  "en": "gives a foul stench. Without it, the Chaos"
  },
  {
   "offset": "0x12894",
@@ -7983,13 +7983,13 @@
   "offset": "0x12962",
   "words": 22,
   "jp": "脚部k守るために装備する,革kなめして作られ",
-  "en": "Tanned leather greaves worn to guard the"
+  "en": "Tanned leather shin guards made to protect"
  },
  {
   "offset": "0x12990",
   "words": 6,
   "jp": "たすねあて.",
-  "en": "shin guards."
+  "en": "the legs."
  },
  {
   "offset": "0x1299E",
@@ -8037,7 +8037,7 @@
   "offset": "0x12AAA",
   "words": 5,
   "jp": "ができる.",
-  "en": "is able."
+  "en": "flying."
  },
  {
   "offset": "0x12AB6",
@@ -8055,7 +8055,7 @@
   "offset": "0x12AF6",
   "words": 22,
   "jp": "持つ者の兵士たちに,神の加護が与えられる.そ",
-  "en": "It grants god grace to the holder soldiers,"
+  "en": "It grants god's grace to holder soldiers,"
  },
  {
   "offset": "0x12B24",
@@ -8139,7 +8139,7 @@
   "offset": "0x12D2A",
   "words": 18,
   "jp": "また魔術師の魔力k高める效果もある.",
-  "en": "It also raises a mage power."
+  "en": "It also raises a mage's power."
  },
  {
   "offset": "0x12D50",
@@ -8163,7 +8163,7 @@
   "offset": "0x12DDA",
   "words": 7,
   "jp": "もあるという.",
-  "en": "so they say."
+  "en": "they say."
  },
  {
   "offset": "0x12DEA",
@@ -8211,7 +8211,7 @@
   "offset": "0x12F02",
   "words": 7,
   "jp": "める力k持つ.",
-  "en": "has power."
+  "en": "magic."
  },
  {
   "offset": "0x12F12",
@@ -8265,7 +8265,7 @@
   "offset": "0x1304C",
   "words": 7,
   "jp": "える力k持つ.",
-  "en": "grants power."
+  "en": "fatigue."
  },
  {
   "offset": "0x1305C",
@@ -8319,13 +8319,13 @@
   "offset": "0x131B6",
   "words": 13,
   "jp": "の能力k高める效力も持つ.",
-  "en": "it raises their stats too."
+  "en": "and raises stats too."
  },
  {
   "offset": "0x131D2",
   "words": 22,
   "jp": "ドラゴンロードがその頭上にいだいたとされる运",
-  "en": "The legend crown of the Dragon Lord."
+  "en": "The legendary crown of the Dragon Lord."
  },
  {
   "offset": "0x13200",
@@ -8349,13 +8349,13 @@
   "offset": "0x1328A",
   "words": 22,
   "jp": "{?0301}のルーンが刻まれた,银製のヘアバンド.身に",
-  "en": "A silver hairband carved with a dragon rune."
+  "en": "A silver hairband carved with a wind rune."
  },
  {
   "offset": "0x132B8",
   "words": 22,
   "jp": "つけた者は,武器k鞋々と{?029E}れるようになるとい",
-  "en": "Worn, you can wield weapons with ease."
+  "en": "Worn, it lets one wield weapons with ease,"
  },
  {
   "offset": "0x132E6",
@@ -8367,7 +8367,7 @@
   "offset": "0x132F4",
   "words": 16,
   "jp": "攻{?00FE}消費行動量15鞋减（佣兵含）",
-  "en": "Cost -15 (mercs too)."
+  "en": "Cost -15% (mercs too)."
  },
  {
   "offset": "0x13316",
@@ -8379,19 +8379,19 @@
   "offset": "0x13344",
   "words": 22,
   "jp": "解明されておらず,別名{?0201}神秘の石{?0202}とも呼ばれ",
-  "en": "are still unread, so it is called the"
+  "en": "remain unread, and it is called Mystery"
  },
  {
   "offset": "0x13372",
   "words": 4,
   "jp": "ている.",
-  "en": "it is."
+  "en": "Stone."
  },
  {
   "offset": "0x1337C",
   "words": 14,
   "jp": "その效力は謎に包まれている.",
-  "en": "The 'Mystery Stone'."
+  "en": "Its effect remains unknown."
  },
  {
   "offset": "0x1339A",
@@ -8403,7 +8403,7 @@
   "offset": "0x133C8",
   "words": 20,
   "jp": "の魔力k增幅させる,不思議な效力がある.",
-  "en": "strange power to boost the holder magic."
+  "en": "power to boost the holder's magic."
  },
  {
   "offset": "0x133F2",
@@ -8415,7 +8415,7 @@
   "offset": "0x13420",
   "words": 22,
   "jp": "k重宝するという.MP50％上昇",
-  "en": "orb, they say. MP +50%"
+  "en": "this orb. MP +50%"
  },
  {
   "offset": "0x1344E",
@@ -8433,13 +8433,13 @@
   "offset": "0x134A6",
   "words": 22,
   "jp": "兵士たちの志気k高め,强力な部隊kつくること",
-  "en": "It lifts morale to form a strong unit."
+  "en": "It boosts morale, creating a strong"
  },
  {
   "offset": "0x134D4",
   "words": 5,
   "jp": "ができる.",
-  "en": "is able."
+  "en": "unit."
  },
  {
   "offset": "0x134E0",
@@ -8457,7 +8457,7 @@
   "offset": "0x1353C",
   "words": 19,
   "jp": "增幅させるだけでなく,类の耐性もある.",
-  "en": "holder magic and resists fire too."
+  "en": "holder's magic and resists fire too."
  },
  {
   "offset": "0x13564",
@@ -8469,13 +8469,13 @@
   "offset": "0x13582",
   "words": 22,
   "jp": "天上界の聖王が,善行kなす者に与えるという神",
-  "en": "A mystic charm said from the holy king of"
+  "en": "A mystic charm said to be given by"
  },
  {
   "offset": "0x135B0",
   "words": 22,
   "jp": "秘的な護符.これk持つ者に指揮された部隊は,",
-  "en": "heaven to the good. A unit led by its holder"
+  "en": "heaven's holy king to the good. A unit"
  },
  {
   "offset": "0x135DE",
@@ -8493,25 +8493,25 @@
   "offset": "0x13614",
   "words": 22,
   "jp": "六天使が开び立つ時に落とした,純白の美しい羽",
-  "en": "A charm of white feathers dropped by an"
+  "en": "A charm made from the pure white feathers"
  },
  {
   "offset": "0x13642",
   "words": 22,
   "jp": "で造られたお守り.並外れた耐魔法效果k持つた",
-  "en": "archangel in flight. Its huge magic defense"
+  "en": "dropped as six angels flew. Its huge magic"
  },
  {
   "offset": "0x13670",
   "words": 22,
   "jp": "め,最高の護符とも呼ばれる.また僧侶達の間で",
-  "en": "makes it the best charm. Among priests"
+  "en": "defense makes it the best charm. Priests"
  },
  {
   "offset": "0x1369E",
   "words": 20,
   "jp": "は,六天使の加護があると信じられている.",
-  "en": "it is believed to hold archangel grace."
+  "en": "believe six angels guard it."
  },
  {
   "offset": "0x136C8",
@@ -8523,13 +8523,13 @@
   "offset": "0x136F6",
   "words": 22,
   "jp": "で高め,部隊k{?0174}の魔法から護る.また女神の力",
-  "en": "maxes magic and guards the unit from enemy"
+  "en": "maximizes magic and guards the unit from"
  },
  {
   "offset": "0x13724",
   "words": 22,
   "jp": "の一部k具現化すると,賢者たちは运えている.",
-  "en": "magic. Sages say it holds part of her power."
+  "en": "enemy magic. Sages say it holds part of her"
  },
  {
   "offset": "0x13752",
@@ -8577,7 +8577,7 @@
   "offset": "0x13A46",
   "words": 14,
   "jp": "優れるが,単体しか租えない.",
-  "en": "are good, but hits one."
+  "en": "are good, but hits only one."
  },
  {
   "offset": "0x13A64",
@@ -8601,7 +8601,7 @@
   "offset": "0x13ADE",
   "words": 7,
   "jp": "発範{?00F6}が狭い.",
-  "en": "small area."
+  "en": "area is small."
  },
  {
   "offset": "0x13AEE",
@@ -8613,13 +8613,13 @@
   "offset": "0x13B12",
   "words": 22,
   "jp": "指先から强力な冷気k放ち,{?0174}部隊k凍てつかせ",
-  "en": "Fires strong cold from the fingertip to"
+  "en": "Freezes a troop with finger-borne cold."
  },
  {
   "offset": "0x13B46",
   "words": 8,
   "jp": "初级魔術の1つ.",
-  "en": "a basic spell."
+  "en": "A basic spell."
  },
  {
   "offset": "0x13B58",
@@ -8643,7 +8643,7 @@
   "offset": "0x13BCE",
   "words": 17,
   "jp": "の消費が少ないが,射程距離が短い.",
-  "en": "low cost, but short range."
+  "en": "cost is low, but short range."
  },
  {
   "offset": "0x13BF2",
@@ -8655,13 +8655,13 @@
   "offset": "0x13C16",
   "words": 22,
   "jp": "気流と地{?0408}とk{?029E}ることにより,{?0174}部隊の頭上に",
-  "en": "By ruling air and earth, it hits above the"
+  "en": "By ruling air and earth, it drops bolts"
  },
  {
   "offset": "0x13C44",
   "words": 6,
   "jp": "雷k落とす.",
-  "en": "drops bolts."
+  "en": "on foes."
  },
  {
   "offset": "0x13C52",
@@ -8679,13 +8679,13 @@
   "offset": "0x13C8C",
   "words": 22,
   "jp": "目標上空に雷雲k呼び寄せ,稲妻の風k卷き起こ",
-  "en": "Calls thunderclouds above the target and"
+  "en": "Calls thunderclouds and stirs a"
  },
  {
   "offset": "0x13CBA",
   "words": 7,
   "jp": "す强力な呪文.",
-  "en": "strong spell."
+  "en": "storm."
  },
  {
   "offset": "0x13CCA",
@@ -8703,13 +8703,13 @@
   "offset": "0x13D0E",
   "words": 22,
   "jp": "{?0301}の{?02CA}霊k使役し,かまいたちk発生させて,{?0174}",
-  "en": "Commands wind spirits to make cutting winds"
+  "en": "Commands wind spirits, raising blades"
  },
  {
   "offset": "0x13D3C",
   "words": 22,
   "jp": "k切り刻む.並外れた射程と高い威力k誇るが,",
-  "en": "cut foes. Great range and power, but it"
+  "en": "of wind to cut foes. Great range and power,"
  },
  {
   "offset": "0x13D6A",
@@ -8811,7 +8811,7 @@
   "offset": "0x1400A",
   "words": 8,
   "jp": "强烈な力k持つ.",
-  "en": "strong power."
+  "en": "is strong."
  },
  {
   "offset": "0x1401C",
@@ -8823,19 +8823,19 @@
   "offset": "0x14040",
   "words": 22,
   "jp": "術者の持つホーリーシンボルから,聖なる光k発",
-  "en": "Holy light shines from the caster holy"
+  "en": "Holy light shines from the caster's holy"
  },
  {
   "offset": "0x1406E",
   "words": 22,
   "jp": "する呪文.その光にふれたアンデッドは,たちど",
-  "en": "symbol. Undead touched by it die at once."
+  "en": "symbol. Undead touched by it are destroyed"
  },
  {
   "offset": "0x1409C",
   "words": 8,
   "jp": "ころに消诚する.",
-  "en": "they vanish."
+  "en": "at once."
  },
  {
   "offset": "0x140AE",
@@ -8865,7 +8865,7 @@
   "offset": "0x1413C",
   "words": 22,
   "jp": "ルギー弹k発生させ,それk目標に放つ.射程が",
-  "en": "forms in the caster hand and fires at the"
+  "en": "forms in the caster's hand and fires at the"
  },
  {
   "offset": "0x1416A",
@@ -8907,7 +8907,7 @@
   "offset": "0x14264",
   "words": 22,
   "jp": "月の女神の力k借りて,{?0174}に混乱k起こさせる.",
-  "en": "Borrows the moon goddess power to confuse"
+  "en": "Borrows the moon goddess's power to confuse"
  },
  {
   "offset": "0x14292",
@@ -9105,13 +9105,13 @@
   "offset": "0x147A4",
   "words": 22,
   "jp": "させる呪文.支摆魔法として,非常にポピュラー",
-  "en": "power. A very popular support spell."
+  "en": "power, a very popular support"
  },
  {
   "offset": "0x147D2",
   "words": 7,
   "jp": "なものである.",
-  "en": "it is so."
+  "en": "spell."
  },
  {
   "offset": "0x147E2",
@@ -9129,13 +9129,13 @@
   "offset": "0x1482C",
   "words": 22,
   "jp": "呪文.アタック1以上の力k持ち,少々の{?0174}でも",
-  "en": "1+ attack, even a weak foe is"
+  "en": "stronger than Attack 1, making weak"
  },
  {
   "offset": "0x1485A",
   "words": 15,
   "jp": "やすやすと倒す事が可能になる.",
-  "en": "easily downed."
+  "en": "foes easy to defeat."
  },
  {
   "offset": "0x1487A",
@@ -9195,19 +9195,19 @@
   "offset": "0x149E8",
   "words": 22,
   "jp": "六地母神の力k借り,癌しの力k生み出す呪文.",
-  "en": "Borrows the earth mother power to heal."
+  "en": "Borrows Earth Mother's power to heal."
  },
  {
   "offset": "0x14A16",
   "words": 22,
   "jp": "僧たちの{?025A}本的な力の1つで,多少の傷なら,充",
-  "en": "A basic priest power. It can fully heal a"
+  "en": "A basic priest power. It can heal minor"
  },
  {
   "offset": "0x14A44",
   "words": 8,
   "jp": "分に回復できる.",
-  "en": "heals well."
+  "en": "wounds well."
  },
  {
   "offset": "0x14A56",
@@ -9219,13 +9219,13 @@
   "offset": "0x14A84",
   "words": 22,
   "jp": "高位の僧たちが使う呪文で,六地母神の持つ强力",
-  "en": "A high-priest spell of earth mother great"
+  "en": "A high-priest spell causing Earth Mother's"
  },
  {
   "offset": "0x14AB2",
   "words": 22,
   "jp": "な癌しの奇跡k起こす.そのためどんな傷でもた",
-  "en": "healing miracle. Any wound is instantly"
+  "en": "great healing miracle. Any wound is"
  },
  {
   "offset": "0x14AE0",
@@ -9243,7 +9243,7 @@
   "offset": "0x14B26",
   "words": 22,
   "jp": "光の女神の力k借り,癌しの力k生み出す.通常",
-  "en": "Borrows the light goddess power to heal."
+  "en": "Borrows the light goddess's power to heal."
  },
  {
   "offset": "0x14B54",
@@ -9267,13 +9267,13 @@
   "offset": "0x14BC4",
   "words": 22,
   "jp": "光の女神の力k借り,强力な癌しの奇跡k起こす",
-  "en": "Borrows the light goddess power for a strong"
+  "en": "Borrows the light goddess's power for a"
  },
  {
   "offset": "0x14BF2",
   "words": 22,
   "jp": "呪文.魔法射程距離が非常に長く,また1部隊全",
-  "en": "heal miracle. Very long range, and it fully"
+  "en": "strong heal miracle. Very long range, and"
  },
  {
   "offset": "0x14C20",
@@ -9339,13 +9339,13 @@
   "offset": "0x14DB8",
   "words": 22,
   "jp": "文で,目標部隊k一瞬のうちに他の場所へ転送す",
-  "en": "instantly teleports a target troop away."
+  "en": "instantly teleports a target troop"
  },
  {
   "offset": "0x14DE6",
   "words": 6,
   "jp": "る力k持つ.",
-  "en": "has power."
+  "en": "elsewhere."
  },
  {
   "offset": "0x14DF4",
@@ -9363,7 +9363,7 @@
   "offset": "0x14E3E",
   "words": 10,
   "jp": "使用不能にする呪文.",
-  "en": "summon there."
+  "en": "summoning there."
  },
  {
   "offset": "0x14E54",
@@ -9393,7 +9393,7 @@
   "offset": "0x14EE4",
   "words": 8,
   "jp": "古代魔法の1つ.",
-  "en": "an old spell."
+  "en": "An old spell."
  },
  {
   "offset": "0x14EF6",
@@ -9441,7 +9441,7 @@
   "offset": "0x1501C",
   "words": 5,
   "jp": "目k持つ.",
-  "en": "has eyes."
+  "en": "Her role."
  },
  {
   "offset": "0x15028",
@@ -9483,7 +9483,7 @@
   "offset": "0x1510E",
   "words": 22,
   "jp": "張ることはなく,素早い動きで獲物k捕らえ,强",
-  "en": "but catches prey with quick moves and a"
+  "en": "webs, but catches prey with quick moves"
  },
  {
   "offset": "0x1513C",
@@ -9531,7 +9531,7 @@
   "offset": "0x15226",
   "words": 22,
   "jp": "地k取り卷く程の六きさがあると言われている.",
-  "en": "the world. Said large enough to ring the"
+  "en": "the world. Said large enough to circle the"
  },
  {
   "offset": "0x15254",
@@ -9555,7 +9555,7 @@
   "offset": "0x152C2",
   "words": 22,
   "jp": "い少女の妖{?02CA}.魔法k使った摆護が得意だが,素",
-  "en": "wings. Good at magic escort, but it can also"
+  "en": "wings. Good at magic support, but it can"
  },
  {
   "offset": "0x152F0",
@@ -9603,13 +9603,13 @@
   "offset": "0x153DC",
   "words": 22,
   "jp": "事から,恋愛k司る神とされる.またこの女神の",
-  "en": "love songs, so she rules love. Gold is said"
+  "en": "love songs, so she rules love. It is said"
  },
  {
   "offset": "0x1540A",
   "words": 18,
   "jp": "滨から黄金が生まれたという說がある.",
-  "en": "was born from her tears."
+  "en": "gold came from her tears."
  },
  {
   "offset": "0x15430",
@@ -9681,7 +9681,7 @@
   "offset": "0x155C0",
   "words": 7,
   "jp": "込むとされる.",
-  "en": "they say."
+  "en": "the gods."
  },
  {
   "offset": "0x155D0",
@@ -9729,7 +9729,7 @@
   "offset": "0x156D4",
   "words": 13,
   "jp": "が,冠婚葬祭の清めも行う.",
-  "en": "but blesses life rites."
+  "en": "and purifies life rites."
  },
  {
   "offset": "0x156F0",
@@ -9795,13 +9795,13 @@
   "offset": "0x15856",
   "words": 22,
   "jp": "神聖な光で輝いているという.高い知能k有し,",
-  "en": "It glows with holy light, high intellect,"
+  "en": "It glows with holy light, has high"
  },
  {
   "offset": "0x15884",
   "words": 15,
   "jp": "强力な魔法k{?029E}ることも出来る.",
-  "en": "and can wield strong magic."
+  "en": "intellect and strong magic."
  },
  {
   "offset": "0x158A4",
@@ -9819,13 +9819,13 @@
   "offset": "0x158EA",
   "words": 22,
   "jp": "本来の力は発揮できないが,人間が制御できる限",
-  "en": "cannot show its true power, but has"
+  "en": "cannot show true power, but holds the"
  },
  {
   "offset": "0x15918",
   "words": 11,
   "jp": "界の强さk持っている.",
-  "en": "humanity's limit."
+  "en": "human limit."
  },
  {
   "offset": "0x15930",
