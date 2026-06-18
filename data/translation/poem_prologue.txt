@@ -1,25 +1,24 @@
 # Prologue poem (title attract loop), IMG.DAT asset 12, image 0 (768x252, 8bpp).
 # Three columns separated by a line containing only "---", matching the
 # original Japanese three-column layout. Blank lines are kept as spacing.
-The crimson sister,
+The crimson elder sister,
 a merciless queen,
-looks down in majesty.
-The azure sister,
+looks down upon us in majesty.
+The azure younger sister,
 a merciless warrior,
-looks down coldly.
-The skyfaring ship,
-the reaper's wings,
+looks coldly down upon us.
+The skyfaring ship, reaper's wings,
 carries our souls to hell.
 We, the oppressed, look up
 and glare at heaven in wrath.
-The crimson and azure sisters,
-side by side in the night sky,
+Crimson elder, azure younger,
+stand side by side in this night sky;
+we find sorrow's color.
 ---
-find the hue of sorrow.
-We cry, grieve, rage, laugh;
-at last we clench our fists,
-at last we nock our arrows,
-and rise against
+We lament, grieve, rage, laugh.
+At last we clench our fists;
+at last we nock our arrows.
+We shall stand against
 the merciless sisters;
 that alone is the way to live.
 Our wrath shall burn
@@ -28,17 +27,16 @@ our sorrow shall freeze
 this sky and all the seas.
 At last the merciless queen
 is driven from this land,
+and sets forth on a journey.
 ---
-cast into exile.
-The merciless younger sister
-sleeps quietly, waiting
-for her elder sister.
+And the merciless younger sister
+sleeps quietly,
+waiting for her elder sister.
 Leaving words of hatred,
-the vanished queen
-hides herself away
+the queen hides herself
 in a frozen world of stars.
 After more than two centuries,
 she will return to this land
 and sow seeds of misfortune,
-wielding the sword of madness
-to seize all the world.
+brandishing the sword of madness
+to seize all of this world.
