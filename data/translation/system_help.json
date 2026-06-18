@@ -129,13 +129,13 @@
   "offset": "0x15F44",
   "words": 21,
   "jp": "方向キーの左右で,メッセージの表示速度k变",
-  "en": "Press left or right to change the"
+  "en": "Press left or right to change message"
  },
  {
   "offset": "0x15F70",
   "words": 6,
   "jp": "更できます.",
-  "en": "the speed."
+  "en": "speed."
  },
  {
   "offset": "0x15F7E",
@@ -345,7 +345,7 @@
   "offset": "0x16516",
   "words": 22,
   "jp": "できる魔獸は,1人1体までです.また魔獸は佣",
-  "en": "powers, but only one per person. The"
+  "en": "powers, but only one per person."
  },
  {
   "offset": "0x16544",
@@ -549,7 +549,7 @@
   "offset": "0x16A80",
   "words": 22,
   "jp": "常に指揮官k{?00F6}むように移動し,自分からは一切",
-  "en": "Always moves to surround the commander"
+  "en": "Always moves to surround commander,"
  },
  {
   "offset": "0x16AAE",
@@ -651,13 +651,13 @@
   "offset": "0x16D82",
   "words": 22,
   "jp": "ますが,最低3～最六6までの範{?00F6}k超えること",
-  "en": "count shifts too, within a 3 to 6 range."
+  "en": "count shifts too, but never outside"
  },
  {
   "offset": "0x16DB0",
   "words": 7,
   "jp": "はありません.",
-  "en": "within range."
+  "en": "3 to 6."
  },
  {
   "offset": "0x16DC0",
@@ -945,7 +945,7 @@
   "offset": "0x175CE",
   "words": 22,
   "jp": "属性によって,装備できるカテゴリーが決まって",
-  "en": "a commander's type sets what they"
+  "en": "commander type sets what they"
  },
  {
   "offset": "0x175FC",
