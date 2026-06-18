@@ -262,38 +262,45 @@ QR generation package. A non-default `--qr-url` requires Python's optional
 preview's vertical x2 display scaling each module appears as a square `2x2`
 screen block.
 
-## Scanline-packet container (universal image layout)
+## Type-8 Scanline-Packet Images
 
-Every image asset is a stream of fixed `0x800`-byte (2048) **scanline packets**.
-A packet is `0x20` bytes of header followed by `0x7E0` (2016) bytes of pixel
-data, so an asset's size is always an exact multiple of 2048. The gap-bitmap
-"32-byte gap" documented above is exactly this `0x20` per-scanline header seen
-from the pixel stream's point of view (`2016 + 32 = 2048`).
+The editable images currently supported by `scripts/lang5_imgdat.py` are
+`u16[3] == 8` indexed scanline packets. A type-8 packet is fixed-size `0x800`
+bytes (2048): a `0x20`-byte header followed by `0x7E0` (2016) bytes of 8bpp
+pixel data. The gap-bitmap "32-byte gap" documented above is exactly this
+`0x20` per-scanline header seen from the pixel stream's point of view
+(`2016 + 32 = 2048`).
+
+Other blocks in the same assets can also start with magic `0x0160`, but are
+not decoded by the type-8 image codec unless they have `u16[3] == 8` and
+`u16[13] == 0x800`.
 
 Packet header (16-bit little-endian words; offsets relative to the packet):
 
 | Word | Byte | Meaning |
 | ---: | ---: | --- |
 | `u16[0]` | `0x00` | magic `0x0160` |
-| `u16[3]` | `0x06` | bit depth (`8` = 8bpp indexed) |
+| `u16[3]` | `0x06` | block type/depth (`8` = supported 8bpp indexed image scanline) |
 | `u16[10]` | `0x14` | image width in 16-bit VRAM words; **width_px = u16[10] * 2** |
 | `u16[11]` | `0x16` | block_rows (rows of `width_px` that fill one `0x4000` block) |
-| `u16[13]` | `0x1a` | packet stride, always `0x800` (2048) |
+| `u16[13]` | `0x1a` | packet stride, `0x800` (2048) for decoded type-8 images |
 
-An **image** is a run of consecutive packets that share the same width. A single
-asset holds several images back to back (e.g. a low-res preview followed by the
-full-size graphic). The runs are separated by short non-packet gaps that hold
-the 256-entry RGB555 CLUT for the preceding image(s). To decode an image:
+An **image** is a run of consecutive type-8 packets that share the same width.
+A single asset can hold several images back to back (e.g. a menu background
+followed by the full-size graphic). The runs are separated by non-image blocks
+that can hold the 256-entry RGB555 CLUT for the preceding image(s). To decode an
+image:
 concatenate the `0x7E0` data bodies of its packets, then reshape the result to
 `width_px` (each packet body spans ~2.6 logical rows, so rows wrap across
 packets — this is why the gap-bitmap gap lands at a different `x` on each row).
 
-Observed image inventory (width x height), from
-`scripts/lang5_imgdat.py dump-all`:
+Observed decoded type-8 image inventory (width x height), from
+`scripts/lang5_imgdat.py dump-all` and no-edit encode round-trip checks:
 
 | Asset | Images |
 | ---: | --- |
-| 0 | a set of small assets (icon/sprite tiles, 112x144 / 168x96); palette unsure |
+| 0 | 112x144, 168x96, 112x144, 168x96, 112x144, 168x96 |
+| 1-6 | no decoded type-8 image groups; these assets use unsupported type-7 blocks |
 | 7 | 3x 184x87 |
 | 8 | 3x 368x215 (character portraits - e.g. the blue-haired shop maid) |
 | 9 | 3x 224x72 |
@@ -327,6 +334,7 @@ are the block's VRAM destination X/Y. Observed types:
 | `u16[3]` | stride `u16[13]` | meaning |
 | ---: | ---: | --- |
 | 8 | 2048 | 8bpp indexed image scanline (the images above) |
+| 7 | 1792 | Unsupported indexed/sprite-like blocks used by assets 1-6 |
 | 4 | 1024 | 4bpp indexed block |
 | 1 / 2 / 3 | — | **CLUT block** (`u16[10]` = 256 colours, `u16[11]` = palette count) |
 
@@ -344,7 +352,8 @@ byte-exact credits build.
 
 - A few header words are still unlabelled (`u16[6]` ~0x1f00 range, likely a
   VRAM/CLUT reference; the exact per-image height field).
-- Assets 1-6 use a different (non-`0x0160`) layout and are not decoded yet.
+- Assets 1-6 use `0x0160` headers with `u16[3] == 7` and stride `0x700`; this
+  layout is not decoded yet.
 - The small `type=8` blocks uploaded to VRAM `(640, 256)` (the asset 10/11/13
   "previews") still decode as noise as plain 8bpp - probably a different pixel
   packing or a scratch/effect buffer rather than a displayable image.

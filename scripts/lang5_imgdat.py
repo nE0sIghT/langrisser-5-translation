@@ -6,8 +6,9 @@ IMG.DAT is handled in two layers:
 * a generic offset-table archive with same-size asset replacement;
 * image codecs for known asset payload layouts.
 
-The currently verified image codec is an 8bpp indexed bitmap layout with
-25-row blocks and 32-byte row gaps. The title-screen asset uses this layout.
+The verified editable payload is the type-8 8bpp indexed scanline-packet
+layout used by the title screens, the prologue poem and several other images.
+Unsupported packet types are listed by `inspect`/`list` but are not decoded.
 """
 from __future__ import annotations
 
@@ -571,10 +572,11 @@ def read_palette(asset: bytes, profile: GapBitmapProfile) -> list[tuple[int, int
     return [rgb555_to_rgb888(word) for word in words]
 
 
-# --- Universal scanline-packet container (see docs/IMG_DAT_FORMAT.md) ---
-# Every image asset is a stream of 2048-byte packets: a 0x20 header (magic
-# 0x0160) followed by 2016 bytes of 8bpp pixel data. width_px = u16[10] * 2.
-# Consecutive same-width packets form one image; CLUTs live in the gaps.
+# --- Type-8 scanline-packet images (see docs/IMG_DAT_FORMAT.md) ---
+# Decoded type-8 images are streams of 2048-byte packets: a 0x20 header
+# (magic 0x0160) followed by 2016 bytes of 8bpp pixel data.
+# width_px = u16[10] * 2. Consecutive same-width type-8 packets form one image;
+# CLUTs and unsupported packet types live in the gaps between decoded images.
 PACKET_BYTES = VRAM_SCANLINE_BYTES        # 2048
 PACKET_HEADER_BYTES = SCANLINE_GAP_BYTES  # 0x20
 PACKET_MAGIC = 0x0160
