@@ -36,6 +36,36 @@ heuristics; the open part is still the full VM walk (see the parked decision).
    everywhere). Do not base plate reserves on a pattern scan; only a real VM
    walk gives trustworthy rows.
 
+### VM bytecode structure (2026-06-19)
+
+Decoded far enough to characterize the stream, not far enough to walk it:
+
+7. **Two-level dispatch tables precede the code.** The VM block is
+   `[u32 master table][u16 sub-lists][bytecode]`. The master table (entry count
+   = `first_entry / 4`) points at `0xFFFF`-terminated u16 lists; those u16
+   values are script entry offsets (branch/call targets), giving ~116
+   guaranteed instruction boundaries per chunk.
+8. **Most instructions are a fixed 12 bytes.** Inferred from single-instruction
+   gaps between guaranteed boundaries: opcodes `0x11`..`0x99` consistently span
+   12 bytes (same as the display command `0x0B..0x10`). Variable exceptions:
+   `0xFF`(=`0xFFFF`) is 2-byte padding/separator, `0x00` is a skip block
+   (`4 + u16`), `0x04/0x05/0x09` carry a variable helper, and `0x06..0x0A` look
+   like 4. Control opcodes `0x01/0x02/0x03` (indexed call/jump/return) and a few
+   high opcodes are not pinned.
+
+**Why a static walk still fails.** A linear disassembler must get *every*
+opcode length exactly right or alignment cascades into garbage (observed: the
+walk reads a data word as an `0x00` skip of length 1027 and desynchronizes). A
+fixed-12 model plus the known variable opcodes resolves the complete `0..N-1`
+display `text_id` set in **0/113** chunks. The control opcodes and the exact
+`0x00` semantics are unresolved, and guessing them from gap statistics does not
+converge. The reliable source is the **VM bytecode interpreter's opcode table
+in the EXE** (the main loop that reads opcodes `0x00..0x48` and calls handler
+`0x80024424`) — this is MIPS code in `SLPS_018.19` and is **not yet
+disassembled** (`docs/DISASM_SUMMARY.md` only covers the *text-stream* dispatcher
+`0x800A36B4`, a different layer). Decoding that table is the prerequisite for
+deterministic per-record speaker extraction; until then the work stays parked.
+
 ### Known defect this explains
 
 Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
