@@ -118,6 +118,30 @@ PSX loader). This is authoritative — it is the actual code, not inference.
     entry, follow CALL/JMP/RET, decode each opcode, read the speaker at `p+6..7`
     of every display command, resolve via `FUN_800216c8` + `actor_plate_table`.
 
+### Dispatch structure and walker status (2026-06-19)
+
+13. **Three-level dispatch.** `master[0..10]` (u32, indexed by the interpreter's
+    `param_1` phase) point at u16 sub-lists; the sub-list u16 values are the
+    bytecode entry points. `master[11]` (u32 at `vm+0x2c`) points at the CALL/JMP
+    **jump table** (u16 targets, `0xFFFF`-terminated); opcode `0x01`/`0x03` use a
+    1-byte index into it. Plate width also needs the `0x0001` glyph that the
+    engine draws with the name (count it in the reserve, in addition to the
+    resolved speaker name).
+14. **The opcode space is large.** The dispatcher switch runs well past the part
+    decoded here — real bytecode uses `0x2d`, `0x2e`, `0x48`, `0x79`, etc., most
+    12 bytes but some with their own control flow. A correct walker must decode
+    all of them.
+
+**Walker status: not yet working.** Linear, pattern-resync, and a first
+CALL/JMP/RET CFG walk each resolve the complete `0..N-1` display `text_id` set in
+**0/113** chunks. The blockers are the remaining undecoded opcodes (several have
+state-dependent length/flow via `DAT_800db21a`) and the exact phase-1 → phase-2
+setup that seeds the bytecode pointer. The mechanism is understood; a
+production-correct extractor still needs the rest of the `FUN_8001d198` switch
+decoded from Ghidra and the phase model implemented. Ghidra is set up under
+`work/ghidra/` (gitignored) with the program imported, so this is a scoped
+follow-up, not a fresh start.
+
 ### Known defect this explains
 
 Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
