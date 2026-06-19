@@ -142,6 +142,28 @@ decoded from Ghidra and the phase model implemented. Ghidra is set up under
 `work/ghidra/` (gitignored) with the program imported, so this is a scoped
 follow-up, not a fresh start.
 
+### Walk attempts and the remaining blocker (2026-06-19, second dig)
+
+15. **Block header before phase-2 code.** Each `master[0..10]` sub-list entry
+    points at a block `[u16 id][u8 type][...]`; phase 1 switches on the type byte
+    and leaves the phase-2 bytecode pointer at `block+4` (type 0) or `block+3`,
+    saved to `DAT_80109c58[depth]`. Phase 2 then runs the opcode interpreter from
+    there.
+16. **`0xFF` is RET/block-end** in phase 2 (`if (opcode==0xff)` pops the call
+    stack; empty stack = done), not a 12-byte instruction.
+17. **Static CFG is still insufficient.** Even seeding from the phase-2 block
+    entries and the `master[11]` jump table, following CALL/JMP/RET with the
+    decoded opcode lengths and `0xFF`=RET, the walk reaches only ~6% of display
+    commands (chunk 4: text_ids `[0,3,4,5,6,7,8,25]` of 0..70). The rest are
+    reached through execution the static traversal does not reproduce: CALL/JMP
+    indices and the deferred jumps set by opcodes `0x12`/`0x13`/`0x1e`.. depend
+    on runtime state (`DAT_800db21a`, the actor/wait flags), and the phase
+    1↔2↔3 state machine seeds pointers conditionally. A correct extractor
+    therefore needs a faithful **emulation** of the phase state machine and the
+    call stack, not a static CFG sweep — i.e. effectively re-implementing
+    `FUN_8001d198`. That is the open task; the speaker math (fact 10/11) is ready
+    to consume its output.
+
 ### Known defect this explains
 
 Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
