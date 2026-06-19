@@ -97,7 +97,7 @@ The current verified local image is:
 | `data/fonts/` | fonts used by the build: Spleen/PixelMplus for game glyphs, Liberation Sans Narrow Bold for title credits |
 | `data/translation/en/SCEN/chunk_NNN.txt` | translated chunks (the build input) |
 | `data/translation/names_base.csv` | item/class/spell/NPC name glossary (jp,en,alt) |
-| `data/translation/system_menu_map.json` | menu/UI label replacements |
+| `data/translation/system_strings.json` | all SYSTEM.BIN UI text (names, descriptions, command help, save messages) — one offset-keyed file, see *Translating SYSTEM.BIN text* below |
 | `work/scriptdump/` | the original JP dump (regenerable) |
 | `work/wip_en/` | staging area for chunks being translated |
 | `docs/PLAN.md` | format notes and the project plan |
@@ -225,10 +225,10 @@ chunk 002; block mode is now a diagnostic fallback only if a future battle
 asset regression appears. `scripts/lang5_battle_suffix.py` reports the battle
 suffix asset-slot table behind this rule.
 
-For names/menus instead of script text: edit `names_base.csv` /
-`system_menu_map.json`; `scripts/lang5_build_names_map.py` expands the
-glossary against the actual `SYSTEM.BIN` runs and reports labels that don't
-fit their slots.
+For SYSTEM.BIN UI text instead of script text (names, menu labels,
+descriptions, command help, save messages): edit
+`data/translation/system_strings.json` — see *Translating SYSTEM.BIN text*
+below.
 
 For VM/script diagnostics, `scripts/lang5_vm_dialog_refs.py` extracts
 chunk-local name pools and static VM command sites that reference `FB00`
@@ -241,9 +241,10 @@ speaker plates are not maintained as hand-written data.
 python3 scripts/lang5_build_ppf.py
 ```
 
-This renders the font, patches `SYSTEM.BIN` (menus + names), inserts the
-triangle-button help text (see *Translating the help text* below), patches
-`SLPS_018.19` (name-entry grid), patches `IMG.DAT` title-screen credits and
+This renders the font, patches `SLPS_018.19` and the SYSTEM.BIN name-entry
+grid, packs all SYSTEM.BIN UI text (names, descriptions, command help, save
+messages — see *Translating SYSTEM.BIN text* below), patches `IMG.DAT`
+title-screen credits and
 the project QR code, redraws the prologue poem graphic (see *Translating
 graphics* below), syncs `SCEN -> SCEN2`, re-inserts all translated chunks
 with fixed-size container repacking, injects everything into a copy of the
@@ -262,38 +263,41 @@ python3 scripts/lang5_build_ppf.py --patch-version 1
 
 The build also writes title previews to `work/build/title_credits_*.png`.
 
-## Translating the help text
+## Translating SYSTEM.BIN text
 
-The text shown when you press the triangle button (help for menu commands, and
-the unit/class/weapon/item/magic/monster descriptions in the equip, shop and
-status screens) lives in `SYSTEM.BIN` as `FFFF`-terminated glyph runs at fixed
-offsets, so each display line must fit the original line's glyph budget.
+All of SYSTEM.BIN's UI text — unit/class/item/weapon/spell and character names,
+their triangle-button descriptions, the menu command help, and the save /
+memory-card messages — is stored as groups of `[offset table][strings]`, not as
+a flat run of lines. One flow dumps, translates and packs all of it; the format
+is documented in `docs/SYSTEM_BIN_FORMAT.md`.
 
-1. **Dump** the runs to an editable JSON (one entry per run: offset, word
-   budget, decoded JP, empty `en`):
+1. **Dump** every string (offset-table aware, so glued first lines and short
+   tails are captured exactly) to one offset-keyed JSON:
 
    ```bash
-   python3 scripts/lang5_help_dump.py --out data/translation/system_help.json   # menu commands
-   python3 scripts/lang5_help_dump.py --start 0x9c00 --end 0x159ca \
-       --out data/translation/system_desc.json                                  # descriptions
+   python3 scripts/lang5_system_dump.py --out data/translation/system_strings.json
    ```
 
-2. **Translate** by filling each entry's `en`. Keep it short: a line of `w`
-   words fits roughly `w` glyph codes, and the encoder packs `~2` characters per
-   code with the font's pair glyphs. Leave `en` empty to keep the original
-   Japanese. Missing punctuation can be added to the font via
+2. **Translate** by filling each entry's `en`. Leave `en` empty to keep the
+   original Japanese; use `"{BLANK}"` to clear a leftover line. Missing
+   punctuation can be added to the font via
    `data/font_mapping/en_slot_assignments.csv` (assign it an unused kana slot).
+   Each string is one on-screen line, so keep it within the original line's
+   width.
 
-3. **Insert / check.** `lang5_build_ppf.py` runs this automatically, or run it
+3. **Pack / check.** `lang5_build_ppf.py` runs this automatically, or run it
    directly; `--strict` fails on any over-budget or unencodable line:
 
    ```bash
-   python3 scripts/lang5_help_insert.py \
-       --help-json data/translation/system_help.json \
-       --help-json data/translation/system_desc.json \
-       --system-in work/build/SYSTEM.BIN.en --system-out work/build/SYSTEM.BIN.en \
-       --strict
+   python3 scripts/lang5_system_pack.py \
+       --system-in work/build/SYSTEM.BIN.ne --system-out work/build/SYSTEM.BIN.en \
+       --strings data/translation/system_strings.json --strict
    ```
+
+   The default in-place mode keeps each string's slot and the offset table
+   (byte-compatible). `--repack` regenerates the table so a line may change
+   length (bounded by the group total); since it moves later strings, verify in
+   an emulator before relying on it.
 
 Knowing semantic compressions made to fit the budgets are tracked in
 `docs/COMPRESSION_DEBT.md`.
@@ -349,8 +353,9 @@ The pipeline is not tied to English:
 2. Make your own slot-assignments CSV for the target alphabet and frequent
    pairs, plus a bitmap font that has those glyphs; pass both to
    `lang5_build_en_font.py`.
-3. Translate `names_base.csv` / `system_menu_map.json` values into your
-   language; the fit checks are language-agnostic (they count cells).
+3. Translate `names_base.csv` and the `en` fields in
+   `data/translation/system_strings.json` into your language; the fit checks
+   are language-agnostic (they count cells).
 
 ## Reference
 

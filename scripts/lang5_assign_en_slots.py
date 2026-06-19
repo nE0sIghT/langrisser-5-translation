@@ -43,6 +43,23 @@ def word_pairs(w: str):
             i += 1
 
 
+def map_en_texts(mp: Path) -> list[str]:
+    """EN strings from a translation map (dict {jp: en} or unified list)."""
+    data = json.loads(mp.read_text(encoding="utf-8"))
+    if isinstance(data, dict):
+        return list(data.values())
+    return [e["en"] for e in data
+            if (e.get("en") or "").strip() and e["en"] != "{BLANK}"]
+
+
+def map_jp_keys(mp: Path) -> set[str]:
+    """JP source strings from a translation map (used to mark UI glyph slots)."""
+    data = json.loads(mp.read_text(encoding="utf-8"))
+    if isinstance(data, dict):
+        return set(data)
+    return {e["jp"] for e in data if e.get("jp")}
+
+
 def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
     """Return (singles, menu_pairs, spacing_pairs, script_pairs).
 
@@ -64,7 +81,7 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
     menu_texts: list[str] = []
     for mp in menu_maps:
         if mp.exists():
-            menu_texts.extend(json.loads(mp.read_text(encoding="utf-8")).values())
+            menu_texts.extend(map_en_texts(mp))
 
     singles: set[str] = set()
     menu_pairs: collections.Counter = collections.Counter()
@@ -191,7 +208,7 @@ def main() -> None:
             existing[r["en_char"]] = int(r["index_dec"])
 
     maps = [Path(p) for p in (args.menu_map or
-            ["data/translation/system_menu_map.json", "data/translation/names_map.json"])]
+            ["data/translation/system_strings.json"])]
     singles, menu_pairs, spacing_pairs, script_pairs = needed_units(Path(args.en_dump), maps)
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
@@ -206,7 +223,7 @@ def main() -> None:
     translated_keys = set()
     for mp in maps:
         if mp.exists():
-            translated_keys |= set(json.loads(mp.read_text(encoding="utf-8")))
+            translated_keys |= map_jp_keys(mp)
     pool = [i for i in sacrificial_pool(
         Path(args.groups_report), Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",

@@ -37,26 +37,20 @@ def main() -> None:
         "--out-system-bin", "work/build/SYSTEM.BIN.font",
         "--out-tbl", "work/tables/lang5_en.tbl")
 
-    run(scripts / "lang5_patch_system_menu.py",
-        "--system-in", "work/build/SYSTEM.BIN.font",
-        "--system-out", "work/build/SYSTEM.BIN.menu",
-        "--menu-map", "data/translation/system_menu_map.json",
-        "--menu-map", "data/translation/names_map.json",
-        "--tbl", "work/tables/lang5_en.tbl")
-
+    # Name-entry screen (kana grid in SYSTEM.BIN + the EXE's input table).
     run(scripts / "lang5_patch_name_entry.py",
-        "--system-in", "work/build/SYSTEM.BIN.menu",
-        "--system-out", "work/build/SYSTEM.BIN.en",
+        "--system-in", "work/build/SYSTEM.BIN.font",
+        "--system-out", "work/build/SYSTEM.BIN.ne",
         "--exe-in", "work/extracted/SLPS_018.19",
         "--exe-out", "work/build/SLPS_018.19.en",
         "--tbl", "work/tables/lang5_en.tbl")
 
-    # Triangle-button help text (menu commands + equip/shop/status descriptions).
-    run(scripts / "lang5_help_insert.py",
-        "--system-in", "work/build/SYSTEM.BIN.en",
+    # All SYSTEM.BIN UI text (names, descriptions, command help, save messages)
+    # via the unified offset-table flow (see docs/SYSTEM_BIN_FORMAT.md).
+    run(scripts / "lang5_system_pack.py",
+        "--system-in", "work/build/SYSTEM.BIN.ne",
         "--system-out", "work/build/SYSTEM.BIN.en",
-        "--help-json", "data/translation/system_help.json",
-        "--help-json", "data/translation/system_desc.json",
+        "--strings", "data/translation/system_strings.json",
         "--tbl", "work/tables/lang5_en.tbl",
         "--strict")
 

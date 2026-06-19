@@ -33,11 +33,14 @@ though they still need normal playtest and style polish.
 
 ## Open Items
 
-### SYSTEM.BIN triangle-button help (`data/translation/system_help.json`, `system_desc.json`)
+### SYSTEM.BIN triangle-button help (`data/translation/system_strings.json`)
 
-The help strings are FFFF-terminated glyph runs at fixed offsets, so each
-display line must fit the original line's glyph budget. English was compressed
-to fit, line by line. Items below are the knowing semantic losses.
+The help strings are glyph runs in offset-table groups (see
+`docs/SYSTEM_BIN_FORMAT.md`); each display line is one on-screen line. English
+was compressed to fit, line by line. Items below are the knowing semantic
+losses. With `lang5_system_pack.py --repack` a line is no longer bound to the
+original byte length (only the group total and the on-screen width), so some of
+these can be reopened once the repack layout is verified in an emulator.
 
 | ID | Location | Compression |
 | --- | --- | --- |
@@ -68,4 +71,4 @@ to fit, line by line. Items below are the knowing semantic losses.
 | CD-017 | Recap, `chunk_129.txt` | all recap records | Closed 2026-06-14. Full JP/EN review found dense wording but no actionable lost lore, chronology, or character framing requiring text changes. |
 | CD-018 | Recap/bios, `chunk_130.txt` | all ending biography records | Closed 2026-06-14. Full JP/EN review found compressed ceremonial phrasing but preserved the branch outcomes, character epilogues, deaths, marriages, reforms, and world-state details. |
 | CD-019 | Scenario 2 battle, `chunk_002.txt` | `15,21,23,33,46,49,53,63,66,71,76,79,84,88,90,96,97,103,104,113` | Closed 2026-06-13. The fuller text was restored after the battle suffix alignment rule was confirmed: chunk `002` may shift its suffix when the new suffix start remains 4-byte aligned. In-game testing confirmed battle images/portraits stayed intact. |
-| HD-001 | SYSTEM.BIN help stat lines that decoded with an `N`/`up`/`down` placeholder | Closed 2026-06-17. Not a runtime value at all: glyph code `0x000A` is the digit `3` in this font, but `lang5_help_dump.py` decoded it as a line break, so embedded `3`/`13`/`30`/`35`/`38` numbers were lost. Fixed the decoder and restored every real number from the data (e.g. "Attack cost +3", "Summon MP: 35", "Sell at 3/4 buy price", "Monster 13", "Skill: Petrify 3"). No RAM dump needed. |
+| HD-001 | SYSTEM.BIN help stat lines that decoded with an `N`/`up`/`down` placeholder | Closed 2026-06-17. Not a runtime value at all: glyph code `0x000A` is the digit `3` in this font, but the dump decoded it as a line break, so embedded `3`/`13`/`30`/`35`/`38` numbers were lost. Fixed the decoder and restored every real number from the data (e.g. "Attack cost +3", "Summon MP: 35", "Sell at 3/4 buy price", "Monster 13", "Skill: Petrify 3"). No RAM dump needed. |
