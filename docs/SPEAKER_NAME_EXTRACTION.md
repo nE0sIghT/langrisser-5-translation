@@ -164,6 +164,43 @@ follow-up, not a fresh start.
     `FUN_8001d198`. That is the open task; the speaker math (fact 10/11) is ready
     to consume its output.
 
+### Working extraction without a VM walk (2026-06-19, the answer)
+
+The VM walk is **not needed**. The display commands are self-contained data; we
+only have to enumerate the real ones and read their fields. A semantic filter
+does this reliably without executing anything:
+
+A 12-byte window at `p` is a real display command when **all** hold:
+`vm[p]` in `0x0B..0x10`; the actor key `u16@p+6` is a key in the chunk's
+`actor_plate_table` (or special range `0xFFE5..0xFFFE`, or `0xFFFF`); the
+`text_id` `u16@p+10` is `< nfb`; the mode `vm[p+3] & 3 <= 2`; the name-visible
+flag `vm[p+8] <= 1`. Record index = `first_fb_record + text_id` (the display
+covers **all** displayed records, FB00-bearing or not - the old `rec in
+fb_records` filter was the bug that dropped lines like chunk 4 record 79).
+
+Across all 113 chunks / 5661 records this yields, per record:
+
+| candidates | share | meaning |
+| --- | ---: | --- |
+| exactly 1 | **92.0%** | unique, confident speaker key |
+| 0 | 6.9% | no plate (reserve 0) |
+| >1 | 1.1% | ambiguous - resolve by non-overlapping position matching |
+
+Validated on chunk 4 records 70-82: the unique keys resolve through
+`actor_plate_table` to the real pool names (ラムダ, 町人, クラレット,
+アルフレッド, ブレンダ). The speaker name (plus the `0x0001` glyph the engine
+draws with it) gives the exact plate width.
+
+**Caveat:** special keys `0xFFE5..0xFFFE` (off-screen crowd lines, e.g. chunk 4
+records 75/77/79) are remapped through `DAT_800eaa0a`, which lives in BSS
+(`vaddr 0x800eaa0a` is past the `.text` image), so it is runtime-initialized and
+not readable statically. Those few records resolve to a generic/crowd plate;
+treat them as a fixed crowd width or no plate.
+
+This is the path to implement: a small extractor (no interpreter) emitting
+`(chunk, record) -> speaker key -> name width`, feeding `lang5_rewrap.py` the
+exact per-record reserve.
+
 ### Known defect this explains
 
 Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
