@@ -66,6 +66,58 @@ disassembled** (`docs/DISASM_SUMMARY.md` only covers the *text-stream* dispatche
 `0x800A36B4`, a different layer). Decoding that table is the prerequisite for
 deterministic per-record speaker extraction; until then the work stays parked.
 
+### VM interpreter decoded from the EXE (2026-06-19, Ghidra)
+
+The bytecode interpreter is `FUN_8001d198` in `SLPS_018.19` (Ghidra headless,
+PSX loader). This is authoritative — it is the actual code, not inference.
+
+9. **The VM is control-flow driven, not linear.** The interpreter keeps an
+   instruction pointer (`DAT_800dade8`) and a call stack (`DAT_80109c58[]`).
+   Opcode `0x01` = CALL (1-byte index into the script offset table, pushes the
+   return address), `0x02` = RET (pops), `0x03` = JMP (1-byte index). So after a
+   call/jump execution continues at a table target, **not** the next byte. This
+   is why every linear / pattern walk desynchronizes; a correct walk must follow
+   the calls and jumps from the entry the master table selects.
+10. **The display/window command is exactly 12 bytes** (handler `FUN_80024424`).
+    Layout, offsets from the opcode byte `p`:
+
+    | bytes | field |
+    | --- | --- |
+    | `p+0` | opcode `0x0B..0x10` |
+    | `p+1` | b1 |
+    | `p+2` | field1 (nibbles) |
+    | `p+3` | flags (bit7, mode = bits0-1) |
+    | `p+4..5` | u16 actor command param |
+    | **`p+6..7`** | **u16 speaker actor key** |
+    | `p+8` | name-visible flag |
+    | `p+9` | text-routing byte (`0xff` = special) |
+    | `p+10..11` | u16 `text_id` |
+
+11. **The speaker is the actor key at `p+6..7`, not byte9.** `FUN_80024424`
+    passes it through `FUN_800216c8`:
+
+    ```c
+    ushort resolve(ushort key) {
+        if ((ushort)(key + 0x1b) < 0x1a)               // key in [0xFFE5..0xFFFE]
+            key = *(ushort*)(&DAT_800eaa0a + key*2);    // remap table in the EXE
+        return key;                                     // else identity
+    }
+    ```
+
+    The resolved key is looked up in the chunk `actor_plate_table` (key ->
+    field2 = name-pool slot). Verified: chunk 4 record 71 has `p+6..7 = 0x0042`,
+    `actor_plate_table[0x42] = slot 7 = 町人 ("Town")`. The earlier `byte9`
+    reserve was a heuristic that matched only by coincidence; `p+9` is the
+    text-routing field, not the speaker.
+
+12. **Simple opcode lengths** (from the `FUN_8001d198` switch): `0x00` = skip
+    `4 + u16@p+2`; `0x16`/`0x18`/`0x19`/`0x1a` = 2; `0x12`/`0x14`/`0x15` = 4;
+    `0x04/05/09` -> `FUN_80025110`, `0x06..0x0A` -> `FUN_80025454`, display ->
+    `FUN_80024424` (each advances the pointer internally). Most other opcodes are
+    12. A deterministic extractor is now specified: walk from the master-table
+    entry, follow CALL/JMP/RET, decode each opcode, read the speaker at `p+6..7`
+    of every display command, resolve via `FUN_800216c8` + `actor_plate_table`.
+
 ### Known defect this explains
 
 Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
