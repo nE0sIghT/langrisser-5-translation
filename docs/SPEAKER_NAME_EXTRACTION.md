@@ -3,6 +3,50 @@
 This document records the current state of reverse-engineering speaker plate
 selection for dialogue line wrapping.
 
+## Confirmed format facts (2026-06-19)
+
+Data-verified against the original `SCEN.DAT` (131 chunks). These are facts, not
+heuristics; the open part is still the full VM walk (see the parked decision).
+
+1. **VM block starts with a u32 offset table.** Every chunk's VM stream
+   (`vm_block`) begins with an ascending table of u32 byte offsets — the script
+   entry points that opcodes `0x01`/`0x03` index into ("indexed call/jump
+   through the VM script table"). Verified present in **131/131** chunks. The
+   linear tracer in `lang5_speakers.py` is wrong to start at offset 0: that is
+   the table, not code (it immediately reads a table entry, e.g. `0x44`, as an
+   opcode and stops).
+2. **The VM is only partially decoded.** Past the table, real chunks use opcodes
+   the disassembler does not know (e.g. `0x28`, `0x44`), so the linear walk
+   cannot reach later instructions. This is why whole chunks (e.g. chunk 4)
+   resolve **zero** display rows.
+3. **Display/window command = opcode `0x0B..0x10`, 12 bytes.** Byte layout from
+   the command start: `[0]` opcode, `[+9]` byte9 (speaker field), `[+10..11]`
+   `text_id` (u16). `text_id` is the display order; record index is
+   `first_fb_record + text_id`. Confirmed in chunk 4: `text_id` 54..66 map to
+   records 70..82 in order with sensible speakers (クラレット, 町人, 元帥).
+4. **byte9 is the speaker.** For named speakers it equals the pool slot
+   (`7`=町人, `6`=ランフォード元帥, `3`=クラレット); `0xFF` = no plate. Value
+   `0xFE` appears on anonymous crowd/civilian lines (chunk 4 records 75/77/79);
+   its exact plate effect is **not** confirmed.
+5. **"Town" is a speaker, not a location.** It is the EN form of 町人
+   (townsperson), pool slot 7 — a normal speaker plate.
+6. **The resync/pattern display scan is NOT reliable.** Scanning for
+   `0x0B..0x10` + 12-byte windows and requiring the complete `0..N-1` `text_id`
+   set to resolve uniquely succeeds in **0/131** chunks (false-positive windows
+   everywhere). Do not base plate reserves on a pattern scan; only a real VM
+   walk gives trustworthy rows.
+
+### Known defect this explains
+
+Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
+display command sets a plate) but has **no inline `<$FB00>`**. The tracer cannot
+walk chunk 4 (fact 2), so no display row resolves, and `reflow_record` forces
+`reserve = 0` for `<$FB00>`-less records — overriding the chunk-wide safe-bound
+reserve that fact 3 of the parked notes prescribes. The line is wrapped to the
+full 21 cells; in game the plate makes it overflow and the engine hard-breaks
+mid-word (`someone` / `'s` / `war`). The safe-bound reserve must not be zeroed
+for records that may be spoken.
+
 ## Decision: PARKED (2026-06-12)
 
 Exact per-line speaker extraction remains parked. Do not resume broad static VM
@@ -106,6 +150,10 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | PARKED | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
 | DONE | Integrate plate reserves into `lang5_rewrap.py`. | Exact display byte9 reserve where traceable, otherwise widest VM-header speaker pool; plates capped at 5 cells; continuation pages reset to full width. | Closed by the Decision section. |
 | DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
+| DONE | VM block begins with a u32 script offset table. | Ascending u32 offsets at vm start in 131/131 chunks; tracer wrongly starts at offset 0 (the table) and reads entry `0x44` as an opcode. | Start the walk at the first table entry; decode opcodes `0x28`/`0x44`. |
+| REJECTED | Recover display rows by pattern-scanning `0x0B..0x10` 12-byte windows. | Requiring the complete `0..N-1` `text_id` set to resolve uniquely succeeds in 0/131 chunks; lenient filters admit false-positive windows. | Do not base plate reserves on a pattern scan; only a real VM walk is trustworthy. |
+| DONE | "Town" plate is speaker 町人 (pool slot 7), not a location. | Chunk 4 name pool slot 7 = 町人; display byte9 = 7 on its lines. | Treat it as an ordinary speaker plate. |
+| PENDING | Stop zeroing the safe-bound reserve for `<$FB00>`-less spoken records. | Chunk 4 record 79 is spoken (display sets a plate) but FB00-less, so `reflow_record` forces reserve 0 → engine hard-breaks mid-word. | Decide: full VM walk (unpark) vs. apply the chunk-wide safe bound to FB00-less records too. |
 
 ## Archived Work Plan
 
