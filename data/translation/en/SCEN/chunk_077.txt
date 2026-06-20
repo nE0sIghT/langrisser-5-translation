@@ -25,9 +25,9 @@
 23	That's right, Admiral.<$FFFE>
 24	…This is trouble….<$FFFE>
 25	Federation Castle, Audience Hall<$FFFF>
-26	<$FB00><$0003>It's a hard tale to believe at<$FFFC>once.<$FFFE>
+26	<$FB00><$0003>It's a hard tale to believe at once.<$FFFE>
 27	<$FB00><$0004>But it's the truth. We must<$FFFC>hurry to subjugate the demons.<$FFFE>
-28	<$FB00><$0005>Understood. I grant the<$FFFC>sortie. Tell me the concrete plan.<$FFFE>
+28	<$FB00><$0005>Understood. I grant the sortie.<$FFFC>Tell me the concrete plan.<$FFFE>
 29	<$FB00><$0006>I have my orders from Marshal<$FFFC>Lanford.<$FFF5> <$FB00><$0007>The marshal formed an elite unit<$FFFC>and is on the move.<$FFFD><$FB00><$0008>As said, the ultimate weapon is weak to<$FFFC>clouds. So the marshal went to the ancient<$FFFC>weather-control ruin. If he succeeds,<$FFFC>it's neutralized for days.<$FFFD><$FB00><$0009>Meanwhile, our task is to surround the<$FFFC>demons and contain area damage.<$FFF5><$FFFD><$FB00><$000A>The Caconsis Army has promised to aid us.<$FFFE>
 30	<$FB00><$000B>I understand the plan.<$FFF5> <$FB00><$000C>Then<$FFFC>General Emily, I once again command the<$FFFC>sortie.<$FFFE>
 31	<$FFF7><$FB00><$000D>Yes！<$FFF5><$FFF8><$FFFE>

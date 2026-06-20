@@ -12,28 +12,28 @@
 10	・Defeat Alvince<$FFFE>
 11	・<$F600><$0000> dies<$FFFE>
 12	Alvince's Manor<$FFFF>
-13	<$FB00><$0041>Lord Alvince, we have<$FFFC>trouble！<$FFFE>
+13	<$FB00><$0041>Lord Alvince, we have trouble！<$FFFE>
 14	<$FB00><$0042>What is this racket？<$FFFE>
-15	<$FB00><$0043>Intruders have entered the<$FFFC>manor！<$FFFE>
+15	<$FB00><$0043>Intruders have entered the manor！<$FFFE>
 16	<$FB00><$0044>Intruders？ This manor's<$FFFC>defenses are not so lax as to let<$FFFC>intruders in.<$FFFE>
-17	<$FB00><$0045>The thing is, among them is<$FFFC>Lord Alfred<$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$0045>The thing is, among them is Lord<$FFFC>Alfred<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0046>What？ Could it be the band<$FFFC>Lainforce spoke of？<$FFFE>
 19	<$FB00><$0047>So Alvince is here<$FFF5><$FFF8>…<$FFFE>
 20	<$FB00><$0048>To think I'd visit an<$FFFC>acquaintance's manor in such a fashion.<$FFFE>
 21	<$FB00><$0049>Where are you, brother！<$FFFE>
 22	<$FB00><$004A>Such noise, Alfred. Father<$FFFC>told you to be quiet indoors, did he not？<$FFFD><$FB00><$004B>And how dare a great criminal who murdered<$FFFC>his own parent show his face in this<$FFFC>manor.<$FFFE>
-23	<$FB00><$004C>We already know you switched<$FFFC>the medicine！<$FFFE>
+23	<$FB00><$004C>We already know you switched the<$FFFC>medicine！<$FFFE>
 24	<$FB00><$004D>That's right. But Alfred was a<$FFFC>fool to be deceived.<$FFFD><$FB00><$004E>Thanks to it, I hold great wealth and<$FFFC>power now. The truth no longer matters.<$FFFD>Kill you all, and none will be left to<$FFFC>speak of it.<$FFFE>
 25	<$FB00><$004F>Never mind that, brother！<$FFFC>Lainforce is deceiving you！ What he means<$FFFC>to do is<$FFF5><$FFF8>…<$FFFE>
-26	<$FB00><$0050>Silence. I trust nothing that<$FFFC>man says. He thinks to use me to feed his<$FFFC>greed.<$FFFD><$FB00><$0051>But greed is a feeling all hold. I have it<$FFFC>too.<$FFFD>No, I joined him because I saw my greed<$FFFC>runs deeper than most.<$FFFE>
+26	<$FB00><$0050>Silence. I trust nothing that man<$FFFC>says. He thinks to use me to feed his<$FFFC>greed.<$FFFD><$FB00><$0051>But greed is a feeling all hold. I have it<$FFFC>too.<$FFFD>No, I joined him because I saw my greed<$FFFC>runs deeper than most.<$FFFE>
 27	<$FB00><$0052>Brother<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$0053>Greed is a primal yet noble<$FFFC>feeling in man. Without it, man cannot<$FFFC>move forward.<$FFFD><$FB00><$0054>Swordsmanship, learning, wealth, honor,<$FFFC>all were born of greed.<$FFFD><$FB00><$0055>This greed is the decisive difference<$FFFC>between beast and man！<$FFFE>
 29	<$FB00><$0056>Alvince. I knew a man who held<$FFFC>ambition as great as yours.<$FFFE>
 30	<$FB00><$0057>Oh？ He must have been strong.<$FFFC>He must have shone in his age.<$FFFE>
 31	<$FB00><$0058>His name was Gizarof. For a<$FFFC>great ambition he spent long years in<$FFFC>careful preparation.<$FFFD><$FB00><$0059>Yet even he, who went so far, is no longer<$FFFC>of this world.<$FFFD><$FB00><$005A>I won't brand all greed as evil, but greed<$FFFC>that throws the world into chaos wounds<$FFFC>others and destroys the self in the end.<$FFFE>
-32	<$FB00><$005B>Silence！ A man who ends<$FFFC>partway was only ever a vessel of that<$FFFC>size！<$FFFD><$FB00><$005C>I am different！ Even if I kill my father<$FFFC>and my brother, I will stand atop this<$FFFC>world！<$FFFE>
+32	<$FB00><$005B>Silence！ A man who ends partway<$FFFC>was only ever a vessel of that size！<$FFFD><$FB00><$005C>I am different！ Even if I kill my father<$FFFC>and my brother, I will stand atop this<$FFFC>world！<$FFFE>
 33	<$FB00><$005D>Brother<$FFF5><$FFF8>…<$FFFE>
-34	<$FB00><$005E>Alfred. I'm sorry to say it,<$FFFC>but he is<$FFF5><$FFF8>…<$FFFE>
+34	<$FB00><$005E>Alfred. I'm sorry to say it, but<$FFFC>he is<$FFF5><$FFF8>…<$FFFE>
 35	<$FB00><$005F>I understand. If that's how he<$FFFC>is, then we take up the challenge.<$FFFE>
 36	<$FB00><$0060>Alfred<$FFF5><$FFF8>…<$FFFE>
 37	<$FB00><$0061>The man standing there is no<$FFFC>longer my brother. For this world's sake,<$FFFC>he is an enemy who must be brought down！<$FFFD><$FB00><$0062>Everyone, lend me your strength！<$FFFE>
@@ -42,35 +42,35 @@
 40	Let this one escape first？<$FFFE>
 41	<$FB00><$0086>Farewell, brother.<$FFFE>
 42	Let this one escape first？<$FFFE>
-43	<$FB00><$0087>Looks like I won't burn to<$FFFC>death after all.<$FFFE>
+43	<$FB00><$0087>Looks like I won't burn to death after<$FFFC>all.<$FFFE>
 44	Let this one escape first？<$FFFE>
 45	<$FB00><$0088>Sorry, I'll go on ahead！<$FFFE>
 46	Let this one escape first？<$FFFE>
-47	<$FB00><$0089>So this is the last I'll see<$FFFC>of this manor<$FFF5><$FFF8>…<$FFFE>
+47	<$FB00><$0089>So this is the last I'll see of this<$FFFC>manor<$FFF5><$FFF8>…<$FFFE>
 48	<$0000> Got the Bloody Lance！<$FFFE>
 49	An empty chest. Search it once more？<$FFFE>
-50	There's a trick in the bottom. Lift it,<$FFFC>and a single old scrap of paper lies<$FFFC>within. Take it？<$FFFE>
+50	There's a trick in the bottom.<$FFFC>Lift it, and a single old scrap of paper<$FFFC>lies within. Take it？<$FFFE>
 51	On the scrap, something like rivers and<$FFFC>mountains is drawn, with an X mark at the<$FFFC>center.<$FFFE>
 52	<$FFF8>… Is this a treasure map, I wonder.<$FFFE>
 53	What is it, Alfred？ Did you find<$FFFC>something？<$FFFE>
 54	I found a map of this area. There's a<$FFFC>meaningful mark at the center, so I<$FFFC>thought it might be a treasure map<$FFF8>…<$FFFE>
-55	A treasure map！？ Let's hear about it in<$FFFC>detail later.<$FFFE>
-56	Right. For now, let's focus on the battle.<$FFFE>
-57	On the scrap, something like rivers and<$FFFC>mountains is drawn, with an X at the<$FFFC>center.<$FFFD>It could pass for a treasure map, but the<$FFFC>place is unfamiliar, so it's hard to<$FFFC>tell<$FFF8>…<$FFFE>
+55	A treasure map！？ Let's hear<$FFFC>about it in detail later.<$FFFE>
+56	Right. For now, let's focus on<$FFFC>the battle.<$FFFE>
+57	On the scrap, something like<$FFFC>rivers and mountains is drawn, with an X<$FFFC>at the center.<$FFFD>It could pass for a treasure map, but the<$FFFC>place is unfamiliar, so it's hard to<$FFFC>tell<$FFF8>…<$FFFE>
 58	<$0000> Got the Aeneas Mail！<$FFFE>
 59	<$FB00><$0073>At this rate Alvince will<$FFFC>escape. Best send someone ahead to cut him<$FFFC>off<$FFF5><$FFF8>…<$FFFE>
 60	<$FB00><$002E>Sorry… everyone…<$FFFE>
-61	<$FB00><$004E>Forgive me… I have to pull<$FFFC>back first…<$FFFE>
+61	<$FB00><$004E>Forgive me… I have to pull back first…<$FFFE>
 62	<$FB00><$004F>Don't push it. Leave the rest<$FFFC>to us！<$FFFE>
 63	<$FB00><$0050>Please…<$FFFE>
-64	Turning your sword on me, your brother,<$FFFC>have you forgotten all courtesy！<$FFFE>
-65	A man who'd kill even his father for his<$FFFC>own greed is no brother of mine！<$FFFE>
-66	You, so poor at swordplay, beat me？<$FFFC>Never！<$FFFE>
-67	The me of now is no longer the me of old！<$FFFE>
-68	Interesting！ Let's see how strong a<$FFFC>coward like you has become！<$FFFE>
-69	What a sorry sight, Alfred！ Weren't you<$FFFC>going to defeat me？<$FFFE>
-70	Everyone, I'm sorry… In my place, stop my<$FFFC>brother…<$FFFE>
-71	Ah, Alfred. We'll stop him for you. Don't<$FFFC>push yourself, stay back！<$FFFE>
+64	Turning your sword on me, your<$FFFC>brother, have you forgotten all courtesy！<$FFFE>
+65	A man who'd kill even his<$FFFC>father for his own greed is no brother of<$FFFC>mine！<$FFFE>
+66	You, so poor at swordplay, beat<$FFFC>me？ Never！<$FFFE>
+67	The me of now is no longer the<$FFFC>me of old！<$FFFE>
+68	Interesting！ Let's see how<$FFFC>strong a coward like you has become！<$FFFE>
+69	What a sorry sight, Alfred！<$FFFC>Weren't you going to defeat me？<$FFFE>
+70	Everyone, I'm sorry… In my<$FFFC>place, stop my brother…<$FFFE>
+71	Ah, Alfred. We'll stop him for<$FFFC>you. Don't push yourself, stay back！<$FFFE>
 72	I'm counting on you…<$FFFE>
 73	<$FB00><$0080>Are you all right, Alfred！<$FFFE>
 74	<$FB00><$0081>Sorry… the rest is yours…<$FFFE>
@@ -83,7 +83,7 @@
 81	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time…<$FFFE>
 82	<$FB00><$0087>Ngh… the wound's deep…<$FFFE>
 83	<$FB00><$0088>Lanford, don't push yourself！<$FFFE>
-84	<$FB00><$0089>I know when to withdraw…<$FFFC>Sorry, the rest is yours…<$FFFE>
+84	<$FB00><$0089>I know when to withdraw… Sorry,<$FFFC>the rest is yours…<$FFFE>
 85	I'll let you go no further…<$FFFE>
 86	…Strong…<$FFFE>
 87	Aaah！<$FFFE>

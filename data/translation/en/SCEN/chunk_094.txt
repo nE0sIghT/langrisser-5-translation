@@ -23,8 +23,8 @@
 21	Then let's go. We don't have that much<$FFFC>time to spare.<$FFFE>
 22	Right. No time like the present.<$FFFE>
 23	At the Magic Lab<$FFFF>
-24	<$FB00><$004D>Looks like the inside hasn't<$FFFC>been ransacked yet.<$FFFE>
-25	<$FB00><$004E>Right. The Federation and<$FFFC>Caconsis both care more about rebuilding<$FFFC>than Gizarof's research.<$FFFE>
+24	<$FB00><$004D>Looks like the inside hasn't been<$FFFC>ransacked yet.<$FFFE>
+25	<$FB00><$004E>Right. The Federation and Caconsis<$FFFC>both care more about rebuilding than<$FFFC>Gizarof's research.<$FFFE>
 26	<$FB00><$004F>Here it is.<$FFFE>
 27	<$FB00><$0050>You found it？<$FFFE>
 28	<$FB00><$0051>This crystal records Master's<$FFFC>research. It is all we have on the Sage's<$FFFC>Crystal.<$FFFE>
@@ -37,9 +37,9 @@
 35	<$FB00><$0059>I built a mechanism into Sigma<$FFFC>and Omega. With Langrisser equipped, both<$FFFC>can draw out their given power.<$FFFE>
 36	<$FB00><$005A>That power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46>.<$FFFE>
 37	<$FB00><$005B>What is that power？ Lambda！<$FFFE>
-38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it now<$FFFC><$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it now <$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
 39	…<$FE32>…<$FE32>…<$FE32>…<$FE32>…<$FB00><$005D>Test results for<$FFFC>Sigma: the ability activates only once.<$FFFD><$FB00><$005E>It violently consumes life. A second use<$FFFC>would kill him.<$FFFE>
-40	<$FB00><$005F>The complete model that<$FFFC>overcomes this flaw will be tested by one<$FFFC>I trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+40	<$FB00><$005F>The complete model that overcomes<$FFFC>this flaw will be tested by one I<$FFFC>trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 41	<$FFF8>…<$FFF6><$FB00><$0060>Kh, again<$FFF5><$FFF8>…<$FFFE>
 42	…<$FE32>…<$FE32>…<$FE1E>…<$FB00><$0061>The experiment<$FFFC>succeeded. Omega can use the power<$FFFC>multiple times.<$FFFD><$FB00><$0062>Even without Langrisser, Omega can draw<$FFFC>out part of that power.<$FFFE>
 43	<$FB00><$0063>When they awaken, I will have<$FFFC>mighty soldiers.<$FFFD>Until then, with Kruger, I must seize<$FFFC><$FE3C>…<$FE32>…<$FE28>the Federation<$FFF5>…<$FE3C>…<$FE3C>.<$FFFE>

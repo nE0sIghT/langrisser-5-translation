@@ -10,7 +10,7 @@
 8	Burning Flying Ship<$FFFF>
 9	<$FB00><$0003>What happened！？<$FFFE>
 10	<$FB00><$0004>The ship, the ship is on fire！<$FFFE>
-11	<$FB00><$0005>If you have time to shout, put<$FFFC>it out！<$FFFE>
+11	<$FB00><$0005>If you have time to shout, put it<$FFFC>out！<$FFFE>
 12	<$FFF8>…<$FFF6><$FB00><$0006>No use. The fire started<$FFFC>inside. It will burn out soon.<$FFFE>
 13	<$FB00><$0007>What caused it？<$FFFE>
 14	<$FB00><$0008>It uses technology we don't<$FFFC>know, so I cannot be sure. But it is<$FFFC>natural to suspect arson.<$FFFE>
@@ -20,13 +20,13 @@
 18	<$FB00><$000C>If it was arson, the culprit<$FFFC>would not stroll back here.<$FFFD><$FB00><$000D>And she did return to the ship for her<$FFFC>things. If she left a device to ignite at<$FFFC>night<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$000E>But why would she？<$FFFE>
 20	<$FB00><$000F>You said it too. She seems<$FFFC>obsessed with Langrisser and Alhazard.<$FFFE>
-21	<$FB00><$0010>Hey, I said not to mention<$FFFC>that！<$FFFE>
+21	<$FB00><$0010>Hey, I said not to mention that！<$FFFE>
 22	<$FB00><$0011>No, let me say it. She asked for<$FFFC>Langrisser and Alhazard in return for<$FFFC>helping Clarett！<$FFFD><$FB00><$0012>Why does she want those swords？ Is she<$FFFC>planning something？<$FFFE>
 23	<$FB00><$0013>Remember Gizarof's death？ We had<$FFFC>no goal, but she urged us to seek the<$FFFC>swords.<$FFFE>
 24	<$FB00><$0014>Forget that, we need to put out<$FFFC>the fire！<$FFFE>
 25	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0015>It is too late.<$FFFE>
 26	Next Noon<$FFFF>
-27	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0016>Well, what burned is gone.<$FFFC>Good thing I stopped the reactor.<$FFFD><$FB00><$0017>A fire would have made it run wild for<$FFFC>sure.<$FFFE>
+27	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0016>Well, what burned is gone. Good thing<$FFFC>I stopped the reactor.<$FFFD><$FB00><$0017>A fire would have made it run wild for<$FFFC>sure.<$FFFE>
 28	<$FB00><$0018>What if it ran wild？<$FFFE>
 29	<$FB00><$0019>It would spread invisible<$FFFC>poison. If that happened, nobody could<$FFFC>live here for centuries.<$FFFE>
 30	<$FB00><$001A>Centuries！？<$FFFE>
@@ -36,10 +36,10 @@
 34	<$FB00><$001F>Then they took his daughter<$FFFC>hostage so he cannot help us？<$FFFE>
 35	<$FB00><$0020>What a filthy method！<$FFFE>
 36	<$FB00><$0021>But how did they know where we<$FFFC>were going？<$FFFE>
-37	<$FB00><$0022>Who knows. I don't know that<$FFFC>much. Can I continue？<$FFFD><$FB00><$0023>The archbishop's daughter disappeared<$FFFC>after the minister's men came.<$FFFD><$FB00><$0024>It was easy to guess they took her, so I<$FFFC>looked for where she was taken.<$FFFE>
+37	<$FB00><$0022>Who knows. I don't know that much.<$FFFC>Can I continue？<$FFFD><$FB00><$0023>The archbishop's daughter disappeared<$FFFC>after the minister's men came.<$FFFD><$FB00><$0024>It was easy to guess they took her, so I<$FFFC>looked for where she was taken.<$FFFE>
 38	<$FB00><$0025>Did you find it？<$FFFE>
 39	<$FB00><$0026>Of course！<$FFFE>
-40	<$FB00><$0027>Then this is simple. We rescue<$FFFC>the hostage ourselves.<$FFFE>
+40	<$FB00><$0027>Then this is simple. We rescue the<$FFFC>hostage ourselves.<$FFFE>
 41	<$FB00><$0028>Then follow me！<$FFFE>
 42	<$0000>Clarett went to Estor Temple seeking<$FFFC>aid, but the archbishop refused.<$FFFD><$0000>Yet if his daughter, captured by<$FFFC>imperial troops, were rescued, the temple<$FFFC>could rally the people to rise at once.<$FFFD><$0000><$F600><$0000>'s group headed to Dares<$FFFC>Prison to save the hostage.<$FFFE>
 43	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Hostage teleported<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

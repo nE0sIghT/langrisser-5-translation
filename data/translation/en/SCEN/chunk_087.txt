@@ -9,11 +9,11 @@
 7	Near the sorcery lab<$FFFF>
 8	<$FB00><$0075>Where on earth are we headed？<$FFFE>
 9	<$FB00><$0076>To the master. He must hear of<$FFFC>this attack.<$FFFE>
-10	<$FB00><$0077>Right. Marshal Gizarof, you<$FFFC>said.<$FFFE>
+10	<$FB00><$0077>Right. Marshal Gizarof, you said.<$FFFE>
 11	<$FB00><$0078>Yes.<$FFFE>
-12	<$FB00><$0079>Meeting him, we learn why we<$FFFC>were made. And that should tell us why we<$FFFC>were attacked.<$FFFD><$FB00><$007A>Speaking of which, the one who woke<$FFFC>mid-fight<$FFF5><$FFF8>…<$FFFE>
+12	<$FB00><$0079>Meeting him, we learn why we were<$FFFC>made. And that should tell us why we were<$FFFC>attacked.<$FFFD><$FB00><$007A>Speaking of which, the one who woke<$FFFC>mid-fight<$FFF5><$FFF8>…<$FFFE>
 13	<$FB00><$007B>That was Omega. A specimen like<$FFFC>you. Thanks to his waking we got away with<$FFFC>ease.<$FFFE>
-14	<$FB00><$007C>What's become of him？ Shouldn't<$FFFC>we have helped him？<$FFFE>
+14	<$FB00><$007C>What's become of him？ Shouldn't we<$FFFC>have helped him？<$FFFE>
 15	<$FB00><$007D>Go back, get caught ourselves？<$FFFC>How stupid. It's better this way.<$FFFD><$FB00><$007E>You too, if I slow you down, feel free to<$FFFC>run on ahead.<$FFFE>
 16	・I'll do just that.<$FFFE>
 17	・I'm not that heartless.<$FFFE>
@@ -24,7 +24,7 @@
 22	<$FB00><$0083>Meaning I am heartless？<$FFFE>
 23	<$FB00><$0084>Don't twist my words.<$FFFE>
 24	<$FB00><$0085>We are made beings. Not like<$FFFC>ordinary people.<$FFFD><$FB00><$0086>Besides, we haven't even gotten a task<$FFFC>from the master yet. We're of use to no<$FFFC>one.<$FFFD><$FB00><$0087>A tool that ends unused might as well<$FFFC>never have been made.<$FFFD><$FB00><$0088>I will fulfill the purpose I was created<$FFFC>for. That is why I exist.<$FFFE>
-25	<$FB00><$0089>Why we exist, huh. Why are<$FFFC>people born, what do they live for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own purpose are<$FFFC>happier than those who just drift along.<$FFFE>
+25	<$FB00><$0089>Why we exist, huh. Why are people<$FFFC>born, what do they live for<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$008A>Maybe those who find their own purpose are<$FFFC>happier than those who just drift along.<$FFFE>
 26	<$FB00><$008B>You understand, then？<$FFFE>
 27	By the way, <$F600><$0000>. Do you know<$FFFC>the basics of battle？ I can teach you from<$FFFC>my data.<$FFFE>
 28	Like what？<$FFFE>

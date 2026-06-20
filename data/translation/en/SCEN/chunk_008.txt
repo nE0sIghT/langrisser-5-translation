@@ -17,18 +17,18 @@
 15	<$FB00><$0032>I see. Not around here anymore.<$FFFC>Shall we move on<$FFF5><$FFF8>…<$FFFE>
 16	<$FB00><$0033>Huh？ Federation soldiers<$FFF5><$FFF8>…<$FFFE>
 17	<$FFF8>…<$FFF6><$FB00><$0034>And we were almost there<$FFF5><$FFF8>…<$FFFE>
-18	<$FB00><$0035>Hm？ Who are you？ Wander here<$FFFC>and you'll be taken for Gizarof's men.<$FFFE>
+18	<$FB00><$0035>Hm？ Who are you？ Wander here and<$FFFC>you'll be taken for Gizarof's men.<$FFFE>
 19	<$FFF8>…<$FFF6><$FB00><$0036>Wait. That man matches the one<$FFFC>who wounded the Caconsis admiral, does he<$FFFC>not？<$FFFD><$FB00><$0037>You there, come with us.<$FFFE>
 20	<$FB00><$0038>What now？<$FFFE>
-21	<$FB00><$0039>Do as they say, and they'll<$FFFC>learn we really ARE with Gizarof.<$FFFE>
-22	<$FFF8>…<$FFF6><$FB00><$003A>Nothing for it but to force<$FFFC>our way. Everyone, across that bridge！<$FFFE>
+21	<$FB00><$0039>Do as they say, and they'll learn<$FFFC>we really ARE with Gizarof.<$FFFE>
+22	<$FFF8>…<$FFF6><$FB00><$003A>Nothing for it but to force our<$FFFC>way. Everyone, across that bridge！<$FFFE>
 23	<$FB00><$003B>Tougher than they look！<$FFFD><$FB00><$003C>Don't push too hard！ We just hold them<$FFFC>until Lady Emily arrives！<$FFFE>
 24	<$FB00><$003D>Sir！<$FFFE>
 25	Everyone, hurry up！<$FFFE>
 26	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
 27	<$FB00><$0045>Whew, that was close.<$FFFE>
 28	<$FB00><$0048>Safe enough here. You hurry<$FFFC>too！<$FFFE>
-29	A cracked hole opens in the ground. What<$FFFC>do you do？<$FFFE>
+29	A cracked hole opens in the<$FFFC>ground. What do you do？<$FFFE>
 30	・Plug it with a stone<$FFFE>
 31	・Drop in some food<$FFFE>
 32	・Reach inside<$FFFE>
@@ -43,9 +43,9 @@
 41	To do this well against my troops <$FFF8>… <$FFF6>Who is<$FFFC>that man？<$FFFE>
 42	That woman looks skilled. Fighting her is<$FFFC>risky<$FFF8>…<$FFFE>
 43	That's Emily, a famed Federation officer.<$FFFC>Fighting her now is pointless.<$FFFE>
-44	Then we'd best stick to the plan and cross<$FFFC>that bridge.<$FFFE>
-45	Right. Drop the bridge once we reach the<$FFFC>far bank, and we shake the pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
-46	Best stick to the plan and cross that<$FFFC>bridge. Then we drop it and shake the<$FFFC>pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
+44	Then we'd best stick to the plan<$FFFC>and cross that bridge.<$FFFE>
+45	Right. Drop the bridge once we<$FFFC>reach the far bank, and we shake the<$FFFC>pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
+46	Best stick to the plan and cross<$FFFC>that bridge. Then we drop it and shake the<$FFFC>pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
 47	Escape point<$FFFF>
 48	<$FB00><$002B>Take this！<$FFFE>
 49	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>

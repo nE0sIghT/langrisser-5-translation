@@ -17,29 +17,29 @@
 15	・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFE>
 16	・All citizens killed<$FFFC>・<$F600><$0000> dies<$FFFE>
 17	Valtar Town, Northeast District<$FFFF>
-18	<$FB00><$0042>I'll save every one of you！<$FFFC>Don't give up！<$FFFE>
+18	<$FB00><$0042>I'll save every one of you！ Don't give<$FFFC>up！<$FFFE>
 19	<$FB00><$0043>Y, yes！<$FFFE>
-20	<$FB00><$0044>Even so<$FFF5><$FFF8>…,<$FFF6><$FB00><$0045>against that<$FFFC>many enemies, can I save them alone<$FFF5><$FFF8>….<$FFFE>
+20	<$FB00><$0044>Even so<$FFF5><$FFF8>…,<$FFF6><$FB00><$0045>against that many enemies, can<$FFFC>I save them alone<$FFF5><$FFF8>….<$FFFE>
 21	<$FFF8><$FB00><$0046>Hm？<$FFF5> <$FFF6><$FB00><$0047>Is that… McClaine？<$FFFE>
-22	<$FB00><$0048>B, brother？ Why are you<$FFFC>here？<$FFFE>
+22	<$FB00><$0048>B, brother？ Why are you here？<$FFFE>
 23	<$FB00><$004A>Lanford, and Marie too！<$FFFE>
 24	<$FB00><$0049>Weren't you in El Sallia<$FFF5><$FFF8>….<$FFFE>
-25	…<$FFF6><$FB00><$004B>I heard this city was<$FFFC>under attack and rushed back.<$FFFE>
-26	<$FB00><$004C>Is there something so<$FFFC>important here？ It hardly seems a<$FFFC>strategic point<$FFF5><$FFF8>….<$FFFE>
-27	<$FB00><$004D>This place<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>has an ancient<$FFFC>weapon buried in it.<$FFFE>
-28	<$FB00><$004F>Is that what Lainforce is<$FFFC>after？<$FFFE>
+25	…<$FFF6><$FB00><$004B>I heard this city was under<$FFFC>attack and rushed back.<$FFFE>
+26	<$FB00><$004C>Is there something so important<$FFFC>here？ It hardly seems a strategic<$FFFC>point<$FFF5><$FFF8>….<$FFFE>
+27	<$FB00><$004D>This place<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>has an ancient weapon<$FFFC>buried in it.<$FFFE>
+28	<$FB00><$004F>Is that what Lainforce is after？<$FFFE>
 29	<$FB00><$0050>That weapon, what manner of<$FFFC>thing is it？ Could you tell us？<$FFFE>
 30	<$FB00><$0051>A sky battleship. Big as a<$FFFC>parent to all airships, fitted with many<$FFFC>Magitek cannons.<$FFFE>
 31	<$FFF8>…<$FFF6><$FB00><$0052>I see. So that's what was<$FFFC>buried here.<$FFFE>
-32	<$FB00><$0053>Isn't that why you came<$FFFC>back？<$FFFE>
+32	<$FB00><$0053>Isn't that why you came back？<$FFFE>
 33	<$FB00><$0054>A wholly personal matter.<$FFF5><$FFFC><$FB00><$0002><$FB00><$0055>Marie, listen well！ Father and mother are<$FFFC>here！<$FFFE>
 34	<$FB00><$0056>Father and mother are！？<$FFFE>
 35	<$FB00><$0057>Yeah. They should have taken<$FFFC>shelter in this town.<$FFFE>
 36	<$FB00><$0058>And, are they safe？<$FFFE>
-37	<$FB00><$0059>I don't know.<$FFF5> <$FB00><$005A>But if we<$FFFC>get through this, we can ask where the<$FFFC>other citizens fled.<$FFFE>
+37	<$FB00><$0059>I don't know.<$FFF5> <$FB00><$005A>But if we get<$FFFC>through this, we can ask where the other<$FFFC>citizens fled.<$FFFE>
 38	<$FB00><$005B>Right, we'll back you up！<$FFFE>
 39	<$FFF8><$FB00><$005C>Heh heh heh！<$FFF5> <$FFF6><$FB00><$005D>What an<$FFFC>interesting fellow. A fine chance to take<$FFFC>him down.<$FFFE>
-40	<$FB00><$005E>You there！ Attack the<$FFFC>citizens too！<$FFFE>
+40	<$FB00><$005E>You there！ Attack the citizens<$FFFC>too！<$FFFE>
 41	<$FB00><$005F>I refuse. We've no wish to<$FFFC>wage a needless fight.<$FFFE>
 42	<$FB00><$0060>You won't heed my words！？ I<$FFFC>hold command from Lainforce.<$FFFD><$FB00><$0061>To defy me is to defy Lainforce, you<$FFFC>understand？<$FFFE>
 43	<$FFF8><$FFFA>….<$FFFE>
@@ -53,17 +53,17 @@
 51	<$FFF8>….<$FFFE>
 52	If we get out of here alive, you'll see<$FFFC>them.<$FFFE>
 53	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
-54	<$FB00><$0064>Don't worry, Marie. I'll<$FFFC>reunite you with your parents without<$FFFC>fail！<$FFFE>
+54	<$FB00><$0064>Don't worry, Marie. I'll reunite<$FFFC>you with your parents without fail！<$FFFE>
 55	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
-56	What are you standing dazed for！ Now we<$FFFC>fight！<$FFFE>
+56	What are you standing dazed for！<$FFFC>Now we fight！<$FFFE>
 57	<$FFF8>….<$FFFE>
-58	Think of yourself now！ If we get out<$FFFC>alive, you can search for them！<$FFFE>
+58	Think of yourself now！ If we get<$FFFC>out alive, you can search for them！<$FFFE>
 59	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
-60	<$FB00><$0065>For that, we take no risks.<$FFFC>We get the citizens out, then escape<$FFFC>ourselves.<$FFFE>
+60	<$FB00><$0065>For that, we take no risks. We get<$FFFC>the citizens out, then escape ourselves.<$FFFE>
 61	・Even one unit of citizens is killed<$FFFC>・<$F600><$0000> dies<$FFFE>
 62	<$FB00><$00A3>I can't lose！ Even without<$FFFC>Langrisser, I'm a finished body with this<$FFFC>power！ Behold my strength！<$FFFE>
 63	<$FB00><$00A4>Omega's aura is swelling？<$FFFC>He's used his power！<$FFFE>
-64	<$FB00><$00A5>I amplify mental energy and<$FFFC>make it my own. A failed product like you<$FFFC>never even knew how to use it！<$FFFD><$FB00><$00A6>Here I come！<$FFFE>
+64	<$FB00><$00A5>I amplify mental energy and make it my<$FFFC>own. A failed product like you never even<$FFFC>knew how to use it！<$FFFD><$FB00><$00A6>Here I come！<$FFFE>
 65	<$FB00><$00A7>I can't escape while<$FFFC>everyone's still here<$FFF5><$FFF8>….<$FFFE>
 66	<$FB00><$00AE>First we get the citizens<$FFFC>out. We go after.<$FFFE>
 67	Let this one escape first？<$FFFE>
@@ -71,30 +71,30 @@
 69	Let this one escape first？<$FFFE>
 70	<$FB00><$00A9>Excuse me, I'll go ahead.<$FFFE>
 71	Let this one escape first？<$FFFE>
-72	<$FB00><$00AA>I'll go first, but you take<$FFFC>care too！<$FFFE>
+72	<$FB00><$00AA>I'll go first, but you take care too！<$FFFE>
 73	Let this one escape first？<$FFFE>
-74	<$FB00><$00AB>Pardon me, going ahead！<$FFF5><$FFF8><$FFFC>…<$FFF6><$FB00><$00AC>Be careful.<$FFFE>
+74	<$FB00><$00AB>Pardon me, going ahead！<$FFF5><$FFF8> …<$FFF6><$FB00><$00AC>Be careful.<$FFFE>
 75	Let this one escape first？<$FFFE>
-76	<$FB00><$00AD>I'll go ahead, but mind<$FFFC>yourself.<$FFFE>
+76	<$FB00><$00AD>I'll go ahead, but mind yourself.<$FFFE>
 77	<$FB00><$0093>Now I can go see my mother！<$FFFE>
 78	<$FB00><$0094>W, we're saved<$FFF5><$FFF8>….<$FFFE>
 79	<$FB00><$0095>Lucky！ We made it！<$FFFE>
 80	Good. Time for me to escape too.<$FFFE>
 81	<$FB00><$002C>Take this！<$FFFE>
-82	Glad of it！ That you'd fight instead of<$FFFC>fleeing！<$FFFE>
-83	No need to flee. Here I come, Omega！<$FFFE>
+82	Glad of it！ That you'd fight<$FFFC>instead of fleeing！<$FFFE>
+83	No need to flee. Here I come,<$FFFC>Omega！<$FFFE>
 84	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 85	<$FB00><$0046>Here goes.<$FFFE>
 86	<$FB00><$0047>Come if you dare.<$FFFE>
 87	<$FB00><$00B7>Aah！<$FFFE>
 88	<$FB00><$00B8>Marie！<$FFFE>
 89	<$FB00><$00B9>B, brother<$FFF5><$FFF8>… <$FFF6><$FB00><$00BA>I'm still all<$FFFC>right<$FFF5><$FFF8>….<$FFFE>
-90	<$FB00><$00BB>Don't talk nonsense！ If<$FFFC>anything happened to you, I couldn't face<$FFFC>our parents！<$FFFE>
+90	<$FB00><$00BB>Don't talk nonsense！ If anything<$FFFC>happened to you, I couldn't face our<$FFFC>parents！<$FFFE>
 91	<$FB00><$00BC>Leave this to me, Marie.<$FFFE>
 92	<$FB00><$00BD>All right.<$FFF5><$FFF8> …<$FFF6><$FB00><$00BE>Please.<$FFFE>
 93	<$FB00><$0075>I can fight too！<$FFFE>
 94	<$FB00><$0076>I won't lose！<$FFFE>
-95	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
+95	<$FB00><$007B>I can still… I can still fight…<$FFFE>
 96	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 97	<$FB00><$007D>But…<$FFFE>
 98	<$FB00><$007E>Trust your comrades！<$FFFE>
@@ -102,22 +102,22 @@
 100	<$FB00><$0068>Come and get it！<$FFFE>
 101	<$FB00><$0069>Who do you think I am！<$FFFE>
 102	<$FFF8>…<$FB00><$00C0>Lain<$FFF5><$FFF8>….<$FFFE>
-103	<$FB00><$00C1>I regret ever meeting you.<$FFFC>Had we never met, we'd not be fighting<$FFFC>like this.<$FFFE>
-104	<$FB00><$00C2>You'll pin it all on the god<$FFFC>of fate？<$FFF5> <$FB00><$00C3>That I can't accept！<$FFFE>
+103	<$FB00><$00C1>I regret ever meeting you. Had<$FFFC>we never met, we'd not be fighting like<$FFFC>this.<$FFFE>
+104	<$FB00><$00C2>You'll pin it all on the god of<$FFFC>fate？<$FFF5> <$FB00><$00C3>That I can't accept！<$FFFE>
 105	<$FB00><$0070>This is getting dicey…<$FFFE>
 106	<$FB00><$0071>Fall back, Brenda！ Leave<$FFFC>the rest to me！<$FFFE>
 107	<$FB00><$0072>Sorry… I'll take you up on<$FFFC>that…<$FFFE>
 108	<$FB00><$0054>I won't lose！<$FFFE>
 109	<$FB00><$0056>Sorry, I'll pull back<$FFFC>first…<$FFFE>
-110	<$FB00><$0085>By this sword, I'll defeat<$FFFC>you！<$FFFE>
+110	<$FB00><$0085>By this sword, I'll defeat you！<$FFFE>
 111	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
-112	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
+112	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
 113	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
-114	<$FB00><$0090>A wound like this is a<$FFFC>scratch…<$FFFE>
-115	<$FB00><$0091>Don't push it！ Leave the<$FFFC>rest to us！<$FFFE>
+114	<$FB00><$0090>A wound like this is a scratch…<$FFFE>
+115	<$FB00><$0091>Don't push it！ Leave the rest to<$FFFC>us！<$FFFE>
 116	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
-117	<$FB00><$006F>U, um, what should we<$FFFC>do<$FFF5><$FFF8>…？<$FFFE>
-118	U, um, your orders, please….<$FFFE>
+117	<$FB00><$006F>U, um, what should we do<$FFF5><$FFF8>…？<$FFFE>
+118	U, um, your orders,<$FFFC>please….<$FFFE>
 119	<$FB00><$0070>Right<$FFF5><$FFF8>….<$FFFE>
 120	・Flee north<$FFFE>
 121	・Flee northeast<$FFFE>
@@ -126,17 +126,17 @@
 124	<$FB00><$0071>Flee to the north！<$FFFE>
 125	<$FB00><$0072>Flee to the northeast！<$FFFE>
 126	<$FB00><$0073>Flee to the east！<$FFFE>
-127	Don't move yet. I'll give the word as I<$FFFC>read the situation！<$FFFE>
+127	Don't move yet. I'll give<$FFFC>the word as I read the situation！<$FFFE>
 128	<$FB00><$0074>Y, yes！<$FFFE>
 129	<$FB00><$0087>Kyaaa！ Help！<$FFF5><$FFF7><$FFFE>
 130	<$FB00><$008A>What！？ The citizens are<$FFFC>hit！<$FFFE>
-131	<$FB00><$008B>No<$FFF5><$FFF8>… <$FFF6><$FB00><$008C>Did I give the wrong<$FFFC>order？<$FFFE>
+131	<$FB00><$008B>No<$FFF5><$FFF8>… <$FFF6><$FB00><$008C>Did I give the wrong order？<$FFFE>
 132	<$FB00><$008D>M, mother…<$FFFE>
 133	<$FB00><$0088>No！ Stop！<$FFFE>
 134	<$FB00><$008E>Why… does it come to this…<$FFFE>
 135	<$FB00><$0089>Waah！ Help me！<$FFFE>
 136	<$FB00><$008F>It hurts, it hurts…<$FFFE>
-137	<$FB00><$0066>I'll cover you. What do you<$FFFC>want？<$FFFE>
+137	<$FB00><$0066>I'll cover you. What do you want？<$FFFE>
 138	・Head for the north gate<$FFFE>
 139	・Head for the northeast gate<$FFFE>
 140	・Head for the east gate<$FFFE>
@@ -151,7 +151,7 @@
 149	<$FB00><$006E>Got it, then I'll do as I<$FFFC>like！<$FFFE>
 150	<$FB00><$00B2>U, gh… I slipped up！<$FFFE>
 151	<$FB00><$00B3>Brother！ Don't push<$FFFC>yourself！<$FFFE>
-152	<$FB00><$00B4>Fall back, McClaine. We'll<$FFFC>manage the rest！<$FFFE>
+152	<$FB00><$00B4>Fall back, McClaine. We'll manage<$FFFC>the rest！<$FFFE>
 153	<$FB00><$00B5>Sorry about this….<$FFFE>
 154	…Gh… what strength….<$FFFE>
 155	Wh, what！？<$FFFE>

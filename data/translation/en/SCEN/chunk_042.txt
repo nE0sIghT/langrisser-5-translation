@@ -68,9 +68,9 @@
 66	<$0000> Got the Megingjord！<$FFFE>
 67	The treasure chest was empty！<$FFFE>
 68	Now all that's left is to wipe out the<$FFFC>enemy！ Let's go！<$FFFE>
-69	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+69	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 70	<$FB00><$004B>No… I lost…<$FFFE>
-71	<$FB00><$004C>Marie, leave this to us and<$FFFC>fall back！<$FFFE>
+71	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
 72	…<$FB00><$004D>Sorry…<$FFFE>
 73	<$FB00><$007B>Not yet… I can still fight…<$FFFE>
 74	<$FB00><$007C>Alfred！ Fall back for now！<$FFFE>
@@ -80,28 +80,28 @@
 78	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 79	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 80	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
-81	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-82	<$FB00><$006F>…I'll do that. Wouldn't want<$FFFC>to drag you down…<$FFFE>
+81	<$FB00><$006E>Fall back, Brenda！ Don't push it！<$FFFE>
+82	<$FB00><$006F>…I'll do that. Wouldn't want to drag you<$FFFC>down…<$FFFE>
 83	<$FB00><$005C>Ow！ You dare！<$FFFE>
-84	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+84	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 85	<$FB00><$005E>B-but…<$FFFE>
 86	<$FB00><$005F>Just fall back！<$FFFE>
-87	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
+87	<$FB00><$0060>Sorry, at such an important time…<$FFFE>
 88	<$FB00><$008A>Lanford！<$FFFE>
-89	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
+89	<$FB00><$008B>…I'm all right…. I won't leave it all<$FFFC>to you…<$FFFE>
 90	<$FB00><$008C>Trust us！<$FFFE>
-91	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
+91	<$FB00><$008D>…Comrades, eh. Then I'll fall back.<$FFFE>
 92	<$FFF8>…<$FFF6><$FB00><$0036>Uu<$FFF5><$FFF8>….<$FFFE>
 93	<$FB00><$0037>Did we get him！<$FFFE>
 94	<$FFF7><$FB00><$0053>Ugyaah！<$FFFE>
 95	What a bothersome bunch. But I won't go<$FFFC>down so easily！<$FFFE>
 96	…Self-repair circuit… stopped…<$FFFC>…functions… declining… …func…<$FFFC>de…cline… …fun… de…<$FFFE>
-97	<$FFF8>…<$FFF6><$FB00><$003A>I'll be waiting…in<$FFFC>hell…a step ahead of you<$FFF5><$FFF8>…<$FFFE>
+97	<$FFF8>…<$FFF6><$FB00><$003A>I'll be waiting…in hell…a step ahead<$FFFC>of you<$FFF5><$FFF8>…<$FFFE>
 98	<$0000> Got Alhazard！<$FFFE>
-99	<$FB00><$0085>…<$FE1E>…<$FE1E>I, impossible… to mere<$FFFC>humans… that I<$FFF5><$FFF8>…<$FE14>…<$FFFE>
-100	<$FB00><$003C>Guoh！ <$FFF5><$FFF8>…<$FFF6><$FB00><$003D>Impossible, me of all<$FFFC>people<$FFF5><$FFF8>…<$FFFE>
-101	<$FB00><$00B1>Ngh, guh！ …Why…？ Does the<$FFFC>degree of my modification mean nothing<$FFF5><$FFF8>…<$FFFE>
-102	<$FB00><$0081>D, damn… I won't give up… I<$FFFC>will… take this world… in my…<$FFFE>
+99	<$FB00><$0085>…<$FE1E>…<$FE1E>I, impossible… to mere humans… that<$FFFC>I<$FFF5><$FFF8>…<$FE14>…<$FFFE>
+100	<$FB00><$003C>Guoh！ <$FFF5><$FFF8>…<$FFF6><$FB00><$003D>Impossible, me of all people<$FFF5><$FFF8>…<$FFFE>
+101	<$FB00><$00B1>Ngh, guh！ …Why…？ Does the degree of<$FFFC>my modification mean nothing<$FFF5><$FFF8>…<$FFFE>
+102	<$FB00><$0081>D, damn… I won't give up… I will… take<$FFFC>this world… in my…<$FFFE>
 103	<$FB00><$0046>Im, impossible… How… could<$FFFC>I… lose…<$FFFE>
 104	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To think that I<$FFFC>could lose…<$FFFE>
 105	A voice came from nowhere…<$FFFD>Well cleared. Let me grant you a<$FFFC>blessing…<$FFFE>

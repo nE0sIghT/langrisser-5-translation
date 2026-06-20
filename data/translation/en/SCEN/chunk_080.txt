@@ -12,7 +12,7 @@
 10	Virash<$FFFF>
 11	Lainforce<$FFFF>
 12	Night Before Departure<$FFFF>
-13	<$FB00><$0001>The airship retrofit will be<$FFFC>done by dawn.<$FFF5> <$FB00><$0002>Whether this world lives<$FFFC>or dies depends on us now.<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0003>Come to think of it, how is everyone<$FFFC>doing？<$FFFE>
+13	<$FB00><$0001>The airship retrofit will be done by dawn.<$FFF5><$FFFC><$FB00><$0002>Whether this world lives or dies depends<$FFFC>on us now.<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0003>Come to think of it, how is everyone<$FFFC>doing？<$FFFE>
 14	Who do you visit？<$FFFE>
 15	・Marie<$FFFE>
 16	・Brenda<$FFFE>
@@ -38,22 +38,22 @@
 36	<$FB00><$0056>Yes.<$FFFE>
 37	<$FB00><$0041>Leave it to me！<$FFFE>
 38	<$FB00><$000D>Leave it to me.<$FFFE>
-39	And so the party boarded the airship and<$FFFC>launched into space for Peiria…<$FFFE>
+39	And so the party boarded the<$FFFC>airship and launched into space for<$FFFC>Peiria…<$FFFE>
 40	Aboard the Airship to Peiria<$FFFF>
-41	<$FB00><$0003>Brenda, how long until we<$FFFC>reach Peiria？<$FFFE>
+41	<$FB00><$0003>Brenda, how long until we reach Peiria？<$FFFE>
 42	<$FB00><$0004>About an hour, I'd say.<$FFFE>
-43	<$FB00><$0005>Look<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0006>Our world has gotten<$FFFC>so small<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+43	<$FB00><$0005>Look<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0006>Our world has gotten so<$FFFC>small<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 44	<$FB00><$0007>It was blue and beautiful.<$FFFE>
-45	<$FB00><$0008>Seen like this, our world<$FFFC>truly is one star.<$FFFE>
-46	<$FB00><$0009>It is strange. Hard to believe<$FFFC>we lived on something so round.<$FFFE>
+45	<$FB00><$0008>Seen like this, our world truly is<$FFFC>one star.<$FFFE>
+46	<$FB00><$0009>It is strange. Hard to believe we<$FFFC>lived on something so round.<$FFFE>
 47	<$FB00><$000A>Whoa, incoming<$FFFC>transmission<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 48	<$FB00><$000B>How are things there？<$FFFE>
-49	<$FB00><$000C>We're heading for Peiria now.<$FFFC>We should arrive soon.<$FFFE>
+49	<$FB00><$000C>We're heading for Peiria now. We<$FFFC>should arrive soon.<$FFFE>
 50	<$FB00><$000D>More importantly, how is<$FFFC>Crimso？<$FFFE>
 51	<$FB00><$000E>As expected, Chaos's revival<$FFFC>has filled it with monsters.<$FFFD><$FB00><$000F>All Crimson Knights are rescuing the<$FFFC>people. The demons should soon be driven<$FFFC>out.<$FFFE>
 52	<$FB00><$0010>Using spare sky battleships,<$FFFC>we're evacuating everyone.<$FFF5> <$FB00><$0011>By the time<$FFFC>Peiria blows, it should be done.<$FFFE>
 53	<$FB00><$0012>So it all depends on us.<$FFFE>
-54	<$FB00><$0013>We're counting on you,<$FFFC>everyone.<$FFFE>
+54	<$FB00><$0013>We're counting on you, everyone.<$FFFE>
 55	<$FB00><$0014>Please don't add more<$FFFC>pressure.<$FFFE>
 56	<$FB00><$0015>Still, I want to protect that<$FFFC>blue, beautiful planet.<$FFFE>
 57	<$FB00><$0016>Yeah. We'll protect it！<$FFFE>
@@ -66,25 +66,25 @@
 64	<$FB00><$001F>No, not after coming this<$FFFC>far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 65	<$FB00><$0020>Can you do anything, Brenda？<$FFFE>
 66	<$FB00><$0021>We're not getting shot down<$FFFC>here！<$FFFD><$FB00><$0022>Everybody, hold on tight！<$FFF5> <$FB00><$0023>This'll be<$FFFC>rough, but we're forcing our way in！<$FFFE>
-67	Inside Peiria, Passage to the Core<$FFFF>
-68	<$FB00><$0024>Looks like we got inside<$FFFC>somehow.<$FFFE>
+67	Inside Peiria, Passage to the<$FFFC>Core<$FFFF>
+68	<$FB00><$0024>Looks like we got inside somehow.<$FFFE>
 69	<$FB00><$0025>But the ship<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 70	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0026>I'm sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0027>If I'd<$FFFC>piloted better, this wouldn't have<$FFFC>happened<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-71	<$FB00><$0028>Not getting shot down is<$FFFC>enough.<$FFFE>
+71	<$FB00><$0028>Not getting shot down is enough.<$FFFE>
 72	<$FB00><$0029>Right！ If we had crashed, we<$FFFC>couldn't even blow up Peiria.<$FFF5> <$FB00><$002A>We'll<$FFFC>think about getting home later.<$FFFE>
 73	<$FB00><$002B>Exactly.<$FFFE>
-74	<$FB00><$002C>Look<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$002D>The path splits<$FFFC>here.<$FFFE>
-75	<$FB00><$002E>Six paths total<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E><$FFFC><$FFF6><$FB00><$002F>Brenda, can you tell？<$FFFE>
+74	<$FB00><$002C>Look<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$002D>The path splits here.<$FFFE>
+75	<$FB00><$002E>Six paths total<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E> <$FFF6><$FB00><$002F>Brenda,<$FFFC>can you tell？<$FFFE>
 76	<$FB00><$0030>Not this deep in, no<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 77	<$FB00><$0031>What now？<$FFF5> <$FFF6><$FB00><$0032>Check them one by<$FFFC>one？<$FFFE>
 78	<$FB00><$0033>Do we have time to check every<$FFFC>path？<$FFFE>
-79	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0034>Everyone take a different<$FFFC>path and scout ahead.<$FFFE>
+79	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0034>Everyone take a different path<$FFFC>and scout ahead.<$FFFE>
 80	<$FB00><$0035>Understood. We'll meet back<$FFFC>here.<$FFFE>
 81	<$FB00><$005B>We cannot afford to fail after<$FFFC>coming this far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 82	<$FB00><$0036>We'll be all right<$FFF5>…<$FE14>…<$FE14>？<$FFFE>
 83	<$FB00><$0037>Actually, McClaine told me<$FFFC>something before we left.<$FFFE>
 84	<$FB00><$0038>My brother did？<$FFFE>
-85	<$FB00><$0039>He said if anything happened<$FFFC>to his sister, he'd never approve of us.<$FFFE>
+85	<$FB00><$0039>He said if anything happened to<$FFFC>his sister, he'd never approve of us.<$FFFE>
 86	<$FFF7><$FB00><$003A>Oh！<$FFF5> <$FFF6><$FB00><$003B>That brother of mine…<$FFFE>
 87	<$FB00><$003C>Anyway, I'll protect you.<$FFF5> <$FB00><$003D>So<$FFFC>have confidence.<$FFF5> <$FB00><$003E>It's all right. We can<$FFFC>do this.<$FFFE>
 88	<$FB00><$003F>Yes.<$FFF5> <$FB00><$0040>I feel like I can do<$FFFC>anything for you.<$FFF5><$FFF8> …<$FE14>…<$FE14><$FFF6><$FB00><$0041>Let's meet again.<$FFFE>
@@ -95,161 +95,161 @@
 93	<$FB00><$0049>Heh, sorry. Not like me,<$FFFC>huh<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$004A>Well, I'm going too！<$FFFE>
 94	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$004B>Ah, Brenda！<$FFFE>
 95	<$FB00><$004C>Worried？<$FFFE>
-96	<$FB00><$004D>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$004E>I'd be lying if I said<$FFFC>I wasn't.<$FFFE>
+96	<$FB00><$004D>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$004E>I'd be lying if I said I<$FFFC>wasn't.<$FFFE>
 97	<$FB00><$004F>Honest, aren't you.<$FFF5><$FFF8><$FE1E><$FE1E> <$FFF6><$FB00><$0050>But it's<$FFFC>fine. You've got the goddess of victory<$FFFC>with you, right？<$FFFE>
-98	<$FB00><$0051>Do people usually call<$FFFC>themselves that？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0052>Say, Clarett.<$FFFE>
+98	<$FB00><$0051>Do people usually call themselves<$FFFC>that？<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0052>Say, Clarett.<$FFFE>
 99	<$FB00><$0053>What？<$FFFE>
 100	<$FB00><$0054>When we return, why don't we<$FFFC>travel together？<$FFFE>
 101	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>Yes.<$FFF5><$FFF8><$FE1E><$FE1E> <$FFF6><$FB00><$0056>Seeing the world as<$FFFC>a honeymoon might be nice.<$FFFE>
 102	<$FB00><$0057>H-honeymoon？<$FFFE>
 103	<$FFF7><$FB00><$0058>Ahaha！<$FFF5><$FFF8><$FFFB> <$FFF6><$FB00><$0059>Then I'll check this<$FFFC>way！<$FFFE>
 104	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$005A>Time for me to go too.<$FFFE>
-105	<$0000>At Peiria, <$F600><$0000>'s party<$FFFC>headed for the core. <$0000>Before them lay<$FFFC>six branching passages.<$FFFD><$0000>No time to hesitate. <$0000>The six split<$FFFC>up, each trusting their path. <$0000>And each<$FFFC>hoping it led forward.<$FFFE>
+105	<$0000>At Peiria,<$FFFC><$F600><$0000>'s party headed for the<$FFFC>core. <$0000>Before them lay six branching<$FFFC>passages.<$FFFD><$0000>No time to hesitate. <$0000>The six split<$FFFC>up, each trusting their path. <$0000>And each<$FFFC>hoping it led forward.<$FFFE>
 106	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
 107	Outside the Inn<$FFFF>
 108	…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
 109	<$FB00><$0009>Talking to trees again？<$FFFE>
 110	…<$FB00><$000A>Oh, you saw me.<$FFFE>
-111	<$FB00><$000B>No need to be embarrassed.<$FFF5> <$FB00><$000C>I<$FFFC>envy you for being able to talk to plants.<$FFFE>
-112	<$FB00><$000D>Plants are so calm and<$FFFC>kind<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$000E>They accept everything and live.<$FFFD><$FB00><$000F>Other animals do too. Only humans struggle<$FFFC>so desperately.<$FFFE>
-113	<$FB00><$0010>It may look pathetic. …But if<$FFFC>you give up from the start, nothing<$FFFC>changes.<$FFFD><$FB00><$0011>Even if it's hopeless. Keep believing in<$FFFC>possibility until the end.<$FFFE>
+111	<$FB00><$000B>No need to be embarrassed.<$FFF5> <$FB00><$000C>I envy you for<$FFFC>being able to talk to plants.<$FFFE>
+112	<$FB00><$000D>Plants are so calm and kind<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$000E>They<$FFFC>accept everything and live.<$FFFD><$FB00><$000F>Other animals do too. Only humans struggle<$FFFC>so desperately.<$FFFE>
+113	<$FB00><$0010>It may look pathetic. …But if you give up<$FFFC>from the start, nothing changes.<$FFFD><$FB00><$0011>Even if it's hopeless. Keep believing in<$FFFC>possibility until the end.<$FFFE>
 114	<$FB00><$0012>You're strong…<$FFFE>
-115	<$FB00><$0013>Maybe because of Gizarof's<$FFFC>modifications.<$FFFE>
-116	<$FB00><$0014>No, that's not it. That<$FFFC>strength is yours. No matter how much<$FFFC>someone modifies a body, they cannot<$FFFC>change a person's essence.<$FFFD><$FB00><$0015>You are you.<$FFFE>
-117	<$FB00><$0016>I am me… If you say so, maybe<$FFFC>it's true. I feel a little lighter.<$FFFE>
+115	<$FB00><$0013>Maybe because of Gizarof's modifications.<$FFFE>
+116	<$FB00><$0014>No, that's not it. That strength is yours.<$FFFC>No matter how much someone modifies a<$FFFC>body, they cannot change a person's<$FFFC>essence.<$FFFD><$FB00><$0015>You are you.<$FFFE>
+117	<$FB00><$0016>I am me… If you say so, maybe it's true.<$FFFC>I feel a little lighter.<$FFFE>
 118	<$FB00><$0017>Hm？<$FFFE>
-119	<$FB00><$0018>I acted calm, but it was<$FFFC>always bothering me. The me now was made.<$FFFC>So what was my original self？<$FFFE>
-120	…<$FB00><$0019>I'm sorry. I'm the only one<$FFFC>who got her memories back.<$FFFE>
-121	<$FB00><$001A>It can't be helped. I died,<$FFFC>and Gizarof modified my mind too.<$FFFD><$FB00><$001B>But now I don't even hate Gizarof. I<$FFFC>almost feel grateful.<$FFFE>
+119	<$FB00><$0018>I acted calm, but it was always bothering<$FFFC>me. The me now was made. So what was my<$FFFC>original self？<$FFFE>
+120	…<$FB00><$0019>I'm sorry. I'm the only one who got her<$FFFC>memories back.<$FFFE>
+121	<$FB00><$001A>It can't be helped. I died, and Gizarof<$FFFC>modified my mind too.<$FFFD><$FB00><$001B>But now I don't even hate Gizarof. I<$FFFC>almost feel grateful.<$FFFE>
 122	<$FB00><$001C>Why？<$FFFE>
-123	<$FB00><$001D>If Gizarof hadn't modified me,<$FFFC>there'd be no way to stop Peiria.<$FFFE>
+123	<$FB00><$001D>If Gizarof hadn't modified me, there'd be<$FFFC>no way to stop Peiria.<$FFFE>
 124	…<$FB00><$001E>Hehehe…<$FFFE>
-125	<$FB00><$001F>W-what？ Did I say something<$FFFC>strange？<$FFFE>
-126	<$FB00><$0020>Sorry. It sounded so much like<$FFFC>you.<$FFFE>
+125	<$FB00><$001F>W-what？ Did I say something strange？<$FFFE>
+126	<$FB00><$0020>Sorry. It sounded so much like you.<$FFFE>
 127	<$FB00><$0021>Tch！<$FFFD>…<$FB00><$0022>But you've changed. You laugh a lot more<$FFFC>now.<$FFFE>
-128	<$FB00><$0023>Yes. I think I changed because<$FFFC>you gave me courage. Thank you.<$FFFD>…<$FB00><$0024>You really are strong. I'm afraid. The<$FFFC>fate of this world rests on us…<$FFFE>
-129	<$FB00><$0025>No, I'm afraid too. But we<$FFFC>have to do it. So I will. That's all.<$FFFE>
+128	<$FB00><$0023>Yes. I think I changed because you gave me<$FFFC>courage. Thank you.<$FFFD>…<$FB00><$0024>You really are strong. I'm afraid. The<$FFFC>fate of this world rests on us…<$FFFE>
+129	<$FB00><$0025>No, I'm afraid too. But we have to do it.<$FFFC>So I will. That's all.<$FFFE>
 130	<$FB00><$0026>Yes. I'll think that way too.<$FFFE>
 131	<$FB00><$0027>Let's do our best tomorrow.<$FFFE>
 132	<$FB00><$0028>Yes.<$FFFE>
-133	<$FB00><$0029>So you were telling the trees<$FFFC>about your fears？<$FFFE>
-134	<$FB00><$002A>That really is strange, isn't<$FFFC>it…<$FFFE>
-135	<$FB00><$002B>You could have told me<$FFFC>instead.<$FFFE>
+133	<$FB00><$0029>So you were telling the trees about your<$FFFC>fears？<$FFFE>
+134	<$FB00><$002A>That really is strange, isn't it…<$FFFE>
+135	<$FB00><$002B>You could have told me instead.<$FFFE>
 136	…<$FB00><$002C>Eh…<$FFFE>
 137	<$FB00><$002D>Am I not reliable enough…？<$FFFE>
-138	<$FB00><$002E>That's not… true… But… I<$FFFC>couldn't say it… because…<$FFFE>
+138	<$FB00><$002E>That's not… true… But… I couldn't say<$FFFC>it… because…<$FFFE>
 139	<$FB00><$002F>Because？<$FFFE>
-140	<$FB00><$0030>Please don't laugh… I was<$FFFC>asking them about you…<$FFFE>
+140	<$FB00><$0030>Please don't laugh… I was asking them<$FFFC>about you…<$FFFE>
 141	<$FB00><$0031>About me？<$FFFE>
 142	<$FB00><$0032>About… what you think of me…<$FFFE>
 143	…<$FB00><$0033>Then ask me directly.<$FFFE>
 144	…<$FB00><$0034>Please tell me…<$FFFE>
-145	…<$FB00><$0035>I love you. I've loved you<$FFFC>since you were Lambda. That is why I<$FFFC>wanted you to be happy.<$FFFD><$FB00><$0036>Those are my feelings.<$FFFE>
+145	…<$FB00><$0035>I love you. I've loved you since you<$FFFC>were Lambda. That is why I wanted you to<$FFFC>be happy.<$FFFD><$FB00><$0036>Those are my feelings.<$FFFE>
 146	…<$FB00><$0037>This isn't a dream…？<$FFFE>
 147	<$FB00><$0038>It's real. I love you.<$FFFE>
-148	…<$FB00><$0039>Ah… Now I can feel grateful<$FFFC>to Gizarof too. He gave me the chance to<$FFFC>meet you.<$FFFE>
+148	…<$FB00><$0039>Ah… Now I can feel grateful to Gizarof<$FFFC>too. He gave me the chance to meet you.<$FFFE>
 149	…<$FB00><$003A>Haha, maybe so.<$FFFE>
-150	…<$FB00><$003B>Meeting people is<$FFFC>mysterious… The bonds between people…<$FFFE>
-151	<$FB00><$003C>You said I gave you courage,<$FFFC>but you give me courage too.<$FFFE>
+150	…<$FB00><$003B>Meeting people is mysterious… The bonds<$FFFC>between people…<$FFFE>
+151	<$FB00><$003C>You said I gave you courage, but you give<$FFFC>me courage too.<$FFFE>
 152	<$FB00><$003D>I give… courage to you…？<$FFFE>
-153	<$FB00><$003E>Some people give courage just<$FFFC>by being there, even without words.<$FFFD><$FB00><$003F>Because you were there, I made it this<$FFFC>far, Marie.<$FFFE>
-154	<$FB00><$0040>Because you were there, I made<$FFFC>it this far. And tomorrow too.<$FFFD><$FB00><$0041>I'm afraid, but with you there, I can face<$FFFC>it. It's all right. With you, I'm not<$FFFC>afraid…<$FFFE>
+153	<$FB00><$003E>Some people give courage just by being<$FFFC>there, even without words.<$FFFD><$FB00><$003F>Because you were there, I made it this<$FFFC>far, Marie.<$FFFE>
+154	<$FB00><$0040>Because you were there, I made it this<$FFFC>far. And tomorrow too.<$FFFD><$FB00><$0041>I'm afraid, but with you there, I can face<$FFFC>it. It's all right. With you, I'm not<$FFFC>afraid…<$FFFE>
 155	<$FB00><$0042>Marie…<$FFFE>
 156	Brenda's Room<$FFFF>
-157	…<$FB00><$0078>What's wrong so late？ Can't<$FFFC>sleep after all？<$FFFE>
-158	<$FB00><$0079>After all？ So you can't sleep<$FFFC>either, Brenda？<$FFFE>
-159	<$FB00><$007A>Well, nobody could tonight.<$FFFC>The only ones sleeping soundly know<$FFFC>nothing.<$FFFE>
+157	…<$FB00><$0078>What's wrong so late？ Can't sleep after<$FFFC>all？<$FFFE>
+158	<$FB00><$0079>After all？ So you can't sleep either,<$FFFC>Brenda？<$FFFE>
+159	<$FB00><$007A>Well, nobody could tonight. The only ones<$FFFC>sleeping soundly know nothing.<$FFFE>
 160	<$FB00><$007B>Do you envy them？<$FFFE>
-161	…<$FB00><$007C>No. We're not the only ones<$FFFC>with burdens.<$FFFE>
-162	<$FB00><$007D>True. Lainforce on Crimso must<$FFFC>be…<$FFFE>
+161	…<$FB00><$007C>No. We're not the only ones with<$FFFC>burdens.<$FFFE>
+162	<$FB00><$007D>True. Lainforce on Crimso must be…<$FFFE>
 163	<$FB00><$007E>…<$FFFE>
 164	<$FB00><$007F>Ah, sorry.<$FFFE>
-165	…<$FB00><$0080>It's fine. It's true he's<$FFFC>still on my mind.<$FFFD><$FB00><$0081>Even earlier, I was looking up at Crimso<$FFFC>and thinking about Lain.<$FFFE>
+165	…<$FB00><$0080>It's fine. It's true he's still on my<$FFFC>mind.<$FFFD><$FB00><$0081>Even earlier, I was looking up at Crimso<$FFFC>and thinking about Lain.<$FFFE>
 166	<$FB00><$0082>You still can't forget him？<$FFFE>
-167	…<$FB00><$0083>No. He changed how I lived.<$FFFC>In that sense, maybe you did too.<$FFFE>
+167	…<$FB00><$0083>No. He changed how I lived. In that<$FFFC>sense, maybe you did too.<$FFFE>
 168	<$FB00><$0084>Me too？<$FFFE>
-169	<$FB00><$0085>Sure. If I hadn't met you, I<$FFFC>wouldn't be here now.<$FFFD><$FB00><$0086>I'd still be with rough mercenaries,<$FFFC>living on hatred for him.<$FFFE>
-170	<$FB00><$0087>No, you would have changed on<$FFFC>your own.<$FFFE>
-171	<$FB00><$0088>I'm glad you think so, but I'm<$FFFC>not that capable a woman.<$FFFE>
+169	<$FB00><$0085>Sure. If I hadn't met you, I wouldn't be<$FFFC>here now.<$FFFD><$FB00><$0086>I'd still be with rough mercenaries,<$FFFC>living on hatred for him.<$FFFE>
+170	<$FB00><$0087>No, you would have changed on your own.<$FFFE>
+171	<$FB00><$0088>I'm glad you think so, but I'm not that<$FFFC>capable a woman.<$FFFE>
 172	<$FB00><$0089>Brenda…<$FFFE>
-173	<$FB00><$008A>No matter how much I brood, I<$FFFC>can't go back to then. I was still honest<$FFFC>then. So earnest it embarrasses me now.<$FFFD><$FB00><$008B>Just being with him was enough. I never<$FFFC>thought it would come to this.<$FFFE>
-174	<$FB00><$008C>Until Aizer attacked your<$FFFC>village.<$FFFE>
-175	<$FB00><$008D>Aizer must have suffered too.<$FFFC>He was like Lain's closest friend.<$FFFD><$FB00><$008E>That's why he called only me to our<$FFFC>meeting place, then attacked the village<$FFFC>while I was gone. And I thought Lain had<$FFFC>done it.<$FFFE>
-176	<$FB00><$008F>Lainforce also misunderstood<$FFFC>you and Virash, and your love passed each<$FFFC>other by.<$FFFE>
-177	<$FB00><$0090>Virash is like a brother to<$FFFC>me. …But that love is over.<$FFFE>
+173	<$FB00><$008A>No matter how much I brood, I can't go<$FFFC>back to then. I was still honest then. So<$FFFC>earnest it embarrasses me now.<$FFFD><$FB00><$008B>Just being with him was enough. I never<$FFFC>thought it would come to this.<$FFFE>
+174	<$FB00><$008C>Until Aizer attacked your village.<$FFFE>
+175	<$FB00><$008D>Aizer must have suffered too. He was like<$FFFC>Lain's closest friend.<$FFFD><$FB00><$008E>That's why he called only me to our<$FFFC>meeting place, then attacked the village<$FFFC>while I was gone. And I thought Lain had<$FFFC>done it.<$FFFE>
+176	<$FB00><$008F>Lainforce also misunderstood you and<$FFFC>Virash, and your love passed each other<$FFFC>by.<$FFFE>
+177	<$FB00><$0090>Virash is like a brother to me. …But that<$FFFC>love is over.<$FFFE>
 178	<$FB00><$0091>Why not start over？<$FFFD><$FB00><$0092>Crimsonians and Crimsolanders must coexist<$FFFC>now. Isn't that a good chance？<$FFFE>
-179	<$FB00><$0093>But he killed many of our<$FFFC>people. Even if we coexist, the gulf<$FFFC>between us won't vanish.<$FFFE>
-180	<$FB00><$0094>It must be hard to bridge a<$FFFC>gulf once made. But if you don't try, it<$FFFC>never will be bridged.<$FFFE>
-181	<$FB00><$0095>I know. …I know, but I'm not<$FFFC>that skillful a woman…<$FFFE>
+179	<$FB00><$0093>But he killed many of our people. Even if<$FFFC>we coexist, the gulf between us won't<$FFFC>vanish.<$FFFE>
+180	<$FB00><$0094>It must be hard to bridge a gulf once<$FFFC>made. But if you don't try, it never will<$FFFC>be bridged.<$FFFE>
+181	<$FB00><$0095>I know. …I know, but I'm not that<$FFFC>skillful a woman…<$FFFE>
 182	…<$FB00><$0096>Sorry. I went too far again.<$FFFE>
-183	…<$FB00><$0097>It's fine. For now I'll<$FFFC>focus on Peiria. Everything comes after<$FFFC>that.<$FFFE>
-184	<$FB00><$0098>Right. Let's do our best<$FFFC>tomorrow with no regrets.<$FFFE>
+183	…<$FB00><$0097>It's fine. For now I'll focus on Peiria.<$FFFC>Everything comes after that.<$FFFE>
+184	<$FB00><$0098>Right. Let's do our best tomorrow with no<$FFFC>regrets.<$FFFE>
 185	<$FB00><$0099>Yeah, leave it to me！<$FFFE>
 186	…<$FB00><$009A>Heh. You're a strange man.<$FFFE>
 187	<$FB00><$009B>Me？<$FFFE>
-188	<$FB00><$009C>Yeah. Back then, you might<$FFFC>have died…<$FFFE>
+188	<$FB00><$009C>Yeah. Back then, you might have died…<$FFFE>
 189	…<$FB00><$009D>You mean Goldry？<$FFFE>
-190	<$FB00><$009E>Most people wouldn't do that.<$FFFC>Jumping off with a man holding explosives.<$FFFE>
-191	<$FB00><$009F>Please don't remind me. I know<$FFFC>it was reckless. But then, all I could<$FFFC>think of was saving you…<$FFFE>
-192	…<$FB00><$00A0>Come to think of it, I never<$FFFC>thanked you. Thank you. …It made me<$FFFC>happy.<$FFFE>
-193	<$FB00><$00A1>Brenda… I will never let you<$FFFC>die. I'll protect you with my life. That<$FFFC>is my… love…<$FFFE>
+190	<$FB00><$009E>Most people wouldn't do that. Jumping off<$FFFC>with a man holding explosives.<$FFFE>
+191	<$FB00><$009F>Please don't remind me. I know it was<$FFFC>reckless. But then, all I could think of<$FFFC>was saving you…<$FFFE>
+192	…<$FB00><$00A0>Come to think of it, I never thanked<$FFFC>you. Thank you. …It made me happy.<$FFFE>
+193	<$FB00><$00A1>Brenda… I will never let you die. I'll<$FFFC>protect you with my life. That is my…<$FFFC>love…<$FFFE>
 194	<$FB00><$00A2>You're an awkward man…<$FFFD>…<$FB00><$00A3>Honestly, why do I only fall for strange<$FFFC>men？<$FFFE>
 195	<$FB00><$00A4>Huh？ Does that mean…<$FFFE>
-196	…<$FB00><$00A5>Do I have to spell it out？<$FFFC>I liked you too…<$FFFD><$FB00><$00A6>But promise me. No more reckless stunts.<$FFFE>
+196	…<$FB00><$00A5>Do I have to spell it out？ I liked you<$FFFC>too…<$FFFD><$FB00><$00A6>But promise me. No more reckless stunts.<$FFFE>
 197	<$FB00><$00A7>It's all right. I won't die.<$FFFE>
-198	…<$FB00><$00A8>No helping it. Fine. I won't<$FFFC>let you die. I don't want to be alone<$FFFC>again…<$FFFE>
+198	…<$FB00><$00A8>No helping it. Fine. I won't let you<$FFFC>die. I don't want to be alone again…<$FFFE>
 199	<$FB00><$00A9>Brenda…<$FFFE>
 200	Clarett's Room<$FFFF>
-201	<$FB00><$0043>My, what's wrong so late？<$FFFC>Tomorrow starts early, doesn't it？<$FFFE>
+201	<$FB00><$0043>My, what's wrong so late？ Tomorrow starts<$FFFC>early, doesn't it？<$FFFE>
 202	<$FB00><$0044>What about you, Clarett？<$FFFE>
-203	<$FB00><$0045>I was just taking the night<$FFFC>air alone.<$FFFE>
-204	<$FB00><$0046>I see. If I'm bothering you,<$FFFC>I'll go…<$FFFE>
-205	<$FB00><$0047>No, stay. I couldn't sleep<$FFFC>thinking of tomorrow. I was watching the<$FFFC>stars. …And found the right person to<$FFFC>talk to.<$FFFE>
+203	<$FB00><$0045>I was just taking the night air alone.<$FFFE>
+204	<$FB00><$0046>I see. If I'm bothering you, I'll go…<$FFFE>
+205	<$FB00><$0047>No, stay. I couldn't sleep thinking of<$FFFC>tomorrow. I was watching the stars. …And<$FFFC>found the right person to talk to.<$FFFE>
 206	…<$FB00><$0048>I see.<$FFFE>
-207	<$FB00><$0049>This may be the last time we<$FFFC>look at the stars from the surface.<$FFFE>
-208	<$FB00><$004A>Yes. If we fail, we'll never<$FFFC>return to the surface.<$FFFE>
-209	<$FB00><$004B>Whether we return, whether<$FFFC>people on the surface live in peace, it<$FFFC>all depends on us.<$FFFE>
-210	…<$FB00><$004C>Do you regret it？ If you'd<$FFFC>stayed in Kalxath, you could have known<$FFFC>nothing.<$FFFE>
-211	<$FB00><$004D>Known nothing… yes. Before I<$FFFC>met you, I would have chosen that life.<$FFFE>
+207	<$FB00><$0049>This may be the last time we look at the<$FFFC>stars from the surface.<$FFFE>
+208	<$FB00><$004A>Yes. If we fail, we'll never return to the<$FFFC>surface.<$FFFE>
+209	<$FB00><$004B>Whether we return, whether people on the<$FFFC>surface live in peace, it all depends on<$FFFC>us.<$FFFE>
+210	…<$FB00><$004C>Do you regret it？ If you'd stayed in<$FFFC>Kalxath, you could have known nothing.<$FFFE>
+211	<$FB00><$004D>Known nothing… yes. Before I met you, I<$FFFC>would have chosen that life.<$FFFE>
 212	<$FB00><$004E>But not now…<$FFFE>
-213	<$FB00><$004F>Leaving everything to others<$FFFC>is easy. But now I hate it. You feel the<$FFFC>same, right？<$FFFE>
+213	<$FB00><$004F>Leaving everything to others is easy. But<$FFFC>now I hate it. You feel the same, right？<$FFFE>
 214	<$FB00><$0050>Maybe I do.<$FFFE>
-215	…<$FB00><$0051>I've changed. Thanks to<$FFFC>everyone. Especially you.<$FFFE>
-216	<$FB00><$0052>I didn't do anything. You<$FFFC>changed because you chose to change.<$FFFE>
-217	<$FB00><$0053>No. You couldn't even remember<$FFFC>who you were, yet you confessed as the<$FFFC>culprit.<$FFFD><$FB00><$0054>The suspicion had already cleared, so if<$FFFC>you stayed quiet, nobody would know.<$FFFE>
+215	…<$FB00><$0051>I've changed. Thanks to everyone.<$FFFC>Especially you.<$FFFE>
+216	<$FB00><$0052>I didn't do anything. You changed because<$FFFC>you chose to change.<$FFFE>
+217	<$FB00><$0053>No. You couldn't even remember who you<$FFFC>were, yet you confessed as the culprit.<$FFFD><$FB00><$0054>The suspicion had already cleared, so if<$FFFC>you stayed quiet, nobody would know.<$FFFE>
 218	…<$FFFE>
-219	<$FB00><$0055>Your courage then helped me<$FFFC>make it this far. I'm grateful.<$FFFE>
-220	<$FB00><$0056>I see. Even someone like me<$FFFC>helped someone.<$FFFE>
+219	<$FB00><$0055>Your courage then helped me make it this<$FFFC>far. I'm grateful.<$FFFE>
+220	<$FB00><$0056>I see. Even someone like me helped<$FFFC>someone.<$FFFE>
 221	<$FB00><$0057>Hehehe…<$FFFD><$FB00><$0058>You don't sound convinced.<$FFFE>
-222	<$FB00><$0059>Maybe. Come on, let's sleep.<$FFFC>Tomorrow will be busy.<$FFFE>
-223	<$FB00><$005A>Yes. I'll sleep too. Good<$FFFC>night. Let's do our best tomorrow.<$FFFE>
+222	<$FB00><$0059>Maybe. Come on, let's sleep. Tomorrow will<$FFFC>be busy.<$FFFE>
+223	<$FB00><$005A>Yes. I'll sleep too. Good night. Let's do<$FFFC>our best tomorrow.<$FFFE>
 224	<$FB00><$005B>Good night, Clarett.<$FFFE>
 225	<$FB00><$005C>Wait！<$FFFE>
 226	…<$FB00><$005D>C-Clarett…<$FFFE>
 227	<$FB00><$005E>Hold still！<$FFFE>
 228	…<$FFFE>
-229	…<$FB00><$005F>I'm scared. I'm truly<$FFFC>scared.<$FFFE>
-230	<$FB00><$0060>If we fail, the people of this<$FFFC>world will die.<$FFFD><$FB00><$0061>Crimsonians, humans, demons… everyone<$FFFC>will be gone. Every living thing will<$FFFC>perish. …Of course I'm scared too…<$FFFE>
-231	…<$FB00><$0062>It's true. I can hear your<$FFFC>heartbeat…<$FFFE>
-232	<$FB00><$0063>So don't torment yourself over<$FFFC>feeling that.<$FFFE>
+229	…<$FB00><$005F>I'm scared. I'm truly scared.<$FFFE>
+230	<$FB00><$0060>If we fail, the people of this world will<$FFFC>die.<$FFFD><$FB00><$0061>Crimsonians, humans, demons… everyone<$FFFC>will be gone. Every living thing will<$FFFC>perish. …Of course I'm scared too…<$FFFE>
+231	…<$FB00><$0062>It's true. I can hear your heartbeat…<$FFFE>
+232	<$FB00><$0063>So don't torment yourself over feeling<$FFFC>that.<$FFFE>
 233	…<$FFFE>
 234	<$FB00><$0064>Clarett…？<$FFFE>
 235	…<$FB00><$0065>No.<$FFFE>
 236	<$FB00><$0066>Eh？<$FFFE>
-237	<$FB00><$0067>No. What scares me is that I<$FFFC>may not be able to stay with you like<$FFFC>this…<$FFFE>
+237	<$FB00><$0067>No. What scares me is that I may not be<$FFFC>able to stay with you like this…<$FFFE>
 238	<$FB00><$0068>Clarett…<$FFFE>
 239	<$FB00><$0069>I love you… so much…<$FFFE>
 240	<$FB00><$006A>Clarett, you…<$FFFE>
-241	<$FB00><$006B>Maybe saying it now is unfair.<$FFFC>I meant to keep silent.<$FFFD><$FB00><$006C>But while I looked at the stars and<$FFFC>thought of you, you came here…<$FFFD><$FB00><$00F6>I knew I'd regret it if I didn't say it<$FFFC>now… I don't want to run away at the very<$FFFC>end…<$FFFD><$FB00><$00F7>You don't have to tell me how you feel.<$FFFC>It's all right if you hate me. But I love<$FFFC>you…<$FFFE>
+241	<$FB00><$006B>Maybe saying it now is unfair. I meant to<$FFFC>keep silent.<$FFFD><$FB00><$006C>But while I looked at the stars and<$FFFC>thought of you, you came here…<$FFFD><$FB00><$00F6>I knew I'd regret it if I didn't say it<$FFFC>now… I don't want to run away at the very<$FFFC>end…<$FFFD><$FB00><$00F7>You don't have to tell me how you feel.<$FFFC>It's all right if you hate me. But I love<$FFFC>you…<$FFFE>
 242	<$FB00><$006D>Clarett…<$FFFE>
-243	<$FB00><$006E>Sorry. This is selfish, isn't<$FFFC>it…<$FFFE>
+243	<$FB00><$006E>Sorry. This is selfish, isn't it…<$FFFE>
 244	<$FB00><$006F>No. I'm happy.<$FFFE>
 245	…<$FB00><$0070>Eh…<$FFFE>
-246	<$FB00><$0071>I came here because I care<$FFFC>about you too. I wanted to stay with you a<$FFFC>little longer…<$FFFE>
+246	<$FB00><$0071>I came here because I care about you too.<$FFFC>I wanted to stay with you a little<$FFFC>longer…<$FFFE>
 247	<$FB00><$0072>Then… I…<$FFFE>
-248	<$FB00><$0073>I should have said it first.<$FFFC>But I feared it would break our bond, so I<$FFFC>couldn't.<$FFFD><$FB00><$0074>Let me say it properly. I love you,<$FFFC>Clarett…<$FFFE>
-249	<$FB00><$0075>I'm happy… so happy… I wish<$FFFC>this moment could last forever…<$FFFE>
-250	<$FB00><$0076>It will be all right. We're<$FFFC>only just beginning. From here on…<$FFFE>
+248	<$FB00><$0073>I should have said it first. But I feared<$FFFC>it would break our bond, so I couldn't.<$FFFD><$FB00><$0074>Let me say it properly. I love you,<$FFFC>Clarett…<$FFFE>
+249	<$FB00><$0075>I'm happy… so happy… I wish this moment<$FFFC>could last forever…<$FFFE>
+250	<$FB00><$0076>It will be all right. We're only just<$FFFC>beginning. From here on…<$FFFE>
 251	…<$FB00><$0077>Yes.<$FFFE>
 252	Alfred's Room<$FFFF>
 253	<$FB00><$00AA>Alfred, are you awake？<$FFFE>
@@ -269,8 +269,8 @@
 267	<$FB00><$00BF>Yes. The night is late, so<$FFFC>I'll return to my room.<$FFFD><$FB00><$00C0>Good night, Alfred.<$FFFE>
 268	<$FB00><$00C1>Good night.<$FFFE>
 269	Lanford's Room<$FFFF>
-270	<$FB00><$00C2>Why are you walking around so<$FFFC>late？<$FFFE>
-271	<$FB00><$00C3>What about you, Lanford？<$FFFC>Tomorrow starts early.<$FFFE>
+270	<$FB00><$00C2>Why are you walking around so late？<$FFFE>
+271	<$FB00><$00C3>What about you, Lanford？ Tomorrow<$FFFC>starts early.<$FFFE>
 272	<$FB00><$00C4>Yes. I could not sleep. I took<$FFFC>the night air.<$FFFD><$FB00><$00C5>But we should not stand talking here. Will<$FFFC>you come to my room？<$FFFE>
 273	<$FB00><$00C6>Then I'll come in.<$FFFE>
 274	<$FB00><$00C7>There is little here, but make<$FFFC>yourself at ease.<$FFFE>
@@ -278,7 +278,7 @@
 276	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00C9>Tomorrow, at last.<$FFFE>
 277	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00CA>Yes. Tomorrow decides this<$FFFC>world's fate. And we are the ones who will<$FFFC>decide it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 278	<$FB00><$00CB>What is it？ Are you afraid？<$FFFE>
-279	<$FB00><$00CC>I'd be lying if I said I<$FFFC>wasn't. But if we don't do it, who can？<$FFFE>
+279	<$FB00><$00CC>I'd be lying if I said I wasn't.<$FFFC>But if we don't do it, who can？<$FFFE>
 280	<$FB00><$00CD>Indeed. Only you can stop<$FFFC>Peiria.<$FFFD><$FB00><$00CE>All we can do is make sure you face it at<$FFFC>your best.<$FFFE>
 281	<$FFFA><$FB00><$00CF>Thank you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF9><$FB00><$00D0>Aren't you afraid, Lanford？<$FFFE>
 282	<$FFFA><$FB00><$00D1>I have fought many battles<$FFFC>bearing a nation's fate, but this is on<$FFFC>another scale. Honestly, I am full of<$FFFC>unease.<$FFFE>

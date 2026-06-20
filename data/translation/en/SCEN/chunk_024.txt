@@ -13,29 +13,29 @@
 11	・Langrisser is stolen and carried off north<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Transport Ship, Cargo Block<$FFFF>
 13	<$FB00><$0022>Hey, hurry up and search！<$FFFE>
-14	<$FB00><$0023>Lord Omega. The interior does<$FFFC>not seem contaminated.<$FFFE>
-15	<$FB00><$0024>Good. Then let's grab the<$FFFC>goods already.<$FFFE>
+14	<$FB00><$0023>Lord Omega. The interior does not seem<$FFFC>contaminated.<$FFFE>
+15	<$FB00><$0024>Good. Then let's grab the goods already.<$FFFE>
 16	<$FB00><$0025>But our mission was to recover<$FFFC>the specimens…<$FFFE>
 17	<$FB00><$0026>Then recover the specimens<$FFFC>yourselves. Crimso shot down the cargo<$FFFC>ship. If we leave Langrisser here, it may<$FFFC>be stolen.<$FFFE>
 18	<$FB00><$0027><$FFF7>Y, yes sir<$FFF5><$FFF8>…<$FFFE>
-19	<$FB00><$0028>We found it. No doubt, this is<$FFFC>the airship Virash mentioned.<$FFFE>
-20	<$FB00><$0029>Hard to believe the body<$FFFC>stayed intact.<$FFFE>
-21	<$FB00><$002A>This model separates engine<$FFFC>and cargo blocks. In emergencies, they<$FFFC>detach. That is why this section is<$FFFC>sturdy.<$FFFE>
+19	<$FB00><$0028>We found it. No doubt, this is the<$FFFC>airship Virash mentioned.<$FFFE>
+20	<$FB00><$0029>Hard to believe the body stayed<$FFFC>intact.<$FFFE>
+21	<$FB00><$002A>This model separates engine and<$FFFC>cargo blocks. In emergencies, they detach.<$FFFC>That is why this section is sturdy.<$FFFE>
 22	<$FFF7><$FB00><$002B>Huh<$FFF5><$FFF8>… <$FFF6><$FB00><$002C>Virash is one thing, but<$FFFC>why do you know so much about ancient<$FFFC>weapons？<$FFFE>
 23	<$FB00><$002D>I was wondering the same<$FFFC>thing. It is time you told us.<$FFFE>
 24	<$FB00><$002E>Well, that's<$FFF5><$FFF7>…<$FFFE>
-25	<$FB00><$002F>Hold it！ Looks like we have<$FFFC>no time for a leisurely chat.<$FFFE>
+25	<$FB00><$002F>Hold it！ Looks like we have no<$FFFC>time for a leisurely chat.<$FFFE>
 26	<$FB00><$0030>Hoho. So I run into them here.<$FFFC>This should be fun！<$FFFE>
-27	<$FB00><$0031>If they take the sword, we're<$FFFC>in trouble！<$FFFE>
+27	<$FB00><$0031>If they take the sword, we're in<$FFFC>trouble！<$FFFE>
 28	…Hey.<$FFFE>
 29	What is it, <$F600><$0000>？<$FFFE>
-30	We've been here before… haven't we？<$FFFE>
-31	Huh？ What are you talking about？<$FFFE>
-32	Now that you mention it, I remember this<$FFFC>place too… Maybe I'm imagining it？<$FFFE>
-33	You are not imagining it. We have<$FFFC>Langrisser, after all.<$FFFE>
+30	We've been here before… haven't<$FFFC>we？<$FFFE>
+31	Huh？ What are you talking<$FFFC>about？<$FFFE>
+32	Now that you mention it, I<$FFFC>remember this place too… Maybe I'm<$FFFC>imagining it？<$FFFE>
+33	You are not imagining it. We<$FFFC>have Langrisser, after all.<$FFFE>
 34	…<$FFFD>You're right. Why is that？<$FFFE>
 35	Maybe because we used a cheat？<$FFFD>More importantly, we have a problem！ What<$FFFC>happens to this stage's victory terms？<$FFFE>
-36	We already have Langrisser, so the victory<$FFFC>terms are met！ Victory without fighting！<$FFFC>Lucky us♪<$FFFE>
+36	We already have Langrisser, so the<$FFFC>victory terms are met！ Victory without<$FFFC>fighting！ Lucky us♪<$FFFE>
 37	I doubt they will allow that.<$FFFE>
 38	Then what do we do？<$FFFE>
 39	We do this…<$FFFE>
@@ -57,32 +57,32 @@
 55	<$FB00><$0043>If we escape south with this,<$FFFC>they cannot follow！<$FFFE>
 56	<$0000> Langrisser was stolen！<$FFFE>
 57	Whew. Now if I escape with this…<$FFFE>
-58	Damn！ Langrisser is in his hands！<$FFFE>
+58	Damn！ Langrisser is in his<$FFFC>hands！<$FFFE>
 59	Aah！<$FFFE>
 60	Alfred！<$FFFE>
-61	<$F600><$0000>… P, please take the<$FFFC>sword！<$FFFE>
+61	<$F600><$0000>… P, please<$FFFC>take the sword！<$FFFE>
 62	<$0000> Received Langrisser！<$FFFE>
 63	<$FB00><$0043>If we escape south with this,<$FFFC>they cannot follow！<$FFFE>
 64	<$0000> Langrisser was stolen！<$FFFE>
 65	Whew. Now if I escape with this…<$FFFE>
-66	Damn！ Langrisser is in his hands！<$FFFE>
+66	Damn！ Langrisser is in his<$FFFC>hands！<$FFFE>
 67	…Guh！ Not here…<$FFFE>
 68	Brenda！<$FFFE>
-69	…<$F600><$0000>… The sword is yours！<$FFFE>
+69	…<$F600><$0000>… The sword<$FFFC>is yours！<$FFFE>
 70	<$0000> Received Langrisser！<$FFFE>
 71	<$FB00><$0043>If we escape south with this,<$FFFC>they cannot follow！<$FFFE>
 72	<$0000> Langrisser was stolen！<$FFFE>
 73	Whew. Now if I escape with this…<$FFFE>
-74	Damn！ Langrisser is in his hands！<$FFFE>
+74	Damn！ Langrisser is in his<$FFFC>hands！<$FFFE>
 75	Aaaaah！<$FFFE>
 76	Clarett！<$FFFE>
-77	Take the sword, <$F600><$0000>… Here！<$FFFE>
+77	Take the sword,<$FFFC><$F600><$0000>… Here！<$FFFE>
 78	<$0000> Received Langrisser！<$FFFE>
 79	<$FB00><$0043>If we escape south with this,<$FFFC>they cannot follow！<$FFFE>
 80	<$0000> Langrisser was stolen！<$FFFE>
 81	Whew. Now if I escape with this…<$FFFE>
-82	Damn！ Langrisser is in his hands！<$FFFE>
-83	<$FB00><$0032>Listen up！ Recovery teams, if<$FFFC>you find Langrisser, bring it to me！ If<$FFFC>it is unrelated, hold the enemy back！<$FFFE>
+82	Damn！ Langrisser is in his<$FFFC>hands！<$FFFE>
+83	<$FB00><$0032>Listen up！ Recovery teams, if you find<$FFFC>Langrisser, bring it to me！ If it is<$FFFC>unrelated, hold the enemy back！<$FFFE>
 84	<$FB00><$0033>Sir！<$FFFE>
 85	<$FB00><$0034>The rest of you stall them！<$FFFC>Got it！<$FFFE>
 86	<$FB00><$0035>Yeah！<$FFFE>

@@ -10,26 +10,26 @@
 8	Emily<$FFFF>
 9	Town<$FFFF>
 10	Federal Camp<$FFFF>
-11	<$FB00><$0076>I bring a message from Premier<$FFFC>Russel.<$FFFE>
+11	<$FB00><$0076>I bring a message from Premier Russel.<$FFFE>
 12	<$FB00><$0077>Russel？ I see, he returned.<$FFFE>
 13	<$FB00><$0078>Yes. He now serves as the new<$FFFC>premier.<$FFFE>
 14	<$FB00><$0079>I see. And the message？<$FFFE>
 15	<$FB00><$007A>Yes. Marshal Lanford is to<$FFFC>report to the castle at once.<$FFFE>
-16	<$FB00><$007B>Return！？ Does he understand<$FFFC>the situation？<$FFFE>
+16	<$FB00><$007B>Return！？ Does he understand the<$FFFC>situation？<$FFFE>
 17	<$FFF8>…<$FFF6><$FB00><$007C>No, forgive me. Blaming you<$FFFC>changes nothing.<$FFFE>
 18	<$FB00><$007D>There is one more thing. Your<$FFFC>request for reinforcements was denied.<$FFFE>
 19	<$FFF7>…<$FE3C><$FB00><$007E>Wh<$FFF5>…<$FE3C>…<$FE3C>！？<$FFFE>
 20	<$FB00><$007F>Premier Russel decided. He<$FFFC>fears concentrating our weakened troops<$FFFC>could invite invasion…<$FFFE>
-21	<$FB00><$0080>But without reinforcements,<$FFFC>they will collapse the Federation from<$FFFC>within！<$FFFD><$FFF8>…<$FB00><$0081>Kh！<$FFFD><$FFF6><$FB00><$0082>What is he thinking！？<$FFFE>
+21	<$FB00><$0080>But without reinforcements, they<$FFFC>will collapse the Federation from within！<$FFFD><$FFF8>…<$FB00><$0081>Kh！<$FFFD><$FFF6><$FB00><$0082>What is he thinking！？<$FFFE>
 22	<$FB00><$0083>Lord Lanford<$FFF5><$FFF8>…<$FFFE>
 23	<$FB00><$0084>Emily！<$FFFE>
 24	<$FB00><$0085>Yes, Marshal.<$FFFE>
-25	<$FB00><$0086>I must return to the castle.<$FFFC>You command defense here. Do not attack<$FFFC>first. Clear？<$FFFE>
+25	<$FB00><$0086>I must return to the castle. You<$FFFC>command defense here. Do not attack first.<$FFFC>Clear？<$FFFE>
 26	<$FB00><$0087>Understood. You want me to buy<$FFFC>time while avoiding losses.<$FFFE>
 27	<$FB00><$0088>Yes. I am counting on you.<$FFFE>
 28	<$FFF7><$FB00><$0089>Yes sir！<$FFF5><$FFF8><$FFFE>
 29	Near Estor Temple<$FFFF>
-30	<$FB00><$008A>First, I must apologize to all<$FFFC>of you.<$FFFD><$FB00><$008B>While I was away, Minister Gilmore stole<$FFFC>power and made you suffer.<$FFFD><$FB00><$008C>Now that suffering ends. This country is<$FFFC>not the nobles' property. It belongs to<$FFFC>you, the people.<$FFFD><$FB00><$008D>You need not obey nobles any longer. You<$FFFC>will lead politics.<$FFFD><$FB00><$008E>Build a nation where each citizen stands<$FFFC>responsible and free！ For a new age, and<$FFFC>for yourselves, fight with us！<$FFFE>
+30	<$FB00><$008A>First, I must apologize to all of you.<$FFFD><$FB00><$008B>While I was away, Minister Gilmore stole<$FFFC>power and made you suffer.<$FFFD><$FB00><$008C>Now that suffering ends. This country is<$FFFC>not the nobles' property. It belongs to<$FFFC>you, the people.<$FFFD><$FB00><$008D>You need not obey nobles any longer. You<$FFFC>will lead politics.<$FFFD><$FB00><$008E>Build a nation where each citizen stands<$FFFC>responsible and free！ For a new age, and<$FFFC>for yourselves, fight with us！<$FFFE>
 31	<$FB00><$008F>Right！ We protect our lives<$FFFC>ourselves！<$FFFE>
 32	<$FB00><$0090>Yes！ We should fight！<$FFFE>
 33	<$FB00><$0091>Let's do it<$00E4><$00E6>！<$FFF5><$FFF7><$FFFE><$FFFF>

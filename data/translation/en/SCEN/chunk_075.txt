@@ -12,15 +12,15 @@
 10	Virash<$FFFF>
 11	Zero<$FFFF>
 12	Marie Praying to the World Tree<$FFFF>
-13	<$FB00><$0003>World Tree<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0004>King of all<$FFFC>plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0005>Lend me your power.<$FFF5><$FE1E><$FE1E> <$FB00><$0006>Gather<$FFFC>mana, to Crimso….<$FFFE>
+13	<$FB00><$0003>World Tree<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0004>King of all plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$0005>Lend me your power.<$FFF5><$FE1E><$FE1E> <$FB00><$0006>Gather mana, to<$FFFC>Crimso….<$FFFE>
 14	After the Ritual<$FFFF>
-15	<$FB00><$0007>You have my thanks.<$FFF5><$FE1E> <$FB00><$0008>The<$FFFC>worst, the extinction of Crimsonia, is<$FFFC>averted.<$FFFE>
+15	<$FB00><$0007>You have my thanks.<$FFF5><$FE1E> <$FB00><$0008>The worst, the<$FFFC>extinction of Crimsonia, is averted.<$FFFE>
 16	<$FB00><$0009>But we cannot simply stand by<$FFFC>and watch your rule.<$FFFE>
-17	<$FB00><$000A>I know that. The strong ruling<$FFFC>is nature's law. Were we without power, it<$FFFC>would be wholly impossible.<$FFFD><$FB00><$000B>For now, enjoy this long-awaited reunion.<$FFFC>Then leave this city. Until then I'll not<$FFFC>lay a hand on you.<$FFFE>
+17	<$FB00><$000A>I know that. The strong ruling is<$FFFC>nature's law. Were we without power, it<$FFFC>would be wholly impossible.<$FFFD><$FB00><$000B>For now, enjoy this long-awaited reunion.<$FFFC>Then leave this city. Until then I'll not<$FFFC>lay a hand on you.<$FFFE>
 18	<$FB00><$000C>Mother！<$FFFE>
-19	<$FB00><$000D>Oh, Marie<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000E>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$000F>I'd given you up for dead<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-20	<$FB00><$0010>Sorry, mother, for worrying<$FFFC>you. Gizarof captured us<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-21	<$FB00><$0011>So that's what happened. But<$FFFC>I'm glad you're both safe<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FB00><$000D>Oh, Marie<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000E>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$000F>I'd<$FFFC>given you up for dead<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+20	<$FB00><$0010>Sorry, mother, for worrying you.<$FFFC>Gizarof captured us<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+21	<$FB00><$0011>So that's what happened. But I'm<$FFFC>glad you're both safe<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 22	<$FB00><$0012>M, mother<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0013>I wanted to<$FFFC>come back sooner, but in this body<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 23	<$FB00><$0014>What are you saying. Whatever<$FFFC>shape you take, a parent never abandons a<$FFFC>child.<$FFFE>
 24	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0015>Mother<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
@@ -28,16 +28,16 @@
 26	<$FB00><$0017>I'm glad for you.<$FFFE>
 27	<$FFF7><$FB00><$0018>Yeah.<$FFF5><$FFF8><$FFFE>
 28	<$FB00><$0019>Now, what do you mean to do<$FFFC>next？<$FFFE>
-29	<$FB00><$001A>That's right. Thanks to your<$FFFC>rash move, Lainforce and the rest gained<$FFFC>the advantage.<$FFFD><$FB00><$001B>You'll have to take responsibility.<$FFFE>
+29	<$FB00><$001A>That's right. Thanks to your rash<$FFFC>move, Lainforce and the rest gained the<$FFFC>advantage.<$FFFD><$FB00><$001B>You'll have to take responsibility.<$FFFE>
 30	<$FB00><$001C>Hey, Brenda！<$FFFE>
 31	<$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$001D>I'm sorry, Brenda.<$FFFC>But<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 32	<$FB00><$001E>Just kidding！<$FFF5><$FFF8><$FFFB> <$FFF6><$FB00><$0002><$FB00><$001F>If you were<$FFFC>the sort to abandon others, I wouldn't be<$FFFC>standing here.<$FFFE>
 33	<$FB00><$0020>True enough.<$FFFE>
-34	<$FB00><$0021>I take no joy in fellow<$FFFC>Crimsonians perishing. On behalf of my<$FFFC>people, my thanks.<$FFFE>
-35	<$FB00><$0022>But it's certain Lainforce<$FFFC>gained the upper hand. This won't be left<$FFFC>as it is.<$FFFE>
-36	<$FFF7><$FB00><$0023>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>As I swore to Marie,<$FFFC>I'll protect this world.<$FFFE>
+34	<$FB00><$0021>I take no joy in fellow Crimsonians<$FFFC>perishing. On behalf of my people, my<$FFFC>thanks.<$FFFE>
+35	<$FB00><$0022>But it's certain Lainforce gained<$FFFC>the upper hand. This won't be left as it<$FFFC>is.<$FFFE>
+36	<$FFF7><$FB00><$0023>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>As I swore to Marie, I'll<$FFFC>protect this world.<$FFFE>
 37	<$FB00><$0025>So it's time.<$FFFE>
-38	<$FB00><$0026>You head for Lainforce's<$FFFC>castle.<$FFFE>
+38	<$FB00><$0026>You head for Lainforce's castle.<$FFFE>
 39	<$FB00><$0027>You're telling us to take<$FFFC>Lainforce's castle by ourselves？<$FFFE>
 40	<$FB00><$0028>It'll be fine.<$FFF5> <$FB00><$0029>His castle has<$FFFC>only a handful of soldiers now. Most are<$FFFC>massed at a few locations.<$FFFE>
 41	<$FB00><$002A>Why has it come to that？<$FFFE>
@@ -56,7 +56,7 @@
 54	<$FB00><$0038>Where are you going, Zero.<$FFFE>
 55	<$FB00><$0039>I'm setting out to strike the<$FFFC>demons.<$FFFE>
 56	<$FB00><$003A>The demons.<$FFF5><$FE1E> <$FB00><$003B>I gave no order<$FFFC>for such an operation.<$FFFE>
-57	<$FB00><$003C>I act on my own judgment.<$FFF5><$FFFC><$FB00><$003D>The crisis past for Crimso, the urgent<$FFFC>task is to take Alhazard from the demons.<$FFFE>
+57	<$FB00><$003C>I act on my own judgment.<$FFF5> <$FB00><$003D>The<$FFFC>crisis past for Crimso, the urgent task is<$FFFC>to take Alhazard from the demons.<$FFFE>
 58	<$FB00><$003E>I gave no leave. And to<$FFFC>abandon me, your lord, what is the meaning<$FFFC>of this？<$FFFE>
 59	<$FB00><$003F>Then dismiss me.<$FFF5><$FFFB> <$FB00><$0040>Now<$FFFC>then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 60	<$FB00><$0041>Z, Zero！<$FFFE>

@@ -24,8 +24,8 @@
 22	<$FB00><$0056>A toll？ I recall giving no order<$FFFC>to collect any such thing <$FFF5><$FFF8>…<$FFFE>
 23	<$FFF7><$FB00><$0057>Eh？<$FFF5><$FFF8><$FFFE>
 24	<$FB00><$0058>Then the taxes they've been<$FFFC>taking from us were<$FFF5><$FFF8>…<$FFFE>
-25	<$FB00><$0059>Silence！ This town was put in<$FFFC>MY charge！ I do with it as I please！<$FFFE>
-26	<$FB00><$005A>Goldry！ What do you take your<$FFFC>post for！<$FFFD><$FB00><$005B>You were given authority to keep the peace<$FFFC>in this town, not to rule over it！<$FFFE>
+25	<$FB00><$0059>Silence！ This town was put in MY<$FFFC>charge！ I do with it as I please！<$FFFE>
+26	<$FB00><$005A>Goldry！ What do you take your post<$FFFC>for！<$FFFD><$FB00><$005B>You were given authority to keep the peace<$FFFC>in this town, not to rule over it！<$FFFE>
 27	<$FFF8><$FB00><$005C>…<$FFFE>
 28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've been<$FFFC>doing just as you pleased. You are a<$FFFC>disgrace to the Caconsis army.<$FFFE>
 29	<$FB00><$005E>Enough, I've heard plenty！ I<$FFFC>quit！<$FFFD><$FB00><$005F>The king promised me a general's rank, but<$FFFC>you made me a captain！ I have hated that<$FFFC>from the start！<$FFFD><$FB00><$0060>From today, my company is mercenary<$FFFC>again！ You will regret losing us！<$FFFE>

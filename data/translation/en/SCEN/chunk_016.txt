@@ -13,20 +13,20 @@
 11	・Defeat all enemies<$FFFE>
 12	・Hostage teleported<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Dares Fort<$FFFF>
-14	<$FB00><$0029>Everyone, listen carefully！<$FFFC>According to information just received,<$FFFC>the rebels are heading here.<$FFFE>
+14	<$FB00><$0029>Everyone, listen carefully！ According to<$FFFC>information just received, the rebels are<$FFFC>heading here.<$FFFE>
 15	<$FB00><$002A>Is their target this girl？<$FFFE>
 16	<$FFF8>…<$FFFE>
 17	<$FB00><$002B>Most likely. But stay calm.<$FFFD>If need be, we can use the Teleport Ring<$FFFC>His Majesty Gilmore gave us to transfer<$FFFC>the girl away.<$FFFE>
 18	<$FFF7><$FB00><$002C>Ah<$FFF5><$FFF8>…<$FFFE>
-19	<$FB00><$002D>If we beat the rebels,<$FFFC>promotion is ours.<$FFFE>
+19	<$FB00><$002D>If we beat the rebels, promotion<$FFFC>is ours.<$FFFE>
 20	<$FB00><$002E>Understood. We will defeat the<$FFFC>rebels ourselves！<$FFFE>
-21	<$FB00><$002F>Here it is. His daughter is<$FFFC>held in this fort.<$FFFE>
+21	<$FB00><$002F>Here it is. His daughter is held<$FFFC>in this fort.<$FFFE>
 22	<$FB00><$0030>Rescue her, and the archbishop<$FFFC>will help.<$FFFE>
 23	<$FB00><$0031>Listen.<$FFFD><$FB00><$0032>We do not know how they will react when<$FFFC>they see us.<$FFFD>For the hostage, one unit circle behind<$FFFC>the fort.<$FFFE>
 24	<$FB00><$0033>Only one unit？<$FFFE>
 25	<$FB00><$0034>Yes. Go around to that point.<$FFFE>
-26	<$0000>Flanking unit arrival point<$0000><$FFFF>
-27	<$FB00><$0035>The rest hit the front. While<$FFFC>we draw them, the flanker guards her.<$FFFD>Agreed？<$FFFE>
+26	<$0000>Flanking unit arrival<$FFFC>point<$0000><$FFFF>
+27	<$FB00><$0035>The rest hit the front. While we<$FFFC>draw them, the flanker guards her.<$FFFD>Agreed？<$FFFE>
 28	<$FB00><$0036>Hmm, not bad.<$FFFE>
 29	<$FB00><$0037>I think it is good.<$FFFE>
 30	<$FB00><$0038>So who goes around？<$FFFE>
@@ -43,15 +43,15 @@
 41	<$FB00><$003F>Leave it to me！<$FFFE>
 42	<$FB00><$0040>I want Clarett to do it.<$FFFE>
 43	<$FB00><$0041>Leave it to me！<$FFFE>
-44	<$FB00><$0042>Begin！ Draw them here until<$FFFC>the flanker arrives！<$FFFE>
+44	<$FB00><$0042>Begin！ Draw them here until the<$FFFC>flanker arrives！<$FFFE>
 45	<$FB00><$0043>Enemy sighted！ They have<$FFFC>appeared！<$FFFE>
-46	<$FB00><$0044>Good, first watch their move.<$FFFC>Do not rush！<$FFFE>
+46	<$FB00><$0044>Good, first watch their move. Do<$FFFC>not rush！<$FFFE>
 47	<$FB00><$0053>Wait, I will save you！<$FFFE>
 48	<$FB00><$0054>Hold on a little longer.<$FFFE>
 49	<$FB00><$0055>Please wait, I will save you！<$FFFE>
 50	<$FB00><$0056>Do not worry, I will save<$FFFC>you！<$FFFE>
 51	<$FB00><$0057>Wait, I will save you now！<$FFFE>
-52	Almost there. Soon we will make fools of<$FFFC>them！<$FFFE>
+52	Almost there. Soon we will make<$FFFC>fools of them！<$FFFE>
 53	No！ Stay away！<$FFFE>
 54	Time is short. Hurry！<$FFFE>
 55	<$FB00><$0060>Heh heh！ Even if we die, you<$FFFC>still lose without her！<$FFFE>
@@ -66,14 +66,14 @@
 64	Draw them until Lambda circles around！<$FFFE>
 65	Draw them until Alfred circles around！<$FFFE>
 66	Draw them until Brenda circles around！<$FFFE>
-67	Draw them until Clarett circles around！<$FFFE>
+67	Draw them until Clarett<$FFFC>circles around！<$FFFE>
 68	<$FB00><$002F>If only I had more strength…<$FFFE>
 69	<$FB00><$003D>Ugh…not…yet…<$FFFE>
 70	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
 71	<$FB00><$003F>…All right…<$FFFE>
 72	<$FB00><$0078>Am I not good enough…<$FFFE>
 73	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
-74	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+74	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
 75	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 76	<$FB00><$006C>Brenda！ Are you okay！？<$FFFE>
 77	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
@@ -86,7 +86,7 @@
 84	<$FB00><$0060>Sorry, at a time like this…<$FFFE>
 85	<$FB00><$0061>N-no, stop！<$FFFE>
 86	<$FFF7><$FB00><$0063>Aah<$00E4><$00E5><$00E6>！<$FFFE>
-87	<$FB00><$0067>Damn！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We failed to protect<$FFFC>her<$FFF5><$FFF8>…<$FFFE>
+87	<$FB00><$0067>Damn！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We failed to protect her<$FFF5><$FFF8>…<$FFFE>
 88	That is all？ No effect！ <$FFFB>…No<$FFFC>effect…wait… <$FFFB>Uwoooah！<$FFFE>
 89	…My promotion…<$FFFE>
 90	I wanted glory… for mother…<$FFFE>
@@ -97,7 +97,7 @@
 95	C-Commander！<$FFFD>Damn… at least I take the girl with us！<$FFFE>
 96	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 97	・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
-98	But if you do not beat us, it is the<$FFFC>same！<$FFFE>
+98	But if you do not beat us, it<$FFFC>is the same！<$FFFE>
 99	Lord Creid… they are strong…<$FFFE>
 100	Gwaaah！ I cannot stop bleeding…<$FFFE>
 101	<$FB00><$0066>Why can't I beat you！？<$FFFC>…Grr！ Next time！<$FFFE>

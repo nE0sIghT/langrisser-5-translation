@@ -10,11 +10,11 @@
 8	Private<$FFFF>
 9	Gizarof<$FFFF>
 10	Riverbank at night<$FFFF>
-11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a<$FFFC>while.<$FFFE>
+11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a while.<$FFFE>
 12	<$FB00><$0005>Who are you？<$FFFE>
 13	<$FB00><$0006>Forgot me？ I'm Omega.<$FFFD><$FB00><$0007>We served Gizarof together. Remember？<$FFFE>
 14	<$FB00><$0008>I only met Gizarof once.<$FFFE>
-15	<$FB00><$0009>Don't play dumb. <$FFF5><$FFF8>…<$FE14><$FFF6><$FB00><$000A>Wait, did<$FFFC>you lose your memory？<$FFFE>
+15	<$FB00><$0009>Don't play dumb. <$FFF5><$FFF8>…<$FE14><$FFF6><$FB00><$000A>Wait, did you<$FFFC>lose your memory？<$FFFE>
 16	<$FB00><$000B>Memory？ I'm a clone made in that<$FFFC>laboratory.<$FFFE>
 17	<$FB00><$000C>You're no clone.<$FFFD><$FB00><$000D>Tch, your memory is gone<$FFF5><$FFF8>…<$FFF6><$FB00><$000E>Then I'll tell<$FFFC>you your past！<$FFFE>
 18	<$FB00><$000F>My<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0010>past！？<$FFFE>

@@ -13,34 +13,34 @@
 11	Mother<$FFFF>
 12	Malga Mountains<$FFFF>
 13	<$FB00><$005F>Lain<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-14	<$FB00><$0060>Hoho. So you are the ones<$FFFC>who took the sacred sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
+14	<$FB00><$0060>Hoho. So you are the ones who<$FFFC>took the sacred sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
 15	<$FB00><$0062>You think we'll be caught that<$FFFC>easily？<$FFFE>
 16	<$FB00><$0063>Then you think you can<$FFFC>escape？ Let's see how long you can bluff<$FFFC>against the Crimson Knights.<$FFFE>
 17	<$FB00><$0064>Hah！ I don't care who you<$FFFC>brought, I won't forgive you. For my<$FFFC>parents and my village, I'll have my<$FFFC>revenge！<$FFFE>
-18	<$FB00><$0065>You would defeat me？ Are<$FFFC>you serious, Brenda？<$FFFE>
+18	<$FB00><$0065>You would defeat me？ Are you<$FFFC>serious, Brenda？<$FFFE>
 19	<$FB00><$0066>Emergency, Lord Lainforce！<$FFFE>
 20	<$FB00><$0067>What？<$FFFE>
 21	<$FB00><$0068>We found the airship's nose<$FFFC>section, but the fire may ignite the<$FFFC>Magitek reactor！<$FFFE>
 22	<$FB00><$0069>What？ Have the crew been<$FFFC>rescued？<$FFFE>
-23	<$FB00><$006A>The flames are too strong.<$FFFC>Not yet！ We cannot handle it alone！<$FFFE>
+23	<$FB00><$006A>The flames are too strong. Not<$FFFC>yet！ We cannot handle it alone！<$FFFE>
 24	<$FB00><$006B>Understood！<$FFFE>
-25	<$FB00><$006C>It seems your lives were<$FFFC>spared. I will overlook you this time.<$FFFE>
-26	<$FB00><$006D>All units, move to rescue<$FFFC>the crew. There is no time. Hurry！<$FFFE>
+25	<$FB00><$006C>It seems your lives were spared.<$FFFC>I will overlook you this time.<$FFFE>
+26	<$FB00><$006D>All units, move to rescue the<$FFFC>crew. There is no time. Hurry！<$FFFE>
 27	<$FB00><$006E>Hold it！ Lainforce！<$FFFE>
-28	<$FB00><$006F>There you are. Did you find<$FFFC>the sword？<$FFFE>
+28	<$FB00><$006F>There you are. Did you find the<$FFFC>sword？<$FFFE>
 29	<$FB00><$0070>Virash. We got the sword,<$FFFC>but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 30	<$FB00><$0071>More importantly, Brenda<$FFFC>chased Lainforce<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 31	<$FB00><$0072>What？<$FFFE>
-32	<$FB00><$0073>And they said the Magitek<$FFFC>reactor might catch fire.<$FFFE>
-33	<$FB00><$0074>The reactor？ That's bad！<$FFFC>You all get out of here now！<$FFFE>
+32	<$FB00><$0073>And they said the Magitek reactor<$FFFC>might catch fire.<$FFFE>
+33	<$FB00><$0074>The reactor？ That's bad！ You all<$FFFC>get out of here now！<$FFFE>
 34	<$FB00><$0075>But Brenda is<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 35	<$FB00><$0076>I will handle her. Now hurry<$FFFC>and get out of here. Understand？<$FFFE>
 36	Airship, Nose Section<$FFFF>
 37	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0077>Good, everyone is out.<$FFFE>
 38	<$FB00><$0078>You are not getting away,<$FFFC>Lainforce！<$FFFE>
 39	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0079>Brenda.<$FFFE>
-40	<$FB00><$007A>You used my feelings to<$FFFC>destroy my village. I cannot forgive<$FFFC>you<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$007B>I will never forgive you！<$FFFE>
-41	<$FB00><$007C>I will make no excuses for<$FFFC>that. But we have no time to linger here.<$FFFD><$FB00><$007D>This airship's Magitek reactor is still<$FFFC>active. If the flames reach it, you know<$FFFC>what will happen.<$FFFE>
+40	<$FB00><$007A>You used my feelings to destroy<$FFFC>my village. I cannot forgive you<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$007B>I will<$FFFC>never forgive you！<$FFFE>
+41	<$FB00><$007C>I will make no excuses for that.<$FFFC>But we have no time to linger here.<$FFFD><$FB00><$007D>This airship's Magitek reactor is still<$FFFC>active. If the flames reach it, you know<$FFFC>what will happen.<$FFFE>
 42	<$FB00><$007E>That's right.<$FFFD><$FB00><$007F>I don't know if I can beat you myself. But<$FFFC>if I keep you here, the runaway reactor<$FFFC>will blow us both away.<$FFFE>
 43	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0080>Are you serious？<$FFFE>
 44	<$FB00><$0081>Believe me or don't. We will<$FFFC>have the answer soon enough<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
@@ -48,33 +48,33 @@
 46	<$FFFA><$FFF8><$FB00><$0083>Guh！<$FFFE>
 47	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0084>Such a strong-willed<$FFFC>woman<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 48	Outside the airship<$FFFF>
-49	<$FB00><$0085>Brenda！ Where are you,<$FFFC>Brenda！<$FFFE>
+49	<$FB00><$0085>Brenda！ Where are you, Brenda！<$FFFE>
 50	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Lainforce…<$FFFE>
-51	<$FB00><$0087>Do not worry. I merely<$FFFC>quieted her for a while. Her life is not<$FFFC>in danger.<$FFFE>
-52	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0002><$FB00><$0088>For now, I suppose I<$FFFC>should thank you.<$FFFE>
-53	<$FB00><$0089>I do not need it. It is true<$FFFC>that our actions destroyed your village.<$FFFD><$FB00><$008A>But you, how can you fail to protect your<$FFFC>own woman？<$FFFE>
+51	<$FB00><$0087>Do not worry. I merely quieted her<$FFFC>for a while. Her life is not in danger.<$FFFE>
+52	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0002><$FB00><$0088>For now, I suppose I should<$FFFC>thank you.<$FFFE>
+53	<$FB00><$0089>I do not need it. It is true that<$FFFC>our actions destroyed your village.<$FFFD><$FB00><$008A>But you, how can you fail to protect your<$FFFC>own woman？<$FFFE>
 54	<$FB00><$008B>Wh, what<$FFF5><$FFF7>…<$FE1E>…<$FE1E>！？<$FFFE>
-55	<$FB00><$008C>If it were me, I would never<$FFFC>let her face danger, even if I had to<$FFFC>throw my life away.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>To lose to a man<$FFFC>like this？<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+55	<$FB00><$008C>If it were me, I would never let<$FFFC>her face danger, even if I had to throw my<$FFFC>life away.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>To lose to a man like<$FFFC>this？<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 56	<$FB00><$008E>Enough. Farewell.<$FFFE>
 57	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$008F>What was that about<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 58	Recrio Village, Brenda's memory<$FFFF>
-59	<$FB00><$0090>What… happened！？ What<$FFFC>happened here？ Everyone, hold on！ Open<$FFFC>your eyes！<$FFFE>
+59	<$FB00><$0090>What… happened！？ What happened here？<$FFFC>Everyone, hold on！ Open your eyes！<$FFFE>
 60	<$FB00><$0091>Hey！ Is everyone all<$FFFC>right！？<$FFF5><$FFF8><$FFFE>
-61	…<$FE1E>…<$FE1E><$FFF6><$FB00><$0092>You. What happened<$FFFC>here？<$FFFE>
-62	<$FB00><$0093>I… I do not know… I was up<$FFFC>in the hills. When I came back<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+61	…<$FE1E>…<$FE1E><$FFF6><$FB00><$0092>You. What happened here？<$FFFE>
+62	<$FB00><$0093>I… I do not know… I was up in<$FFFC>the hills. When I came back<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 63	<$FB00><$0094>It has rained so much<$FFFC>lately. Maybe the levee broke<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFD><$FFF6><$FB00><$0095>First, we have to help the wounded. You<$FFFC>help too.<$FFFE>
 64	<$FB00><$0096>Yes<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 65	<$FB00><$0097>Uuh<$FFF5><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
 66	<$FB00><$0098>Ah, she is still breathing.<$FFFE>
 67	<$FB00><$0099>What？<$FFFE>
-68	<$FB00><$009A>This child… and this<$FFFC>crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+68	<$FB00><$009A>This child… and this crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 69	<$FB00><$009B>Stay with us！<$FFFE>
 70	<$FB00><$009C>Please<$FFFA>… take the boy<$FFF5><$FFF8>…<$FE1E>…<$FFFE>
 71	<$FB00><$009D>Y, yes. I swear I will care<$FFFC>for him<$FFF5><$FFF8>…<$FE1E>.<$FFFE>
 72	<$FFFA><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
 73	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$009E>How terrible<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 74	<$FB00><$009F>Do you know what this<$FFFC>crystal is？<$FFFE>
-75	<$FB00><$00A0>It is the Sage Crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FE1E><$FFFC><$FFF6><$FB00><$00A1>It is Recrio Village's treasure.<$FFFD><$FB00><$00A2>Are there any other survivors？<$FFFE>
+75	<$FB00><$00A0>It is the Sage Crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FE1E> <$FFF6><$FB00><$00A1>It<$FFFC>is Recrio Village's treasure.<$FFFD><$FB00><$00A2>Are there any other survivors？<$FFFE>
 76	<$FFFA><$FB00><$00A3>No, no one else<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 77	<$FB00><$00A4>I see<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 78	<$FFF6><$FB00><$00A5>Please<$FFF5><$FFF8>…<$FE1E>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00A6>I ask this of<$FFFC>you as well. Keep this crystal in your<$FFFC>village. And give it to no one.<$FFFE>

@@ -12,41 +12,41 @@
 10	Inside the Ancient Ruin<$FFFF>
 11	<$FB00><$0003>Lanford！<$FFFE>
 12	<$FB00><$0004>Don't stop me, Alfred. My life<$FFFC>saves my father.<$FFFE>
-13	<$FB00><$0005>No, Lanford. To break the<$FFFC>curse, it could just as well be me.<$FFFE>
+13	<$FB00><$0005>No, Lanford. To break the curse,<$FFFC>it could just as well be me.<$FFFE>
 14	<$FB00><$0006>Alfred, what are you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-15	<$FB00><$0007>I have no father and no<$FFFC>brother left. But you still have your<$FFFC>father.<$FFFD><$FB00><$0008>If the curse breaks, you can be with Lord<$FFFC>Lambert again, can't you？<$FFFE>
+15	<$FB00><$0007>I have no father and no brother<$FFFC>left. But you still have your father.<$FFFD><$FB00><$0008>If the curse breaks, you can be with Lord<$FFFC>Lambert again, can't you？<$FFFE>
 16	<$FB00><$0009>No, Alfred. Your house has<$FFFC>only you left now. You must rebuild it.<$FFFD><$FB00><$000A>And you're still young. Better it be me<$FFFC>who dies.<$FFFE>
 17	<$FB00><$000B>No, it will not be you either,<$FFFC>Lanford.<$FFFE>
 18	<$FB00><$000C>F, father<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 19	<$FB00><$000D>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$000E>It's been a while, you two.<$FFFE>
 21	<$FB00><$000F>Father, why are you here？<$FFFE>
-22	<$FB00><$0010>Isn't it obvious. I too<$FFFC>learned how to break the curse.<$FFF5><$FFF8> <$FB00><$0011>I've put<$FFFC>you through much. Now I'll free you from<$FFFC>that bond.<$FFFE>
+22	<$FB00><$0010>Isn't it obvious. I too learned<$FFFC>how to break the curse.<$FFF5><$FFF8> <$FB00><$0011>I've put you<$FFFC>through much. Now I'll free you from that<$FFFC>bond.<$FFFE>
 23	<$FB00><$0012>Father, what are you！？<$FFF5><$FFF8><$FFFC>…<$FE14>…<$FE14><$FFF6><$FB00><$0013>Please stop！<$FFFE>
-24	<$FB00><$0014>Now only we three can break<$FFFC>the curse. Then it is only right that the<$FFFC>one who caused it takes responsibility.<$FFFE>
+24	<$FB00><$0014>Now only we three can break the<$FFFC>curse. Then it is only right that the one<$FFFC>who caused it takes responsibility.<$FFFE>
 25	<$FB00><$0015>Father！<$FFFE>
-26	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0016>You're a Federation<$FFFC>marshal now. You've done well, Lanford.<$FFFC>Forgive me for treating you so harshly all<$FFFC>this time.<$FFFE>
-27	<$FB00><$0017>How can you say that！<$FFF5> <$FB00><$0018>You<$FFFC>were harsh with me only because you<$FFFC>cared<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0019>Masterson told me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+26	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0016>You're a Federation marshal<$FFFC>now. You've done well, Lanford. Forgive me<$FFFC>for treating you so harshly all this time.<$FFFE>
+27	<$FB00><$0017>How can you say that！<$FFF5> <$FB00><$0018>You were<$FFFC>harsh with me only because you cared<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$0019>Masterson told me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 28	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001A>That Masterson. A<$FFFC>tight-lipped man, but he couldn't take<$FFFC>it to the grave after all.<$FFFE>
-29	<$FB00><$001B>Now, let us end this. Any<$FFFC>longer and parting grows too hard.<$FFFD><$FB00><$001C>Lainforce is a dangerous man. Stop his<$FFFC>ambition at all costs！ His next target is<$FFFC>the ancient relic sleeping beneath<$FFFC>Valtar！<$FFFD><$FB00><$001D>Young ones, I leave this country to you！<$FFFE>
+29	<$FB00><$001B>Now, let us end this. Any longer<$FFFC>and parting grows too hard.<$FFFD><$FB00><$001C>Lainforce is a dangerous man. Stop his<$FFFC>ambition at all costs！ His next target is<$FFFC>the ancient relic sleeping beneath<$FFFC>Valtar！<$FFFD><$FB00><$001D>Young ones, I leave this country to you！<$FFFE>
 30	<$FFF8><$FB00><$001E>Hmph！<$FFFE>
 31	<$FB00><$001F>Faaather！<$FFF5><$FFF7><$FFFE>
 32	<$FB00><$0020>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 33	<$FFF8><$FFFA><$FB00><$0021>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
 34	<$FFF8>…<$FE14><$FFF6><$FB00><$0022>Lanford<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-35	<$FB00><$0023>Let's go. To the city of<$FFFC>Valtar.<$FFF5> <$FB00><$0024>To stop Lainforce's ambition！<$FFFE>
-36	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0025>This time I'll settle it<$FFFC>for good, Lain！<$FFFE>
+35	<$FB00><$0023>Let's go. To the city of Valtar.<$FFF5><$FFFC><$FB00><$0024>To stop Lainforce's ambition！<$FFFE>
+36	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0025>This time I'll settle it for<$FFFC>good, Lain！<$FFFE>
 37	Demon Stronghold<$FFFF>
-38	<$FB00><$0026>Argh, damn it！ Why do they<$FFFC>have Langrisser！<$FFFD><$FB00><$0027>Without that, there's no way I'd have<$FFFC>lost<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
-39	<$FB00><$0028>You're in a temper, Ferakia.<$FFF5><$FFFC><$FB00><$0029>It ruins that lovely face.<$FFFE>
-40	<$FB00><$002A>Shut up！<$FFF5> <$FB00><$002B>It's your fault<$FFFC>for leaving Langrisser to Glob in the<$FFFC>first place<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-41	<$FB00><$002C>You're saying Glob losing it<$FFFC>is my fault？<$FFF5> <$FB00><$002D>That's a baseless charge.<$FFFE>
+38	<$FB00><$0026>Argh, damn it！ Why do they have<$FFFC>Langrisser！<$FFFD><$FB00><$0027>Without that, there's no way I'd have<$FFFC>lost<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FB00><$0028>You're in a temper, Ferakia.<$FFF5> <$FB00><$0029>It<$FFFC>ruins that lovely face.<$FFFE>
+40	<$FB00><$002A>Shut up！<$FFF5> <$FB00><$002B>It's your fault for<$FFFC>leaving Langrisser to Glob in the first<$FFFC>place<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+41	<$FB00><$002C>You're saying Glob losing it is<$FFFC>my fault？<$FFF5> <$FB00><$002D>That's a baseless charge.<$FFFE>
 42	<$FB00><$002E>Honestly, just when I'd nearly<$FFFC>got the humans dancing to my strings<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$002F>my<$FFFC>plan's in ruins！<$FFFE>
 43	<$FB00><$0030>Why lend Crimsonia a hand at<$FFFC>all？ Just destroy them along with the<$FFFC>humans.<$FFFE>
 44	<$FB00><$0031>Crimso has the Chaos Gate, you<$FFFC>know？ And Crimso only comes around every<$FFFC>200 years.<$FFFD><$FB00><$0032>Buoyed by Lord Chaos's power, our strength<$FFFC>is amplified. Now is the best chance！<$FFFE>
-45	<$FB00><$0033>I'm well aware.<$FFF5> <$FB00><$0034>But there's<$FFFC>no need to risk ourselves aiding<$FFFC>Crimsonia.<$FFFD><$FB00><$0035>In just 200 more years, Crimsonia dies<$FFFC>out. After that, at our leisure<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FB00><$0033>I'm well aware.<$FFF5> <$FB00><$0034>But there's no<$FFFC>need to risk ourselves aiding Crimsonia.<$FFFD><$FB00><$0035>In just 200 more years, Crimsonia dies<$FFFC>out. After that, at our leisure<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FB00><$0036>You're far too cautious. For<$FFFC>one, who's to say we demons won't be wiped<$FFFC>out before the next 200 years？<$FFFE>
-47	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF9><$FFF6><$FB00><$0037>True, there's no<$FFFC>guarantee.<$FFFE>
+47	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF9><$FFF6><$FB00><$0037>True, there's no guarantee.<$FFFE>
 48	<$FB00><$0038>The red moon Crimso is the<$FFFC>demons' homeland too. No reason to let<$FFFC>this chance slip.<$FFFD><$FB00><$0039>That's why we need Lainforce to win.<$FFFE>
 49	<$FB00><$003A>But it means handing aid to an<$FFFC>enemy.<$FFFE>
 50	<$FB00><$003B>I'd thank you not to meddle in<$FFFC>what happens on this continent！<$FFFD><$FB00><$003C>You've a job, haven't you, finding a way<$FFFC>to destroy Langrisser？<$FFF5> <$FB00><$003D>Or have you<$FFFC>already found it？<$FFFE>

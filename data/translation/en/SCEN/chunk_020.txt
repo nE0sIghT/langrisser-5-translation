@@ -11,19 +11,19 @@
 9	・Defeat all enemies<$FFFE>
 10	・3 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 11	Road to Velzeria<$FFFF>
-12	<$FB00><$0022>They go after supplies like<$FFFC>humans.<$FFFE>
+12	<$FB00><$0022>They go after supplies like humans.<$FFFE>
 13	<$FB00><$0023>They are not stupid, then.<$FFFE>
-14	<$FB00><$0024>Never mind that, we have to<$FFFC>deal with this！<$FFFE>
+14	<$FB00><$0024>Never mind that, we have to deal with<$FFFC>this！<$FFFE>
 15	<$FB00><$0025>Right. If we lose them, we can<$FFFC>march no farther.<$FFFE>
 16	<$FB00><$0026>Worst case, how much can we<$FFFC>afford to lose？<$FFFE>
-17	If four of these supply units survive, we<$FFFC>might manage.<$FFFE>
-18	There are five units, so if two or more<$FFFC>fall, we cannot march.<$FFFE>
+17	If four of these supply units<$FFFC>survive, we might manage.<$FFFE>
+18	There are five units, so if two or<$FFFC>more fall, we cannot march.<$FFFE>
 19	<$FB00><$0027>If three of these supply units<$FFFC>survive, we might manage.<$FFFE>
-20	<$FB00><$0028>There are five units, so if<$FFFC>three or more fall, we cannot march.<$FFFE>
+20	<$FB00><$0028>There are five units, so if three<$FFFC>or more fall, we cannot march.<$FFFE>
 21	<$FB00><$0029>If we drop the bridges to this<$FFFC>island, we can slow them down.<$FFFE>
 22	<$FB00><$002A>Right. Cut the ropes, and the<$FFFC>bridges should fall.<$FFFE>
-23	At a bridge foot, choose whether to cut<$FFFC>the ropes.<$FFFD><$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No <$FFF3>waits for later.<$FFFE>
-24	<$FB00><$002B>At a bridge, we will ask what<$FFFC>to do.<$FFFE>
+23	At a bridge foot, choose<$FFFC>whether to cut the ropes.<$FFFD><$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No <$FFF3>waits for later.<$FFFE>
+24	<$FB00><$002B>At a bridge, we will ask what to<$FFFC>do.<$FFFE>
 25	<$FB00><$002C>Understood. I count on you！<$FFFE>
 26	・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 27	<$FB00><$002D>Run to the fort north of the<$FFFC>lake！ We hold them here！<$FFFE>
@@ -42,21 +42,21 @@
 40	Drop the bridge？<$FFFE>
 41	Drop the bridge？<$FFFE>
 42	Drop the bridge？<$FFFE>
-43	<$FB00><$003C>The supply units finished<$FFFC>evacuating.<$FFFE>
+43	<$FB00><$003C>The supply units finished evacuating.<$FFFE>
 44	<$FB00><$003D>Good. Now wipe out the enemy.<$FFFE>
 45	Thank you！<$FFFE>
 46	We will go on ahead！<$FFFE>
 47	Good luck！<$FFFE>
 48	We will deliver these supplies！<$FFFE>
 49	Whew！ I thought I was dead…<$FFFE>
-50	A single red lotus blooms. As you gaze at<$FFFC>it, a beautiful woman appears on the lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
+50	A single red lotus blooms. As you<$FFFC>gaze at it, a beautiful woman appears on<$FFFC>the lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
 51	<$FB00><$002B>Take this！<$FFFE>
 52	<$FFF7><$FB00><$002A>Hah！<$FFF5><$FFF8><$FFFE>
 53	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
 54	<$FB00><$0046>Let's go.<$FFFE>
 55	<$FB00><$0047>Come if you dare.<$FFFE>
 56	<$FB00><$004B>No… I lost…<$FFFE>
-57	<$FB00><$004C>Marie, leave this to us and<$FFFC>fall back！<$FFFE>
+57	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
 58	…<$FB00><$004D>Sorry…<$FFFE>
 59	<$FB00><$0075>I can fight too！<$FFFE>
 60	<$FB00><$0076>I won't lose！<$FFFE>
@@ -73,7 +73,7 @@
 71	<$FB00><$0055>Forgive me！<$FFFE>
 72	<$FB00><$0054>I won't lose！<$FFFE>
 73	<$FB00><$005C>Ow！ You dare！<$FFFE>
-74	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+74	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 75	<$FB00><$005E>B-but…<$FFFE>
 76	<$FB00><$005F>Just fall back！<$FFFE>
 77	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>

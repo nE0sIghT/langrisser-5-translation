@@ -446,6 +446,73 @@ def display_plate_slots(
     return out, persistent, yesno
 
 
+def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
+    """Per-record speaker plate, read straight from the display commands.
+
+    Each display command (opcode 0x0B..0x10, 12 bytes) carries the speaker as
+    the actor key at byte +6 and the display order as the u16 text id at +10;
+    record = first FB00 record + text id (this covers FB00-less spoken records
+    too). The real commands are picked out by a semantic filter rather than a VM
+    walk: the actor key must be a chunk `actor_plate_table` key (or the special
+    `0xFFE5..0xFFFE` crowd range, or `0xFFFF` = no plate), the text id < count,
+    the mode `byte+3 & 3 <= 2` and the name-visible flag `byte+8 <= 1`. See
+    docs/SPEAKER_NAME_EXTRACTION.md.
+
+    Returns chunk -> record -> slot, where slot is the zero-based speaker-pool
+    slot, `None` for no plate, or `-1` for an unresolved crowd key (its plate is
+    remapped at runtime, so fall back to the chunk-wide reserve there).
+    """
+    from lang5_speakers import actor_plate_table, vm_block
+    out: dict[int, dict[int, int | None]] = {}
+    data = scen_path.read_bytes()
+    for ci, (start, end) in enumerate(read_chunk_spans(data)):
+        chunk = data[start:end]
+        try:
+            block = find_text_block(chunk)
+            _, vm, _ = vm_block(chunk, block)
+        except Exception:
+            continue
+        apt = {a.key: a.field2 for a in actor_plate_table(chunk)}
+        fb = [i for i in range(1, block.record_count + 1)
+              if any(w == 0xFB00 for w in
+                     words_from_bytes(chunk[block.record_span(i)[0]:block.record_span(i)[1]]))]
+        if not fb:
+            continue
+        first_fb, nfb = min(fb), len(fb)
+        cands: dict[int, list[tuple[int, int]]] = {}
+        for p in range(len(vm) - 12):
+            if 0x0B <= vm[p] <= 0x10:
+                key = vm[p + 6] | (vm[p + 7] << 8)
+                tid = vm[p + 10] | (vm[p + 11] << 8)
+                if (tid < nfb and (key in apt or 0xFFE5 <= key <= 0xFFFE or key == 0xFFFF)
+                        and (vm[p + 3] & 3) <= 2 and vm[p + 8] <= 1):
+                    cands.setdefault(tid, []).append((p, key))
+        used: list[int] = []
+        rec_slot: dict[int, int | None] = {}
+        # Resolve the unambiguous text ids first; ambiguous ones then take the
+        # candidate whose 12-byte command does not overlap an assigned one.
+        for tid in sorted(range(nfb), key=lambda t: len(set(k for _, k in cands.get(t, [])))):
+            opts = cands.get(tid, [])
+            if not opts:
+                rec_slot[first_fb + tid] = None
+                continue
+            keys = {k for _, k in opts}
+            if len(keys) == 1:
+                pos, key = opts[0]
+            else:
+                free = [o for o in opts if all(abs(o[0] - u) >= 12 for u in used)] or opts
+                pos, key = free[0]
+            used.append(pos)
+            if key == 0xFFFF:
+                rec_slot[first_fb + tid] = None
+            elif 0xFFE5 <= key <= 0xFFFE:
+                rec_slot[first_fb + tid] = -1
+            else:
+                rec_slot[first_fb + tid] = apt.get(key, 1) - 1
+        out[ci] = rec_slot
+    return out
+
+
 def slot_plate_reserves(codec: Codec, records: list[tuple[str, str]],
                         pool_size: int | None = None) -> dict[int, int]:
     """Zero-based speaker-pool slot -> plate reserve in rendered cells."""
@@ -526,6 +593,7 @@ def main() -> None:
     scen_path = Path(args.scen)
     pool_sizes = speaker_pool_sizes(scen_path) if scen_path.exists() else {}
     traced_slots = traced_plate_slots(scen_path) if scen_path.exists() else {}
+    semantic_slots = semantic_plate_slots(scen_path) if scen_path.exists() else {}
     if scen_path.exists():
         display_slots, persistent_chunks, yesno_slots = display_plate_slots(scen_path, pool_sizes)
     else:
@@ -555,6 +623,14 @@ def main() -> None:
         if confident:
             for rec, slot in disp.items():
                 record_slots.setdefault(rec, slot)
+        # The semantic display-command read is authoritative per record (it
+        # covers FB00-less spoken lines the tracer misses); it overrides the
+        # tracer/scan where it has a value. Chunk 0 is the quiz, whose FB00
+        # markers are portraits rather than name plates, so it keeps its
+        # reserve-0 handling below.
+        if chunk_idx != 0:
+            for rec, slot in semantic_slots.get(chunk_idx, {}).items():
+                record_slots[rec] = slot
         # Unresolved dialogue keeps the persistent plate only in the FB00-less
         # chunks where one speaker narrates the whole block; the quiz's plate
         # does not persist, so there byte9 only governs the records it resolves.
@@ -592,6 +668,11 @@ def main() -> None:
                     slot = record_slots[rec_idx]
                     if slot is None:
                         reserve = 0
+                    elif slot == -1:
+                        # Unresolved crowd key (runtime-remapped plate): keep the
+                        # conservative chunk-wide reserve so the line still clears.
+                        reserve = chunk_reserve
+                        force_plate = True
                     else:
                         if slot in slot_reserves:
                             reserve = slot_reserves[slot]

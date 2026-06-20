@@ -9,19 +9,19 @@
 7	Zero<$FFFF>
 8	Lainforce<$FFFF>
 9	Near the City of Valtar<$FFFF>
-10	<$FB00><$0003>It'll be dark soon, so let's<$FFFC>choose the break-in team.<$FFFE>
-11	<$FB00><$0004>Pick one person to support<$FFFC>you.<$FFFE>
+10	<$FB00><$0003>It'll be dark soon, so let's choose the<$FFFC>break-in team.<$FFFE>
+11	<$FB00><$0004>Pick one person to support you.<$FFFE>
 12	<$FB00><$0005>Right<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	Who do you name？<$FFFE>
 14	・Marie<$FFFE>
 15	・Brenda<$FFFE>
 16	・Clarett<$FFFE>
 17	・Another member<$FFFE>
-18	<$FB00><$0006>Whatever happens, I'll protect<$FFFC>you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$0006>Whatever happens, I'll protect you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 19	<$FB00><$0007>I see. All right.<$FFFE>
-20	<$FB00><$0008>With me along, no need to<$FFFC>worry. Rest easy.<$FFFE>
+20	<$FB00><$0008>With me along, no need to worry.<$FFFC>Rest easy.<$FFFE>
 21	<$FB00><$0009>Yes, yes.<$FFFE>
-22	<$FB00><$000A>I'll cover you perfectly.<$FFFC>Count on it！<$FFFE>
+22	<$FB00><$000A>I'll cover you perfectly. Count<$FFFC>on it！<$FFFE>
 23	<$FB00><$000B>Yeah, got it.<$FFFE>
 24	Who do you name？<$FFFE>
 25	・Alfred<$FFFE>
@@ -34,15 +34,15 @@
 32	<$FB00><$000D>Leave it to me.<$FFFE>
 33	<$FB00><$000F>Right, let's move too！<$FFFE>
 34	Valtar City, Underground Dock<$FFFF>
-35	<$FB00><$0010>My report. A moment ago the<$FFFC>mana density in the air reached our target<$FFFC>value. Phase one of the plan is complete.<$FFFE>
+35	<$FB00><$0010>My report. A moment ago the mana density<$FFFC>in the air reached our target value. Phase<$FFFC>one of the plan is complete.<$FFFE>
 36	<$FB00><$0011>I see.<$FFFD><$FB00><$0012>Some 200 years since we came down to this<$FFFC>star.<$FFF5><$FFFB> <$FB00><$0013>Replanting World Trees to restore<$FFFC>the depleted mana has paid off.<$FFFE>
-37	<$FB00><$0014>Yes. After we capture that<$FFFC>girl, phase two will follow at once.<$FFFE>
-38	<$FB00><$0015>Indeed. If it comes to it, I<$FFFC>won't shrink from force.<$FFFE>
+37	<$FB00><$0014>Yes. After we capture that girl,<$FFFC>phase two will follow at once.<$FFFE>
+38	<$FB00><$0015>Indeed. If it comes to it, I won't<$FFFC>shrink from force.<$FFFE>
 39	<$FB00><$0016>Just so.<$FFFE>
-40	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0017>Zero's habits have rubbed<$FFFC>off on me, it seems.<$FFFE>
+40	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0017>Zero's habits have rubbed off on<$FFFC>me, it seems.<$FFFE>
 41	<$FFF7><$FB00><$0018>Hah？<$FFF5><$FFF8><$FFFE>
 42	<$FFF9><$FB00><$0019>No, never mind.<$FFFE>
-43	<$FB00><$001A>The battleship's refit will<$FFFC>soon be done, but it took longer than<$FFFC>expected. And Chaos has revived once<$FFFC>already. We must hurry.<$FFFE>
+43	<$FB00><$001A>The battleship's refit will soon<$FFFC>be done, but it took longer than expected.<$FFFC>And Chaos has revived once already. We<$FFFC>must hurry.<$FFFE>
 44	<$FB00><$001B>As you will. There is one more<$FFFC>thing to report.<$FFFE>
 45	<$FB00><$001C>What is it.<$FFFE>
 46	<$FB00><$001D>A report from the unit sent to<$FFFC>trace the true holy sword.<$FFFE>

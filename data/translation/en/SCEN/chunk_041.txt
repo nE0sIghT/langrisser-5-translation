@@ -185,10 +185,10 @@
 183	Are you saying I'm that fat！<$FFFE>
 184	<$0000> Clarett joined the party！<$FFFE>
 185	Here we go, you impostors！<$FFFE>
-186	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+186	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 187	I wonder why something like this is here<$FFF8>…<$FFFE>
 188	Mister. one Umanin, please.<$FFFE>
-189	Welcome. which one would you like？<$FFFE>
+189	Welcome. which one would you<$FFFC>like？<$FFFE>
 190	・Umanin Normal<$FFFE>
 191	・Immortal Umanin<$FFFE>
 192	・Umanin Attacker<$FFFE>
@@ -197,16 +197,16 @@
 195	One Immortal Umanin, please.<$FFFE>
 196	One Umanin Attacker, please.<$FFFE>
 197	One High-Speed Umanin, please.<$FFFE>
-198	Too bad, but I'm out of money. Umanin<$FFFC>another time, then.<$FFFE>
+198	Too bad, but I'm out of money.<$FFFC>Umanin another time, then.<$FFFE>
 199	<$FB00><$004B>No… I lost…<$FFFE>
-200	<$FB00><$004C>Marie, leave this to us and<$FFFC>fall back！<$FFFE>
+200	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
 201	…<$FB00><$004D>Sorry…<$FFFE>
-202	If you're going to imitate, do it<$FFFC>properly！<$FFFE>
+202	If you're going to imitate, do<$FFFC>it properly！<$FFFE>
 203	<$FB00><$007B>Not yet… I can still fight…<$FFFE>
 204	<$FB00><$007C>Alfred！ Fall back for now！<$FFFE>
 205	<$FB00><$007D>But…<$FFFE>
 206	<$FB00><$007E>Trust your friends！<$FFFE>
-207	<$FB00><$007F>…Understood. I leave the rest<$FFFC>to you…<$FFFE>
+207	<$FB00><$007F>…Understood. I leave the rest to<$FFFC>you…<$FFFE>
 208	<$FB00><$0070>This is getting dicey…<$FFFE>
 209	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
 210	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>

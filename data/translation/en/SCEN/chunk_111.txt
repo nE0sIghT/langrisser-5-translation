@@ -19,30 +19,30 @@
 17	<$FB00><$008F>Now that you mention it, you<$FFFC>said your brother fought in Caconsis.<$FFFE>
 18	<$FB00><$0090>A man named McClaine. Do you<$FFFC>know him？<$FFFE>
 19	<$FB00><$0091>Know him？ He fought at our<$FFFC>side as a comrade.<$FFFE>
-20	<$FB00><$0092>McClaine's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I<$FFFC>see, so you're Marie. I'm glad you're<$FFFC>safe. Have you met McClaine yet？<$FFFE>
+20	<$FB00><$0092>McClaine's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I see,<$FFFC>so you're Marie. I'm glad you're safe.<$FFFC>Have you met McClaine yet？<$FFFE>
 21	<$FB00><$0094>Yes. He's on the El Sallia<$FFFC>continent now, but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 22	<$FB00><$0095>El Sallia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0096>Ah, he went<$FFFC>after Jessica<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 23	<$FB00><$0097>In any case, his kin is safe.<$FFFC>He'll be glad of it.<$FFFE>
 24	<$FB00><$0098>Speaking of kin, Alfred's and<$FFFC>yours<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 25	<$FB00><$0099>Yes. Lanford, there's<$FFFC>something I must tell you.<$FFFE>
 26	<$FB00><$009A>What is it, Alfred？<$FFFE>
-27	<$FB00><$009B>Listen well. The<$FFFC>Three-Country Alliance now throwing the<$FFFC>Federation into chaos has someone pulling<$FFFC>the strings behind it.<$FFFE>
+27	<$FB00><$009B>Listen well. The Three-Country<$FFFC>Alliance now throwing the Federation into<$FFFC>chaos has someone pulling the strings<$FFFC>behind it.<$FFFE>
 28	<$FB00><$009C>Behind it？<$FFFE>
 29	<$FB00><$009D>This is no mere civil war. It<$FFFC>concerns Yeless… no, the whole world.<$FFFE>
 30	<$FB00><$009E>Tell me everything.<$FFFE>
 31	<$FFFA><$FB00><$009F>The red moon Crimso, and<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-32	<$FB00><$00A0>We want to thwart his ambition<$FFFC>and protect this world. That's why we aid<$FFFC>her and Alfred.<$FFFE>
+32	<$FB00><$00A0>We want to thwart his ambition and<$FFFC>protect this world. That's why we aid her<$FFFC>and Alfred.<$FFFE>
 33	<$FB00><$00A1>By rights we Crimsolanders<$FFFC>should handle it ourselves, but we can't<$FFFC>keep up the brave front forever.<$FFFE>
-34	<$FB00><$00A2>Understood. Forgive me,<$FFFC>Landius. From here I will act with these<$FFFC>people.<$FFFD><$FB00><$00A3>With Crimsonia's ambition using my father,<$FFFC>I cannot stand by and watch.<$FFFE>
-35	<$FB00><$00A4>I thought you'd say that,<$FFFC>Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll return to<$FFFC>Caconsis once and report the situation to<$FFFC>the admiral.<$FFFE>
+34	<$FB00><$00A2>Understood. Forgive me, Landius.<$FFFC>From here I will act with these people.<$FFFD><$FB00><$00A3>With Crimsonia's ambition using my father,<$FFFC>I cannot stand by and watch.<$FFFE>
+35	<$FB00><$00A4>I thought you'd say that, Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll return to<$FFFC>Caconsis once and report the situation to<$FFFC>the admiral.<$FFFE>
 36	<$FFFA><$FB00><$00A6>And as for Emily<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-37	<$FB00><$00A7>I know. I'll find a way to<$FFFC>reach your sister myself.<$FFFE>
-38	<$FB00><$00A8>I'm sorry. I'm counting on<$FFFC>you.<$FFFE>
+37	<$FB00><$00A7>I know. I'll find a way to reach<$FFFC>your sister myself.<$FFFE>
+38	<$FB00><$00A8>I'm sorry. I'm counting on you.<$FFFE>
 39	<$FB00><$00A9>Take care, then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 40	<$0000> Lanford joined the party！<$FFFE>
-41	<$FB00><$00AA>It seems you've come to an<$FFFC>accord.<$FFFE>
+41	<$FB00><$00AA>It seems you've come to an accord.<$FFFE>
 42	<$FB00><$00AB>Let's hurry！<$FFFE>
 43	<$FB00><$00AC>So, which one first？<$FFFE>
 44	<$FB00><$00AD>Alfred's domain is nearer than<$FFFC>mine.<$FFFE>
-45	<$FB00><$00AE>Then we start from Alfred's<$FFFC>side？<$FFFE>
+45	<$FB00><$00AE>Then we start from Alfred's side？<$FFFE>
 46	<$FB00><$00AF>Right, let's go！<$FFFE>

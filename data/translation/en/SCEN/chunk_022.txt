@@ -13,22 +13,22 @@
 11	・<$F600><$0000> dies<$FFFE>
 12	Inside Velzeria Castle<$FFFF>
 13	<$FB00><$0015>We got in awfully easily.<$FFFE>
-14	<$FB00><$0016>And the halls were full of<$FFFC>dead monsters.<$FFFE>
-15	<$FB00><$0017>Maybe there are no monsters<$FFFC>left？<$FFFE>
+14	<$FB00><$0016>And the halls were full of dead monsters.<$FFFE>
+15	<$FB00><$0017>Maybe there are no monsters left？<$FFFE>
 16	<$FB00><$0018>I doubt that.<$FFFE>
 17	<$FB00><$0019>Quite right！<$FFFE>
 18	<$FB00><$001A>Over there！<$FFFE>
-19	<$FB00><$001B>My, my. What a day for<$FFFC>visitors.<$FFFE>
+19	<$FB00><$001B>My, my. What a day for visitors.<$FFFE>
 20	<$FB00><$001C>You're cornered, Glob. Prepare<$FFFC>yourself！<$FFFE>
 21	<$FB00><$001D>Don't talk nonsense. I am in a<$FFFC>very foul mood today. Curse yourselves for<$FFFC>attacking me now！<$FFFE>
 22	<$FB00><$001E>Anyone can talk big.<$FFFE>
 23	<$FB00><$001F>Then allow me to show you<$FFFC>proof！<$FFFD><$FB00><$0020>Souls that perished in this place, become<$FFFC>one and fight！ Haa！<$FFFE>
 24	<$FB00><$0021>This is<$FFF5><$FFF7>…<$FFFE>
-25	<$FB00><$0022>Countless battles were fought<$FFFC>in this castle, and many demons died each<$FFFC>time.<$FFFD>This wraith is all their spirits bound<$FFFC>into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears the mark<$FFFC>of vengeance found here. Until the bearer<$FFFC>is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
+25	<$FB00><$0022>Countless battles were fought in<$FFFC>this castle, and many demons died each<$FFFC>time.<$FFFD>This wraith is all their spirits bound<$FFFC>into one.<$FFFD><$FB00><$0023>It is made to hunt whoever bears the mark<$FFFC>of vengeance found here. Until the bearer<$FFFC>is dead！<$FFFD><$FB00><$0024>And as for this mark…<$FFFE>
 26	<$FB00><$002B>Let me share something<$FFFC>amusing. Step close enough to an ally, and<$FFFC>the mark can be handed over.<$FFFD><$FB00><$002C>If you want to live, pass it to someone<$FFFC>you hate！ Now then, entertain me.<$FFF5> <$FFF7><$FB00><$002D>Hee<$FFFC>hee hee hee！<$FFFE>
-27	Pass the mark from <$F600><$0000> to<$FFFC>Marie？<$FFFE>
-28	Pass the mark to <$F600><$0000>？<$FFFE>
-29	Pass the mark from <$F600><$0000> to<$FFFC>Alfred？<$FFFE>
+27	Pass the mark from<$FFFC><$F600><$0000> to Marie？<$FFFE>
+28	Pass the mark to<$FFFC><$F600><$0000>？<$FFFE>
+29	Pass the mark from<$FFFC><$F600><$0000> to Alfred？<$FFFE>
 30	Pass the mark to <$F600><$0000>？<$FFFE>
 31	Pass the mark from <$F600><$0000> to<$FFFC>Brenda？<$FFFE>
 32	Pass the mark to <$F600><$0000>？<$FFFE>
@@ -48,7 +48,7 @@
 46	Pass the mark to Brenda？<$FFFE>
 47	Hardly enough troops, this. For my own<$FFFC>amusement, let us raise a few more.<$FFFE>
 48	<$FB00><$002B>Take this！<$FFFE>
-49	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+49	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 50	<$FB00><$0046>Let's go.<$FFFE>
 51	<$FB00><$004E>I'm sorry… I must fall back…<$FFFE>
 52	<$FB00><$004F>Don't push yourself. Leave the<$FFFC>rest to us！<$FFFE>
@@ -66,10 +66,10 @@
 64	<$FB00><$005A>Leave the rest to us and fall<$FFFC>back！<$FFFE>
 65	<$FB00><$005B>Sorry… it's in your hands…<$FFFE>
 66	Why, you…<$FFFE>
-67	Eeeek！ You dare, you mere humans！<$FFFE>
+67	Eeeek！ You dare, you mere<$FFFC>humans！<$FFFE>
 68	N, no… not to mere humans…<$FFFE>
 69	…SYUU…<$FFFE>
-70	Tch…！ Failed to finish them off…<$FFFE>
+70	Tch…！ Failed to finish them<$FFFC>off…<$FFFE>
 71	…SYUU…<$FFFE>
 72	…G…G…G…G…<$FFFE>
 73	Beaten by mere humans…<$FFFD>Gh… ghah！<$FFFE>
@@ -79,7 +79,7 @@
 77	…WOOOO…<$FFFE>
 78	BWOOOO…<$FFFE>
 79	GRRRR…<$FFFE>
-80	<$FB00><$0040>Enough！ Fight seriously, you<$FFFC>lot！ Look how close you have let them<$FFFC>come！<$FFFE>
+80	<$FB00><$0040>Enough！ Fight seriously, you lot！<$FFFC>Look how close you have let them come！<$FFFE>
 81	<$FB00><$0041>Father's killer！ This time I<$FFFC>will avenge him！<$FFFE>
 82	<$FB00><$0042>Revenge, vendettas… such<$FFFC>narrow minds are the worst of humanity.<$FFFE>
 83	<$FB00><$0043>Shut up！<$FFFE>

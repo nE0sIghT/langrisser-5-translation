@@ -9,8 +9,8 @@
 7	Gaiel<$FFFF>
 8	Machine<$FFFF>
 9	Demon Stronghold<$FFFF>
-10	<$FB00><$004D>What<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$004E>What is the<$FFFC>meaning of this！<$FFFE>
+10	<$FB00><$004D>What<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$004E>What is the meaning of this！<$FFFE>
 11	<$FB00><$004F>TARGET NOT<$FFFC>VISIBLE, SO ACCURATE<$FFFC>BOMBARDMENT COULD NOT BE<$FFFC>PERFORMED.<$FFFE>
-12	<$FB00><$0050>Argh！ That clouds this thin<$FFFC>should render it useless！<$FFF5> <$FB00><$0051>What a<$FFFC>grievous flaw<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+12	<$FB00><$0050>Argh！ That clouds this thin should render<$FFFC>it useless！<$FFF5> <$FB00><$0051>What a grievous flaw<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	<$FB00><$0052>MEASURING<$FFFC>REMAINING MANA<$FFF5>…<$FE3C>…<$FE3C>.<$FE3C> <$FB00><$0053>ONE<$FFFC>MORE BOMBARDMENT IS<$FFFC>POSSIBLE.<$FFFE>
 14	<$FB00><$0054>One more, eh<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE><$FFFF>

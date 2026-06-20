@@ -91,18 +91,18 @@
 89	Hey, move aside this instant！！<$FFFE>
 90	Hurry or it'll all sell out！！<$FFFE>
 91	Take what's mine and you'll regret it！！<$FFFE>
-92	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
+92	<$FB00><$0030>So this was the limit of my strength…<$FFFE>
 93	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 94	<$FB00><$003B>Leave the rest to me！<$FFFE>
 95	<$FB00><$003C>I'm counting on you…<$FFFE>
 96	<$FB00><$0080>You all right, Alfred！<$FFFE>
-97	<$FB00><$0081>Sorry…the rest is up to<$FFFC>you…<$FFFE>
+97	<$FB00><$0081>Sorry…the rest is up to you…<$FFFE>
 98	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
 99	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 100	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 101	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
-102	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-103	<$FB00><$006F>…I'll do that. Wouldn't want<$FFFC>to drag you down…<$FFFE>
+102	<$FB00><$006E>Fall back, Brenda！ Don't push it！<$FFFE>
+103	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 104	Behold！ this finely sculpted physique！！<$FFFE>
 105	I'll turn the tables on you！！<$FFFE>
 106	Nnngh, forgive me, Adon！！<$FFFE>

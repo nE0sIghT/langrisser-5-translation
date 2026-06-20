@@ -16,7 +16,7 @@
 14	<$FB00><$0093>Lord Lenard！<$FFFE>
 15	<$FB00><$0094>Lord Eric！ You came to aid us！？<$FFFE>
 16	<$FB00><$0095>Details later<$FFF5><$FFF8>… <$FFF6><$FB00><$0096>Report first.<$FFFC>Princess Clarett's ancient ship beat the<$FFFC>Kalxath flyers.<$FFFE>
-17	<$FB00><$0097>I see. Now our movements will<$FFFC>not be exposed.<$FFFE>
+17	<$FB00><$0097>I see. Now our movements will not<$FFFC>be exposed.<$FFFE>
 18	<$FB00><$0098>They head for the thinly guarded<$FFFC>enemy HQ.<$FFFE>
 19	<$FB00><$0099>I am grateful.<$FFFE>
 20	<$FB00><$009A>Tell all troops！ The princess<$FFFC>will open our escape. Break the<$FFFC>encirclement then！<$FFFE>
@@ -25,6 +25,6 @@
 23	Federation Castle Gate<$FFFF>
 24	<$FB00><$009D>Hm！ Who goes there！？<$FFFE>
 25	<$FB00><$009E>Have you forgotten my face？<$FFFE>
-26	<$FB00><$009F>Y-you are Lord Russel？<$FFFC>Welcome back！<$FFFE>
+26	<$FB00><$009F>Y-you are Lord Russel？ Welcome<$FFFC>back！<$FFFE>
 27	<$FB00><$00A0>Yes. My father's suspicion is<$FFFC>finally cleared.<$FFFE>
 28	<$FB00><$00A1>Please come inside！ I will<$FFFC>announce Lord Russel's return！<$FFFE><$FFFF>
