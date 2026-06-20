@@ -14,28 +14,28 @@
 12	・A warden escapes<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Gaiana Prison<$FFFF>
 14	<$FB00><$0027>So this is Gaiana Prison.<$FFFE>
-15	<$FB00><$0028>Lenard said prisoners who<$FFFC>opposed Gilmore's<$FFF5><$FFF8>…,<$FFF6><$FB00><$0029>exploitation are<$FFFC>held here.<$FFFE>
-16	<$FB00><$002A>Huh. So not everyone in this<$FFFC>country just did nothing.<$FFFE>
+15	<$FB00><$0028>Lenard said prisoners who opposed<$FFFC>Gilmore's<$FFF5><$FFF8>…,<$FFF6><$FB00><$0029>exploitation are held here.<$FFFE>
+16	<$FB00><$002A>Huh. So not everyone in this country just<$FFFC>did nothing.<$FFFE>
 17	<$FB00><$002B>Seeing people here imprisoned<$FFFC>must have drained the will to resist.<$FFFE>
 18	<$FB00><$002C>How do we attack？<$FFFE>
 19	<$FB00><$002D>I see three entrances. They<$FFFC>haven't noticed us yet.<$FFFE>
 20	<$FB00><$002E>I lack experience commanding<$FFFC>battle. I'll leave command to you.<$FFFD><$FFF8>…<$FFF6><$FB00><$002F>Will you？ I may be relying on others<$FFFC>again<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$0030>Knowing your limits and<$FFFC>delegating isn't dependence. You'll do it,<$FFFC>right？<$FFFE>
+21	<$FB00><$0030>Knowing your limits and delegating<$FFFC>isn't dependence. You'll do it, right？<$FFFE>
 22	<$FFF7><$FB00><$0031>Yeah.<$FFF5><$FFF8><$FFFE>
 23	・Leave it to me<$FFFE>
 24	・For your ideal<$FFFE>
 25	・Because I'm great<$FFFE>
 26	<$FB00><$0032>Leave it to me. I'll meet your<$FFFC>expectations.<$FFFE>
 27	<$FB00><$0033>Thank you.<$FFFE>
-28	<$FB00><$0034>For your ideal, saving this<$FFFC>country.<$FFFE>
+28	<$FB00><$0034>For your ideal, saving this country.<$FFFE>
 29	<$FB00><$0035>Right. The revolution begins<$FFFC>here. Let's do our best！<$FFFE>
 30	Because I'm great at everything.<$FFFE>
 31	<$FFF8>…<$FB00><$0037>Heh.<$FFF5><$FFF6><$FB00><$0038>Even now, you have room<$FFFC>to joke.<$FFFE>
 32	<$FB00><$0039>All right, let's go！<$FFFE>
-33	I did it！ Now I can contact Lord Creid and<$FFFC>report your actions！<$FFFE>
-34	Damn！ If they escape, our operation is<$FFFC>exposed…<$FFFE>
+33	I did it！ Now I can contact<$FFFC>Lord Creid and report your actions！<$FFFE>
+34	Damn！ If they escape, our<$FFFC>operation is exposed…<$FFFE>
 35	Thank you.<$FFFE>
-36	I never thought I'd see the outside<$FFFC>again…<$FFFE>
+36	I never thought I'd see the<$FFFC>outside again…<$FFFE>
 37	Finally free…<$FFFE>
 38	Please be careful.<$FFFE>
 39	Take care.<$FFFE>
@@ -43,10 +43,10 @@
 41	<$FB00><$003D>Ugh…not yet…<$FFFE>
 42	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
 43	<$FB00><$003F>…All right…<$FFFE>
-44	<$FB00><$0077>I knew it…this is all I<$FFFC>amount to…<$FFFE>
+44	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
 45	<$FB00><$0070>This is getting dicey…<$FFFE>
-46	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
-47	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+46	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+47	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 48	<$FB00><$005C>Ow！ You dare！<$FFFE>
 49	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
 50	<$FB00><$005E>B-but…<$FFFE>
@@ -58,17 +58,17 @@
 56	<$FB00><$005E>G-ghah…<$FFFE>
 57	<$FB00><$005E>G-ghah…<$FFFE>
 58	To rebels…ghah！<$FFFE>
-59	Sorry…Prim… I won't see you again…<$FFFE>
+59	Sorry…Prim… I won't see you<$FFFC>again…<$FFFE>
 60	L-Lord Creid…forgive…<$FFFE>
 61	I'm falling！<$FFFE>
 62	…Not yet…not yet…<$FFFE>
 63	…Oh…gods…<$FFFE>
 64	Lord Creid…this isn't what…<$FFFE>
 65	<$FB00><$0061>Grrr…again… But Gilmore<$FFFC>already knows your movements.<$FFFD><$FB00><$0062>You can act freely only for now！ Remember<$FFFC>that！<$FFFE>
-66	<$FB00><$0063>The weaker the dog, the louder<$FFFC>it barks.<$FFFE>
+66	<$FB00><$0063>The weaker the dog, the louder it<$FFFC>barks.<$FFFE>
 67	<$FB00><$0064>Operation complete.<$FFFE>
-68	<$FB00><$0065>Now let's explain things to<$FFFC>them.<$FFFE>
-69	A thin cloth hangs on a stake rising from<$FFFC>the water.<$FFFD><$0000> Got the <$FFF4>Celestial Robe<$FFF3>！<$FFFE>
+68	<$FB00><$0065>Now let's explain things to them.<$FFFE>
+69	A thin cloth hangs on a stake<$FFFC>rising from the water.<$FFFD><$0000> Got the <$FFF4>Celestial Robe<$FFF3>！<$FFFE>
 70	<$FB00><$003A>Hah！ Intruders！<$FFFE>
 71	<$FB00><$003B>What？ How many？<$FFFE>
 72	<$FB00><$003C>One…two…five units！<$FFFE>

@@ -201,6 +201,11 @@ This is the path to implement: a small extractor (no interpreter) emitting
 `(chunk, record) -> speaker key -> name width`, feeding `lang5_rewrap.py` the
 exact per-record reserve.
 
+**Implemented.** `semantic_plate_slots()` in `lang5_rewrap.py` is this extractor.
+`lang5_rewrap.py` uses it for the exact per-record plate reserve, and
+`lang5_scendump.py` uses it to annotate every spoken record with `# spk: <name>`
+(and a `speaker` column in `all_records.csv`).
+
 ### Known defect this explains
 
 Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its

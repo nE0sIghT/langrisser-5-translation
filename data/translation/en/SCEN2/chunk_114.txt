@@ -12,22 +12,22 @@
 10	Rochefort Castle<$FFFF>
 11	<$FB00><$0068>One moment, Lord Lainforce！<$FFFE>
 12	<$FB00><$0069>What is it？ You have business<$FFFC>with me？<$FFFE>
-13	<$FB00><$006A>It's time you told me how to<$FFFC>break the curse.<$FFFE>
+13	<$FB00><$006A>It's time you told me how to break<$FFFC>the curse.<$FFFE>
 14	<$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-15	<$FB00><$006B>Alvince and my butler<$FFFC>Masterson are both slain. By the reports,<$FFFC>my son Lanford was among them.<$FFFD><$FB00><$006C>At this rate, the day my son and I fight<$FFFC>is not far off. That would be the curse<$FFFC>fulfilled.<$FFFE>
+15	<$FB00><$006B>Alvince and my butler Masterson<$FFFC>are both slain. By the reports, my son<$FFFC>Lanford was among them.<$FFFD><$FB00><$006C>At this rate, the day my son and I fight<$FFFC>is not far off. That would be the curse<$FFFC>fulfilled.<$FFFE>
 16	<$FB00><$006D>I can tell you, but whether<$FFFC>the curse breaks I cannot say. And whether<$FFFC>it even need be broken now, who can tell.<$FFFE>
 17	<$FB00><$006E>Wh… that's fine. Tell me！<$FFFE>
 18	<$FB00><$006F>Very well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 19	A Room at the Inn<$FFFF>
-20	<$FB00><$0070>So, what is it, Virash. Do you<$FFFC>know how to break it？<$FFFE>
+20	<$FB00><$0070>So, what is it, Virash. Do you know how to<$FFFC>break it？<$FFFE>
 21	<$FB00><$0071>A, ah<$FFF5><$FFF8>…<$FE14>…<$FE14>,<$FE14><$FFF6><$FB00><$0072>I know.<$FFFE>
 22	<$FB00><$0073>Then tell us.<$FFFE>
 23	<$FB00><$0074>That's… well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 24	<$FB00><$0075>You're being cagey！ We're in a<$FFFC>hurry, you know？<$FFFE>
 25	<$FB00><$0076>Is the method so difficult？<$FFFE>
-26	<$FB00><$0077>Difficult, and yet<$FFFC>simple<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+26	<$FB00><$0077>Difficult, and yet simple<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 27	<$FB00><$0078>That tells us nothing！<$FFFE>
-28	<$FB00><$0079>However hard the method, I<$FFFC>would have you tell us.<$FFFE>
+28	<$FB00><$0079>However hard the method, I would<$FFFC>have you tell us.<$FFFE>
 29	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$007A>All right. I'll tell you.<$FFFD><$FB00><$007B>Whether to do it is for you to decide.<$FFFE>
 30	<$FB00><$007C>Please.<$FFFE>
 31	<$FB00><$007D>The method itself is simple.<$FFFC>One of the cursed bloodline goes to where<$FFFC>the curse was triggered and gives up their<$FFFC>life.<$FFFD><$FB00><$007E>With that blood, the curse will vanish.<$FFFE>

@@ -15,11 +15,11 @@
 15	<$FFF7><$FB00><$0052>Yes sir！<$FFF5><$FFF8><$FFFE>
 16	Salrath camp<$FFFF>
 17	<$FB00><$0053>Report current losses！<$FFFE>
-18	<$FB00><$0054>Reporting. Our losses are half<$FFFC>the estimate, and we can keep defending<$FFFC>for about one day.<$FFFD><$FB00><$0055>But morale is a concern, so whether we can<$FFFC>hold this state is uncertain.<$FFFE>
+18	<$FB00><$0054>Reporting. Our losses are half the<$FFFC>estimate, and we can keep defending for<$FFFC>about one day.<$FFFD><$FB00><$0055>But morale is a concern, so whether we can<$FFFC>hold this state is uncertain.<$FFFE>
 19	<$FB00><$0056>Yes, that may be so.<$FFFE>
-20	<$FB00><$0057>Why make peasants fight<$FFFC>instead of supporting？ If we acted alone,<$FFFC>we would have more options.<$FFFE>
+20	<$FB00><$0057>Why make peasants fight instead of<$FFFC>supporting？ If we acted alone, we would<$FFFC>have more options.<$FFFE>
 21	<$FB00><$0058>True. With fewer troops and<$FFFC>guerrilla tactics, we could wear down the<$FFFC>enemy.<$FFFD><$FB00><$0059>But this is no ordinary battle. It is a<$FFFC>revolution.<$FFFD><$FB00><$005A>It must be a victory won by the people,<$FFFC>not by soldiers alone.<$FFFE>
-22	<$FB00><$005B>So that is why you mixed in<$FFFC>the peasants？<$FFFE>
-23	<$FB00><$005C>Yes. So we must protect them<$FFFC>and avoid deaths.<$FFFD><$FB00><$005D>Our role is to draw Kalxath troops here so<$FFFC>Clarett can enter. We need not defeat<$FFFC>them.<$FFFE>
-24	<$FB00><$005E>I understand. <$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Yes. The<$FFFC>soldiers we fight now merely obey Gilmore.<$FFFD><$FB00><$0060>If they will be future allies, we should<$FFFC>avoid hurting them.<$FFFE>
+22	<$FB00><$005B>So that is why you mixed in the<$FFFC>peasants？<$FFFE>
+23	<$FB00><$005C>Yes. So we must protect them and<$FFFC>avoid deaths.<$FFFD><$FB00><$005D>Our role is to draw Kalxath troops here so<$FFFC>Clarett can enter. We need not defeat<$FFFC>them.<$FFFE>
+24	<$FB00><$005E>I understand. <$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Yes. The soldiers<$FFFC>we fight now merely obey Gilmore.<$FFFD><$FB00><$0060>If they will be future allies, we should<$FFFC>avoid hurting them.<$FFFE>
 25	<$FB00><$0061>Exactly. Keep defending a<$FFFC>little longer. During that time, Princess<$FFFC>Clarett will surely defeat Gilmore.<$FFFE>

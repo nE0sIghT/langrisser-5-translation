@@ -22,12 +22,12 @@
 22	<$FB00><$001E>Yes！ You served here in the<$FFFC>Imperial Guard.<$FFFD>At nineteen, you became its youngest<$FFFC>captain！<$FFFE>
 23	<$FB00><$001F>It still does not feel real<$FFF5><$FFF8>…<$FFFE>
 24	<$FB00><$0020>Then you were not artificial<$FFF5><$FFF8>…<$FFFE>
-25	<$FB00><$0021>I kept this from you, but it<$FFFC>seems I was the one who stabbed the<$FFFC>emperor.<$FFFE>
+25	<$FB00><$0021>I kept this from you, but it seems<$FFFC>I was the one who stabbed the emperor.<$FFFE>
 26	<$FB00><$0022>But were you not stabbed by<$FFFC>Clarett？<$FFFE>
 27	<$FB00><$0023>Then Gizarof<$FFF5><$FFF8>…？<$FFFE>
 28	<$FB00><$0024>Yes. It seems I died once, then<$FFFC>Gizarof's experiment brought me back.<$FFFE>
 29	<$FB00><$0025>But how did you learn that？<$FFFE>
-30	<$FB00><$0026>Lambda, do you remember Omega,<$FFFC>the one modified besides us？<$FFFE>
+30	<$FB00><$0026>Lambda, do you remember Omega, the<$FFFC>one modified besides us？<$FFFE>
 31	<$FFF7><$FB00><$0027>Yes.<$FFF5><$FFF8><$FFFE>
 32	<$FB00><$0028>He told me.<$FFFE>
 33	<$FB00><$0029>Hmm, mysteries are clearing. But<$FFFC>should we fight soon？<$FFFD><$FB00><$002A>Someone familiar waits at the gate.<$FFFE>
@@ -55,7 +55,7 @@
 55	<$FB00><$007F>…Understood. I leave the rest<$FFFC>to you…<$FFFE>
 56	<$FB00><$0068>Come and get me！<$FFFE>
 57	<$FB00><$0070>This is getting dicey…<$FFFE>
-58	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
+58	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
 59	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
 60	<$FB00><$0055>Forgive me！<$FFFE>
 61	<$FB00><$0051>I will show you my power！<$FFFE>
@@ -66,9 +66,9 @@
 66	<$FB00><$005F>Just fall back！<$FFFE>
 67	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
 68	Why did this happen…？<$FFFE>
-69	At the end… once more… I wanted to see<$FFFC>you…<$FFFE>
+69	At the end… once more… I wanted<$FFFC>to see you…<$FFFE>
 70	L-Lushiris…<$FFFE>
-71	If I am reborn… I want to be a butterfly…<$FFFE>
+71	If I am reborn… I want to be a<$FFFC>butterfly…<$FFFE>
 72	I do not want to die…<$FFFE>
 73	So this is fate…<$FFFE>
 74	<$FB00><$003E>I will not lose！ I cannot<$FFFC>lose！ There is nowhere left to run！<$FFFE>
@@ -79,7 +79,7 @@
 79	<$FB00><$0043>I have something to ask you.<$FFFC>What is this spy…？<$FFFE>
 80	<$FB00><$0044>As if I would tell you<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0045>Farewell！<$FFFE>
 81	<$FB00><$0046>Tch！ He got away！<$FFFE>
-82	A hollow tube is visible. What will you<$FFFC>do？<$FFFE>
+82	A hollow tube is visible. What<$FFFC>will you do？<$FFFE>
 83	・Look inside<$FFFE>
 84	・Put in a red berry<$FFFE>
 85	・Put in a blue berry<$FFFE>

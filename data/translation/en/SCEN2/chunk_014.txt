@@ -14,18 +14,18 @@
 12	Flying Ship Deck<$FFFF>
 13	<$FB00><$0033>C-Captain, what is that<$FFF5><$FFF8>…？<$FFFE>
 14	<$FB00><$0034>I do not know. I heard ancient<$FFFC>magic weapons existed, but to see one<$FFFC>myself…<$FFFE>
-15	<$FB00><$0035>So this is why they dared launch<$FFFC>such a reckless attack.<$FFFE>
+15	<$FB00><$0035>So this is why they dared launch such a<$FFFC>reckless attack.<$FFFE>
 16	<$FB00><$0036>Looks like we made it.<$FFFE>
-17	<$FB00><$0037>The Salrath army still looks<$FFFC>safe.<$FFFE>
+17	<$FB00><$0037>The Salrath army still looks safe.<$FFFE>
 18	<$FB00><$0038>These flyers are the <$FFF4>eyes<$FFFC><$FFF3>watching Salrath, right？<$FFFE>
 19	<$FB00><$0039>Kalxath grew into an empire<$FFFC>because it poured power into flyers before<$FFFC>other nations.<$FFFE>
 20	<$FB00><$003A>Hold the sky and you see enemy<$FFFC>moves. Then you strike first and hit blind<$FFFC>spots.<$FFFE>
 21	<$FB00><$003B>Exactly.<$FFFE>
 22	<$FB00><$003C>Our goal is to seize that air<$FFFC>control and read their weak point instead.<$FFFE>
-23	<$FB00><$003D>But they are flyers. Won't they<$FFFC>be hard to fight？<$FFFE>
+23	<$FB00><$003D>But they are flyers. Won't they be<$FFFC>hard to fight？<$FFFE>
 24	<$FB00><$003E>If we do not win, Salrath cannot<$FFFC>be saved. We have to do it！<$FFFE>
 25	<$FB00><$002C>Take this！<$FFFE>
-26	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+26	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 27	<$FB00><$0038>Move<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 29	<$FB00><$003B>Leave the rest to me！<$FFFE>
@@ -55,11 +55,11 @@
 53	<$FB00><$005E>B-but…<$FFFE>
 54	<$FB00><$005F>Just fall back！<$FFFE>
 55	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
-56	N-no…！ I do not want to die yet…<$FFFE>
+56	N-no…！ I do not want to die<$FFFC>yet…<$FFFE>
 57	C-Captain！<$FFFE>
 58	Captain Kfir… avenge…<$FFFE>
 59	…So strong…<$FFFE>
-60	…No… I still have not told her anything…<$FFFE>
+60	…No… I still have not told her<$FFFC>anything…<$FFFE>
 61	<$FB00><$003F>To bring out such an ancient<$FFFC>weapon<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>But I cannot lose！<$FFFE>
 62	<$FFF8>…<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
 63	<$FB00><$0042>Here I come！<$FFFE>
@@ -74,11 +74,11 @@
 72	<$FB00><$0067>Eric！<$FFFE>
 73	<$FB00><$0068>C-Clarett！？<$FFFE>
 74	<$FB00><$0069>Are you all right, Eric？<$FFFE>
-75	<$FB00><$006A>I finally saw you again. I<$FFFC>cannot die like this… And I have something<$FFFC>to tell you…<$FFFE>
+75	<$FB00><$006A>I finally saw you again. I cannot<$FFFC>die like this… And I have something to<$FFFC>tell you…<$FFFE>
 76	<$FB00><$006B>What is it, Eric？<$FFFE>
 77	<$FB00><$006C>No… fight for now. We will talk<$FFFC>after you win… You can win, I know it！<$FFFE>
 78	<$FB00><$006D>Wait for me, Eric！ We will end<$FFFC>this soon！<$FFFE>
-79	<$FB00><$006E>Sorry, Clarett. I meant to let<$FFFC>you talk<$FFF5><$FFF8>…<$FFFE>
+79	<$FB00><$006E>Sorry, Clarett. I meant to let you<$FFFC>talk<$FFF5><$FFF8>…<$FFFE>
 80	<$FB00><$006F>It is fine！ Right now the battle<$FFFC>comes first！<$FFFE>
 81	<$FFF7><$FB00><$0070>Uwoah！<$FFFE>
 82	<$FB00><$0071>Captain！<$FFFE>
@@ -88,26 +88,26 @@
 86	<$FB00><$0075>Trust us！<$FFFE>
 87	<$FB00><$0076>Forgive me. Then I leave it to<$FFFC>you. Listen, do not die！<$FFFE>
 88	<$FB00><$0077>Understood！<$FFFE>
-89	To think I would lose… I will repay this<$FFFC>humiliation！<$FFFE>
-90	<$FFF8><$FB00><$005E>Hm？ <$FFF5>…<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>… <$FFF6><$FB00><$0060>Is that<$FFFC>Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
+89	To think I would lose… I will<$FFFC>repay this humiliation！<$FFFE>
+90	<$FFF8><$FB00><$005E>Hm？ <$FFF5>…<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>… <$FFF6><$FB00><$0060>Is that Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
 91	<$FB00><$0062>Eric！<$FFFE>
 92	<$FB00><$0063>Clarett. I wanted to see you <$FFF5><$FFF8>…<$FFFE>
-93	Damn！ My flying corps felled so easily…<$FFFE>
-94	There is something like a golden switch.<$FFFC>Press it？<$FFFE>
-95	Emergency alert！ Disinfectant gas will<$FFFC>now be sprayed！<$FFFD><$0000> Skill <$FFF4>Detox<$FFF3> learned！<$FFFE>
+93	Damn！ My flying corps felled so<$FFFC>easily…<$FFFE>
+94	There is something like a golden<$FFFC>switch. Press it？<$FFFE>
+95	Emergency alert！ Disinfectant<$FFFC>gas will now be sprayed！<$FFFD><$0000> Skill <$FFF4>Detox<$FFF3> learned！<$FFFE>
 96	<$FB00><$0078>Looks like no enemies are left.<$FFFE>
 97	<$FB00><$0079>Now air control is ours.<$FFFE>
-98	<$FB00><$007A>But Salrath is not safe yet. The<$FFFC>enemy has ten times their force.<$FFFE>
+98	<$FB00><$007A>But Salrath is not safe yet. The enemy has<$FFFC>ten times their force.<$FFFE>
 99	<$FB00><$007C>Right.<$FFFE>
 100	<$FB00><$007D>Clarett<$FFF5><$FFF8>…<$FFFE>
 101	<$FFF8>…<$FFF6><$FB00><$007E>Eric.<$FFFE>
 102	<$FB00><$007F>Hey, Clarett. Will you introduce<$FFFC>him？<$FFFE>
 103	<$FB00><$0080>Y-yes. This is Eric. My<$FFFC>fiance.<$FFFE>
-104	<$FB00><$0081>Ah, the one you mentioned<$FFFC>before？ <$FFF5><$FFF8>…<$FFF6><$FB00><$0082>So you really had a fiance<$FFF5><$FFF8>…<$FFFE>
+104	<$FB00><$0081>Ah, the one you mentioned before？<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$0082>So you really had a fiance<$FFF5><$FFF8>…<$FFFE>
 105	<$FB00><$0083>Well, I am the only daughter of<$FFFC>the Kalxath royal house. At my age, a<$FFFC>fiance is no surprise.<$FFFE>
 106	<$FB00><$0084>I have been furious at Gilmore's<$FFFC>methods.<$FFFD><$FB00><$0085>But as you know, he rules by fear,<$FFFC>executing anyone who defies him.<$FFFD><$FB00><$0086>So I could not act openly.<$FFFD><$FB00><$0087>But when I learned Clarett had persuaded<$FFFC>Duke Lenard to act, I started waiting for<$FFFC>my chance.<$FFFE>
 107	<$FB00><$0088>Eric.<$FFFE>
-108	<$FB00><$0089>Please let me aid this<$FFFC>operation. I am poor in direct combat, but<$FFFC>I can gather information<$FFF5><$FFF8>…<$FFFE>
+108	<$FB00><$0089>Please let me aid this operation.<$FFFC>I am poor in direct combat, but I can<$FFFC>gather information<$FFF5><$FFF8>…<$FFFE>
 109	<$FB00><$008A>Thank you, Eric. We will descend<$FFFC>and raid the enemy headquarters.<$FFFD><$FB00><$008B>Tell Duke Lenard that.<$FFFE>
 110	<$FB00><$008C>Understood.<$FFFE>
 111	<$FB00><$008D>Did you just say we will raid<$FFFC>the enemy headquarters？<$FFFE>

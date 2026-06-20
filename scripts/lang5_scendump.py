@@ -10,6 +10,8 @@ import argparse
 import csv
 from pathlib import Path
 
+import re
+
 from lang5_scen import (
     Codec,
     find_text_block,
@@ -17,6 +19,14 @@ from lang5_scen import (
     read_chunk_spans,
     words_from_bytes,
 )
+from lang5_rewrap import semantic_plate_slots
+
+_TAG = re.compile(r"<\$[0-9A-Fa-f]{4}>")
+
+
+def _plate_name(text: str) -> str:
+    """The visible speaker-plate name from a name-pool record's text."""
+    return _TAG.sub("", text).strip()
 
 
 def dump_file(src: Path, out_dir: Path, codec: Codec) -> list[dict[str, str]]:
@@ -24,24 +34,46 @@ def dump_file(src: Path, out_dir: Path, codec: Codec) -> list[dict[str, str]]:
     root = out_dir / src.stem
     root.mkdir(parents=True, exist_ok=True)
     rows: list[dict[str, str]] = []
+    # Per-record speaker, read straight from the display commands (no VM walk;
+    # see docs/SPEAKER_NAME_EXTRACTION.md). slot is the 0-based name-pool slot,
+    # None = no plate, -1 = runtime-remapped crowd line.
+    chunk_slots = semantic_plate_slots(src)
 
     for cidx, (s, e) in enumerate(read_chunk_spans(data)):
         chunk = data[s:e]
         block = find_text_block(chunk)
+        decoded = {
+            ridx: codec.decode(words_from_bytes(chunk[slice(*block.record_span(ridx))]))
+            for ridx in range(1, block.record_count + 1)
+        }
+        rec_slot = chunk_slots.get(cidx, {})
+
+        def speaker_for(ridx: int) -> str:
+            slot = rec_slot.get(ridx, "absent")
+            if slot == "absent" or slot is None:
+                return ""
+            if slot == -1:
+                return "(crowd)"
+            name = _plate_name(decoded.get(slot + 1, ""))
+            return name or f"slot {slot}"
+
         lines = [
             f"# file={src.name} chunk={cidx} chunk_start=0x{s:06X}",
             f"# block_base=0x{block.base:04X} block_size=0x{block.size:04X} records={block.record_count}",
         ]
         for ridx in range(1, block.record_count + 1):
-            a, b = block.record_span(ridx)
-            words = words_from_bytes(chunk[a:b])
-            text = codec.decode(words)
+            text = decoded[ridx]
+            words = words_from_bytes(chunk[slice(*block.record_span(ridx))])
+            speaker = speaker_for(ridx)
+            if speaker:
+                lines.append(f"# spk: {speaker}")
             lines.append(f"{ridx}\t{text}")
             rows.append(
                 {
                     "source_file": src.name,
                     "chunk_index": str(cidx),
                     "record_index": str(ridx),
+                    "speaker": speaker,
                     "word_count": str(len(words)),
                     "text": text,
                 }
@@ -71,7 +103,9 @@ def main() -> None:
     csv_path = out_dir / "all_records.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as fh:
         writer = csv.DictWriter(
-            fh, fieldnames=["source_file", "chunk_index", "record_index", "word_count", "text"]
+            fh,
+            fieldnames=["source_file", "chunk_index", "record_index", "speaker",
+                        "word_count", "text"],
         )
         writer.writeheader()
         writer.writerows(rows)

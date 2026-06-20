@@ -11,20 +11,20 @@
 9	・Defeat Butler Masterson<$FFFE>
 10	・<$F600><$0000> dies<$FFFE>
 11	Sutherland Domain<$FFFF>
-12	<$FB00><$000E>Say, feels like we've walked<$FFFC>quite a way. Still more to go？<$FFFE>
-13	<$FB00><$000F>Just a little farther, I<$FFFC>think. Right, Lanford？<$FFFE>
-14	<$FB00><$0010>Yeah. Past this plain, my<$FFFC>father's manor will come into view before<$FFFC>long. Shall we rest soon？<$FFFE>
+12	<$FB00><$000E>Say, feels like we've walked quite a way.<$FFFC>Still more to go？<$FFFE>
+13	<$FB00><$000F>Just a little farther, I think. Right,<$FFFC>Lanford？<$FFFE>
+14	<$FB00><$0010>Yeah. Past this plain, my father's manor<$FFFC>will come into view before long. Shall we<$FFFC>rest soon？<$FFFE>
 15	<$FB00><$0011>Wait！ Everyone, stay sharp！<$FFFE>
 16	<$FB00><$0012>What is it？<$FFFE>
 17	<$FB00><$0013>A presence<$FFF5><$FFF8>…<$FFF6><$FB00><$0014>Enemies<$FFF5><$FFF8>….<$FFFE>
 18	<$FB00><$0015>So you noticed.<$FFFE>
 19	<$FB00><$0016>Masterson！<$FFFE>
 20	<$FB00><$0017>I heard Lord Alvince had<$FFFC>fallen. Thinking you'd arrive here before<$FFFC>long, I've been waiting.<$FFFE>
-21	<$FB00><$0018>Waiting, you say, but it<$FFFC>hardly feels like a welcome.<$FFFE>
+21	<$FB00><$0018>Waiting, you say, but it hardly<$FFFC>feels like a welcome.<$FFFE>
 22	<$FB00><$0019>Stand aside, Masterson. As a<$FFFC>soldier of the Federation, I must stop my<$FFFC>father.<$FFFE>
 23	<$FB00><$001A>Then, as one who serves Lord<$FFFC>Lambert, I must protect my master.<$FFF5><$FFF8> <$FFF6><$FB00><$001B>A<$FFFC>battle cannot be avoided, it seems<$FFF5><$FFF8>….<$FFFE>
 24	<$FB00><$001C>To think it would come to<$FFFC>fighting you.<$FFFE>
-25	A crystal glowing with stored magic peeks<$FFFC>from the ground. What do you do？<$FFFE>
+25	A crystal glowing with stored<$FFFC>magic peeks from the ground. What do you<$FFFC>do？<$FFFE>
 26	・Touch it with your hand<$FFFE>
 27	・Press your forehead to it<$FFFE>
 28	・Drape a cloth over it<$FFFE>
@@ -33,9 +33,9 @@
 31	The cloth changed shape before your eyes<$FFFC>under the crystal's magic….<$FFFD><$0000> <$FFF4>Goddess Dress<$FFF3> obtained！<$FFFE>
 32	<$FB00><$002E>Sorry… everyone…<$FFFE>
 33	<$FB00><$004B>No… that I should…<$FFFE>
-34	<$FB00><$004C>Marie, leave this to us and<$FFFC>pull back！<$FFFE>
+34	<$FB00><$004C>Marie, leave this to us and pull back！<$FFFE>
 35	…<$FB00><$004D>I'm sorry….<$FFFE>
-36	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
+36	<$FB00><$007B>I can still… I can still fight…<$FFFE>
 37	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 38	<$FB00><$007D>But…<$FFFE>
 39	<$FB00><$007E>Trust your comrades！<$FFFE>
@@ -43,47 +43,47 @@
 41	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
 42	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 43	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>go…<$FFFE>
-44	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
+44	<$FB00><$006E>Fall back, Brenda！ Don't overdo<$FFFC>it！<$FFFE>
 45	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
 46	<$FB00><$0057>Aah！<$FFFE>
 47	<$FB00><$0058>Are you all right, Clarett！？<$FFFE>
 48	<$FB00><$0059>This is a bit much…<$FFFE>
 49	<$FB00><$005A>Leave the rest to us and fall<$FFFC>back！<$FFFE>
 50	<$FB00><$005B>Sorry, it's in your hands…<$FFFE>
-51	Until I've stopped my father, I cannot be<$FFFC>beaten. Stand aside, Masterson！<$FFFE>
-52	That I cannot do. The only act allowed me<$FFFC>is to protect my master.<$FFFE>
-53	I'm resolved. If you won't yield the way,<$FFFC>Masterson, then I'll defeat you！<$FFFE>
-54	I too come in earnest. Let me see how far<$FFFC>your skill has grown, Lord Lanford.<$FFFE>
+51	Until I've stopped my father, I<$FFFC>cannot be beaten. Stand aside, Masterson！<$FFFE>
+52	That I cannot do. The only act<$FFFC>allowed me is to protect my master.<$FFFE>
+53	I'm resolved. If you won't yield<$FFFC>the way, Masterson, then I'll defeat you！<$FFFE>
+54	I too come in earnest. Let me see<$FFFC>how far your skill has grown, Lord<$FFFC>Lanford.<$FFFE>
 55	<$FB00><$0020>Must we truly fight<$FFF5><$FFF8>….<$FFFE>
-56	<$FB00><$0021>Turning my sword on you is not<$FFFC>my wish either, Lord Lanford, but it<$FFFC>cannot be helped.<$FFFE>
-57	<$FB00><$0022>I cannot lose. I'll beat you<$FFFC>and learn the truth of my father's change<$FFFC>of heart！<$FFFE>
+56	<$FB00><$0021>Turning my sword on you is not my<$FFFC>wish either, Lord Lanford, but it cannot<$FFFC>be helped.<$FFFE>
+57	<$FB00><$0022>I cannot lose. I'll beat you and<$FFFC>learn the truth of my father's change of<$FFFC>heart！<$FFFE>
 58	<$FB00><$0023>Here I come, Lord Lanford.<$FFFE>
 59	Forgive me. Lord Lanford<$FFF8>….<$FFFE>
-60	Never mind. Come with all you have！<$FFFE>
+60	Never mind. Come with all you<$FFFC>have！<$FFFE>
 61	<$FB00><$0024>Uu…<$FFFE>
 62	<$FB00><$0025>Lanford！<$FFFE>
-63	<$FB00><$0026>I'm all right<$FFF5><$FFF8>… <$FFF6><$FB00><$0027>A wound like<$FFFC>this won't kill me<$FFF5><$FFF8>… <$FFF6><$FB00><$0028>But<$FFF5><$FFF8>…<$FFFE>
+63	<$FB00><$0026>I'm all right<$FFF5><$FFF8>… <$FFF6><$FB00><$0027>A wound like this<$FFFC>won't kill me<$FFF5><$FFF8>… <$FFF6><$FB00><$0028>But<$FFF5><$FFF8>…<$FFFE>
 64	<$FB00><$0029>I know. We'll handle the rest.<$FFFE>
 65	<$FB00><$002A>Sorry<$FFF5><$FFF8>….<$FFFE>
 66	<$FB00><$002B>Forgive me, Lord Lanford.<$FFFE>
-67	I, I'm sorry… I'll go on ahead…<$FFFE>
-68	I, I can let you advance no further…<$FFFE>
+67	I, I'm sorry… I'll go on<$FFFC>ahead…<$FFFE>
+68	I, I can let you advance no<$FFFC>further…<$FFFE>
 69	…Guhah！<$FFFE>
 70	I, I've failed…<$FFFE>
 71	…At least… one more stroke…<$FFFE>
 72	I, I can still… fight…<$FFFE>
 73	Nuuh… I cannot win…<$FFFE>
 74	Lord Masterson… forgive me…<$FFFE>
-75	…Now I needn't fight Lord Lanford… after<$FFFC>all…<$FFFE>
-76	<$FB00><$001D>Whatever happens, I will not<$FFFC>let you and the master come to blows.<$FFFE>
-77	<$FB00><$001E>Tell me, Masterson. What in<$FFFC>the world happened to my father.<$FFFE>
-78	<$FB00><$001F>It is not a thing I may<$FFFC>lightly speak of<$FFF5><$FFF8>….<$FFFE>
+75	…Now I needn't fight Lord<$FFFC>Lanford… after all…<$FFFE>
+76	<$FB00><$001D>Whatever happens, I will not let<$FFFC>you and the master come to blows.<$FFFE>
+77	<$FB00><$001E>Tell me, Masterson. What in the<$FFFC>world happened to my father.<$FFFE>
+78	<$FB00><$001F>It is not a thing I may lightly<$FFFC>speak of<$FFF5><$FFF8>….<$FFFE>
 79	<$FB00><$002F>Gh… guh…<$FFFE>
 80	<$FB00><$0030>Lord Masterson！<$FFFE>
 81	<$FB00><$0031>Lower your weapon<$FFF5><$FFF8>… <$FFF6><$FB00><$0032>We have<$FFFC>lost<$FFF5><$FFF8>….<$FFFE>
 82	<$FB00><$0033>But<$FFF5><$FFF8>….<$FFFE>
 83	<$FFF8><$FFFA>….<$FFFE>
-84	<$FB00><$0034>There's no beating the weight<$FFFC>of years<$FFF5><$FFF8>… <$FFF6><$FB00><$0035>Lord Lanford. Let me tell you<$FFFC>why the master turned cold toward you<$FFF5><$FFF8>….<$FFFE>
+84	<$FB00><$0034>There's no beating the weight of<$FFFC>years<$FFF5><$FFF8>… <$FFF6><$FB00><$0035>Lord Lanford. Let me tell you why<$FFFC>the master turned cold toward you<$FFF5><$FFF8>….<$FFFE>
 85	<$FB00><$0036>Masterson<$FFF5><$FFF8>….<$FFFE>
 86	<$FB00><$0037>You know the tale of how, in<$FFFC>his youth, the master adventured with his<$FFFC>dear friend Lord Rockwell<$FFF5><$FFF8>….<$FFFE>
 87	<$FB00><$0038>Yeah, I heard it often as a<$FFFC>child.<$FFFE>

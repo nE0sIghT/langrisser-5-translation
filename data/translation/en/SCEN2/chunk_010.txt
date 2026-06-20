@@ -14,8 +14,8 @@
 12	Port town of El Sallia<$FFFF>
 13	<$FB00><$002D>So, where do we start looking？<$FFFE>
 14	<$FB00><$002E>Hmm, good question…<$FFFE>
-15	<$FB00><$002F>Hold on. Some commotion over<$FFFC>there.<$FFFE>
-16	<$FB00><$0030>With what face do you dare<$FFFC>return, Princess Clarett？<$FFFE>
+15	<$FB00><$002F>Hold on. Some commotion over there.<$FFFE>
+16	<$FB00><$0030>With what face do you dare return,<$FFFC>Princess Clarett？<$FFFE>
 17	<$FB00><$0031>What do you mean？<$FFFE>
 18	<$FB00><$0032>Oh？ You don't know you're wanted<$FFFC>as an accomplice in the Emperor's murder？<$FFFE>
 19	<$FB00><$0033>An accomplice？ Me？ That man did<$FFFC>the killing！<$FFFE>
@@ -25,7 +25,7 @@
 23	<$FB00><$0037>That's<$FFF5><$FFF7>…<$FFF6><$FB00><$0038>Clarett and her<$FFFC>friends！<$FFFE>
 24	<$FB00><$0039>That Jessica woman seems to be<$FFFC>with her too. <$FFF5><$FFF8>…<$FFF6><$FB00><$003A>But something seems off,<$FFFC>no？<$FFFE>
 25	<$FB00><$003B>That's more than odd！ Those<$FFFC>soldiers mean to take them！<$FFFE>
-26	<$FB00><$003C>Sir！？ An armed band has<$FFFC>appeared over there！<$FFFE>
+26	<$FB00><$003C>Sir！？ An armed band has appeared<$FFFC>over there！<$FFFE>
 27	<$FFF8>…<$FFF6><$FB00><$003D>Th, that man<$FFF5><$FFF8>…<$FFFE>
 28	<$FB00><$003E>Hm？ I know that man from<$FFFC>somewhere<$FFF5><$FFF8>…<$FFFE>
 29	<$FFF8>？<$FFFE>
@@ -36,14 +36,14 @@
 34	<$FB00><$0044>Seems they take you for the<$FFFC>Emperor's killer as well.<$FFFE>
 35	<$FB00><$0045>Kh, what is going on？<$FFFE>
 36	<$FB00><$0046>No use fretting over it. Let's<$FFFC>just get ready to fight.<$FFFE>
-37	Two phials hang partway down a deep hole<$FFFC>in the paving. Take one, the other may<$FFFC>fall.<$FFFD>One holds a purple draught, the other a<$FFFC>gray one. Which phial do you take？<$FFFE>
+37	Two phials hang partway down a<$FFFC>deep hole in the paving. Take one, the<$FFFC>other may fall.<$FFFD>One holds a purple draught, the other a<$FFFC>gray one. Which phial do you take？<$FFFE>
 38	・The purple phial<$FFFE>
 39	・The gray phial<$FFFE>
 40	You take the purple phial. The gray one<$FFFC>drops into the dark.<$FFFD>You drink it. Your body burns for a<$FFFC>moment, but the poisons seem to wash away.<$FFFD><$0000> Got the skill <$FFF4>Antidote<$FFF3>！<$FFFE>
 41	You take the gray phial. The purple one<$FFFC>drops into the dark.<$FFFD>You drink it. For a time your body feels<$FFFC>heavy as lead.<$FFFD><$0000> Got the skill <$FFF4>Ston 4<$FFF3>！<$FFFE>
 42	<$FFF8>…<$FFF6><$FB00><$006F>Me, the Royal Guard captain！？<$FFFE>
-43	<$FB00><$0070>So he said. And by the sound of<$FFFC>it, Clarett is the slain Emperor's<$FFFC>daughter<$FFF5><$FFF8>…<$FFF6><$FB00><$0071>a princess, that is.<$FFFE>
-44	<$FB00><$0072>Guilty or not, with bounties on<$FFFC>your heads, the road ahead looks rough<$FFF5><$FFF8>…<$FFFE>
+43	<$FB00><$0070>So he said. And by the sound of it,<$FFFC>Clarett is the slain Emperor's<$FFFC>daughter<$FFF5><$FFF8>…<$FFF6><$FB00><$0071>a princess, that is.<$FFFE>
+44	<$FB00><$0072>Guilty or not, with bounties on your<$FFFC>heads, the road ahead looks rough<$FFF5><$FFF8>…<$FFFE>
 45	<$FB00><$0073>I'm sorry<$FFF5><$FFF8>…<$FFFE>
 46	<$FB00><$0074>You've nothing to apologize for.<$FFFC>Besides, we may learn something about you<$FFFC>here.<$FFFE>
 47	<$FB00><$0075>So I once walked this continent<$FFFC><$FFF5><$FFF8>…<$FFFE>
@@ -61,7 +61,7 @@
 59	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 60	<$FB00><$0057>Kyah！<$FFFE>
 61	No… I failed to protect them…<$FFFE>
-62	No…it can't be… With Langrisser still<$FFFC>taken…<$FFFE>
+62	No…it can't be… With<$FFFC>Langrisser still taken…<$FFFE>
 63	No… I failed to protect them…<$FFFE>
 64	<$FFF8><$FB00><$0076>Ggh…<$FFF5><$FFF6><$FB00><$0077>How dare you… <$FFF5><$FB00><$0078>But return<$FFFC>now, and you'll find no home waiting for<$FFFC>you！<$FFFE>
 65	<$FB00><$0079>What do you mean by that？<$FFFE>
@@ -82,17 +82,17 @@
 80	Y, you're good…<$FFFE>
 81	<$FB00><$0060>Take them both down and the<$FFFC>bounty's a fortune！ It's our lucky day！<$FFFE>
 82	<$FB00><$0061>…M…my lord Marquis！！<$FFFE>
-83	T, too strong！ We…can't…win…<$FFFE>
+83	T, too strong！<$FFFC>We…can't…win…<$FFFE>
 84	<$FB00><$0061>…M…my lord Marquis！！<$FFFE>
-85	T, too strong！ We…can't…win…<$FFFE>
+85	T, too strong！<$FFFC>We…can't…win…<$FFFE>
 86	<$FB00><$0061>…M…my lord Marquis！！<$FFFE>
 87	How could I lose<$FE14>…<$FE14>… Guhah！<$FFFE>
 88	<$FB00><$0061>…M…my lord Marquis！！<$FFFE>
 89	How could I lose<$FE14>…<$FE14>… Guhah！<$FFFE>
 90	<$FB00><$0061>…M…my lord Marquis！！<$FFFE>
-91	It wasn't supposed to…go like this…<$FFFE>
+91	It wasn't supposed to…go like<$FFFC>this…<$FFFE>
 92	<$FB00><$0061>…M…my lord Marquis！！<$FFFE>
-93	It wasn't supposed to…go like this…<$FFFE>
+93	It wasn't supposed to…go like<$FFFC>this…<$FFFE>
 94	<$FB00><$0047>Lady Jessica, what do we do？<$FFFE>
 95	<$FFFA><$FFF8>…<$FFFE>
 96	<$FB00><$0048>Let's help them. If we don't,<$FFFC>those two will be killed.<$FFFE>

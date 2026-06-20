@@ -12,23 +12,23 @@
 10	・Defeat Goldry within 20 turns<$FFFE>
 11	・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Tunnel to Reynorz<$FFFF>
-13	<$FB00><$0046>Step aside quietly. We must<$FFFC>hurry on to Sutherland.<$FFFE>
+13	<$FB00><$0046>Step aside quietly. We must hurry on to<$FFFC>Sutherland.<$FFFE>
 14	<$FB00><$0047>I've a job of my own. Let no<$FFFC>one through here！<$FFFE>
 15	<$FB00><$0048>What now, Lanford？<$FFFE>
-16	<$FB00><$0049>I cannot simply back off<$FFFC>because someone says no.<$FFFE>
+16	<$FB00><$0049>I cannot simply back off because<$FFFC>someone says no.<$FFFE>
 17	<$FB00><$004A>Then we force our way through.<$FFFE>
 18	<$FB00><$004B>Hold it！ Don't try anything<$FFFC>funny！ My orders are to collapse the<$FFFC>tunnel itself if I can't hold it.<$FFFE>
 19	<$FFF8><$FB00><$004C>Tch！<$FFFE>
-20	<$FB00><$004D>Halfway up this mountain<$FFFC>there's a tunnel to the far side. Through<$FFFC>it, Reynorz is close.<$FFFE>
-21	<$FB00><$004E>Huh. I've wandered all over,<$FFFC>but I never knew there was a tunnel here.<$FFFE>
-22	<$FB00><$004F>Well, few people try to cross<$FFFC>such rugged mountains.<$FFFE>
+20	<$FB00><$004D>Halfway up this mountain there's a<$FFFC>tunnel to the far side. Through it,<$FFFC>Reynorz is close.<$FFFE>
+21	<$FB00><$004E>Huh. I've wandered all over, but<$FFFC>I never knew there was a tunnel here.<$FFFE>
+22	<$FB00><$004F>Well, few people try to cross such<$FFFC>rugged mountains.<$FFFE>
 23	<$FB00><$0050>Good thing we have Alfred. A<$FFFC>detour would have cost us dearly.<$FFFE>
 24	<$FB00><$0051>Everyone, wait. It's noisy up<$FFFC>ahead.<$FFFE>
 25	<$FB00><$0052>Th, that's<$FFF5><$FFF8>…<$FFFE>
-26	<$FB00><$0053>Captain！ Suspicious figures<$FFFC>from below too！<$FFFE>
+26	<$FB00><$0053>Captain！ Suspicious figures from<$FFFC>below too！<$FFFE>
 27	<$FB00><$0054>What？<$FFF5><$FFF8> …<$FFF6><$FB00><$0055>Hm？ Those are<$FFF5><$FFF8>…<$FFFE>
-28	<$FB00><$0056>Ah！ That's the creep who was<$FFFC>in Caconsis！<$FFFE>
-29	<$FB00><$0057>So he quit Caconsis and hired<$FFFC>on with the Three-Country Alliance.<$FFFE>
+28	<$FB00><$0056>Ah！ That's the creep who was in<$FFFC>Caconsis！<$FFFE>
+29	<$FB00><$0057>So he quit Caconsis and hired on<$FFFC>with the Three-Country Alliance.<$FFFE>
 30	<$FB00><$0058>No mistake. It's them. Them<$FFFC>above all I won't let through！ You there,<$FFFC>prep the tunnel for demolition！<$FFFE>
 31	<$FB00><$0059>Right now？<$FFFE>
 32	<$FB00><$005A>Yes！ Use that blasting powder<$FFFC>Lord Zero gave us！ All of it, and the<$FFFC>tunnel's done for.<$FFFD><$FB00><$005B>Hold them off until I'm ready！<$FFFE>
@@ -38,12 +38,12 @@
 36	<$FB00><$005F>But can they really do that？<$FFFE>
 37	<$FB00><$0060>Right, you folks don't know<$FFFC>about blasting powder.<$FFFE>
 38	<$FB00><$0061>Is that Crimsonia's ancient<$FFFC>magic too？<$FFFE>
-39	<$FB00><$0062>No, not magic. Put simply,<$FFFC>it's a powder that explodes when lit.<$FFFE>
-40	<$FB00><$0063>Something Lainforce gave<$FFFC>Goldry, no doubt.<$FFFE>
+39	<$FB00><$0062>No, not magic. Put simply, it's a<$FFFC>powder that explodes when lit.<$FFFE>
+40	<$FB00><$0063>Something Lainforce gave Goldry,<$FFFC>no doubt.<$FFFE>
 41	<$FB00><$0064>Probably. With that powder, a<$FFFC>tunnel like this collapses in an instant.<$FFFC>Best stop him fast.<$FFFE>
 42	・Defeat Goldry within 16 turns<$FFFE>
 43	<$FB00><$0073>Still quite a lot left.<$FFFC>Setting it all will take a while yet.<$FFFE>
-44	…All right？ Will we make it in time？<$FFFE>
+44	…All right？ Will we make it in<$FFFC>time？<$FFFE>
 45	Yeah, I think we'll be fine, probably…<$FFFE>
 46	・If he's the enemy, we'll be fine.<$FFFE>
 47	・Since it's Goldry we face…<$FFFE>
@@ -52,11 +52,11 @@
 50	R, right.<$FFFE>
 51	See？<$FFFE>
 52	Damn it！ Infuriating brats！<$FFFE>
-53	With Goldry for an opponent, there's no<$FFFC>telling what he'll do.<$FFFE>
-54	True… If he botches handling the powder…<$FFFE>
+53	With Goldry for an opponent,<$FFFC>there's no telling what he'll do.<$FFFE>
+54	True… If he botches handling<$FFFC>the powder…<$FFFE>
 55	Yeah. Best to hurry.<$FFFE>
-56	He's the one who tried to force himself on<$FFFC>Clarett, wasn't he？<$FFFE>
-57	Yes. Demanded she pay an outrageous toll<$FFFC>with her body.<$FFFE>
+56	He's the one who tried to<$FFFC>force himself on Clarett, wasn't he？<$FFFE>
+57	Yes. Demanded she pay an<$FFFC>outrageous toll with her body.<$FFFE>
 58	Him I can never forgive！<$FFFE>
 59	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now just<$FFFC>light it<$FFF5><$FFF8>…<$FFFE>
 60	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now just<$FFFC>light it<$FFF5><$FFF8>…<$FFFE>
@@ -70,7 +70,7 @@
 68	<$FB00><$0046>Here goes.<$FFFE>
 69	<$FB00><$0047>Come if you dare.<$FFFE>
 70	<$FB00><$004E>Forgive me… I have to pull<$FFFC>back first…<$FFFE>
-71	<$FB00><$004F>Don't push it. Leave the rest<$FFFC>to us！<$FFFE>
+71	<$FB00><$004F>Don't push it. Leave the rest to<$FFFC>us！<$FFFE>
 72	<$FB00><$0050>Please…<$FFFE>
 73	<$FB00><$0074>Here I go！<$FFFE>
 74	<$FB00><$007B>I can still… I can still<$FFFC>fight…<$FFFE>
@@ -82,8 +82,8 @@
 80	<$FB00><$0068>Come and get it！<$FFFE>
 81	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
 82	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-83	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>go…<$FFFE>
-84	<$FB00><$006E>Fall back, Brenda！ Don't<$FFFC>overdo it！<$FFFE>
+83	<$FB00><$006D>Yeah, I'm fine… I can still go…<$FFFE>
+84	<$FB00><$006E>Fall back, Brenda！ Don't overdo<$FFFC>it！<$FFFE>
 85	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
 86	<$FB00><$0054>I won't lose！<$FFFE>
 87	<$FB00><$0055>Give it up！<$FFFE>
@@ -92,13 +92,13 @@
 90	<$FB00><$0059>This is a bit much…<$FFFE>
 91	<$FB00><$005A>Leave the rest to us and fall<$FFFC>back！<$FFFE>
 92	<$FB00><$005B>Sorry, it's in your hands…<$FFFE>
-93	<$FB00><$0068>What now, Lanford？ They mean<$FFFC>to wreck the tunnel.<$FFFE>
+93	<$FB00><$0068>What now, Lanford？ They mean to<$FFFC>wreck the tunnel.<$FFFE>
 94	<$FB00><$0069>I will never allow it. We<$FFFC>fight, Landius.<$FFFE>
 95	<$FB00><$006A>Understood.<$FFFE>
 96	Time we moved out too？<$FFFE>
 97	Yeah.<$FFFE>
 98	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
-99	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
+99	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
 100	…Kh！ Forgive me, Lanford…<$FFFE>
 101	No…<$FFFE>
 102	D, damn…<$FFFE>

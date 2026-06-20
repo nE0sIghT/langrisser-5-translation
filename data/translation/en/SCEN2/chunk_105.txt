@@ -14,17 +14,17 @@
 12	<$FB00><$00D8>I have many duties. I am not<$FFFC>like you, who only has to run off and<$FFFC>fight.<$FFFE>
 13	<$FFF7><$FB00><$00D9>Heh！ <$FFF5><$FFF6><$FB00><$00DA>Big words<$FFF5><$FFF8>…<$FFFE>
 14	<$FB00><$00DB>And did you capture them？<$FFFE>
-15	<$FB00><$00DC>Do not rush me. Everything has<$FFFC>its proper timing.<$FFFE>
+15	<$FB00><$00DC>Do not rush me. Everything has its<$FFFC>proper timing.<$FFFE>
 16	<$FB00><$00DD>Good grief. Your mouth is your<$FFFC>only talent.<$FFFD><$FB00><$00DE>We will begin our mission at once. We have<$FFFC>no time to play, unlike some people.<$FFFE>
-17	<$FB00><$00DF>Lord Aizer, we should first<$FFFC>learn where the item is located.<$FFFE>
+17	<$FB00><$00DF>Lord Aizer, we should first learn<$FFFC>where the item is located.<$FFFE>
 18	<$FB00><$00E0>Indeed. We must gather<$FFFC>information without alerting anyone. What<$FFFC>a bother.<$FFFE>
-19	<$FB00><$00E1>If you want what you seek, go<$FFFC>to Velzeria.<$FFFE>
+19	<$FB00><$00E1>If you want what you seek, go to<$FFFC>Velzeria.<$FFFE>
 20	<$FB00><$00E2>What？ How do you know that<$FFF5><$FFF8>…？<$FFFE>
 21	<$FB00><$00E3>While waiting for the right<$FFFC>timing, I gathered a little information<$FFFC>for fun.<$FFFD><$FB00><$00E4>After all, my mouth is my only talent.<$FFFE>
 22	<$FFF7>…<$FB00><$00E5>Urgh<$FFF5><$FFF8>…<$FFFE>
-23	<$FB00><$00E6>Anyway, go to Velzeria. The<$FFFC>demon castle is there.<$FFFD><$FB00><$00F0>What you are looking for should be inside.<$FFFE>
+23	<$FB00><$00E6>Anyway, go to Velzeria. The demon<$FFFC>castle is there.<$FFFD><$FB00><$00F0>What you are looking for should be inside.<$FFFE>
 24	<$FB00><$00E7>The demon castle？<$FFFE>
-25	<$FB00><$00E8>Well, I suppose I should get<$FFFC>to work too<$FFF5><$FFF8>…<$FFFE>
+25	<$FB00><$00E8>Well, I suppose I should get to<$FFFC>work too<$FFF5><$FFF8>…<$FFFE>
 26	<$FB00><$00E9>Omega.<$FFFE>
 27	<$FFF7><$FB00><$00EA>Huh？<$FFF5><$FFF8><$FFFE>
 28	<$FFFA><$FB00><$00EB>I was wrong. You have my<$FFFC>thanks.<$FFFE>

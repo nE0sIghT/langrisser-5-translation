@@ -12,12 +12,12 @@
 10	・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 11	Town of Knox・Entrance<$FFFF>
 12	<$FB00><$002B>Finally some open ground.<$FFFE>
-13	<$FB00><$002C>But there's no time to rest.<$FFFC>We're crossing through this town.<$FFFE>
-14	<$FB00><$002D>Hold on, Lambda. Something's<$FFFC>going on over there.<$FFFE>
+13	<$FB00><$002C>But there's no time to rest. We're<$FFFC>crossing through this town.<$FFFE>
+14	<$FB00><$002D>Hold on, Lambda. Something's going on over<$FFFC>there.<$FFFE>
 15	<$FB00><$002E>I'll make you regret crossing<$FFFC>me！<$FFFE>
 16	<$FB00><$002F>Don't take me for some ordinary<$FFFC>girl！ I'll have you beaten in no time！<$FFFE>
 17	<$FB00><$0030>W-wait, Miss Clarett！ I'm<$FFFC>really no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here, the townsfolk<$FFFC>will get caught up in it！<$FFFE>
-18	<$FB00><$0032>Say what you like, but he means<$FFFC>to fight, you know？<$FFFE>
+18	<$FB00><$0032>Say what you like, but he means to<$FFFC>fight, you know？<$FFFE>
 19	<$FB00><$0033>Then at least take it outside<$FFFC>the town, all right？<$FFFE>
 20	<$FB00><$0034>Fine, fine.<$FFFE>
 21	<$FB00><$0035>Why, you！ You won't get away！<$FFFE>
@@ -37,60 +37,60 @@
 35	<$FB00><$0050>Huh？ Me？<$FFFE>
 36	<$FB00><$0058>That's right. Would you help us<$FFFC>bring down those horsemen？<$FFFE>
 37	<$FB00><$0052>You mean me？ <$FFF5><$FE3C><$FFF8>…<$FFF6><$FB00><$0053>I couldn't<$FFF5>…<$FFFE>
-38	<$FB00><$0059>We need your strength. Either<$FFFC>way, staying put means danger.<$FFFE>
+38	<$FB00><$0059>We need your strength. Either way,<$FFFC>staying put means danger.<$FFFE>
 39	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I don't know how to<$FFFC>fight, so please give me directions.<$FFFE>
 40	<$FB00><$005A>Thank you.<$FFFE>
-41	Hey, you damn wench！ Unless you want to<$FFFC>anger me any further, get over here, nice<$FFFC>and quiet！<$FFFE>
+41	Hey, you damn wench！ Unless you<$FFFC>want to anger me any further, get over<$FFFC>here, nice and quiet！<$FFFE>
 42	…<$FFFE>
 43	Hey, you！ Are you even listening！<$FFFE>
 44	…why…<$FFFE>
-45	That's it！ No matter what happens, I will<$FFFC>never forgive you！<$FFFE>
+45	That's it！ No matter what<$FFFC>happens, I will never forgive you！<$FFFE>
 46	<$FB00><$003B>Now, how shall we move<$FFF5><$FFF8>…<$FFFE>
 47	<$FB00><$003C>Ah, that man<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FFF6><$FB00><$003D>it can't be<$FFF5><$FFF8>…<$FFFE>
-48	<$FB00><$003E>What's the matter, Miss<$FFFC>Clarett？<$FFFE>
+48	<$FB00><$003E>What's the matter, Miss Clarett？<$FFFE>
 49	<$FFF8>…<$FFF6><$FB00><$003F>No, surely not<$FFF5><$FFF8>…<$FFFE>
 50	<$FB00><$0040>All right, let's move！<$FFFE>
 51	…kh！<$FFFE>
-52	Hah hah hah hah！ Serves you right！<$FFFE>
+52	Hah hah hah hah！ Serves you<$FFFC>right！<$FFFE>
 53	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
-54	Before we fight, mind if I check one<$FFFC>thing？<$FFFE>
+54	Before we fight, mind if I check<$FFFC>one thing？<$FFFE>
 55	What is it？<$FFFE>
-56	Do you remember <$FFF4>combat affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
-57	Yeah, I remember. <$FFF4>Infantry beat pikemen<$FFFC>and lose to cavalry. <$FFF3>That sort of thing.<$FFFE>
-58	As long as you know it, that's fine.<$FFFE>
+56	Do you remember <$FFF4>combat<$FFFC>affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
+57	Yeah, I remember. <$FFF4>Infantry beat<$FFFC>pikemen and lose to cavalry. <$FFF3>That sort of<$FFFC>thing.<$FFFE>
+58	As long as you know it, that's<$FFFC>fine.<$FFFE>
 59	No, I don't remember.<$FFFE>
-60	Then remember well what I'm about to say.<$FFFC>It's the most basic rule of battle.<$FFFE>
-61	Every soldier has a <$FFF4>class type <$FFF3>, each<$FFFC>strong against some foes and weak to<$FFFC>others. The types work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to cavalry.<$FFFC>Pikemen beat cavalry but lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear no type,<$FFFC>but they lose when struck up close.<$FFFD>Fliers move far but defend poorly, only<$FFFC>archers make easy prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry, but<$FFFC>strong against the undead.<$FFF3><$FFFE>
+60	Then remember well what I'm<$FFFC>about to say. It's the most basic rule of<$FFFC>battle.<$FFFE>
+61	Every soldier has a <$FFF4>class type <$FFF3>,<$FFFC>each strong against some foes and weak to<$FFFC>others. The types work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to cavalry.<$FFFC>Pikemen beat cavalry but lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear no type,<$FFFC>but they lose when struck up close.<$FFFD>Fliers move far but defend poorly, only<$FFFC>archers make easy prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry, but<$FFFC>strong against the undead.<$FFF3><$FFFE>
 62	<$FFF4>Types <$FFF3>and <$FFF4>affinities<$FFF3>, huh…<$FFFE>
-63	Well？ Shall I explain it once more？<$FFFE>
+63	Well？ Shall I explain it once<$FFFC>more？<$FFFE>
 64	No. I've got it now.<$FFFE>
 65	Good, that's a relief.<$FFFE>
 66	<$FB00><$0039>It's getting too dangerous…I'll<$FFFC>be falling back first…<$FFFE>
-67	Hey, kid！ Why not get behind the fences？<$FFFC>Then I couldn't chase you, could I？<$FFFE>
-68	True, horses can't cross fences <$FFF8>… <$FFF6>But<$FFFC>surrounded, that does me no good, does<$FFFC>it？<$FFFE>
-69	Tch！ Crafty little brat, aren't you.<$FFFE>
-70	So I should attack that thuggish captain,<$FFFC>right？<$FFFE>
-71	You're infantry yourself, so be careful.<$FFFC>If the cavalry catches you, you're done<$FFFC>for.<$FFFE>
-72	You're infantry yourself, so watch out. If<$FFFC>the cavalry catches you, it's all over.<$FFFE>
-73	Right. If I use the fences well, I think I<$FFFC>can avoid their attacks.<$FFFE>
-74	Plotting with those feeble heads is a<$FFFC>waste of time.<$FFFD>Even pikemen are small fry before my<$FFFC>might. Be smart and drop your weapons,<$FFFC>eh？<$FFFE>
+67	Hey, kid！ Why not get behind the<$FFFC>fences？ Then I couldn't chase you, could<$FFFC>I？<$FFFE>
+68	True, horses can't cross fences <$FFF8>…<$FFFC><$FFF6>But surrounded, that does me no good, does<$FFFC>it？<$FFFE>
+69	Tch！ Crafty little brat, aren't<$FFFC>you.<$FFFE>
+70	So I should attack that thuggish<$FFFC>captain, right？<$FFFE>
+71	You're infantry yourself, so be<$FFFC>careful. If the cavalry catches you,<$FFFC>you're done for.<$FFFE>
+72	You're infantry yourself, so watch<$FFFC>out. If the cavalry catches you, it's all<$FFFC>over.<$FFFE>
+73	Right. If I use the fences well, I<$FFFC>think I can avoid their attacks.<$FFFE>
+74	Plotting with those feeble heads<$FFFC>is a waste of time.<$FFFD>Even pikemen are small fry before my<$FFFC>might. Be smart and drop your weapons,<$FFFC>eh？<$FFFE>
 75	We'll see about that.<$FFFE>
-76	I…I knew it…fighting is…beyond me…<$FFFE>
+76	I…I knew it…fighting<$FFFC>is…beyond me…<$FFFE>
 77	No… We couldn't save him…<$FFFE>
 78	<$FFF8>…<$FFF6><$FB00><$0041>It really is him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FFF6><$FB00><$0042>but how <$FFF5><$FFF8>…<$FFFE>
 79	<$FB00><$0043>Miss Clarett？<$FFFE>
 80	<$FB00><$0044>I'm sorry, Alfred. I just<$FFFC>remembered some urgent business, so this<$FFFC>is goodbye.<$FFFE>
 81	<$FB00><$0045>You can't, Miss Clarett！<$FFFE>
 82	<$FB00><$0046>Fool！ You think you can run from<$FFFC>me！<$FFFE>
-83	I'm not about to die in a place like<$FFFC>this… See you！<$FFFE>
+83	I'm not about to die in a place<$FFFC>like this… See you！<$FFFE>
 84	Damn！ She got away！<$FFFD>A prize like that！<$FFFD>And it's all your fault！<$FFFE>
 85	Good grief…<$FFFE>
-86	Hey, brats！ Don't think you can anger me<$FFFC>and just walk away！<$FFFE>
-87	Wait, Captain. They're pikemen. You'd best<$FFFC>leave this to us<$FFF8>…<$FFFE>
+86	Hey, brats！ Don't think you can<$FFFC>anger me and just walk away！<$FFFE>
+87	Wait, Captain. They're pikemen.<$FFFC>You'd best leave this to us<$FFF8>…<$FFFE>
 88	Shut it！<$FFFD>Nobody mocks me and gets away with it！<$FFFD>No matter what, I'll crush those brats<$FFFC>with my own hands！<$FFFE>
-89	<$FE14>…<$FE14>…<$FE14>…<$FE14>…<$FE14>Still, I'm counting on your puny<$FFFC>help, if only a little.<$FFFE>
+89	<$FE14>…<$FE14>…<$FE14>…<$FE14>…<$FE14>Still, I'm counting on<$FFFC>your puny help, if only a little.<$FFFE>
 90	Y-yes, sir. Understood.<$FFFD>But the girl, I fear catching her is<$FFFC>beyond us<$FFF8>…<$FFFE>
-91	<$FE14>I, <$FE14>I know that already！ Then we'll catch<$FFFC>the boy at least and shake him down！<$FFFE>
+91	<$FE14>I, <$FE14>I know that already！ Then<$FFFC>we'll catch the boy at least and shake him<$FFFC>down！<$FFFE>
 92	Wh-what do I do…<$FFFE>
 93	<$FB00><$005C>You there！ Stay out of my way！<$FFFC>Or else<$FFF5><$FFF8>…<$FFFE>
 94	<$FB00><$005D>Or else what？<$FFFE>

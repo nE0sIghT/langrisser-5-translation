@@ -15,37 +15,37 @@
 13	・Defeat Glob<$FFFC>・Activate the weather device and reach turn 20<$FFFE>
 14	・Reach turn 20 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 15	Ancient Ruin, Weather Control Facility<$FFFF>
-16	<$FB00><$000E>So this is the<$FFFC>weather-control ruin Virash spoke of.<$FFFE>
-17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$0010>Ah, atop that pedestal.<$FFFE>
-18	<$FB00><$0011>Then let's have him work the<$FFFC>device right away.<$FFFE>
+16	<$FB00><$000E>So this is the weather-control ruin<$FFFC>Virash spoke of.<$FFFE>
+17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>…. <$FFF6><$FB00><$0010>Ah, atop<$FFFC>that pedestal.<$FFFE>
+18	<$FB00><$0011>Then let's have him work the device right<$FFFC>away.<$FFFE>
 19	<$FB00><$0012>I won't let you！<$FFFE>
 20	<$FB00><$0013>Glob！？<$FFFE>
 21	<$FB00><$0014>Just in time. I'll take my<$FFFC>revenge here！<$FFFE>
-22	<$FB00><$0015>Don't take me lightly. And<$FFFC>I've found a special corpse just for you.<$FFFE>
+22	<$FB00><$0015>Don't take me lightly. And I've<$FFFC>found a special corpse just for you.<$FFFE>
 23	<$FB00><$0016>…U… uu….<$FFFE>
 24	<$FB00><$0017>…O… ohh….<$FFFE>
 25	<$FB00><$0018>F, father<$FFF5><$FFF8>…！<$FFFE>
 26	<$FB00><$0019>Bulk！<$FFF5><$FFF8> …<$FFF6><$FB00><$001A>You！<$FFFE>
 27	<$FFF8><$FB00><$001B>Ihihihi！<$FFF5> <$FFF6><$FB00><$001C>Well？ I'm quite<$FFFC>the showman too, no？<$FFFE>
 28	<$FB00><$001D>Unforgivable！<$FFF5> <$FB00><$001E>To toy with<$FFFC>the dead<$FFF5><$FFF8>…<$FFF6><$FB00><$001F>and with people's hearts<$FFF5><$FFF8>….<$FFFE>
-29	<$FB00><$0020>But if we head for the device<$FFFC>in this situation, the Engineer's in<$FFFC>danger.<$FFFE>
+29	<$FB00><$0020>But if we head for the device in<$FFFC>this situation, the Engineer's in danger.<$FFFE>
 30	<$FB00><$0021>Then I'll fall back for now.<$FFFC>Call me when the time is right.<$FFFE>
 31	<$FB00><$0022>Understood.<$FFFE>
 32	・Defeat Glob<$FFFC>・Activate the weather device and reach turn 15<$FFFE>
 33	・Reach turn 15 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
-34	Hey, if I don't head over soon, my legs<$FFFC>won't get me there in time….<$FFFE>
+34	Hey, if I don't head over<$FFFC>soon, my legs won't get me there in<$FFFC>time….<$FFFE>
 35	Got it. We'll cover you. Head for the<$FFFC>device！<$FFFE>
 36	Right. I'm counting on your cover.<$FFFE>
-37	Hey, if I don't head over soon, my legs<$FFFC>won't get me there in time….<$FFFE>
-38	Send the Engineer to the device？<$FFFE>
-39	Got it. We'll cover you. Head for the<$FFFC>device！<$FFFE>
-40	Right. I'm counting on your cover.<$FFFE>
+37	Hey, if I don't head over soon,<$FFFC>my legs won't get me there in time….<$FFFE>
+38	Send the Engineer to the<$FFFC>device？<$FFFE>
+39	Got it. We'll cover you. Head<$FFFC>for the device！<$FFFE>
+40	Right. I'm counting on your<$FFFC>cover.<$FFFE>
 41	Wait a little longer！<$FFFE>
-42	There's no telling the device will work<$FFFC>easily. Will we really make it？<$FFFD>Anyway, call me once it's safe！<$FFFE>
+42	There's no telling the device<$FFFC>will work easily. Will we really make it？<$FFFD>Anyway, call me once it's safe！<$FFFE>
 43	Call the Engineer over？<$FFFE>
 44	<$FB00><$0023>The way to the device is<$FFFC>secure. Come now！<$FFFE>
 45	<$FB00><$0024>Understood. I'll head for the<$FFFC>control device now.<$FFFE>
-46	<$FB00><$002D>I found where the wire's cut！<$FFFC>Wait a little more！<$FFFE>
+46	<$FB00><$002D>I found where the wire's cut！ Wait a<$FFFC>little more！<$FFFE>
 47	<$FB00><$002E>This wiring, then. Faster to<$FFFC>just replace it….<$FFFE>
 48	<$FB00><$002F>Right, how's this！<$FFFE>
 49	<$FB00><$0030>BEGINNING SETUP.<$FFFC>SELECT THE WEATHER.<$FFFE>
@@ -57,40 +57,40 @@
 55	<$FB00><$0039>ERROR. WITH<$FFFC>REMAINING ENERGY, 68<$FFFC>HOURS MAXIMUM.<$FFFE>
 56	<$FB00><$003A>Then 68 hours.<$FFFE>
 57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER<$FFFC>CONTROL.<$FFFE>
-58	<$FB00><$003C>Right, it's working！ Clouds<$FFFC>should form right away.<$FFFE>
+58	<$FB00><$003C>Right, it's working！ Clouds should form<$FFFC>right away.<$FFFE>
 59	<$FB00><$003D>Thank you！ Now get away from<$FFFC>the battlefield as fast as you can.<$FFFE>
-60	<$FB00><$003E>From here it's all down to<$FFFC>your strength. Good luck！<$FFFE>
-61	<$FFF8><$FB00><$003F>Uguu…<$FFF5><$FFF6><$FB00><$0040>Then I'll send you all<$FFFC>to hell！<$FFFE>
+60	<$FB00><$003E>From here it's all down to your strength.<$FFFC>Good luck！<$FFFE>
+61	<$FFF8><$FB00><$003F>Uguu…<$FFF5><$FFF6><$FB00><$0040>Then I'll send you all to<$FFFC>hell！<$FFFE>
 62	・<$F600><$0000> dies<$FFFE>
 63	<$FB00><$0041>It's raining.<$FFFE>
-64	<$FB00><$0042>Clouds this thick. Forgive a<$FFFC>bit of rain.<$FFFE>
-65	<$FB00><$0043>Next to magitek energy raining<$FFFC>from Peiria, it's nothing.<$FFFE>
+64	<$FB00><$0042>Clouds this thick. Forgive a bit<$FFFC>of rain.<$FFFE>
+65	<$FB00><$0043>Next to magitek energy raining from<$FFFC>Peiria, it's nothing.<$FFFE>
 66	<$FB00><$0044>Haha, true enough.<$FFFE>
-67	<$FB00><$0048>There are plenty more<$FFFC>corpses！<$FFF5> <$FB00><$0049>Now, you dead. Lord Glob will<$FFFC>grant you life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+67	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Glob will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
 68	<$FB00><$004A>Mihari Kushizekiki<$FFFC>Hagujisoram！<$FFFE>
-69	<$FB00><$0048>There are plenty more<$FFFC>corpses！<$FFF5> <$FB00><$0049>Now, you dead. Lord Glob will<$FFFC>grant you life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+69	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Glob will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
 70	<$FB00><$004A>Mihari Kushizekiki<$FFFC>Hagujisoram！<$FFFE>
 71	<$FB00><$005A>What have you done to my<$FFFC>father！<$FFF5><$FFF7><$FFFE>
-72	<$FB00><$005B>Oh？<$FFF5> <$FB00><$005C>Have you some<$FFFC>complaint？<$FFFE>
+72	<$FB00><$005B>Oh？<$FFF5> <$FB00><$005C>Have you some complaint？<$FFFE>
 73	<$FB00><$005D>Don't mock me！<$FFF5><$FFF7><$FFFE>
 74	<$FB00><$005E>I won't forgive you, Glob.<$FFF5> <$FB00><$005F>To<$FFFC>disturb my friend's rest！<$FFFE>
-75	<$FB00><$0060>What's the harm. We even get<$FFFC>to meet face to face like this.<$FFFE>
+75	<$FB00><$0060>What's the harm. We even get to<$FFFC>meet face to face like this.<$FFFE>
 76	<$FB00><$0061>I'll see that mouth never<$FFFC>speaks again！<$FFFE>
-77	<$FB00><$0025>Now, from here it's my<$FFFC>work<$FFF5><$FFF8>….<$FFFD>…….<$FFFB> …….<$FFFE>
+77	<$FB00><$0025>Now, from here it's my work<$FFF5><$FFF8>….<$FFFD>…….<$FFFB> …….<$FFFE>
 78	<$FFF8>…<$FFF6><$FB00><$0026>Damn it！<$FFF5> <$FB00><$0027>It won't move！<$FFFE>
-79	<$FB00><$0028>Well, no help for it. It's<$FFFC>been left alone a long time.<$FFF5> <$FB00><$0029>Can you find<$FFFC>the cause？<$FFFE>
+79	<$FB00><$0028>Well, no help for it. It's been<$FFFC>left alone a long time.<$FFF5> <$FB00><$0029>Can you find the<$FFFC>cause？<$FFFE>
 80	<$FFF8>…<$FFF6><$FB00><$002A>The wire's cut somewhere, it<$FFFC>seems.<$FFFE>
 81	<$FB00><$002B>Can you repair it？<$FFFE>
 82	<$FB00><$002C>Give me a while.<$FFFE>
-83	From here it's up to you. Good luck！<$FFFE>
-84	Part of the snow has melted, and something<$FFFC>is buried in view. Dig it up, and a<$FFFC>heat-bearing staff emerges.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Scorching Staff<$FFF3> obtained！<$FFFE>
+83	From here it's up to you. Good<$FFFC>luck！<$FFFE>
+84	Part of the snow has melted,<$FFFC>and something is buried in view. Dig it<$FFFC>up, and a heat-bearing staff emerges.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Scorching Staff<$FFF3> obtained！<$FFFE>
 85	<$FB00><$002B>Eat this！<$FFFE>
 86	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
 87	<$FB00><$0046>Here goes.<$FFFE>
 88	<$FB00><$004E>Forgive me… I have to pull<$FFFC>back first…<$FFFE>
 89	<$FB00><$004F>Don't push it. Leave the rest<$FFFC>to us！<$FFFE>
 90	<$FB00><$0050>Please…<$FFFE>
-91	<$FB00><$0066>Father<$FFF5><$FFF8>…. <$FFF6><$FB00><$0067>I'll lay you to<$FFFC>peaceful rest.<$FFFE>
+91	<$FB00><$0066>Father<$FFF5><$FFF8>…. <$FFF6><$FB00><$0067>I'll lay you to peaceful<$FFFC>rest.<$FFFE>
 92	<$FB00><$0076>I won't lose！<$FFFE>
 93	<$FB00><$0080>Are you all right, Alfred！<$FFFE>
 94	<$FB00><$0081>Sorry… the rest is yours…<$FFFE>
@@ -100,15 +100,15 @@
 98	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
 99	<$FB00><$0072>Sorry… I'll take you up on<$FFFC>that…<$FFFE>
 100	<$FB00><$0054>I won't lose！<$FFFE>
-101	To toy with the dead… that I'll never<$FFFC>forgive！<$FFFE>
-102	Why won't you understand？ I'm only making<$FFFC>use of what's discarded.<$FFFE>
+101	To toy with the dead… that<$FFFC>I'll never forgive！<$FFFE>
+102	Why won't you understand？ I'm<$FFFC>only making use of what's discarded.<$FFFE>
 103	That's it, I'm furious！<$FFFE>
 104	<$FB00><$0056>Sorry, I'll pull back first…<$FFFE>
-105	<$FB00><$0085>By this sword, I'll defeat<$FFFC>you！<$FFFE>
+105	<$FB00><$0085>By this sword, I'll defeat you！<$FFFE>
 106	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
 107	<$FB00><$0087>Ngh… the wound's deep…<$FFFE>
 108	<$FB00><$0088>Lanford, don't push yourself！<$FFFE>
-109	<$FB00><$0089>I know when to withdraw….<$FFFC>Sorry, the rest is yours…<$FFFE>
+109	<$FB00><$0089>I know when to withdraw…. Sorry,<$FFFC>the rest is yours…<$FFFE>
 110	<$FB00><$0045>N, no… I….<$FFFE>
 111	<$FB00><$0046>Hihihi！ Now the ultimate<$FFFC>weapon's power won't wane！ Victory to us<$FFFC>demons！<$FFFE>
 112	<$FB00><$0047>I couldn't protect the<$FFFC>Engineer….<$FFFE>

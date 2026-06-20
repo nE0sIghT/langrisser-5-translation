@@ -130,6 +130,14 @@ Chunk file format: one scene per file, `record_index<TAB>text`, control
 words as `<$XXXX>` tags. Record order in a story chunk: speaker name plates
 (`...<$FFFF>`), win/loss objectives (`・...`), location plate, dialogue.
 
+Each spoken record is preceded by a `# spk: <name>` comment naming the
+speaker (`(crowd)` for runtime-remapped off-screen lines), and
+`work/scriptdump/all_records.csv` has a matching `speaker` column. The
+speaker is read straight from the record's display command, not a VM walk
+(see *docs/SPEAKER_NAME_EXTRACTION.md*); the same data drives the per-record
+plate reserve in `lang5_rewrap.py`. The `# spk:` lines are comments, so the
+dump→translate→insert round-trip ignores them.
+
 Chunks map to game scenarios (`data/scenario_map.json`): scenario K is
 played as scene chunk `44+K` -> battle chunk `K` (which also contains the
 post-battle dialogue) -> scene chunk `86+K`. Chunk 0 is the intro quiz,

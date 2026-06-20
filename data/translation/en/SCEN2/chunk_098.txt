@@ -19,7 +19,7 @@
 17	<$FFF7><$FB00><$0071>What！？<$FFF5><$FFF8><$FFFE>
 18	<$FB00><$0072>A man from my past told me.<$FFFD><$FB00><$0073>You said it wasn't me, and I hid behind<$FFFC>that.<$FFFD><$FB00><$0074>So I was running too.<$FFFE>
 19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>No<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0076>Then why are you<$FFFC>alive？ You died then, I know it！<$FFFE>
-20	<$FB00><$0077>Gizarof used me for research.<$FFFC>His experiment revived me.<$FFFE>
+20	<$FB00><$0077>Gizarof used me for research. His<$FFFC>experiment revived me.<$FFFE>
 21	<$FFF8><$FFFA>…<$FFFE>
 22	<$FB00><$0079>So I killed your father. What<$FFFC>now？ Stab me again？<$FFFE>
 23	…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
@@ -30,7 +30,7 @@
 28	<$FFF8>…<$FB00><$007F>Thank you.<$FFFE>
 29	<$FB00><$0080><$FFF7>Huh！？<$FFF5><$FFF8><$FFFE>
 30	<$FB00><$0081>Because you told the truth. That<$FFFC>gives me courage.<$FFFD><$FB00><$0082>I relied on others. Now I'll act myself.<$FFFE>
-31	<$FB00><$0083>Right. If you never act<$FFFC>yourself, you won't overcome anything.<$FFFE>
+31	<$FB00><$0083>Right. If you never act yourself,<$FFFC>you won't overcome anything.<$FFFE>
 32	<$FB00><$0084>Exactly.<$FFFE>
 33	<$FB00><$0085>What do you think I was<$FFFC>considering here？<$FFFE>
 34	<$FFF8>…<$FFF6><$FB00><$0086>That's a hard one.<$FFFE>
@@ -39,7 +39,7 @@
 37	<$FB00><$008A>The answer is the people's<$FFFC>spirit.<$FFFD><$FB00><$008B>The late Caconsis king was proud but<$FFFC>timid, slow to decide.<$FFFD><$FB00><$008C>So the people had to solve problems<$FFFC>themselves.<$FFFE>
 38	<$FB00><$008D>If the rulers abandon them, they<$FFFC>must become independent.<$FFFE>
 39	<$FB00><$008E>I want this continent's people<$FFFC>to stand on their own. I won't abandon<$FFFC>them.<$FFFD><$FB00><$008F>If they join politics, they may live with<$FFFC>more hope.<$FFFE>
-40	<$FB00><$0090>Better than living by orders<$FFFC>from nobles.<$FFFE>
+40	<$FB00><$0090>Better than living by orders from<$FFFC>nobles.<$FFFE>
 41	<$FB00><$0091>Yes. Nobles aren't needed. What<$FFFC>matters is each citizen's life！<$FFFE>
 42	<$FB00><$0092>Politics by the people, for the<$FFFC>people. I like it.<$FFFD><$FB00><$0093>But what about the nobles？<$FFFE>
 43	<$FB00><$0094>I've thought of that too. Stay<$FFFC>with me a bit longer？<$FFFE>
@@ -48,10 +48,10 @@
 46	…Was I running away… from Father, and<$FFFC>from Jessica…？ I could never decide<$FFFC>things myself, and always used someone<$FFFC>else's judgment as my guide.<$FFFD>Even before Brenda said it, maybe I was<$FFFC>running away… I have to change. First, I<$FFFC>must find my own way to save this country<$FFFC>from this misery…<$FFFD>Caconsis was full of life. But this land<$FFFC>is not… Why？<$FFFE>
 47	<$FFFA><$FFF8>…<$FFFE>
 48	<$FFF9><$FFF6>I see. It is the people's spirit.<$FFFE>
-49	The late Caconsis king was proud but<$FFFC>timid, slow to decide. So the people<$FFFC>stopped relying on him and learned to<$FFFC>solve problems themselves…<$FFFE>
+49	The late Caconsis king was proud<$FFFC>but timid, slow to decide. So the people<$FFFC>stopped relying on him and learned to<$FFFC>solve problems themselves…<$FFFE>
 50	<$FFFA><$FFF8>…<$FFFD><$FFF9><$FFF6>I want this continent's people to stand on<$FFFC>their own. I won't abandon them. If they<$FFFC>join politics, they may live with more<$FFFC>hope.<$FFFE>
-51	Yes. Nobles aren't needed. What matters is<$FFFC>each citizen's life！<$FFFE>
-52	Politics by the people, for the people.<$FFFC>This is it！<$FFFE>
+51	Yes. Nobles aren't needed. What<$FFFC>matters is each citizen's life！<$FFFE>
+52	Politics by the people, for the<$FFFC>people. This is it！<$FFFE>
 53	Federation Castle<$FFFF>
 54	<$FB00><$0096>Marshal Lanford！<$FFFE>
 55	<$FB00><$0097>What is it, Emily？<$FFFE>
@@ -59,7 +59,7 @@
 57	<$FB00><$0099>A revolt？ They used the chaos<$FFFC>after Gizarof<$FFF5><$FFF8>…<$FFFE>
 58	<$FFF6><$FB00><$009A>Who supports Lainforce？<$FFFE>
 59	<$FB00><$009B>W-well<$FFF5><$FFF8>…<$FFFE>
-60	<$FB00><$009C>What is it, Emily？ Speak<$FFFC>clearly.<$FFFE>
+60	<$FB00><$009C>What is it, Emily？ Speak clearly.<$FFFE>
 61	<$FB00><$009D>Alvince of Reynorz and<$FFF5><$FFF8>…<$FE3C>…<$FFFC><$FE3C><$FFF6><$FB00><$009E>Lambert of Sutherland…<$FFFE>
 62	<$FB00><$009F>Sutherland<$FFF5><$FFF8>…<$FE14>… <$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00A0>My father！？<$FFF5><$FFF7><$FFFE>
 63	<$FB00><$00A1>I could hardly believe it<$FFFC>either. But<$FFF5><$FFF8>…<$FFFE>

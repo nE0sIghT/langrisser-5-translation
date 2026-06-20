@@ -11,21 +11,21 @@
 9	Eric<$FFFF>
 10	Estor<$FFFF>
 11	Salrath camp<$FFFF>
-12	<$FB00><$005A>Looks like enemy command is<$FFFC>confused. Their units are not<$FFFC>coordinating.<$FFFE>
+12	<$FB00><$005A>Looks like enemy command is confused.<$FFFC>Their units are not coordinating.<$FFFE>
 13	<$FB00><$005B>That is why we can hold out…<$FFFE>
-14	<$FB00><$005C>Most likely the princess<$FFFC>attacked enemy HQ, so orders stopped.<$FFFE>
+14	<$FB00><$005C>Most likely the princess attacked<$FFFC>enemy HQ, so orders stopped.<$FFFE>
 15	<$FB00><$005D>Lord Lenard！ Princess Clarett<$FFFC>raided enemy HQ and defeated the<$FFFC>commander！<$FFFE>
 16	<$FB00><$005E>What！？<$FFFE>
 17	<$FB00><$005F>HQ is almost destroyed. Their<$FFFC>command is cut, and they cannot move in<$FFFC>order.<$FFFE>
 18	<$FB00><$0060>As expected of Lady Clarett. She<$FFFC>not only attacked HQ, she destroyed<$FFFC>command.<$FFFE>
 19	<$FB00><$0061>I feel we can win this battle.<$FFFE>
 20	<$FB00><$0062>Honestly, their numbers seemed<$FFFC>hopeless. But small forces can fight<$FFFC>differently.<$FFFE>
-21	<$FB00><$0063>The princess will bait them<$FFFC>south with the ship. Escape when their<$FFFC>encirclement breaks.<$FFFE>
+21	<$FB00><$0063>The princess will bait them south<$FFFC>with the ship. Escape when their<$FFFC>encirclement breaks.<$FFFE>
 22	<$FB00><$0064>Understood.<$FFFE>
 23	<$FB00><$0065>With Lady Clarett's noble ideal<$FFFC>and her comrades' action, revolution will<$FFFC>succeed.<$FFFD><$FB00><$0066>Listen, for the people's future, we must<$FFFC>not lose！<$FFFE>
 24	<$FFF7><$FB00><$0067>Yes sir！<$FFF5><$FFF8><$FFFE>
 25	On the Flying Ship to Estor<$FFFF>
-26	<$FB00><$0068>Eric！ How was everyone in<$FFFC>Salrath？<$FFFE>
+26	<$FB00><$0068>Eric！ How was everyone in Salrath？<$FFFE>
 27	<$FB00><$0069>All troops escaped.<$FFFE>
 28	<$FB00><$006A>That desperate fight paid off.<$FFFE>
 29	<$FB00><$006B>Good thing we made it.<$FFFE>
@@ -39,20 +39,20 @@
 37	<$FB00><$0076>No matter how far technology<$FFFC>advances, it means nothing if people do<$FFFC>not change<$FFF5><$FFF8>…<$FFFE>
 38	<$FB00><$0077>Anyway, head for Estor. Now we<$FFFC>must defeat Emperor Gilmore and make the<$FFFC>revolution succeed.<$FFFE>
 39	<$FB00><$0078>Right. It took two days to lure<$FFFC>the enemy<$FFF5><$FFF8>… <$FFF6><$FB00><$0079>Hurry！ We cannot waste a<$FFFC>moment！<$FFFE>
-40	<$FB00><$007A>But thanks to the flying ship,<$FFFC>we can go anywhere quickly！<$FFFE>
+40	<$FB00><$007A>But thanks to the flying ship, we<$FFFC>can go anywhere quickly！<$FFFE>
 41	<$FFF8><$FFFA>…<$FFFE>
 42	30 minutes later…<$FFFF>
 43	Bored…<$FFFE>
 44	What is wrong, Clarett？<$FFFE>
-45	I'm bored！ Clouds, clouds, and more<$FFFC>clouds. I'm sick of it！<$FFFE>
+45	I'm bored！ Clouds, clouds, and<$FFFC>more clouds. I'm sick of it！<$FFFE>
 46	Even if you tell me<$FFF8>…<$FFFE>
-47	Come to think of it, we found a free<$FFFC>karaoke ticket！ Let's go！ With this ship,<$FFFC>we can reach our destination in no time！<$FFFC>Come on, let's go！？<$FFFE>
+47	Come to think of it, we found a<$FFFC>free karaoke ticket！ Let's go！ With this<$FFFC>ship, we can reach our destination in no<$FFFC>time！ Come on, let's go！？<$FFFE>
 48	Is that really all right？<$FFFE>
-49	It is fine！ Estor will not run away！ <$FFFB>So<$FFFC>come on, let's go！！<$FFFE>
+49	It is fine！ Estor will not run<$FFFC>away！ <$FFFB>So come on, let's go！！<$FFFE>
 50	Wouldn't sooner be better？<$FFFE>
 51	<$FFF4>We are going！！ <$FFF3><$FFFB><$FFF4>Right！？<$FFF3><$FFFE>
 52	<$FFFA>If you say so, I don't mind <$FFF8>…<$FFFE>
-53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！ Then let's go to the<$FFFC>karaoke place！！<$FFFE>
+53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！ Then let's go to<$FFFC>the karaoke place！！<$FFFE>
 54	Is this really all right<$FFF8>…<$FFFE>
 55	Estor Temple<$FFFF>
 56	<$FFF8>…<$FFF6><$FB00><$007B>Indeed, I admire your ideals.<$FFFE>
@@ -61,7 +61,7 @@
 59	<$FB00><$007E>Why not？ Is it the will of<$FFFC>Lushiris？<$FFFE>
 60	<$FFFA><$FB00><$007F>N-no, not exactly<$FFF5><$FFF8>…<$FFFE>
 61	<$FB00><$0080>Then tell us why, Archbishop.<$FFFE>
-62	<$FB00><$0081>We cannot know the revolution<$FFFC>will succeed. If it failed, what would<$FFFC>become of this temple？<$FFFE>
+62	<$FB00><$0081>We cannot know the revolution will<$FFFC>succeed. If it failed, what would become<$FFFC>of this temple？<$FFFE>
 63	<$FB00><$0082>But if you help us and bring the<$FFFC>people to our side, it will succeed！<$FFFE>
 64	<$FB00><$0083>I-in any case, we cannot make<$FFFC>Lord Gilmore our enemy！<$FFFE>
 65	<$FB00><$0084>No<$FFF5><$FFF8>…<$FFFE>

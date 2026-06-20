@@ -16,12 +16,12 @@
 14	・<$F600><$0000> dies<$FFFC>・Wheeler escapes<$FFFC>・Out of turns<$FFFE>
 15	Town of Knox・Center<$FFFF>
 16	<$FB00><$0003>This is a pretty large town.<$FFFE>
-17	<$FB00><$0004>Oh？ You didn't know？ This town<$FFFC>grew up in a mountain pass as a crossroads<$FFFC>of trade.<$FFFD><$FB00><$0005>Avoiding it means a long detour, so<$FFFC>everyone comes through here.<$FFFE>
-18	<$FB00><$0006>So where people gather, a town<$FFFC>prospers, eh.<$FFFE>
+17	<$FB00><$0004>Oh？ You didn't know？ This town grew<$FFFC>up in a mountain pass as a crossroads of<$FFFC>trade.<$FFFD><$FB00><$0005>Avoiding it means a long detour, so<$FFFC>everyone comes through here.<$FFFE>
+18	<$FB00><$0006>So where people gather, a town prospers,<$FFFC>eh.<$FFFE>
 19	<$FB00><$0007>Exactly.<$FFFE>
 20	<$FB00><$0008>No time for sightseeing. That<$FFFC>captain from before is after us.<$FFFE>
 21	<$FB00><$0009>Eeek！<$FFFE>
-22	<$FB00><$000A>You made a fool of me back<$FFFC>there！ Now you'll see my true strength！<$FFFE>
+22	<$FB00><$000A>You made a fool of me back there！<$FFFC>Now you'll see my true strength！<$FFFE>
 23	<$FB00><$000B>Persistent, isn't he.<$FFFE>
 24	<$FB00><$000C>We've no time for him. Let's<$FFFC>push straight through to the north gate.<$FFFE>
 25	<$FB00><$000D>Ah, someone seems to be there.<$FFFE>
@@ -37,26 +37,26 @@
 35	<$FB00><$002E>We must defeat the admiral and<$FFFC>escape the north gate, quickly <$FFF5><$FFF8>…<$FFFE>
 36	<$FB00><$002F>The north gate is close now.<$FFFE>
 37	<$FB00><$0030>You won't escape！<$FFFE>
-38	<$FFF8>…<$FFF6>Whew. Too little exercise. I'm getting<$FFFC>out of breath<$FFF8>…<$FFFE>
+38	<$FFF8>…<$FFF6>Whew. Too little exercise. I'm<$FFFC>getting out of breath<$FFF8>…<$FFFE>
 39	Ah, just a little farther<$FFF8>…<$FFFE>
 40	<$FFF8>…<$FFF6>This is bad<$FFF8>…<$FFFE>
 41	Lambda, Alfred, hurry up！<$FFFE>
 42	Both of you, hurry it up.<$FFFE>
 43	Both of you, hurry, hurry！<$FFFE>
-44	We're at the north gate, but… <$FFFB>The admiral<$FFFC>still stands…<$FFFE>
-45	We haven't beaten the admiral yet. Did you<$FFFC>forget？<$FFFE>
+44	We're at the north gate, but…<$FFFC><$FFFB>The admiral still stands…<$FFFE>
+45	We haven't beaten the admiral yet.<$FFFC>Did you forget？<$FFFE>
 46	Yeah, I know.<$FFFE>
-47	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF7>Huh？ Didn't you say we were to<$FFFC>defeat the admiral？<$FFFE>
+47	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF7>Huh？ Didn't you say we<$FFFC>were to defeat the admiral？<$FFFE>
 48	It's fine. I haven't forgotten.<$FFFE>
 49	Good. Then that's fine.<$FFFE>
 50	Whew<$FFF8>… <$FFF6>Thank goodness we're safe<$FFF8>…<$FFFE>
 51	W-we made it<$FFF8>…<$FFFE>
-52	It was so peaceful until now, why<$FFF8>…<$FFFE>
-53	Huff, puff… I can't keep running at full<$FFFC>tilt<$FFF8>…<$FFFE>
-54	A scroll lies on top of a barrel. Read<$FFFC>it？<$FFFE>
+52	It was so peaceful until now,<$FFFC>why<$FFF8>…<$FFFE>
+53	Huff, puff… I can't keep running<$FFFC>at full tilt<$FFF8>…<$FFFE>
+54	A scroll lies on top of a barrel.<$FFFC>Read it？<$FFFE>
 55	<$0000> Learned the spell <$FFF4>Attack 1<$FFF3>！<$FFFE>
 56	<$FB00><$001E>Admiral Wheeler seems to be<$FFFC>fleeing for the north gate.<$FFFE>
-57	<$FB00><$001F>We're headed for the north gate<$FFFC>anyway. We'll catch him on the way.<$FFFE>
+57	<$FB00><$001F>We're headed for the north gate anyway.<$FFFC>We'll catch him on the way.<$FFFE>
 58	<$FB00><$0028>You think you can beat me！<$FFFE>
 59	<$FB00><$0029>What a loudmouth.<$FFFE>
 60	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
@@ -64,13 +64,13 @@
 62	<$FFF8>…<$FFF6><$FB00><$002A>What a noisy man.<$FFFE>
 63	<$FB00><$0039>It's getting too dangerous…I'll<$FFFC>be falling back first…<$FFFE>
 64	Two whole units of cavalry…<$FFFE>
-65	Getting surrounded would be trouble.<$FFFE>
-66	Our only choice is to strike one of them<$FFFC>first.<$FFFE>
+65	Getting surrounded would be<$FFFC>trouble.<$FFFE>
+66	Our only choice is to strike one<$FFFC>of them first.<$FFFE>
 67	Right. That way, we should manage.<$FFFE>
 68	<$FB00><$0028>You think you can beat me！<$FFFE>
 69	<$FB00><$002B>I-I can fight too！<$FFFE>
 70	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
-71	A-anyway, run for it, get out of the<$FFFC>town！<$FFFE>
+71	A-anyway, run for it, get out of<$FFFC>the town！<$FFFE>
 72	Move！ Out of the way！<$FFFE>
 73	Eeeek！<$FFFE>
 74	Move！ Out of the way！<$FFFE>
@@ -78,7 +78,7 @@
 76	Move！ Out of the way！<$FFFE>
 77	Eeeek！<$FFFE>
 78	H-help me…<$FFFE>
-79	I refuse to die caught up in someone's<$FFFC>war！<$FFFE>
+79	I refuse to die caught up in<$FFFC>someone's war！<$FFFE>
 80	Ugh… It hurts…<$FFFE>
 81	I don't want to die… I don't…<$FFFE>
 82	<$FFF8><$FB00><$0031>Ggh… <$FFF5><$FFF6><$FB00><$0032>Not once but twice now<$FFF5>…<$FFFD><$FB00><$0033>Bah, I've had it！ To blazes with all<$FFFC>this！ I'm going home！<$FFFE>

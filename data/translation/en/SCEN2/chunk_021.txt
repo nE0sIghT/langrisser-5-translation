@@ -11,14 +11,14 @@
 9	・Defeat all enemies<$FFFE>
 10	・<$F600><$0000> dies<$FFFE>
 11	Plains near Velzeria Castle<$FFFF>
-12	<$FB00><$0009>Hurry！ If the plan fails<$FFFC>because we are late, we could never<$FFFC>apologize enough.<$FFFE>
-13	<$FB00><$000A>But how much farther is it to<$FFFC>Velzeria？<$FFFE>
-14	<$FB00><$000B>About half a day. The scouts<$FFFC>may be engaging the enemy by now.<$FFFE>
+12	<$FB00><$0009>Hurry！ If the plan fails because we are<$FFFC>late, we could never apologize enough.<$FFFE>
+13	<$FB00><$000A>But how much farther is it to Velzeria？<$FFFE>
+14	<$FB00><$000B>About half a day. The scouts may be<$FFFC>engaging the enemy by now.<$FFFE>
 15	<$FB00><$000C>Then all the more reason to<$FFFC>hurry<$FFF5><$FFF8>…<$FFF6><$FB00><$000D>Who's there！<$FFFE>
 16	<$FB00><$000E>Good. You noticed me.<$FFFE>
 17	<$FB00><$000F>Omega<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0010>So this is Omega？<$FFFE>
-19	<$FB00><$0011>Yes. He attacked my brother<$FFFC>and me, then sent us to Gizarof's lab.<$FFFE>
+19	<$FB00><$0011>Yes. He attacked my brother and<$FFFC>me, then sent us to Gizarof's lab.<$FFFE>
 20	<$FFF7><$FB00><$0012>Hoh<$FFF5><$FFF8>… <$FFF6><$FB00><$0013>Looks like you got your<$FFFC>memory back.<$FFFE>
 21	<$FB00><$0014>Because of you, my family<$FFF5><$FFF8>…<$FFFE>
 22	<$FB00><$0015>If you could not protect<$FFFC>yourselves, that is on you. And what good<$FFFC>is bringing it up now？<$FFFE>
@@ -26,14 +26,14 @@
 24	<$FB00><$0017>Isn't it obvious？ I came to<$FFFC>defeat you. So, did your memories come<$FFFC>back？<$FFFE>
 25	<$FFFA><$FFF8>…<$FFFE>
 26	<$FB00><$0018>From that face, not yet. But I<$FFFC>cannot wait forever. You and I are<$FFFC>enemies. That is enough, isn't it？<$FFFE>
-27	<$FB00><$0019>No matter what, you mean to<$FFFC>fight us.<$FFFE>
+27	<$FB00><$0019>No matter what, you mean to fight<$FFFC>us.<$FFFE>
 28	<$FB00><$002F>That's right.<$FFFE>
-29	<$FB00><$0047>Looks like we have no choice<$FFFC>but to fight.<$FFFE>
+29	<$FB00><$0047>Looks like we have no choice but<$FFFC>to fight.<$FFFE>
 30	<$FB00><$0023>You're wearing quite a fierce<$FFFC>face, Lambda.<$FFFE>
 31	<$FB00><$0024>I am not Lambda anymore！ I am<$FFFC>Mariandel！<$FFFE>
-32	<$FB00><$0025>Even if your memory is back,<$FFFC>it does not erase that we were modified！<$FFFE>
+32	<$FB00><$0025>Even if your memory is back, it<$FFFC>does not erase that we were modified！<$FFFE>
 33	<$FB00><$0026>Then I will defeat you and cut<$FFFC>myself free from the past！<$FFFE>
-34	<$FFF8>…<$FFF6>I didn't know. Omega was the one who<$FFFC>captured Marie…<$FFFE>
+34	<$FFF8>…<$FFF6>I didn't know. Omega was the one<$FFFC>who captured Marie…<$FFFE>
 35	<$F600><$0000>‥‥。<$FFFE>
 36	Marie…<$FFFE>
 37	・I'm sorry.<$FFFE>
@@ -42,24 +42,24 @@
 40	To think I could not even remember that…<$FFFC>I am sorry, Marie.<$FFFE>
 41	…It's all right. More importantly, we<$FFFC>need to defeat the enemy before us！<$FFFE>
 42	If my old self had stopped him, you would<$FFFC>never have been modified…<$FFFE>
-43	…It's all right. It is already over now…<$FFFE>
-44	Then at least let me atone by defeating<$FFFC>Omega！<$FFFE>
+43	…It's all right. It is<$FFFC>already over now…<$FFFE>
+44	Then at least let me atone by<$FFFC>defeating Omega！<$FFFE>
 45	<$F600><$0000>‥‥。<$FFFE>
-46	But the truth cannot be changed now.<$FFFC>Forget the sad past and live for the<$FFFC>future！<$FFFE>
+46	But the truth cannot be changed<$FFFC>now. Forget the sad past and live for the<$FFFC>future！<$FFFE>
 47	Y…yes…<$FFFE>
-48	<$FB00><$0027>I'm happy！ To cross blades<$FFFC>with you like this！<$FFFE>
+48	<$FB00><$0027>I'm happy！ To cross blades with<$FFFC>you like this！<$FFFE>
 49	<$FB00><$0028>What？<$FFFE>
-50	<$FB00><$0029>Before, Lord Gizarof was<$FFFC>watching, so I couldn't. But now we are<$FFFC>enemies. I can beat you down without<$FFFC>holding back！<$FFFE>
-51	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+50	<$FB00><$0029>Before, Lord Gizarof was watching,<$FFFC>so I couldn't. But now we are enemies. I<$FFFC>can beat you down without holding back！<$FFFE>
+51	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 52	<$FB00><$002A>Do you hate me？<$FFFE>
-53	<$FB00><$002B>After what happened to me,<$FFFC>asking me not to hate you is impossible.<$FFFE>
+53	<$FB00><$002B>After what happened to me, asking<$FFFC>me not to hate you is impossible.<$FFFE>
 54	<$FB00><$002C>Don't put it that way. You<$FFFC>siblings were just the right specimens<$FFFC>Lord Gizarof wanted.<$FFFD><$FB00><$002D>If I had not been ordered to abduct you,<$FFFC><$F600><$0000> might have attacked you<$FFFC>instead.<$FFFE>
-55	<$FB00><$002E>True. If I should hate anyone,<$FFFC>it is Gizarof.<$FFFE>
+55	<$FB00><$002E>True. If I should hate anyone, it<$FFFC>is Gizarof.<$FFFE>
 56	<$FB00><$002F>That's right.<$FFFE>
 57	<$FB00><$0030>But that does not mean I can<$FFFC>forgive you. Prepare yourself.<$FFFE>
 58	<$FB00><$0031>Fine. I'll take you on！<$FFFE>
 59	<$FB00><$0048>Guh… But I can still fight…<$FFFE>
-60	<$FB00><$0049>Marie！ Don't push yourself.<$FFFC>Fall back！<$FFFE>
+60	<$FB00><$0049>Marie！ Don't push yourself. Fall<$FFFC>back！<$FFFE>
 61	<$FB00><$004A>…Please, do not lose…<$FFFE>
 62	<$FB00><$0080>You all right, Alfred！<$FFFE>
 63	<$FB00><$0081>Sorry…the rest is up to<$FFFC>you…<$FFFE>
@@ -72,7 +72,7 @@
 70	<$FB00><$0057>Kyah！<$FFFE>
 71	<$FB00><$0058>Clarett, are you all right！？<$FFFE>
 72	<$FB00><$0059>This may be too much…<$FFFE>
-73	<$FB00><$005A>Leave the rest to us. Fall<$FFFC>back！<$FFFE>
+73	<$FB00><$005A>Leave the rest to us. Fall back！<$FFFE>
 74	<$FB00><$005B>Sorry, I'll leave it to you…<$FFFE>
 75	…Lord Omega…forgive me…<$FFFE>
 76	…I want…to go home…<$FFFE>
@@ -80,12 +80,12 @@
 78	<$FB00><$0022>Understood！<$FFFE>
 79	I…I'm dying…<$FFFE>
 80	…Guh…ggh！<$FFFE>
-81	Did I come to this continent just to die？<$FFFE>
+81	Did I come to this continent<$FFFC>just to die？<$FFFE>
 82	I wanna go back to Yeless…<$FFFE>
 83	Aaagh！<$FFFE>
-84	My strength is not enough to beat them…！<$FFFE>
+84	My strength is not enough to<$FFFC>beat them…！<$FFFE>
 85	<$FB00><$001A>Sorry, everyone. I dragged you<$FFFC>into this battle because of me.<$FFFE>
-86	<$FB00><$001B>What are you saying！ I<$FFFC>dragged everyone into this fight too.<$FFFE>
+86	<$FB00><$001B>What are you saying！ I dragged<$FFFC>everyone into this fight too.<$FFFE>
 87	<$FB00><$001C>That's right. We're comrades,<$FFFC>aren't we？<$FFFE>
 88	<$FB00><$001D>More importantly, let's defeat<$FFFC>them and move on！<$FFFE>
 89	<$FB00><$001E>Heh, easy for you to say.<$FFFC>Let's go！<$FFFE>

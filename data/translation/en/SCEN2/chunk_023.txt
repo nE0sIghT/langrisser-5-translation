@@ -17,22 +17,22 @@
 15	<$FB00><$0035>Left flank deployed！<$FFFE>
 16	<$FB00><$0036>Right flank likewise ready！<$FFFE>
 17	<$FB00><$0037>Magitek giant locked in place<$FFFC>before the fort.<$FFFE>
-18	<$FB00><$0038>Preparations are in order,<$FFFC>then. Now let them come whenever<$FFF5><$FFF8>…<$FFFE>
+18	<$FB00><$0038>Preparations are in order, then.<$FFFC>Now let them come whenever<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$0039>They're here！<$FFFE>
 20	<$FB00><$003A>We've finally run you down,<$FFFC>Gilmore！ Give it up！<$FFFE>
-21	<$FB00><$003B>You are the ones who should<$FFFC>give up. I have an ancient weapon, the<$FFFC>Magitek giant！<$FFFE>
+21	<$FB00><$003B>You are the ones who should give<$FFFC>up. I have an ancient weapon, the Magitek<$FFFC>giant！<$FFFE>
 22	<$FB00><$003C>We'd best be careful with it,<$FFFC>really.<$FFFD><$FB00><$003D>From what Virash told me, that model can<$FFFC>hit a wide area all by itself.<$FFFE>
 23	<$FB00><$003E>A wide area？<$FFFE>
-24	<$FB00><$003F>In magic terms, something like<$FFFC>a Fireball.<$FFFE>
+24	<$FB00><$003F>In magic terms, something like a<$FFFC>Fireball.<$FFFE>
 25	<$FB00><$0040>So we should treat it as a<$FFFC>powerful spell attack.<$FFFE>
 26	<$FB00><$0041>Let's mind its range as we<$FFFC>fight.<$FFFE>
 27	<$FB00><$0042>Right. Let's go！<$FFFE>
 28	<$FB00><$002B>Take this！<$FFFE>
-29	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+29	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 30	<$FB00><$0046>Let's go.<$FFFE>
 31	<$FB00><$0047>Come if you dare.<$FFFE>
 32	<$FB00><$0048>Guh… But I can still fight…<$FFFE>
-33	<$FB00><$0049>Marie！ Don't push yourself.<$FFFC>Fall back！<$FFFE>
+33	<$FB00><$0049>Marie！ Don't push yourself. Fall<$FFFC>back！<$FFFE>
 34	<$FB00><$004A>…Please, do not lose…<$FFFE>
 35	<$FB00><$0075>I can fight too！<$FFFE>
 36	<$FB00><$0076>I won't lose！<$FFFE>
@@ -52,22 +52,22 @@
 50	<$FB00><$0055>Forgive me！<$FFFE>
 51	！！<$FFFE>
 52	<$FB00><$005C>Ow！ You dare！<$FFFE>
-53	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+53	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 54	<$FB00><$005E>B-but…<$FFFE>
 55	<$FB00><$005F>Just fall back！<$FFFE>
 56	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
-57	<$FB00><$0049>If I fall, you all fall with<$FFFC>me… Magitek giant！ Rampage to your<$FFFC>heart's content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all of you！<$FFFE>
+57	<$FB00><$0049>If I fall, you all fall with me…<$FFFC>Magitek giant！ Rampage to your heart's<$FFFC>content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all of you！<$FFFE>
 58	<$FB00><$0046>Im, impossible… How… could<$FFFC>I… lose…<$FFFE>
-59	<$FB00><$0047>This is your reward for<$FFFC>trampling your own people.<$FFFE>
+59	<$FB00><$0047>This is your reward for trampling<$FFFC>your own people.<$FFFE>
 60	<$FB00><$0048>D, damn it…<$FFFE>
 61	<$FB00><$0044>What！ The Magitek giant,<$FFFC>beaten<$FFF5><$FFF8>…！<$FFFE>
 62	<$FB00><$0045>You have nowhere left to run,<$FFFC>Gilmore！<$FFFE>
 63	S, so strong… ghah！<$FFFE>
-64	After coming this far… I cannot win…<$FFFE>
+64	After coming this far… I cannot<$FFFC>win…<$FFFE>
 65	…Lord Gilmore…<$FFFE>
 66	N, no…<$FFFE>
 67	…U… ugh…<$FFFE>
-68	Curse it, what are you doing！ Finish them<$FFFC>already！<$FFFE>
+68	Curse it, what are you doing！<$FFFC>Finish them already！<$FFFE>
 69	Against this Magitek giant you won't last<$FFFC>a moment！<$FFFD>Go！ Magitek giant Galzork！<$FFFE>
 70	‥‥VOOON‥‥<$FFFE>
 71	<$FB00><$0043>Taste the power of an ancient<$FFFC>weapon！<$FFFE>

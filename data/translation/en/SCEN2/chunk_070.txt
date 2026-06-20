@@ -8,7 +8,7 @@
 6	Lanford<$FFFF>
 7	Goldry<$FFFF>
 8	Beyond the Tunnel<$FFFF>
-9	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0003>Quite a high spot. From<$FFFC>here you might've seen Recrio<$FFFC>Village<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+9	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0003>Quite a high spot. From here you<$FFFC>might've seen Recrio Village<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 10	<$FFF8>……<$FFFE>
 11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0004>Brenda？<$FFFE>
 12	<$FB00><$0005>What are you doing out here？<$FFFE>
@@ -19,15 +19,15 @@
 17	・Can you see something？<$FFFE>
 18	・It's late, come back<$FFFE>
 19	・Ask about the village<$FFFE>
-20	<$FB00><$000B>It's this dark. Can you really<$FFFC>see anything？<$FFFE>
+20	<$FB00><$000B>It's this dark. Can you really see<$FFFC>anything？<$FFFE>
 21	<$FFFA><$FB00><$000C>No, I can't see a<$FFFC>thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000D>Not a thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
-22	<$FB00><$000E>It's late. You should sleep<$FFFC>soon.<$FFFE>
+22	<$FB00><$000E>It's late. You should sleep soon.<$FFFE>
 23	<$FB00><$000F>Yeah.<$FFFE>
-24	<$FB00><$0010>I'd like to hear more about<$FFFC>your village.<$FFFE>
+24	<$FB00><$0010>I'd like to hear more about your<$FFFC>village.<$FFFE>
 25	<$FB00><$0011>My village<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0012>I told you<$FFFC>Recrio Village was a place where humans<$FFFC>and Crimsolanders lived together, didn't<$FFFC>I.<$FFFE>
 26	<$FFF7><$FB00><$0013>Yeah.<$FFF5><$FFF8><$FFFE>
 27	<$FB00><$0014>Well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-28	<$FB00><$0015>Heh heh heh！ So here's where<$FFFC>you were hiding！<$FFFE>
+28	<$FB00><$0015>Heh heh heh！ So here's where you<$FFFC>were hiding！<$FFFE>
 29	<$FB00><$0016>You！<$FFFE>
 30	<$FB00><$0017>Goldry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 31	<$FB00><$0018>I can't crawl home having<$FFFC>failed to blow the tunnel. This time I'll<$FFFC>kill you！<$FFFE>
@@ -35,7 +35,7 @@
 33	<$FB00><$001A>We'll see about that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$001B>I<$FFFC>have this！ This, from Lord Zero！<$FFFE>
 34	<$FFF7><$FB00><$001C>Wha！<$FFFE>
 35	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001D>That's blasting powder！<$FFFE>
-36	<$FB00><$001E>A magic item that wipes out<$FFFC>the likes of you in a flash.<$FFFE>
+36	<$FB00><$001E>A magic item that wipes out the<$FFFC>likes of you in a flash.<$FFFE>
 37	<$FB00><$001F>Stop it！<$FFFE>
 38	<$FB00><$0020>All I have to do is light it.<$FFFE>
 39	<$FB00><$0021>Wahahaha！ Die, die, diiie！<$FFFC>You'll all vanish in an instant！<$FFFC>Wahahaa！<$FFFE>
@@ -46,7 +46,7 @@
 44	<$FB00><$0025>Dawn's broken already<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 45	<$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FB00><$0026>If we still haven't found him<$FFFC>after all this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-47	<$FB00><$0027>Yeah. It was a blast big<$FFFC>enough to wake us all.<$FFFE>
+47	<$FB00><$0027>Yeah. It was a blast big enough to<$FFFC>wake us all.<$FFFE>
 48	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0028>I'll search the forest.<$FFFE>
 49	<$FB00><$0029>Ah, I'll go too！<$FFFE>
 50	<$FB00><$002A>Shall we search once more as<$FFFC>well.<$FFFE>

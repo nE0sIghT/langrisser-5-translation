@@ -14,12 +14,12 @@
 12	・Defeat all enemies<$FFFE>
 13	・All villagers die<$FFFC>・<$F600><$0000> dies<$FFFE>
 14	Otranto Lake Fort<$FFFF>
-15	<$FB00><$0028>We're almost there. Past this<$FFFC>lake is Salrath territory.<$FFFE>
+15	<$FB00><$0028>We're almost there. Past this lake is<$FFFC>Salrath territory.<$FFFE>
 16	<$FB00><$0029>I hope we can gain their help.<$FFFE>
 17	・I hope so<$FFFE>
 18	・Will it go that well？<$FFFE>
 19	・Say nothing<$FFFE>
-20	<$FB00><$002A>Right. Let's hurry and reclaim<$FFFC>your country<$FFF5><$FFF8>…<$FFFE>
+20	<$FB00><$002A>Right. Let's hurry and reclaim your<$FFFC>country<$FFF5><$FFF8>…<$FFFE>
 21	I feel bad for Clarett, but it won't be<$FFFC>that easy.<$FFFE>
 22	<$FFF7>What！？ <$FFFB><$FFF6>Why？<$FFFE>
 23	Because we're wanted criminals…<$FFFE>
@@ -28,15 +28,15 @@
 26	<$0000><$FB00><$002B> <$0000><$0000><$0000><$0000><$0000><$0000><$FFF4>Kyaaa！<$FFF3><$FFFE>
 27	<$FB00><$002C>What！？<$FFFE>
 28	<$FB00><$002D>Why is this happening to us<$FFF5><$FFF7>…？<$FFFE>
-29	<$FB00><$002E>Silence！ What can tax dodgers<$FFFC>say！<$FFFE>
+29	<$FB00><$002E>Silence！ What can tax dodgers say！<$FFFE>
 30	<$FB00><$002F>B-but no one can pay taxes<$FFFC>that high<$FFF5><$FFF8>…<$FFFE>
-31	<$FB00><$0030>We enforce imperial law. Defy<$FFFC>us, defy the Empire！<$FFFE>
+31	<$FB00><$0030>We enforce imperial law. Defy us,<$FFFC>defy the Empire！<$FFFE>
 32	<$FB00><$0031>No tax, and back talk？ Imperial<$FFFC>law says you die！<$FFFE>
 33	<$FB00><$0032>Oh, Lushiris<$FFF5><$FFF8>… <$FFF6><$FB00><$0033>Why won't you save<$FFFC>us<$FFF5><$FFF8>…？<$FFFE>
-34	<$FB00><$0034>Hey！ You there！ Please help<$FFFC>us！<$FFF5><$FFF7><$FFFE>
+34	<$FB00><$0034>Hey！ You there！ Please help us！<$FFF5><$FFF7><$FFFE>
 35	<$FB00><$0035>They must be fleeing the nobles.<$FFFE>
 36	<$FB00><$0036>What will you do, Clarett？<$FFFE>
-37	<$FB00><$0037>Isn't it obvious？ We save<$FFFC>them！<$FFFE>
+37	<$FB00><$0037>Isn't it obvious？ We save them！<$FFFE>
 38	<$FB00><$0038>But how should we fight…？<$FFFE>
 39	<$FB00><$0039>We'll guide them out.<$FFFE>
 40	<$FB00><$003A>Please command. If I try, I'll<$FFFC>only slow us down.<$FFFE>
@@ -52,7 +52,7 @@
 50	・Use the fort bridge<$FFFE>
 51	<$FB00><$003E>Don't enter the fort. Go north！<$FFFE>
 52	<$FB00><$003F>Y-yes！ Thank you！<$FFFE>
-53	<$FB00><$0040>We'll connect the bridge. Go<$FFFC>through the fort！<$FFFE>
+53	<$FB00><$0040>We'll connect the bridge. Go through the<$FFFC>fort！<$FFFE>
 54	<$FB00><$0041>Y-yes！ Thank you！<$FFFE>
 55	<$FB00><$0042>Through this fort？ Not while I<$FFFC>live！<$FFFE>
 56	<$FB00><$0047>Uwaa！<$FFFE>
@@ -68,7 +68,7 @@
 66	Whew…<$FFFE>
 67	<$FFF8>…<$FFF6>Still alive<$FFF8>…<$FFFE>
 68	<$FFF8>…<$FFF7>Whew.<$FFFE>
-69	A fresh flower is wet with morning dew.<$FFFC>What do you do？<$FFFE>
+69	A fresh flower is wet with morning<$FFFC>dew. What do you do？<$FFFE>
 70	・Pick the flower<$FFFE>
 71	・Drink the morning dew<$FFFE>
 72	・Do nothing<$FFFE>
@@ -82,9 +82,9 @@
 80	The rainbow feather turns to light and<$FFFC>wraps around you.<$FFFD><$0000> <$FFF4>Wind magic resist<$FFF3> rose by 2！<$FFFE>
 81	The white feather seems otherworldly.<$FFFD><$0000> <$0000>Got the <$FFF4>Angel Feather<$FFF3>！<$FFFE>
 82	Looks like it was an ordinary feather…<$FFFE>
-83	<$FB00><$0043>The new Emperor does whatever he<$FFFC>wants.<$FFFE>
-84	<$FB00><$0044>Yes. What would Father say if he<$FFFC>saw this<$FFF5><$FFF8>…？<$FFFE>
-85	<$FB00><$0045>Gilmore permits exploitation. I<$FFFC>won't forgive him！<$FFFE>
+83	<$FB00><$0043>The new Emperor does whatever he wants.<$FFFE>
+84	<$FB00><$0044>Yes. What would Father say if he saw<$FFFC>this<$FFF5><$FFF8>…？<$FFFE>
+85	<$FB00><$0045>Gilmore permits exploitation. I won't<$FFFC>forgive him！<$FFFE>
 86	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
 87	<$FB00><$002B>Take this！<$FFFE>
 88	<$FB00><$0037>Stay out of my way<$FFF5><$FFF8>…<$FFFE>
@@ -94,7 +94,7 @@
 92	<$FB00><$0076>I won't lose！<$FFFE>
 93	<$FB00><$0078>Am I not good enough…<$FFFE>
 94	<$FB00><$0079>Leave it to us, Alfred！<$FFFE>
-95	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+95	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
 96	<$FB00><$0068>Come and get me！<$FFFE>
 97	<$FB00><$0070>This is getting dicey…<$FFFE>
 98	<$FB00><$0071>Fall back, Brenda！ Leave it to<$FFFC>me！<$FFFE>

@@ -10,7 +10,7 @@
 8	Soldier<$FFFF>
 9	Alvince<$FFFF>
 10	Gizarof's Magic Institute<$FFFF>
-11	<$FB00><$0003>Lord Gizarof. Forgive our delay.<$FFFC>We have arrived.<$FFFE>
+11	<$FB00><$0003>Lord Gizarof. Forgive our delay. We have<$FFFC>arrived.<$FFFE>
 12	<$FB00><$0004>Mm. I have waited long for you.<$FFFD><$FFF8>…<$FFF6><$FB00><$0005>Hm？ Only you two？ Where are the other<$FFFC>specimens？<$FFFE>
 13	<$FB00><$0006>Only we escaped unharmed. There<$FFFC>was one more, but he was taken by parties<$FFFC>unknown.<$FFFE>
 14	<$FFF8>…<$FFF6><$FB00><$0007>Parties unknown, you say？<$FFFD><$FFF8>…<$FFF6><$FB00><$0008>No matter. That you two are safe will<$FFFC>suffice.<$FFFD><$FB00><$0009>Now, to business. I have work for you.<$FFFE>
@@ -19,7 +19,7 @@
 17	<$FB00><$000C>The Sage's Crystal<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$000D>That crystal holds magic both<$FFFC>light and dark. Mastered, its power could<$FFFC>destroy this world with ease.<$FFFE>
 19	<$FB00><$000E>Then our task is to recover the<$FFFC>crystal.<$FFFE>
-20	<$FB00><$000F>Yes. Ivar the thief boasted he<$FFFC>had the demons' aid.<$FFFD><$FB00><$0010>North of here lies a gathering place of<$FFFC>the demon tribe. The crystal is likely<$FFFC>there.<$FFFE>
+20	<$FB00><$000F>Yes. Ivar the thief boasted he had<$FFFC>the demons' aid.<$FFFD><$FB00><$0010>North of here lies a gathering place of<$FFFC>the demon tribe. The crystal is likely<$FFFC>there.<$FFFE>
 21	<$FB00><$0011>Understood. We leave to recover<$FFFC>it at once.<$FFFE>
 22	<$FB00><$0012>See that you do.<$FFFD><$FB00><$0013>Mind you, the crystal once had another<$FFFC>form, and may have regained it. Don't be<$FFFC>misled by the word crystal.<$FFFE>
 23	<$FB00><$0014>And what is its true form？<$FFFE>
@@ -52,15 +52,15 @@
 50	<$FB00><$0032>And you trust people far too<$FFFC>easily.<$FFFE>
 51	<$FB00><$0033>Well, I get your point. But why<$FFFC>not use our mercenary information<$FFFC>network？<$FFFD><$FB00><$0034>Some things we might learn right away,<$FFFC>no？<$FFFE>
 52	<$FFF8>…<$FFFE>
-53	<$FB00><$0035>She's right. We'll learn it<$FFFC>anyway once we arrive. Better to go in<$FFFC>knowing as much as we can.<$FFFE>
+53	<$FB00><$0035>She's right. We'll learn it anyway<$FFFC>once we arrive. Better to go in knowing as<$FFFC>much as we can.<$FFFE>
 54	<$FB00><$0036>Now you're talking！ So, what is<$FFFC>it？<$FFFE>
 55	<$FB00><$0037>Do you know of the Sage's<$FFFC>Crystal？<$FFFE>
 56	<$FFFA><$FB00><$0038>The Sage's Crystal<$FFF5><$FFF8>… <$FFFB><$FFF9><$FFF6><$FB00><$0039>That's what<$FFFC>you're after？<$FFFE>
 57	<$FB00><$003A>You know it？<$FFFE>
-58	<$FFFA><$FFF8><$FB00><$003B>Hmm<$FFF5>… <$FE14><$FFF9><$FFF6><$FB00><$003C>I've heard talk, at least.<$FFFC>A treasure of Gotahl village, and Gizarof<$FFFC>got his hands on it, they say.<$FFFE>
+58	<$FFFA><$FFF8><$FB00><$003B>Hmm<$FFF5>… <$FE14><$FFF9><$FFF6><$FB00><$003C>I've heard talk, at least. A<$FFFC>treasure of Gotahl village, and Gizarof<$FFFC>got his hands on it, they say.<$FFFE>
 59	<$FB00><$003D>Didn't Gizarof have it, then？<$FFFE>
 60	<$FB00><$003E>A mishap let the demon tribe<$FFFC>steal it.<$FFFE>
-61	<$FB00><$003F>That so<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>That's about all we<$FFFC>know of the crystal too.<$FFFD><$FB00><$0041>Instead I'll have my girls watch these<$FFFC>crystal-thieving demons. If they move<$FFFC>before we arrive, we'll know at once.<$FFFE>
+61	<$FB00><$003F>That so<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>That's about all we know<$FFFC>of the crystal too.<$FFFD><$FB00><$0041>Instead I'll have my girls watch these<$FFFC>crystal-thieving demons. If they move<$FFFC>before we arrive, we'll know at once.<$FFFE>
 62	<$FB00><$0042>We're counting on it. Then let's<$FFFC>move out.<$FFFE>
 63	Near Fort Sipel<$FFFF>
 64	<$FB00><$0043>Now, come quietly.<$FFFE>
@@ -73,7 +73,7 @@
 71	<$FB00><$004B>I keep telling you, it wasn't<$FFFC>me！ If I'd known it was poison, why would<$FFFC>I let father drink it！<$FFFE>
 72	<$FB00><$004C>The doctor never imagined you'd<$FFFC>bring poison. I can scarcely believe it<$FFFC>myself.<$FFFD><$FB00><$004D>A clever scheme, Alfred.<$FFFE>
 73	<$FB00><$004E>It wasn't me！<$FFFE>
-74	<$FB00><$004F>But the poison you brought<$FFFC>killed father. That is fact. It cannot be<$FFFC>denied.<$FFFE>
+74	<$FB00><$004F>But the poison you brought killed<$FFFC>father. That is fact. It cannot be denied.<$FFFE>
 75	<$FB00><$0050>Lord Alfred. For the murder of<$FFFC>Lord Rockwell, you die here！<$FFFE>
 76	<$FB00><$0051>It, it can't be<$FFF5><$FFF7>…<$FFFE>
 77	<$FB00><$0052>Honestly, what a handful.<$FFFE>

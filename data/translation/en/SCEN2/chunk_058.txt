@@ -10,11 +10,11 @@
 8	Soldier<$FFFF>
 9	Lenard<$FFFF>
 10	Virash's Room<$FFFF>
-11	<$FB00><$0003>Good thing you came to this<$FFFC>continent.<$FFFE>
+11	<$FB00><$0003>Good thing you came to this continent.<$FFFE>
 12	<$FB00><$0004>What is it, Brenda. Did you get<$FFFC>the swords？<$FFFE>
-13	<$FB00><$0005>Not yet. First I need you to<$FFFC>lend me a useful weapon.<$FFFE>
+13	<$FB00><$0005>Not yet. First I need you to lend<$FFFC>me a useful weapon.<$FFFE>
 14	<$FB00><$0006>Hold on. You want us to lend out<$FFFC>weapons？ Are you serious？<$FFFE>
-15	<$FB00><$0007>I agreed to help so you would<$FFFC>hand over the swords. So lend me something<$FFFC>good.<$FFFE>
+15	<$FB00><$0007>I agreed to help so you would hand<$FFFC>over the swords. So lend me something<$FFFC>good.<$FFFE>
 16	<$FFFA><$FB00><$0008>Loaning anything with attack<$FFFC>power is risky… <$FFF9>Tell me the situation<$FFFC>first.<$FFFE>
 17	<$FB00><$0009>The main force helping us was<$FFFC>surrounded by Gilmore's army. They say it<$FFFC>won't last three days.<$FFFD><$FB00><$000A>We can't reach them in time, and with our<$FFFC>numbers<$FFF5><$FFF8>…<$FFFE>
 18	<$FFFA><$FB00><$000B>So, fast transport to scatter<$FFFC>the enemy. But it must have no attack<$FFFC>power<$FFF5><$FFF8>…<$FFFE>
@@ -24,15 +24,15 @@
 22	<$FFF8><$FFFA>…<$FFF6><$FB00><$0010>Fine. I will help a little.<$FFFC><$FFF9>Return it after the battle. If capture is<$FFFC>likely, destroy it.<$FFFD><$FB00><$0011>It is too advanced for this age.<$FFFE>
 23	<$FB00><$0012>I know！<$FFFE>
 24	Salrath camp<$FFFF>
-25	<$FB00><$0013>Lord Lenard, no good！ Kalxath<$FFFC>flyers watch us from above. We have no<$FFFC>retreat route！<$FFFE>
+25	<$FB00><$0013>Lord Lenard, no good！ Kalxath flyers watch<$FFFC>us from above. We have no retreat route！<$FFFE>
 26	<$FB00><$0014>So we are surrounded. But if we<$FFFC>fall, El Sallia rots. We cannot lose！<$FFFD><$FB00><$0015>Everyone, hold until night！ Then their<$FFFC>eyes will fail. All troops, give<$FFFC>everything！<$FFFE>
 27	<$FFF7><$FB00><$0016>Yes sir！<$FFF5><$FFF8><$FFFE>
 28	Near Gaiana Prison<$FFFF>
-29	<$FB00><$0017>I said all that before, but will<$FFFC>it be all right<$FFF5><$FFF8>…<$FFFE>
+29	<$FB00><$0017>I said all that before, but will it be all<$FFFC>right<$FFF5><$FFF8>…<$FFFE>
 30	<$FB00><$0018>What is it？<$FFFE>
 31	<$FB00><$0019>Oh, nothing, just talking to<$FFFC>myself. Don't mind me.<$FFFE>
 32	<$FB00><$001A>I see. Then it is fine.<$FFFE>
-33	<$FB00><$001B>What is Brenda planning？ We<$FFFC>need to hurry to the rescue, but we have<$FFFC>been waiting half a day.<$FFFE>
+33	<$FB00><$001B>What is Brenda planning？ We need<$FFFC>to hurry to the rescue, but we have been<$FFFC>waiting half a day.<$FFFE>
 34	<$FB00><$001C>Even if we had left at once, we<$FFFC>would not have made it in time.<$FFFE>
 35	<$FB00><$001D>True, but maybe we could have<$FFFC>helped a little.<$FFFE>
 36	<$FB00><$001E>Right. This is precious time, no<$FFFC>question.<$FFFE>

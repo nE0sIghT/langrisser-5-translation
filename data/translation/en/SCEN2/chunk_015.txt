@@ -13,29 +13,29 @@
 11	・Defeat all enemies<$FFFE>
 12	・<$F600><$0000> dies<$FFFE>
 13	Kalxath Headquarters<$FFFF>
-14	<$FB00><$0020>What？ The flyers were wiped<$FFFC>out？<$FFFE>
-15	<$FB00><$0021>Yes. Princess Clarett's unit<$FFFC>used an ancient weapon to destroy the<$FFFC>flyers overhead.<$FFFE>
-16	<$FB00><$002D>Then our surveillance from the<$FFFC>sky is<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0022>Impossible now. And messages<$FFFC>to each unit are delayed.<$FFFE>
+14	<$FB00><$0020>What？ The flyers were wiped out？<$FFFE>
+15	<$FB00><$0021>Yes. Princess Clarett's unit used an<$FFFC>ancient weapon to destroy the flyers<$FFFC>overhead.<$FFFE>
+16	<$FB00><$002D>Then our surveillance from the sky is<$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$0022>Impossible now. And messages to<$FFFC>each unit are delayed.<$FFFE>
 18	<$FB00><$0023>Damn it！<$FFFD><$FB00><$0024>Fine. Send riders to each unit. Salrath is<$FFFC>nearly crushed. Move！<$FFFE>
-19	<$FB00><$0025>Yes sir. I will send the<$FFFC>riders at once.<$FFFE>
+19	<$FB00><$0025>Yes sir. I will send the riders<$FFFC>at once.<$FFFE>
 20	<$FB00><$0026>Good.<$FFFE>
 21	<$FB00><$0027>Riders, deliver messages to<$FFFC>every unit！<$FFFE>
 22	<$FB00><$0028>Understood！<$FFFE>
 23	<$FB00><$0029>Leave it to us！<$FFFE>
 24	<$FB00><$002A>I am counting on you. Failure<$FFFC>now would make us a laughingstock.<$FFFE>
-25	<$FB00><$002B>Looks like the messengers<$FFFC>left.<$FFFE>
-26	<$FB00><$002C>With their force reduced, now<$FFFC>is our chance to strike HQ. Finish this<$FFFC>at once！<$FFFE>
-27	<$FB00><$009F>Excellency！ Enemy in the<$FFFC>rear！<$FFFE>
+25	<$FB00><$002B>Looks like the messengers left.<$FFFE>
+26	<$FB00><$002C>With their force reduced, now is<$FFFC>our chance to strike HQ. Finish this at<$FFFC>once！<$FFFE>
+27	<$FB00><$009F>Excellency！ Enemy in the rear！<$FFFE>
 28	<$FB00><$002E>When did they<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>Grr, do not panic！ This fortress will not<$FFFC>fall quickly！ Hold out until the cavalry<$FFFC>returns！<$FFFE>
 29	<$FB00><$0030>If the cavalry messengers<$FFFC>return, it will be trouble.<$FFFE>
 30	<$FB00><$0031>I know.<$FFFE>
 31	<$FB00><$0032>The cavalry messengers will be<$FFFC>trouble if they return<$FFF5><$FFF8>…<$FFFE>
-32	I cannot escape while the commander<$FFFC>remains.<$FFFE>
+32	I cannot escape while the<$FFFC>commander remains.<$FFFE>
 33	Escape？<$FFFE>
 34	<$FFF7><$FB00><$0055>Whew<$FFF5><$FFF8>… <$FFF6><$FB00><$0056>Looks like it is over.<$FFFE>
 35	Send ahead？<$FFFE>
-36	<$FB00><$0043>I will go ahead. You be<$FFFC>careful.<$FFFE>
+36	<$FB00><$0043>I will go ahead. You be careful.<$FFFE>
 37	<$FFF7><$FB00><$0044>Right.<$FFF5><$FFF8><$FFFE>
 38	Send ahead？<$FFFE>
 39	<$FB00><$0045>Whew, that was close.<$FFFE>
@@ -82,7 +82,7 @@
 80	<$FB00><$0076>I won't lose！<$FFFE>
 81	<$FB00><$0078>Am I not good enough…<$FFFE>
 82	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
-83	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+83	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
 84	<$FB00><$0068>Come and get me！<$FFFE>
 85	<$FB00><$0063>Try this one！<$FFFE>
 86	<$FB00><$0070>This is getting dicey…<$FFFE>
@@ -91,7 +91,7 @@
 89	<$FB00><$0052>I can't lose！<$FFFE>
 90	<$FB00><$0055>Forgive me！<$FFFE>
 91	<$FB00><$005C>Ow！ You dare！<$FFFE>
-92	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+92	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 93	<$FB00><$005E>B-but…<$FFFE>
 94	<$FB00><$005F>Just fall back！<$FFFE>
 95	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
