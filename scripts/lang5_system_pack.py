@@ -28,6 +28,23 @@ from lang5_system_dump import find_groups, run_length
 FFFF = 0xFFFF
 
 
+def reserve_leading_cells(orig: list[int]) -> list[int]:
+    """Leading 0x0000 cells from the original run, to prepend to a translation.
+
+    Some strings begin with blank cells the engine overdraws at runtime (the
+    LOAD-menu stage counter "[N]面", the status-cure unit name, ...). The dump
+    renders 0x0000 as nothing, so translations omit them; preserving them keeps
+    the translated text from starting under those glyphs and overlapping them.
+    """
+    lead = 0
+    for t in orig:
+        if t == 0:
+            lead += 1
+        else:
+            break
+    return [0] * lead
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.font")
@@ -76,6 +93,8 @@ def main() -> None:
         except Exception as exc:
             problems.append(f"loose {e['offset']}: unencodable ({exc}) :: {en!r}")
             continue
+        orig = list(struct.unpack_from("<%dH" % budget, data, off))
+        toks = reserve_leading_cells(orig) + toks
         if len(toks) > budget:
             problems.append(f"loose {e['offset']}: {len(toks)}>{budget} :: {en!r}")
             continue
@@ -110,6 +129,7 @@ def main() -> None:
                 problems.append(f"g{gi}#{k} {e['offset']}: unencodable ({exc}) :: {en!r}")
                 seqs.append(orig)
                 continue
+            toks = reserve_leading_cells(orig) + toks
             cap = orig_len + args.max_grow if args.repack else orig_len
             if len(toks) > cap:
                 problems.append(f"g{gi}#{k} {e['offset']}: line {len(toks)}>{cap} :: {en!r}")
