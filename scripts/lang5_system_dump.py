@@ -25,11 +25,20 @@ import json
 import struct
 from pathlib import Path
 
+from lang5_patch_name_entry import grid_span as name_entry_grid_span
+
 FFFF = 0xFFFF
 SOFT_BREAK = 0xFFFC
 SCAN_START = 0x8052      # first verified text group table
 MAX_STEP = 0x30          # max plausible string length (+terminator) in words
 MIN_ENTRIES = 8          # a real group has at least this many strings
+
+# The katakana name-entry grid lives inside group 0 but is owned by
+# lang5_patch_name_entry.py, which rewrites it as fixed 5-single-glyph runs.
+# The unified text flow must NOT capture it: re-encoding those runs as ordinary
+# text picks readability pair-glyphs (e.g. "ab" in one cell), which collapses
+# the 5-column grid and corrupts the rename screen. Its span comes from the
+# patcher (the single source of the grid location); see name_entry_grid_span.
 
 
 def load_codemap(tbl_path: str) -> dict[int, str]:
@@ -154,6 +163,7 @@ def main() -> None:
     data = Path(args.system_bin).read_bytes()
     codemap = load_codemap(args.tbl)
     groups = find_groups(data)
+    grid_span = name_entry_grid_span(data, codemap)
 
     entries = []
     covered = bytearray(len(data))  # mark bytes that belong to a group
@@ -169,6 +179,8 @@ def main() -> None:
                 words = table[k + 1] - table[k] - 1
             else:
                 words = run_length(data, off)
+            if grid_span and grid_span[0] <= off < grid_span[1]:
+                continue  # name-entry grid run: owned by lang5_patch_name_entry
             run = list(struct.unpack_from("<%dH" % words, data, off)) if words else []
             entries.append({
                 "group": gi,

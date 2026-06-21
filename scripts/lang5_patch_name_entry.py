@@ -58,6 +58,38 @@ def find_anchor(blob: bytes, anchor: bytes) -> int:
     return pos
 
 
+def char_to_tok(tok2char: dict[int, str]) -> dict[str, int]:
+    """char -> single-glyph token, also accepting fullwidth digit spellings."""
+    c2t: dict[str, int] = {}
+    for tok, ch in tok2char.items():
+        if len(ch) == 1:
+            c2t.setdefault(ch, tok)
+    for half, full in zip("0123456789", "０１２３４５６７８９"):
+        if half in c2t:
+            c2t.setdefault(full, c2t[half])
+    return c2t
+
+
+def grid_span(blob: bytes, tok2char: dict[int, str]) -> tuple[int, int] | None:
+    """Byte span [start, end) of the name-entry grid in `blob`, or None.
+
+    The engine references the grid by a hard-coded absolute address; there is no
+    pointer in the data to read, so the region is located by its content (the
+    first run's kana), exactly as the patcher does. This is the single source of
+    the grid location: the unified SYSTEM text flow imports it to leave the grid
+    alone (re-encoding those runs as ordinary text would break the rename screen).
+    """
+    c2t = char_to_tok(tok2char)
+    try:
+        anchor = struct.pack(f"<{RUN_LEN}H", *(c2t[ch] for ch in ORIG_RUNS[0]))
+    except KeyError:
+        return None
+    pos = blob.find(anchor)
+    if pos < 0 or blob.find(anchor, pos + 2) != -1:
+        return None
+    return pos, pos + len(ORIG_RUNS) * (RUN_LEN + 1) * 2
+
+
 def patch_system(blob: bytearray, orig: list[list[int]], new: list[list[int]]) -> None:
     """19 runs of 5 tokens, each followed by an 0xFFFF separator."""
     anchor = struct.pack(f"<{RUN_LEN}H", *orig[0])
