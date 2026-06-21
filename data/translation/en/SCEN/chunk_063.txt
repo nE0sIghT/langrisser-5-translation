@@ -96,7 +96,7 @@
 94	For me？<$FFFE>
 95	<$F600><$0000>'s personal weapon<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Assault Magiblade<$FFF3> obtained！<$FFFE>
 96	…This sword…？<$FFFE>
-97	It is the Egil family treasure, the sword<$FFFC>you used before. They say an Egil emperor<$FFFC>found it one thousand years ago while<$FFFC>trying to save his wife.<$FFFD>It is hard to wield, and few Egils ever<$FFFC>mastered it… I hoped using it might help<$FFFC>your memory return…<$FFFE>
+97	It is the Egil family treasure, the sword<$FFFC>you used before. They say an Egil emperor<$FFFC>of Rigüler found it one thousand years<$FFFC>ago while trying to save his wife.<$FFFD>It is hard to wield, and few Egils ever<$FFFC>mastered it… I hoped using it might help<$FFFC>your memory return…<$FFFE>
 98	I see. If I once used it, my body may<$FFFC>remember it.<$FFFE>
 99	Thank you, Clarett.<$FFFE>
 100	<$FB00><$0040>Then let us hurry.<$FFFE>
