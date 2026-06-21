@@ -4515,7 +4515,7 @@
   "offset": "0x09EF4",
   "words": 6,
   "jp": "ガルツォーク",
-  "en": "Galzork"
+  "en": "Galshok"
  },
  {
   "group": 2,
@@ -7269,7 +7269,7 @@
   "offset": "0x0AFF0",
   "words": 3,
   "jp": "クリス",
-  "en": "Kris"
+  "en": "Chris"
  },
  {
   "group": 8,
@@ -8457,7 +8457,7 @@
   "offset": "0x0B94E",
   "words": 6,
   "jp": "ガルツォーク",
-  "en": "Galzork"
+  "en": "Galshok"
  },
  {
   "group": 9,
@@ -8583,7 +8583,7 @@
   "offset": "0x0BA08",
   "words": 8,
   "jp": "ローゼンシル女王",
-  "en": "Rosenshill"
+  "en": "Rozenciel"
  },
  {
   "group": 9,
@@ -8610,7 +8610,7 @@
   "offset": "0x0BA3A",
   "words": 6,
   "jp": "ウィラー提督",
-  "en": "Wheeler"
+  "en": "Wiler"
  },
  {
   "group": 9,
@@ -8646,7 +8646,7 @@
   "offset": "0x0BA74",
   "words": 8,
   "jp": "{?0224}の王子ボーゼル",
-  "en": "Prince Bozel"
+  "en": "Prince Böser"
  },
  {
   "group": 9,
@@ -8673,7 +8673,7 @@
   "offset": "0x0BAA8",
   "words": 7,
   "jp": "死人使いグロブ",
-  "en": "Glob"
+  "en": "Grove"
  },
  {
   "group": 9,
@@ -10230,7 +10230,7 @@
   "offset": "0x0C326",
   "words": 6,
   "jp": "クェイド侯爵",
-  "en": "Creid"
+  "en": "Quaid"
  },
  {
   "group": 9,
@@ -10860,7 +10860,7 @@
   "offset": "0x0C5C6",
   "words": 4,
   "jp": "クェイド",
-  "en": "Creid"
+  "en": "Quaid"
  },
  {
   "group": 9,
@@ -10905,7 +10905,7 @@
   "offset": "0x0C600",
   "words": 4,
   "jp": "アイゼル",
-  "en": "Aizer"
+  "en": "Aizel"
  },
  {
   "group": 9,
@@ -10959,7 +10959,7 @@
   "offset": "0x0C63A",
   "words": 6,
   "jp": "ローゼンシル",
-  "en": "Rosenshill"
+  "en": "Rozenciel"
  },
  {
   "group": 9,
@@ -10968,7 +10968,7 @@
   "offset": "0x0C648",
   "words": 4,
   "jp": "ウィラー",
-  "en": "Wheeler"
+  "en": "Wiler"
  },
  {
   "group": 9,
@@ -10986,7 +10986,7 @@
   "offset": "0x0C65A",
   "words": 4,
   "jp": "ボーゼル",
-  "en": "Boser"
+  "en": "Böser"
  },
  {
   "group": 9,
@@ -11013,7 +11013,7 @@
   "offset": "0x0C67A",
   "words": 3,
   "jp": "グロブ",
-  "en": "Glob"
+  "en": "Grove"
  },
  {
   "group": 9,
@@ -11427,7 +11427,7 @@
   "offset": "0x0CB42",
   "words": 6,
   "jp": "ガルツォーク",
-  "en": "Galzork"
+  "en": "Galshok"
  },
  {
   "group": 10,
@@ -11553,7 +11553,7 @@
   "offset": "0x0CBF2",
   "words": 8,
   "jp": "ローゼンシル女王",
-  "en": "Rosenshill"
+  "en": "Rozenciel"
  },
  {
   "group": 10,
@@ -11580,7 +11580,7 @@
   "offset": "0x0CC24",
   "words": 6,
   "jp": "ウィラー提督",
-  "en": "Wheeler"
+  "en": "Wiler"
  },
  {
   "group": 10,
@@ -11616,7 +11616,7 @@
   "offset": "0x0CC5E",
   "words": 8,
   "jp": "{?0224}の王子ボーゼル",
-  "en": "Prince Bozel"
+  "en": "Prince Böser"
  },
  {
   "group": 10,
@@ -11643,7 +11643,7 @@
   "offset": "0x0CC92",
   "words": 7,
   "jp": "死人使いグロブ",
-  "en": "Glob"
+  "en": "Grove"
  },
  {
   "group": 10,
@@ -13200,7 +13200,7 @@
   "offset": "0x0D466",
   "words": 6,
   "jp": "クェイド侯爵",
-  "en": "Creid"
+  "en": "Quaid"
  },
  {
   "group": 10,
@@ -13830,7 +13830,7 @@
   "offset": "0x0D6A0",
   "words": 4,
   "jp": "クェイド",
-  "en": "Creid"
+  "en": "Quaid"
  },
  {
   "group": 10,
@@ -13929,7 +13929,7 @@
   "offset": "0x0D738",
   "words": 8,
   "jp": "ローゼンシル女王",
-  "en": "Rosenshill"
+  "en": "Rozenciel"
  },
  {
   "group": 10,
@@ -13938,7 +13938,7 @@
   "offset": "0x0D74A",
   "words": 6,
   "jp": "ウィラー提督",
-  "en": "Wheeler"
+  "en": "Wiler"
  },
  {
   "group": 10,
@@ -13956,7 +13956,7 @@
   "offset": "0x0D764",
   "words": 8,
   "jp": "{?0224}の王子ボーゼル",
-  "en": "Prince Bozel"
+  "en": "Prince Böser"
  },
  {
   "group": 10,
@@ -13983,7 +13983,7 @@
   "offset": "0x0D798",
   "words": 7,
   "jp": "死人使いグロブ",
-  "en": "Glob"
+  "en": "Grove"
  },
  {
   "group": 10,
@@ -16854,7 +16854,7 @@
   "offset": "0x10818",
   "words": 22,
   "jp": "ボーゼルが愛用する剣で,この剣に認められた者",
-  "en": "Prince Bozel uses it. One it accepts can"
+  "en": "Prince Böser uses it. One it accepts can"
  },
  {
   "group": 12,
