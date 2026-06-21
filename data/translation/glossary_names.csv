@@ -9,18 +9,18 @@ jp,guide_en,proposal,note
 レインフォルス,Lainforce,Lainforce,separate character
 マクレーン,McClaine,McClaine,
 アルヴィンス,Alvince,Alvince,
-アイゼル,Aizer,Aizer,alt: Aizel
+アイゼル,Aizer,Aizel,alt: Aizer
 ランディウス,Landius,Landius,Grand Duke; alias of Lambert
 ランベルト,Lambert,Lambert,
 エミリー,Emily,Emily,general / adjutant
 ギザロフ,Gizarov,Gizarof,"guide: Gizarov; L4 fan canon: Gizarof — USED IN QUIZ, confirm"
 ジェシカ,Jessica,Jessica,L3 canon match
-ローゼンシル,Rosenshill,Rosenshill,
+ローゼンシル,Rosenshill,Rozenciel,
 ヴィラージュ,Virash,Virash,
-ウィラー,Wheeler,Wheeler,admiral
+ウィラー,Wheeler,Wiler,admiral
 セレナ,Selena,Selena,
-ボーゼル,Bozel,Boser,L3 translation uses Boser — series consistency; guide: Bozel
-グローブ,Grove,Grove,
+ボーゼル,Bozel,Böser,series canon; ASCII fallback: Boser; guide: Bozel
+グロブ,Glob,Grove,character; title Necromancer by context
 エリック,Eric,Eric,
 フェラキア,Ferakia,Ferakia,'shapeshifting' Ferakia
 ガイエル,Gaiel,Gaiel,demon general
@@ -28,7 +28,7 @@ jp,guide_en,proposal,note
 ゼロ,Zero,Zero,strategist
 レナード,Lenard,Lenard,duke
 ギルモア,Gilmore,Gilmore,new emperor
-クェイド,Creid,Creid,marquis; alt: Quade
+クェイド,Creid,Quaid,marquis; alt: Creid/Quade
 マスターソン,Mastason,Masterson,butler; guide spells Mastason
 マリアンデール,Mariandel,Mariandel,
 ラッセル,Russel,Russel,chancellor; guide single-l
@@ -42,13 +42,13 @@ jp,guide_en,proposal,note
 カルザス,Kalxath,Kalxath,kingdom
 サルラス,Salrath,Salrath,duchy
 カコンシス,Caconsis,Caconsis,kingdom
-クリムゾ,Crimso,Crimso,comet/homeland
+クリムゾ,Crimso,Crimzo,red moon / homeland
 レーゲンブルク,Regenburg,Regenburg,imperial capital?
 ヴェルゼリア,Velzeria,Velzeria,dark land (series)
-リベラリスタ,Liberalist,Liberalista,rebel group; guide: Liberalist(s)
+リベラリスタ,Liberalist,Liberalist,rebel group; guide: Liberalist(s)
 クフィール,?,Kfir,mercenary band? verify in script
-Cナイツ,Crimson Knights,Crimson Knights,abbrev. CKnights fits cells
+Cナイツ,Crimson Knights,Crimzonian Knights,short UI may use C.Knights if budget requires
 バラン,?,Baran,
 サムソン,?,Samson,
 アドン,?,Adon,
-ガルツォーク,?,Galzork,verify reading
+ガルツォーク,?,Galshok,Fandom scenario list; project decision
