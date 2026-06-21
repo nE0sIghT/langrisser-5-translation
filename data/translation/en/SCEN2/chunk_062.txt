@@ -12,7 +12,7 @@
 12	Grunt<$FFFF>
 13	Merc<$FFFF>
 14	Soldier<$FFFF>
-15	Reynorz<$FFFF>
+15	Reynolds<$FFFF>
 16	Rochefort<$FFFF>
 17	Federation Castle, Audience Hall<$FFFF>
 18	<$FB00><$0003>Lanford has returned. But I would like a<$FFFC>satisfactory explanation for this summons.<$FFFE>
@@ -27,7 +27,7 @@
 27	<$FB00><$0011>What do you intend？<$FFFE>
 28	<$FB00><$0012>You will stay in a cell for a<$FFFC>while. During that time, I will hold army<$FFFC>command.<$FFFD><$FB00><$0013>If the misunderstanding clears, you should<$FFFC>be released soon<$FFF5><$FFF8>…<$FFFE>
 29	<$FB00><$0014>What are you thinking, Russel！<$FFFD><$FB00><$0015>Ru<$FFF8>ss<$FFF7><$00E4><$00E5><$00E5><$00E6>el！！<$FFF5><$FFF8><$FFFE>
-30	Reynorz Army<$0000>VS<$0000>Federation<$FFFC>Army<$FFFF>
+30	Reynolds<$FFFC>Army<$0000>VS<$0000>Federation Army<$FFFF>
 31	<$FB00><$0016>Tighten defense and withdraw slowly！<$FFFC>Leave no openings！<$FFFE>
 32	<$FB00><$0017>Yes sir！<$FFFE>
 33	<$FB00><$0018>First priority is a safe<$FFFC>withdrawal！ Stay defensive！<$FFFE>

@@ -17,10 +17,10 @@
 15	<$FFFA><$FB00><$0008>No matter. My part is done.<$FFFC>The rest rests with Lord Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 16	Demon Camp<$FFFF>
 17	<$FB00><$0009>The battleship sank？<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$000A>That flash just<$FFFC>now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-18	<$FB00><$000B>What's wrong？ Didn't you say<$FFFC>that once Crimso was stopped, you'd carve<$FFFC>up Crimsonia with ease？<$FFFE>
+18	<$FB00><$000B>What's wrong？ Didn't you say<$FFFC>that once Crimzo was stopped, you'd carve<$FFFC>up Crimzonia with ease？<$FFFE>
 19	<$FB00><$000C>G, Gaiel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$000D>Only because I happened to<$FFFC>find the link between Alhazard and the<$FFFC>ultimate weapon. Had I not come, you'd be<$FFFC>dead, you know？<$FFFE>
 21	<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FB00><$000E>Kh！<$FFFE>
 22	<$FB00><$000F>Now then, the counterattack.<$FFFE>
-23	<$0000>Having disabled the magitek system, the<$FFFC>party storms the castle, pressing on in<$FFFC>search of Lainforce. <$0000>And at last, in<$FFFC>the audience hall, they found him.<$FFFD><$0000>To stop Crimsonia's conquest of the<$FFFC>surface, <$F600><$0000>'s band<$FFFC>challenges Lainforce.<$FFFE>
+23	<$0000>Having disabled the magitek system, the<$FFFC>party storms the castle, pressing on in<$FFFC>search of Lainforce. <$0000>And at last, in<$FFFC>the audience hall, they found him.<$FFFD><$0000>To stop Crimzonia's conquest of the<$FFFC>surface, <$F600><$0000>'s band<$FFFC>challenges Lainforce.<$FFFE>
 24	Victory terms<$FFFC><$0000><$FFFC>・Defeat Lainforce<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

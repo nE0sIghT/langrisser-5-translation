@@ -30,4 +30,4 @@
 30	<$FB00><$0081>Treat surrendered soldiers with<$FFFC>respect！ They did not fight by choice.<$FFFE>
 31	<$FB00><$0082>Understood！<$FFFE>
 32	In the Demon Land, Velzeria<$FFFF>
-33	<$FB00><$0083>Damn！ Langrisser is right<$FFFC>ahead, but there are too many monsters.<$FFFD><$FB00><$0084>No choice. I wanted it before fighting<$FFFC>him, but I will leave this to old man<$FFFC>Aizer.<$FFFE>
+33	<$FB00><$0083>Damn！ Langrisser is right<$FFFC>ahead, but there are too many monsters.<$FFFD><$FB00><$0084>No choice. I wanted it before fighting<$FFFC>him, but I will leave this to old man<$FFFC>Aizel.<$FFFE>

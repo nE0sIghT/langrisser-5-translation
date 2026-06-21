@@ -7,11 +7,11 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Scouts<$FFFF>
-8	Aizer<$FFFF>
+8	Aizel<$FFFF>
 9	Attackers<$FFFF>
-10	Glob<$FFFF>
+10	Grove<$FFFF>
 11	Velzeria Castle Entrance<$FFFF>
-12	<$FB00><$0041>Lord Aizer！ We found it！<$FFFE>
+12	<$FB00><$0041>Lord Aizel！ We found it！<$FFFE>
 13	<$FB00><$0042>Only that one？<$FFFE>
 14	<$FB00><$0043>Yes. It seems this is the only<$FFFC>sword here. We cannot find the other.<$FFFE>
 15	<$FB00><$0044>Good！ If we can recover the<$FFFC>sword, we have no business here！ Pull<$FFFC>out！<$FFFE>

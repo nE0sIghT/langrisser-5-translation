@@ -6,12 +6,12 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Wheeler<$FFFF>
+7	Wiler<$FFFF>
 8	Landius<$FFFF>
 9	Selena<$FFFF>
 10	Angelina<$FFFF>
 11	Shelfaniel<$FFFF>
-12	Rosenshill<$FFFF>
+12	Rozenciel<$FFFF>
 13	Emily<$FFFF>
 14	Caconsis Castle, Audience Hall<$FFFF>
 15	I see, so that's how it was.<$FFFE>
@@ -31,6 +31,6 @@
 29	<$FB00><$0006>I have my orders from Marshal<$FFFC>Lanford.<$FFF5> <$FB00><$0007>The marshal formed an elite unit<$FFFC>and is on the move.<$FFFD><$FB00><$0008>As said, the ultimate weapon is weak to<$FFFC>clouds. So the marshal went to the ancient<$FFFC>weather-control ruin. If he succeeds,<$FFFC>it's neutralized for days.<$FFFD><$FB00><$0009>Meanwhile, our task is to surround the<$FFFC>demons and contain area damage.<$FFF5><$FFFD><$FB00><$000A>The Caconsis Army has promised to aid us.<$FFFE>
 30	<$FB00><$000B>I understand the plan.<$FFF5> <$FB00><$000C>Then<$FFFC>General Emily, I once again command the<$FFFC>sortie.<$FFFE>
 31	<$FFF7><$FB00><$000D>Yes！<$FFF5><$FFF8><$FFFE>
-32	<$0000>Defeated by <$F600><$0000>'s band,<$FFFC>Lainforce chose the path of coexistence<$FFFC>with humans. <$0000>With that, only the demons<$FFFC>remained as the enemy.<$FFFD><$0000>Gaiel at last learned Alhazard's true<$FFFC>power, the use of the <$FFF4>ultimate weapon<$FFFC>Peiria<$FFF3>. <$0000>But the ultimate weapon had a<$FFFC>weakness.<$FFFD><$0000>It cannot fire accurately where Peiria<$FFFC>has no line of sight. <$0000>Moving the ancient<$FFFC>relic, the <$FFF4>weather control device<$FFF3>, its<$FFFC>clouds can block the bombardment.<$FFFD><$0000><$F600><$0000>'s band headed for the<$FFFC>ancient ruin to activate it. <$0000>But the<$FFFC>demons would not sit idly by.<$FFFD><$0000>Now, before the weather control device,<$FFFC>a fierce battle is about to unfold.<$FFFE>
-33	Victory terms<$FFFC><$0000><$FFFC>・Defeat Glob<$FFFC>・Activate the weather device and reach turn 15<$FFFD>Defeat terms<$FFFC>・Reach turn 15 without activating the device<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
-34	Victory terms<$FFFC><$0000><$FFFC>・Defeat Glob<$FFFC>・Activate the weather device and reach turn 20<$FFFD>Defeat terms<$FFFC>・Reach turn 20 without activating the device<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+32	<$0000>Defeated by <$F600><$0000>'s band,<$FFFC>Lainforce chose the path of coexistence<$FFFC>with humans. <$0000>With that, only the demons<$FFFC>remained as the enemy.<$FFFD><$0000>Gaiel at last learned Alhazard's true<$FFFC>power, the use of the <$FFF4>ultimate weapon<$FFFC>Pelia<$FFF3>. <$0000>But the ultimate weapon had a<$FFFC>weakness.<$FFFD><$0000>It cannot fire accurately where Pelia<$FFFC>has no line of sight. <$0000>Moving the ancient<$FFFC>relic, the <$FFF4>weather control device<$FFF3>, its<$FFFC>clouds can block the bombardment.<$FFFD><$0000><$F600><$0000>'s band headed for the<$FFFC>ancient ruin to activate it. <$0000>But the<$FFFC>demons would not sit idly by.<$FFFD><$0000>Now, before the weather control device,<$FFFC>a fierce battle is about to unfold.<$FFFE>
+33	Victory terms<$FFFC><$0000><$FFFC>・Defeat Grove<$FFFC>・Activate the weather device and reach turn 15<$FFFD>Defeat terms<$FFFC>・Reach turn 15 without activating the device<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+34	Victory terms<$FFFC><$0000><$FFFC>・Defeat Grove<$FFFC>・Activate the weather device and reach turn 20<$FFFD>Defeat terms<$FFFC>・Reach turn 20 without activating the device<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>

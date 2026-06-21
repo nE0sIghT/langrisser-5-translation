@@ -9,7 +9,7 @@
 7	Commander<$FFFF>
 8	Officer<$FFFF>
 9	Girl<$FFFF>
-10	Creid<$FFFF>
+10	Quaid<$FFFF>
 11	・Defeat all enemies<$FFFE>
 12	・Hostage teleported<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Dares Fort<$FFFF>
@@ -62,7 +62,7 @@
 60	<$FB00><$0065>Wah ha ha！ Now Estor will not<$FFFC>help you！ Wah ha ha！<$FFFE>
 61	Tablet says:<$FFFD><$0000> Left, then right Step on both<$FFFE>
 62	A sound came from the right.<$FFFE>
-63	A small bow appeared.<$FFFD><$0000> Obtained <$FFF4>Hading<$FFF3>！<$FFFE>
+63	A small bow appeared.<$FFFD><$0000> Obtained <$FFF4>Hadding<$FFF3>！<$FFFE>
 64	Draw them until Lambda circles around！<$FFFE>
 65	Draw them until Alfred circles around！<$FFFE>
 66	Draw them until Brenda circles around！<$FFFE>
@@ -98,7 +98,7 @@
 96	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 97	・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 98	But if you do not beat us, it<$FFFC>is the same！<$FFFE>
-99	Lord Creid… they are strong…<$FFFE>
+99	Lord Quaid… they are strong…<$FFFE>
 100	Gwaaah！ I cannot stop bleeding…<$FFFE>
 101	<$FB00><$0066>Why can't I beat you！？<$FFFC>…Grr！ Next time！<$FFFE>
 102	<$FFF8>…<$FFF6><$FB00><$0067>It is over.<$FFFE>
@@ -132,8 +132,8 @@
 130	<$FB00><$0052>Do not let that commander<$FFFC>reach her！ Defeat him first！<$FFFE>
 131	<$FB00><$005A>Hmmm！？ What is this<$FFF5><$FFF8>…？<$FFFE>
 132	<$FB00><$005B>That is<$FFF5><$FFF8>…！<$FFFE>
-133	<$FB00><$005C>Marquis Creid！<$FFFE>
-134	<$FB00><$005D>Lord Creid！<$FFFE>
+133	<$FB00><$005C>Marquis Quaid！<$FFFE>
+134	<$FB00><$005D>Lord Quaid！<$FFFE>
 135	<$FB00><$005E>Back for another beating？<$FFFE>
 136	<$FB00><$005F>I will not let you run wild in<$FFFC>my territory！<$FFFE>
 137	They will catch us！ They got us good…<$FFFE>

@@ -42,8 +42,8 @@
 40	<$FB00><$0087>Hm？ What is it, if you've<$FFFC>something to say, out with it！<$FFFE>
 41	<$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0088>I'm sorry. I got your<$FFFC>mercenary band killed.<$FFFE>
 42	<$FFF7><$FB00><$0089>Eh！？<$FFF5><$FFFE>
-43	<$FB00><$008A>Lainforce's next target is the<$FFFC>sky battleship sleeping beneath Valtar.<$FFFD><$FB00><$008B>While I held off his main force, I asked<$FFFC>the girls to destroy the battleship, but<$FFFC>it seems the Crimson Knights appeared.<$FFFE>
-44	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>The Crimson Knights<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+43	<$FB00><$008A>Lainforce's next target is the<$FFFC>sky battleship sleeping beneath Valtar.<$FFFD><$FB00><$008B>While I held off his main force, I asked<$FFFC>the girls to destroy the battleship, but<$FFFC>it seems the Crimzonian Knights appeared.<$FFFE>
+44	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>The Crimzonian<$FFFC>Knights<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 45	<$FB00><$008D>I'm sorry, Brenda.<$FFF5> <$FB00><$008E>Had I gone<$FFFC>with them, they need not have died so<$FFFC>pointlessly. This one is my failure.<$FFFE>
 46	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008F>It hurts, but it can't be<$FFFC>helped. This is war. They knew the risk<$FFFC>too.<$FFFE>
 47	<$FB00><$0090>I'll clear their regret by<$FFFC>beating Lain！<$FFFE><$FFFF>

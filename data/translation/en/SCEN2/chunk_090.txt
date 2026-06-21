@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Wheeler<$FFFF>
+7	Wiler<$FFFF>
 8	Selena<$FFFF>
 9	Goldry<$FFFF>
 10	Folk<$FFFF>

@@ -40,7 +40,7 @@
 38	<$FB00><$0085>E-emergency！<$FFFE>
 39	<$FB00><$0086>What happened？<$FFFE>
 40	<$FB00><$0087>Gilmore noticed our moves and sent<$FFFC>a large army at Duke Lenard's main force！<$FFFE>
-41	<$FB00><$0088>Kh！ This is what Creid meant！<$FFFE>
+41	<$FB00><$0088>Kh！ This is what Quaid meant！<$FFFE>
 42	<$FB00><$0089>How is the battle？<$FFFE>
 43	<$FB00><$008A>They outnumber us ten to one. We<$FFFC>may last three days.<$FFFE>
 44	<$FB00><$008B>No！ Given the distance to<$FFFC>Salrath's army, we can't return in time！<$FFFE>
@@ -72,7 +72,7 @@
 70	<$FB00><$00A7>Marshal. Scouts have contacted the enemy.<$FFFE>
 71	<$FB00><$00A8>Emily, we move too. We will hold<$FFFC>them until the rest assemble.<$FFFE>
 72	<$FB00><$00A9>Yes, Marshal Lanford！<$FFFE>
-73	Reynorz Army Camp<$FFFF>
+73	Reynolds Army Camp<$FFFF>
 74	<$FB00><$00AA>Fast response. As expected of General<$FFFC>Lanford, who defeated Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no,<$FFFC>Marshal.<$FFFD><$FB00><$00AC>But what can a battered regular army do？<$FFFE>
 75	<$FB00><$00AD>We have triple their numbers. They<$FFFC>have no chance.<$FFFE>
 76	<$FB00><$00AE>Do not let your guard down.<$FFFC>Our war has only begun.<$FFFE>

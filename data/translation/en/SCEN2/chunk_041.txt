@@ -62,9 +62,9 @@
 60	That girl from earlier said it. That there<$FFFC>are impostors<$FFF8>…<$FFFE>
 61	So those people are the ones imitating<$FFFC>us？<$FFFE>
 62	I don't know their reasons, but I can't<$FFFC>just let it slide.<$FFFE>
-63	Looks like the Umanin are already sold<$FFFC>out…<$FFFE>
-64	Umanin are on sale for 50P<$FFF8>… which one<$FFFC>should I get.<$FFFE>
-65	Umanin are sold for 50P, but there's no<$FFFC>clerk in sight<$FFF8>…<$FFFE>
+63	Looks like the Uminin are already sold<$FFFC>out…<$FFFE>
+64	Uminin are on sale for 50P<$FFF8>… which one<$FFFC>should I get.<$FFFE>
+65	Uminin are sold for 50P, but there's no<$FFFC>clerk in sight<$FFF8>…<$FFFE>
 66	Bursting with juices<$FFF8>… I wonder if it's<$FFFC>tasty？？<$FFFE>
 67	Hmm, I wonder if this is any good. What<$FFFC>should I do<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6>nah, I'll pass！<$FFFE>
 68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
@@ -187,17 +187,17 @@
 185	Here we go, you impostors！<$FFFE>
 186	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 187	I wonder why something like this is here<$FFF8>…<$FFFE>
-188	Mister. one Umanin, please.<$FFFE>
+188	Mister. one Uminin, please.<$FFFE>
 189	Welcome. which one would you<$FFFC>like？<$FFFE>
-190	・Umanin Normal<$FFFE>
-191	・Immortal Umanin<$FFFE>
-192	・Umanin Attacker<$FFFE>
-193	・High-Speed Umanin<$FFFE>
-194	One Umanin Normal, please.<$FFFE>
-195	One Immortal Umanin, please.<$FFFE>
-196	One Umanin Attacker, please.<$FFFE>
-197	One High-Speed Umanin, please.<$FFFE>
-198	Too bad, but I'm out of money.<$FFFC>Umanin another time, then.<$FFFE>
+190	・Uminin Normal<$FFFE>
+191	・Immortal Uminin<$FFFE>
+192	・Uminin Attacker<$FFFE>
+193	・High-Speed Uminin<$FFFE>
+194	One Uminin Normal, please.<$FFFE>
+195	One Immortal Uminin, please.<$FFFE>
+196	One Uminin Attacker, please.<$FFFE>
+197	One High-Speed Uminin, please.<$FFFE>
+198	Too bad, but I'm out of money.<$FFFC>Uminin another time, then.<$FFFE>
 199	<$FB00><$004B>No… I lost…<$FFFE>
 200	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
 201	…<$FB00><$004D>Sorry…<$FFFE>

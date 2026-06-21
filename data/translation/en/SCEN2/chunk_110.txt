@@ -15,7 +15,7 @@
 13	<$FB00><$005F>Lain<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 14	<$FB00><$0060>Hoho. So you are the ones who<$FFFC>took the sacred sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
 15	<$FB00><$0062>You think we'll be caught that<$FFFC>easily？<$FFFE>
-16	<$FB00><$0063>Then you think you can<$FFFC>escape？ Let's see how long you can bluff<$FFFC>against the Crimson Knights.<$FFFE>
+16	<$FB00><$0063>Then you think you can<$FFFC>escape？ Let's see how long you can bluff<$FFFC>against the Crimzonian Knights.<$FFFE>
 17	<$FB00><$0064>Hah！ I don't care who you<$FFFC>brought, I won't forgive you. For my<$FFFC>parents and my village, I'll have my<$FFFC>revenge！<$FFFE>
 18	<$FB00><$0065>You would defeat me？ Are you<$FFFC>serious, Brenda？<$FFFE>
 19	<$FB00><$0066>Emergency, Lord Lainforce！<$FFFE>

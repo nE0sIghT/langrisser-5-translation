@@ -4,10 +4,10 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Creid<$FFFF>
+7	Quaid<$FFFF>
 8	Kfir<$FFFF>
 9	Officer<$FFFF>
-10	・Defeat Creid and Kfir<$FFFE>
+10	・Defeat Quaid and Kfir<$FFFE>
 11	・<$F600><$0000> dies<$FFFE>
 12	Kalxath Castle Gate<$FFFF>
 13	<$FB00><$0014>So this is Kalxath Castle.<$FFFE>
@@ -109,7 +109,7 @@
 109	<$FB00><$0039>Y-yes！<$FFFE>
 110	<$FB00><$003A>Here I go！<$FFFE>
 111	<$FB00><$003B>All units, attack！ Defend this<$FFFC>place at any cost！<$FFFE>
-112	<$FB00><$003C>Lord Creid, we should hold and<$FFFC>wait for reinforcements.<$FFFE>
+112	<$FB00><$003C>Lord Quaid, we should hold and<$FFFC>wait for reinforcements.<$FFFE>
 113	<$FB00><$003D>Silence！ No more failures！ I<$FFFC>must defeat them and win glory！<$FFFE>
 114	Sir Kfir. Why do you not move？<$FFFD>You lead flyers, but command here is mine.<$FFFC>Obey orders.<$FFFE>
 115	If you insist, I will obey.<$FFFE>

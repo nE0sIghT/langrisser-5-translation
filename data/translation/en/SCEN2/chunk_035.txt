@@ -14,9 +14,9 @@
 12	Demon Temple, Interior<$FFFF>
 13	<$FFF8><$FB00><$0003>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0004>So you've come at last.<$FFFE>
 14	<$FFF8>…<$FFF6><$FB00><$0005>Gaiel. You can't escape now.<$FFFE>
-15	<$FB00><$0006>Escape？<$FFF5> <$FB00><$0007>When have I ever fled？<$FFF5> <$FB00><$0008>I'll<$FFFC>thank you not to lump me with Glob.<$FFFE>
+15	<$FB00><$0006>Escape？<$FFF5> <$FB00><$0007>When have I ever fled？<$FFF5> <$FB00><$0008>I'll<$FFFC>thank you not to lump me with Grove.<$FFFE>
 16	<$FB00><$0009>You who tried to attack<$FFFC>us, your own allies and all, what can you<$FFFC>say.<$FFFE>
-17	<$FB00><$000A>Allies？<$FFF5> <$FB00><$000B>Who are my<$FFFC>allies？<$FFF5> <$FB00><$000C>Back when I served Boser,<$FFFC>perhaps, but not now.<$FFFD><$FB00><$000D>I care nothing for the demons' future. I<$FFFC>will rule this world！<$FFFE>
+17	<$FB00><$000A>Allies？<$FFF5> <$FB00><$000B>Who are my<$FFFC>allies？<$FFF5> <$FB00><$000C>Back when I served Böser,<$FFFC>perhaps, but not now.<$FFFD><$FB00><$000D>I care nothing for the demons' future. I<$FFFC>will rule this world！<$FFFE>
 18	<$FB00><$000E>That I will never allow！<$FFF5><$FFFC><$FB00><$000F>By the blood of Kalxath, I'll defeat you！<$FFF5><$FFFC><$FB00><$0010>Prepare yourself！<$FFFE>
 19	<$FB00><$0011>An heir of the light and<$FFFC>Langrisser.<$FFF5><$FB00><$0012>What a vexing pair.<$FFF5> <$FB00><$0013>But Lord<$FFFC>Gaiel won't flinch at the likes of that！<$FFFE>
 20	・Defeat Gaiel within 18 turns<$FFFE>
@@ -74,15 +74,15 @@
 72	<$FB00><$002F>However you fire the<$FFFC>ultimate weapon, one shot can't destroy<$FFFC>this world.<$FFF5> <$FB00><$0030>Spare me the bluff.<$FFFE>
 73	<$FFF8>…<$FFF6><$FB00><$0031>Heh heh heh！ A<$FFFC>bluff…？ Do you truly think it a bluff？<$FFFD><$FB00><$0032>The remaining mana is one shot's worth,<$FFFC>but there is a way<$FFF5><$FFF8>….<$FFFE>
 74	<$FB00><$0033>What do you mean to do？<$FFFE>
-75	<$FB00><$0034>This！<$FFFD><$FB00><$0035>Move, Peiria！<$FFFE>
+75	<$FB00><$0034>This！<$FFFD><$FB00><$0035>Move, Pelia！<$FFFE>
 76	…<$FB00><$0036>Command accepted. NOW<$FFFC>BEGINNING MOVEMENT<$FFFC>TOWARD CRIMSO.<$FFFE>
-77	<$FB00><$0037>Toward Crimso<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>Don't tell<$FFFC>me, you'll crash the moons together？<$FFFE>
+77	<$FB00><$0037>Toward Crimzo<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>Don't tell<$FFFC>me, you'll crash the moons together？<$FFFE>
 78	<$FB00><$0039>Heh heh heh！ If two moons<$FFFC>collide, this surface won't escape<$FFFC>unscathed<$FFF5><$FFF8>….<$FFFD>…<$FFF6><$FB00><$003A>I'll be waiting… in hell… ahead of<$FFFC>you<$FFF5><$FFF8>….<$FFFE>
 79	<$FB00><$003B>Wh, what do we do？<$FFFE>
 80	<$FB00><$003C>Whatever happens, we have<$FFFC>to tell Lainforce and the others！<$FFFE>
 81	<$FB00><$001D>I can make out the blue<$FFFC>moon through the clouds<$FFF5><$FFF8>….<$FFFE>
 82	<$FB00><$001E>Just a little more.<$FFF5> <$FB00><$001F>The<$FFFC>moment the clouds fully break is your<$FFFC>end！<$FFFE>
-83	<$FB00><$0020>Now, show yourself<$FFFC>quickly, Peiria！<$FFFE>
+83	<$FB00><$0020>Now, show yourself<$FFFC>quickly, Pelia！<$FFFE>
 84	<$FB00><$0021>No time！<$FFF5> <$FB00><$0022>We have to<$FFFC>beat him at once！<$FFFE>
-85	<$FFF8><$FB00><$0025>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0026>You've<$FFFC>lost.<$FFF5> <$FB00><$0027>Behold that blue moon！<$FFF5> <$FB00><$0028>How cold<$FFFC>and beautiful！<$FFFD><$FB00><$0029>Now, Peiria！ Erase these ones！<$FFFE>
+85	<$FFF8><$FB00><$0025>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0026>You've<$FFFC>lost.<$FFF5> <$FB00><$0027>Behold that blue moon！<$FFF5> <$FB00><$0028>How cold<$FFFC>and beautiful！<$FFFD><$FB00><$0029>Now, Pelia！ Erase these ones！<$FFFE>
 86	<$FB00><$002A>No！<$FFF5><$FFF7><$FFFE>

@@ -76,11 +76,11 @@
 74	<$FB00><$004D>But that alone will not prove<$FFFC>him innocent.<$FFFD><$FB00><$004E>I do not want to doubt Marie, but even if<$FFFC>she is right, we have no way to prove it.<$FFFE>
 75	<$FB00><$004F>Yes. I am sorry. I could not<$FFFC>help.<$FFFE>
 76	<$FB00><$0050>No, do not worry about it.<$FFFE>
-77	<$FB00><$0051>If you cannot remember, I will<$FFFC>tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son, ruler of northern<$FFFC>Liguria, and my cousin.<$FFFD><$FB00><$0053>Because of your house and sword skill,<$FFFC>father made you guard captain.<$FFFE>
+77	<$FB00><$0051>If you cannot remember, I will<$FFFC>tell you what I know.<$FFFD><$FB00><$0052>You are Duke Egil's son, ruler of northern<$FFFC>Rigüler, and my cousin.<$FFFD><$FB00><$0053>Because of your house and sword skill,<$FFFC>father made you guard captain.<$FFFE>
 78	<$FB00><$0054>Then my parents<$FFF5><$FFF8>…<$FFFE>
 79	<$FB00><$0055>You were hunted as a traitor,<$FFFC>so House Egil was abolished and its<$FFFC>bloodline ended.<$FFFD><$FFF8>…<$FFF6><$FB00><$0056>Except for you.<$FFFE>
 80	<$FFF8>…<$FFF6><$FB00><$0057>Recovering his memory may hurt<$FFFC>him more than losing it did.<$FFFE>
-81	<$FB00><$0058>And your homeland, Liguria,<$FFFC>became the domain of Minister Gilmore.<$FFFE>
+81	<$FB00><$0058>And your homeland, Rigüler,<$FFFC>became the domain of Minister Gilmore.<$FFFE>
 82	<$FB00><$0059>I see<$FFF5><$FFF8>…<$FFFE>
 83	<$FB00><$005A>But if your suspicion is<$FFFC>cleared <$FFF5><$FFF8>…<$FFFE>
 84	<$FB00><$005B>Emergency！<$FFFE>
@@ -101,5 +101,5 @@
 99	Thank you, Clarett.<$FFFE>
 100	<$FB00><$0040>Then let us hurry.<$FFFE>
 101	<$0000>Though Gilmore himself escaped, the<$FFFC>party retook Kalxath Castle. <$0000>But the<$FFFC>turmoil across El Sallia had not yet<$FFFC>ended.<$FFFD><$0000>The demons, who had been lying low until<$FFFC>now, finally began to move.<$FFFD><$0000><$F600><$0000> and the others hurried<$FFFC>to a village where the dead were said to<$FFFC>walk.<$FFFE>
-102	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 villager units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
-103	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・All villagers defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
+102	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Grove<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 villager units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
+103	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat Necro Grove<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・All villagers defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

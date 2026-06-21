@@ -17,7 +17,7 @@
 15	<$FB00><$0006>What in the world was that！？<$FFFE>
 16	<$FB00><$0007>The Magitek cannon！？<$FFF5><$FFF8> …<$FE3C>…<$FE3C><$FFF6><$FB00><$0008>Of all<$FFFC>the nasty toys！<$FFFE>
 17	<$FB00><$0009>Virash, look！<$FFFE>
-18	<$FB00><$000A>Yeah. The original Galzork<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFC><$FFF6><$FB00><$000B>If that thing is moving, they have built<$FFFC>up quite a store of mana.<$FFFE>
+18	<$FB00><$000A>Yeah. The original Galshok<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFC><$FFF6><$FB00><$000B>If that thing is moving, they have built<$FFFC>up quite a store of mana.<$FFFE>
 19	<$FB00><$000C>That man beside the giant.<$FFFC>Gilmore！<$FFFE>
 20	<$FB00><$000D>I see. So that's how it is. I have<$FFFC>outlived my use<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 21	<$FB00><$000E>What are you muttering about？<$FFFE>
@@ -53,5 +53,5 @@
 51	<$FB00><$0030>He wrecked the Magitek cannon！<$FFFE>
 52	<$FB00><$0031>Lord Gilmore, the man still<$FFFC>breathes. Your orders？<$FFFE>
 53	<$FB00><$0032>Hmph！ Leave him. He will not<$FFFC>survive those wounds. And when the drug<$FFFC>runs out, madness will finish him.<$FFFD><$FB00><$0033>Let him die slowly where he lies！<$FFFE>
-54	<$0000>Glob was beaten, but the moment they<$FFFC>left Velzeria Castle, the party came under<$FFFC>sudden attack.<$FFFD><$0000>Gilmore had fled once, only to return<$FFFC>with an ancient weapon for a rematch.<$FFFD><$0000>Eric made a desperate charge to destroy<$FFFC>the Magitek cannon. So that his resolve is<$FFFC>not wasted, Gilmore has to fall. The last<$FFFC>battle against Gilmore begins.<$FFFE>
-55	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gilmore and Galzork<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
+54	<$0000>Grove was beaten, but the moment they<$FFFC>left Velzeria Castle, the party came under<$FFFC>sudden attack.<$FFFD><$0000>Gilmore had fled once, only to return<$FFFC>with an ancient weapon for a rematch.<$FFFD><$0000>Eric made a desperate charge to destroy<$FFFC>the Magitek cannon. So that his resolve is<$FFFC>not wasted, Gilmore has to fall. The last<$FFFC>battle against Gilmore begins.<$FFFE>
+55	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gilmore and Galshok<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

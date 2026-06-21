@@ -46,15 +46,15 @@
 44	<$FB00><$001B>As you will. There is one more<$FFFC>thing to report.<$FFFE>
 45	<$FB00><$001C>What is it.<$FFFE>
 46	<$FB00><$001D>A report from the unit sent to<$FFFC>trace the true holy sword.<$FFFE>
-47	<$FB00><$001E>From Aizer？<$FFFE>
-48	<$FB00><$001F>Yes.<$FFFD><$FB00><$0020>By Aizer's report, the holy sword that<$FFFC>passed into demon hands is now called<$FFFC>Alhazard.<$FFFD><$FB00><$0021>It seems a demon named Gaiel carries it<$FFFC>about.<$FFFE>
+47	<$FB00><$001E>From Aizel？<$FFFE>
+48	<$FB00><$001F>Yes.<$FFFD><$FB00><$0020>By Aizel's report, the holy sword that<$FFFC>passed into demon hands is now called<$FFFC>Alhazard.<$FFFD><$FB00><$0021>It seems a demon named Gaiel carries it<$FFFC>about.<$FFFE>
 49	<$FB00><$0022>And where is it？<$FFFE>
 50	<$FB00><$0023>Gaiel has left El Sallia and<$FFFC>crossed to Yeless. He seems to be combing<$FFFC>ancient texts, researching the holy sword.<$FFFE>
 51	<$FB00><$0024>The chance he reaches the<$FFFC>ultimate weapon？<$FFFE>
 52	<$FB00><$0025>Likely it will become known to<$FFFC>him before long.<$FFFE>
 53	<$FB00><$0026>If he learns of the ultimate<$FFFC>weapon, we can't stay gathered in one<$FFFC>place. Best split the men and move them<$FFFC>from the castle elsewhere.<$FFFE>
-54	<$FB00><$0027>Then I'll see to the<$FFFC>arrangements. For defense until everyone<$FFFC>withdraws, I'd entrust it to Aizer<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-55	<$FB00><$0028>Leave it to him. Assign two of<$FFFC>the Crimson Knights. Tell him to take the<$FFFC>utmost care.<$FFFE>
+54	<$FB00><$0027>Then I'll see to the<$FFFC>arrangements. For defense until everyone<$FFFC>withdraws, I'd entrust it to Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+55	<$FB00><$0028>Leave it to him. Assign two of<$FFFC>the Crimzonian Knights. Tell him to take<$FFFC>the utmost care.<$FFFE>
 56	<$FB00><$0029>As you will.<$FFFE>
 57	<$FFFA><$FB00><$002A>To face even the demons in a<$FFFC>situation like this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 58	<$0000>The rescued citizens reveal the Poria<$FFFC>refugees are made to dig out the<$FFFC>battleship. <$0000><$F600><$0000>'s band<$FFFC>slips into Valtar once more.<$FFFD><$0000>To send <$F600><$0000> and one other<$FFFC>past the guards, they run the decoy plan.<$FFFE>

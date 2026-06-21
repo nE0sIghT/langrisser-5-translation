@@ -6,9 +6,9 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Aizer<$FFFF>
+7	Aizel<$FFFF>
 8	Soldier<$FFFF>
-9	・Defeat Aizer<$FFFE>
+9	・Defeat Aizel<$FFFE>
 10	・<$F600><$0000> dies<$FFFE>
 11	Underground altar exit<$FFFF>
 12	<$FB00><$000D>Staying longer wastes time. We leave now<$FFFC>and chase the Caconsis army.<$FFFE>
@@ -20,7 +20,7 @@
 18	<$FB00><$0014>It drains your strength. Stay<$FFFC>too long and you won't be able to move.<$FFFE>
 19	<$FB00><$0015>No way！ Come on, let's get out,<$FFFC>quick！<$FFFE>
 20	<$FB00><$0016>I meant to take you at my<$FFFC>leisure once you couldn't move.<$FFFD>But you've seen through the smoke.<$FFFE>
-21	<$FB00><$0017>Aizer！？<$FFFE>
+21	<$FB00><$0017>Aizel！？<$FFFE>
 22	<$FB00><$0018>Well done not falling for a cheap<$FFFC>trick. But how long can you last？<$FFFE>
 23	<$FB00><$0019>We won't lose to you！<$FFFE>
 24	Cough, cough！ I…I can't<$FFFC>breathe<$FFF8>…<$FFFE>
@@ -53,7 +53,7 @@
 51	<$FB00><$0078>Am I not good enough…<$FFFE>
 52	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
 53	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
-54	That Aizer. Quite the underhanded trick！<$FFFE>
+54	That Aizel. Quite the underhanded trick！<$FFFE>
 55	My forces are few. Such schemes are<$FFFC>necessary.<$FFFE>
 56	<$FB00><$0025>You nearly made a stuffed trophy<$FFFC>of me！<$FFFE>
 57	<$FB00><$0070>This is getting dicey…<$FFFE>
@@ -70,7 +70,7 @@
 68	<$FB00><$001B>Sir！<$FFFE>
 69	<$FB00><$001C>Understood.<$FFFE>
 70	It…wasn't supposed to…<$FFFE>
-71	Lord Aizer… For…give…me…<$FFFE>
+71	Lord Aizel… For…give…me…<$FFFE>
 72	…so…strong…<$FFFE>
 73	…Oh no！ Gwah！<$FFFE>
 74	<$FB00><$0021>Good. We begin the full assault.<$FFFC>All units, move out！<$FFFE>

@@ -29,7 +29,7 @@
 27	<$FB00><$0034>Curse it<$FFF5><$FFF8>….<$FFFE>
 28	<$FB00><$0035>That form！<$FFFE>
 29	<$FB00><$0036>I, impossible… uwaah！<$FFF5><$FFF7><$FFFE>
-30	<$FB00><$0037>To think you'd have<$FFFC>Langrisser. That fool Glob, he botched<$FFFC>it！<$FFFE>
+30	<$FB00><$0037>To think you'd have<$FFFC>Langrisser. That fool Grove, he botched<$FFFC>it！<$FFFE>
 31	<$FB00><$0038>Where is the real Russel？<$FFFE>
 32	<$FB00><$0039>He wasn't very tasty.<$FFFE>
 33	<$FB00><$003A>You mean<$FFF5><$FFF8>….<$FFFE>
@@ -128,7 +128,7 @@
 126	<$FB00><$0063>Kh！ Quick to flee<$FFF5><$FFF8>….<$FFFE>
 127	<$FFF8>…<$FFF6><$FB00><$0064>At least the crystal is<$FFFC>safe.<$FFFE>
 128	<$FB00><$0065>Still, that demon's manner, it<$FFFC>felt as if she sides with the<$FFFC>Three-Country Alliance.<$FFFE>
-129	<$FB00><$0066>Something's behind it.<$FFFC>Crimsonians and humans would never team<$FFFC>with demons, at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
+129	<$FB00><$0066>Something's behind it.<$FFFC>Crimzonians and humans would never team<$FFFC>with demons, at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
 130	Empty！？ A wasted effort<$FFF8>….<$FFFE>
 131	<$FFF8>…. <$FFF6>Looks like there's nothing.<$FFFE>
 132	Huh？ It's empty<$FFF8>….<$FFFE>

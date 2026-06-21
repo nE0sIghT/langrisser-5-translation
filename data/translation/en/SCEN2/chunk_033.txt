@@ -7,19 +7,19 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Engineer<$FFFF>
-8	Glob<$FFFF>
+8	Grove<$FFFF>
 9	Rockwell<$FFFF>
 10	Bulk<$FFFF>
 11	Device<$FFFF>
 12	Monster<$FFFF>
-13	・Defeat Glob<$FFFC>・Activate the weather device and reach turn 20<$FFFE>
+13	・Defeat Grove<$FFFC>・Activate the weather device and reach turn 20<$FFFE>
 14	・Reach turn 20 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 15	Ancient Ruin, Weather Control Facility<$FFFF>
 16	<$FB00><$000E>So this is the weather-control ruin<$FFFC>Virash spoke of.<$FFFE>
 17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>…. <$FFF6><$FB00><$0010>Ah, atop<$FFFC>that pedestal.<$FFFE>
 18	<$FB00><$0011>Then let's have him work the device right<$FFFC>away.<$FFFE>
 19	<$FB00><$0012>I won't let you！<$FFFE>
-20	<$FB00><$0013>Glob！？<$FFFE>
+20	<$FB00><$0013>Grove！？<$FFFE>
 21	<$FB00><$0014>Just in time. I'll take my<$FFFC>revenge here！<$FFFE>
 22	<$FB00><$0015>Don't take me lightly. And I've<$FFFC>found a special corpse just for you.<$FFFE>
 23	<$FB00><$0016>…U… uu….<$FFFE>
@@ -31,7 +31,7 @@
 29	<$FB00><$0020>But if we head for the device in<$FFFC>this situation, the Engineer's in danger.<$FFFE>
 30	<$FB00><$0021>Then I'll fall back for now.<$FFFC>Call me when the time is right.<$FFFE>
 31	<$FB00><$0022>Understood.<$FFFE>
-32	・Defeat Glob<$FFFC>・Activate the weather device and reach turn 15<$FFFE>
+32	・Defeat Grove<$FFFC>・Activate the weather device and reach turn 15<$FFFE>
 33	・Reach turn 15 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 34	Hey, if I don't head over<$FFFC>soon, my legs won't get me there in<$FFFC>time….<$FFFE>
 35	Got it. We'll cover you. Head for the<$FFFC>device！<$FFFE>
@@ -64,16 +64,16 @@
 62	・<$F600><$0000> dies<$FFFE>
 63	<$FB00><$0041>It's raining.<$FFFE>
 64	<$FB00><$0042>Clouds this thick. Forgive a bit<$FFFC>of rain.<$FFFE>
-65	<$FB00><$0043>Next to magitek energy raining from<$FFFC>Peiria, it's nothing.<$FFFE>
+65	<$FB00><$0043>Next to magitek energy raining from Pelia,<$FFFC>it's nothing.<$FFFE>
 66	<$FB00><$0044>Haha, true enough.<$FFFE>
-67	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Glob will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+67	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Grove will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
 68	<$FB00><$004A>Mihari Kushizekiki<$FFFC>Hagujisoram！<$FFFE>
-69	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Glob will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+69	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Grove will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
 70	<$FB00><$004A>Mihari Kushizekiki<$FFFC>Hagujisoram！<$FFFE>
 71	<$FB00><$005A>What have you done to my<$FFFC>father！<$FFF5><$FFF7><$FFFE>
 72	<$FB00><$005B>Oh？<$FFF5> <$FB00><$005C>Have you some complaint？<$FFFE>
 73	<$FB00><$005D>Don't mock me！<$FFF5><$FFF7><$FFFE>
-74	<$FB00><$005E>I won't forgive you, Glob.<$FFF5> <$FB00><$005F>To<$FFFC>disturb my friend's rest！<$FFFE>
+74	<$FB00><$005E>I won't forgive you, Grove.<$FFF5><$FFFC><$FB00><$005F>To disturb my friend's rest！<$FFFE>
 75	<$FB00><$0060>What's the harm. We even get to<$FFFC>meet face to face like this.<$FFFE>
 76	<$FB00><$0061>I'll see that mouth never<$FFFC>speaks again！<$FFFE>
 77	<$FB00><$0025>Now, from here it's my work<$FFF5><$FFF8>….<$FFFD>…….<$FFFB> …….<$FFFE>

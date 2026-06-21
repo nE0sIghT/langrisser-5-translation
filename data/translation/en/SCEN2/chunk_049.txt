@@ -23,5 +23,5 @@
 21	<$FFF8><$FFFA>…<$FFFD><$FFF9><$FFF6><$FB00><$0014>True. At the least, we are not lonely.<$FFFE>
 22	<$FB00><$0015>So we'll be fine. Let's hurry on.<$FFFE>
 23	<$FFF7><$FB00><$0016>Yes.<$FFF5><$FFF8><$FFFE>
-24	<$0000>With Admiral Wheeler beaten and Knox<$FFFC>behind them, <$F600><$0000>'s band<$FFFC>hurries on toward Gizarof.<$FFFD><$0000>But in a ruined village on the way,<$FFFC>Lainforce's man Aizer lies in ambush.<$FFFC><$0000>And Goldry, cast out of the Caconsis<$FFFC>army, closes in on them too.<$FFFE>
+24	<$0000>With Admiral Wiler beaten and Knox<$FFFC>behind them, <$F600><$0000>'s band<$FFFC>hurries on toward Gizarof.<$FFFD><$0000>But in a ruined village on the way,<$FFFC>Lainforce's man Aizel lies in ambush.<$FFFC><$0000>And Goldry, cast out of the Caconsis<$FFFC>army, closes in on them too.<$FFFE>
 25	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

@@ -30,10 +30,10 @@
 28	<$FB00><$009C>Behind it？<$FFFE>
 29	<$FB00><$009D>This is no mere civil war. It<$FFFC>concerns Yeless… no, the whole world.<$FFFE>
 30	<$FB00><$009E>Tell me everything.<$FFFE>
-31	<$FFFA><$FB00><$009F>The red moon Crimso, and<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+31	<$FFFA><$FB00><$009F>The red moon Crimzo, and<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 32	<$FB00><$00A0>We want to thwart his ambition and<$FFFC>protect this world. That's why we aid her<$FFFC>and Alfred.<$FFFE>
-33	<$FB00><$00A1>By rights we Crimsolanders<$FFFC>should handle it ourselves, but we can't<$FFFC>keep up the brave front forever.<$FFFE>
-34	<$FB00><$00A2>Understood. Forgive me, Landius.<$FFFC>From here I will act with these people.<$FFFD><$FB00><$00A3>With Crimsonia's ambition using my father,<$FFFC>I cannot stand by and watch.<$FFFE>
+33	<$FB00><$00A1>By rights we Crimzo Landers<$FFFC>should handle it ourselves, but we can't<$FFFC>keep up the brave front forever.<$FFFE>
+34	<$FB00><$00A2>Understood. Forgive me, Landius.<$FFFC>From here I will act with these people.<$FFFD><$FB00><$00A3>With Crimzonia's ambition using my<$FFFC>father, I cannot stand by and watch.<$FFFE>
 35	<$FB00><$00A4>I thought you'd say that, Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll return to<$FFFC>Caconsis once and report the situation to<$FFFC>the admiral.<$FFFE>
 36	<$FFFA><$FB00><$00A6>And as for Emily<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 37	<$FB00><$00A7>I know. I'll find a way to reach<$FFFC>your sister myself.<$FFFE>

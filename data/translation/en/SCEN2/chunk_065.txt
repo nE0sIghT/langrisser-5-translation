@@ -6,8 +6,8 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Aizer<$FFFF>
-8	Glob<$FFFF>
+7	Aizel<$FFFF>
+8	Grove<$FFFF>
 9	Demon<$FFFF>
 10	Velzeria Castle Entrance<$FFFF>
 11	<$FB00><$0003>Forward！ Do not flinch before mere<$FFFC>monsters！<$FFFE>

@@ -28,12 +28,12 @@
 26	On the road to Caconsis<$FFFF>
 27	<$FB00><$0016>What's wrong, Lanford？<$FFFE>
 28	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0017>I still cannot go to Caconsis.<$FFFC>If word spreads that I defected there,<$FFFC>Caconsis will be in danger.<$FFFE>
-29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0019>So I asked<$FFFC>Admiral Wheeler to arrange a secret entry<$FFFC>into Caconsis. They agreed.<$FFFE>
+29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0019>So I asked<$FFFC>Admiral Wiler to arrange a secret entry<$FFFC>into Caconsis. They agreed.<$FFFE>
 30	<$FB00><$001A>I see. But there is something else<$FFFC>on my mind.<$FFFE>
 31	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001B>Your father, who joined the<$FFFC>Three-Country Alliance？<$FFFE>
 32	<$FB00><$001C>Yes. I had an older brother, a<$FFFC>fine man. He is gone now.<$FFFD><$FB00><$001D>After he died, Father changed. He suddenly<$FFFC>disowned me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$001E>Now he backs the alliance and bares his<$FFFC>fangs at the Federation. I feel there is a<$FFFC>reason. I want to find it.<$FFFE>
 33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by my own<$FFFC>hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 34	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0020>All right, Lanford. But I'm<$FFFC>coming with you. My sister told me to look<$FFFC>after you.<$FFFE>
 35	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0021>Heh. Emily, of<$FFFC>course<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-36	<$0000>Aizer's men carried Langrisser away from<$FFFC>El Sallia. <$0000>But Virash shot down the<$FFFC>airship carrying the sacred sword in<$FFFC>northeastern Yeless.<$FFFD><$0000>To recover Langrisser from the enemy<$FFFC>airship, <$F600><$0000> and the others<$FFFC>return to Yeless. <$0000>But others also seek<$FFFC>the sword.<$FFFE>
+36	<$0000>Aizel's men carried Langrisser away from<$FFFC>El Sallia. <$0000>But Virash shot down the<$FFFC>airship carrying the sacred sword in<$FFFC>northeastern Yeless.<$FFFD><$0000>To recover Langrisser from the enemy<$FFFC>airship, <$F600><$0000> and the others<$FFFC>return to Yeless. <$0000>But others also seek<$FFFC>the sword.<$FFFE>
 37	Victory terms<$FFFC><$0000><$FFFC>・Langrisser bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC>・Langrisser is stolen and<$FFFC><$0000>carried off north<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

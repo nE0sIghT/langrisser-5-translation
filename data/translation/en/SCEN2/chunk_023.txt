@@ -8,9 +8,9 @@
 6	Lanford<$FFFF>
 7	Gilmore<$FFFF>
 8	Soldier<$FFFF>
-9	Galzork<$FFFF>
+9	Galshok<$FFFF>
 10	Kfir<$FFFF>
-11	・Defeat Gilmore and Galzork<$FFFE>
+11	・Defeat Gilmore and Galshok<$FFFE>
 12	・<$F600><$0000> dies<$FFFE>
 13	Gilmore's Fort<$FFFF>
 14	<$FB00><$0034>Hurry up with the defenses！<$FFFE>
@@ -68,7 +68,7 @@
 66	N, no…<$FFFE>
 67	…U… ugh…<$FFFE>
 68	Curse it, what are you doing！<$FFFC>Finish them already！<$FFFE>
-69	Against this Magitek giant you won't last<$FFFC>a moment！<$FFFD>Go！ Magitek giant Galzork！<$FFFE>
+69	Against this Magitek giant you won't last<$FFFC>a moment！<$FFFD>Go！ Magitek giant Galshok！<$FFFE>
 70	‥‥VOOON‥‥<$FFFE>
 71	<$FB00><$0043>Taste the power of an ancient<$FFFC>weapon！<$FFFE>
 72	Whether Gilmore wins or loses is no<$FFFC>concern of mine. But I will not go on<$FFFC>losing to you！<$FFFD>I fight for my own pride！<$FFFE>

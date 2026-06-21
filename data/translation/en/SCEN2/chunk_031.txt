@@ -10,7 +10,7 @@
 8	Soldier<$FFFF>
 9	Alarm<$FFFF>
 10	Warning<$FFFF>
-11	Aizer<$FFFF>
+11	Aizel<$FFFF>
 12	C.Knights 6<$FFFF>
 13	C.Knights 7<$FFFF>
 14	・Defeat all enemies<$FFFE>
@@ -28,7 +28,7 @@
 26	<$FB00><$004C>Intruders found！ Intruders<$FFFC>found！<$FFFE>
 27	<$FB00><$004D>What！<$FFF5> <$FB00><$004E>Enemies, in a place<$FFFC>like this？<$FFFE>
 28	<$FB00><$004F>NOW ENTERING<$FFFC>INTERCEPT MODE！<$FFFE>
-29	<$FB00><$0050>Get word to Lord Aizer！<$FFF5> <$FB00><$0051>Hold<$FFFC>this place no matter what！<$FFFE>
+29	<$FB00><$0050>Get word to Lord Aizel！<$FFF5> <$FB00><$0051>Hold<$FFFC>this place no matter what！<$FFFE>
 30	<$FB00><$0052>Looks like we've been noticed.<$FFFD><$FB00><$0053>Hurry！<$FFFE>
 31	<$FB00><$005D>Alarm raised. In 500 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
 32	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
@@ -78,7 +78,7 @@
 76	<$FB00><$007D>But…<$FFFE>
 77	<$FB00><$007E>Trust your comrades！<$FFFE>
 78	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
-79	<$FB00><$0078>Aizer！ I'm going through to<$FFFC>Lain！<$FFFE>
+79	<$FB00><$0078>Aizel！ I'm going through to<$FFFC>Lain！<$FFFE>
 80	<$FB00><$0079>I'll not let you reach Lord<$FFFC>Lainforce！<$FFFE>
 81	<$FB00><$0069>Who do you think I am！<$FFFE>
 82	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
@@ -106,10 +106,10 @@
 104	L, Lord Ai…zer….<$FFFE>
 105	…I don't want to die…. …I<$FFFC>don't want to die…. …I don't want to<$FFFC>die…. …I don't want to die….<$FFFE>
 106	<$FB00><$0082>…Gh… uu….<$FFFE>
-107	<$FB00><$0083>This is the end, Aizer.<$FFFE>
+107	<$FB00><$0083>This is the end, Aizel.<$FFFE>
 108	<$FFF8>…<$FFF6><$FB00><$0084>Lady Brenda… Lord Lainforce<$FFFC>is… uu….<$FFFE>
 109	I can't fall here. I must protect Lord<$FFFC>Lain…force….<$FFFE>
-110	That the Crimson Knights should….<$FFFE>
+110	That the Crimzonian Knights should….<$FFFE>
 111	…To think surface-dwellers held such<$FFFC>skill…. But next time I won't lose….<$FFFE>
 112	…That I should fall to<$FFFC>surface-dwellers….<$FFFE>
 113	I can't lose here…. …but… already….<$FFFE>
@@ -122,9 +122,9 @@
 120	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Cut the<$FFFC>power to the control device<$FFFE>
 121	・Cut the power to the control device<$FFFE>
 122	<$FB00><$0054>Mh, you're<$FFF5><$FFF8>….<$FFFE>
-123	<$FB00><$0055>Aizer<$FFF5><$FFF8>….<$FFFE>
-124	<$FB00><$0056>I see. So the Crimsolanders<$FFFC>told you of this control room<$FFF5><$FFF8>….<$FFFE>
-125	<$FB00><$0057>Too bad, Aizer. However<$FFFC>mighty the magitek weapons guarding it,<$FFFC>useless if they don't move, no？<$FFFE>
+123	<$FB00><$0055>Aizel<$FFF5><$FFF8>….<$FFFE>
+124	<$FB00><$0056>I see. So the Crimzo Landers<$FFFC>told you of this control room<$FFF5><$FFF8>….<$FFFE>
+125	<$FB00><$0057>Too bad, Aizel. However<$FFFC>mighty the magitek weapons guarding it,<$FFFC>useless if they don't move, no？<$FFFE>
 126	<$FB00><$0058>But if you can't stop it,<$FFFC>you've no chance.<$FFF5> <$FB00><$0059>Bring the panel<$FFFC>shutter down remotely！ Never let them<$FFFC>stop the system！<$FFFE>
 127	<$FB00><$005A>Understood！<$FFFE>
 128	<$FB00><$0061>Right, the control room door<$FFFC>is open！<$FFFE>

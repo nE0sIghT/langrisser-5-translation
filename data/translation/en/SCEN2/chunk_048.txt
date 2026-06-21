@@ -6,5 +6,5 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	<$0000>Having saved Alfred and taken him into<$FFFC>the party, <$F600><$0000>'s band tries<$FFFC>to leave Knox.<$FFFD><$0000>But Captain Goldry of the Caconsis army,<$FFFC>smarting from defeat, strikes from behind.<$FFFC><$0000>Worse, Caconsis commander Admiral<$FFFC>Wheeler is in town.<$FFFE>
-8	Victory terms<$FFFC>・Beat Wheeler in 20 turns and<$FFFC><$0000>exit the north gate<$FFFC>・Defeat all foes in 20 turns<$FFFD>Defeat terms<$FFFC>・<$F600><$0000> dies<$FFFC>・Wheeler escapes<$FFFC>・Out of turns<$FFFE>
+7	<$0000>Having saved Alfred and taken him into<$FFFC>the party, <$F600><$0000>'s band tries<$FFFC>to leave Knox.<$FFFD><$0000>But Captain Goldry of the Caconsis army,<$FFFC>smarting from defeat, strikes from behind.<$FFFC><$0000>Worse, Caconsis commander Admiral Wiler<$FFFC>is in town.<$FFFE>
+8	Victory terms<$FFFC>・Beat Wiler in 20 turns and<$FFFC><$0000>exit the north gate<$FFFC>・Defeat all foes in 20 turns<$FFFD>Defeat terms<$FFFC>・<$F600><$0000> dies<$FFFC>・Wiler escapes<$FFFC>・Out of turns<$FFFE>

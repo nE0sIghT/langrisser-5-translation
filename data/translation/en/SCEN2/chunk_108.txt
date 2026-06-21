@@ -29,7 +29,7 @@
 27	<$FB00><$006C>What if Omega<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 28	<$FB00><$006D>He did say something. About<$FFFC>having bought enough time.<$FFFE>
 29	<$FB00><$006E>Come to think of it, Lainforce's<$FFFC>men were prowling about.<$FFFE>
-30	<$FB00><$006F>Lain's men？ Don't tell me…<$FFFC>Aizer？<$FFFE>
+30	<$FB00><$006F>Lain's men？ Don't tell me…<$FFFC>Aizel？<$FFFE>
 31	<$FB00><$0070>Yeah, that was the name, I think.<$FFFE>
 32	<$FB00><$0071>You mean they took the swords<$FFFC>before we got there？<$FFFE>
 33	<$FB00><$0072>It's possible. Remember all<$FFFC>the dead monsters at the castle entrance？<$FFFE>
