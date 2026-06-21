@@ -23,7 +23,7 @@ SPACE_LETTER_RE = re.compile(r" ([A-Za-z0-9])")
 LETTER_SPACE_RE = re.compile(r"([A-Za-z0-9]) (?=[A-Za-z0-9])")
 PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
 LETTER_COLON_RE = re.compile(r"([A-Za-z0-9]):")
-SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…"
+SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…" + "\u00fc\u00f6"
 PAIR_TAIL = set("abcdefghijklmnopqrstuvwxyz'.,0123456789")
 PUNCT_PAIRS = ("！？", "？！")
 
