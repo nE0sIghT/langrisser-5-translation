@@ -440,14 +440,15 @@ def display_plate_slots(
 def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
     """Per-record speaker plate, read straight from the display commands.
 
-    Each display command (opcode 0x0B..0x10, 12 bytes) carries the speaker as
-    the actor key at byte +6 and the display order as the u16 text id at +10.
-    The implementation maps `record = first FB00 record + text id` and bounds the
-    id by the FB00-bearing record count; this still covers FB00-less spoken
-    records interleaved in that contiguous display range. The real commands are
-    picked out by a semantic filter rather than a VM walk: the actor key must be
-    a chunk `actor_plate_table` key (or the special `0xFFE5..0xFFFE` crowd range,
-    or `0xFFFF` = no plate), the text id must be in range, the mode
+    Each display command (opcode 0x0B..0x10, 12 bytes) carries the display order
+    as the u16 text id at +10. Speaker plate selection is either an actor key at
+    +6..7 or, for windows whose actor key is 0xFFFF, a local speaker-pool slot at
+    +9 (0xFF means no plate). The implementation maps `record = first FB00 record
+    + text id` and bounds the id by the FB00-bearing record count; this still
+    covers FB00-less spoken records interleaved in that display range. The real
+    commands are picked out by a semantic filter rather than a VM walk: the actor
+    key must be a chunk `actor_plate_table` key (or the special `0xFFE5..0xFFFE`
+    crowd range, or `0xFFFF`), the text id must be in range, the mode
     `byte+3 & 3 <= 2`, and the name-visible flag `byte+8 <= 1`. See
     docs/SPEAKER_NAME_EXTRACTION.md.
 
@@ -462,46 +463,52 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
         chunk = data[start:end]
         try:
             block = find_text_block(chunk)
-            _, vm, _ = vm_block(chunk, block)
+            vm_off, vm, _stream = vm_block(chunk, block)
         except Exception:
             continue
         apt = {a.key: a.field2 for a in actor_plate_table(chunk)}
+        pool_size = u32(chunk, vm_off + 0x38) if vm_off else 0
         fb = [i for i in range(1, block.record_count + 1)
               if any(w == 0xFB00 for w in
                      words_from_bytes(chunk[block.record_span(i)[0]:block.record_span(i)[1]]))]
         if not fb:
             continue
         first_fb, nfb = min(fb), len(fb)
-        cands: dict[int, list[tuple[int, int]]] = {}
+        def candidate_slot(key: int, byte9: int) -> int | None:
+            if key == 0xFFFF:
+                return byte9 if byte9 != 0xFF and byte9 < pool_size else None
+            if 0xFFE5 <= key <= 0xFFFE:
+                return -1
+            return apt.get(key, 1) - 1
+
+        cands: dict[int, list[tuple[int, int, int]]] = {}
         for p in range(len(vm) - 11):
             if 0x0B <= vm[p] <= 0x10:
                 key = vm[p + 6] | (vm[p + 7] << 8)
                 tid = vm[p + 10] | (vm[p + 11] << 8)
                 if (tid < nfb and (key in apt or 0xFFE5 <= key <= 0xFFFE or key == 0xFFFF)
                         and (vm[p + 3] & 3) <= 2 and vm[p + 8] <= 1):
-                    cands.setdefault(tid, []).append((p, key))
+                    cands.setdefault(tid, []).append((p, key, vm[p + 9]))
         used: list[int] = []
         rec_slot: dict[int, int | None] = {}
         # Resolve the unambiguous text ids first; ambiguous ones then take the
         # candidate whose 12-byte command does not overlap an assigned one.
-        for tid in sorted(range(nfb), key=lambda t: len(set(k for _, k in cands.get(t, [])))):
+        for tid in sorted(
+            range(nfb),
+            key=lambda t: len(set(candidate_slot(k, b9) for _, k, b9 in cands.get(t, []))),
+        ):
             opts = cands.get(tid, [])
             if not opts:
                 rec_slot[first_fb + tid] = None
                 continue
-            keys = {k for _, k in opts}
-            if len(keys) == 1:
-                pos, key = opts[0]
+            slots = {candidate_slot(k, b9) for _, k, b9 in opts}
+            if len(slots) == 1:
+                pos, key, byte9 = opts[0]
             else:
                 free = [o for o in opts if all(abs(o[0] - u) >= 12 for u in used)] or opts
-                pos, key = free[0]
+                pos, key, byte9 = free[0]
             used.append(pos)
-            if key == 0xFFFF:
-                rec_slot[first_fb + tid] = None
-            elif 0xFFE5 <= key <= 0xFFFE:
-                rec_slot[first_fb + tid] = -1
-            else:
-                rec_slot[first_fb + tid] = apt.get(key, 1) - 1
+            rec_slot[first_fb + tid] = candidate_slot(key, byte9)
         out[ci] = rec_slot
     return out
 

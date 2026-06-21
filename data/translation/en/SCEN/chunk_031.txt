@@ -17,7 +17,7 @@
 15	・<$F600><$0000> dies<$FFFE>
 16	Magitek Control Facility<$FFFF>
 17	<$FB00><$0042>So the control device is here.<$FFFE>
-18	<$FB00><$0043>That room is most likely where the control<$FFFC>device is.<$FFFE>
+18	<$FB00><$0043>That room is most likely where the<$FFFC>control device is.<$FFFE>
 19	<$FB00><$0044>So it seems.<$FFFE>
 20	<$FB00><$0045>But a sturdy-looking door<$FFFC>is shut, you see？<$FFFE>
 21	<$FB00><$0046>There should be a device somewhere<$FFFC>to open the door.<$FFFE>
@@ -33,18 +33,18 @@
 31	<$FB00><$005D>Alarm raised. In 500 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
 32	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
 33	・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
-34	<$FB00><$005B>Alarm raised. In 700 counts the control<$FFFC>panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
+34	<$FB00><$005B>Alarm raised. In 700 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
 35	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 19 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
 36	・Fail to reach the control panel within 19 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
-37	<$FB00><$005D>Alarm raised. In 500 counts the control<$FFFC>panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
+37	<$FB00><$005D>Alarm raised. In 500 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
 38	<$FB00><$005F>This is bad. If the shutter comes down, we<$FFFC>can't touch the control device！<$FFFE>
 39	<$FB00><$0060>Everyone, hurry！ Reach the control panel<$FFFC>before the shutter falls！！<$FFFE>
-40	<$FB00><$0070>Control panel, preparing to lock down. If<$FFFC>false, promptly enter the release code.<$FFFE>
+40	<$FB00><$0070>Control panel, preparing to lock<$FFFC>down. If false, promptly enter the release<$FFFC>code.<$FFFE>
 41	<$FB00><$0070>Control panel, preparing to lock<$FFFC>down. If false, promptly enter the release<$FFFC>code.<$FFFE>
 42	<$FB00><$0071>Warning. The control panel<$FFFC>will soon be locked. If false, promptly<$FFFC>enter the release code.<$FFFE>
-43	<$FB00><$0071>Warning. The control panel will soon be<$FFFC>locked. If false, promptly enter the<$FFFC>release code.<$FFFE>
-44	<$0000> <$F600><$FFFD> pushed the wall<$FFFC>switch！<$FFFE>
-45	<$0000> <$F600><$FFFD> pushed the wall<$FFFC>switch！<$FFFE>
+43	<$FB00><$0071>Warning. The control panel will<$FFFC>soon be locked. If false, promptly enter<$FFFC>the release code.<$FFFE>
+44	<$0000> <$F600><$FFFD> pushed the<$FFFC>wall switch！<$FFFE>
+45	<$0000> <$F600><$FFFD> pushed the<$FFFC>wall switch！<$FFFE>
 46	<$FB00><$0064>I just move this, right？<$FFFE>
 47	<$FB00><$0065>I just move this, right？<$FFFE>
 48	<$FB00><$0066>Erm, which one<$FFF5><$FFF8>…<$FFF6><$FB00><$0067>this one？<$FFFE>

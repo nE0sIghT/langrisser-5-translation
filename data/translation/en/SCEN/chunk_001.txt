@@ -15,7 +15,7 @@
 13	・<$F600><$0000> or Lambda dies<$FFFE>
 14	Magic Institute ～Culture Ward～<$FFFF>
 15	<$FB00><$0033>Lord Lainforce. Is this the place？ Isn't<$FFFC>this the laboratory of Federation Marshal<$FFFC>Gizarof<$FFF5><$FFF8>…<$FFFE>
-16	<$FB00><$0034>Indeed. The fruits of his research sleep<$FFFC>here. Inside lies the <$FFF4>specimen <$FFF3>we seek.<$FFFE>
+16	<$FB00><$0034>Indeed. The fruits of his research<$FFFC>sleep here. Inside lies the <$FFF4>specimen <$FFF3>we<$FFFC>seek.<$FFFE>
 17	<$FB00><$0035>A specimen<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0036>Gizarof made humans of terrible<$FFFC>power. A specimen is one born of that<$FFFC>work.<$FFFE>
 19	<$FB00><$0037>They are already deep inside.<$FFFE>

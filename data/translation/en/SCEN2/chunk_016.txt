@@ -13,7 +13,7 @@
 11	・Defeat all enemies<$FFFE>
 12	・Hostage teleported<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Dares Fort<$FFFF>
-14	<$FB00><$0029>Everyone, listen carefully！ According to<$FFFC>information just received, the rebels are<$FFFC>heading here.<$FFFE>
+14	<$FB00><$0029>Everyone, listen carefully！<$FFFC>According to information just received,<$FFFC>the rebels are heading here.<$FFFE>
 15	<$FB00><$002A>Is their target this girl？<$FFFE>
 16	<$FFF8>…<$FFFE>
 17	<$FB00><$002B>Most likely. But stay calm.<$FFFD>If need be, we can use the Teleport Ring<$FFFC>His Majesty Gilmore gave us to transfer<$FFFC>the girl away.<$FFFE>

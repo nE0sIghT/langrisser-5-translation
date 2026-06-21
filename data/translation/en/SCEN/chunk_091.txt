@@ -16,21 +16,21 @@
 14	<$FFF8><$FB00><$005E>？<$FFFE>
 15	<$FB00><$005F>Introductions first. I'm Brenda.<$FFFC>I run a mercenary band, women only.<$FFFE>
 16	<$FB00><$0060>You saw what we can do just now.<$FFFE>
-17	<$FB00><$0061>Even if we didn't look our best back<$FFFC>there.<$FFFE>
+17	<$FB00><$0061>Even if we didn't look our best<$FFFC>back there.<$FFFE>
 18	<$FB00><$0062>So, what did you want to ask？<$FFFE>
-19	<$FB00><$0063>Right. You two work for Gizarof, don't<$FFFC>you？<$FFFE>
+19	<$FB00><$0063>Right. You two work for Gizarof,<$FFFC>don't you？<$FFFE>
 20	<$FB00><$0064>What makes you think so？<$FFFE>
 21	<$FB00><$0065>Don't underestimate a mercenary's<$FFFC>information network.<$FFFD><$FB00><$0071>Hired blades live by the contract. We keep<$FFFC>tabs on every power around.<$FFFE>
 22	<$FB00><$0066>So it would seem.<$FFFE>
-23	<$FB00><$0067>Word I got says Gizarof's in a tight spot<$FFFC>himself. Times like that, a man wants able<$FFFC>hands, no？<$FFFE>
+23	<$FB00><$0067>Word I got says Gizarof's in a<$FFFC>tight spot himself. Times like that, a man<$FFFC>wants able hands, no？<$FFFE>
 24	<$FFF8>…<$FFFE>
 25	・Brenda would do fine.<$FFFE>
 26	・True enough.<$FFFE>
 27	・Able hands, huh…<$FFFE>
 28	<$FB00><$0068>Right？<$FFFE>
-29	<$FB00><$0069>That back there was a fluke, I tell you.<$FFFE>
+29	<$FB00><$0069>That back there was a fluke, I<$FFFC>tell you.<$FFFE>
 30	<$FB00><$006A>What's that？ You doubt me？<$FFFE>
-31	<$FB00><$006B>So that's the deal. I want you to put in a<$FFFC>word with Gizarof.<$FFFE>
+31	<$FB00><$006B>So that's the deal. I want you to<$FFFC>put in a word with Gizarof.<$FFFE>
 32	<$FB00><$006C>A word we can manage.<$FFFE>
 33	<$FB00><$006D>Yes. Whether he hires you is the<$FFFC>master's call.<$FFFE>
 34	<$FB00><$006E>Then I'll be coming along.<$FFFE>

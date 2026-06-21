@@ -20,19 +20,19 @@
 18	<$FB00><$0061>Hey, you there. Wait a second.<$FFFE>
 19	<$FB00><$0062>Y, yes？<$FFFE>
 20	<$FB00><$0063>I overheard you talking with the<$FFFC>shopkeeper. You're looking for fever<$FFFC>medicine？<$FFFE>
-21	…<$FB00><$0064>That's right. My father is down with a<$FFFC>fever, so I'm out searching<$FFF5>…<$FFFE>
-22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say, shall I share my<$FFFC>medicine？<$FFFE>
+21	…<$FB00><$0064>That's right. My father is<$FFFC>down with a fever, so I'm out searching<$FFF5>…<$FFFE>
+22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say, shall I<$FFFC>share my medicine？<$FFFE>
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
-24	<$FB00><$0067>Not Florier, but a medicine from my home<$FFFC>continent. It works well.<$FFFE>
-25	<$FB00><$0068>Please, let me have it！ I'll pay whatever<$FFFC>it takes！<$FFFE>
-26	<$FB00><$0069>N, no！ I wasn't offering to make money<$FFFC>off you<$FFF5>…<$FFFE>
-27	<$FB00><$006A>But then I couldn't live with myself！ At<$FFFC>least take this much！<$FFFE>
-28	…<$FB00><$006B>Very well. Then I'll gladly accept.<$FFFC>Here. This is the fever medicine.<$FFFE>
+24	<$FB00><$0067>Not Florier, but a medicine from<$FFFC>my home continent. It works well.<$FFFE>
+25	<$FB00><$0068>Please, let me have it！ I'll pay<$FFFC>whatever it takes！<$FFFE>
+26	<$FB00><$0069>N, no！ I wasn't offering to make<$FFFC>money off you<$FFF5>…<$FFFE>
+27	<$FB00><$006A>But then I couldn't live with<$FFFC>myself！ At least take this much！<$FFFE>
+28	…<$FB00><$006B>Very well. Then I'll gladly<$FFFC>accept. Here. This is the fever medicine.<$FFFE>
 29	<$FB00><$006C>You're a lifesaver！<$FFFE>
 30	<$FB00><$006D>What will you do now？<$FFFE>
-31	<$FB00><$006E>Take the medicine straight to my father.<$FFFC>My home is in the Reynolds region.<$FFFE>
-32	<$FB00><$006F>Oh？ Then why don't we travel together a<$FFFC>while？<$FFFE>
-33	<$FB00><$0070>Gladly. It must be fate of a sort.<$FFFE>
+31	<$FB00><$006E>Take the medicine straight to my<$FFFC>father. My home is in the Reynolds region.<$FFFE>
+32	<$FB00><$006F>Oh？ Then why don't we travel<$FFFC>together a while？<$FFFE>
+33	<$FB00><$0070>Gladly. It must be fate of a<$FFFC>sort.<$FFFE>
 34	On the road to the sorcery lab<$FFFF>
 35	<$FB00><$0071>We'll reach a town soon, but my data says<$FFFC>Caconsis troops hold it. It may come to a<$FFFC>fight, so be ready.<$FFFE>
 36	<$FB00><$0072>Best stay on guard, then.<$FFFE>

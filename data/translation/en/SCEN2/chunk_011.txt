@@ -14,7 +14,7 @@
 12	・Defeat all enemies<$FFFE>
 13	・All villagers die<$FFFC>・<$F600><$0000> dies<$FFFE>
 14	Otranto Lake Fort<$FFFF>
-15	<$FB00><$0028>We're almost there. Past this lake is<$FFFC>Salrath territory.<$FFFE>
+15	<$FB00><$0028>We're almost there. Past this lake<$FFFC>is Salrath territory.<$FFFE>
 16	<$FB00><$0029>I hope we can gain their help.<$FFFE>
 17	・I hope so<$FFFE>
 18	・Will it go that well？<$FFFE>

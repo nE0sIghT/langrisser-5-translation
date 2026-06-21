@@ -12,7 +12,7 @@
 10	・<$F600><$0000> dies<$FFFE>
 11	Plains near Velzeria Castle<$FFFF>
 12	<$FB00><$0009>Hurry！ If the plan fails because we are<$FFFC>late, we could never apologize enough.<$FFFE>
-13	<$FB00><$000A>But how much farther is it to Velzeria？<$FFFE>
+13	<$FB00><$000A>But how much farther is it to<$FFFC>Velzeria？<$FFFE>
 14	<$FB00><$000B>About half a day. The scouts may be<$FFFC>engaging the enemy by now.<$FFFE>
 15	<$FB00><$000C>Then all the more reason to<$FFFC>hurry<$FFF5><$FFF8>…<$FFF6><$FB00><$000D>Who's there！<$FFFE>
 16	<$FB00><$000E>Good. You noticed me.<$FFFE>

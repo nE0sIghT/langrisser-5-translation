@@ -22,12 +22,12 @@
 20	<$FB00><$0014>What happened, Lambda？<$FFFE>
 21	<$FFF8><$FB00><$0003>…<$FE3C>…<$FE3C>…<$FE3C>…<$FFFE>
 22	<$FB00><$0015>Lambda！<$FFFE>
-23	…<$FB00><$0016>This house<$FFF5>…<$FB00><$0017>this picture<$FFF5>… <$FB00><$0018>A lost thread<$FFFC>is about to reconnect<$FFF5>…<$FFFD>…<$FB00><$0019>It's the girl and boy in this picture.<$FFFE>
+23	…<$FB00><$0016>This house<$FFF5>…<$FB00><$0017>this picture<$FFF5>… <$FB00><$0018>A lost<$FFFC>thread is about to reconnect<$FFF5>…<$FFFD>…<$FB00><$0019>It's the girl and boy in this picture.<$FFFE>
 24	<$FB00><$001A>What about those siblings？<$FFFE>
-25	<$FB00><$001B>That doll was the girl's. It caught on a<$FFFC>branch, and the boy got it down for her.<$FFFE>
-26	<$FB00><$001C>Then you really did live in this town,<$FFFC>didn't you？ You remember playing with<$FFFC>those two.<$FFFE>
+25	<$FB00><$001B>That doll was the girl's. It<$FFFC>caught on a branch, and the boy got it<$FFFC>down for her.<$FFFE>
+26	<$FB00><$001C>Then you really did live in this<$FFFC>town, didn't you？ You remember playing<$FFFC>with those two.<$FFFE>
 27	<$FFF8>…<$FFFE>
-28	<$FB00><$001D>But doesn't that girl look like Miss<$FFFC>Lambda？ Her hair is different, though<$FFF5>…<$FFFE>
+28	<$FB00><$001D>But doesn't that girl look like<$FFFC>Miss Lambda？ Her hair is different,<$FFFC>though<$FFF5>…<$FFFE>
 29	…<$FB00><$001E>That girl is<$FFF5>…<$FE3C>…<$FE3C><$FB00><$001F>me<$FFF5>…？<$FFFE>
 30	<$0000>Seeking the truth about<$FFFC><$F600><$0000>, the party headed for<$FFFC>Fizzit Port to find Langrisser.<$FFFD><$0000>But what they found there was citizens<$FFFC>under attack by demons…<$FFFE>
 31	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC>・Jessica or Clarett dies<$FFFC>・All townsfolk die<$FFFC>・<$F600><$0000> dies<$FFFE>

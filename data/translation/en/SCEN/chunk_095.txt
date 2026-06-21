@@ -129,10 +129,10 @@
 127	<$FB00><$010B>But I<$FFF5><$FFF8>…<$FFFE>
 128	<$FFF8>…<$FFF6><$FB00><$0002><$FB00><$00D3>I knew you'd be here<$FFF5><$FFF8>…<$FFFE>
 129	<$FFF8>…<$FFFE>
-130	<$FB00><$00D4>Come on, Lambda. Let's go back. Everyone<$FFFC>is worried.<$FFFE>
+130	<$FB00><$00D4>Come on, Lambda. Let's go back.<$FFFC>Everyone is worried.<$FFFE>
 131	<$FB00><$00D5>Who am I…？ Lambda？ Or Mariandel？<$FFFD><$FFF8>…<$FFF6><$FB00><$00D6>I'm scared… so scared<$FFF5><$FFF8>…<$FFFE>
 132	<$FB00><$00D7>Scared？<$FFFD><$FB00><$00D8>You weren't artificial. You have family,<$FFFC>and he worries for you. What is there to<$FFFC>fear？<$FFFE>
-133	<$FB00><$00D9>If my memory returns, what happens to me<$FFFC>now？ Will I vanish？<$FFFD><$FB00><$00DA>I fought beside you, even if only briefly.<$FFFC>Where do those memories go？<$FFFD><$FB00><$00DB>Do you understand my fear？ Right now, I'm<$FFFC>still Lambda.<$FFFE>
+133	<$FB00><$00D9>If my memory returns, what happens<$FFFC>to me now？ Will I vanish？<$FFFD><$FB00><$00DA>I fought beside you, even if only briefly.<$FFFC>Where do those memories go？<$FFFD><$FB00><$00DB>Do you understand my fear？ Right now, I'm<$FFFC>still Lambda.<$FFFE>
 134	<$FB00><$00DC>Yeah. I understand.<$FFFE>
 135	<$FB00><$00DD>Do you really？ If Marie<$FFFC>revives, Lambda will die… That's what<$FFFC>scares me.<$FFFE>
 136	<$FB00><$00DE>But staying Lambda means killing<$FFFC>Marie, and killing the feelings of the man<$FFFC>who needs her.<$FFFE>

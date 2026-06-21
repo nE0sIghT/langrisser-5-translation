@@ -33,7 +33,7 @@
 31	<$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$001D>I'm sorry, Brenda.<$FFFC>But<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 32	<$FB00><$001E>Just kidding！<$FFF5><$FFF8><$FFFB> <$FFF6><$FB00><$0002><$FB00><$001F>If you were<$FFFC>the sort to abandon others, I wouldn't be<$FFFC>standing here.<$FFFE>
 33	<$FB00><$0020>True enough.<$FFFE>
-34	<$FB00><$0021>I take no joy in fellow Crimzonians<$FFFC>perishing. On behalf of my people, my<$FFFC>thanks.<$FFFE>
+34	<$FB00><$0021>I take no joy in fellow<$FFFC>Crimzonians perishing. On behalf of my<$FFFC>people, my thanks.<$FFFE>
 35	<$FB00><$0022>But it's certain Lainforce gained<$FFFC>the upper hand. This won't be left as it<$FFFC>is.<$FFFE>
 36	<$FFF7><$FB00><$0023>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>As I swore to Marie, I'll<$FFFC>protect this world.<$FFFE>
 37	<$FB00><$0025>So it's time.<$FFFE>

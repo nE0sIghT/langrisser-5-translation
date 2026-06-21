@@ -14,7 +14,7 @@
 12	・<$F600><$0000> dies<$FFFE>
 13	Kalxath Headquarters<$FFFF>
 14	<$FB00><$0020>What？ The flyers were wiped out？<$FFFE>
-15	<$FB00><$0021>Yes. Princess Clarett's unit used an<$FFFC>ancient weapon to destroy the flyers<$FFFC>overhead.<$FFFE>
+15	<$FB00><$0021>Yes. Princess Clarett's unit used<$FFFC>an ancient weapon to destroy the flyers<$FFFC>overhead.<$FFFE>
 16	<$FB00><$002D>Then our surveillance from the sky is<$FFF5><$FFF8>…<$FFFE>
 17	<$FB00><$0022>Impossible now. And messages to<$FFFC>each unit are delayed.<$FFFE>
 18	<$FB00><$0023>Damn it！<$FFFD><$FB00><$0024>Fine. Send riders to each unit. Salrath is<$FFFC>nearly crushed. Move！<$FFFE>

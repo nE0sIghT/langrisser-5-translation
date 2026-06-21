@@ -15,7 +15,7 @@
 13	Cliff Town<$FFFF>
 14	<$FFF8>…<$FFFE>
 15	<$FB00><$0030>Um, Miss Clarett. Where are we<$FFFC>going？<$FFFE>
-16	<$FB00><$0031>You've been silent. Tell us where we're<$FFFC>going, at least.<$FFFE>
+16	<$FB00><$0031>You've been silent. Tell us where<$FFFC>we're going, at least.<$FFFE>
 17	<$FFF8>…<$FFF6><$FB00><$0032>East<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0033>That's just the direction we're<$FFFC>walking.<$FFFE>
 19	<$FB00><$0034>To Eric.<$FFFE>

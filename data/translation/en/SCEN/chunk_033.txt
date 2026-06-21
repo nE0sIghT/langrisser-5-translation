@@ -16,7 +16,7 @@
 14	・Reach turn 20 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 15	Ancient Ruin, Weather Control Facility<$FFFF>
 16	<$FB00><$000E>So this is the weather-control ruin<$FFFC>Virash spoke of.<$FFFE>
-17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>…. <$FFF6><$FB00><$0010>Ah, atop<$FFFC>that pedestal.<$FFFE>
+17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>…. <$FFF6><$FB00><$0010>Ah,<$FFFC>atop that pedestal.<$FFFE>
 18	<$FB00><$0011>Then let's have him work the device right<$FFFC>away.<$FFFE>
 19	<$FB00><$0012>I won't let you！<$FFFE>
 20	<$FB00><$0013>Grove！？<$FFFE>
@@ -57,9 +57,9 @@
 55	<$FB00><$0039>ERROR. WITH<$FFFC>REMAINING ENERGY, 68<$FFFC>HOURS MAXIMUM.<$FFFE>
 56	<$FB00><$003A>Then 68 hours.<$FFFE>
 57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER<$FFFC>CONTROL.<$FFFE>
-58	<$FB00><$003C>Right, it's working！ Clouds should form<$FFFC>right away.<$FFFE>
+58	<$FB00><$003C>Right, it's working！ Clouds<$FFFC>should form right away.<$FFFE>
 59	<$FB00><$003D>Thank you！ Now get away from<$FFFC>the battlefield as fast as you can.<$FFFE>
-60	<$FB00><$003E>From here it's all down to your strength.<$FFFC>Good luck！<$FFFE>
+60	<$FB00><$003E>From here it's all down to your<$FFFC>strength. Good luck！<$FFFE>
 61	<$FFF8><$FB00><$003F>Uguu…<$FFF5><$FFF6><$FB00><$0040>Then I'll send you all to<$FFFC>hell！<$FFFE>
 62	・<$F600><$0000> dies<$FFFE>
 63	<$FB00><$0041>It's raining.<$FFFE>

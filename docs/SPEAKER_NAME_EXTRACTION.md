@@ -15,8 +15,8 @@ self-contained display/window commands and accepts a 12-byte window only when al
 semantic fields are valid:
 
 - opcode byte `p+0` is `0x0B..0x10`;
-- actor key `u16@p+6` is present in the chunk actor-plate table, is `0xFFFF`
-  (no plate), or is in the runtime-remapped crowd range `0xFFE5..0xFFFE`;
+- actor key `u16@p+6` is present in the chunk actor-plate table, is `0xFFFF`,
+  or is in the runtime-remapped crowd range `0xFFE5..0xFFFE`;
 - text id `u16@p+10` is within the chunk's accepted display range;
 - mode bits `(p+3) & 3` are `<= 2`;
 - name-visible flag `p+8` is `<= 1`.
@@ -28,10 +28,13 @@ range.
 
 Speaker resolution:
 
-- `0xFFFF` => no plate, reserve `0`;
+- actor key in the actor-plate table => resolve
+  `actor key -> actor_plate_table.field2 -> speaker-pool slot`;
 - `0xFFE5..0xFFFE` => runtime-remapped crowd/off-screen plate, keep the
   conservative chunk-wide pool reserve;
-- otherwise resolve `actor key -> actor_plate_table.field2 -> speaker-pool slot`.
+- actor key `0xFFFF` with `p+9 == 0xFF` => no plate, reserve `0`;
+- actor key `0xFFFF` with `p+9 < speaker_pool_size` => use `p+9` as the
+  zero-based local speaker-pool slot.
 
 Plate width is the rendered speaker name plus the `0x0001` glyph that the engine
 draws next to the name. Continuation pages after `<$FFFD>` do not redraw the
@@ -43,9 +46,9 @@ speaker plate and wrap at full width.
    walking from offset 0 is invalid.
 2. Display/window commands are 12-byte opcodes `0x0B..0x10` handled by
    `FUN_80024424`.
-3. The speaker is the actor key at `p+6..7`, not byte9. `p+9` is a text-routing
-   byte. Earlier byte9 matches were coincidence on traced rows and are retained
-   only in legacy fallback helpers.
+3. The primary speaker selector is the actor key at `p+6..7`. For display
+   commands whose actor key is `0xFFFF`, `p+9` can carry the local
+   speaker-pool slot; `0xFF` means no plate.
 4. The actor key is resolved through `FUN_800216c8`; ordinary keys are identity,
    special keys `0xFFE5..0xFFFE` are remapped from runtime state.
 5. The resolved key is looked up in the chunk actor-plate table. That table maps
@@ -59,8 +62,9 @@ speaker plate and wrap at full width.
 ## Legacy And Parked Work
 
 `traced_plate_slots()` and `display_plate_slots()` in `lang5_rewrap.py` are
-legacy fallbacks. They may still read byte9 from old traced display rows, but
-byte9 is not the production speaker source. Do not base new work on byte9.
+legacy fallbacks. Do not base new work on their broad byte9 scans. The only
+production use of `p+9` is inside `semantic_plate_slots()`, after a display
+command passes the semantic filter and its actor key is `0xFFFF`.
 
 The broad task of reimplementing the VM interpreter remains parked. Do not resume
 static VM tracing, actor-state interpretation, or full bytecode emulation unless
@@ -102,7 +106,7 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
 | DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
 | DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |
-| REJECTED | Display payload byte 9 is the production speaker plate selector. | EXE handler `FUN_80024424` reads the speaker actor key from `p+6..7`; `p+9` is text routing. The chunk 45 byte9 matches were trace evidence only and coincidental for speaker reserve. | Do not use byte9 for new plate-width logic. |
+| DONE | Display payload byte 9 can be the speaker slot when actor key is `0xFFFF`. | Chunk 45 display commands have `p+6..7 == FFFF`; `p+9` maps record 10/11 to slot 6 (`機械音声`), matching the visible Machine plate. | Use only after semantic display-command filtering and only when the actor-key path is unavailable. |
 | DONE | Continuation pages after `FFFD` do not redraw the speaker plate. | User playtest: first page can show a blue speaker plate, while the next page in the same record has no name; chunk 1 record 96 demonstrates this. | Reset reserve to zero after page breaks in `lang5_rewrap.py`. |
 | DONE | Runtime actor/plate lookup table exists. | `0x800b2da4` searches table at `0x800eba38` with count `0x800eba46`. | Decode the table source in each chunk. |
 | DONE | Map chunk-local data to runtime `0x800eba38` table. | Header `u32 +0x14` is the table offset; low byte of header `u32 +0x2c` is the entry count. | Use `actor_plate_table()` in `scripts/lang5_speakers.py`. |
@@ -115,7 +119,7 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | PARKED | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
 | PARKED | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
 | PARKED | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
-| DONE | Integrate actor-key plate reserves into `lang5_rewrap.py`. | `semantic_plate_slots()` resolves the actor key at `p+6..7` through the chunk actor-plate table; unresolved crowd keys keep the conservative chunk-wide pool reserve. | Current production path. |
+| DONE | Integrate display-command plate reserves into `lang5_rewrap.py`. | `semantic_plate_slots()` resolves the actor key at `p+6..7` through the chunk actor-plate table, or uses `p+9` as a local speaker slot when the actor key is `FFFF`; unresolved crowd keys keep the conservative chunk-wide pool reserve. | Current production path. |
 | DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
 | DONE | VM block begins with a u32 script offset table. | Ascending u32 offsets at vm start in 131/131 chunks; tracer wrongly starts at offset 0 (the table) and reads entry `0x44` as an opcode. | Start the walk at the first table entry; decode opcodes `0x28`/`0x44`. |
 | REJECTED | Recover display rows by opcode-only `0x0B..0x10` 12-byte scans. | Requiring the complete `0..N-1` `text_id` set to resolve uniquely succeeds in 0/131 chunks; lenient filters admit false-positive windows. | Use the semantic actor-key/text-id/name-flag filter instead. |

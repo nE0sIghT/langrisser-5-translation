@@ -15,7 +15,7 @@
 13	Omega<$FFFF>
 14	McClaine<$FFFF>
 15	Federation Castle, Audience Hall<$FFFF>
-16	<$FB00><$0003>General Lanford, you have done well ending<$FFFC>Gizarof's rebellion.<$FFFE>
+16	<$FB00><$0003>General Lanford, you have done<$FFFC>well ending Gizarof's rebellion.<$FFFE>
 17	<$FB00><$0004>I merely did my duty as a<$FFFC>Federation soldier.<$FFFD><$FB00><$0005>And we had help from Caconsis. This was<$FFFC>not my strength alone.<$FFFE>
 18	<$FB00><$0006>You need not be so modest.<$FFFE>
 19	<$FB00><$0007>Besides,<$FFF5><$FFF8>…<$FFF6><$FB00><$0008>I could not save<$FFFC>Prince Frederick.<$FFFE>

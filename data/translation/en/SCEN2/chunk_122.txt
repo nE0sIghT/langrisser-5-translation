@@ -32,7 +32,7 @@
 30	<$FE00>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0019>I believe you.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FFF6><$FB00><$001A>You'd<$FFFC>better mean it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 31	<$FB00><$001B>I'm counting on you,<$FFFC>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFFA>…<$FE14><$FE14>…<$FE14><$FE14><$FFF7><$FB00><$001C>Haaaah<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFFE>
 32	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>
-33	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$001D>Is it no good<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$001E>Am I really<$FFFC>defective<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001F>Can I not do it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+33	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$001D>Is it no good<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$001E>Am<$FFFC>I really defective<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001F>Can I not do<$FFFC>it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 34	<$FB00><$0020>Idiot… quitting<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FE14><$FFFC><$FFF6><$FB00><$0021>You beat the complete specimen. You're not<$FFFC>defective…<$FFF5> <$FB00><$0022>I'll teach you…<$FFFD><$FB00><$0023>Sync our amplifiers and this is nothing…<$FFFE>
 35	<$FB00><$0024>Omega！ If you use your ability<$FFFC>with that wound<$FFF5><$FFF8>…<$FE14>…<$FE14>！<$FFFE>
 36	<$FB00><$0025>Idiot！ Don't worry about<$FFFC>me now！ Which matters more, me or the<$FFFC>world？ You came for that, didn't you！<$FFFE>
@@ -81,9 +81,9 @@
 79	<$FFFA><$FB00><$004F>I'm sorry. I came to save you,<$FFFC>but only gave you false hope.<$FFFE>
 80	<$FFF8><$FFFA>……<$FFFE>
 81	<$FB00><$0050>You were magnificent. You<$FFFC>saved this world… It's all right. If you<$FFFC>die, I'll follow right away.<$FFFD><$FB00><$0051>We'll always be together… Only our<$FFFC>feelings will never die. Only our<$FFFC>feelings…<$FFFE>
-82	<$FB00><$0052>You promised we'd travel together when we<$FFFC>returned to the surface…<$FFFD><$FB00><$0053>And yet… and yet… …You left me behind…<$FFFE>
-83	<$FB00><$0054>Liar… You said you alone wouldn't die…<$FFFC>that you were immortal…<$FFFD><$FB00><$0055>You promised…<$FFFE>
-84	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0056>Thank you for your work. You saved the<$FFFC>world.<$FFFE>
+82	<$FB00><$0052>You promised we'd travel<$FFFC>together when we returned to the surface…<$FFFD><$FB00><$0053>And yet… and yet… …You left me behind…<$FFFE>
+83	<$FB00><$0054>Liar… You said you alone<$FFFC>wouldn't die… that you were immortal…<$FFFD><$FB00><$0055>You promised…<$FFFE>
+84	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0056>Thank you for your work. You<$FFFC>saved the world.<$FFFE>
 85	Deep in <$F600><$0000>'s<$FFFC>Consciousness<$FFFF>
 86	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0057>What happened to everyone… to the<$FFFC>world<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$0058>Well, never mind. I did everything I<$FFFC>could. Not bad for an unfinished<$FFFC>specimen<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0059>I'm so tired<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 87	<$FB00><$005A>Do not give up.<$FFFE>
@@ -101,29 +101,29 @@
 99	<$FB00><$0069>Come, noble soul. Sleep<$FFFC>within me. And together we shall watch.<$FFFC>The future of this world you saved<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FE14><$FE14><$FFFE>
 100	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$006A>Ah<$FFF5><$FFF8>…<$FE14>.<$FFFE>
 101	<$FB00><$006D>…U…ugh… Pelia…<$FFFE>
-102	……<$FB00><$006E>It's all right！ Pelia was destroyed.<$FFFC>Pelia and Crimzo won't collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because you<$FFFC>fought… the surface is safe！<$FFFE>
+102	……<$FB00><$006E>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because you<$FFFC>fought… the surface is safe！<$FFFE>
 103	<$FB00><$0070>I see, good…<$FFFE>
 104	……<$FB00><$0071>Ah, it really is you…<$FFFE>
 105	<$FB00><$0072>Sorry I worried you, Marie…<$FFFE>
 106	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$006B>Eh！？<$FFFE>
 107	……<$FB00><$006D>U…ugh… Pelia…<$FFFE>
-108	……<$FB00><$0073>It's all right！ Pelia was destroyed.<$FFFC>Pelia and Crimzo won't collide.<$FFFD>……<$FB00><$0074>Everyone is safe… Crimzo, our planet,<$FFFC>everyone…<$FFFE>
+108	……<$FB00><$0073>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$0074>Everyone is safe… Crimzo, our planet,<$FFFC>everyone…<$FFFE>
 109	<$FB00><$0070>I see, good…<$FFFE>
-110	<$FB00><$0075>You stupid, stupid, stupid man！ I really<$FFFC>thought you had died！<$FFFE>
+110	<$FB00><$0075>You stupid, stupid, stupid man！ I<$FFFC>really thought you had died！<$FFFE>
 111	<$FB00><$0076>Sorry I worried you, Clarett…<$FFFE>
 112	…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$006C>No way<$FFF5>…<$FE14>…<$FE14>？<$FFFE>
 113	……<$FB00><$006D>U…ugh… Pelia…<$FFFE>
-114	……<$FB00><$0077>It's all right！ Pelia was destroyed.<$FFFC>Pelia and Crimzo won't collide.<$FFFD>……<$FB00><$0078>Because you fought… everyone, everyone<$FFFC>was saved…<$FFFE>
+114	……<$FB00><$0077>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$0078>Because you fought… everyone, everyone<$FFFC>was saved…<$FFFE>
 115	<$FB00><$0070>I see, good…<$FFFE>
-116	……<$FB00><$0079>You're alive… you're really alive…<$FFFE>
-117	<$FB00><$007A>What's wrong, Brenda？ Your face is a mess.<$FFFE>
-118	……<$FB00><$007B>Idiot… whose fault do you think that<$FFFC>is？<$FFFE>
-119	<$FB00><$007C>I told you, didn't I？ I'm immortal.<$FFFE>
+116	……<$FB00><$0079>You're alive… you're really<$FFFC>alive…<$FFFE>
+117	<$FB00><$007A>What's wrong, Brenda？ Your face is<$FFFC>a mess.<$FFFE>
+118	……<$FB00><$007B>Idiot… whose fault do you<$FFFC>think that is？<$FFFE>
+119	<$FB00><$007C>I told you, didn't I？ I'm<$FFFC>immortal.<$FFFE>
 120	……<$FB00><$007D>Idiot…<$FFFE>
 121	<$FB00><$007E>But how<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
-122	<$FB00><$007F>Langrisser did it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0080>Her feelings gave me<$FFFC>strength.<$FFFE>
-123	<$FB00><$0081>I see. No energy is stronger than love.<$FFFE>
-124	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0082>Perhaps this sword makes miracles<$FFFC>because people like him stand behind them.<$FFFE>
+122	<$FB00><$007F>Langrisser did it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0080>Her feelings<$FFFC>gave me strength.<$FFFE>
+123	<$FB00><$0081>I see. No energy is stronger than<$FFFC>love.<$FFFE>
+124	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0082>Perhaps this sword makes<$FFFC>miracles because people like him stand<$FFFC>behind them.<$FFFE>
 125	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0083>Farewell<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>
 126	<$FB00><$0084>What's happening？<$FFFE>
 127	<$FB00><$0085>Don't tell me the ship is going to<$FFFC>explode？<$FFFE>

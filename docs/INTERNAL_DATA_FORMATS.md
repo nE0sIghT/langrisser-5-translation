@@ -66,18 +66,19 @@ dialogue/event ID, not a name-record index. Example from chunk 45: record 10
 uses `FB00 0003`, while its visible speaker is the local machine-voice plate
 (name record 7 in that chunk).
 
-The reference layer is in the chunk VM bytecode before the text block.
-`scripts/lang5_vm_dialog_refs.py` extracts command sites that reference the
-same `FB00` IDs, with currently confirmed shapes:
+The production reference layer is in the chunk VM block before the text block.
+`scripts/lang5_rewrap.py::semantic_plate_slots()` scans validated 12-byte
+display/window commands (`0x0B..0x10`) and maps `record = first FB00 record +
+text_id`. Plate selection is:
 
-```text
-<state> <fb_id> FF0B <flags> FFFF FFFF
-FF00 <fb_id> ... FF0B <flags> FFFF FFFF
-```
+- actor key at `p+6..7`, resolved through the chunk actor-plate table;
+- runtime-remapped crowd keys `0xFFE5..0xFFFE`, handled with the conservative
+  chunk-wide reserve;
+- for commands with actor key `0xFFFF`, `p+9` is either `0xFF` for no plate or
+  a zero-based local speaker-pool slot.
 
-The `state` word and optional words before `FF0B` are actor/pose/window state
-and still require dispatch-level interpretation before they can be converted
-to exact speaker plate widths. No hand-written speaker map is canonical.
+`scripts/lang5_scendump.py` uses this same extractor for `# spk:` comments and
+`work/scriptdump/all_records.csv`. No hand-written speaker map is canonical.
 
 Detailed dispatch-level evidence is in:
 - `docs/DISASM_SUMMARY.md`

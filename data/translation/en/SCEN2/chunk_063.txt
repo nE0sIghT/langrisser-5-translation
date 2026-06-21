@@ -68,9 +68,9 @@
 66	<$FB00><$0041>Then I will ask it. Plants see,<$FFFC>hear and feel. With my power, I can speak<$FFFC>to them.<$FFFE>
 67	<$FFFA><$FB00><$0042>It saw it. It knows the truth of<$FFFC>the emperor's murder<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>Now, tell me.<$FFFE>
 68	<$FFFA><$FB00><$0044>I see a thin, earth-colored man<$FFFC>strangling someone who looks like the<$FFFC>emperor.<$FFFE>
-69	<$FFFA><$FB00><$0045>He is on the floor. It looks as if he was<$FFFC>drugged. The emperor stands beside him<$FFFC>with a sword, but his body is already<$FFFC>dead.<$FFFD><$FB00><$0046>The emperor stabbed his own chest. Then he<$FFFC>put the sword in his hand and fell.<$FFFE>
-70	<$FFFA><$FB00><$0047>The man who strangled him enters the room<$FFFC>and laughs. What a vile smile.<$FFFD><$FB00><$0048>Then he knocked over the desk and<$FFFC>vanished, as if covering his tracks.<$FFFE>
-71	<$FB00><$0049>I can tell the rest. I heard a loud noise<$FFFC>from father's room and came with the<$FFFC>guards.<$FFFD><$FB00><$004A>He stood in a daze, holding a bloodstained<$FFFC>sword. When he saw us, he escaped through<$FFFC>that window.<$FFFE>
+69	<$FFFA><$FB00><$0045>He is on the floor. It looks<$FFFC>as if he was drugged. The emperor stands<$FFFC>beside him with a sword, but his body is<$FFFC>already dead.<$FFFD><$FB00><$0046>The emperor stabbed his own chest. Then he<$FFFC>put the sword in his hand and fell.<$FFFE>
+70	<$FFFA><$FB00><$0047>The man who strangled him<$FFFC>enters the room and laughs. What a vile<$FFFC>smile.<$FFFD><$FB00><$0048>Then he knocked over the desk and<$FFFC>vanished, as if covering his tracks.<$FFFE>
+71	<$FB00><$0049>I can tell the rest. I heard a<$FFFC>loud noise from father's room and came<$FFFC>with the guards.<$FFFD><$FB00><$004A>He stood in a daze, holding a bloodstained<$FFFC>sword. When he saw us, he escaped through<$FFFC>that window.<$FFFE>
 72	<$FB00><$004B>The tree says the same.<$FFFE>
 73	<$FB00><$004C>That is wonderful！ You are not<$FFFC>the murderer！<$FFFE>
 74	<$FB00><$004D>But that alone will not prove<$FFFC>him innocent.<$FFFD><$FB00><$004E>I do not want to doubt Marie, but even if<$FFFC>she is right, we have no way to prove it.<$FFFE>

@@ -18,11 +18,11 @@
 16	Russel<$FFFF>
 17	After the Battle<$FFFF>
 18	<$FB00><$004F>Eric！ Stay with me, Eric！<$FFFE>
-19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0050>Clarett. So you won. …I'm glad.<$FFFE>
-20	<$FB00><$0051>Yes. You destroyed the cannon… We owe<$FFFC>this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned… Now I can die in<$FFFC>peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
-22	<$FB00><$0053>Don't you give up！ We'll treat you right<$FFFC>away！<$FFFE>
-23	…<$FB00><$0054>I'm sorry, Clarett. Without me, your<$FFFC>fight might have been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0050>Clarett. So you won. …I'm<$FFFC>glad.<$FFFE>
+20	<$FB00><$0051>Yes. You destroyed the cannon… We<$FFFC>owe this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned… Now I can<$FFFC>die in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+22	<$FB00><$0053>Don't you give up！ We'll treat you<$FFFC>right away！<$FFFE>
+23	…<$FB00><$0054>I'm sorry, Clarett. Without<$FFFC>me, your fight might have been<$FFFC>easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 24	<$FB00><$0057>Eriiiic！<$FFFE>
 25	Federation Castle, Dungeon<$FFFF>
 26	<$FB00><$0058>Hello！ Is anyone there！<$FFFE>

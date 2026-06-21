@@ -14,7 +14,7 @@
 12	・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Russel's Manor<$FFFF>
 14	<$FB00><$0024>Surely something can be done！<$FFF5> <$FB00><$0025>I must<$FFFC>examine the treasure my father gave<$FFF5><$FFF8>….<$FFFE>
-15	<$FB00><$0026>I've told you many times, I cannot show<$FFFC>you that crystal.<$FFFE>
+15	<$FB00><$0026>I've told you many times, I cannot<$FFFC>show you that crystal.<$FFFE>
 16	<$FB00><$0027>There's no talking to you！ Call your<$FFFC>master！<$FFFE>
 17	<$FB00><$0028>Lord Russel does not meet those<$FFFC>without an appointment. First make an<$FFFC>appointment, and<$FFF5><$FFF8>….<$FFFE>
 18	<$FB00><$0029>What is this racket？<$FFFE>
