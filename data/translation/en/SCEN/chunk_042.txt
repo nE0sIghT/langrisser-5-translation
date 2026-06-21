@@ -6,12 +6,12 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Glob<$FFFF>
+7	Grove<$FFFF>
 8	Lainforce<$FFFF>
-9	Galzork<$FFFF>
+9	Galshok<$FFFF>
 10	Gaiel<$FFFF>
 11	Ferakia<$FFFF>
-12	Aizer<$FFFF>
+12	Aizel<$FFFF>
 13	Omega<$FFFF>
 14	Alvince<$FFFF>
 15	Gilmore<$FFFF>
@@ -21,7 +21,7 @@
 19	Vast Underground Cavern<$FFFF>
 20	Where did everyone go<$FFF8>…<$FFFE>
 21	It seems a reckless challenger has<$FFFC>arrived.<$FFFE>
-22	You're Glob！<$FFFE>
+22	You're Grove！<$FFFE>
 23	This is the sanctuary where you battle the<$FFFC>strongest foes. Your comrades are<$FFFC>somewhere inside this room.<$FFFE>
 24	However, not only your allies but enemies<$FFFC>lurk within the room.<$FFFE>
 25	This won't be easy to clear.<$FFFE>
@@ -154,4 +154,4 @@
 152	Now it's our turn to repay the favor！<$FFFE>
 153	All right, let's give it our all！<$FFFE>
 154	Sorry, I fell behind.<$FFFE>
-155	<$FB00><$00AC>Come, dead ones！ Necro Glob<$FFFC>grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagushisoram！<$FFFE>
+155	<$FB00><$00AC>Come, dead ones！ Necro Grove<$FFFC>grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagushisoram！<$FFFE>

@@ -12,7 +12,7 @@
 12	・<$F600><$0000> dies<$FFFE>
 13	Inside Kalxath Castle<$FFFF>
 14	<$FB00><$0030>Gilmore！ Give yourself up！<$FFFE>
-15	<$FB00><$0031>How dare you address me so casually. Call<$FFFC>me Your Majesty！<$FFFD><$FB00><$0032>Still, impressive that you reached this<$FFFC>far. Creid should have been at the gate.<$FFFE>
+15	<$FB00><$0031>How dare you address me so casually. Call<$FFFC>me Your Majesty！<$FFFD><$FB00><$0032>Still, impressive that you reached this<$FFFC>far. Quaid should have been at the gate.<$FFFE>
 16	<$FB00><$0033>Oh, that marquis？ Too bad, but it looks<$FFFC>like he died for nothing.<$FFFE>
 17	<$FB00><$0034>What do you mean！？ You call a<$FFFC>noble death meaningless！？<$FFFE>
 18	<$FB00><$0035>If he died for you and you lose<$FFFC>anyway, then yes, meaningless.<$FFFE>

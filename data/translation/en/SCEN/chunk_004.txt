@@ -8,12 +8,12 @@
 6	Lanford<$FFFF>
 7	Town<$FFFF>
 8	Goldry<$FFFF>
-9	Wheeler<$FFFF>
+9	Wiler<$FFFF>
 10	Officer<$FFFF>
 11	Guard<$FFFF>
 12	Selena<$FFFF>
-13	・Beat Wheeler in 20 turns and<$FFFC><$0000>exit the north gate<$FFFC>・Defeat all foes in 20 turns<$FFFE>
-14	・<$F600><$0000> dies<$FFFC>・Wheeler escapes<$FFFC>・Out of turns<$FFFE>
+13	・Beat Wiler in 20 turns and<$FFFC><$0000>exit the north gate<$FFFC>・Defeat all foes in 20 turns<$FFFE>
+14	・<$F600><$0000> dies<$FFFC>・Wiler escapes<$FFFC>・Out of turns<$FFFE>
 15	Town of Knox・Center<$FFFF>
 16	<$FB00><$0003>This is a pretty large town.<$FFFE>
 17	<$FB00><$0004>Oh？ You didn't know？ This town grew<$FFFC>up in a mountain pass as a crossroads of<$FFFC>trade.<$FFFD><$FB00><$0005>Avoiding it means a long detour, so<$FFFC>everyone comes through here.<$FFFE>
@@ -27,7 +27,7 @@
 25	<$FB00><$000D>Ah, someone seems to be there.<$FFFE>
 26	<$FB00><$000E>My, it's getting rather noisy<$FFFC>outside.<$FFFE>
 27	<$FB00><$000F>That man, he's with the Caconsis<$FFFC>army, if I recall<$FFF5><$FFF8>…<$FFFE>
-28	<$FB00><$0010>Admiral Wheeler. How convenient.<$FFFC>We'll bring him down before moving on.<$FFFE>
+28	<$FB00><$0010>Admiral Wiler. How convenient.<$FFFC>We'll bring him down before moving on.<$FFFE>
 29	<$FB00><$0011>Bring him down？<$FFFE>
 30	<$FB00><$0012>That's right. He commands all<$FFFC>Caconsis forces.<$FFFD>Wound him, and Caconsis can't move as it<$FFFC>pleases.<$FFFD><$FB00><$0013>Throwing our enemy Caconsis into disorder<$FFFC>also serves the master.<$FFFE>
 31	<$FFF8>…<$FFF6><$FB00><$0014>I suppose that's true.<$FFFE>
@@ -55,7 +55,7 @@
 53	Huff, puff… I can't keep running<$FFFC>at full tilt<$FFF8>…<$FFFE>
 54	A scroll lies on top of a barrel.<$FFFC>Read it？<$FFFE>
 55	<$0000> Learned the spell <$FFF4>Attack 1<$FFF3>！<$FFFE>
-56	<$FB00><$001E>Admiral Wheeler seems to be<$FFFC>fleeing for the north gate.<$FFFE>
+56	<$FB00><$001E>Admiral Wiler seems to be fleeing<$FFFC>for the north gate.<$FFFE>
 57	<$FB00><$001F>We're headed for the north gate anyway.<$FFFC>We'll catch him on the way.<$FFFE>
 58	<$FB00><$0028>You think you can beat me！<$FFFE>
 59	<$FB00><$0029>What a loudmouth.<$FFFE>
@@ -87,7 +87,7 @@
 85	<$FB00><$0035>Seems the loudmouth is gone now.<$FFFE>
 86	…beaten by the likes of them…<$FFFE>
 87	…should never have come to this town…<$FFFE>
-88	…Ad…miral…Wheeler…<$FFFE>
+88	…Ad…miral…Wiler…<$FFFE>
 89	<$FB00><$0015>Fighting inside the town？ What<$FFFC>is the garrison captain here thinking？<$FFFE>
 90	<$FB00><$0016>A man named Goldry, I believe.<$FFFD>Once a rough sellsword, favored by the<$FFFC>late king and made a regular, they say.<$FFFE>
 91	<$FFF8>…<$FFF6><$FB00><$0017>That explains a lot.<$FFFE>
@@ -100,7 +100,7 @@
 98	Huff, puff… I knew I should have kept<$FFFC>myself in better shape <$FFF8>…<$FFFE>
 99	Right. Full speed ahead！<$FFFE>
 100	<$FB00><$0021>Forgive me. If you weren't the<$FFFC>admiral of Caconsis, I'd want no part of<$FFFC>this.<$FFFE>
-101	<$FB00><$0022>Here I come, Admiral Wheeler.<$FFFE>
+101	<$FB00><$0022>Here I come, Admiral Wiler.<$FFFE>
 102	<$FB00><$0023>I don't really get it, but I'm<$FFFC>sorry！<$FFFE>
 103	<$FB00><$0024>Uwah！ I'm no match after all…<$FFFE>
 104	<$FB00><$0025>That's done it.<$FFFE>
@@ -113,7 +113,7 @@
 111	<$FB00><$003A>Sir！ This is<$FFF5><$FFF8>…<$FFFE>
 112	<$FB00><$003B>General Selena, look！<$FFFE>
 113	<$FB00><$003C>General Selena！<$FFFE>
-114	<$FB00><$003D>Admiral Wheeler！？ The admiral<$FFFC>is<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003E>Curse you！ You did this to him！？<$FFFC>Unforgivable！<$FFFE>
+114	<$FB00><$003D>Admiral Wiler！？ The admiral<$FFFC>is<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003E>Curse you！ You did this to him！？<$FFFC>Unforgivable！<$FFFE>
 115	<$FB00><$003F>Damn！ We're completely<$FFFC>surrounded <$FFF5><$FFF8>…<$FFFE>
 116	<$FB00><$0043>Now, let's leave this town at<$FFFC>once.<$FFFE>
 117	<$FB00><$0044>Right, let's leave this town at<$FFFC>once.<$FFFE>

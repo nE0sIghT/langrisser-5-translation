@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Aizer<$FFFF>
+7	Aizel<$FFFF>
 8	Goldry<$FFFF>
 9	Merc<$FFFF>
 10	Merc<$FFFF>
@@ -44,10 +44,10 @@
 42	<$FB00><$0028>Terrain as our ally, eh. Let's go！<$FFFE>
 43	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 44	Being surrounded means trouble.<$FFFE>
-45	Yes. Aizer especially needs<$FFFC>watching.<$FFFE>
-46	Yeah. Aizer especially needs<$FFFC>watching.<$FFFE>
+45	Yes. Aizel especially needs<$FFFC>watching.<$FFFE>
+46	Yeah. Aizel especially needs<$FFFC>watching.<$FFFE>
 47	Pin him down and beat the others<$FFFC>meanwhile？<$FFFE>
-48	I see. Then nothing interferes<$FFFC>when we face Aizer.<$FFFD>Isolate and crush them one by one<$FFF8>… <$FFF6>Basic<$FFFC>tactics.<$FFFE>
+48	I see. Then nothing interferes<$FFFC>when we face Aizel.<$FFFD>Isolate and crush them one by one<$FFF8>… <$FFF6>Basic<$FFFC>tactics.<$FFFE>
 49	In your hands. Win or lose, it's<$FFFC>on you.<$FFFE>
 50	<$FB00><$003D>Ugh…not…yet…<$FFFE>
 51	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
@@ -73,7 +73,7 @@
 71	<$FB00><$0048>How…could I… <$FFF5><$FB00><$0049>Damn it！<$FFFC>Enough, I quit！<$FFFE>
 72	<$FB00><$004A>Such strength, so soon<$FFF5><$FFF8>… <$0000><$FFF6><$FB00><$004B>The<$FFFC>power hidden in the specimens…<$FFFE>
 73	Damn！ If you hadn't meddled…<$FFFE>
-74	<$FB00><$004C>Lord Aizer, fall back. We'll<$FFFC>handle the rest！<$FFFE>
+74	<$FB00><$004C>Lord Aizel, fall back. We'll<$FFFC>handle the rest！<$FFFE>
 75	<$FFF8><$FB00><$004D>Ugh…<$FFF5><$FFF6><$FB00><$004E>Forgive me<$FFF5><$FFF8>…<$FFFE>
 76	<$FB00><$003C>I'll turn the tables！<$FFFE>
 77	<$FB00><$0043>Come quietly now.<$FFFE>
@@ -83,7 +83,7 @@
 81	<$FB00><$0045>Why do you hound us？<$FFFE>
 82	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
 83	<$FB00><$0047>No business with you. Move.<$FFFE>
-84	Lord Aizer…for…give…me…<$FFFE>
+84	Lord Aizel…for…give…me…<$FFFE>
 85	…my strength…was not…enough…<$FFFE>
 86	<$FB00><$0056>That's the last of them.<$FFFE>
 87	<$FB00><$0053>No more pursuers, it seems.<$FFFE>

@@ -7,7 +7,7 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Merc<$FFFF>
-8	Boser<$FFFF>
+8	Böser<$FFFF>
 9	Landius<$FFFF>
 10	Jessica<$FFFF>
 11	Road to the demon castle<$FFFF>
@@ -36,11 +36,11 @@
 34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
 35	At the Dark Altar<$FFFF>
 36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
-37	<$FB00><$00B6>You've lost, Boser！ Now vanish<$FFFC>from this world！ We will never let the<$FFFC>darkness have it！<$FFFE>
+37	<$FB00><$00B6>You've lost, Böser！ Now vanish<$FFFC>from this world！ We will never let the<$FFFC>darkness have it！<$FFFE>
 38	…<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take…Alhazard from me. That…I will not<$FFFC>allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>…<$FE14>… <$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
 39	<$FB00><$00BB>What！？ He cast Alhazard away<$FFFC>with magic！？<$FFFE>
 40	<$FB00><$00BC>Heh heh heh, what a shame. Where<$FFFC>Alhazard falls, not even I know<$FFF5><$FFF8>…<$FFFE>
 41	<$FFF8>…<$FFF6><$FB00><$00BD>G<$FFF7>hah！<$FFFE>
 42	<$FB00><$00BE>We did it<$FFF5><$FFF8>…<$FFFE>
-43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Boser cast away. Until then,<$FFFC>I leave Langrisser in your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must stop Gizarof's<$FFFC>ambition.<$FFFE>
+43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Böser cast away. Until then,<$FFFC>I leave Langrisser in your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must stop Gizarof's<$FFFC>ambition.<$FFFE>
 44	<$FFF8>…<$FFF6><$FB00><$00C1>Right！ Gizarof is next！<$FFFD><$FB00><$00C2>I know you're weary, but it won't be long<$FFFC>now. Everyone, stay strong！<$FFFE>

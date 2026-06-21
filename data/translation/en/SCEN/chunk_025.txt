@@ -11,7 +11,7 @@
 9	Soldier<$FFFF>
 10	・Defeat Goldry within 20 turns<$FFFE>
 11	・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
-12	Tunnel to Reynorz<$FFFF>
+12	Tunnel to Reynolds<$FFFF>
 13	<$FB00><$0046>Step aside quietly. We must hurry on to<$FFFC>Sutherland.<$FFFE>
 14	<$FB00><$0047>I've a job of my own. Let no<$FFFC>one through here！<$FFFE>
 15	<$FB00><$0048>What now, Lanford？<$FFFE>
@@ -19,7 +19,7 @@
 17	<$FB00><$004A>Then we force our way through.<$FFFE>
 18	<$FB00><$004B>Hold it！ Don't try anything<$FFFC>funny！ My orders are to collapse the<$FFFC>tunnel itself if I can't hold it.<$FFFE>
 19	<$FFF8><$FB00><$004C>Tch！<$FFFE>
-20	<$FB00><$004D>Halfway up this mountain there's a<$FFFC>tunnel to the far side. Through it,<$FFFC>Reynorz is close.<$FFFE>
+20	<$FB00><$004D>Halfway up this mountain there's a<$FFFC>tunnel to the far side. Through it,<$FFFC>Reynolds is close.<$FFFE>
 21	<$FB00><$004E>Huh. I've wandered all over, but<$FFFC>I never knew there was a tunnel here.<$FFFE>
 22	<$FB00><$004F>Well, few people try to cross such<$FFFC>rugged mountains.<$FFFE>
 23	<$FB00><$0050>Good thing we have Alfred. A<$FFFC>detour would have cost us dearly.<$FFFE>
@@ -37,7 +37,7 @@
 35	<$FB00><$005E>They mean to wreck the tunnel<$FFFC>with that strange device.<$FFFE>
 36	<$FB00><$005F>But can they really do that？<$FFFE>
 37	<$FB00><$0060>Right, you folks don't know<$FFFC>about blasting powder.<$FFFE>
-38	<$FB00><$0061>Is that Crimsonia's ancient<$FFFC>magic too？<$FFFE>
+38	<$FB00><$0061>Is that Crimzonia's ancient<$FFFC>magic too？<$FFFE>
 39	<$FB00><$0062>No, not magic. Put simply, it's a<$FFFC>powder that explodes when lit.<$FFFE>
 40	<$FB00><$0063>Something Lainforce gave Goldry,<$FFFC>no doubt.<$FFFE>
 41	<$FB00><$0064>Probably. With that powder, a<$FFFC>tunnel like this collapses in an instant.<$FFFC>Best stop him fast.<$FFFE>

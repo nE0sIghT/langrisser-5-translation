@@ -6,7 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Aizer<$FFFF>
+7	Aizel<$FFFF>
 8	Lainforce<$FFFF>
 9	Omega<$FFFF>
 10	Soldier<$FFFF>
@@ -64,10 +64,10 @@
 62	Lord Lainforce！？<$FFFE>
 63	It's nothing… A scratch like<$FFFC>this…<$FFFE>
 64	But if anything happens to you<$FFFC>now… Please, don't push yourself, rest！<$FFFE>
-65	Forgive me, Aizer.<$FFFE>
-66	To think they would beat not<$FFFC>just Aizer but me as well…<$FFFD>But I cannot die here…<$FFFE>
+65	Forgive me, Aizel.<$FFFE>
+66	To think they would beat not<$FFFC>just Aizel but me as well…<$FFFD>But I cannot die here…<$FFFE>
 67	Im…impossible… Was I careless…<$FFFE>
-68	Stand back, Aizer. I can't have<$FFFC>you die yet.<$FFFE>
+68	Stand back, Aizel. I can't have<$FFFC>you die yet.<$FFFE>
 69	My apologies, Lord Lainforce.<$FFFE>
 70	N…not in a place…like this…<$FFFE>
 71	D…damn it<$00E4><$00E5><$00E6>！<$FFFE>
@@ -95,7 +95,7 @@
 93	<$FFF8>…<$FFF9><$FFF6><$FB00><$0058><$FFF4>Ω-137<$FFF3>.<$FFFE>
 94	<$FB00><$0059>There was a third specimen<$FFF5>…<$FFFE>
 95	<$FB00><$005A>What monstrous power！<$FFFE>
-96	<$FB00><$005A>What monstrous power！<$FFFD><$FB00><$005B>Aizer. I will hold the third specimen. You<$FFFC>secure those two.<$FFFE>
+96	<$FB00><$005A>What monstrous power！<$FFFD><$FB00><$005B>Aizel. I will hold the third specimen. You<$FFFC>secure those two.<$FFFE>
 97	<$FB00><$005C>Sir！<$FFFE>
 98	<$FB00><$0069>Right, let's get clear of the<$FFFC>lab in one go.<$FFFE>
 99	<$FB00><$006A>Agreed.<$FFFE>
@@ -105,14 +105,14 @@
 103	<$FB00><$0070>Let's go while we can. You<$FFFC>have no data on the outside world, right？<$FFFC>I'll guide you.<$FFFE>
 104	<$FB00><$0071>Ah…, right. Please.<$FFFE>
 105	<$FB00><$0072>Kh！ Wait！<$FFFE>
-106	<$FB00><$0073>So the girl does have the<$FFFC>power. The specimen research was a<$FFFC>success. Aizer, after them！<$FFFE>
+106	<$FB00><$0073>So the girl does have the<$FFFC>power. The specimen research was a<$FFFC>success. Aizel, after them！<$FFFE>
 107	<$FB00><$0074>Sir, at once.<$FFFE>
 108	<$FB00><$0048>Uwooh！<$FFFE>
 109	<$FB00><$0046>Behave, and you won't be hurt.<$FFFE>
 110	<$FB00><$005D>D…damn… If only I had<$FFFC><$FFF4>Langrisser<$FFF3>, scum like you would <$FFF5><$FFF8>…<$FFFE>
 111	I have come for you, Lord Lainforce.<$FFFE>
 112	Z…Zero…<$FFFE>
-113	What a state you are in…<$FFFD>How did this happen with you at his side,<$FFFC>Aizer？<$FFFE>
+113	What a state you are in…<$FFFD>How did this happen with you at his side,<$FFFC>Aizel？<$FFFE>
 114	Ugh…ugh…<$FFFE>
 115	Never mind that, Zero. The third<$FFFC>specimen…<$FFFE>
 116	By your will.<$FFFE>

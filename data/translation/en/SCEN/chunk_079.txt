@@ -23,6 +23,6 @@
 21	Jessica！<$FFFE>
 22	It's been a while. Now, just a<$FFFC>little more. Let's give it our all！<$FFFE>
 23	Yes！<$FFFE>
-24	<$0000>Having beaten Necro Glob,<$FFFC><$F600><$0000>'s band cornered Gaiel at<$FFFC>last.<$FFFD><$0000>A few hours remain until the weather<$FFFC>control fades. <$0000>In what little time is<$FFFC>left, they must defeat Gaiel.<$FFFD><$0000>Humanity, or the demons？ <$0000>The battle<$FFFC>that stakes the future is about to begin.<$FFFE>
+24	<$0000>Having beaten Necro Grove,<$FFFC><$F600><$0000>'s band cornered Gaiel at<$FFFC>last.<$FFFD><$0000>A few hours remain until the weather<$FFFC>control fades. <$0000>In what little time is<$FFFC>left, they must defeat Gaiel.<$FFFD><$0000>Humanity, or the demons？ <$0000>The battle<$FFFC>that stakes the future is about to begin.<$FFFE>
 25	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gaiel within 18 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・18 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>
 26	Victory terms<$FFFC><$0000><$FFFC>・Defeat Gaiel within 20 turns<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・20 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>

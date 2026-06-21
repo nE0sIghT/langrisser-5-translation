@@ -6,10 +6,10 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Glob<$FFFF>
+7	Grove<$FFFF>
 8	Monster<$FFFF>
 9	Soul<$FFFF>
-10	・Defeat Necro Glob<$FFFE>
+10	・Defeat Necro Grove<$FFFE>
 11	・<$F600><$0000> dies<$FFFE>
 12	Inside Velzeria Castle<$FFFF>
 13	<$FB00><$0015>We got in awfully easily.<$FFFE>
@@ -19,7 +19,7 @@
 17	<$FB00><$0019>Quite right！<$FFFE>
 18	<$FB00><$001A>Over there！<$FFFE>
 19	<$FB00><$001B>My, my. What a day for visitors.<$FFFE>
-20	<$FB00><$001C>You're cornered, Glob. Prepare<$FFFC>yourself！<$FFFE>
+20	<$FB00><$001C>You're cornered, Grove.<$FFFC>Prepare yourself！<$FFFE>
 21	<$FB00><$001D>Don't talk nonsense. I am in a<$FFFC>very foul mood today. Curse yourselves for<$FFFC>attacking me now！<$FFFE>
 22	<$FB00><$001E>Anyone can talk big.<$FFFE>
 23	<$FB00><$001F>Then allow me to show you<$FFFC>proof！<$FFFD><$FB00><$0020>Souls that perished in this place, become<$FFFC>one and fight！ Haa！<$FFFE>
@@ -105,7 +105,7 @@
 103	<$FB00><$0059>That's right. Where are<$FFFC>Langrisser and Alhazard？<$FFFE>
 104	<$FB00><$005A>Is that demon Gaiel still<$FFFC>carrying them around？<$FFFE>
 105	<$FB00><$005B>No use wondering. Leave the<$FFFC>search to the soldiers. Let's hurry and<$FFFC>rejoin Jessica.<$FFFE>
-106	Enough！ Worthless, all of you！ Beaten<$FFFC>this easily by humans！<$FFFD>Have you no shame！ I, Lord Glob, will<$FFFC>show you how a real battle is fought！<$FFFD>Study it in hell！<$FFFE>
+106	Enough！ Worthless, all of you！ Beaten<$FFFC>this easily by humans！<$FFFD>Have you no shame！ I, Lord Grove, will<$FFFC>show you how a real battle is fought！<$FFFD>Study it in hell！<$FFFE>
 107	Oh dear, the mark's bearer has fallen<$FFF8>…<$FFFC><$0000><$FFF6>Then, a new bearer<$FFF8>…<$FFFE>
 108	<$FB00><$0025>You shall bear it！<$FFFE>
 109	<$FB00><$0026>So it's me<$FFF5><$FFF8>…<$FFFE>

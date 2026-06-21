@@ -11,9 +11,9 @@
 9	Alvince<$FFFF>
 10	Officer<$FFFF>
 11	Russel<$FFFF>
-12	Rosenshill<$FFFF>
+12	Rozenciel<$FFFF>
 13	Russel<$FFFF>
-14	Reynorz Army<$0000>VS<$0000>Federation Army<$FFFF>
+14	Reynolds Army<$0000>VS<$0000>Federation Army<$FFFF>
 15	<$FB00><$0003>We cannot lose here！ Push, push, and keep<$FFFC>pushing！<$FFFE>
 16	<$FFF7><$FB00><$0004>Yes sir！<$FFF5><$FFF8><$FFFE>
 17	<$FB00><$0005>Heh heh heh！ I will not be beaten<$FFFC>by the likes of you！<$FFFE>

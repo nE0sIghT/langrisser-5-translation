@@ -8,16 +8,16 @@
 6	Lanford<$FFFF>
 7	Gaiel<$FFFF>
 8	Control prog.<$FFFF>
-9	Glob<$FFFF>
+9	Grove<$FFFF>
 10	Ferakia<$FFFF>
 11	Monster<$FFFF>
-12	・Defeat Glob<$FFFE>
+12	・Defeat Grove<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
 14	Demon Stronghold<$FFFF>
-15	<$FB00><$000A>So they have Langrisser.<$FFF5> <$FB00><$000B>Honestly,<$FFFC>because Glob's a fool, I have to get my<$FFFC>own hands dirty.<$FFFD><$FFF8>…<$FFF6><$FB00><$000C>No, this suits me better. I'll show them<$FFFC>the terror of the ultimate weapon！<$FFFE>
-16	<$FB00><$000D>Now, Peiria！ Bombard them！<$FFF5><$FFFC><$FB00><$000E>Erase them, Langrisser and all, without a<$FFFC>trace！<$FFFE>
+15	<$FB00><$000A>So they have Langrisser.<$FFF5> <$FB00><$000B>Honestly,<$FFFC>because Grove's a fool, I have to get my<$FFFC>own hands dirty.<$FFFD><$FFF8>…<$FFF6><$FB00><$000C>No, this suits me better. I'll show them<$FFFC>the terror of the ultimate weapon！<$FFFE>
+16	<$FB00><$000D>Now, Pelia！ Bombard them！<$FFF5><$FFFC><$FB00><$000E>Erase them, Langrisser and all, without a<$FFFC>trace！<$FFFE>
 17	<$FB00><$000F>Magitek energy reactor online. Safety<$FFFC>released. Designate the target, please.<$FFFE>
-18	<$FFF8>…<$FFF7><$FB00><$0010>Heh heh heh！<$FFF5><$FFFC><$FFF6><$FB00><$0011>Farewell, Glob.<$FFF5> <$FB00><$0012>And you heirs of the<$FFFC>light！<$FFFE>
+18	<$FFF8>…<$FFF7><$FB00><$0010>Heh heh heh！<$FFF5><$FFFC><$FFF6><$FB00><$0011>Farewell, Grove.<$FFF5> <$FB00><$0012>And you heirs of the<$FFFC>light！<$FFFE>
 19	Demon Temple, Near the<$FFFC>Entrance<$FFFF>
 20	<$FB00><$0013>The demon base is said to be ahead,<$FFFC>but<$FFF5><$FFF8>….<$FFFE>
 21	<$FB00><$0014>I've been waiting<$FFF5><$FFF8>….<$FFFE>
@@ -39,7 +39,7 @@
 37	<$FB00><$002A>GAAAA！<$FFFE>
 38	<$FB00><$002B>Now, devour them！<$FFFE>
 39	<$FB00><$002C>Fighting it in the water<$FFFC>is dangerous.<$FFF5> <$FB00><$002D>Best lure it onto land<$FFFC>somehow<$FFF5>….<$FFFE>
-40	<$FB00><$0033>We've cornered you, Glob！<$FFFE>
+40	<$FB00><$0033>We've cornered you,<$FFFC>Grove！<$FFFE>
 41	<$FB00><$0034>I won't let you escape<$FFFC>now！<$FFFE>
 42	<$FB00><$0035>What poor losers you are！<$FFFE>
 43	<$FB00><$0036>That's our line！<$FFFE>
@@ -88,7 +88,7 @@
 86	…U… uu….<$FFFE>
 87	…I'll devour… your entrails….<$FFFE>
 88	<$FB00><$002E>Now, the final flourish.<$FFFE>
-89	<$FB00><$00AC>Now, you dead！ Lord Necro<$FFFC>Glob grants you life once more！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagujisoram！<$FFFE>
+89	<$FB00><$00AC>Now, you dead！ Lord Necro<$FFFC>Grove grants you life once more！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagujisoram！<$FFFE>
 90	<$FB00><$0047>Now, vent your grudge on<$FFFC>the humans to your heart's content！<$FFFE>
 91	<$FB00><$0043>I'll use you as a zombie<$FFFC>too！<$FFFE>
 92	<$FFF7><$FB00><$0044>Gwah！<$FFF5><$FFF8> …<$FFF6><$FB00><$0045>I… won't die…<$FFFC>I'll beat Gaiel… Gaiel I'll….<$FFF5> <$FFF7><$FB00><$0046>G,<$FFFC>geh！<$FFFE>

@@ -75,11 +75,11 @@
 73	<$FB00><$0057>Why… why does a surface-dweller<$FFFC>hold such power….<$FFFE>
 74	<$FB00><$0058>Acht！<$FFFE>
 75	<$FB00><$0059>I'm counting on you, Neun…<$FFFC>Lord Lainforce….<$FFFE>
-76	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimson Knights aren't<$FFFC>much either！<$FFFE>
-77	<$FB00><$0054>That the glorious Crimson Knights<$FFFC>should fall to a surface-dweller….<$FFFE>
+76	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimzonian Knights<$FFFC>aren't much either！<$FFFE>
+77	<$FB00><$0054>That the glorious Crimzonian<$FFFC>Knights should fall to a<$FFFC>surface-dweller….<$FFFE>
 78	<$FB00><$0055>Neun！<$FFFE>
 79	<$FB00><$0056>I'm counting on you, Acht…<$FFFC>Lord Lainforce….<$FFFE>
-80	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimson Knights aren't<$FFFC>much either！<$FFFE>
+80	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimzonian Knights<$FFFC>aren't much either！<$FFFE>
 81	<$FB00><$005C>Gh… guh！<$FFFE>
 82	<$FB00><$005D>The match is decided, Omega.<$FFFE>
 83	<$FB00><$005E>Wh, why<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Lord Gizarof's<$FFFC>remodeling<$FFF5><$FFF8>….<$FFFE>

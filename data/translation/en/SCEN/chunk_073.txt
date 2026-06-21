@@ -39,21 +39,21 @@
 37	Demon Stronghold<$FFFF>
 38	<$FB00><$0026>Argh, damn it！ Why do they have<$FFFC>Langrisser！<$FFFD><$FB00><$0027>Without that, there's no way I'd have<$FFFC>lost<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
 39	<$FB00><$0028>You're in a temper, Ferakia.<$FFF5> <$FB00><$0029>It<$FFFC>ruins that lovely face.<$FFFE>
-40	<$FB00><$002A>Shut up！<$FFF5> <$FB00><$002B>It's your fault for<$FFFC>leaving Langrisser to Glob in the first<$FFFC>place<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-41	<$FB00><$002C>You're saying Glob losing it is<$FFFC>my fault？<$FFF5> <$FB00><$002D>That's a baseless charge.<$FFFE>
+40	<$FB00><$002A>Shut up！<$FFF5> <$FB00><$002B>It's your fault for<$FFFC>leaving Langrisser to Grove in the first<$FFFC>place<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+41	<$FB00><$002C>You're saying Grove losing it is<$FFFC>my fault？<$FFF5> <$FB00><$002D>That's a baseless charge.<$FFFE>
 42	<$FB00><$002E>Honestly, just when I'd nearly<$FFFC>got the humans dancing to my strings<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$002F>my<$FFFC>plan's in ruins！<$FFFE>
-43	<$FB00><$0030>Why lend Crimsonia a hand at<$FFFC>all？ Just destroy them along with the<$FFFC>humans.<$FFFE>
-44	<$FB00><$0031>Crimso has the Chaos Gate, you<$FFFC>know？ And Crimso only comes around every<$FFFC>200 years.<$FFFD><$FB00><$0032>Buoyed by Lord Chaos's power, our strength<$FFFC>is amplified. Now is the best chance！<$FFFE>
-45	<$FB00><$0033>I'm well aware.<$FFF5> <$FB00><$0034>But there's no<$FFFC>need to risk ourselves aiding Crimsonia.<$FFFD><$FB00><$0035>In just 200 more years, Crimsonia dies<$FFFC>out. After that, at our leisure<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+43	<$FB00><$0030>Why lend Crimzonia a hand at<$FFFC>all？ Just destroy them along with the<$FFFC>humans.<$FFFE>
+44	<$FB00><$0031>Crimzo has the Chaos Gate, you<$FFFC>know？ And Crimzo only comes around every<$FFFC>200 years.<$FFFD><$FB00><$0032>Buoyed by Lord Chaos's power, our strength<$FFFC>is amplified. Now is the best chance！<$FFFE>
+45	<$FB00><$0033>I'm well aware.<$FFF5> <$FB00><$0034>But there's no<$FFFC>need to risk ourselves aiding Crimzonia.<$FFFD><$FB00><$0035>In just 200 more years, Crimzonia dies<$FFFC>out. After that, at our leisure<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FB00><$0036>You're far too cautious. For<$FFFC>one, who's to say we demons won't be wiped<$FFFC>out before the next 200 years？<$FFFE>
 47	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF9><$FFF6><$FB00><$0037>True, there's no guarantee.<$FFFE>
-48	<$FB00><$0038>The red moon Crimso is the<$FFFC>demons' homeland too. No reason to let<$FFFC>this chance slip.<$FFFD><$FB00><$0039>That's why we need Lainforce to win.<$FFFE>
+48	<$FB00><$0038>The red moon Crimzo is the<$FFFC>demons' homeland too. No reason to let<$FFFC>this chance slip.<$FFFD><$FB00><$0039>That's why we need Lainforce to win.<$FFFE>
 49	<$FB00><$003A>But it means handing aid to an<$FFFC>enemy.<$FFFE>
 50	<$FB00><$003B>I'd thank you not to meddle in<$FFFC>what happens on this continent！<$FFFD><$FB00><$003C>You've a job, haven't you, finding a way<$FFFC>to destroy Langrisser？<$FFF5> <$FB00><$003D>Or have you<$FFFC>already found it？<$FFFE>
 51	<$FFFA><$FB00><$003E>Sadly, not even a clue.<$FFFE>
 52	<$FB00><$003F>Then go find it, quick！ Argue<$FFFC>with me after that！<$FFFE>
 53	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF9><$FFF6><$FB00><$0040>Understood.<$FFFE>
-54	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0041>Honestly, that man's grown<$FFFC>so arrogant the moment Lord Boser<$FFFC>vanished<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-55	<$0000>Lambert told them Lainforce's aim, then<$FFFC>took his own life to break the curse on<$FFFC>his house. <$0000>The sky battleship Lainforce<$FFFC>seeks is buried in the city of Valtar.<$FFFD><$0000>Rushing into the city, the party found<$FFFC>the Crimson Knights led by Omega, and<$FFFC>McClaine standing against them.<$FFFE>
+54	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0041>Honestly, that man's grown<$FFFC>so arrogant the moment Lord Böser<$FFFC>vanished<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+55	<$0000>Lambert told them Lainforce's aim, then<$FFFC>took his own life to break the curse on<$FFFC>his house. <$0000>The sky battleship Lainforce<$FFFC>seeks is buried in the city of Valtar.<$FFFD><$0000>Rushing into the city, the party found<$FFFC>the Crimzonian Knights led by Omega, and<$FFFC>McClaine standing against them.<$FFFE>
 56	Victory terms<$FFFC><$0000><$FFFC>・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Even one unit of citizens is killed<$FFFC>・<$F600><$0000> dies<$FFFE>
 57	Victory terms<$FFFC><$0000><$FFFC>・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・All citizens killed<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

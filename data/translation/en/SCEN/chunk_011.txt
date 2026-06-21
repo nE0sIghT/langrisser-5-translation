@@ -9,7 +9,7 @@
 7	Folk<$FFFF>
 8	Taxman<$FFFF>
 9	Guard<$FFFF>
-10	Creid<$FFFF>
+10	Quaid<$FFFF>
 11	Officer<$FFFF>
 12	・Defeat all enemies<$FFFE>
 13	・All villagers die<$FFFC>・<$F600><$0000> dies<$FFFE>
@@ -125,17 +125,17 @@
 123	<$FB00><$004A>We're too close to fail！<$FFFE>
 124	<$FB00><$004B>Can't you collect taxes or kill<$FFFC>deserters properly！？<$FFFE>
 125	<$FB00><$004C>That man<$FFF5><$FFF8>…<$FFFE>
-126	<$FB00><$004D>Creid<$FFF5><$FFF8>…<$FFFE>
+126	<$FB00><$004D>Quaid<$FFF5><$FFF8>…<$FFFE>
 127	<$FB00><$004E>Well. The Emperor's killer now<$FFFC>rebels against the Empire.<$FFFD><$FB00><$004F>By imperial law, I end you here！<$FFFE>
 128	<$FB00><$0050>Imperial law！？ You rewrote it to<$FFFC>exploit people！ Why！？<$FFFE>
 129	<$FB00><$0051>We rule. We may treat commoners<$FFFC>as we please.<$FFFE>
-130	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Defeat<$FFFC>Marquis Creid<$FFFE>
-131	・Defeat Marquis Creid<$FFFE>
+130	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Defeat<$FFFC>Marquis Quaid<$FFFE>
+131	・Defeat Marquis Quaid<$FFFE>
 132	N-no… We saved no one…<$FFFE>
 133	<$FB00><$0053>All the villagers escaped？<$FFFE>
 134	<$FB00><$0054>Damn, they escaped！ I'll form a<$FFFC>unit to hunt you down！<$FFFE>
 135	<$FB00><$0055>What is this！ What is all the<$FFFC>noise！<$FFFE>
-136	<$FB00><$004D>Creid…<$FFFE>
+136	<$FB00><$004D>Quaid…<$FFFE>
 137	<$FB00><$0056>Well. Emperor killers and<$FFFC>rebels. By imperial law, you die.<$FFFE>
 138	<$FB00><$0050>Imperial law！？ You rewrote it to<$FFFC>exploit people！ Why！？<$FFFE>
 139	<$FB00><$0051>We rule. We may treat commoners<$FFFC>as we please.<$FFFD><$FB00><$0057>I will form a unit to hunt you down. Enjoy<$FFFC>waiting！<$FFFE>

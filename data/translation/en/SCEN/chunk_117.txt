@@ -13,11 +13,11 @@
 11	Sky Battleship Attacking the Demons<$FFFF>
 12	<$FB00><$0089>GYAAAHH！<$FFFE>
 13	<$FB00><$008A>Damn it！<$FFF5><$FFF8><$FE1E><$FE1E><$FFF6><$FB00><$008B>What monstrous power is this！<$FFFE>
-14	<$FB00><$008D>To think the Crimsonia lot<$FFFC>would bring out a thing like that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$008E>This was not in my reckoning！<$FFFE>
+14	<$FB00><$008D>To think the Crimzonia lot<$FFFC>would bring out a thing like that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$008E>This was not in my reckoning！<$FFFE>
 15	Sky Battleship Bridge<$FFFF>
 16	<$FB00><$008F>Lord Zero！ We hold the advantage. The<$FFFC>demons' destruction is only a matter of<$FFFC>time！<$FFFE>
-17	<$FB00><$0090>I see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFB> <$FFF6><$FB00><$0091>By the way, when<$FFFC>does Peiria rise？<$FFFE>
-18	<$FFF7><$FB00><$0092>Hah？<$FFF5><$FFF8> <$FFF6><$FB00><$0093>Peiria, sir？<$FFFE>
+17	<$FB00><$0090>I see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFB> <$FFF6><$FB00><$0091>By the way, when<$FFFC>does Pelia rise？<$FFFE>
+18	<$FFF7><$FB00><$0092>Hah？<$FFF5><$FFF8> <$FFF6><$FB00><$0093>Pelia, sir？<$FFFE>
 19	<$FB00><$0094>Yes. When does it rise？<$FFFE>
 20	<$FB00><$0095>In about two hours.<$FFFE>
 21	<$FB00><$0096>Don't slacken the attack. And to<$FFFC>be safe, move the battleship's soldiers to<$FFFC>the ground force.<$FFFE>

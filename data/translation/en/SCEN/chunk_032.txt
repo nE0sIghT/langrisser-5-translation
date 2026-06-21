@@ -73,7 +73,7 @@
 71	I'm sorry….<$FFFE>
 72	<$FB00><$0020>In truth I came here with<$FFFC>something to tell you, Lord Lanford.<$FFFE>
 73	<$FB00><$0021>What is it？<$FFFE>
-74	<$FB00><$0022>That Russel was a monster<$FFFC>reached the court.<$FFFD>Queen Rosenshill, on learning it, has<$FFFC>restored your command of the army.<$FFFE>
+74	<$FB00><$0022>That Russel was a monster<$FFFC>reached the court.<$FFFD>Queen Rozenciel, on learning it, has<$FFFC>restored your command of the army.<$FFFE>
 75	<$FB00><$0023>Heh, I see.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>So I'm no<$FFFC>longer in the dishonor of a jailbreaker.<$FFFE>
 76	<$FB00><$0025>The Queen also wishes to<$FFFC>apologize deeply for it.<$FFFE>
 77	<$FB00><$0026>Well done, Emily.<$FFFE>
@@ -102,7 +102,7 @@
 100	I'll… let you… pass no further….<$FFFE>
 101	I'll… let you… pass no further….<$FFFE>
 102	Lord Lainforce… forgive me….<$FFFE>
-103	Even if my life… runs out…. Crimso…<$FFFC>will… guhah！<$FFFE>
+103	Even if my life… runs out…. Crimzo…<$FFFC>will… guhah！<$FFFE>
 104	<$FFF8>…<$FFF6><$FB00><$0036>Uu<$FFF5><$FFF8>….<$FFFE>
 105	<$FB00><$0037>Did we get him！<$FFFE>
 106	<$FB00><$0019>Lord Lanford！<$FFFE>

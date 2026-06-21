@@ -6,11 +6,11 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Aizer<$FFFF>
+7	Aizel<$FFFF>
 8	Selena<$FFFF>
-9	Wheeler<$FFFF>
+9	Wiler<$FFFF>
 10	Soldier<$FFFF>
-11	・<$F600><$0000> and Lambda escape west<$FFFC>・Defeat Aizer<$FFFE>
+11	・<$F600><$0000> and Lambda escape west<$FFFC>・Defeat Aizel<$FFFE>
 12	・<$F600><$0000> or Lambda dies<$FFFE>
 13	Tirock Plateau<$FFFF>
 14	<$FB00><$000D>Hm？ All these cliffs make this place hard<$FFFC>to walk.<$FFFE>
@@ -20,7 +20,7 @@
 18	<$FB00><$0012>Wait, Lambda！<$FFFD><$FB00><$0013>Who's there！<$FFFE>
 19	<$FB00><$0014>Just as I thought. I knew you<$FFFC>would pass through here！<$FFFE>
 20	<$FB00><$0015>You're the one from before<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$0016>The name is Aizer. Remember it<$FFFC>well.<$FFFD><$FB00><$0017>You'll be seeing my face for a long time,<$FFFC>serving under Lord Lainforce.<$FFFE>
+21	<$FB00><$0016>The name is Aizel. Remember it<$FFFC>well.<$FFFD><$FB00><$0017>You'll be seeing my face for a long time,<$FFFC>serving under Lord Lainforce.<$FFFE>
 22	<$FB00><$0018>You talk as if you've already<$FFFC>caught us.<$FFFE>
 23	<$FB00><$0019>That's about to come true.<$FFFD><$FB00><$001A>Your power is needed for Lord Lainforce's<$FFFC>plan. I'll take you by force！<$FFFE>
 24	<$FB00><$001B>Just try it！<$FFFE>
@@ -55,7 +55,7 @@
 53	<$FB00><$001E>To cross the river we need a<$FFFC>bridge. <$FFF4>There are two bridges<$FFF3>. We hold<$FFFC>them there.<$FFFE>
 54	<$FB00><$001F>Understood！<$FFFE>
 55	<$FB00><$0020>Leave it to me！<$FFFE>
-56	S…so strong… Lord Aizer<$00E4><$00E5><$00E6>！<$FFFE>
+56	S…so strong… Lord Aizel<$00E4><$00E5><$00E6>！<$FFFE>
 57	How… to someone like this…<$FFFE>
 58	<$FB00><$002B>Don't think you can escape.<$FFFE>
 59	Don't think you can escape.<$FFFE>
@@ -73,7 +73,7 @@
 71	<$FB00><$003F>Truly the work of made<$FFFC>beings<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay<$FFFC>hidden in them<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
 72	Now then, tell us what you were<$FFFC>doing here！<$FFFE>
 73	Even if I told you, you would<$FFFC>not understand.<$FFFD>Farewell！ Next time, no mercy！<$FFFE>
-74	L…Lord Aizer is<$FFF8>…<$FFFD><$FFF6>Tch！ We're pulling out！<$FFFE>
+74	L…Lord Aizel is<$FFF8>…<$FFFD><$FFF6>Tch！ We're pulling out！<$FFFE>
 75	<$FB00><$0021>So only that one is left.<$FFFE>
 76	<$FB00><$0022>Mmgh<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0023>We had to hurry the<$FFFC>pursuit, but perhaps I brought too few<$FFFC>men.<$FFFE>
 77	<$FB00><$0024>There's no need to force a<$FFFC>fight. Right now, moving on comes first.<$FFFE>
@@ -85,7 +85,7 @@
 83	Then here, take this.<$FFFD><$0000> <$0000>Got 50P gold！<$FFFE>
 84	Wow！ Aren't you something！ Fine, I'll<$FFFC>lend you just a little strength！<$FFFD><$0000> <$0000><$FFF4>Strength<$FFF3> rose by 1！<$FFFE>
 85	<$0000> Tch！<$FFFD><$0000> The pixie flew away.<$FFFE>
-86	<$FB00><$0026>Sir, Admiral Wheeler！ Someone is fighting<$FFFC>up ahead！<$FFFE>
+86	<$FB00><$0026>Sir, Admiral Wiler！ Someone is fighting up<$FFFC>ahead！<$FFFE>
 87	<$FB00><$0027>Who could it be？ Surely not Landius and<$FFFC>his men？<$FFFE>
 88	<$FFF8>…<$FFF6><$FB00><$0028>No, it isn't. One side looks like<$FFFC>Federation troops<$FFF5><$FFF8>…<$FFF6><$FB00><$0029>but the ones fighting<$FFFC>them look like a pair of adventurers.<$FFFE>
 89	<$FB00><$002A>Adventurers？<$FFFE>

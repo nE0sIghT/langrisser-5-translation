@@ -16,7 +16,7 @@
 14	<$FB00><$0005>Mm. And the ship？<$FFFE>
 15	<$FB00><$0006>Matching the terrain is taking time, but<$FFFC>we've narrowed it down considerably.<$FFFE>
 16	<$FB00><$0007>I see. That side fares well, then. And the<$FFFC>key specimen, is it captured？<$FFFE>
-17	<$FB00><$0008>Aizer is in pursuit as we speak, but has<$FFFC>yet to take them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？ However able<$FFFC>Aizer may be…<$FFFE>
+17	<$FB00><$0008>Aizel is in pursuit as we speak, but has<$FFFC>yet to take them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？ However able<$FFFC>Aizel may be…<$FFFE>
 18	<$FB00><$000A>No need to worry. The man has earned my<$FFFC>trust. Though against a specimen, small<$FFFC>wonder he struggles.<$FFFD><$FB00><$000B>I saw it with my own eyes. The specimens'<$FFFC>potential runs higher than expected.<$FFFD><$FB00><$000C>Heh, Gizarof. More than a mere schemer<$FFFC>after all. Impressive work.<$FFFD><$FB00><$000D>Which reminds me. How goes the study of<$FFFC>the recovered specimen？<$FFFE>
 19	<$FB00><$000E>Sir. His state has stabilized. But his ego<$FFFC>is strong. The doctors can barely handle<$FFFC>him.<$FFFE>
 20	<$FB00><$000F>Ego…the strength of will. Interesting. I<$FFFC>will see him later myself. You carry on<$FFFC>with the plan.<$FFFE>
@@ -45,5 +45,5 @@
 43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>…<$FFF6><$FB00><$0028>is that all right<$FFF5><$FFF8>…<$FFFE>
 44	<$FB00><$0029>Of course it's not！ Don't take<$FFFC>us lightly！<$FFFE>
 45	<$FB00><$002A>What！ You want a fight！<$FFFE>
-46	<$0000>Having shaken Aizer's pursuit,<$FFFC><$F600><$0000> and Lambda reach Knox, a<$FFFC>town on the pass.<$FFFD><$0000>There they see a boy and girl harassed<$FFFC>by Goldry, captain of the Caconsis<$FFFC>garrison.<$FFFD><$0000>To save them, <$F600><$0000> and<$FFFC>Lambda square off against the Caconsis<$FFFC>troops.<$FFFE>
+46	<$0000>Having shaken Aizel's pursuit,<$FFFC><$F600><$0000> and Lambda reach Knox, a<$FFFC>town on the pass.<$FFFD><$0000>There they see a boy and girl harassed<$FFFC>by Goldry, captain of the Caconsis<$FFFC>garrison.<$FFFD><$0000>To save them, <$F600><$0000> and<$FFFC>Lambda square off against the Caconsis<$FFFC>troops.<$FFFE>
 47	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

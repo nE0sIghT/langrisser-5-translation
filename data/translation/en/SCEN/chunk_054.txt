@@ -6,11 +6,11 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Rosenshill<$FFFF>
+7	Rozenciel<$FFFF>
 8	Lanford<$FFFF>
 9	Emily<$FFFF>
 10	Soldier<$FFFF>
-11	Aizer<$FFFF>
+11	Aizel<$FFFF>
 12	Lainforce<$FFFF>
 13	Omega<$FFFF>
 14	McClaine<$FFFF>

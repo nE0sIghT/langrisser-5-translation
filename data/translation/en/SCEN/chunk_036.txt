@@ -13,7 +13,7 @@
 11	Control prog.<$FFFF>
 12	・Defeat all enemies<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
-14	Peiria Core<$FFFF>
+14	Pelia Core<$FFFF>
 15	<$FB00><$005C>Looks like my path was right after all<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$005D>Hm？ What's that！<$FFFE>
 16	<$FB00><$005E>I'm sorry…<$FFFE>
 17	<$FB00><$005F>Forgive me. I made a mistake at the end.<$FFFE>
@@ -97,7 +97,7 @@
 95	<$FB00><$0095>By the way, how did you get<$FFFC>here？<$FFFE>
 96	<$FB00><$0096>Huh？ What do you care？<$FFFE>
 97	<$FB00><$0097>Just answer me！<$FFFE>
-98	<$FB00><$0098>I slipped onto Lainforce's ship<$FFFC>and rode it to Crimso. Then I stole a<$FFFC>small craft and came here.<$FFFD><$FB00><$0099>Satisfied？<$FFFE>
+98	<$FB00><$0098>I slipped onto Lainforce's ship<$FFFC>and rode it to Crimzo. Then I stole a<$FFFC>small craft and came here.<$FFFD><$FB00><$0099>Satisfied？<$FFFE>
 99	<$FB00><$009A>And the ship you came in？<$FFFE>
 100	<$FB00><$009B>Outside, sunk full of holes.<$FFFC>Take it if you want it.<$FFFE>
 101	<$FFF8>…<$FFF6><$FB00><$009C>So his ship is useless too<$FFF5><$FFF8>…<$FFFE>

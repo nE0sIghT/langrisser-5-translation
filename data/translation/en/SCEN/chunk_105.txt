@@ -7,16 +7,16 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Omega<$FFFF>
-8	Aizer<$FFFF>
+8	Aizel<$FFFF>
 9	Soldier<$FFFF>
 10	By the Transport Airship<$FFFF>
-11	<$FB00><$00D7>You took your time, Aizer.<$FFFE>
+11	<$FB00><$00D7>You took your time, Aizel.<$FFFE>
 12	<$FB00><$00D8>I have many duties. I am not<$FFFC>like you, who only has to run off and<$FFFC>fight.<$FFFE>
 13	<$FFF7><$FB00><$00D9>Heh！ <$FFF5><$FFF6><$FB00><$00DA>Big words<$FFF5><$FFF8>…<$FFFE>
 14	<$FB00><$00DB>And did you capture them？<$FFFE>
 15	<$FB00><$00DC>Do not rush me. Everything has its<$FFFC>proper timing.<$FFFE>
 16	<$FB00><$00DD>Good grief. Your mouth is your<$FFFC>only talent.<$FFFD><$FB00><$00DE>We will begin our mission at once. We have<$FFFC>no time to play, unlike some people.<$FFFE>
-17	<$FB00><$00DF>Lord Aizer, we should first learn<$FFFC>where the item is located.<$FFFE>
+17	<$FB00><$00DF>Lord Aizel, we should first learn<$FFFC>where the item is located.<$FFFE>
 18	<$FB00><$00E0>Indeed. We must gather<$FFFC>information without alerting anyone. What<$FFFC>a bother.<$FFFE>
 19	<$FB00><$00E1>If you want what you seek, go to<$FFFC>Velzeria.<$FFFE>
 20	<$FB00><$00E2>What？ How do you know that<$FFF5><$FFF8>…？<$FFFE>

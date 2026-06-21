@@ -6,13 +6,13 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Aizer<$FFFF>
+7	Aizel<$FFFF>
 8	Soldier<$FFFF>
 9	Jessica<$FFFF>
 10	Lenard<$FFFF>
 11	By the Transport Airship<$FFFF>
 12	<$FB00><$0003>Listen well. Whatever happens, this sword<$FFFC>must reach Lord Lainforce.<$FFFE>
-13	<$FB00><$0004>And what will you do, Lord<$FFFC>Aizer？<$FFFE>
+13	<$FB00><$0004>And what will you do, Lord<$FFFC>Aizel？<$FFFE>
 14	<$FB00><$0005>We stay and hunt for the other<$FFFC>sword. We came all the way to El Sallia. I<$FFFC>mean to search every corner.<$FFFE>
 15	<$FB00><$0006>Understood. Then we will head<$FFFC>back ahead of you.<$FFFE>
 16	<$FB00><$0007>Good. I'm counting on you.<$FFFE>
@@ -29,5 +29,5 @@
 27	<$FB00><$0012>True. A small band like yours<$FFFC>could creep in unseen.<$FFFE>
 28	<$FB00><$0013>The same plan we used to retake<$FFFC>Kalxath Castle.<$FFFE>
 29	<$FB00><$0014>Understood. We will settle<$FFFC>this quickly.<$FFFE>
-30	<$0000>Shaking off Omega, <$F600><$0000>'s<$FFFC>band reached Velzeria Castle. <$0000>While the<$FFFC>Kalxath regulars fought on, they slipped<$FFFC>inside.<$FFFD><$0000>In the deepest hall of Velzeria, Necro<$FFFC>Glob awaited them. <$0000>For a world where<$FFFC>the people of El Sallia can live in peace,<$FFFC><$F600><$0000>'s band challenges Glob.<$FFFE>
-31	Victory terms<$FFFC><$0000><$FFFC>・Defeat Necro Glob<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
+30	<$0000>Shaking off Omega, <$F600><$0000>'s<$FFFC>band reached Velzeria Castle. <$0000>While the<$FFFC>Kalxath regulars fought on, they slipped<$FFFC>inside.<$FFFD><$0000>In the deepest hall of Velzeria, Necro<$FFFC>Grove awaited them. <$0000>For a world where<$FFFC>the people of El Sallia can live in peace,<$FFFC><$F600><$0000>'s band challenges Grove.<$FFFE>
+31	Victory terms<$FFFC><$0000><$FFFC>・Defeat Necro Grove<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

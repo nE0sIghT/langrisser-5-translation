@@ -9,7 +9,7 @@
 7	Liberalist<$FFFF>
 8	Warden<$FFFF>
 9	Officer<$FFFF>
-10	Creid<$FFFF>
+10	Quaid<$FFFF>
 11	・Defeat all wardens<$FFFE>
 12	・A warden escapes<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Gaiana Prison<$FFFF>
@@ -32,7 +32,7 @@
 30	Because I'm great at everything.<$FFFE>
 31	<$FFF8>…<$FB00><$0037>Heh.<$FFF5><$FFF6><$FB00><$0038>Even now, you have room<$FFFC>to joke.<$FFFE>
 32	<$FB00><$0039>All right, let's go！<$FFFE>
-33	I did it！ Now I can contact<$FFFC>Lord Creid and report your actions！<$FFFE>
+33	I did it！ Now I can contact<$FFFC>Lord Quaid and report your actions！<$FFFE>
 34	Damn！ If they escape, our<$FFFC>operation is exposed…<$FFFE>
 35	Thank you.<$FFFE>
 36	I never thought I'd see the<$FFFC>outside again…<$FFFE>
@@ -59,11 +59,11 @@
 57	<$FB00><$005E>G-ghah…<$FFFE>
 58	To rebels…ghah！<$FFFE>
 59	Sorry…Prim… I won't see you<$FFFC>again…<$FFFE>
-60	L-Lord Creid…forgive…<$FFFE>
+60	L-Lord Quaid…forgive…<$FFFE>
 61	I'm falling！<$FFFE>
 62	…Not yet…not yet…<$FFFE>
 63	…Oh…gods…<$FFFE>
-64	Lord Creid…this isn't what…<$FFFE>
+64	Lord Quaid…this isn't what…<$FFFE>
 65	<$FB00><$0061>Grrr…again… But Gilmore<$FFFC>already knows your movements.<$FFFD><$FB00><$0062>You can act freely only for now！ Remember<$FFFC>that！<$FFFE>
 66	<$FB00><$0063>The weaker the dog, the louder it<$FFFC>barks.<$FFFE>
 67	<$FB00><$0064>Operation complete.<$FFFE>
@@ -79,13 +79,13 @@
 77	<$FB00><$003E>The east side looks thin！<$FFFE>
 78	<$FB00><$003F>The south side looks thin！<$FFFE>
 79	<$FB00><$0040>The west side looks thin！<$FFFE>
-80	<$FB00><$0041>Good, escape that way！ Any<$FFFC>survivor must warn Marquis Creid！<$FFFE>
+80	<$FB00><$0041>Good, escape that way！ Any<$FFFC>survivor must warn Marquis Quaid！<$FFFE>
 81	<$FB00><$0042>Understood！<$FFFE>
 82	<$FB00><$0043>They noticed us. They're<$FFFC>trying to escape！<$FFFE>
 83	<$FB00><$0044>If they escape, our future<$FFFC>moves may be blocked.<$FFFE>
 84	<$FB00><$0045>Right. Don't let anyone<$FFFC>escape！<$FFFE>
 85	<$FB00><$0046>At last, I found you！<$FFFE>
-86	<$FB00><$0047>Creid！<$FFFE>
+86	<$FB00><$0047>Quaid！<$FFFE>
 87	<$FB00><$0048>I prepared elite troops just<$FFFC>for you. Entertain me！<$FFFD><$FB00><$0049>Good timing. Kill them with the<$FFFC>prisoners！<$FFFE>
 88	<$FB00><$004A>Sir！<$FFFE>
 89	・Defeat all enemies<$FFFE>
@@ -109,7 +109,7 @@
 107	<$FB00><$0054>West. Run west！<$FFFE>
 108	<$FB00><$0055>Understood. We'll do that.<$FFFE>
 109	<$FB00><$0056>Wardens, why have you left<$FFFC>your posts？<$FFFE>
-110	<$FB00><$0057>Forgive us. We thought we<$FFFC>couldn't win alone and were going to Lord<$FFFC>Creid.<$FFFE>
+110	<$FB00><$0057>Forgive us. We thought we<$FFFC>couldn't win alone and were going to Lord<$FFFC>Quaid.<$FFFE>
 111	<$FB00><$0058>Then you need not flee. Attack<$FFFC>whoever is closest, prisoners or rebels！<$FFFE>
 112	<$FB00><$0059>Sir！ Understood！<$FFFE>
 113	<$FB00><$005F>Wahahaha！ Justice for rebels！<$FFFE>
