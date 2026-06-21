@@ -18,13 +18,13 @@ that auto-wrap (dialogue, narration/briefing, quiz) are 21 cells wide
 (measured in-game with a ruler build).
 
 The engine draws the speaker name plate inline at the start of a plated
-window, so plated first lines are shorter by the plate width. When the
-static VM tracer reaches a display command, its byte9 field is used as a
-zero-based speaker-pool slot (0xff means no plate). Missing trace rows
-fall back to the widest plate in the chunk's speaker pool. The pool size
-comes from the chunk VM header (+0x38) in the original SCEN.DAT, which
-excludes location plates; speaker plate names are kept short (<= 5 cells)
-so the fallback bound stays tight.
+window, so plated first lines are shorter by the plate width. The production
+wrapper reads each record's display command, resolves its actor key at
+`p+6..7` through the chunk actor-plate table, and reserves the exact plate
+width. Unresolved crowd keys fall back to the widest plate in the chunk's
+speaker pool. The pool size comes from the chunk VM header (+0x38) in the
+original SCEN.DAT, which excludes location plates; speaker plate names are kept
+short (<= 5 cells) so fallback bounds stay tight.
 
 Choice records (text starting with ・) are kept single-line and reported
 if they exceed the width.
@@ -329,15 +329,11 @@ def speaker_pool_sizes(scen_path: Path) -> dict[int, int]:
 
 
 def traced_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
-    """Return chunk -> record -> speaker slot from decoded display commands.
+    """Legacy VM-tracer fallback: chunk -> record -> byte9-derived slot.
 
-    Display opcodes 0x0b..0x10 pass a zero-based text id and byte9 to
-    handler 0x80024424. In chunk 45 the text id is relative to the first
-    FB00-bearing text record, and byte9 is a zero-based speaker-pool slot;
-    0xff means the window has no speaker plate. The tracer is incomplete for
-    many chunks, so this function only returns rows that map cleanly back to
-    an original FB00 record. Missing records deliberately fall back to the
-    conservative chunk-wide reserve.
+    This predates the actor-key extractor below. It is retained only as a
+    conservative fallback for old traced rows; the production path is
+    `semantic_plate_slots()`, which reads the speaker actor key at p+6..7.
     """
     out: dict[int, dict[int, int | None]] = {}
     data = scen_path.read_bytes()
@@ -380,18 +376,13 @@ def display_plate_slots(
     scen_path: Path,
     pool_sizes: dict[int, int],
 ) -> tuple[dict[int, dict[int, int | None]], set[int], dict[int, set[int]]]:
-    """Per-record display metadata from a linear scan of VM display commands.
+    """Legacy linear-scan fallback for display metadata.
 
     traced_plate_slots follows control flow and stops on the tutorial-style
     chunks whose bytecode it cannot walk (it misreads an early opcode-00 skip).
-    The display opcodes 0x0b..0x10 (handler 0x80024424) still sit in the VM
-    block in order: byte9 is a zero-based speaker slot (0xff = no plate) and the
-    u16 text id at +10 counts from the chunk's first text record. Chunks without
-    FB00 markers are scanned (the engine keeps the plate across their FB00-less
-    records). The quiz chunk 0 is scanned too: it does carry FB00 markers, but
-    those are portrait cues, not speaker plates, and its real plates (the
-    virtual-battle intro) come from these display commands like the FB00-less
-    chunks. Other FB00 chunks keep the exact path-traced behaviour.
+    This byte9-based scan is not authoritative for speakers; it remains only
+    for yes/no window detection and conservative legacy fallback data. Exact
+    plate reserves come from `semantic_plate_slots()`.
 
     Returns:
     - chunk -> record -> speaker slot (None means no plate)
@@ -450,12 +441,14 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
     """Per-record speaker plate, read straight from the display commands.
 
     Each display command (opcode 0x0B..0x10, 12 bytes) carries the speaker as
-    the actor key at byte +6 and the display order as the u16 text id at +10;
-    record = first FB00 record + text id (this covers FB00-less spoken records
-    too). The real commands are picked out by a semantic filter rather than a VM
-    walk: the actor key must be a chunk `actor_plate_table` key (or the special
-    `0xFFE5..0xFFFE` crowd range, or `0xFFFF` = no plate), the text id < count,
-    the mode `byte+3 & 3 <= 2` and the name-visible flag `byte+8 <= 1`. See
+    the actor key at byte +6 and the display order as the u16 text id at +10.
+    The implementation maps `record = first FB00 record + text id` and bounds the
+    id by the FB00-bearing record count; this still covers FB00-less spoken
+    records interleaved in that contiguous display range. The real commands are
+    picked out by a semantic filter rather than a VM walk: the actor key must be
+    a chunk `actor_plate_table` key (or the special `0xFFE5..0xFFFE` crowd range,
+    or `0xFFFF` = no plate), the text id must be in range, the mode
+    `byte+3 & 3 <= 2`, and the name-visible flag `byte+8 <= 1`. See
     docs/SPEAKER_NAME_EXTRACTION.md.
 
     Returns chunk -> record -> slot, where slot is the zero-based speaker-pool
@@ -480,7 +473,7 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
             continue
         first_fb, nfb = min(fb), len(fb)
         cands: dict[int, list[tuple[int, int]]] = {}
-        for p in range(len(vm) - 12):
+        for p in range(len(vm) - 11):
             if 0x0B <= vm[p] <= 0x10:
                 key = vm[p + 6] | (vm[p + 7] << 8)
                 tid = vm[p + 10] | (vm[p + 11] << 8)
@@ -633,7 +626,7 @@ def main() -> None:
                 record_slots[rec] = slot
         # Unresolved dialogue keeps the persistent plate only in the FB00-less
         # chunks where one speaker narrates the whole block; the quiz's plate
-        # does not persist, so there byte9 only governs the records it resolves.
+        # does not persist, so only explicitly resolved records carry a reserve.
         plated_no_fb = confident and chunk_idx in persistent_chunks
         width = args.width
         out_lines: list[str] = []
@@ -680,7 +673,7 @@ def main() -> None:
                 elif plated_no_fb and not text.rstrip().endswith("<$FFFF>"):
                     force_plate = True
                 # The quiz's FB00 markers are portraits, not speaker plates, so
-                # records byte9 did not resolve to a plate carry no reserve.
+                # records the display scan did not resolve carry no reserve.
                 if chunk_idx == 0 and not force_plate:
                     reserve = 0
                 tail_reserve = YESNO_TAIL_RESERVE if rec_idx in yesno_records else 0

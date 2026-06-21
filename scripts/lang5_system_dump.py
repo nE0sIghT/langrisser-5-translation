@@ -27,7 +27,7 @@ from pathlib import Path
 
 FFFF = 0xFFFF
 SOFT_BREAK = 0xFFFC
-SCAN_START = 0x7000      # past the font glyph plane (glyphs end at 0x7FF8)
+SCAN_START = 0x8052      # first verified text group table
 MAX_STEP = 0x30          # max plausible string length (+terminator) in words
 MIN_ENTRIES = 8          # a real group has at least this many strings
 

@@ -10,8 +10,9 @@ content-matched global replaces.
 ## Layout overview
 
 ```
-0x00000 .. 0x07FF8   font glyph plane (1820 glyphs x 18 bytes)
-0x08000 .. ~0x179B0  text region: a sequence of string groups (+ a few loose runs)
+0x00000 .. 0x0800A   font/menu-adjacent glyph data through glyph slot 1820
+0x0800A .. 0x08052   non-text data before the first string group
+0x08052 .. ~0x179B0  text region: a sequence of string groups (+ a few loose runs)
 ```
 
 Glyph codes are 16-bit little-endian indices into the font plane (`code * 18`
@@ -24,9 +25,12 @@ points at the glyph). Special codes:
 | `0xFFFF` | end of string (run terminator) |
 | `>= 0xFB00` | reserved / control (not a glyph) |
 
-The font plane ends at glyph 1820 (`0x7FF8`); `lang5_build_en_font.py` rewrites
-glyphs there to draw the English alphabet (see also `IMG_DAT_FORMAT.md` for the
-unrelated picture assets).
+Glyph 1820 starts at `0x7FF8` and occupies bytes through `0x8009`. The bytes
+from `0x800A` through `0x8051` are non-text prelude data, so
+`lang5_system_dump.py` starts at the first verified string-group table,
+`0x8052`; that group's first string base is `0x8298`. `lang5_build_en_font.py`
+rewrites glyphs only up to slot 1820 to draw the English alphabet (see also
+`IMG_DAT_FORMAT.md` for the unrelated picture assets).
 
 ## String groups
 

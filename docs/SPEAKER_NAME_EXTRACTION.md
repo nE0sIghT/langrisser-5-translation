@@ -1,275 +1,72 @@
 # Speaker Name Extraction Notes
 
-This document records the current state of reverse-engineering speaker plate
-selection for dialogue line wrapping.
+This document records the current production method for extracting speaker
+plate widths for dialogue line wrapping. The old broad VM-walk task is parked;
+the shipped wrapper does not need it.
 
-## Confirmed format facts (2026-06-19)
+## Current Production Mechanism
 
-Data-verified against the original `SCEN.DAT` (131 chunks). These are facts, not
-heuristics; the open part is still the full VM walk (see the parked decision).
+`lang5_rewrap.py` uses `semantic_plate_slots()` as the authoritative source for
+per-record speaker plates. `lang5_scendump.py` uses the same function to emit
+`# spk: <name>` comments and the `speaker` column in `work/scriptdump/all_records.csv`.
 
-1. **VM block starts with a u32 offset table.** Every chunk's VM stream
-   (`vm_block`) begins with an ascending table of u32 byte offsets — the script
-   entry points that opcodes `0x01`/`0x03` index into ("indexed call/jump
-   through the VM script table"). Verified present in **131/131** chunks. The
-   linear tracer in `lang5_speakers.py` is wrong to start at offset 0: that is
-   the table, not code (it immediately reads a table entry, e.g. `0x44`, as an
-   opcode and stops).
-2. **The VM is only partially decoded.** Past the table, real chunks use opcodes
-   the disassembler does not know (e.g. `0x28`, `0x44`), so the linear walk
-   cannot reach later instructions. This is why whole chunks (e.g. chunk 4)
-   resolve **zero** display rows.
-3. **Display/window command = opcode `0x0B..0x10`, 12 bytes.** Byte layout from
-   the command start: `[0]` opcode, `[+9]` byte9 (speaker field), `[+10..11]`
-   `text_id` (u16). `text_id` is the display order; record index is
-   `first_fb_record + text_id`. Confirmed in chunk 4: `text_id` 54..66 map to
-   records 70..82 in order with sensible speakers (クラレット, 町人, 元帥).
-4. **byte9 is the speaker.** For named speakers it equals the pool slot
-   (`7`=町人, `6`=ランフォード元帥, `3`=クラレット); `0xFF` = no plate. Value
-   `0xFE` appears on anonymous crowd/civilian lines (chunk 4 records 75/77/79);
-   its exact plate effect is **not** confirmed.
-5. **"Town" is a speaker, not a location.** It is the EN form of 町人
-   (townsperson), pool slot 7 — a normal speaker plate.
-6. **The resync/pattern display scan is NOT reliable.** Scanning for
-   `0x0B..0x10` + 12-byte windows and requiring the complete `0..N-1` `text_id`
-   set to resolve uniquely succeeds in **0/131** chunks (false-positive windows
-   everywhere). Do not base plate reserves on a pattern scan; only a real VM
-   walk gives trustworthy rows.
+The extractor does **not** execute the VM. It scans the chunk VM block for
+self-contained display/window commands and accepts a 12-byte window only when all
+semantic fields are valid:
 
-### VM bytecode structure (2026-06-19)
+- opcode byte `p+0` is `0x0B..0x10`;
+- actor key `u16@p+6` is present in the chunk actor-plate table, is `0xFFFF`
+  (no plate), or is in the runtime-remapped crowd range `0xFFE5..0xFFFE`;
+- text id `u16@p+10` is within the chunk's accepted display range;
+- mode bits `(p+3) & 3` are `<= 2`;
+- name-visible flag `p+8` is `<= 1`.
 
-Decoded far enough to characterize the stream, not far enough to walk it:
+Record index is `first_fb_record + text_id`. The implementation bounds the range
+by the count of `FB00`-bearing records but maps it contiguously from the first
+`FB00` record, so it covers FB00-less spoken records interleaved in that display
+range.
 
-7. **Two-level dispatch tables precede the code.** The VM block is
-   `[u32 master table][u16 sub-lists][bytecode]`. The master table (entry count
-   = `first_entry / 4`) points at `0xFFFF`-terminated u16 lists; those u16
-   values are script entry offsets (branch/call targets), giving ~116
-   guaranteed instruction boundaries per chunk.
-8. **Most instructions are a fixed 12 bytes.** Inferred from single-instruction
-   gaps between guaranteed boundaries: opcodes `0x11`..`0x99` consistently span
-   12 bytes (same as the display command `0x0B..0x10`). Variable exceptions:
-   `0xFF`(=`0xFFFF`) is 2-byte padding/separator, `0x00` is a skip block
-   (`4 + u16`), `0x04/0x05/0x09` carry a variable helper, and `0x06..0x0A` look
-   like 4. Control opcodes `0x01/0x02/0x03` (indexed call/jump/return) and a few
-   high opcodes are not pinned.
+Speaker resolution:
 
-**Why a static walk still fails.** A linear disassembler must get *every*
-opcode length exactly right or alignment cascades into garbage (observed: the
-walk reads a data word as an `0x00` skip of length 1027 and desynchronizes). A
-fixed-12 model plus the known variable opcodes resolves the complete `0..N-1`
-display `text_id` set in **0/113** chunks. The control opcodes and the exact
-`0x00` semantics are unresolved, and guessing them from gap statistics does not
-converge. The reliable source is the **VM bytecode interpreter's opcode table
-in the EXE** (the main loop that reads opcodes `0x00..0x48` and calls handler
-`0x80024424`) — this is MIPS code in `SLPS_018.19` and is **not yet
-disassembled** (`docs/DISASM_SUMMARY.md` only covers the *text-stream* dispatcher
-`0x800A36B4`, a different layer). Decoding that table is the prerequisite for
-deterministic per-record speaker extraction; until then the work stays parked.
+- `0xFFFF` => no plate, reserve `0`;
+- `0xFFE5..0xFFFE` => runtime-remapped crowd/off-screen plate, keep the
+  conservative chunk-wide pool reserve;
+- otherwise resolve `actor key -> actor_plate_table.field2 -> speaker-pool slot`.
 
-### VM interpreter decoded from the EXE (2026-06-19, Ghidra)
+Plate width is the rendered speaker name plus the `0x0001` glyph that the engine
+draws next to the name. Continuation pages after `<$FFFD>` do not redraw the
+speaker plate and wrap at full width.
 
-The bytecode interpreter is `FUN_8001d198` in `SLPS_018.19` (Ghidra headless,
-PSX loader). This is authoritative — it is the actual code, not inference.
+## Confirmed Format Facts
 
-9. **The VM is control-flow driven, not linear.** The interpreter keeps an
-   instruction pointer (`DAT_800dade8`) and a call stack (`DAT_80109c58[]`).
-   Opcode `0x01` = CALL (1-byte index into the script offset table, pushes the
-   return address), `0x02` = RET (pops), `0x03` = JMP (1-byte index). So after a
-   call/jump execution continues at a table target, **not** the next byte. This
-   is why every linear / pattern walk desynchronizes; a correct walk must follow
-   the calls and jumps from the entry the master table selects.
-10. **The display/window command is exactly 12 bytes** (handler `FUN_80024424`).
-    Layout, offsets from the opcode byte `p`:
+1. The VM block begins with a dispatch table, not executable bytecode. Linear
+   walking from offset 0 is invalid.
+2. Display/window commands are 12-byte opcodes `0x0B..0x10` handled by
+   `FUN_80024424`.
+3. The speaker is the actor key at `p+6..7`, not byte9. `p+9` is a text-routing
+   byte. Earlier byte9 matches were coincidence on traced rows and are retained
+   only in legacy fallback helpers.
+4. The actor key is resolved through `FUN_800216c8`; ordinary keys are identity,
+   special keys `0xFFE5..0xFFFE` are remapped from runtime state.
+5. The resolved key is looked up in the chunk actor-plate table. That table maps
+   actor key to the speaker-name-pool slot used for the visible plate.
+6. The chunk VM header word at `+0x38` is the speaker-name-pool size. It excludes
+   location plates and scene captions, so it is safe for fallback reserves.
+7. The semantic scan yields a confident production mapping without a full VM
+   interpreter. The full VM walk remains useful for research but is not required
+   for wrapping.
 
-    | bytes | field |
-    | --- | --- |
-    | `p+0` | opcode `0x0B..0x10` |
-    | `p+1` | b1 |
-    | `p+2` | field1 (nibbles) |
-    | `p+3` | flags (bit7, mode = bits0-1) |
-    | `p+4..5` | u16 actor command param |
-    | **`p+6..7`** | **u16 speaker actor key** |
-    | `p+8` | name-visible flag |
-    | `p+9` | text-routing byte (`0xff` = special) |
-    | `p+10..11` | u16 `text_id` |
+## Legacy And Parked Work
 
-11. **The speaker is the actor key at `p+6..7`, not byte9.** `FUN_80024424`
-    passes it through `FUN_800216c8`:
+`traced_plate_slots()` and `display_plate_slots()` in `lang5_rewrap.py` are
+legacy fallbacks. They may still read byte9 from old traced display rows, but
+byte9 is not the production speaker source. Do not base new work on byte9.
 
-    ```c
-    ushort resolve(ushort key) {
-        if ((ushort)(key + 0x1b) < 0x1a)               // key in [0xFFE5..0xFFFE]
-            key = *(ushort*)(&DAT_800eaa0a + key*2);    // remap table in the EXE
-        return key;                                     // else identity
-    }
-    ```
+The broad task of reimplementing the VM interpreter remains parked. Do not resume
+static VM tracing, actor-state interpretation, or full bytecode emulation unless
+a new runtime defect proves the semantic display-command extraction insufficient.
 
-    The resolved key is looked up in the chunk `actor_plate_table` (key ->
-    field2 = name-pool slot). Verified: chunk 4 record 71 has `p+6..7 = 0x0042`,
-    `actor_plate_table[0x42] = slot 7 = 町人 ("Town")`. The earlier `byte9`
-    reserve was a heuristic that matched only by coincidence; `p+9` is the
-    text-routing field, not the speaker.
-
-12. **Simple opcode lengths** (from the `FUN_8001d198` switch): `0x00` = skip
-    `4 + u16@p+2`; `0x16`/`0x18`/`0x19`/`0x1a` = 2; `0x12`/`0x14`/`0x15` = 4;
-    `0x04/05/09` -> `FUN_80025110`, `0x06..0x0A` -> `FUN_80025454`, display ->
-    `FUN_80024424` (each advances the pointer internally). Most other opcodes are
-    12. A deterministic extractor is now specified: walk from the master-table
-    entry, follow CALL/JMP/RET, decode each opcode, read the speaker at `p+6..7`
-    of every display command, resolve via `FUN_800216c8` + `actor_plate_table`.
-
-### Dispatch structure and walker status (2026-06-19)
-
-13. **Three-level dispatch.** `master[0..10]` (u32, indexed by the interpreter's
-    `param_1` phase) point at u16 sub-lists; the sub-list u16 values are the
-    bytecode entry points. `master[11]` (u32 at `vm+0x2c`) points at the CALL/JMP
-    **jump table** (u16 targets, `0xFFFF`-terminated); opcode `0x01`/`0x03` use a
-    1-byte index into it. Plate width also needs the `0x0001` glyph that the
-    engine draws with the name (count it in the reserve, in addition to the
-    resolved speaker name).
-14. **The opcode space is large.** The dispatcher switch runs well past the part
-    decoded here — real bytecode uses `0x2d`, `0x2e`, `0x48`, `0x79`, etc., most
-    12 bytes but some with their own control flow. A correct walker must decode
-    all of them.
-
-**Walker status: not yet working.** Linear, pattern-resync, and a first
-CALL/JMP/RET CFG walk each resolve the complete `0..N-1` display `text_id` set in
-**0/113** chunks. The blockers are the remaining undecoded opcodes (several have
-state-dependent length/flow via `DAT_800db21a`) and the exact phase-1 → phase-2
-setup that seeds the bytecode pointer. The mechanism is understood; a
-production-correct extractor still needs the rest of the `FUN_8001d198` switch
-decoded from Ghidra and the phase model implemented. Ghidra is set up under
-`work/ghidra/` (gitignored) with the program imported, so this is a scoped
-follow-up, not a fresh start.
-
-### Walk attempts and the remaining blocker (2026-06-19, second dig)
-
-15. **Block header before phase-2 code.** Each `master[0..10]` sub-list entry
-    points at a block `[u16 id][u8 type][...]`; phase 1 switches on the type byte
-    and leaves the phase-2 bytecode pointer at `block+4` (type 0) or `block+3`,
-    saved to `DAT_80109c58[depth]`. Phase 2 then runs the opcode interpreter from
-    there.
-16. **`0xFF` is RET/block-end** in phase 2 (`if (opcode==0xff)` pops the call
-    stack; empty stack = done), not a 12-byte instruction.
-17. **Static CFG is still insufficient.** Even seeding from the phase-2 block
-    entries and the `master[11]` jump table, following CALL/JMP/RET with the
-    decoded opcode lengths and `0xFF`=RET, the walk reaches only ~6% of display
-    commands (chunk 4: text_ids `[0,3,4,5,6,7,8,25]` of 0..70). The rest are
-    reached through execution the static traversal does not reproduce: CALL/JMP
-    indices and the deferred jumps set by opcodes `0x12`/`0x13`/`0x1e`.. depend
-    on runtime state (`DAT_800db21a`, the actor/wait flags), and the phase
-    1↔2↔3 state machine seeds pointers conditionally. A correct extractor
-    therefore needs a faithful **emulation** of the phase state machine and the
-    call stack, not a static CFG sweep — i.e. effectively re-implementing
-    `FUN_8001d198`. That is the open task; the speaker math (fact 10/11) is ready
-    to consume its output.
-
-### Working extraction without a VM walk (2026-06-19, the answer)
-
-The VM walk is **not needed**. The display commands are self-contained data; we
-only have to enumerate the real ones and read their fields. A semantic filter
-does this reliably without executing anything:
-
-A 12-byte window at `p` is a real display command when **all** hold:
-`vm[p]` in `0x0B..0x10`; the actor key `u16@p+6` is a key in the chunk's
-`actor_plate_table` (or special range `0xFFE5..0xFFFE`, or `0xFFFF`); the
-`text_id` `u16@p+10` is `< nfb`; the mode `vm[p+3] & 3 <= 2`; the name-visible
-flag `vm[p+8] <= 1`. Record index = `first_fb_record + text_id` (the display
-covers **all** displayed records, FB00-bearing or not - the old `rec in
-fb_records` filter was the bug that dropped lines like chunk 4 record 79).
-
-Across all 113 chunks / 5661 records this yields, per record:
-
-| candidates | share | meaning |
-| --- | ---: | --- |
-| exactly 1 | **92.0%** | unique, confident speaker key |
-| 0 | 6.9% | no plate (reserve 0) |
-| >1 | 1.1% | ambiguous - resolve by non-overlapping position matching |
-
-Validated on chunk 4 records 70-82: the unique keys resolve through
-`actor_plate_table` to the real pool names (ラムダ, 町人, クラレット,
-アルフレッド, ブレンダ). The speaker name (plus the `0x0001` glyph the engine
-draws with it) gives the exact plate width.
-
-**Caveat:** special keys `0xFFE5..0xFFFE` (off-screen crowd lines, e.g. chunk 4
-records 75/77/79) are remapped through `DAT_800eaa0a`, which lives in BSS
-(`vaddr 0x800eaa0a` is past the `.text` image), so it is runtime-initialized and
-not readable statically. Those few records resolve to a generic/crowd plate;
-treat them as a fixed crowd width or no plate.
-
-This is the path to implement: a small extractor (no interpreter) emitting
-`(chunk, record) -> speaker key -> name width`, feeding `lang5_rewrap.py` the
-exact per-record reserve.
-
-**Implemented.** `semantic_plate_slots()` in `lang5_rewrap.py` is this extractor.
-`lang5_rewrap.py` uses it for the exact per-record plate reserve, and
-`lang5_scendump.py` uses it to annotate every spoken record with `# spk: <name>`
-(and a `speaker` column in `all_records.csv`).
-
-### Known defect this explains
-
-Chunk 4 record 79 (`I refuse to die caught up in someone's…`) is spoken (its
-display command sets a plate) but has **no inline `<$FB00>`**. The tracer cannot
-walk chunk 4 (fact 2), so no display row resolves, and `reflow_record` forces
-`reserve = 0` for `<$FB00>`-less records — overriding the chunk-wide safe-bound
-reserve that fact 3 of the parked notes prescribes. The line is wrapped to the
-full 21 cells; in game the plate makes it overflow and the engine hard-breaks
-mid-word (`someone` / `'s` / `war`). The safe-bound reserve must not be zeroed
-for records that may be spoken.
-
-## Decision: PARKED (2026-06-12)
-
-Exact per-line speaker extraction remains parked. Do not resume broad static VM
-tracing, actor-state interpretation, or `FB00` speaker binding work unless the
-parking decision is explicitly reversed.
-
-The production wrapper may still use already-established, bounded facts that do
-not require continuing the extraction effort:
-
-1. Display opcodes `0x0b..0x10` call handler `0x80024424`. For verified chunk
-   45 rows, payload byte 9 is the zero-based speaker-name pool slot. `0xff`
-   means the window has no speaker plate.
-2. When a traced display row maps cleanly back to an `FB00` text record,
-   `lang5_rewrap.py` uses the exact plate width from byte 9.
-3. No new debugging is done to force more display rows to resolve. When no
-   trusted display row exists, the reserve only has to be a safe upper
-   bound on the plate width, not the exact speaker. A too-large reserve costs a
-   slightly early break; a too-small one causes a mid-word engine cut. Only the
-   latter is a defect.
-4. The chunk VM header word `+0x38` is the speaker-name pool size (verified
-   against all 131 chunks: it excludes location plates and scene captions
-   such as chunk 75 record 12/14). The fallback reserve is the widest pool
-   plate per chunk, read straight from the original `SCEN.DAT`.
-5. All speaker plate names are kept at 5 cells or less (titles dropped:
-   "Marshal Lanford" -> "Lanford" etc.), so the gap between the chunk-wide
-   bound and any actual plate is at most 2-3 cells and early breaks are
-   marginal. `data/translation/names_base.csv` holds the short forms.
-6. Continuation pages after `<$FFFD>` do not redraw the speaker plate and wrap
-   at full width.
-
-Static tracing remains open-ended: branch conditions are runtime state (opcode
-`0x7b` targets cannot be chosen statically), chunks 65/107 do not even enter
-the linear trace, and full resolution requires reimplementing the actor-state
-opcode semantics. This is intentionally not part of the active translation
-flow.
-
-`scripts/lang5_speakers.py` stays as a conservative evidence dumper.
-
-## Archived Static-Extraction Goal
-
-This was the original goal before the parked decision above. It is kept as
-historical context only. The shipped wrapper uses exact display byte9 reserves
-only where an already-traced VM row maps cleanly to a text record, and the
-chunk-wide speaker-pool bound everywhere else. That limited use does not unpark
-exact speaker extraction.
-
-The target output is a reproducible extractor:
-
-1. Read the original SCEN/SCEN2 chunk data.
-2. Resolve every `FB00 <id>` dialogue marker to the speaker name plate selected
-   by the game's VM.
-3. Feed that mapping into `lang5_rewrap.py`.
-4. Avoid hand-maintained speaker overrides.
+Historical notes below are kept only to prevent repeating rejected paths.
 
 ## Work Ledger
 
@@ -305,7 +102,7 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
 | DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
 | DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |
-| DONE | Display payload byte 9 is the speaker plate selector where traced. | Chunk 45 maps byte9 `06/07/08/01/00` to Machine/Voice/Woman/Lambda/Sigma and `ff` to no plate, matching in-game observations. | Use byte9 for exact reserve only when the display text id maps cleanly to an `FB00` record. |
+| REJECTED | Display payload byte 9 is the production speaker plate selector. | EXE handler `FUN_80024424` reads the speaker actor key from `p+6..7`; `p+9` is text routing. The chunk 45 byte9 matches were trace evidence only and coincidental for speaker reserve. | Do not use byte9 for new plate-width logic. |
 | DONE | Continuation pages after `FFFD` do not redraw the speaker plate. | User playtest: first page can show a blue speaker plate, while the next page in the same record has no name; chunk 1 record 96 demonstrates this. | Reset reserve to zero after page breaks in `lang5_rewrap.py`. |
 | DONE | Runtime actor/plate lookup table exists. | `0x800b2da4` searches table at `0x800eba38` with count `0x800eba46`. | Decode the table source in each chunk. |
 | DONE | Map chunk-local data to runtime `0x800eba38` table. | Header `u32 +0x14` is the table offset; low byte of header `u32 +0x2c` is the entry count. | Use `actor_plate_table()` in `scripts/lang5_speakers.py`. |
@@ -318,12 +115,12 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | PARKED | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
 | PARKED | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
 | PARKED | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
-| DONE | Integrate plate reserves into `lang5_rewrap.py`. | Exact display byte9 reserve where traceable, otherwise widest VM-header speaker pool; plates capped at 5 cells; continuation pages reset to full width. | Closed by the Decision section. |
+| DONE | Integrate actor-key plate reserves into `lang5_rewrap.py`. | `semantic_plate_slots()` resolves the actor key at `p+6..7` through the chunk actor-plate table; unresolved crowd keys keep the conservative chunk-wide pool reserve. | Current production path. |
 | DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
 | DONE | VM block begins with a u32 script offset table. | Ascending u32 offsets at vm start in 131/131 chunks; tracer wrongly starts at offset 0 (the table) and reads entry `0x44` as an opcode. | Start the walk at the first table entry; decode opcodes `0x28`/`0x44`. |
-| REJECTED | Recover display rows by pattern-scanning `0x0B..0x10` 12-byte windows. | Requiring the complete `0..N-1` `text_id` set to resolve uniquely succeeds in 0/131 chunks; lenient filters admit false-positive windows. | Do not base plate reserves on a pattern scan; only a real VM walk is trustworthy. |
-| DONE | "Town" plate is speaker 町人 (pool slot 7), not a location. | Chunk 4 name pool slot 7 = 町人; display byte9 = 7 on its lines. | Treat it as an ordinary speaker plate. |
-| PENDING | Stop zeroing the safe-bound reserve for `<$FB00>`-less spoken records. | Chunk 4 record 79 is spoken (display sets a plate) but FB00-less, so `reflow_record` forces reserve 0 → engine hard-breaks mid-word. | Decide: full VM walk (unpark) vs. apply the chunk-wide safe bound to FB00-less records too. |
+| REJECTED | Recover display rows by opcode-only `0x0B..0x10` 12-byte scans. | Requiring the complete `0..N-1` `text_id` set to resolve uniquely succeeds in 0/131 chunks; lenient filters admit false-positive windows. | Use the semantic actor-key/text-id/name-flag filter instead. |
+| DONE | "Town" plate is speaker 町人 (pool slot 7), not a location. | Chunk 4 name pool slot 7 = 町人; actor-key extraction resolves its lines to slot 7. | Treat it as an ordinary speaker plate. |
+| DONE | Stop zeroing the safe-bound reserve for `<$FB00>`-less spoken records. | `semantic_plate_slots()` maps display `text_id` contiguously from the first `FB00` record, so interleaved FB00-less spoken lines such as chunk 4 record 79 get a plate reserve or crowd fallback. | Keep this behavior in rewrap. |
 
 ## Archived Work Plan
 
@@ -417,15 +214,16 @@ reverse-engineering paths.
   behavior.
 - Do not solve this with hand-written per-chunk speaker overrides.
 - Do not resume broad static VM tracing to improve wrapping unless a concrete
-  playtest issue remains after display-byte9 rows and the pool-bound fallback.
+  playtest issue remains after semantic actor-key extraction and the pool-bound
+  fallback.
 - Do not derive plate bounds from JP line breaks; the JP script engine-wraps
   mid-line and its first lines exceed the window.
 - Do not parse the VM stream only as aligned 16-bit records when interpreting
   opcode dispatch.
 - Do not treat `FF0B <flags> FFFF FFFF` pattern matches inside opcode `0x00`
   length-skipped payload as executed display commands.
-- Do not wire `scripts/lang5_speakers.py` into rewrap until chunk 45 resolves
-  correctly without manual overrides.
+- Do not wire the legacy `scripts/lang5_speakers.py` tracer into rewrap; use
+  `semantic_plate_slots()` unless a new defect proves it insufficient.
 
 ## Confirmed Data Model
 
