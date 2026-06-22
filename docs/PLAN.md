@@ -119,7 +119,7 @@ English glyph system, and the title-screen credit/QR patch. The current build
 validates with fixed-size SCEN/SCEN2 repacking and produces a PPF without
 growing any disc file. Main story scenarios 1-36, optional chunks 38-42/82-86,
 and recap chunks 129-130 are translated as durable per-chunk assets in
-`data/translation/en/SCEN/` and mirrored in `SCEN2/`.
+`data/translation/en/SCEN/`; the inserter reuses that source for `SCEN2.DAT`.
 
 Still open outside the main story route:
 
@@ -133,9 +133,9 @@ Still open outside the main story route:
 2. Optional maps are translated in intro/battle pairs:
    `82+38`, `83+39`, `84+40`, `85+41`, `86+42`.
 3. World-situation recap chunk 129 and recap/bios chunk 130 are translated.
-4. After every completed chunk pair: rewrap, validate, rebuild PPF, regenerate
-   review HTML, and commit only the durable translation assets plus any
-   required documentation updates.
+4. After every completed chunk or scenario pair: rewrap, validate, rebuild PPF,
+   regenerate review HTML, and commit only the durable translation assets plus
+   any required documentation updates.
 
 ## Stage 5 — full-game polish
 

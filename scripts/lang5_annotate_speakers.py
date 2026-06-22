@@ -3,8 +3,9 @@
 
 Inserts a ``# spk: <name>`` comment line before every dialogue record in
 ``data/translation/en/SCEN/chunk_*.txt`` so the translation can be read with its
-speaker in view. SCEN2 is generated/synced by the build flow, so this script
-does not touch it unless ``--include-scen2`` is requested explicitly. The
+speaker in view. ``SCEN`` is the canonical translation source; ``SCEN2.DAT`` is
+rebuilt from the same dump, so this script does not touch a ``SCEN2`` dump unless
+``--include-scen2`` is requested explicitly. The
 speaker comes from the same display-command extraction the wrapper uses
 (``semantic_plate_slots``: name-pool slot at display byte +9, record =
 pool_size + 1 + text id), and the name from the chunk's own English plate
@@ -67,7 +68,7 @@ def main() -> None:
     ap.add_argument("--en-dump", default="data/translation/en")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--include-scen2", action="store_true",
-                    help="Also annotate data/translation/en/SCEN2. Default is SCEN only.")
+                    help="Also annotate an existing SCEN2 dump. Default is SCEN only.")
     args = ap.parse_args()
 
     scen = Path(args.scen)

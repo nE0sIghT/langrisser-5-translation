@@ -19,7 +19,8 @@ format notes. This file lists the rules that must not be broken.
   argument word of `F600`/`FBxx` must survive translation in order.
   `lang5_validate_en.py` enforces this — keep it green.
 - **SCEN and SCEN2 text blocks are byte-identical.** Translate
-  `data/translation/en/SCEN/` only; the build syncs SCEN2.
+  `data/translation/en/SCEN/` only; the inserter reuses that dump when
+  rebuilding `SCEN2.DAT`.
 - **No partially translated chunks in `data/translation/en/`.** Untranslated
   kanji whose glyph slots were sacrificed for Latin pairs fail the encode
   step and break the build. Work-in-progress lives in `work/wip_en/`
@@ -92,5 +93,5 @@ game, add a row to `docs/SPEAKER_TEST_SET.md`.
   chunks (scene `44+K`, battle `K`, scene `86+K`; see
   `data/scenario_map.json`).
 - After translating a chunk: rewrap → validate → build → regenerate review
-  pages (`lang5_review_html.py`) → commit the chunk pair
-  (`SCEN`+`SCEN2`) together.
+  pages (`lang5_review_html.py`) → commit the `SCEN` chunk and any related
+  durable data/docs together.

@@ -78,9 +78,9 @@ The current verified local image is:
   `0xFFxx`/`0xFExx` words are effect/pause controls — keep them.
 - Story text lives in `SCEN.DAT`/`SCEN2.DAT` (131 chunks each; the text
   blocks of both files are byte-identical, so you translate `SCEN` only and
-  the build step copies it to `SCEN2`). Chunks 1–42 are roughly the
-  scenarios in order (chunk 0 is the intro quiz); later chunks hold clear
-  scenes, save-point scenes and small events.
+  the inserter reuses that dump when rebuilding `SCEN2.DAT`). Chunks 1–42
+  are roughly the scenarios in order (chunk 0 is the intro quiz); later
+  chunks hold clear scenes, save-point scenes and small events.
 - Menu labels, item/class/spell names and their descriptions are
   fixed-position runs inside `SYSTEM.BIN`.
 - The disc has CD audio after the data track: file sizes must never change.
@@ -254,10 +254,10 @@ grid, packs all SYSTEM.BIN UI text (names, descriptions, command help, save
 messages — see *Translating SYSTEM.BIN text* below), patches `IMG.DAT`
 title-screen credits and
 the project QR code, redraws the prologue poem graphic (see *Translating
-graphics* below), syncs `SCEN -> SCEN2`, re-inserts all translated chunks
-with fixed-size container repacking, injects everything into a copy of the
-BIN (sizes unchanged — never use `--allow-grow`: the free space overlaps the
-CD audio tracks) and writes
+graphics* below), reuses the `SCEN` dump for `SCEN2.DAT`, re-inserts all
+translated chunks with fixed-size container repacking, injects everything into
+a copy of the BIN (sizes unchanged — never use `--allow-grow`: the free space
+overlaps the CD audio tracks) and writes
 `patches/langrisser_v_en.ppf` (PPF3, apply to the original BIN). A
 ready-to-boot image is left in `work/build/langrisser_v_en.bin` for emulator
 testing.

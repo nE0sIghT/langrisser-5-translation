@@ -169,8 +169,25 @@ def rebuild_container_fixed_size(data: bytes, chunks: list[bytes],
     return result
 
 
+def dump_path_for(dump_root: Path, primary_stem: str,
+                  fallback_stems: tuple[str, ...], chunk_idx: int) -> Path:
+    """Find the editable dump file for one chunk.
+
+    SCEN2's text is intentionally translated from the SCEN dump in the project
+    flow, but the round-trip verifier still dumps and reinserts SCEN2 under its
+    own stem. Prefer the source file's own stem when it exists, then fall back.
+    """
+    name = f"chunk_{chunk_idx:03d}.txt"
+    for stem in (primary_stem, *fallback_stems):
+        path = dump_root / stem / name
+        if path.exists():
+            return path
+    return dump_root / primary_stem / name
+
+
 def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
-                allow_grow: bool = False, fixed_size_repack: bool = False) -> int:
+                allow_grow: bool = False, fixed_size_repack: bool = False,
+                fallback_dump_stems: tuple[str, ...] = ()) -> int:
     data = src.read_bytes()
     spans = read_chunk_spans(data)
     new_chunks: list[bytes] = []
@@ -179,7 +196,7 @@ def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
 
     for cidx, (s, e) in enumerate(spans):
         chunk = data[s:e]
-        dump_path = dump_root / src.stem / f"chunk_{cidx:03d}.txt"
+        dump_path = dump_path_for(dump_root, src.stem, fallback_dump_stems, cidx)
         edits = parse_dump_file(dump_path) if dump_path.exists() else {}
         if edits:
             block = find_text_block(chunk)
@@ -273,7 +290,8 @@ def main() -> None:
     insert_file(Path(args.scen), dump_root, Path(args.out_scen), codec,
                 args.allow_grow, args.fixed_size_repack)
     insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec,
-                args.allow_grow, args.fixed_size_repack)
+                args.allow_grow, args.fixed_size_repack,
+                fallback_dump_stems=("SCEN",))
 
 
 if __name__ == "__main__":

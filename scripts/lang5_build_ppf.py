@@ -54,13 +54,6 @@ def main() -> None:
         "--tbl", "work/tables/lang5_en.tbl",
         "--strict")
 
-    # SCEN2 text blocks are byte-identical to SCEN: sync translations.
-    src_dir = Path(args.en_dump) / "SCEN"
-    dst_dir = Path(args.en_dump) / "SCEN2"
-    dst_dir.mkdir(parents=True, exist_ok=True)
-    for fp in src_dir.glob("chunk_*.txt"):
-        shutil.copyfile(fp, dst_dir / fp.name)
-
     run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",
         "--scen", args.scen, "--scen2", args.scen2,
         "--dump-dir", args.en_dump, "--charmap", "work/tables/lang5_en.tbl",
