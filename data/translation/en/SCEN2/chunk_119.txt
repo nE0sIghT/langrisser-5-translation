@@ -15,12 +15,12 @@
 13	Leader<$FFFF>
 14	Grunt<$FFFF>
 15	Caconsis Army on the March<$FFFF>
-16	<$FB00><$0074>All forces, advance！ Ignore the small<$FFFC>fry！ Fell the commander, and the unit<$FFFC>loses its fighting power！<$FFFE>
+16	<$FB00><$0074>All forces, advance！ Ignore the<$FFFC>small fry！ Fell the commander, and the<$FFFC>unit loses its fighting power！<$FFFE>
 17	<$FB00><$0075>Understood！<$FFFE>
-18	<$FB00><$0076>Demon scum！ Prepare<$FFFC>yourselves！<$FFFE>
+18	<$FB00><$0076>Demon scum！ Prepare yourselves！<$FFFE>
 19	<$FB00><$0077>WAOOON<$FFF5><$FFF8>…<$FFFE>
 20	<$FB00><$0078>Don't take me lightly！<$FFFE>
-21	<$FB00><$0079>Guh… to lose to mere<$FFFC>humans<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
+21	<$FB00><$0079>Guh… to lose to mere humans<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 22	<$FB00><$007A>Crush them as we are！<$FFFE>
 23	<$FFF7><$FB00><$007B>Ooooh！<$FFF5><$FFF8><$FFFE>
 24	<$FB00><$007C>What's this, you lot. Pathetic！<$FFF5><$FFFC><$FB00><$007D>Don't let a handful of enemies push you<$FFFC>back！<$FFFE>
@@ -33,19 +33,19 @@
 31	<$FB00><$0087>Good！ Press on as we are.<$FFF5> <$FB00><$0088>Mind<$FFFC>the spacing between units, and make for<$FFFC>the demon stronghold！<$FFFE>
 32	<$FFF7><$FB00><$0089>Ooo<$00E4><$00E5><$00E6>h！<$FFF5><$FFF8><$FFFE>
 33	Demon Stronghold<$FFFF>
-34	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008A>Hmph, so Ferakia was killed by humans.<$FFF5><$FFFC><$FB00><$008B>That woman was all talk after all.<$FFFD><$FFF9><$FB00><$008C>Well, dancing to Böser's tune, her limits<$FFFC>were plain.<$FFFE>
-35	<$FB00><$008D>Böser is just a convenient<$FFFC>puppet manipulated by Alhazard. In the<$FFFC>end, no more than the one who sets the<$FFFC>stage for Chaos to revive in this world.<$FFFE>
+34	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008A>Hmph, so Ferakia was killed by<$FFFC>humans.<$FFF5> <$FB00><$008B>That woman was all talk after<$FFFC>all.<$FFFD><$FFF9><$FB00><$008C>Well, dancing to Böser's tune, her limits<$FFFC>were plain.<$FFFE>
+35	<$FB00><$008D>Böser is just a convenient puppet<$FFFC>manipulated by Alhazard. In the end, no<$FFFC>more than the one who sets the stage for<$FFFC>Chaos to revive in this world.<$FFFE>
 36	<$FB00><$008E>Hmph, I've no intention of being<$FFFC>such a trifling thing. I've no interest in<$FFFC>the demons' victory.<$FFFE>
 37	<$FB00><$008F>My aim is to surpass Böser and<$FFFC>Chaos both.<$FFFD>I will rule this world.<$FFF5> <$FB00><$0090>For that, how to<$FFFC>erase the troublesome Chaos Gate's<$FFFC>power<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 38	Federation Army on the March<$FFFF>
 39	<$FB00><$0091>Out of the way, move！<$FFFE>
 40	<$FB00><$0092>GWOOOON….<$FFFE>
-41	<$FB00><$0093>I won't let the demons have<$FFFC>their way！<$FFFE>
+41	<$FB00><$0093>I won't let the demons have their<$FFFC>way！<$FFFE>
 42	<$FB00><$0094>WAOOOON….<$FFFE>
 43	<$FB00><$0095>Don't get cocky, humans！<$FFFE>
 44	<$FFF7><$FB00><$0096>Guhah<$FFF5><$FFF8>…<$FFFE>
 45	<$FB00><$0097>Units with heavy losses, fall back<$FFFC>and get treated！ Other units, cover<$FFFC>them！<$FFFE>
 46	<$FB00><$0098>Understood！<$FFFE>
-47	<$FB00><$0099>Clouds are coming<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$009A>It<$FFFC>seems the weather control succeeded.<$FFF5><$FFFC><$FB00><$009B>Let's close in at once while we can！<$FFFD><$FB00><$009C>The Caconsis Army will join up soon！<$FFFC>Don't fall behind them！ Show the pride of<$FFFC>Federation soldiers！<$FFFE>
+47	<$FB00><$0099>Clouds are coming<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$009A>It seems<$FFFC>the weather control succeeded.<$FFF5> <$FB00><$009B>Let's<$FFFC>close in at once while we can！<$FFFD><$FB00><$009C>The Caconsis Army will join up soon！<$FFFC>Don't fall behind them！ Show the pride of<$FFFC>Federation soldiers！<$FFFE>
 48	<$FFF7><$FB00><$009D>Ooo<$00E4><$00E5><$00E6>h！<$FFF5><$FFF8><$FFFE>
 49	<$FB00><$009E>Advance！<$FFFE><$FFFF>

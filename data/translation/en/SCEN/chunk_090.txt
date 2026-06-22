@@ -17,13 +17,13 @@
 15	<$FB00><$004E>More to the point, would you<$FFFC>explain how it came to this？ Captain<$FFFC>Goldry.<$FFFE>
 16	<$FFFA><$FB00><$004F>Th, that is<$FFF5><$FFF8>…<$FFFE>
 17	<$FB00><$0050>What were you thinking, fighting<$FFFC>inside the town？ Your duty was to keep<$FFFC>the peace here, was it not？<$FFFE>
-18	<$FB00><$0051>That's exactly why I fought,<$FFFC>sir.<$FFFE>
+18	<$FB00><$0051>That's exactly why I fought, sir.<$FFFE>
 19	<$FB00><$0052>Is it？ It looked to me like you<$FFFC>were the one troubling the folk <$FFF5><$FFF8>…<$FFFE>
-20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw it. That captain<$FFFC>told those people to pay an outrageous<$FFFC>toll<$FFF5><$FFF8>…<$FFFE>
-21	<$FB00><$0055>That's right！ He demanded ten<$FFFC>times the usual toll.<$FFFE>
+20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw it. That captain told<$FFFC>those people to pay an outrageous toll<$FFF5><$FFF8>…<$FFFE>
+21	<$FB00><$0055>That's right！ He demanded ten times<$FFFC>the usual toll.<$FFFE>
 22	<$FB00><$0056>A toll？ I recall giving no order<$FFFC>to collect any such thing <$FFF5><$FFF8>…<$FFFE>
 23	<$FFF7><$FB00><$0057>Eh？<$FFF5><$FFF8><$FFFE>
-24	<$FB00><$0058>Then the taxes they've been<$FFFC>taking from us were<$FFF5><$FFF8>…<$FFFE>
+24	<$FB00><$0058>Then the taxes they've been taking<$FFFC>from us were<$FFF5><$FFF8>…<$FFFE>
 25	<$FB00><$0059>Silence！ This town was put in MY<$FFFC>charge！ I do with it as I please！<$FFFE>
 26	<$FB00><$005A>Goldry！ What do you take your post<$FFFC>for！<$FFFD><$FB00><$005B>You were given authority to keep the peace<$FFFC>in this town, not to rule over it！<$FFFE>
 27	<$FFF8><$FB00><$005C>…<$FFFE>

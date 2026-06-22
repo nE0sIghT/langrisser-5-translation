@@ -18,7 +18,7 @@
 16	Careful！ They fight to the<$FFFC>death！<$FFFE>
 17	Understood！<$FFFE>
 18	Guhah！<$FFFE>
-19	Damn, the odds are against us….<$FFFE>
+19	Damn, the odds are against<$FFFC>us….<$FFFE>
 20	Sister, that magic just now！？<$FFFE>
 21	Jessica！<$FFFE>
 22	It's been a while. Now, just a<$FFFC>little more. Let's give it our all！<$FFFE>

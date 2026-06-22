@@ -8,13 +8,13 @@
 6	Lanford<$FFFF>
 7	Merc<$FFFF>
 8	After the battle<$FFFF>
-9	<$FB00><$005A>Um, my home is close now, so I'll take my<$FFFC>leave here. I want to get this medicine to<$FFFC>my father quickly.<$FFFE>
+9	<$FB00><$005A>Um, my home is close now, so I'll<$FFFC>take my leave here. I want to get this<$FFFC>medicine to my father quickly.<$FFFE>
 10	Alfred left the party！<$FFFE>
 11	<$FB00><$005B>Sure. Take care out there.<$FFFE>
-12	<$FB00><$005C>Thank you for everything. You<$FFFC>take care too, Lambda. Goodbye！<$FFFE>
+12	<$FB00><$005C>Thank you for everything. You take<$FFFC>care too, Lambda. Goodbye！<$FFFE>
 13	<$FB00><$005D>Now that the boy's seen off, mind<$FFFC>if I ask you something？<$FFFE>
 14	<$FFF8><$FB00><$005E>？<$FFFE>
-15	<$FB00><$005F>Introductions first. I'm Brenda.<$FFFC>I run a mercenary band, women only.<$FFFE>
+15	<$FB00><$005F>Introductions first. I'm Brenda. I<$FFFC>run a mercenary band, women only.<$FFFE>
 16	<$FB00><$0060>You saw what we can do just now.<$FFFE>
 17	<$FB00><$0061>Even if we didn't look our best<$FFFC>back there.<$FFFE>
 18	<$FB00><$0062>So, what did you want to ask？<$FFFE>

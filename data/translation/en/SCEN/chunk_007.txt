@@ -11,28 +11,28 @@
 9	・Defeat Aizel<$FFFE>
 10	・<$F600><$0000> dies<$FFFE>
 11	Underground altar exit<$FFFF>
-12	<$FB00><$000D>Staying longer wastes time. We leave now<$FFFC>and chase the Caconsis army.<$FFFE>
+12	<$FB00><$000D>Staying longer wastes time. We<$FFFC>leave now and chase the Caconsis army.<$FFFE>
 13	<$FB00><$000E>Agreed.<$FFFE>
-14	<$FB00><$000F>Cough, cough！<$FFFB> <$0000><$FB00><$0010>Um, is it just me, or is<$FFFC>it smoky here？<$FFFE>
-15	<$FB00><$0011>Now that you mention it, there<$FFFC>IS a lot of smoke.<$FFFE>
+14	<$FB00><$000F>Cough, cough！<$FFFB> <$0000><$FB00><$0010>Um, is it just<$FFFC>me, or is it smoky here？<$FFFE>
+15	<$FB00><$0011>Now that you mention it, there IS<$FFFC>a lot of smoke.<$FFFE>
 16	<$FB00><$0012>This is no ordinary smoke.<$FFFE>
 17	<$FB00><$0013>Meaning what, Lambda？<$FFFE>
-18	<$FB00><$0014>It drains your strength. Stay<$FFFC>too long and you won't be able to move.<$FFFE>
+18	<$FB00><$0014>It drains your strength. Stay too<$FFFC>long and you won't be able to move.<$FFFE>
 19	<$FB00><$0015>No way！ Come on, let's get out,<$FFFC>quick！<$FFFE>
-20	<$FB00><$0016>I meant to take you at my<$FFFC>leisure once you couldn't move.<$FFFD>But you've seen through the smoke.<$FFFE>
+20	<$FB00><$0016>I meant to take you at my leisure<$FFFC>once you couldn't move.<$FFFD>But you've seen through the smoke.<$FFFE>
 21	<$FB00><$0017>Aizel！？<$FFFE>
 22	<$FB00><$0018>Well done not falling for a cheap<$FFFC>trick. But how long can you last？<$FFFE>
 23	<$FB00><$0019>We won't lose to you！<$FFFE>
 24	Cough, cough！ I…I can't<$FFFC>breathe<$FFF8>…<$FFFE>
 25	So dramatic. Can't you bear a<$FFFC>little smoke？<$FFFE>
-26	Bear it a while. Rushing out<$FFFC>plays into their hands.<$FFFE>
+26	Bear it a while. Rushing out plays<$FFFC>into their hands.<$FFFE>
 27	Yes. Wiser to form up near the<$FFFC>exit.<$FFFE>
-28	This smoke is bearable. Better<$FFFC>to form up at the exit than rush out.<$FFFE>
+28	This smoke is bearable. Better to<$FFFC>form up at the exit than rush out.<$FFFE>
 29	<$FB00><$001D>Hang on, everyone. The exit is<$FFFC>near！<$FFFE>
 30	<$FB00><$001E>Everyone, the exit is near.<$FFFE>
 31	<$FB00><$001F>The exit！ Everyone, we're almost<$FFFC>out！<$FFFE>
 32	<$FB00><$0020>Stay sharp, everyone！ The exit's<$FFFC>close！<$FFFE>
-33	As you near the rock, a voice<$FFFC>suddenly speaks.<$FFFD>I was a spirit dove, a messenger of the<$FFFC>gods…<$FFFD>Now my body turns to stone and my life<$FFFC>burns out. Let me grant you one last gift.<$FFFD>Which power do you wish？<$FFFE>
+33	As you near the rock, a voice suddenly<$FFFC>speaks.<$FFFD>I was a spirit dove, a messenger of the<$FFFC>gods…<$FFFD>Now my body turns to stone and my life<$FFFC>burns out. Let me grant you one last gift.<$FFFD>Which power do you wish？<$FFFE>
 34	・Power to protect<$FFFE>
 35	・Power to fight<$FFFE>
 36	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>…The dove quietly turned to stone.<$FFFE>
@@ -44,7 +44,7 @@
 42	<$0000> <$FFF4>Grrraaawwl！！<$FFF3><$FFFD>A wounded beast is nursing its injuries.<$FFFC>You quietly slip away so as not to provoke<$FFFC>it.<$FFFE>
 43	A wounded beast rests there. You stroke it<$FFFC>gently, it purrs and hands you a small<$FFFC>pouch.<$FFFD><$0000> Got <$FFF4>500P gold<$FFF3>！<$FFFE>
 44	<$FB00><$0022>You'll pay for that, twice over！<$FFFE>
-45	<$FB00><$0030>So this was the limit of my strength…<$FFFE>
+45	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 46	<$FB00><$0023>Unforgivable.<$FFFE>
 47	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 48	<$FB00><$003B>Leave the rest to me！<$FFFE>
@@ -52,21 +52,21 @@
 50	<$FB00><$0024>Even I get angry, you know！<$FFFE>
 51	<$FB00><$0078>Am I not good enough…<$FFFE>
 52	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
-53	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
-54	That Aizel. Quite the underhanded trick！<$FFFE>
-55	My forces are few. Such schemes are<$FFFC>necessary.<$FFFE>
+53	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
+54	That Aizel. Quite the underhanded<$FFFC>trick！<$FFFE>
+55	My forces are few. Such schemes<$FFFC>are necessary.<$FFFE>
 56	<$FB00><$0025>You nearly made a stuffed trophy<$FFFC>of me！<$FFFE>
 57	<$FB00><$0070>This is getting dicey…<$FFFE>
-58	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
-59	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+58	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+59	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 60	<$FB00><$0026>Futile struggling！<$FFFE>
 61	This time you won't escape！<$FFFE>
 62	<$FFF8><$FB00><$0027>Ggh… <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
 63	<$FB00><$002B>Looks like it's over.<$FFFE>
 64	<$FB00><$002C>Honestly, what an ordeal.<$FFFE>
 65	<$FB00><$002D>Truly, I thought I'd die<$FFF5><$FFF8>…<$FFFE>
-66	<$FB00><$002E>More importantly, hurry. <$0000>If<$FFFC>we don't chase Caconsis, we can't recover<$FFFC>the Sage's Crystal.<$FFFE>
-67	<$FB00><$001A>All units, hold here. We strike<$FFFC>as they're smoked out！<$FFFE>
+66	<$FB00><$002E>More importantly, hurry. <$0000>If we<$FFFC>don't chase Caconsis, we can't recover the<$FFFC>Sage's Crystal.<$FFFE>
+67	<$FB00><$001A>All units, hold here. We strike as<$FFFC>they're smoked out！<$FFFE>
 68	<$FB00><$001B>Sir！<$FFFE>
 69	<$FB00><$001C>Understood.<$FFFE>
 70	It…wasn't supposed to…<$FFFE>

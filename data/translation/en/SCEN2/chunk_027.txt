@@ -11,9 +11,9 @@
 9	・Defeat Butler Masterson<$FFFE>
 10	・<$F600><$0000> dies<$FFFE>
 11	Sutherland Domain<$FFFF>
-12	<$FB00><$000E>Say, feels like we've walked quite a way.<$FFFC>Still more to go？<$FFFE>
-13	<$FB00><$000F>Just a little farther, I think. Right,<$FFFC>Lanford？<$FFFE>
-14	<$FB00><$0010>Yeah. Past this plain, my father's manor<$FFFC>will come into view before long. Shall we<$FFFC>rest soon？<$FFFE>
+12	<$FB00><$000E>Say, feels like we've walked<$FFFC>quite a way. Still more to go？<$FFFE>
+13	<$FB00><$000F>Just a little farther, I think.<$FFFC>Right, Lanford？<$FFFE>
+14	<$FB00><$0010>Yeah. Past this plain, my<$FFFC>father's manor will come into view before<$FFFC>long. Shall we rest soon？<$FFFE>
 15	<$FB00><$0011>Wait！ Everyone, stay sharp！<$FFFE>
 16	<$FB00><$0012>What is it？<$FFFE>
 17	<$FB00><$0013>A presence<$FFF5><$FFF8>…<$FFF6><$FB00><$0014>Enemies<$FFF5><$FFF8>….<$FFFE>
@@ -24,7 +24,7 @@
 22	<$FB00><$0019>Stand aside, Masterson. As a<$FFFC>soldier of the Federation, I must stop my<$FFFC>father.<$FFFE>
 23	<$FB00><$001A>Then, as one who serves Lord<$FFFC>Lambert, I must protect my master.<$FFF5><$FFF8> <$FFF6><$FB00><$001B>A<$FFFC>battle cannot be avoided, it seems<$FFF5><$FFF8>….<$FFFE>
 24	<$FB00><$001C>To think it would come to<$FFFC>fighting you.<$FFFE>
-25	A crystal glowing with stored<$FFFC>magic peeks from the ground. What do you<$FFFC>do？<$FFFE>
+25	A crystal glowing with stored magic peeks<$FFFC>from the ground. What do you do？<$FFFE>
 26	・Touch it with your hand<$FFFE>
 27	・Press your forehead to it<$FFFE>
 28	・Drape a cloth over it<$FFFE>
@@ -33,18 +33,18 @@
 31	The cloth changed shape before your eyes<$FFFC>under the crystal's magic….<$FFFD><$0000> <$FFF4>Goddess Dress<$FFF3> obtained！<$FFFE>
 32	<$FB00><$002E>Sorry… everyone…<$FFFE>
 33	<$FB00><$004B>No… that I should…<$FFFE>
-34	<$FB00><$004C>Marie, leave this to us and pull back！<$FFFE>
+34	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
 35	…<$FB00><$004D>I'm sorry….<$FFFE>
 36	<$FB00><$007B>I can still… I can still fight…<$FFFE>
 37	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 38	<$FB00><$007D>But…<$FFFE>
 39	<$FB00><$007E>Trust your comrades！<$FFFE>
-40	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
+40	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
 41	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
 42	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-43	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>go…<$FFFE>
+43	<$FB00><$006D>Yeah, I'm fine… I can still go…<$FFFE>
 44	<$FB00><$006E>Fall back, Brenda！ Don't overdo<$FFFC>it！<$FFFE>
-45	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
+45	<$FB00><$006F>…I'll do that. I don't want to<$FFFC>drag you down…<$FFFE>
 46	<$FB00><$0057>Aah！<$FFFE>
 47	<$FB00><$0058>Are you all right, Clarett！？<$FFFE>
 48	<$FB00><$0059>This is a bit much…<$FFFE>
@@ -53,20 +53,20 @@
 51	Until I've stopped my father, I<$FFFC>cannot be beaten. Stand aside, Masterson！<$FFFE>
 52	That I cannot do. The only act<$FFFC>allowed me is to protect my master.<$FFFE>
 53	I'm resolved. If you won't yield<$FFFC>the way, Masterson, then I'll defeat you！<$FFFE>
-54	I too come in earnest. Let me see<$FFFC>how far your skill has grown, Lord<$FFFC>Lanford.<$FFFE>
+54	I too come in earnest. Let me<$FFFC>see how far your skill has grown, Lord<$FFFC>Lanford.<$FFFE>
 55	<$FB00><$0020>Must we truly fight<$FFF5><$FFF8>….<$FFFE>
-56	<$FB00><$0021>Turning my sword on you is not my<$FFFC>wish either, Lord Lanford, but it cannot<$FFFC>be helped.<$FFFE>
+56	<$FB00><$0021>Turning my sword on you is not<$FFFC>my wish either, Lord Lanford, but it<$FFFC>cannot be helped.<$FFFE>
 57	<$FB00><$0022>I cannot lose. I'll beat you and<$FFFC>learn the truth of my father's change of<$FFFC>heart！<$FFFE>
 58	<$FB00><$0023>Here I come, Lord Lanford.<$FFFE>
 59	Forgive me. Lord Lanford<$FFF8>….<$FFFE>
 60	Never mind. Come with all you<$FFFC>have！<$FFFE>
 61	<$FB00><$0024>Uu…<$FFFE>
 62	<$FB00><$0025>Lanford！<$FFFE>
-63	<$FB00><$0026>I'm all right<$FFF5><$FFF8>… <$FFF6><$FB00><$0027>A wound like this<$FFFC>won't kill me<$FFF5><$FFF8>… <$FFF6><$FB00><$0028>But<$FFF5><$FFF8>…<$FFFE>
+63	<$FB00><$0026>I'm all right<$FFF5><$FFF8>… <$FFF6><$FB00><$0027>A wound like<$FFFC>this won't kill me<$FFF5><$FFF8>… <$FFF6><$FB00><$0028>But<$FFF5><$FFF8>…<$FFFE>
 64	<$FB00><$0029>I know. We'll handle the rest.<$FFFE>
 65	<$FB00><$002A>Sorry<$FFF5><$FFF8>….<$FFFE>
 66	<$FB00><$002B>Forgive me, Lord Lanford.<$FFFE>
-67	I, I'm sorry… I'll go on<$FFFC>ahead…<$FFFE>
+67	I, I'm sorry… I'll go on ahead…<$FFFE>
 68	I, I can let you advance no<$FFFC>further…<$FFFE>
 69	…Guhah！<$FFFE>
 70	I, I've failed…<$FFFE>
@@ -75,29 +75,29 @@
 73	Nuuh… I cannot win…<$FFFE>
 74	Lord Masterson… forgive me…<$FFFE>
 75	…Now I needn't fight Lord<$FFFC>Lanford… after all…<$FFFE>
-76	<$FB00><$001D>Whatever happens, I will not let<$FFFC>you and the master come to blows.<$FFFE>
+76	<$FB00><$001D>Whatever happens, I will not<$FFFC>let you and the master come to blows.<$FFFE>
 77	<$FB00><$001E>Tell me, Masterson. What in the<$FFFC>world happened to my father.<$FFFE>
-78	<$FB00><$001F>It is not a thing I may lightly<$FFFC>speak of<$FFF5><$FFF8>….<$FFFE>
+78	<$FB00><$001F>It is not a thing I may<$FFFC>lightly speak of<$FFF5><$FFF8>….<$FFFE>
 79	<$FB00><$002F>Gh… guh…<$FFFE>
 80	<$FB00><$0030>Lord Masterson！<$FFFE>
 81	<$FB00><$0031>Lower your weapon<$FFF5><$FFF8>… <$FFF6><$FB00><$0032>We have<$FFFC>lost<$FFF5><$FFF8>….<$FFFE>
 82	<$FB00><$0033>But<$FFF5><$FFF8>….<$FFFE>
 83	<$FFF8><$FFFA>….<$FFFE>
-84	<$FB00><$0034>There's no beating the weight of<$FFFC>years<$FFF5><$FFF8>… <$FFF6><$FB00><$0035>Lord Lanford. Let me tell you why<$FFFC>the master turned cold toward you<$FFF5><$FFF8>….<$FFFE>
+84	<$FB00><$0034>There's no beating the weight<$FFFC>of years<$FFF5><$FFF8>… <$FFF6><$FB00><$0035>Lord Lanford. Let me tell you<$FFFC>why the master turned cold toward you<$FFF5><$FFF8>….<$FFFE>
 85	<$FB00><$0036>Masterson<$FFF5><$FFF8>….<$FFFE>
 86	<$FB00><$0037>You know the tale of how, in<$FFFC>his youth, the master adventured with his<$FFFC>dear friend Lord Rockwell<$FFF5><$FFF8>….<$FFFE>
 87	<$FB00><$0038>Yeah, I heard it often as a<$FFFC>child.<$FFFE>
 88	<$FB00><$0039>At the end of that last<$FFFC>adventure, they brought home a relic of<$FFFC>the magic civilization, and there received<$FFFC>a curse.<$FFFE>
 89	<$FB00><$003A>A curse<$FFF5><$FFF8>…？<$FFFE>
 90	<$FB00><$003B>The curse is that blood kin<$FFFC>slay one another<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$003C>The master disowned you, severing ties so<$FFFC>the curse would not fall upon you.<$FFFD><$FB00><$003D>But to tell you this would only deepen<$FFFC>your love for him and undo the meaning of<$FFFC>disowning you.<$FFFD><$FB00><$003E>I speak now hoping that, knowing it, you<$FFFC>will avoid fighting him….<$FFFE>
-91	<$FB00><$003F>So that's why he could not<$FFFC>tell me<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>Forgive me, Masterson. Here, I<$FFFC>swear it: I will not fight my father.<$FFFE>
-92	<$FFF8>…<$FFF6><$FB00><$0041>Then… was my brother's<$FFFC>madness also the curse<$FFF5><$FFF8>….<$FFFE>
+91	<$FB00><$003F>So that's why he could not tell<$FFFC>me<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>Forgive me, Masterson. Here, I swear<$FFFC>it: I will not fight my father.<$FFFE>
+92	<$FFF8>…<$FFF6><$FB00><$0041>Then… was my brother's madness<$FFFC>also the curse<$FFF5><$FFF8>….<$FFFE>
 93	<$FB00><$0042>Likely<$FFF5><$FFF8>…<$FFF6><$FB00><$0043>he must be under the<$FFFC>same curse<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0044>Whether it is truly a curse I have no way<$FFFC>to know<$FFF5><$FFF8>… <$FFF6><$FB00><$0045>but since Lord Clifford passed,<$FFFC>the master had been deeply troubled.<$FFFD><$FB00><$0046>Lainforce preyed upon that.<$FFFE>
 94	<$FB00><$0047>Lainforce did such a thing？<$FFFE>
 95	<$FB00><$0048>Is such a curse even possible,<$FFFC>Brenda？<$FFFE>
-96	<$FB00><$0049>I have heard that long ago, as<$FFFC>the magic civilization flowered, so too<$FFFC>did curses, a kind of by-product of it.<$FFFE>
-97	<$FB00><$004A>Then if we understand the<$FFFC>curse, mightn't we find how to break it？<$FFFE>
-98	<$FB00><$004B>Yeah. Study the curse closely<$FFFC>and it should become clear. For that, we<$FFFC>need the item that triggered it<$FFF5><$FFF8>….<$FFFE>
+96	<$FB00><$0049>I have heard that long ago, as the<$FFFC>magic civilization flowered, so too did<$FFFC>curses, a kind of by-product of it.<$FFFE>
+97	<$FB00><$004A>Then if we understand the curse,<$FFFC>mightn't we find how to break it？<$FFFE>
+98	<$FB00><$004B>Yeah. Study the curse closely and<$FFFC>it should become clear. For that, we need<$FFFC>the item that triggered it<$FFF5><$FFF8>….<$FFFE>
 99	<$FB00><$004C>If the curse is broken, my<$FFFC>father will have no need to aid Lainforce.<$FFFD><$FB00><$004D>Masterson. The relic of the magic<$FFFC>civilization my father brought home, where<$FFFC>is it now？<$FFFE>
 100	<$FB00><$004E>I believe… it was presented<$FFFC>to the Premier's manor…. That is all I<$FFFC>know….<$FFFD><$FB00><$004F>Lord Lanford. Please, do not let the<$FFFC>master's care go to waste….<$FFFE>
 101	<$FB00><$0050>Masterson. I'm sorry<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0051>I will break the curse without fail and<$FFFC>mend things with my father. So rest easy<$FFFC>now….<$FFFE>
@@ -105,8 +105,8 @@
 103	<$FB00><$0053>I'm sorry, Alfred. Had I known<$FFFC>sooner, I might have saved your brother.<$FFFE>
 104	<$FB00><$0054>Grieving what's done changes<$FFFC>nothing. For now, let's think of saving<$FFFC>Lord Lambert.<$FFFE>
 105	<$FFF8>…<$FFF6><$FB00><$002C>It seems I'm the only one<$FFFC>left.<$FFFE>
-106	<$FB00><$002D>Why not give up now,<$FFFC>Masterson. I don't wish to fight any<$FFFC>longer.<$FFFE>
+106	<$FB00><$002D>Why not give up now, Masterson.<$FFFC>I don't wish to fight any longer.<$FFFE>
 107	<$FB00><$002E>No. To keep you and the master<$FFFC>from fighting, even if this body perishes,<$FFFC>I will not withdraw.<$FFFE>
 108	<$FFF8>…<$FFF6><$FB00><$002C>It seems I'm the only one<$FFFC>left.<$FFFE>
-109	<$FB00><$002D>Why not give up now,<$FFFC>Masterson. I don't wish to fight any<$FFFC>longer.<$FFFE>
+109	<$FB00><$002D>Why not give up now, Masterson.<$FFFC>I don't wish to fight any longer.<$FFFE>
 110	<$FB00><$002E>No. To keep you and the master<$FFFC>from fighting, even if this body perishes,<$FFFC>I will not withdraw.<$FFFE>

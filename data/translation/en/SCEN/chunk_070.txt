@@ -8,11 +8,11 @@
 6	Lanford<$FFFF>
 7	Goldry<$FFFF>
 8	Beyond the Tunnel<$FFFF>
-9	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0003>Quite a high spot. From here you<$FFFC>might've seen Recrio Village<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+9	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0003>Quite a high spot. From here<$FFFC>you might've seen Recrio Village<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 10	<$FFF8>……<$FFFE>
 11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0004>Brenda？<$FFFE>
 12	<$FB00><$0005>What are you doing out here？<$FFFE>
-13	<$FB00><$0006>Just taking in the wind. You<$FFFC>on patrol？<$FFFE>
+13	<$FB00><$0006>Just taking in the wind. You on<$FFFC>patrol？<$FFFE>
 14	<$FB00><$0007>Yeah. We're in enemy territory<$FFFC>now.<$FFFE>
 15	<$FB00><$0008>Right. We'd best be careful.<$FFFE>
 16	<$FB00><$0009>Still, no large force can pass<$FFFC>through here, so I doubt the defenses are<$FFFC>heavy.<$FFFD><$FB00><$000A>By the way, Brenda.<$FFFE>
@@ -20,25 +20,25 @@
 18	・It's late, come back<$FFFE>
 19	・Ask about the village<$FFFE>
 20	<$FB00><$000B>It's this dark. Can you really see<$FFFC>anything？<$FFFE>
-21	<$FFFA><$FB00><$000C>No, I can't see a<$FFFC>thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000D>Not a thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+21	<$FFFA><$FB00><$000C>No, I can't see a thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000D>Not a<$FFFC>thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
 22	<$FB00><$000E>It's late. You should sleep soon.<$FFFE>
 23	<$FB00><$000F>Yeah.<$FFFE>
 24	<$FB00><$0010>I'd like to hear more about your<$FFFC>village.<$FFFE>
-25	<$FB00><$0011>My village<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0012>I told you<$FFFC>Recrio Village was a place where humans<$FFFC>and Crimzo Landers lived together, didn't<$FFFC>I.<$FFFE>
+25	<$FB00><$0011>My village<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0012>I told you Recrio<$FFFC>Village was a place where humans and<$FFFC>Crimzo Landers lived together, didn't I.<$FFFE>
 26	<$FFF7><$FB00><$0013>Yeah.<$FFF5><$FFF8><$FFFE>
 27	<$FB00><$0014>Well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 28	<$FB00><$0015>Heh heh heh！ So here's where you<$FFFC>were hiding！<$FFFE>
 29	<$FB00><$0016>You！<$FFFE>
 30	<$FB00><$0017>Goldry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-31	<$FB00><$0018>I can't crawl home having<$FFFC>failed to blow the tunnel. This time I'll<$FFFC>kill you！<$FFFE>
+31	<$FB00><$0018>I can't crawl home having failed<$FFFC>to blow the tunnel. This time I'll kill<$FFFC>you！<$FFFE>
 32	<$FB00><$0019>Give it up. It'll go the same<$FFFC>however often you try.<$FFFE>
-33	<$FB00><$001A>We'll see about that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$001B>I<$FFFC>have this！ This, from Lord Zero！<$FFFE>
+33	<$FB00><$001A>We'll see about that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$001B>I have<$FFFC>this！ This, from Lord Zero！<$FFFE>
 34	<$FFF7><$FB00><$001C>Wha！<$FFFE>
 35	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001D>That's blasting powder！<$FFFE>
 36	<$FB00><$001E>A magic item that wipes out the<$FFFC>likes of you in a flash.<$FFFE>
 37	<$FB00><$001F>Stop it！<$FFFE>
 38	<$FB00><$0020>All I have to do is light it.<$FFFE>
-39	<$FB00><$0021>Wahahaha！ Die, die, diiie！<$FFFC>You'll all vanish in an instant！<$FFFC>Wahahaa！<$FFFE>
+39	<$FB00><$0021>Wahahaha！ Die, die, diiie！ You'll<$FFFC>all vanish in an instant！ Wahahaa！<$FFFE>
 40	<$FB00><$0022>This is bad！ If that goes off<$FFFC>here…<$FFFE>
 41	<$FB00><$0023>Kh！<$FFFE>
 42	<$FB00><$0024>No… no<$FFF5><$FFF7>…<$FE14>…<$FE14><$FFFE>
@@ -46,7 +46,7 @@
 44	<$FB00><$0025>Dawn's broken already<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 45	<$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FB00><$0026>If we still haven't found him<$FFFC>after all this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-47	<$FB00><$0027>Yeah. It was a blast big enough to<$FFFC>wake us all.<$FFFE>
+47	<$FB00><$0027>Yeah. It was a blast big enough<$FFFC>to wake us all.<$FFFE>
 48	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0028>I'll search the forest.<$FFFE>
 49	<$FB00><$0029>Ah, I'll go too！<$FFFE>
 50	<$FB00><$002A>Shall we search once more as<$FFFC>well.<$FFFE>
@@ -55,16 +55,16 @@
 53	<$FB00><$002E>U, uu<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 54	<$FFF7><$FB00><$002F>Aah！<$FFF5><$FFF8> …<$FFF8><$FE14>…<$FE14><$FFF6><$FB00><$0030>You're alive！<$FFFE>
 55	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0031>Somehow<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-56	<$FB00><$0032>That reckless stunt… I<$FFFC>thought you were gone<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
+56	<$FB00><$0032>That reckless stunt… I thought<$FFFC>you were gone<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 57	<$FB00><$0033>Sorry to worry you. But<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 58	・Because I wanted to protect you<$FFFE>
 59	・I'm immortal<$FFFE>
 60	・I really thought I'd die<$FFFE>
-61	<$FB00><$0034>I wanted to protect Brenda,<$FFFC>and acted on the instant.<$FFFE>
-62	<$FB00><$0035>It doesn't make me one bit<$FFFC>glad that you'd die in my place！<$FFFE>
+61	<$FB00><$0034>I wanted to protect Brenda, and<$FFFC>acted on the instant.<$FFFE>
+62	<$FB00><$0035>It doesn't make me one bit glad<$FFFC>that you'd die in my place！<$FFFE>
 63	<$FB00><$0036>It's fine. To protect you, I'm<$FFFC>immortal<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 64	<$FB00><$0037>It's fine. I'm immortal.<$FFFE>
-65	<$FB00><$0038>Yeah. I really thought I'd<$FFFC>die. But it seems I'm immortal after all.<$FFFE>
+65	<$FB00><$0038>Yeah. I really thought I'd die.<$FFFC>But it seems I'm immortal after all.<$FFFE>
 66	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0039>Idiot<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 67	<$FB00><$003A>Anyway, where are the others？<$FFFE>
 68	<$FB00><$003B>Ah, they're out searching for<$FFFC>you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$003C>I'll go call them！<$FFFE>

@@ -10,22 +10,22 @@
 8	McClaine<$FFFF>
 9	Near the City of Valtar<$FFFF>
 10	<$FB00><$00C4>Thank you. You saved us.<$FFFE>
-11	<$FB00><$00C5>I want to ask, do you know where the<$FFFC>folk who took shelter from the town of<$FFFC>Poria are？<$FFFE>
-12	<$FFFA><$FB00><$00C6>From the town of Poria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF9><$FFF6><$FB00><$00C7>Could it be<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+11	<$FB00><$00C5>I want to ask, do you know where<$FFFC>the folk who took shelter from the town of<$FFFC>Poria are？<$FFFE>
+12	<$FFFA><$FB00><$00C6>From the town of Poria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF9><$FFF6><$FB00><$00C7>Could<$FFFC>it be<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	<$FB00><$00C8>You know something？<$FFFE>
-14	<$FB00><$00C9>I'm not certain, but some were<$FFFC>taken to the underground factory.<$FFFD>Those here from the start weren't taken,<$FFFC>so<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-15	<$FB00><$00CA>You mean the ones taken might be the<$FFFC>Poria people.<$FFFE>
+14	<$FB00><$00C9>I'm not certain, but some were taken<$FFFC>to the underground factory.<$FFFD>Those here from the start weren't taken,<$FFFC>so<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$00CA>You mean the ones taken might be<$FFFC>the Poria people.<$FFFE>
 16	<$FB00><$00CB>Yes.<$FFFE>
 17	<$FB00><$00CC>Damn it！<$FFFE>
 18	<$FB00><$00CD>Ah, brother！<$FFFE>
 19	<$FB00><$00CE>Wh, what do we do<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$00CF>Isn't it obvious, we rescue them.<$FFFC>We do！<$FFFE>
 21	<$FB00><$00D0>Right. Do you know where the<$FFFC>entrance to that underground factory is？<$FFFE>
-22	<$FB00><$00D1>I believe there are stairs<$FFFC>leading down in front of the church.<$FFFE>
+22	<$FB00><$00D1>I believe there are stairs leading<$FFFC>down in front of the church.<$FFFE>
 23	<$FB00><$00D2>In front of the church, then.<$FFFE>
 24	<$FB00><$00D3>But there are many soldiers at the<$FFFC>entrance.<$FFFE>
 25	<$FB00><$00D4>So they say. What do we do？<$FFFE>
-26	<$FB00><$00D5>We just draw the guards'<$FFFC>attention away.<$FFFE>
+26	<$FB00><$00D5>We just draw the guards' attention<$FFFC>away.<$FFFE>
 27	<$FB00><$00D6>I see. Then how about this.<$FFFE>
 28	<$FB00><$00D7>When it's dark, four of us first<$FFFC>draw the enemy off and lure them<$FFFC>elsewhere. Then the other two force their<$FFFC>way in.<$FFFE>
 29	<$FB00><$00D8>I like it. I'm for it.<$FFFE>
@@ -34,4 +34,4 @@
 32	<$FB00><$00DB>Me, huh.<$FFF5> <$FB00><$00DC>And who's the other<$FFFC>one？<$FFFE>
 33	<$FB00><$00DD>That's for you to decide.<$FFFC>Choose whoever you want supporting you.<$FFFE>
 34	<$FB00><$00DE>Right. The other four can shake<$FFFC>the enemy and rush in after.<$FFFE>
-35	<$FB00><$00DF>Well, just decide by the time<$FFFC>we break in.<$FFFE>
+35	<$FB00><$00DF>Well, just decide by the time we<$FFFC>break in.<$FFFE>

@@ -11,30 +11,34 @@ per-record speaker plates. `lang5_scendump.py` uses the same function to emit
 `# spk: <name>` comments and the `speaker` column in `work/scriptdump/all_records.csv`.
 
 The extractor does **not** execute the VM. It scans the chunk VM block for
-self-contained display/window commands and accepts a 12-byte window only when all
-semantic fields are valid:
+self-contained 12-byte display/window commands and accepts one when:
 
 - opcode byte `p+0` is `0x0B..0x10`;
-- actor key `u16@p+6` is present in the chunk actor-plate table, is `0xFFFF`,
-  or is in the runtime-remapped crowd range `0xFFE5..0xFFFE`;
-- text id `u16@p+10` is within the chunk's accepted display range;
 - mode bits `(p+3) & 3` are `<= 2`;
-- name-visible flag `p+8` is `<= 1`.
+- name-visible flag `p+8` is `<= 1`;
+- text id `u16@p+10` is within the chunk's text-record range.
 
-Record index is `first_fb_record + text_id`. The implementation bounds the range
-by the count of `FB00`-bearing records but maps it contiguously from the first
-`FB00` record, so it covers FB00-less spoken records interleaved in that display
-range.
+**Record index is `pool_size + 1 + text_id`.** The name plates occupy records
+`1..pool_size`, so the first text record (text id 0) is `pool_size + 1`. This is
+*not* `first_fb_record + text_id`: the first text record can be a non-FB00
+location card (chunk 69: pool_size 7, so text id 0 is record 8 "Brenda's
+Sickroom"; the first FB00 record is 9).
 
-Speaker resolution:
+**Speaker is the zero-based name-pool slot at byte `p+9`:**
 
-- actor key in the actor-plate table => resolve
-  `actor key -> actor_plate_table.field2 -> speaker-pool slot`;
-- `0xFFE5..0xFFFE` => runtime-remapped crowd/off-screen plate, keep the
-  conservative chunk-wide pool reserve;
-- actor key `0xFFFF` with `p+9 == 0xFF` => no plate, reserve `0`;
-- actor key `0xFFFF` with `p+9 < speaker_pool_size` => use `p+9` as the
-  zero-based local speaker-pool slot.
+- `p+9 < speaker_pool_size` => that local speaker-pool slot;
+- `p+9 == 0xFF` => no plate, reserve `0`;
+- `p+9 >= speaker_pool_size` (e.g. `58`) => a location/special plate; treat as
+  unresolved and keep the conservative chunk-wide pool reserve.
+
+The first display command for a record wins.
+
+> **History.** A prior revision read the speaker from the actor key at `u16@p+6`
+> (via `actor_plate_table.field2`) with record = `first_fb + text_id`. A static
+> read of the window handler suggested `p+6..7` was the speaker and `p+9` mere
+> routing, but in-game verification (six plates across chunk 69, see
+> `work/speaker_anchors.md`) proved it wrong on **every** plated line: `p+9` is
+> the plate selector and `p+6..7` is unrelated routing.
 
 Plate width is the rendered speaker name plus the `0x0001` glyph that the engine
 draws next to the name. Continuation pages after `<$FFFD>` do not redraw the
@@ -46,9 +50,9 @@ speaker plate and wrap at full width.
    walking from offset 0 is invalid.
 2. Display/window commands are 12-byte opcodes `0x0B..0x10` handled by
    `FUN_80024424`.
-3. The primary speaker selector is the actor key at `p+6..7`. For display
-   commands whose actor key is `0xFFFF`, `p+9` can carry the local
-   speaker-pool slot; `0xFF` means no plate.
+3. The speaker selector is the zero-based name-pool slot at `p+9` (`0xFF` = no
+   plate; `>= pool_size` = location/special). The actor key at `p+6..7` is
+   unrelated routing, not the plate (in-game verified, chunk 69).
 4. The actor key is resolved through `FUN_800216c8`; ordinary keys are identity,
    special keys `0xFFE5..0xFFFE` are remapped from runtime state.
 5. The resolved key is looked up in the chunk actor-plate table. That table maps

@@ -9,12 +9,12 @@
 9	Soldier<$FFFF>
 10	Lenard<$FFFF>
 11	Kalxath Castle Audience Hall<$FFFF>
-12	<$FB00><$0003>Your Majesty, as reported, the Salrath<$FFFC>army has appeared.<$FFFE>
+12	<$FB00><$0003>Your Majesty, as reported, the<$FFFC>Salrath army has appeared.<$FFFE>
 13	<$FFF8><$FB00><$0004>Heh heh heh. <$FFF5><$FFF6><$FB00><$0005>I see. They walked<$FFFC>right into our net.<$FFFE>
 14	<$FB00><$0006>Yes. Our formation is already<$FFFC>complete.<$FFFE>
 15	<$FB00><$0007>When you know when, where, and<$FFFC>how many troops will pass, battle is as<$FFFC>good as won.<$FFFD><$FB00><$0008>They have no flying ship this time,<$FFFC>either. What will you do now, rebels？<$FFFE>
 16	Salrath Army on the March<$FFFF>
-17	<$FB00><$0009>Lord Lenard, Kalxath troops are deployed<$FFFC>ahead！<$FFFE>
+17	<$FB00><$0009>Lord Lenard, Kalxath troops are<$FFFC>deployed ahead！<$FFFE>
 18	<$FFFA><$FB00><$000A>I expected this, but their<$FFFC>response is too fast.<$FFFE>
 19	<$FB00><$000B>Then someone is leaking our<$FFFC>movements？<$FFFE>
 20	<$FB00><$000C>I hate to admit it, but so it<$FFFC>seems.<$FFFE>

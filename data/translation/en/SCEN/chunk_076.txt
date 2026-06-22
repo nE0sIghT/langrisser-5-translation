@@ -11,15 +11,15 @@
 9	Zero<$FFFF>
 10	Gaiel<$FFFF>
 11	Sky Battleship Attacking the Demons<$FFFF>
-12	<$FB00><$0003>Argh, that I of all people<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0004>Is this<$FFFC>the end<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+12	<$FB00><$0003>Argh, that I of all people<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$0004>Is this the end<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 13	<$FB00><$0005>L, Lord Zero！ Th, this<$FFFC>is<$FFF5><$FFF7>…<$FE14>…<$FE14>！<$FE14> <$FFF6><$FB00><$0006>U, uwaah！<$FFF5><$FFF7><$FFFE>
 14	<$FFF8>…<$FE14>…<$FE14><$FB00><$0007>Hm.<$FFF6> It was the right call to<$FFFC>leave Lord Lainforce behind after all.<$FFFE>
-15	<$FFFA><$FB00><$0008>No matter. My part is done.<$FFFC>The rest rests with Lord Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FFFA><$FB00><$0008>No matter. My part is done. The rest<$FFFC>rests with Lord Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 16	Demon Camp<$FFFF>
-17	<$FB00><$0009>The battleship sank？<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$000A>That flash just<$FFFC>now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-18	<$FB00><$000B>What's wrong？ Didn't you say<$FFFC>that once Crimzo was stopped, you'd carve<$FFFC>up Crimzonia with ease？<$FFFE>
+17	<$FB00><$0009>The battleship sank？<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$000A>That<$FFFC>flash just now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$000B>What's wrong？ Didn't you say that<$FFFC>once Crimzo was stopped, you'd carve up<$FFFC>Crimzonia with ease？<$FFFE>
 19	<$FB00><$000C>G, Gaiel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-20	<$FB00><$000D>Only because I happened to<$FFFC>find the link between Alhazard and the<$FFFC>ultimate weapon. Had I not come, you'd be<$FFFC>dead, you know？<$FFFE>
+20	<$FB00><$000D>Only because I happened to find<$FFFC>the link between Alhazard and the ultimate<$FFFC>weapon. Had I not come, you'd be dead, you<$FFFC>know？<$FFFE>
 21	<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FB00><$000E>Kh！<$FFFE>
 22	<$FB00><$000F>Now then, the counterattack.<$FFFE>
 23	<$0000>Having disabled the magitek system, the<$FFFC>party storms the castle, pressing on in<$FFFC>search of Lainforce. <$0000>And at last, in<$FFFC>the audience hall, they found him.<$FFFD><$0000>To stop Crimzonia's conquest of the<$FFFC>surface, <$F600><$0000>'s band<$FFFC>challenges Lainforce.<$FFFE>

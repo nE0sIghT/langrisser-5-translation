@@ -13,25 +13,25 @@
 11	Road to the demon castle<$FFFF>
 12	<$FB00><$00A8>Boss！<$FFFE>
 13	<$FB00><$00A9>Well？<$FFFE>
-14	<$FB00><$00AA>We found it. A strange castle<$FFFC>ahead, with demons gathering there.<$FFFE>
+14	<$FB00><$00AA>We found it. A strange castle ahead,<$FFFC>with demons gathering there.<$FFFE>
 15	<$FB00><$00AB>That'll be the place.<$FFFE>
 16	<$FB00><$00AC>And that's where the<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
 17	<$FB00><$00AE>But word is the Caconsis army is<$FFFC>headed there too. We'd better hurry.<$FFFE>
 18	<$FB00><$00AF>The Caconsis army？<$FFFE>
 19	<$FB00><$00B0>We should hurry. If Caconsis<$FFFC>carries off the crystal, things get ugly.<$FFFE>
 20	<$FB00><$00B1>Right. We must get the Sage's<$FFFC>Crystal, whatever it takes！<$FFFE>
-21	<$FB00><$00B2>Also, the enemy has archers.<$FFFC>Best be careful.<$FFFE>
+21	<$FB00><$00B2>Also, the enemy has archers. Best be<$FFFC>careful.<$FFFE>
 22	Archers, huh…<$FFFE>
 23	You know how to handle archers？ I<$FFFC>could teach you, if you like？<$FFFE>
 24	・I know<$FFFE>
 25	・Teach me<$FFFE>
-26	Kill them with magic, or close the gap in<$FFFC>one move and strike, right？<$FFFE>
-27	Oh, so you knew. That puts my<$FFFC>mind at ease.<$FFFE>
+26	Kill them with magic, or close the<$FFFC>gap in one move and strike, right？<$FFFE>
+27	Oh, so you knew. That puts my mind<$FFFC>at ease.<$FFFE>
 28	Teach me.<$FFFE>
 29	Archers are mercenaries that<$FFFC>strike from afar, like magic. Get careless<$FFFC>coming close and a volley will finish you.<$FFFD>But archers have weak spots. Most fall<$FFFC>easily to attack magic.<$FFFE>
 30	Weak to magic, huh. And if I can't<$FFFC>use magic and still must fight them？<$FFFE>
 31	Let's see. Then close in from<$FFFC>beyond bow range in one move and strike.<$FFFC>Archers crumble in close combat.<$FFFE>
-32	In short, kill them with magic, or close<$FFFC>the gap in one move and strike.<$FFFE>
+32	In short, kill them with magic, or<$FFFC>close the gap in one move and strike.<$FFFE>
 33	That's the way of it.<$FFFE>
 34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
 35	At the Dark Altar<$FFFF>

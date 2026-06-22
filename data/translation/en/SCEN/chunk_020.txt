@@ -11,9 +11,9 @@
 9	・Defeat all enemies<$FFFE>
 10	・3 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 11	Road to Velzeria<$FFFF>
-12	<$FB00><$0022>They go after supplies like humans.<$FFFE>
+12	<$FB00><$0022>They go after supplies like<$FFFC>humans.<$FFFE>
 13	<$FB00><$0023>They are not stupid, then.<$FFFE>
-14	<$FB00><$0024>Never mind that, we have to deal with<$FFFC>this！<$FFFE>
+14	<$FB00><$0024>Never mind that, we have to deal<$FFFC>with this！<$FFFE>
 15	<$FB00><$0025>Right. If we lose them, we can<$FFFC>march no farther.<$FFFE>
 16	<$FB00><$0026>Worst case, how much can we<$FFFC>afford to lose？<$FFFE>
 17	If four of these supply units<$FFFC>survive, we might manage.<$FFFE>
@@ -22,8 +22,8 @@
 20	<$FB00><$0028>There are five units, so if three<$FFFC>or more fall, we cannot march.<$FFFE>
 21	<$FB00><$0029>If we drop the bridges to this<$FFFC>island, we can slow them down.<$FFFE>
 22	<$FB00><$002A>Right. Cut the ropes, and the<$FFFC>bridges should fall.<$FFFE>
-23	At a bridge foot, choose<$FFFC>whether to cut the ropes.<$FFFD><$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No <$FFF3>waits for later.<$FFFE>
-24	<$FB00><$002B>At a bridge, we will ask what to<$FFFC>do.<$FFFE>
+23	At a bridge foot, choose whether to cut<$FFFC>the ropes.<$FFFD><$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No <$FFF3>waits for later.<$FFFE>
+24	<$FB00><$002B>At a bridge, we will ask what<$FFFC>to do.<$FFFE>
 25	<$FB00><$002C>Understood. I count on you！<$FFFE>
 26	・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 27	<$FB00><$002D>Run to the fort north of the<$FFFC>lake！ We hold them here！<$FFFE>
@@ -42,14 +42,14 @@
 40	Drop the bridge？<$FFFE>
 41	Drop the bridge？<$FFFE>
 42	Drop the bridge？<$FFFE>
-43	<$FB00><$003C>The supply units finished evacuating.<$FFFE>
+43	<$FB00><$003C>The supply units finished<$FFFC>evacuating.<$FFFE>
 44	<$FB00><$003D>Good. Now wipe out the enemy.<$FFFE>
 45	Thank you！<$FFFE>
 46	We will go on ahead！<$FFFE>
 47	Good luck！<$FFFE>
 48	We will deliver these supplies！<$FFFE>
 49	Whew！ I thought I was dead…<$FFFE>
-50	A single red lotus blooms. As you<$FFFC>gaze at it, a beautiful woman appears on<$FFFC>the lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
+50	A single red lotus blooms. As you gaze at<$FFFC>it, a beautiful woman appears on the lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
 51	<$FB00><$002B>Take this！<$FFFE>
 52	<$FFF7><$FB00><$002A>Hah！<$FFF5><$FFF8><$FFFE>
 53	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
@@ -62,14 +62,14 @@
 60	<$FB00><$0076>I won't lose！<$FFFE>
 61	<$FB00><$0078>Am I not good enough…<$FFFE>
 62	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
-63	<$FB00><$007A>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+63	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
 64	<$FB00><$0068>Come and get me！<$FFFE>
 65	<$FB00><$0069>Who do you think I am！<$FFFE>
 66	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 67	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 68	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 69	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-70	<$FB00><$006F>…I'll do that. Wouldn't want<$FFFC>to drag you down…<$FFFE>
+70	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 71	<$FB00><$0055>Forgive me！<$FFFE>
 72	<$FB00><$0054>I won't lose！<$FFFE>
 73	<$FB00><$005C>Ow！ You dare！<$FFFE>
@@ -94,13 +94,13 @@
 92	WOOO…<$FFFE>
 93	<$FB00><$003E>Looks like no enemies remain.<$FFFE>
 94	<$FB00><$003F>Looks like we protected them.<$FFFE>
-95	<$FB00><$0040>Thanks to you, not one unit<$FFFC>was hurt. Thank you.<$FFFE>
+95	<$FB00><$0040>Thanks to you, not one unit was<$FFFC>hurt. Thank you.<$FFFE>
 96	<$FB00><$0041>Everyone worked hard for it.<$FFFE>
 97	<$FB00><$0042>Yes. Thank you, everyone.<$FFFE>
 98	<$FB00><$0043>Of course. If you thank us for<$FFFC>every little thing, who knows how many<$FFFC>times you will thank us from here on？<$FFFE>
 99	<$FB00><$0044>When this war ends and peace<$FFFC>returns to Kalxath, thank us all at once.<$FFFE>
 100	<$FB00><$0045>Still, I am happy that you are<$FFFC>all lending strength to this country. So,<$FFFC>thank you.<$FFFE>
-101	<$FB00><$0046>Then hurry. McClaine and<$FFFC>Jessica may already be fighting.<$FFFE>
+101	<$FB00><$0046>Then hurry. McClaine and Jessica<$FFFC>may already be fighting.<$FFFE>
 102	<$FB00><$0047>Right. We should hurry too.<$FFFE>
 103	A huge shadow suddenly crossed the sky.<$FFFD>I am Snow Dragon. Thanks to you, my<$FFFC>children have grown strong. I came today<$FFFC>to repay that debt.<$FFFE>
 104	<$F600><$0000> can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>
@@ -112,13 +112,13 @@
 110	Damn！ There were more over there！<$FFFE>
 111	<$FB00><$002F>All right, drop this bridge.<$FFFE>
 112	<$FB00><$0030>So we drop this bridge？<$FFFE>
-113	<$FB00><$0031>We are to drop this bridge,<$FFFC>then？<$FFFE>
+113	<$FB00><$0031>We are to drop this bridge, then？<$FFFE>
 114	<$FB00><$0032>Just drop this bridge, right？<$FFFE>
 115	<$FB00><$0033>Drop this bridge, yes？<$FFFE>
-116	<$FB00><$0034>Kh！ The supply units took<$FFFC>damage <$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
-117	<$FB00><$0034>Kh！ The supply units took<$FFFC>damage <$FFF5><$FFF8>…<$FFFE>
+116	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
+117	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>…<$FFFE>
 118	<$FB00><$0035>We stop them here！<$FFFE>
 119	<$FB00><$0036>Ah, another one down！<$FFFE>
-120	<$FB00><$0037>Second unit<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>No more<$FFFC>mistakes！<$FFFE>
+120	<$FB00><$0037>Second unit<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
 121	<$FB00><$0039>Ah, the third unit！<$FFFE>
 122	<$FB00><$003A>We cannot march like this<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$003B>Mission failed<$FFF5><$FFF8>…<$FFFE><$FFFF>

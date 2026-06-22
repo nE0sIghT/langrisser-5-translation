@@ -440,23 +440,25 @@ def display_plate_slots(
 def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
     """Per-record speaker plate, read straight from the display commands.
 
-    Each display command (opcode 0x0B..0x10, 12 bytes) carries the display order
-    as the u16 text id at +10. Speaker plate selection is either an actor key at
-    +6..7 or, for windows whose actor key is 0xFFFF, a local speaker-pool slot at
-    +9 (0xFF means no plate). The implementation maps `record = first FB00 record
-    + text id` and bounds the id by the FB00-bearing record count; this still
-    covers FB00-less spoken records interleaved in that display range. The real
-    commands are picked out by a semantic filter rather than a VM walk: the actor
-    key must be a chunk `actor_plate_table` key (or the special `0xFFE5..0xFFFE`
-    crowd range, or `0xFFFF`), the text id must be in range, the mode
-    `byte+3 & 3 <= 2`, and the name-visible flag `byte+8 <= 1`. See
-    docs/SPEAKER_NAME_EXTRACTION.md.
+    Each display command (opcode 0x0B..0x10, 12 bytes) selects the speaker by the
+    zero-based name-pool slot at byte +9, and the display order by the u16 text id
+    at +10. The text records follow the name pool (records 1..pool_size), so
+    `record = pool_size + 1 + text id`. byte +9 == 0xFF means no plate; a value
+    >= pool_size is a location/special plate (treated as -1 -> chunk-wide reserve).
+    Real commands are filtered by the mode `byte+3 & 3 <= 2` and the name-visible
+    flag `byte+8 <= 1`; the first command for a record wins.
+
+    byte +6..7 is the actor key used for other routing, not the plate. An earlier
+    revision read the plate from that key (via the actor-plate table) and from
+    `record = first FB00 + text id`; both were wrong on every plated line of the
+    chunk-69 dialogue verified in game (see work/speaker_anchors.md and
+    docs/SPEAKER_NAME_EXTRACTION.md).
 
     Returns chunk -> record -> slot, where slot is the zero-based speaker-pool
-    slot, `None` for no plate, or `-1` for an unresolved crowd key (its plate is
-    remapped at runtime, so fall back to the chunk-wide reserve there).
+    slot, `None` for no plate, or `-1` for a location/unresolved plate (fall back
+    to the chunk-wide reserve there).
     """
-    from lang5_speakers import actor_plate_table, vm_block
+    from lang5_speakers import vm_block
     out: dict[int, dict[int, int | None]] = {}
     data = scen_path.read_bytes()
     for ci, (start, end) in enumerate(read_chunk_spans(data)):
@@ -466,49 +468,30 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
             vm_off, vm, _stream = vm_block(chunk, block)
         except Exception:
             continue
-        apt = {a.key: a.field2 for a in actor_plate_table(chunk)}
         pool_size = u32(chunk, vm_off + 0x38) if vm_off else 0
-        fb = [i for i in range(1, block.record_count + 1)
-              if any(w == 0xFB00 for w in
-                     words_from_bytes(chunk[block.record_span(i)[0]:block.record_span(i)[1]]))]
-        if not fb:
+        if not pool_size or pool_size >= block.record_count:
             continue
-        first_fb, nfb = min(fb), len(fb)
-        def candidate_slot(key: int, byte9: int) -> int | None:
-            if key == 0xFFFF:
-                return byte9 if byte9 != 0xFF and byte9 < pool_size else None
-            if 0xFFE5 <= key <= 0xFFFE:
-                return -1
-            return apt.get(key, 1) - 1
-
-        cands: dict[int, list[tuple[int, int, int]]] = {}
-        for p in range(len(vm) - 11):
-            if 0x0B <= vm[p] <= 0x10:
-                key = vm[p + 6] | (vm[p + 7] << 8)
-                tid = vm[p + 10] | (vm[p + 11] << 8)
-                if (tid < nfb and (key in apt or 0xFFE5 <= key <= 0xFFFE or key == 0xFFFF)
-                        and (vm[p + 3] & 3) <= 2 and vm[p + 8] <= 1):
-                    cands.setdefault(tid, []).append((p, key, vm[p + 9]))
-        used: list[int] = []
+        base = pool_size + 1                        # text record shown by id 0
+        n_text = block.record_count - pool_size
         rec_slot: dict[int, int | None] = {}
-        # Resolve the unambiguous text ids first; ambiguous ones then take the
-        # candidate whose 12-byte command does not overlap an assigned one.
-        for tid in sorted(
-            range(nfb),
-            key=lambda t: len(set(candidate_slot(k, b9) for _, k, b9 in cands.get(t, []))),
-        ):
-            opts = cands.get(tid, [])
-            if not opts:
-                rec_slot[first_fb + tid] = None
+        for p in range(len(vm) - 11):
+            if not (0x0B <= vm[p] <= 0x10):
                 continue
-            slots = {candidate_slot(k, b9) for _, k, b9 in opts}
-            if len(slots) == 1:
-                pos, key, byte9 = opts[0]
+            if (vm[p + 3] & 3) > 2 or vm[p + 8] > 1:
+                continue
+            tid = vm[p + 10] | (vm[p + 11] << 8)
+            if not (0 <= tid < n_text):
+                continue
+            rec = base + tid
+            if rec in rec_slot:                     # first command per record wins
+                continue
+            slot = vm[p + 9]
+            if slot < pool_size:
+                rec_slot[rec] = slot
+            elif slot == 0xFF:
+                rec_slot[rec] = None
             else:
-                free = [o for o in opts if all(abs(o[0] - u) >= 12 for u in used)] or opts
-                pos, key, byte9 = free[0]
-            used.append(pos)
-            rec_slot[first_fb + tid] = candidate_slot(key, byte9)
+                rec_slot[rec] = -1
         out[ci] = rec_slot
     return out
 

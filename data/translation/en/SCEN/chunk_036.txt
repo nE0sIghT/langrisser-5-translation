@@ -14,52 +14,52 @@
 12	・Defeat all enemies<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
 14	Pelia Core<$FFFF>
-15	<$FB00><$005C>Looks like my path was right after all<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$005D>Hm？ What's that！<$FFFE>
+15	<$FB00><$005C>Looks like my path was right after<$FFFC>all<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>Hm？ What's that！<$FFFE>
 16	<$FB00><$005E>I'm sorry…<$FFFE>
-17	<$FB00><$005F>Forgive me. I made a mistake at the end.<$FFFE>
-18	<$FB00><$0060>So there was a trap like<$FFFC>this<$FFF5><$FFF8>…<$FFFE>
-19	<$FB00><$0061>The moment we got here, it locked<$FFFC>us in<$FFF5><$FFF8>…<$FFFE>
+17	<$FB00><$005F>Forgive me. I made a mistake at<$FFFC>the end.<$FFFE>
+18	<$FB00><$0060>So there was a trap like this<$FFF5><$FFF8>…<$FFFE>
+19	<$FB00><$0061>The moment we got here, it<$FFFC>locked us in<$FFF5><$FFF8>…<$FFFE>
 20	<$FB00><$0062>Never mind that, hurry and save<$FFFC>us！<$FFFE>
 21	<$FB00><$0063>Understood. Hold on, I'll free<$FFFC>you！<$FFFE>
 22	<$FB00><$0064>New intruder detected. Entering<$FFFC>attack mode.<$FFFE>
 23	<$FB00><$0066>Releasing man-eaters.<$FFFC>Beginning prisoner disposal.<$FFFE>
 24	<$FB00><$0067>First meal in ages…<$FFFE>
 25	<$FB00><$0068>Now, which one do I eat first<$FFF5><$FFF8>…<$FFFE>
-26	<$FB00><$0069>What！？<$FFF5><$FFF8> …<$FFF6><$FB00><$006A>I have to save<$FFFC>everyone, fast！<$FFFE>
+26	<$FB00><$0069>What！？<$FFF5><$FFF8> …<$FFF6><$FB00><$006A>I have to save everyone,<$FFFC>fast！<$FFFE>
 27	<$FB00><$006B>Are you all right, Marie？ I'll<$FFFC>free you now！<$FFFE>
-28	<$FB00><$006C>Thank you. Now I can fight too.<$FFFE>
+28	<$FB00><$006C>Thank you. Now I can fight<$FFFC>too.<$FFFE>
 29	Already this close<$FFF8>…<$FFFE>
 30	Hold still and let me eat<$FFFC>you！<$FFFE>
 31	<$FB00><$006D>Are you all right, Alfred？ I'll<$FFFC>free you now！<$FFFE>
 32	<$FB00><$006E>Y-you saved me<$FFF5><$FFF8>…<$FFFE>
 33	Please hurry and save me！<$FFFE>
 34	Noisy brat. I'll quiet you<$FFFC>down now！<$FFFE>
-35	<$FB00><$006F>Are you all right, Brenda？<$FFFC>I'll free you now！<$FFFE>
-36	<$FB00><$0070>Sorry about that.<$FFF5> <$FB00><$0071>Now, which<$FFFC>one do I smash first？<$FFFE>
-37	Guh<$FFF8>… <$FFF6>No way I'm getting<$FFFC>eaten by this thing.<$FFFE>
+35	<$FB00><$006F>Are you all right, Brenda？ I'll<$FFFC>free you now！<$FFFE>
+36	<$FB00><$0070>Sorry about that.<$FFF5> <$FB00><$0071>Now, which one<$FFFC>do I smash first？<$FFFE>
+37	Guh<$FFF8>… <$FFF6>No way I'm getting eaten by<$FFFC>this thing.<$FFFE>
 38	Spirited woman！ Let's see<$FFFC>how long that bravado lasts…<$FFFE>
 39	<$FB00><$0072>Are you all right, Clarett？ I'll<$FFFC>free you now！<$FFFE>
 40	<$FB00><$0073>Yes, I was a little scared<$FFF5><$FFF8>… <$FFF6><$FB00><$0074>But<$FFFC>I'm all right now.<$FFFE>
 41	I-I wouldn't taste good<$FFFC>anyway！<$FFFE>
-42	I'll decide whether you<$FFFC>taste good. Stop struggling.<$FFFE>
+42	I'll decide whether you taste<$FFFC>good. Stop struggling.<$FFFE>
 43	N-no…<$FFFE>
 44	<$FB00><$0075>Are you all right, Lanford？ I'll<$FFFC>free you now！<$FFFE>
-45	<$FB00><$0076>Forgive me. I'll make up<$FFFC>for it in battle.<$FFFE>
+45	<$FB00><$0076>Forgive me. I'll make up for it<$FFFC>in battle.<$FFFE>
 46	I will not fall so easily！<$FFFE>
 47	Kukukuku… What can you do<$FFFC>when you cannot move？<$FFFE>
 48	Guh！<$FFFE>
 49	<$FB00><$009F>Wait, Omega！<$FFF5><$FFF8> <$FFF6><$FB00><$00A0>We need to talk！<$FFFE>
-50	<$FB00><$00A1>What！<$FFF5> <$FB00><$00A2>Begging for your<$FFFC>life now？<$FFFE>
+50	<$FB00><$00A1>What！<$FFF5> <$FB00><$00A2>Begging for your life<$FFFC>now？<$FFFE>
 51	<$FB00><$00A3>Could you make this moon<$FFFC>self-destruct first？<$FFF5> <$FB00><$00A4>Once we're back on<$FFFC>the surface, I'll fight you as much as you<$FFFC>want.<$FFFE>
 52	<$FB00><$00A5>No can do.<$FFFE>
 53	<$FB00><$00A6>Why not！<$FFFE>
-54	<$FB00><$00A7>If I start the<$FFFC>self-destruct, I've got no way out of<$FFFC>here.<$FFF5> <$FB00><$00A8>What if you and I don't settle<$FFFC>this before it blows？<$FFFE>
-55	<$FB00><$00A9>Then if you beat me, will you<$FFFC>save the surface？<$FFF5> <$FB00><$00AA>Even at the cost of<$FFFC>your life！<$FFF5> <$FB00><$00AB>Are you ready for that？<$FFFE>
-56	<$FB00><$00AC>I'm not kind enough to<$FFFC>save others when I have to die too.<$FFF5> <$FB00><$00AD>I'd<$FFFC>rather everybody died.<$FFFE>
+54	<$FB00><$00A7>If I start the self-destruct,<$FFFC>I've got no way out of here.<$FFF5> <$FB00><$00A8>What if you<$FFFC>and I don't settle this before it blows？<$FFFE>
+55	<$FB00><$00A9>Then if you beat me, will you save<$FFFC>the surface？<$FFF5> <$FB00><$00AA>Even at the cost of your<$FFFC>life！<$FFF5> <$FB00><$00AB>Are you ready for that？<$FFFE>
+56	<$FB00><$00AC>I'm not kind enough to save others<$FFFC>when I have to die too.<$FFF5> <$FB00><$00AD>I'd rather<$FFFC>everybody died.<$FFFE>
 57	<$FB00><$00AE>What did you say！<$FFFE>
-58	<$FB00><$00AF>If you entertain me, maybe<$FFFC>I'll rethink it！<$FFF5> <$FB00><$00B0>Besides, do you have<$FFFC>any other choice？<$FFFE>
+58	<$FB00><$00AF>If you entertain me, maybe I'll<$FFFC>rethink it！<$FFF5> <$FB00><$00B0>Besides, do you have any<$FFFC>other choice？<$FFFE>
 59	<$FB00><$002D>I can't die here…<$FFFE>
-60	<$FB00><$0048>Guh… but I can still<$FFFC>fight…<$FFFE>
+60	<$FB00><$0048>Guh… but I can still fight…<$FFFE>
 61	<$FB00><$0049>Marie！ Fall back, don't push<$FFFC>yourself！<$FFFE>
 62	<$FB00><$004A>…Please, don't lose…<$FFFE>
 63	<$FB00><$004B>No… not me…<$FFFE>
@@ -67,64 +67,64 @@
 65	<$FB00><$007C>Alfred！ Pull back！<$FFFE>
 66	<$FB00><$007D>But…<$FFFE>
 67	<$FB00><$007E>Trust your friends！<$FFFE>
-68	<$FB00><$007F>…Understood… I'll leave<$FFFC>the rest to you…<$FFFE>
+68	<$FB00><$007F>…Understood… I'll leave the rest<$FFFC>to you…<$FFFE>
 69	<$FB00><$0080>Are you all right, Alfred！<$FFFE>
-70	<$FB00><$0081>Sorry… I'm counting on<$FFFC>you…<$FFFE>
+70	<$FB00><$0081>Sorry… I'm counting on you…<$FFFE>
 71	<$FB00><$0082>Yeah, leave it to me！<$FFFE>
 72	<$FB00><$006B>Guh… I messed up…<$FFFE>
 73	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-74	<$FB00><$006D>Yeah, I'm fine… I can<$FFFC>still fight…<$FFFE>
+74	<$FB00><$006D>Yeah, I'm fine… I can still<$FFFC>fight…<$FFFE>
 75	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-76	<$FB00><$006F>…I'll do that. I don't<$FFFC>want to slow you down…<$FFFE>
+76	<$FB00><$006F>…I'll do that. I don't want to<$FFFC>slow you down…<$FFFE>
 77	<$FB00><$006B>Guh… I messed up…<$FFFE>
 78	<$FB00><$005C>Ow！ H-how dare you！<$FFFE>
 79	<$FB00><$005D>Clarett！？ Don't push yourself！<$FFFE>
 80	<$FB00><$005E>B-but…<$FFFE>
 81	<$FB00><$005F>Just fall back！<$FFFE>
-82	<$FB00><$0060>I'm sorry, at a time like<$FFFC>this…<$FFFE>
+82	<$FB00><$0060>I'm sorry, at a time like this…<$FFFE>
 83	<$FB00><$0057>Kya！<$FFFE>
 84	<$FB00><$008A>Lanford！<$FFFE>
 85	<$FB00><$008B>…I'm all right… I cannot leave<$FFFC>this only to you…<$FFFE>
 86	<$FB00><$008C>Trust us！<$FFFE>
-87	<$FB00><$008D>…Friends, then. Very<$FFFC>well, I will fall back.<$FFFE>
+87	<$FB00><$008D>…Friends, then. Very well, I<$FFFC>will fall back.<$FFFE>
 88	<$FB00><$0087>Guh… Is the wound that deep…<$FFFE>
 89	Nwooh… Humans can be this<$FFFC>strong…<$FFFE>
 90	I lost…！？<$FFFE>
-91	…Self-repair circuit… stopped…<$FFFC>…functions… declining… …func…<$FFFC>de…cline… …fun… de…<$FFFE>
+91	…Self-repair circuit…<$FFFC>stopped… …functions… declining…<$FFFC>…func… de…cline… …fun… de…<$FFFE>
 92	…Damage… over 70 percent…<$FFFC>…functions cannot be maintained…<$FFFE>
 93	…V…vvv…v… Reactor<$FFFC>damaged… Internal pressure… rising…<$FFFE>
-94	<$FB00><$0094>I'll show you the difference<$FFFC>with a complete specimen！<$FFFE>
-95	<$FB00><$0095>By the way, how did you get<$FFFC>here？<$FFFE>
+94	<$FB00><$0094>I'll show you the difference with<$FFFC>a complete specimen！<$FFFE>
+95	<$FB00><$0095>By the way, how did you get here？<$FFFE>
 96	<$FB00><$0096>Huh？ What do you care？<$FFFE>
 97	<$FB00><$0097>Just answer me！<$FFFE>
 98	<$FB00><$0098>I slipped onto Lainforce's ship<$FFFC>and rode it to Crimzo. Then I stole a<$FFFC>small craft and came here.<$FFFD><$FB00><$0099>Satisfied？<$FFFE>
 99	<$FB00><$009A>And the ship you came in？<$FFFE>
-100	<$FB00><$009B>Outside, sunk full of holes.<$FFFC>Take it if you want it.<$FFFE>
+100	<$FB00><$009B>Outside, sunk full of holes. Take<$FFFC>it if you want it.<$FFFE>
 101	<$FFF8>…<$FFF6><$FB00><$009C>So his ship is useless too<$FFF5><$FFF8>…<$FFFE>
-102	<$FB00><$009D>This is the last time. Don't<$FFFC>hold back！<$FFFE>
+102	<$FB00><$009D>This is the last time. Don't hold<$FFFC>back！<$FFFE>
 103	<$FB00><$009E>Don't worry, I won't.<$FFFE>
 104	Out of my way！<$FFFE>
 105	<$FB00><$00B1>Guh, ghah！ …Why… does<$FFFC>completion level not matter<$FFF5><$FFF8>…<$FFFE>
 106	I don't want to die here…<$FFFE>
-107	L-Lord Omega… I don't want to die…<$FFFE>
+107	L-Lord Omega… I don't want to<$FFFC>die…<$FFFE>
 108	<$FFFA><$FFF8>…<$FFF6><$FB00><$00B2>It's over<$FFF5><$FFF8>…<$FFFE>
-109	You look tasty, human. Kukukuku…<$FFFE>
-110	This is bad！ I have to save them, fast！<$FFFE>
+109	You look tasty, human.<$FFFC>Kukukuku…<$FFFE>
+110	This is bad！ I have to save them,<$FFFC>fast！<$FFFE>
 111	<$FB00><$0077>Warning！ New intruder<$FFFC>detected.<$FFFE>
 112	<$FB00><$0078>What<$FFF5><$FFF8>…？<$FFFE>
 113	<$FB00><$0079>Found you<$FFF5><$FFF8>…<$FFFE>
 114	<$FB00><$007A>You're alive, Omega<$FFF5><$FFF8>…<$FFFE>
-115	<$FB00><$007B>Who do you think I am,<$FFFC>defective？<$FFF5> <$FB00><$007C>If I use my true ability,<$FFFC>that scratch won't kill me. Not that you<$FFFC>could do it.<$FFFD><$FB00><$007D>Enough chatter.<$FFF5> <$FB00><$007E>Today I kill you！<$FFFE>
-116	<$FB00><$007F>Wait, Omega！<$FFF5> <$FB00><$0080>This is no<$FFFC>time for that！<$FFF5> <$FB00><$0081>This moon is<$FFF5>…<$FFFE>
-117	<$FB00><$0082>I know. That's why this is<$FFFC>my last chance！<$FFFE>
-118	<$FB00><$0083>Then at least save the<$FFFC>surface first！<$FFF5> <$FB00><$0084>I'll fight you after<$FFFC>that！<$FFFE>
-119	<$FB00><$0085>Idiot！ I'm not blind！<$FFF5><$FFFC><$FB00><$0086>If you deal with this moon, you'll use<$FFFC>that ability, right？<$FFFD><$FB00><$0087>Your body could only use it once to begin<$FFFC>with. A second use would kill you, right？<$FFFC>So it has to be now！<$FFFE>
+115	<$FB00><$007B>Who do you think I am, defective？<$FFF5><$FFFC><$FB00><$007C>If I use my true ability, that scratch<$FFFC>won't kill me. Not that you could do it.<$FFFD><$FB00><$007D>Enough chatter.<$FFF5> <$FB00><$007E>Today I kill you！<$FFFE>
+116	<$FB00><$007F>Wait, Omega！<$FFF5> <$FB00><$0080>This is no time<$FFFC>for that！<$FFF5> <$FB00><$0081>This moon is<$FFF5>…<$FFFE>
+117	<$FB00><$0082>I know. That's why this is my last<$FFFC>chance！<$FFFE>
+118	<$FB00><$0083>Then at least save the surface<$FFFC>first！<$FFF5> <$FB00><$0084>I'll fight you after that！<$FFFE>
+119	<$FB00><$0085>Idiot！ I'm not blind！<$FFF5> <$FB00><$0086>If you<$FFFC>deal with this moon, you'll use that<$FFFC>ability, right？<$FFFD><$FB00><$0087>Your body could only use it once to begin<$FFFC>with. A second use would kill you, right？<$FFFC>So it has to be now！<$FFFE>
 120	<$FB00><$0088>Wait, twice<$FFF5><$FFF8>…？<$FFFE>
-121	<$FB00><$0089>You were with him and<$FFFC>never noticed？<$FFF5> <$FB00><$008A>He already used it<$FFFC>once！<$FFFE>
+121	<$FB00><$0089>You were with him and never<$FFFC>noticed？<$FFF5> <$FB00><$008A>He already used it once！<$FFFE>
 122	<$FB00><$008B>Is that true<$FFF5>…？<$FFFE>
 123	<$FFFA><$FFF8>…<$FFFE>
-124	<$FB00><$008C>Don't tell me, in that<$FFFC>explosion<$FFF5>…<$FFFE>
-125	<$FFFA><$FFF8>…<$FFF7><$FB00><$008D>Yes.<$FFF5> <$FFF6><$FB00><$008E>I used it<$FFFC>unconsciously.<$FFFE>
-126	<$FB00><$008F>There, you admit it.<$FFF5> <$FB00><$0090>Then<$FFFC>fight me！<$FFF5> <$FB00><$0091>If I win, I'll save the<$FFFC>surface with my power！<$FFFE>
+124	<$FB00><$008C>Don't tell me, in that explosion<$FFF5>…<$FFFE>
+125	<$FFFA><$FFF8>…<$FFF7><$FB00><$008D>Yes.<$FFF5> <$FFF6><$FB00><$008E>I used it unconsciously.<$FFFE>
+126	<$FB00><$008F>There, you admit it.<$FFF5> <$FB00><$0090>Then fight<$FFFC>me！<$FFF5> <$FB00><$0091>If I win, I'll save the surface with<$FFFC>my power！<$FFFE>
 127	<$FB00><$0092>Intruder confirmed.<$FFFC>Analysis complete, enemy identified.<$FFFC>Adding to attack targets.<$FFFE>
 128	<$FB00><$0093>Give up and fight！<$FFFE><$FFFF>

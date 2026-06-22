@@ -13,7 +13,7 @@
 13	Inside Kalxath Castle<$FFFF>
 14	<$FB00><$0030>Gilmore！ Give yourself up！<$FFFE>
 15	<$FB00><$0031>How dare you address me so<$FFFC>casually. Call me Your Majesty！<$FFFD><$FB00><$0032>Still, impressive that you reached this<$FFFC>far. Quaid should have been at the gate.<$FFFE>
-16	<$FB00><$0033>Oh, that marquis？ Too bad, but it looks<$FFFC>like he died for nothing.<$FFFE>
+16	<$FB00><$0033>Oh, that marquis？ Too bad, but it<$FFFC>looks like he died for nothing.<$FFFE>
 17	<$FB00><$0034>What do you mean！？ You call a<$FFFC>noble death meaningless！？<$FFFE>
 18	<$FB00><$0035>If he died for you and you lose<$FFFC>anyway, then yes, meaningless.<$FFFE>
 19	<$FB00><$0036>Silence！ You are the emperor's<$FFFC>murderer！ Do you mean to kill me too！？<$FFFE>
@@ -36,7 +36,7 @@
 36	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
 37	<$FB00><$0070>This is getting dicey…<$FFFE>
 38	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
-39	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+39	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 40	<$FB00><$005C>Ow！ You dare！<$FFFE>
 41	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 42	<$FB00><$005E>B-but…<$FFFE>
@@ -55,20 +55,20 @@
 55	<$FB00><$0068>Give yourself up, Gilmore.<$FFFE>
 56	<$FB00><$0069>It is over. Surrender.<$FFFE>
 57	<$FB00><$0044>Reinforcements！？<$FFFE>
-58	<$FB00><$0045>Hold it！ Do not mistake us, it is<$FFFC>us！<$FFFE>
+58	<$FB00><$0045>Hold it！ Do not mistake us, it<$FFFC>is us！<$FFFE>
 59	<$FB00><$0046>B-big brother…<$FFFE>
 60	<$FB00><$0047>Lady Jessica！<$FFFE>
-61	<$FB00><$0048>If you mean reinforcements coming<$FFFC>here, relax. They are not coming.<$FFFE>
+61	<$FB00><$0048>If you mean reinforcements<$FFFC>coming here, relax. They are not coming.<$FFFE>
 62	<$FB00><$0049>Then you two<$FFF5><$FFF8>…？<$FFFE>
 63	<$FB00><$004A>I would not aid one who will not<$FFFC>carve her own future.<$FFFD><$FB00><$004B>But you no longer depend on others as<$FFFC>before.<$FFFD><$FB00><$004C>Now I will lend my strength.<$FFFE>
 64	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It is thanks to<$FFFC>everyone. They helped me realize it.<$FFFE>
-65	<$FB00><$004F>But you realized it yourself.<$FFFC>Some people never understand, no matter<$FFFC>what they are told.<$FFFE>
+65	<$FB00><$004F>But you realized it yourself. Some<$FFFC>people never understand, no matter what<$FFFC>they are told.<$FFFE>
 66	<$FB00><$0050>I have seen many great deeds,<$FFFC>all done with trusted allies.<$FFFD><$FB00><$0051>One person's power is small, but joined<$FFFC>powers move an age.<$FFFE>
 67	<$FB00><$0052>Yes！<$FFFE>
 68	<$FB00><$0053>If you need help, more people is<$FFFC>better, right？ I will help too.<$FFFE>
 69	<$FB00><$0054>Enough idle chatter！<$FFFE>
 70	<$FB00><$0055>Quiet！ First explain how you<$FFFC>became emperor！<$FFFE>
-71	<$FB00><$0056>What nonsense. My family has royal<$FFFC>blood！<$FFFE>
+71	<$FB00><$0056>What nonsense. My family has<$FFFC>royal blood！<$FFFE>
 72	<$FB00><$0057>Is that true, Clarett？<$FFFE>
 73	<$FB00><$0058>I have never heard that.<$FFFE>
 74	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded, Dalsis had a<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
@@ -93,11 +93,11 @@
 93	<$FB00><$0045>Hold it！ Do not mistake us, it<$FFFC>is us！<$FFFE>
 94	<$FB00><$0046>B-big brother…<$FFFE>
 95	<$FB00><$0047>Lady Jessica！<$FFFE>
-96	<$FB00><$0048>If you mean reinforcements coming<$FFFC>here, relax. They are not coming.<$FFFE>
+96	<$FB00><$0048>If you mean reinforcements<$FFFC>coming here, relax. They are not coming.<$FFFE>
 97	<$FB00><$0049>Then you two<$FFF5><$FFF8>…？<$FFFE>
 98	<$FB00><$004A>I would not aid one who will not<$FFFC>carve her own future.<$FFFD><$FB00><$004B>But you no longer depend on others as<$FFFC>before.<$FFFD><$FB00><$004C>Now I will lend my strength.<$FFFE>
 99	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It is thanks to<$FFFC>everyone. They helped me realize it.<$FFFE>
-100	<$FB00><$004F>But you realized it yourself.<$FFFC>Some people never understand, no matter<$FFFC>what they are told.<$FFFE>
+100	<$FB00><$004F>But you realized it yourself. Some<$FFFC>people never understand, no matter what<$FFFC>they are told.<$FFFE>
 101	<$FB00><$0050>I have seen many great deeds,<$FFFC>all done with trusted allies.<$FFFD><$FB00><$0051>One person's power is small, but joined<$FFFC>powers move an age.<$FFFE>
 102	<$FB00><$0052>Yes！<$FFFE>
 103	<$FB00><$0053>If you need help, more people is<$FFFC>better, right？ I will help too.<$FFFE>

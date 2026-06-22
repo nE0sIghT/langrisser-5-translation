@@ -10,25 +10,25 @@
 8	Burning Flying Ship<$FFFF>
 9	<$FB00><$0003>What happened！？<$FFFE>
 10	<$FB00><$0004>The ship, the ship is on fire！<$FFFE>
-11	<$FB00><$0005>If you have time to shout, put it<$FFFC>out！<$FFFE>
-12	<$FFF8>…<$FFF6><$FB00><$0006>No use. The fire started<$FFFC>inside. It will burn out soon.<$FFFE>
+11	<$FB00><$0005>If you have time to shout, put<$FFFC>it out！<$FFFE>
+12	<$FFF8>…<$FFF6><$FB00><$0006>No use. The fire started inside.<$FFFC>It will burn out soon.<$FFFE>
 13	<$FB00><$0007>What caused it？<$FFFE>
-14	<$FB00><$0008>It uses technology we don't<$FFFC>know, so I cannot be sure. But it is<$FFFC>natural to suspect arson.<$FFFE>
+14	<$FB00><$0008>It uses technology we don't know,<$FFFC>so I cannot be sure. But it is natural to<$FFFC>suspect arson.<$FFFE>
 15	<$FB00><$0009>Who would do that！？<$FFFE>
 16	<$FFFA><$FFF8>…<$FFF6><$FB00><$000A>Maybe her<$FFF5><$FFF8>…<$FFFE>
 17	<$FB00><$000B>Her？ You mean Brenda？<$FFFE>
-18	<$FB00><$000C>If it was arson, the culprit<$FFFC>would not stroll back here.<$FFFD><$FB00><$000D>And she did return to the ship for her<$FFFC>things. If she left a device to ignite at<$FFFC>night<$FFF5><$FFF8>…<$FFFE>
+18	<$FB00><$000C>If it was arson, the culprit would<$FFFC>not stroll back here.<$FFFD><$FB00><$000D>And she did return to the ship for her<$FFFC>things. If she left a device to ignite at<$FFFC>night<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$000E>But why would she？<$FFFE>
-20	<$FB00><$000F>You said it too. She seems<$FFFC>obsessed with Langrisser and Alhazard.<$FFFE>
-21	<$FB00><$0010>Hey, I said not to mention that！<$FFFE>
+20	<$FB00><$000F>You said it too. She seems obsessed<$FFFC>with Langrisser and Alhazard.<$FFFE>
+21	<$FB00><$0010>Hey, I said not to mention<$FFFC>that！<$FFFE>
 22	<$FB00><$0011>No, let me say it. She asked for<$FFFC>Langrisser and Alhazard in return for<$FFFC>helping Clarett！<$FFFD><$FB00><$0012>Why does she want those swords？ Is she<$FFFC>planning something？<$FFFE>
 23	<$FB00><$0013>Remember Gizarof's death？ We had<$FFFC>no goal, but she urged us to seek the<$FFFC>swords.<$FFFE>
 24	<$FB00><$0014>Forget that, we need to put out<$FFFC>the fire！<$FFFE>
 25	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0015>It is too late.<$FFFE>
 26	Next Noon<$FFFF>
-27	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0016>Well, what burned is gone. Good thing<$FFFC>I stopped the reactor.<$FFFD><$FB00><$0017>A fire would have made it run wild for<$FFFC>sure.<$FFFE>
+27	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0016>Well, what burned is gone.<$FFFC>Good thing I stopped the reactor.<$FFFD><$FB00><$0017>A fire would have made it run wild for<$FFFC>sure.<$FFFE>
 28	<$FB00><$0018>What if it ran wild？<$FFFE>
-29	<$FB00><$0019>It would spread invisible<$FFFC>poison. If that happened, nobody could<$FFFC>live here for centuries.<$FFFE>
+29	<$FB00><$0019>It would spread invisible poison.<$FFFC>If that happened, nobody could live here<$FFFC>for centuries.<$FFFE>
 30	<$FB00><$001A>Centuries！？<$FFFE>
 31	<$FB00><$001B>That is the short case. Larger<$FFFC>magic reactors can make land unlivable for<$FFFC>millennia.<$FFFE>
 32	<$FB00><$001C>Anyway, news on Estor.<$FFFD><$FB00><$001D>His daughter disappeared two days ago. The<$FFFC>night before, minister's men<$FFFD>forced into the temple<$FFF5><$FFF8>…<$FFFE>

@@ -48,18 +48,18 @@
 46	Hey, you！ Take responsibility<$FFFC>for this！<$FFFE>
 47	B-but…<$FFFE>
 48	Who do you think I am！ I am<$FFFC>Princess Clarett of the Kalxath Empire！<$FFFE>
-49	Hey！ Clarett～…<$0663> Throwing<$FFFC>your authority around goes against our<$FFFC>principles…<$FFFE>
+49	Hey！ Clarett～…<$0663> Throwing your<$FFFC>authority around goes against our<$FFFC>principles…<$FFFE>
 50	What！ When did I throw my<$FFFC>authority around！ I <$FFF4>just said my name<$FFF3>！<$FFFE>
 51	Yikes！ That's totally<$FFFC>unreasonable～！<$FFFE>
 52	What's all this fuss！<$FFFE>
-53	B-Bro… The thing is, this<$FFFC>clerk brought other customers into the<$FFFC>hall we reserved…<$FFFE>
-54	My deepest apologies！ The hall<$FFFC>was hardly being used, so…<$FFFE>
+53	B-Bro… The thing is, this clerk<$FFFC>brought other customers into the hall we<$FFFC>reserved…<$FFFE>
+54	My deepest apologies！ The hall was<$FFFC>hardly being used, so…<$FFFE>
 55	Looks like no other rooms are<$FFFC>free, so we'll just head back. Sorry to<$FFFC>intrude.<$FFFE>
 56	Whaat！ But I wanted to sing…<$FFFE>
-57	What can we do？ The rooms are<$FFFC>all full！<$FFFE>
-58	Besides, shouldn't getting<$FFFC>Estor's cooperation come first right now？<$FFFE>
+57	What can we do？ The rooms are all<$FFFC>full！<$FFFE>
+58	Besides, shouldn't getting Estor's<$FFFC>cooperation come first right now？<$FFFE>
 59	Uuugh…<$FFFE>
-60	So that's that. Let's give up<$FFFC>and head back？ Okay？<$FFFE>
+60	So that's that. Let's give up and<$FFFC>head back？ Okay？<$FFFE>
 61	Glare！<$FFFE>
 62	Waaah<$0663> I'm truly very sorry<$0663><$FFFE>
 63	All right. Let's head back,<$FFFC>everyone…<$FFFE>
@@ -114,7 +114,7 @@
 112	Song goes on… ♪A voice inside me<$FFFC><$0000>someone is crying out～ <$0000>it's a me<$FFFC>I～<$0000>don't yet know～♪<$FFFE>
 113	Words overflow from deep in my<$FFFC>heart… So this is…<$FFF4>KARAOKE<$FFF3>…<$FFFE>
 114	Song goes on…<$FFFC>♪BRAKE<$0000>FOR<$0000>ALL <$0000>we can<$FFFC>change<$0000>everything～♪<$FFFE>
-115	Alfred. That song is way too<$FFFC>cool. It's wasted on a kid like you.<$FFFE>
+115	Alfred. That song is way too cool.<$FFFC>It's wasted on a kid like you.<$FFFE>
 116	Aww～？ That's not fair,<$FFFC><$F600><$0000>.<$FFFE>
 117	Song goes on… <$0000> ♪Sorrow<$0000>fades<$FFFC>into this wind～<$FFFE>
 118	Phew！ This really relieves stress.<$FFFE>
@@ -240,7 +240,7 @@
 238	Ugh, I'm tired… I'd love to soak in<$FFFC>a hot spring… <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev<$FFFC>team<$FFFE>
 239	A fragment called a dream each<$FFFC>person carries within we are born<$0000>and<$FFFC>live on, after all so never be swept away<$FFFE>
 240	Yaawn… I'm so sleepy…<$FFFB> don't make<$FFFC>a girl pull an all-nighter.<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
-241	Nwahahaha！ looks like the win<$FFFC>is ours！<$FFFE>
+241	Nwahahaha！ looks like the win is<$FFFC>ours！<$FFFE>
 242	I'm sorry… everyone…<$FFFE>
 243	All right！ everyone has finished<$FFFC>singing！<$FFFE>
 244	Nnngh… we've still got a long way<$FFFC>to go…<$FFFE>
@@ -268,7 +268,7 @@
 266	Ehehe♡ mic, mic～♪<$FFFE>
 267	I have to pass the mic to someone<$FFFC>who hasn't sung yet…<$FFFE>
 268	Heh heh heh！ you're the first<$FFFC>to give us this much trouble！<$FFFE>
-269	Bro！ shall we bust out that<$FFFC>move soon！？<$FFFE>
+269	Bro！ shall we bust out that move<$FFFC>soon！？<$FFFE>
 270	Mmmf～～♡ I'm fired up～～♡<$FFFE>
 271	All right！<$FFFD>Adon！ Samson！ build up～！<$FFFE>
 272	O～～kay！ brotherrr！<$FFFE>

@@ -19,7 +19,7 @@
 17	<$FB00><$006C>What is that？<$FFFE>
 18	<$FB00><$006D>Actually<$FFF5><$FFF8>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 19	<$FB00><$006E>Such a thing<$FFF5><$FFF8>…！<$FFFE>
-20	<$FB00><$006F>For the people's sake, that may be<$FFFC>best. But what becomes of the Kalxath<$FFFC>royal family？<$FFFE>
+20	<$FB00><$006F>For the people's sake, that<$FFFC>may be best. But what becomes of the<$FFFC>Kalxath royal family？<$FFFE>
 21	<$FB00><$0070>Do not worry about me. The age<$FFFC>has changed.<$FFFD><$FB00><$0071>Ability, not birth, must guide people.<$FFFD><$FB00><$0072>If people choose a noble, fine. They<$FFFC>choose who acts for their happiness.<$FFFE>
 22	<$FB00><$0073>You really have changed. You're<$FFFC>nothing like before.<$FFFE>
 23	<$FB00><$0074>Because Brenda scolded me？<$FFFE>
@@ -28,7 +28,7 @@
 26	<$FB00><$0078>O-of course.<$FFFD><$FB00><$0079>I'm only surprised royalty would give up<$FFFC>status for the people.<$FFFE>
 27	<$FB00><$007A>Please let us follow Princess<$FFFC>Clarett's ideal.<$FFFE>
 28	<$FB00><$007B>Thank you, everyone.<$FFFE>
-29	<$FB00><$007C>Then our role is to persuade the<$FFFC>people, spread your ideal, and gather<$FFFC>allies against Gilmore.<$FFFE>
+29	<$FB00><$007C>Then our role is to persuade<$FFFC>the people, spread your ideal, and gather<$FFFC>allies against Gilmore.<$FFFE>
 30	<$FB00><$007D>Yes. I'm counting on you.<$FFFE>
 31	<$FB00><$007E>Then what will you do now？<$FFFE>
 32	<$FB00><$007F>Right. I want to know too.<$FFFE>
@@ -39,20 +39,20 @@
 37	<$FB00><$0084>Then let's go right away！<$FFFE>
 38	<$FB00><$0085>E-emergency！<$FFFE>
 39	<$FB00><$0086>What happened？<$FFFE>
-40	<$FB00><$0087>Gilmore noticed our moves and sent<$FFFC>a large army at Duke Lenard's main force！<$FFFE>
+40	<$FB00><$0087>Gilmore noticed our moves and sent a<$FFFC>large army at Duke Lenard's main force！<$FFFE>
 41	<$FB00><$0088>Kh！ This is what Quaid meant！<$FFFE>
 42	<$FB00><$0089>How is the battle？<$FFFE>
 43	<$FB00><$008A>They outnumber us ten to one. We<$FFFC>may last three days.<$FFFE>
 44	<$FB00><$008B>No！ Given the distance to<$FFFC>Salrath's army, we can't return in time！<$FFFE>
 45	<$FB00><$008C>What now, Clarett？<$FFFE>
-46	<$FFF8>…<$FB00><$008D>Hmm.<$FFF5><$FFF6><$FB00><$008E>I didn't expect them to move<$FFFC>so fast<$FFF5><$FFF8>…<$FFFE>
+46	<$FFF8>…<$FB00><$008D>Hmm.<$FFF5><$FFF6><$FB00><$008E>I didn't expect them to<$FFFC>move so fast<$FFF5><$FFF8>…<$FFFE>
 47	<$FB00><$008F>If we abandon Salrath now, the<$FFFC>people won't follow us<$FFF5><$FFF8>…<$FFFE>
 48	<$FFFA><$FB00><$0090>What should we do<$FFF5><$FFF8>…？<$FFFE>
 49	<$FB00><$0091>I'll try something.<$FFFE>
 50	<$FB00><$0092>Brenda<$FFF5><$FFF8>…<$FFFE>
 51	<$FB00><$0093>What do you mean？<$FFFE>
 52	<$FB00><$0094>Even hurrying back from here takes<$FFFC>three days.<$FFFD><$FB00><$0095>And even if we arrived, how could just us<$FFFC>fight them<$FFF5><$FFF8>…？<$FFFE>
-53	<$FB00><$0096>Let me handle all of that,<$FFFC>okay？<$FFFE>
+53	<$FB00><$0096>Let me handle all of that, okay？<$FFFE>
 54	<$FFF8>…<$FFF6><$FB00><$0097>We have no better choice. We<$FFFC>should bet on the best chance.<$FFFE>
 55	<$FB00><$0098>Exactly. And…Clarett？<$FFFE>
 56	<$FB00><$0099>What？<$FFFE>
@@ -65,15 +65,15 @@
 63	<$FFF8>…<$FFF6><$FB00><$00A1>So, what do you say？<$FFFE>
 64	<$FB00><$00A2>What do I say<$FFF5><$FFF8>…？<$FFFE>
 65	<$FB00><$00A3>Only for a little while. It's why<$FFFC>I came to this continent.<$FFFE>
-66	<$FFF8>…<$FFF6><$FB00><$00A4>If you will help us for that <$FFF5><$FFF8>…<$FFFE>
+66	<$FFF8>…<$FFF6><$FB00><$00A4>If you will help us for that<$FFFC><$FFF5><$FFF8>…<$FFFE>
 67	<$FB00><$00A5>Deal.<$FFFE>
 68	<$FB00><$00A6>Then I'm off. Everyone, wait here.<$FFFE>
 69	Federation Army on Campaign<$FFFF>
-70	<$FB00><$00A7>Marshal. Scouts have contacted the enemy.<$FFFE>
+70	<$FB00><$00A7>Marshal. Scouts have contacted the<$FFFC>enemy.<$FFFE>
 71	<$FB00><$00A8>Emily, we move too. We will hold<$FFFC>them until the rest assemble.<$FFFE>
 72	<$FB00><$00A9>Yes, Marshal Lanford！<$FFFE>
 73	Reynolds Army Camp<$FFFF>
-74	<$FB00><$00AA>Fast response. As expected of General<$FFFC>Lanford, who defeated Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no,<$FFFC>Marshal.<$FFFD><$FB00><$00AC>But what can a battered regular army do？<$FFFE>
-75	<$FB00><$00AD>We have triple their numbers. They<$FFFC>have no chance.<$FFFE>
-76	<$FB00><$00AE>Do not let your guard down.<$FFFC>Our war has only begun.<$FFFE>
+74	<$FB00><$00AA>Fast response. As expected of<$FFFC>General Lanford, who defeated<$FFFC>Gizarof<$FFF5><$FFF8>…<$FFF6><$FB00><$00AB>no, Marshal.<$FFFD><$FB00><$00AC>But what can a battered regular army do？<$FFFE>
+75	<$FB00><$00AD>We have triple their numbers.<$FFFC>They have no chance.<$FFFE>
+76	<$FB00><$00AE>Do not let your guard down. Our<$FFFC>war has only begun.<$FFFE>
 77	<$FB00><$00AF><$FFF7>Sir！<$FFF5><$FFF8><$FFFE><$FFFF>

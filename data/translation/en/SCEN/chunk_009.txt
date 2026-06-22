@@ -15,7 +15,7 @@
 13	Fizzit Port, Caconsis<$FFFF>
 14	<$FB00><$0020>Um, Lady Jessica, I presume <$FFF5><$FFF8>…<$FFFE>
 15	<$FB00><$0021>Yes, that's me. And you are？<$FFFE>
-16	<$FB00><$0022>I'm Clarett of Kalxath. I came from El<$FFFC>Sallia in search of you.<$FFFE>
+16	<$FB00><$0022>I'm Clarett of Kalxath. I came<$FFFC>from El Sallia in search of you.<$FFFE>
 17	<$FB00><$0023>Of Kalxath<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0024>What would you<$FFFC>want with me？<$FFFE>
 18	<$FB00><$0025>Well, you see<$FFF5><$FFF8>…<$FFFE>
 19	<$FB00><$0026>GUOOO…！！<$FFFE>
@@ -23,7 +23,7 @@
 21	<$FB00><$0028>What！？<$FFFE>
 22	<$FB00><$0029>Heh heh heh！ Found you at last,<$FFFC>Alhazard！<$FFFE>
 23	<$FB00><$002A>Demons？ <$FFF5><$FFF8>…<$FFF6><$FB00><$002B>In a place like this！？<$FFFE>
-24	<$FFF8>…<$FFF6><$FB00><$002C>Woman. Hand over Alhazard,<$FFFC>nice and quiet.<$FFFE>
+24	<$FFF8>…<$FFF6><$FB00><$002C>Woman. Hand over Alhazard, nice<$FFFC>and quiet.<$FFFE>
 25	<$FB00><$002D>I cannot give you this sword！<$FFFE>
 26	<$FB00><$002E>Think hard. One word from me and<$FFFC>they level this port.<$FFFD>Will you guard the sword and let everyone<$FFFC>die？<$FFFE>
 27	<$FFF8>…<$FB00><$002F>Kh！<$FFFE>
@@ -38,9 +38,9 @@
 36	Handed over Langrisser！<$FFFE>
 37	<$FB00><$0037>So this is the port town of<$FFFC>Fizzit<$FFF5><$FFF8>…<$FFFE>
 38	<$FB00><$0038>Hold on, look over there！<$FFFE>
-39	<$FB00><$0039>Böser may be dead, but with this sword in<$FFFC>hand, anything is possible.<$FFFE>
+39	<$FB00><$0039>Böser may be dead, but with this<$FFFC>sword in hand, anything is possible.<$FFFE>
 40	<$FB00><$003A>You promised. Now leave this<$FFFC>place.<$FFFE>
-41	<$FB00><$003B>True, I'll withdraw. Just me,<$FFFC>that is！<$FFFD><$FB00><$003C>You lot must be hungry？ Eat your fill！<$FFFE>
+41	<$FB00><$003B>True, I'll withdraw. Just me, that<$FFFC>is！<$FFFD><$FB00><$003C>You lot must be hungry？ Eat your fill！<$FFFE>
 42	<$FB00><$003D>You snake！ Breaking your<$FFFC>promise？<$FFFE>
 43	<$FB00><$003E>Promise？ What promise？ You're<$FFFC>simply naive.<$FFFE>
 44	<$FB00><$003F>Ah, that girl is<$FFF5><$FFF8>…<$FFFE>
@@ -54,9 +54,9 @@
 52	<$FB00><$004F>Help is coming.<$FFFE>
 53	<$FB00><$0050>Just hold on a bit longer！<$FFFE>
 54	<$FB00><$0051>Wait there, almost with you！<$FFFE>
-55	Old armor in the left barrel. <$0000><$FFFC>Got the <$FFF4>Gaia Mail<$FFF3>！<$FFFE>
-56	Fire glows in a barrel. <$0000> Got<$FFFC>the <$FFF4>Flame Orb<$FFF3>！<$FFFE>
-57	A grim axe lies in the alley. <$0000><$FFFC>Got the <$FFF4>Devil Axe<$FFF3>！<$FFFE>
+55	Old armor in the left barrel. <$0000> Got the<$FFFC><$FFF4>Gaia Mail<$FFF3>！<$FFFE>
+56	Fire glows in a barrel. <$0000> Got the <$FFF4>Flame<$FFFC>Orb<$FFF3>！<$FFFE>
+57	A grim axe lies in the alley. <$0000> Got the<$FFFC><$FFF4>Devil Axe<$FFF3>！<$FFFE>
 58	<$FB00><$002C>Take this！<$FFFE>
 59	<$FB00><$002F>If only I had more strength…<$FFFE>
 60	<$FB00><$0034>Here I come<$FFF5><$FFF8>…<$FFFE>
@@ -107,7 +107,7 @@
 105	Ugyaaah！<$FFFE>
 106	…hu…humans…gghah！<$FFFE>
 107	No<$FFF8>… All the townsfolk, dead <$FFF8>…<$FFFE>
-108	<$FB00><$006E>That's the last of the<$FFFC>monsters？<$FFFE>
+108	<$FB00><$006E>That's the last of the monsters？<$FFFE>
 109	<$FB00><$006F>So it seems.<$FFFE>
 110	U-um…<$FFFE>
 111	Thank you. Thanks to you we weren't<$FFFC>monster food.<$FFFE>
@@ -117,7 +117,7 @@
 115	Thanks. I'll put it to good use.<$FFFE>
 116	<$FB00><$0070>Everyone all right over there？<$FFFE>
 117	<$FB00><$0071>Yes. We're saved, thanks to you.<$FFFE>
-118	<$FB00><$0048>Hmph. With Alhazard mine,<$FFFC>there's no reason to linger.<$FFFE>
+118	<$FB00><$0048>Hmph. With Alhazard mine, there's<$FFFC>no reason to linger.<$FFFE>
 119	<$FB00><$0049>Wait！<$FFFE>
 120	<$FFF7><$FB00><$004A>Wah hah hah hah！<$FFF5><$FFF8><$FFFE>
 121	<$FB00><$004B>What？ He got away<$FFF5><$FFF8>…<$FFFE>
@@ -126,4 +126,4 @@
 124	<$FB00><$0061>Ah！ No<$FFF5><$FFF8>…<$FFFE>
 125	<$FB00><$0062>We have to hurry！<$FFFE>
 126	<$FB00><$0063>I know！<$FFFE>
-127	<$FB00><$0067>No！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We couldn't protect them<$FFFC><$FFF5><$FFF8>…<$FFFE><$FFFF>
+127	<$FB00><$0067>No！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We couldn't protect them <$FFF5><$FFF8>…<$FFFE><$FFFF>

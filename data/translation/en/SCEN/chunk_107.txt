@@ -14,6 +14,6 @@
 12	<$FB00><$0041>Lord Aizel！ We found it！<$FFFE>
 13	<$FB00><$0042>Only that one？<$FFFE>
 14	<$FB00><$0043>Yes. It seems this is the only<$FFFC>sword here. We cannot find the other.<$FFFE>
-15	<$FB00><$0044>Good！ If we can recover the<$FFFC>sword, we have no business here！ Pull<$FFFC>out！<$FFFE>
+15	<$FB00><$0044>Good！ If we can recover the sword,<$FFFC>we have no business here！ Pull out！<$FFFE>
 16	<$FFF7><$FB00><$0045>Yes, sir！<$FFF5><$FFF8><$FFFE>
 17	<$FB00><$0046>Grrr… To think they stole<$FFFC>Langrisser<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0047>But they do not seem connected to Kalxath.<$FFFC>Then they cannot possibly wield it. We<$FFFC>will take it back later at our leisure！<$FFFE>

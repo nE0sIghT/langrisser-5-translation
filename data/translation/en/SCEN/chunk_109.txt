@@ -19,10 +19,10 @@
 17	After the Battle<$FFFF>
 18	<$FB00><$004F>Eric！ Stay with me, Eric！<$FFFE>
 19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0050>Clarett. So you won. …I'm<$FFFC>glad.<$FFFE>
-20	<$FB00><$0051>Yes. You destroyed the cannon… We<$FFFC>owe this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
-21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned… Now I can<$FFFC>die in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
-22	<$FB00><$0053>Don't you give up！ We'll treat you<$FFFC>right away！<$FFFE>
-23	…<$FB00><$0054>I'm sorry, Clarett. Without<$FFFC>me, your fight might have been<$FFFC>easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+20	<$FB00><$0051>Yes. You destroyed the cannon…<$FFFC>We owe this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned… Now I can die<$FFFC>in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+22	<$FB00><$0053>Don't you give up！ We'll treat<$FFFC>you right away！<$FFFE>
+23	…<$FB00><$0054>I'm sorry, Clarett. Without me,<$FFFC>your fight might have been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 24	<$FB00><$0057>Eriiiic！<$FFFE>
 25	Federation Castle, Dungeon<$FFFF>
 26	<$FB00><$0058>Hello！ Is anyone there！<$FFFE>
@@ -33,10 +33,10 @@
 31	<$FB00><$005D>You are<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 32	<$FB00><$005E>Shh！<$FFF8><$FFF5><$FFFD><$FFF6><$FB00><$005F>Quietly. Follow me.<$FFFE>
 33	In the mountains<$FFFF>
-34	<$FB00><$0060>Lord Virash, will they really pass through<$FFFC>here？<$FFFE>
+34	<$FB00><$0060>Lord Virash, will they really<$FFFC>pass through here？<$FFFE>
 35	<$FB00><$0061>Yeah. If that man spoke true,<$FFFC>they'll come this way.<$FFFE>
 36	<$FB00><$0062>The tip from that mean-eyed<$FFFC>giant？<$FFFE>
-37	<$FB00><$0063>It's the only lead we have, so<$FFFC>we play it. Detector？<$FFFE>
+37	<$FB00><$0063>It's the only lead we have, so we<$FFFC>play it. Detector？<$FFFE>
 38	<$FB00><$0064>Nothing so far.<$FFFE>
 39	<$FB00><$0065>Could they be headed somewhere<$FFFC>else？ If so<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 40	<$FB00><$0066>Lord Virash, enemy detected.<$FFFE>
@@ -46,7 +46,7 @@
 44	Transport Airship Bridge<$FFFF>
 45	<$FFF8>…<$FFF6><$FB00><$006B>Kh！ What was that！<$FFFE>
 46	<$FB00><$006C>Magitek cannon fire！<$FFFE>
-47	<$FB00><$006D>A Magitek cannon！？ …The surface<$FFFC>faction！ Where were we hit？<$FFFE>
+47	<$FB00><$006D>A Magitek cannon！？ …The<$FFFC>surface faction！ Where were we hit？<$FFFE>
 48	<$FB00><$006E>The drive is hit！ No control！ No<$FFFC>control！<$FFFE>
 49	<$FB00><$006F>Emergency landing！<$FFFE>
 50	Federation Castle, Audience Hall<$FFFF>
@@ -56,6 +56,6 @@
 54	<$FFF7><$FB00><$0073>Hoh<$FFF5><$FFF8><$FE3C>…<$FE3C>,<$FE3C><$FFF6><$FB00><$0074>escaping before his<$FFFC>trial<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0075>Now we may execute him<$FFFC>openly<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0076>What of the pursuit？<$FFFE>
 55	<$FB00><$0077>Caconsis hands seem to have aided<$FFFC>him. They head south.<$FFFE>
 56	<$FB00><$0078>What？ Caconsis, you say？<$FFFE>
-57	<$FFF8>…<$FE3C><$FFF6><$FB00><$0079>Hm. I have an idea. Let him<$FFFC>run for now！<$FFFE>
+57	<$FFF8>…<$FE3C><$FFF6><$FB00><$0079>Hm. I have an idea. Let him run<$FFFC>for now！<$FFFE>
 58	<$FFF7><$FB00><$007A>Y, yes<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$007B>As you command.<$FFFE>
-59	<$FB00><$007C>If Caconsis shelters a<$FFFC>fugitive, war has fresh kindling.<$FFFC>Interesting.<$FFFE><$FFFF>
+59	<$FB00><$007C>If Caconsis shelters a fugitive,<$FFFC>war has fresh kindling. Interesting.<$FFFE><$FFFF>

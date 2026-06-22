@@ -25,23 +25,23 @@
 23	<$FB00><$0038>Wait！<$FFFE>
 24	<$FB00><$0039>Please wait！ If you take that, we<$FFFC>can't live！<$FFFE>
 25	<$FB00><$003A>Silence！ You won't pay, so we<$FFFC>collect！<$FFFE>
-26	<$FB00><$003B>But we can't pay！ That food is<$FFFC>our emergency store…<$FFFE>
+26	<$FB00><$003B>But we can't pay！ That food is our<$FFFC>emergency store…<$FFFE>
 27	<$FB00><$003C>Old law！ Current law says tax<$FFFC>dodgers die！<$FFFE>
 28	<$FB00><$003D>But then we'll starve！<$FFFE>
 29	<$FB00><$003E>Silence！ Then die here now！<$FFFE>
 30	<$FFF7><$FB00><$003F>Gwaa！<$FFFE>
 31	<$FB00><$0040>Kyaa！<$FFFE>
-32	<$FB00><$0041>Defy us and this happens. Be<$FFFC>quiet if you want to live！<$FFFE>
+32	<$FB00><$0041>Defy us and this happens. Be quiet<$FFFC>if you want to live！<$FFFE>
 33	<$FB00><$0042>Good. Carry out the cargo！<$FFFE>
 34	<$FFFA><$FB00><$0043>Ugh…<$FFFE>
 35	<$FB00><$0044>T-this is awful…<$FFFE>
-36	<$FB00><$0045>Unforgivable！ I won't forgive such<$FFFC>people ruling the Empire！<$FFFE>
+36	<$FB00><$0045>Unforgivable！ I won't forgive<$FFFC>such people ruling the Empire！<$FFFE>
 37	<$FB00><$0046>Right. We're wanted anyway. Let's<$FFFC>take the cargo back.<$FFFE>
 38	Ha ha ha. See you for next month's<$FFFC>tax！<$FFFE>
 39	We collected the tax in full.<$FFFE>
 40	Now the lord won't be angry.<$FFFE>
 41	Farewell.<$FFFE>
-42	A nest with a large egg lies under<$FFFC>the bridge…<$FFFE>
+42	A nest with a large egg lies under the<$FFFC>bridge…<$FFFE>
 43	・Take one egg<$FFFE>
 44	・Break the nest<$FFFE>
 45	・Do nothing<$FFFE>
@@ -52,7 +52,7 @@
 50	Eating it makes your body feel one with<$FFFC>the world.<$FFFD><$0000> Magic <$FFF4>Teleport<$FFF3> can now be learned！<$FFFE>
 51	A blue flower blooms. Eat it？<$FFFE>
 52	Eating it fills you with healing power.<$FFFD><$0000> <$0000>Skill <$FFF4>Regenerate<$FFF3> learned！<$FFFE>
-53	<$FB00><$0047>North bridge or through town. Think<$FFFC>carefully.<$FFFE>
+53	<$FB00><$0047>North bridge or through town.<$FFFC>Think carefully.<$FFFE>
 54	<$FB00><$0048>I know.<$FFFE>
 55	<$FB00><$0029>Let's go！<$FFFE>
 56	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
@@ -69,7 +69,7 @@
 67	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 68	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 69	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-70	<$FB00><$006F>…I will. I don't want to drag<$FFFC>you down…<$FFFE>
+70	<$FB00><$006F>…I will. I don't want to drag you<$FFFC>down…<$FFFE>
 71	<$FB00><$0049>Put that cargo down！ Do you<$FFFC>want them to starve？<$FFFE>
 72	<$FB00><$004A>Interfere and you die too！<$FFFD><$FB00><$004B>Wait, that face…！<$FFFE>
 73	<$FB00><$004C>Wanted for the Emperor's<$FFFC>murder！ No mistake！<$FFFE>
@@ -83,11 +83,11 @@
 81	How dare you, to an imperial<$FFFC>officer…<$FFFE>
 82	D-damn you…<$FFFE>
 83	So close…<$FFFE>
-84	<$FB00><$004D>A huge bounty is before us. We can<$FFFC>detour.<$FFFE>
+84	<$FB00><$004D>A huge bounty is before us. We<$FFFC>can detour.<$FFFE>
 85	<$FB00><$004E>Heh… Do as you like.<$FFFE>
 86	S-so strong…<$FFFE>
 87	How can they be so strong…<$FFFE>
-88	<$FB00><$0039>What are you doing？ You're<$FFFC>taking far too long.<$FFFE>
+88	<$FB00><$0039>What are you doing？ You're taking<$FFFC>far too long.<$FFFE>
 89	We should hurry.<$FFFE>
 90	<$FB00><$004F>That ends it.<$FFFE>
 91	<$FB00><$0050>Are you all right？<$FFFE>
@@ -95,17 +95,17 @@
 93	<$FFF7><$FB00><$0052>Eh？<$FFFE>
 94	<$FB00><$0054>You attacked the army and didn't<$FFFC>get our food back…<$FFFE>
 95	<$FB00><$0053>You attacked the imperial army…<$FFFE>
-96	<$FB00><$0055>Wait！ We were trying to help<$FFFC>you…<$FFFE>
-97	<$FB00><$0056>That was needless. Now the<$FFFC>Empire will attack us as rebels.<$FFFD><$FB00><$0057>We should have kept quiet…<$FFFE>
+96	<$FB00><$0055>Wait！ We were trying to help you…<$FFFE>
+97	<$FB00><$0056>That was needless. Now the Empire<$FFFC>will attack us as rebels.<$FFFD><$FB00><$0057>We should have kept quiet…<$FFFE>
 98	<$FB00><$0058>What！<$FFFE>
 99	<$FB00><$0059>We can't live here now<$FFF5><$FFF8>…<$FFF6><$FB00><$005A>All<$FFFC>because of you！<$FFFE>
 100	<$FFF8>…<$FFF6><$FB00><$005B>It has changed<$FFF5><$FFF8>… <$FFF6><$FB00><$005C>Kalxath has<$FFFC>changed<$FFF5><$FFF8>…<$FFFE>
-101	<$FB00><$005D>Saving them, then being hated,<$FFFC>is hard to take.<$FFFE>
+101	<$FB00><$005D>Saving them, then being hated, is<$FFFC>hard to take.<$FFFE>
 102	<$FFF7><$FB00><$005E>Yeah<$FFF5><$FFF8>…<$FFFE>
 103	<$FB00><$0060>Right！ They say they'll starve,<$FFFC>but do nothing.<$FFFE>
 104	<$FB00><$005F>That's right！ If we hadn't<$FFFC>happened by, they would have starved to<$FFFC>death. And all they did was run, without<$FFFC>even trying to act.<$FFFE>
 105	<$FB00><$0061>But can you say that？<$FFFD><$FB00><$0062>You were framed for killing your father,<$FFFC>yet only ran.<$FFFE>
-106	<$FB00><$0063>You're one to talk. Salrath's<$FFFC>lord said you also rely on others and run.<$FFFE>
+106	<$FB00><$0063>You're one to talk. Salrath's lord<$FFFC>said you also rely on others and run.<$FFFE>
 107	<$FFF8><$FB00><$0064>…！<$FFFE>
 108	<$FB00><$0065>Maybe I run too, hiding that I<$FFFC>killed the Emperor.<$FFFD><$0000><$FB00><$0066>Should I tell Clarett？<$FFFE>
 109	・Say nothing<$FFFE>
@@ -113,4 +113,4 @@
 111	<$FB00><$0067>No, I can't tell her<$FFF5><$FFF8>…<$FFFE>
 112	<$FB00><$0068>Yes. I should tell her.<$FFFE>
 113	<$FB00><$0069>What's wrong？<$FFFE>
-114	<$FB00><$006A>Nothing… just talking to<$FFFC>myself.<$FFFE>
+114	<$FB00><$006A>Nothing… just talking to myself.<$FFFE>

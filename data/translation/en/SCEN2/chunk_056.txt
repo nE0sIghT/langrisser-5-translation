@@ -10,7 +10,7 @@
 8	Private<$FFFF>
 9	Gizarof<$FFFF>
 10	Riverbank at night<$FFFF>
-11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a while.<$FFFE>
+11	<$FB00><$0003>Yo, <$FFF5><$F600><$0000>.<$FFFB> <$FB00><$0004>Been a<$FFFC>while.<$FFFE>
 12	<$FB00><$0005>Who are you？<$FFFE>
 13	<$FB00><$0006>Forgot me？ I'm Omega.<$FFFD><$FB00><$0007>We served Gizarof together. Remember？<$FFFE>
 14	<$FB00><$0008>I only met Gizarof once.<$FFFE>
@@ -39,6 +39,6 @@
 37	<$FB00><$0027>Then the man Clarett stabbed<$FFFC>was<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0028>me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>？<$FFFE>
 38	<$FB00><$0029>Yes. I was shocked you became<$FFFC>guard captain and killed Kalxath's<$FFFC>emperor.<$FFFD><$FB00><$002A>Remembering now？<$FFFE>
 39	<$FB00><$002B>I wanted to settle this now, but<$FFFC>another task comes first.<$FFFD><$FB00><$002C>Remember everything before we meet again,<$FFFC>or it won't be fun.<$FFFE>
-40	<$FB00><$002D>It was me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed<$FFFC>me once<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>…<$FFFE>
+40	<$FB00><$002D>It was me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed me<$FFFC>once<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>…<$FFFE>
 41	<$0000>Rejected by Lenard too, Clarett went<$FFFC>east for another ally. <$0000>On the road,<$FFFC>another town suffered under heavy taxes…<$FFFE>
 42	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

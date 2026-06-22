@@ -21,7 +21,7 @@
 19	<$FB00><$0099>I am grateful.<$FFFE>
 20	<$FB00><$009A>Tell all troops！ The princess<$FFFC>will open our escape. Break the<$FFFC>encirclement then！<$FFFE>
 21	<$FFF7><$FB00><$009B>Yes sir！<$FFF5><$FFF8><$FFFE>
-22	<$FB00><$009C>I return to the princess. Stay<$FFFC>safe.<$FFFE>
+22	<$FB00><$009C>I return to the princess. Stay safe.<$FFFE>
 23	Federation Castle Gate<$FFFF>
 24	<$FB00><$009D>Hm！ Who goes there！？<$FFFE>
 25	<$FB00><$009E>Have you forgotten my face？<$FFFE>

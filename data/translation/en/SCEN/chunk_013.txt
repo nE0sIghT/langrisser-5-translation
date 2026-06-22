@@ -14,9 +14,9 @@
 12	・A warden escapes<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Gaiana Prison<$FFFF>
 14	<$FB00><$0027>So this is Gaiana Prison.<$FFFE>
-15	<$FB00><$0028>Lenard said prisoners who opposed<$FFFC>Gilmore's<$FFF5><$FFF8>…,<$FFF6><$FB00><$0029>exploitation are held here.<$FFFE>
-16	<$FB00><$002A>Huh. So not everyone in this country just<$FFFC>did nothing.<$FFFE>
-17	<$FB00><$002B>Seeing people here imprisoned<$FFFC>must have drained the will to resist.<$FFFE>
+15	<$FB00><$0028>Lenard said prisoners who<$FFFC>opposed Gilmore's<$FFF5><$FFF8>…,<$FFF6><$FB00><$0029>exploitation are<$FFFC>held here.<$FFFE>
+16	<$FB00><$002A>Huh. So not everyone in this<$FFFC>country just did nothing.<$FFFE>
+17	<$FB00><$002B>Seeing people here imprisoned must<$FFFC>have drained the will to resist.<$FFFE>
 18	<$FB00><$002C>How do we attack？<$FFFE>
 19	<$FB00><$002D>I see three entrances. They<$FFFC>haven't noticed us yet.<$FFFE>
 20	<$FB00><$002E>I lack experience commanding<$FFFC>battle. I'll leave command to you.<$FFFD><$FFF8>…<$FFF6><$FB00><$002F>Will you？ I may be relying on others<$FFFC>again<$FFF5><$FFF8>…<$FFFE>
@@ -27,10 +27,10 @@
 25	・Because I'm great<$FFFE>
 26	<$FB00><$0032>Leave it to me. I'll meet your<$FFFC>expectations.<$FFFE>
 27	<$FB00><$0033>Thank you.<$FFFE>
-28	<$FB00><$0034>For your ideal, saving this country.<$FFFE>
-29	<$FB00><$0035>Right. The revolution begins<$FFFC>here. Let's do our best！<$FFFE>
+28	<$FB00><$0034>For your ideal, saving this<$FFFC>country.<$FFFE>
+29	<$FB00><$0035>Right. The revolution begins here.<$FFFC>Let's do our best！<$FFFE>
 30	Because I'm great at everything.<$FFFE>
-31	<$FFF8>…<$FB00><$0037>Heh.<$FFF5><$FFF6><$FB00><$0038>Even now, you have room<$FFFC>to joke.<$FFFE>
+31	<$FFF8>…<$FB00><$0037>Heh.<$FFF5><$FFF6><$FB00><$0038>Even now, you have room to<$FFFC>joke.<$FFFE>
 32	<$FB00><$0039>All right, let's go！<$FFFE>
 33	I did it！ Now I can contact<$FFFC>Lord Quaid and report your actions！<$FFFE>
 34	Damn！ If they escape, our<$FFFC>operation is exposed…<$FFFE>
@@ -48,7 +48,7 @@
 46	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
 47	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 48	<$FB00><$005C>Ow！ You dare！<$FFFE>
-49	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+49	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 50	<$FB00><$005E>B-but…<$FFFE>
 51	<$FB00><$005F>Just fall back！<$FFFE>
 52	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
@@ -64,11 +64,11 @@
 62	…Not yet…not yet…<$FFFE>
 63	…Oh…gods…<$FFFE>
 64	Lord Quaid…this isn't what…<$FFFE>
-65	<$FB00><$0061>Grrr…again… But Gilmore<$FFFC>already knows your movements.<$FFFD><$FB00><$0062>You can act freely only for now！ Remember<$FFFC>that！<$FFFE>
+65	<$FB00><$0061>Grrr…again… But Gilmore already<$FFFC>knows your movements.<$FFFD><$FB00><$0062>You can act freely only for now！ Remember<$FFFC>that！<$FFFE>
 66	<$FB00><$0063>The weaker the dog, the louder it<$FFFC>barks.<$FFFE>
 67	<$FB00><$0064>Operation complete.<$FFFE>
 68	<$FB00><$0065>Now let's explain things to them.<$FFFE>
-69	A thin cloth hangs on a stake<$FFFC>rising from the water.<$FFFD><$0000> Got the <$FFF4>Celestial Robe<$FFF3>！<$FFFE>
+69	A thin cloth hangs on a stake rising from<$FFFC>the water.<$FFFD><$0000> Got the <$FFF4>Celestial Robe<$FFF3>！<$FFFE>
 70	<$FB00><$003A>Hah！ Intruders！<$FFFE>
 71	<$FB00><$003B>What？ How many？<$FFFE>
 72	<$FB00><$003C>One…two…five units！<$FFFE>
@@ -81,25 +81,25 @@
 79	<$FB00><$0040>The west side looks thin！<$FFFE>
 80	<$FB00><$0041>Good, escape that way！ Any<$FFFC>survivor must warn Marquis Quaid！<$FFFE>
 81	<$FB00><$0042>Understood！<$FFFE>
-82	<$FB00><$0043>They noticed us. They're<$FFFC>trying to escape！<$FFFE>
-83	<$FB00><$0044>If they escape, our future<$FFFC>moves may be blocked.<$FFFE>
-84	<$FB00><$0045>Right. Don't let anyone<$FFFC>escape！<$FFFE>
+82	<$FB00><$0043>They noticed us. They're trying to<$FFFC>escape！<$FFFE>
+83	<$FB00><$0044>If they escape, our future moves<$FFFC>may be blocked.<$FFFE>
+84	<$FB00><$0045>Right. Don't let anyone escape！<$FFFE>
 85	<$FB00><$0046>At last, I found you！<$FFFE>
 86	<$FB00><$0047>Quaid！<$FFFE>
-87	<$FB00><$0048>I prepared elite troops just<$FFFC>for you. Entertain me！<$FFFD><$FB00><$0049>Good timing. Kill them with the<$FFFC>prisoners！<$FFFE>
+87	<$FB00><$0048>I prepared elite troops just for<$FFFC>you. Entertain me！<$FFFD><$FB00><$0049>Good timing. Kill them with the<$FFFC>prisoners！<$FFFE>
 88	<$FB00><$004A>Sir！<$FFFE>
 89	・Defeat all enemies<$FFFE>
 90	・Liberalist dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 91	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Defeat all<$FFFC>enemies<$FFFE>
 92	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Liberalist dies<$FFFC>・<$F600><$0000> dies<$FFFE>
-93	<$FB00><$004B>What now？ We can fight, but<$FFFC>they can't, right？<$FFFE>
-94	<$FB00><$004C>We can't lose even one of<$FFFC>them！<$FFFE>
+93	<$FB00><$004B>What now？ We can fight, but they<$FFFC>can't, right？<$FFFE>
+94	<$FB00><$004C>We can't lose even one of them！<$FFFE>
 95	<$FB00><$004D>Right<$FFF5><$FFF8>…<$FFFE>
 96	・Have them wait<$FFFE>
 97	・Have them escape<$FFFE>
-98	<$FB00><$004E>Have them stay put for now.<$FFFC>The cells are easier to defend.<$FFFE>
+98	<$FB00><$004E>Have them stay put for now. The<$FFFC>cells are easier to defend.<$FFFE>
 99	<$FB00><$004F>Maybe so.<$FFFE>
-100	<$FB00><$0050>Have them escape while we<$FFFC>fight.<$FFFE>
+100	<$FB00><$0050>Have them escape while we fight.<$FFFE>
 101	<$FB00><$0051>But where should they run？<$FFFE>
 102	・East<$FFFE>
 103	・South<$FFFE>
@@ -108,13 +108,13 @@
 106	<$FB00><$0053>South. Run south！<$FFFE>
 107	<$FB00><$0054>West. Run west！<$FFFE>
 108	<$FB00><$0055>Understood. We'll do that.<$FFFE>
-109	<$FB00><$0056>Wardens, why have you left<$FFFC>your posts？<$FFFE>
+109	<$FB00><$0056>Wardens, why have you left your<$FFFC>posts？<$FFFE>
 110	<$FB00><$0057>Forgive us. We thought we<$FFFC>couldn't win alone and were going to Lord<$FFFC>Quaid.<$FFFE>
 111	<$FB00><$0058>Then you need not flee. Attack<$FFFC>whoever is closest, prisoners or rebels！<$FFFE>
 112	<$FB00><$0059>Sir！ Understood！<$FFFE>
 113	<$FB00><$005F>Wahahaha！ Justice for rebels！<$FFFE>
-114	<$FB00><$0060>Damn！ We couldn't protect<$FFFC>them…！<$FFFE>
+114	<$FB00><$0060>Damn！ We couldn't protect them…！<$FFFE>
 115	<$FB00><$005A>The Liberalists have escaped.<$FFFE>
-116	<$FB00><$005B>Now we can fight without<$FFFC>worrying about them.<$FFFE>
+116	<$FB00><$005B>Now we can fight without worrying<$FFFC>about them.<$FFFE>
 117	<$FB00><$005C>Grr, they escaped！ Fine, then<$FFFC>I'll slaughter you alone！<$FFFE>
 118	<$0000> <$0000><$0000><$0000><$0000><$0000><$0000>The cells opened！<$FFFE>

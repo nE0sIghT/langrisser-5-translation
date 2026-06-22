@@ -37,8 +37,8 @@
 35	<$FB00><$00AD>Yes！ I killed the man who<$FFFC>murdered my father！ I drove my sword<$FFFC>through his heart.<$FFFD><$FB00><$00AE>He didn't resist. It was as if he had<$FFFC>accepted being killed by me.<$FFFD><$FB00><$00AF>You<$FFF5><$FFF8>…<$FFF6><$FB00><$00B0>you look like him<$FFF5><$FFF8>…<$FFFE>
 36	<$FB00><$00B1>So he looks like the man you<$FFFC>killed. No wonder you didn't want to say<$FFFC>it.<$FFFE>
 37	<$FB00><$00B2>Then I am someone else<$FFF5><$FFF8>…<$FFFE>
-38	<$FB00><$00B3>Could he have been your brother<$FFFC>or a relative？<$FFFE>
-39	<$FB00><$00B4>He was Duke Egil's only son, with<$FFFC>no close relatives near his age<$FFF5><$FFF8>…<$FFFE>
+38	<$FB00><$00B3>Could he have been your brother or<$FFFC>a relative？<$FFFE>
+39	<$FB00><$00B4>He was Duke Egil's only son,<$FFFC>with no close relatives near his age<$FFF5><$FFF8>…<$FFFE>
 40	<$FFF8>…<$FFF6><$FB00><$00B5>Um<$FFF5><$FFF8>… <$FE1E><$FFF6><$FB00><$00B6>I told you Gizarof's<$FFFC>research included clones.<$FFFE>
 41	<$FB00><$00B7>Yeah. The technology to make<$FFFC>copies of people.<$FFFE>
 42	<$FB00><$00B8>Ha ha ha… I see. So I'm just his<$FFFC>copy<$FFF5><$FFF8>… <$FE14><$FFF6><$FB00><$00B9>I have no past <$FFF5><$FFF8>… <$FE14><$FFF6><$FB00><$00BA>A manmade puppet<$FFF5><$FFF8>…<$FFFE>
@@ -50,15 +50,15 @@
 48	<$FB00><$00C1>So Clarett killed my original.<$FFFE>
 49	<$FFF8>…<$FFF6><$FB00><$00C2>That's why I didn't want to<$FFFC>say it.<$FFFE>
 50	<$FFF7><$FB00><$00C3>No<$FFF5><$FFF8>…<$FE0F><$FFF6><$FB00><$00C4>It's enough to know I'm not<$FFFC>the killer.<$FFFE>
-51	<$FB00><$00C5>So, what now？ Whatever the<$FFFC>truth, both of you are wanted, right？<$FFFE>
+51	<$FB00><$00C5>So, what now？ Whatever the truth,<$FFFC>both of you are wanted, right？<$FFFE>
 52	<$FB00><$00C6>Why don't we stay together？<$FFFE>
 53	<$FB00><$00C7>Two wanted people together. Is<$FFFC>that safe？<$FFFE>
 54	<$FB00><$00C8>If we're wanted anyway, isn't<$FFFC>together safer？ Besides, you all seem<$FFFC>strong.<$FFFE>
 55	<$FB00><$00C9>What an easygoing princess.<$FFFE>
 56	<$FB00><$00CA>And if we clear his suspicion, I<$FFFC>should be there, right？ So, nice to work<$FFFC>with you.<$FFFE>
 57	<$FB00><$00CB>But Miss Clarett, he said the<$FFFC>minister became the new Emperor. What will<$FFFC>you do？<$FFFE>
-58	<$FB00><$00CC>Right. First, I must take back my<$FFFC>country. Demons could run wild again.<$FFFD><$FB00><$00CD>That's why I went looking for Jessica.<$FFFE>
-59	<$FB00><$00CE>On that subject, I have one thing<$FFFC>to ask. What do you want from me？<$FFFE>
+58	<$FB00><$00CC>Right. First, I must take back<$FFFC>my country. Demons could run wild again.<$FFFD><$FB00><$00CD>That's why I went looking for Jessica.<$FFFE>
+59	<$FB00><$00CE>On that subject, I have one<$FFFC>thing to ask. What do you want from me？<$FFFE>
 60	<$FFF7><$FB00><$00CF>Huh？<$FFFE>
 61	<$FB00><$00D0>You said you sought me because<$FFFC>demons infest El Sallia. What do you want<$FFFC>from me？<$FFFE>
 62	<$FB00><$00D1>Um<$FFF5><$FFF8>… <$FFF6><$FB00><$00D2>Well<$FFF5><$FFF8>…<$FFFE>
@@ -68,8 +68,8 @@
 66	<$FFF8>…<$FFF6><$FB00><$00D6>Jessica left.<$FFFE>
 67	<$FB00><$00D7>What now？<$FFFE>
 68	<$FB00><$00D8>We don't know this continent.<$FFFC>Wandering blindly won't help.<$FFFE>
-69	<$FB00><$00D9>Miss Clarett, do you have<$FFFC>anywhere to go？<$FFFE>
-70	<$FB00><$00DA>Yes. I think Salrath will help us.<$FFFD><$FB00><$00DB>Salrath has always aided Kalxath in<$FFFC>crisis. Duke Lenard can be trusted.<$FFFD><$FB00><$00DC>If we explain, he will surely cooperate.<$FFFE>
+69	<$FB00><$00D9>Miss Clarett, do you have anywhere<$FFFC>to go？<$FFFE>
+70	<$FB00><$00DA>Yes. I think Salrath will help<$FFFC>us.<$FFFD><$FB00><$00DB>Salrath has always aided Kalxath in<$FFFC>crisis. Duke Lenard can be trusted.<$FFFD><$FB00><$00DC>If we explain, he will surely cooperate.<$FFFE>
 71	<$FB00><$00DD>So your goal is Salrath. What<$FFFC>should we do<$FFF5><$FFF8>…？<$FFFE>
 72	<$FB00><$00DE>What do you mean？ Won't you come<$FFFC>with me？<$FFFE>
 73	<$FB00><$00DF>Coming with you means helping<$FFFC>until you reclaim your country？<$FFFE>
@@ -87,5 +87,5 @@
 85	<$FB00><$00ED>There is something I must confirm.<$FFFC>I'm not asking to keep them. What do you<$FFFC>say？<$FFFE>
 86	<$FFFA><$FFF8><$FB00><$00EE>Hmm<$FFF5>…<$FFFD><$FFF9><$FFF6><$FB00><$00EF>Fine. I accept that condition. But only<$FFFC>for a short while, all right？<$FFFE>
 87	<$0000> Clarett joined the party！<$FFFE>
-88	<$FB00><$00F0>Then the deal is made. We'll<$FFFC>help you reclaim your country.<$FFFE>
+88	<$FB00><$00F0>Then the deal is made. We'll help<$FFFC>you reclaim your country.<$FFFE>
 89	<$FB00><$00F1>Then I'll guide you to Salrath.<$FFFC>Come on, hurry！<$FFFE><$FFFF>

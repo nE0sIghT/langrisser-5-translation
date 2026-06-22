@@ -12,25 +12,25 @@
 10	・<$F600><$0000> dies<$FFFE>
 11	Umagee<$0000>IN<$0000>Pondbag<$FFFF>
 12	So this is the <$FFF4>Umagee<$FFF3> arcade？<$FFFE>
-13	Yeah, judging by the map on the flyer,<$FFFC>this should be the place.<$FFFE>
-14	There's even a horse statue out front, so<$FFFC>this has to be it.<$FFFE>
+13	Yeah, judging by the map on the<$FFFC>flyer, this should be the place.<$FFFE>
+14	There's even a horse statue out<$FFFC>front, so this has to be it.<$FFFE>
 15	<$FFFA><$FFF8>…<$FFFE>
 16	What's wrong, Marie？<$FFFE>
-17	I've got a bad feeling about this.<$FFFE>
+17	I've got a bad feeling about<$FFFC>this.<$FFFE>
 18	Why？ Such a fun looking place？<$FFFD>It'll be fine！ Come on, let's go in！<$FFFE>
 19	Y, you！！<$FFFE>
 20	Agh！！ That pervert！！<$FFFE>
-21	Fancy meeting you here！ Don't think you'll<$FFFC>make it out alive！！<$FFFD>Men！！<$FFFD><$0000> <$0000><$0000><$0000><$0000><$FFF4>dead silence<$FFF3><$FFFD><$FFF8>D-damn it！！ Those guys were dead<$FFFC>weight for job hunting, so I left them<$FFFC>back in Yeles…<$0663><$FFFD><$FFF8>Wait… wasn't my voice actor the same as<$FFFC>Gaiel's？ …I can use that…<$FFFE>
-22	<$FFF7>Ahh, <$FFFB><$FFF6>well…<$FFFB> I'm not such a villain<$FFFC>myself. Let's just settle this with a<$FFFC>single game.<$FFFE>
+21	Fancy meeting you here！ Don't<$FFFC>think you'll make it out alive！！<$FFFD>Men！！<$FFFD><$0000> <$0000><$0000><$0000><$0000><$FFF4>dead silence<$FFF3><$FFFD><$FFF8>D-damn it！！ Those guys were dead<$FFFC>weight for job hunting, so I left them<$FFFC>back in Yeles…<$0663><$FFFD><$FFF8>Wait… wasn't my voice actor the same as<$FFFC>Gaiel's？ …I can use that…<$FFFE>
+22	<$FFF7>Ahh, <$FFFB><$FFF6>well…<$FFFB> I'm not such a<$FFFC>villain myself. Let's just settle this<$FFFC>with a single game.<$FFFE>
 23	A game？<$FFFE>
-24	<$FFFB>That's right, a game. First, let me<$FFFC>explain the rules.<$FFFD>You and my underlings fight one on one,<$FFFC>survival style. Whichever side's last<$FFFC>commander falls, loses！<$FFFD>Naturally, my side's commander is me. And<$FFFC>your side's commander is<$FFFC><$F600><$0000>！ that's you.<$FFFE>
+24	<$FFFB>That's right, a game. First, let<$FFFC>me explain the rules.<$FFFD>You and my underlings fight one on one,<$FFFC>survival style. Whichever side's last<$FFFC>commander falls, loses！<$FFFD>Naturally, my side's commander is me. And<$FFFC>your side's commander is<$FFFC><$F600><$0000>！ that's you.<$FFFE>
 25	Interesting. I accept.<$FFFE>
-26	When the first one loses, the second steps<$FFFC>up, and so on, with no breaks.<$FFFD>But since it's a duel inside the game,<$FFFC>getting beaten here doesn't add to your<$FFFC>loss count.<$FFFD>Still, each bout has a time limit. <$FFF4>250<$FFFC>counts per bout！<$FFF3> One turn is 50 counts,<$FFFC>so that's <$FFF4>a full 5 turns<$FFF3>.<$FFFD>So on the 6th turn after a bout starts,<$FFFC>you lose that bout. Well？ Getting cold<$FFFC>feet！？<$FFFE>
-27	Against the likes of you, I won't need 5<$FFFC>turns.<$FFFE>
-28	When the first one loses, the second steps<$FFFC>up, and so on, with no breaks.<$FFFD>But since it's a duel inside the game,<$FFFC>getting beaten here doesn't add to your<$FFFC>loss count.<$FFFD>Still, each bout has a time limit. <$FFF4>300<$FFFC>counts per bout！<$FFF3> One turn is 50 counts,<$FFFC>so that's <$FFF4>a full 6 turns<$FFF3>.<$FFFD>So on the 7th turn after a bout starts,<$FFFC>you lose that bout. Well？ Getting cold<$FFFC>feet！？<$FFFE>
-29	Against you lot, I won't even need 6<$FFFC>turns.<$FFFE>
+26	When the first one loses, the<$FFFC>second steps up, and so on, with no<$FFFC>breaks.<$FFFD>But since it's a duel inside the game,<$FFFC>getting beaten here doesn't add to your<$FFFC>loss count.<$FFFD>Still, each bout has a time limit. <$FFF4>250<$FFFC>counts per bout！<$FFF3> One turn is 50 counts,<$FFFC>so that's <$FFF4>a full 5 turns<$FFF3>.<$FFFD>So on the 6th turn after a bout starts,<$FFFC>you lose that bout. Well？ Getting cold<$FFFC>feet！？<$FFFE>
+27	Against the likes of you, I won't<$FFFC>need 5 turns.<$FFFE>
+28	When the first one loses, the<$FFFC>second steps up, and so on, with no<$FFFC>breaks.<$FFFD>But since it's a duel inside the game,<$FFFC>getting beaten here doesn't add to your<$FFFC>loss count.<$FFFD>Still, each bout has a time limit. <$FFF4>300<$FFFC>counts per bout！<$FFF3> One turn is 50 counts,<$FFFC>so that's <$FFF4>a full 6 turns<$FFF3>.<$FFFD>So on the 7th turn after a bout starts,<$FFFC>you lose that bout. Well？ Getting cold<$FFFC>feet！？<$FFFE>
+29	Against you lot, I won't even need<$FFFC>6 turns.<$FFFE>
 30	Big words, brat！<$FFFD>By the way, the total turn count carries<$FFFC>over, so think hard about when you get<$FFFC>called in！<$FFFE>
-31	All right, let's fight！ Decide your<$FFFC>order！<$FFFE>
+31	All right, let's fight！ Decide<$FFFC>your order！<$FFFE>
 32	<$F600><$0000> will go out last. So, who<$FFFC>goes first？<$FFFE>
 33	・Marie<$FFFE>
 34	・Alfred<$FFFE>
@@ -53,11 +53,11 @@
 51	・Alfred<$FFFE>
 52	・Brenda<$FFFE>
 53	It's decided！<$FFFE>
-54	We've decided too！ Now then, to the<$FFFC>arena！<$FFFE>
+54	We've decided too！ Now then, to<$FFFC>the arena！<$FFFE>
 55	Inside the Game<$FFFF>
 56	We fight inside this thing…<$FFFE>
-57	Surprised！？ With my power, hacking into<$FFFC>the digital world is child's play！<$FFFD>Now then！ Let's begin！<$FFFE>
-58	Counting on you, <$F600><$FFE5>！<$FFFE>
+57	Surprised！？ With my power,<$FFFC>hacking into the digital world is child's<$FFFC>play！<$FFFD>Now then！ Let's begin！<$FFFE>
+58	Counting on you,<$FFFC><$F600><$FFE5>！<$FFFE>
 59	<$0000> <$0000><$0000><$0000><$FFF4>BOUT<$0000>1<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>FIGHT！<$FFF3><$FFFE>
 60	<$0000> <$0000><$0000><$0000><$0000><$0000><$FFF4>TIME<$0000>OVER<$FFF3> <$0000><$FFFC><$0000><$0000><$0000><$0000><$0000><$FFF4>YOU<$0000>LOSE<$FFF3><$FFFE>
 61	I'm sorry, everyone…<$FFFE>
@@ -77,21 +77,21 @@
 75	Sorry…<$FFFE>
 76	<$FB00><$0054>I won't lose！<$FFFE>
 77	Sorry…<$FFFE>
-78	Behold the power of me, the champion of<$FFFC>Pondbag！<$FFFD>Here goes！ My ultimate Genius Blade！<$FFFC><$0000><$0000><$0000>COMMAND<$FFFC><$0000><$0000><$0000><$FFF4>←↓→↓→<$FFF3><$0000>+<$0000><$FFF4>Heavy P<$FFF3><$FFFE>
-79	Nngh… This is getting bad…<$FFFB> In that<$FFFC>case…<$FFFE>
+78	Behold the power of me, the<$FFFC>champion of Pondbag！<$FFFD>Here goes！ My ultimate Genius Blade！<$FFFC><$0000><$0000><$0000>COMMAND<$FFFC><$0000><$0000><$0000><$FFF4>←↓→↓→<$FFF3><$0000>+<$0000><$FFF4>Heavy P<$FFF3><$FFFE>
+79	Nngh… This is getting bad…<$FFFB> In<$FFFC>that case…<$FFFE>
 80	Fire！ Fire～！<$FFFE>
-81	Nngh… This is getting bad…<$FFFB> In that<$FFFC>case…<$FFFE>
+81	Nngh… This is getting bad…<$FFFB> In<$FFFC>that case…<$FFFE>
 82	Fire！ Fire～！<$FFFE>
-83	Exactly half the time left… I'd better<$FFFC>hurry！<$FFFE>
-84	Half the battle time is gone. I need to<$FFFC>finish this soon…<$FFFE>
-85	Only half the time is left. I have to<$FFFC>hurry…<$FFFE>
-86	Looks like time just passed the halfway<$FFFC>point.<$FFFE>
+83	Exactly half the time left… I'd<$FFFC>better hurry！<$FFFE>
+84	Half the battle time is gone.<$FFFC>I need to finish this soon…<$FFFE>
+85	Only half the time is left. I have<$FFFC>to hurry…<$FFFE>
+86	Looks like time just passed the<$FFFC>halfway point.<$FFFE>
 87	Looks like less than half the time<$FFFC>remains.<$FFFE>
 88	Come on, next！ Here we go！<$FFFE>
-89	I really am the strongest！ Let's keep<$FFFC>this up！<$FFFE>
-90	Bwahahaha！ Now you know my power！<$FFFE>
-91	Only you are left now！ Prepare yourself,<$FFFC><$F600><$0000>！<$FFFE>
-92	Counting on you, <$F600><$FFE6>！<$FFFE>
+89	I really am the strongest！ Let's<$FFFC>keep this up！<$FFFE>
+90	Bwahahaha！ Now you know my<$FFFC>power！<$FFFE>
+91	Only you are left now！ Prepare<$FFFC>yourself, <$F600><$0000>！<$FFFE>
+92	Counting on you,<$FFFC><$F600><$FFE6>！<$FFFE>
 93	Don't lose, <$F600><$FFE7>！<$FFFE>
 94	There's no one left after this.<$FFFC><$F600><$FFE8>, it's up to you！<$FFFE>
 95	So it's finally my turn…<$FFFD>Here I go！<$FFFE>

@@ -21,9 +21,9 @@
 19	<$FB00><$0064>Ah, Clarett！ I missed you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 20	<$FB00><$0065>You were worried for me. Thank<$FFFC>you, Eric.<$FFFE>
 21	<$FB00><$0066>Anyway, Brenda. Looks like you<$FFFC>beat the demons. So where are the swords？<$FFFE>
-22	<$FB00><$0067>Yeah, about that… they're<$FFFC>nowhere in this castle！<$FFFE>
+22	<$FB00><$0067>Yeah, about that… they're nowhere<$FFFC>in this castle！<$FFFE>
 23	<$FB00><$0068>Hey, hey, that's not the deal, is<$FFFC>it？<$FFFE>
-24	<$FB00><$0069>We were just talking it over.<$FFFC>That demon Gaiel may have them.<$FFFE>
+24	<$FB00><$0069>We were just talking it over. That<$FFFC>demon Gaiel may have them.<$FFFE>
 25	<$FB00><$006A>Hold on<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 26	<$FB00><$006B>What is it？<$FFFE>
 27	<$FB00><$006C>What if Omega<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
@@ -37,7 +37,7 @@
 35	<$FB00><$0074>They may well have taken them.<$FFF5><$FFF8><$FFFC>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>All right. I'll chase that lead<$FFFC>myself.<$FFFE>
 36	<$FB00><$0076>Clarett！ Now you will know my<$FFFC>power！<$FFF5><$FFF8><$FE3C><$FFFB> <$FE3C><$FB00><$0077>Magitek cannon, fire！<$FFF5><$FFF7><$FFFE>
 37	Fort near Velzeria<$FFFF>
-38	<$FB00><$0078>You useless oafs！ Aim properly！ All you<$FFFC>hit was the castle！<$FFFE>
-39	<$FB00><$0079>Forgive us. We never expected such<$FFFC>recoil from the cannon<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+38	<$FB00><$0078>You useless oafs！ Aim properly！<$FFFC>All you hit was the castle！<$FFFE>
+39	<$FB00><$0079>Forgive us. We never expected<$FFFC>such recoil from the cannon<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 40	<$FB00><$007A>No back talk！ When is the next<$FFFC>shot？<$FFFE>
 41	<$FB00><$007B>We are charging mana now.<$FFFC>Perhaps an hour more<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>

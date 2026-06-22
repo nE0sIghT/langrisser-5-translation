@@ -17,165 +17,165 @@
 15	・Wipe out the impostors<$FFFE>
 16	・All 3 heroines lured off by impostors<$FFFC>・<$F600><$0000> dies<$FFFE>
 17	Town in the Mountains<$FFFF>
-18	Nuuurgh！ Well？ Don't you think it's a<$FFFC>spitting image？<$FFFE>
-19	Impressive, des！ Even the voice is<$FFFC>identical, des！<$FFFE>
-20	Mm. The casting was listed in a game<$FFFC>magazine, so I got the general feel.<$FFFD>For me, who trains daily, nothing is<$FFFC>impossible.<$FFFE>
-21	Bro. This stage has no voice acting, des.<$FFFE>
+18	Nuuurgh！ Well？ Don't you think<$FFFC>it's a spitting image？<$FFFE>
+19	Impressive, des！ Even the voice<$FFFC>is identical, des！<$FFFE>
+20	Mm. The casting was listed in a<$FFFC>game magazine, so I got the general feel.<$FFFD>For me, who trains daily, nothing is<$FFFC>impossible.<$FFFE>
+21	Bro. This stage has no voice<$FFFC>acting, des.<$FFFE>
 22	…<$FE14>…<$FE14>…<$FE14>…<$FE14> Did you say something？<$FFFE>
 23	N-nothing at all, des！<$FFFE>
-24	Now the <$FFF4>Save the Gym<$FFF3> operation is sure to<$FFFC>succeed, des！<$FFFE>
-25	Mm. A gym truly needs some flair. That is<$FFFC>why I put on this disguise.<$FFFD>Now we simply recruit the young ladies<$FFFC>around here.<$FFFE>
-26	Then membership will boom, the gym will be<$FFFC>spotless, and it won't reek of sweat<$FFFC>anymore, des！<$FFFE>
-27	You fool～！ Sweat is the true status of a<$FFFC>real man！ How dare you call it a stink！<$FFFE>
-28	W-why are you coming out from over<$FFFC>there, des？<$FFFE>
+24	Now the <$FFF4>Save the Gym<$FFF3> operation<$FFFC>is sure to succeed, des！<$FFFE>
+25	Mm. A gym truly needs some<$FFFC>flair. That is why I put on this disguise.<$FFFD>Now we simply recruit the young ladies<$FFFC>around here.<$FFFE>
+26	Then membership will boom, the<$FFFC>gym will be spotless, and it won't reek of<$FFFC>sweat anymore, des！<$FFFE>
+27	You fool～！ Sweat is the true<$FFFC>status of a real man！ How dare you call it<$FFFC>a stink！<$FFFE>
+28	W-why are you coming out from<$FFFC>over there, des？<$FFFE>
 29	The earth was round, des…<$FFFE>
-30	In any case, this is where our strength is<$FFFC>put to the test.<$FFFE>
+30	In any case, this is where our<$FFFC>strength is put to the test.<$FFFE>
 31	U-umm～. Are you Mr. Shigema？<$FFFE>
 32	Hm？ I'm sure I hired one more<$FFFC>part-timer？<$FFFE>
 33	Eh！ They haven't arrived yet？<$FFFD>Maybe they got lost<$FFF8>…<$FFFE>
-34	B-Bro！ Who in the world is this girl,<$FFFC>des？<$FFFE>
-35	A part-timer I hired to make this<$FFFC>operation succeed. I've asked her to<$FFFC>defeat anyone who gets in our way.<$FFFE>
+34	B-Bro！ Who in the world is<$FFFC>this girl, des？<$FFFE>
+35	A part-timer I hired to make<$FFFC>this operation succeed. I've asked her to<$FFFC>defeat anyone who gets in our way.<$FFFE>
 36	You're making a girl fight, des？<$FFFE>
-37	We have a great mission, recruitment. That<$FFFC>too is a noble battle.<$FFFE>
+37	We have a great mission,<$FFFC>recruitment. That too is a noble battle.<$FFFE>
 38	That's no excuse, des…<$FFFE>
 39	…<$FE14>…<$FE14>…<$FE14>…<$FE14> Did you say something？<$FFFE>
 40	N-nothing at all, des！<$FFFE>
-41	Anyway, we begin recruiting now. Everyone,<$FFFC>to your posts！<$FFFE>
-42	I think it's around here somewhere<$FFF8>…<$FFFE>
-43	Is there really treasure somewhere in this<$FFFC>town？<$FFFE>
-44	Is there really treasure？ I'd rather walk<$FFFC>around town than search for that<$FFF8>…<$FFFE>
-45	Fair enough. Let's leave the treasure<$FFFC>hunting to the men and go have some fun<$FFFC>ourselves.<$FFFE>
-46	Looks like we'll have to search on our<$FFFC>own.<$FFFE>
+41	Anyway, we begin recruiting now.<$FFFC>Everyone, to your posts！<$FFFE>
+42	I think it's around here<$FFFC>somewhere<$FFF8>…<$FFFE>
+43	Is there really treasure somewhere<$FFFC>in this town？<$FFFE>
+44	Is there really treasure？ I'd<$FFFC>rather walk around town than search for<$FFFC>that<$FFF8>…<$FFFE>
+45	Fair enough. Let's leave the<$FFFC>treasure hunting to the men and go have<$FFFC>some fun ourselves.<$FFFE>
+46	Looks like we'll have to search<$FFFC>on our own.<$FFFE>
 47	Ahh<$FFF8>…<$FFFE>
-48	Sorry I'm late！ You're Mr. Shigema,<$FFFC>right？<$FFFE>
-49	Shigema？ I'm <$F600><$0000>, though？<$FFFE>
-50	Huh？ But you're the trio I was told<$FFFC>about<$FFF8>…<$FFFD><$FFF6>Anyway, I'll work hard, so please overlook<$FFFC>my being late.<$FFFE>
+48	Sorry I'm late！ You're Mr.<$FFFC>Shigema, right？<$FFFE>
+49	Shigema？ I'm <$F600><$0000>,<$FFFC>though？<$FFFE>
+50	Huh？ But you're the trio I was<$FFFC>told about<$FFF8>…<$FFFD><$FFF6>Anyway, I'll work hard, so please overlook<$FFFC>my being late.<$FFFE>
 51	Work, doing what exactly？<$FFFE>
-52	Imitating you, of course, to take down the<$FFFC>evildoers！<$FFFE>
+52	Imitating you, of course, to take<$FFFC>down the evildoers！<$FFFE>
 53	Imitating us！？<$FFFE>
-54	Leave it to me and it'll be fine. The rest<$FFFC>of you, carry on with your other work.<$FFFE>
-55	I don't quite understand, but we'd best at<$FFFC>least prepare to fight.<$FFFE>
+54	Leave it to me and it'll be fine.<$FFFC>The rest of you, carry on with your other<$FFFC>work.<$FFFE>
+55	I don't quite understand, but we'd<$FFFC>best at least prepare to fight.<$FFFE>
 56	Yeah.<$FFFE>
-57	Nuuurgh<$FFF8>… <$FFF6>is that blonde girl spinning<$FFFC>around on purpose, des？<$FFFE>
+57	Nuuurgh<$FFF8>… <$FFF6>is that blonde girl<$FFFC>spinning around on purpose, des？<$FFFE>
 58	！？ There's another set of us.<$FFFE>
 59	Hmph！ So they found us！<$FFFE>
-60	That girl from earlier said it. That there<$FFFC>are impostors<$FFF8>…<$FFFE>
-61	So those people are the ones imitating<$FFFC>us？<$FFFE>
-62	I don't know their reasons, but I can't<$FFFC>just let it slide.<$FFFE>
-63	Looks like the Uminin are already sold<$FFFC>out…<$FFFE>
-64	Uminin are on sale for 50P<$FFF8>… which one<$FFFC>should I get.<$FFFE>
+60	That girl from earlier said it.<$FFFC>That there are impostors<$FFF8>…<$FFFE>
+61	So those people are the ones<$FFFC>imitating us？<$FFFE>
+62	I don't know their reasons, but I<$FFFC>can't just let it slide.<$FFFE>
+63	Looks like the Uminin are<$FFFC>already sold out…<$FFFE>
+64	Uminin are on sale for 50P<$FFF8>…<$FFFC>which one should I get.<$FFFE>
 65	Uminin are sold for 50P, but there's no<$FFFC>clerk in sight<$FFF8>…<$FFFE>
-66	Bursting with juices<$FFF8>… I wonder if it's<$FFFC>tasty？？<$FFFE>
-67	Hmm, I wonder if this is any good. What<$FFFC>should I do<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6>nah, I'll pass！<$FFFE>
+66	Bursting with juices<$FFF8>… I wonder<$FFFC>if it's tasty？？<$FFFE>
+67	Hmm, I wonder if this is any<$FFFC>good. What should I do<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6>nah, I'll pass！<$FFFE>
 68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
-69	What's wrong？ did you find the treasure？<$FFFE>
+69	What's wrong？ did you find the<$FFFC>treasure？<$FFFE>
 70	T-treasure！？<$FFFE>
-71	By the look of it, you haven't found it.<$FFFE>
-72	T-the treasure, it's the gym. You can<$FFFC>see it right there.<$FFFE>
-73	It certainly is a suspicious place.<$FFFE>
-74	The truth is, our impostors are holed up<$FFFC>in that place. Could you guard the<$FFFC>treasure over there？<$FFFE>
+71	By the look of it, you haven't<$FFFC>found it.<$FFFE>
+72	T-the treasure, it's the gym.<$FFFC>You can see it right there.<$FFFE>
+73	It certainly is a suspicious<$FFFC>place.<$FFFE>
+74	The truth is, our impostors are<$FFFC>holed up in that place. Could you guard<$FFFC>the treasure over there？<$FFFE>
 75	Impostors？<$FFFE>
-76	Mm. Once the impostors are beaten, we'll<$FFFC>split the treasure evenly.<$FFFE>
-77	Fine. I just go ahead and guard it,<$FFFC>right？<$FFFE>
+76	Mm. Once the impostors are<$FFFC>beaten, we'll split the treasure evenly.<$FFFE>
+77	Fine. I just go ahead and<$FFFC>guard it, right？<$FFFE>
 78	Y-young lady…<$FFFE>
-79	What is it？ did you find treasure or<$FFFC>something？<$FFFE>
-80	T-treasure？ no, there's no treasure,<$FFFC>des, but…<$FFFE>
+79	What is it？ did you find<$FFFC>treasure or something？<$FFFE>
+80	T-treasure？ no, there's no<$FFFC>treasure, des, but…<$FFFE>
 81	I see. good luck searching.<$FFFE>
 82	Y-yes<$FFF8>…<$FFFD>Nuuurgh… there's just no getting through<$FFFC>to her, des…<$FFFE>
 83	Want a Big Bro Bento, des？<$FFFE>
 84	Huh, this？ n-not really, but.<$FFFE>
-85	It's written all over your face that you<$FFFC>want it, des. Here, let me treat you to<$FFFC>one, des！<$FFFE>
+85	It's written all over your face<$FFFC>that you want it, des. Here, let me treat<$FFFC>you to one, des！<$FFFE>
 86	Huh？ really？ yay～！<$FFFE>
-87	In return, I have a favor to ask, des.<$FFFE>
+87	In return, I have a favor to<$FFFC>ask, des.<$FFFE>
 88	Hm, what？<$FFFE>
-89	The truth is, our impostors are holed up<$FFFC>in the gym, des. And so<$FFF8>…<$FFFE>
-90	So I just guard that run-down shack,<$FFFC>right？ got it.<$FFFE>
+89	The truth is, our impostors are<$FFFC>holed up in the gym, des. And so<$FFF8>…<$FFFE>
+90	So I just guard that run-down<$FFFC>shack, right？ got it.<$FFFE>
 91	R-run-down shack<$FFF8>…<$FFFE>
 92	Y-young lady…<$FFFE>
-93	Hm？ …ah, it's you. so？ did you find this<$FFFC>treasure of yours？<$FFFE>
-94	Oooh！ the treasure, the treasure, you<$FFFC>mean the treasure, des！？<$FFFE>
-95	？ you're acting kind of strange, aren't<$FFFC>you？ huh？<$FFFE>
-96	N-no… it was such amazing treasure that<$FFFC>I lost my composure, des！<$FFFD>Some kind of ancient relic, or something…<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Note: total fabrication<$FFF3><$FFFE>
+93	Hm？ …ah, it's you. so？ did you<$FFFC>find this treasure of yours？<$FFFE>
+94	Oooh！ the treasure, the<$FFFC>treasure, you mean the treasure, des！？<$FFFE>
+95	？ you're acting kind of strange,<$FFFC>aren't you？ huh？<$FFFE>
+96	N-no… it was such amazing<$FFFC>treasure that I lost my composure, des！<$FFFD>Some kind of ancient relic, or something…<$FFFC><$0000><$0000><$0000><$0000><$FFF4>Note: total fabrication<$FFF3><$FFFE>
 97	Ancient！？<$FFFE>
-98	That's right, des！ and so duplicates of<$FFFC>us got made…<$FFFB> anyway, it's a real mess,<$FFFC>des！<$FFFE>
-99	All right！ I'll go take a look. so？<$FFFC>where's the place？<$FFFE>
-100	Inside that gym at the back, des！ watch<$FFFC>out for our impostors, des！<$FFFE>
+98	That's right, des！ and so<$FFFC>duplicates of us got made…<$FFFB> anyway, it's<$FFFC>a real mess, des！<$FFFE>
+99	All right！ I'll go take a look.<$FFFC>so？ where's the place？<$FFFE>
+100	Inside that gym at the back,<$FFFC>des！ watch out for our impostors, des！<$FFFE>
 101	Please wait！ it's me, Alfred！<$FFFE>
-102	I won't be fooled！ if you're the real<$FFFC>one, show me proof！<$FFFE>
+102	I won't be fooled！ if you're<$FFFC>the real one, show me proof！<$FFFE>
 103	Proof, huh…<$FFFE>
 104	・Show the family tree<$FFFE>
 105	・Talk about the Lambda days<$FFFE>
 106	・Show the treasure map<$FFFE>
-107	You think that'll make me believe you？<$FFFE>
-108	I'm sorry. you were the real one<$FFF8>…<$FFFE>
-109	You think some doodle will make me believe<$FFFC>you？<$FFFE>
+107	You think that'll make me<$FFFC>believe you？<$FFFE>
+108	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
+109	You think some doodle will<$FFFC>make me believe you？<$FFFE>
 110	Wait, Marie！<$FFFE>
-111	I won't be fooled！ if you're the real<$FFFC>one, show me proof！<$FFFE>
+111	I won't be fooled！ if you're<$FFFC>the real one, show me proof！<$FFFE>
 112	Proof, huh<$FFF8>…<$FFFE>
 113	・No memory, so no proof<$FFFE>
 114	・Talk about Gizarof<$FFFE>
 115	・Show off your trained body<$FFFE>
-116	You think that'll make me believe you？<$FFFE>
-117	I'm sorry. you were the real one<$FFF8>…<$FFFE>
-118	Stripping off your clothes here, what are<$FFFC>you thinking！<$FFFE>
+116	You think that'll make me<$FFFC>believe you？<$FFFE>
+117	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
+118	Stripping off your clothes<$FFFC>here, what are you thinking！<$FFFE>
 119	Calm down！ it's me, Lanford.<$FFFE>
-120	I won't be fooled！ if you're the real<$FFFC>one, show me proof！<$FFFE>
+120	I won't be fooled！ if you're<$FFFC>the real one, show me proof！<$FFFE>
 121	Proof, huh<$FFF8>…<$FFFE>
 122	・Talk about McClaine<$FFFE>
 123	・Talk about Landius<$FFFE>
 124	・Talk about Goldry<$FFFE>
-125	I'm sorry. you were the real one<$FFF8>…<$FFFE>
-126	I'm sorry. you were the real one<$FFF8>…<$FFFE>
-127	I'm sorry. you were the real one<$FFF8>…<$FFFE>
+125	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
+126	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
+127	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
 128	<$0000> Marie joined the party！<$FFFE>
 129	Please wait！ it's me, Alfred！<$FFFE>
-130	I won't be fooled！ if you're the real<$FFFC>one, show me proof！<$FFFE>
+130	I won't be fooled！ if you're the<$FFFC>real one, show me proof！<$FFFE>
 131	Proof, huh…<$FFFE>
 132	・Show the family tree<$FFFE>
 133	・Mention Brenda's habit when drunk<$FFFE>
 134	・Show the treasure map<$FFFE>
-135	You think something like that'll make me<$FFFC>believe you？<$FFFE>
-136	Me, a mean drunk！ don't be ridiculous！<$FFFE>
-137	Sorry about that. for doubting you.<$FFFE>
+135	You think something like that'll<$FFFC>make me believe you？<$FFFE>
+136	Me, a mean drunk！ don't be<$FFFC>ridiculous！<$FFFE>
+137	Sorry about that. for doubting<$FFFC>you.<$FFFE>
 138	Wait, Brenda！<$FFFE>
-139	I won't be fooled！ if you're the real<$FFFC>one, show me proof！<$FFFE>
+139	I won't be fooled！ if you're the<$FFFC>real one, show me proof！<$FFFE>
 140	Proof, huh<$FFF8>…<$FFFE>
 141	・No memory, so no proof<$FFFE>
 142	・Talk about Gizarof<$FFFE>
 143	・Show off your trained body<$FFFE>
-144	You think that'll make me believe you？<$FFFE>
-145	Sorry about that. for doubting you.<$FFFE>
+144	You think that'll make me believe<$FFFC>you？<$FFFE>
+145	Sorry about that. for doubting<$FFFC>you.<$FFFE>
 146	Stripping off here, what are you<$FFFC>thinking！<$FFFE>
 147	Calm down！ it's me, Lanford.<$FFFE>
-148	I won't be fooled！ if you're the real<$FFFC>one, show me proof！<$FFFE>
+148	I won't be fooled！ if you're the<$FFFC>real one, show me proof！<$FFFE>
 149	Proof, huh<$FFF8>…<$FFFE>
 150	・Talk about a Federal noble's scandal<$FFFE>
 151	・Talk about the Three-Country Alliance<$FFFE>
 152	・Talk about the Goldry explosion incident<$FFFE>
-153	You think that'll make me believe you？<$FFFE>
-154	Sorry about that. for doubting you.<$FFFE>
-155	Sorry about that. for doubting you.<$FFFE>
+153	You think that'll make me believe<$FFFC>you？<$FFFE>
+154	Sorry about that. for doubting<$FFFC>you.<$FFFE>
+155	Sorry about that. for doubting<$FFFC>you.<$FFFE>
 156	<$0000> Brenda joined the party！<$FFFE>
 157	Please wait！ it's me, Alfred！<$FFFE>
-158	I won't be fooled！ if you say you're<$FFFC>real, show me proof！<$FFFE>
+158	I won't be fooled！ if you say<$FFFC>you're real, show me proof！<$FFFE>
 159	Proof, huh…<$FFFE>
 160	・Show the family tree<$FFFE>
 161	・Mention how selfish Clarett is<$FFFE>
 162	・Show the treasure map<$FFFE>
-163	<$FFF8>Hmm, <$FFF6>that's pretty thorough<$FFF8>… <$FFF6>maybe I'll<$FFFC>believe you？<$FFFE>
-164	I'm not THAT selfish all the time！<$FFFE>
-165	<$FFF8>Hmm… <$FFF6>now that you mention it, you did<$FFFC>have a paper like that<$FFF8>…<$FFFD><$FFF6>maybe I'll believe you？<$FFFE>
+163	<$FFF8>Hmm, <$FFF6>that's pretty thorough<$FFF8>…<$FFFC><$FFF6>maybe I'll believe you？<$FFFE>
+164	I'm not THAT selfish all the<$FFFC>time！<$FFFE>
+165	<$FFF8>Hmm… <$FFF6>now that you mention it,<$FFFC>you did have a paper like that<$FFF8>…<$FFFD><$FFF6>maybe I'll believe you？<$FFFE>
 166	Wait, Clarett！<$FFFE>
-167	I won't be fooled！ if you say you're<$FFFC>real, show me proof！<$FFFE>
+167	I won't be fooled！ if you say<$FFFC>you're real, show me proof！<$FFFE>
 168	Proof, huh<$FFF8>…<$FFFE>
 169	・No memory, so no proof<$FFFE>
 170	・Talk about Gilmore<$FFFE>
 171	・Show off your trained body<$FFFE>
-172	Even if you say that<$FFF8>… <$FFF6>but, maybe I'll<$FFFC>believe you？<$FFFE>
+172	Even if you say that<$FFF8>… <$FFF6>but, maybe<$FFFC>I'll believe you？<$FFFE>
 173	Sorry. you were the real one.<$FFFE>
-174	W-what！？ stripping in a place like this<$FFFC>makes you a pervert！<$FFFE>
+174	W-what！？ stripping in a place<$FFFC>like this makes you a pervert！<$FFFE>
 175	Calm down！ it's me, Lanford.<$FFFE>
-176	I won't be fooled！ if you say you're<$FFFC>real, show me proof！<$FFFE>
+176	I won't be fooled！ if you say<$FFFC>you're real, show me proof！<$FFFE>
 177	Proof, huh<$FFF8>…<$FFFE>
 178	・Talk about the Three-Country Alliance<$FFFE>
 179	・Gush about Emily<$FFFE>
@@ -186,9 +186,9 @@
 184	<$0000> Clarett joined the party！<$FFFE>
 185	Here we go, you impostors！<$FFFE>
 186	<$FB00><$002D>I won't die in a place like this…<$FFFE>
-187	I wonder why something like this is here<$FFF8>…<$FFFE>
+187	I wonder why something like<$FFFC>this is here<$FFF8>…<$FFFE>
 188	Mister. one Uminin, please.<$FFFE>
-189	Welcome. which one would you<$FFFC>like？<$FFFE>
+189	Welcome. which one would you like？<$FFFE>
 190	・Uminin Normal<$FFFE>
 191	・Immortal Uminin<$FFFE>
 192	・Uminin Attacker<$FFFE>
@@ -196,101 +196,101 @@
 194	One Uminin Normal, please.<$FFFE>
 195	One Immortal Uminin, please.<$FFFE>
 196	One Uminin Attacker, please.<$FFFE>
-197	One High-Speed Uminin, please.<$FFFE>
+197	One High-Speed Uminin,<$FFFC>please.<$FFFE>
 198	Too bad, but I'm out of money.<$FFFC>Uminin another time, then.<$FFFE>
 199	<$FB00><$004B>No… I lost…<$FFFE>
 200	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
 201	…<$FB00><$004D>Sorry…<$FFFE>
-202	If you're going to imitate, do<$FFFC>it properly！<$FFFE>
+202	If you're going to imitate, do it<$FFFC>properly！<$FFFE>
 203	<$FB00><$007B>Not yet… I can still fight…<$FFFE>
 204	<$FB00><$007C>Alfred！ Fall back for now！<$FFFE>
 205	<$FB00><$007D>But…<$FFFE>
 206	<$FB00><$007E>Trust your friends！<$FFFE>
 207	<$FB00><$007F>…Understood. I leave the rest to<$FFFC>you…<$FFFE>
 208	<$FB00><$0070>This is getting dicey…<$FFFE>
-209	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
-210	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+209	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+210	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 211	<$FB00><$005C>Ow！ You dare！<$FFFE>
-212	<$FB00><$005D>Clarett！ Don't push<$FFFC>yourself！<$FFFE>
+212	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 213	<$FB00><$005E>B-but…<$FFFE>
 214	<$FB00><$005F>Just fall back！<$FFFE>
 215	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
 216	Are you ready！<$FFFE>
-217	<$FB00><$008E>Ngh… that I should be<$FFFC>outdone…<$FFFE>
+217	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
 218	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
-219	<$FB00><$0090>A wound like this is a<$FFFC>scratch…<$FFFE>
-220	<$FB00><$0091>Don't push it！ Leave the rest<$FFFC>to us！<$FFFE>
+219	<$FB00><$0090>A wound like this is a scratch…<$FFFE>
+220	<$FB00><$0091>Don't push it！ Leave the rest to<$FFFC>us！<$FFFE>
 221	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
-222	This time for sure, I'll give it my all！<$FFFE>
+222	This time for sure, I'll give it<$FFFC>my all！<$FFFE>
 223	If I get beaten here, my pay…<$FFFE>
 224	What are you doing！<$FFFE>
-225	Why are you getting in my way～！！<$FFFE>
-226	Why are you getting in my way, des～！！<$FFFE>
-227	Why are you getting in my way, des～！！<$FFFE>
-228	NOOOOO！ what are you doing, little<$FFFC>girl！<$FFFE>
+225	Why are you getting in my<$FFFC>way～！！<$FFFE>
+226	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
+227	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
+228	NOOOOO！ what are you<$FFFC>doing, little girl！<$FFFE>
 229	NOOOOO！ that hurts, des！<$FFFE>
 230	NOOOOO！ that hurts, des！<$FFFE>
 231	H-huh？<$FFFE>
 232	Ow ow ow<$FFF8>…<$FFFE>
 233	What is the meaning of this？<$FFFE>
 234	What is the meaning of this？<$FFFE>
-235	Now what is the meaning of this？<$FFFE>
-236	I can't tell which one is which at all<$FFF8>…<$FFFE>
+235	Now what is the meaning of<$FFFC>this？<$FFFE>
+236	I can't tell which one is which at<$FFFC>all<$FFF8>…<$FFFE>
 237	That hurts～.<$FFFE>
 238	What are you doing！<$FFFE>
-239	Why are you getting in my way～！！<$FFFE>
-240	Why are you getting in my way, des～！！<$FFFE>
-241	Why are you getting in my way, des～！！<$FFFE>
-242	NOOOOO！ what are you doing, little<$FFFC>girl！<$FFFE>
+239	Why are you getting in my<$FFFC>way～！！<$FFFE>
+240	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
+241	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
+242	NOOOOO！ what are you<$FFFC>doing, little girl！<$FFFE>
 243	NOOOOO！ that hurts, des！<$FFFE>
 244	NOOOOO！ that hurts, des！<$FFFE>
 245	H-huh？<$FFFE>
 246	Ow ow ow<$FFF8>…<$FFFE>
 247	What is the meaning of this？<$FFFE>
 248	What is the meaning of this？<$FFFE>
-249	Now what is the meaning of this？<$FFFE>
-250	Nuuurgh… so I was caught off guard…<$FFFE>
-251	Baran has arrived！ well done seeing<$FFFC>through my disguise！ but that is where<$FFFC>your luck runs out！<$FFFD>today becomes the day you die<$00E4><$00E5><$00E6>！<$FFFE>
+249	Now what is the meaning of<$FFFC>this？<$FFFE>
+250	Nuuurgh… so I was caught off<$FFFC>guard…<$FFFE>
+251	Baran has arrived！ well done<$FFFC>seeing through my disguise！ but that is<$FFFC>where your luck runs out！<$FFFD>today becomes the day you die<$00E4><$00E5><$00E6>！<$FFFE>
 252	A-a splendid attack, des！<$FFFE>
 253	Adon has arrived！<$FFFE>
-254	Mmh～. guess we'll have to try other<$FFFC>girls, des.<$FFFE>
+254	Mmh～. guess we'll have to try<$FFFC>other girls, des.<$FFFE>
 255	I can still keep going, des！<$FFFE>
 256	Samson has arrived！<$FFFE>
 257	Niiice po～se, des…<$FFFE>
 258	G-greaaat, des…<$FFFE>
 259	To think I'd be defeated…<$FFFE>
-260	In the end, it wasn't treasure after all.<$FFFE>
-261	No, that gym itself is the treasure.<$FFFE>
-262	True. a well-trained body may well be a<$FFFC>man's true treasure.<$FFFE>
+260	In the end, it wasn't treasure<$FFFC>after all.<$FFFE>
+261	No, that gym itself is the<$FFFC>treasure.<$FFFE>
+262	True. a well-trained body may<$FFFC>well be a man's true treasure.<$FFFE>
 263	You think so？<$FFFE>
-264	At the very least, it beats a feeble body.<$FFFD>now then, shall we get going<$FFF8>…<$FFFE>
+264	At the very least, it beats a<$FFFC>feeble body.<$FFFD>now then, shall we get going<$FFF8>…<$FFFE>
 265	So you've come, impostor！<$FFFE>
-266	No matter how good your disguise, you<$FFFC>can't fool me！<$FFFE>
-267	A sloppy disguise like that is obvious！<$FFFE>
-268	With this, recruitment is a great success,<$FFFC>des！ now, let's go celebrate！<$FFFE>
-269	T-this wasn't supposed to happen<$FFF8>…<$FFFE>
-270	Now we've beaten all the impostors！<$FFFE>
-271	I won't give up the gym！ no matter what<$FFFC>happens！<$FFFE>
-272	Looks like we have no choice but to beat<$FFFC>them…<$FFFE>
+266	No matter how good your disguise,<$FFFC>you can't fool me！<$FFFE>
+267	A sloppy disguise like that is<$FFFC>obvious！<$FFFE>
+268	With this, recruitment is a<$FFFC>great success, des！ now, let's go<$FFFC>celebrate！<$FFFE>
+269	T-this wasn't supposed to<$FFFC>happen<$FFF8>…<$FFFE>
+270	Now we've beaten all the<$FFFC>impostors！<$FFFE>
+271	I won't give up the gym！ no<$FFFC>matter what happens！<$FFFE>
+272	Looks like we have no choice but<$FFFC>to beat them…<$FFFE>
 273	Victory condition changed！ <$0000> ・Wipe out<$FFFC>the brothers<$FFFE>
 274	・Wipe out the brothers<$FFFE>
-275	H-huh！？ sorry, I made a mistake！<$FFFE>
+275	H-huh！？ sorry, I made a<$FFFC>mistake！<$FFFE>
 276	Huh？ huh？<$FFFD>I'm sorry. I made a mistake～.<$FFFE>
 277	Here you go.<$FFFE>
-278	Who should I give this present to<$FFF8>…<$FFFE>
+278	Who should I give this present<$FFFC>to<$FFF8>…<$FFFE>
 279	・<$F600><$0000><$FFFE>
 280	・Alfred<$FFFE>
 281	・Brenda<$FFFE>
 282	・Another character<$FFFE>
-283	I wonder if <$F600><$0000> will be<$FFFC>happy.<$FFFE>
+283	I wonder if <$F600><$0000><$FFFC>will be happy.<$FFFE>
 284	Let's go with Alfred.<$FFFE>
-285	I hope it suits Brenda's taste<$FFF8>…<$FFFE>
-286	Who should I give this present to<$FFF8>…<$FFFE>
+285	I hope it suits Brenda's<$FFFC>taste<$FFF8>…<$FFFE>
+286	Who should I give this present<$FFFC>to<$FFF8>…<$FFFE>
 287	・Clarett<$FFFE>
 288	・Lanford<$FFFE>
 289	・Myself<$FFFE>
 290	・Another character<$FFFE>
-291	Clarett would probably be happy with it.<$FFFE>
-292	Lanford seems like a good choice.<$FFFE>
-293	Since I have the chance, keeping it myself<$FFFC>would be nice too.<$FFFE>
-294	Hm<$FFF8>…？ <$FFF6>it seems this is sold out. please<$FFFC>choose something else.<$FFFE><$FFFF>
+291	Clarett would probably be<$FFFC>happy with it.<$FFFE>
+292	Lanford seems like a good<$FFFC>choice.<$FFFE>
+293	Since I have the chance,<$FFFC>keeping it myself would be nice too.<$FFFE>
+294	Hm<$FFF8>…？ <$FFF6>it seems this is sold out.<$FFFC>please choose something else.<$FFFE><$FFFF>

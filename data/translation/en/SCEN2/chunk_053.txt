@@ -9,14 +9,14 @@
 7	Abandoned Village near Fizzit Port<$FFFF>
 8	<$FFF8>…<$FB00><$0003><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 9	<$FB00><$0004>What's wrong, Lambda？<$FFFE>
-10	<$FFF8>…<$FB00><$0005>This town<$FFF5><$FFF8>… <$FFF6><$FB00><$0006>I'm sure there was<$FFFC>a church just ahead<$FFF5><$FFF8>…<$FFFE>
+10	<$FFF8>…<$FB00><$0005>This town<$FFF5><$FFF8>… <$FFF6><$FB00><$0006>I'm sure there was a<$FFFC>church just ahead<$FFF5><$FFF8>…<$FFFE>
 11	<$FFF8>…<$FFF6><$FB00><$0007>Turn right ahead. There's a red<$FFFC>roofed house with two trees in front<$FFF5><$FFF8>…<$FFFE>
 12	<$FB00><$0008>A red-roofed house, two trees in<$FFFC>front. She's right.<$FFFE>
 13	<$FB00><$0009>A boy and a girl<$FFF5><$FFF8>… <$FFF6><$FB00><$000A>Marie caught her<$FFFC>doll on this tree, and the boy got it<$FFFC>down.<$FFFD><$FB00><$000B>Who was that girl？ Who was that boy？<$FFFE>
 14	<$FB00><$000C>Have you been to this town<$FFFC>before？<$FFFE>
-15	<$FB00><$000D>That can't be. We woke up in<$FFFC>that lab<$FFF5><$FFF8>… <$FFF6><$FB00><$000E>Could this town be in Lambda's<$FFFC>data？<$FFFE>
+15	<$FB00><$000D>That can't be. We woke up in that<$FFFC>lab<$FFF5><$FFF8>… <$FFF6><$FB00><$000E>Could this town be in Lambda's<$FFFC>data？<$FFFE>
 16	<$FB00><$000F>If so, why？<$FFFE>
-17	<$FB00><$0010>I don't know<$FFF5><$FFF8>… <$FE28><$FFFA><$FFF6><$FB00><$0011>It isn't data, but<$FFFC>I feel I know this place. Ah<$FFF5><$FFF7>…<$FFFE>
+17	<$FB00><$0010>I don't know<$FFF5><$FFF8>… <$FE28><$FFFA><$FFF6><$FB00><$0011>It isn't data, but I<$FFFC>feel I know this place. Ah<$FFF5><$FFF7>…<$FFFE>
 18	<$FB00><$0012>What is it about this portrait？<$FFFE>
 19	<$FB00><$0013>They do look like a warm family.<$FFFE>
 20	<$FB00><$0014>What happened, Lambda？<$FFFE>

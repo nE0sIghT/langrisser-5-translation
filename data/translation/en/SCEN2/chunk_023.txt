@@ -40,14 +40,14 @@
 38	<$FB00><$007C>Alfred！ Fall back for now！<$FFFE>
 39	<$FB00><$007D>But…<$FFFE>
 40	<$FB00><$007E>Trust your friends！<$FFFE>
-41	<$FB00><$007F>…Understood. I leave the rest<$FFFC>to you…<$FFFE>
+41	<$FB00><$007F>…Understood. I leave the rest to<$FFFC>you…<$FFFE>
 42	<$FB00><$0067>Here I go！<$FFFE>
 43	<$FB00><$0068>Come and get me！<$FFFE>
 44	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 45	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 46	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 47	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
-48	<$FB00><$006F>…I'll do that. Wouldn't want<$FFFC>to drag you down…<$FFFE>
+48	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 49	<$FB00><$0054>I won't lose！<$FFFE>
 50	<$FB00><$0055>Forgive me！<$FFFE>
 51	！！<$FFFE>
@@ -56,9 +56,9 @@
 54	<$FB00><$005E>B-but…<$FFFE>
 55	<$FB00><$005F>Just fall back！<$FFFE>
 56	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
-57	<$FB00><$0049>If I fall, you all fall with me…<$FFFC>Magitek giant！ Rampage to your heart's<$FFFC>content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all of you！<$FFFE>
-58	<$FB00><$0046>Im, impossible… How… could<$FFFC>I… lose…<$FFFE>
-59	<$FB00><$0047>This is your reward for trampling<$FFFC>your own people.<$FFFE>
+57	<$FB00><$0049>If I fall, you all fall with<$FFFC>me… Magitek giant！ Rampage to your<$FFFC>heart's content！<$FFFD><$FB00><$004A>Wahahahah！ Diiie, all of you！<$FFFE>
+58	<$FB00><$0046>Im, impossible… How… could I…<$FFFC>lose…<$FFFE>
+59	<$FB00><$0047>This is your reward for<$FFFC>trampling your own people.<$FFFE>
 60	<$FB00><$0048>D, damn it…<$FFFE>
 61	<$FB00><$0044>What！ The Magitek giant,<$FFFC>beaten<$FFF5><$FFF8>…！<$FFFE>
 62	<$FB00><$0045>You have nowhere left to run,<$FFFC>Gilmore！<$FFFE>
@@ -68,15 +68,15 @@
 66	N, no…<$FFFE>
 67	…U… ugh…<$FFFE>
 68	Curse it, what are you doing！<$FFFC>Finish them already！<$FFFE>
-69	Against this Magitek giant you won't last<$FFFC>a moment！<$FFFD>Go！ Magitek giant Galshok！<$FFFE>
+69	Against this Magitek giant you<$FFFC>won't last a moment！<$FFFD>Go！ Magitek giant Galshok！<$FFFE>
 70	‥‥VOOON‥‥<$FFFE>
 71	<$FB00><$0043>Taste the power of an ancient<$FFFC>weapon！<$FFFE>
 72	Whether Gilmore wins or loses is no<$FFFC>concern of mine. But I will not go on<$FFFC>losing to you！<$FFFD>I fight for my own pride！<$FFFE>
 73	<$FB00><$007F>This time will not go like the<$FFFC>others！<$FFFE>
-74	<$FB00><$0080>…Worthy… of the… royal<$FFFC>knights… ghah！<$FFFE>
+74	<$FB00><$0080>…Worthy… of the… royal knights…<$FFFC>ghah！<$FFFE>
 75	In the shadow of a sharp-pointed rock lay<$FFFC>a spear with an eerie glow.<$FFFD><$0000> <$FFF4>Bloody Lance<$FFF3> obtained！<$FFFE>
-76	<$FB00><$007D>Heh. We have your rear now.<$FFF5><$FFFC><$FB00><$007E>On the honor of the Kalxath Sky Corps, we<$FFFC>cannot lose to you！<$FFFE>
-77	…There is no place left for me to live…<$FFFE>
+76	<$FB00><$007D>Heh. We have your rear now.<$FFF5> <$FB00><$007E>On the<$FFFC>honor of the Kalxath Sky Corps, we cannot<$FFFC>lose to you！<$FFFE>
+77	…There is no place left for me to<$FFFC>live…<$FFFE>
 78	<$FFF8>…<$FFF6><$FB00><$004B>It's over.<$FFFE>
-79	<$FB00><$004C>Now Miss Clarett's ideal can<$FFFC>come true.<$FFFE>
+79	<$FB00><$004C>Now Miss Clarett's ideal can come<$FFFC>true.<$FFFE>
 80	<$FFF8>…<$FFF6><$FB00><$004D>Eric<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>Where is Eric<$FFF5><$FFF8>…<$FFFE><$FFFF>

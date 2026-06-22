@@ -15,8 +15,8 @@
 13	<$FB00><$0005>No, Lanford. To break the curse,<$FFFC>it could just as well be me.<$FFFE>
 14	<$FB00><$0006>Alfred, what are you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 15	<$FB00><$0007>I have no father and no brother<$FFFC>left. But you still have your father.<$FFFD><$FB00><$0008>If the curse breaks, you can be with Lord<$FFFC>Lambert again, can't you？<$FFFE>
-16	<$FB00><$0009>No, Alfred. Your house has<$FFFC>only you left now. You must rebuild it.<$FFFD><$FB00><$000A>And you're still young. Better it be me<$FFFC>who dies.<$FFFE>
-17	<$FB00><$000B>No, it will not be you either,<$FFFC>Lanford.<$FFFE>
+16	<$FB00><$0009>No, Alfred. Your house has only<$FFFC>you left now. You must rebuild it.<$FFFD><$FB00><$000A>And you're still young. Better it be me<$FFFC>who dies.<$FFFE>
+17	<$FB00><$000B>No, it will not be you either, Lanford.<$FFFE>
 18	<$FB00><$000C>F, father<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 19	<$FB00><$000D>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$000E>It's been a while, you two.<$FFFE>

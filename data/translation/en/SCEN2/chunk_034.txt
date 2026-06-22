@@ -14,89 +14,89 @@
 12	・Defeat Grove<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
 14	Demon Stronghold<$FFFF>
-15	<$FB00><$000A>So they have Langrisser.<$FFF5> <$FB00><$000B>Honestly,<$FFFC>because Grove's a fool, I have to get my<$FFFC>own hands dirty.<$FFFD><$FFF8>…<$FFF6><$FB00><$000C>No, this suits me better. I'll show them<$FFFC>the terror of the ultimate weapon！<$FFFE>
-16	<$FB00><$000D>Now, Pelia！ Bombard them！<$FFF5><$FFFC><$FB00><$000E>Erase them, Langrisser and all, without a<$FFFC>trace！<$FFFE>
-17	<$FB00><$000F>Magitek energy reactor online. Safety<$FFFC>released. Designate the target, please.<$FFFE>
-18	<$FFF8>…<$FFF7><$FB00><$0010>Heh heh heh！<$FFF5><$FFFC><$FFF6><$FB00><$0011>Farewell, Grove.<$FFF5> <$FB00><$0012>And you heirs of the<$FFFC>light！<$FFFE>
-19	Demon Temple, Near the<$FFFC>Entrance<$FFFF>
-20	<$FB00><$0013>The demon base is said to<$FFFC>be ahead, but<$FFF5><$FFF8>….<$FFFE>
+15	<$FB00><$000A>So they have Langrisser.<$FFF5><$FFFC><$FB00><$000B>Honestly, because Grove's a fool, I have<$FFFC>to get my own hands dirty.<$FFFD><$FFF8>…<$FFF6><$FB00><$000C>No, this suits me better. I'll show them<$FFFC>the terror of the ultimate weapon！<$FFFE>
+16	<$FB00><$000D>Now, Pelia！ Bombard them！<$FFF5> <$FB00><$000E>Erase<$FFFC>them, Langrisser and all, without a<$FFFC>trace！<$FFFE>
+17	<$FB00><$000F>Magitek energy reactor<$FFFC>online. Safety released. Designate the<$FFFC>target, please.<$FFFE>
+18	<$FFF8>…<$FFF7><$FB00><$0010>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0011>Farewell, Grove.<$FFF5><$FFFC><$FB00><$0012>And you heirs of the light！<$FFFE>
+19	Demon Temple, Near the Entrance<$FFFF>
+20	<$FB00><$0013>The demon base is said to be<$FFFC>ahead, but<$FFF5><$FFF8>….<$FFFE>
 21	<$FB00><$0014>I've been waiting<$FFF5><$FFF8>….<$FFFE>
-22	<$FB00><$0015>This time you won't escape.<$FFF5> <$FB00><$0016>For toying<$FFFC>with my friend's corpse, you'll pay！<$FFFE>
-23	<$FB00><$0017>Now, will it go so easily,<$FFFC>I wonder？<$FFFE>
+22	<$FB00><$0015>This time you won't escape.<$FFF5><$FFFC><$FB00><$0016>For toying with my friend's corpse, you'll<$FFFC>pay！<$FFFE>
+23	<$FB00><$0017>Now, will it go so easily, I<$FFFC>wonder？<$FFFE>
 24	<$FB00><$0018>What？ This sound<$FFF5><$FFF8>…？<$FFFE>
 25	<$FB00><$0019>The air is<$FFF5><$FFF8>…<$FFF6><$FB00><$001A>the mana is<$FFFC>stirring<$FFF5><$FFF8>….<$FFFE>
 26	<$FB00><$001B>That means！<$FFF5><$FFF7><$FFFE>
 27	<$FFF8>…<$FFF6><$FB00><$001C>A, alive<$FFF5>…<$FFF6><$FB00><$001D>we're alive<$FFF5><$FFF8>…？<$FFFE>
 28	<$FB00><$001E>As Lainforce said, it seems the<$FFFC>clouds keep the bombardment from striking<$FFFC>accurately.<$FFFE>
 29	<$FFF8><$FB00><$001F>Ugugu…！<$FFF5> <$FFF6><$FB00><$0020>Curse you, Gaiel！<$FFF5><$FFFC><$FB00><$0021>You tried to wipe me out along with them！<$FFFD><$FB00><$0022>Unforgivable！<$FFF5> <$FB00><$0023>Once I'm done here, I'll<$FFFC>work you as my slave for life！<$FFFD><$FB00><$0024>For that, you lot, hurry up and die！<$FFFE>
-30	<$FFF7><$FB00><$00B0>Hihihi！<$FFF5> <$FFF6><$FB00><$00B1>There are plenty<$FFFC>more corpses, you know？<$FFFE>
-31	<$FB00><$002F>Come out, my dear<$FFFC>corpses！<$FFFE>
+30	<$FFF7><$FB00><$00B0>Hihihi！<$FFF5> <$FFF6><$FB00><$00B1>There are plenty more<$FFFC>corpses, you know？<$FFFE>
+31	<$FB00><$002F>Come out, my dear corpses！<$FFFE>
 32	<$FB00><$0030>…U… uu….<$FFFE>
-33	<$FB00><$0031>I'll draw out your power<$FFFC>to the full.<$FFF5> <$FB00><$0032>Fight with everything！<$FFFE>
-34	<$FB00><$0025>I'm in no mood to enjoy<$FFFC>tormenting humans right now.<$FFF5> <$FB00><$0026>So I won't<$FFFC>hold back！<$FFF5> <$FB00><$0027>Now, die at once！<$FFFE>
+33	<$FB00><$0031>I'll draw out your power to the<$FFFC>full.<$FFF5> <$FB00><$0032>Fight with everything！<$FFFE>
+34	<$FB00><$0025>I'm in no mood to enjoy tormenting<$FFFC>humans right now.<$FFF5> <$FB00><$0026>So I won't hold back！<$FFF5><$FFFC><$FB00><$0027>Now, die at once！<$FFFE>
 35	<$FB00><$0028>Ah, the bridge？<$FFF5><$FFF7><$FFFE>
 36	<$FB00><$0029>The bridge！？<$FFF5><$FFF7><$FFFE>
 37	<$FB00><$002A>GAAAA！<$FFFE>
 38	<$FB00><$002B>Now, devour them！<$FFFE>
-39	<$FB00><$002C>Fighting it in the water<$FFFC>is dangerous.<$FFF5> <$FB00><$002D>Best lure it onto land<$FFFC>somehow<$FFF5>….<$FFFE>
-40	<$FB00><$0033>We've cornered you,<$FFFC>Grove！<$FFFE>
-41	<$FB00><$0034>I won't let you escape<$FFFC>now！<$FFFE>
+39	<$FB00><$002C>Fighting it in the water is<$FFFC>dangerous.<$FFF5> <$FB00><$002D>Best lure it onto land<$FFFC>somehow<$FFF5>….<$FFFE>
+40	<$FB00><$0033>We've cornered you, Grove！<$FFFE>
+41	<$FB00><$0034>I won't let you escape now！<$FFFE>
 42	<$FB00><$0035>What poor losers you are！<$FFFE>
 43	<$FB00><$0036>That's our line！<$FFFE>
 44	<$FB00><$0037>I'm in a foul mood right now.<$FFF5><$FFFC><$FB00><$0038>I'll turn your attack right back on you！<$FFFE>
 45	<$FB00><$0039>We'll see about that！<$FFFE>
-46	Stairs lead deep underground. Go<$FFFC>down？<$FFFE>
-47	Going down, you find a<$FFFC>rusted double door of metal. On it is<$FFFC>written <$FFF4>Come！ You who have mastered the<$FFFC>mightiest！<$FFF3>.<$FFFD>Open the door？<$FFFE>
-48	With a dull groan, the door<$FFFC>opened. Beyond is a wide cavern. Better to<$FFFC>explore it once the battle's done.<$FFFE>
+46	Stairs lead deep underground. Go down？<$FFFE>
+47	Going down, you find a rusted double door<$FFFC>of metal. On it is written <$FFF4>Come！ You who<$FFFC>have mastered the mightiest！<$FFF3>.<$FFFD>Open the door？<$FFFE>
+48	With a dull groan, the door opened. Beyond<$FFFC>is a wide cavern. Better to explore it<$FFFC>once the battle's done.<$FFFE>
 49	The door was heavy and would not open….<$FFFE>
 50	<$FB00><$003A>Not only destroying my people, but<$FFFC>plunging El Sallia into war.<$FFF5> <$FB00><$003B>You'll atone<$FFFC>for that crime！<$FFFE>
 51	<$FB00><$003C>I won't lose so easily！<$FFFE>
 52	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 53	<$FB00><$0048>Kh… but I can still go….<$FFFE>
-54	<$FB00><$0049>Marie！ Don't push it,<$FFFC>fall back！<$FFFE>
+54	<$FB00><$0049>Marie！ Don't push it, fall back！<$FFFE>
 55	<$FB00><$004A>…Please, don't lose….<$FFFE>
 56	<$FB00><$003F>I cannot forgive you. Prepare<$FFFC>yourself！<$FFFE>
-57	<$FB00><$0040>With that frail body, you<$FFFC>think you can beat me？<$FFFE>
+57	<$FB00><$0040>With that frail body, you think<$FFFC>you can beat me？<$FFFE>
 58	<$FB00><$007B>I can still… I can still fight…<$FFFE>
 59	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
 60	<$FB00><$007D>But…<$FFFE>
 61	<$FB00><$007E>Trust your comrades！<$FFFE>
-62	<$FB00><$007F>…Understood… The rest is<$FFFC>yours…<$FFFE>
+62	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
 63	<$FB00><$0070>This is getting dicey…<$FFFE>
-64	<$FB00><$0071>Fall back, Brenda！ Leave<$FFFC>the rest to me！<$FFFE>
-65	<$FB00><$0072>Sorry… I'll take you up on<$FFFC>that…<$FFFE>
+64	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+65	<$FB00><$0072>Sorry… I'll take you up on that…<$FFFE>
 66	<$FB00><$003D>For the many citizens, and for<$FFFC>my father, I'll have my revenge！<$FFFE>
-67	<$FB00><$003E>How unpleasant. Getting so<$FFFC>worked up<$FFF5><$FFF8>….<$FFFE>
+67	<$FB00><$003E>How unpleasant. Getting so worked<$FFFC>up<$FFF5><$FFF8>….<$FFFE>
 68	<$FB00><$005C>Ow！ Y, you！<$FFFE>
 69	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 70	<$FB00><$005E>B, but….<$FFFE>
 71	<$FB00><$005F>Enough, fall back！<$FFFE>
 72	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
-73	<$FB00><$0041>Those who disturb the rest of the<$FFFC>dead, I cannot let live！<$FFFE>
-74	<$FB00><$0042>I'll thank you not to<$FFFC>meddle in my hobby.<$FFFE>
+73	<$FB00><$0041>Those who disturb the rest of<$FFFC>the dead, I cannot let live！<$FFFE>
+74	<$FB00><$0042>I'll thank you not to meddle in my<$FFFC>hobby.<$FFFE>
 75	<$FB00><$008A>Lanford！<$FFFE>
-76	<$FB00><$008B>…I'm all right…. I won't leave<$FFFC>it all to you…<$FFFE>
+76	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
 77	<$FB00><$008C>Trust us！<$FFFE>
-78	<$FB00><$008D>…Comrades, eh. Then I'll<$FFFC>fall back.<$FFFE>
+78	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
 79	…Lord Chaos….<$FFFE>
 80	…GOOOO….<$FFFE>
 81	SYAAAAA！<$FFFE>
 82	…WOOOOO！<$FFFE>
 83	…GYAAAA！<$FFFE>
 84	…V, victory… to the demons！<$FFFE>
-85	…Curse… curse… curse… curse…<$FFFC>curse….<$FFFE>
+85	…Curse… curse… curse…<$FFFC>curse… curse….<$FFFE>
 86	…U… uu….<$FFFE>
-87	…I'll devour… your entrails….<$FFFE>
+87	…I'll devour… your<$FFFC>entrails….<$FFFE>
 88	<$FB00><$002E>Now, the final flourish.<$FFFE>
-89	<$FB00><$00AC>Now, you dead！ Lord Necro<$FFFC>Grove grants you life once more！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagujisoram！<$FFFE>
-90	<$FB00><$0047>Now, vent your grudge on<$FFFC>the humans to your heart's content！<$FFFE>
-91	<$FB00><$0043>I'll use you as a zombie<$FFFC>too！<$FFFE>
-92	<$FFF7><$FB00><$0044>Gwah！<$FFF5><$FFF8> …<$FFF6><$FB00><$0045>I… won't die…<$FFFC>I'll beat Gaiel… Gaiel I'll….<$FFF5> <$FFF7><$FB00><$0046>G,<$FFFC>geh！<$FFFE>
-93	<$FB00><$0047>This time he's really<$FFFC>dead.<$FFFE>
-94	<$FB00><$0048>Honestly, a persistent<$FFFC>one.<$FFFE>
-95	<$FFF8>…<$FFF6><$FB00><$0049>But there's no time to<$FFFC>relax.<$FFFE>
-96	True enough, but<$FFF8>…. <$FFF6>those stairs down<$FFFC>trouble me. I'm tempted to descend<$FFF8>….<$FFFE>
+89	<$FB00><$00AC>Now, you dead！ Lord Necro Grove<$FFFC>grants you life once more！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagujisoram！<$FFFE>
+90	<$FB00><$0047>Now, vent your grudge on the<$FFFC>humans to your heart's content！<$FFFE>
+91	<$FB00><$0043>I'll use you as a zombie too！<$FFFE>
+92	<$FFF7><$FB00><$0044>Gwah！<$FFF5><$FFF8> …<$FFF6><$FB00><$0045>I… won't die… I'll<$FFFC>beat Gaiel… Gaiel I'll….<$FFF5> <$FFF7><$FB00><$0046>G, geh！<$FFFE>
+93	<$FB00><$0047>This time he's really dead.<$FFFE>
+94	<$FB00><$0048>Honestly, a persistent one.<$FFFE>
+95	<$FFF8>…<$FFF6><$FB00><$0049>But there's no time to relax.<$FFFE>
+96	True enough, but<$FFF8>…. <$FFF6>those stairs<$FFFC>down trouble me. I'm tempted to<$FFFC>descend<$FFF8>….<$FFFE>
 97	Go underground？<$FFFE>
-98	Right！ Nothing ventured！ Let's go,<$FFFC>everyone！<$FFFE>
-99	Isn't it better to press on ahead？<$FFFE>
-100	<$FFF7><$FB00><$004A>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$004B>We must beat Gaiel<$FFFC>while the weather control holds.<$FFFD><$FB00><$004C>Let's go. Just a little more.<$FFFE>
+98	Right！ Nothing ventured！ Let's<$FFFC>go, everyone！<$FFFE>
+99	Isn't it better to press on<$FFFC>ahead？<$FFFE>
+100	<$FFF7><$FB00><$004A>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$004B>We must beat Gaiel while<$FFFC>the weather control holds.<$FFFD><$FB00><$004C>Let's go. Just a little more.<$FFFE>

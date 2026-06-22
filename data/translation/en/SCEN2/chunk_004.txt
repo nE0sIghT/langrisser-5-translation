@@ -16,14 +16,14 @@
 14	・<$F600><$0000> dies<$FFFC>・Wiler escapes<$FFFC>・Out of turns<$FFFE>
 15	Town of Knox・Center<$FFFF>
 16	<$FB00><$0003>This is a pretty large town.<$FFFE>
-17	<$FB00><$0004>Oh？ You didn't know？ This town grew<$FFFC>up in a mountain pass as a crossroads of<$FFFC>trade.<$FFFD><$FB00><$0005>Avoiding it means a long detour, so<$FFFC>everyone comes through here.<$FFFE>
-18	<$FB00><$0006>So where people gather, a town prospers,<$FFFC>eh.<$FFFE>
+17	<$FB00><$0004>Oh？ You didn't know？ This town<$FFFC>grew up in a mountain pass as a crossroads<$FFFC>of trade.<$FFFD><$FB00><$0005>Avoiding it means a long detour, so<$FFFC>everyone comes through here.<$FFFE>
+18	<$FB00><$0006>So where people gather, a town<$FFFC>prospers, eh.<$FFFE>
 19	<$FB00><$0007>Exactly.<$FFFE>
 20	<$FB00><$0008>No time for sightseeing. That<$FFFC>captain from before is after us.<$FFFE>
 21	<$FB00><$0009>Eeek！<$FFFE>
 22	<$FB00><$000A>You made a fool of me back there！<$FFFC>Now you'll see my true strength！<$FFFE>
 23	<$FB00><$000B>Persistent, isn't he.<$FFFE>
-24	<$FB00><$000C>We've no time for him. Let's<$FFFC>push straight through to the north gate.<$FFFE>
+24	<$FB00><$000C>We've no time for him. Let's push<$FFFC>straight through to the north gate.<$FFFE>
 25	<$FB00><$000D>Ah, someone seems to be there.<$FFFE>
 26	<$FB00><$000E>My, it's getting rather noisy<$FFFC>outside.<$FFFE>
 27	<$FB00><$000F>That man, he's with the Caconsis<$FFFC>army, if I recall<$FFF5><$FFF8>…<$FFFE>
@@ -33,7 +33,7 @@
 31	<$FFF8>…<$FFF6><$FB00><$0014>I suppose that's true.<$FFFE>
 32	<$FB00><$0037>This is taking too long. Let's<$FFFC>hurry.<$FFFE>
 33	<$FB00><$0038>Come to think of it, they said a<$FFFC>general was coming.<$FFFE>
-34	<$FB00><$0039>What are you doing？ You're<$FFFC>taking far too long.<$FFFE>
+34	<$FB00><$0039>What are you doing？ You're taking<$FFFC>far too long.<$FFFE>
 35	<$FB00><$002E>We must defeat the admiral and<$FFFC>escape the north gate, quickly <$FFF5><$FFF8>…<$FFFE>
 36	<$FB00><$002F>The north gate is close now.<$FFFE>
 37	<$FB00><$0030>You won't escape！<$FFFE>
@@ -43,23 +43,23 @@
 41	Lambda, Alfred, hurry up！<$FFFE>
 42	Both of you, hurry it up.<$FFFE>
 43	Both of you, hurry, hurry！<$FFFE>
-44	We're at the north gate, but…<$FFFC><$FFFB>The admiral still stands…<$FFFE>
+44	We're at the north gate, but… <$FFFB>The<$FFFC>admiral still stands…<$FFFE>
 45	We haven't beaten the admiral yet.<$FFFC>Did you forget？<$FFFE>
 46	Yeah, I know.<$FFFE>
-47	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF7>Huh？ Didn't you say we<$FFFC>were to defeat the admiral？<$FFFE>
+47	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF7>Huh？ Didn't you say we were<$FFFC>to defeat the admiral？<$FFFE>
 48	It's fine. I haven't forgotten.<$FFFE>
 49	Good. Then that's fine.<$FFFE>
 50	Whew<$FFF8>… <$FFF6>Thank goodness we're safe<$FFF8>…<$FFFE>
 51	W-we made it<$FFF8>…<$FFFE>
-52	It was so peaceful until now,<$FFFC>why<$FFF8>…<$FFFE>
+52	It was so peaceful until now, why<$FFF8>…<$FFFE>
 53	Huff, puff… I can't keep running<$FFFC>at full tilt<$FFF8>…<$FFFE>
-54	A scroll lies on top of a barrel.<$FFFC>Read it？<$FFFE>
+54	A scroll lies on top of a barrel. Read<$FFFC>it？<$FFFE>
 55	<$0000> Learned the spell <$FFF4>Attack 1<$FFF3>！<$FFFE>
 56	<$FB00><$001E>Admiral Wiler seems to be fleeing<$FFFC>for the north gate.<$FFFE>
-57	<$FB00><$001F>We're headed for the north gate anyway.<$FFFC>We'll catch him on the way.<$FFFE>
+57	<$FB00><$001F>We're headed for the north gate<$FFFC>anyway. We'll catch him on the way.<$FFFE>
 58	<$FB00><$0028>You think you can beat me！<$FFFE>
 59	<$FB00><$0029>What a loudmouth.<$FFFE>
-60	<$FB00><$002D>I won't die in a place like<$FFFC>this…<$FFFE>
+60	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 61	<$FB00><$0028>You think you can beat me！<$FFFE>
 62	<$FFF8>…<$FFF6><$FB00><$002A>What a noisy man.<$FFFE>
 63	<$FB00><$0039>It's getting too dangerous…I'll<$FFFC>be falling back first…<$FFFE>
@@ -86,25 +86,25 @@
 84	<$FB00><$0036>Whew, looks like he's finally<$FFFC>gone.<$FFFE>
 85	<$FB00><$0035>Seems the loudmouth is gone now.<$FFFE>
 86	…beaten by the likes of them…<$FFFE>
-87	…should never have come to this town…<$FFFE>
+87	…should never have come to this<$FFFC>town…<$FFFE>
 88	…Ad…miral…Wiler…<$FFFE>
-89	<$FB00><$0015>Fighting inside the town？ What<$FFFC>is the garrison captain here thinking？<$FFFE>
+89	<$FB00><$0015>Fighting inside the town？ What is<$FFFC>the garrison captain here thinking？<$FFFE>
 90	<$FB00><$0016>A man named Goldry, I believe.<$FFFD>Once a rough sellsword, favored by the<$FFFC>late king and made a regular, they say.<$FFFE>
 91	<$FFF8>…<$FFF6><$FB00><$0017>That explains a lot.<$FFFE>
-92	<$FB00><$0018>A self-centered man, notorious<$FFFC>in the army for finding excuses to refuse<$FFFC>deployment.<$FFFE>
+92	<$FB00><$0018>A self-centered man, notorious in<$FFFC>the army for finding excuses to refuse<$FFFC>deployment.<$FFFE>
 93	<$FB00><$0019>Honestly, and at a time when<$FFFC>Caconsis can least afford bad rumors…<$FFFE>
-94	<$FB00><$001A>Admiral, please escape through<$FFFC>the north gate.<$FFFD>General Selena will not return for some<$FFFC>time yet. Until then, I will hold them off<$FFFC>somehow.<$FFFE>
+94	<$FB00><$001A>Admiral, please escape through the<$FFFC>north gate.<$FFFD>General Selena will not return for some<$FFFC>time yet. Until then, I will hold them off<$FFFC>somehow.<$FFFE>
 95	<$FB00><$001B>There are townsfolk about. Take<$FFFC>every care that no harm comes to them.<$FFFE>
 96	<$FB00><$001C>Understood, sir. Now, Admiral,<$FFFC>hurry to the north gate.<$FFFE>
 97	<$FB00><$001D>Thank you.<$FFFE>
-98	Huff, puff… I knew I should have kept<$FFFC>myself in better shape <$FFF8>…<$FFFE>
+98	Huff, puff… I knew I should have<$FFFC>kept myself in better shape <$FFF8>…<$FFFE>
 99	Right. Full speed ahead！<$FFFE>
 100	<$FB00><$0021>Forgive me. If you weren't the<$FFFC>admiral of Caconsis, I'd want no part of<$FFFC>this.<$FFFE>
 101	<$FB00><$0022>Here I come, Admiral Wiler.<$FFFE>
 102	<$FB00><$0023>I don't really get it, but I'm<$FFFC>sorry！<$FFFE>
 103	<$FB00><$0024>Uwah！ I'm no match after all…<$FFFE>
 104	<$FB00><$0025>That's done it.<$FFFE>
-105	<$FB00><$0026>Honestly, what a weakling. And<$FFFC>he calls himself an admiral！<$FFFE>
+105	<$FB00><$0026>Honestly, what a weakling. And he<$FFFC>calls himself an admiral！<$FFFE>
 106	<$FB00><$0027>Now we just escape through the<$FFFC>north gate. Let's hurry.<$FFFE>
 107	Kh！<$FFFE>
 108	<$FB00><$002C>You shall go no farther！<$FFFE>
@@ -113,20 +113,20 @@
 111	<$FB00><$003A>Sir！ This is<$FFF5><$FFF8>…<$FFFE>
 112	<$FB00><$003B>General Selena, look！<$FFFE>
 113	<$FB00><$003C>General Selena！<$FFFE>
-114	<$FB00><$003D>Admiral Wiler！？ The admiral<$FFFC>is<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003E>Curse you！ You did this to him！？<$FFFC>Unforgivable！<$FFFE>
-115	<$FB00><$003F>Damn！ We're completely<$FFFC>surrounded <$FFF5><$FFF8>…<$FFFE>
+114	<$FB00><$003D>Admiral Wiler！？ The admiral is<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$003E>Curse you！ You did this to him！？<$FFFC>Unforgivable！<$FFFE>
+115	<$FB00><$003F>Damn！ We're completely surrounded<$FFFC><$FFF5><$FFF8>…<$FFFE>
 116	<$FB00><$0043>Now, let's leave this town at<$FFFC>once.<$FFFE>
 117	<$FB00><$0044>Right, let's leave this town at<$FFFC>once.<$FFFE>
 118	<$FB00><$0045>Agreed.<$FFFE>
-119	<$FB00><$0046>I understand that Caconsis is<$FFFC>our enemy. But who on earth were those<$FFFC>others<$FFF5><$FFF8>…？<$FFFE>
+119	<$FB00><$0046>I understand that Caconsis is our<$FFFC>enemy. But who on earth were those<$FFFC>others<$FFF5><$FFF8>…？<$FFFE>
 120	<$FB00><$0047>The ones who attacked the<$FFFC>laboratory？<$FFFE>
 121	<$FB00><$0048>Yeah.<$FFFE>
-122	<$FB00><$0049>You'll understand when we meet<$FFFC>the master. Let's hurry.<$FFFE>
+122	<$FB00><$0049>You'll understand when we meet the<$FFFC>master. Let's hurry.<$FFFE>
 123	Curse you！<$FFFE>
-124	So they've caught up<$FFF8>… <$FFF6>Nothing for it now<$FFFC>but to run flat out<$FFF8>…<$FFFE>
-125	I will hold them here！ Admiral, hurry, to<$FFFC>the north gate！<$FFFE>
+124	So they've caught up<$FFF8>… <$FFF6>Nothing for<$FFFC>it now but to run flat out<$FFF8>…<$FFFE>
+125	I will hold them here！ Admiral,<$FFFC>hurry, to the north gate！<$FFFE>
 126	S-sorry to leave it to you…<$FFFE>
 127	Kept you waiting.<$FFFE>
 128	<$FB00><$0065>Sorry to keep you waiting.<$FFFE>
 129	<$FB00><$0045>Whew, that was close.<$FFFE>
-130	<$FB00><$0052>Good. Looks like everyone has<$FFFC>made it out.<$FFFE><$FFFF>
+130	<$FB00><$0052>Good. Looks like everyone has made<$FFFC>it out.<$FFFE><$FFFF>

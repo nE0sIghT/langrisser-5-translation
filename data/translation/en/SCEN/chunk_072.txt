@@ -16,35 +16,35 @@
 14	C.Knights 8<$FFFF>
 15	C.Knights 9<$FFFF>
 16	Near the City of Valtar<$FFFF>
-17	<$FB00><$0003>Don't fear their numbers！ We have the<$FFFC>Magitek giant！<$FFFE>
+17	<$FB00><$0003>Don't fear their numbers！ We have<$FFFC>the Magitek giant！<$FFFE>
 18	<$FB00><$0004>VOOON！<$FFFE>
 19	<$FFF7><$FB00><$0005>Fire<$00E4><$00E6>！<$FFF5><$FFF8><$FFFE>
 20	<$FFF7><$FB00><$0006>Uwa<$00E4><$00E6>！<$FFFE>
 21	<$FB00><$0007>Lord Zero！ The enemy brought<$FFFC>out an ancient weapon！<$FFFE>
-22	<$FB00><$0008>Don't panic. The Crimzo<$FFFC>Landers, who until now avoided drawing<$FFFC>notice, have thrown such force at us. That<$FFFC>alone proves they have no fallback left.<$FFFE>
+22	<$FB00><$0008>Don't panic. The Crimzo Landers,<$FFFC>who until now avoided drawing notice, have<$FFFC>thrown such force at us. That alone proves<$FFFC>they have no fallback left.<$FFFE>
 23	<$FB00><$0009>But at this rate<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-24	<$FB00><$000A>We have our own preparations.<$FFFC>Bring out the thing.<$FFFE>
+24	<$FB00><$000A>We have our own preparations. Bring<$FFFC>out the thing.<$FFFE>
 25	<$FB00><$000B>Stop them whatever it takes！<$FFFE>
 26	<$FB00><$000C>What, what's happening？<$FFFE>
-27	<$FB00><$000D>You aren't the only ones<$FFFC>with an ancient weapon.<$FFFD><$FB00><$000E>Begin the attack.<$FFFE>
+27	<$FB00><$000D>You aren't the only ones with an<$FFFC>ancient weapon.<$FFFD><$FB00><$000E>Begin the attack.<$FFFE>
 28	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$000F>Impressive！ Until the girls<$FFFC>destroy the battleship, we cannot lose！<$FFFE>
-29	Valtar City, Underground<$FFFC>Dock<$FFFF>
-30	<$FB00><$0010>This is<$FFF5><$FFF7>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0011>I've never seen an airship<$FFFC>this huge！<$FFFE>
-31	<$FB00><$0012>This is the sky battleship<$FFFC>Lainforce is after.<$FFFD>In this age, one of these alone could<$FFFC>subjugate the surface. It could even reach<$FFFC>Crimzo<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+29	Valtar City, Underground Dock<$FFFF>
+30	<$FB00><$0010>This is<$FFF5><$FFF7>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0011>I've never seen<$FFFC>an airship this huge！<$FFFE>
+31	<$FB00><$0012>This is the sky battleship Lainforce<$FFFC>is after.<$FFFD>In this age, one of these alone could<$FFFC>subjugate the surface. It could even reach<$FFFC>Crimzo<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 32	<$FB00><$0013>True, it's dangerous if it falls<$FFFC>into Crimzonia's hands.<$FFFE>
-33	<$FB00><$0014>Now, while Virash holds off<$FFFC>the enemy, let's destroy it.<$FFFE>
+33	<$FB00><$0014>Now, while Virash holds off the<$FFFC>enemy, let's destroy it.<$FFFE>
 34	<$FFF7><$FB00><$0015>Yeah！<$FFF5><$FFF8><$FFFE>
 35	<$FB00><$0016>You'll come quietly<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 36	<$FB00><$0017>Who's there！？<$FFFE>
-37	<$FB00><$0018>Thanks for guiding us in. Crimzo<$FFFC>Landers, the lot of you.<$FFFE>
+37	<$FB00><$0018>Thanks for guiding us in.<$FFFC>Crimzo Landers, the lot of you.<$FFFE>
 38	<$FB00><$0019>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF8>…<$FE1E>…<$FE14><$FFF6><$FB00><$001A>To think you'd even field the<$FFFC>Crimzonian Knights<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 39	<$FB00><$001B>Don't underestimate Lord<$FFFC>Lainforce's foresight. That you'd plot to<$FFFC>destroy the battleship, he saw it all.<$FFFE>
-40	<$FB00><$001C>Well, now that we know how to get<$FFFC>in here, you've outlived your use. Die<$FFFC>here.<$FFFE>
-41	<$FB00><$001D>I'll return to the castle once.<$FFFC>The rest is yours.<$FFFE>
+40	<$FB00><$001C>Well, now that we know how to<$FFFC>get in here, you've outlived your use. Die<$FFFC>here.<$FFFE>
+41	<$FB00><$001D>I'll return to the castle<$FFFC>once. The rest is yours.<$FFFE>
 42	<$FFF7><$FB00><$001E>Haha.<$FFF5><$FFF8><$FFFE>
 43	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001F>Hey, these guys are<$FFF5><$FFF8>…<$FE14>…<$FE1E>？<$FFFE>
-44	<$FB00><$0020>An elite knight order of nine,<$FFFC>Eins through Neun, of Crimzonia.<$FFFD>That is the Crimzonian Knights. Each one a<$FFFC>match for a thousand<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+44	<$FB00><$0020>An elite knight order of nine, Eins<$FFFC>through Neun, of Crimzonia.<$FFFD>That is the Crimzonian Knights. Each one a<$FFFC>match for a thousand<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 45	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0021>Looks like this is as far as<$FFFC>we go<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-46	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0022>Boss, Virash<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0023>I'm<$FFFC>sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+46	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0022>Boss, Virash<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0023>I'm sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 47	<$0000>Having heard of the curse from<$FFFC>Masterson, the party made for Premier<$FFFC>Russel's manor. <$0000>They came to learn the<$FFFC>truth of the curse on Lanford's house.<$FFFD><$0000>But there, Russel's dreadful true nature<$FFFC>comes to light….<$FFFE>
 48	Victory terms<$FFFC><$0000><$FFFC>・Defeat Ferakia<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>

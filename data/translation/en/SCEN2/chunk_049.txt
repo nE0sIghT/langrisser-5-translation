@@ -7,7 +7,7 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	On the highway<$FFFF>
-8	<$FB00><$0003>Now we follow this road home. Ahh, I can't<$FFFC>wait to be back.<$FFFE>
+8	<$FB00><$0003>Now we follow this road home. Ahh,<$FFFC>I can't wait to be back.<$FFFE>
 9	<$FB00><$0004>You're in high spirits, Alfred.<$FFFE>
 10	<$FB00><$0005>Of course！ We've got the cure for<$FFFC>my father's fever. Now he'll be his old<$FFFC>self again.<$FFFD><$FB00><$0006>Once father's well, the three of us can go<$FFFC>hunting again with my brother.<$FFFE>
 11	<$FB00><$0007>You look truly happy.<$FFFE>

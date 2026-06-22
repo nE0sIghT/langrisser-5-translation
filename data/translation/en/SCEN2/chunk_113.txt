@@ -10,8 +10,8 @@
 8	Merc<$FFFF>
 9	Messenger<$FFFF>
 10	Crimzo Lander Camp<$FFFF>
-11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>Where on earth is it hiding？ There's<$FFFC>no doubt the demon with Alhazard has come<$FFFC>to Yeless<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-12	<$FB00><$0056>What'll we do, Virash？ While<$FFFC>the boss holds Lainforce off, we have to<$FFFC>seize Alhazard, right？<$FFFE>
+11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>Where on earth is it hiding？<$FFFC>There's no doubt the demon with Alhazard<$FFFC>has come to Yeless<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+12	<$FB00><$0056>What'll we do, Virash？ While the<$FFFC>boss holds Lainforce off, we have to seize<$FFFC>Alhazard, right？<$FFFE>
 13	<$FFF7><$FB00><$0057>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0058>We must recover it before<$FFFC>the demons notice the power sealed in<$FFFC>Alhazard…<$FFFE>
 14	<$FB00><$0059>Lord Virash, we have trouble！<$FFFE>
 15	<$FB00><$005A>What is it？<$FFFE>

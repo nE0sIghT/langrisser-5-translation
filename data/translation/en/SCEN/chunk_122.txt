@@ -14,10 +14,10 @@
 12	Lainforce<$FFFF>
 13	Before the Final Weapon Control Device<$FFFF>
 14	<$FB00><$0006>All that's left is to destroy this<$FFFC>moon<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-15	<$FFF8>…<$FFF6><$FB00><$0001>So I still couldn't beat<$FFFC>you<$FFF5><$FFF8>… <$FFF6><$FB00><$0002>If I came this far and still lost,<$FFFC>it feels almost clean. Fine, I acknowledge<$FFFC>you<$FFF5><$FFF8>…<$FFFE>
+15	<$FFF8>…<$FFF6><$FB00><$0001>So I still couldn't beat you<$FFF5><$FFF8>… <$FFF6><$FB00><$0002>If<$FFFC>I came this far and still lost, it feels<$FFFC>almost clean. Fine, I acknowledge you<$FFF5><$FFF8>…<$FFFE>
 16	<$FB00><$0003>Omega<$FFF5><$FFF8>…<$FFFE>
-17	<$FB00><$0004>Hurry and self-destruct<$FFFC>this moon or whatever<$FFF5><$FFF8>…<$FE28> <$FB00><$0005>You're out of<$FFFC>time, right？<$FFFE>
-18	<$FB00><$0007>Stop！<$FFF5><$FFF8><$FE14><$FE14> <$FFF6><$FB00><$0008>You've used your ability<$FFFC>once, right？ If you use it again<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FFFE>
+17	<$FB00><$0004>Hurry and self-destruct this moon<$FFFC>or whatever<$FFF5><$FFF8>…<$FE28> <$FB00><$0005>You're out of time,<$FFFC>right？<$FFFE>
+18	<$FB00><$0007>Stop！<$FFF5><$FFF8><$FE14><$FE14> <$FFF6><$FB00><$0008>You've used your<$FFFC>ability once, right？ If you use it<$FFFC>again<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FFFE>
 19	<$FB00><$0009>I know the risk.<$FFF5><$FFF8><$FE14><$FE14> <$FB00><$000A>And it doesn't<$FFFC>mean I'll definitely die<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 20	<$FB00><$000B>But<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 21	<$FB00><$000C>There is no time. I'm starting.<$FFFE>
@@ -29,24 +29,24 @@
 27	<$FB00><$0015>But if I don't do it, the<$FFFC>world<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 28	<$FB00><$0016>And instead, you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 29	<$FB00><$0017>It's all right.<$FFF5><$FFF8><$FE14><$FE14> <$FFF6><$FB00><$0018>I told you I'm<$FFFC>immortal, right？<$FFFE>
-30	<$FE00>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0019>I believe you.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FFF6><$FB00><$001A>You'd<$FFFC>better mean it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+30	<$FE00>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0019>I believe you.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FFF6><$FB00><$001A>You'd better<$FFFC>mean it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 31	<$FB00><$001B>I'm counting on you,<$FFFC>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFFA>…<$FE14><$FE14>…<$FE14><$FE14><$FFF7><$FB00><$001C>Haaaah<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFFE>
 32	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>
-33	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$001D>Is it no good<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$001E>Am<$FFFC>I really defective<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001F>Can I not do<$FFFC>it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-34	<$FB00><$0020>Idiot… quitting<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FE14><$FFFC><$FFF6><$FB00><$0021>You beat the complete specimen. You're not<$FFFC>defective…<$FFF5> <$FB00><$0022>I'll teach you…<$FFFD><$FB00><$0023>Sync our amplifiers and this is nothing…<$FFFE>
+33	…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$001D>Is it no good<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$001E>Am I<$FFFC>really defective<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001F>Can I not do it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+34	<$FB00><$0020>Idiot… quitting<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FE14> <$FFF6><$FB00><$0021>You beat<$FFFC>the complete specimen. You're not<$FFFC>defective…<$FFF5> <$FB00><$0022>I'll teach you…<$FFFD><$FB00><$0023>Sync our amplifiers and this is nothing…<$FFFE>
 35	<$FB00><$0024>Omega！ If you use your ability<$FFFC>with that wound<$FFF5><$FFF8>…<$FE14>…<$FE14>！<$FFFE>
-36	<$FB00><$0025>Idiot！ Don't worry about<$FFFC>me now！ Which matters more, me or the<$FFFC>world？ You came for that, didn't you！<$FFFE>
+36	<$FB00><$0025>Idiot！ Don't worry about me now！<$FFFC>Which matters more, me or the world？ You<$FFFC>came for that, didn't you！<$FFFE>
 37	<$FFFA><$FFF8>…<$FE14>…<$FE14>…<$FECE><$FFF6><$FB00><$0026>Understood.<$FFFE>
-38	<$FFF8><$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0027>I want to protect<$FFFC>it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+38	<$FFF8><$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0027>I want to protect it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 39	<$FFF8><$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0028>I want to save it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 40	<$FFF8><$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0029>Our world<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 41	<$FFF8><$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$002A>The oath to my father<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 42	<$FFFA><$FFF6><$FB00><$002B>Please… World Tree… lend us<$FFFC>strength<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 43	<$FFFA><$FB00><$002C>Everyone<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$002D>Give me all your<$FFFC>power, all your feelings<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF9><$FFF6><$FB00><$002E>Give them to<$FFFC>me！<$FFF5><$FFF7><$FFFE>
 44	<$FFF7><$FB00><$002F><$FFF4>U<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>h<$FE14>！<$FFF3><$FFFE>
-45	<$FB00><$0030>Warning. Pelia's self-destruct<$FFFC>device has activated. All humans inside,<$FFFC>evacuate to Crimzo at once.<$FFFD><$FB00><$0031>Repeating. Pelia's self-destruct device<$FFFC>has activated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FB00><$0030>Warning. Pelia's<$FFFC>self-destruct device has activated. All<$FFFC>humans inside, evacuate to Crimzo at<$FFFC>once.<$FFFD><$FB00><$0031>Repeating. Pelia's self-destruct device<$FFFC>has activated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 46	<$FB00><$0032>We did it！ We did it！<$FFFE>
-47	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0033>Yes, it seems we<$FFFC>succeeded. But we have no way to escape.<$FFFE>
+47	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0033>Yes, it seems we succeeded.<$FFFC>But we have no way to escape.<$FFFE>
 48	…<$FE14>…<$FE14>…<$FE14><$FB00><$0034>Helping<$FE14>…<$FE14>people<$FE14>…<$FE14>…<$FE14>isn't<$FE14>…<$FE14>bad<$FE14>…<$FE14>…<$FE14>guh！<$FFFE>
 49	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0035>Omega used his ability with<$FFFC>that wound<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 50	<$FB00><$0036>Marie, he is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
@@ -55,7 +55,7 @@
 53	<$FB00><$0038>It's all right, I won't be<$FFFC>lonely.<$FFF5><$FFF8> …<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0039>I'll join you soon. We swore<$FFFC>we'd always be together<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 54	<$FB00><$003A>Clarett, he is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 55	<$FFF8><$FFFA>……<$FFFE>
-56	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$003B>He won't open his<$FFFC>eyes<$FE14>…<$FE14>…<$FE14>.<$FE14> Don't tell me this is<$FE14>…<$FE14>…<$FE14>.<$FE14> No,<$FFFC>I won't accept this！<$FFFE>
+56	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$003B>He won't open his eyes<$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFC>Don't tell me this is<$FE14>…<$FE14>…<$FE14>.<$FE14> No, I won't<$FFFC>accept this！<$FFFE>
 57	<$FB00><$003C>Clarett<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 58	<$FB00><$003D>You said we were only just<$FFFC>beginning<$FE14>…<$FE14>…<$FE14>didn't you<$FE14>…<$FE14>…<$FE14>.<$FFFE>
 59	<$FB00><$003E>Brenda, he is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
@@ -70,35 +70,35 @@
 68	<$FB00><$0045>Virash！<$FFFE>
 69	<$FB00><$0047>Hurry！ If we're too slow, the<$FFFC>blast will catch us！<$FFFE>
 70	Inside Virash's Airship<$FFFF>
-71	<$FB00><$0048>Pelia is exploding！ Hold on, the shock<$FFFC>wave is coming！<$FFFE>
+71	<$FB00><$0048>Pelia is exploding！ Hold on, the<$FFFC>shock wave is coming！<$FFFE>
 72	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0049>Looks like we're saved<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 73	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0049>Looks like we're saved<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 74	<$FB00><$004A>Too soon to relax. The shock seems<$FFFC>to have corrupted the autopilot data. The<$FFFC>magitek reactor is safe, but…<$FFFE>
 75	<$FB00><$004B>Can you switch to manual control？<$FFFE>
-76	<$FB00><$004B>Can you switch to manual<$FFFC>control？<$FFFE>
-77	<$FB00><$004C>No good. The switch is broken<$FFFC>too.<$FFF5><$FFF8><$FE14><$FE14> <$FFF6><$FB00><$004D>Only comm data correction<$FFFC>remains<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+76	<$FB00><$004B>Can you switch to manual control？<$FFFE>
+77	<$FB00><$004C>No good. The switch is broken too.<$FFF5><$FFF8><$FE14><$FE14><$FFFC><$FFF6><$FB00><$004D>Only comm data correction remains<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 78	<$FB00><$004E>So we'll just keep flying straight<$FFFC>ahead<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-79	<$FFFA><$FB00><$004F>I'm sorry. I came to save you,<$FFFC>but only gave you false hope.<$FFFE>
+79	<$FFFA><$FB00><$004F>I'm sorry. I came to save you, but<$FFFC>only gave you false hope.<$FFFE>
 80	<$FFF8><$FFFA>……<$FFFE>
 81	<$FB00><$0050>You were magnificent. You<$FFFC>saved this world… It's all right. If you<$FFFC>die, I'll follow right away.<$FFFD><$FB00><$0051>We'll always be together… Only our<$FFFC>feelings will never die. Only our<$FFFC>feelings…<$FFFE>
 82	<$FB00><$0052>You promised we'd travel<$FFFC>together when we returned to the surface…<$FFFD><$FB00><$0053>And yet… and yet… …You left me behind…<$FFFE>
-83	<$FB00><$0054>Liar… You said you alone<$FFFC>wouldn't die… that you were immortal…<$FFFD><$FB00><$0055>You promised…<$FFFE>
+83	<$FB00><$0054>Liar… You said you alone wouldn't<$FFFC>die… that you were immortal…<$FFFD><$FB00><$0055>You promised…<$FFFE>
 84	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0056>Thank you for your work. You<$FFFC>saved the world.<$FFFE>
-85	Deep in <$F600><$0000>'s<$FFFC>Consciousness<$FFFF>
-86	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0057>What happened to everyone… to the<$FFFC>world<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$0058>Well, never mind. I did everything I<$FFFC>could. Not bad for an unfinished<$FFFC>specimen<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0059>I'm so tired<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+85	Deep in <$F600><$0000>'s Consciousness<$FFFF>
+86	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0057>What happened to everyone… to<$FFFC>the world<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$0058>Well, never mind. I did everything I<$FFFC>could. Not bad for an unfinished<$FFFC>specimen<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFFA>…<$FE14>…<$FE14><$FFF6><$FB00><$0059>I'm so tired<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 87	<$FB00><$005A>Do not give up.<$FFFE>
 88	<$FB00><$0068>You did well.<$FFFE>
 89	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$005B>Who is there<$FFF5><$FFF8><$FE14>…<$FE14>？<$FFFE>
-90	<$FB00><$005C>I am Sieghart. Or perhaps<$FFFC>to you I should call myself Langrisser.<$FFFE>
+90	<$FB00><$005C>I am Sieghart. Or perhaps to you<$FFFC>I should call myself Langrisser.<$FFFE>
 91	<$FB00><$005D>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-92	<$FB00><$005E>I spent long ages within<$FFFC>the sword, watching over this era.<$FFFE>
-93	<$FB00><$005F>I see<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFFA><$FFF6><$FB00><$0060>Your power<$FFFC>stopped Pelia.<$FFFE>
+92	<$FB00><$005E>I spent long ages within the<$FFFC>sword, watching over this era.<$FFFE>
+93	<$FB00><$005F>I see<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFFA><$FFF6><$FB00><$0060>Your power stopped<$FFFC>Pelia.<$FFFE>
 94	<$FB00><$0061>That is wrong. It was your<$FFFC>power.<$FFFD><$FB00><$0062>I can only gather people's feelings.<$FFFC>Without your power and their feelings, I<$FFFC>can do nothing.<$FFFE>
-95	<$FFFA><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0063>Either way is fine. If<$FFFC>this world<$FE14>…<$FE14>…<$FE14>if people's happiness was<$FFFC>protected<$FE14>…<$FE14>…<$FE14>.<$FE14> I'm tired<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFE>
+95	<$FFFA><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0063>Either way is fine. If this<$FFFC>world<$FE14>…<$FE14>…<$FE14>if people's happiness was<$FFFC>protected<$FE14>…<$FE14>…<$FE14>.<$FE14> I'm tired<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFE>
 96	<$FB00><$0064>You did protect people's<$FFFC>happiness. Now it is your turn to seize<$FFFC>your own.<$FFFE>
 97	<$FB00><$0065>Mine<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
-98	<$FB00><$0066>Can you not hear it？ Can<$FFFC>you not feel it？ Her feelings, her<$FFFC>love<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FE14><$FE14> <$FFF6><$FB00><$0067>Now, open your eyes！<$FFFE>
-99	<$FB00><$0069>Come, noble soul. Sleep<$FFFC>within me. And together we shall watch.<$FFFC>The future of this world you saved<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FE14><$FE14><$FFFE>
+98	<$FB00><$0066>Can you not hear it？ Can you<$FFFC>not feel it？ Her feelings, her love<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FE14><$FE14><$FFFC><$FFF6><$FB00><$0067>Now, open your eyes！<$FFFE>
+99	<$FB00><$0069>Come, noble soul. Sleep within<$FFFC>me. And together we shall watch. The<$FFFC>future of this world you saved<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FE14><$FE14><$FFFE>
 100	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$006A>Ah<$FFF5><$FFF8>…<$FE14>.<$FFFE>
 101	<$FB00><$006D>…U…ugh… Pelia…<$FFFE>
 102	……<$FB00><$006E>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because you<$FFFC>fought… the surface is safe！<$FFFE>
@@ -122,28 +122,28 @@
 120	……<$FB00><$007D>Idiot…<$FFFE>
 121	<$FB00><$007E>But how<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
 122	<$FB00><$007F>Langrisser did it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0080>Her feelings<$FFFC>gave me strength.<$FFFE>
-123	<$FB00><$0081>I see. No energy is stronger than<$FFFC>love.<$FFFE>
+123	<$FB00><$0081>I see. No energy is stronger<$FFFC>than love.<$FFFE>
 124	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0082>Perhaps this sword makes<$FFFC>miracles because people like him stand<$FFFC>behind them.<$FFFE>
 125	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0083>Farewell<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>
 126	<$FB00><$0084>What's happening？<$FFFE>
 127	<$FB00><$0085>Don't tell me the ship is going to<$FFFC>explode？<$FFFE>
-128	<$FB00><$0086>Wait<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0087>The autopilot is<$FFFC>working normally. The course is<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0088>the<$FFFC>surface！<$FFFE>
+128	<$FB00><$0086>Wait<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0087>The autopilot is working<$FFFC>normally. The course is<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0088>the surface！<$FFFE>
 129	<$FB00><$0089>But how<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
-130	<$FB00><$008A>I just used remote control to set<$FFFC>that ship's destination to the surface.<$FFFC>You should reach it even asleep.<$FFFE>
+130	<$FB00><$008A>I just used remote control to<$FFFC>set that ship's destination to the<$FFFC>surface. You should reach it even asleep.<$FFFE>
 131	<$FB00><$008B>Lain！<$FFFE>
 132	<$FB00><$008C>All of you did well.<$FFF5><$FFF8><$FE14><$FE14> <$FFF6><$FB00><$008D>Bringing<$FFFC>Crimzonia down to the surface was worth<$FFFC>it.<$FFFD><$FB00><$008E>From now on, I entrust my people to you. I<$FFFC>can leave Crimzonia in your hands without<$FFFC>fear.<$FFFE>
 133	<$FB00><$008F>What are you saying？<$FFFC>Entrust？<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-134	<$FB00><$0090>It seems Pelia's blast threw us<$FFFC>off course again.<$FFFE>
+134	<$FB00><$0090>It seems Pelia's blast threw<$FFFC>us off course again.<$FFFE>
 135	<$FB00><$0091>Then escape right now！<$FFFE>
 136	<$FB00><$0092>Unfortunately, the last ship<$FFFC>departed moments ago.<$FFFE>
 137	<$FB00><$0093>No<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 138	<$FB00><$0094>We finally could have lived<$FFFC>together happily！ And yet<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 139	<$FB00><$0095>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 140	<$FB00><$0096>You have done much for me.<$FFFC>There was more I wished to say, but the<$FFFC>transmission will soon fail.<$FFFE>
-141	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0097>Will we never meet<$FFFC>again？<$FFFE>
-142	<$FB00><$0098>This may be the last time<$FFFC>for you.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FFF6><$FB00><$0099>But after another 200 years, I<$FFFC>will return.<$FFFD><$FB00><$009A>Fortunately, our nearly spent mana has<$FFFC>been replenished.<$FFFD><$FB00><$009B>When I return, show me a peaceful world.<$FFF5><$FFF8><$FE14><$FE14><$FE14><$FFFC><$FFF6><$FB00><$009C>Until then, farewell<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+141	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0097>Will we never meet again？<$FFFE>
+142	<$FB00><$0098>This may be the last time for<$FFFC>you.<$FFF5><$FFF8><$FE14><$FE14><$FE14> <$FFF6><$FB00><$0099>But after another 200 years, I will<$FFFC>return.<$FFFD><$FB00><$009A>Fortunately, our nearly spent mana has<$FFFC>been replenished.<$FFFD><$FB00><$009B>When I return, show me a peaceful world.<$FFF5><$FFF8><$FE14><$FE14><$FE14><$FFFC><$FFF6><$FB00><$009C>Until then, farewell<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
 143	<$FB00><$009D>Lain！<$FFFE>
-144	<$FB00><$009E>Farewell, Lainforce.<$FFF5><$FFF8><$FFFC><$FFF6><$FB00><$009F>Until you return, I will not let the<$FFFC>surface's peace be broken.<$FFFE>
+144	<$FB00><$009E>Farewell, Lainforce.<$FFF5><$FFF8> <$FFF6><$FB00><$009F>Until you<$FFFC>return, I will not let the surface's peace<$FFFC>be broken.<$FFFE>
 145	<$FB00><$00A0>True.<$FFF5><$FFF8> <$FFF6><$FB00><$00A1>Hard times may lie<$FFFC>ahead.<$FFFE>
-146	<$FB00><$00A2>Now, let's go home！<$FFF5> <$FB00><$00A3>Back<$FFFC>to our planet！<$FFFE>
-147	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$00A4>This peace was finally<$FFFC>won on many sacrifices. We must protect it<$FFFC>at any cost<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FE14><$FE14> <$FFF6><$FB00><$00A5>For their sake<$FFFC>too<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>
+146	<$FB00><$00A2>Now, let's go home！<$FFF5> <$FB00><$00A3>Back to our<$FFFC>planet！<$FFFE>
+147	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$00A4>This peace was finally won<$FFFC>on many sacrifices. We must protect it at<$FFFC>any cost<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>.<$FE14><$FE14> <$FFF6><$FB00><$00A5>For their sake too<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14>.<$FFFE>

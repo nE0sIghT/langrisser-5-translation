@@ -11,14 +11,14 @@
 9	・Defeat all enemies<$FFFE>
 10	・<$F600><$0000> dies<$FFFE>
 11	Plains near Velzeria Castle<$FFFF>
-12	<$FB00><$0009>Hurry！ If the plan fails because we are<$FFFC>late, we could never apologize enough.<$FFFE>
+12	<$FB00><$0009>Hurry！ If the plan fails<$FFFC>because we are late, we could never<$FFFC>apologize enough.<$FFFE>
 13	<$FB00><$000A>But how much farther is it to<$FFFC>Velzeria？<$FFFE>
-14	<$FB00><$000B>About half a day. The scouts may be<$FFFC>engaging the enemy by now.<$FFFE>
+14	<$FB00><$000B>About half a day. The scouts may<$FFFC>be engaging the enemy by now.<$FFFE>
 15	<$FB00><$000C>Then all the more reason to<$FFFC>hurry<$FFF5><$FFF8>…<$FFF6><$FB00><$000D>Who's there！<$FFFE>
 16	<$FB00><$000E>Good. You noticed me.<$FFFE>
 17	<$FB00><$000F>Omega<$FFF5><$FFF8>…<$FFFE>
 18	<$FB00><$0010>So this is Omega？<$FFFE>
-19	<$FB00><$0011>Yes. He attacked my brother and<$FFFC>me, then sent us to Gizarof's lab.<$FFFE>
+19	<$FB00><$0011>Yes. He attacked my brother<$FFFC>and me, then sent us to Gizarof's lab.<$FFFE>
 20	<$FFF7><$FB00><$0012>Hoh<$FFF5><$FFF8>… <$FFF6><$FB00><$0013>Looks like you got your<$FFFC>memory back.<$FFFE>
 21	<$FB00><$0014>Because of you, my family<$FFF5><$FFF8>…<$FFFE>
 22	<$FB00><$0015>If you could not protect<$FFFC>yourselves, that is on you. And what good<$FFFC>is bringing it up now？<$FFFE>
@@ -26,7 +26,7 @@
 24	<$FB00><$0017>Isn't it obvious？ I came to<$FFFC>defeat you. So, did your memories come<$FFFC>back？<$FFFE>
 25	<$FFFA><$FFF8>…<$FFFE>
 26	<$FB00><$0018>From that face, not yet. But I<$FFFC>cannot wait forever. You and I are<$FFFC>enemies. That is enough, isn't it？<$FFFE>
-27	<$FB00><$0019>No matter what, you mean to fight<$FFFC>us.<$FFFE>
+27	<$FB00><$0019>No matter what, you mean to<$FFFC>fight us.<$FFFE>
 28	<$FB00><$002F>That's right.<$FFFE>
 29	<$FB00><$0047>Looks like we have no choice but<$FFFC>to fight.<$FFFE>
 30	<$FB00><$0023>You're wearing quite a fierce<$FFFC>face, Lambda.<$FFFE>
@@ -39,9 +39,9 @@
 37	・I'm sorry.<$FFFE>
 38	・If only I had stopped Omega…<$FFFE>
 39	・Forget it now.<$FFFE>
-40	To think I could not even remember that…<$FFFC>I am sorry, Marie.<$FFFE>
-41	…It's all right. More importantly, we<$FFFC>need to defeat the enemy before us！<$FFFE>
-42	If my old self had stopped him, you would<$FFFC>never have been modified…<$FFFE>
+40	To think I could not even remember<$FFFC>that… I am sorry, Marie.<$FFFE>
+41	…It's all right. More<$FFFC>importantly, we need to defeat the enemy<$FFFC>before us！<$FFFE>
+42	If my old self had stopped him,<$FFFC>you would never have been modified…<$FFFE>
 43	…It's all right. It is<$FFFC>already over now…<$FFFE>
 44	Then at least let me atone by<$FFFC>defeating Omega！<$FFFE>
 45	<$F600><$0000>‥‥。<$FFFE>
@@ -52,9 +52,9 @@
 50	<$FB00><$0029>Before, Lord Gizarof was watching,<$FFFC>so I couldn't. But now we are enemies. I<$FFFC>can beat you down without holding back！<$FFFE>
 51	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 52	<$FB00><$002A>Do you hate me？<$FFFE>
-53	<$FB00><$002B>After what happened to me, asking<$FFFC>me not to hate you is impossible.<$FFFE>
+53	<$FB00><$002B>After what happened to me,<$FFFC>asking me not to hate you is impossible.<$FFFE>
 54	<$FB00><$002C>Don't put it that way. You<$FFFC>siblings were just the right specimens<$FFFC>Lord Gizarof wanted.<$FFFD><$FB00><$002D>If I had not been ordered to abduct you,<$FFFC><$F600><$0000> might have attacked you<$FFFC>instead.<$FFFE>
-55	<$FB00><$002E>True. If I should hate anyone, it<$FFFC>is Gizarof.<$FFFE>
+55	<$FB00><$002E>True. If I should hate anyone,<$FFFC>it is Gizarof.<$FFFE>
 56	<$FB00><$002F>That's right.<$FFFE>
 57	<$FB00><$0030>But that does not mean I can<$FFFC>forgive you. Prepare yourself.<$FFFE>
 58	<$FB00><$0031>Fine. I'll take you on！<$FFFE>
@@ -62,13 +62,13 @@
 60	<$FB00><$0049>Marie！ Don't push yourself. Fall<$FFFC>back！<$FFFE>
 61	<$FB00><$004A>…Please, do not lose…<$FFFE>
 62	<$FB00><$0080>You all right, Alfred！<$FFFE>
-63	<$FB00><$0081>Sorry…the rest is up to<$FFFC>you…<$FFFE>
+63	<$FB00><$0081>Sorry…the rest is up to you…<$FFFE>
 64	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
-65	<$FB00><$001F>The enemy has many cavalry. If<$FFFC>we do not maneuver well, this will be<$FFFC>dangerous.<$FFFE>
+65	<$FB00><$001F>The enemy has many cavalry. If we<$FFFC>do not maneuver well, this will be<$FFFC>dangerous.<$FFFE>
 66	<$FB00><$0020>I know！<$FFFE>
 67	<$FB00><$0070>This is getting dicey…<$FFFE>
-68	<$FB00><$0071>Fall back, Brenda！ Leave the<$FFFC>rest to me！<$FFFE>
-69	<$FB00><$0072>Sorry…I'll take you up on<$FFFC>that…<$FFFE>
+68	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+69	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
 70	<$FB00><$0057>Kyah！<$FFFE>
 71	<$FB00><$0058>Clarett, are you all right！？<$FFFE>
 72	<$FB00><$0059>This may be too much…<$FFFE>
@@ -88,22 +88,22 @@
 86	<$FB00><$001B>What are you saying！ I dragged<$FFFC>everyone into this fight too.<$FFFE>
 87	<$FB00><$001C>That's right. We're comrades,<$FFFC>aren't we？<$FFFE>
 88	<$FB00><$001D>More importantly, let's defeat<$FFFC>them and move on！<$FFFE>
-89	<$FB00><$001E>Heh, easy for you to say.<$FFFC>Let's go！<$FFFE>
+89	<$FB00><$001E>Heh, easy for you to say. Let's<$FFFC>go！<$FFFE>
 90	<$FB00><$0037>Guh！<$FFFE>
 91	<$FB00><$0038>Lord Omega！<$FFFE>
-92	<$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but capturing<$FFFC>them alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
+92	<$FB00><$003A>If all I had to do was kill them,<$FFFC>this would be easy, but capturing them<$FFFC>alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
 93	<$FB00><$003C>Yes, sir！<$FFFE>
 94	<$FB00><$0039>Lord Omega！<$FFFE>
-95	<$FB00><$003A>If all I had to do was kill<$FFFC>them, this would be easy, but capturing<$FFFC>them alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
+95	<$FB00><$003A>If all I had to do was kill them,<$FFFC>this would be easy, but capturing them<$FFFC>alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
 96	<$FB00><$003D>Yes, sir！<$FFFE>
 97	<$FB00><$0037>Guh！<$FFFD><$FB00><$003A>If all I had to do was kill them, this<$FFFC>would be easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFE>
 98	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this rate,<$FFFC>another me would be far more useful.<$FFFE>
 99	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this rate,<$FFFC>another me would be far more useful.<$FFFE>
 100	<$FB00><$0032>You're late！<$FFFE>
-101	<$FB00><$0033>M-my apologies. The truth<$FFFC>is<$FFF5><$FFF7>…<$FFFE>
+101	<$FB00><$0033>M-my apologies. The truth is<$FFF5><$FFF7>…<$FFFE>
 102	<$FB00><$0032>You're late！<$FFFE>
-103	<$FB00><$0033>M-my apologies. The truth<$FFFC>is<$FFF5><$FFF7>…<$FFFE>
-104	<$FB00><$0034>Excuses later. Focus on<$FFFC>defeating these people now！<$FFFE>
+103	<$FB00><$0033>M-my apologies. The truth is<$FFF5><$FFF7>…<$FFFE>
+104	<$FB00><$0034>Excuses later. Focus on defeating<$FFFC>these people now！<$FFFE>
 105	<$FFF7><$FB00><$0035>Yes, sir！<$FFF5><$FFF6><$FFFE>
 106	<$FFF7><$FB00><$0035>Yes, sir！<$FFF5><$FFF6><$FFFE>
 107	！？<$FFFD>Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>

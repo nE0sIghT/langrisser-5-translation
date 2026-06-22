@@ -13,12 +13,12 @@
 11	Town of Knox・Entrance<$FFFF>
 12	<$FB00><$002B>Finally some open ground.<$FFFE>
 13	<$FB00><$002C>But there's no time to rest. We're<$FFFC>crossing through this town.<$FFFE>
-14	<$FB00><$002D>Hold on, Lambda. Something's going on over<$FFFC>there.<$FFFE>
-15	<$FB00><$002E>I'll make you regret crossing<$FFFC>me！<$FFFE>
+14	<$FB00><$002D>Hold on, Lambda. Something's going<$FFFC>on over there.<$FFFE>
+15	<$FB00><$002E>I'll make you regret crossing me！<$FFFE>
 16	<$FB00><$002F>Don't take me for some ordinary<$FFFC>girl！ I'll have you beaten in no time！<$FFFE>
-17	<$FB00><$0030>W-wait, Miss Clarett！ I'm<$FFFC>really no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here, the townsfolk<$FFFC>will get caught up in it！<$FFFE>
-18	<$FB00><$0032>Say what you like, but he means to<$FFFC>fight, you know？<$FFFE>
-19	<$FB00><$0033>Then at least take it outside<$FFFC>the town, all right？<$FFFE>
+17	<$FB00><$0030>W-wait, Miss Clarett！ I'm really<$FFFC>no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here, the townsfolk<$FFFC>will get caught up in it！<$FFFE>
+18	<$FB00><$0032>Say what you like, but he means<$FFFC>to fight, you know？<$FFFE>
+19	<$FB00><$0033>Then at least take it outside the<$FFFC>town, all right？<$FFFE>
 20	<$FB00><$0034>Fine, fine.<$FFFE>
 21	<$FB00><$0035>Why, you！ You won't get away！<$FFFE>
 22	<$FB00><$0036>Those are Caconsis troops. They<$FFFC>seem to be fighting some adventurers.<$FFFE>
@@ -27,7 +27,7 @@
 25	<$FB00><$0039>Then it's settled. Let's help<$FFFC>those two.<$FFFE>
 26	<$FB00><$003A>Understood.<$FFFE>
 27	<$FB00><$0047>See you around, Captain Dimwit！<$FFFE>
-28	<$FFF8><$FB00><$0048>Grrr… <$FFF5><$FFF6><$FB00><$0049>So be it, then I'll<$FFFC>butcher the rest of them instead！<$FFFE>
+28	<$FFF8><$FB00><$0048>Grrr… <$FFF5><$FFF6><$FB00><$0049>So be it, then I'll butcher<$FFFC>the rest of them instead！<$FFFE>
 29	<$FFF8>…<$FFF6><$FB00><$004A>Try it.<$FFFE>
 30	<$FB00><$004B>With trees this thick, horses<$FFFC>should lose their footing. If I can slip<$FFFC>away meanwhile<$FFF5><$FFF8>…<$FFFE>
 31	<$FB00><$004C>Hmph, how naive！<$FFFE>
@@ -55,11 +55,11 @@
 53	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 54	Before we fight, mind if I check<$FFFC>one thing？<$FFFE>
 55	What is it？<$FFFE>
-56	Do you remember <$FFF4>combat<$FFFC>affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
+56	Do you remember <$FFF4>combat affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
 57	Yeah, I remember. <$FFF4>Infantry beat<$FFFC>pikemen and lose to cavalry. <$FFF3>That sort of<$FFFC>thing.<$FFFE>
 58	As long as you know it, that's<$FFFC>fine.<$FFFE>
 59	No, I don't remember.<$FFFE>
-60	Then remember well what I'm<$FFFC>about to say. It's the most basic rule of<$FFFC>battle.<$FFFE>
+60	Then remember well what I'm about<$FFFC>to say. It's the most basic rule of<$FFFC>battle.<$FFFE>
 61	Every soldier has a <$FFF4>class type <$FFF3>,<$FFFC>each strong against some foes and weak to<$FFFC>others. The types work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to cavalry.<$FFFC>Pikemen beat cavalry but lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear no type,<$FFFC>but they lose when struck up close.<$FFFD>Fliers move far but defend poorly, only<$FFFC>archers make easy prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry, but<$FFFC>strong against the undead.<$FFF3><$FFFE>
 62	<$FFF4>Types <$FFF3>and <$FFF4>affinities<$FFF3>, huh…<$FFFE>
 63	Well？ Shall I explain it once<$FFFC>more？<$FFFE>
@@ -92,7 +92,7 @@
 90	Y-yes, sir. Understood.<$FFFD>But the girl, I fear catching her is<$FFFC>beyond us<$FFF8>…<$FFFE>
 91	<$FE14>I, <$FE14>I know that already！ Then<$FFFC>we'll catch the boy at least and shake him<$FFFC>down！<$FFFE>
 92	Wh-what do I do…<$FFFE>
-93	<$FB00><$005C>You there！ Stay out of my way！<$FFFC>Or else<$FFF5><$FFF8>…<$FFFE>
+93	<$FB00><$005C>You there！ Stay out of my way！ Or<$FFFC>else<$FFF5><$FFF8>…<$FFFE>
 94	<$FB00><$005D>Or else what？<$FFFE>
 95	<$FB00><$005E>I'll kill you！<$FFFE>
 96	<$FB00><$005F>Hmph. Just try it！<$FFFE>
@@ -109,28 +109,28 @@
 107	<$FB00><$006C>Oh, it was nothing<$FFF5><$FFF8>…<$FFFE>
 108	<$FB00><$006D>Um, what will you two do now？<$FFFE>
 109	<$FB00><$006E>Why do you ask？<$FFFE>
-110	<$FB00><$006F>If it's all right, could I<$FFFC>travel with you, even part of the way？<$FFFD>If something like this happens again, on<$FFFC>my own I<$FFF5><$FFF8>…<$FFFE>
+110	<$FB00><$006F>If it's all right, could I travel<$FFFC>with you, even part of the way？<$FFFD>If something like this happens again, on<$FFFC>my own I<$FFF5><$FFF8>…<$FFFE>
 111	<$FB00><$0070>You mean you want to hire us？<$FFFE>
 112	<$FB00><$0071>I have money. So<$FFF5><$FFF8>…<$FFFE>
-113	<$FB00><$0072>Sorry, but we are not<$FFFC>mercenaries.<$FFFE>
+113	<$FB00><$0072>Sorry, but we are not mercenaries.<$FFFE>
 114	<$FB00><$0073>No way…<$FFFE>
 115	<$FB00><$0074>Come on, Lambda. Better than<$FFFC>traveling on our own, no？<$FFFD>And there's the matter of combat<$FFFC>affinities, too.<$FFFE>
-116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist that much, I<$FFFC>won't object.<$FFFE>
+116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist that much, I won't<$FFFC>object.<$FFFE>
 117	<$FB00><$0076>Thank you so much. My name is<$FFFC>Alfred.<$FFFE>
 118	<$FB00><$0077>I'm <$F600><$0000>.<$FFFE>
 119	<$FB00><$0078>Lambda.<$FFFE>
 120	<$FB00><$0079>It isn't much, but here's the<$FFFC>money. I'll pay the rest once we reach my<$FFFC>home<$FFF5><$FFF8>…<$FFFE>
 121	<$FB00><$007A>No charge. It's fine.<$FFFE>
-122	<$FB00><$007B>But then I'd feel terrible！<$FFFC>Please take at least this much.<$FFFE>
+122	<$FB00><$007B>But then I'd feel terrible！ Please<$FFFC>take at least this much.<$FFFE>
 123	Alfred joined the party！<$FFFE>
 124	<$0000> Got 350P gold！<$FFFE>
 125	<$0000> Got 450P gold！<$FFFE>
 126	<$0000> Got a token sum of gold！<$FFFE>
 127	<$FB00><$007C>Well then, shall we go？<$FFFE>
-128	<$FB00><$007D>We're cutting through this<$FFFC>town？<$FFFE>
+128	<$FB00><$007D>We're cutting through this town？<$FFFE>
 129	<$FB00><$007E>That's right. Going around it<$FFFC>would take us far out of our way.<$FFFE>
 130	<$FB00><$007F>Then let's hurry.<$FFFE>
-131	…if I hadn't served such a captain…I<$FFFC>might have lived longer…<$FFFE>
+131	…if I hadn't served such a<$FFFC>captain…I might have lived longer…<$FFFE>
 132	Im…impossible…<$FFFE>
 133	A scrap of cloth peeks out from a hole in<$FFFC>the ground.<$FFFD>As you watch, it slowly slips inside.<$FFFC>…What will you do？<$FFFE>
 134	・Yank it hard<$FFFE>

@@ -22,8 +22,8 @@
 20	Where did everyone go<$FFF8>…<$FFFE>
 21	It seems a reckless challenger has<$FFFC>arrived.<$FFFE>
 22	You're Grove！<$FFFE>
-23	This is the sanctuary where you battle the<$FFFC>strongest foes. Your comrades are<$FFFC>somewhere inside this room.<$FFFE>
-24	However, not only your allies but enemies<$FFFC>lurk within the room.<$FFFE>
+23	This is the sanctuary where you<$FFFC>battle the strongest foes. Your comrades<$FFFC>are somewhere inside this room.<$FFFE>
+24	However, not only your allies<$FFFC>but enemies lurk within the room.<$FFFE>
 25	This won't be easy to clear.<$FFFE>
 26	Naturally.<$FFFD>And on this stage, your prize depends on<$FFFC>how fast you clear it. Let me tell you the<$FFFC>prizes you can win.<$FFFE>
 27	・Within 10T<$0000>→<$0000>Assault Suit<$FFFC>・11T<$0000><$0000><$0000>→<$0000>Skill:Healing<$FFFE>
@@ -50,7 +50,7 @@
 48	・20T<$0000><$0000><$0000>→<$0000>Blood Pact<$FFFC>・21T+<$0000>→<$0000>Sonic Band<$FFFE>
 49	・20T<$0000><$0000><$0000>→<$0000>Aeneas Mail<$FFFC>・21T+<$0000>→<$0000>Angel Feather<$FFFE>
 50	・20T<$0000><$0000><$0000>→<$0000>Aeneas Mail<$FFFC>・21T+<$0000>→<$0000>Sonic Band<$FFFE>
-51	Those are the prizes. Now then, are you<$FFFC>ready？<$FFFE>
+51	Those are the prizes. Now<$FFFC>then, are you ready？<$FFFE>
 52	Any time you like.<$FFFE>
 53	Inside the box are four smaller boxes.<$FFFC>Each box is labeled <$FFF4>Dash<$FFF3>, <$FFF4>Ston 4<$FFF3>,<$FFFC><$FFF4>Antidote<$FFF3>, <$FFF4>Magic user<$FFF3>.<$FFFD>Will you open one？<$FFFE>
 54	Which box will you open？<$FFFE>
@@ -63,11 +63,11 @@
 61	<$0000> Learned the Antidote skill！<$FFFE>
 62	<$0000> Learned the Magic user skill！<$FFFE>
 63	With a click, the other boxes would no<$FFFC>longer open…<$FFFE>
-64	For now, you left them as they were…<$FFFE>
+64	For now, you left them as they<$FFFC>were…<$FFFE>
 65	The treasure chest was empty！<$FFFE>
 66	<$0000> Got the Megingjord！<$FFFE>
 67	The treasure chest was empty！<$FFFE>
-68	Now all that's left is to wipe out the<$FFFC>enemy！ Let's go！<$FFFE>
+68	Now all that's left is to wipe out<$FFFC>the enemy！ Let's go！<$FFFE>
 69	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 70	<$FB00><$004B>No… I lost…<$FFFE>
 71	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
@@ -76,34 +76,34 @@
 74	<$FB00><$007C>Alfred！ Fall back for now！<$FFFE>
 75	<$FB00><$007D>But…<$FFFE>
 76	<$FB00><$007E>Trust your friends！<$FFFE>
-77	<$FB00><$007F>…Understood. I leave the rest<$FFFC>to you…<$FFFE>
+77	<$FB00><$007F>…Understood. I leave the rest to<$FFFC>you…<$FFFE>
 78	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 79	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 80	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
-81	<$FB00><$006E>Fall back, Brenda！ Don't push it！<$FFFE>
-82	<$FB00><$006F>…I'll do that. Wouldn't want to drag you<$FFFC>down…<$FFFE>
+81	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
+82	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 83	<$FB00><$005C>Ow！ You dare！<$FFFE>
 84	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
 85	<$FB00><$005E>B-but…<$FFFE>
 86	<$FB00><$005F>Just fall back！<$FFFE>
-87	<$FB00><$0060>Sorry, at such an important time…<$FFFE>
+87	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
 88	<$FB00><$008A>Lanford！<$FFFE>
-89	<$FB00><$008B>…I'm all right…. I won't leave it all<$FFFC>to you…<$FFFE>
+89	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
 90	<$FB00><$008C>Trust us！<$FFFE>
-91	<$FB00><$008D>…Comrades, eh. Then I'll fall back.<$FFFE>
+91	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
 92	<$FFF8>…<$FFF6><$FB00><$0036>Uu<$FFF5><$FFF8>….<$FFFE>
 93	<$FB00><$0037>Did we get him！<$FFFE>
 94	<$FFF7><$FB00><$0053>Ugyaah！<$FFFE>
-95	What a bothersome bunch. But I won't go<$FFFC>down so easily！<$FFFE>
-96	…Self-repair circuit… stopped…<$FFFC>…functions… declining… …func…<$FFFC>de…cline… …fun… de…<$FFFE>
-97	<$FFF8>…<$FFF6><$FB00><$003A>I'll be waiting…in hell…a step ahead<$FFFC>of you<$FFF5><$FFF8>…<$FFFE>
+95	What a bothersome bunch. But I<$FFFC>won't go down so easily！<$FFFE>
+96	…Self-repair circuit…<$FFFC>stopped… …functions… declining…<$FFFC>…func… de…cline… …fun… de…<$FFFE>
+97	<$FFF8>…<$FFF6><$FB00><$003A>I'll be waiting…in hell…a<$FFFC>step ahead of you<$FFF5><$FFF8>…<$FFFE>
 98	<$0000> Got Alhazard！<$FFFE>
-99	<$FB00><$0085>…<$FE1E>…<$FE1E>I, impossible… to mere humans… that<$FFFC>I<$FFF5><$FFF8>…<$FE14>…<$FFFE>
-100	<$FB00><$003C>Guoh！ <$FFF5><$FFF8>…<$FFF6><$FB00><$003D>Impossible, me of all people<$FFF5><$FFF8>…<$FFFE>
-101	<$FB00><$00B1>Ngh, guh！ …Why…？ Does the degree of<$FFFC>my modification mean nothing<$FFF5><$FFF8>…<$FFFE>
-102	<$FB00><$0081>D, damn… I won't give up… I will… take<$FFFC>this world… in my…<$FFFE>
-103	<$FB00><$0046>Im, impossible… How… could<$FFFC>I… lose…<$FFFE>
-104	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To think that I<$FFFC>could lose…<$FFFE>
+99	<$FB00><$0085>…<$FE1E>…<$FE1E>I, impossible… to mere<$FFFC>humans… that I<$FFF5><$FFF8>…<$FE14>…<$FFFE>
+100	<$FB00><$003C>Guoh！ <$FFF5><$FFF8>…<$FFF6><$FB00><$003D>Impossible, me of all<$FFFC>people<$FFF5><$FFF8>…<$FFFE>
+101	<$FB00><$00B1>Ngh, guh！ …Why…？ Does the<$FFFC>degree of my modification mean nothing<$FFF5><$FFF8>…<$FFFE>
+102	<$FB00><$0081>D, damn… I won't give up… I<$FFFC>will… take this world… in my…<$FFFE>
+103	<$FB00><$0046>Im, impossible… How… could I…<$FFFC>lose…<$FFFE>
+104	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To think that I could<$FFFC>lose…<$FFFE>
 105	A voice came from nowhere…<$FFFD>Well cleared. Let me grant you a<$FFFC>blessing…<$FFFE>
 106	<$0000> Got Sonic Band！<$FFFE>
 107	<$0000> Got Angel Feather！<$FFFE>
@@ -151,7 +151,7 @@
 149	<$0000> Got Assault Suit！<$FFFE>
 150	Thank you. You saved me.<$FFFE>
 151	Phew<$FFF8>… <$FFF6>I'm saved<$FFF8>…<$FFFE>
-152	Now it's our turn to repay the favor！<$FFFE>
-153	All right, let's give it our all！<$FFFE>
+152	Now it's our turn to repay the<$FFFC>favor！<$FFFE>
+153	All right, let's give it our<$FFFC>all！<$FFFE>
 154	Sorry, I fell behind.<$FFFE>
 155	<$FB00><$00AC>Come, dead ones！ Necro Grove<$FFFC>grants you life again！<$FFFD><$FB00><$00AD>Mihari Kushizekiki Hagushisoram！<$FFFE>

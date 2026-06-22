@@ -11,9 +11,9 @@
 9	Eric<$FFFF>
 10	Estor<$FFFF>
 11	Salrath camp<$FFFF>
-12	<$FB00><$005A>Looks like enemy command is confused.<$FFFC>Their units are not coordinating.<$FFFE>
+12	<$FB00><$005A>Looks like enemy command is<$FFFC>confused. Their units are not<$FFFC>coordinating.<$FFFE>
 13	<$FB00><$005B>That is why we can hold out…<$FFFE>
-14	<$FB00><$005C>Most likely the princess attacked<$FFFC>enemy HQ, so orders stopped.<$FFFE>
+14	<$FB00><$005C>Most likely the princess<$FFFC>attacked enemy HQ, so orders stopped.<$FFFE>
 15	<$FB00><$005D>Lord Lenard！ Princess Clarett<$FFFC>raided enemy HQ and defeated the<$FFFC>commander！<$FFFE>
 16	<$FB00><$005E>What！？<$FFFE>
 17	<$FB00><$005F>HQ is almost destroyed. Their<$FFFC>command is cut, and they cannot move in<$FFFC>order.<$FFFE>
@@ -25,13 +25,13 @@
 23	<$FB00><$0065>With Lady Clarett's noble ideal<$FFFC>and her comrades' action, revolution will<$FFFC>succeed.<$FFFD><$FB00><$0066>Listen, for the people's future, we must<$FFFC>not lose！<$FFFE>
 24	<$FFF7><$FB00><$0067>Yes sir！<$FFF5><$FFF8><$FFFE>
 25	On the Flying Ship to Estor<$FFFF>
-26	<$FB00><$0068>Eric！ How was everyone in Salrath？<$FFFE>
+26	<$FB00><$0068>Eric！ How was everyone in<$FFFC>Salrath？<$FFFE>
 27	<$FB00><$0069>All troops escaped.<$FFFE>
 28	<$FB00><$006A>That desperate fight paid off.<$FFFE>
 29	<$FB00><$006B>Good thing we made it.<$FFFE>
 30	<$FB00><$006C>Thank you, Brenda. You saved us.<$FFFE>
 31	<$FB00><$006D>This flying ship is amazing.<$FFFE>
-32	<$FB00><$006E>This ship is just a small<$FFFC>courier craft, nothing special.<$FFFD><$FB00><$006F>Long ago there were sky battleships far<$FFFC>larger than this, with weapons too.<$FFFE>
+32	<$FB00><$006E>This ship is just a small courier<$FFFC>craft, nothing special.<$FFFD><$FB00><$006F>Long ago there were sky battleships far<$FFFC>larger than this, with weapons too.<$FFFE>
 33	<$FB00><$0070>Sky battleships？<$FFFE>
 34	<$FB00><$0071>I guess, battleships that could<$FFFC>travel from this star to the moon.<$FFFE>
 35	<$FFF7><$FB00><$0072>Wow… <$FFF5><$FFF8><$FFF6><$FB00><$0073>What was the ancient magic<$FFFC>world like？ I cannot imagine.<$FFFE>
@@ -52,7 +52,7 @@
 50	Wouldn't sooner be better？<$FFFE>
 51	<$FFF4>We are going！！ <$FFF3><$FFFB><$FFF4>Right！？<$FFF3><$FFFE>
 52	<$FFFA>If you say so, I don't mind <$FFF8>…<$FFFE>
-53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！ Then let's go to<$FFFC>the karaoke place！！<$FFFE>
+53	Yay<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！ Then let's<$FFFC>go to the karaoke place！！<$FFFE>
 54	Is this really all right<$FFF8>…<$FFFE>
 55	Estor Temple<$FFFF>
 56	<$FFF8>…<$FFF6><$FB00><$007B>Indeed, I admire your ideals.<$FFFE>

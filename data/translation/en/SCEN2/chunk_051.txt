@@ -11,7 +11,7 @@
 9	Lanford<$FFFF>
 10	McClaine<$FFFF>
 11	At the Dark Altar<$FFFF>
-12	<$FB00><$0003>This is the place？ No one is here.<$FFFE>
+12	<$FB00><$0003>This is the place？ No one is<$FFFC>here.<$FFFE>
 13	<$FB00><$0004>Strong magic lingers here.<$FFFE>
 14	<$FB00><$0005>Then this is it？<$FFFE>
 15	<$FB00><$0006>Then only one answer<$FFF5><$FFF8>…<$FFFE>

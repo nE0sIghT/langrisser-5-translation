@@ -10,9 +10,9 @@
 8	In the mountains<$FFFF>
 9	<$FB00><$0003>Those two. Gizarof's trump cards.<$FFFE>
 10	<$FB00><$0004>What can they do, I wonder<$FFF5>…<$FFFE>
-11	<$FB00><$0005>No telling. But if the trump<$FFFC>cards are out, a losing Gizarof may yet<$FFFC>turn this around.<$FFFD><$FB00><$0006>Not that we care who wins. But I'd rather<$FFFC>the Regenburg and Caconsis allies won and<$FFFC>calmed this chaos down.<$FFFE>
+11	<$FB00><$0005>No telling. But if the trump cards<$FFFC>are out, a losing Gizarof may yet turn<$FFFC>this around.<$FFFD><$FB00><$0006>Not that we care who wins. But I'd rather<$FFFC>the Regenburg and Caconsis allies won and<$FFFC>calmed this chaos down.<$FFFE>
 12	<$FB00><$0007>Gizarof's a real headache,<$FFFC>stirring up the Federation at a time like<$FFFC>this. He's only giving Lainforce an<$FFFC>opening.<$FFFE>
-13	<$FB00><$0008>True enough. Not that I care<$FFFC>what becomes of Gizarof<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0009>Now, Brenda. Your task is to contact those<$FFFC>two and<$FFF5><$FFF8>…<$FFFE>
+13	<$FB00><$0008>True enough. Not that I care what<$FFFC>becomes of Gizarof<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0009>Now, Brenda. Your task is to contact those<$FFFC>two and<$FFF5><$FFF8>…<$FFFE>
 14	<$FB00><$000A>You don't have to repeat it, I<$FFFC>know！ Don't you worry. Have I ever botched<$FFFC>a job？<$FFFE>
 15	<$FB00><$000B>I trust you, of course. But this<$FFFC>time is not like the others.<$FFFE>
 16	<$FB00><$000C>Eh, I'll manage.<$FFFE>

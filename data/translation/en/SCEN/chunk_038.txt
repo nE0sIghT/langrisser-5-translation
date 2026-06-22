@@ -17,27 +17,27 @@
 15	・<$F600><$0000> dies<$FFFE>
 16	Some Bargain Venue<$FFFF>
 17	This is the town. No mistake.<$FFFE>
-18	Welcome！ Do you have a special invitation<$FFFC>ticket？<$FFFE>
+18	Welcome！ Do you have a special<$FFFC>invitation ticket？<$FFFE>
 19	Right here.<$FFFE>
 20	Welcome！ To the biggest, mightiest<$FFFC>bargain sale of the century♡<$FFFD>Soldiers may not enter beyond this point.<$FFFC>If you wish to shop, please leave your<$FFFC>mercenaries behind.<$FFFE>
 21	So just us alone is fine？<$FFFE>
 22	Yes.<$FFFE>
 23	Then let's head to the entrance.<$FFFE>
 24	Big Bro Baran！ this is it！ the<$FFFC>once-in-99-years grand bargain sale！<$FFFE>
-25	I'm gonna buy up all the protein, des！<$FFFC>eating nothing but cup noodles to save up<$FFFC>money finally paid off, des.<$FFFE>
+25	I'm gonna buy up all the protein,<$FFFC>des！ eating nothing but cup noodles to<$FFFC>save up money finally paid off, des.<$FFFE>
 26	You fool～！！<$FFFE>
-27	Diet and training are the lifeblood of us<$FFFC>bodybuilders！ and you ate cup noodles,<$FFFC>what is the meaning of this！！<$FFFE>
-28	Uu… a nice blow…♡<$FFFB> Big Bro Baran's<$FFFC>punch has woken me up.<$FFFE>
-29	Mm. good, as long as you understand.<$FFFE>
+27	Diet and training are the<$FFFC>lifeblood of us bodybuilders！ and you ate<$FFFC>cup noodles, what is the meaning of<$FFFC>this！！<$FFFE>
+28	Uu… a nice blow…♡<$FFFB> Big Bro<$FFFC>Baran's punch has woken me up.<$FFFE>
+29	Mm. good, as long as you<$FFFC>understand.<$FFFE>
 30	<$FFF8>W-why me too…<$FFFE>
-31	We open soon. please enjoy your shopping<$FFFC>at leisure.<$FFFE>
+31	We open soon. please enjoy your<$FFFC>shopping at leisure.<$FFFE>
 32	AM10:00<$0000>Open<$FFFF>
-33	You there, clerk, give me some dumbbells！<$FFFE>
-34	<$FFF8>What's with this guy？<$0000>a few screws loose<$FFFB><$FFFC><$FFF6>I'm terribly sorry, but we don't carry<$FFFC>such items.<$FFFE>
-35	Whaaat！ you don't even stock dumbbells,<$FFFC>and you call yourself a true man！！<$FFFE>
+33	You there, clerk, give me some<$FFFC>dumbbells！<$FFFE>
+34	<$FFF8>What's with this guy？<$0000>a few screws<$FFFC>loose<$FFFB> <$FFF6>I'm terribly sorry, but we don't<$FFFC>carry such items.<$FFFE>
+35	Whaaat！ you don't even stock<$FFFC>dumbbells, and you call yourself a true<$FFFC>man！！<$FFFE>
 36	<$FFF8>I'm a woman, though…<$FFFE>
 37	Hey, she clearly doesn't want to.<$FFFE>
-38	What did you say！？ tch… you smug, feeble<$FFFC>man！！ you lot will train your bodies at<$FFFC>our gym！<$FFFE>
+38	What did you say！？ tch… you smug,<$FFFC>feeble man！！ you lot will train your<$FFFC>bodies at our gym！<$FFFE>
 39	…give me a …<$FFFE>
 40	Yes？<$FFFE>
 41	An a……<$FFFE>
@@ -49,49 +49,49 @@
 47	<$FFF4>Gwaah, not so loud！！！<$FFF3><$FFFE>
 48	<$FFF4>Why you feeble little！！！！<$FFF3><$FFFD><$FFF4>I'll punish you later！！！！！<$FFF3><$FFFE>
 49	<$FFF8>Pfft……<$FFFE>
-50	You！ you just snickered at me, didn't<$FFFC>you！？<$FFFE>
+50	You！ you just snickered at me,<$FFFC>didn't you！？<$FFFE>
 51	Protein, pleee～～ase.<$FFFE>
 52	Yes？<$FFFE>
 53	…Protein, pleee～～～～ase.<$FFFE>
 54	…Yes？<$FFFE>
 55	………<$FFFB><$FFF4>P<$FFFB>RO<$FFFB>TE<$FFFB>IN<$FFFB>,<$FFFC><$FFFB>pleee<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>aaase<$FFF3>.<$FFFE>
 56	…<$FFFB>…<$FFFB>…<$FFFB>…<$FFFB>Yes？<$FFFE>
-57	Yoouu<$00E4><$00E5><$00E6>, are you mocking a true man！？<$FFFE>
-58	<$FFF8>Ugh～～, this weirdo keeps bugging me～～<$FFFE>
+57	Yoouu<$00E4><$00E5><$00E6>, are you mocking a<$FFFC>true man！？<$FFFE>
+58	<$FFF8>Ugh～～, this weirdo keeps bugging<$FFFC>me～～<$FFFE>
 59	Hey, quit it before you get hurt.<$FFFE>
-60	What！？<$FFFB> I'll make you all witness to my<$FFFC>muscular beauty！！<$FFFE>
-61	Still… for a bargain sale, it's not very<$FFFC>crowded…<$FFFE>
+60	What！？<$FFFB> I'll make you all witness<$FFFC>to my muscular beauty！！<$FFFE>
+61	Still… for a bargain sale, it's<$FFFC>not very crowded…<$FFFE>
 62	That's because only those with an<$FFFC>invitation ticket may enter.<$FFFE>
 63	Wouldn't that mean nothing sells？<$FFFE>
-64	<$FFF8>Well, if things actually sold, we'd just<$FFFC>lose money…<$FFFB> it's a sale open only to our<$FFFC>valued regulars, you see.<$FFFE>
+64	<$FFF8>Well, if things actually sold, we'd<$FFFC>just lose money…<$FFFB> it's a sale open only<$FFFC>to our valued regulars, you see.<$FFFE>
 65	I see… so that's how it is…<$FFFE>
 66	Hurry up.<$FFFE>
-67	Lambda, why are you in such a hurry？<$FFFE>
-68	Because it'll all be gone. They're selling<$FFFC>it cheap, so it's a loss not to buy.<$FFFD>Hiring mercenaries costs money too.<$FFFC>There's nothing wrong with cutting<$FFFC>expenses.<$FFFE>
-69	<$FFFA><$FFF8>Somehow… she's gotten all housewife-ish,<$FFFC>it's unsettling…<$FFFE>
-70	This is my first time at a bargain sale. I<$FFFC>had no idea they were such intense places.<$FFFE>
-71	…It's my first time too… but I expected<$FFFC>somewhere at least a bit more decent…<$FFFE>
-72	Get a move on！ it'll all sell out！！<$FFFE>
-73	Brenda… she might be scarier than those<$FFFC>madams…<$FFFE>
-74	…You're quite the pro at this… Brenda…<$FFFE>
-75	Hooold it！！ I won't let you have the<$FFFC>dumbbells！！<$FFFE>
+67	Lambda, why are you in such a<$FFFC>hurry？<$FFFE>
+68	Because it'll all be gone. They're<$FFFC>selling it cheap, so it's a loss not to<$FFFC>buy.<$FFFD>Hiring mercenaries costs money too.<$FFFC>There's nothing wrong with cutting<$FFFC>expenses.<$FFFE>
+69	<$FFFA><$FFF8>Somehow… she's gotten all<$FFFC>housewife-ish, it's unsettling…<$FFFE>
+70	This is my first time at a bargain<$FFFC>sale. I had no idea they were such intense<$FFFC>places.<$FFFE>
+71	…It's my first time too… but I<$FFFC>expected somewhere at least a bit more<$FFFC>decent…<$FFFE>
+72	Get a move on！ it'll all sell<$FFFC>out！！<$FFFE>
+73	Brenda… she might be scarier than<$FFFC>those madams…<$FFFE>
+74	…You're quite the pro at this…<$FFFC>Brenda…<$FFFE>
+75	Hooold it！！ I won't let you have<$FFFC>the dumbbells！！<$FFFE>
 76	Don't worry, I'm not buying those.<$FFFE>
-77	Don't worry, we're not buying those.<$FFFE>
+77	Don't worry, we're not buying<$FFFC>those.<$FFFE>
 78	What do you mean, those！！<$FFFE>
-79	<$FFF8>Hm？<$0000>what's that？ …mmh… isn't that<$FFFC>just lovely. seems even better than<$FFFC>vaseline…<$FFFE>
+79	<$FFF8>Hm？<$0000>what's that？ …mmh… isn't<$FFFC>that just lovely. seems even better than<$FFFC>vaseline…<$FFFE>
 80	<$FFF8>Waaah, he's looking over here and<$FFFC>grinning～～<$0663> I hate this part-time<$FFFC>job～～～<$FFFE>
-81	To think that with no new recruits at the<$FFFC>gym, even buying goods at a sale is such a<$FFFC>struggle…<$FFFB> <$FFF4>haaah～～～……<$FFF3><$FFFE>
-82	Are things really that hard for you？<$FFFE>
+81	To think that with no new recruits<$FFFC>at the gym, even buying goods at a sale is<$FFFC>such a struggle…<$FFFB> <$FFF4>haaah～～～……<$FFF3><$FFFE>
+82	Are things really that hard for<$FFFC>you？<$FFFE>
 83	Mm. some chain branch of our gym<$FFFC>apparently brought in young men to boost<$FFFC>membership…<$FFFD>…<$00E4><$00E5><$00E5><$00E5><$00E5><$00E5><$00E6>staaare<$FFFE>
 84	<$FFFA>What are you getting at？<$FFFE>
-85	Why you feeble little！！ a true man<$FFFC>throws himself in with nothing but his<$FFFC>bare body！！<$FFFE>
-86	Oooh, Big Bro Baran, I'm so sorry<$0663><$FFFE>
-87	I'll sign you up at the gym and boost our<$FFFC>numbers！！<$FFFE>
-88	Hey, you there, you're in the way！！<$FFFE>
+85	Why you feeble little！！ a true<$FFFC>man throws himself in with nothing but his<$FFFC>bare body！！<$FFFE>
+86	Oooh, Big Bro Baran, I'm so<$FFFC>sorry<$0663><$FFFE>
+87	I'll sign you up at the gym and<$FFFC>boost our numbers！！<$FFFE>
+88	Hey, you there, you're in the<$FFFC>way！！<$FFFE>
 89	Hey, move aside this instant！！<$FFFE>
 90	Hurry or it'll all sell out！！<$FFFE>
-91	Take what's mine and you'll regret it！！<$FFFE>
-92	<$FB00><$0030>So this was the limit of my strength…<$FFFE>
+91	Take what's mine and you'll regret<$FFFC>it！！<$FFFE>
+92	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
 93	<$FB00><$003A>Kh… that one hurt…<$FFFE>
 94	<$FB00><$003B>Leave the rest to me！<$FFFE>
 95	<$FB00><$003C>I'm counting on you…<$FFFE>
@@ -101,71 +101,71 @@
 99	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 100	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
 101	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
-102	<$FB00><$006E>Fall back, Brenda！ Don't push it！<$FFFE>
+102	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
 103	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
-104	Behold！ this finely sculpted physique！！<$FFFE>
+104	Behold！ this finely sculpted<$FFFC>physique！！<$FFFE>
 105	I'll turn the tables on you！！<$FFFE>
 106	Nnngh, forgive me, Adon！！<$FFFE>
 107	And you call yourself Adon！！<$FFFE>
-108	Samson, forgive me！！ I have no choice！！<$FFFE>
-109	No way！！ Big Bro Baran kinda looks happy<$FFFC>about it<$0663><$FFFE>
+108	Samson, forgive me！！ I have no<$FFFC>choice！！<$FFFE>
+109	No way！！ Big Bro Baran kinda<$FFFC>looks happy about it<$0663><$FFFE>
 110	An iron-fist reckoning！！<$FFFE>
-111	Gaze upon my muscular beauty！！ nnngh！！<$FFFE>
+111	Gaze upon my muscular beauty！！<$FFFC>nnngh！！<$FFFE>
 112	I am Adoooon！！<$FFFE>
 113	Big Bro Baran！！ please snap out of<$FFFC>it！！<$FFFE>
 114	Big Bro Baran, I'm sorry…<$FFFE>
-115	If you're a man, come at me without<$FFFC>hesitation！！<$FFFE>
+115	If you're a man, come at me<$FFFC>without hesitation！！<$FFFE>
 116	You are Samsoooon！！<$FFFE>
 117	Let's daaa～～ncing！！<$FFFE>
 118	Before my body beautiful, no foe<$FFFC>stands！！<$FFFE>
-119	Big Bro Baran, have you forgotten that day<$FFFC>we swore an oath while doing squats…<$FFFE>
+119	Big Bro Baran, have you forgotten<$FFFC>that day we swore an oath while doing<$FFFC>squats…<$FFFE>
 120	I will surpass Big Bro Baran！！<$FFFE>
 121	Oooh, then surpass me！！<$FFFE>
-122	Adon！！ my iron fist will wake you up！！<$FFFE>
-123	Adoooon, I don't want to be alone！！<$FFFE>
+122	Adon！！ my iron fist will wake you<$FFFC>up！！<$FFFE>
+123	Adoooon, I don't want to be<$FFFC>alone！！<$FFFE>
 124	To lose to such a feeble fellow…<$FFFD>nnngh. I must train my body harder…<$FFFE>
 125	Nngh… you've all gotten stronger…<$FFFE>
-126	Big Bro Baran… snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
-127	Nngh, I've come to my senses！ this is no<$FFFC>place for me！<$FFFD>back to the gym！ we start over from<$FFFC>scratch！！<$FFFE>
+126	Big Bro Baran… snap out of<$FFFC>it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
+127	Nngh, I've come to my senses！ this<$FFFC>is no place for me！<$FFFD>back to the gym！ we start over from<$FFFC>scratch！！<$FFFE>
 128	Yes, brother！！<$FFFE>
 129	Understood！！<$FFFE>
-130	I've taken a liking to you. from today<$FFFC>you're little Josephine.<$FFFD>now, little Josephine, come along with me.<$FFFE>
+130	I've taken a liking to you.<$FFFC>from today you're little Josephine.<$FFFD>now, little Josephine, come along with me.<$FFFE>
 131	Yes, madam…<$FFFE>
 132	…Young one, that was a good punch…<$FFFD>but in this world, you're still number 2…<$FFFE>
-133	Nngh… I really can't beat Big Bro Baran…<$FFFE>
+133	Nngh… I really can't beat Big Bro<$FFFC>Baran…<$FFFE>
 134	Adon！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
-135	Ohh, bravooo！ that's Big Bro Baran for<$FFFC>you！ I've come to my senses.<$FFFE>
-136	All right, we start over from scratch！！<$FFFE>
+135	Ohh, bravooo！ that's Big Bro Baran<$FFFC>for you！ I've come to my senses.<$FFFE>
+136	All right, we start over from<$FFFC>scratch！！<$FFFE>
 137	Yes, brother！！<$FFFE>
-138	Nngh… to think I couldn't beat Samson…<$FFFE>
+138	Nngh… to think I couldn't beat<$FFFC>Samson…<$FFFE>
 139	Adon！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
-140	Ohh, excellent！！ forgive me, Samson, I've<$FFFC>come to my senses.<$FFFE>
-141	We train all over again from scratch！！<$FFFE>
+140	Ohh, excellent！！ forgive me,<$FFFC>Samson, I've come to my senses.<$FFFE>
+141	We train all over again from<$FFFC>scratch！！<$FFFE>
 142	Okay！！<$FFFE>
-143	I've taken a liking to you. from today<$FFFC>you're little Carol.<$FFFD>now, little Carol, come along with me.<$FFFE>
+143	I've taken a liking to you.<$FFFC>from today you're little Carol.<$FFFD>now, little Carol, come along with me.<$FFFE>
 144	Yes, madam…<$FFFE>
-145	Cup noodles alone really aren't enough…<$FFFC>I'm done for！！<$FFFE>
-146	Nngh… I really can't beat Big Bro Baran…<$FFFE>
+145	Cup noodles alone really aren't<$FFFC>enough… I'm done for！！<$FFFE>
+146	Nngh… I really can't beat Big Bro<$FFFC>Baran…<$FFFE>
 147	Samson！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
-148	Ohh, bravooo！ that's Big Bro Baran for<$FFFC>you！ the scales have fallen from my<$FFFC>eyes！<$FFFE>
-149	All right, we start over from scratch！！<$FFFE>
+148	Ohh, bravooo！ that's Big Bro Baran<$FFFC>for you！ the scales have fallen from my<$FFFC>eyes！<$FFFE>
+149	All right, we start over from<$FFFC>scratch！！<$FFFE>
 150	Yes, brother！！<$FFFE>
-151	Nngh… to think I couldn't beat Adon…<$FFFE>
+151	Nngh… to think I couldn't beat<$FFFC>Adon…<$FFFE>
 152	Samson！！ snap out of it！<$FFFD>is your builder spirit really only that<$FFFC>much！？<$FFFE>
-153	Ohh, excellent！！ forgive me, Adon, I've<$FFFC>come to my senses.<$FFFE>
-154	We train all over again from scratch！！<$FFFE>
+153	Ohh, excellent！！ forgive me,<$FFFC>Adon, I've come to my senses.<$FFFE>
+154	We train all over again from<$FFFC>scratch！！<$FFFE>
 155	Okay！！<$FFFE>
-156	I've taken a liking to you. from today<$FFFC>you're little Mike.<$FFFD>now, little Mike, come along with me.<$FFFE>
+156	I've taken a liking to you.<$FFFC>from today you're little Mike.<$FFFD>now, little Mike, come along with me.<$FFFE>
 157	Yes, madam…<$FFFE>
-158	Why am I the only <$FFF4>Mike<$FFF3>！？ besides, there's<$FFFC>no <$FFF4>hair<$FFF3> on me！<$FFFE>
-159	It doesn't matter！！ I've decided and<$FFFC>that's final！！<$FFFE>
-160	Raising a hand against my pet, of all the<$FFFC>nerve！！<$FFFE>
-161	Raising a hand against my little Mosura,<$FFFC>you're 100 years too early！<$FFFE>
+158	Why am I the only <$FFF4>Mike<$FFF3>！？ besides,<$FFFC>there's no <$FFF4>hair<$FFF3> on me！<$FFFE>
+159	It doesn't matter！！ I've<$FFFC>decided and that's final！！<$FFFE>
+160	Raising a hand against my pet, of<$FFFC>all the nerve！！<$FFFE>
+161	Raising a hand against my little<$FFFC>Mosura, you're 100 years too early！<$FFFE>
 162	Raising a hand against my pet, how<$FFFC>shameless！！<$FFFE>
 163	Little Pyonko, show your guts！！<$FFFE>
 164	Who do you think my pet is！！<$FFFE>
-165	I won't forgive you for laying a hand on<$FFFC>my little Gerumi！<$FFFE>
-166	Raising a hand against my pet, you're a<$FFFC>million years too early！！<$FFFE>
+165	I won't forgive you for laying a<$FFFC>hand on my little Gerumi！<$FFFE>
+166	Raising a hand against my pet,<$FFFC>you're a million years too early！！<$FFFE>
 167	What are you doing to my little<$FFFC>Catherine！！<$FFFE>
 168	N-not bad…<$FFFE>
 169	Now I'm free！！<$FFFE>
@@ -183,120 +183,120 @@
 181	Now I'm free！！<$FFFE>
 182	I've had more than enough…<$FFFE>
 183	Nnnngh, a pose of joooy！<$FFFE>
-184	Good, the nuisances are out of the way.<$FFFC>now we can shop in peace.<$FFFE>
-185	Good, the nuisances are out of the way.<$FFFC>now we can shop in peace.<$FFFE>
+184	Good, the nuisances are out of the<$FFFC>way. now we can shop in peace.<$FFFE>
+185	Good, the nuisances are out of the<$FFFC>way. now we can shop in peace.<$FFFE>
 186	Well, glad we made it in time！<$FFFE>
-187	Welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
+187	Welcome！ do you have a special<$FFFC>invitation ticket？<$FFFE>
 188	Oh？ I left it at home.<$FFFE>
-189	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
-190	I forgot it, what can I do！ are you<$FFFC>telling me to go home for it now！<$FFFD>or are you saying you won't let a regular<$FFFC>like me buy anything！？<$FFFE>
+189	I'm terribly sorry, but customers<$FFFC>without an invitation ticket<$FFF8>…<$FFFE>
+190	I forgot it, what can I do！ are<$FFFC>you telling me to go home for it now！<$FFFD>or are you saying you won't let a regular<$FFFC>like me buy anything！？<$FFFE>
 191	N-no. nothing of the sort…<$FFFD>you only ever look and never buy, though…<$FFFE>
 192	Good. then I'll be going in！<$FFFE>
 193	Catherine！ come along！<$FFFE>
 194	WOOOF！！<$FFFE>
-195	M-madam！？ such a dangerous animal is<$FFF8>…<$FFFE>
-196	What do you mean, dangerous animal！ this<$FFFC>is Catherine the dog, a male！ a member of<$FFFC>my family！<$FFFD>and you call him a dangerous animal…<$FFFE>
+195	M-madam！？ such a dangerous animal<$FFFC>is<$FFF8>…<$FFFE>
+196	What do you mean, dangerous<$FFFC>animal！ this is Catherine the dog, a<$FFFC>male！ a member of my family！<$FFFD>and you call him a dangerous animal…<$FFFE>
 197	A-aha, aha…<$FFFD>my apologies. please, do come in<$FFF8>…<$FFFD><$FFF8>just you wait, someday！<$FFFE>
-198	Welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
+198	Welcome！ do you have a special<$FFFC>invitation ticket？<$FFFE>
 199	I don't have one.<$FFFE>
-200	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
-201	That last person got in without one！ so<$FFFC>you're saying I'm the one who can't？<$FFFE>
-202	Then, since that crawler is dangerous<$FFF8>…<$FFFE>
-203	This little one dies if separated from me,<$FFFC>you know？ leave him out here and he'll<$FFFC>die.<$FFFD>will you take responsibility if that<$FFFC>happens？<$FFFE>
+200	I'm terribly sorry, but customers<$FFFC>without an invitation ticket<$FFF8>…<$FFFE>
+201	That last person got in without<$FFFC>one！ so you're saying I'm the one who<$FFFC>can't？<$FFFE>
+202	Then, since that crawler is<$FFFC>dangerous<$FFF8>…<$FFFE>
+203	This little one dies if separated<$FFFC>from me, you know？ leave him out here and<$FFFC>he'll die.<$FFFD>will you take responsibility if that<$FFFC>happens？<$FFFE>
 204	<$FFF8>I give up…<$FFF6> please, do come in<$FFF8>…<$FFFE>
-205	<$FFF8>Ugh！ another one just like the others…<$FFFE>
-206	Welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
-207	I'm a relative of the town mayor. surely<$FFFC>you'll let me through？<$FFFE>
-208	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
-209	I'm on friendly terms with the lord<$FFFC>himself. surely you'll let me through？<$FFFE>
+205	<$FFF8>Ugh！ another one just like the<$FFFC>others…<$FFFE>
+206	Welcome！ do you have a special<$FFFC>invitation ticket？<$FFFE>
+207	I'm a relative of the town mayor.<$FFFC>surely you'll let me through？<$FFFE>
+208	I'm terribly sorry, but customers<$FFFC>without an invitation ticket<$FFF8>…<$FFFE>
+209	I'm on friendly terms with the<$FFFC>lord himself. surely you'll let me<$FFFC>through？<$FFFE>
 210	I'm terribly sorry, but<$FFF8>…<$FFFE>
-211	In my youth I even met His Majesty the<$FFFC>King. surely you'll let me through？<$FFFE>
-212	<$FFF8>You probably just saw him at a speech or<$FFFC>something…<$FFF6> very well, please go through.<$FFFC>but the slime is<$FFF8>…<$FFFE>
-213	In my youth I competed in the Miss Kingdom<$FFFC>pageant. surely you'll let me through？<$FFFE>
-214	<$FFF8>Anyone can just enter a pageant！<$FFF6><$FFFB> very<$FFFC>well. please come in.<$FFFE>
+211	In my youth I even met His Majesty<$FFFC>the King. surely you'll let me through？<$FFFE>
+212	<$FFF8>You probably just saw him at a<$FFFC>speech or something…<$FFF6> very well, please<$FFFC>go through. but the slime is<$FFF8>…<$FFFE>
+213	In my youth I competed in the Miss<$FFFC>Kingdom pageant. surely you'll let me<$FFFC>through？<$FFFE>
+214	<$FFF8>Anyone can just enter a pageant！<$FFF6><$FFFB><$FFFC>very well. please come in.<$FFFE>
 215	<$FFF8>Maybe I should quit this job…<$FFFE>
 216	Little Pyonko～！ not that way～！<$FFFE>
 217	<$FFF8>Now it's a poison frog…<$FFF6><$FFFD>welcome！ do you have a special invitation<$FFFC>ticket？<$FFFE>
-218	Oh my. little Pyonko went in all by<$FFFC>himself. he'll come right out, so let me<$FFFC>in！<$FFFE>
-219	I'm terribly sorry, but customers without<$FFFC>an invitation ticket<$FFF8>…<$FFFE>
-220	Hey！ what'll you do if Pyonko goes<$FFFC>missing！<$FFFD>I'm going in！<$FFFE>
+218	Oh my. little Pyonko went in all<$FFFC>by himself. he'll come right out, so let<$FFFC>me in！<$FFFE>
+219	I'm terribly sorry, but customers<$FFFC>without an invitation ticket<$FFF8>…<$FFFE>
+220	Hey！ what'll you do if Pyonko<$FFFC>goes missing！<$FFFD>I'm going in！<$FFFE>
 221	Little Pyonko～！！<$FFFE>
 222	<$FFFA><$FFF8>I just can't anymore…<$FFFE>
-223	Now then, let me present today's feature<$FFFC>items♡<$FFFE>
+223	Now then, let me present today's<$FFFC>feature items♡<$FFFE>
 224	What would you like explained？<$FFFE>
 225	・About the <$FFF4>Maid Employment Contract<$FFF3><$FFFE>
 226	・About the <$FFF4>Book of Spacetime<$FFF3><$FFFE>
 227	・To the next item<$FFFE>
 228	・End explanations<$FFFE>
-229	Ah yes, the <$FFF4>Maid Employment Contract<$FFF3>.<$FFFD>By signing a personal contract with the<$FFFC>Maid Dispatch Association, you can hire<$FFFC>maids at the mercenary office.<$FFFD>They have zero combat ability, but they're<$FFFC>experts at cleaning, laundry, cooking,<$FFFC>shopping, and all household work.<$FFFE>
-230	Highly recommended for single men prone to<$FFFC>a sloppy lifestyle♡<$FFFE>
+229	Ah yes, the <$FFF4>Maid Employment<$FFFC>Contract<$FFF3>.<$FFFD>By signing a personal contract with the<$FFFC>Maid Dispatch Association, you can hire<$FFFC>maids at the mercenary office.<$FFFD>They have zero combat ability, but they're<$FFFC>experts at cleaning, laundry, cooking,<$FFFC>shopping, and all household work.<$FFFE>
+230	Highly recommended for single men<$FFFC>prone to a sloppy lifestyle♡<$FFFE>
 231	Today, at a special sale price, the<$FFFC>contract fee is an amazing <$FFF4>1000P<$FFF3>.<$FFFD>only one contract per customer, so if<$FFFC>interested, please act fast.<$FFFE>
-232	Ah yes, the <$FFF4>Book of Spacetime, a copy<$FFF3>.<$FFFD>This is a grimoire inscribed with magic<$FFFC>that bends time and space to let a unit<$FFFC>that has already acted move again.<$FFFD>Normally only renowned mages can obtain<$FFFC>this rare grimoire, but today we offer an<$FFFC>excerpt of the copy at a reasonable price.<$FFFE>
-233	It's magic with limited uses, but in the<$FFFC>crucial moment its power shines through…<$FFFE>
-234	whether it does or not is up to the user.<$FFFD>as for the price you're wondering about,<$FFFC>since it's an excerpt of a copy… we'll<$FFFC>let it go for <$FFF4>800P<$FFF3>.<$FFFE>
+232	Ah yes, the <$FFF4>Book of Spacetime, a<$FFFC>copy<$FFF3>.<$FFFD>This is a grimoire inscribed with magic<$FFFC>that bends time and space to let a unit<$FFFC>that has already acted move again.<$FFFD>Normally only renowned mages can obtain<$FFFC>this rare grimoire, but today we offer an<$FFFC>excerpt of the copy at a reasonable price.<$FFFE>
+233	It's magic with limited uses, but in<$FFFC>the crucial moment its power shines<$FFFC>through…<$FFFE>
+234	whether it does or not is up to the<$FFFC>user.<$FFFD>as for the price you're wondering about,<$FFFC>since it's an excerpt of a copy… we'll<$FFFC>let it go for <$FFF4>800P<$FFF3>.<$FFFE>
 235	What would you like explained？<$FFFE>
 236	・About the <$FFF4>Book of the Strike<$FFF3><$FFFE>
 237	・About the <$FFF4>Apron Dress<$FFF3><$FFFE>
 238	・To the previous item<$FFFE>
-239	Ah yes, the <$FFF4>Book of the Strike, reprint<$FFFC>edition<$FFF3>.<$FFFD>Going back in time to… checking the cheat<$FFFC>sheet<$FFFD>…uh, anyway, it's a book written by<$FFFC>someone long ago<$0663> apparently it wasn't<$FFFD>read this and anyone can learn the<$FFFC><$FFF4>Critical skill<$FFF3>, a fine product indeed.<$FFFE>
-240	So it's a skill recommended for those<$FFFC>whose AT is too low to pierce the<$FFFC>enemy's DF？<$FFFE>
-241	That's right. regardless of warrior class,<$FFFC>it's recommended for everyone.<$FFFD>today at a special price, it's an<$FFFC>amazing！ just <$FFF4>500P<$FFF3>！！ a must-have to<$FFFC>keep one copy in every home.<$FFFE>
+239	Ah yes, the <$FFF4>Book of the Strike,<$FFFC>reprint edition<$FFF3>.<$FFFD>Going back in time to… checking the cheat<$FFFC>sheet<$FFFD>…uh, anyway, it's a book written by<$FFFC>someone long ago<$0663> apparently it wasn't<$FFFD>read this and anyone can learn the<$FFFC><$FFF4>Critical skill<$FFF3>, a fine product indeed.<$FFFE>
+240	So it's a skill recommended for<$FFFC>those whose AT is too low to pierce the<$FFFC>enemy's DF？<$FFFE>
+241	That's right. regardless of warrior<$FFFC>class, it's recommended for everyone.<$FFFD>today at a special price, it's an<$FFFC>amazing！ just <$FFF4>500P<$FFF3>！！ a must-have to<$FFFC>keep one copy in every home.<$FFFE>
 242	Ah yes, the <$FFF4>Apron Dress<$FFF3>.<$FFFD>It's an apron dress of the same design as<$FFFC>the ones we wear. made from sturdy fabric,<$FFFC>so it's durable and long-lasting.<$FFFE>
-243	Only women can wear it, but wearing it<$FFFC>grants the blessing of the Maid Goddess,<$FFFC>letting you transform into a maid.<$FFFD>now, as for the price you're wondering<$FFFC>about… how much could it be？<$FFFE>
-244	Yes. as for the price… it's an amazing,<$FFFC>bleeding-us-dry bargain of <$FFF4>30P<$FFF3>！！<$FFFE>
+243	Only women can wear it, but wearing<$FFFC>it grants the blessing of the Maid<$FFFC>Goddess, letting you transform into a<$FFFC>maid.<$FFFD>now, as for the price you're wondering<$FFFC>about… how much could it be？<$FFFE>
+244	Yes. as for the price… it's an<$FFFC>amazing, bleeding-us-dry bargain of<$FFFC><$FFF4>30P<$FFF3>！！<$FFFE>
 245	An irresistible item for maid fans.<$FFFE>
 246	What would you like to purchase？<$FFFE>
 247	・<$FFF4>Maid Contract<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000>1000P<$FFFE>
 248	・<$FFF4>Spacetime Book<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000><$0000>800P<$FFFE>
 249	・To other bargains<$FFFE>
 250	・Buy nothing<$FFFE>
-251	I'm so sorry<$0663> we're short-staffed right<$FFFC>now and can't accept new contracts<$0663><$FFFE>
-252	The <$FFF4>Maid Employment Contract<$FFF3>, is that all<$FFFC>right？<$FFFE>
+251	I'm so sorry<$0663> we're short-staffed<$FFFC>right now and can't accept new contracts<$0663><$FFFE>
+252	The <$FFF4>Maid Employment Contract<$FFF3>, is<$FFFC>that all right？<$FFFE>
 253	Thank you very much.<$FFFE>
-254	Um… I'm so sorry<$0663> <$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it<$FFFC>seems we've run out of that item.<$FFFE>
+254	Um… I'm so sorry<$0663><$FFFC><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it seems we've run out of<$FFFC>that item.<$FFFE>
 255	The <$FFF4>Book of Spacetime<$FFF3>, is that all<$FFFC>right？<$FFFE>
 256	Thank you very much.<$FFFE>
 257	What would you like to purchase？<$FFFE>
 258	・<$FFF4>Strike Book<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000>500P<$FFFE>
 259	・<$FFF4>Apron Dress<$FFF3><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>30P<$FFFE>
 260	・To other bargains<$FFFE>
-261	Um… I'm so sorry<$0663> <$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it<$FFFC>seems we've run out of that item.<$FFFE>
+261	Um… I'm so sorry<$0663><$FFFC><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it seems we've run out<$FFFC>of that item.<$FFFE>
 262	The <$FFF4>Book of the Strike<$FFF3>, is that all<$FFFC>right？<$FFFE>
 263	Thank you very much.<$FFFE>
-264	Um… I'm so sorry<$0663> <$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it<$FFFC>seems we've run out of that item.<$FFFE>
-265	The <$FFF4>Apron Dress<$FFF3>, is that all right？<$FFFE>
+264	Um… I'm so sorry<$0663><$FFFC><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000><$0000>it seems we've run out<$FFFC>of that item.<$FFFE>
+265	The <$FFF4>Apron Dress<$FFF3>, is that all<$FFFC>right？<$FFFE>
 266	Thank you very much.<$FFFE>
-267	I'm sorry. it seems you don't have enough<$FFFC>money.<$FFFE>
-268	Welcome♡ what would you like to buy？<$FFFE>
+267	I'm sorry. it seems you don't have<$FFFC>enough money.<$FFFE>
+268	Welcome♡ what would you like to<$FFFC>buy？<$FFFE>
 269	・Buy a bargain item<$FFFE>
 270	・Hear about the bargain items<$FFFE>
 271	・Buy nothing<$FFFE>
-272	I'm sorry. it's one item per customer.<$FFFE>
+272	I'm sorry. it's one item per<$FFFC>customer.<$FFFE>
 273	I see…<$FFFE>
-274	I'm sorry. it's one item per customer.<$FFFE>
+274	I'm sorry. it's one item per<$FFFC>customer.<$FFFE>
 275	I see… can't be helped…<$FFFE>
-276	I'm sorry. it's one item per customer.<$FFFE>
-277	Huh！？ that's it already？ oh well…<$FFFE>
-278	I'm sorry. it's one item per customer.<$FFFE>
+276	I'm sorry. it's one item per<$FFFC>customer.<$FFFE>
+277	Huh！？ that's it already？ oh<$FFFC>well…<$FFFE>
+278	I'm sorry. it's one item per<$FFFC>customer.<$FFFE>
 279	Whaat！？ is that all already？<$FFFE>
 280	Are you leaving already？<$FFFE>
 281	・Keep shopping<$FFFE>
 282	・Just looking for now<$FFFE>
 283	・Leave the venue<$FFFE>
 284	No, let me buy something.<$FFFE>
-285	Well, may I keep looking a while longer？<$FFFE>
+285	Well, may I keep looking a while<$FFFC>longer？<$FFFE>
 286	No, not yet.<$FFFE>
 287	Hmm, I want to keep looking.<$FFFE>
 288	I'll just look for now.<$FFFE>
 289	I'll come back later.<$FFFE>
-290	Hmm… if only that were a little cheaper…<$FFFE>
-291	Please wait a bit longer. I'm still<$FFFC>thinking.<$FFFE>
-292	Right, then let's hurry to the port of<$FFFC>Fidget！<$FFFE>
-293	Yes. everyone, let's hurry to Fidget.<$FFFE>
-294	Well, fine. let's hurry to the port of<$FFFC>Fidget, then.<$FFFE>
-295	Then let's hurry to the port of Fidget.<$FFFE>
+290	Hmm… if only that were a little<$FFFC>cheaper…<$FFFE>
+291	Please wait a bit longer. I'm<$FFFC>still thinking.<$FFFE>
+292	Right, then let's hurry to the<$FFFC>port of Fidget！<$FFFE>
+293	Yes. everyone, let's hurry to<$FFFC>Fidget.<$FFFE>
+294	Well, fine. let's hurry to the<$FFFC>port of Fidget, then.<$FFFE>
+295	Then let's hurry to the port of<$FFFC>Fidget.<$FFFE>
 296	Then let's meet again in 99 years♡<$FFFE>
-297	<$FFFA><$FFF8>………<$FFFB> <$FFF6><$FFF9>if we're still alive by then<$FFF8>…<$FFFE>
+297	<$FFFA><$FFF8>………<$FFFB> <$FFF6><$FFF9>if we're still alive by<$FFFC>then<$FFF8>…<$FFFE>
 298	This one here, how much！？<$FFFE>
 299	Huh？<$FFFB> oh, no… pardon me…<$0663><$FFFD>that gentleman is a customer, not<$FFFC>merchandise…<$FFFE>
 300	<$FFF4>How much, I said！？<$FFF3><$FFFE>
@@ -305,12 +305,12 @@
 303	<$0000> <$FFF4>Baran has been sold off！！<$FFF3><$FFFE>
 304	Noo<$00E4><$00E5><$00E5><$00E5><$00E6>, I'm not<$FFFC>merchandise<$00E4><$00E5><$00E5><$00E6>！！<$FFFE>
 305	Are you all right…？<$FFFE>
-306	<$FFF8>…Ohh！？<$0000>I sense a wonderful adventure！<$FFFD><$FFF4>sharp look<$FFF3><$FFFD>No, lovely young lady. for your sake, this<$FFFC>Baran will gladly do 100,000 squats and<$FFFC>a million sit-ups♡<$FFFE>
-307	Big Bro Baran, you're absolutely smitten.<$FFFE>
-308	Hmph, this is training for the muscles<$FFFC>under my nose！<$FFFE>
-309	<$FFF8>This guy isn't even making sense… <$FFF6>anyway,<$FFFC>please head to the warehouse.<$FFFE>
+306	<$FFF8>…Ohh！？<$0000>I sense a wonderful<$FFFC>adventure！<$FFFD><$FFF4>sharp look<$FFF3><$FFFD>No, lovely young lady. for your sake, this<$FFFC>Baran will gladly do 100,000 squats and<$FFFC>a million sit-ups♡<$FFFE>
+307	Big Bro Baran, you're absolutely<$FFFC>smitten.<$FFFE>
+308	Hmph, this is training for the<$FFFC>muscles under my nose！<$FFFE>
+309	<$FFF8>This guy isn't even making sense…<$FFFC><$FFF6>anyway, please head to the warehouse.<$FFFE>
 310	And where is this warehouse？<$FFFE>
-311	Right here. now then, off you go～～♡<$FFFE>
+311	Right here. now then, off you<$FFFC>go～～♡<$FFFE>
 312	This one here, how much！？<$FFFE>
 313	Huh？<$FFFB> oh, no… pardon me…<$0663><$FFFD>that gentleman is a customer, not<$FFFC>merchandise…<$FFFE>
 314	<$FFF4>How much, I said！？<$FFF3><$FFFE>
@@ -321,13 +321,13 @@
 319	U-um… I don't know what face I'm<$FFFC>supposed to make at a time like this…<$FFFE>
 320	<$FFF4>sharp look<$FFF3> at times like this…<$FFFE>
 321	At times like this…？ heart all<$FFFC>a-flutter<$FFFE>
-322	Why you, feeble little<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！<$FFFE>
+322	Why you, feeble<$FFFC>little<$00E4><$00E5><$00E5><$00E5><$00E5><$00E6>！！<$FFFE>
 323	Poooosiiing！<$FFFE>
-324	<$FFF8>These people really are weird… let's just<$FFFC>hurry them off to the warehouse<$FFFE>
+324	<$FFF8>These people really are weird…<$FFFC>let's just hurry them off to the warehouse<$FFFE>
 325	This one here, how much！？<$FFFE>
 326	Huh？<$FFFB> oh, no… pardon me…<$0663><$FFFD>that gentleman is a customer, not<$FFFC>merchandise…<$FFFE>
 327	<$FFF4>How much, I said！？<$FFF3><$FFFE>
-328	Y-yes<$0663><$FFFB> screw it… how about 5… 30P…<$FFFE>
+328	Y-yes<$0663><$FFFB> screw it… how about 5…<$FFFC>30P…<$FFFE>
 329	…Well, fine. sold！！<$FFFE>
 330	<$0000> <$FFF4>Samson has been sold off！！<$FFF3><$FFFE>
 331	Why is my price only 30P<$00E4><$00E5><$00E6>！？<$FFFD><$FFF4>I won't accept this<$00E4><$00E5><$00E5><$00E5><$00E6>！！<$FFF3> a cry<$FFFC>from the soul<$FFFE>
@@ -335,39 +335,39 @@
 333	I won't accept this！！！<$FFFE>
 334	Please accept it and head to the<$FFFC>warehouse♡<$FFFE>
 335	What would you like to purchase？<$FFFE>
-336	It's obvious！ the cheapest thing！！<$FFFE>
+336	It's obvious！ the cheapest<$FFFC>thing！！<$FFFE>
 337	U-uh<$FFF8>…<$FFFE>
-338	What are today's feature items？<$FFFE>
+338	What are today's feature<$FFFC>items？<$FFFE>
 339	Today's bargains are<$FFF8>…<$FFFE>
 340	<$FFF4>Maid Employment Contract<$FFF3>…<$FFFE>
 341	<$FFF4>Book of Spacetime<$FFF3>…<$FFFE>
 342	<$FFF4>Book of the Strike<$FFF3>…<$FFFE>
 343	<$FFF4>Apron Dress<$FFF3>…<$FFFE>
 344	…are what we have.<$FFFE>
-345	Is that so. then I'll take the Maid<$FFFC>Employment Contract. how much is it？<$FFFE>
+345	Is that so. then I'll take the<$FFFC>Maid Employment Contract. how much is it？<$FFFE>
 346	The price is 1000P.<$FFFE>
-347	Is that so. then I'll take the Book of<$FFFC>Spacetime. how much is it？<$FFFE>
+347	Is that so. then I'll take the<$FFFC>Book of Spacetime. how much is it？<$FFFE>
 348	The price is 800P.<$FFFE>
-349	Is that so. then I'll take the Book of the<$FFFC>Strike. how much is it？<$FFFE>
+349	Is that so. then I'll take the<$FFFC>Book of the Strike. how much is it？<$FFFE>
 350	The price is 500P.<$FFFE>
-351	Is that so. then I'll take the Apron<$FFFC>Dress. how much is it？<$FFFE>
+351	Is that so. then I'll take the<$FFFC>Apron Dress. how much is it？<$FFFE>
 352	The price is 30P.<$FFFE>
-353	Too expensive！！ knock the price down<$FFFC>more！！！<$FFFE>
-354	<$FFF8>Ugh, seriously！？<$FFFB> <$FFF6>sorry, but this is the<$FFFC>best price we can do…<$FFFE>
-355	The sale in the next town was selling it<$FFFC>half price！ so make it cheaper！！<$FFFE>
-356	<$FFF8>Spouting nonsense again… <$FFF6>for the record,<$FFFC>this really is the best price we can<$FFFC>do…？<$FFFE>
+353	Too expensive！！ knock the<$FFFC>price down more！！！<$FFFE>
+354	<$FFF8>Ugh, seriously！？<$FFFB> <$FFF6>sorry, but this is<$FFFC>the best price we can do…<$FFFE>
+355	The sale in the next town was<$FFFC>selling it half price！ so make it<$FFFC>cheaper！！<$FFFE>
+356	<$FFF8>Spouting nonsense again… <$FFF6>for the<$FFFC>record, this really is the best price we<$FFFC>can do…？<$FFFE>
 357	<$FFF4>Lower it！！<$FFF3><$FFFE>
 358	…In that case, how about another 5<$FFFC>percent off the special price？<$FFFE>
-359	Lower it more！ I won't budge from here<$FFFC>until you do！<$FFFE>
+359	Lower it more！ I won't budge<$FFFC>from here until you do！<$FFFE>
 360	<$FFFA><$FFF7>Haah…<$FFFE>
-361	Well？ feel like discounting it more now？<$FFFE>
-362	<$FFF8>Do whatever you want… <$FFF6>10 percent off is<$FFFC>the limit. anything more is impossible！<$FFFE>
-363	Well, I suppose it can't be helped…<$FFFC>that'll do.<$FFFB> oh, and wrap it up properly.<$FFFE>
+361	Well？ feel like discounting it<$FFFC>more now？<$FFFE>
+362	<$FFF8>Do whatever you want… <$FFF6>10 percent off<$FFFC>is the limit. anything more is<$FFFC>impossible！<$FFFE>
+363	Well, I suppose it can't be<$FFFC>helped… that'll do.<$FFFB> oh, and wrap it up<$FFFC>properly.<$FFFE>
 364	<$FFFA><$FFF8>Just you wait, someday…<$FFFE>
 365	<$0000>The Apron Dress has been sold off！<$FFFE>
 366	<$0000> <$0000>The Maid Employment Contract has<$FFFC>been sold off！<$FFFE>
 367	<$0000> <$0000>The Book of Spacetime has been sold<$FFFC>off！<$FFFE>
 368	<$0000> <$0000>The Book of the Strike has been sold<$FFFC>off！<$FFFE>
-369	Now all that's left is to head home. I'll<$FFFC>come again.<$FFFE>
-370	Thank you very much… <$FFF8>please never come<$FFFC>again！！！！ <$0000><$0000><$0000>note: a cry from the<$FFFC>soul<$FFFE>
-371	With that last item, all our goods are<$FFFC>sold out. and so we declare this bargain<$FFFC>sale at an end.<$FFFE>
+369	Now all that's left is to head<$FFFC>home. I'll come again.<$FFFE>
+370	Thank you very much… <$FFF8>please never<$FFFC>come again！！！！ <$0000><$0000><$0000>note: a cry from<$FFFC>the soul<$FFFE>
+371	With that last item, all our goods<$FFFC>are sold out. and so we declare this<$FFFC>bargain sale at an end.<$FFFE>
