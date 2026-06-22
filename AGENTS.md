@@ -30,9 +30,17 @@ format notes. This file lists the rules that must not be broken.
 ```bash
 python3 scripts/lang5_verify_roundtrip.py   # byte-identical no-edit pipeline
 python3 scripts/lang5_rewrap.py             # window-width line wrapping
+python3 scripts/lang5_check_speakers.py     # speaker plates vs the in-game test set
 python3 scripts/lang5_validate_en.py        # tags, encodability, budgets
 python3 scripts/lang5_build_ppf.py          # full build must succeed
 ```
+
+Speaker/author correctness is **mandatory**: `lang5_check_speakers.py` must print
+`OK`. It verifies that `semantic_plate_slots` resolves each record in
+`docs/SPEAKER_TEST_SET.md` to the in-game–verified speaker; a wrong speaker means
+a wrong plate reserve and wrong wrapping. A failure is a bug in the extractor —
+fix the extractor, never relax the expected value. When you confirm a plate in
+game, add a row to `docs/SPEAKER_TEST_SET.md`.
 
 ## Translation conventions
 
