@@ -79,7 +79,10 @@ def main() -> None:
 
     # Loose strings have no table to regenerate: write within the fixed budget.
     for e in loose:
-        en = (e.get("en") or "").strip()
+        # rstrip only: a leading space is a deliberate layout choice (it separates
+        # the text from an engine-drawn prefix like the LOAD-menu "[N]面" counter),
+        # so it must survive into the encoded line.
+        en = (e.get("en") or "").rstrip()
         if not en:
             continue
         off = int(e["offset"], 16)
@@ -115,7 +118,7 @@ def main() -> None:
             lens.append(orig_len)
             orig = list(struct.unpack_from("<%dH" % orig_len, data, off)) if orig_len else []
             e = by_key.get((gi, k))
-            en = (e.get("en") or "").strip() if e else ""
+            en = (e.get("en") or "").rstrip() if e else ""  # keep leading layout spaces
             if not en:
                 seqs.append(orig)
                 continue

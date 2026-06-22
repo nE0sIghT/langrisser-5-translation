@@ -2679,7 +2679,7 @@
   "offset": "0x09290",
   "words": 9,
   "jp": "面の途中から",
-  "en": "In battle"
+  "en": " In battle"
  },
  {
   "group": 1,
@@ -2751,7 +2751,7 @@
   "offset": "0x0932E",
   "words": 11,
   "jp": "面の作戦準備から",
-  "en": "Prep phase"
+  "en": " Prep phase"
  },
  {
   "group": 1,
