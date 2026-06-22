@@ -19,12 +19,11 @@ that auto-wrap (dialogue, narration/briefing, quiz) are 21 cells wide
 
 The engine draws the speaker name plate inline at the start of a plated
 window, so plated first lines are shorter by the plate width. The production
-wrapper reads each record's display command, resolves its actor key at
-`p+6..7` through the chunk actor-plate table, and reserves the exact plate
-width. Unresolved crowd keys fall back to the widest plate in the chunk's
-speaker pool. The pool size comes from the chunk VM header (+0x38) in the
-original SCEN.DAT, which excludes location plates; speaker plate names are kept
-short (<= 5 cells) so fallback bounds stay tight.
+wrapper reads each record's display command and takes the visible speaker slot
+from byte `p+9`. `0xFF` means no plate; values outside the local speaker pool
+fall back to the widest plate in the chunk. The pool size comes from the chunk
+VM header (+0x38) in the original SCEN.DAT, which excludes location plates;
+speaker plate names are kept short (<= 5 cells) so fallback bounds stay tight.
 
 Choice records (text starting with ・) are kept single-line and reported
 if they exceed the width.
@@ -475,9 +474,8 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
 
     byte +6..7 is the actor key used for other routing, not the plate. An earlier
     revision read the plate from that key (via the actor-plate table) and from
-    `record = first FB00 + text id`; both were wrong on every plated line of the
-    chunk-69 dialogue verified in game (see work/speaker_anchors.md and
-    docs/SPEAKER_NAME_EXTRACTION.md).
+    `record = first FB00 + text id`; the in-game speaker test set rejects that
+    model on the verified plated lines. See docs/SPEAKER_NAME_EXTRACTION.md.
 
     Returns chunk -> record -> slot, where slot is the zero-based speaker-pool
     slot, `None` for no plate, or `-1` for a location/unresolved plate (fall back

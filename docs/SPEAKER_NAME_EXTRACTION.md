@@ -39,9 +39,9 @@ the real `p+9=1`/`p+8=0` Mariandel command; taking the first gave Sigma.)
 > **History.** A prior revision read the speaker from the actor key at `u16@p+6`
 > (via `actor_plate_table.field2`) with record = `first_fb + text_id`. A static
 > read of the window handler suggested `p+6..7` was the speaker and `p+9` mere
-> routing, but in-game verification (six plates across chunk 69, see
-> `work/speaker_anchors.md`) proved it wrong on **every** plated line: `p+9` is
-> the plate selector and `p+6..7` is unrelated routing.
+> routing, but the in-game plate test set in `docs/SPEAKER_TEST_SET.md` proved
+> it wrong on the verified plated lines: `p+9` is the plate selector and
+> `p+6..7` is unrelated routing.
 
 Plate width is the rendered speaker name plus the `0x0001` glyph that the engine
 draws next to the name. Continuation pages after `<$FFFD>` do not redraw the
@@ -56,13 +56,12 @@ speaker plate and wrap at full width.
 3. The speaker selector is the zero-based name-pool slot at `p+9` (`0xFF` = no
    plate; `>= pool_size` = location/special). The actor key at `p+6..7` is
    unrelated routing, not the plate (in-game verified, chunk 69).
-4. The actor key is resolved through `FUN_800216c8`; ordinary keys are identity,
-   special keys `0xFFE5..0xFFFE` are remapped from runtime state.
-5. The resolved key is looked up in the chunk actor-plate table. That table maps
-   actor key to the speaker-name-pool slot used for the visible plate.
-6. The chunk VM header word at `+0x38` is the speaker-name-pool size. It excludes
+4. The actor key at `p+6..7` and the `0x800eba38` actor table still exist, but
+   they are research/routing data for this task. The production wrapper does not
+   use them to choose the visible speaker plate.
+5. The chunk VM header word at `+0x38` is the speaker-name-pool size. It excludes
    location plates and scene captions, so it is safe for fallback reserves.
-7. The semantic scan yields a confident production mapping without a full VM
+6. The semantic scan yields a confident production mapping without a full VM
    interpreter. The full VM walk remains useful for research but is not required
    for wrapping.
 
@@ -71,7 +70,7 @@ speaker plate and wrap at full width.
 `traced_plate_slots()` and `display_plate_slots()` in `lang5_rewrap.py` are
 legacy fallbacks. Do not base new work on their broad byte9 scans. The only
 production use of `p+9` is inside `semantic_plate_slots()`, after a display
-command passes the semantic filter and its actor key is `0xFFFF`.
+command passes the semantic filter. Actor-key value is not a production guard.
 
 The broad task of reimplementing the VM interpreter remains parked. Do not resume
 static VM tracing, actor-state interpretation, or full bytecode emulation unless
@@ -113,7 +112,7 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | DONE | VM dispatcher is byte-oriented. | Dispatcher reads one opcode byte from `gp + 0x30c`. | Parse VM command starts by byte offset. |
 | DONE | Opcodes `0x0b..0x10` reach handler `0x80024424`. | Jump table at `0x80010250`. | Decode this handler's inputs precisely. |
 | DONE | Handler `0x80024424` writes window/dialogue state fields. | Writes to `0x8011a024` structure. | Identify which field resolves final speaker plate. |
-| DONE | Display payload byte 9 can be the speaker slot when actor key is `0xFFFF`. | Chunk 45 display commands have `p+6..7 == FFFF`; `p+9` maps record 10/11 to slot 6 (`機械音声`), matching the visible Machine plate. | Use only after semantic display-command filtering and only when the actor-key path is unavailable. |
+| DONE | Display payload byte 9 is the visible speaker slot after semantic display-command filtering. | Chunk 45 maps records 10/11 to slot 6 (`機械音声`), matching the visible Machine plate; chunk 69 verified plated lines reject the actor-key model. | Use `p+9` only inside `semantic_plate_slots()` after its opcode/mode/name/text-id filters pass. |
 | DONE | Continuation pages after `FFFD` do not redraw the speaker plate. | User playtest: first page can show a blue speaker plate, while the next page in the same record has no name; chunk 1 record 96 demonstrates this. | Reset reserve to zero after page breaks in `lang5_rewrap.py`. |
 | DONE | Runtime actor/plate lookup table exists. | `0x800b2da4` searches table at `0x800eba38` with count `0x800eba46`. | Decode the table source in each chunk. |
 | DONE | Map chunk-local data to runtime `0x800eba38` table. | Header `u32 +0x14` is the table offset; low byte of header `u32 +0x2c` is the entry count. | Use `actor_plate_table()` in `scripts/lang5_speakers.py`. |
@@ -126,10 +125,10 @@ PARKED      stopped on purpose; do not resume without a new requirement
 | PARKED | Resolve non-linear VM entry/control flow for chunks 65/107. | Linear trace reaches `opcode 00` with skip length `0xfc00` after the first `0x04` command. | Determine whether this is an exit sentinel, alternate entrypoint, or conditional path. |
 | PARKED | Decode `0x800a39a4` `FBxx` text-control handler. | Dispatch table sends `FB` family there. | Confirm how text `FB00 <id>` links to VM state. |
 | PARKED | Implement trusted speaker extraction API. | Requires resolved table and command semantics. | Emit only dispatch-verified mappings. |
-| DONE | Integrate display-command plate reserves into `lang5_rewrap.py`. | `semantic_plate_slots()` resolves the actor key at `p+6..7` through the chunk actor-plate table, or uses `p+9` as a local speaker slot when the actor key is `FFFF`; unresolved crowd keys keep the conservative chunk-wide pool reserve. | Current production path. |
+| DONE | Integrate display-command plate reserves into `lang5_rewrap.py`. | `semantic_plate_slots()` reads the local speaker slot from display byte `p+9`; `0xFF` means no plate and values outside the local pool keep the conservative chunk-wide pool reserve. | Current production path. |
 | DONE | Validate against chunk 45 in-game bad lines. | Simulated render: no line exceeds 21 cells with the pool reserve. | Confirm visually in the next playtest. |
 | DONE | VM block begins with a u32 script offset table. | Ascending u32 offsets at vm start in 131/131 chunks; tracer wrongly starts at offset 0 (the table) and reads entry `0x44` as an opcode. | Start the walk at the first table entry; decode opcodes `0x28`/`0x44`. |
-| REJECTED | Recover display rows by opcode-only `0x0B..0x10` 12-byte scans. | Requiring the complete `0..N-1` `text_id` set to resolve uniquely succeeds in 0/131 chunks; lenient filters admit false-positive windows. | Use the semantic actor-key/text-id/name-flag filter instead. |
+| REJECTED | Recover display rows by opcode-only `0x0B..0x10` 12-byte scans. | Requiring the complete `0..N-1` `text_id` set to resolve uniquely succeeds in 0/131 chunks; lenient filters admit false-positive windows. | Use the semantic opcode/mode/name/text-id filter instead. |
 | DONE | "Town" plate is speaker 町人 (pool slot 7), not a location. | Chunk 4 name pool slot 7 = 町人; actor-key extraction resolves its lines to slot 7. | Treat it as an ordinary speaker plate. |
 | DONE | Stop zeroing the safe-bound reserve for `<$FB00>`-less spoken records. | `semantic_plate_slots()` maps display `text_id` contiguously from the first `FB00` record, so interleaved FB00-less spoken lines such as chunk 4 record 79 get a plate reserve or crowd fallback. | Keep this behavior in rewrap. |
 
@@ -225,8 +224,8 @@ reverse-engineering paths.
   behavior.
 - Do not solve this with hand-written per-chunk speaker overrides.
 - Do not resume broad static VM tracing to improve wrapping unless a concrete
-  playtest issue remains after semantic actor-key extraction and the pool-bound
-  fallback.
+  playtest issue remains after semantic display-command extraction and the
+  pool-bound fallback.
 - Do not derive plate bounds from JP line breaks; the JP script engine-wraps
   mid-line and its first lines exceed the window.
 - Do not parse the VM stream only as aligned 16-bit records when interpreting

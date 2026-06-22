@@ -2,12 +2,14 @@
 """Annotate the EN script dump with the speaker plate for each record.
 
 Inserts a ``# spk: <name>`` comment line before every dialogue record in
-``data/translation/en/SCEN*/chunk_*.txt`` so the translation can be read with
-its speaker in view. The speaker comes from the same display-command extraction
-the wrapper uses (``semantic_plate_slots``: name-pool slot at display byte +9,
-record = pool_size + 1 + text id), and the name from the chunk's own English
-plate records (1..pool_size). ``# spk:`` lines (and all ``#`` lines) are ignored
-by lang5_rewrap.py and lang5_sceninsert.py, so this never affects the build.
+``data/translation/en/SCEN/chunk_*.txt`` so the translation can be read with its
+speaker in view. SCEN2 is generated/synced by the build flow, so this script
+does not touch it unless ``--include-scen2`` is requested explicitly. The
+speaker comes from the same display-command extraction the wrapper uses
+(``semantic_plate_slots``: name-pool slot at display byte +9, record =
+pool_size + 1 + text id), and the name from the chunk's own English plate
+records (1..pool_size). ``# spk:`` lines (and all ``#`` lines) are ignored by
+lang5_rewrap.py and lang5_sceninsert.py, so this never affects the build.
 
 Idempotent: existing ``# spk:`` lines are stripped and rewritten, so it can be
 re-run after re-translating or re-extracting speakers. Run after edits to refresh.
@@ -64,21 +66,37 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--en-dump", default="data/translation/en")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
+    ap.add_argument("--include-scen2", action="store_true",
+                    help="Also annotate data/translation/en/SCEN2. Default is SCEN only.")
     args = ap.parse_args()
 
     scen = Path(args.scen)
     slots_by_chunk = semantic_plate_slots(scen)
     pool_sizes = speaker_pool_sizes(scen)
 
+    root = Path(args.en_dump)
+    if root.name in {"SCEN", "SCEN2"}:
+        target_dirs = [root]
+    else:
+        target_dirs = [root / "SCEN"]
+        if args.include_scen2:
+            target_dirs.append(root / "SCEN2")
+
     total = 0
-    for fp in sorted(Path(args.en_dump).glob("*/chunk_*.txt")):
-        chunk_idx = int(fp.stem.split("_")[1])
-        slots = slots_by_chunk.get(chunk_idx, {})
-        pool_size = pool_sizes.get(chunk_idx) or 0
-        if not slots or not pool_size:
+    touched = []
+    for target_dir in target_dirs:
+        if not target_dir.exists():
             continue
-        total += annotate_file(fp, slots, pool_size)
-    print(f"annotated {total} records with # spk: across {args.en_dump}")
+        touched.append(str(target_dir))
+        for fp in sorted(target_dir.glob("chunk_*.txt")):
+            chunk_idx = int(fp.stem.split("_")[1])
+            slots = slots_by_chunk.get(chunk_idx, {})
+            pool_size = pool_sizes.get(chunk_idx) or 0
+            if not slots or not pool_size:
+                continue
+            total += annotate_file(fp, slots, pool_size)
+    scope = ", ".join(touched) if touched else "(no matching directories)"
+    print(f"annotated {total} records with # spk: across {scope}")
 
 
 if __name__ == "__main__":
