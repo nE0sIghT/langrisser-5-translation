@@ -10,7 +10,7 @@
 8	Warden<$FFFF>
 9	Officer<$FFFF>
 10	Quaid<$FFFF>
-# spk: (no plate)
+# spk: Clarett
 11	・Defeat all wardens<$FFFE>
 # spk: Lambda
 12	・A warden escapes<$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -20,19 +20,19 @@
 18	・<$F600><$0000> dies<$FFFE>
 # spk: Sigma
 19	Vast Underground Cavern<$FFFF>
-# spk: Sigma
+# spk: (location/crowd)
 20	Where did everyone go<$FFF8>…<$FFFE>
 # spk: Grove
 21	It seems a reckless challenger has<$FFFC>arrived.<$FFFE>
 # spk: Sigma
 22	You're Grove！<$FFFE>
-# spk: Grove
+# spk: Sigma
 23	This is the sanctuary where you<$FFFC>battle the strongest foes. Your comrades<$FFFC>are somewhere inside this room.<$FFFE>
 # spk: Lainforce
 24	However, not only your allies<$FFFC>but enemies lurk within the room.<$FFFE>
 # spk: Sigma
 25	This won't be easy to clear.<$FFFE>
-# spk: Lainforce
+# spk: Alfred
 26	Naturally.<$FFFD>And on this stage, your prize depends on<$FFFC>how fast you clear it. Let me tell you the<$FFFC>prizes you can win.<$FFFE>
 # spk: (no plate)
 27	・Within 10T<$0000>→<$0000>Assault Suit<$FFFC>・11T<$0000><$0000><$0000>→<$0000>Skill:Healing<$FFFE>
@@ -136,17 +136,17 @@
 78	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
 # spk: Sigma
 79	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
-# spk: Brenda
+# spk: Sigma
 80	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
 # spk: Sigma
 81	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
 # spk: Brenda
 82	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
-# spk: Clarett
+# spk: Sigma
 83	<$FB00><$005C>Ow！ You dare！<$FFFE>
 # spk: Sigma
 84	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
-# spk: Clarett
+# spk: Sigma
 85	<$FB00><$005E>B-but…<$FFFE>
 # spk: Sigma
 86	<$FB00><$005F>Just fall back！<$FFFE>

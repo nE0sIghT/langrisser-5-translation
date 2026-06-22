@@ -25,7 +25,7 @@
 17	<$FB00><$00AE>But word is the Caconsis army is<$FFFC>headed there too. We'd better hurry.<$FFFE>
 # spk: Brenda
 18	<$FB00><$00AF>The Caconsis army？<$FFFE>
-# spk: Sigma
+# spk: Lambda
 19	<$FB00><$00B0>We should hurry. If Caconsis<$FFFC>carries off the crystal, things get ugly.<$FFFE>
 # spk: Sigma
 20	<$FB00><$00B1>Right. We must get the Sage's<$FFFC>Crystal, whatever it takes！<$FFFE>

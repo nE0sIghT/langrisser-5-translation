@@ -556,7 +556,7 @@
 288	<$FB00><$00F5>Yeah. Good night, Lanford.<$FFFE>
 # spk: Lanford
 289	<$FB00><$00D4>Indeed. I am a clumsy man too. I<$FFFC>did not notice Emily's feelings for far<$FFFC>too long.<$FFFD><$FB00><$00D5>It seems you are much the same.<$FFFE>
-# spk: Alfred
+# spk: Sigma
 290	<$FB00><$00D6>Me？<$FFFE>
 # spk: Lanford
 291	<$FB00><$00D7>Strange, is it not？ We may not<$FFFC>see ourselves, but others are easy to<$FFFC>read.<$FFFE>

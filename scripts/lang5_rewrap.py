@@ -469,7 +469,9 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
     `record = pool_size + 1 + text id`. byte +9 == 0xFF means no plate; a value
     >= pool_size is a location/special plate (treated as -1 -> chunk-wide reserve).
     Real commands are filtered by the mode `byte+3 & 3 <= 2` and the name-visible
-    flag `byte+8 <= 1`; the first command for a record wins.
+    flag `byte+8 <= 1`. A record may carry more than one display command; the one
+    that actually draws the plate has `byte+8 == 0` (name visible), so among a
+    record's commands the lowest `(byte+8, position)` wins.
 
     byte +6..7 is the actor key used for other routing, not the plate. An earlier
     revision read the plate from that key (via the actor-plate table) and from
@@ -496,19 +498,22 @@ def semantic_plate_slots(scen_path: Path) -> dict[int, dict[int, int | None]]:
             continue
         base = pool_size + 1                        # text record shown by id 0
         n_text = block.record_count - pool_size
-        rec_slot: dict[int, int | None] = {}
+        best: dict[int, tuple[tuple[int, int], int]] = {}
         for p in range(len(vm) - 11):
             if not (0x0B <= vm[p] <= 0x10):
                 continue
-            if (vm[p + 3] & 3) > 2 or vm[p + 8] > 1:
+            b8 = vm[p + 8]
+            if (vm[p + 3] & 3) > 2 or b8 > 1:
                 continue
             tid = vm[p + 10] | (vm[p + 11] << 8)
             if not (0 <= tid < n_text):
                 continue
             rec = base + tid
-            if rec in rec_slot:                     # first command per record wins
-                continue
-            slot = vm[p + 9]
+            key = (b8, p)                           # name-visible (b8=0) wins
+            if rec not in best or key < best[rec][0]:
+                best[rec] = (key, vm[p + 9])
+        rec_slot: dict[int, int | None] = {}
+        for rec, (_key, slot) in best.items():
             if slot < pool_size:
                 rec_slot[rec] = slot
             elif slot == 0xFF:

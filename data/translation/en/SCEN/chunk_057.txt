@@ -54,7 +54,7 @@
 32	<$FB00><$001F>Lord Lenard, the enemy is<$FFFC>withdrawing！<$FFFE>
 # spk: Lenard
 33	<$FB00><$0020>Good. The people here are free<$FFFC>now.<$FFFE>
-# spk: Sigma
+# spk: Soldier
 34	<$FB00><$0021>But now war with the Empire is<$FFFC>certain.<$FFFE>
 # spk: Lenard
 35	<$FB00><$0022>I knew that. If someone must act,<$FFFC>I will wager on Clarett's ideal.<$FFFE>

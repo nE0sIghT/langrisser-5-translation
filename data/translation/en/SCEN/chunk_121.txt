@@ -66,7 +66,7 @@
 36	<$FB00><$0068>What about power？<$FFF5><$FFFB> <$FB00><$0069>It could<$FFFC>never break free of gravity.<$FFFE>
 # spk: Virash
 37	<$FB00><$006A>Not with an ordinary crystal.<$FFF5><$FFFC><$FB00><$006B>But there's a high-purity crystal.<$FFFE>
-# spk: Sigma
+# spk: Lanford
 38	<$FB00><$006C>That's it！<$FFF5> <$FB00><$006D>The crystal my<$FFFC>father and the others found<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Alfred
 39	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006E>So what my father did was not<$FFFC>wasted after all<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>

@@ -30,7 +30,7 @@
 18	But Brenda, wasn't that different<$FFFC>from what you said before…？<$FFFE>
 # spk: Brenda
 19	That was then. This is now. If you<$FFFC>fret over details, you'll never become a<$FFFC>big person.<$FFFE>
-# spk: Sigma
+# spk: Alfred
 20	Uh, <$FFF7>right…<$FFFE>
 # spk: Sigma
 21	Then let's go. We don't have that<$FFFC>much time to spare.<$FFFE>

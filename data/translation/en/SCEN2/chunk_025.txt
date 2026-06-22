@@ -32,8 +32,8 @@
 20	<$FB00><$004D>Halfway up this mountain there's a<$FFFC>tunnel to the far side. Through it,<$FFFC>Reynolds is close.<$FFFE>
 # spk: Brenda
 21	<$FB00><$004E>Huh. I've wandered all over, but I<$FFFC>never knew there was a tunnel here.<$FFFE>
-# spk: Alfred
-22	<$FB00><$004F>Well, few people try to cross such<$FFFC>rugged mountains.<$FFFE>
+# spk: Clarett
+22	<$FB00><$004F>Well, few people try to cross<$FFFC>such rugged mountains.<$FFFE>
 # spk: Clarett
 23	<$FB00><$0050>Good thing we have Alfred. A<$FFFC>detour would have cost us dearly.<$FFFE>
 # spk: Sigma

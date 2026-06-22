@@ -14,8 +14,8 @@
 11	<$FB00><$0003>Forward！ Do not flinch before<$FFFC>mere monsters！<$FFFE>
 # spk: Grove
 12	<$FB00><$0004>Gah, Kalxath still has an<$FFFC>airship… I thought it burned up the other<$FFFC>day<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFD><$FB00><$0005>You lot, do not let them pass！<$FFFE>
-# spk: (location/crowd)
-13	<$FB00><$0006>Understood. Even if it costs<$FFFC>our lives, we will not let them through.<$FFFE>
+# spk: Demon
+13	<$FB00><$0006>Understood. Even if it costs our<$FFFC>lives, we will not let them through.<$FFFE>
 # spk: Aizel
 14	<$FB00><$0007>We meant to strike while this<$FFFC>continent's forces were attacking, but<$FFFC>this is a demon stronghold indeed. They<$FFFC>will not let us pass easily.<$FFFD><$FB00><$0008>But we have reasons of our own. We cannot<$FFFC>afford to be stalled here.<$FFFE>
 # spk: (no plate)

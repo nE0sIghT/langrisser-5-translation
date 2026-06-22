@@ -17,8 +17,8 @@
 # spk: Sigma
 15	・<$F600><$0000> dies<$FFFE>
 16	Magitek Control Facility<$FFFF>
-# spk: Sigma
-17	<$FB00><$0042>So the control device is here.<$FFFE>
+# spk: C.Knights 6
+17	<$FB00><$0042>So the control device is<$FFFC>here.<$FFFE>
 # spk: Lanford
 18	<$FB00><$0043>That room is most likely where<$FFFC>the control device is.<$FFFE>
 # spk: Mariandel

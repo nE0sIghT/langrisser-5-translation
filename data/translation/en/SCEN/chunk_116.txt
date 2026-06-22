@@ -43,7 +43,7 @@
 25	<$FB00><$007E>A deal？<$FFF5><$FFFB> <$FB00><$007F>And if we agree, you'll<$FFFC>free the hostage？<$FFFE>
 # spk: Lainforce
 26	<$FB00><$0080>Just so. Not only the hostage,<$FFFC>I'll spare you as well.<$FFF5><$FFFB> <$FB00><$0081>Well？<$FFFE>
-# spk: Sigma
+# spk: Brenda
 27	<$FB00><$0082>Don't be fooled！ There's no<$FFFC>guarantee he'll keep his word！<$FFFE>
 # spk: Sigma
 28	<$FB00><$0083>Let's at least hear it. Deciding<$FFFC>can wait until after.<$FFFE>

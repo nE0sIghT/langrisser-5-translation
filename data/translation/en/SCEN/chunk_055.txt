@@ -66,7 +66,7 @@
 38	<$FB00><$0023>Only Langrisser？ Do you plan to<$FFFC>keep Alhazard with you？<$FFFE>
 # spk: Gaiel
 39	<$FB00><$0024>Relax. I won't become Böser.<$FFFC>Leading all demons is beyond me.<$FFFE>
-# spk: Sigma
+# spk: Gaiel
 40	<$FB00><$0025>I'll seek a way to destroy<$FFFC>Langrisser. I may need Alhazard.<$FFFE>
 # spk: Grove
 41	<$FB00><$0026>Alhazard is our demon treasure. Do<$FFFC>not get strange ideas！<$FFFE>

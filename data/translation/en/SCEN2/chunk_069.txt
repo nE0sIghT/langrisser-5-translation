@@ -53,8 +53,8 @@
 29	<$FB00><$0017>I can't stay quiet any longer.<$FFFC>Isn't it time you told the truth？<$FFFE>
 # spk: Virash
 30	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0018>I suppose so. What I'm about<$FFFC>to tell you is all true. More than you<$FFFC>could ever imagine.<$FFFE>
-# spk: Sigma
-31	<$FB00><$001A>I can't believe there was such a<$FFFC>terrible war<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Mariandel
+31	<$FB00><$001A>I can't believe there was such<$FFFC>a terrible war<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Sigma
 32	<$FB00><$001B>Then the airship Virash lent us,<$FFFC>was it a relic of that age？<$FFFE>
 # spk: Virash

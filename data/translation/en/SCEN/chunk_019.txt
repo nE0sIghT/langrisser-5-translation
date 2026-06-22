@@ -25,7 +25,7 @@
 17	<$FFF7><$FB00><$006A>Kyaaah！<$FFFE>
 # spk: Folk
 18	<$FB00><$006B>No… the dead…<$FFFE>
-# spk: Grove
+# spk: Alfred
 19	<$FFF8><$FB00><$006C>Heh heh heh！<$FFF5><$0000><$FFF6><$FB00><$006D>Well？ They want<$FFFC>companions. Please join them, all of you.<$FFFD><$FFF7><$FB00><$006E>Hih hih hih hih！<$FFFE>
 # spk: Clarett
 20	<$FB00><$0071>Stop this！<$FFFE>

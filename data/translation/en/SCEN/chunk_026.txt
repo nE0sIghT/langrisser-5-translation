@@ -10,10 +10,10 @@
 8	Alvince<$FFFF>
 9	Guardian<$FFFF>
 10	・Defeat Alvince<$FFFE>
-# spk: (location/crowd)
+# spk: Sigma
 11	・<$F600><$0000> dies<$FFFE>
 12	Alvince's Manor<$FFFF>
-# spk: Officer
+# spk: Clarett
 13	<$FB00><$0041>Lord Alvince, we have trouble！<$FFFE>
 # spk: Alvince
 14	<$FB00><$0042>What is this racket？<$FFFE>
@@ -35,7 +35,7 @@
 22	<$FB00><$004A>Such noise, Alfred. Father told<$FFFC>you to be quiet indoors, did he not？<$FFFD><$FB00><$004B>And how dare a great criminal who murdered<$FFFC>his own parent show his face in this<$FFFC>manor.<$FFFE>
 # spk: Clarett
 23	<$FB00><$004C>We already know you switched the<$FFFC>medicine！<$FFFE>
-# spk: Alvince
+# spk: Clarett
 24	<$FB00><$004D>That's right. But Alfred was a<$FFFC>fool to be deceived.<$FFFD><$FB00><$004E>Thanks to it, I hold great wealth and<$FFFC>power now. The truth no longer matters.<$FFFD>Kill you all, and none will be left to<$FFFC>speak of it.<$FFFE>
 # spk: Alfred
 25	<$FB00><$004F>Never mind that, brother！<$FFFC>Lainforce is deceiving you！ What he means<$FFFC>to do is<$FFF5><$FFF8>…<$FFFE>

@@ -15,8 +15,8 @@
 13	Before the Final Weapon Control Device<$FFFF>
 # spk: Sigma
 14	<$FB00><$0006>All that's left is to destroy this<$FFFC>moon<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
-# spk: Omega
-15	<$FFF8>…<$FFF6><$FB00><$0001>So I still couldn't beat you<$FFF5><$FFF8>… <$FFF6><$FB00><$0002>If<$FFFC>I came this far and still lost, it feels<$FFFC>almost clean. Fine, I acknowledge you<$FFF5><$FFF8>…<$FFFE>
+# spk: Mariandel
+15	<$FFF8>…<$FFF6><$FB00><$0001>So I still couldn't beat<$FFFC>you<$FFF5><$FFF8>… <$FFF6><$FB00><$0002>If I came this far and still lost,<$FFFC>it feels almost clean. Fine, I acknowledge<$FFFC>you<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
 16	<$FB00><$0003>Omega<$FFF5><$FFF8>…<$FFFE>
 # spk: Omega

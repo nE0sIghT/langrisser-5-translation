@@ -22,7 +22,7 @@
 17	This is the town. No mistake.<$FFFE>
 # spk: Shop
 18	Welcome！ Do you have a special<$FFFC>invitation ticket？<$FFFE>
-# spk: Lambda
+# spk: Madam
 19	Right here.<$FFFE>
 # spk: Shop
 20	Welcome！ To the biggest, mightiest<$FFFC>bargain sale of the century♡<$FFFD>Soldiers may not enter beyond this point.<$FFFC>If you wish to shop, please leave your<$FFFC>mercenaries behind.<$FFFE>

@@ -18,18 +18,18 @@
 14	・Reach turn 20 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 # spk: Mariandel
 15	Ancient Ruin, Weather Control<$FFFC>Facility<$FFFF>
+# spk: Mariandel
+16	<$FB00><$000E>So this is the<$FFFC>weather-control ruin Virash spoke of.<$FFFE>
 # spk: Sigma
-16	<$FB00><$000E>So this is the weather-control<$FFFC>ruin Virash spoke of.<$FFFE>
-# spk: Engineer
-17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$0010>Ah, atop that pedestal.<$FFFE>
+17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>…. <$FFF6><$FB00><$0010>Ah,<$FFFC>atop that pedestal.<$FFFE>
 # spk: Brenda
 18	<$FB00><$0011>Then let's have him work the<$FFFC>device right away.<$FFFE>
 # spk: Grove
 19	<$FB00><$0012>I won't let you！<$FFFE>
 # spk: Sigma
 20	<$FB00><$0013>Grove！？<$FFFE>
-# spk: Clarett
-21	<$FB00><$0014>Just in time. I'll take my<$FFFC>revenge here！<$FFFE>
+# spk: Bulk
+21	<$FB00><$0014>Just in time. I'll take my revenge<$FFFC>here！<$FFFE>
 # spk: Grove
 22	<$FB00><$0015>Don't take me lightly. And I've<$FFFC>found a special corpse just for you.<$FFFE>
 # spk: Rockwell

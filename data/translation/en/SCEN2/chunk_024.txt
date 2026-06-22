@@ -14,9 +14,9 @@
 # spk: Sigma
 11	・Langrisser is stolen and carried off north<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Transport Ship, Cargo Block<$FFFF>
-# spk: Omega
+# spk: (location/crowd)
 13	<$FB00><$0022>Hey, hurry up and search！<$FFFE>
-# spk: Soldier
+# spk: (location/crowd)
 14	<$FB00><$0023>Lord Omega. The interior does<$FFFC>not seem contaminated.<$FFFE>
 # spk: Omega
 15	<$FB00><$0024>Good. Then let's grab the goods<$FFFC>already.<$FFFE>
@@ -26,8 +26,8 @@
 17	<$FB00><$0026>Then recover the specimens<$FFFC>yourselves. The Crimzo Landers shot down<$FFFC>the cargo ship. If we leave Langrisser<$FFFC>here, it may be stolen.<$FFFE>
 # spk: Soldier
 18	<$FB00><$0027><$FFF7>Y, yes sir<$FFF5><$FFF8>…<$FFFE>
-# spk: Sigma
-19	<$FB00><$0028>We found it. No doubt, this is the<$FFFC>airship Virash mentioned.<$FFFE>
+# spk: (location/crowd)
+19	<$FB00><$0028>We found it. No doubt, this is<$FFFC>the airship Virash mentioned.<$FFFE>
 # spk: Alfred
 20	<$FB00><$0029>Hard to believe the body stayed<$FFFC>intact.<$FFFE>
 # spk: Brenda

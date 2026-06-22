@@ -31,7 +31,10 @@ Sickroom"; the first FB00 record is 9).
 - `p+9 >= speaker_pool_size` (e.g. `58`) => a location/special plate; treat as
   unresolved and keep the conservative chunk-wide pool reserve.
 
-The first display command for a record wins.
+A record can carry more than one display command; the one that draws the plate
+has `p+8 == 0` (name visible), so among a record's commands the lowest
+`(p+8, position)` wins. (Chunk 69 record 31 has a `p+9=0`/`p+8=1` command before
+the real `p+9=1`/`p+8=0` Mariandel command; taking the first gave Sigma.)
 
 > **History.** A prior revision read the speaker from the actor key at `u16@p+6`
 > (via `actor_plate_table.field2`) with record = `first_fb + text_id`. A static

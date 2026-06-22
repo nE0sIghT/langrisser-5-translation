@@ -19,7 +19,7 @@
 15	Welcome～♪<$FFFE>
 # spk: Clarett
 16	Um, we came because of this<$FFFC>coupon…<$FFFE>
-# spk: Sigma
+# spk: Shop
 17	Yes！ One coupon gets 5 people 20<$FFFC>minutes free～♪<$FFFE>
 # spk: Shop
 18	Yes！ One coupon gets 5 people 30<$FFFC>minutes free～♪<$FFFE>

@@ -15,8 +15,8 @@
 12	<$FB00><$005A>Looks like enemy command is<$FFFC>confused. Their units are not<$FFFC>coordinating.<$FFFE>
 # spk: Soldier
 13	<$FB00><$005B>That is why we can hold out…<$FFFE>
-# spk: (location/crowd)
-14	<$FB00><$005C>Most likely the princess<$FFFC>attacked enemy HQ, so orders stopped.<$FFFE>
+# spk: Lenard
+14	<$FB00><$005C>Most likely the princess attacked<$FFFC>enemy HQ, so orders stopped.<$FFFE>
 # spk: Eric
 15	<$FB00><$005D>Lord Lenard！ Princess Clarett<$FFFC>raided enemy HQ and defeated the<$FFFC>commander！<$FFFE>
 # spk: Lenard

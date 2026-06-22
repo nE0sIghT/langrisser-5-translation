@@ -44,7 +44,7 @@
 27	Don't think you can escape！<$FFFE>
 # spk: Sigma
 28	Careful, Lambda！ Keep away from<$FFFC>him！<$FFFE>
-# spk: Lambda
+# spk: Sigma
 29	That seems wise.<$FFFE>
 # spk: Selena
 30	Leave this to us. You two run,<$FFFC>quickly.<$FFFE>

@@ -22,8 +22,8 @@
 16	<$FB00><$0036>Right flank likewise ready！<$FFFE>
 # spk: Soldier
 17	<$FB00><$0037>Magitek giant locked in place<$FFFC>before the fort.<$FFFE>
-# spk: Gilmore
-18	<$FB00><$0038>Preparations are in order, then.<$FFFC>Now let them come whenever<$FFF5><$FFF8>…<$FFFE>
+# spk: (location/crowd)
+18	<$FB00><$0038>Preparations are in order,<$FFFC>then. Now let them come whenever<$FFF5><$FFF8>…<$FFFE>
 # spk: Soldier
 19	<$FB00><$0039>They're here！<$FFFE>
 # spk: Clarett

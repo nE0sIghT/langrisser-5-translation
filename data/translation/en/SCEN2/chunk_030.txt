@@ -17,7 +17,7 @@
 14	Valtar City, Underground Dock Entrance<$FFFF>
 # spk: Sigma
 15	<$FB00><$002B>The decoy team drew the enemy off<$FFFC>nicely. Only one unit of guards left.<$FFFE>
-# spk: Mariandel
+# spk: Sigma
 16	<$FB00><$002C>Then just us will be enough.<$FFFE>
 # spk: Alfred
 17	<$FB00><$002D>We can handle this on our own.<$FFFE>

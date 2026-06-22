@@ -13,8 +13,8 @@
 # spk: Sigma
 11	・20 turns pass<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Demon Temple, Interior<$FFFF>
-# spk: Gaiel
-13	<$FFF8><$FB00><$0003>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0004>So you've come at<$FFFC>last.<$FFFE>
+# spk: Mariandel
+13	<$FFF8><$FB00><$0003>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0004>So you've come<$FFFC>at last.<$FFFE>
 # spk: Sigma
 14	<$FFF8>…<$FFF6><$FB00><$0005>Gaiel. You can't escape now.<$FFFE>
 # spk: Gaiel

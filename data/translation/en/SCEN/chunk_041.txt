@@ -188,7 +188,7 @@
 101	Please wait！ it's me, Alfred！<$FFFE>
 # spk: Mariandel
 102	I won't be fooled！ if you're<$FFFC>the real one, show me proof！<$FFFE>
-# spk: Alfred
+# spk: Sigma
 103	Proof, huh…<$FFFE>
 104	・Show the family tree<$FFFE>
 105	・Talk about the Lambda days<$FFFE>
@@ -223,8 +223,8 @@
 122	・Talk about McClaine<$FFFE>
 123	・Talk about Landius<$FFFE>
 124	・Talk about Goldry<$FFFE>
-# spk: Mariandel
-125	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
+# spk: Sigma
+125	I'm sorry. you were the real one<$FFF8>…<$FFFE>
 # spk: Mariandel
 126	I'm sorry. you were the real<$FFFC>one<$FFF8>…<$FFFE>
 # spk: Mariandel
@@ -261,7 +261,7 @@
 145	Sorry about that. for doubting<$FFFC>you.<$FFFE>
 # spk: Brenda
 146	Stripping off here, what are you<$FFFC>thinking！<$FFFE>
-# spk: Lanford
+# spk: Sigma
 147	Calm down！ it's me, Lanford.<$FFFE>
 # spk: Brenda
 148	I won't be fooled！ if you're the<$FFFC>real one, show me proof！<$FFFE>

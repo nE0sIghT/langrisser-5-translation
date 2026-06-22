@@ -31,7 +31,7 @@
 19	<$FB00><$0033>An accomplice？ Me？ That man did<$FFFC>the killing！<$FFFE>
 # spk: Officer
 20	<$FB00><$0034>We know you plotted with him to<$FFFC>murder the Emperor.<$FFFD>Now come along quietly, my 5 million gold<$FFFC>bounty！<$FFFE>
-# spk: Clarett
+# spk: Sigma
 21	<$FFF8>…<$FFF6><$FB00><$0035>Kh！ Lady Jessica, I'm sorry to<$FFFC>drag you into this.<$FFFE>
 # spk: Jessica
 22	<$FB00><$0036>It seems this land, too, has<$FFFC>changed while we were away.<$FFFE>
