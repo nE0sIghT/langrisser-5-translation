@@ -65,6 +65,17 @@ def cells(codec: Codec, text: str) -> int:
     return len(codec.encode(text))
 
 
+# Punctuation that must never start a line: it has to stay with the word it
+# follows. A break is never opened before a run made only of these (e.g. a word
+# and its "？", "！", "?!", "…" must wrap together, not apart). "・" is excluded:
+# it is the choice/list bullet and is meant to start a line.
+PUNCT_RUN_CHARS = set("？！?!…‥。、，．：；:;,.")
+
+
+def is_punct_run(s: str) -> bool:
+    return bool(s) and all(ch in PUNCT_RUN_CHARS for ch in s)
+
+
 def wrap(codec: Codec, text: str, width: int) -> str:
     words = text.split()
     lines: list[str] = []
@@ -144,14 +155,26 @@ def wrap_stream(codec: Codec, text: str, width: int, reserve: int = 0,
     i = 0
     while i <= len(tags):
         raw = text[pos : tags[i].start()] if i < len(tags) else text[pos:]
-        for part in re.split(r"(\s+)", raw):
-            if not part:
-                continue
+        parts = [p for p in re.split(r"(\s+)", raw) if p]
+        k = 0
+        while k < len(parts):
+            part = parts[k]
             if part.isspace():
+                # Keep trailing punctuation with its word: if a run of pure
+                # punctuation follows this space, glue the space + punctuation
+                # into the current atom instead of opening a break here, so the
+                # word and its punctuation wrap together rather than apart.
+                nxt = parts[k + 1] if k + 1 < len(parts) else ""
+                if atom_parts and is_punct_run(nxt):
+                    atom_parts.append(part)
+                    atom_parts.append(nxt)
+                    k += 2
+                    continue
                 flush_atom()
                 saw_space = True
             else:
                 atom_parts.append(part)
+            k += 1
         if i == len(tags):
             break
         m = tags[i]
