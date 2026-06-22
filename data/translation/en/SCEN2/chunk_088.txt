@@ -8,54 +8,100 @@
 6	Lanford<$FFFF>
 7	Shop<$FFFF>
 8	In town<$FFFF>
+# spk: Alfred
 9	<$FB00><$0058>Excuse me. Does this store carry<$FFFC>the herb Florier？<$FFFE>
+# spk: Shop
 10	<$FB00><$0059>Florier？ The fever medicine, yes？<$FFFE>
+# spk: Alfred
 11	<$FB00><$005A>Yes. So, do you have any？<$FFFE>
+# spk: Shop
 12	<$FFF8>…<$FFF6><$FB00><$005B>I'm afraid we don't. That herb is<$FFFC>rarely ever found<$FFF5><$FFF8>…<$FFFE>
+# spk: Shop
 13	<$FB00><$005C>And something that expensive is more<$FFFC>than our shop can stock.<$FFFE>
+# spk: Alfred
 14	<$FB00><$005D>Then where should I go to find<$FFFC>some？<$FFFE>
+# spk: Shop
 15	<$FB00><$005E>That's hard to say<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 16	<$FFF8>…<$FFF6><$FB00><$005F>I see<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 17	<$FFF8>…<$FE1E>…<$FE1E><$FFF7><$FB00><$0060>Sigh<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 18	<$FB00><$0061>Hey, you there. Wait a second.<$FFFE>
+# spk: Alfred
 19	<$FB00><$0062>Y, yes？<$FFFE>
+# spk: Clarett
 20	<$FB00><$0063>I overheard you talking with the<$FFFC>shopkeeper. You're looking for fever<$FFFC>medicine？<$FFFE>
+# spk: Alfred
 21	…<$FB00><$0064>That's right. My father is down<$FFFC>with a fever, so I'm out searching<$FFF5>…<$FFFE>
+# spk: Clarett
 22	<$FB00><$0065>I see, your father<$FFF5>… <$FB00><$0074>Say, shall I<$FFFC>share my medicine？<$FFFE>
+# spk: Alfred
 23	<$FB00><$0066>Eh？ You have Florier？<$FFFE>
+# spk: Clarett
 24	<$FB00><$0067>Not Florier, but a medicine from<$FFFC>my home continent. It works well.<$FFFE>
+# spk: Alfred
 25	<$FB00><$0068>Please, let me have it！ I'll pay<$FFFC>whatever it takes！<$FFFE>
+# spk: Clarett
 26	<$FB00><$0069>N, no！ I wasn't offering to<$FFFC>make money off you<$FFF5>…<$FFFE>
+# spk: Alfred
 27	<$FB00><$006A>But then I couldn't live with<$FFFC>myself！ At least take this much！<$FFFE>
+# spk: Clarett
 28	…<$FB00><$006B>Very well. Then I'll gladly<$FFFC>accept. Here. This is the fever medicine.<$FFFE>
+# spk: Alfred
 29	<$FB00><$006C>You're a lifesaver！<$FFFE>
+# spk: Clarett
 30	<$FB00><$006D>What will you do now？<$FFFE>
+# spk: Alfred
 31	<$FB00><$006E>Take the medicine straight to my<$FFFC>father. My home is in the Reynolds region.<$FFFE>
+# spk: Clarett
 32	<$FB00><$006F>Oh？ Then why don't we travel<$FFFC>together a while？<$FFFE>
+# spk: Alfred
 33	<$FB00><$0070>Gladly. It must be fate of a sort.<$FFFE>
 34	On the road to the sorcery lab<$FFFF>
+# spk: Lambda
 35	<$FB00><$0071>We'll reach a town soon, but my<$FFFC>data says Caconsis troops hold it. It may<$FFFC>come to a fight, so be ready.<$FFFE>
+# spk: Sigma
 36	<$FB00><$0072>Best stay on guard, then.<$FFFE>
+# spk: Lambda
 37	By the way, before we reach town,<$FFFC>I want to go over a bit more tactics<$FFF8>…<$FFFE>
+# spk: Sigma
 38	What now？<$FFFE>
+# spk: Lambda
 39	Do you know how experience is<$FFFC>earned for defeating enemies？<$FFFE>
 40	・I know it.<$FFFE>
 41	・Remind me, just in case.<$FFFE>
+# spk: Lambda
 42	Good. So you know that part.<$FFFE>
+# spk: Lambda
 43	Defeating enemy mercenaries or<$FFFC>leaders earns us experience, <$FFF4>EXP <$FFF3>for<$FFFC>short. Defeat a leader and his unit falls<$FFFC>with him.<$FFFD>But mercenaries lost that way give <$FFF4>half<$FFFC>the EXP of direct kills<$FFF3>.<$FFFE>
+# spk: Sigma
 44	So to earn proper experience,<$FFFC>better cut down the mercenaries first？<$FFFE>
+# spk: Lambda
 45	Yes. Though <$FFF4>the gold comes in<$FFFC>full<$FFF3>, so don't fret over it.<$FFFE>
+# spk: Sigma
 46	Mercenaries first, then, and when<$FFFC>pressed, go straight for the leader…<$FFFE>
+# spk: Lambda
 47	Last one. What about the other<$FFFC>ways to earn experience？<$FFFE>
 48	・I know it.<$FFFE>
 49	・Remind me, just in case.<$FFFE>
+# spk: Lambda
 50	Good. Then that's all.<$FFFE>
+# spk: Sigma
 51	Trust my knowledge a little, will<$FFFC>you.<$FFFE>
+# spk: Sigma
 52	Remind me, just in case.<$FFFE>
+# spk: Lambda
 53	Healing spells like the Heal line<$FFFC>or Cure earn EXP <$FFF4>per person healed<$FFF3>. But<$FFFC>past a certain turn it stops coming, and<$FFFC>each stage has a cap on it.<$FFFE>
+# spk: Sigma
 54	What about other magic？<$FFFE>
+# spk: Lambda
 55	No. Other spells work like normal<$FFFC>attacks, EXP comes from kills.<$FFFE>
+# spk: Sigma
 56	Meaning when a leader falls, his<$FFFC>mercenaries go too, at half the EXP.<$FFFE>
+# spk: Lambda
 57	But if an area or unit spell<$FFFC>brings a mercenary's HP to 0, it counts as<$FFFC>a proper kill.<$FFFE>
+# spk: Sigma
 58	So magic attacks take some thought<$FFFC>as well.<$FFFE>
+# spk: Lambda
 59	<$FB00><$0073>That's about all I wanted to say.<$FFFC>Now let's hurry on.<$FFFE><$FFFF>

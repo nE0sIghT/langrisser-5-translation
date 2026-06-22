@@ -8,117 +8,229 @@
 6	Lanford<$FFFF>
 7	Officer<$FFFF>
 8	Monster<$FFFF>
+# spk: Sigma
 9	・Defeat all enemies<$FFFE>
+# spk: Sigma
 10	・3 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
 11	Road to Velzeria<$FFFF>
+# spk: Sigma
 12	<$FB00><$0022>They go after supplies like<$FFFC>humans.<$FFFE>
+# spk: Brenda
 13	<$FB00><$0023>They are not stupid, then.<$FFFE>
+# spk: Alfred
 14	<$FB00><$0024>Never mind that, we have to deal<$FFFC>with this！<$FFFE>
+# spk: Clarett
 15	<$FB00><$0025>Right. If we lose them, we can<$FFFC>march no farther.<$FFFE>
+# spk: Mariandel
 16	<$FB00><$0026>Worst case, how much can we<$FFFC>afford to lose？<$FFFE>
+# spk: Clarett
 17	If four of these supply units<$FFFC>survive, we might manage.<$FFFE>
+# spk: Sigma
 18	There are five units, so if two or<$FFFC>more fall, we cannot march.<$FFFE>
+# spk: Clarett
 19	<$FB00><$0027>If three of these supply units<$FFFC>survive, we might manage.<$FFFE>
+# spk: Sigma
 20	<$FB00><$0028>There are five units, so if three<$FFFC>or more fall, we cannot march.<$FFFE>
+# spk: Brenda
 21	<$FB00><$0029>If we drop the bridges to this<$FFFC>island, we can slow them down.<$FFFE>
+# spk: Sigma
 22	<$FB00><$002A>Right. Cut the ropes, and the<$FFFC>bridges should fall.<$FFFE>
+# spk: (no plate)
 23	At a bridge foot, choose whether to cut<$FFFC>the ropes.<$FFFD><$FFF4>Yes <$FFF3>drops the bridge. <$FFF4>No <$FFF3>waits for later.<$FFFE>
+# spk: Mariandel
 24	<$FB00><$002B>At a bridge, we will ask what<$FFFC>to do.<$FFFE>
+# spk: Sigma
 25	<$FB00><$002C>Understood. I count on you！<$FFFE>
 26	・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Sigma
 27	<$FB00><$002D>Run to the fort north of the<$FFFC>lake！ We hold them here！<$FFFE>
+# spk: Officer
 28	<$FB00><$002E>Y-yes！<$FFFE>
+# spk: (no plate)
 29	Drop the bridge？<$FFFE>
+# spk: (no plate)
 30	Drop the bridge？<$FFFE>
+# spk: (no plate)
 31	Drop the bridge？<$FFFE>
+# spk: (no plate)
 32	Drop the bridge？<$FFFE>
+# spk: (no plate)
 33	Drop the bridge？<$FFFE>
+# spk: (no plate)
 34	Drop the bridge？<$FFFE>
+# spk: (no plate)
 35	Drop the bridge？<$FFFE>
+# spk: (no plate)
 36	Drop the bridge？<$FFFE>
+# spk: (no plate)
 37	Drop the bridge？<$FFFE>
+# spk: (no plate)
 38	Drop the bridge？<$FFFE>
+# spk: (no plate)
 39	Drop the bridge？<$FFFE>
+# spk: (no plate)
 40	Drop the bridge？<$FFFE>
+# spk: (no plate)
 41	Drop the bridge？<$FFFE>
+# spk: (no plate)
 42	Drop the bridge？<$FFFE>
+# spk: Clarett
 43	<$FB00><$003C>The supply units finished<$FFFC>evacuating.<$FFFE>
+# spk: Sigma
 44	<$FB00><$003D>Good. Now wipe out the enemy.<$FFFE>
+# spk: Officer
 45	Thank you！<$FFFE>
+# spk: Officer
 46	We will go on ahead！<$FFFE>
+# spk: Officer
 47	Good luck！<$FFFE>
+# spk: Officer
 48	We will deliver these supplies！<$FFFE>
+# spk: Officer
 49	Whew！ I thought I was dead…<$FFFE>
+# spk: (no plate)
 50	A single red lotus blooms. As you gaze at<$FFFC>it, a beautiful woman appears on the lake.<$FFFD>You are fated to change the age. Take this<$FFFC>sword.<$FFFD><$0000> <$0000><$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
+# spk: Sigma
 51	<$FB00><$002B>Take this！<$FFFE>
+# spk: Sigma
 52	<$FFF7><$FB00><$002A>Hah！<$FFF5><$FFF8><$FFFE>
+# spk: Sigma
 53	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
+# spk: Mariandel
 54	<$FB00><$0046>Let's go.<$FFFE>
+# spk: Mariandel
 55	<$FB00><$0047>Come if you dare.<$FFFE>
+# spk: Mariandel
 56	<$FB00><$004B>No… I lost…<$FFFE>
+# spk: Sigma
 57	<$FB00><$004C>Marie, leave this to us and fall<$FFFC>back！<$FFFE>
+# spk: Mariandel
 58	…<$FB00><$004D>Sorry…<$FFFE>
+# spk: Alfred
 59	<$FB00><$0075>I can fight too！<$FFFE>
+# spk: Alfred
 60	<$FB00><$0076>I won't lose！<$FFFE>
+# spk: Alfred
 61	<$FB00><$0078>Am I not good enough…<$FFFE>
+# spk: Sigma
 62	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
+# spk: Alfred
 63	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
+# spk: Brenda
 64	<$FB00><$0068>Come and get me！<$FFFE>
+# spk: Brenda
 65	<$FB00><$0069>Who do you think I am！<$FFFE>
+# spk: Brenda
 66	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
+# spk: Sigma
 67	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+# spk: Brenda
 68	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
+# spk: Sigma
 69	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
+# spk: Brenda
 70	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
+# spk: Clarett
 71	<$FB00><$0055>Forgive me！<$FFFE>
+# spk: Clarett
 72	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 73	<$FB00><$005C>Ow！ You dare！<$FFFE>
+# spk: Sigma
 74	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
+# spk: Clarett
 75	<$FB00><$005E>B-but…<$FFFE>
+# spk: Sigma
 76	<$FB00><$005F>Just fall back！<$FFFE>
+# spk: Clarett
 77	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
+# spk: Officer
 78	Uwah！<$FFFE>
+# spk: Officer
 79	Guoh！<$FFFE>
+# spk: Officer
 80	N-no…<$FFFE>
+# spk: Officer
 81	I-impossible…<$FFFE>
+# spk: Officer
 82	I do not want to die…<$FFFE>
+# spk: Monster
 83	WOOOO…<$FFFE>
+# spk: Monster
 84	GOOOON！<$FFFE>
+# spk: Monster
 85	BWOOOO…<$FFFE>
+# spk: Monster
 86	H-humans…<$FFFE>
+# spk: Monster
 87	WOOO…<$FFFE>
+# spk: Monster
 88	I curse you…<$FFFE>
+# spk: Monster
 89	GOOOON！<$FFFE>
+# spk: Monster
 90	HEEEE…<$FFFE>
+# spk: Monster
 91	WOOOO…<$FFFE>
+# spk: Monster
 92	WOOO…<$FFFE>
+# spk: Clarett
 93	<$FB00><$003E>Looks like no enemies remain.<$FFFE>
+# spk: Sigma
 94	<$FB00><$003F>Looks like we protected them.<$FFFE>
+# spk: Clarett
 95	<$FB00><$0040>Thanks to you, not one unit was<$FFFC>hurt. Thank you.<$FFFE>
+# spk: Sigma
 96	<$FB00><$0041>Everyone worked hard for it.<$FFFE>
+# spk: Clarett
 97	<$FB00><$0042>Yes. Thank you, everyone.<$FFFE>
+# spk: Brenda
 98	<$FB00><$0043>Of course. If you thank us for<$FFFC>every little thing, who knows how many<$FFFC>times you will thank us from here on？<$FFFE>
+# spk: Mariandel
 99	<$FB00><$0044>When this war ends and peace<$FFFC>returns to Kalxath, thank us all at once.<$FFFE>
+# spk: Clarett
 100	<$FB00><$0045>Still, I am happy that you are<$FFFC>all lending strength to this country. So,<$FFFC>thank you.<$FFFE>
+# spk: Alfred
 101	<$FB00><$0046>Then hurry. McClaine and Jessica<$FFFC>may already be fighting.<$FFFE>
+# spk: Sigma
 102	<$FB00><$0047>Right. We should hurry too.<$FFFE>
+# spk: (no plate)
 103	A huge shadow suddenly crossed the sky.<$FFFD>I am Snow Dragon. Thanks to you, my<$FFFC>children have grown strong. I came today<$FFFC>to repay that debt.<$FFFE>
+# spk: (no plate)
 104	<$F600><$0000> can now hire <$0000><$FFF4>Snow<$FFFC>Dragon<$FFF3>！<$FFFE>
+# spk: (no plate)
 105	Marie can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
+# spk: (no plate)
 106	Alfred can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
+# spk: (no plate)
 107	Brenda can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
+# spk: (no plate)
 108	Clarett can now hire <$0000><$FFF4>Snow Dragon<$FFF3>！<$FFFE>
+# spk: Monster
 109	<$FB00><$0026>GUOOO！！<$FFFE>
+# spk: Sigma
 110	Damn！ There were more over there！<$FFFE>
+# spk: Sigma
 111	<$FB00><$002F>All right, drop this bridge.<$FFFE>
+# spk: Mariandel
 112	<$FB00><$0030>So we drop this bridge？<$FFFE>
+# spk: Alfred
 113	<$FB00><$0031>We are to drop this bridge, then？<$FFFE>
+# spk: Brenda
 114	<$FB00><$0032>Just drop this bridge, right？<$FFFE>
+# spk: Clarett
 115	<$FB00><$0033>Drop this bridge, yes？<$FFFE>
+# spk: Sigma
 116	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
+# spk: Sigma
 117	<$FB00><$0034>Kh！ The supply units took damage<$FFFC><$FFF5><$FFF8>…<$FFFE>
+# spk: Mariandel
 118	<$FB00><$0035>We stop them here！<$FFFE>
+# spk: Alfred
 119	<$FB00><$0036>Ah, another one down！<$FFFE>
+# spk: Sigma
 120	<$FB00><$0037>Second unit<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>No more mistakes！<$FFFE>
+# spk: Clarett
 121	<$FB00><$0039>Ah, the third unit！<$FFFE>
+# spk: Sigma
 122	<$FB00><$003A>We cannot march like this<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$003B>Mission failed<$FFF5><$FFF8>…<$FFFE><$FFFF>

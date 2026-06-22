@@ -10,137 +10,266 @@
 8	Russel<$FFFF>
 9	Ferakia<$FFFF>
 10	Monster<$FFFF>
+# spk: Sigma
 11	・Defeat Ferakia<$FFFE>
+# spk: Sigma
 12	・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Russel's Manor<$FFFF>
+# spk: Lanford
 14	<$FB00><$0024>Surely something can be done！<$FFF5><$FFFC><$FB00><$0025>I must examine the treasure my father<$FFFC>gave<$FFF5><$FFF8>….<$FFFE>
+# spk: Butler
 15	<$FB00><$0026>I've told you many times, I cannot<$FFFC>show you that crystal.<$FFFE>
+# spk: Brenda
 16	<$FB00><$0027>There's no talking to you！ Call<$FFFC>your master！<$FFFE>
+# spk: Butler
 17	<$FB00><$0028>Lord Russel does not meet those<$FFFC>without an appointment. First make an<$FFFC>appointment, and<$FFF5><$FFF8>….<$FFFE>
+# spk: Russel
 18	<$FB00><$0029>What is this racket？<$FFFE>
+# spk: Butler
 19	<$FB00><$002A>Lord Russel. These people<$FFF5><$FFF8>….<$FFFE>
+# spk: Lanford
 20	<$FB00><$002B>Russel<$FFF5><$FFF8>….<$FFFE>
+# spk: Russel
 21	<$FB00><$002C>Hm？ If it isn't Lanford. I<$FFFC>wondered where you'd gone after breaking<$FFFC>out of the dungeon<$FFF5><$FFF8>….<$FFFE>
+# spk: Lanford
 22	<$FB00><$002D>I fight to stop the<$FFFC>Three-Country Alliance. I would have<$FFFC>your aid too.<$FFFD><$FB00><$002E>First, let me examine the crystal my<$FFFC>father gave you.<$FFFE>
+# spk: Russel
 23	<$FB00><$002F>What does a jailbreaker have to<$FFFC>say？ If you wish to talk so badly, you<$FFFC>can wait quietly in a cell until I return.<$FFFD><$FB00><$0030>You there, seize them！<$FFFE>
+# spk: Butler
 24	<$FB00><$0031>Yes, at once.<$FFFE>
+# spk: Sigma
 25	<$FB00><$0032>Wait！<$FFFE>
+# spk: Russel
 26	<$FB00><$0033>Ugh！ This light…！<$FFFE>
+# spk: Ferakia
 27	<$FB00><$0034>Curse it<$FFF5><$FFF8>….<$FFFE>
+# spk: Lanford
 28	<$FB00><$0035>That form！<$FFFE>
+# spk: Butler
 29	<$FB00><$0036>I, impossible… uwaah！<$FFF5><$FFF7><$FFFE>
+# spk: Ferakia
 30	<$FB00><$0037>To think you'd have Langrisser.<$FFFC>That fool Grove, he botched it！<$FFFE>
+# spk: Lanford
 31	<$FB00><$0038>Where is the real Russel？<$FFFE>
+# spk: Ferakia
 32	<$FB00><$0039>He wasn't very tasty.<$FFFE>
+# spk: Clarett
 33	<$FB00><$003A>You mean<$FFF5><$FFF8>….<$FFFE>
+# spk: Ferakia
 34	<$FB00><$003B>He was wandering the woods in a<$FFFC>daze. I only borrowed his rank and his<$FFFC>face.<$FFFE>
+# spk: Sigma
 35	<$FB00><$003C>Lanford. Now we know it's a demon,<$FFFC>no need to hold back. Let's take the<$FFFC>crystal at once.<$FFFE>
+# spk: Lanford
 36	<$FB00><$003D>Right.<$FFFE>
+# spk: Ferakia
 37	<$FB00><$003E>Now that you've seen this form,<$FFFC>I can't let you live. Least of all if you<$FFFC>can use Langrisser.<$FFFD><$FB00><$003F>And you lot, how long will you keep your<$FFFC>human disguises！<$FFFE>
+# spk: Ferakia
 38	<$FB00><$0040>Cover me while I destroy the<$FFFC>crystal in the back！<$FFFE>
+# spk: Monster
 39	<$FB00><$0041>GRRR….<$FFFE>
+# spk: Brenda
 40	<$FB00><$0042>This is no concern of you demons,<$FFFC>is it？<$FFFE>
+# spk: Ferakia
 41	<$FB00><$0043>Concern or not, I love getting<$FFFC>in others' way！<$FFFD><$FB00><$0044>And you say you need it to stop the<$FFFC>Three-Country Alliance？ Knowing that,<$FFFC>all the more reason to smash that crystal.<$FFFE>
+# spk: Mariandel
 42	<$FB00><$0045>Strange. Why would a demon<$FFFC>side with the Three-Country Alliance？<$FFFE>
+# spk: Ferakia
 43	<$FB00><$0046>What good would knowing do you？<$FFFC>You'll all die here anyway！<$FFFE>
+# spk: Brenda
 44	<$FB00><$0047>Looks like there's no choice but<$FFFC>to fight.<$FFFE>
+# spk: Ferakia
 45	<$FB00><$0048>That crystal does hold no small<$FFFC>magic. Dangerous to leave in human hands.<$FFFD><$FB00><$0049>And with that much power, it seems none<$FFFC>but I could destroy it<$FFF5><$FFF8>… <$FFF6><$FB00><$004A>What a bother,<$FFFC>truly.<$FFFE>
+# spk: Ferakia
 46	<$FB00><$0051>Almost there.<$FFF5> <$FB00><$0052>Ahahaha！<$FFFC>Humans, thinking to beat me！<$FFFD><$FB00><$0053>Don't get too full of yourselves！<$FFFE>
+# spk: Mariandel
 47	<$FB00><$0054>This is bad！ If the crystal<$FFFC>is destroyed<$FFF5><$FFF8>….<$FFFE>
+# spk: Sigma
 48	<$FB00><$0055>Hurry, everyone！ Focus our<$FFFC>attacks on that demon woman！<$FFFE>
+# spk: Ferakia
 49	<$FB00><$0056>Kh！ What are you doing, cover me<$FFFC>properly！<$FFFE>
+# spk: (no plate)
 50	Opened the door！<$FFFE>
+# spk: (no plate)
 51	Opened the door！<$FFFE>
+# spk: Sigma
 52	Damn it！ I won't let you go any<$FFFC>further！<$FFFE>
+# spk: Ferakia
 53	Hah！ Stop me if you can！<$FFFE>
+# spk: (no plate)
 54	Opened the door！<$FFFE>
+# spk: Sigma
 55	<$FB00><$0057>No！<$FFFE>
+# spk: Ferakia
 56	<$FB00><$0058>Ahahaha！ Too bad, boy<$FFF5><$FFF8>… <$FFF6><$FB00><$0059>This<$FFFC>crystal, I'll do this to it！<$FFFE>
+# spk: Clarett
 57	<$FB00><$005A>Aah, the crystal！<$FFFE>
+# spk: Lanford
 58	<$FB00><$005B>Now the clue to breaking the<$FFFC>curse is<$FFF5><$FFF8>….<$FFFE>
+# spk: Sigma
 59	<$FB00><$005C>Sorry, Lanford<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>If only I'd done<$FFFC>better<$FFF5><$FFF8>….<$FFFE>
+# spk: (no plate)
 60	<$0000> <$0000>Got the Magical Bikini！<$FFFE>
+# spk: Sigma
 61	The ground bulges in a mound. Dig<$FFFC>a little, and a mischievous-looking<$FFFC>Gnome pops out.<$FFFD>Hey, hey！ Well found！ Care to try the<$FFFC><$FFF4>Ultimate Gamble<$FFF3>？<$FFFE>
+# spk: (no plate)
 62	Then pick whichever box you like from<$FFFC>these！ Two of them are empty！<$FFFE>
 63	・Red box<$FFFE>
 64	・White box<$FFFE>
 65	・Green box<$FFFE>
 66	・Blue box<$FFFE>
+# spk: (no plate)
 67	<$0000> <$FFF4>Crown<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 68	<$0000> <$FFF4>Sonic Band<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 69	<$0000> <$FFF4>Crown<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 70	<$0000> <$FFF4>Sonic Band<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 71	<$0000> <$FFF4>Crown<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 72	<$0000> <$FFF4>Sonic Band<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 73	<$0000> <$FFF4>Crown<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 74	<$0000> <$FFF4>Sonic Band<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 75	<$0000> <$0000><$0000>It was empty inside….<$FFFE>
+# spk: (no plate)
 76	See you！ Bye-bye！<$FFFE>
+# spk: (no plate)
 77	Once you've made up your mind, come<$FFFC>again！<$FFFE>
+# spk: Sigma
 78	<$FB00><$002B>Eat this！<$FFFE>
+# spk: Sigma
 79	<$FB00><$002C>Take this！<$FFFE>
+# spk: Sigma
 80	<$FB00><$002F>If only I had more strength…<$FFFE>
+# spk: Mariandel
 81	<$FB00><$0046>Here goes.<$FFFE>
+# spk: Mariandel
 82	<$FB00><$0047>Come if you dare.<$FFFE>
+# spk: Mariandel
 83	<$FB00><$004B>No… that I should…<$FFFE>
+# spk: Sigma
 84	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
+# spk: Mariandel
 85	…<$FB00><$004D>I'm sorry….<$FFFE>
+# spk: Alfred
 86	<$FB00><$0075>I can fight too！<$FFFE>
+# spk: Alfred
 87	<$FB00><$0076>I won't lose！<$FFFE>
+# spk: Alfred
 88	<$FB00><$007B>I can still… I can still fight…<$FFFE>
+# spk: Sigma
 89	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
+# spk: Alfred
 90	<$FB00><$007D>But…<$FFFE>
+# spk: Sigma
 91	<$FB00><$007E>Trust your comrades！<$FFFE>
+# spk: Alfred
 92	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
+# spk: Brenda
 93	<$FB00><$0067>Here I go！<$FFFE>
+# spk: Brenda
 94	<$FB00><$0068>Come and get it！<$FFFE>
+# spk: Brenda
 95	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
+# spk: Sigma
 96	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+# spk: Brenda
 97	<$FB00><$006D>Yeah, I'm fine… I can still go…<$FFFE>
+# spk: Sigma
 98	<$FB00><$006E>Fall back, Brenda！ Don't overdo<$FFFC>it！<$FFFE>
+# spk: Brenda
 99	<$FB00><$006F>…I'll do that. I don't want to<$FFFC>drag you down…<$FFFE>
+# spk: Clarett
 100	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 101	<$FB00><$0055>Give it up！<$FFFE>
+# spk: Clarett
 102	<$FB00><$005C>Ow！ Y, you！<$FFFE>
+# spk: Sigma
 103	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
+# spk: Clarett
 104	<$FB00><$005E>B, but….<$FFFE>
+# spk: Sigma
 105	<$FB00><$005F>Enough, fall back！<$FFFE>
+# spk: Clarett
 106	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+# spk: Lanford
 107	<$FB00><$0085>By this sword, I'll defeat you！<$FFFE>
+# spk: Lanford
 108	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+# spk: Sigma
 109	<$FB00><$008A>Lanford！<$FFFE>
+# spk: Lanford
 110	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
+# spk: Sigma
 111	<$FB00><$008C>Trust us！<$FFFE>
+# spk: Lanford
 112	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
+# spk: Monster
 113	Gwooooh….<$FFFE>
+# spk: Monster
 114	U, uu… how galling…<$FFFE>
+# spk: Monster
 115	WOOO！<$FFFE>
+# spk: Monster
 116	Such power… can it be…<$FFFE>
+# spk: Monster
 117	GRRRRR….<$FFFE>
+# spk: Monster
 118	Wh, why….<$FFFE>
+# spk: Monster
 119	H, how….<$FFFE>
+# spk: Monster
 120	…G…GG….<$FFFE>
+# spk: Monster
 121	SHAAAAA！<$FFFE>
+# spk: Monster
 122	…SYUU….<$FFFE>
+# spk: Ferakia
 123	<$FB00><$005E>U, uu<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>To think humans held<$FFFC>such power<$FFF5><$FFF8>….<$FFFE>
+# spk: Lanford
 124	<$FB00><$0060>I'll avenge Russel.<$FFFE>
+# spk: Ferakia
 125	<$FB00><$0061>Is this too the power of<$FFFC>Langrisser<$FFF5><$FFF8>… <$FFF6><$FB00><$0062>But I can't afford to die here<$FFFC>just yet！<$FFFE>
+# spk: Sigma
 126	<$FB00><$0063>Kh！ Quick to flee<$FFF5><$FFF8>….<$FFFE>
+# spk: Alfred
 127	<$FFF8>…<$FFF6><$FB00><$0064>At least the crystal is safe.<$FFFE>
+# spk: Mariandel
 128	<$FB00><$0065>Still, that demon's manner, it<$FFFC>felt as if she sides with the<$FFFC>Three-Country Alliance.<$FFFE>
+# spk: Brenda
 129	<$FB00><$0066>Something's behind it.<$FFFC>Crimzonians and humans would never team<$FFFC>with demons, at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
+# spk: Sigma
 130	Empty！？ A wasted effort<$FFF8>….<$FFFE>
+# spk: Mariandel
 131	<$FFF8>…. <$FFF6>Looks like there's<$FFFC>nothing.<$FFFE>
+# spk: Alfred
 132	Huh？ It's empty<$FFF8>….<$FFFE>
+# spk: Brenda
 133	It's empty！？ What a cheapskate,<$FFFC>honestly！<$FFFE>
+# spk: Clarett
 134	Awful！ It's totally empty！<$FFFE>
+# spk: Lanford
 135	Looks like it's already been<$FFFC>taken. Nothing inside<$FFF8>….<$FFFE>
+# spk: Monster
 136	<$FB00><$0041>GYOOOOON！<$FFFE>
+# spk: Sigma
 137	<$FB00><$004B>So they were lurking<$FFFC>underwater….<$FFFE>
+# spk: Mariandel
 138	<$FB00><$004C>What… an ambush？<$FFFE>
+# spk: Alfred
 139	<$FB00><$004D>Heh, an ambush！？<$FFFE>
+# spk: Brenda
 140	<$FB00><$004E>An ambush, well played！<$FFFE>
+# spk: Clarett
 141	<$FB00><$004F>Eh, an ambush in a place like<$FFFC>this？<$FFFE>
+# spk: Lanford
 142	<$FB00><$0050>An ambush. Demons do think, it<$FFFC>seems.<$FFFE>
+# spk: Monster
 143	SYUGOOO！<$FFFE>
+# spk: Sigma
 144	Kh, there are still more！？<$FFFE><$FFFF>

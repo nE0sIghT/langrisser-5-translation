@@ -9,145 +9,283 @@
 7	Goldry<$FFFF>
 8	Officer<$FFFF>
 9	・Defeat Goldry<$FFFE>
+# spk: Sigma
 10	・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 11	Town of Knox・Entrance<$FFFF>
+# spk: Sigma
 12	<$FB00><$002B>Finally some open ground.<$FFFE>
+# spk: Lambda
 13	<$FB00><$002C>But there's no time to rest. We're<$FFFC>crossing through this town.<$FFFE>
+# spk: Sigma
 14	<$FB00><$002D>Hold on, Lambda. Something's going<$FFFC>on over there.<$FFFE>
+# spk: Goldry
 15	<$FB00><$002E>I'll make you regret crossing me！<$FFFE>
+# spk: Clarett
 16	<$FB00><$002F>Don't take me for some ordinary<$FFFC>girl！ I'll have you beaten in no time！<$FFFE>
+# spk: Alfred
 17	<$FB00><$0030>W-wait, Miss Clarett！ I'm really<$FFFC>no good at fighting.<$FFFD><$FB00><$0031>Besides, if we fight here, the townsfolk<$FFFC>will get caught up in it！<$FFFE>
+# spk: Clarett
 18	<$FB00><$0032>Say what you like, but he means<$FFFC>to fight, you know？<$FFFE>
+# spk: Alfred
 19	<$FB00><$0033>Then at least take it outside the<$FFFC>town, all right？<$FFFE>
+# spk: Clarett
 20	<$FB00><$0034>Fine, fine.<$FFFE>
+# spk: Goldry
 21	<$FB00><$0035>Why, you！ You won't get away！<$FFFE>
+# spk: Lambda
 22	<$FB00><$0036>Those are Caconsis troops. They<$FFFC>seem to be fighting some adventurers.<$FFFE>
+# spk: Sigma
 23	<$FB00><$0037>Looks to me like the Caconsis<$FFFC>soldiers are simply picking on them.<$FFFD>What do you say, Lambda？ Shall we help<$FFFC>those two？<$FFFE>
+# spk: Lambda
 24	<$FB00><$0038>I'd rather avoid pointless<$FFFC>battles, but dealing Caconsis a blow now<$FFFC>may serve us later.<$FFFE>
+# spk: Sigma
 25	<$FB00><$0039>Then it's settled. Let's help<$FFFC>those two.<$FFFE>
+# spk: Lambda
 26	<$FB00><$003A>Understood.<$FFFE>
+# spk: Clarett
 27	<$FB00><$0047>See you around, Captain Dimwit！<$FFFE>
+# spk: Goldry
 28	<$FFF8><$FB00><$0048>Grrr… <$FFF5><$FFF6><$FB00><$0049>So be it, then I'll butcher<$FFFC>the rest of them instead！<$FFFE>
+# spk: Sigma
 29	<$FFF8>…<$FFF6><$FB00><$004A>Try it.<$FFFE>
+# spk: Alfred
 30	<$FB00><$004B>With trees this thick, horses<$FFFC>should lose their footing. If I can slip<$FFFC>away meanwhile<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 31	<$FB00><$004C>Hmph, how naive！<$FFFE>
+# spk: Goldry
 32	<$FB00><$004D>The kid's headed your way. We'll<$FFFC>catch him in a pincer.<$FFFE>
+# spk: Officer
 33	<$FB00><$004E>Sir！ Leave it to us.<$FFFE>
+# spk: Lambda
 34	<$FB00><$0057>You there.<$FFFE>
+# spk: Alfred
 35	<$FB00><$0050>Huh？ Me？<$FFFE>
+# spk: Lambda
 36	<$FB00><$0058>That's right. Would you help us<$FFFC>bring down those horsemen？<$FFFE>
+# spk: Alfred
 37	<$FB00><$0052>You mean me？ <$FFF5><$FE3C><$FFF8>…<$FFF6><$FB00><$0053>I couldn't<$FFF5>…<$FFFE>
+# spk: Lambda
 38	<$FB00><$0059>We need your strength. Either way,<$FFFC>staying put means danger.<$FFFE>
+# spk: Alfred
 39	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I don't know how to<$FFFC>fight, so please give me directions.<$FFFE>
+# spk: Lambda
 40	<$FB00><$005A>Thank you.<$FFFE>
+# spk: Goldry
 41	Hey, you damn wench！ Unless you<$FFFC>want to anger me any further, get over<$FFFC>here, nice and quiet！<$FFFE>
+# spk: Clarett
 42	…<$FFFE>
+# spk: Goldry
 43	Hey, you！ Are you even listening！<$FFFE>
+# spk: Clarett
 44	…why…<$FFFE>
+# spk: Goldry
 45	That's it！ No matter what<$FFFC>happens, I will never forgive you！<$FFFE>
+# spk: Sigma
 46	<$FB00><$003B>Now, how shall we move<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 47	<$FB00><$003C>Ah, that man<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FFF6><$FB00><$003D>it can't be<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 48	<$FB00><$003E>What's the matter, Miss Clarett？<$FFFE>
+# spk: Clarett
 49	<$FFF8>…<$FFF6><$FB00><$003F>No, surely not<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 50	<$FB00><$0040>All right, let's move！<$FFFE>
+# spk: Sigma
 51	…kh！<$FFFE>
+# spk: Goldry
 52	Hah hah hah hah！ Serves you<$FFFC>right！<$FFFE>
+# spk: Sigma
 53	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
+# spk: Lambda
 54	Before we fight, mind if I check<$FFFC>one thing？<$FFFE>
+# spk: Sigma
 55	What is it？<$FFFE>
+# spk: Lambda
 56	Do you remember <$FFF4>combat affinity<$FFF3>？<$FFFD>Some call it the <$FFF4>three-way standoff<$FFF3>…<$FFFE>
+# spk: Sigma
 57	Yeah, I remember. <$FFF4>Infantry beat<$FFFC>pikemen and lose to cavalry. <$FFF3>That sort of<$FFFC>thing.<$FFFE>
+# spk: Lambda
 58	As long as you know it, that's<$FFFC>fine.<$FFFE>
+# spk: Sigma
 59	No, I don't remember.<$FFFE>
+# spk: Lambda
 60	Then remember well what I'm about<$FFFC>to say. It's the most basic rule of<$FFFC>battle.<$FFFE>
+# spk: Lambda
 61	Every soldier has a <$FFF4>class type <$FFF3>,<$FFFC>each strong against some foes and weak to<$FFFC>others. The types work like this.<$FFFD><$FFF4>Infantry beat pikemen but lose to cavalry.<$FFFC>Pikemen beat cavalry but lose to infantry.<$FFF3><$FFFD><$FFF4>Cavalry beat infantry but lose to pikemen.<$FFF3><$FFFD><$FFF4>Archers strike from afar and fear no type,<$FFFC>but they lose when struck up close.<$FFFD>Fliers move far but defend poorly, only<$FFFC>archers make easy prey for them.<$FFF3><$FFFD>Also, <$FFF4>monks are middling infantry, but<$FFFC>strong against the undead.<$FFF3><$FFFE>
+# spk: Sigma
 62	<$FFF4>Types <$FFF3>and <$FFF4>affinities<$FFF3>, huh…<$FFFE>
+# spk: Lambda
 63	Well？ Shall I explain it once<$FFFC>more？<$FFFE>
+# spk: Sigma
 64	No. I've got it now.<$FFFE>
+# spk: Lambda
 65	Good, that's a relief.<$FFFE>
+# spk: Lambda
 66	<$FB00><$0039>It's getting too dangerous…I'll<$FFFC>be falling back first…<$FFFE>
+# spk: Goldry
 67	Hey, kid！ Why not get behind the<$FFFC>fences？ Then I couldn't chase you, could<$FFFC>I？<$FFFE>
+# spk: Alfred
 68	True, horses can't cross fences <$FFF8>…<$FFFC><$FFF6>But surrounded, that does me no good, does<$FFFC>it？<$FFFE>
+# spk: Goldry
 69	Tch！ Crafty little brat, aren't<$FFFC>you.<$FFFE>
+# spk: Alfred
 70	So I should attack that thuggish<$FFFC>captain, right？<$FFFE>
+# spk: Lambda
 71	You're infantry yourself, so be<$FFFC>careful. If the cavalry catches you,<$FFFC>you're done for.<$FFFE>
+# spk: Sigma
 72	You're infantry yourself, so watch<$FFFC>out. If the cavalry catches you, it's all<$FFFC>over.<$FFFE>
+# spk: Alfred
 73	Right. If I use the fences well, I<$FFFC>think I can avoid their attacks.<$FFFE>
+# spk: Goldry
 74	Plotting with those feeble heads<$FFFC>is a waste of time.<$FFFD>Even pikemen are small fry before my<$FFFC>might. Be smart and drop your weapons,<$FFFC>eh？<$FFFE>
+# spk: Sigma
 75	We'll see about that.<$FFFE>
+# spk: Alfred
 76	I…I knew it…fighting<$FFFC>is…beyond me…<$FFFE>
+# spk: Sigma
 77	No… We couldn't save him…<$FFFE>
+# spk: Clarett
 78	<$FFF8>…<$FFF6><$FB00><$0041>It really is him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FFF6><$FB00><$0042>but how <$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 79	<$FB00><$0043>Miss Clarett？<$FFFE>
+# spk: Clarett
 80	<$FB00><$0044>I'm sorry, Alfred. I just<$FFFC>remembered some urgent business, so this<$FFFC>is goodbye.<$FFFE>
+# spk: Alfred
 81	<$FB00><$0045>You can't, Miss Clarett！<$FFFE>
+# spk: Goldry
 82	<$FB00><$0046>Fool！ You think you can run from<$FFFC>me！<$FFFE>
+# spk: Clarett
 83	I'm not about to die in a place<$FFFC>like this… See you！<$FFFE>
+# spk: Goldry
 84	Damn！ She got away！<$FFFD>A prize like that！<$FFFD>And it's all your fault！<$FFFE>
+# spk: Sigma
 85	Good grief…<$FFFE>
+# spk: Goldry
 86	Hey, brats！ Don't think you can<$FFFC>anger me and just walk away！<$FFFE>
+# spk: (location/crowd)
 87	Wait, Captain. They're pikemen.<$FFFC>You'd best leave this to us<$FFF8>…<$FFFE>
+# spk: Goldry
 88	Shut it！<$FFFD>Nobody mocks me and gets away with it！<$FFFD>No matter what, I'll crush those brats<$FFFC>with my own hands！<$FFFE>
+# spk: Goldry
 89	<$FE14>…<$FE14>…<$FE14>…<$FE14>…<$FE14>Still, I'm counting on<$FFFC>your puny help, if only a little.<$FFFE>
+# spk: (location/crowd)
 90	Y-yes, sir. Understood.<$FFFD>But the girl, I fear catching her is<$FFFC>beyond us<$FFF8>…<$FFFE>
+# spk: Goldry
 91	<$FE14>I, <$FE14>I know that already！ Then<$FFFC>we'll catch the boy at least and shake him<$FFFC>down！<$FFFE>
+# spk: Alfred
 92	Wh-what do I do…<$FFFE>
+# spk: Goldry
 93	<$FB00><$005C>You there！ Stay out of my way！ Or<$FFFC>else<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 94	<$FB00><$005D>Or else what？<$FFFE>
+# spk: Goldry
 95	<$FB00><$005E>I'll kill you！<$FFFE>
+# spk: Sigma
 96	<$FB00><$005F>Hmph. Just try it！<$FFFE>
+# spk: Goldry
 97	<$FB00><$0060>Don't expect mercy just because<$FFFC>you're a woman！<$FFFE>
+# spk: Lambda
 98	<$FFF8>…<$FFF6><$FB00><$0061>Is that so？<$FFFE>
+# spk: Goldry
 99	<$FB00><$0062>You damn wench！ <$FFF5><$FFFB><$FB00><$0063>Don't you mock<$FFFC>me！ Die！<$FFFE>
+# spk: Goldry
 100	<$FB00><$0064>D-damn… <$FFF5><$FFFB><$FB00><$0065>To think that I could<$FFFC>lose…<$FFFE>
+# spk: Sigma
 101	<$FB00><$0066>Looks like that's done.<$FFFE>
+# spk: Lambda
 102	<$FB00><$0067>Let's slip through while we can.<$FFFE>
+# spk: Alfred
 103	<$FB00><$0068>Um, excuse me…<$FFFE>
+# spk: Sigma
 104	<$FB00><$0069>What is it？<$FFFE>
+# spk: Alfred
 105	<$FB00><$006A>Thanks to you, I'm safe.<$FFFE>
+# spk: Sigma
 106	<$FB00><$006B>Not at all. We only won because<$FFFC>you helped us. You have our thanks.<$FFFE>
+# spk: Alfred
 107	<$FB00><$006C>Oh, it was nothing<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 108	<$FB00><$006D>Um, what will you two do now？<$FFFE>
+# spk: Lambda
 109	<$FB00><$006E>Why do you ask？<$FFFE>
+# spk: Alfred
 110	<$FB00><$006F>If it's all right, could I travel<$FFFC>with you, even part of the way？<$FFFD>If something like this happens again, on<$FFFC>my own I<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 111	<$FB00><$0070>You mean you want to hire us？<$FFFE>
+# spk: Alfred
 112	<$FB00><$0071>I have money. So<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 113	<$FB00><$0072>Sorry, but we are not mercenaries.<$FFFE>
+# spk: Alfred
 114	<$FB00><$0073>No way…<$FFFE>
+# spk: Sigma
 115	<$FB00><$0074>Come on, Lambda. Better than<$FFFC>traveling on our own, no？<$FFFD>And there's the matter of combat<$FFFC>affinities, too.<$FFFE>
+# spk: Lambda
 116	<$FFF8>…<$FFF6><$FB00><$0075>If you insist that much, I won't<$FFFC>object.<$FFFE>
+# spk: Alfred
 117	<$FB00><$0076>Thank you so much. My name is<$FFFC>Alfred.<$FFFE>
+# spk: Sigma
 118	<$FB00><$0077>I'm <$F600><$0000>.<$FFFE>
+# spk: Lambda
 119	<$FB00><$0078>Lambda.<$FFFE>
+# spk: Alfred
 120	<$FB00><$0079>It isn't much, but here's the<$FFFC>money. I'll pay the rest once we reach my<$FFFC>home<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 121	<$FB00><$007A>No charge. It's fine.<$FFFE>
+# spk: Alfred
 122	<$FB00><$007B>But then I'd feel terrible！ Please<$FFFC>take at least this much.<$FFFE>
+# spk: (no plate)
 123	Alfred joined the party！<$FFFE>
+# spk: (no plate)
 124	<$0000> Got 350P gold！<$FFFE>
+# spk: (no plate)
 125	<$0000> Got 450P gold！<$FFFE>
+# spk: (no plate)
 126	<$0000> Got a token sum of gold！<$FFFE>
+# spk: Alfred
 127	<$FB00><$007C>Well then, shall we go？<$FFFE>
+# spk: Sigma
 128	<$FB00><$007D>We're cutting through this town？<$FFFE>
+# spk: Lambda
 129	<$FB00><$007E>That's right. Going around it<$FFFC>would take us far out of our way.<$FFFE>
+# spk: Alfred
 130	<$FB00><$007F>Then let's hurry.<$FFFE>
+# spk: Officer
 131	…if I hadn't served such a<$FFFC>captain…I might have lived longer…<$FFFE>
+# spk: Officer
 132	Im…impossible…<$FFFE>
+# spk: (no plate)
 133	A scrap of cloth peeks out from a hole in<$FFFC>the ground.<$FFFD>As you watch, it slowly slips inside.<$FFFC>…What will you do？<$FFFE>
 134	・Yank it hard<$FFFE>
 135	・Pull it normally<$FFFE>
 136	・Pull it gently<$FFFE>
+# spk: (no plate)
 137	You yank the cloth, and several gnomes<$FFFC>come tumbling out with it.<$FFFD>Please, give it back！ We're making clothes<$FFFC>from this cloth！<$FFFD>We'll give you something instead！<$FFFD>Accept the offered trade？<$FFFE>
+# spk: (no plate)
 138	Thank you！ Here, we'll even throw in a<$FFFC>little extra！<$FFFE>
+# spk: (no plate)
 139	<$0000> Got a <$FFF4>Club<$FFF3>！<$FFFD><$0000> <$F600><$0000>'s <$FFF4>friendship<$FFF3> rose！<$FFFE>
+# spk: (no plate)
 140	Waaah, you're so mean！<$FFFD>The gnomes went back into their hole in<$FFFC>tears！<$FFFE>
+# spk: (no plate)
 141	<$0000> Got the Megingjord！<$FFFE>
+# spk: (no plate)
 142	The pull from inside is strong, and in a<$FFFC>blink the cloth vanishes down the hole.<$FFFE>
+# spk: (no plate)
 143	Alfred joined the party！<$FFFE>
+# spk: Goldry
 144	<$FB00><$005B>You dare defy me too！ Fine, I'll<$FFFC>make you hurt！<$FFFE>
+# spk: Sigma
 145	<$FB00><$004F>Hey, you there！<$FFFE>
+# spk: Alfred
 146	<$FB00><$0050>Huh？ Me？<$FFFE>
+# spk: Sigma
 147	<$FB00><$0051>That's right, you. Only you can<$FFFC>bring down those horsemen. Will you lend<$FFFC>us a hand？<$FFFE>
+# spk: Alfred
 148	<$FB00><$0052>You mean me？ <$FFF5><$FFF8>…<$FFF6><$FB00><$0053>I couldn't<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 149	<$FB00><$0054>Please. We need your strength.<$FFFE>
+# spk: Alfred
 150	<$FFF8>…<$FFF6><$FB00><$0055>Very well. I don't know how to<$FFFC>fight, so please give me directions.<$FFFE>
+# spk: Sigma
 151	<$FB00><$0056>Thank you.<$FFFE>

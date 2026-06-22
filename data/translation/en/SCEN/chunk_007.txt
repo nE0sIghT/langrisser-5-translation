@@ -9,68 +9,127 @@
 7	Aizel<$FFFF>
 8	Soldier<$FFFF>
 9	・Defeat Aizel<$FFFE>
+# spk: Sigma
 10	・<$F600><$0000> dies<$FFFE>
 11	Underground altar exit<$FFFF>
+# spk: Sigma
 12	<$FB00><$000D>Staying longer wastes time. We<$FFFC>leave now and chase the Caconsis army.<$FFFE>
+# spk: Lambda
 13	<$FB00><$000E>Agreed.<$FFFE>
+# spk: Alfred
 14	<$FB00><$000F>Cough, cough！<$FFFB> <$0000><$FB00><$0010>Um, is it just<$FFFC>me, or is it smoky here？<$FFFE>
+# spk: Brenda
 15	<$FB00><$0011>Now that you mention it, there IS<$FFFC>a lot of smoke.<$FFFE>
+# spk: Lambda
 16	<$FB00><$0012>This is no ordinary smoke.<$FFFE>
+# spk: Sigma
 17	<$FB00><$0013>Meaning what, Lambda？<$FFFE>
+# spk: Lambda
 18	<$FB00><$0014>It drains your strength. Stay too<$FFFC>long and you won't be able to move.<$FFFE>
+# spk: Alfred
 19	<$FB00><$0015>No way！ Come on, let's get out,<$FFFC>quick！<$FFFE>
+# spk: Aizel
 20	<$FB00><$0016>I meant to take you at my leisure<$FFFC>once you couldn't move.<$FFFD>But you've seen through the smoke.<$FFFE>
+# spk: Sigma
 21	<$FB00><$0017>Aizel！？<$FFFE>
+# spk: Aizel
 22	<$FB00><$0018>Well done not falling for a cheap<$FFFC>trick. But how long can you last？<$FFFE>
+# spk: Sigma
 23	<$FB00><$0019>We won't lose to you！<$FFFE>
+# spk: Alfred
 24	Cough, cough！ I…I can't<$FFFC>breathe<$FFF8>…<$FFFE>
+# spk: Brenda
 25	So dramatic. Can't you bear a<$FFFC>little smoke？<$FFFE>
+# spk: Sigma
 26	Bear it a while. Rushing out plays<$FFFC>into their hands.<$FFFE>
+# spk: Lambda
 27	Yes. Wiser to form up near the<$FFFC>exit.<$FFFE>
+# spk: Sigma
 28	This smoke is bearable. Better to<$FFFC>form up at the exit than rush out.<$FFFE>
+# spk: Sigma
 29	<$FB00><$001D>Hang on, everyone. The exit is<$FFFC>near！<$FFFE>
+# spk: Lambda
 30	<$FB00><$001E>Everyone, the exit is near.<$FFFE>
+# spk: Alfred
 31	<$FB00><$001F>The exit！ Everyone, we're almost<$FFFC>out！<$FFFE>
+# spk: Brenda
 32	<$FB00><$0020>Stay sharp, everyone！ The exit's<$FFFC>close！<$FFFE>
+# spk: (no plate)
 33	As you near the rock, a voice suddenly<$FFFC>speaks.<$FFFD>I was a spirit dove, a messenger of the<$FFFC>gods…<$FFFD>Now my body turns to stone and my life<$FFFC>burns out. Let me grant you one last gift.<$FFFD>Which power do you wish？<$FFFE>
 34	・Power to protect<$FFFE>
 35	・Power to fight<$FFFE>
+# spk: (no plate)
 36	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>Heal 1<$FFF3>！<$FFFD>…The dove quietly turned to stone.<$FFFE>
+# spk: (no plate)
 37	Then receive this magic…<$FFFD><$0000> Learned the spell <$FFF4>MP Drain<$FFF3>！<$FFFD>…The dove quietly turned to stone.<$FFFE>
+# spk: (no plate)
 38	Something glints now and then in the dark.<$FFFC>What do you do？<$FFFE>
 39	・Reach out<$FFFE>
 40	・Watch and wait<$FFFE>
 41	・Ignore it<$FFFE>
+# spk: (no plate)
 42	<$0000> <$FFF4>Grrraaawwl！！<$FFF3><$FFFD>A wounded beast is nursing its injuries.<$FFFC>You quietly slip away so as not to provoke<$FFFC>it.<$FFFE>
+# spk: (no plate)
 43	A wounded beast rests there. You stroke it<$FFFC>gently, it purrs and hands you a small<$FFFC>pouch.<$FFFD><$0000> Got <$FFF4>500P gold<$FFF3>！<$FFFE>
+# spk: Sigma
 44	<$FB00><$0022>You'll pay for that, twice over！<$FFFE>
+# spk: Sigma
 45	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
+# spk: Lambda
 46	<$FB00><$0023>Unforgivable.<$FFFE>
+# spk: Lambda
 47	<$FB00><$003A>Kh… that one hurt…<$FFFE>
+# spk: Sigma
 48	<$FB00><$003B>Leave the rest to me！<$FFFE>
+# spk: Lambda
 49	<$FB00><$003C>I'm counting on you…<$FFFE>
+# spk: Alfred
 50	<$FB00><$0024>Even I get angry, you know！<$FFFE>
+# spk: Alfred
 51	<$FB00><$0078>Am I not good enough…<$FFFE>
+# spk: Sigma
 52	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
+# spk: Alfred
 53	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
+# spk: Brenda
 54	That Aizel. Quite the underhanded<$FFFC>trick！<$FFFE>
+# spk: Aizel
 55	My forces are few. Such schemes<$FFFC>are necessary.<$FFFE>
+# spk: Brenda
 56	<$FB00><$0025>You nearly made a stuffed trophy<$FFFC>of me！<$FFFE>
+# spk: Brenda
 57	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 58	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 59	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
+# spk: Aizel
 60	<$FB00><$0026>Futile struggling！<$FFFE>
+# spk: Aizel
 61	This time you won't escape！<$FFFE>
+# spk: Aizel
 62	<$FFF8><$FB00><$0027>Ggh… <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
+# spk: Sigma
 63	<$FB00><$002B>Looks like it's over.<$FFFE>
+# spk: Brenda
 64	<$FB00><$002C>Honestly, what an ordeal.<$FFFE>
+# spk: Alfred
 65	<$FB00><$002D>Truly, I thought I'd die<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 66	<$FB00><$002E>More importantly, hurry. <$0000>If we<$FFFC>don't chase Caconsis, we can't recover the<$FFFC>Sage's Crystal.<$FFFE>
+# spk: Aizel
 67	<$FB00><$001A>All units, hold here. We strike as<$FFFC>they're smoked out！<$FFFE>
+# spk: Soldier
 68	<$FB00><$001B>Sir！<$FFFE>
+# spk: Soldier
 69	<$FB00><$001C>Understood.<$FFFE>
+# spk: Soldier
 70	It…wasn't supposed to…<$FFFE>
+# spk: Soldier
 71	Lord Aizel… For…give…me…<$FFFE>
+# spk: Soldier
 72	…so…strong…<$FFFE>
+# spk: Soldier
 73	…Oh no！ Gwah！<$FFFE>
+# spk: Aizel
 74	<$FB00><$0021>Good. We begin the full assault.<$FFFC>All units, move out！<$FFFE>

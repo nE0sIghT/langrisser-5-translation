@@ -15,37 +15,69 @@
 13	Leader<$FFFF>
 14	Grunt<$FFFF>
 15	Caconsis Army on the March<$FFFF>
+# spk: Landius
 16	<$FB00><$0074>All forces, advance！ Ignore the<$FFFC>small fry！ Fell the commander, and the<$FFFC>unit loses its fighting power！<$FFFE>
+# spk: Officer
 17	<$FB00><$0075>Understood！<$FFFE>
+# spk: Officer
 18	<$FB00><$0076>Demon scum！ Prepare yourselves！<$FFFE>
+# spk: Demon
 19	<$FB00><$0077>WAOOON<$FFF5><$FFF8>…<$FFFE>
+# spk: Landius
 20	<$FB00><$0078>Don't take me lightly！<$FFFE>
+# spk: Demon
 21	<$FB00><$0079>Guh… to lose to mere humans<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
+# spk: Landius
 22	<$FB00><$007A>Crush them as we are！<$FFFE>
+# spk: Officer
 23	<$FFF7><$FB00><$007B>Ooooh！<$FFF5><$FFF8><$FFFE>
+# spk: Ferakia
 24	<$FB00><$007C>What's this, you lot. Pathetic！<$FFF5><$FFFC><$FB00><$007D>Don't let a handful of enemies push you<$FFFC>back！<$FFFE>
+# spk: Landius
 25	<$FB00><$007E>That one looks to be this unit's<$FFFC>commander！<$FFF5> <$FB00><$007F>We'll smash her at once！<$FFFE>
+# spk: Ferakia
 26	<$FB00><$0080>Big words. Don't take this<$FFFC>Ferakia lightly！<$FFFE>
+# spk: Ferakia
 27	<$FFF7><$FB00><$0081>Hah！<$FFF5><$FFF8> <$FFF6><$FB00><$0082>Not bad for mere<$FFFC>humans！<$FFFE>
+# spk: Landius
 28	<$FB00><$0083>But this is the end！<$FFF5><$FFFC><$FB00><$0084>Ferakia！<$FFFE>
+# spk: Ferakia
 29	<$FB00><$0085>…<$FE1E>…<$FE1E>I, impossible… to mere<$FFFC>humans… that I<$FFF5><$FFF8>…<$FE14>…<$FFFE>
+# spk: Demon
 30	<$FB00><$0086>Lady Ferakia is beaten！？ Fall<$FFFC>back！ Retreat！<$FFFE>
+# spk: Landius
 31	<$FB00><$0087>Good！ Press on as we are.<$FFF5> <$FB00><$0088>Mind<$FFFC>the spacing between units, and make for<$FFFC>the demon stronghold！<$FFFE>
+# spk: Officer
 32	<$FFF7><$FB00><$0089>Ooo<$00E4><$00E5><$00E6>h！<$FFF5><$FFF8><$FFFE>
 33	Demon Stronghold<$FFFF>
+# spk: Gaiel
 34	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008A>Hmph, so Ferakia was killed by<$FFFC>humans.<$FFF5> <$FB00><$008B>That woman was all talk after<$FFFC>all.<$FFFD><$FFF9><$FB00><$008C>Well, dancing to Böser's tune, her limits<$FFFC>were plain.<$FFFE>
+# spk: Gaiel
 35	<$FB00><$008D>Böser is just a convenient puppet<$FFFC>manipulated by Alhazard. In the end, no<$FFFC>more than the one who sets the stage for<$FFFC>Chaos to revive in this world.<$FFFE>
+# spk: Gaiel
 36	<$FB00><$008E>Hmph, I've no intention of being<$FFFC>such a trifling thing. I've no interest in<$FFFC>the demons' victory.<$FFFE>
+# spk: Gaiel
 37	<$FB00><$008F>My aim is to surpass Böser and<$FFFC>Chaos both.<$FFFD>I will rule this world.<$FFF5> <$FB00><$0090>For that, how to<$FFFC>erase the troublesome Chaos Gate's<$FFFC>power<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 38	Federation Army on the March<$FFFF>
+# spk: Emily
 39	<$FB00><$0091>Out of the way, move！<$FFFE>
+# spk: Demon
 40	<$FB00><$0092>GWOOOON….<$FFFE>
+# spk: Leader
 41	<$FB00><$0093>I won't let the demons have their<$FFFC>way！<$FFFE>
+# spk: Demon
 42	<$FB00><$0094>WAOOOON….<$FFFE>
+# spk: Demon
 43	<$FB00><$0095>Don't get cocky, humans！<$FFFE>
+# spk: Grunt
 44	<$FFF7><$FB00><$0096>Guhah<$FFF5><$FFF8>…<$FFFE>
+# spk: Emily
 45	<$FB00><$0097>Units with heavy losses, fall back<$FFFC>and get treated！ Other units, cover<$FFFC>them！<$FFFE>
+# spk: Leader
 46	<$FB00><$0098>Understood！<$FFFE>
+# spk: Emily
 47	<$FB00><$0099>Clouds are coming<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$009A>It seems<$FFFC>the weather control succeeded.<$FFF5> <$FB00><$009B>Let's<$FFFC>close in at once while we can！<$FFFD><$FB00><$009C>The Caconsis Army will join up soon！<$FFFC>Don't fall behind them！ Show the pride of<$FFFC>Federation soldiers！<$FFFE>
+# spk: Leader
 48	<$FFF7><$FB00><$009D>Ooo<$00E4><$00E5><$00E6>h！<$FFF5><$FFF8><$FFFE>
+# spk: Emily
 49	<$FB00><$009E>Advance！<$FFFE><$FFFF>

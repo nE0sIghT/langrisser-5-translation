@@ -9,20 +9,36 @@
 9	Soldier<$FFFF>
 10	Lenard<$FFFF>
 11	Kalxath Castle Audience Hall<$FFFF>
+# spk: Officer
 12	<$FB00><$0003>Your Majesty, as reported, the<$FFFC>Salrath army has appeared.<$FFFE>
+# spk: Gilmore
 13	<$FFF8><$FB00><$0004>Heh heh heh. <$FFF5><$FFF6><$FB00><$0005>I see. They walked<$FFFC>right into our net.<$FFFE>
+# spk: Officer
 14	<$FB00><$0006>Yes. Our formation is already<$FFFC>complete.<$FFFE>
+# spk: Gilmore
 15	<$FB00><$0007>When you know when, where, and<$FFFC>how many troops will pass, battle is as<$FFFC>good as won.<$FFFD><$FB00><$0008>They have no flying ship this time,<$FFFC>either. What will you do now, rebels？<$FFFE>
 16	Salrath Army on the March<$FFFF>
+# spk: Soldier
 17	<$FB00><$0009>Lord Lenard, Kalxath troops are<$FFFC>deployed ahead！<$FFFE>
+# spk: Lenard
 18	<$FFFA><$FB00><$000A>I expected this, but their<$FFFC>response is too fast.<$FFFE>
+# spk: Soldier
 19	<$FB00><$000B>Then someone is leaking our<$FFFC>movements？<$FFFE>
+# spk: Lenard
 20	<$FB00><$000C>I hate to admit it, but so it<$FFFC>seems.<$FFFE>
+# spk: Soldier
 21	<$FB00><$000D>Who could it be<$FFF5><$FFF8>…？<$FFFE>
+# spk: Lenard
 22	<$FB00><$000E>I do not know. But now we must<$FFFC>focus on the army before us.<$FFFE>
+# spk: Soldier
 23	<$FFF7><$FB00><$000F>Yes sir！<$FFF5><$FFF8><$FFFE>
+# spk: Lenard
 24	<$FB00><$0010>Numbers are equal, but most are<$FFFC>untrained peasants. Fight defensively and<$FFFC>keep their losses low.<$FFFE>
+# spk: Soldier
 25	<$FB00><$0011>Yes, leave it to us！<$FFFE>
+# spk: Lenard
 26	<$FFFA><$FFF8>…<$FFF6><$FB00><$0012>We expected an ambush.<$FFFD><$FFF9><$FB00><$0013>The key to victory is in your hands,<$FFFC>Princess Clarett.<$FFFE>
+# spk: (no plate)
 27	<$0000>With Estor Temple's aid, the popular<$FFFC>uprising succeeded. <$0000>The faces listening<$FFFC>to Clarett's speech showed new resolve and<$FFFC>faith in the new politics.<$FFFD><$0000>Now Gilmore must fall, and noble<$FFFC>exploitation must end.<$FFFD><$0000><$F600><$0000> and the others<$FFFC>coordinate with Lenard and head for<$FFFC>Kalxath Castle, where Gilmore waits.<$FFFE>
+# spk: (no plate)
 28	Victory terms<$FFFC><$0000><$FFFC>・Defeat Marquis Quaid and Captain Kfir<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

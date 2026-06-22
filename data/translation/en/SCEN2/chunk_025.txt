@@ -9,133 +9,258 @@
 7	Goldry<$FFFF>
 8	Landius<$FFFF>
 9	Soldier<$FFFF>
+# spk: Sigma
 10	・Defeat Goldry within 20 turns<$FFFE>
+# spk: Sigma
 11	・The tunnel is destroyed on turn over<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Tunnel to Reynolds<$FFFF>
+# spk: Lanford
 13	<$FB00><$0046>Step aside quietly. We must<$FFFC>hurry on to Sutherland.<$FFFE>
+# spk: Goldry
 14	<$FB00><$0047>I've a job of my own. Let no one<$FFFC>through here！<$FFFE>
+# spk: Landius
 15	<$FB00><$0048>What now, Lanford？<$FFFE>
+# spk: Lanford
 16	<$FB00><$0049>I cannot simply back off because<$FFFC>someone says no.<$FFFE>
+# spk: Landius
 17	<$FB00><$004A>Then we force our way through.<$FFFE>
+# spk: Goldry
 18	<$FB00><$004B>Hold it！ Don't try anything<$FFFC>funny！ My orders are to collapse the<$FFFC>tunnel itself if I can't hold it.<$FFFE>
+# spk: Landius
 19	<$FFF8><$FB00><$004C>Tch！<$FFFE>
+# spk: Alfred
 20	<$FB00><$004D>Halfway up this mountain there's a<$FFFC>tunnel to the far side. Through it,<$FFFC>Reynolds is close.<$FFFE>
+# spk: Brenda
 21	<$FB00><$004E>Huh. I've wandered all over, but I<$FFFC>never knew there was a tunnel here.<$FFFE>
+# spk: Alfred
 22	<$FB00><$004F>Well, few people try to cross such<$FFFC>rugged mountains.<$FFFE>
+# spk: Clarett
 23	<$FB00><$0050>Good thing we have Alfred. A<$FFFC>detour would have cost us dearly.<$FFFE>
+# spk: Sigma
 24	<$FB00><$0051>Everyone, wait. It's noisy up<$FFFC>ahead.<$FFFE>
+# spk: Mariandel
 25	<$FB00><$0052>Th, that's<$FFF5><$FFF8>…<$FFFE>
+# spk: Soldier
 26	<$FB00><$0053>Captain！ Suspicious figures<$FFFC>from below too！<$FFFE>
+# spk: Goldry
 27	<$FB00><$0054>What？<$FFF5><$FFF8> …<$FFF6><$FB00><$0055>Hm？ Those are<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 28	<$FB00><$0056>Ah！ That's the creep who was in<$FFFC>Caconsis！<$FFFE>
+# spk: Sigma
 29	<$FB00><$0057>So he quit Caconsis and hired on<$FFFC>with the Three-Country Alliance.<$FFFE>
+# spk: Alfred
 30	<$FB00><$0058>No mistake. It's them. Them above<$FFFC>all I won't let through！ You there, prep<$FFFC>the tunnel for demolition！<$FFFE>
+# spk: Soldier
 31	<$FB00><$0059>Right now？<$FFFE>
+# spk: Goldry
 32	<$FB00><$005A>Yes！ Use that blasting powder<$FFFC>Lord Zero gave us！ All of it, and the<$FFFC>tunnel's done for.<$FFFD><$FB00><$005B>Hold them off until I'm ready！<$FFFE>
+# spk: Soldier
 33	<$FB00><$005C>U, understood. Please hurry.<$FFFE>
+# spk: Goldry
 34	<$FB00><$005D>Leave it to me.<$FFFE>
+# spk: Sigma
 35	<$FB00><$005E>They mean to wreck the tunnel with<$FFFC>that strange device.<$FFFE>
+# spk: Clarett
 36	<$FB00><$005F>But can they really do that？<$FFFE>
+# spk: Brenda
 37	<$FB00><$0060>Right, you folks don't know about<$FFFC>blasting powder.<$FFFE>
+# spk: Mariandel
 38	<$FB00><$0061>Is that Crimzonia's ancient<$FFFC>magic too？<$FFFE>
+# spk: Brenda
 39	<$FB00><$0062>No, not magic. Put simply, it's a<$FFFC>powder that explodes when lit.<$FFFE>
+# spk: Sigma
 40	<$FB00><$0063>Something Lainforce gave Goldry,<$FFFC>no doubt.<$FFFE>
+# spk: Brenda
 41	<$FB00><$0064>Probably. With that powder, a<$FFFC>tunnel like this collapses in an instant.<$FFFC>Best stop him fast.<$FFFE>
 42	・Defeat Goldry within 16 turns<$FFFE>
+# spk: Goldry
 43	<$FB00><$0073>Still quite a lot left. Setting it<$FFFC>all will take a while yet.<$FFFE>
+# spk: Alfred
 44	…All right？ Will we make it in<$FFFC>time？<$FFFE>
+# spk: Sigma
 45	Yeah, I think we'll be fine,<$FFFC>probably…<$FFFE>
 46	・If he's the enemy, we'll be fine.<$FFFE>
 47	・Since it's Goldry we face…<$FFFE>
 48	・Him I can never forgive.<$FFFE>
+# spk: Sigma
 49	If he's the one we face, we'll be<$FFFC>fine.<$FFFE>
+# spk: Alfred
 50	R, right.<$FFFE>
+# spk: Sigma
 51	See？<$FFFE>
+# spk: Goldry
 52	Damn it！ Infuriating brats！<$FFFE>
+# spk: Sigma
 53	With Goldry for an opponent,<$FFFC>there's no telling what he'll do.<$FFFE>
+# spk: Alfred
 54	True… If he botches handling the<$FFFC>powder…<$FFFE>
+# spk: Sigma
 55	Yeah. Best to hurry.<$FFFE>
+# spk: Sigma
 56	He's the one who tried to force<$FFFC>himself on Clarett, wasn't he？<$FFFE>
+# spk: Alfred
 57	Yes. Demanded she pay an<$FFFC>outrageous toll with her body.<$FFFE>
+# spk: Sigma
 58	Him I can never forgive！<$FFFE>
+# spk: Goldry
 59	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now just light<$FFFC>it<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 60	<$FFF7><$FB00><$0074>Whew<$FFF5><$FFF8>…<$FFF6><$FB00><$0075>Done at last. Now just light<$FFFC>it<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 61	<$FB00><$007D>How did they get this far<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$007E>Couldn't you hold a little longer！ Truly<$FFFC>useless lot！<$FFFE>
+# spk: Alfred
 62	<$FB00><$0065>Which side do we attack from？<$FFFE>
+# spk: Sigma
 63	<$FB00><$0066>The west path is wide but the long<$FFFC>way. The east is narrow and crawling with<$FFFC>enemies, but the shortest route.<$FFFD>Split up, or push through together…<$FFFE>
+# spk: Brenda
 64	<$FB00><$0067>You'll manage it. I'm counting on<$FFFC>you！<$FFFE>
+# spk: Sigma
 65	<$FB00><$002C>Take this！<$FFFE>
+# spk: Sigma
 66	<$FB00><$002B>Eat this！<$FFFE>
+# spk: Sigma
 67	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Mariandel
 68	<$FB00><$0046>Here goes.<$FFFE>
+# spk: Mariandel
 69	<$FB00><$0047>Come if you dare.<$FFFE>
+# spk: Mariandel
 70	<$FB00><$004E>Forgive me… I have to pull<$FFFC>back first…<$FFFE>
+# spk: Sigma
 71	<$FB00><$004F>Don't push it. Leave the rest to<$FFFC>us！<$FFFE>
+# spk: Mariandel
 72	<$FB00><$0050>Please…<$FFFE>
+# spk: Alfred
 73	<$FB00><$0074>Here I go！<$FFFE>
+# spk: Alfred
 74	<$FB00><$007B>I can still… I can still fight…<$FFFE>
+# spk: Sigma
 75	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
+# spk: Clarett
 76	<$FB00><$007D>But…<$FFFE>
+# spk: (location/crowd)
 77	<$FB00><$007E>Trust your comrades！<$FFFE>
+# spk: Alfred
 78	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
+# spk: Brenda
 79	<$FB00><$0067>Here I go！<$FFFE>
+# spk: Brenda
 80	<$FB00><$0068>Come and get it！<$FFFE>
+# spk: Brenda
 81	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
+# spk: (location/crowd)
 82	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+# spk: Brenda
 83	<$FB00><$006D>Yeah, I'm fine… I can still go…<$FFFE>
+# spk: Sigma
 84	<$FB00><$006E>Fall back, Brenda！ Don't overdo<$FFFC>it！<$FFFE>
+# spk: Brenda
 85	<$FB00><$006F>…I'll do that. I don't want to<$FFFC>drag you down…<$FFFE>
+# spk: Clarett
 86	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 87	<$FB00><$0055>Give it up！<$FFFE>
+# spk: Clarett
 88	<$FB00><$0057>Aah！<$FFFE>
+# spk: Sigma
 89	<$FB00><$0058>Are you all right, Clarett！？<$FFFE>
+# spk: Clarett
 90	<$FB00><$0059>This is a bit much…<$FFFE>
+# spk: Sigma
 91	<$FB00><$005A>Leave the rest to us and fall<$FFFC>back！<$FFFE>
+# spk: Clarett
 92	<$FB00><$005B>Sorry, it's in your hands…<$FFFE>
+# spk: Landius
 93	<$FB00><$0068>What now, Lanford？ They mean to<$FFFC>wreck the tunnel.<$FFFE>
+# spk: Lanford
 94	<$FB00><$0069>I will never allow it. We fight,<$FFFC>Landius.<$FFFE>
+# spk: Landius
 95	<$FB00><$006A>Understood.<$FFFE>
+# spk: Landius
 96	Time we moved out too？<$FFFE>
+# spk: Lanford
 97	Yeah.<$FFFE>
+# spk: Lanford
 98	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+# spk: Lanford
 99	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
+# spk: Landius
 100	…Kh！ Forgive me, Lanford…<$FFFE>
+# spk: Soldier
 101	No…<$FFFE>
+# spk: Soldier
 102	D, damn…<$FFFE>
+# spk: Soldier
 103	I'll kill every last one of<$FFFC>you！<$FFFE>
+# spk: Soldier
 104	S, strong… too strong…<$FFFE>
+# spk: Soldier
 105	My cavalry… can't be…<$FFFE>
+# spk: Soldier
 106	I never should have followed a<$FFFC>captain like him…<$FFFE>
+# spk: Soldier
 107	Uwooh！ I'm falling<$00E4><$00E5><$00E6>！！<$FFFE>
+# spk: Soldier
 108	Th, this… is true strength…<$FFFE>
+# spk: Soldier
 109	C, captain… it hurts…<$FFFE>
+# spk: Goldry
 110	<$FB00><$0072>He did say to handle it with care.<$FFFC>I'm no good at this fiddly work, though…<$FFFE>
+# spk: Goldry
 111	<$FB00><$007C>Enough, I won't be hindered！ I'll<$FFFC>make you feel my terror！<$FFFE>
+# spk: Goldry
 112	<$FB00><$007D>How did they get this far<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$007E>Couldn't you hold a little longer！ Truly<$FFFC>useless lot！<$FFFE>
+# spk: Goldry
 113	<$FB00><$0083>U, ugh… I'm… I'm… Damn it！<$FFFC>You'll pay for this！<$FFFE>
+# spk: Sigma
 114	<$FFF8>…<$FFF6><$FB00><$0084>It's over.<$FFFE>
+# spk: Alfred
 115	<$FB00><$0085>The tunnel's safe too. Now we can<$FFFC>press on.<$FFFE>
+# spk: Goldry
 116	<$FB00><$007F>Wh, what…<$FFFE>
+# spk: Sigma
 117	<$FB00><$0080>You're the only one left. Give it<$FFFC>up.<$FFFE>
+# spk: Goldry
 118	<$FB00><$0081>D, damn<$FFF5><$FFF8>… <$FFF6><$FB00><$0082>Even if I'm the last<$FFFC>one, I'll wreck this tunnel！<$FFFE>
+# spk: Landius
 119	Now just that man is left.<$FFFE>
+# spk: Lanford
 120	Landius. Shall we wait for them<$FFFC>and strike all at once？<$FFFE>
+# spk: Landius
 121	Good idea. We'll regroup while<$FFFC>we wait.<$FFFE>
+# spk: Sigma
 122	<$FFF8>… <$FFF6>Someone's fighting up above too.<$FFFE>
+# spk: Alfred
 123	<$FB00><$006B>Y, you're Lanford！<$FFFE>
+# spk: Lanford
 124	<$FB00><$006C>Alfred！ It's been a while.<$FFFE>
+# spk: Alfred
 125	<$FB00><$006D>It has, sir.<$FFFE>
+# spk: Lanford
 126	<$FB00><$006E>You too？<$FFFE>
+# spk: Alfred
 127	<$FB00><$006F>Yes. My brother has joined the<$FFFC>Three-Country Alliance, and I mean to<$FFFC>stop him.<$FFFE>
+# spk: Lanford
 128	<$FB00><$0070>Our goal is the same, it seems.<$FFFC>First we must deal with this.<$FFFE>
+# spk: Alfred
 129	<$FB00><$0071>Right.<$FFFE>
+# spk: Goldry
 130	Good, nearly done.<$FFFE>
+# spk: Goldry
 131	Hold out just a little longer, you<$FFFC>lot！<$FFFE>
+# spk: (location/crowd)
 132	U, understood…<$FFFE>
+# spk: Sigma
 133	Kh, best to hurry…<$FFFE>
+# spk: Goldry
 134	<$FB00><$0076>Right, ignite！<$FFF5><$FFF7><$FFFE>
+# spk: Sigma
 135	<$FB00><$0077>Stop！<$FFF5><$FFF7><$FFFE>
+# spk: Goldry
 136	<$FB00><$007B>N, no… No one said it would<$FFFC>explode…<$FFFE>
+# spk: Alfred
 137	<$FB00><$0078>No…<$FFFE>
+# spk: Sigma
 138	<$FB00><$0079>The tunnel…<$FFFE>
+# spk: Lanford
 139	<$FB00><$007A>Now we cannot go on…<$FFFE>

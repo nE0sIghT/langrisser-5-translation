@@ -11,115 +11,222 @@
 9	Omega<$FFFF>
 10	Soldier<$FFFF>
 11	Zero<$FFFF>
+# spk: Clarett
 12	・<$F600><$0000> and Lambda escape<$FFFC>・All enemies defeated<$FFFE>
+# spk: Sigma
 13	・<$F600><$0000> or Lambda dies<$FFFE>
 14	Magic Institute ～Culture Ward～<$FFFF>
+# spk: Aizel
 15	<$FB00><$0033>Lord Lainforce. Is this the<$FFFC>place？ Isn't this the laboratory of<$FFFC>Federation Marshal Gizarof<$FFF5><$FFF8>…<$FFFE>
+# spk: Lainforce
 16	<$FB00><$0034>Indeed. The fruits of his<$FFFC>research sleep here. Inside lies the<$FFFC><$FFF4>specimen <$FFF3>we seek.<$FFFE>
+# spk: Aizel
 17	<$FB00><$0035>A specimen<$FFF5><$FFF8>…<$FFFE>
+# spk: Lainforce
 18	<$FB00><$0036>Gizarof made humans of<$FFFC>terrible power. A specimen is one born of<$FFFC>that work.<$FFFE>
+# spk: Sigma
 19	<$FB00><$0037>They are already deep inside.<$FFFE>
+# spk: Lambda
 20	<$FB00><$0038>Looks like we have to fight.<$FFFE>
+# spk: Sigma
 21	<$FB00><$0039>Fight？ But how<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 22	<$FB00><$003A>If you won't fight, we run.<$FFFE>
+# spk: Sigma
 23	<$FB00><$003B>Fight, or run<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 24	<$FB00><$003C>No time to agonize over it.<$FFFC>They're coming.<$FFFE>
+# spk: Lainforce
 25	<$FB00><$0050>Two specimens？ Which one is<$FFFC>the target？<$FFFE>
+# spk: Lambda
 26	<$FB00><$0065>Sorry to keep you waiting.<$FFFE>
+# spk: Lambda
 27	<$FB00><$0068>There you are.<$FFFE>
+# spk: Sigma
 28	<$FB00><$005E>We made it outside, but<$FFF5><$FFF8>…<$FFFE>
 29	・Show concern.<$FFFE>
 30	・Hurry her.<$FFFE>
 31	・Ask a question.<$FFFE>
+# spk: Sigma
 32	<$FB00><$005F>Lambda！ Are you all right？<$FFFE>
+# spk: Lambda
 33	<$FB00><$0060>I'm fine. Don't worry about me.<$FFFE>
+# spk: Sigma
 34	<$FB00><$0061>Hurry up, Lambda！<$FFFE>
+# spk: Lambda
 35	<$FB00><$0062>Don't mind me. Why not go ahead？<$FFFE>
+# spk: Sigma
 36	<$FB00><$0063>Is she going to be okay？<$FFFE>
+# spk: Lambda
 37	<$FB00><$0064>Better to worry about ourselves<$FFFC>right now.<$FFFE>
+# spk: Sigma
 38	<$FB00><$0061>Hurry up, Lambda！<$FFFE>
+# spk: Lambda
 39	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
+# spk: Sigma
 40	<$FB00><$0067>I know, I know.<$FFFE>
+# spk: Lambda
 41	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
+# spk: Sigma
 42	<$FB00><$0049>Seems our foes are quite skilled.<$FFFE>
+# spk: Lambda
 43	<$FB00><$004A>You can tell？<$FFFE>
+# spk: Sigma
 44	<$FB00><$004B>Yeah. No wasted movement.<$FFFD><$FB00><$004C>What now？ Want to try fighting them？<$FFFE>
+# spk: Lambda
 45	<$FB00><$004D>We've only just awakened and can't<$FFFC>use our true strength. Running is wiser.<$FFFE>
+# spk: Sigma
 46	<$FB00><$004E>Then we head for the <$FFF4>back gate<$FFF3>.<$FFFC>It's the least guarded.<$FFFE>
 47	<$0000>Escape Point<$0000><$FFFF>
+# spk: Lambda
 48	<$FB00><$004F>Understood.<$FFFE>
+# spk: Sigma
 49	<$FB00><$003F>Out of my way！<$FFFE>
+# spk: Sigma
 50	<$FB00><$0040>Kh！<$FFFE>
+# spk: Sigma
 51	<$FB00><$0041>I can't die before I've even seen<$FFFC>this world.<$FFFE>
+# spk: Sigma
 52	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Lambda
 53	<$FB00><$0043>Step aside.<$FFFE>
+# spk: Lambda
 54	<$FB00><$0044>Don't get in my way.<$FFFE>
+# spk: Lambda
 55	<$FFF8>…<$FFFE>
+# spk: Lambda
 56	<$FB00><$003A>Kh… that one hurt…<$FFFE>
+# spk: Lainforce
 57	<$FB00><$0045>You two are necessary to my<$FFFC>plan.<$FFFE>
+# spk: Lainforce
 58	<$FB00><$0046>Behave, and you won't be hurt.<$FFFE>
+# spk: Sigma
 59	<$FB00><$0047>I'll have you come quietly.<$FFFE>
+# spk: Omega
 60	<$FB00><$0048>Uwooh！<$FFFE>
+# spk: Lainforce
 61	Wh…what…？<$FFFE>
+# spk: Aizel
 62	Lord Lainforce！？<$FFFE>
+# spk: Lainforce
 63	It's nothing… A scratch like<$FFFC>this…<$FFFE>
+# spk: Aizel
 64	But if anything happens to you<$FFFC>now… Please, don't push yourself, rest！<$FFFE>
+# spk: Lainforce
 65	Forgive me, Aizel.<$FFFE>
+# spk: Lainforce
 66	To think they would beat not<$FFFC>just Aizel but me as well…<$FFFD>But I cannot die here…<$FFFE>
+# spk: Aizel
 67	Im…impossible… Was I careless…<$FFFE>
+# spk: Lainforce
 68	Stand back, Aizel. I can't<$FFFC>have you die yet.<$FFFE>
+# spk: Aizel
 69	My apologies, Lord Lainforce.<$FFFE>
+# spk: Soldier
 70	N…not in a place…like this…<$FFFE>
+# spk: Soldier
 71	D…damn it<$00E4><$00E5><$00E6>！<$FFFE>
+# spk: Sigma
 72	Good. The enemy can't move<$FFFC>anymore.<$FFFE>
+# spk: Omega
 73	<$FB00><$005D>D…damn… If only I had<$FFFC><$FFF4>Langrisser<$FFF3>, scum like you would <$FFF5><$FFF8>…<$FFFE>
+# spk: (no plate)
 74	There is a switch on the panel. Press it？<$FFFE>
+# spk: (no plate)
 75	The sound came from here！<$FFFE>
+# spk: (no plate)
 76	The machine started up.<$FFFE>
+# spk: (no plate)
 77	There is a switch on the panel. Press it？<$FFFE>
+# spk: (no plate)
 78	The sound came from here！<$FFFE>
+# spk: (no plate)
 79	The machine started up.<$FFFE>
+# spk: (no plate)
 80	A black robe appeared on the table！<$FFFD><$0000><$0000>Got the <$FFF4>Dark Robe<$FFF3>！<$FFFE>
+# spk: (no plate)
 81	A single wand appeared on the table！<$FFFD><$0000><$0000>Got the <$FFF4>Wand<$FFF3>！<$FFFE>
+# spk: Aizel
 82	<$FB00><$003D>So you're the target specimen？<$FFFE>
+# spk: Aizel
 83	<$FB00><$003E>Or is it you？<$FFFE>
+# spk: Sigma
 84	？<$FB00><$0042>What are you talking about？<$FFFE>
+# spk: Lambda
 85	<$FFF8>…<$FFFE>
+# spk: Lainforce
 86	<$FB00><$0051>Not bad at all. As expected of<$FFFC>Gizarof's specimens.<$FFFE>
+# spk: Aizel
 87	<$FB00><$0052>With more men we could have taken<$FFFC>them easily.<$FFFE>
+# spk: Lainforce
 88	<$FB00><$0053>It couldn't be helped. We had<$FFFC>to move unseen.<$FFFE>
+# spk: Aizel
 89	<$FB00><$0054>Should we have brought those ones<$FFFC>along？<$FFFE>
+# spk: Lainforce
 90	<$FB00><$0055>I won't call them out for<$FFFC>something this small.<$FFFE>
+# spk: Omega
 91	<$FB00><$0048><$FFF4>Uwooooohh！<$FFF3><$FFFE>
+# spk: Sigma
 92	<$FB00><$0057>What！？<$FFFE>
+# spk: Lambda
 93	<$FFF8>…<$FFF9><$FFF6><$FB00><$0058><$FFF4>Ω-137<$FFF3>.<$FFFE>
+# spk: Aizel
 94	<$FB00><$0059>There was a third specimen<$FFF5>…<$FFFE>
+# spk: Lainforce
 95	<$FB00><$005A>What monstrous power！<$FFFE>
+# spk: Lainforce
 96	<$FB00><$005A>What monstrous power！<$FFFD><$FB00><$005B>Aizel. I will hold the third specimen. You<$FFFC>secure those two.<$FFFE>
+# spk: Aizel
 97	<$FB00><$005C>Sir！<$FFFE>
+# spk: Sigma
 98	<$FB00><$0069>Right, let's get clear of the lab<$FFFC>in one go.<$FFFE>
+# spk: Lambda
 99	<$FB00><$006A>Agreed.<$FFFE>
+# spk: Aizel
 100	<$FB00><$006B>Kh！ Wait！ You think you can<$FFFC>escape！？<$FFFE>
+# spk: Aizel
 101	<$FB00><$006C>What is this<$FFF5>…！<$FFFE>
+# spk: Sigma
 102	<$FB00><$006D>The plants are<$FFF5>…<$FE32>…<$FE32><$FB00><$006E>protecting<$FFFC>us<$FFF5><$FE28>…<$FE28>… <$FE32>？<$FE32><$FB00><$006F>Lambda<$FFF5><$FFF8>…？<$FFFE>
+# spk: Lambda
 103	<$FB00><$0070>Let's go while we can. You have no<$FFFC>data on the outside world, right？ I'll<$FFFC>guide you.<$FFFE>
+# spk: Sigma
 104	<$FB00><$0071>Ah…, right. Please.<$FFFE>
+# spk: Aizel
 105	<$FB00><$0072>Kh！ Wait！<$FFFE>
+# spk: Lainforce
 106	<$FB00><$0073>So the girl does have the<$FFFC>power. The specimen research was a<$FFFC>success. Aizel, after them！<$FFFE>
+# spk: Aizel
 107	<$FB00><$0074>Sir, at once.<$FFFE>
+# spk: Omega
 108	<$FB00><$0048>Uwooh！<$FFFE>
+# spk: Sigma
 109	<$FB00><$0046>Behave, and you won't be hurt.<$FFFE>
+# spk: Omega
 110	<$FB00><$005D>D…damn… If only I had<$FFFC><$FFF4>Langrisser<$FFF3>, scum like you would <$FFF5><$FFF8>…<$FFFE>
+# spk: Zero
 111	I have come for you, Lord Lainforce.<$FFFE>
+# spk: Lainforce
 112	Z…Zero…<$FFFE>
+# spk: Zero
 113	What a state you are in…<$FFFD>How did this happen with you at his side,<$FFFC>Aizel？<$FFFE>
+# spk: Aizel
 114	Ugh…ugh…<$FFFE>
+# spk: Lainforce
 115	Never mind that, Zero. The<$FFFC>third specimen…<$FFFE>
+# spk: Zero
 116	By your will.<$FFFE>
+# spk: Omega
 117	<$FB00><$0048><$FFF4>Uwooooohh！<$FFF3><$FFFE>
+# spk: Omega
 118	<$FB00><$005D>D…damn… If only I had<$FFFC><$FFF4>Langrisser<$FFF3>, scum like you would <$FFF5><$FFF8>…<$FFFE>
+# spk: Zero
 119	Mission complete.<$FFFE>
+# spk: Lainforce
 120	Well done, Zero. Take that<$FFFC>specimen and return.<$FFFE>
+# spk: Zero
 121	But then you…<$FFFE>
+# spk: Lainforce
 122	That is an order. Go on ahead.<$FFFE>
+# spk: Zero
 123	…As you will.<$FFFE>

@@ -9,105 +9,203 @@
 7	Omega<$FFFF>
 8	Soldier<$FFFF>
 9	・Defeat all enemies<$FFFE>
+# spk: Sigma
 10	・<$F600><$0000> dies<$FFFE>
 11	Plains near Velzeria Castle<$FFFF>
+# spk: Clarett
 12	<$FB00><$0009>Hurry！ If the plan fails<$FFFC>because we are late, we could never<$FFFC>apologize enough.<$FFFE>
+# spk: Alfred
 13	<$FB00><$000A>But how much farther is it to<$FFFC>Velzeria？<$FFFE>
+# spk: Clarett
 14	<$FB00><$000B>About half a day. The scouts may<$FFFC>be engaging the enemy by now.<$FFFE>
+# spk: Sigma
 15	<$FB00><$000C>Then all the more reason to<$FFFC>hurry<$FFF5><$FFF8>…<$FFF6><$FB00><$000D>Who's there！<$FFFE>
+# spk: Omega
 16	<$FB00><$000E>Good. You noticed me.<$FFFE>
+# spk: Sigma
 17	<$FB00><$000F>Omega<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 18	<$FB00><$0010>So this is Omega？<$FFFE>
+# spk: Mariandel
 19	<$FB00><$0011>Yes. He attacked my brother<$FFFC>and me, then sent us to Gizarof's lab.<$FFFE>
+# spk: Omega
 20	<$FFF7><$FB00><$0012>Hoh<$FFF5><$FFF8>… <$FFF6><$FB00><$0013>Looks like you got your<$FFFC>memory back.<$FFFE>
+# spk: Mariandel
 21	<$FB00><$0014>Because of you, my family<$FFF5><$FFF8>…<$FFFE>
+# spk: Omega
 22	<$FB00><$0015>If you could not protect<$FFFC>yourselves, that is on you. And what good<$FFFC>is bringing it up now？<$FFFE>
+# spk: Sigma
 23	<$FB00><$0016>So what do you want？<$FFFE>
+# spk: Omega
 24	<$FB00><$0017>Isn't it obvious？ I came to<$FFFC>defeat you. So, did your memories come<$FFFC>back？<$FFFE>
+# spk: Sigma
 25	<$FFFA><$FFF8>…<$FFFE>
+# spk: Omega
 26	<$FB00><$0018>From that face, not yet. But I<$FFFC>cannot wait forever. You and I are<$FFFC>enemies. That is enough, isn't it？<$FFFE>
+# spk: Mariandel
 27	<$FB00><$0019>No matter what, you mean to<$FFFC>fight us.<$FFFE>
+# spk: Omega
 28	<$FB00><$002F>That's right.<$FFFE>
+# spk: Brenda
 29	<$FB00><$0047>Looks like we have no choice but<$FFFC>to fight.<$FFFE>
+# spk: Omega
 30	<$FB00><$0023>You're wearing quite a fierce<$FFFC>face, Lambda.<$FFFE>
+# spk: Mariandel
 31	<$FB00><$0024>I am not Lambda anymore！ I am<$FFFC>Mariandel！<$FFFE>
+# spk: Omega
 32	<$FB00><$0025>Even if your memory is back, it<$FFFC>does not erase that we were modified！<$FFFE>
+# spk: Mariandel
 33	<$FB00><$0026>Then I will defeat you and cut<$FFFC>myself free from the past！<$FFFE>
+# spk: Sigma
 34	<$FFF8>…<$FFF6>I didn't know. Omega was the one<$FFFC>who captured Marie…<$FFFE>
+# spk: Mariandel
 35	<$F600><$0000>‥‥。<$FFFE>
+# spk: Sigma
 36	Marie…<$FFFE>
 37	・I'm sorry.<$FFFE>
 38	・If only I had stopped Omega…<$FFFE>
 39	・Forget it now.<$FFFE>
+# spk: Sigma
 40	To think I could not even remember<$FFFC>that… I am sorry, Marie.<$FFFE>
+# spk: Mariandel
 41	…It's all right. More<$FFFC>importantly, we need to defeat the enemy<$FFFC>before us！<$FFFE>
+# spk: Sigma
 42	If my old self had stopped him,<$FFFC>you would never have been modified…<$FFFE>
+# spk: Mariandel
 43	…It's all right. It is<$FFFC>already over now…<$FFFE>
+# spk: Sigma
 44	Then at least let me atone by<$FFFC>defeating Omega！<$FFFE>
+# spk: Mariandel
 45	<$F600><$0000>‥‥。<$FFFE>
+# spk: Sigma
 46	But the truth cannot be changed<$FFFC>now. Forget the sad past and live for the<$FFFC>future！<$FFFE>
+# spk: Mariandel
 47	Y…yes…<$FFFE>
+# spk: Omega
 48	<$FB00><$0027>I'm happy！ To cross blades with<$FFFC>you like this！<$FFFE>
+# spk: Sigma
 49	<$FB00><$0028>What？<$FFFE>
+# spk: Omega
 50	<$FB00><$0029>Before, Lord Gizarof was watching,<$FFFC>so I couldn't. But now we are enemies. I<$FFFC>can beat you down without holding back！<$FFFE>
+# spk: Sigma
 51	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Omega
 52	<$FB00><$002A>Do you hate me？<$FFFE>
+# spk: Mariandel
 53	<$FB00><$002B>After what happened to me,<$FFFC>asking me not to hate you is impossible.<$FFFE>
+# spk: Omega
 54	<$FB00><$002C>Don't put it that way. You<$FFFC>siblings were just the right specimens<$FFFC>Lord Gizarof wanted.<$FFFD><$FB00><$002D>If I had not been ordered to abduct you,<$FFFC><$F600><$0000> might have attacked you<$FFFC>instead.<$FFFE>
+# spk: Mariandel
 55	<$FB00><$002E>True. If I should hate anyone,<$FFFC>it is Gizarof.<$FFFE>
+# spk: Omega
 56	<$FB00><$002F>That's right.<$FFFE>
+# spk: Mariandel
 57	<$FB00><$0030>But that does not mean I can<$FFFC>forgive you. Prepare yourself.<$FFFE>
+# spk: Omega
 58	<$FB00><$0031>Fine. I'll take you on！<$FFFE>
+# spk: Mariandel
 59	<$FB00><$0048>Guh… But I can still fight…<$FFFE>
+# spk: Sigma
 60	<$FB00><$0049>Marie！ Don't push yourself. Fall<$FFFC>back！<$FFFE>
+# spk: Mariandel
 61	<$FB00><$004A>…Please, do not lose…<$FFFE>
+# spk: Sigma
 62	<$FB00><$0080>You all right, Alfred！<$FFFE>
+# spk: Alfred
 63	<$FB00><$0081>Sorry…the rest is up to you…<$FFFE>
+# spk: Sigma
 64	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
+# spk: Brenda
 65	<$FB00><$001F>The enemy has many cavalry. If we<$FFFC>do not maneuver well, this will be<$FFFC>dangerous.<$FFFE>
+# spk: Sigma
 66	<$FB00><$0020>I know！<$FFFE>
+# spk: Brenda
 67	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 68	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 69	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
+# spk: Clarett
 70	<$FB00><$0057>Kyah！<$FFFE>
+# spk: Sigma
 71	<$FB00><$0058>Clarett, are you all right！？<$FFFE>
+# spk: Clarett
 72	<$FB00><$0059>This may be too much…<$FFFE>
+# spk: Sigma
 73	<$FB00><$005A>Leave the rest to us. Fall back！<$FFFE>
+# spk: Clarett
 74	<$FB00><$005B>Sorry, I'll leave it to you…<$FFFE>
+# spk: Soldier
 75	…Lord Omega…forgive me…<$FFFE>
+# spk: Soldier
 76	…I want…to go home…<$FFFE>
+# spk: Omega
 77	<$FB00><$0021>Hit them from both sides！<$FFFE>
+# spk: Soldier
 78	<$FB00><$0022>Understood！<$FFFE>
+# spk: Soldier
 79	I…I'm dying…<$FFFE>
+# spk: Soldier
 80	…Guh…ggh！<$FFFE>
+# spk: Soldier
 81	Did I come to this continent<$FFFC>just to die？<$FFFE>
+# spk: Soldier
 82	I wanna go back to Yeless…<$FFFE>
+# spk: Soldier
 83	Aaagh！<$FFFE>
+# spk: Soldier
 84	My strength is not enough to<$FFFC>beat them…！<$FFFE>
+# spk: Sigma
 85	<$FB00><$001A>Sorry, everyone. I dragged you<$FFFC>into this battle because of me.<$FFFE>
+# spk: Clarett
 86	<$FB00><$001B>What are you saying！ I dragged<$FFFC>everyone into this fight too.<$FFFE>
+# spk: Brenda
 87	<$FB00><$001C>That's right. We're comrades,<$FFFC>aren't we？<$FFFE>
+# spk: Alfred
 88	<$FB00><$001D>More importantly, let's defeat<$FFFC>them and move on！<$FFFE>
+# spk: Omega
 89	<$FB00><$001E>Heh, easy for you to say. Let's<$FFFC>go！<$FFFE>
+# spk: Omega
 90	<$FB00><$0037>Guh！<$FFFE>
+# spk: (location/crowd)
 91	<$FB00><$0038>Lord Omega！<$FFFE>
+# spk: Omega
 92	<$FB00><$003A>If all I had to do was kill them,<$FFFC>this would be easy, but capturing them<$FFFC>alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
+# spk: (location/crowd)
 93	<$FB00><$003C>Yes, sir！<$FFFE>
+# spk: (location/crowd)
 94	<$FB00><$0039>Lord Omega！<$FFFE>
+# spk: Omega
 95	<$FB00><$003A>If all I had to do was kill them,<$FFFC>this would be easy, but capturing them<$FFFC>alive is tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFD><$FB00><$003B>I am pulling back. The rest is yours！<$FFFE>
+# spk: (location/crowd)
 96	<$FB00><$003D>Yes, sir！<$FFFE>
+# spk: Omega
 97	<$FB00><$0037>Guh！<$FFFD><$FB00><$003A>If all I had to do was kill them, this<$FFFC>would be easy, but capturing them alive is<$FFFC>tricky…<$FFFD>Still, buying this much time is good<$FFFC>enough…<$FFFE>
+# spk: Omega
 98	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this rate,<$FFFC>another me would be far more useful.<$FFFE>
+# spk: Omega
 99	<$FFF8>…<$FFF6><$FB00><$0036>What a mess. At this rate,<$FFFC>another me would be far more useful.<$FFFE>
+# spk: Omega
 100	<$FB00><$0032>You're late！<$FFFE>
+# spk: Soldier
 101	<$FB00><$0033>M-my apologies. The truth is<$FFF5><$FFF7>…<$FFFE>
+# spk: Omega
 102	<$FB00><$0032>You're late！<$FFFE>
+# spk: Soldier
 103	<$FB00><$0033>M-my apologies. The truth is<$FFF5><$FFF7>…<$FFFE>
+# spk: Omega
 104	<$FB00><$0034>Excuses later. Focus on defeating<$FFFC>these people now！<$FFFE>
+# spk: Soldier
 105	<$FFF7><$FB00><$0035>Yes, sir！<$FFF5><$FFF6><$FFFE>
+# spk: Soldier
 106	<$FFF7><$FB00><$0035>Yes, sir！<$FFF5><$FFF6><$FFFE>
+# spk: Soldier
 107	！？<$FFFD>Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>
+# spk: Soldier
 108	！？<$FFFD>Lord Omega was defeated！？ Because I was<$FFFC>late…<$FFFE>
+# spk: Sigma
 109	<$FB00><$003E>It is finally over.<$FFFE>
+# spk: Alfred
 110	<$FB00><$003F>We lost time in an unexpected<$FFFC>place.<$FFFE>
+# spk: Brenda
 111	<$FB00><$0040>Then let us hurry.<$FFFE>

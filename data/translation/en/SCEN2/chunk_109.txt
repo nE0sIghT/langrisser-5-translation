@@ -16,46 +16,85 @@
 14	Grunt<$FFFF>
 15	Leader<$FFFF>
 16	Russel<$FFFF>
+# spk: (location/crowd)
 17	After the Battle<$FFFF>
+# spk: Clarett
 18	<$FB00><$004F>Eric！ Stay with me, Eric！<$FFFE>
+# spk: Eric
 19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0050>Clarett. So you won. …I'm<$FFFC>glad.<$FFFE>
+# spk: Clarett
 20	<$FB00><$0051>Yes. You destroyed the cannon…<$FFFC>We owe this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Eric
 21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned… Now I can die<$FFFC>in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+# spk: Clarett
 22	<$FB00><$0053>Don't you give up！ We'll treat<$FFFC>you right away！<$FFFE>
+# spk: Eric
 23	…<$FB00><$0054>I'm sorry, Clarett. Without me,<$FFFC>your fight might have been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+# spk: Clarett
 24	<$FB00><$0057>Eriiiic！<$FFFE>
 25	Federation Castle, Dungeon<$FFFF>
+# spk: Emily
 26	<$FB00><$0058>Hello！ Is anyone there！<$FFFE>
+# spk: Jailer
 27	<$FB00><$0059>What is it, General？<$FFFE>
+# spk: Emily
 28	<$FB00><$005A>Let me see Marshal Lanford.<$FFFE>
+# spk: Jailer
 29	<$FB00><$005B>The answer does not change.<$FFFC>General or not, I cannot let you see him.<$FFFE>
+# spk: Emily
 30	<$FB00><$005C>Surely something can be done！<$FFFE>
+# spk: Lanford
 31	<$FB00><$005D>You are<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Landius
 32	<$FB00><$005E>Shh！<$FFF8><$FFF5><$FFFD><$FFF6><$FB00><$005F>Quietly. Follow me.<$FFFE>
 33	In the mountains<$FFFF>
+# spk: Soldier
 34	<$FB00><$0060>Lord Virash, will they really<$FFFC>pass through here？<$FFFE>
+# spk: Virash
 35	<$FB00><$0061>Yeah. If that man spoke true,<$FFFC>they'll come this way.<$FFFE>
+# spk: Soldier
 36	<$FB00><$0062>The tip from that mean-eyed<$FFFC>giant？<$FFFE>
+# spk: Virash
 37	<$FB00><$0063>It's the only lead we have, so we<$FFFC>play it. Detector？<$FFFE>
+# spk: Soldier
 38	<$FB00><$0064>Nothing so far.<$FFFE>
+# spk: Virash
 39	<$FB00><$0065>Could they be headed somewhere<$FFFC>else？ If so<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Soldier
 40	<$FB00><$0066>Lord Virash, enemy detected.<$FFFE>
+# spk: Virash
 41	<$FB00><$0067>So the net was set in the right<$FFFC>place.<$FFFE>
+# spk: Soldier
 42	<$FB00><$0068>Magitek cannon ready.<$FFFE>
+# spk: Virash
 43	<$FB00><$0069>Good！ Target, the enemy airship.<$FFFD><$FB00><$006A>Fire！<$FFFE>
 44	Transport Airship Bridge<$FFFF>
+# spk: Captain
 45	<$FFF8>…<$FFF6><$FB00><$006B>Kh！ What was that！<$FFFE>
+# spk: Grunt
 46	<$FB00><$006C>Magitek cannon fire！<$FFFE>
+# spk: Captain
 47	<$FB00><$006D>A Magitek cannon！？ …The<$FFFC>surface faction！ Where were we hit？<$FFFE>
+# spk: Grunt
 48	<$FB00><$006E>The drive is hit！ No control！ No<$FFFC>control！<$FFFE>
+# spk: Captain
 49	<$FB00><$006F>Emergency landing！<$FFFE>
 50	Federation Castle, Audience Hall<$FFFF>
+# spk: Leader
 51	<$FB00><$0070>Premier, urgent news！<$FFFE>
+# spk: Russel
 52	<$FB00><$0071>What is it？<$FFFE>
+# spk: Leader
 53	<$FB00><$0072>Marshal Lanford has escaped the<$FFFC>dungeon！<$FFFE>
+# spk: Russel
 54	<$FFF7><$FB00><$0073>Hoh<$FFF5><$FFF8><$FE3C>…<$FE3C>,<$FE3C><$FFF6><$FB00><$0074>escaping before his<$FFFC>trial<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0075>Now we may execute him<$FFFC>openly<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0076>What of the pursuit？<$FFFE>
+# spk: Leader
 55	<$FB00><$0077>Caconsis hands seem to have aided<$FFFC>him. They head south.<$FFFE>
+# spk: Russel
 56	<$FB00><$0078>What？ Caconsis, you say？<$FFFE>
+# spk: Russel
 57	<$FFF8>…<$FE3C><$FFF6><$FB00><$0079>Hm. I have an idea. Let him run<$FFFC>for now！<$FFFE>
+# spk: Leader
 58	<$FFF7><$FB00><$007A>Y, yes<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$007B>As you command.<$FFFE>
+# spk: Russel
 59	<$FB00><$007C>If Caconsis shelters a fugitive,<$FFFC>war has fresh kindling. Interesting.<$FFFE><$FFFF>

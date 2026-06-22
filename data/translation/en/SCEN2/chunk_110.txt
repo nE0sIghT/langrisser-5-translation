@@ -12,71 +12,136 @@
 10	Gotahl mayor<$FFFF>
 11	Mother<$FFFF>
 12	Malga Mountains<$FFFF>
+# spk: Brenda
 13	<$FB00><$005F>Lain<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Lainforce
 14	<$FB00><$0060>Hoho. So you are the ones who<$FFFC>took the sacred sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
+# spk: Sigma
 15	<$FB00><$0062>You think we'll be caught that<$FFFC>easily？<$FFFE>
+# spk: Lainforce
 16	<$FB00><$0063>Then you think you can<$FFFC>escape？ Let's see how long you can bluff<$FFFC>against the Crimzonian Knights.<$FFFE>
+# spk: Brenda
 17	<$FB00><$0064>Hah！ I don't care who you<$FFFC>brought, I won't forgive you. For my<$FFFC>parents and my village, I'll have my<$FFFC>revenge！<$FFFE>
+# spk: Lainforce
 18	<$FB00><$0065>You would defeat me？ Are you<$FFFC>serious, Brenda？<$FFFE>
+# spk: Soldier
 19	<$FB00><$0066>Emergency, Lord Lainforce！<$FFFE>
+# spk: Lainforce
 20	<$FB00><$0067>What？<$FFFE>
+# spk: Soldier
 21	<$FB00><$0068>We found the airship's nose<$FFFC>section, but the fire may ignite the<$FFFC>Magitek reactor！<$FFFE>
+# spk: Lainforce
 22	<$FB00><$0069>What？ Have the crew been<$FFFC>rescued？<$FFFE>
+# spk: Soldier
 23	<$FB00><$006A>The flames are too strong. Not<$FFFC>yet！ We cannot handle it alone！<$FFFE>
+# spk: Lainforce
 24	<$FB00><$006B>Understood！<$FFFE>
+# spk: Lainforce
 25	<$FB00><$006C>It seems your lives were<$FFFC>spared. I will overlook you this time.<$FFFE>
+# spk: Lainforce
 26	<$FB00><$006D>All units, move to rescue the<$FFFC>crew. There is no time. Hurry！<$FFFE>
+# spk: Brenda
 27	<$FB00><$006E>Hold it！ Lainforce！<$FFFE>
+# spk: Virash
 28	<$FB00><$006F>There you are. Did you find the<$FFFC>sword？<$FFFE>
+# spk: Alfred
 29	<$FB00><$0070>Virash. We got the sword,<$FFFC>but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Clarett
 30	<$FB00><$0071>More importantly, Brenda chased<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Virash
 31	<$FB00><$0072>What？<$FFFE>
+# spk: Mariandel
 32	<$FB00><$0073>And they said the Magitek<$FFFC>reactor might catch fire.<$FFFE>
+# spk: Virash
 33	<$FB00><$0074>The reactor？ That's bad！ You all<$FFFC>get out of here now！<$FFFE>
+# spk: Sigma
 34	<$FB00><$0075>But Brenda is<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Virash
 35	<$FB00><$0076>I will handle her. Now hurry and<$FFFC>get out of here. Understand？<$FFFE>
 36	Airship, Nose Section<$FFFF>
+# spk: Lainforce
 37	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0077>Good, everyone is out.<$FFFE>
+# spk: Brenda
 38	<$FB00><$0078>You are not getting away,<$FFFC>Lainforce！<$FFFE>
+# spk: Lainforce
 39	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0079>Brenda.<$FFFE>
+# spk: Brenda
 40	<$FB00><$007A>You used my feelings to destroy my<$FFFC>village. I cannot forgive you<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$007B>I will<$FFFC>never forgive you！<$FFFE>
+# spk: Lainforce
 41	<$FB00><$007C>I will make no excuses for<$FFFC>that. But we have no time to linger here.<$FFFD><$FB00><$007D>This airship's Magitek reactor is still<$FFFC>active. If the flames reach it, you know<$FFFC>what will happen.<$FFFE>
+# spk: Brenda
 42	<$FB00><$007E>That's right.<$FFFD><$FB00><$007F>I don't know if I can beat you myself. But<$FFFC>if I keep you here, the runaway reactor<$FFFC>will blow us both away.<$FFFE>
+# spk: Lainforce
 43	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0080>Are you serious？<$FFFE>
+# spk: Brenda
 44	<$FB00><$0081>Believe me or don't. We will have<$FFFC>the answer soon enough<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Lainforce
 45	<$FB00><$0082>Good grief<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Brenda
 46	<$FFFA><$FFF8><$FB00><$0083>Guh！<$FFFE>
+# spk: Lainforce
 47	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0084>Such a strong-willed<$FFFC>woman<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 48	Outside the airship<$FFFF>
+# spk: Virash
 49	<$FB00><$0085>Brenda！ Where are you, Brenda！<$FFFE>
+# spk: Virash
 50	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Lainforce…<$FFFE>
+# spk: Lainforce
 51	<$FB00><$0087>Do not worry. I merely quieted<$FFFC>her for a while. Her life is not in<$FFFC>danger.<$FFFE>
+# spk: Virash
 52	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0002><$FB00><$0088>For now, I suppose I should<$FFFC>thank you.<$FFFE>
+# spk: Lainforce
 53	<$FB00><$0089>I do not need it. It is true<$FFFC>that our actions destroyed your village.<$FFFD><$FB00><$008A>But you, how can you fail to protect your<$FFFC>own woman？<$FFFE>
+# spk: Virash
 54	<$FB00><$008B>Wh, what<$FFF5><$FFF7>…<$FE1E>…<$FE1E>！？<$FFFE>
+# spk: Lainforce
 55	<$FB00><$008C>If it were me, I would never<$FFFC>let her face danger, even if I had to<$FFFC>throw my life away.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>To lose to a man<$FFFC>like this？<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Lainforce
 56	<$FB00><$008E>Enough. Farewell.<$FFFE>
+# spk: Virash
 57	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$008F>What was that about<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 58	Recrio Village, Brenda's memory<$FFFF>
+# spk: Brenda
 59	<$FB00><$0090>What… happened！？ What happened<$FFFC>here？ Everyone, hold on！ Open your eyes！<$FFFE>
+# spk: Gotahl mayor
 60	<$FB00><$0091>Hey！ Is everyone all<$FFFC>right！？<$FFF5><$FFF8><$FFFE>
+# spk: Gotahl mayor
 61	…<$FE1E>…<$FE1E><$FFF6><$FB00><$0092>You. What happened<$FFFC>here？<$FFFE>
+# spk: Brenda
 62	<$FB00><$0093>I… I do not know… I was up in<$FFFC>the hills. When I came back<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Gotahl mayor
 63	<$FB00><$0094>It has rained so much<$FFFC>lately. Maybe the levee broke<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFD><$FFF6><$FB00><$0095>First, we have to help the wounded. You<$FFFC>help too.<$FFFE>
+# spk: Brenda
 64	<$FB00><$0096>Yes<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Mother
 65	<$FB00><$0097>Uuh<$FFF5><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Brenda
 66	<$FB00><$0098>Ah, she is still breathing.<$FFFE>
+# spk: Gotahl mayor
 67	<$FB00><$0099>What？<$FFFE>
+# spk: Mother
 68	<$FB00><$009A>This child… and this crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Gotahl mayor
 69	<$FB00><$009B>Stay with us！<$FFFE>
+# spk: Mother
 70	<$FB00><$009C>Please<$FFFA>… take the boy<$FFF5><$FFF8>…<$FE1E>…<$FFFE>
+# spk: Gotahl mayor
 71	<$FB00><$009D>Y, yes. I swear I will care<$FFFC>for him<$FFF5><$FFF8>…<$FE1E>.<$FFFE>
+# spk: Mother
 72	<$FFFA><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Brenda
 73	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$009E>How terrible<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Gotahl mayor
 74	<$FB00><$009F>Do you know what this<$FFFC>crystal is？<$FFFE>
+# spk: Brenda
 75	<$FB00><$00A0>It is the Sage Crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FE1E> <$FFF6><$FB00><$00A1>It<$FFFC>is Recrio Village's treasure.<$FFFD><$FB00><$00A2>Are there any other survivors？<$FFFE>
+# spk: Gotahl mayor
 76	<$FFFA><$FB00><$00A3>No, no one else<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Brenda
 77	<$FB00><$00A4>I see<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Brenda
 78	<$FFF6><$FB00><$00A5>Please<$FFF5><$FFF8>…<$FE1E>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00A6>I ask this of you as<$FFFC>well. Keep this crystal in your village.<$FFFC>And give it to no one.<$FFFE>
+# spk: Gotahl mayor
 79	<$FB00><$00A7>I can do that, but what<$FFFC>about you<$FFF5><$FFF8>…<$FE1E>…<$FE1E>？<$FFFE>
+# spk: Brenda
 80	<$FB00><$00A8>I will search for my comrades. I<$FFFC>do not know how many years it will take,<$FFFC>but until then, please protect it.<$FFFE><$FFFF>

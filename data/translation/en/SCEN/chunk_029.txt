@@ -15,189 +15,362 @@
 13	Officer<$FFFF>
 14	C.Knights 7<$FFFF>
 15	・Everyone escapes to the map edge<$FFFC>・Defeat all enemies<$FFFE>
+# spk: Sigma
 16	・All citizens killed<$FFFC>・<$F600><$0000> dies<$FFFE>
 17	Valtar Town, Northeast District<$FFFF>
+# spk: McClaine
 18	<$FB00><$0042>I'll save every one of you！<$FFFC>Don't give up！<$FFFE>
+# spk: Town
 19	<$FB00><$0043>Y, yes！<$FFFE>
+# spk: McClaine
 20	<$FB00><$0044>Even so<$FFF5><$FFF8>…,<$FFF6><$FB00><$0045>against that many<$FFFC>enemies, can I save them alone<$FFF5><$FFF8>….<$FFFE>
+# spk: Lanford
 21	<$FFF8><$FB00><$0046>Hm？<$FFF5> <$FFF6><$FB00><$0047>Is that… McClaine？<$FFFE>
+# spk: Mariandel
 22	<$FB00><$0048>B, brother？ Why are you<$FFFC>here？<$FFFE>
+# spk: McClaine
 23	<$FB00><$004A>Lanford, and Marie too！<$FFFE>
+# spk: Mariandel
 24	<$FB00><$0049>Weren't you in El Sallia<$FFF5><$FFF8>….<$FFFE>
+# spk: McClaine
 25	…<$FFF6><$FB00><$004B>I heard this city was under<$FFFC>attack and rushed back.<$FFFE>
+# spk: Alfred
 26	<$FB00><$004C>Is there something so important<$FFFC>here？ It hardly seems a strategic<$FFFC>point<$FFF5><$FFF8>….<$FFFE>
+# spk: Brenda
 27	<$FB00><$004D>This place<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>has an ancient weapon<$FFFC>buried in it.<$FFFE>
+# spk: Sigma
 28	<$FB00><$004F>Is that what Lainforce is after？<$FFFE>
+# spk: Lanford
 29	<$FB00><$0050>That weapon, what manner of<$FFFC>thing is it？ Could you tell us？<$FFFE>
+# spk: Brenda
 30	<$FB00><$0051>A sky battleship. Big as a parent<$FFFC>to all airships, fitted with many Magitek<$FFFC>cannons.<$FFFE>
+# spk: McClaine
 31	<$FFF8>…<$FFF6><$FB00><$0052>I see. So that's what was<$FFFC>buried here.<$FFFE>
+# spk: Lanford
 32	<$FB00><$0053>Isn't that why you came back？<$FFFE>
+# spk: McClaine
 33	<$FB00><$0054>A wholly personal matter.<$FFF5><$FFFC><$FB00><$0002><$FB00><$0055>Marie, listen well！ Father and mother are<$FFFC>here！<$FFFE>
+# spk: Mariandel
 34	<$FB00><$0056>Father and mother are！？<$FFFE>
+# spk: McClaine
 35	<$FB00><$0057>Yeah. They should have taken<$FFFC>shelter in this town.<$FFFE>
+# spk: Mariandel
 36	<$FB00><$0058>And, are they safe？<$FFFE>
+# spk: McClaine
 37	<$FB00><$0059>I don't know.<$FFF5> <$FB00><$005A>But if we get<$FFFC>through this, we can ask where the other<$FFFC>citizens fled.<$FFFE>
+# spk: Sigma
 38	<$FB00><$005B>Right, we'll back you up！<$FFFE>
+# spk: Omega
 39	<$FFF8><$FB00><$005C>Heh heh heh！<$FFF5> <$FFF6><$FB00><$005D>What an<$FFFC>interesting fellow. A fine chance to take<$FFFC>him down.<$FFFE>
+# spk: Omega
 40	<$FB00><$005E>You there！ Attack the citizens<$FFFC>too！<$FFFE>
+# spk: C.Knights 8
 41	<$FB00><$005F>I refuse. We've no wish to<$FFFC>wage a needless fight.<$FFFE>
+# spk: Omega
 42	<$FB00><$0060>You won't heed my words！？ I hold<$FFFC>command from Lainforce.<$FFFD><$FB00><$0061>To defy me is to defy Lainforce, you<$FFFC>understand？<$FFFE>
+# spk: C.Knights 9
 43	<$FFF8><$FFFA>….<$FFFE>
+# spk: Omega
 44	<$FB00><$0062>Good. The citizens are their<$FFFC>weakness. To win, we use them<$FFF5><$FFF8>….<$FFFE>
+# spk: Mariandel
 45	<$FB00><$0063>Father… mother<$FFF5><$FFF8>…<$FFFE>
+# spk: (no plate)
 46	What do you say to her？<$FFFE>
 47	・Hold it together, Marie！<$FFFE>
 48	・I'll reunite you with them！<$FFFE>
 49	・Now we fight！<$FFFE>
+# spk: Sigma
 50	Hold it together, Marie！ …It's<$FFFC>all right. I'm sure your parents are safe.<$FFFE>
+# spk: Mariandel
 51	<$FFF8>….<$FFFE>
+# spk: Sigma
 52	If we get out of here alive,<$FFFC>you'll see them.<$FFFE>
+# spk: Mariandel
 53	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
+# spk: Sigma
 54	<$FB00><$0064>Don't worry, Marie. I'll reunite<$FFFC>you with your parents without fail！<$FFFE>
+# spk: Mariandel
 55	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
+# spk: Sigma
 56	What are you standing dazed for！<$FFFC>Now we fight！<$FFFE>
+# spk: Mariandel
 57	<$FFF8>….<$FFFE>
+# spk: Sigma
 58	Think of yourself now！ If we get<$FFFC>out alive, you can search for them！<$FFFE>
+# spk: Mariandel
 59	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
+# spk: Sigma
 60	<$FB00><$0065>For that, we take no risks. We get<$FFFC>the citizens out, then escape ourselves.<$FFFE>
 61	・Even one unit of citizens is killed<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Omega
 62	<$FB00><$00A3>I can't lose！ Even without<$FFFC>Langrisser, I'm a finished body with this<$FFFC>power！ Behold my strength！<$FFFE>
+# spk: Sigma
 63	<$FB00><$00A4>Omega's aura is swelling？ He's<$FFFC>used his power！<$FFFE>
+# spk: Omega
 64	<$FB00><$00A5>I amplify mental energy and make<$FFFC>it my own. A failed product like you never<$FFFC>even knew how to use it！<$FFFD><$FB00><$00A6>Here I come！<$FFFE>
+# spk: Sigma
 65	<$FB00><$00A7>I can't escape while everyone's<$FFFC>still here<$FFF5><$FFF8>….<$FFFE>
+# spk: Sigma
 66	<$FB00><$00AE>First we get the citizens out. We<$FFFC>go after.<$FFFE>
+# spk: (no plate)
 67	Let this one escape first？<$FFFE>
+# spk: Mariandel
 68	<$FB00><$00A8>I'll go on ahead.<$FFFE>
+# spk: (no plate)
 69	Let this one escape first？<$FFFE>
+# spk: Alfred
 70	<$FB00><$00A9>Excuse me, I'll go ahead.<$FFFE>
+# spk: (no plate)
 71	Let this one escape first？<$FFFE>
+# spk: Brenda
 72	<$FB00><$00AA>I'll go first, but you take care<$FFFC>too！<$FFFE>
+# spk: (no plate)
 73	Let this one escape first？<$FFFE>
+# spk: Clarett
 74	<$FB00><$00AB>Pardon me, going ahead！<$FFF5><$FFF8> …<$FFF6><$FB00><$00AC>Be<$FFFC>careful.<$FFFE>
+# spk: (no plate)
 75	Let this one escape first？<$FFFE>
+# spk: Lanford
 76	<$FB00><$00AD>I'll go ahead, but mind<$FFFC>yourself.<$FFFE>
+# spk: Town
 77	<$FB00><$0093>Now I can go see my mother！<$FFFE>
+# spk: Town
 78	<$FB00><$0094>W, we're saved<$FFF5><$FFF8>….<$FFFE>
+# spk: Town
 79	<$FB00><$0095>Lucky！ We made it！<$FFFE>
+# spk: McClaine
 80	Good. Time for me to escape too.<$FFFE>
+# spk: Sigma
 81	<$FB00><$002C>Take this！<$FFFE>
+# spk: Omega
 82	Glad of it！ That you'd fight<$FFFC>instead of fleeing！<$FFFE>
+# spk: Sigma
 83	No need to flee. Here I come,<$FFFC>Omega！<$FFFE>
+# spk: Sigma
 84	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
+# spk: Mariandel
 85	<$FB00><$0046>Here goes.<$FFFE>
+# spk: Mariandel
 86	<$FB00><$0047>Come if you dare.<$FFFE>
+# spk: Mariandel
 87	<$FB00><$00B7>Aah！<$FFFE>
+# spk: McClaine
 88	<$FB00><$00B8>Marie！<$FFFE>
+# spk: Mariandel
 89	<$FB00><$00B9>B, brother<$FFF5><$FFF8>… <$FFF6><$FB00><$00BA>I'm still all<$FFFC>right<$FFF5><$FFF8>….<$FFFE>
+# spk: McClaine
 90	<$FB00><$00BB>Don't talk nonsense！ If<$FFFC>anything happened to you, I couldn't face<$FFFC>our parents！<$FFFE>
+# spk: Sigma
 91	<$FB00><$00BC>Leave this to me, Marie.<$FFFE>
+# spk: Mariandel
 92	<$FB00><$00BD>All right.<$FFF5><$FFF8> …<$FFF6><$FB00><$00BE>Please.<$FFFE>
+# spk: Alfred
 93	<$FB00><$0075>I can fight too！<$FFFE>
+# spk: Alfred
 94	<$FB00><$0076>I won't lose！<$FFFE>
+# spk: Alfred
 95	<$FB00><$007B>I can still… I can still fight…<$FFFE>
+# spk: Sigma
 96	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
+# spk: Alfred
 97	<$FB00><$007D>But…<$FFFE>
+# spk: Sigma
 98	<$FB00><$007E>Trust your comrades！<$FFFE>
+# spk: Alfred
 99	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
+# spk: Brenda
 100	<$FB00><$0068>Come and get it！<$FFFE>
+# spk: Brenda
 101	<$FB00><$0069>Who do you think I am！<$FFFE>
+# spk: Brenda
 102	<$FFF8>…<$FB00><$00C0>Lain<$FFF5><$FFF8>….<$FFFE>
+# spk: Lainforce
 103	<$FB00><$00C1>I regret ever meeting you. Had<$FFFC>we never met, we'd not be fighting like<$FFFC>this.<$FFFE>
+# spk: Brenda
 104	<$FB00><$00C2>You'll pin it all on the god of<$FFFC>fate？<$FFF5> <$FB00><$00C3>That I can't accept！<$FFFE>
+# spk: Brenda
 105	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 106	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 107	<$FB00><$0072>Sorry… I'll take you up on that…<$FFFE>
+# spk: Clarett
 108	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 109	<$FB00><$0056>Sorry, I'll pull back first…<$FFFE>
+# spk: Lanford
 110	<$FB00><$0085>By this sword, I'll defeat you！<$FFFE>
+# spk: Lanford
 111	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+# spk: Lanford
 112	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
+# spk: Sigma
 113	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
+# spk: Lanford
 114	<$FB00><$0090>A wound like this is a scratch…<$FFFE>
+# spk: Sigma
 115	<$FB00><$0091>Don't push it！ Leave the rest to<$FFFC>us！<$FFFE>
+# spk: Lanford
 116	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
+# spk: Town
 117	<$FB00><$006F>U, um, what should we do<$FFF5><$FFF8>…？<$FFFE>
+# spk: Town
 118	U, um, your orders, please….<$FFFE>
+# spk: Sigma
 119	<$FB00><$0070>Right<$FFF5><$FFF8>….<$FFFE>
 120	・Flee north<$FFFE>
 121	・Flee northeast<$FFFE>
 122	・Flee east<$FFFE>
 123	・Don't move yet<$FFFE>
+# spk: Sigma
 124	<$FB00><$0071>Flee to the north！<$FFFE>
+# spk: Sigma
 125	<$FB00><$0072>Flee to the northeast！<$FFFE>
+# spk: Sigma
 126	<$FB00><$0073>Flee to the east！<$FFFE>
+# spk: Sigma
 127	Don't move yet. I'll give the word<$FFFC>as I read the situation！<$FFFE>
+# spk: Town
 128	<$FB00><$0074>Y, yes！<$FFFE>
+# spk: Town
 129	<$FB00><$0087>Kyaaa！ Help！<$FFF5><$FFF7><$FFFE>
+# spk: McClaine
 130	<$FB00><$008A>What！？ The citizens are hit！<$FFFE>
+# spk: Sigma
 131	<$FB00><$008B>No<$FFF5><$FFF8>… <$FFF6><$FB00><$008C>Did I give the wrong order？<$FFFE>
+# spk: Town
 132	<$FB00><$008D>M, mother…<$FFFE>
+# spk: Town
 133	<$FB00><$0088>No！ Stop！<$FFFE>
+# spk: Town
 134	<$FB00><$008E>Why… does it come to this…<$FFFE>
+# spk: Town
 135	<$FB00><$0089>Waah！ Help me！<$FFFE>
+# spk: Town
 136	<$FB00><$008F>It hurts, it hurts…<$FFFE>
+# spk: McClaine
 137	<$FB00><$0066>I'll cover you. What do you<$FFFC>want？<$FFFE>
 138	・Head for the north gate<$FFFE>
 139	・Head for the northeast gate<$FFFE>
 140	・Head for the east gate<$FFFE>
 141	・Fight as you please<$FFFE>
+# spk: Sigma
 142	<$FB00><$0067>Head for the north gate.<$FFFE>
+# spk: McClaine
 143	<$FB00><$0068>Got it, north.<$FFFE>
+# spk: Sigma
 144	<$FB00><$0069>Head for the northeast gate.<$FFFE>
+# spk: McClaine
 145	<$FB00><$006A>Got it, northeast.<$FFFE>
+# spk: Sigma
 146	<$FB00><$006B>Head for the east gate.<$FFFE>
+# spk: McClaine
 147	<$FB00><$006C>Got it, east.<$FFFE>
+# spk: Sigma
 148	<$FB00><$006D>Just fight as you please.<$FFFE>
+# spk: McClaine
 149	<$FB00><$006E>Got it, then I'll do as I like！<$FFFE>
+# spk: McClaine
 150	<$FB00><$00B2>U, gh… I slipped up！<$FFFE>
+# spk: Mariandel
 151	<$FB00><$00B3>Brother！ Don't push<$FFFC>yourself！<$FFFE>
+# spk: Sigma
 152	<$FB00><$00B4>Fall back, McClaine. We'll manage<$FFFC>the rest！<$FFFE>
+# spk: McClaine
 153	<$FB00><$00B5>Sorry about this….<$FFFE>
+# spk: Officer
 154	…Gh… what strength….<$FFFE>
+# spk: Officer
 155	Wh, what！？<$FFFE>
+# spk: Officer
 156	Here I come！<$FFFE>
+# spk: Officer
 157	I still have things left<$FFFC>undone…<$FFFE>
+# spk: C.Knights 8
 158	I… cannot die yet….<$FFFE>
+# spk: C.Knights 9
 159	…That a surface-dweller<$FFFC>holds such power…. …Kh！<$FFFE>
+# spk: (location/crowd)
 160	<$FB00><$0075>This time you won't escape！<$FFFC>This time I'll settle it！<$FFFE>
+# spk: Sigma
 161	<$FB00><$0076>Omega<$FFF5><$FFF8>….<$FFFE>
+# spk: Mariandel
 162	<$FB00><$0077>Why do you hunt us？<$FFFE>
+# spk: (location/crowd)
 163	<$FB00><$0078>What Lainforce wants is you,<$FFFC>Lambda. He seems to need the power you<$FFFC>hold.<$FFFE>
+# spk: Mariandel
 164	<$FB00><$0079>Then why hunt him？<$FFFE>
+# spk: (location/crowd)
 165	<$FB00><$007A>Because defeating him is<$FFFC>what I live for！<$FFFE>
+# spk: Sigma
 166	<$FB00><$007B>What grudge do you bear me, Omega.<$FFFE>
+# spk: (location/crowd)
 167	<$FB00><$007C>Seems you can't recall on<$FFFC>your own.<$FFF5> <$FB00><$007D>Then I'll tell you！<$FFFD><$FB00><$007E>Ever since you came to Lord Gizarof, every<$FFFC>honor was stolen by you. Even the men who<$FFFC>once looked up to me left to become yours.<$FFFD><$FB00><$007F>And all for one thing, a word:<$FFFC>charisma….<$FFFE>
+# spk: Clarett
 168	<$FB00><$0080>That's a baseless grudge！ It's<$FFFC>not as if he ever meant you ill, is it？<$FFFE>
+# spk: (location/crowd)
 169	<$FB00><$0081>Say what you like！ Until I<$FFFC>beat you and make them acknowledge me, I<$FFFC>can't become myself！<$FFFD><$FB00><$0082>I, the finished product, cannot lose to<$FFFC>you, the unfinished one！<$FFFD><$FB00><$0083>For Lord Gizarof's sake too！<$FFFE>
+# spk: Lanford
 170	<$FB00><$0084>For Gizarof？<$FFFE>
+# spk: (location/crowd)
 171	<$FB00><$0085>Yes. To repay my debt to<$FFFC>Lord Gizarof, who raised me.<$FFF5> <$FB00><$0086>That is how<$FFFC>I live！<$FFFE>
+# spk: Omega
 172	The ones I sent around still<$FFFC>aren't here. So many useless fools.<$FFFE>
+# spk: Omega
 173	<$FB00><$00B6>What… even this isn't enough…！？<$FFFC>To beat him, I must raise my power higher<$FFFC>still….<$FFFE>
+# spk: C.Knights 7
 174	…Impossible…. I won't<$FFFC>forget this humiliation！<$FFFE>
+# spk: Lainforce
 175	Curse it… my carelessness….<$FFFC>I can't die in a place like this. …I've<$FFFC>no choice but to withdraw for now….<$FFFE>
+# spk: Sigma
 176	<$FB00><$00BF>Whew. No enemies left, it seems.<$FFFC>Let's escape while we can.<$FFFE>
+# spk: Sigma
 177	<$FB00><$0090>Sorry, my mistake….<$FFFE>
+# spk: McClaine
 178	<$FB00><$0091>The citizens are wiped out！？<$FFFC>What did we struggle for！ This means<$FFFC>nothing！<$FFFE>
+# spk: Sigma
 179	<$FFF8><$FB00><$0092>Kh….<$FFFE>
+# spk: (location/crowd)
 180	You're late！ What are you<$FFFC>doing！<$FFFE>
+# spk: Officer
 181	My apologies.<$FFFE>
+# spk: (location/crowd)
 182	Spare me the excuses！ Hurry<$FFFC>after the citizens！<$FFFE>
+# spk: Officer
 183	Sir！<$FFFE>
+# spk: Officer
 184	Lord Omega<$FFF8>…. <$FFF6>Then we've no<$FFFC>choice but to hunt the citizens as<$FFFC>planned！<$FFFE>
+# spk: Sigma
 185	<$FB00><$0096>Right, only us left now….<$FFFE>
+# spk: Lainforce
 186	<$FB00><$0097>The town's northeast was in an<$FFFC>uproar, and this is what's behind it.<$FFFE>
+# spk: Brenda
 187	<$FB00><$0098>Lain<$FFF5><$FFF8>….<$FFFE>
+# spk: Lainforce
 188	<$FB00><$0099>And raising your sword against<$FFFC>the defenseless, what is the meaning of<$FFFC>this, Omega？<$FFFE>
+# spk: Omega
 189	<$FFF8><$FB00><$009A>…G….<$FFFE>
+# spk: Omega
 190	<$FFF8><$FB00><$009A>…G….<$FFFE>
+# spk: Omega
 191	<$FFF8><$FB00><$009A>…G….<$FFFE>
+# spk: Lainforce
 192	<$FB00><$009B>From now, I forbid any hand<$FFFC>laid on the citizens！ Those with no will<$FFFC>to resist aren't worth killing！<$FFFE>
+# spk: (location/crowd)
 193	<$FB00><$009C>Sir！<$FFFE>
+# spk: Lainforce
 194	<$FB00><$009D>Now we can fight fair and<$FFFC>square. I'd not have it said I won by<$FFFC>cowardly tactics.<$FFFE>
+# spk: Brenda
 195	<$FB00><$009E>Don't talk as you please！<$FFFE>
+# spk: Lainforce
 196	<$FB00><$009F>Spirited as ever. Surrender<$FFFC>and become my subordinate, and I'll spare<$FFFC>your life.<$FFFE>
+# spk: Brenda
 197	<$FB00><$00A0>As if I'd ever lose to you！<$FFFE>
+# spk: Lainforce
 198	<$FFF8>…<$FB00><$00A1>No help for it<$FFF5><$FFF8>…. <$FFF6><$FB00><$00A2>Take the<$FFFC>specimen girl, kill the rest！<$FFFE>
+# spk: Sigma
 199	<$FB00><$00AF>Right, time I escaped too.<$FFFE>
+# spk: Omega
 200	<$FB00><$00B0>Wait！ You're fleeing！<$FFF5><$FFF7><$FFFE>
+# spk: Sigma
 201	<$FB00><$00B1>So long, Omega.<$FFFE><$FFFF>

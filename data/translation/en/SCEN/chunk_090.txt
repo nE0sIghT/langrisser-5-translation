@@ -11,23 +11,43 @@
 9	Goldry<$FFFF>
 10	Folk<$FFFF>
 11	Knox ～North gate～<$FFFF>
+# spk: Wiler
 12	<$FB00><$004A>Oww<$FFF5><$FFF8>…<$FFFE>
+# spk: Selena
 13	<$FB00><$004B>Are you all right, Admiral？<$FFFE>
+# spk: Wiler
 14	<$FB00><$004C>Honestly, maybe I should study<$FFFC>swordsmanship in earnest<$FFF5><$FFF8>… <$FFF6><$FB00><$004D>I keep being a<$FFFC>burden to you.<$FFFE>
+# spk: Wiler
 15	<$FB00><$004E>More to the point, would you<$FFFC>explain how it came to this？ Captain<$FFFC>Goldry.<$FFFE>
+# spk: Goldry
 16	<$FFFA><$FB00><$004F>Th, that is<$FFF5><$FFF8>…<$FFFE>
+# spk: Wiler
 17	<$FB00><$0050>What were you thinking, fighting<$FFFC>inside the town？ Your duty was to keep<$FFFC>the peace here, was it not？<$FFFE>
+# spk: Goldry
 18	<$FB00><$0051>That's exactly why I fought, sir.<$FFFE>
+# spk: Wiler
 19	<$FB00><$0052>Is it？ It looked to me like you<$FFFC>were the one troubling the folk <$FFF5><$FFF8>…<$FFFE>
+# spk: Folk
 20	<$FB00><$0053>Um<$FFF5><$FFF8>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$0054>I saw it. That captain told<$FFFC>those people to pay an outrageous toll<$FFF5><$FFF8>…<$FFFE>
+# spk: Folk
 21	<$FB00><$0055>That's right！ He demanded ten times<$FFFC>the usual toll.<$FFFE>
+# spk: Wiler
 22	<$FB00><$0056>A toll？ I recall giving no order<$FFFC>to collect any such thing <$FFF5><$FFF8>…<$FFFE>
+# spk: Folk
 23	<$FFF7><$FB00><$0057>Eh？<$FFF5><$FFF8><$FFFE>
+# spk: Folk
 24	<$FB00><$0058>Then the taxes they've been taking<$FFFC>from us were<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 25	<$FB00><$0059>Silence！ This town was put in MY<$FFFC>charge！ I do with it as I please！<$FFFE>
+# spk: Selena
 26	<$FB00><$005A>Goldry！ What do you take your post<$FFFC>for！<$FFFD><$FB00><$005B>You were given authority to keep the peace<$FFFC>in this town, not to rule over it！<$FFFE>
+# spk: Goldry
 27	<$FFF8><$FB00><$005C>…<$FFFE>
+# spk: Wiler
 28	<$FFF8>…<$FFF6><$FB00><$005D>So with us away, you've been<$FFFC>doing just as you pleased. You are a<$FFFC>disgrace to the Caconsis army.<$FFFE>
+# spk: Goldry
 29	<$FB00><$005E>Enough, I've heard plenty！ I<$FFFC>quit！<$FFFD><$FB00><$005F>The king promised me a general's rank, but<$FFFC>you made me a captain！ I have hated that<$FFFC>from the start！<$FFFD><$FB00><$0060>From today, my company is mercenary<$FFFC>again！ You will regret losing us！<$FFFE>
+# spk: Wiler
 30	<$FB00><$0061>We've caused this town's people<$FFFC>much trouble.<$FFFD><$FB00><$0063>Next time we will send someone more<$FFFC>dependable. Please forgive us.<$FFFE>
+# spk: Folk
 31	<$FB00><$0062>Oh no, not at all<$FFF5><$FFF8>…<$FFFE><$FFFF>

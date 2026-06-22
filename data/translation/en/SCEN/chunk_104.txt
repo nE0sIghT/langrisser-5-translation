@@ -10,24 +10,43 @@
 10	Lenard<$FFFF>
 11	Omega<$FFFF>
 12	Kalxath Army Camp<$FFFF>
+# spk: Officer
 13	<$FB00><$0070>Emergency, Commander！<$FFFE>
+# spk: Commander
 14	<$FB00><$0071>Why the panic？<$FFFE>
+# spk: Officer
 15	<$FB00><$0072>Emperor Gilmore was defeated by<$FFFC>Princess Clarett and fled the castle！<$FFFE>
+# spk: Commander
 16	<$FB00><$0073>What！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0074>We cannot stay here.<$FFFC>Pull the troops back！<$FFFE>
+# spk: Officer
 17	<$FFF7><$FB00><$0075>Y-yes sir…<$FFF5><$FFF8><$FFFE>
+# spk: Officer
 18	<$FB00><$0076>Hey, did you hear？ Gilmore<$FFFC>lost.<$FFFE>
+# spk: Officer
 19	<$FB00><$0077>Then what happens to us？<$FFFE>
+# spk: Officer
 20	<$FB00><$0078>No one wants to hunt fugitives.<$FFFC>Before that happens, let us surrender to<$FFFC>Salrath.<$FFFE>
+# spk: Officer
 21	<$FB00><$0079>Good idea. Unlike nobles, we did<$FFFC>not fight for Gilmore because we wanted<$FFFC>to.<$FFFE>
+# spk: Officer
 22	<$FB00><$007A>I heard Princess Clarett's<$FFFC>policies put commoners first.<$FFFE>
+# spk: Officer
 23	<$FB00><$007B>Is that true？<$FFFE>
+# spk: Officer
 24	<$FB00><$007C>You did not know？ It is a big<$FFFC>rumor among peasants and townspeople.<$FFFE>
+# spk: Officer
 25	<$FB00><$007D>I see！ Then that settles it <$FFF5><$FFF8>…<$FFFE>
 26	Salrath camp<$FFFF>
+# spk: Soldier
 27	<$FB00><$007E>Lord Lenard, a courier just<$FFFC>arrived reporting Gilmore defeated！<$FFFE>
+# spk: Lenard
 28	<$FB00><$007F>What, I see！ We won！<$FFFE>
+# spk: Soldier
 29	<$FB00><$0080>Lord Lenard！ Many enemies are<$FFFC>surrendering to us. Your orders！<$FFFE>
+# spk: Lenard
 30	<$FB00><$0081>Treat surrendered soldiers with<$FFFC>respect！ They did not fight by choice.<$FFFE>
+# spk: Soldier
 31	<$FB00><$0082>Understood！<$FFFE>
 32	In the Demon Land, Velzeria<$FFFF>
+# spk: Omega
 33	<$FB00><$0083>Damn！ Langrisser is right ahead,<$FFFC>but there are too many monsters.<$FFFD><$FB00><$0084>No choice. I wanted it before fighting<$FFFC>him, but I will leave this to old man<$FFFC>Aizel.<$FFFE>

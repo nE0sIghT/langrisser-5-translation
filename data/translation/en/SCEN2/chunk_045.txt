@@ -9,45 +9,87 @@
 7	Machine<$FFFF>
 8	Voice<$FFFF>
 9	Woman<$FFFF>
+# spk: Machine
 10	<$FB00><$0003>∑066…cultivation program<$FFFC>complete. Starting awakening program.<$FFFE>
+# spk: Machine
 11	<$FB00><$0004>Awakening program complete.<$FFFC>Opening hatch.<$FFFE>
+# spk: (no plate)
 12	<$FFFA><$FFF8>…<$FB00><$0005>Mh…nh…<$FFFE>
+# spk: Voice
 13	…<$FB00><$0006>Sigma<$FFF5>…<$FFFE>
+# spk: (no plate)
 14	<$FFFA><$FFF8>…<$FB00><$0007>Ugh<$FFF5>…<$FFFE>
+# spk: Voice
 15	…<$FB00><$0008>Sigma.<$FFFE>
+# spk: (no plate)
 16	<$FFFA><$FFF8>…<$FFF6><$FB00><$0009>Let me sleep. I don't want to wake up<$FFFC>yet<$FFF5><$FFF8>…<$FFFE>
+# spk: Voice
 17	<$FB00><$000A>Wake up, Sigma.<$FFFE>
+# spk: (no plate)
 18	<$FB00><$000B>Who's there！？<$FFFE>
+# spk: Woman
 19	<$FB00><$000C>Awake at last, ∑066.<$FFFE>
+# spk: (no plate)
 20	<$FB00><$000D>What's this ∑066？<$FFFE>
+# spk: Woman
 21	<$FB00><$000E>Your development code, ∑066. I<$FFFC>am ^052. Call me Lambda.<$FFFE>
+# spk: (no plate)
 22	<$FB00><$000F>∑066<$FFF5>…<$FB00><$0010>^052<$FFF5>…<$FB00><$0011>Lambda<$FFF5>…？<$FFFE>
+# spk: Lambda
 23	<$FB00><$0012>What is it, ∑066<$FFF5>…<$FB00><$0013>I'll just call<$FFFC>you Sigma. And what do you mean to do,<$FFFC>pointing that sword at me？<$FFFE>
+# spk: (no plate)
 24	<$FB00><$0014>Huh！？ Why is my sword out <$FFF5>… <$FB00><$0015>My body<$FFFC>acted on its own <$FFF5>…<$FFFE>
+# spk: Lambda
 25	<$FB00><$0016>Will you cut me down or not？ If<$FFFC>not, put the sword away. If so, be quick<$FFFC>about it.<$FFFE>
+# spk: (no plate)
 26	<$FB00><$0017>Now hold on！ I can't cut down someone who<$FFFC>may not even be my enemy！<$FFFE>
+# spk: Lambda
 27	<$FB00><$0018>I am not your enemy.<$FFFE>
+# spk: (no plate)
 28	<$FB00><$0019>Then what are you？<$FFFE>
+# spk: Lambda
 29	<$FB00><$001A>Let's see. Something like your<$FFFC>sibling.<$FFFE>
+# spk: (no plate)
 30	<$FB00><$001B>Sibling<$FFF5>…？<$FFFE>
+# spk: Lambda
 31	<$FB00><$001C>Yes. Beings made in the same<$FFFC>culture tank.<$FFFD>…<$FB00><$001D>Have you not noticed？ Or were you never<$FFFC>taught？<$FFFE>
+# spk: (no plate)
 32	<$FB00><$001E>Wait a second！ What are you talking<$FFFC>about！ Explain！<$FFFE>
+# spk: Lambda
 33	<$FB00><$001F>So you were never taught. Fine. I<$FFFC>will tell you<$FFF5>…<$FFFD><$FB00><$0020>This is a sorcery laboratory, where all<$FFFC>manner of magic research is done.<$FFFD><$FB00><$0021>The data says we were made by experiment,<$FFFC>you for combat power, I for magic. That<$FFFC>sword you drew on me may be a fruit of<$FFFC>that experiment.<$FFFE>
+# spk: (no plate)
 34	<$FB00><$0022>Who made us, and what for<$FFF5>…<$FFFE>
+# spk: Lambda
 35	<$FB00><$0023>Our master is Marshal Gizarof.<$FFFE>
+# spk: (no plate)
 36	<$FB00><$0024>And who is this Gizarof？ Why run<$FFFC>experiments like these？<$FFFE>
+# spk: Lambda
 37	<$FB00><$0025>I don't know. The data only says,<$FFFC>marshal of the Regenburg Federation. By<$FFFC>the way, Sigma.<$FFFE>
+# spk: (no plate)
 38	<$FB00><$0026>Don't call me that！ That is not my name！<$FFFE>
+# spk: Lambda
 39	<$FB00><$0027>Then what should I call you？<$FFFE>
+# spk: Sigma
 40	<$FB00><$002D>Fine. Sigma will do. …So, what<$FFFC>is it？<$FFFE>
+# spk: Sigma
 41	<$FB00><$0028>My name is <$FFF5><$FE3C><$F600><$0000>.<$FFFE>
+# spk: Lambda
 42	<$FB00><$0029>Very well. That's what I'll call<$FFFC>you.<$FFFD>…<$FB00><$002A>Though clinging to a name is odd.<$FFFC>Whatever you're called, you are you. No？<$FFFE>
+# spk: Sigma
 43	<$FB00><$002B>And you don't mind being called<$FFFC>Lambda？<$FFFE>
+# spk: Lambda
 44	<$FB00><$002C>I don't. Because I am me.<$FFFD>As a mere identifier, Lambda is plenty. By<$FFFC>the way<$FFF5>…<$FFFE>
+# spk: Lambda
 45	<$FB00><$002E>What will you do now？ Stay here<$FFFC>like this forever？<$FFFE>
+# spk: Sigma
 46	<$FB00><$002F>Good question…<$FFFE>
+# spk: Machine
 47	<$FB00><$0030>Intruders in the laboratory.<$FFFC>Intruders in the laboratory. Numerous<$FFFC>intruders. All of them are armed.<$FFFE>
+# spk: Lambda
 48	…<$FB00><$0031>Enemies, it seems. The data says<$FFFC>the master has many of those. We can't<$FFFC>stay here anymore.<$FFFE>
+# spk: Sigma
 49	…<$FB00><$0032>Whew. Let's go, Lambda.<$FFFE>
+# spk: (no plate)
 50	<$0000>In Gizarof's sorcery laboratory, the<$FFFC>specimens <$F600><$0000> and Lambda<$FFFC>awaken.<$FFFD><$0000><$F600><$0000> has no memory. And amid<$FFFC>the confusion, alarms suddenly blare<$FFFC>through the halls. <$0000><$0000>Knowing nothing,<$FFFC>the two are swept into battle.<$FFFE>
+# spk: (no plate)
 51	Victory terms<$FFFC><$0000><$FFFC>・<$F600><$0000> and Lambda escape the lab<$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> or Lambda dies<$FFFE>

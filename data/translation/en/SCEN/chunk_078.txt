@@ -8,7 +8,11 @@
 6	Lanford<$FFFF>
 7	Grove<$FFFF>
 8	Edge of the Battlefield<$FFFF>
+# spk: Grove
 9	<$FB00><$0003>Argh, those wretches<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0004>Were<$FFFC>it not for Langrisser, there's no way I<$FFFC>could lose.<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0005>Hm？ Ferakia<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
+# spk: Grove
 10	<$FFF6><$FB00><$0006>Beaten by foes who don't even hold<$FFFC>Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$0007>Really, this is the trouble with those who<$FFFC>don't know how to use their own power.<$FFFD><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0008>Hm, yes. Shall I teach them the true<$FFFC>use of power？<$FFF5><$FFF8> <$FFF7><$FB00><$0009>Eehihihi！<$FFFE>
+# spk: (no plate)
 11	<$0000>The weather control device keeps about<$FFFC>three days of rain. <$0000>In that time they<$FFFC>must defeat Gaiel and take the demon blade<$FFFC>Alhazard.<$FFFD><$0000><$F600><$0000>'s band hurries their<$FFFC>troops to where the demons gather. <$0000>But<$FFFC>before them stood Necro Grove.<$FFFE>
+# spk: (no plate)
 12	Victory terms<$FFFC><$0000><$FFFC>・Defeat Grove<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

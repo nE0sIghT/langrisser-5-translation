@@ -11,36 +11,66 @@
 9	Landius<$FFFF>
 10	Jessica<$FFFF>
 11	Road to the demon castle<$FFFF>
+# spk: Merc
 12	<$FB00><$00A8>Boss！<$FFFE>
+# spk: Brenda
 13	<$FB00><$00A9>Well？<$FFFE>
+# spk: Merc
 14	<$FB00><$00AA>We found it. A strange castle ahead,<$FFFC>with demons gathering there.<$FFFE>
+# spk: Sigma
 15	<$FB00><$00AB>That'll be the place.<$FFFE>
+# spk: Alfred
 16	<$FB00><$00AC>And that's where the<$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$00AD>whatever-it-was crystal is？<$FFFE>
+# spk: Merc
 17	<$FB00><$00AE>But word is the Caconsis army is<$FFFC>headed there too. We'd better hurry.<$FFFE>
+# spk: Brenda
 18	<$FB00><$00AF>The Caconsis army？<$FFFE>
+# spk: Sigma
 19	<$FB00><$00B0>We should hurry. If Caconsis<$FFFC>carries off the crystal, things get ugly.<$FFFE>
+# spk: Sigma
 20	<$FB00><$00B1>Right. We must get the Sage's<$FFFC>Crystal, whatever it takes！<$FFFE>
+# spk: Merc
 21	<$FB00><$00B2>Also, the enemy has archers. Best be<$FFFC>careful.<$FFFE>
+# spk: Brenda
 22	Archers, huh…<$FFFE>
+# spk: Brenda
 23	You know how to handle archers？ I<$FFFC>could teach you, if you like？<$FFFE>
 24	・I know<$FFFE>
 25	・Teach me<$FFFE>
+# spk: Sigma
 26	Kill them with magic, or close the<$FFFC>gap in one move and strike, right？<$FFFE>
+# spk: Brenda
 27	Oh, so you knew. That puts my mind<$FFFC>at ease.<$FFFE>
+# spk: Sigma
 28	Teach me.<$FFFE>
+# spk: Brenda
 29	Archers are mercenaries that<$FFFC>strike from afar, like magic. Get careless<$FFFC>coming close and a volley will finish you.<$FFFD>But archers have weak spots. Most fall<$FFFC>easily to attack magic.<$FFFE>
+# spk: Sigma
 30	Weak to magic, huh. And if I can't<$FFFC>use magic and still must fight them？<$FFFE>
+# spk: Brenda
 31	Let's see. Then close in from<$FFFC>beyond bow range in one move and strike.<$FFFC>Archers crumble in close combat.<$FFFE>
+# spk: Sigma
 32	In short, kill them with magic, or<$FFFC>close the gap in one move and strike.<$FFFE>
+# spk: Brenda
 33	That's the way of it.<$FFFE>
+# spk: Sigma
 34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
 35	At the Dark Altar<$FFFF>
+# spk: Böser
 36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+# spk: Landius
 37	<$FB00><$00B6>You've lost, Böser！ Now vanish<$FFFC>from this world！ We will never let the<$FFFC>darkness have it！<$FFFE>
+# spk: Böser
 38	…<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take…Alhazard from me. That…I will not<$FFFC>allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>…<$FE14>… <$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
+# spk: Landius
 39	<$FB00><$00BB>What！？ He cast Alhazard away<$FFFC>with magic！？<$FFFE>
+# spk: Böser
 40	<$FB00><$00BC>Heh heh heh, what a shame. Where<$FFFC>Alhazard falls, not even I know<$FFF5><$FFF8>…<$FFFE>
+# spk: Böser
 41	<$FFF8>…<$FFF6><$FB00><$00BD>G<$FFF7>hah！<$FFFE>
+# spk: Landius
 42	<$FB00><$00BE>We did it<$FFF5><$FFF8>…<$FFFE>
+# spk: Jessica
 43	<$FB00><$00BF>I must go search for the<$FFFC>Alhazard that Böser cast away. Until then,<$FFFC>I leave Langrisser in your keeping.<$FFFD><$FB00><$00C0>Whatever happens, you must stop Gizarof's<$FFFC>ambition.<$FFFE>
+# spk: Landius
 44	<$FFF8>…<$FFF6><$FB00><$00C1>Right！ Gizarof is next！<$FFFD><$FB00><$00C2>I know you're weary, but it won't be long<$FFFC>now. Everyone, stay strong！<$FFFE>

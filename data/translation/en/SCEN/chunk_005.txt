@@ -12,97 +12,186 @@
 10	Merc<$FFFF>
 11	Soldier<$FFFF>
 12	・Defeat all enemies<$FFFE>
+# spk: Sigma
 13	・<$F600><$0000> dies<$FFFE>
 14	Remote village<$FFFF>
+# spk: Alfred
 15	<$FB00><$0017>A ruined village. Lonelier still<$FFFC>at night.<$FFFE>
+# spk: Sigma
 16	<$FB00><$0018>Know anything, Lambda？<$FFFE>
+# spk: Lambda
 17	<$FB00><$0019>War with Caconsis ruined it. No<$FFFC>one lives here.<$FFFE>
+# spk: Sigma
 18	<$FB00><$001A>Yet I sense someone<$FFF5><$FFF8>…<$FFFE>
+# spk: Aizel
 19	<$FB00><$001B>Perceptive of you.<$FFFE>
+# spk: Sigma
 20	<$FB00><$001C>You're<$FFF5><$FFF8>…<$FFFE>
+# spk: Aizel
 21	<$FB00><$001D>Hard to find you, till that ruckus<$FFFC>in town…<$FFFE>
+# spk: Sigma
 22	<$FFF8>…<$FB00><$001E>Kh！<$FFFE>
+# spk: Aizel
 23	<$FB00><$001F>You'll come with us.<$FFFE>
+# spk: Goldry
 24	<$FB00><$0020>Hiding here, were you！<$FFFE>
+# spk: Alfred
 25	<$FB00><$0021>Ah, that man is…<$FFFE>
+# spk: Goldry
 26	<$FB00><$0022>You made me a sellsword again！<$FFFC><$0000>I could have been a lord！<$FFFE>
+# spk: Lambda
 27	<$FB00><$0023>Talk about misplaced blame.<$FFFE>
+# spk: Goldry
 28	<$FB00><$0024>Quiet！ I'll kill you all！<$FFFE>
+# spk: Aizel
 29	<$FB00><$0025>A nuisance. But the operation<$FFFC>continues！<$FFFE>
+# spk: Aizel
 30	<$FB00><$0035>Hm？ That woman<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 31	<$FB00><$0036>Oh my<$FFF5><$FFF8>…<$FFF6><$FB00><$0037>that's him<$FFF5><$FFF8>…<$FFFE>
+# spk: (no plate)
 32	Red berries on the tree. Eat some？<$FFFE>
 33	・Eat all of it<$FFFE>
 34	・Eat half<$FFFE>
 35	・Take one bite<$FFFE>
 36	・Not right now<$FFFE>
+# spk: (no plate)
 37	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 3P！<$FFFE>
+# spk: (no plate)
 38	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 2P！ <$FFF4>Holy resist<$FFF3><$FFFC>rose by 2P！<$FFFE>
+# spk: (no plate)
 39	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 1P！ <$FFF4>Holy resist<$FFF3><$FFFC>rose by 2P！ <$FFF4>Dark resist<$FFF3> rose by 2P！<$FFFE>
+# spk: Sigma
 40	<$FB00><$0026>Cramped little village, though.<$FFFE>
+# spk: Lambda
 41	<$FB00><$0027>Against numbers, it helps us.<$FFFE>
+# spk: Sigma
 42	<$FB00><$0028>Terrain as our ally, eh. Let's<$FFFC>go！<$FFFE>
+# spk: Sigma
 43	<$FB00><$0030>So this was the limit of my<$FFFC>strength…<$FFFE>
+# spk: Lambda
 44	Being surrounded means trouble.<$FFFE>
+# spk: Alfred
 45	Yes. Aizel especially needs<$FFFC>watching.<$FFFE>
+# spk: Sigma
 46	Yeah. Aizel especially needs<$FFFC>watching.<$FFFE>
+# spk: Lambda
 47	Pin him down and beat the others<$FFFC>meanwhile？<$FFFE>
+# spk: Sigma
 48	I see. Then nothing interferes<$FFFC>when we face Aizel.<$FFFD>Isolate and crush them one by one<$FFF8>… <$FFF6>Basic<$FFFC>tactics.<$FFFE>
+# spk: Lambda
 49	In your hands. Win or lose, it's<$FFFC>on you.<$FFFE>
+# spk: Lambda
 50	<$FB00><$003D>Ugh…not…yet…<$FFFE>
+# spk: Sigma
 51	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
+# spk: Lambda
 52	<$FB00><$003F>…All right…<$FFFE>
+# spk: Alfred
 53	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
+# spk: Brenda
 54	<$FB00><$0034>Pikemen ahead. Bad news for<$FFFC>riders, they're yours！<$FFFE>
+# spk: Brenda
 55	<$FB00><$003D>Brace yourself！<$FFFE>
+# spk: Brenda
 56	<$FFF8><$FB00><$004F>Kh！ <$FFF5>…<$FFF6><$FB00><$0050>Pathetic. Beaten by the<$FFFC>likes of them<$FFF5><$FFF8>…<$FFFE>
+# spk: (location/crowd)
 57	<$FB00><$0051>Boss！ We'll take it from here！<$FFFE>
+# spk: Brenda
 58	<$FB00><$0052>Sorry, girls. It's all yours.<$FFFE>
+# spk: Merc
 59	B-boss…<$FFFE>
+# spk: Merc
 60	S-so strong…<$FFFE>
+# spk: Merc
 61	…n-no…Captain！！<$FFFE>
+# spk: Goldry
 62	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+# spk: Sigma
 63	<$FB00><$003F>Fine, show me.<$FFFE>
+# spk: Goldry
 64	<$FB00><$0042>Quiet, you！<$FFFE>
+# spk: Goldry
 65	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+# spk: Lambda
 66	<$FB00><$0040>Not interested.<$FFFE>
+# spk: Goldry
 67	<$FB00><$0042>Quiet, you！<$FFFE>
+# spk: Goldry
 68	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+# spk: Alfred
 69	<$FB00><$0041>You said that last time too<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 70	<$FB00><$0042>Quiet, you！<$FFFE>
+# spk: Goldry
 71	<$FB00><$0048>How…could I… <$FFF5><$FB00><$0049>Damn it！ Enough,<$FFFC>I quit！<$FFFE>
+# spk: Aizel
 72	<$FB00><$004A>Such strength, so soon<$FFF5><$FFF8>… <$0000><$FFF6><$FB00><$004B>The<$FFFC>power hidden in the specimens…<$FFFE>
+# spk: Aizel
 73	Damn！ If you hadn't meddled…<$FFFE>
+# spk: (location/crowd)
 74	<$FB00><$004C>Lord Aizel, fall back. We'll<$FFFC>handle the rest！<$FFFE>
+# spk: Aizel
 75	<$FFF8><$FB00><$004D>Ugh…<$FFF5><$FFF6><$FB00><$004E>Forgive me<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 76	<$FB00><$003C>I'll turn the tables！<$FFFE>
+# spk: Aizel
 77	<$FB00><$0043>Come quietly now.<$FFFE>
+# spk: Sigma
 78	<$FB00><$0044>What are you after！<$FFFE>
+# spk: Aizel
 79	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
+# spk: Aizel
 80	<$FB00><$0043>Come quietly now.<$FFFE>
+# spk: Lambda
 81	<$FB00><$0045>Why do you hound us？<$FFFE>
+# spk: Aizel
 82	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
+# spk: Aizel
 83	<$FB00><$0047>No business with you. Move.<$FFFE>
+# spk: Soldier
 84	Lord Aizel…for…give…me…<$FFFE>
+# spk: Soldier
 85	…my strength…was<$FFFC>not…enough…<$FFFE>
+# spk: Brenda
 86	<$FB00><$0056>That's the last of them.<$FFFE>
+# spk: Sigma
 87	<$FB00><$0053>No more pursuers, it seems.<$FFFE>
+# spk: Brenda
 88	<$FB00><$0054>Ow, ow<$FFF5><$FFF8>…<$FFF6><$FB00><$0055>Not my finest showing,<$FFFC>huh.<$FFFE>
+# spk: Sigma
 89	<$FB00><$0057>Thanks. You saved us.<$FFFE>
+# spk: Brenda
 90	<$FB00><$0058>Don't mention it.<$FFFE>
+# spk: Sigma
 91	<$FB00><$0059>We're safe for a while.<$FFFE>
+# spk: Sigma
 92	<$FB00><$002B>Hm？ Fresh troops？<$FFFE>
+# spk: Brenda
 93	<$FB00><$002C>Having a rough time？ Want a<$FFFC>hand？<$FFFE>
+# spk: Sigma
 94	<$FB00><$002D>Who are you？<$FFFE>
+# spk: Brenda
 95	<$FB00><$002E>Not your enemy. Allies to all and<$FFFC>none. An all-women sellsword band.<$FFFE>
+# spk: Alfred
 96	<$FB00><$002F>An all-women sellsword band<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 97	<$FB00><$0030>Relax, we'll back you up. No<$FFFC>charge, either！<$FFFE>
+# spk: Lambda
 98	<$FB00><$0031>Their cavalry is our edge here.<$FFFE>
+# spk: Sigma
 99	<$FB00><$0032>Got it. Help us out！<$FFFE>
+# spk: Brenda
 100	<$FB00><$0033>Okay, leave it to us！<$FFFE>
+# spk: Aizel
 101	<$FB00><$0029>Out of my way.<$FFFE>
+# spk: Goldry
 102	<$FB00><$002A>You're the one in the way！<$FFFE>
+# spk: Aizel
 103	<$FB00><$0038>It IS you, from back then！<$FFFE>
+# spk: Brenda
 104	<$FB00><$0039>I remember you too. My, you've<$FFFC>aged.<$FFFE>
+# spk: Aizel
 105	<$FB00><$003A>You haven't changed.<$FFFE>
+# spk: Brenda
 106	<$FB00><$003B>Of course not！<$FFFE>

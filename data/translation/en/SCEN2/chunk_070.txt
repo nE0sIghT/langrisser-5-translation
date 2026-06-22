@@ -8,66 +8,123 @@
 6	Lanford<$FFFF>
 7	Goldry<$FFFF>
 8	Beyond the Tunnel<$FFFF>
+# spk: Brenda
 9	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0003>Quite a high spot. From here<$FFFC>you might've seen Recrio Village<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Brenda
 10	<$FFF8>……<$FFFE>
+# spk: Sigma
 11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0004>Brenda？<$FFFE>
+# spk: Sigma
 12	<$FB00><$0005>What are you doing out here？<$FFFE>
+# spk: Brenda
 13	<$FB00><$0006>Just taking in the wind. You on<$FFFC>patrol？<$FFFE>
+# spk: Sigma
 14	<$FB00><$0007>Yeah. We're in enemy territory<$FFFC>now.<$FFFE>
+# spk: Brenda
 15	<$FB00><$0008>Right. We'd best be careful.<$FFFE>
+# spk: Sigma
 16	<$FB00><$0009>Still, no large force can pass<$FFFC>through here, so I doubt the defenses are<$FFFC>heavy.<$FFFD><$FB00><$000A>By the way, Brenda.<$FFFE>
 17	・Can you see something？<$FFFE>
 18	・It's late, come back<$FFFE>
+# spk: Mariandel
 19	・Ask about the village<$FFFE>
+# spk: Sigma
 20	<$FB00><$000B>It's this dark. Can you really see<$FFFC>anything？<$FFFE>
+# spk: Brenda
 21	<$FFFA><$FB00><$000C>No, I can't see a thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$000D>Not a<$FFFC>thing<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+# spk: Sigma
 22	<$FB00><$000E>It's late. You should sleep soon.<$FFFE>
+# spk: Brenda
 23	<$FB00><$000F>Yeah.<$FFFE>
+# spk: Sigma
 24	<$FB00><$0010>I'd like to hear more about your<$FFFC>village.<$FFFE>
+# spk: Brenda
 25	<$FB00><$0011>My village<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0012>I told you Recrio<$FFFC>Village was a place where humans and<$FFFC>Crimzo Landers lived together, didn't I.<$FFFE>
+# spk: Sigma
 26	<$FFF7><$FB00><$0013>Yeah.<$FFF5><$FFF8><$FFFE>
+# spk: Brenda
 27	<$FB00><$0014>Well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Goldry
 28	<$FB00><$0015>Heh heh heh！ So here's where you<$FFFC>were hiding！<$FFFE>
+# spk: Brenda
 29	<$FB00><$0016>You！<$FFFE>
+# spk: Sigma
 30	<$FB00><$0017>Goldry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Goldry
 31	<$FB00><$0018>I can't crawl home having failed<$FFFC>to blow the tunnel. This time I'll kill<$FFFC>you！<$FFFE>
+# spk: Sigma
 32	<$FB00><$0019>Give it up. It'll go the same<$FFFC>however often you try.<$FFFE>
+# spk: Goldry
 33	<$FB00><$001A>We'll see about that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$001B>I have<$FFFC>this！ This, from Lord Zero！<$FFFE>
+# spk: Sigma
 34	<$FFF7><$FB00><$001C>Wha！<$FFFE>
+# spk: Brenda
 35	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001D>That's blasting powder！<$FFFE>
+# spk: Goldry
 36	<$FB00><$001E>A magic item that wipes out the<$FFFC>likes of you in a flash.<$FFFE>
+# spk: Brenda
 37	<$FB00><$001F>Stop it！<$FFFE>
+# spk: Goldry
 38	<$FB00><$0020>All I have to do is light it.<$FFFE>
+# spk: Goldry
 39	<$FB00><$0021>Wahahaha！ Die, die, diiie！ You'll<$FFFC>all vanish in an instant！ Wahahaa！<$FFFE>
+# spk: Brenda
 40	<$FB00><$0022>This is bad！ If that goes off<$FFFC>here…<$FFFE>
+# spk: Sigma
 41	<$FB00><$0023>Kh！<$FFFE>
+# spk: Brenda
 42	<$FB00><$0024>No… no<$FFF5><$FFF7>…<$FE14>…<$FE14><$FFFE>
 43	The Next Morning<$FFFF>
+# spk: Alfred
 44	<$FB00><$0025>Dawn's broken already<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Brenda
 45	<$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Clarett
 46	<$FB00><$0026>If we still haven't found him<$FFFC>after all this<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Lanford
 47	<$FB00><$0027>Yeah. It was a blast big enough<$FFFC>to wake us all.<$FFFE>
+# spk: Mariandel
 48	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0028>I'll search the forest.<$FFFE>
+# spk: Alfred
 49	<$FB00><$0029>Ah, I'll go too！<$FFFE>
+# spk: Lanford
 50	<$FB00><$002A>Shall we search once more as<$FFFC>well.<$FFFE>
+# spk: Clarett
 51	<$FB00><$002B>Right<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Brenda
 52	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$002C>If only I'd been<$FFFC>stronger<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$002D>It's as if I got him<$FFFC>killed<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Sigma
 53	<$FB00><$002E>U, uu<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Brenda
 54	<$FFF7><$FB00><$002F>Aah！<$FFF5><$FFF8> …<$FFF8><$FE14>…<$FE14><$FFF6><$FB00><$0030>You're alive！<$FFFE>
+# spk: Sigma
 55	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0031>Somehow<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Brenda
 56	<$FB00><$0032>That reckless stunt… I thought<$FFFC>you were gone<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
+# spk: Sigma
 57	<$FB00><$0033>Sorry to worry you. But<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 58	・Because I wanted to protect you<$FFFE>
 59	・I'm immortal<$FFFE>
 60	・I really thought I'd die<$FFFE>
+# spk: Sigma
 61	<$FB00><$0034>I wanted to protect Brenda, and<$FFFC>acted on the instant.<$FFFE>
+# spk: Sigma
 62	<$FB00><$0035>It doesn't make me one bit glad<$FFFC>that you'd die in my place！<$FFFE>
+# spk: Sigma
 63	<$FB00><$0036>It's fine. To protect you, I'm<$FFFC>immortal<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Sigma
 64	<$FB00><$0037>It's fine. I'm immortal.<$FFFE>
+# spk: Sigma
 65	<$FB00><$0038>Yeah. I really thought I'd die.<$FFFC>But it seems I'm immortal after all.<$FFFE>
+# spk: Brenda
 66	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0039>Idiot<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Sigma
 67	<$FB00><$003A>Anyway, where are the others？<$FFFE>
+# spk: Brenda
 68	<$FB00><$003B>Ah, they're out searching for<$FFFC>you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$003C>I'll go call them！<$FFFE>
+# spk: Sigma
 69	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$003D>U, uu… So that's the<$FFFC>remodeling done to me<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFD><$FFF6><$FB00><$003E>In that moment, I felt all my powers<$FFFC>surge. It seems that power, used without<$FFFC>thinking, is what saved me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$003F>Even so<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0040>I'm tired<$FFF5><$FFF8>…<$FE14>…<$FFFE>
+# spk: (no plate)
 70	<$0000>With Lanford among them,<$FFFC><$F600><$0000>'s band reached Reynolds<$FFFC>and made for the manor of Alfred's brother<$FFFC>Alvince.<$FFFD><$0000>First they must persuade him and so<$FFFC>block Lainforce's ambition. <$0000>The party<$FFFC>slips into Alvince's manor…<$FFFE>
+# spk: (no plate)
 71	Victory terms<$FFFC><$0000><$FFFC>・Defeat Alvince<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

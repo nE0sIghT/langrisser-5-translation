@@ -11,27 +11,50 @@
 9	Lainforce<$FFFF>
 10	Lambert<$FFFF>
 11	Salrath, Duke Lenard's Manor<$FFFF>
+# spk: Lenard
 12	<$FB00><$005C>Thank you for waiting. What does a<$FFFC>wanted criminal want？<$FFFE>
+# spk: Clarett
 13	<$FB00><$005D>Do you also believe I killed my<$FFFC>father？<$FFFE>
+# spk: Lenard
 14	<$FB00><$005E>No. I doubt any noble believes it.<$FFFD><$FFF8>…<$FFF6><$FB00><$005F>Now, your business.<$FFFE>
+# spk: Clarett
 15	<$FB00><$0060>Gilmore seized the Empire while<$FFFC>I was away. Please help me take power<$FFFC>back.<$FFFE>
+# spk: Lenard
 16	<$FB00><$0061>And what exactly should I do？<$FFFE>
+# spk: Clarett
 17	<$FB00><$0062>I told you, lend me your<$FFFC>strength.<$FFFE>
+# spk: Lenard
 18	<$FB00><$0063>Be specific. Do you expect help<$FFFC>from a vague plea？<$FFFE>
+# spk: Clarett
 19	<$FFF8><$FB00><$0064>…<$FFFE>
+# spk: Lenard
 20	<$FB00><$0065>While you were gone, Gilmore<$FFFC>became Emperor and took power.<$FFFD><$FB00><$0066>He lets nobles exploit the people. For us,<$FFFC>his rule is comfortable.<$FFFD><$FB00><$0067>As I said, no noble truly thinks you<$FFFC>killed the Emperor.<$FFFD><$FB00><$0068>But if you return, we lose those<$FFFC>privileges.<$FFFE>
+# spk: Clarett
 21	<$FB00><$0069>Do you think that way too？<$FFFE>
+# spk: Lenard
 22	<$FB00><$006A>I am a noble.<$FFFD><$FB00><$006B>I dislike exploitation, but to oppose the<$FFFC>nobles I need a better prize<$FFF5><$FFF8>…<$FFF6><$FB00><$006C>Better than<$FFFC>now.<$FFFD><$FB00><$006D>What can you give me？<$FFFE>
+# spk: Clarett
 23	<$FFF8>…<$FFF6><$FB00><$006E>But Gilmore… he stole the<$FFFC>country<$FFF5><$FFF8>…<$FFFE>
+# spk: Lenard
 24	<$FB00><$006F>If life improves for them, nobles<$FFFC>won't curse him.<$FFFD><$FB00><$0070>Give up. This began because the princess<$FFFC>left her country too long.<$FFFE>
+# spk: Clarett
 25	<$FB00><$0071>But I fought demons and searched<$FFFC>for Jessica…<$FFFE>
+# spk: Lenard
 26	<$FB00><$0072>Even against demons, you relied on<$FFFC>Jessica.<$FFFD><$FB00><$0073>Perhaps the search was an excuse to flee<$FFFC>the Empire's chaos？<$FFFE>
+# spk: Clarett
 27	<$FFF8><$FB00><$0074>…<$FFFE>
+# spk: Lenard
 28	<$FB00><$0075>If such dependence returns to<$FFFC>power, this will repeat.<$FFFD><$FB00><$0076>I won't endanger my soldiers. Better to<$FFFC>leave things be.<$FFFD><$FB00><$0077>Now leave.<$FFFE>
 29	Three-Country Alliance, Lainforce's<$FFFC>Castle<$FFFF>
+# spk: Alvince
 30	<$FFF8>…<$FFF6><$FB00><$0078>Yes. I want back the lands<$FFFC>Gizarof stole.<$FFFE>
+# spk: Lainforce
 31	<$FB00><$0079>Lord Lambert has no<$FFFC>objection？<$FFFE>
+# spk: Lambert
 32	<$FB00><$007A>Y, yes.<$FFFE>
+# spk: Alvince
 33	<$FB00><$007B>The Federation let Gizarof run<$FFFC>wild. We must guide the people correctly.<$FFFE>
+# spk: Sigma
 34	<$FB00><$007C>Alvince is right.<$FFFD><$FB00><$007D>Lambert's Sutherland, Alvince's Reynolds,<$FFFC>and my Rochefort will unite.<$FFFD><$FB00><$007E>With this treaty, the Three-Country<$FFFC>Alliance declares independence.<$FFFD>Victory over the Federation！<$FFF5><$FFF7><$FFFE>
+# spk: Alvince
 35	<$FB00><$007F>Victory to us！<$FFF5><$FFF7><$FFFE>

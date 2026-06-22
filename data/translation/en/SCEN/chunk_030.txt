@@ -11,97 +11,189 @@
 9	C.Knights 8<$FFFF>
 10	C.Knights 9<$FFFF>
 11	Officer<$FFFF>
+# spk: Mariandel
 12	・Defeat all enemies<$FFFE>
 13	・<$F600><$0000> dies<$FFFE>
 14	Valtar City, Underground Dock Entrance<$FFFF>
+# spk: Sigma
 15	<$FB00><$002B>The decoy team drew the enemy off<$FFFC>nicely. Only one unit of guards left.<$FFFE>
+# spk: Mariandel
 16	<$FB00><$002C>Then just us will be enough.<$FFFE>
+# spk: Alfred
 17	<$FB00><$002D>We can handle this on our own.<$FFFE>
+# spk: Brenda
 18	<$FB00><$002E>That lot's easy pickings for us.<$FFFE>
+# spk: Clarett
 19	<$FB00><$002F>Let's take them down ourselves.<$FFFE>
+# spk: Lanford
 20	<$FB00><$0030>Let's beat them while we can.<$FFFE>
+# spk: Sigma
 21	<$FB00><$0031>Right. Here we go.<$FFFE>
+# spk: Guard
 22	<$FB00><$0032>Hm！ Enemies！<$FFF5> <$FB00><$0033>Even if it's just<$FFFC>us, we won't flinch！<$FFFE>
+# spk: Sigma
 23	<$FB00><$0034>We'll see how long that bravado<$FFFC>lasts.<$FFFE>
+# spk: (no plate)
 24	A sign stands on the lawn.<$FFFD><$0000> <$0000><$0000><$0000><$0000><$0000><$FFF4>Beware lightning！<$FFF3><$FFFD>Leave the spot quickly？<$FFFE>
+# spk: (no plate)
 25	You hurry away, and lightning strikes near<$FFFC>the sign. …Glad you're safe.<$FFFE>
+# spk: (no plate)
 26	You stay where you are….<$FFFE>
+# spk: (no plate)
 27	A voice came from nowhere.<$FFFD>To withstand my lightning, splendid. Take<$FFFC>this as a reward！<$FFFD><$0000> <$0000><$FFF4>Mjollnir<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 28	A voice came from nowhere.<$FFFD>It seems you couldn't withstand my<$FFFC>lightning. But for your spirit, I grant<$FFFC>you this power！<$FFFD><$0000> <$FFF4>Thunder magic resist<$FFF3> rose by 2！<$FFFE>
+# spk: Mariandel
 29	<$FB00><$0048>So many enemies. At this rate<$FFFC>we'll be beaten.<$FFFE>
+# spk: Alfred
 30	<$FB00><$0049>Too many enemies. At this rate<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 31	<$FB00><$004A>Too many enemies. This is getting<$FFFC>dangerous<$FFF5>…<$FFFE>
+# spk: Clarett
 32	<$FB00><$004B>Too many enemies. At this rate<$FFFC>we'll be beaten<$FFF5>…<$FFFE>
+# spk: Lanford
 33	<$FB00><$004C>Lots of enemies. This is bad<$FFF5>…<$FFFE>
+# spk: Sigma
 34	<$FB00><$004D>Let's use the streets to buy time.<$FFFC>Our comrades should be back soon！<$FFFE>
+# spk: Sigma
 35	<$FB00><$002B>Eat this！<$FFFE>
+# spk: Sigma
 36	<$FB00><$002C>Take this！<$FFFE>
+# spk: Sigma
 37	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Mariandel
 38	<$FB00><$0046>Here goes.<$FFFE>
+# spk: Mariandel
 39	<$FB00><$004B>No… that I should…<$FFFE>
+# spk: Sigma
 40	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
+# spk: Mariandel
 41	…<$FB00><$004D>I'm sorry….<$FFFE>
+# spk: Alfred
 42	<$FB00><$0075>I can fight too！<$FFFE>
+# spk: Alfred
 43	<$FB00><$007B>I can still… I can still fight…<$FFFE>
+# spk: Sigma
 44	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
+# spk: Alfred
 45	<$FB00><$007D>But…<$FFFE>
+# spk: Sigma
 46	<$FB00><$007E>Trust your comrades！<$FFFE>
+# spk: Alfred
 47	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
+# spk: Brenda
 48	<$FB00><$0068>Come and get it！<$FFFE>
+# spk: Brenda
 49	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 50	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 51	<$FB00><$0072>Sorry… I'll take you up on that…<$FFFE>
+# spk: Clarett
 52	<$FB00><$0051>I'll show you my power！<$FFFE>
+# spk: Clarett
 53	<$FB00><$005C>Ow！ Y, you！<$FFFE>
+# spk: Sigma
 54	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
+# spk: Clarett
 55	<$FB00><$005E>B, but….<$FFFE>
+# spk: Sigma
 56	<$FB00><$005F>Enough, fall back！<$FFFE>
+# spk: Clarett
 57	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+# spk: Lanford
 58	<$FB00><$0083>Here I go！<$FFFE>
+# spk: Lanford
 59	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
+# spk: Sigma
 60	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
+# spk: Lanford
 61	<$FB00><$0090>A wound like this is a scratch…<$FFFE>
+# spk: Sigma
 62	<$FB00><$0091>Don't push it！ Leave the rest to<$FFFC>us！<$FFFE>
+# spk: Lanford
 63	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
+# spk: Guard
 64	<$FB00><$0035>D, damn… Lord Omegaaa！！<$FFFE>
+# spk: Sigma
 65	<$FB00><$0036>Did we get him<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0037>Hm？ This presence<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>We're surrounded！？<$FFFE>
+# spk: Mariandel
 66	<$FB00><$0039>An ambush<$FFF5><$FFF8>….<$FFFE>
+# spk: Alfred
 67	<$FB00><$003A>A, an ambush？<$FFFE>
+# spk: Brenda
 68	<$FFF8><$FB00><$003B>Tch！<$FFF5><$FFF6><$FB00><$003C>I figured as much！<$FFFE>
+# spk: Clarett
 69	<$FB00><$003D>They read us！？<$FFFE>
+# spk: Lanford
 70	<$FB00><$003E>It was going too smoothly<$FFF5><$FFF8>….<$FFFE>
+# spk: Omega
 71	<$FB00><$003F>That's right. Curse your folly for<$FFFC>charging in alone like this！<$FFFD><$FB00><$0040>No more holding back！ With my power, I'll<$FFFC>crush you！ On Lord Gizarof's name！<$FFFE>
+# spk: Sigma
 72	<$FB00><$0041>I can't lose here. Whatever it<$FFFC>takes, I have to buy time until the decoy<$FFFC>team returns.<$FFFE>
+# spk: C.Knights 8
 73	<$FB00><$0057>Why… why does a<$FFFC>surface-dweller hold such power….<$FFFE>
+# spk: C.Knights 9
 74	<$FB00><$0058>Acht！<$FFFE>
+# spk: C.Knights 8
 75	<$FB00><$0059>I'm counting on you, Neun…<$FFFC>Lord Lainforce….<$FFFE>
+# spk: (location/crowd)
 76	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimzonian<$FFFC>Knights aren't much either！<$FFFE>
+# spk: C.Knights 9
 77	<$FB00><$0054>That the glorious Crimzonian<$FFFC>Knights should fall to a<$FFFC>surface-dweller….<$FFFE>
+# spk: C.Knights 8
 78	<$FB00><$0055>Neun！<$FFFE>
+# spk: C.Knights 9
 79	<$FB00><$0056>I'm counting on you, Acht…<$FFFC>Lord Lainforce….<$FFFE>
+# spk: (location/crowd)
 80	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimzonian<$FFFC>Knights aren't much either！<$FFFE>
+# spk: Omega
 81	<$FB00><$005C>Gh… guh！<$FFFE>
+# spk: Sigma
 82	<$FB00><$005D>The match is decided, Omega.<$FFFE>
+# spk: Omega
 83	<$FB00><$005E>Wh, why<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Lord Gizarof's<$FFFC>remodeling<$FFF5><$FFF8>….<$FFFE>
+# spk: Mariandel
 84	<$FB00><$0060>Remodeling is just remodeling.<$FFF5><$FFFC><$FB00><$0061>You grew complacent with it and forgot to<$FFFC>hone yourself.<$FFFE>
+# spk: Lanford
 85	<$FB00><$0062>Remodeling is no more than<$FFFC>remodeling.<$FFF5> <$FB00><$0063>Haven't you grown complacent<$FFFC>and forgotten to hone yourself？<$FFFE>
+# spk: Omega
 86	<$FB00><$0064>…Only I can prove Lord Gizarof's<$FFFC>great work… only I<$FFF5><$FFF8>…. <$FFF6><$FB00><$0065>I must win with this<$FFFC>power… for Lord Gizarof….<$FFFE>
+# spk: Sigma
 87	<$FB00><$0066>Omega<$FFF5><$FFF8>…. <$FFF6><$FB00><$0067>To care for Gizarof so<$FFFC>deeply<$FFF5><$FFF8>….<$FFFE>
+# spk: Officer
 88	Wh, why….<$FFFE>
+# spk: Officer
 89	Tell my wife… tell my wife….<$FFFC>I….<$FFFE>
+# spk: Officer
 90	…I won't die！ There's no way<$FFFC>I, of all people, would die… guhah！<$FFFE>
+# spk: Officer
 91	You'll… pay for this….<$FFFC>…Uu….<$FFFE>
+# spk: Officer
 92	With my strength….<$FFFE>
+# spk: Clarett
 93	Is everyone all right！？<$FFFE>
+# spk: Mariandel
 94	How's the battle going？<$FFFE>
+# spk: Sigma
 95	<$FB00><$0068>No enemies left, it seems.<$FFFE>
+# spk: Mariandel
 96	<$FB00><$0069>Let's get underground quickly.<$FFFE>
+# spk: Alfred
 97	<$FB00><$006A>Right. Let's hurry.<$FFFE>
+# spk: Omega
 98	<$FB00><$0042>I'll show you the true use of our<$FFFC>power！<$FFF5> <$FFF7><$FB00><$0043>Nuooooh！<$FFFE>
+# spk: Sigma
 99	<$FB00><$0044>He used his power again<$FFF5><$FFF8>…. <$FFF6><$FB00><$0045>Hm？<$FFFC>This is different from before！<$FFFE>
+# spk: Omega
 100	<$FB00><$0046>Amplify others' morale and mental<$FFFC>energy and make it your own.<$FFFD>This is the power's true use！<$FFF5> <$FB00><$0047>Now die,<$FFFC>you defective！<$FFFE>
+# spk: Clarett
 101	<$FB00><$004E>Sorry to keep you！<$FFFE>
+# spk: Brenda
 102	<$FB00><$004F>Kept you waiting！<$FFFE>
+# spk: Sigma
 103	<$FB00><$0050>Everyone！<$FFFE>
+# spk: Omega
 104	<$FFF8><$FB00><$0051>Tch！<$FFF5> <$FFF6><$FB00><$0052>They're back already！<$FFFE>
+# spk: Sigma
 105	<$FB00><$0053>We can't get underground with them<$FFFC>still here. We beat them now！<$FFFE>

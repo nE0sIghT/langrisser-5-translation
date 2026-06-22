@@ -8,107 +8,210 @@
 8	Officer<$FFFF>
 9	McClaine<$FFFF>
 10	Jessica<$FFFF>
+# spk: Sigma
 11	・Defeat Gilmore<$FFFE>
+# spk: Sigma
 12	・<$F600><$0000> dies<$FFFE>
 13	Inside Kalxath Castle<$FFFF>
+# spk: Clarett
 14	<$FB00><$0030>Gilmore！ Give yourself up！<$FFFE>
+# spk: Gilmore
 15	<$FB00><$0031>How dare you address me so<$FFFC>casually. Call me Your Majesty！<$FFFD><$FB00><$0032>Still, impressive that you reached this<$FFFC>far. Quaid should have been at the gate.<$FFFE>
+# spk: Brenda
 16	<$FB00><$0033>Oh, that marquis？ Too bad, but it<$FFFC>looks like he died for nothing.<$FFFE>
+# spk: Gilmore
 17	<$FB00><$0034>What do you mean！？ You call a<$FFFC>noble death meaningless！？<$FFFE>
+# spk: Sigma
 18	<$FB00><$0035>If he died for you and you lose<$FFFC>anyway, then yes, meaningless.<$FFFE>
+# spk: Gilmore
 19	<$FB00><$0036>Silence！ You are the emperor's<$FFFC>murderer！ Do you mean to kill me too！？<$FFFE>
+# spk: Sigma
 20	<$FB00><$0037>Then surrender and return the<$FFFC>throne to Clarett.<$FFFD>Do that, and I may show mercy.<$FFFE>
+# spk: Gilmore
 21	<$FB00><$0038>Nonsense！ You are the ones who<$FFFC>will die！<$FFFE>
+# spk: Gilmore
 22	<$FB00><$0039>What are you doing！？ Kill them<$FFFC>at once！<$FFFE>
+# spk: (location/crowd)
 23	<$FB00><$003A>Yes sir！ At once！<$FFFE>
+# spk: (location/crowd)
 24	<$FB00><$003B>We have requested reinforcements<$FFFC>from the troops attacking Salrath！<$FFFE>
+# spk: Gilmore
 25	<$FB00><$003C>What？<$FFFE>
+# spk: (location/crowd)
 26	<$FB00><$003D>Captain Kfir of the flyers is on<$FFFC>his way. He should arrive soon.<$FFFE>
+# spk: Gilmore
 27	<$FB00><$003E>Do not tell me you intend to<$FFFC>wait for reinforcements！<$FFFE>
+# spk: (location/crowd)
 28	<$FB00><$003F>Not at all<$FFF5><$FFF8>…<$FFFE>
+# spk: Gilmore
 29	<$FB00><$0040>Listen, do not rely on<$FFFC>reinforcements. Defeat them yourselves！<$FFFE>
+# spk: Sigma
 30	<$FB00><$002E>I'm sorry…everyone…<$FFFE>
+# spk: Lambda
 31	<$FB00><$003D>Ugh…not…yet…<$FFFE>
+# spk: Sigma
 32	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
+# spk: Lambda
 33	<$FB00><$003F>…All right…<$FFFE>
+# spk: Sigma
 34	<$FB00><$0080>You all right, Alfred！<$FFFE>
+# spk: Alfred
 35	<$FB00><$0081>Sorry…the rest is up to you…<$FFFE>
+# spk: Sigma
 36	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
+# spk: Brenda
 37	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 38	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 39	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
+# spk: Clarett
 40	<$FB00><$005C>Ow！ You dare！<$FFFE>
+# spk: Sigma
 41	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
+# spk: Clarett
 42	<$FB00><$005E>B-but…<$FFFE>
+# spk: Sigma
 43	<$FB00><$005F>Just fall back！<$FFFE>
+# spk: Clarett
 44	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
+# spk: Officer
 45	Lord Gilmore…please escape…<$FFFE>
+# spk: Officer
 46	I-impossible…<$FFFE>
+# spk: Officer
 47	Still…I can still fight…<$FFFE>
+# spk: Officer
 48	My training was not enough…<$FFFE>
+# spk: Officer
 49	…Splendid… With you, this<$FFFC>country's future…<$FFFE>
+# spk: Officer
 50	Ugh…uuuh…<$FFFE>
+# spk: Officer
 51	To think I cannot win…<$FFFE>
+# spk: Officer
 52	…There will be no next time…<$FFFE>
+# spk: Gilmore
 53	<$FB00><$0066>I will not give up this castle,<$FFFC>or this power！<$FFFE>
+# spk: Gilmore
 54	<$FB00><$0067>D-damn…<$FFFE>
+# spk: Clarett
 55	<$FB00><$0068>Give yourself up, Gilmore.<$FFFE>
+# spk: Sigma
 56	<$FB00><$0069>It is over. Surrender.<$FFFE>
+# spk: Sigma
 57	<$FB00><$0044>Reinforcements！？<$FFFE>
+# spk: McClaine
 58	<$FB00><$0045>Hold it！ Do not mistake us, it<$FFFC>is us！<$FFFE>
+# spk: Lambda
 59	<$FB00><$0046>B-big brother…<$FFFE>
+# spk: Clarett
 60	<$FB00><$0047>Lady Jessica！<$FFFE>
+# spk: McClaine
 61	<$FB00><$0048>If you mean reinforcements<$FFFC>coming here, relax. They are not coming.<$FFFE>
+# spk: Brenda
 62	<$FB00><$0049>Then you two<$FFF5><$FFF8>…？<$FFFE>
+# spk: Jessica
 63	<$FB00><$004A>I would not aid one who will not<$FFFC>carve her own future.<$FFFD><$FB00><$004B>But you no longer depend on others as<$FFFC>before.<$FFFD><$FB00><$004C>Now I will lend my strength.<$FFFE>
+# spk: Clarett
 64	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It is thanks to<$FFFC>everyone. They helped me realize it.<$FFFE>
+# spk: Brenda
 65	<$FB00><$004F>But you realized it yourself. Some<$FFFC>people never understand, no matter what<$FFFC>they are told.<$FFFE>
+# spk: Jessica
 66	<$FB00><$0050>I have seen many great deeds,<$FFFC>all done with trusted allies.<$FFFD><$FB00><$0051>One person's power is small, but joined<$FFFC>powers move an age.<$FFFE>
+# spk: Clarett
 67	<$FB00><$0052>Yes！<$FFFE>
+# spk: McClaine
 68	<$FB00><$0053>If you need help, more people is<$FFFC>better, right？ I will help too.<$FFFE>
+# spk: Gilmore
 69	<$FB00><$0054>Enough idle chatter！<$FFFE>
+# spk: Clarett
 70	<$FB00><$0055>Quiet！ First explain how you<$FFFC>became emperor！<$FFFE>
+# spk: Gilmore
 71	<$FB00><$0056>What nonsense. My family has<$FFFC>royal blood！<$FFFE>
+# spk: Sigma
 72	<$FB00><$0057>Is that true, Clarett？<$FFFE>
+# spk: Clarett
 73	<$FB00><$0058>I have never heard that.<$FFFE>
+# spk: Gilmore
 74	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded, Dalsis had a<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
+# spk: Jessica
 75	<$FB00><$005C>Stop. Your story already fails.<$FFFD><$FB00><$005D>Chris wed Ledin of Baldia. Leon lived<$FFFC>about 200 years after them.<$FFFE>
+# spk: Gilmore
 76	<$FB00><$005E>Silence！ Do not speak as if you<$FFFC>saw it！ Who are you anyway！？<$FFFE>
+# spk: Jessica
 77	<$FB00><$005F>My name is Jessica. I watch this<$FFFC>continent and the Descendants of Light.<$FFFD><$FB00><$0060>Kalxath servants should know my name.<$FFFE>
+# spk: Gilmore
 78	<$FB00><$0061>Jessica<$FFF5><$FFF8>… <$FFFB><$FFF6><$FB00><$0062>You mean the Archmage<$FFFC>Jessica<$FFF5><$FFF8>…？<$FFFE>
+# spk: McClaine
 79	<$FB00><$0063>Your evil ends here.<$FFFE>
+# spk: Gilmore
 80	<$FB00><$006A>I…I… will not give up！<$FFFE>
+# spk: Brenda
 81	<$FB00><$006B>Ah, wait！<$FFFE>
+# spk: (location/crowd)
 82	L-Lord Gilmore！<$FFFD>…<$FE14>…<$FE14>Tch！ Retreat！<$FFFE>
+# spk: Clarett
 83	<$FB00><$006C>There is a secret passage hidden<$FFFC>in the throne！ He used it！<$FFFE>
+# spk: Sigma
 84	<$FB00><$006D>Kh！ He escaped！<$FFFE>
+# spk: Clarett
 85	<$FFF8>…<$FFF6><$FB00><$006E>For now, retaking the castle<$FFFC>is enough. But we must tell Salrath that<$FFFC>Gilmore fled！<$FFFE>
+# spk: Lambda
 86	<$FB00><$006F>Right. There is no need to fight<$FFFC>now. We must stop both armies quickly.<$FFFE>
+# spk: Gilmore
 87	<$FB00><$0041>Worthless fools！ You let them<$FFFC>get this far！<$FFFE>
+# spk: Clarett
 88	<$FB00><$0042>Looks like your time is up,<$FFFC>Gilmore！<$FFFE>
+# spk: Gilmore
 89	<$FB00><$0043>Where are the reinforcements！？<$FFFE>
+# spk: Gilmore
 90	<$FB00><$0064>Then I will kill everyone who<$FFFC>knows the secret！<$FFFE>
+# spk: Lambda
 91	<$FFF8>…<$FFF6><$FB00><$0065>What a sore loser.<$FFFE>
+# spk: Sigma
 92	<$FB00><$0044>Reinforcements！？<$FFFE>
+# spk: McClaine
 93	<$FB00><$0045>Hold it！ Do not mistake us, it<$FFFC>is us！<$FFFE>
+# spk: Lambda
 94	<$FB00><$0046>B-big brother…<$FFFE>
+# spk: Clarett
 95	<$FB00><$0047>Lady Jessica！<$FFFE>
+# spk: McClaine
 96	<$FB00><$0048>If you mean reinforcements<$FFFC>coming here, relax. They are not coming.<$FFFE>
+# spk: Brenda
 97	<$FB00><$0049>Then you two<$FFF5><$FFF8>…？<$FFFE>
+# spk: Jessica
 98	<$FB00><$004A>I would not aid one who will not<$FFFC>carve her own future.<$FFFD><$FB00><$004B>But you no longer depend on others as<$FFFC>before.<$FFFD><$FB00><$004C>Now I will lend my strength.<$FFFE>
+# spk: Clarett
 99	<$FB00><$004D>Lady Jessica<$FFF5><$FFF8>… <$FFF6><$FB00><$004E>It is thanks to<$FFFC>everyone. They helped me realize it.<$FFFE>
+# spk: Brenda
 100	<$FB00><$004F>But you realized it yourself. Some<$FFFC>people never understand, no matter what<$FFFC>they are told.<$FFFE>
+# spk: Jessica
 101	<$FB00><$0050>I have seen many great deeds,<$FFFC>all done with trusted allies.<$FFFD><$FB00><$0051>One person's power is small, but joined<$FFFC>powers move an age.<$FFFE>
+# spk: Clarett
 102	<$FB00><$0052>Yes！<$FFFE>
+# spk: McClaine
 103	<$FB00><$0053>If you need help, more people is<$FFFC>better, right？ I will help too.<$FFFE>
+# spk: Gilmore
 104	<$FB00><$0054>Enough idle chatter！<$FFFE>
+# spk: Clarett
 105	<$FB00><$0055>Quiet！ First explain how you<$FFFC>became emperor！<$FFFE>
+# spk: Gilmore
 106	<$FB00><$0056>What nonsense. My family has<$FFFC>royal blood！<$FFFE>
+# spk: Sigma
 107	<$FB00><$0057>Is that true, Clarett？<$FFFE>
+# spk: Clarett
 108	<$FB00><$0058>I have never heard that.<$FFFE>
+# spk: Gilmore
 109	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded, Dalsis had a<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
+# spk: Jessica
 110	<$FB00><$005C>Stop. Your story already fails.<$FFFD><$FB00><$005D>Chris wed Ledin of Baldia. Leon lived<$FFFC>about 200 years after them.<$FFFE>
+# spk: Gilmore
 111	<$FB00><$005E>Silence！ Do not speak as if you<$FFFC>saw it！ Who are you anyway！？<$FFFE>
+# spk: Jessica
 112	<$FB00><$005F>My name is Jessica. I watch this<$FFFC>continent and the Descendants of Light.<$FFFD><$FB00><$0060>Kalxath servants should know my name.<$FFFE>
+# spk: Gilmore
 113	<$FB00><$0061>Jessica<$FFF5><$FFF8>… <$FFFB><$FFF6><$FB00><$0062>You mean the Archmage<$FFFC>Jessica<$FFF5><$FFF8>…？<$FFFE>
+# spk: McClaine
 114	<$FB00><$0063>Your evil ends here.<$FFFE><$FFFF>

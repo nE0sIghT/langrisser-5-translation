@@ -14,125 +14,241 @@
 12	C.Knights 6<$FFFF>
 13	C.Knights 7<$FFFF>
 14	・Defeat all enemies<$FFFE>
+# spk: Sigma
 15	・<$F600><$0000> dies<$FFFE>
 16	Magitek Control Facility<$FFFF>
+# spk: Sigma
 17	<$FB00><$0042>So the control device is here.<$FFFE>
+# spk: Lanford
 18	<$FB00><$0043>That room is most likely where<$FFFC>the control device is.<$FFFE>
+# spk: Mariandel
 19	<$FB00><$0044>So it seems.<$FFFE>
+# spk: Alfred
 20	<$FB00><$0045>But a sturdy-looking door is<$FFFC>shut, you see？<$FFFE>
+# spk: Brenda
 21	<$FB00><$0046>There should be a device somewhere<$FFFC>to open the door.<$FFFE>
+# spk: Clarett
 22	<$FB00><$0047>Is it that thing visible in the<$FFFC>back？<$FFFE>
+# spk: Brenda
 23	<$FB00><$0048>Yeah, that's it！<$FFF5> <$FB00><$0049>There are two,<$FFFC>and unless both switches are thrown, the<$FFFC>control room door won't open.<$FFFE>
+# spk: Sigma
 24	<$FB00><$004A>Split into two teams, or three<$FFF5><$FFF8>….<$FFFE>
+# spk: Lanford
 25	<$FB00><$004B>Think it through. We've come<$FFFC>this far, failure isn't allowed.<$FFFE>
+# spk: Guardian
 26	<$FB00><$004C>Intruders found！ Intruders<$FFFC>found！<$FFFE>
+# spk: Soldier
 27	<$FB00><$004D>What！<$FFF5> <$FB00><$004E>Enemies, in a place like<$FFFC>this？<$FFFE>
+# spk: Guardian
 28	<$FB00><$004F>NOW ENTERING<$FFFC>INTERCEPT MODE！<$FFFE>
+# spk: Soldier
 29	<$FB00><$0050>Get word to Lord Aizel！<$FFF5> <$FB00><$0051>Hold<$FFFC>this place no matter what！<$FFFE>
+# spk: Brenda
 30	<$FB00><$0052>Looks like we've been noticed.<$FFFD><$FB00><$0053>Hurry！<$FFFE>
+# spk: Alarm
 31	<$FB00><$005D>Alarm raised. In 500 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
+# spk: (no plate)
 32	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
 33	・Fail to reach the control panel within 15 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Alarm
 34	<$FB00><$005B>Alarm raised. In 700 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
+# spk: (no plate)
 35	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Fail to reach the control panel within 19 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
 36	・Fail to reach the control panel within 19 turns<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Alarm
 37	<$FB00><$005D>Alarm raised. In 500 counts the<$FFFC>control panel will be disabled.<$FFFD><$FB00><$005C>If this is a false alarm, promptly enter<$FFFC>the release code at the control panel.<$FFFE>
+# spk: Brenda
 38	<$FB00><$005F>This is bad. If the shutter comes<$FFFC>down, we can't touch the control device！<$FFFE>
+# spk: Sigma
 39	<$FB00><$0060>Everyone, hurry！ Reach the<$FFFC>control panel before the shutter falls！！<$FFFE>
+# spk: Warning
 40	<$FB00><$0070>Control panel, preparing to lock<$FFFC>down. If false, promptly enter the release<$FFFC>code.<$FFFE>
+# spk: Warning
 41	<$FB00><$0070>Control panel, preparing to lock<$FFFC>down. If false, promptly enter the release<$FFFC>code.<$FFFE>
+# spk: Warning
 42	<$FB00><$0071>Warning. The control panel will<$FFFC>soon be locked. If false, promptly enter<$FFFC>the release code.<$FFFE>
+# spk: Warning
 43	<$FB00><$0071>Warning. The control panel will<$FFFC>soon be locked. If false, promptly enter<$FFFC>the release code.<$FFFE>
+# spk: (no plate)
 44	<$0000> <$F600><$FFFD> pushed the wall<$FFFC>switch！<$FFFE>
+# spk: (no plate)
 45	<$0000> <$F600><$FFFD> pushed the wall<$FFFC>switch！<$FFFE>
+# spk: Sigma
 46	<$FB00><$0064>I just move this, right？<$FFFE>
+# spk: Mariandel
 47	<$FB00><$0065>I just move this, right？<$FFFE>
+# spk: Alfred
 48	<$FB00><$0066>Erm, which one<$FFF5><$FFF8>…<$FFF6><$FB00><$0067>this one？<$FFFE>
+# spk: Brenda
 49	<$FB00><$0068>Push this, and this<$FFF5><$FFF8>….<$FFFE>
+# spk: Clarett
 50	<$FB00><$0069>Which one<$FFF5><$FFF8>…. <$FFF6><$FB00><$006A>Ah, just push them<$FFFC>at random！<$FFFE>
+# spk: Lanford
 51	<$FB00><$006B>This stops the magitek system.<$FFFE>
+# spk: Warning
 52	<$FB00><$006C>All defense systems halted.<$FFFC>Alert lifted.<$FFFE>
+# spk: Sigma
 53	<$FB00><$006D>We did it！<$FFFE>
+# spk: Aizel
 54	<$FB00><$006E>Curse you<$FFF5><$FFF8>…！ <$FFF6><$FB00><$006F>Don't think you'll<$FFFC>leave here alive！<$FFFE>
+# spk: (no plate)
 55	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD><$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
 56	・Defeat all enemies<$FFFE>
 57	・<$F600><$0000> dies<$FFFE>
+# spk: (no plate)
 58	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a keen-looking sword.<$FFFD>Take the sword？<$FFFE>
+# spk: (no plate)
 59	<$0000> <$FFF4>Excalibur<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 60	A locking sound came from the right.<$FFFE>
+# spk: (no plate)
 61	A gargoyle statue stands in the water. In<$FFFC>its hand it grips a splendid suit of<$FFFC>armor.<$FFFD>Take the armor？<$FFFE>
+# spk: (no plate)
 62	<$0000> <$FFF4>Aeneas Mail<$FFF3> obtained！<$FFFE>
+# spk: (no plate)
 63	A locking sound came from the left.<$FFFE>
+# spk: Sigma
 64	<$FB00><$007A>I'm pressing on！<$FFFE>
+# spk: Sigma
 65	<$FB00><$002B>Eat this！<$FFFE>
+# spk: Sigma
 66	<$FB00><$002E>Sorry… everyone…<$FFFE>
+# spk: Mariandel
 67	<$FB00><$007B>Clear the way！<$FFFE>
+# spk: Mariandel
 68	<$FB00><$0046>Here goes.<$FFFE>
+# spk: Mariandel
 69	<$FB00><$004B>No… that I should…<$FFFE>
+# spk: Sigma
 70	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
+# spk: Mariandel
 71	…<$FB00><$004D>I'm sorry….<$FFFE>
+# spk: Alfred
 72	<$FB00><$007D>Don't get in my way！<$FFFE>
+# spk: Alfred
 73	<$FB00><$0076>I won't lose！<$FFFE>
+# spk: Alfred
 74	<$FB00><$007B>I can still… I can still fight…<$FFFE>
+# spk: Sigma
 75	<$FB00><$007C>Alfred！ Pull back for now！<$FFFE>
+# spk: Alfred
 76	<$FB00><$007D>But…<$FFFE>
+# spk: Sigma
 77	<$FB00><$007E>Trust your comrades！<$FFFE>
+# spk: Alfred
 78	<$FB00><$007F>…Understood… The rest is yours…<$FFFE>
+# spk: Brenda
 79	<$FB00><$0078>Aizel！ I'm going through to<$FFFC>Lain！<$FFFE>
+# spk: Aizel
 80	<$FB00><$0079>I'll not let you reach Lord<$FFFC>Lainforce！<$FFFE>
+# spk: Brenda
 81	<$FB00><$0069>Who do you think I am！<$FFFE>
+# spk: Brenda
 82	<$FB00><$006B>Ngh… I slipped up…<$FFFE>
+# spk: Sigma
 83	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+# spk: Brenda
 84	<$FB00><$006D>Yeah, I'm fine… I can still go…<$FFFE>
+# spk: Sigma
 85	<$FB00><$006E>Fall back, Brenda！ Don't overdo<$FFFC>it！<$FFFE>
+# spk: (location/crowd)
 86	<$FB00><$006F>…I'll do that. I don't want<$FFFC>to drag you down…<$FFFE>
+# spk: Clarett
 87	<$FB00><$007C>Get out of the way！<$FFFE>
+# spk: Clarett
 88	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 89	<$FB00><$005C>Ow！ Y, you！<$FFFE>
+# spk: Sigma
 90	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
+# spk: Clarett
 91	<$FB00><$005E>B, but….<$FFFE>
+# spk: Sigma
 92	<$FB00><$005F>Enough, fall back！<$FFFE>
+# spk: Clarett
 93	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+# spk: Lanford
 94	<$FB00><$007E>Don't get in my way！<$FFFE>
+# spk: Lanford
 95	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+# spk: Lanford
 96	<$FB00><$008E>Ngh… that I should be outdone…<$FFFE>
+# spk: Sigma
 97	<$FB00><$008F>Are you all right, Lanford！？<$FFFE>
+# spk: Lanford
 98	<$FB00><$0090>A wound like this is a scratch…<$FFFE>
+# spk: Sigma
 99	<$FB00><$0091>Don't push it！ Leave the rest to<$FFFC>us！<$FFFE>
+# spk: Lanford
 100	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
+# spk: Guardian
 101	…V…VV…W….<$FFFE>
+# spk: Guardian
 102	…V…vv….<$FFFE>
+# spk: Soldier
 103	I can't die here….<$FFFE>
+# spk: Soldier
 104	L, Lord Ai…zer….<$FFFE>
+# spk: Soldier
 105	…I don't want to die…. …I<$FFFC>don't want to die…. …I don't want to<$FFFC>die…. …I don't want to die….<$FFFE>
+# spk: Aizel
 106	<$FB00><$0082>…Gh… uu….<$FFFE>
+# spk: Brenda
 107	<$FB00><$0083>This is the end, Aizel.<$FFFE>
+# spk: Aizel
 108	<$FFF8>…<$FFF6><$FB00><$0084>Lady Brenda… Lord Lainforce<$FFFC>is… uu….<$FFFE>
+# spk: C.Knights 6
 109	I can't fall here. I must<$FFFC>protect Lord Lain…force….<$FFFE>
+# spk: C.Knights 6
 110	That the Crimzonian Knights<$FFFC>should….<$FFFE>
+# spk: C.Knights 7
 111	…To think surface-dwellers<$FFFC>held such skill…. But next time I won't<$FFFC>lose….<$FFFE>
+# spk: C.Knights 7
 112	…That I should fall to<$FFFC>surface-dwellers….<$FFFE>
+# spk: Soldier
 113	I can't lose here…. …but…<$FFFC>already….<$FFFE>
+# spk: Sigma
 114	<$FB00><$0080>Now to deal with the control<$FFFC>device….<$FFFE>
+# spk: (no plate)
 115	<$0000> Operated the control panel and halted<$FFFC>the magitek system.<$FFFE>
+# spk: Sigma
 116	<$FFF8>…<$FB00><$0081>It's over.<$FFFE>
+# spk: Lanford
 117	<$FB00><$0085>So now we can get into his<$FFFC>castle.<$FFFE>
+# spk: Brenda
 118	<$FB00><$0086>At last, the showdown with Lain.<$FFFE>
+# spk: Sigma
 119	<$FB00><$0087>Yeah. Everyone, stay sharp！<$FFFE>
+# spk: (no plate)
 120	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Cut the<$FFFC>power to the control device<$FFFE>
 121	・Cut the power to the control device<$FFFE>
+# spk: Aizel
 122	<$FB00><$0054>Mh, you're<$FFF5><$FFF8>….<$FFFE>
+# spk: Brenda
 123	<$FB00><$0055>Aizel<$FFF5><$FFF8>….<$FFFE>
+# spk: Aizel
 124	<$FB00><$0056>I see. So the Crimzo Landers told<$FFFC>you of this control room<$FFF5><$FFF8>….<$FFFE>
+# spk: Brenda
 125	<$FB00><$0057>Too bad, Aizel. However mighty the<$FFFC>magitek weapons guarding it, useless if<$FFFC>they don't move, no？<$FFFE>
+# spk: Aizel
 126	<$FB00><$0058>But if you can't stop it, you've<$FFFC>no chance.<$FFF5> <$FB00><$0059>Bring the panel shutter down<$FFFC>remotely！ Never let them stop the system！<$FFFE>
+# spk: Soldier
 127	<$FB00><$005A>Understood！<$FFFE>
+# spk: Sigma
 128	<$FB00><$0061>Right, the control room door is<$FFFC>open！<$FFFE>
+# spk: Brenda
 129	<$FB00><$0062>Now we just cut the power to the<$FFFC>magitek system from the panel！<$FFFE>
+# spk: Aizel
 130	<$FB00><$0063>No good！ Beat them quickly！<$FFFE>
+# spk: Aizel
 131	<$FB00><$007F>I won't allow it！<$FFFE>
+# spk: Warning
 132	<$FB00><$0072>Locking the control panel. The<$FFFC>defense systems now shift to top-level<$FFFC>alert.<$FFFE>
+# spk: Warning
 133	<$FB00><$0073>Control panel locked. Shifting<$FFFC>to top-level alert.<$FFFE>
+# spk: Sigma
 134	<$FB00><$0074>No！ The control device！<$FFFE>
+# spk: Aizel
 135	<$FFF7><$FB00><$0075>Hahaha！<$FFF5><$FFF8> <$FFF6><$FB00><$0076>Now none but Lord<$FFFC>Lainforce, who holds the release code, can<$FFFC>disarm this defense system！ You've lost！<$FFFE>
+# spk: Sigma
 136	<$FB00><$0077>Sorry, everyone<$FFF5><$FFF8>….<$FFFE>

@@ -9,31 +9,59 @@
 7	McClaine<$FFFF>
 8	Jessica<$FFFF>
 9	Kalxath Castle Audience Hall<$FFFF>
+# spk: McClaine
 10	<$FB00><$0003>Hey, you made it back too.<$FFFE>
+# spk: Mariandel
 11	<$FB00><$0004>Brother. I am glad you are<$FFFC>safe<$FFF5><$FFF8>…<$FFFE>
+# spk: McClaine
 12	<$FB00><$0005>Yeah. Once Grove fell, the<$FFFC>corpses stopped. Burning them took time.<$FFFE>
+# spk: Brenda
 13	<$FB00><$0006>The spell must have broken when we<$FFFC>beat that Grove guy.<$FFFE>
+# spk: Jessica
 14	<$FFF8>…<$FFF6><$FB00><$0007>I see. Necro Grove. So that<$FFFC>man<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 15	<$FB00><$0008>You know him？<$FFFE>
+# spk: Jessica
 16	<$FB00><$0009>Yes. It has been over a thousand<$FFFC>years since I fought him directly, but<$FFFC>even then he was one of the demon generals<$FFFC>serving Böser.<$FFFD><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000A>I see. Grove has revived.<$FFFE>
+# spk: Alfred
 17	<$FB00><$000B>The way you speak of demons, they<$FFFC>sound immortal.<$FFFE>
+# spk: Jessica
 18	<$FB00><$000C>Strictly speaking, not immortal.<$FFFC>But the demon generals who serve Böser<$FFFC>directly are as close to immortal as one<$FFFC>can be.<$FFFD><$FB00><$000D>They are not on Böser's level, but given<$FFFC>enough time they may revive.<$FFFE>
+# spk: McClaine
 19	<$FB00><$000E>Then Böser, the one we beat,<$FFFC>will revive someday？<$FFFE>
+# spk: Jessica
 20	<$FB00><$000F>Yes. While Alhazard exists and<$FFFC>no next Böser is chosen, he can revive<$FFFC>endlessly.<$FFFE>
+# spk: Mariandel
 21	<$FB00><$0010>Is there no way to stop that？<$FFFE>
+# spk: Mariandel
 22	<$FB00><$0011>As long as we have no way to<$FFFC>destroy Chaos completely, the source of<$FFFC>their power, there is no decisive method.<$FFFD><$FB00><$0054>At best, destroy Alhazard and weaken<$FFFC>Böser and the demons.<$FFFE>
+# spk: Sigma
 23	<$FB00><$0012>Alhazard is the sword stolen at<$FFFC>the port, right？<$FFFE>
+# spk: Jessica
 24	<$FB00><$0013>Yes. Langrisser and Alhazard,<$FFFC>holy and evil, two opposed swords, have<$FFFC>clashed again and again since ancient<$FFFC>times.<$FFFD><$FB00><$0014>That history is itself the record of<$FFFC>mankind's war with demons. Until now,<$FFFC>Langrisser's power sealed them.<$FFFE>
+# spk: McClaine
 25	<$FB00><$0015>But that Langrisser is in demon<$FFFC>hands. <$FFF5><$FFF8>…<$FFF6><$FB00><$0016>That is trouble.<$FFFE>
+# spk: Sigma
 26	<$FB00><$0017>Even so, we cannot stay silent. We<$FFFC>must beat the demons ourselves.<$FFFE>
+# spk: Alfred
 27	<$FB00><$0018>How can we defeat demons with only<$FFFC>our own strength？<$FFFE>
+# spk: Jessica
 28	<$FB00><$0019>The demons live northeast, in<$FFFC>Velzeria. The stolen swords are likely<$FFFC>there.<$FFFE>
+# spk: Mariandel
 29	<$FB00><$001A>Then we take the swords back<$FFFC>and beat the demons.<$FFFE>
+# spk: Brenda
 30	<$FB00><$001B>True.<$FFFD><$FB00><$001C>Now is our chance, while Grove is wounded.<$FFFE>
+# spk: Clarett
 31	<$FB00><$001D>Understood. I will form troops<$FFFC>and strike Velzeria at once.<$FFFE>
+# spk: Jessica
 32	<$FB00><$001E>I will help, modest though my<$FFFC>aid may be.<$FFFE>
+# spk: McClaine
 33	<$FB00><$001F>I will help too. Use me however<$FFFC>you need.<$FFFE>
+# spk: Clarett
 34	<$FB00><$0020>Thank you, Jessica, McClaine.<$FFFD><$FB00><$0021>For this battle, I will name you temporary<$FFFC>commanders.<$FFFE>
+# spk: (no plate)
 35	<$0000>Necro Grove's return forced Clarett's<$FFFC>group to purge the demons. <$0000>In Velzeria,<$FFFC>land of demons, lay stolen Langrisser and<$FFFC>Alhazard.<$FFFD><$0000>They marched on Velzeria with Kalxath<$FFFC>regulars, but the rear supply convoy was<$FFFC>attacked. <$0000>Without supplies, the advance<$FFFC>would stop, so they moved to aid it.<$FFFE>
+# spk: (no plate)
 36	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・2 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: (no plate)
 37	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・3 supply units defeated<$FFFC>・<$F600><$0000> dies<$FFFE>

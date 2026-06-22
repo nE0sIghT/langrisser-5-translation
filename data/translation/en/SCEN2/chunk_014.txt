@@ -9,126 +9,249 @@
 7	Eric<$FFFF>
 8	Kfir<$FFFF>
 9	Officer<$FFFF>
+# spk: (location/crowd)
 10	・Defeat all enemies<$FFFE>
+# spk: Sigma
 11	・<$F600><$0000> dies<$FFFE>
+# spk: Lambda
 12	Flying Ship Deck<$FFFF>
+# spk: Eric
 13	<$FB00><$0033>C-Captain, what is that<$FFF5><$FFF8>…？<$FFFE>
+# spk: Kfir
 14	<$FB00><$0034>I do not know. I heard ancient magic<$FFFC>weapons existed, but to see one myself…<$FFFE>
+# spk: Eric
 15	<$FB00><$0035>So this is why they dared launch<$FFFC>such a reckless attack.<$FFFE>
+# spk: Sigma
 16	<$FB00><$0036>Looks like we made it.<$FFFE>
+# spk: Alfred
 17	<$FB00><$0037>The Salrath army still looks safe.<$FFFE>
+# spk: Brenda
 18	<$FB00><$0038>These flyers are the <$FFF4>eyes<$FFFC><$FFF3>watching Salrath, right？<$FFFE>
+# spk: Clarett
 19	<$FB00><$0039>Kalxath grew into an empire<$FFFC>because it poured power into flyers before<$FFFC>other nations.<$FFFE>
+# spk: Lambda
 20	<$FB00><$003A>Hold the sky and you see enemy<$FFFC>moves. Then you strike first and hit blind<$FFFC>spots.<$FFFE>
+# spk: Clarett
 21	<$FB00><$003B>Exactly.<$FFFE>
+# spk: Sigma
 22	<$FB00><$003C>Our goal is to seize that air<$FFFC>control and read their weak point instead.<$FFFE>
+# spk: Alfred
 23	<$FB00><$003D>But they are flyers. Won't they be<$FFFC>hard to fight？<$FFFE>
+# spk: Sigma
 24	<$FB00><$003E>If we do not win, Salrath cannot<$FFFC>be saved. We have to do it！<$FFFE>
+# spk: Sigma
 25	<$FB00><$002C>Take this！<$FFFE>
+# spk: Sigma
 26	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Lambda
 27	<$FB00><$0038>Move<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 28	<$FB00><$003A>Kh… that one hurt…<$FFFE>
+# spk: Sigma
 29	<$FB00><$003B>Leave the rest to me！<$FFFE>
+# spk: Lambda
 30	<$FB00><$003C>I'm counting on you…<$FFFE>
+# spk: Alfred
 31	<$FB00><$0075>I can fight too！<$FFFE>
+# spk: Alfred
 32	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
+# spk: Brenda
 33	<$FB00><$0067>Here I go！<$FFFE>
+# spk: Brenda
 34	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
+# spk: Sigma
 35	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+# spk: Brenda
 36	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
+# spk: Sigma
 37	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
+# spk: Brenda
 38	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
+# spk: Clarett
 39	<$FB00><$0043>It really is Eric<$FFF5><$FFF8>… <$FFF6><$FB00><$0044>Why is he<$FFFC>here<$FFF5><$FFF8>…？<$FFFE>
+# spk: Sigma
 40	<$FB00><$0045>What is it, Clarett！<$FFFE>
+# spk: Clarett
 41	<$FB00><$0046>He is someone I know！ If<$FFFC>possible, I want to talk to him <$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 42	<$FB00><$0047>Don't rush. I will judge by the<$FFFC>battle.<$FFFE>
+# spk: Clarett
 43	<$FB00><$0048>All right. Please.<$FFFE>
+# spk: Clarett
 44	<$FB00><$0049>Eric！<$FFFE>
+# spk: Eric
 45	<$FB00><$004A>Hm, who are you？<$FFFE>
+# spk: Clarett
 46	<$FB00><$004B>It is me, Clarett！<$FFFE>
+# spk: Eric
 47	<$FB00><$004C>Clarett！？ Is that you？<$FFFE>
+# spk: Clarett
 48	<$FB00><$004D>Yes！ Ah, it has been so long.<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$004E>But why serve Gilmore？<$FFFE>
+# spk: Clarett
 49	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 50	…Eric… …why…<$FFFE>
+# spk: Clarett
 51	<$FB00><$005C>Ow！ You dare！<$FFFE>
+# spk: Sigma
 52	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
+# spk: Clarett
 53	<$FB00><$005E>B-but…<$FFFE>
+# spk: Sigma
 54	<$FB00><$005F>Just fall back！<$FFFE>
+# spk: Clarett
 55	<$FB00><$0060>Sorry, at such an important<$FFFC>time…<$FFFE>
+# spk: Officer
 56	N-no…！ I do not want to die<$FFFC>yet…<$FFFE>
+# spk: Officer
 57	C-Captain！<$FFFE>
+# spk: Officer
 58	Captain Kfir… avenge…<$FFFE>
+# spk: Officer
 59	…So strong…<$FFFE>
+# spk: Officer
 60	…No… I still have not told her<$FFFC>anything…<$FFFE>
+# spk: Eric
 61	<$FB00><$003F>To bring out such an ancient<$FFFC>weapon<$FFF5><$FFF8>… <$FFF6><$FB00><$0040>But I cannot lose！<$FFFE>
+# spk: Clarett
 62	<$FFF8>…<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
+# spk: Eric
 63	<$FB00><$0042>Here I come！<$FFFE>
+# spk: Eric
 64	<$FFF8><$FB00><$005E>Hm？ <$FFF5>…<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>… <$FFF6><$FB00><$0060>Is that Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
+# spk: Clarett
 65	<$FB00><$0062>Eric！<$FFFE>
+# spk: Eric
 66	<$FB00><$0063>Clarett. I wanted to see you <$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 67	<$FB00><$0064>Eric, it has been so long. <$FFF5><$FFF8>…<$FFFC><$FFF6><$FB00><$0065>But why serve Gilmore？<$FFFE>
+# spk: Eric
 68	<$FB00><$0066>Guh, ugh…<$FFFE>
+# spk: Clarett
 69	<$FFF8>…<$FFF6><$FB00><$0041>No way！ Eric？<$FFFE>
+# spk: Sigma
 70	<$FB00><$0045>What is it, Clarett！<$FFFE>
+# spk: Clarett
 71	<$FB00><$0043>It really is Eric<$FFF5><$FFF8>… <$FFF6><$FB00><$0044>Why is he<$FFFC>here<$FFF5><$FFF8>…？<$FFFE>
+# spk: Clarett
 72	<$FB00><$0067>Eric！<$FFFE>
+# spk: Eric
 73	<$FB00><$0068>C-Clarett！？<$FFFE>
+# spk: Clarett
 74	<$FB00><$0069>Are you all right, Eric？<$FFFE>
+# spk: Eric
 75	<$FB00><$006A>I finally saw you again. I cannot<$FFFC>die like this… And I have something to<$FFFC>tell you…<$FFFE>
+# spk: Clarett
 76	<$FB00><$006B>What is it, Eric？<$FFFE>
+# spk: Eric
 77	<$FB00><$006C>No… fight for now. We will talk<$FFFC>after you win… You can win, I know it！<$FFFE>
+# spk: Clarett
 78	<$FB00><$006D>Wait for me, Eric！ We will end<$FFFC>this soon！<$FFFE>
+# spk: Sigma
 79	<$FB00><$006E>Sorry, Clarett. I meant to let you<$FFFC>talk<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 80	<$FB00><$006F>It is fine！ Right now the battle<$FFFC>comes first！<$FFFE>
+# spk: Kfir
 81	<$FFF7><$FB00><$0070>Uwoah！<$FFFE>
+# spk: (location/crowd)
 82	<$FB00><$0071>Captain！<$FFFE>
+# spk: Kfir
 83	<$FB00><$0072>Bah, a wound like this… will not<$FFFC>kill me！<$FFFE>
+# spk: (location/crowd)
 84	<$FB00><$0073>But please withdraw for now！<$FFFE>
+# spk: Kfir
 85	<$FB00><$0074>But you alone…<$FFFE>
+# spk: (location/crowd)
 86	<$FB00><$0075>Trust us！<$FFFE>
+# spk: Kfir
 87	<$FB00><$0076>Forgive me. Then I leave it to you.<$FFFC>Listen, do not die！<$FFFE>
+# spk: (location/crowd)
 88	<$FB00><$0077>Understood！<$FFFE>
+# spk: Kfir
 89	To think I would lose… I will repay<$FFFC>this humiliation！<$FFFE>
+# spk: Eric
 90	<$FFF8><$FB00><$005E>Hm？ <$FFF5>…<$FFF6><$FB00><$005F>That girl<$FFF5><$FFF8>… <$FFF6><$FB00><$0060>Is that Clarett？<$FFFD><$FB00><$0061>It is, Clarett！<$FFFE>
+# spk: Clarett
 91	<$FB00><$0062>Eric！<$FFFE>
+# spk: Eric
 92	<$FB00><$0063>Clarett. I wanted to see you <$FFF5><$FFF8>…<$FFFE>
+# spk: Kfir
 93	Damn！ My flying corps felled so<$FFFC>easily…<$FFFE>
+# spk: (no plate)
 94	There is something like a golden switch.<$FFFC>Press it？<$FFFE>
+# spk: (no plate)
 95	Emergency alert！ Disinfectant gas will<$FFFC>now be sprayed！<$FFFD><$0000> Skill <$FFF4>Detox<$FFF3> learned！<$FFFE>
+# spk: Sigma
 96	<$FB00><$0078>Looks like no enemies are left.<$FFFE>
+# spk: Alfred
 97	<$FB00><$0079>Now air control is ours.<$FFFE>
+# spk: Lambda
 98	<$FB00><$007A>But Salrath is not safe yet. The<$FFFC>enemy has ten times their force.<$FFFE>
+# spk: Sigma
 99	<$FB00><$007C>Right.<$FFFE>
+# spk: Eric
 100	<$FB00><$007D>Clarett<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 101	<$FFF8>…<$FFF6><$FB00><$007E>Eric.<$FFFE>
+# spk: Brenda
 102	<$FB00><$007F>Hey, Clarett. Will you introduce<$FFFC>him？<$FFFE>
+# spk: Clarett
 103	<$FB00><$0080>Y-yes. This is Eric. My<$FFFC>fiance.<$FFFE>
+# spk: Alfred
 104	<$FB00><$0081>Ah, the one you mentioned before？<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$0082>So you really had a fiance<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 105	<$FB00><$0083>Well, I am the only daughter of<$FFFC>the Kalxath royal house. At my age, a<$FFFC>fiance is no surprise.<$FFFE>
+# spk: Eric
 106	<$FB00><$0084>I have been furious at Gilmore's<$FFFC>methods.<$FFFD><$FB00><$0085>But as you know, he rules by fear,<$FFFC>executing anyone who defies him.<$FFFD><$FB00><$0086>So I could not act openly.<$FFFD><$FB00><$0087>But when I learned Clarett had persuaded<$FFFC>Duke Lenard to act, I started waiting for<$FFFC>my chance.<$FFFE>
+# spk: Clarett
 107	<$FB00><$0088>Eric.<$FFFE>
+# spk: Eric
 108	<$FB00><$0089>Please let me aid this operation. I<$FFFC>am poor in direct combat, but I can gather<$FFFC>information<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 109	<$FB00><$008A>Thank you, Eric. We will descend<$FFFC>and raid the enemy headquarters.<$FFFD><$FB00><$008B>Tell Duke Lenard that.<$FFFE>
+# spk: Eric
 110	<$FB00><$008C>Understood.<$FFFE>
+# spk: Alfred
 111	<$FB00><$008D>Did you just say we will raid the<$FFFC>enemy headquarters？<$FFFE>
+# spk: Brenda
 112	<$FB00><$008E>Yes. They sent most of their<$FFFC>troops forward for the encirclement. Their<$FFFC>rear is thin.<$FFFE>
+# spk: Lambda
 113	<$FB00><$008F>Strike the command HQ and their<$FFFC>orders fall into chaos. That is a large<$FFFC>army's weakness.<$FFFE>
+# spk: Alfred
 114	<$FB00><$0090>I see. With this ship, we can<$FFFC>strike the rear headquarters directly.<$FFFE>
+# spk: Sigma
 115	<$FB00><$0091>Exactly. We strike the enemy<$FFFC>headquarters now！ Move out！<$FFFE>
+# spk: Eric
 116	<$FB00><$004F>A lot happened after you left. After<$FFFC>Gilmore named himself emperor, the country<$FFFC>changed.<$FFFD><$FB00><$0050>Many nobles hate him, but obey to survive.<$FFFC>Now almost none oppose his aristocratic<$FFFC>rule.<$FFFE>
+# spk: Clarett
 117	<$FB00><$0051>No… not you too？<$FFFE>
+# spk: Eric
 118	<$FFF8>…<$FFFE>
+# spk: Clarett
 119	<$FB00><$0052>If you still have your old<$FFFC>kindness, if his evil rule has not stained<$FFFC>you, then help me！<$FFFE>
+# spk: Kfir
 120	<$FB00><$005B>Enough useless chatter！ Stop<$FFFC>fraternizing with the enemy！<$FFFE>
+# spk: Eric
 121	<$FFF8>…<$FFFE>
+# spk: Clarett
 122	<$FB00><$0053>Please, Eric！<$FFFE>
+# spk: Kfir
 123	<$FB00><$0054>I know nothing of your past, but she<$FFFC>is the enemy now！<$FFFE>
+# spk: Clarett
 124	<$FB00><$0055>Eric！<$FFFE>
+# spk: Kfir
 125	<$FB00><$0056>Fight, Eric！<$FFFE>
+# spk: Eric
 126	<$FFFA><$FFF8>…<$FFF6><$FFFA><$FB00><$0057>shut<$FFF5><$FFF8>…<$FFFE>
+# spk: Kfir
 127	<$FB00><$0058>What was that？<$FFFE>
+# spk: Eric
 128	<$FB00><$0059>Shut up！ I will help Clarett from<$FFFC>now on！ I am done helping Gilmore！<$FFFE>
+# spk: (no plate)
 129	<$0000> <$0000><$0000><$FFF4>Eric was persuaded！<$FFF3><$FFFE>
+# spk: (location/crowd)
 130	<$FB00><$005A>What should we do, Captain？<$FFFE>
+# spk: Kfir
 131	<$FB00><$005C>Grr, damn traitor！ But the rebels<$FFFC>come first！ Deal with Eric after that！<$FFFE>
+# spk: (location/crowd)
 132	<$FB00><$005D>Yes sir！<$FFFE><$FFFF>

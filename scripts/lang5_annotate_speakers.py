@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+"""Annotate the EN script dump with the speaker plate for each record.
+
+Inserts a ``# spk: <name>`` comment line before every dialogue record in
+``data/translation/en/SCEN*/chunk_*.txt`` so the translation can be read with
+its speaker in view. The speaker comes from the same display-command extraction
+the wrapper uses (``semantic_plate_slots``: name-pool slot at display byte +9,
+record = pool_size + 1 + text id), and the name from the chunk's own English
+plate records (1..pool_size). ``# spk:`` lines (and all ``#`` lines) are ignored
+by lang5_rewrap.py and lang5_sceninsert.py, so this never affects the build.
+
+Idempotent: existing ``# spk:`` lines are stripped and rewritten, so it can be
+re-run after re-translating or re-extracting speakers. Run after edits to refresh.
+"""
+import argparse
+import re
+from pathlib import Path
+
+from lang5_rewrap import semantic_plate_slots, speaker_pool_sizes
+
+TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
+SPK_RE = re.compile(r"^#\s*spk:")
+
+
+def plate_names(lines: list[str], pool_size: int) -> dict[int, str]:
+    """Record index -> English plate name, from records 1..pool_size."""
+    names: dict[int, str] = {}
+    for raw in lines:
+        if "\t" not in raw or raw.startswith("#"):
+            continue
+        idx, text = raw.split("\t", 1)
+        if idx.isdigit() and 1 <= int(idx) <= pool_size:
+            names[int(idx)] = TAG_RE.sub("", text).replace("<$FFFF>", "").strip()
+    return names
+
+
+def label(slot: int | None, names: dict[int, str]) -> str:
+    if slot is None:
+        return "(no plate)"
+    if slot < 0:
+        return "(location/crowd)"
+    return names.get(slot + 1, f"(slot {slot})")
+
+
+def annotate_file(fp: Path, slots: dict[int, int | None], pool_size: int) -> int:
+    lines = fp.read_text(encoding="utf-8").splitlines()
+    names = plate_names(lines, pool_size)
+    out: list[str] = []
+    added = 0
+    for raw in lines:
+        if SPK_RE.match(raw):
+            continue  # drop stale annotation; regenerated below
+        if "\t" in raw and not raw.startswith("#"):
+            idx = raw.split("\t", 1)[0]
+            if idx.isdigit() and int(idx) > pool_size and int(idx) in slots:
+                out.append(f"# spk: {label(slots[int(idx)], names)}")
+                added += 1
+        out.append(raw)
+    fp.write_text("\n".join(out) + "\n", encoding="utf-8")
+    return added
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--en-dump", default="data/translation/en")
+    ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
+    args = ap.parse_args()
+
+    scen = Path(args.scen)
+    slots_by_chunk = semantic_plate_slots(scen)
+    pool_sizes = speaker_pool_sizes(scen)
+
+    total = 0
+    for fp in sorted(Path(args.en_dump).glob("*/chunk_*.txt")):
+        chunk_idx = int(fp.stem.split("_")[1])
+        slots = slots_by_chunk.get(chunk_idx, {})
+        pool_size = pool_sizes.get(chunk_idx) or 0
+        if not slots or not pool_size:
+            continue
+        total += annotate_file(fp, slots, pool_size)
+    print(f"annotated {total} records with # spk: across {args.en_dump}")
+
+
+if __name__ == "__main__":
+    main()

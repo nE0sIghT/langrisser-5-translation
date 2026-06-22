@@ -11,39 +11,74 @@
 9	Grunt<$FFFF>
 10	Goldry<$FFFF>
 11	Lainforce's castle<$FFFF>
+# spk: Lainforce
 12	<$FB00><$0003>Now, your report. First, how<$FFFC>fares the tree？<$FFFE>
+# spk: Zero
 13	<$FB00><$0004>All goes well. It should flower<$FFFC>soon.<$FFFE>
+# spk: Lainforce
 14	<$FB00><$0005>Mm. And the ship？<$FFFE>
+# spk: Zero
 15	<$FB00><$0006>Matching the terrain is taking time,<$FFFC>but we've narrowed it down considerably.<$FFFE>
+# spk: Lainforce
 16	<$FB00><$0007>I see. That side fares well,<$FFFC>then. And the key specimen, is it<$FFFC>captured？<$FFFE>
+# spk: Zero
 17	<$FB00><$0008>Aizel is in pursuit as we speak, but<$FFFC>has yet to take them.<$FFFD><$FB00><$0009>Is this wise, Lord Lainforce？ However able<$FFFC>Aizel may be…<$FFFE>
+# spk: Lainforce
 18	<$FB00><$000A>No need to worry. The man has<$FFFC>earned my trust. Though against a<$FFFC>specimen, small wonder he struggles.<$FFFD><$FB00><$000B>I saw it with my own eyes. The specimens'<$FFFC>potential runs higher than expected.<$FFFD><$FB00><$000C>Heh, Gizarof. More than a mere schemer<$FFFC>after all. Impressive work.<$FFFD><$FB00><$000D>Which reminds me. How goes the study of<$FFFC>the recovered specimen？<$FFFE>
+# spk: Zero
 19	<$FB00><$000E>Sir. His state has stabilized. But<$FFFC>his ego is strong. The doctors can barely<$FFFC>handle him.<$FFFE>
+# spk: Lainforce
 20	<$FB00><$000F>Ego…the strength of will.<$FFFC>Interesting. I will see him later myself.<$FFFC>You carry on with the plan.<$FFFE>
+# spk: Zero
 21	<$FB00><$0010>By your will.<$FFFE>
 22	Outside the town of Knox<$FFFF>
+# spk: Grunt
 23	<$FB00><$0011>Processing complete.<$FFFE>
+# spk: Goldry
 24	<$FB00><$0012>You may pass. Next！<$FFFE>
+# spk: Clarett
 25	<$FB00><$0013>Honestly, how long must we<$FFFC>wait？<$FFFE>
+# spk: Alfred
 26	<$FB00><$0014>I have medicine to bring my<$FFFC>father. Please be quick.<$FFFE>
+# spk: Goldry
 27	<$FB00><$0015>If you want it quick, you'll<$FFFC>cooperate with us.<$FFFE>
+# spk: Clarett
 28	<$FB00><$0016>Here, the toll. 20 for the two<$FFFC>of us.<$FFFE>
+# spk: Goldry
 29	<$FB00><$0017>Not nearly enough<$FFF5><$FFF8>…<$FFFE>
+# spk: Clarett
 30	<$FB00><$0018>What！？ What do you mean？<$FFFE>
+# spk: Goldry
 31	<$FB00><$0019>You look too well-off for plain<$FFFC>adventurers. The toll for you is more like<$FFFC>100. For two, 200.<$FFFE>
+# spk: Alfred
 32	<$FB00><$001A>200？ That's ten times the usual！<$FFFE>
+# spk: Goldry
 33	<$FB00><$001B>Now, if the little lady pays with<$FFFC>her body, I might knock it down a bit？<$FFFE>
+# spk: Grunt
 34	<$FFF8>…<$FFF6><$FB00><$001C>There he goes again, the<$FFFC>captain's bad habit<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 35	<$FB00><$001D>You there！ Shut it！<$FFFE>
+# spk: Goldry
 36	<$FB00><$001E>Well？ What will it be？<$FFFE>
+# spk: Clarett
 37	<$FB00><$001F>D, don't insult me！ Why should I<$FFFC>pay with my body！<$FFFD><$FB00><$0020>Besides, you're no Federation troops！ What<$FFFC>are you doing in this town！<$FFFE>
+# spk: Goldry
 38	<$FB00><$0021>We of the Caconsis army came all<$FFFC>this way because Gizarof's revolt has the<$FFFC>Federation busy.<$FFFD><$FB00><$0022>War makes a land go wild, and town order<$FFFC>slips. So we keep the peace in this town<$FFFC>in their stead.<$FFFE>
+# spk: Clarett
 39	<$FB00><$0023>Seems to me you're the worst<$FFFC>threat to the peace here.<$FFFE>
+# spk: Goldry
 40	<$FB00><$0024>You little wench！ Who do you think<$FFFC>I am！ I am the great Goldry, a man of<$FFFC>renown in the Caconsis army！<$FFFE>
+# spk: Clarett
 41	<$FB00><$0025>Never heard of you！<$FFFE>
+# spk: Clarett
 42	<$FB00><$0026>Alfred, let's leave these clowns<$FFFC>be and hurry on.<$FFFE>
+# spk: Alfred
 43	<$FB00><$0027>Eh, er, um<$FFF5><$FFF8>…<$FFF6><$FB00><$0028>is that all right<$FFF5><$FFF8>…<$FFFE>
+# spk: Goldry
 44	<$FB00><$0029>Of course it's not！ Don't take us<$FFFC>lightly！<$FFFE>
+# spk: Clarett
 45	<$FB00><$002A>What！ You want a fight！<$FFFE>
+# spk: (no plate)
 46	<$0000>Having shaken Aizel's pursuit,<$FFFC><$F600><$0000> and Lambda reach Knox, a<$FFFC>town on the pass.<$FFFD><$0000>There they see a boy and girl harassed<$FFFC>by Goldry, captain of the Caconsis<$FFFC>garrison.<$FFFD><$0000>To save them, <$F600><$0000> and<$FFFC>Lambda square off against the Caconsis<$FFFC>troops.<$FFFE>
+# spk: (no plate)
 47	Victory terms<$FFFC><$0000><$FFFC>・Defeat Goldry<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

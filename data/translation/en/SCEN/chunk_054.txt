@@ -14,41 +14,77 @@
 12	Lainforce<$FFFF>
 13	Omega<$FFFF>
 14	McClaine<$FFFF>
+# spk: Sigma
 15	Federation Castle, Audience Hall<$FFFF>
+# spk: Rozenciel
 16	<$FB00><$0003>General Lanford, you have done<$FFFC>well ending Gizarof's rebellion.<$FFFE>
+# spk: Lanford
 17	<$FB00><$0004>I merely did my duty as a<$FFFC>Federation soldier.<$FFFD><$FB00><$0005>And we had help from Caconsis. This was<$FFFC>not my strength alone.<$FFFE>
+# spk: Rozenciel
 18	<$FB00><$0006>You need not be so modest.<$FFFE>
+# spk: Lanford
 19	<$FB00><$0007>Besides,<$FFF5><$FFF8>…<$FFF6><$FB00><$0008>I could not save<$FFFC>Prince Frederick.<$FFFE>
+# spk: Rozenciel
 20	<$FB00><$0009>Frederick's death grieves me.<$FFFC>But without you, the Federation would be<$FFFC>in far worse ruin.<$FFFD><$FB00><$000A>Therefore, I appoint you marshal of our<$FFFC>army.<$FFFE>
+# spk: Lanford
 21	<$FB00><$000B>Yes, Your Majesty. I humbly<$FFFC>accept.<$FFFE>
+# spk: Rozenciel
 22	<$FB00><$000C>And Emiliel, Lanford's aide,<$FFFC>shall take the rank of general.<$FFFE>
+# spk: Emily
 23	<$FB00><$000D>Yes！ I will devote myself to the<$FFFC>Federation.<$FFFE>
+# spk: Rozenciel
 24	<$FB00><$000E>Then, Lanford. Let everyone<$FFFC>hear your greeting as marshal.<$FFFE>
+# spk: Lanford
 25	<$FB00><$000F>Yes.<$FFFE>
+# spk: Lanford
 26	<$FB00><$0010>With Caconsis aid, we finally<$FFFC>defeated the traitor Gizarof.<$FFFD><$FB00><$0011>His wounds on the Federation run deep.<$FFFC>Recovery will take time.<$FFFD><$FB00><$0012>His men may yet rally. Stay alert, and<$FFFC>help me restore the Federation quickly.<$FFFE>
+# spk: Soldier
 27	<$FFF7><$FB00><$0013>Yes, sir！<$FFF5><$FFF8><$FFFE>
+# spk: Rozenciel
 28	<$FB00><$0014>The Federation will stay<$FFFC>unstable for now. Until things settle,<$FFFC>lend me your strength.<$FFFE>
+# spk: Lanford
 29	<$FB00><$0015>I, Lanford, will give all I have<$FFFC>to the Federation.<$FFFE>
+# spk: Rozenciel
 30	<$FB00><$0016>Then I am counting on you<$FFFC>both.<$FFFE>
+# spk: Lanford
 31	<$FB00><$0017><$FFF7>Yes, Your Majesty.<$FFF5><$FFF8><$FFFE>
 32	At Lainforce's Castle<$FFFF>
+# spk: Aizel
 33	<$FFFA><$FB00><$0018>Forgive me, Lord Lainforce. I<$FFFC>still have not captured them<$FFF5><$FFF8>…<$FFFE>
+# spk: Lainforce
 34	<$FB00><$0019>That matter is over. From now<$FFFC>on, he will recover the vessels.<$FFFE>
+# spk: Aizel
 35	<$FB00><$001A>He is the one from then？<$FFFE>
+# spk: Omega
 36	<$FB00><$001B>Omega. Howdy. Now that the formal<$FFFC>order is out, I'll get moving.<$FFFE>
+# spk: Aizel
 37	<$FB00><$001C>Lord Lainforce<$FFF5><$FFF8>…,<$FFF6><$FB00><$001D>am I relieved of<$FFFC>my duty？<$FFFE>
+# spk: Lainforce
 38	<$FB00><$001E>No. He can sense vessels like<$FFFC>him, even far away. He is better suited.<$FFFD><$FB00><$001F>Instead, I have another task. I can<$FFFC>entrust it only to you.<$FFFE>
+# spk: Aizel
 39	<$FB00><$0020>Yes, sir. Command me as you wish.<$FFFE>
 40	At El Sallia Port<$FFFF>
+# spk: Sigma
 41	<$FB00><$0021>So this is El Sallia.<$FFFE>
+# spk: McClaine
 42	<$FFFA><$FB00><$0022>Jessica's homeland.<$FFFE>
+# spk: Brenda
 43	<$FB00><$0023>So how do we find those two？<$FFFE>
+# spk: McClaine
 44	<$FB00><$0024>Instead of searching together,<$FFFC>why don't we split up？<$FFFE>
+# spk: Alfred
 45	<$FB00><$0025>That may make them easier to find.<$FFFE>
+# spk: McClaine
 46	<$FB00><$0026>Then it's settled. I'll check<$FFFC>Baldia, a place Jessica told me about.<$FFFD><$FB00><$0027>If you find her first, give her my<$FFFC>regards.<$FFFE>
+# spk: Lambda
 47	<$FB00><$0028>U-um<$FFF5><$FFF8>…<$FFFE>
+# spk: McClaine
 48	<$FFF8><$FB00><$0029>Hm？<$FFFE>
+# spk: Lambda
 49	<$FFF8>… <$FFF6><$FB00><$002B>Be…careful<$FFF5><$FFF8>…<$FFFE>
+# spk: McClaine
 50	<$FB00><$002C>Yeah. Marie, hurry and remember<$FFFC>me too. See you！<$FFFE>
+# spk: (no plate)
 51	<$0000>El Sallia. <$0000>In the gods' tongue, the<$FFFC>name means land filled with light. It is<$FFFC>Jessica's home, and Langrisser's home.<$FFFD><$0000>Pursuing Jessica and the swords stolen<$FFFC>by Gaiel, <$F600><$0000>'s group crossed<$FFFC>to El Sallia. <$0000>There they found Clarett<$FFFC>and Jessica surrounded by soldiers…<$FFFE>
+# spk: (no plate)
 52	Victory<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat<$FFFC>・Jessica or Clarett dies<$FFFC>・<$F600><$0000> dies<$FFFE>

@@ -10,120 +10,235 @@
 8	Monster<$FFFF>
 9	Town<$FFFF>
 10	Gaiel<$FFFF>
+# spk: Lambda
 11	・Defeat all enemies<$FFFE>
 12	・Jessica or Clarett dies<$FFFC>・All townsfolk die<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Fizzit Port, Caconsis<$FFFF>
+# spk: Clarett
 14	<$FB00><$0020>Um, Lady Jessica, I presume <$FFF5><$FFF8>…<$FFFE>
+# spk: Jessica
 15	<$FB00><$0021>Yes, that's me. And you are？<$FFFE>
+# spk: Clarett
 16	<$FB00><$0022>I'm Clarett of Kalxath. I came<$FFFC>from El Sallia in search of you.<$FFFE>
+# spk: Jessica
 17	<$FB00><$0023>Of Kalxath<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0024>What would you<$FFFC>want with me？<$FFFE>
+# spk: Clarett
 18	<$FB00><$0025>Well, you see<$FFF5><$FFF8>…<$FFFE>
+# spk: Monster
 19	<$FB00><$0026>GUOOO…！！<$FFFE>
+# spk: Town
 20	<$FB00><$0027>Kyaa！<$FFFE>
+# spk: Jessica
 21	<$FB00><$0028>What！？<$FFFE>
+# spk: Gaiel
 22	<$FB00><$0029>Heh heh heh！ Found you at last,<$FFFC>Alhazard！<$FFFE>
+# spk: Clarett
 23	<$FB00><$002A>Demons？ <$FFF5><$FFF8>…<$FFF6><$FB00><$002B>In a place like this！？<$FFFE>
+# spk: Gaiel
 24	<$FFF8>…<$FFF6><$FB00><$002C>Woman. Hand over Alhazard, nice<$FFFC>and quiet.<$FFFE>
+# spk: Jessica
 25	<$FB00><$002D>I cannot give you this sword！<$FFFE>
+# spk: Gaiel
 26	<$FB00><$002E>Think hard. One word from me and<$FFFC>they level this port.<$FFFD>Will you guard the sword and let everyone<$FFFC>die？<$FFFE>
+# spk: Jessica
 27	<$FFF8>…<$FB00><$002F>Kh！<$FFFE>
+# spk: Clarett
 28	<$FB00><$0030>Lady Jessica<$FFF5><$FFF8>…<$FFFE>
+# spk: Gaiel
 29	<$FB00><$0031>Well？ What will it be？<$FFFE>
+# spk: Jessica
 30	<$FB00><$0032>If I give you the sword, you'll<$FFFC>leave the people be？<$FFFE>
+# spk: Clarett
 31	<$FB00><$0033>You can't, Lady Jessica！？<$FFFE>
+# spk: Gaiel
 32	<$FB00><$0034>There we go. Now that's a wise<$FFFC>choice.<$FFFE>
+# spk: (no plate)
 33	Handed over Alhazard！<$FFFE>
+# spk: Gaiel
 34	<$FB00><$0035>I'll take that other sword too.<$FFFC>The Langrisser！<$FFFE>
+# spk: Jessica
 35	<$FFF8>…<$FFFE>
+# spk: (no plate)
 36	Handed over Langrisser！<$FFFE>
+# spk: Sigma
 37	<$FB00><$0037>So this is the port town of<$FFFC>Fizzit<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 38	<$FB00><$0038>Hold on, look over there！<$FFFE>
+# spk: Gaiel
 39	<$FB00><$0039>Böser may be dead, but with this<$FFFC>sword in hand, anything is possible.<$FFFE>
+# spk: Jessica
 40	<$FB00><$003A>You promised. Now leave this<$FFFC>place.<$FFFE>
+# spk: Gaiel
 41	<$FB00><$003B>True, I'll withdraw. Just me, that<$FFFC>is！<$FFFD><$FB00><$003C>You lot must be hungry？ Eat your fill！<$FFFE>
+# spk: Clarett
 42	<$FB00><$003D>You snake！ Breaking your<$FFFC>promise？<$FFFE>
+# spk: Gaiel
 43	<$FB00><$003E>Promise？ What promise？ You're<$FFFC>simply naive.<$FFFE>
+# spk: Alfred
 44	<$FB00><$003F>Ah, that girl is<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 45	<$FB00><$0040>Bad news. Looks like that sword<$FFFC>fell into the demon's hands<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 46	<$FB00><$0041>The demons have the sword！？ Our<$FFFC>key to the riddle<$FFF5><$FFF8>… <$FFF6><$FB00><$0042>After we came all this<$FFFC>way <$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 47	<$FB00><$0043>No time for that. Those demons<$FFFC>mean to attack the townsfolk.<$FFFE>
+# spk: Brenda
 48	<$FB00><$0044>So what's the plan？<$FFFE>
+# spk: Sigma
 49	<$FB00><$0045>Caconsis port or not, I won't<$FFFC>stand by while civilians are slaughtered.<$FFFD><$FB00><$0046>And if he carries the sword, we take it<$FFFC>from him here and now.<$FFFE>
+# spk: Brenda
 50	<$FB00><$0047>Now you're talking！<$FFFE>
+# spk: Sigma
 51	<$FB00><$004E>Hold on！ We're coming！<$FFFE>
+# spk: Lambda
 52	<$FB00><$004F>Help is coming.<$FFFE>
+# spk: Brenda
 53	<$FB00><$0050>Just hold on a bit longer！<$FFFE>
+# spk: Alfred
 54	<$FB00><$0051>Wait there, almost with you！<$FFFE>
+# spk: (no plate)
 55	Old armor in the left barrel. <$0000> Got the<$FFFC><$FFF4>Gaia Mail<$FFF3>！<$FFFE>
+# spk: (no plate)
 56	Fire glows in a barrel. <$0000> Got the <$FFF4>Flame<$FFFC>Orb<$FFF3>！<$FFFE>
+# spk: (no plate)
 57	A grim axe lies in the alley. <$0000> Got the<$FFFC><$FFF4>Devil Axe<$FFF3>！<$FFFE>
+# spk: Sigma
 58	<$FB00><$002C>Take this！<$FFFE>
+# spk: Sigma
 59	<$FB00><$002F>If only I had more strength…<$FFFE>
+# spk: Lambda
 60	<$FB00><$0034>Here I come<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 61	<$FB00><$003A>Kh… that one hurt…<$FFFE>
+# spk: Sigma
 62	<$FB00><$003B>Leave the rest to me！<$FFFE>
+# spk: Lambda
 63	<$FB00><$003C>I'm counting on you…<$FFFE>
+# spk: Alfred
 64	<$FB00><$0058>It really is you, Miss Clarett！<$FFFE>
+# spk: Clarett
 65	<$FB00><$0059>Oh my, it's been a while.<$FFFE>
+# spk: Alfred
 66	<$FB00><$005A>I need to talk to you. Once the<$FFFC>battle's over, you'll hear me out！<$FFFE>
+# spk: Clarett
 67	<$FB00><$005B>Eh？ <$FFF5><$FFF8><$FE78>…<$FE3C>…<$FE3C><$FFF6><$FB00><$005C>All right<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 68	<$FFF8>…<$FFF6><$FB00><$0052>She looks just like her<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 69	<$FB00><$0053>What's wrong, Alfred？<$FFFE>
+# spk: Alfred
 70	<$FB00><$0054>That girl, I think she's the one<$FFFC>who gave me the medicine <$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 71	<$FB00><$0055>The one who handed you the<$FFFC>poison？<$FFFE>
+# spk: Lambda
 72	<$FB00><$0056>Then go ask her.<$FFFE>
+# spk: Alfred
 73	<$FB00><$0057>R-right<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 74	<$FB00><$0075>I can fight too！<$FFFE>
+# spk: Sigma
 75	<$FB00><$0080>You all right, Alfred！<$FFFE>
+# spk: Alfred
 76	<$FB00><$0081>Sorry…the rest is up to you…<$FFFE>
+# spk: Sigma
 77	<$FB00><$0082>Yeah, leave it to us！<$FFFE>
+# spk: Brenda
 78	<$FB00><$0068>Come and get me！<$FFFE>
+# spk: Brenda
 79	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
+# spk: Sigma
 80	<$FB00><$006C>Brenda！ Are you all right！？<$FFFE>
+# spk: Brenda
 81	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
+# spk: Sigma
 82	<$FB00><$006E>Fall back, Brenda！ Don't push<$FFFC>it！<$FFFE>
+# spk: Brenda
 83	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
+# spk: Clarett
 84	<$FFF8>…<$FFF6><$FB00><$005D>It's him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FE3C>. <$FE32><$FFF6><$FB00><$005E>Why is he here,<$FFFC>of all places？<$FFFE>
+# spk: Clarett
 85	Now you'll see what happens when<$FFFC>you anger me！<$FFFE>
+# spk: Clarett
 86	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 87	<$FB00><$006B>And I'd finally found Lady<$FFFC>Jessica… Everyone…for…give…me…<$FFFE>
+# spk: Jessica
 88	<$FB00><$006C>Miss Clarett！<$FFFE>
+# spk: Clarett
 89	Dragging townsfolk into this,<$FFFC>now I'm mad！<$FFFE>
+# spk: Jessica
 90	<$FB00><$0069>Ah…and Langrisser still in<$FFFC>their hands…<$FFFE>
+# spk: Clarett
 91	<$FB00><$006A>Lady Jessica！ Stay with me, Lady<$FFFC>Jessica！<$FFFE>
+# spk: Town
 92	Kyaaa！！<$FFFE>
+# spk: Town
 93	<$FB00><$0064>I don't…want to…die…<$FFFE>
+# spk: Town
 94	<$FB00><$005F>Kyaaa！ …why…why…me…<$FFFE>
+# spk: Town
 95	H-heeelp～！<$FFFE>
+# spk: Town
 96	<$FB00><$0066>H-help me…<$FFFE>
+# spk: Town
 97	<$FB00><$0060>Uwah！ …wh…why…me…<$FFFE>
+# spk: Town
 98	Eek！<$FFFE>
+# spk: Town
 99	<$FB00><$0065>Ugh…it…hurts…<$FFFE>
+# spk: Town
 100	<$FB00><$005F>Kyaaa！ …why…why…me…<$FFFE>
+# spk: Gaiel
 101	<$FB00><$006D>Noisy pests！ I have no time to<$FFFC>play with you！<$FFFE>
+# spk: Monster
 102	BRWOOO！<$FFFE>
+# spk: Monster
 103	G…GOOO…<$FFFE>
+# spk: Monster
 104	WOOOON！<$FFFE>
+# spk: Monster
 105	Ugyaaah！<$FFFE>
+# spk: Monster
 106	…hu…humans…gghah！<$FFFE>
+# spk: Sigma
 107	No<$FFF8>… All the townsfolk, dead <$FFF8>…<$FFFE>
+# spk: Sigma
 108	<$FB00><$006E>That's the last of the monsters？<$FFFE>
+# spk: Lambda
 109	<$FB00><$006F>So it seems.<$FFFE>
+# spk: Town
 110	U-um…<$FFFE>
+# spk: Town
 111	Thank you. Thanks to you we weren't<$FFFC>monster food.<$FFFE>
+# spk: Sigma
 112	It was nothing worth thanking.<$FFFE>
+# spk: Town
 113	Not at all. Please, let me repay you<$FFFC>somehow.<$FFFE>
+# spk: (no plate)
 114	Got the Mirage Robe！<$FFFE>
+# spk: Sigma
 115	Thanks. I'll put it to good use.<$FFFE>
+# spk: Brenda
 116	<$FB00><$0070>Everyone all right over there？<$FFFE>
+# spk: Jessica
 117	<$FB00><$0071>Yes. We're saved, thanks to you.<$FFFE>
+# spk: Gaiel
 118	<$FB00><$0048>Hmph. With Alhazard mine, there's<$FFFC>no reason to linger.<$FFFE>
+# spk: Jessica
 119	<$FB00><$0049>Wait！<$FFFE>
+# spk: Gaiel
 120	<$FFF7><$FB00><$004A>Wah hah hah hah！<$FFF5><$FFF8><$FFFE>
+# spk: Sigma
 121	<$FB00><$004B>What？ He got away<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 122	<$FB00><$004C>But the other monsters are still<$FFFC>here.<$FFFE>
+# spk: Sigma
 123	<$FB00><$004D>Yeah. Saving the townsfolk comes<$FFFC>first！<$FFFE>
+# spk: Alfred
 124	<$FB00><$0061>Ah！ No<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 125	<$FB00><$0062>We have to hurry！<$FFFE>
+# spk: Sigma
 126	<$FB00><$0063>I know！<$FFFE>
+# spk: Sigma
 127	<$FB00><$0067>No！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We couldn't protect them <$FFF5><$FFF8>…<$FFFE><$FFFF>

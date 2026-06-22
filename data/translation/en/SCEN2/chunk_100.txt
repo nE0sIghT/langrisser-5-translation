@@ -12,19 +12,34 @@
 10	Guard<$FFFF>
 11	Russel<$FFFF>
 12	Salrath camp<$FFFF>
+# spk: Lenard
 13	<$FB00><$0092>The flyers are gone…<$FFFE>
+# spk: Eric
 14	<$FB00><$0093>Lord Lenard！<$FFFE>
+# spk: Lenard
 15	<$FB00><$0094>Lord Eric！ You came to aid us！？<$FFFE>
+# spk: Eric
 16	<$FB00><$0095>Details later<$FFF5><$FFF8>… <$FFF6><$FB00><$0096>Report first.<$FFFC>Princess Clarett's ancient ship beat the<$FFFC>Kalxath flyers.<$FFFE>
+# spk: Lenard
 17	<$FB00><$0097>I see. Now our movements will not<$FFFC>be exposed.<$FFFE>
+# spk: Eric
 18	<$FB00><$0098>They head for the thinly guarded<$FFFC>enemy HQ.<$FFFE>
+# spk: Lenard
 19	<$FB00><$0099>I am grateful.<$FFFE>
+# spk: Lenard
 20	<$FB00><$009A>Tell all troops！ The princess<$FFFC>will open our escape. Break the<$FFFC>encirclement then！<$FFFE>
+# spk: Soldier
 21	<$FFF7><$FB00><$009B>Yes sir！<$FFF5><$FFF8><$FFFE>
+# spk: Eric
 22	<$FB00><$009C>I return to the princess. Stay safe.<$FFFE>
 23	Federation Castle Gate<$FFFF>
+# spk: Guard
 24	<$FB00><$009D>Hm！ Who goes there！？<$FFFE>
+# spk: Russel
 25	<$FB00><$009E>Have you forgotten my face？<$FFFE>
+# spk: Guard
 26	<$FB00><$009F>Y-you are Lord Russel？ Welcome<$FFFC>back！<$FFFE>
+# spk: Russel
 27	<$FB00><$00A0>Yes. My father's suspicion is<$FFFC>finally cleared.<$FFFE>
+# spk: Guard
 28	<$FB00><$00A1>Please come inside！ I will<$FFFC>announce Lord Russel's return！<$FFFE><$FFFF>

@@ -9,249 +9,490 @@
 7	Omega<$FFFF>
 8	Soldier<$FFFF>
 9	Lainforce<$FFFF>
+# spk: Mariandel
 10	・Langrisser bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFE>
+# spk: Sigma
 11	・Langrisser is stolen and carried off north<$FFFC>・<$F600><$0000> dies<$FFFE>
 12	Transport Ship, Cargo Block<$FFFF>
+# spk: Omega
 13	<$FB00><$0022>Hey, hurry up and search！<$FFFE>
+# spk: Soldier
 14	<$FB00><$0023>Lord Omega. The interior does<$FFFC>not seem contaminated.<$FFFE>
+# spk: Omega
 15	<$FB00><$0024>Good. Then let's grab the goods<$FFFC>already.<$FFFE>
+# spk: Soldier
 16	<$FB00><$0025>But our mission was to recover<$FFFC>the specimens…<$FFFE>
+# spk: Omega
 17	<$FB00><$0026>Then recover the specimens<$FFFC>yourselves. The Crimzo Landers shot down<$FFFC>the cargo ship. If we leave Langrisser<$FFFC>here, it may be stolen.<$FFFE>
+# spk: Soldier
 18	<$FB00><$0027><$FFF7>Y, yes sir<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 19	<$FB00><$0028>We found it. No doubt, this is the<$FFFC>airship Virash mentioned.<$FFFE>
+# spk: Alfred
 20	<$FB00><$0029>Hard to believe the body stayed<$FFFC>intact.<$FFFE>
+# spk: Brenda
 21	<$FB00><$002A>This model separates engine and<$FFFC>cargo blocks. In emergencies, they detach.<$FFFC>That is why this section is sturdy.<$FFFE>
+# spk: Clarett
 22	<$FFF7><$FB00><$002B>Huh<$FFF5><$FFF8>… <$FFF6><$FB00><$002C>Virash is one thing, but<$FFFC>why do you know so much about ancient<$FFFC>weapons？<$FFFE>
+# spk: Mariandel
 23	<$FB00><$002D>I was wondering the same<$FFFC>thing. It is time you told us.<$FFFE>
+# spk: Brenda
 24	<$FB00><$002E>Well, that's<$FFF5><$FFF7>…<$FFFE>
+# spk: Sigma
 25	<$FB00><$002F>Hold it！ Looks like we have no<$FFFC>time for a leisurely chat.<$FFFE>
+# spk: Omega
 26	<$FB00><$0030>Hoho. So I run into them here.<$FFFC>This should be fun！<$FFFE>
+# spk: Brenda
 27	<$FB00><$0031>If they take the sword, we're in<$FFFC>trouble！<$FFFE>
+# spk: Sigma
 28	…Hey.<$FFFE>
+# spk: Alfred
 29	What is it, <$F600><$0000>？<$FFFE>
+# spk: Sigma
 30	We've been here before… haven't<$FFFC>we？<$FFFE>
+# spk: Brenda
 31	Huh？ What are you talking about？<$FFFE>
+# spk: Clarett
 32	Now that you mention it, I<$FFFC>remember this place too… Maybe I'm<$FFFC>imagining it？<$FFFE>
+# spk: Mariandel
 33	You are not imagining it. We<$FFFC>have Langrisser, after all.<$FFFE>
+# spk: Sigma
 34	…<$FFFD>You're right. Why is that？<$FFFE>
+# spk: Alfred
 35	Maybe because we used a cheat？<$FFFD>More importantly, we have a problem！ What<$FFFC>happens to this stage's victory terms？<$FFFE>
+# spk: Clarett
 36	We already have Langrisser, so<$FFFC>the victory terms are met！ Victory<$FFFC>without fighting！ Lucky us♪<$FFFE>
+# spk: Brenda
 37	I doubt they will allow that.<$FFFE>
+# spk: Clarett
 38	Then what do we do？<$FFFE>
+# spk: Mariandel
 39	We do this…<$FFFE>
 40	・Me○i○○ Sword bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFE>
 41	・Sword is stolen and carried off north<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: (no plate)
 42	<$FFF4>Victory terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Me○i○○ Sword bearer reaches south edge<$FFFC>・Defeat all enemies<$FFFE>
+# spk: Mariandel
 43	There. Good enough？<$FFFE>
+# spk: Sigma
 44	Right！ Let's do our best！<$FFFE>
+# spk: Soldier
 45	Looks like we can escape<$FFFC>safely…<$FFFE>
+# spk: Soldier
 46	That was an easy mission.<$FFFE>
+# spk: Soldier
 47	Mission complete！ Retreating！<$FFFE>
+# spk: Soldier
 48	Farewell！<$FFFE>
+# spk: Soldier
 49	All right, fall back！<$FFFE>
+# spk: Sigma
 50	<$FB00><$002F>If only I had more strength…<$FFFE>
+# spk: Mariandel
 51	Aah！<$FFFE>
+# spk: Sigma
 52	Marie！<$FFFE>
+# spk: Mariandel
 53	Take the sword！<$FFFE>
+# spk: (no plate)
 54	<$0000> Received Langrisser！<$FFFE>
+# spk: Sigma
 55	<$FB00><$0043>If we escape south with this, they<$FFFC>cannot follow！<$FFFE>
+# spk: (no plate)
 56	<$0000> Langrisser was stolen！<$FFFE>
+# spk: (location/crowd)
 57	Whew. Now if I escape with<$FFFC>this…<$FFFE>
+# spk: Sigma
 58	Damn！ Langrisser is in his hands！<$FFFE>
+# spk: Alfred
 59	Aah！<$FFFE>
+# spk: Sigma
 60	Alfred！<$FFFE>
+# spk: Alfred
 61	<$F600><$0000>… P, please take<$FFFC>the sword！<$FFFE>
+# spk: (no plate)
 62	<$0000> Received Langrisser！<$FFFE>
+# spk: Sigma
 63	<$FB00><$0043>If we escape south with this, they<$FFFC>cannot follow！<$FFFE>
+# spk: (no plate)
 64	<$0000> Langrisser was stolen！<$FFFE>
+# spk: (location/crowd)
 65	Whew. Now if I escape with<$FFFC>this…<$FFFE>
+# spk: Sigma
 66	Damn！ Langrisser is in his hands！<$FFFE>
+# spk: Brenda
 67	…Guh！ Not here…<$FFFE>
+# spk: Sigma
 68	Brenda！<$FFFE>
+# spk: Brenda
 69	…<$F600><$0000>… The sword is<$FFFC>yours！<$FFFE>
+# spk: (no plate)
 70	<$0000> Received Langrisser！<$FFFE>
+# spk: Sigma
 71	<$FB00><$0043>If we escape south with this, they<$FFFC>cannot follow！<$FFFE>
+# spk: (no plate)
 72	<$0000> Langrisser was stolen！<$FFFE>
+# spk: (location/crowd)
 73	Whew. Now if I escape with<$FFFC>this…<$FFFE>
+# spk: Sigma
 74	Damn！ Langrisser is in his hands！<$FFFE>
+# spk: Clarett
 75	Aaaaah！<$FFFE>
+# spk: Sigma
 76	Clarett！<$FFFE>
+# spk: Clarett
 77	Take the sword,<$FFFC><$F600><$0000>… Here！<$FFFE>
+# spk: (no plate)
 78	<$0000> Received Langrisser！<$FFFE>
+# spk: Sigma
 79	<$FB00><$0043>If we escape south with this, they<$FFFC>cannot follow！<$FFFE>
+# spk: (no plate)
 80	<$0000> Langrisser was stolen！<$FFFE>
+# spk: (location/crowd)
 81	Whew. Now if I escape with<$FFFC>this…<$FFFE>
+# spk: Sigma
 82	Damn！ Langrisser is in his hands！<$FFFE>
+# spk: Omega
 83	<$FB00><$0032>Listen up！ Recovery teams, if you<$FFFC>find Langrisser, bring it to me！ If it is<$FFFC>unrelated, hold the enemy back！<$FFFE>
+# spk: Soldier
 84	<$FB00><$0033>Sir！<$FFFE>
+# spk: Omega
 85	<$FB00><$0034>The rest of you stall them！ Got<$FFFC>it！<$FFFE>
+# spk: Soldier
 86	<$FB00><$0035>Yeah！<$FFFE>
+# spk: Omega
 87	What are you dawdling for？ Get<$FFFC>moving！<$FFFE>
+# spk: Omega
 88	Tch, useless lot. Guess I'll move<$FFFC>too！<$FFFE>
+# spk: Omega
 89	Tch, useless lot. Guess I'll move<$FFFC>too！<$FFFE>
+# spk: (location/crowd)
 90	Lord Omega, this！<$FFFE>
+# spk: Soldier
 91	N, no…<$FFFE>
+# spk: Soldier
 92	This doesn't seem to be the<$FFFC>room.<$FFFE>
+# spk: (location/crowd)
 93	Doesn't look like this room.<$FFFE>
+# spk: Soldier
 94	C, can't win…<$FFFE>
+# spk: Soldier
 95	There's a chest！<$FFFE>
+# spk: (location/crowd)
 96	A chest！<$FFFE>
+# spk: (location/crowd)
 97	<$FB00><$0036>Found it！<$FFFE>
+# spk: Soldier
 98	Not the target, but I will take<$FFFC>it.<$FFFE>
+# spk: (no plate)
 99	Item stolen！<$FFFE>
+# spk: Soldier
 100	Just a chest…<$FFFE>
+# spk: Soldier
 101	Uwoooh！<$FFFE>
+# spk: (no plate)
 102	<$0000> Got Sonic Band！<$FFFE>
+# spk: Soldier
 103	This doesn't seem to be the<$FFFC>room.<$FFFE>
+# spk: (location/crowd)
 104	Doesn't look like this room.<$FFFE>
+# spk: Soldier
 105	Th, the power gap is too large…<$FFFE>
+# spk: Soldier
 106	There's a chest！<$FFFE>
+# spk: (location/crowd)
 107	A chest！<$FFFE>
+# spk: Soldier
 108	Not the target, but I will take<$FFFC>it.<$FFFE>
+# spk: (no plate)
 109	Item stolen！<$FFFE>
+# spk: Soldier
 110	Just a chest…<$FFFE>
+# spk: Soldier
 111	N, no way… Is this all the<$FFFC>strength I have？<$FFFE>
+# spk: (no plate)
 112	<$0000> Got Runestone！<$FFFE>
+# spk: Soldier
 113	This doesn't seem to be the<$FFFC>room.<$FFFE>
+# spk: (location/crowd)
 114	Doesn't look like this room.<$FFFE>
+# spk: Soldier
 115	Grrr…<$FFFE>
+# spk: Soldier
 116	There's a chest！<$FFFE>
+# spk: (location/crowd)
 117	A chest！<$FFFE>
+# spk: (location/crowd)
 118	<$FB00><$0036>Found it！<$FFFE>
+# spk: Soldier
 119	Not the target, but I will take<$FFFC>it.<$FFFE>
+# spk: (no plate)
 120	Item stolen！<$FFFE>
+# spk: Soldier
 121	Just a chest…<$FFFE>
+# spk: Soldier
 122	What are they…？<$FFFE>
+# spk: (no plate)
 123	<$0000> Got Crown！<$FFFE>
+# spk: Soldier
 124	There's a chest！<$FFFE>
+# spk: (location/crowd)
 125	A chest！<$FFFE>
+# spk: (location/crowd)
 126	<$FB00><$0036>Found it！<$FFFE>
+# spk: Soldier
 127	Not the target, but I will take<$FFFC>it.<$FFFE>
+# spk: (no plate)
 128	Item stolen！<$FFFE>
+# spk: Soldier
 129	Just a chest…<$FFFE>
+# spk: Soldier
 130	Just a chest…<$FFFE>
+# spk: Soldier
 131	T, too strong…<$FFFE>
+# spk: (no plate)
 132	<$0000> Got Sonic Band！<$FFFE>
+# spk: (no plate)
 133	<$0000> Got Crown！<$FFFE>
+# spk: Soldier
 134	There's a chest！<$FFFE>
+# spk: (location/crowd)
 135	A chest！<$FFFE>
+# spk: Soldier
 136	This is not it, but we should<$FFFC>take it anyway.<$FFFE>
+# spk: (no plate)
 137	Item stolen！<$FFFE>
+# spk: Soldier
 138	Looks like just a chest…<$FFFE>
+# spk: Soldier
 139	No…<$FFFE>
+# spk: (no plate)
 140	<$0000> Got Tiara！<$FFFE>
+# spk: Soldier
 141	Lord Omega… forgive me…<$FFFE>
+# spk: Omega
 142	<$FB00><$0050>…Grrr… Why？ Why can I not win？<$FFFE>
+# spk: Sigma
 143	<$FB00><$0051>Omega…<$FFFE>
+# spk: Omega
 144	<$FB00><$0052>You and I were given the same…<$FFFC>no, I should have been modified even<$FFFC>better than you… So why can't I win…？<$FFFD><$FB00><$0053>…More power… I need more power…<$FFFE>
+# spk: Omega
 145	<$FB00><$0054>Listen up, you lot！ Bring me<$FFFC>Langrisser no matter what！<$FFFE>
+# spk: (location/crowd)
 146	<$FB00><$0055>Sir！<$FFFE>
+# spk: (location/crowd)
 147	Sir！<$FFFE>
+# spk: Omega
 148	<$FB00><$0056>…Grrr… Why…？<$FFFE>
+# spk: Sigma
 149	<$FB00><$0057>We will take this sword,<$FFFC>Langrisser.<$FFFE>
+# spk: Omega
 150	<$FB00><$0058>Langrisser should have brought my<$FFFC>power to its peak… So why can't I win…？<$FFFD><$FB00><$0059>Am I using Langrisser wrong…？<$FFFE>
+# spk: (location/crowd)
 151	<$FB00><$00A9>Good, now I just bring this<$FFFC>sword to Lord Omega！<$FFFE>
+# spk: Sigma
 152	<$FB00><$004A>Damn！ Langrisser was stolen…<$FFFE>
+# spk: (location/crowd)
 153	<$FB00><$0049>Good, now I just bring this<$FFFC>sword to Lord Omega！<$FFFE>
+# spk: Sigma
 154	<$FB00><$004A>Damn！ Langrisser was stolen…<$FFFE>
+# spk: Mariandel
 155	<$FB00><$004B>Whew.<$FFFE>
+# spk: Alfred
 156	<$FB00><$004C>If we get this far<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 157	<$FB00><$004D>This is as good as won.<$FFFE>
+# spk: Clarett
 158	<$FB00><$004E>They won't catch me now.<$FFFE>
+# spk: Sigma
 159	<$FB00><$004F>The sword is safe. No need to stay<$FFFC>here longer.<$FFFE>
+# spk: Sigma
 160	<$FB00><$005A>No enemies left, it seems.<$FFFE>
+# spk: Mariandel
 161	<$FB00><$005B>Now we can bring the sword<$FFFC>back safely.<$FFFE>
+# spk: (no plate)
 162	<$0000> Got Langrisser！<$FFFE>
+# spk: (no plate)
 163	<$0000> Got Messiah Sword！<$FFFE>
+# spk: Sigma
 164	So it wasn't Langrisser after<$FFFC>all…<$FFFE>
+# spk: Sigma
 165	All right！ Got it again！<$FFFE>
+# spk: Lainforce
 166	<$FB00><$005C>What is going on？ Has the<$FFFC>sacred sword not been recovered yet？<$FFFE>
+# spk: Sigma
 167	<$FB00><$005D>He is<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 168	<$FB00><$005E>Lain… force<$FFF5><$FFF8>…！<$FFFE>
+# spk: Omega
 169	<$FB00><$0037>You got it！ Bring it here at<$FFFC>once！<$FFFE>
+# spk: (location/crowd)
 170	Yes！<$FFFE>
+# spk: (location/crowd)
 171	<$FB00><$0038>Yes！<$FFFE>
+# spk: Brenda
 172	<$FB00><$0039>The enemy beat us to it！<$FFFE>
+# spk: Mariandel
 173	<$FB00><$003A>Take it before it reaches<$FFFC>Omega！<$FFFE>
+# spk: Sigma
 174	<$FB00><$003B>We'll take it before it reaches<$FFFC>Omega！<$FFFE>
+# spk: Omega
 175	<$FB00><$003C>Like hell！<$FFFE>
+# spk: (location/crowd)
 176	This… this one thing… Please<$FFFC>take it！ Lord Omega<$00E4><$00E5><$00E6>！<$FFFE>
+# spk: (no plate)
 177	<$0000> Langrisser reached Omega！<$FFFE>
+# spk: Omega
 178	Well done！ Leave the rest to me！<$FFFE>
+# spk: (location/crowd)
 179	O… Omega… sir…<$FFFE>
+# spk: Sigma
 180	Hm？ This is！<$FFFE>
+# spk: (no plate)
 181	<$0000> Got Langrisser！<$FFFE>
+# spk: (no plate)
 182	<$0000> Got Messiah Sword！<$FFFE>
+# spk: Sigma
 183	<$FB00><$0043>If we escape south with this, they<$FFFC>cannot follow！<$FFFE>
+# spk: (no plate)
 184	<$0000> <$0000><$0000><$0000><$FFF4>Sword stolen！<$FFF3><$FFFE>
+# spk: Omega
 185	<$FB00><$0045>So this is Langrisser！ …I feel<$FFFC>the power！<$FFFE>
+# spk: Sigma
 186	<$FB00><$0046>Damn！ Omega has Langrisser！<$FFFE>
+# spk: Omega
 187	Huh, so this is Langrisser… Looks<$FFFC>like a dull blade to me…<$FFFD>Well, whatever. Doryaaa！<$FFFE>
+# spk: Omega
 188	…Huh？ Nothing changed！？<$FFFD>Damn！ One more time！ Doryaaa！<$FFFE>
+# spk: Omega
 189	Why！？ Damn it！ Ooooooryaaaa！！<$FFFE>
 190	<$0000><$0000>15 minutes later<$0000><$0000><$FFFF>
+# spk: Omega
 191	…Huff, huff, huff…<$FFFE>
+# spk: Sigma
 192	…Still not done, Omega？<$FFFE>
+# spk: Omega
 193	One more！ Just let me try once<$FFFC>more！<$FFFE>
+# spk: Sigma
 194	Fine. This is the last one, all<$FFFC>right？<$FFFE>
+# spk: Omega
 195	S, sorry…<$FFFD>Here I go！ <$FFF4>Nwooooooryaaa！！！<$FFF3><$FFFE>
+# spk: Omega
 196	<$FFF7><$FB00><$0047>Hah hah hah<$00E4><$00E6>！<$FFF5><$FFF8> <$FFF6><$FB00><$0048>This is my<$FFFC>true power！ Come on！ We settle this<$FFFC>here！<$FFFE>
+# spk: Omega
 197	…Did it work！？<$FFFD>It worked…！<$FFFE>
+# spk: Omega
 198	Hahaha, it worked！！<$FFFC><$F600><$0000>, it worked！！<$FFFE>
+# spk: Sigma
 199	<$FFF8>…<$FFF7>Yeah, <$FFF6>good for you<$FFF8>…<$FFFE>
+# spk: Mariandel
 200	<$FFF8>…<$FFF7>Idiot<$FFF8>…<$FFFE>
+# spk: Omega
 201	<$FFF7>Nuhahahaha！ <$FFF6>Sorry for the wait！<$FFFC>Now, let's begin！<$FFFD>We settle this here！<$FFFE>
+# spk: Sigma
 202	<$FFFA><$FFF8>…<$FFF6>Whew<$FFF8>…<$FFFE>
+# spk: (location/crowd)
 203	But this feels kind of<$FFFC>strange…<$FFFE>
+# spk: (no plate)
 204	<$0000> Found Langrisser！<$FFFE>
+# spk: (no plate)
 205	<$0000> Found Messiah Sword！<$FFFE>
+# spk: Sigma
 206	<$FB00><$0041>Good, escape south！<$FFFE>
+# spk: Sigma
 207	There it is！ So this is<$FFFC>Langrisser！<$FFFE>
+# spk: (no plate)
 208	<$0000> Found Langrisser！<$FFFE>
+# spk: (no plate)
 209	<$0000> Got Messiah Sword！<$FFFE>
+# spk: Sigma
 210	So it was this one…<$FFFE>
 211	Do not be greedy.<$FFFF>
+# spk: Sigma
 212	Well, figures. We did use stage<$FFFC>select…<$FFFE>
+# spk: Sigma
 213	<$FB00><$0043>If we escape south with this, they<$FFFC>cannot follow！<$FFFE>
+# spk: Sigma
 214	Doesn't look like Langrisser. I<$FFFC>will take it anyway.<$FFFE>
+# spk: Mariandel
 215	This isn't it. We should take<$FFFC>it anyway.<$FFFE>
+# spk: Alfred
 216	This must be the wrong thing… Oh<$FFFC>well, I'll take it！<$FFFE>
+# spk: Brenda
 217	Looks wrong. Still, I will take<$FFFC>it.<$FFFE>
+# spk: Clarett
 218	A miss, huh？ But I'll take<$FFFC>this！<$FFFE>
+# spk: Omega
 219	<$FB00><$0044>Tch！ They beat us to it！<$FFFC>Everyone, focus attacks on that one！<$FFFE>
+# spk: Omega
 220	Tch！ Everyone, focus attacks on<$FFFC>that one！<$FFFE>
+# spk: Mariandel
 221	<$FB00><$003D>Found it！ This is Langrisser.<$FFFE>
+# spk: Alfred
 222	<$FB00><$003E>Found it！ This is Langrisser！<$FFFE>
+# spk: Brenda
 223	<$FB00><$003F>Found it！ This is Langrisser！<$FFFE>
+# spk: Clarett
 224	<$FB00><$0040>Found it！ This is Langrisser.<$FFFE>
+# spk: (no plate)
 225	<$0000> Got Sonic Band！<$FFFE>
+# spk: (no plate)
 226	<$0000> Got Runestone！<$FFFE>
+# spk: Mariandel
 227	<$FB00><$003D>Found it！ This is Langrisser.<$FFFE>
+# spk: Alfred
 228	<$FB00><$003E>Found it！ This is Langrisser！<$FFFE>
+# spk: Brenda
 229	<$FB00><$003F>Found it！ This is Langrisser！<$FFFE>
+# spk: Clarett
 230	<$FB00><$0040>Found it！ This is Langrisser.<$FFFE>
+# spk: (no plate)
 231	<$0000> Got Crown！<$FFFE>
+# spk: Mariandel
 232	<$FB00><$003D>Found it！ This is Langrisser.<$FFFE>
+# spk: Alfred
 233	<$FB00><$003E>Found it！ This is Langrisser！<$FFFE>
+# spk: Brenda
 234	<$FB00><$003F>Found it！ This is Langrisser！<$FFFE>
+# spk: Clarett
 235	<$FB00><$0040>Found it！ This is Langrisser.<$FFFE>
+# spk: (no plate)
 236	<$0000> Got Sonic Band！<$FFFE>
+# spk: (no plate)
 237	<$0000> Got Crown！<$FFFE>
+# spk: (no plate)
 238	<$0000> Got Tiara！<$FFFE>
+# spk: Sigma
 239	Empty！？ All that for nothing<$FFF8>…<$FFFE>
+# spk: Mariandel
 240	<$FFF8>… <$FFF6>Looks like nothing is here.<$FFFE>
+# spk: Alfred
 241	Huh？ Empty<$FFF8>…<$FFFE>
+# spk: Brenda
 242	It's empty！？ What a letdown！<$FFFE>
+# spk: Clarett
 243	Awful！ It's empty！<$FFFE>
+# spk: (location/crowd)
 244	Lord Omega. We found cargo,<$FFFC>but will now join the attack！<$FFFE>
+# spk: Omega
 245	What is inside？<$FFFE>
+# spk: (location/crowd)
 246	I am not certain, but it may<$FFFC>be valuable<$FFF8>…<$FFFE>
+# spk: Omega
 247	Tch！ If you break it, Zero will<$FFFC>nag me. Bring it to Lainforce instead！<$FFFE>
+# spk: (location/crowd)
 248	Sir. Understood.<$FFFE>
+# spk: (location/crowd)
 249	Lord Omega. We found cargo,<$FFFC>but will now join the attack！<$FFFE>
+# spk: Omega
 250	No longer needed. It will only get<$FFFC>in the way.<$FFFD>Bring it to Lainforce instead.<$FFFE>
+# spk: (location/crowd)
 251	Sir. Understood.<$FFFE>
+# spk: (location/crowd)
 252	We found cargo<$FFF8>… <$FFF6>It may be<$FFFC>important. I will bring it to Lord<$FFFC>Lainforce.<$FFFE>
+# spk: (location/crowd)
 253	Cargo found. I will send it to<$FFFC>Lord Lainforce now.<$FFFE>
+# spk: (location/crowd)
 254	Go already.<$FFFE>
+# spk: (location/crowd)
 255	For now, I will deliver it to<$FFFC>Lord Lainforce.<$FFFE><$FFFF>

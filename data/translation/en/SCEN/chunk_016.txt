@@ -10,149 +10,287 @@
 8	Officer<$FFFF>
 9	Girl<$FFFF>
 10	Quaid<$FFFF>
+# spk: (location/crowd)
 11	・Defeat all enemies<$FFFE>
+# spk: Sigma
 12	・Hostage teleported<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Dares Fort<$FFFF>
+# spk: Commander
 14	<$FB00><$0029>Everyone, listen carefully！<$FFFC>According to information just received,<$FFFC>the rebels are heading here.<$FFFE>
+# spk: Officer
 15	<$FB00><$002A>Is their target this girl？<$FFFE>
+# spk: Girl
 16	<$FFF8>…<$FFFE>
+# spk: Commander
 17	<$FB00><$002B>Most likely. But stay calm.<$FFFD>If need be, we can use the Teleport Ring<$FFFC>His Majesty Gilmore gave us to transfer<$FFFC>the girl away.<$FFFE>
+# spk: Girl
 18	<$FFF7><$FB00><$002C>Ah<$FFF5><$FFF8>…<$FFFE>
+# spk: Commander
 19	<$FB00><$002D>If we beat the rebels,<$FFFC>promotion is ours.<$FFFE>
+# spk: Officer
 20	<$FB00><$002E>Understood. We will defeat the<$FFFC>rebels ourselves！<$FFFE>
+# spk: Brenda
 21	<$FB00><$002F>Here it is. His daughter is held<$FFFC>in this fort.<$FFFE>
+# spk: Clarett
 22	<$FB00><$0030>Rescue her, and the archbishop<$FFFC>will help.<$FFFE>
+# spk: Sigma
 23	<$FB00><$0031>Listen.<$FFFD><$FB00><$0032>We do not know how they will react when<$FFFC>they see us.<$FFFD>For the hostage, one unit circle behind<$FFFC>the fort.<$FFFE>
+# spk: Alfred
 24	<$FB00><$0033>Only one unit？<$FFFE>
+# spk: Sigma
 25	<$FB00><$0034>Yes. Go around to that point.<$FFFE>
 26	<$0000>Flanking unit arrival point<$0000><$FFFF>
+# spk: Sigma
 27	<$FB00><$0035>The rest hit the front. While we<$FFFC>draw them, the flanker guards her.<$FFFD>Agreed？<$FFFE>
+# spk: Brenda
 28	<$FB00><$0036>Hmm, not bad.<$FFFE>
+# spk: Lambda
 29	<$FB00><$0037>I think it is good.<$FFFE>
+# spk: Clarett
 30	<$FB00><$0038>So who goes around？<$FFFE>
+# spk: Sigma
 31	<$FB00><$0039>Let's see<$FFF5><$FFF8>…<$FFFE>
 32	・Lambda<$FFFE>
 33	・Alfred<$FFFE>
 34	・Brenda<$FFFE>
 35	・Clarett<$FFFE>
+# spk: Sigma
 36	<$FB00><$003A>Lambda, I am counting on you.<$FFFE>
+# spk: Lambda
 37	<$FB00><$003B>Understood.<$FFFE>
+# spk: Sigma
 38	<$FB00><$003C>Alfred, I am counting on you.<$FFFE>
+# spk: Alfred
 39	<$FB00><$003D>I will try！<$FFFE>
+# spk: Sigma
 40	<$FB00><$003E>Brenda, will you go？<$FFFE>
+# spk: Brenda
 41	<$FB00><$003F>Leave it to me！<$FFFE>
+# spk: Sigma
 42	<$FB00><$0040>I want Clarett to do it.<$FFFE>
+# spk: Clarett
 43	<$FB00><$0041>Leave it to me！<$FFFE>
+# spk: Sigma
 44	<$FB00><$0042>Begin！ Draw them here until the<$FFFC>flanker arrives！<$FFFE>
+# spk: Officer
 45	<$FB00><$0043>Enemy sighted！ They have<$FFFC>appeared！<$FFFE>
+# spk: Commander
 46	<$FB00><$0044>Good, first watch their move.<$FFFC>Do not rush！<$FFFE>
+# spk: Sigma
 47	<$FB00><$0053>Wait, I will save you！<$FFFE>
+# spk: Lambda
 48	<$FB00><$0054>Hold on a little longer.<$FFFE>
+# spk: Alfred
 49	<$FB00><$0055>Please wait, I will save you！<$FFFE>
+# spk: Brenda
 50	<$FB00><$0056>Do not worry, I will save you！<$FFFE>
+# spk: Clarett
 51	<$FB00><$0057>Wait, I will save you now！<$FFFE>
+# spk: Commander
 52	Almost there. Soon we will<$FFFC>make fools of them！<$FFFE>
+# spk: Girl
 53	No！ Stay away！<$FFFE>
+# spk: Sigma
 54	Time is short. Hurry！<$FFFE>
+# spk: Commander
 55	<$FB00><$0060>Heh heh！ Even if we die, you<$FFFC>still lose without her！<$FFFE>
+# spk: Girl
 56	<$FB00><$0061>N-no, stop！<$FFFE>
+# spk: Commander
 57	<$FB00><$0062>Be quiet and be teleported！<$FFFE>
+# spk: Girl
 58	<$FFF7><$FB00><$0063>Aah<$00E4><$00E5><$00E6>！<$FFFE>
+# spk: Sigma
 59	<$FB00><$0064>Damn！ Brenda's lead <$FFF5><$FFF8>…<$FFFE>
+# spk: Commander
 60	<$FB00><$0065>Wah ha ha！ Now Estor will not<$FFFC>help you！ Wah ha ha！<$FFFE>
+# spk: (no plate)
 61	Tablet says:<$FFFD><$0000> Left, then right Step on both<$FFFE>
+# spk: (no plate)
 62	A sound came from the right.<$FFFE>
+# spk: (no plate)
 63	A small bow appeared.<$FFFD><$0000> Obtained <$FFF4>Hadding<$FFF3>！<$FFFE>
+# spk: Sigma
 64	Draw them until Lambda circles<$FFFC>around！<$FFFE>
+# spk: Sigma
 65	Draw them until Alfred circles<$FFFC>around！<$FFFE>
+# spk: Sigma
 66	Draw them until Brenda circles<$FFFC>around！<$FFFE>
+# spk: Sigma
 67	Draw them until Clarett circles<$FFFC>around！<$FFFE>
+# spk: Sigma
 68	<$FB00><$002F>If only I had more strength…<$FFFE>
+# spk: Lambda
 69	<$FB00><$003D>Ugh…not…yet…<$FFFE>
+# spk: Sigma
 70	<$FB00><$003E>Don't overdo it, Lambda！ Fall<$FFFC>back！<$FFFE>
+# spk: Lambda
 71	<$FB00><$003F>…All right…<$FFFE>
+# spk: Alfred
 72	<$FB00><$0078>Am I not good enough…<$FFFE>
+# spk: Sigma
 73	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
+# spk: Alfred
 74	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
+# spk: Brenda
 75	<$FB00><$006B>Gh…sloppy of me…<$FFFE>
+# spk: Sigma
 76	<$FB00><$006C>Brenda！ Are you okay！？<$FFFE>
+# spk: Brenda
 77	<$FB00><$006D>I'm fine…I can still fight…<$FFFE>
+# spk: Sigma
 78	<$FB00><$006E>Fall back, Brenda！<$FFFE>
+# spk: Brenda
 79	<$FB00><$006F>…Fine. I must not slow you down…<$FFFE>
+# spk: Clarett
 80	<$FB00><$005C>Ow！ You dare！<$FFFE>
+# spk: Sigma
 81	<$FB00><$005D>Clarett！ Don't push yourself！<$FFFE>
+# spk: Clarett
 82	<$FB00><$005E>B-but…<$FFFE>
+# spk: Sigma
 83	<$FB00><$005F>Just fall back！<$FFFE>
+# spk: Clarett
 84	<$FB00><$0060>Sorry, at a time like this…<$FFFE>
+# spk: Girl
 85	<$FB00><$0061>N-no, stop！<$FFFE>
+# spk: Girl
 86	<$FFF7><$FB00><$0063>Aah<$00E4><$00E5><$00E6>！<$FFFE>
+# spk: Sigma
 87	<$FB00><$0067>Damn！ <$FFF5><$FFF8>…<$FFF6><$FB00><$0068>We failed to protect her<$FFF5><$FFF8>…<$FFFE>
+# spk: Officer
 88	That is all？ No effect！ <$FFFB>…No<$FFFC>effect…wait… <$FFFB>Uwoooah！<$FFFE>
+# spk: Officer
 89	…My promotion…<$FFFE>
+# spk: Officer
 90	I wanted glory… for mother…<$FFFE>
+# spk: Officer
 91	…Well done…<$FFFE>
+# spk: Officer
 92	My sword can't pierce them…<$FFFE>
+# spk: Commander
 93	<$FB00><$0058>I-impossible… to die here…<$FFFE>
+# spk: Sigma
 94	<$FB00><$0059>Now she cannot be teleported.<$FFFE>
+# spk: (location/crowd)
 95	C-Commander！<$FFFD>Damn… at least I take the girl with us！<$FFFE>
+# spk: (no plate)
 96	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
 97	・Hostage dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: (location/crowd)
 98	But if you do not beat us, it<$FFFC>is the same！<$FFFE>
+# spk: Officer
 99	Lord Quaid… they are strong…<$FFFE>
+# spk: Officer
 100	Gwaaah！ I cannot stop bleeding…<$FFFE>
+# spk: Quaid
 101	<$FB00><$0066>Why can't I beat you！？ …Grr！<$FFFC>Next time！<$FFFE>
+# spk: Sigma
 102	<$FFF8>…<$FFF6><$FB00><$0067>It is over.<$FFFE>
+# spk: Lambda
 103	<$FB00><$0068>The hostage is safe.<$FFFE>
+# spk: Alfred
 104	<$FB00><$0069>The archbishop's daughter is<$FFFC>safe！<$FFFE>
+# spk: Brenda
 105	<$FB00><$006A>She is safe too.<$FFFE>
+# spk: Clarett
 106	<$FB00><$006B>I am glad the hostage is safe.<$FFFE>
+# spk: (no plate)
 107	<$0000> <$0000>Unlocked the cell door！<$FFFE>
+# spk: Girl
 108	<$FB00><$006C>Thank you. Because of me, my<$FFFC>father<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 109	<$FB00><$006D>Yes, but it is all right now.<$FFFE>
+# spk: Clarett
 110	<$FB00><$006E>Now tell the archbishop she is<$FFFC>safe！<$FFFE>
+# spk: Girl
 111	<$FB00><$006F>Um<$FFF5><$FFF8>…<$FFF6><$FB00><$0070>Can I help？ I heard you want to<$FFFC>change this country.<$FFFD><$FB00><$0071>I cannot fight, but I want to do what I<$FFFC>can.<$FFFE>
+# spk: Clarett
 112	<$FB00><$0072>Then can you heal the wounded？<$FFFE>
+# spk: Girl
 113	<$FB00><$0073>Then I will treat them with Estor's<$FFFC>priests.<$FFFE>
+# spk: Clarett
 114	<$FB00><$0074>That would help.<$FFFE>
+# spk: Sigma
 115	<$FB00><$0075>Good, return to Estor for now！<$FFFE>
+# spk: Commander
 116	<$FB00><$0045>Four units in all. No need to<$FFFC>teleport her. Crush them！<$FFFE>
+# spk: Officer
 117	<$FB00><$0046>Yes sir！<$FFFE>
+# spk: Commander
 118	<$FB00><$0047>All units, begin！<$FFFE>
+# spk: Lambda
 119	<$FB00><$0048>Looks like I made it around.<$FFFE>
+# spk: Alfred
 120	<$FB00><$0049>Whew, finally here.<$FFFE>
+# spk: Brenda
 121	<$FB00><$004A>Looks like I circled around<$FFFC>unseen.<$FFFE>
+# spk: Clarett
 122	<$FB00><$004B>Are they drawing the enemy？<$FFFE>
+# spk: Commander
 123	<$FB00><$004C>Decoys？ They mean to save the<$FFFC>girl！？<$FFFE>
+# spk: Girl
 124	<$FB00><$004D>Please, hurry and save me！<$FFFE>
+# spk: Commander
 125	<$FB00><$004E>You, block the northeast！ Keep<$FFFC>them from the hostage！<$FFFE>
+# spk: (location/crowd)
 126	<$FFF7><$FB00><$004F>Yes sir！<$FFF5><$FFF8><$FFFE>
+# spk: Officer
 127	<$FB00><$0039>Y-yes！<$FFFE>
+# spk: Commander
 128	<$FB00><$0050>I will teleport the hostage！<$FFFE>
+# spk: Girl
 129	<$FB00><$0051>No<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 130	<$FB00><$0052>Do not let that commander reach<$FFFC>her！ Defeat him first！<$FFFE>
+# spk: Quaid
 131	<$FB00><$005A>Hmmm！？ What is this<$FFF5><$FFF8>…？<$FFFE>
+# spk: Sigma
 132	<$FB00><$005B>That is<$FFF5><$FFF8>…！<$FFFE>
+# spk: Clarett
 133	<$FB00><$005C>Marquis Quaid！<$FFFE>
+# spk: Commander
 134	<$FB00><$005D>Lord Quaid！<$FFFE>
+# spk: Brenda
 135	<$FB00><$005E>Back for another beating？<$FFFE>
+# spk: Quaid
 136	<$FB00><$005F>I will not let you run wild in my<$FFFC>territory！<$FFFE>
+# spk: Commander
 137	They will catch us！ They got<$FFFC>us good…<$FFFE>
+# spk: (location/crowd)
 138	Commander！ If she will be<$FFFC>rescued anyway, then…<$FFFE>
+# spk: Commander
 139	Right！ Then wound them at<$FFFC>least！<$FFFD>Fine, kill the hostage if you must！<$FFFE>
+# spk: Officer
 140	Yes sir！<$FFFE>
+# spk: Officer
 141	Leave it to us！<$FFFE>
+# spk: (no plate)
 142	<$FFF4>Defeat terms changed！<$FFF3><$FFFC><$0000><$FFFC>・Hostage teleported or killed<$FFFC>・<$F600><$0000> dies<$FFFE>
 143	・Hostage teleported or killed<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Sigma
 144	I won't let you！<$FFFE>
+# spk: Lambda
 145	<$FFF8>… <$FFF6>Looks like it was already over.<$FFFE>
+# spk: Sigma
 146	Sorry, it ended already. The enemy<$FFFC>barely resisted.<$FFFE>
+# spk: Lambda
 147	If it worked, that is best.<$FFFE>
+# spk: Alfred
 148	Huh？ Maybe my turn is<$FFF8>…？<$FFFE>
+# spk: Sigma
 149	Sorry, it ended already. The enemy<$FFFC>barely resisted.<$FFFE>
+# spk: Alfred
 150	I see. Glad it went well.<$FFFE>
+# spk: Brenda
 151	！？<$FFFD>What？ No turn for me？<$FFFE>
+# spk: Sigma
 152	Sorry, it ended already. The enemy<$FFFC>barely resisted.<$FFFE>
+# spk: Brenda
 153	Do not worry. The rescue worked,<$FFFC>that is enough.<$FFFE>
+# spk: Clarett
 154	Wait！ I will save you！ <$FE32>…<$FE14>…<$FE14>…<$FFFC><$FE14>huh？<$FFFE>
+# spk: Sigma
 155	Sorry, it ended already. The enemy<$FFFC>barely resisted.<$FFFE>
+# spk: Clarett
 156	Oh well. The hostage is safe, so<$FFFC>that is good, right？<$FFFE>

@@ -7,21 +7,39 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	On the highway<$FFFF>
+# spk: Alfred
 8	<$FB00><$0003>Now we follow this road home. Ahh,<$FFFC>I can't wait to be back.<$FFFE>
+# spk: Sigma
 9	<$FB00><$0004>You're in high spirits, Alfred.<$FFFE>
+# spk: Alfred
 10	<$FB00><$0005>Of course！ We've got the cure for<$FFFC>my father's fever. Now he'll be his old<$FFFC>self again.<$FFFD><$FB00><$0006>Once father's well, the three of us can go<$FFFC>hunting again with my brother.<$FFFE>
+# spk: Lambda
 11	<$FB00><$0007>You look truly happy.<$FFFE>
+# spk: Alfred
 12	<$FB00><$0008>Mother died when I was small, so<$FFFC>it's just father, my brother and me. But<$FFFC>father cares for us all the more for it.<$FFFD><$FB00><$0009>And since father fell ill, my brother<$FFFC>works in his place<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$000A>Family really is something, right？ Don't<$FFFC>you think？<$FFFE>
+# spk: Lambda
 13	<$FFF8>…<$FFFE>
+# spk: Sigma
 14	<$FB00><$000B>Ah, yeah…I suppose<$FFF5><$FFF8>… <$FFF6><$FB00><$000C>I suppose it<$FFFC>must be<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 15	<$FB00><$000D>Ahh, I want to be home already！<$FFFC>Come on, let's hurry！<$FFFE>
+# spk: Sigma
 16	<$FFF7><$FB00><$000E>R, right<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 17	<$FFFA><$FB00><$000F>Whew<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 18	<$FB00><$0010>We are made beings. Made to serve<$FFFC>as the master's hands, with no ties of<$FFFC>blood to anyone.<$FFFD><$FFF8>…<$FFF6><$FB00><$0011>Do you envy him？<$FFFE>
+# spk: Sigma
 19	<$FFF8>…<$FFF6><$FB00><$0012>I don't really know.<$FFFE>
+# spk: Sigma
 20	<$FB00><$0013>But blood ties or not, we aren't<$FFFC>alone. Right, Lambda？<$FFFE>
+# spk: Lambda
 21	<$FFF8><$FFFA>…<$FFFD><$FFF9><$FFF6><$FB00><$0014>True. At the least, we are not lonely.<$FFFE>
+# spk: Sigma
 22	<$FB00><$0015>So we'll be fine. Let's hurry on.<$FFFE>
+# spk: Lambda
 23	<$FFF7><$FB00><$0016>Yes.<$FFF5><$FFF8><$FFFE>
+# spk: (no plate)
 24	<$0000>With Admiral Wiler beaten and Knox<$FFFC>behind them, <$F600><$0000>'s band<$FFFC>hurries on toward Gizarof.<$FFFD><$0000>But in a ruined village on the way,<$FFFC>Lainforce's man Aizel lies in ambush.<$FFFC><$0000>And Goldry, cast out of the Caconsis<$FFFC>army, closes in on them too.<$FFFE>
+# spk: (no plate)
 25	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

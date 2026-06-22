@@ -7,42 +7,81 @@
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
 7	Landius<$FFFF>
+# spk: Mariandel
 8	After the Battle<$FFFF>
+# spk: Alfred
 9	<$FB00><$0086>Are you all right, Lanford？<$FFFE>
+# spk: Lanford
 10	<$FB00><$0087>Thanks to you, I'm saved.<$FFFE>
+# spk: Landius
 11	<$FB00><$0088>Lanford. And these people？<$FFFE>
+# spk: Lanford
 12	<$FB00><$0089>Ah, this is Alfred. The son of<$FFFC>my father's dear friend.<$FFFE>
+# spk: Alfred
 13	<$FB00><$008A>A pleasure. I'm Alfred.<$FFFE>
+# spk: Landius
 14	<$FB00><$008B>Landius, well met. I serve now<$FFFC>as envoy of the Caconsis Kingdom.<$FFFE>
+# spk: Mariandel
 15	<$FB00><$008C>Landius of the Caconsis<$FFFC>Kingdom<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE28> <$FFF6><$FB00><$008D>Could you be the one my<$FFFC>brother mentioned<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Landius
 16	<$FB00><$008E>Your brother？<$FFFE>
+# spk: Brenda
 17	<$FB00><$008F>Now that you mention it, you said<$FFFC>your brother fought in Caconsis.<$FFFE>
+# spk: Alfred
 18	<$FB00><$0090>A man named McClaine. Do you know<$FFFC>him？<$FFFE>
+# spk: Lanford
 19	<$FB00><$0091>Know him？ He fought at our side<$FFFC>as a comrade.<$FFFE>
+# spk: Landius
 20	<$FB00><$0092>McClaine's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I see,<$FFFC>so you're Marie. I'm glad you're safe.<$FFFC>Have you met McClaine yet？<$FFFE>
+# spk: Mariandel
 21	<$FB00><$0094>Yes. He's on the El Sallia<$FFFC>continent now, but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Landius
 22	<$FB00><$0095>El Sallia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0096>Ah, he went<$FFFC>after Jessica<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Lanford
 23	<$FB00><$0097>In any case, his kin is safe.<$FFFC>He'll be glad of it.<$FFFE>
+# spk: Sigma
 24	<$FB00><$0098>Speaking of kin, Alfred's and<$FFFC>yours<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Alfred
 25	<$FB00><$0099>Yes. Lanford, there's something I<$FFFC>must tell you.<$FFFE>
+# spk: Lanford
 26	<$FB00><$009A>What is it, Alfred？<$FFFE>
+# spk: Alfred
 27	<$FB00><$009B>Listen well. The Three-Country<$FFFC>Alliance now throwing the Federation into<$FFFC>chaos has someone pulling the strings<$FFFC>behind it.<$FFFE>
+# spk: Landius
 28	<$FB00><$009C>Behind it？<$FFFE>
+# spk: Sigma
 29	<$FB00><$009D>This is no mere civil war. It<$FFFC>concerns Yeless… no, the whole world.<$FFFE>
+# spk: Lanford
 30	<$FB00><$009E>Tell me everything.<$FFFE>
+# spk: Lanford
 31	<$FFFA><$FB00><$009F>The red moon Crimzo, and<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Sigma
 32	<$FB00><$00A0>We want to thwart his ambition and<$FFFC>protect this world. That's why we aid her<$FFFC>and Alfred.<$FFFE>
+# spk: Brenda
 33	<$FB00><$00A1>By rights we Crimzo Landers<$FFFC>should handle it ourselves, but we can't<$FFFC>keep up the brave front forever.<$FFFE>
+# spk: Lanford
 34	<$FB00><$00A2>Understood. Forgive me, Landius.<$FFFC>From here I will act with these people.<$FFFD><$FB00><$00A3>With Crimzonia's ambition using my<$FFFC>father, I cannot stand by and watch.<$FFFE>
+# spk: Landius
 35	<$FB00><$00A4>I thought you'd say that,<$FFFC>Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll return to<$FFFC>Caconsis once and report the situation to<$FFFC>the admiral.<$FFFE>
+# spk: Lanford
 36	<$FFFA><$FB00><$00A6>And as for Emily<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: Sigma
 37	<$FB00><$00A7>I know. I'll find a way to reach<$FFFC>your sister myself.<$FFFE>
+# spk: Lanford
 38	<$FB00><$00A8>I'm sorry. I'm counting on you.<$FFFE>
+# spk: Landius
 39	<$FB00><$00A9>Take care, then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+# spk: (no plate)
 40	<$0000> Lanford joined the party！<$FFFE>
+# spk: Sigma
 41	<$FB00><$00AA>It seems you've come to an accord.<$FFFE>
+# spk: Alfred
 42	<$FB00><$00AB>Let's hurry！<$FFFE>
+# spk: Clarett
 43	<$FB00><$00AC>So, which one first？<$FFFE>
+# spk: Lanford
 44	<$FB00><$00AD>Alfred's domain is nearer than<$FFFC>mine.<$FFFE>
+# spk: Clarett
 45	<$FB00><$00AE>Then we start from Alfred's<$FFFC>side？<$FFFE>
+# spk: Sigma
 46	<$FB00><$00AF>Right, let's go！<$FFFE>

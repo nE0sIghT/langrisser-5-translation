@@ -6,5 +6,7 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
+# spk: (no plate)
 7	<$0000>The party heads for the spot marked on<$FFFC>the map Alfred found. Is there really<$FFFC>treasure waiting there…<$FFFE>
+# spk: (no plate)
 8	Victory<$FFFC><$0000><$FFFC>・Wipe out the impostors<$FFFD>Defeat<$FFFC><$0000><$FFFC>・All 3 heroines lured off by impostors<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

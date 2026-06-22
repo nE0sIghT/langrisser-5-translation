@@ -12,131 +12,256 @@
 10	Bulk<$FFFF>
 11	Device<$FFFF>
 12	Monster<$FFFF>
+# spk: Clarett
 13	・Defeat Grove<$FFFC>・Activate the weather device and reach turn 20<$FFFE>
+# spk: Sigma
 14	・Reach turn 20 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Mariandel
 15	Ancient Ruin, Weather Control<$FFFC>Facility<$FFFF>
+# spk: Sigma
 16	<$FB00><$000E>So this is the weather-control<$FFFC>ruin Virash spoke of.<$FFFE>
+# spk: Engineer
 17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$0010>Ah, atop that pedestal.<$FFFE>
+# spk: Brenda
 18	<$FB00><$0011>Then let's have him work the<$FFFC>device right away.<$FFFE>
+# spk: Grove
 19	<$FB00><$0012>I won't let you！<$FFFE>
+# spk: Sigma
 20	<$FB00><$0013>Grove！？<$FFFE>
+# spk: Clarett
 21	<$FB00><$0014>Just in time. I'll take my<$FFFC>revenge here！<$FFFE>
+# spk: Grove
 22	<$FB00><$0015>Don't take me lightly. And I've<$FFFC>found a special corpse just for you.<$FFFE>
+# spk: Rockwell
 23	<$FB00><$0016>…U… uu….<$FFFE>
+# spk: Bulk
 24	<$FB00><$0017>…O… ohh….<$FFFE>
+# spk: Alfred
 25	<$FB00><$0018>F, father<$FFF5><$FFF8>…！<$FFFE>
+# spk: Lanford
 26	<$FB00><$0019>Bulk！<$FFF5><$FFF8> …<$FFF6><$FB00><$001A>You！<$FFFE>
+# spk: Grove
 27	<$FFF8><$FB00><$001B>Ihihihi！<$FFF5> <$FFF6><$FB00><$001C>Well？ I'm quite the<$FFFC>showman too, no？<$FFFE>
+# spk: Mariandel
 28	<$FB00><$001D>Unforgivable！<$FFF5> <$FB00><$001E>To toy with<$FFFC>the dead<$FFF5><$FFF8>…<$FFF6><$FB00><$001F>and with people's hearts<$FFF5><$FFF8>….<$FFFE>
+# spk: Brenda
 29	<$FB00><$0020>But if we head for the device in<$FFFC>this situation, the Engineer's in danger.<$FFFE>
+# spk: Engineer
 30	<$FB00><$0021>Then I'll fall back for now.<$FFFC>Call me when the time is right.<$FFFE>
+# spk: Sigma
 31	<$FB00><$0022>Understood.<$FFFE>
 32	・Defeat Grove<$FFFC>・Activate the weather device and reach turn 15<$FFFE>
 33	・Reach turn 15 with the device inactive<$FFFC>・The Engineer dies<$FFFC>・<$F600><$0000> dies<$FFFE>
+# spk: Engineer
 34	Hey, if I don't head over soon,<$FFFC>my legs won't get me there in time….<$FFFE>
+# spk: Sigma
 35	Got it. We'll cover you. Head for<$FFFC>the device！<$FFFE>
+# spk: Engineer
 36	Right. I'm counting on your<$FFFC>cover.<$FFFE>
+# spk: Engineer
 37	Hey, if I don't head over soon,<$FFFC>my legs won't get me there in time….<$FFFE>
+# spk: (no plate)
 38	Send the Engineer to the device？<$FFFE>
+# spk: Sigma
 39	Got it. We'll cover you. Head for<$FFFC>the device！<$FFFE>
+# spk: Engineer
 40	Right. I'm counting on your<$FFFC>cover.<$FFFE>
+# spk: Sigma
 41	Wait a little longer！<$FFFE>
+# spk: Engineer
 42	There's no telling the device<$FFFC>will work easily. Will we really make it？<$FFFD>Anyway, call me once it's safe！<$FFFE>
+# spk: (no plate)
 43	Call the Engineer over？<$FFFE>
+# spk: Sigma
 44	<$FB00><$0023>The way to the device is secure.<$FFFC>Come now！<$FFFE>
+# spk: Engineer
 45	<$FB00><$0024>Understood. I'll head for the<$FFFC>control device now.<$FFFE>
+# spk: Engineer
 46	<$FB00><$002D>I found where the wire's cut！<$FFFC>Wait a little more！<$FFFE>
+# spk: Engineer
 47	<$FB00><$002E>This wiring, then. Faster to<$FFFC>just replace it….<$FFFE>
+# spk: Engineer
 48	<$FB00><$002F>Right, how's this！<$FFFE>
+# spk: Device
 49	<$FB00><$0030>BEGINNING SETUP.<$FFFC>SELECT THE WEATHER.<$FFFE>
+# spk: Engineer
 50	<$FB00><$0031>Weather, heavy overcast<$FFF5><$FFF8>…<$FFF6><$FB00><$0032>set.<$FFFE>
+# spk: Device
 51	<$FB00><$0033>INPUT THE AREA OF<$FFFC>EFFECT.<$FFFE>
+# spk: Engineer
 52	<$FB00><$0034>Area, all of Yeless<$FFF5><$FFF8>…<$FFF6><$FB00><$0035>set.<$FFFE>
+# spk: Device
 53	<$FB00><$0036>INPUT THE DURATION.<$FFFE>
+# spk: Engineer
 54	<$FB00><$0037>From now, continuous<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>set.<$FFFE>
+# spk: Device
 55	<$FB00><$0039>ERROR. WITH<$FFFC>REMAINING ENERGY, 68<$FFFC>HOURS MAXIMUM.<$FFFE>
+# spk: Engineer
 56	<$FB00><$003A>Then 68 hours.<$FFFE>
+# spk: Device
 57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER<$FFFC>CONTROL.<$FFFE>
+# spk: Engineer
 58	<$FB00><$003C>Right, it's working！ Clouds<$FFFC>should form right away.<$FFFE>
+# spk: Sigma
 59	<$FB00><$003D>Thank you！ Now get away from the<$FFFC>battlefield as fast as you can.<$FFFE>
+# spk: Engineer
 60	<$FB00><$003E>From here it's all down to your<$FFFC>strength. Good luck！<$FFFE>
+# spk: Grove
 61	<$FFF8><$FB00><$003F>Uguu…<$FFF5><$FFF6><$FB00><$0040>Then I'll send you all to<$FFFC>hell！<$FFFE>
 62	・<$F600><$0000> dies<$FFFE>
+# spk: Mariandel
 63	<$FB00><$0041>It's raining.<$FFFE>
+# spk: Engineer
 64	<$FB00><$0042>Clouds this thick. Forgive a bit<$FFFC>of rain.<$FFFE>
+# spk: Brenda
 65	<$FB00><$0043>Next to magitek energy raining<$FFFC>from Pelia, it's nothing.<$FFFE>
+# spk: Clarett
 66	<$FB00><$0044>Haha, true enough.<$FFFE>
+# spk: Grove
 67	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Grove will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+# spk: Grove
 68	<$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+# spk: Grove
 69	<$FB00><$0048>There are plenty more corpses！<$FFF5><$FFFC><$FB00><$0049>Now, you dead. Lord Grove will grant you<$FFFC>life once more！<$FFFD><$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+# spk: Grove
 70	<$FB00><$004A>Mihari Kushizekiki Hagujisoram！<$FFFE>
+# spk: Alfred
 71	<$FB00><$005A>What have you done to my father！<$FFF5><$FFF7><$FFFE>
+# spk: Grove
 72	<$FB00><$005B>Oh？<$FFF5> <$FB00><$005C>Have you some complaint？<$FFFE>
+# spk: Alfred
 73	<$FB00><$005D>Don't mock me！<$FFF5><$FFF7><$FFFE>
+# spk: Lanford
 74	<$FB00><$005E>I won't forgive you, Grove.<$FFF5> <$FB00><$005F>To<$FFFC>disturb my friend's rest！<$FFFE>
+# spk: Grove
 75	<$FB00><$0060>What's the harm. We even get to<$FFFC>meet face to face like this.<$FFFE>
+# spk: Lanford
 76	<$FB00><$0061>I'll see that mouth never speaks<$FFFC>again！<$FFFE>
+# spk: Engineer
 77	<$FB00><$0025>Now, from here it's my work<$FFF5><$FFF8>….<$FFFD>…….<$FFFB> …….<$FFFE>
+# spk: Engineer
 78	<$FFF8>…<$FFF6><$FB00><$0026>Damn it！<$FFF5> <$FB00><$0027>It won't move！<$FFFE>
+# spk: Brenda
 79	<$FB00><$0028>Well, no help for it. It's been<$FFFC>left alone a long time.<$FFF5> <$FB00><$0029>Can you find the<$FFFC>cause？<$FFFE>
+# spk: Engineer
 80	<$FFF8>…<$FFF6><$FB00><$002A>The wire's cut somewhere, it<$FFFC>seems.<$FFFE>
+# spk: Sigma
 81	<$FB00><$002B>Can you repair it？<$FFFE>
+# spk: Engineer
 82	<$FB00><$002C>Give me a while.<$FFFE>
+# spk: Engineer
 83	From here it's up to you. Good<$FFFC>luck！<$FFFE>
+# spk: (no plate)
 84	Part of the snow has melted, and something<$FFFC>is buried in view. Dig it up, and a<$FFFC>heat-bearing staff emerges.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Scorching Staff<$FFF3> obtained！<$FFFE>
+# spk: Sigma
 85	<$FB00><$002B>Eat this！<$FFFE>
+# spk: Sigma
 86	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Mariandel
 87	<$FB00><$0046>Here goes.<$FFFE>
+# spk: Mariandel
 88	<$FB00><$004E>Forgive me… I have to pull<$FFFC>back first…<$FFFE>
+# spk: Sigma
 89	<$FB00><$004F>Don't push it. Leave the rest to<$FFFC>us！<$FFFE>
+# spk: Mariandel
 90	<$FB00><$0050>Please…<$FFFE>
+# spk: Alfred
 91	<$FB00><$0066>Father<$FFF5><$FFF8>…. <$FFF6><$FB00><$0067>I'll lay you to peaceful<$FFFC>rest.<$FFFE>
+# spk: Alfred
 92	<$FB00><$0076>I won't lose！<$FFFE>
+# spk: Sigma
 93	<$FB00><$0080>Are you all right, Alfred！<$FFFE>
+# spk: Alfred
 94	<$FB00><$0081>Sorry… the rest is yours…<$FFFE>
+# spk: Sigma
 95	<$FB00><$0082>Yeah, leave it to me！<$FFFE>
+# spk: Brenda
 96	<$FB00><$0067>Here I go！<$FFFE>
+# spk: Brenda
 97	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 98	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 99	<$FB00><$0072>Sorry… I'll take you up on that…<$FFFE>
+# spk: Clarett
 100	<$FB00><$0054>I won't lose！<$FFFE>
+# spk: Clarett
 101	To toy with the dead… that I'll<$FFFC>never forgive！<$FFFE>
+# spk: Grove
 102	Why won't you understand？ I'm only<$FFFC>making use of what's discarded.<$FFFE>
+# spk: Clarett
 103	That's it, I'm furious！<$FFFE>
+# spk: Clarett
 104	<$FB00><$0056>Sorry, I'll pull back first…<$FFFE>
+# spk: Lanford
 105	<$FB00><$0085>By this sword, I'll defeat you！<$FFFE>
+# spk: Lanford
 106	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>Out of my way！<$FFFE>
+# spk: Lanford
 107	<$FB00><$0087>Ngh… the wound's deep…<$FFFE>
+# spk: Sigma
 108	<$FB00><$0088>Lanford, don't push yourself！<$FFFE>
+# spk: Lanford
 109	<$FB00><$0089>I know when to withdraw….<$FFFC>Sorry, the rest is yours…<$FFFE>
+# spk: Engineer
 110	<$FB00><$0045>N, no… I….<$FFFE>
+# spk: Grove
 111	<$FB00><$0046>Hihihi！ Now the ultimate weapon's<$FFFC>power won't wane！ Victory to us demons！<$FFFE>
+# spk: Sigma
 112	<$FB00><$0047>I couldn't protect the<$FFFC>Engineer….<$FFFE>
+# spk: Monster
 113	WOOO….<$FFFE>
+# spk: Monster
 114	WOOO….<$FFFE>
+# spk: Monster
 115	WOOO….<$FFFE>
+# spk: Monster
 116	WOOO….<$FFFE>
+# spk: Monster
 117	WOOO….<$FFFE>
+# spk: Monster
 118	WOOO….<$FFFE>
+# spk: Monster
 119	WOOO….<$FFFE>
+# spk: Grove
 120	Heh heh heh…. Let me watch how<$FFFC>you all fight from here.<$FFFE>
+# spk: Grove
 121	<$FFF8><$FB00><$006E>Mugugu…！<$FFF5><$FFF6><$FB00><$006F>That I, to mere<$FFFC>humans<$FFF5><$FFF8>…！ <$FFF6><$FB00><$0070>Argh, retreat for now！<$FFFE>
+# spk: Grove
 122	<$FFF7><$FB00><$0062>Hihihi！<$FFF5> <$FFF6><$FB00><$0063>Show me the beautiful<$FFFC>love of parent and child！<$FFFE>
+# spk: Rockwell
 123	<$FB00><$0064>U… uu….<$FFFE>
+# spk: Alfred
 124	<$FB00><$0065>What a ruined shape he's been<$FFFC>brought to<$FFF5><$FFF8>….<$FFFE>
+# spk: Rockwell
 125	…U….<$FFFE>
+# spk: Alfred
 126	Father<$FFF8>…. <$FFF6>Rest in peace<$FFF8>….<$FFFE>
+# spk: Grove
 127	<$FB00><$0068>It's a reunion after long apart.<$FFFC>As warriors both, why not cross swords and<$FFFC>talk it out？<$FFF5> <$FFF7><$FB00><$0069>Heehihihi！<$FFFE>
+# spk: Bulk
 128	<$FB00><$006A>O… ohh….<$FFFE>
+# spk: Lanford
 129	<$FB00><$006B>Is it painful… do you<$FFFC>suffer<$FFF5><$FFF8>…. <$FFF6><$FB00><$006C>Bulk, I'll ease you now<$FFF5><$FFF8>….<$FFFE>
+# spk: Bulk
 130	…U….<$FFFE>
+# spk: Lanford
 131	<$FFFA><$FB00><$006D>Friend, rest in peace<$FFF5><$FFF8>….<$FFFE>
+# spk: Sigma
 132	<$FB00><$0071>It seems he's fled.<$FFFE>
+# spk: Brenda
 133	<$FB00><$0072>Now we can work the weather device<$FFFC>in peace.<$FFFE>
+# spk: Sigma
 134	<$FB00><$0073>Now we just attack the demon base<$FFFC>and take Alhazard.<$FFFE>
+# spk: Mariandel
 135	<$FB00><$004B>Will we make it？ The blue<$FFFC>moon has risen quite high.<$FFFE>
+# spk: Sigma
 136	<$FB00><$004C>The moon's nearing 30 degrees<$FFF5><$FFF8>….<$FFFC><$FFF6><$FB00><$004D>We must hurry！<$FFFE>
+# spk: Sigma
 137	<$FB00><$0054>The stars are vanishing<$FFF5><$FFF8>…. <$FFF6><$FB00><$0055>Are<$FFFC>the clouds thickening<$FFF5><$FFF8>….<$FFFE>
+# spk: Sigma
 138	<$FB00><$004E>What's this sound<$FFF5><$FFF8>…. <$FFF7><$FB00><$004F>Hah！<$FFF5> <$FFF6><$FB00><$0050>The<$FFFC>moon, so high！<$FFFE>
+# spk: Grove
 139	<$FB00><$0051>D, don't tell me, Gaiel<$FFF5><$FFF8>…<$FFF6><$FB00><$0052>along<$FFFC>with me<$FFF5><$FFF8>…. <$FFF7><$FB00><$0053>Ugyaah！<$FFFE>
+# spk: Grove
 140	<$FFF8><$FB00><$0056>Mugugu…！<$FFF5> <$FFF6><$FB00><$0057>To still be unbeaten<$FFFC>after all this<$FFF5><$FFF8>…. <$FFF6><$FB00><$0058>The corpses around here<$FFFC>will run out！<$FFFD><$FB00><$0059>Argh, retreat for now！<$FFFE><$FFFF>

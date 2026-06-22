@@ -12,82 +12,157 @@
 10	Emily<$FFFF>
 11	Lanford<$FFFF>
 12	Merc<$FFFF>
+# spk: Landius
 13	<$FB00><$007F>Jessica<$FFF5><$FFF8>…<$FFFE>
+# spk: Jessica
 14	<$FB00><$0080>It seems everyone is safe.<$FFFE>
+# spk: McClaine
 15	<$FB00><$0081>With your sword, we beat<$FFFC>Gizarof！<$FFFE>
+# spk: Jessica
 16	<$FB00><$002F>Landius. I must return to heaven<$FFFC>soon. May I have the sword back？<$FFFE>
+# spk: Landius
 17	<$FB00><$0082>Yes, of course.<$FFFE>
+# spk: Landius
 18	<$FB00><$0083>Langrisser, and Alhazard,<$FFFC>Gizarof's sword. Here they are.<$FFFD><$FB00><$0084>Thank you. With them, we defeated Gizarof<$FFFC>and saved Rachel.<$FFFE>
+# spk: Jessica
 19	<$FB00><$0085>No.<$FFFD><$FB00><$0086>Langrisser only answered your wish. You<$FFFC>saved her yourself.<$FFFE>
+# spk: Jessica
 20	<$FFF8>…<$FFF6><$FB00><$0087>It is time. I must return to<$FFFC>heaven.<$FFFE>
+# spk: McClaine
 21	<$FB00><$0088>Um, Jessica<$FFF5><$FFF8>…<$FFFE>
+# spk: McClaine
 22	<$FFF6><$FB00><$0089>Are you really going back to<$FFFC>heaven？<$FFFE>
+# spk: Jessica
 23	<$FB00><$008A>McClaine<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take these swords back<$FFFC>to heaven. That is my duty<$FFF5><$FFF8>…<$FFFE>
+# spk: McClaine
 24	<$FB00><$008C>No, I won't stop you. But<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>…<$FFFC><$FE14>…<$FE14>.<$FFFE>
+# spk: McClaine
 25	<$FFF6><$FB00><$008D>If fate allows, let us meet<$FFFC>again.<$FFFE>
+# spk: Jessica
 26	<$FB00><$008E>Then I shall go. Thank you for<$FFFC>your help.<$FFFE>
+# spk: Landius
 27	<$FB00><$008F>Take care, Jessica.<$FFFE>
+# spk: Jessica
 28	<$FB00><$0090>Farewell.<$FFFE>
+# spk: Emily
 29	<$FB00><$0091>Lord Lanford.<$FFFE>
+# spk: Lanford
 30	<$FB00><$0092>Emily！ Why are you here？<$FFFE>
+# spk: Emily
 31	<$FB00><$0093>Forgive me. I worried and followed<$FFFC>you.<$FFFE>
+# spk: Lanford
 32	<$FB00><$0094>I keep worrying you. But he is<$FFFC>safe. You two can live as family now.<$FFFE>
+# spk: Landius
 33	<$FB00><$0095>About that<$FFF5><$FFF8>…<$FFFE>
+# spk: Landius
 34	<$FFF6><$FB00><$0096>Big sister Emily. I am going<$FFFC>back to Caconsis.<$FFFD><$FB00><$0097>When this is over, I will visit. Until<$FFFC>then<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$0098>farewell for now.<$FFFE>
+# spk: Emily
 35	<$FFFA><$FB00><$0030>Landius<$FFF5><$FFF8>… <$FFF9><$FFF6><$FB00><$0031>I will be waiting.<$FFFE>
+# spk: Sigma
 36	<$FB00><$0099>Lanford<$FFF5><$FFF8>…, <$FE28><$FFF6><$FB00><$009A>take care of my<$FFFC>sister.<$FFFE>
+# spk: Lanford
 37	<$FB00><$009B>Leave it to me. Asked or not,<$FFFC>that was already my intent.<$FFFE>
+# spk: Emily
 38	<$FB00><$009C>Lord Lanford<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+# spk: Landius
 39	<$FB00><$009D>All right！ We leave for<$FFFC>Caconsis！<$FFFE>
 40	On the Road to the Lab<$FFFF>
+# spk: Merc
 41	<$FB00><$0032>Boss！<$FFFE>
+# spk: Brenda
 42	<$FB00><$0033>Huh？ Why the long face？<$FFFE>
+# spk: Merc
 43	<$FB00><$0034>It's Gizarof. He's dead！<$FFFE>
+# spk: Sigma
 44	<$FFF8>…<$FB00><$0035>What！？<$FFF5><$FFF7><$FFFE>
+# spk: Lambda
 45	<$FB00><$0036>Master is dead<$FFF5><$FFF8>…？<$FFFE>
+# spk: Brenda
 46	<$FB00><$0037>Tell me everything.<$FFFE>
+# spk: Merc
 47	<$FB00><$0038>Yes. The Caconsis army and General<$FFFC>Lanford stormed the lab <$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 48	<$FB00><$0039>Caconsis army？ <$FFF5><$FFF8><$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FFF6><$FB00><$003A>So we just<$FFFC>missed each other<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 49	<$FB00><$003B>And what did that lot do then？<$FFFE>
+# spk: Merc
 50	<$FB00><$003C>They disbanded there and headed back<$FFFC>to their own countries.<$FFFE>
+# spk: Brenda
 51	<$FB00><$003D>That's all？ Nothing unusual<$FFFC>happened？<$FFFE>
+# spk: Merc
 52	<$FB00><$003E>Unusual<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$003F>unusual<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+# spk: Merc
 53	<$FB00><$0040>Oh！ Jessica teleported away with<$FFFC>both strange swords.<$FFFD><$FB00><$0041>I think she was a mage from El Sallia.<$FFFE>
+# spk: Sigma
 54	<$FB00><$0042>Two swords with strange powers<$FFF5><$FFF8>…<$FE14><$FE14>…<$FFFC><$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$0043>Could they be<$FFF5><$FFF8>…？<$FFFE>
+# spk: Lambda
 55	<$FB00><$0044>No doubt. That is the true form<$FFFC>of the Sage's Crystal.<$FFFE>
+# spk: Alfred
 56	<$FB00><$0045>Um<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0046>I can't follow this at all<$FFFC><$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 57	<$FB00><$0047>We serve Gizarof. Our mission was<$FFFC>to recover the Sage's Crystal.<$FFFE>
+# spk: Alfred
 58	<$FB00><$0048>What does that crystal have to do<$FFFC>with the swords？<$FFFE>
+# spk: Brenda
 59	<$FB00><$0049>The Sage's Crystal was originally<$FFFC>two swords. They fused into a crystal 200<$FFFC>years ago.<$FFFE>
+# spk: Alfred
 60	<$FFF7><$FB00><$004A>Wow<$FFF5><$FFF8>…<$FE14>…<$FE14>. <$FE14><$FFF6><$FB00><$004B>What a strange story.<$FFFD><$FB00><$004C>So now what？ Look for the swords？<$FFFE>
+# spk: Sigma
 61	<$FB00><$004D>Well<$FFF5><$FFF8>…<$FFFE>
 62	・Ask Lambda<$FFFE>
 63	・Ask Brenda<$FFFE>
 64	・Decide yourself<$FFFE>
+# spk: Sigma
 65	<$FB00><$004E>What do you think, Lambda？<$FFFE>
+# spk: Lambda
 66	<$FB00><$004F>Why ask me？<$FFFE>
+# spk: Sigma
 67	<$FB00><$0050>With Gizarof dead, did he leave<$FFFC>any orders for us？<$FFFE>
+# spk: Lambda
 68	<$FB00><$0051>No. I never thought Master would<$FFFC>die.<$FFFE>
+# spk: Brenda
 69	<$FB00><$0052>Then chasing the swords sounds<$FFFC>best, no？<$FFFE>
+# spk: Sigma
 70	<$FB00><$0053>What do you think, Brenda？<$FFFE>
+# spk: Brenda
 71	<$FB00><$0054>Let's see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0055>The swords must be powerful, or you would<$FFFC>not have been ordered to recover them.<$FFFD><$FB00><$0056>Taking them is one option.<$FFFE>
+# spk: Sigma
 72	<$FB00><$0057>But Gizarof is dead. If we recover<$FFFC>the swords, who receives them？<$FFFE>
+# spk: Brenda
 73	<$FB00><$0058>Even if you sit here lost in<$FFFC>thought, nothing will change. You have to<$FFFC>move first.<$FFFD><$FB00><$0059>Why not chase the swords？<$FFFE>
+# spk: Sigma
 74	<$FB00><$005A>With Gizarof dead, what should we<$FFFC>do？<$FFFD><$FB00><$005B>We could abandon the mission now<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$005C>But then what？<$FFFE>
+# spk: Brenda
 75	<$FB00><$005D>If you are going to brood, why not<$FFFC>chase the swords？<$FFFE>
+# spk: Sigma
 76	<$FB00><$005E>Chase the swords<$FFF5><$FFF8>…<$FFFE>
+# spk: Brenda
 77	<$FB00><$005F>Why did Gizarof seek the Sage's<$FFFC>Crystal？<$FFFD><$FB00><$0060>If we knew his research, we would know<$FFFC>what to do after getting the swords.<$FFFE>
+# spk: Sigma
 78	<$FB00><$0061>Gizarof was<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 79	<$FB00><$0062>I will explain. My data retains<$FFFC>part of Master's research.<$FFFD><$FB00><$0063>He had two main goals.<$FFFD><$FB00><$0064>Immortality, and rule over the world. He<$FFFC>pursued many magical studies for them.<$FFFD><$FB00><$0065>He revived ancient magic, ancient weapons,<$FFFC>and invincible soldiers. As you know, he<$FFFC>and I are artificial soldiers made by<$FFFC>Master.<$FFFD><$FB00><$0066>He also mastered enhancement and cloning<$FFFC>to create bodies for himself.<$FFFE>
+# spk: Alfred
 80	<$FB00><$0067>Um, what is a clone？<$FFFE>
+# spk: Lambda
 81	<$FB00><$0068>Simply, a copy of a person.<$FFFD><$FB00><$0069>Memories and personality are learned, so<$FFFC>they cannot be copied. But body and<$FFFC>aptitude can be.<$FFFE>
+# spk: Sigma
 82	<$FB00><$006A>What about us？ Are we clones, or<$FFFC>modified beings？<$FFFE>
+# spk: Lambda
 83	<$FB00><$006B>No records say what we are, so I<$FFFC>do not know. <$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$006C>And it does not matter.<$FFFE>
+# spk: Brenda
 84	<$FB00><$006D>Hmm. If Gizarof wanted the Sage's<$FFFC>Crystal so badly, it must be key to his<$FFFC>goal.<$FFFD><$FB00><$006E>We should learn what it is.<$FFFE>
+# spk: Sigma
 85	<$FB00><$006F>Then let's go to the lab once.<$FFFE>
+# spk: Brenda
 86	<$FB00><$0070>Good idea.<$FFFE>
+# spk: Brenda
 87	<$FB00><$0071>You, find out where that woman<$FFFC>teleported to.<$FFFE>
+# spk: Alfred
 88	<$FB00><$0072>But she teleported, right？ How<$FFFC>can we track her<$FFF5><$FFF8>…？<$FFFE>
+# spk: Brenda
 89	<$FB00><$0073>Not quite. She is from El Sallia,<$FFFC>yes？<$FFFD><$FB00><$0074>Even teleport magic cannot cross the<$FFFC>ocean. She must have gone to an ocean<$FFFC>port.<$FFFE>
+# spk: Merc
 90	<$FB00><$0075>Understood. I'll focus on the larger<$FFFC>ports.<$FFFE>
+# spk: Brenda
 91	<$FB00><$0076>Good. I'm counting on you.<$FFFE><$FFFF>

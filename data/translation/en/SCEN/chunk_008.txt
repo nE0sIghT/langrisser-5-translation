@@ -9,76 +9,143 @@
 7	Leader<$FFFF>
 8	Emily<$FFFF>
 9	・Whole party crosses the bridge<$FFFC>・Defeat all enemies<$FFFE>
+# spk: Sigma
 10	・<$F600><$0000> dies<$FFFE>
 11	Road to Gizarof's lab<$FFFF>
+# spk: Leader
 12	<$FB00><$002F>Well？ Any sign over there？<$FFFE>
+# spk: Leader
 13	<$FB00><$0030>None, sir！<$FFFE>
+# spk: Leader
 14	<$FB00><$0031>Nothing here either.<$FFFE>
+# spk: Leader
 15	<$FB00><$0032>I see. Not around here anymore.<$FFFC>Shall we move on<$FFF5><$FFF8>…<$FFFE>
+# spk: Alfred
 16	<$FB00><$0033>Huh？ Federation soldiers<$FFF5><$FFF8>…<$FFFE>
+# spk: Sigma
 17	<$FFF8>…<$FFF6><$FB00><$0034>And we were almost there<$FFF5><$FFF8>…<$FFFE>
+# spk: Leader
 18	<$FB00><$0035>Hm？ Who are you？ Wander here and<$FFFC>you'll be taken for Gizarof's men.<$FFFE>
+# spk: Leader
 19	<$FFF8>…<$FFF6><$FB00><$0036>Wait. That man matches the one<$FFFC>who wounded the Caconsis admiral, does he<$FFFC>not？<$FFFD><$FB00><$0037>You there, come with us.<$FFFE>
+# spk: Lambda
 20	<$FB00><$0038>What now？<$FFFE>
+# spk: Brenda
 21	<$FB00><$0039>Do as they say, and they'll learn<$FFFC>we really ARE with Gizarof.<$FFFE>
+# spk: Sigma
 22	<$FFF8>…<$FFF6><$FB00><$003A>Nothing for it but to force our<$FFFC>way. Everyone, across that bridge！<$FFFE>
+# spk: (location/crowd)
 23	<$FB00><$003B>Tougher than they look！<$FFFD><$FB00><$003C>Don't push too hard！ We just hold them<$FFFC>until Lady Emily arrives！<$FFFE>
+# spk: (location/crowd)
 24	<$FB00><$003D>Sir！<$FFFE>
+# spk: Sigma
 25	Everyone, hurry up！<$FFFE>
+# spk: Lambda
 26	<$FB00><$0066>Hurry it up, or we leave you<$FFFC>behind.<$FFFE>
+# spk: Alfred
 27	<$FB00><$0045>Whew, that was close.<$FFFE>
+# spk: Brenda
 28	<$FB00><$0048>Safe enough here. You hurry too！<$FFFE>
+# spk: (no plate)
 29	A cracked hole opens in the ground. What<$FFFC>do you do？<$FFFE>
 30	・Plug it with a stone<$FFFE>
 31	・Drop in some food<$FFFE>
 32	・Reach inside<$FFFE>
+# spk: (no plate)
 33	You plug the hole with a nearby stone.<$FFFC>Nothing happens.<$FFFE>
+# spk: (no plate)
 34	You drop some bread. It rolls away into<$FFFC>the depths.<$FFFE>
+# spk: (no plate)
 35	You reach in and find a bird's nest at the<$FFFC>bottom. Take it？<$FFFE>
+# spk: (no plate)
 36	Inside lies a ticket, a special<$FFFC>bargain-sale invitation.<$FFFD>But a gust from the east snatches it away<$FFFC>westward.<$FFFE>
+# spk: (no plate)
 37	You pull your hand back empty.<$FFFE>
+# spk: (no plate)
 38	The wind-blown ticket hangs caught on a<$FFFC>branch. Take it？<$FFFE>
+# spk: (no plate)
 39	<$0000> Got the <$FFF4>Special invitation<$FFF3>！<$FFFE>
+# spk: (no plate)
 40	You give up on the ticket.<$FFFE>
+# spk: Emily
 41	To do this well against my troops<$FFFC><$FFF8>… <$FFF6>Who is that man？<$FFFE>
+# spk: Sigma
 42	That woman looks skilled. Fighting<$FFFC>her is risky<$FFF8>…<$FFFE>
+# spk: Lambda
 43	That's Emily, a famed Federation<$FFFC>officer. Fighting her now is pointless.<$FFFE>
+# spk: Brenda
 44	Then we'd best stick to the plan<$FFFC>and cross that bridge.<$FFFE>
+# spk: Sigma
 45	Right. Drop the bridge once we<$FFFC>reach the far bank, and we shake the<$FFFC>pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
+# spk: Sigma
 46	Best stick to the plan and cross<$FFFC>that bridge. Then we drop it and shake the<$FFFC>pursuit.<$FFFD>Everyone, to the far shore, quick！<$FFFE>
 47	Escape point<$FFFF>
+# spk: Sigma
 48	<$FB00><$002B>Take this！<$FFFE>
+# spk: Sigma
 49	<$FB00><$002D>I won't die in a place like this…<$FFFE>
+# spk: Lambda
 50	<$FB00><$0037>Don't get in my way<$FFF5><$FFF8>…<$FFFE>
+# spk: Lambda
 51	<$FB00><$003A>Kh… that one hurt…<$FFFE>
+# spk: Sigma
 52	<$FB00><$003B>Leave the rest to me！<$FFFE>
+# spk: Lambda
 53	<$FB00><$003C>I'm counting on you…<$FFFE>
+# spk: Alfred
 54	<$FB00><$0076>I won't lose！<$FFFE>
+# spk: Alfred
 55	<$FB00><$0078>Am I not good enough…<$FFFE>
+# spk: Sigma
 56	<$FB00><$0079>Leave the rest to us, Alfred！<$FFFE>
+# spk: Alfred
 57	<$FB00><$007A>Sorry…I'll take you up on that…<$FFFE>
+# spk: Brenda
 58	<$FB00><$0068>Come and get me！<$FFFE>
+# spk: Brenda
 59	<$FB00><$0069>Who do you think I am！<$FFFE>
+# spk: Brenda
 60	<$FB00><$0070>This is getting dicey…<$FFFE>
+# spk: Sigma
 61	<$FB00><$0071>Fall back, Brenda！ Leave the rest<$FFFC>to me！<$FFFE>
+# spk: Brenda
 62	<$FB00><$0072>Sorry…I'll take you up on that…<$FFFE>
+# spk: Leader
 63	I can't let you…through…<$FFFE>
+# spk: Leader
 64	…Uwooh！<$FFFE>
+# spk: Leader
 65	…d…damn…<$FFFE>
+# spk: Leader
 66	…L…Lady Emily…<$FFFE>
+# spk: Leader
 67	…they're…so…strong…<$FFFE>
+# spk: Emily
 68	Better with a blade than I！？ No<$FFFC>choice, retreat！<$FFFE>
+# spk: Sigma
 69	<$FB00><$004C>Seems no one's chasing us now.<$FFFC>Let's press on while we can.<$FFFE>
+# spk: Emily
 70	<$FB00><$003E>Hm？ What happened here？<$FFFE>
+# spk: (location/crowd)
 71	<$FB00><$003F>Lady Emily！<$FFFD><$FB00><$0040>We tried to question them and they<$FFFC>attacked！<$FFFD>And one looks like the man who wounded the<$FFFC>Caconsis admiral…<$FFFE>
+# spk: Emily
 72	<$FB00><$0041>Gizarof's remnants, then<$FFF5><$FFF8>…？<$FFFD><$FFF6><$FB00><$0042>Very well. I'll join you！ Capture them！<$FFFE>
+# spk: (location/crowd)
 73	<$FB00><$0043>Yes, ma'am！<$FFFE>
+# spk: Emily
 74	<$FB00><$0044>Kh！ They've crossed the bridge <$FFF5><$FFF8>…<$FFFE>
+# spk: (location/crowd)
 75	<$FB00><$0045>But we haven't lost them yet！<$FFFC>Let's give chase！<$FFFE>
+# spk: Emily
 76	<$FB00><$0046>No！ If they drop the bridge<$FFFC>mid-crossing, we're done for.<$FFFE>
+# spk: Emily
 77	<$FB00><$0047>Chase too far and they'll drop the<$FFFC>bridge on us<$FFF5><$FFF8>…<$FFFD>…<$FFF6><$FB00><$0048>No choice. We give up the pursuit<$FFF5><$FFF8>…<$FFFE>
+# spk: (location/crowd)
 78	<$FB00><$0049>Kh！ I'd give chase, but we can't<$FFFC>leave Lady Emily<$FFF5><$FFF8>… <$FE1E><$FFF6><$FB00><$004A>We pull back for now！<$FFFE>
+# spk: Sigma
 79	<$FB00><$004B>Seems they're not following. Good,<$FFFC>let's press on while we can.<$FFFE>
+# spk: Sigma
 80	<$FFF8>Kh！ <$FFF6>The enemy crossed the bridge<$FFF8>…<$FFFC><$FFF6>We must beat those across<$FFF8>…<$FFFE>
+# spk: (no plate)
 81	Victory terms changed！<$FFFC><$0000><$FFFC>・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
 82	・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
