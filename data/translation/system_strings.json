@@ -1230,7 +1230,7 @@
   "offset": "0x08790",
   "words": 9,
   "jp": "MPが足りません！",
-  "en": ""
+  "en": "Not enough MP！"
  },
  {
   "group": 0,
@@ -1257,7 +1257,7 @@
   "offset": "0x087D2",
   "words": 8,
   "jp": "封じられています",
-  "en": ""
+  "en": "Sealed"
  },
  {
   "group": 0,
@@ -1302,7 +1302,7 @@
   "offset": "0x0884E",
   "words": 12,
   "jp": "現在の魔獸は退去させます",
-  "en": ""
+  "en": "Monster withdraws"
  },
  {
   "group": 0,
@@ -1329,7 +1329,7 @@
   "offset": "0x08886",
   "words": 4,
   "jp": "NPCの",
-  "en": ""
+  "en": "NPC's"
  },
  {
   "group": 0,
@@ -2130,7 +2130,7 @@
   "offset": "0x08E44",
   "words": 3,
   "jp": "活躍度",
-  "en": ""
+  "en": "Activity"
  },
  {
   "group": 0,
@@ -2139,7 +2139,7 @@
   "offset": "0x08E4C",
   "words": 3,
   "jp": "撤退数",
-  "en": ""
+  "en": "Retreats"
  },
  {
   "group": 0,
@@ -2454,7 +2454,7 @@
   "offset": "0x09010",
   "words": 8,
   "jp": "メモリーカードが",
-  "en": ""
+  "en": "Memory card"
  },
  {
   "group": 1,
@@ -4353,7 +4353,7 @@
   "offset": "0x09F02",
   "words": 2,
   "jp": "剣聖",
-  "en": ""
+  "en": "Sword Master"
  },
  {
   "group": 2,
@@ -4362,7 +4362,7 @@
   "offset": "0x09F08",
   "words": 2,
   "jp": "剣聖",
-  "en": ""
+  "en": "Sword Master"
  },
  {
   "group": 2,
@@ -6171,7 +6171,7 @@
   "offset": "0x0A9EE",
   "words": 1,
   "jp": "霊",
-  "en": ""
+  "en": "Spirit"
  },
  {
   "group": 5,
@@ -6180,7 +6180,7 @@
   "offset": "0x0A9F2",
   "words": 1,
   "jp": "霊",
-  "en": ""
+  "en": "Spirit"
  },
  {
   "group": 5,
@@ -6198,7 +6198,7 @@
   "offset": "0x0AA00",
   "words": 1,
   "jp": "竜",
-  "en": ""
+  "en": "Wyrm"
  },
  {
   "group": 5,
@@ -6864,7 +6864,7 @@
   "offset": "0x0AE0C",
   "words": 2,
   "jp": "忍術",
-  "en": ""
+  "en": "Ninjutsu"
  },
  {
   "group": 7,
@@ -9870,7 +9870,7 @@
   "offset": "0x0C230",
   "words": 2,
   "jp": "町長",
-  "en": ""
+  "en": "Mayor"
  },
  {
   "group": 9,
@@ -10464,7 +10464,7 @@
   "offset": "0x0C4B2",
   "words": 2,
   "jp": "執事",
-  "en": ""
+  "en": "Butler"
  },
  {
   "group": 9,
@@ -10554,7 +10554,7 @@
   "offset": "0x0C512",
   "words": 3,
   "jp": "シゲマ",
-  "en": ""
+  "en": "Sigma"
  },
  {
   "group": 9,
@@ -12840,7 +12840,7 @@
   "offset": "0x0D396",
   "words": 2,
   "jp": "町長",
-  "en": ""
+  "en": "Mayor"
  },
  {
   "group": 10,
@@ -13434,7 +13434,7 @@
   "offset": "0x0D5A4",
   "words": 2,
   "jp": "執事",
-  "en": ""
+  "en": "Butler"
  },
  {
   "group": 10,
@@ -13524,7 +13524,7 @@
   "offset": "0x0D5F8",
   "words": 3,
   "jp": "シゲマ",
-  "en": ""
+  "en": "Sigma"
  },
  {
   "group": 10,
@@ -23631,7 +23631,7 @@
   "offset": "0x17988",
   "words": 11,
   "jp": "アイテムk購入します.",
-  "en": ""
+  "en": "Buy items."
  },
  {
   "group": 15,

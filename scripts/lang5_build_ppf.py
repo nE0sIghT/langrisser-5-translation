@@ -47,11 +47,16 @@ def main() -> None:
 
     # All SYSTEM.BIN UI text (names, descriptions, command help, save messages)
     # via the unified offset-table flow (see docs/SYSTEM_BIN_FORMAT.md).
+    # --repack regenerates each group's offset table so short kanji labels can
+    # hold a full English word; the engine addresses every string by index as
+    # base + table[k]*2 (verified in the EXE, see SYSTEM_BIN_FORMAT.md), so the
+    # regenerated table is followed correctly. --max-grow caps per-line growth.
     run(scripts / "lang5_system_pack.py",
         "--system-in", "work/build/SYSTEM.BIN.ne",
         "--system-out", "work/build/SYSTEM.BIN.en",
         "--strings", "data/translation/system_strings.json",
         "--tbl", "work/tables/lang5_en.tbl",
+        "--repack", "--max-grow", "4",
         "--strict")
 
     run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",

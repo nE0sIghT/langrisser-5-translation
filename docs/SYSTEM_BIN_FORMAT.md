@@ -96,9 +96,24 @@ python3 scripts/lang5_system_pack.py \
 - **`--repack`** — the offset table is regenerated from the actual string
   lengths, so a string may be longer or shorter (bounded by the group's total
   size). Because this moves later strings within the group, it is only safe if
-  the game locates strings by table index (not by absolute offset); verify in an
-  emulator before relying on it. `--max-grow N` then caps how many words wider
-  than the original each line may get.
+  the game locates strings by table index (not by absolute offset).
+  `--max-grow N` then caps how many words wider than the original each line may
+  get. The build uses `--repack --max-grow 4` so short kanji labels (`霊`, `竜`,
+  `剣聖`, `忍術`, `町長`, `執事`, …) can hold a real English word.
+
+  **Index addressing is verified in the EXE (so `--repack` is safe).** SYSTEM.BIN
+  is loaded to the fixed base `0x80134a00` (the constant is built at
+  `SLPS_018.19:0x8001a878` and confirmed against a live RAM dump). The engine
+  never holds absolute string pointers — it recomputes them from the relative
+  tables at runtime:
+  - init builds a string-pointer array as `ptr[k] = base + table[k]` (loop at
+    `0x8001a8ac`: `lhu` a table entry, `addu` the group base, `sw` to the array);
+  - the per-string accessor is `addr = base + table[k]*2` (`0x800184f0`:
+    `lhu`,`sll …,1`,`addu`), exactly the word-offset layout above.
+
+  Regenerating the table while keeping each group's base fixed therefore yields
+  addresses the engine reads correctly. A final in-game pass is still worthwhile,
+  but it is confirmation, not a gamble.
 
 ### Display limits
 
