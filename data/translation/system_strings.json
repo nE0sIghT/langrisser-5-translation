@@ -411,7 +411,7 @@
   "offset": "0x08408",
   "words": 6,
   "jp": "k詠唱中です",
-  "en": "is casting"
+  "en": " is casting"
  },
  {
   "group": 0,
@@ -1491,7 +1491,7 @@
   "offset": "0x089AE",
   "words": 9,
   "jp": "詠唱後の回復中です",
-  "en": "Recovering"
+  "en": " Recovering"
  },
  {
   "group": 0,
@@ -1509,7 +1509,7 @@
   "offset": "0x089D6",
   "words": 7,
   "jp": "部隊の行動です",
-  "en": "Unit action"
+  "en": " Unit action"
  },
  {
   "group": 0,
@@ -1617,7 +1617,7 @@
   "offset": "0x08A94",
   "words": 8,
   "jp": "の詠唱k終えた！",
-  "en": "Chant done！"
+  "en": " Chant done！"
  },
  {
   "group": 0,
@@ -1671,7 +1671,7 @@
   "offset": "0x08AF4",
   "words": 8,
   "jp": "魔法の詠唱k開始",
-  "en": "Start chant"
+  "en": " Start chant"
  },
  {
   "group": 0,
@@ -1725,7 +1725,7 @@
   "offset": "0x08B5A",
   "words": 8,
   "jp": "の詠唱k始めます",
-  "en": "Begin chant"
+  "en": " Begin chant"
  },
  {
   "group": 0,
@@ -1806,7 +1806,7 @@
   "offset": "0x08BC6",
   "words": 6,
   "jp": "行動济みです",
-  "en": "Acted"
+  "en": " Acted"
  },
  {
   "group": 0,
@@ -1815,7 +1815,7 @@
   "offset": "0x08BD4",
   "words": 6,
   "jp": "k詠唱中です",
-  "en": "is casting"
+  "en": " is casting"
  },
  {
   "group": 0,
