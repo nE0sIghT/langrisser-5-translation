@@ -10,8 +10,8 @@ import argparse
 import re
 from pathlib import Path
 
-from lang5_scen import (Codec, TAG_RE, consumes_argument, find_text_block,
-                        load_charmap_tbl, read_chunk_spans)
+from lang5_scen import (Codec, FORCE_PAGE_BREAK, TAG_RE, consumes_argument,
+                        find_text_block, load_charmap_tbl, read_chunk_spans)
 from lang5_sceninsert import align_up, rebuild_chunk_fixed, trim_blobs_to_fit
 
 ASCII_BAD = re.compile(r"[!?;—–]")
@@ -112,7 +112,7 @@ def main() -> None:
             if en[idx].count("<$FFF4>") != en[idx].count("<$FFF3>"):
                 print(f"chunk {cidx} rec {idx}: UNBALANCED highlight tags")
                 problems += 1
-            if ASCII_BAD.search(TAG_RE.sub("", en[idx])):
+            if ASCII_BAD.search(TAG_RE.sub("", en[idx].replace(FORCE_PAGE_BREAK, ""))):
                 print(f"chunk {cidx} rec {idx}: unsupported ASCII punctuation")
                 problems += 1
             try:

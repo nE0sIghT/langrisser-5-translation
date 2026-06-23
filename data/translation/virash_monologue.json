@@ -1,0 +1,17 @@
+{
+  "_comment": "Subtitle source for the Virash scenario-25 cutscene monologue (no in-game text; voiced narration of the Ancient Magic War). Audio: XA.PAC channel 2, 0-105.4s -> work/virash/VIRASH_MONOLOGUE.wav. JP corrected against the game script; EN uses canonical terms (Crimzo, Crimzonia, Crimzo Landers, Pelia, Chaos). Timings (s) are from faster-whisper segment boundaries at sentence breaks - approximate, refine when the subtitle method is chosen. See docs/virash_monologue.md.",
+  "audio": "work/virash/VIRASH_MONOLOGUE.wav",
+  "cues": [
+    { "id": 1,  "start": 0.0,   "end": 6.5,   "jp": "遥か昔、この地には赤と青の月があった。", "en": "Long ago, this land had two moons, one red and one blue." },
+    { "id": 2,  "start": 6.5,   "end": 12.0,  "jp": "赤い月をクリムゾ、青い月をペイリアという。", "en": "The red moon is called Crimzo; the blue, Pelia." },
+    { "id": 3,  "start": 12.0,  "end": 21.0,  "jp": "クリムゾには高度な魔法文明を築いたクリムゾニアという民が住んでいた。", "en": "On Crimzo lived a people called the Crimzonia, who built an advanced magical civilization." },
+    { "id": 4,  "start": 21.0,  "end": 38.8,  "jp": "クリムゾニアの中でも身分の低い労働階級は地上に降ろされ、この地に住んでいた人類ともどもクリムゾニア上流階級の支配を受けていた。", "en": "Among them, the lowly labor class was cast down to the surface, and with the humans living here, fell under the rule of the Crimzonia upper class." },
+    { "id": 5,  "start": 38.8,  "end": 54.5,  "jp": "さらにクリムゾニアの高度な魔動技術は混沌の神カオスとの契約さえも可能にし、呼び出した魔族まで労働力として使っていた。", "en": "Their advanced magic technology even let them make a pact with Chaos, the god of chaos, and they used the demons they summoned as labor too." },
+    { "id": 6,  "start": 48.6,  "end": 61.9,  "jp": "数百年という長い寿命を持つ彼らの栄華は永遠のものと思われた。", "en": "With lifespans of many centuries, their glory seemed eternal." },
+    { "id": 7,  "start": 61.9,  "end": 66.0,  "jp": "その栄華はある時終わりを迎える。", "en": "Yet that glory came to an end." },
+    { "id": 8,  "start": 66.0,  "end": 72.0,  "jp": "地上の労働階級者たちが反乱を起こしたのだ。", "en": "The labor class on the surface rose in revolt." },
+    { "id": 9,  "start": 72.0,  "end": 82.5,  "jp": "空を埋め尽くす空宙戦艦、地上にはひしめく魔動巨兵。", "en": "Sky battleships filled the heavens; magic giants swarmed the earth." },
+    { "id": 10, "start": 82.5,  "end": 96.3,  "jp": "高い魔動技術を使いこの世界すべてを巻き込んだ激しい戦いは、とても言葉で表せるほどのレベルではなかった。", "en": "The fierce war that engulfed the whole world with their high magic technology was beyond what words can describe." },
+    { "id": 11, "start": 96.3,  "end": 105.4, "jp": "その戦いの果てにクリムゾは本来の軌道を外れ、200年という超楕円軌道を描く衛星となったのだ。", "en": "At the end of that war, Crimzo was thrown from its true orbit and became a satellite tracing a 200-year extreme elliptical path." }
+  ]
+}

@@ -52,7 +52,7 @@
 # spk: Brenda
 29	<$FB00><$0017>I can't stay quiet any longer.<$FFFC>Isn't it time you told the truth？<$FFFE>
 # spk: Virash
-30	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0018>I suppose so. What I'm about<$FFFC>to tell you is all true. More than you<$FFFC>could ever imagine.<$FFFE>
+30	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0018>I suppose so. What I'm about<$FFFC>to tell you is all true. More than you<$FFFC>could ever imagine.<!FORCE$FFFD><$FFF4>Virash told his story…<$FFF3><!FORCE$FFFD>Long ago, this land had two moons, one red<$FFFC>and one blue.<$FFFD>The red moon is called Crimzo, the blue<$FFFC>one Pelia. On Crimzo lived the Crimzonia,<$FFFC>who built an advanced magical<$FFFC>civilization.<$FFFD>Among them, the lowly labor class was cast<$FFFC>down to the surface, falling with the<$FFFC>humans here under the Crimzonia upper<$FFFC>class.<$FFFD>Their high magic even made a pact with<$FFFC>Chaos, god of chaos, and the demons they<$FFFC>summoned were used as labor too.<$FFFD>With lifespans of many centuries, their<$FFFC>glory seemed eternal. Yet that glory came<$FFFC>to an end. The labor class on the surface<$FFFC>rose in revolt.<$FFFD>Sky battleships filled the heavens, and<$FFFC>magic giants swarmed the earth. The fierce<$FFFC>war their high magic loosed upon the world<$FFFC>was beyond words.<$FFFD>At the end of that war, Crimzo was flung<$FFFC>from its orbit, becoming a satellite on a<$FFFC>200-year elliptical path.<$FFFE>
 # spk: Mariandel
 31	<$FB00><$001A>I can't believe there was such<$FFFC>a terrible war<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Sigma

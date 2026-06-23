@@ -32,8 +32,8 @@ import argparse
 import re
 from pathlib import Path
 
-from lang5_scen import TAG_RE, Codec, consumes_argument, find_text_block, \
-    load_charmap_tbl, read_chunk_spans, words_from_bytes
+from lang5_scen import FORCE_PAGE_BREAK, TAG_RE, Codec, consumes_argument, \
+    find_text_block, load_charmap_tbl, read_chunk_spans, words_from_bytes
 from lang5_speakers import trace_vm_bytecode, u16, u32, vm_block
 
 LINE_BREAK = "<$FFFC>"
@@ -266,13 +266,18 @@ def structural_page_markers(text: str) -> list[tuple[int, int, str]]:
 
 
 def page_segments(text: str) -> list[str]:
-    """Split on structural page/end markers, ignoring control arguments."""
+    """Split on structural page/end markers, ignoring control arguments.
+
+    The authoring-only forced page break is a hard page boundary too, so it
+    splits pages here even though it is not a <$XXXX> tag.
+    """
     out: list[str] = []
-    start = 0
-    for a, b, _tag in structural_page_markers(text):
-        out.append(text[start:a])
-        start = b
-    out.append(text[start:])
+    for chunk in text.split(FORCE_PAGE_BREAK):
+        start = 0
+        for a, b, _tag in structural_page_markers(chunk):
+            out.append(chunk[start:a])
+            start = b
+        out.append(chunk[start:])
     return out
 
 
@@ -313,6 +318,22 @@ def compact_safe_pages(codec: Codec, text: str, width: int, reserve: int,
 def reflow_record(codec: Codec, text: str, width: int, reserve: int = 0,
                   force_plate: bool = False, max_lines: int = 4,
                   compact_pages: bool = True, tail_reserve: int = 0) -> str:
+    # A forced page break splits the record into segments that are reflowed
+    # independently, so compaction can never merge text across it. Only the
+    # first segment keeps the speaker plate (continuation pages redraw none),
+    # and only the last segment carries the yes/no tail reserve.
+    if FORCE_PAGE_BREAK in text:
+        segments = text.split(FORCE_PAGE_BREAK)
+        last = len(segments) - 1
+        out = [
+            reflow_record(codec, seg, width,
+                          reserve if i == 0 else 0,
+                          force_plate if i == 0 else False,
+                          max_lines, compact_pages,
+                          tail_reserve if i == last else 0)
+            for i, seg in enumerate(segments)
+        ]
+        return FORCE_PAGE_BREAK.join(out)
     # The plate reserve only applies to spoken records; narration windows
     # have no name plate. Some windows keep the previous speaker's plate
     # on records without their own FB00 marker (force_plate).

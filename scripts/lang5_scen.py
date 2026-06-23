@@ -28,6 +28,11 @@ TAG_RE = re.compile(r"<\$([0-9A-Fa-f]{4})>")
 PRINTABLE_LIMIT = 0xE000
 TERMINATOR_MIN = 0xFFF0
 
+# Authoring-only marker for a hard page break the reflow pass must never
+# compact. It encodes to a plain FFFD page break (the engine sees nothing
+# special); rewrap keeps it verbatim so a forced new page survives reflow.
+FORCE_PAGE_BREAK = "<!FORCE$FFFD>"
+
 
 def consumes_argument(word: int) -> bool:
     """Control opcodes whose next word is an argument, not text
@@ -194,6 +199,7 @@ class Codec:
         (bad in choice lists like Yes/No). A trailing single lowercase
         renders left-aligned and joins the word seamlessly.
         """
+        text = text.replace(FORCE_PAGE_BREAK, "<$FFFD>")
         out: list[int] = []
         i = 0
         while i < len(text):
