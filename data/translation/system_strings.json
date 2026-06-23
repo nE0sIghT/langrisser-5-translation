@@ -1401,7 +1401,7 @@
   "offset": "0x0890E",
   "words": 1,
   "jp": "{?0174}",
-  "en": "E"
+  "en": "Foe"
  },
  {
   "group": 0,
@@ -3129,7 +3129,7 @@
   "offset": "0x097FA",
   "words": 7,
   "jp": "ペガサスナイト",
-  "en": "Pegasus Knt."
+  "en": "Pegasus Knight"
  },
  {
   "group": 2,
@@ -3768,7 +3768,7 @@
   "offset": "0x09B60",
   "words": 7,
   "jp": "サーペンナイト",
-  "en": "Serp.Knight"
+  "en": "Serpent Knight"
  },
  {
   "group": 2,
@@ -3777,7 +3777,7 @@
   "offset": "0x09B70",
   "words": 7,
   "jp": "サーペンナイト",
-  "en": "Serp.Knight"
+  "en": "Serpent Knight"
  },
  {
   "group": 2,
@@ -3786,7 +3786,7 @@
   "offset": "0x09B80",
   "words": 7,
   "jp": "サーペンナイト",
-  "en": "Serp.Knight"
+  "en": "Serpent Knight"
  },
  {
   "group": 2,
@@ -8088,7 +8088,7 @@
   "offset": "0x0B836",
   "words": 6,
   "jp": "アイゼル将車",
-  "en": "Gn.Aizel"
+  "en": "General Aizel"
  },
  {
   "group": 9,
@@ -8394,7 +8394,7 @@
   "offset": "0x0B9EC",
   "words": 6,
   "jp": "将車エミリー",
-  "en": "Gn.Emily"
+  "en": "General Emily"
  },
  {
   "group": 9,
@@ -8448,7 +8448,7 @@
   "offset": "0x0BA48",
   "words": 5,
   "jp": "セレナ将車",
-  "en": "Gn.Serena"
+  "en": "General Selena"
  },
  {
   "group": 9,
@@ -8484,7 +8484,7 @@
   "offset": "0x0BA86",
   "words": 7,
   "jp": "魔将車ガイエル",
-  "en": "Gn.Gaiel"
+  "en": "Demon General Gaiel"
  },
  {
   "group": 9,
@@ -8565,7 +8565,7 @@
   "offset": "0x0BAFA",
   "words": 8,
   "jp": "六魔術師ジェシカ",
-  "en": "Mg.Jessica"
+  "en": "Mage Jessica"
  },
  {
   "group": 9,
@@ -10446,7 +10446,7 @@
   "offset": "0x0C49A",
   "words": 8,
   "jp": "クリムゾンナイツ",
-  "en": "C.Knights"
+  "en": "Crimzonian Knights"
  },
  {
   "group": 9,
@@ -11058,7 +11058,7 @@
   "offset": "0x0CA2A",
   "words": 6,
   "jp": "アイゼル将車",
-  "en": "Gn.Aizel"
+  "en": "General Aizel"
  },
  {
   "group": 10,
@@ -11364,7 +11364,7 @@
   "offset": "0x0CBD6",
   "words": 6,
   "jp": "将車エミリー",
-  "en": "Gn.Emily"
+  "en": "General Emily"
  },
  {
   "group": 10,
@@ -11418,7 +11418,7 @@
   "offset": "0x0CC32",
   "words": 5,
   "jp": "セレナ将車",
-  "en": "Gn.Serena"
+  "en": "General Selena"
  },
  {
   "group": 10,
@@ -11454,7 +11454,7 @@
   "offset": "0x0CC70",
   "words": 7,
   "jp": "魔将車ガイエル",
-  "en": "Gn.Gaiel"
+  "en": "Demon General Gaiel"
  },
  {
   "group": 10,
@@ -11535,7 +11535,7 @@
   "offset": "0x0CCE4",
   "words": 8,
   "jp": "六魔術師ジェシカ",
-  "en": "Mg.Jessica"
+  "en": "Mage Jessica"
  },
  {
   "group": 10,
@@ -13416,7 +13416,7 @@
   "offset": "0x0D58C",
   "words": 8,
   "jp": "クリムゾンナイツ",
-  "en": "C.Knights"
+  "en": "Crimzonian Knights"
  },
  {
   "group": 10,
@@ -13704,7 +13704,7 @@
   "offset": "0x0D6E2",
   "words": 6,
   "jp": "アイゼル将車",
-  "en": "Gn.Aizel"
+  "en": "General Aizel"
  },
  {
   "group": 10,
@@ -13749,7 +13749,7 @@
   "offset": "0x0D72A",
   "words": 6,
   "jp": "将車エミリー",
-  "en": "Gn.Emily"
+  "en": "General Emily"
  },
  {
   "group": 10,
@@ -13776,7 +13776,7 @@
   "offset": "0x0D758",
   "words": 5,
   "jp": "セレナ将車",
-  "en": "Gn.Serena"
+  "en": "General Selena"
  },
  {
   "group": 10,
@@ -13794,7 +13794,7 @@
   "offset": "0x0D776",
   "words": 7,
   "jp": "魔将車ガイエル",
-  "en": "Gn.Gaiel"
+  "en": "Demon General Gaiel"
  },
  {
   "group": 10,
@@ -13839,7 +13839,7 @@
   "offset": "0x0D7C8",
   "words": 8,
   "jp": "六魔術師ジェシカ",
-  "en": "Mg.Jessica"
+  "en": "Mage Jessica"
  },
  {
   "group": 10,
