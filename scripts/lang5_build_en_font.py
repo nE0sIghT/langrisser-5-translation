@@ -36,6 +36,12 @@ NATIVE_VISUAL_OVERRIDES = {
     0x0182: ":",  # native colon leaves a visible gap before :Gnome-style labels.
     **{0x0007 + i: str(i) for i in range(10)},  # keep digit pairs/singles visually uniform.
 }
+# Render-only substitution: the fullwidth ！／？ glyphs are 10px wide, so a
+# combined pair tile (！？, ？！) draws the second one past the 12px cell and
+# clips its right edge. The single ！／？ already render as the narrow ASCII
+# forms (NATIVE_VISUAL_OVERRIDES), so render the pairs the same way. The .tbl /
+# encoder keys stay fullwidth, so the source text still maps to these tiles.
+RENDER_SUBST = {"！": "!", "？": "?"}
 
 
 def pick_fonts(path: str, size: int) -> list[ImageFont.FreeTypeFont]:
@@ -73,6 +79,7 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
     for k, ch in enumerate(text[:2]):
         if ch == " ":
             continue
+        ch = RENDER_SUBST.get(ch, ch)
         font = next((f for f in fonts if font_has(f, ch)), fonts[0])
         ascent, _descent = font.getmetrics()
         bbox = d.textbbox((0, 0), ch, font=font)
