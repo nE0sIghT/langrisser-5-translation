@@ -19,6 +19,16 @@ How to use it:
 
 Background and the decoded mechanism are in `docs/SPEAKER_NAME_EXTRACTION.md`.
 
+## Chunk 4
+
+Name pool: Sigma, Lambda, Clarett, Alfred, Brenda, Lanford, Town, Goldry, Wiler,
+Officer, Guard, Selena. A town under attack; the panicking residents speak under
+the 町人 = "Town" plate (kept short for the plate width).
+
+| record | speaker | phrase |
+|---|---|---|
+| 79 | Town | I refuse to die caught up in someone's war！ |
+
 ## Chunk 45
 
 Name pool: Sigma, Lambda, Clarett, Alfred, Brenda, Lanford, Machine, Voice, Woman.
