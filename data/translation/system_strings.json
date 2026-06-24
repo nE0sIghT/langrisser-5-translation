@@ -10554,7 +10554,7 @@
   "offset": "0x0C512",
   "words": 3,
   "jp": "シゲマ",
-  "en": "Sigma"
+  "en": "Sigema"
  },
  {
   "group": 9,
@@ -10563,7 +10563,7 @@
   "offset": "0x0C51A",
   "words": 6,
   "jp": "ラソフォード",
-  "en": "Lanford"
+  "en": "Lasford"
  },
  {
   "group": 9,
@@ -10572,7 +10572,7 @@
   "offset": "0x0C528",
   "words": 6,
   "jp": "アルフしッド",
-  "en": "Alfred"
+  "en": "Alfsed"
  },
  {
   "group": 9,
@@ -13524,7 +13524,7 @@
   "offset": "0x0D5F8",
   "words": 3,
   "jp": "シゲマ",
-  "en": "Sigma"
+  "en": "Sigema"
  },
  {
   "group": 10,
@@ -13533,7 +13533,7 @@
   "offset": "0x0D600",
   "words": 6,
   "jp": "ラソフォード",
-  "en": "Lanford"
+  "en": "Lasford"
  },
  {
   "group": 10,
@@ -13542,7 +13542,7 @@
   "offset": "0x0D60E",
   "words": 6,
   "jp": "アルフしッド",
-  "en": "Alfred"
+  "en": "Alfsed"
  },
  {
   "group": 10,

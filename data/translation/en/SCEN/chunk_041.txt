@@ -6,9 +6,9 @@
 4	Alfred<$FFFF>
 5	Brenda<$FFFF>
 6	Lanford<$FFFF>
-7	Shigema<$FFFF>
-8	Lanford<$FFFF>
-9	Alfred<$FFFF>
+7	Sigema<$FFFF>
+8	Lasford<$FFFF>
+9	Alfsed<$FFFF>
 10	Helper<$FFFF>
 11	Shop<$FFFF>
 12	Baran<$FFFF>
@@ -18,53 +18,53 @@
 15	・Wipe out the impostors<$FFFE>
 16	・All 3 heroines lured off by impostors<$FFFC>・<$F600><$0000> dies<$FFFE>
 17	Town in the Mountains<$FFFF>
-# spk: Shigema
+# spk: Sigema
 18	Nuuurgh！ Well？ Don't you think<$FFFC>it's a spitting image？<$FFFE>
 # spk: Lanford
 19	Impressive, des！ Even the voice<$FFFC>is identical, des！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 20	Mm. The casting was listed in a<$FFFC>game magazine, so I got the general feel.<$FFFD>For me, who trains daily, nothing is<$FFFC>impossible.<$FFFE>
 # spk: Alfred
 21	Bro. This stage has no voice<$FFFC>acting, des.<$FFFE>
-# spk: Shigema
+# spk: Sigema
 22	…<$FE14>…<$FE14>…<$FE14>…<$FE14> Did you say something？<$FFFE>
 # spk: Alfred
 23	N-nothing at all, des！<$FFFE>
 # spk: Lanford
 24	Now the <$FFF4>Save the Gym<$FFF3> operation<$FFFC>is sure to succeed, des！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 25	Mm. A gym truly needs some<$FFFC>flair. That is why I put on this disguise.<$FFFD>Now we simply recruit the young ladies<$FFFC>around here.<$FFFE>
 # spk: Lanford
 26	Then membership will boom, the<$FFFC>gym will be spotless, and it won't reek of<$FFFC>sweat anymore, des！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 27	You fool～！ Sweat is the true<$FFFC>status of a real man！ How dare you call it<$FFFC>a stink！<$FFFE>
 # spk: Alfred
 28	W-why are you coming out from<$FFFC>over there, des？<$FFFE>
 # spk: Lanford
 29	The earth was round, des…<$FFFE>
-# spk: Shigema
+# spk: Sigema
 30	In any case, this is where our<$FFFC>strength is put to the test.<$FFFE>
 # spk: Helper
-31	U-umm～. Are you Mr. Shigema？<$FFFE>
-# spk: Shigema
+31	U-umm～. Are you Mr. Sigema？<$FFFE>
+# spk: Sigema
 32	Hm？ I'm sure I hired one more<$FFFC>part-timer？<$FFFE>
 # spk: Helper
 33	Eh！ They haven't arrived yet？<$FFFD>Maybe they got lost<$FFF8>…<$FFFE>
 # spk: Lanford
 34	B-Bro！ Who in the world is<$FFFC>this girl, des？<$FFFE>
-# spk: Shigema
+# spk: Sigema
 35	A part-timer I hired to make<$FFFC>this operation succeed. I've asked her to<$FFFC>defeat anyone who gets in our way.<$FFFE>
 # spk: Alfred
 36	You're making a girl fight, des？<$FFFE>
-# spk: Shigema
+# spk: Sigema
 37	We have a great mission,<$FFFC>recruitment. That too is a noble battle.<$FFFE>
 # spk: Alfred
 38	That's no excuse, des…<$FFFE>
-# spk: Shigema
+# spk: Sigema
 39	…<$FE14>…<$FE14>…<$FE14>…<$FE14> Did you say something？<$FFFE>
 # spk: Alfred
 40	N-nothing at all, des！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 41	Anyway, we begin recruiting now.<$FFFC>Everyone, to your posts！<$FFFE>
 # spk: Alfred
 42	I think it's around here<$FFFC>somewhere<$FFF8>…<$FFFE>
@@ -79,9 +79,9 @@
 # spk: Sigma
 47	Ahh<$FFF8>…<$FFFE>
 # spk: Helper
-48	Sorry I'm late！ You're Mr.<$FFFC>Shigema, right？<$FFFE>
+48	Sorry I'm late！ You're Mr.<$FFFC>Sigema, right？<$FFFE>
 # spk: Sigma
-49	Shigema？ I'm <$F600><$0000>,<$FFFC>though？<$FFFE>
+49	Sigema？ I'm <$F600><$0000>,<$FFFC>though？<$FFFE>
 # spk: Helper
 50	Huh？ But you're the trio I was<$FFFC>told about<$FFF8>…<$FFFD><$FFF6>Anyway, I'll work hard, so please overlook<$FFFC>my being late.<$FFFE>
 # spk: Alfred
@@ -122,19 +122,19 @@
 68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
 # spk: Mariandel
 69	What's wrong？ did you find the<$FFFC>treasure？<$FFFE>
-# spk: Shigema
+# spk: Sigema
 70	T-treasure！？<$FFFE>
 # spk: Mariandel
 71	By the look of it, you haven't<$FFFC>found it.<$FFFE>
-# spk: Shigema
+# spk: Sigema
 72	T-the treasure, it's the gym.<$FFFC>You can see it right there.<$FFFE>
 # spk: Mariandel
 73	It certainly is a suspicious<$FFFC>place.<$FFFE>
-# spk: Shigema
+# spk: Sigema
 74	The truth is, our impostors are<$FFFC>holed up in that place. Could you guard<$FFFC>the treasure over there？<$FFFE>
 # spk: Mariandel
 75	Impostors？<$FFFE>
-# spk: Shigema
+# spk: Sigema
 76	Mm. Once the impostors are<$FFFC>beaten, we'll split the treasure evenly.<$FFFE>
 # spk: Mariandel
 77	Fine. I just go ahead and<$FFFC>guard it, right？<$FFFE>
@@ -401,13 +401,13 @@
 223	If I get beaten here, my pay…<$FFFE>
 # spk: Helper
 224	What are you doing！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 225	Why are you getting in my<$FFFC>way～！！<$FFFE>
 # spk: Alfred
 226	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Lanford
 227	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 228	NOOOOO！ what are you<$FFFC>doing, little girl！<$FFFE>
 # spk: Alfred
 229	NOOOOO！ that hurts, des！<$FFFE>
@@ -429,13 +429,13 @@
 237	That hurts～.<$FFFE>
 # spk: Helper
 238	What are you doing！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 239	Why are you getting in my<$FFFC>way～！！<$FFFE>
 # spk: Alfred
 240	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Lanford
 241	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
-# spk: Shigema
+# spk: Sigema
 242	NOOOOO！ what are you<$FFFC>doing, little girl！<$FFFE>
 # spk: Alfred
 243	NOOOOO！ that hurts, des！<$FFFE>
@@ -451,7 +451,7 @@
 248	What is the meaning of this？<$FFFE>
 # spk: Lanford
 249	Now what is the meaning of<$FFFC>this？<$FFFE>
-# spk: Shigema
+# spk: Sigema
 250	Nuuurgh… so I was caught off<$FFFC>guard…<$FFFE>
 # spk: Baran
 251	Baran has arrived！ well done<$FFFC>seeing through my disguise！ but that is<$FFFC>where your luck runs out！<$FFFD>today becomes the day you die<$00E4><$00E5><$00E6>！<$FFFE>
