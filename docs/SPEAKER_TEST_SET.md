@@ -11,7 +11,7 @@ How to use it:
 - Run `python3 scripts/lang5_check_speakers.py`; it must print `OK`.
 - When you confirm a plate in game (the name shown on a dialogue window), add a
   row here. Each row is `| record | speaker | phrase |` under its `## Chunk N`
-  heading. `record` is the record index in `data/translation/en/SCEN/chunk_N.txt`;
+  heading. `record` is the record index in `data/lang/en/SCEN/chunk_N.txt`;
   `speaker` is the exact English plate name, `(no plate)`, or
   `(location/crowd)`; `phrase` is the line, for humans.
 - A failure here is a real bug in the extractor, not a reason to edit the test:

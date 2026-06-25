@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Annotate the EN script dump with the speaker plate for each record.
+"""Annotate the target-language script dump with the speaker plate for each record.
 
 Inserts a ``# spk: <name>`` comment line before every dialogue record in
-``data/translation/en/SCEN/chunk_*.txt`` so the translation can be read with its
+``data/lang/<lang>/SCEN/chunk_*.txt`` so the translation can be read with its
 speaker in view. ``SCEN`` is the canonical translation source; ``SCEN2.DAT`` is
 rebuilt from the same dump, so this script does not touch a ``SCEN2`` dump unless
 ``--include-scen2`` is requested explicitly. The
 speaker comes from the same display-command extraction the wrapper uses
 (``semantic_plate_slots``: name-pool slot at display byte +9, record =
-pool_size + 1 + text id), and the name from the chunk's own English plate
+pool_size + 1 + text id), and the name from the chunk's own translated plate
 records (1..pool_size). ``# spk:`` lines (and all ``#`` lines) are ignored by
 lang5_rewrap.py and lang5_sceninsert.py, so this never affects the build.
 
@@ -19,6 +19,7 @@ import argparse
 import re
 from pathlib import Path
 
+from lang5_project import add_language_args, language_from_args
 from lang5_rewrap import semantic_plate_slots, speaker_pool_sizes
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
@@ -26,7 +27,7 @@ SPK_RE = re.compile(r"^#\s*spk:")
 
 
 def plate_names(lines: list[str], pool_size: int) -> dict[int, str]:
-    """Record index -> English plate name, from records 1..pool_size."""
+    """Record index -> translated plate name, from records 1..pool_size."""
     names: dict[int, str] = {}
     for raw in lines:
         if "\t" not in raw or raw.startswith("#"):
@@ -65,17 +66,22 @@ def annotate_file(fp: Path, slots: dict[int, int | None], pool_size: int) -> int
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--en-dump", default="data/translation/en")
+    add_language_args(ap)
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--include-scen2", action="store_true",
                     help="Also annotate an existing SCEN2 dump. Default is SCEN only.")
     args = ap.parse_args()
+    lang = language_from_args(args)
+    dump_root = (Path(args.translation_root)
+                 if args.translation_root else lang.dump_root)
 
     scen = Path(args.scen)
     slots_by_chunk = semantic_plate_slots(scen)
     pool_sizes = speaker_pool_sizes(scen)
 
-    root = Path(args.en_dump)
+    root = dump_root
     if root.name in {"SCEN", "SCEN2"}:
         target_dirs = [root]
     else:

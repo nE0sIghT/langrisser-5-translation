@@ -19,6 +19,7 @@ import json
 import struct
 from pathlib import Path
 
+from lang5_project import add_language_args, language_from_args
 from lang5_scen import load_charmap_tbl
 
 # Original grid content, in SYSTEM.BIN run order. The trailing space in
@@ -119,15 +120,24 @@ def patch_exe(blob: bytearray, orig: list[list[int]], new: list[list[int]]) -> N
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--grid", default="data/translation/name_entry_grid.json")
-    ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
+    add_language_args(ap)
+    ap.add_argument("--grid", default=None)
+    ap.add_argument("--tbl", default=None)
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.menu")
-    ap.add_argument("--system-out", default="work/build/SYSTEM.BIN.en")
+    ap.add_argument("--system-out", default=None)
     ap.add_argument("--exe-in", default="work/extracted/SLPS_018.19")
-    ap.add_argument("--exe-out", default="work/build/SLPS_018.19.en")
+    ap.add_argument("--exe-out", default=None)
     args = ap.parse_args()
 
-    tok2char = load_charmap_tbl(Path(args.tbl))
+    lang = language_from_args(args)
+    grid = Path(args.grid) if args.grid else lang.name_entry_grid
+    tbl = Path(args.tbl) if args.tbl else lang.tbl
+    system_out = (Path(args.system_out) if args.system_out
+                  else lang.build_path("SYSTEM.BIN.{lang}.ne"))
+    exe_out = (Path(args.exe_out) if args.exe_out
+               else lang.build_path("SLPS_018.19.{lang}"))
+
+    tok2char = load_charmap_tbl(tbl)
     char2tok: dict[str, int] = {}
     for tok, ch in tok2char.items():
         if len(ch) == 1:
@@ -139,18 +149,16 @@ def main() -> None:
         jp2tok.setdefault(full, char2tok[half])
 
     orig = encode_runs(ORIG_RUNS, jp2tok)
-    new = encode_runs(json.loads(Path(args.grid).read_text(encoding="utf-8"))["runs"],
-                      char2tok)
+    new = encode_runs(json.loads(grid.read_text(encoding="utf-8"))["runs"], char2tok)
 
     for src, dst, patch in (
-        (args.system_in, args.system_out, patch_system),
-        (args.exe_in, args.exe_out, patch_exe),
+        (Path(args.system_in), system_out, patch_system),
+        (Path(args.exe_in), exe_out, patch_exe),
     ):
-        blob = bytearray(Path(src).read_bytes())
+        blob = bytearray(src.read_bytes())
         patch(blob, orig, new)
-        out = Path(dst)
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_bytes(bytes(blob))
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_bytes(bytes(blob))
         print(f"name-entry grid patched: {src} -> {dst}")
 
 

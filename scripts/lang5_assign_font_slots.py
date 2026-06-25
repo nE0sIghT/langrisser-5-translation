@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Maintain EN glyph slot assignments (singles, punctuation, letter pairs).
+"""Maintain target-language glyph slot assignments.
 
-Collects every single char and lowercase pair needed by the current EN
+Collects every single char and lowercase pair needed by the current target
 texts (script dump translations + menu map values), keeps all existing
 assignments stable, and assigns new needs to the cheapest sacrificial
 kanji slots: confirmed kanji, unused in chunk 0, unused in menu/UI string
@@ -15,6 +15,7 @@ import re
 import struct
 from pathlib import Path
 
+from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
 from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, words_from_bytes
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
@@ -43,13 +44,13 @@ def word_pairs(w: str):
             i += 1
 
 
-def map_en_texts(mp: Path) -> list[str]:
-    """EN strings from a translation map (dict {jp: en} or unified list)."""
+def map_target_texts(mp: Path) -> list[str]:
+    """Target strings from a translation map or unified string list."""
     data = json.loads(mp.read_text(encoding="utf-8"))
     if isinstance(data, dict):
         return list(data.values())
-    return [e["en"] for e in data
-            if (e.get("en") or "").strip() and e["en"] != "{BLANK}"]
+    return [e["text"] for e in data
+            if (e.get("text") or "").strip() and e["text"] != "{BLANK}"]
 
 
 def map_jp_keys(mp: Path) -> set[str]:
@@ -60,7 +61,8 @@ def map_jp_keys(mp: Path) -> set[str]:
     return {e["jp"] for e in data if e.get("jp")}
 
 
-def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
+def needed_units(translation_root: Path, menu_maps: list[Path],
+                 extra_singles: str = ""):
     """Return (singles, menu_pairs, spacing_pairs, script_pairs).
 
     Menu labels must fit fixed slot counts, so they get the full pairing
@@ -74,19 +76,20 @@ def needed_units(en_dump_dir: Path, menu_maps: list[Path]):
     assigned while the sacrificial pool lasts.
     """
     script_texts: list[str] = []
-    for fp in sorted(en_dump_dir.glob("*/chunk_*.txt")):
+    for fp in sorted(translation_root.glob("*/chunk_*.txt")):
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
                 script_texts.append(TAG_RE.sub("", raw.split("\t", 1)[1]))
     menu_texts: list[str] = []
     for mp in menu_maps:
         if mp.exists():
-            menu_texts.extend(map_en_texts(mp))
+            menu_texts.extend(map_target_texts(mp))
 
     singles: set[str] = set()
     menu_pairs: collections.Counter = collections.Counter()
     spacing_pairs: collections.Counter = collections.Counter()
     script_pairs: collections.Counter = collections.Counter()
+    singles.update(extra_singles)
     for t in script_texts + menu_texts:
         for ch in t:
             if ch in SINGLES:
@@ -189,9 +192,11 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
-    ap.add_argument("--assignments", default="data/font_mapping/en_slot_assignments.csv")
-    ap.add_argument("--en-dump", default="data/translation/en")
+    add_language_args(ap)
+    ap.add_argument("--groups-report", default=None)
+    ap.add_argument("--assignments", default=None)
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
     ap.add_argument("--menu-map", action="append",
                     default=None,
                     help="Translation maps (repeatable); defaults to menu+names maps.")
@@ -199,17 +204,24 @@ def main() -> None:
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     args = ap.parse_args()
 
+    lang = language_from_args(args)
+    groups_report = Path(args.groups_report) if args.groups_report else COMMON_FONT_MAP
+    assignments = Path(args.assignments) if args.assignments else lang.font_assignments
+    translation_root = (Path(args.translation_root)
+                        if args.translation_root else lang.dump_root)
+
     existing: dict[str, int] = {}
     rows = []
-    apath = Path(args.assignments)
+    apath = assignments
     if apath.exists():
         rows = list(csv.DictReader(open(apath, encoding="utf-8")))
         for r in rows:
-            existing[r["en_char"]] = int(r["index_dec"])
+            existing[r["char"]] = int(r["index_dec"])
 
-    maps = [Path(p) for p in (args.menu_map or
-            ["data/translation/system_strings.json"])]
-    singles, menu_pairs, spacing_pairs, script_pairs = needed_units(Path(args.en_dump), maps)
+    maps = [Path(p) for p in (args.menu_map or [str(lang.system_strings)])]
+    singles, menu_pairs, spacing_pairs, script_pairs = needed_units(
+        translation_root, maps, lang.single_chars
+    )
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
     optional = [p for p, _ in spacing_pairs.most_common()
@@ -225,7 +237,7 @@ def main() -> None:
         if mp.exists():
             translated_keys |= map_jp_keys(mp)
     pool = [i for i in sacrificial_pool(
-        Path(args.groups_report), Path(args.scen), Path(args.scen2),
+        groups_report, Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",
                            "work/extracted/ALLUSW.BIN")],
         translated_keys,
@@ -242,19 +254,19 @@ def main() -> None:
 
     src = {int(r["index_dec"]): r["replaced_char"] for r in rows} if rows else {}
     gmap = {}
-    for r in csv.DictReader(open(args.groups_report, encoding="utf-8")):
+    for r in csv.DictReader(open(groups_report, encoding="utf-8")):
         if r["index_dec"].isdigit():
             gmap[int(r["index_dec"])] = r["char"]
 
     for unit in need:
         slot = pool.pop(0)
-        rows.append({"index_dec": str(slot), "en_char": unit,
+        rows.append({"index_dec": str(slot), "char": unit,
                      "replaced_char": gmap.get(slot, "")})
 
     with apath.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(
             f,
-            fieldnames=["index_dec", "en_char", "replaced_char"],
+            fieldnames=["index_dec", "char", "replaced_char"],
             lineterminator="\n",
         )
         w.writeheader()

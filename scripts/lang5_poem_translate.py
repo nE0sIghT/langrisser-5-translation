@@ -4,7 +4,7 @@
 The poem is an 8bpp indexed bitmap (768x252) drawn on the title attract loop.
 The engine treats the three 256px-wide panels as one tall scroll (panel 0 on
 top, then 1, then 2) and pans it upward. This redraws the poem from
-`data/translation/poem_prologue.txt` onto that continuous strip (height*3, no
+the selected language pack's poem text onto that continuous strip (height*3, no
 gap between panels), then slices it back into the three panels at the exact
 panel boundaries, so a line straddling a boundary rejoins seamlessly. The image
 keeps its size, so the result can be injected into the BIN like any other
@@ -21,6 +21,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+
+from lang5_project import add_language_args, language_from_args
 
 SCRIPTS = Path(__file__).resolve().parent
 _spec = importlib.util.spec_from_file_location("lang5_imgdat", SCRIPTS / "lang5_imgdat.py")
@@ -166,7 +168,7 @@ def layout_strip(lines: list[str], stamps: list[LineStamp | None],
     screens: a line that straddles a panel boundary is simply split and rejoined.
     Blank lines (the block separators) are kept as empty slots, so the whole poem
     sits on one uniform grid. The pitch is the original 20px unless the (longer)
-    English text must be compressed to keep a readable blank tail at the bottom of
+    Translated text must be compressed to keep a readable blank tail at the bottom of
     the last screen.
     """
     last_slot = max(1, len(lines) - 1)
@@ -182,12 +184,17 @@ def layout_strip(lines: list[str], stamps: list[LineStamp | None],
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
     ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
-    ap.add_argument("--poem", default="data/translation/poem_prologue.txt")
+    ap.add_argument("--poem", default=None)
     ap.add_argument("--out-imgdat", default="work/build/IMG.DAT.poem")
-    ap.add_argument("--out-preview", default="work/build/poem_en_preview.png")
+    ap.add_argument("--out-preview", default=None)
     ap.add_argument("--font", default=FONT)
     args = ap.parse_args()
+    lang = language_from_args(args)
+    poem_path = Path(args.poem) if args.poem else lang.poem
+    preview_path = (Path(args.out_preview) if args.out_preview
+                    else lang.build_path("poem_{lang}_preview.png"))
 
     data = imd.read_img(args.imgdat)
     ent, asset = imd.get_asset(data, ASSET_INDEX)
@@ -202,7 +209,7 @@ def main() -> None:
     ov_h = len(imd.decode_image(asset, ov_start, ov_packets, width, ov_br)) if ov_packets else 0
     col_h = main_h + ov_h
 
-    lines = load_lines(Path(args.poem))
+    lines = load_lines(poem_path)
     if not any(s.strip() for s in lines):
         raise SystemExit("poem file has no text lines")
 
@@ -251,10 +258,10 @@ def main() -> None:
     for y, row in enumerate(full):
         for x, value in enumerate(row):
             px[x, y] = palette[value]
-    Path(args.out_preview).parent.mkdir(parents=True, exist_ok=True)
-    preview.save(args.out_preview)
+    preview_path.parent.mkdir(parents=True, exist_ok=True)
+    preview.save(preview_path)
     print(f"patched IMG.DAT -> {out}")
-    print(f"poem preview -> {args.out_preview}")
+    print(f"poem preview -> {preview_path}")
     print(
         "poem layout: "
         f"pitch={pitch} lines={len(lines)} blocks={[len(b) for b in blocks]} "

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Bootstrap the EN translation dump for the startup quiz (chunk 0).
+"""Bootstrap the target-language translation dump for the startup quiz (chunk 0).
 
-Takes the JP dump and data/translation/manual_record_overrides.json and
-produces editable EN chunk files. Structure-preserving merge: control
+Takes the JP dump and the language pack's manual_record_overrides.json and
+produces editable target chunk files. Structure-preserving merge: control
 words and their arguments are kept, FFFC line breaks are re-flowed for
-the EN text, a leading choice marker (・) is preserved. Records whose
+the target text, a leading choice marker (・) is preserved. Records whose
 text is interleaved with other control words are left in Japanese and
 reported for manual editing.
 """
@@ -13,6 +13,7 @@ import json
 import re
 from pathlib import Path
 
+from lang5_project import add_language_args, language_from_args
 from lang5_scen import TAG_RE, Codec, consumes_argument, load_charmap_csv
 
 WRAP = 26  # glyph cells per dialog line
@@ -35,7 +36,7 @@ def parse_items(line: str) -> list[tuple[str, bool]]:
     return items
 
 
-def wrap_en(text: str, width: int) -> list[str]:
+def wrap_text(text: str, width: int) -> list[str]:
     words = text.split()
     lines: list[str] = []
     cur = ""
@@ -52,8 +53,8 @@ def wrap_en(text: str, width: int) -> list[str]:
     return lines or [""]
 
 
-def merge_record(line: str, en: str) -> str | None:
-    """Return the merged EN dump line, or None if structure is too complex."""
+def merge_record(line: str, target: str) -> str | None:
+    """Return the merged target line, or None if structure is too complex."""
     items = parse_items(line)
 
     # Mark argument tags (word after F600/FBxx).
@@ -89,8 +90,8 @@ def merge_record(line: str, en: str) -> str | None:
     if items[first][0] == "・":
         marker = "・"
 
-    en_norm = " ".join(en.split()).translate(ASCII_NORMALIZE)
-    body = "<$FFFC>".join(wrap_en(en_norm, WRAP))
+    normalized = " ".join(target.split()).translate(ASCII_NORMALIZE)
+    body = "<$FFFC>".join(wrap_text(normalized, WRAP))
     return f"{prefix}{marker}{body}{suffix}"
 
 
@@ -103,11 +104,11 @@ def build_chunk(src_path: Path, overrides: dict[int, str]) -> tuple[list[str], l
             continue
         idx_s, text = raw.split("\t", 1)
         idx = int(idx_s)
-        en = overrides.get(idx)
-        if not en:
+        target = overrides.get(idx)
+        if not target:
             out_lines.append(raw)
             continue
-        merged = merge_record(text, en)
+        merged = merge_record(text, target)
         if merged is None:
             manual.append(idx)
             out_lines.append(raw)
@@ -118,12 +119,17 @@ def build_chunk(src_path: Path, overrides: dict[int, str]) -> tuple[list[str], l
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
     ap.add_argument("--jp-dump", default="work/scriptdump")
-    ap.add_argument("--overrides", default="data/translation/manual_record_overrides.json")
-    ap.add_argument("--out-dir", default="data/translation/en")
+    ap.add_argument("--overrides", default=None)
+    ap.add_argument("--out-dir", default=None)
     args = ap.parse_args()
 
-    raw = json.loads(Path(args.overrides).read_text(encoding="utf-8"))
+    lang = language_from_args(args)
+    overrides_path = Path(args.overrides) if args.overrides else lang.manual_record_overrides
+    out_dir = Path(args.out_dir) if args.out_dir else lang.dump_root
+
+    raw = json.loads(overrides_path.read_text(encoding="utf-8"))
     per_file: dict[str, dict[int, str]] = {}
     for key, val in raw.items():
         fname, cidx, ridx = key.split(":")
@@ -135,7 +141,7 @@ def main() -> None:
         stem = Path(fname).stem
         src = Path(args.jp_dump) / stem / "chunk_000.txt"
         lines, manual = build_chunk(src, overrides)
-        out = Path(args.out_dir) / stem / "chunk_000.txt"
+        out = out_dir / stem / "chunk_000.txt"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text("\n".join(lines) + "\n", encoding="utf-8")
         print(f"{fname}: translated={len(overrides)-len(manual)} manual_needed={manual}")

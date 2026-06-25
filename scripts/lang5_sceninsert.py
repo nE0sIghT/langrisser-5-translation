@@ -20,6 +20,7 @@ import argparse
 import struct
 from pathlib import Path
 
+from lang5_project import COMMON_FONT_MAP
 from lang5_scen import (
     Codec,
     TextBlock,
@@ -268,7 +269,7 @@ def main() -> None:
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--dump-dir", default="work/scriptdump")
-    ap.add_argument("--charmap", default="data/font_mapping/groups_report.csv",
+    ap.add_argument("--charmap", default=str(COMMON_FONT_MAP),
                     help="groups_report.csv or a HHHH=c .tbl file")
     ap.add_argument("--out-scen", default="work/build/SCEN.DAT")
     ap.add_argument("--out-scen2", default="work/build/SCEN2.DAT")

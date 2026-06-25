@@ -63,7 +63,7 @@ So the default `Sigma` collided with `g9[292]` → rejected. Confirmed end to en
 ## Why GOOD vs BAD differed
 
 `g9/g10 idx292` (`シゲマ`) carries `en: "Sigma"` in
-`data/translation/system_strings.json` (added with the unified flow, `9597c2f`).
+`data/lang/en/system_strings.json` (added with the unified flow, `9597c2f`).
 
 | build | g9 idx292 | default `Sigma` accepted? |
 |---|---|---|

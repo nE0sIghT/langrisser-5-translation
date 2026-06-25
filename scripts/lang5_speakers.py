@@ -740,7 +740,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
-    ap.add_argument("--font-map", default="data/font_mapping/groups_report.csv")
+    ap.add_argument("--font-map", default="data/common/font_mapping/groups_report.csv")
     ap.add_argument("--out", default="work/vm_dialog_refs/speaker_refs.csv")
     ap.add_argument("--trace-out", help="write conservative bytecode trace CSV")
     ap.add_argument("--chunk", type=int, action="append", help="scan only this chunk index; may repeat")

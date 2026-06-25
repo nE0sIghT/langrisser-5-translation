@@ -11,7 +11,7 @@ fixed base so nothing that points at it has to move).
 Per-string the limit is the on-screen line width, not the data: each string is
 one display line, so by default a translation may not render wider than the
 original line did (`--max-grow` raises that cap deliberately). Strings left
-untranslated keep their original bytes; `en == "{BLANK}"` clears the line.
+untranslated keep their original bytes; `text == "{BLANK}"` clears the line.
 
 See docs/SYSTEM_BIN_FORMAT.md.
 """
@@ -22,6 +22,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lang5_project import add_language_args, language_from_args
 from lang5_scen import Codec, load_charmap_tbl
 from lang5_system_dump import find_groups, run_length
 
@@ -47,10 +48,11 @@ def reserve_leading_cells(orig: list[int]) -> list[int]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.font")
-    ap.add_argument("--system-out", default="work/build/SYSTEM.BIN.en")
-    ap.add_argument("--strings", default="data/translation/system_strings.json")
-    ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
+    ap.add_argument("--system-out", default=None)
+    ap.add_argument("--strings", default=None)
+    ap.add_argument("--tbl", default=None)
     ap.add_argument("--repack", action="store_true",
                     help="Regenerate each group's offset table so strings may change "
                          "length (default: in-place, table untouched, byte-compatible). "
@@ -63,12 +65,18 @@ def main() -> None:
                     help="Exit non-zero on any unencodable line or over-budget group.")
     args = ap.parse_args()
 
-    codec = Codec(load_charmap_tbl(Path(args.tbl)))
+    lang = language_from_args(args)
+    strings_path = Path(args.strings) if args.strings else lang.system_strings
+    tbl = Path(args.tbl) if args.tbl else lang.tbl
+    system_out = (Path(args.system_out) if args.system_out
+                  else lang.build_path("SYSTEM.BIN.{lang}"))
+
+    codec = Codec(load_charmap_tbl(tbl))
     data = bytearray(Path(args.system_in).read_bytes())
     groups = find_groups(data)
     by_key = {}
     loose = []
-    for e in json.loads(Path(args.strings).read_text(encoding="utf-8")):
+    for e in json.loads(strings_path.read_text(encoding="utf-8")):
         if e["group"] == -1:
             loose.append(e)
         else:
@@ -82,24 +90,24 @@ def main() -> None:
         # rstrip only: a leading space is a deliberate layout choice (it separates
         # the text from an engine-drawn prefix like the LOAD-menu "[N]面" counter),
         # so it must survive into the encoded line.
-        en = (e.get("en") or "").rstrip()
-        if not en:
+        text = (e.get("text") or "").rstrip()
+        if not text:
             continue
         off = int(e["offset"], 16)
         budget = int(e["words"])
-        if en == "{BLANK}":
+        if text == "{BLANK}":
             struct.pack_into("<%dH" % budget, data, off, *([FFFF] * budget))
             changed += 1
             continue
         try:
-            toks = codec.encode(en)
+            toks = codec.encode(text)
         except Exception as exc:
-            problems.append(f"loose {e['offset']}: unencodable ({exc}) :: {en!r}")
+            problems.append(f"loose {e['offset']}: unencodable ({exc}) :: {text!r}")
             continue
         orig = list(struct.unpack_from("<%dH" % budget, data, off))
         toks = reserve_leading_cells(orig) + toks
         if len(toks) > budget:
-            problems.append(f"loose {e['offset']}: {len(toks)}>{budget} :: {en!r}")
+            problems.append(f"loose {e['offset']}: {len(toks)}>{budget} :: {text!r}")
             continue
         struct.pack_into("<%dH" % budget, data, off, *(toks + [FFFF] * (budget - len(toks))))
         changed += 1
@@ -118,24 +126,24 @@ def main() -> None:
             lens.append(orig_len)
             orig = list(struct.unpack_from("<%dH" % orig_len, data, off)) if orig_len else []
             e = by_key.get((gi, k))
-            en = (e.get("en") or "").rstrip() if e else ""  # keep leading layout spaces
-            if not en:
+            text = (e.get("text") or "").rstrip() if e else ""  # keep leading layout spaces
+            if not text:
                 seqs.append(orig)
                 continue
-            if en == "{BLANK}":
+            if text == "{BLANK}":
                 seqs.append([])
                 changed += 1
                 continue
             try:
-                toks = codec.encode(en)
+                toks = codec.encode(text)
             except Exception as exc:
-                problems.append(f"g{gi}#{k} {e['offset']}: unencodable ({exc}) :: {en!r}")
+                problems.append(f"g{gi}#{k} {e['offset']}: unencodable ({exc}) :: {text!r}")
                 seqs.append(orig)
                 continue
             toks = reserve_leading_cells(orig) + toks
             cap = orig_len + args.max_grow if args.repack else orig_len
             if len(toks) > cap:
-                problems.append(f"g{gi}#{k} {e['offset']}: line {len(toks)}>{cap} :: {en!r}")
+                problems.append(f"g{gi}#{k} {e['offset']}: line {len(toks)}>{cap} :: {text!r}")
                 seqs.append(orig)
                 continue
             seqs.append(toks)
@@ -167,9 +175,9 @@ def main() -> None:
         for off in range(cur, group_end, 2):
             struct.pack_into("<H", data, off, FFFF)
 
-    Path(args.system_out).parent.mkdir(parents=True, exist_ok=True)
-    Path(args.system_out).write_bytes(data)
-    print(f"packed {changed} translated lines into {len(groups)} groups -> {args.system_out}")
+    system_out.parent.mkdir(parents=True, exist_ok=True)
+    system_out.write_bytes(data)
+    print(f"packed {changed} translated lines into {len(groups)} groups -> {system_out}")
     for p in problems:
         print("  PROBLEM", p)
     if problems and args.strict:

@@ -33,7 +33,7 @@
 # spk: Lanford
 24	Now the <$FFF4>Save the Gym<$FFF3> operation<$FFFC>is sure to succeed, des！<$FFFE>
 # spk: Sigema
-25	Mm. A gym truly needs some<$FFFC>flair. That is why I put on this disguise.<$FFFD>Now we simply recruit the young ladies<$FFFC>around here.<$FFFE>
+25	Mm. A gym truly needs some flair.<$FFFC>That is why I put on this disguise.<$FFFD>Now we simply recruit the young ladies<$FFFC>around here.<$FFFE>
 # spk: Lanford
 26	Then membership will boom, the<$FFFC>gym will be spotless, and it won't reek of<$FFFC>sweat anymore, des！<$FFFE>
 # spk: Sigema
@@ -53,7 +53,7 @@
 # spk: Lanford
 34	B-Bro！ Who in the world is<$FFFC>this girl, des？<$FFFE>
 # spk: Sigema
-35	A part-timer I hired to make<$FFFC>this operation succeed. I've asked her to<$FFFC>defeat anyone who gets in our way.<$FFFE>
+35	A part-timer I hired to make this<$FFFC>operation succeed. I've asked her to<$FFFC>defeat anyone who gets in our way.<$FFFE>
 # spk: Alfred
 36	You're making a girl fight, des？<$FFFE>
 # spk: Sigema
@@ -79,7 +79,7 @@
 # spk: Sigma
 47	Ahh<$FFF8>…<$FFFE>
 # spk: Helper
-48	Sorry I'm late！ You're Mr.<$FFFC>Sigema, right？<$FFFE>
+48	Sorry I'm late！ You're Mr. Sigema,<$FFFC>right？<$FFFE>
 # spk: Sigma
 49	Sigema？ I'm <$F600><$0000>,<$FFFC>though？<$FFFE>
 # spk: Helper
@@ -135,7 +135,7 @@
 # spk: Mariandel
 75	Impostors？<$FFFE>
 # spk: Sigema
-76	Mm. Once the impostors are<$FFFC>beaten, we'll split the treasure evenly.<$FFFE>
+76	Mm. Once the impostors are beaten,<$FFFC>we'll split the treasure evenly.<$FFFE>
 # spk: Mariandel
 77	Fine. I just go ahead and<$FFFC>guard it, right？<$FFFE>
 # spk: Lanford
@@ -408,7 +408,7 @@
 # spk: Lanford
 227	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Sigema
-228	NOOOOO！ what are you<$FFFC>doing, little girl！<$FFFE>
+228	NOOOOO！ what are you doing,<$FFFC>little girl！<$FFFE>
 # spk: Alfred
 229	NOOOOO！ that hurts, des！<$FFFE>
 # spk: Lanford
@@ -436,7 +436,7 @@
 # spk: Lanford
 241	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Sigema
-242	NOOOOO！ what are you<$FFFC>doing, little girl！<$FFFE>
+242	NOOOOO！ what are you doing,<$FFFC>little girl！<$FFFE>
 # spk: Alfred
 243	NOOOOO！ that hurts, des！<$FFFE>
 # spk: Lanford

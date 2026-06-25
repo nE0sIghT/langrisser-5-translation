@@ -28,7 +28,7 @@ points at the glyph). Special codes:
 Glyph 1820 starts at `0x7FF8` and occupies bytes through `0x8009`. The bytes
 from `0x800A` through `0x8051` are non-text prelude data, so
 `lang5_system_dump.py` starts at the first verified string-group table,
-`0x8052`; that group's first string base is `0x8298`. `lang5_build_en_font.py`
+`0x8052`; that group's first string base is `0x8298`. `lang5_build_font.py`
 rewrites glyphs only up to slot 1820 to draw the English alphabet (see also
 `IMG_DAT_FORMAT.md` for the unrelated picture assets).
 
@@ -75,16 +75,18 @@ short tail lines.
 ## Editing flow
 
 ```bash
-# 1. dump every string (offset table aware) to one JSON
-python3 scripts/lang5_system_dump.py --out data/translation/system_strings.json
+# 1. dump every string (offset table aware) to a generated inspection JSON
+python3 scripts/lang5_system_dump.py --out work/systemdump/system_strings.json
 
-# 2. translate: fill "en" per entry. "{BLANK}" clears a leftover line.
+# 2. translate the durable language-pack copy:
+#    data/lang/<lang>/system_strings.json
+#    "{BLANK}" clears a leftover line.
 
 # 3. pack back into SYSTEM.BIN
 python3 scripts/lang5_system_pack.py \
     --system-in work/build/SYSTEM.BIN.font \
     --system-out work/build/SYSTEM.BIN.en \
-    --strings data/translation/system_strings.json --strict
+    --strings data/lang/<lang>/system_strings.json --strict
 ```
 
 `lang5_system_pack.py` has two modes:
@@ -129,4 +131,4 @@ across its existing lines — it does not allow unbounded expansion.
 
 Dumping with the JP table and packing with all `en` empty reproduces SYSTEM.BIN
 byte-for-byte (`lang5_system_pack.py --system-in SYSTEM.BIN --tbl
-data/tables/lang5_jp.tbl`), which is the correctness check for the group parser.
+data/common/tables/lang5_jp.tbl`), which is the correctness check for the group parser.

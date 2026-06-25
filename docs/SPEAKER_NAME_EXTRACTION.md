@@ -211,7 +211,7 @@ reverse-engineering paths.
 11. Run required build checks.
    - `python3 scripts/lang5_verify_roundtrip.py`
    - `python3 scripts/lang5_rewrap.py`
-   - `python3 scripts/lang5_validate_en.py`
+   - `python3 scripts/lang5_validate_translation.py`
    - `python3 scripts/lang5_build_ppf.py`
    - Success criterion: failures, if any, are unrelated WIP translation files
      and are documented clearly.

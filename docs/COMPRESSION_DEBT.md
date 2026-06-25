@@ -33,7 +33,7 @@ though they still need normal playtest and style polish.
 
 ## Open Items
 
-### SYSTEM.BIN triangle-button help (`data/translation/system_strings.json`)
+### SYSTEM.BIN triangle-button help (`data/lang/en/system_strings.json`)
 
 The help strings are glyph runs in offset-table groups (see
 `docs/SYSTEM_BIN_FORMAT.md`); each display line is one on-screen line. English

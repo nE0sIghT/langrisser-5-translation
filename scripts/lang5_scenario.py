@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Work with the script by game scenario instead of raw chunk numbers.
 
-Uses data/scenario_map.json: scenario K consists of scene_a (chunk 44+K),
+Uses data/common/scenario_map.json: scenario K consists of scene_a (chunk 44+K),
 the battle chunk K (which also holds the post-battle dialogue) and scene_b
 (chunk 86+K).
 
@@ -18,10 +18,12 @@ import subprocess
 import sys
 from pathlib import Path
 
+from lang5_project import COMMON_SCENARIO_MAP, add_language_args, language_from_args
+
 ROOT = Path(__file__).resolve().parent.parent
-MAP_PATH = ROOT / "data/scenario_map.json"
+MAP_PATH = COMMON_SCENARIO_MAP
 JP_DUMP = ROOT / "work/scriptdump/SCEN"
-EN_DUMP = ROOT / "data/translation/en/SCEN"
+TARGET_DUMP = ROOT / "data/lang/en/SCEN"
 TAG_RE = re.compile(r"<\$[0-9A-F]{4}>")
 
 
@@ -60,7 +62,7 @@ def read_records(cidx: int, root: Path) -> dict[int, str]:
 
 def battle_title(cidx: int) -> str:
     """First location-name record (FFFF) that follows an objective (FFFE)."""
-    recs = read_records(cidx, EN_DUMP) or read_records(cidx, JP_DUMP)
+    recs = read_records(cidx, TARGET_DUMP) or read_records(cidx, JP_DUMP)
     seen_objective = False
     for idx in sorted(recs):
         text = recs[idx]
@@ -72,7 +74,9 @@ def battle_title(cidx: int) -> str:
 
 
 def chunk_progress(cidx: int) -> str:
-    return "EN" if (EN_DUMP / f"chunk_{cidx:03d}.txt").exists() else "jp"
+    return CURRENT_LANG.upper() if (
+        TARGET_DUMP / f"chunk_{cidx:03d}.txt"
+    ).exists() else "jp"
 
 
 def cmd_list(smap: dict) -> None:
@@ -100,11 +104,11 @@ def cmd_dump(smap: dict, key: str, out_dir: Path) -> None:
     lines: list[str] = []
     for role, cidx in scenario_chunks(smap, key):
         jp = read_records(cidx, JP_DUMP)
-        en = read_records(cidx, EN_DUMP)
+        target = read_records(cidx, TARGET_DUMP)
         lines.append(f"=== {role}: chunk {cidx:03d}"
-                     + (" (translated)" if en else "") + " ===")
+                     + (" (translated)" if target else "") + " ===")
         for idx in sorted(jp):
-            lines.append(f"{idx}\t{en.get(idx, jp[idx])}")
+            lines.append(f"{idx}\t{target.get(idx, jp[idx])}")
         lines.append("")
     out_fp.write_text("\n".join(lines), encoding="utf-8")
     print(f"wrote {out_fp}")
@@ -112,21 +116,30 @@ def cmd_dump(smap: dict, key: str, out_dir: Path) -> None:
 
 def cmd_prefill(smap: dict, key: str) -> None:
     for role, cidx in scenario_chunks(smap, key):
-        if (EN_DUMP / f"chunk_{cidx:03d}.txt").exists():
+        if (TARGET_DUMP / f"chunk_{cidx:03d}.txt").exists():
             print(f"{role}: chunk {cidx:03d} already translated, skipping")
             continue
         subprocess.run([sys.executable, str(ROOT / "scripts/lang5_tm_prefill.py"),
-                        str(cidx)], check=True)
+                        "--lang", CURRENT_LANG, str(cidx)], check=True)
+
+
+CURRENT_LANG = "en"
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
+    add_language_args(ap)
     ap.add_argument("command", choices=("list", "chunks", "dump", "prefill"))
     ap.add_argument("scenario", nargs="?",
-                    help="1..36, 'quiz' or 'opt:NAME' (see data/scenario_map.json)")
+                    help="1..36, 'quiz' or 'opt:NAME' (see data/common/scenario_map.json)")
     ap.add_argument("--out-dir", default="work/scenario_text")
     args = ap.parse_args()
+
+    global TARGET_DUMP, CURRENT_LANG
+    lang = language_from_args(args)
+    TARGET_DUMP = lang.script_dir
+    CURRENT_LANG = lang.code
 
     smap = load_map()
     if args.command == "list":

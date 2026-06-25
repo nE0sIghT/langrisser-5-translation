@@ -17,23 +17,24 @@ format notes. This file lists the rules that must not be broken.
 - **Control words are sacred.** Every `<$XXXX>` tag ≥ `0xE000` (except the
   soft breaks `FFFC`/`FFFD` and highlight toggles `FFF4`/`FFF3`) and every
   argument word of `F600`/`FBxx` must survive translation in order.
-  `lang5_validate_en.py` enforces this — keep it green.
+  `lang5_validate_translation.py --lang <lang>` enforces this — keep it green.
 - **SCEN and SCEN2 text blocks are byte-identical.** Translate
-  `data/translation/en/SCEN/` only; the inserter reuses that dump when
-  rebuilding `SCEN2.DAT`.
-- **No partially translated chunks in `data/translation/en/`.** Untranslated
-  kanji whose glyph slots were sacrificed for Latin pairs fail the encode
-  step and break the build. Work-in-progress lives in `work/wip_en/`
+  `data/lang/<lang>/SCEN/` only; the inserter reuses that dump when rebuilding
+  `SCEN2.DAT`.
+- **No partially translated chunks in `data/lang/<lang>/SCEN/`.**
+  Untranslated kanji whose glyph slots were sacrificed for target-language
+  glyphs fail the encode step and break the build. Work-in-progress lives in
+  `work/wip_<lang>/`
   (`lang5_tm_prefill.py` writes there).
 
 ## Mandatory checks before claiming success
 
 ```bash
 python3 scripts/lang5_verify_roundtrip.py   # byte-identical no-edit pipeline
-python3 scripts/lang5_rewrap.py             # window-width line wrapping
-python3 scripts/lang5_check_speakers.py     # speaker plates vs the in-game test set
-python3 scripts/lang5_validate_en.py        # tags, encodability, budgets
-python3 scripts/lang5_build_ppf.py          # full build must succeed
+python3 scripts/lang5_rewrap.py --lang en             # window-width line wrapping
+python3 scripts/lang5_check_speakers.py --lang en     # speaker plates vs the in-game test set
+python3 scripts/lang5_validate_translation.py --lang en        # tags, encodability, budgets
+python3 scripts/lang5_build_ppf.py --lang en          # full build must succeed
 ```
 
 Speaker/author correctness is **mandatory**: `lang5_check_speakers.py` must print
@@ -50,8 +51,8 @@ game, add a row to `docs/SPEAKER_TEST_SET.md`.
   https://gamefaqs.gamespot.com/saturn/562834-langrisser-v-the-end-of-legend/faqs/41339)
   may be copied verbatim where its wording fits the JP line and the byte budget;
   otherwise rephrase.
-- Names and terms: `data/translation/names_base.csv` and
-  `data/translation/glossary_names.csv` are canonical; follow the
+- Names and terms: `data/lang/<lang>/names.csv` and
+  `data/lang/<lang>/glossary.csv` are canonical; follow the
   Langrisser fan canon for series terms.
 - Text windows (dialogue, narration/briefing, quiz) are 21 cells wide
   (measured in-game) and the player-name macro `<$F600><$0000>` renders up
@@ -85,13 +86,14 @@ game, add a row to `docs/SPEAKER_TEST_SET.md`.
 - Commit author: `Yuri Konotopov <ykonotopov@gmail.com>`. Include a
   `Co-Authored-By` trailer identifying the agent. Messages: functional
   English, present tense.
-- No Russian (or other non-English) text in code, comments or data files.
+- Keep code, comments and documentation in English. Target-language text belongs
+  only under the corresponding `data/lang/<lang>/` pack.
 - `work/`, `iso/`, `patches/`, `archive/`, `external/` are not in git;
   everything under `data/` and `scripts/` is.
 - Work scenario by scenario, not by raw chunk number:
-  `lang5_scenario.py list/chunks/dump/prefill` maps scenario K to its
-  chunks (scene `44+K`, battle `K`, scene `86+K`; see
-  `data/scenario_map.json`).
+  `lang5_scenario.py --lang <lang> list/chunks/dump/prefill` maps scenario K
+  to its chunks (scene `44+K`, battle `K`, scene `86+K`; see
+  `data/common/scenario_map.json`).
 - After translating a chunk: rewrap → validate → build → regenerate review
   pages (`lang5_review_html.py`) → commit the `SCEN` chunk and any related
   durable data/docs together.

@@ -3,13 +3,14 @@
 
 Per record: the sequence of control tags (>= 0xE000, except the soft line
 break FFFC) and the argument words of F600/FBxx must match the JP source
-exactly. Also checks that every EN line encodes, reports leftover JP text
+exactly. Also checks that every translated line encodes, reports leftover JP text
 and validates the fixed-size SCEN/SCEN2 repack budget used by the builder.
 """
 import argparse
 import re
 from pathlib import Path
 
+from lang5_project import add_language_args, language_from_args
 from lang5_scen import (Codec, FORCE_PAGE_BREAK, TAG_RE, consumes_argument,
                         find_text_block, load_charmap_tbl, read_chunk_spans)
 from lang5_sceninsert import align_up, rebuild_chunk_fixed, trim_blobs_to_fit
@@ -73,10 +74,12 @@ def repacked_file_size(src: Path, records_by_chunk: dict[int, dict[int, str]],
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
     ap.add_argument("chunks", nargs="*", type=int)
     ap.add_argument("--jp-dump", default="work/scriptdump")
-    ap.add_argument("--en-dump", default="data/translation/en")
-    ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
+    ap.add_argument("--tbl", default=None)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--stem", default="SCEN")
@@ -84,43 +87,55 @@ def main() -> None:
                     default="fixed-repack")
     args = ap.parse_args()
 
-    codec = Codec(load_charmap_tbl(Path(args.tbl)))
+    lang = language_from_args(args)
+    translation_root = (Path(args.translation_root)
+                        if args.translation_root else lang.dump_root)
+    tbl = Path(args.tbl) if args.tbl else lang.tbl
+
+    codec = Codec(load_charmap_tbl(tbl))
     data = Path(args.scen).read_bytes()
     spans = read_chunk_spans(data)
 
     chunk_ids = args.chunks
     if not chunk_ids:
         chunk_ids = sorted(int(p.stem.split("_")[1])
-                           for p in Path(args.en_dump, args.stem).glob("chunk_*.txt"))
+                           for p in Path(translation_root, args.stem).glob("chunk_*.txt"))
 
     records_by_chunk: dict[int, dict[int, str]] = {}
     problems = 0
     for cidx in chunk_ids:
         jp = read_records(Path(args.jp_dump, args.stem, f"chunk_{cidx:03d}.txt"))
-        en = read_records(Path(args.en_dump, args.stem, f"chunk_{cidx:03d}.txt"))
-        records_by_chunk[cidx] = en
+        target = read_records(
+            Path(translation_root, args.stem, f"chunk_{cidx:03d}.txt")
+        )
+        records_by_chunk[cidx] = target
         body = 0
         jp_left = 0
         for idx in sorted(jp):
-            if idx not in en:
-                print(f"chunk {cidx} rec {idx}: MISSING in EN")
+            if idx not in target:
+                print(f"chunk {cidx} rec {idx}: MISSING in {lang.code.upper()}")
                 problems += 1
                 continue
-            if control_signature(jp[idx]) != control_signature(en[idx]):
+            if control_signature(jp[idx]) != control_signature(target[idx]):
                 print(f"chunk {cidx} rec {idx}: CONTROL TAG MISMATCH")
                 problems += 1
-            if en[idx].count("<$FFF4>") != en[idx].count("<$FFF3>"):
+            if target[idx].count("<$FFF4>") != target[idx].count("<$FFF3>"):
                 print(f"chunk {cidx} rec {idx}: UNBALANCED highlight tags")
                 problems += 1
-            if ASCII_BAD.search(TAG_RE.sub("", en[idx].replace(FORCE_PAGE_BREAK, ""))):
+            if ASCII_BAD.search(
+                TAG_RE.sub("", target[idx].replace(FORCE_PAGE_BREAK, ""))
+            ):
                 print(f"chunk {cidx} rec {idx}: unsupported ASCII punctuation")
                 problems += 1
             try:
-                body += 2 * len(codec.encode(en[idx]))
+                body += 2 * len(codec.encode(target[idx]))
             except ValueError as exc:
                 print(f"chunk {cidx} rec {idx}: UNENCODABLE {exc}")
                 problems += 1
-            if re.search(r"[぀-ヺ一-鿿]", TAG_RE.sub("", en[idx]).replace("・", "")):
+            if re.search(
+                r"[぀-ヺ一-鿿]",
+                TAG_RE.sub("", target[idx]).replace("・", ""),
+            ):
                 jp_left += 1
         s, e = spans[cidx]
         chunk = data[s:e]

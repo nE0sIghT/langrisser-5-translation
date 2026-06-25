@@ -11,6 +11,7 @@ import re
 import sys
 from pathlib import Path
 
+from lang5_project import add_language_args, language_from_args
 from lang5_rewrap import semantic_plate_slots, speaker_pool_sizes
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
@@ -33,12 +34,12 @@ def parse_test_set(path: Path) -> list[tuple[int, int, str]]:
     return cases
 
 
-def plate_names(en_file: Path, pool_size: int) -> dict[int, str]:
-    """Record index -> English plate name (records 1..pool_size of the dump)."""
+def plate_names(target_file: Path, pool_size: int) -> dict[int, str]:
+    """Record index -> translated plate name (records 1..pool_size of the dump)."""
     names: dict[int, str] = {}
-    if not en_file.exists():
+    if not target_file.exists():
         return names
-    for raw in en_file.read_text(encoding="utf-8").splitlines():
+    for raw in target_file.read_text(encoding="utf-8").splitlines():
         if "\t" not in raw or raw.startswith("#"):
             continue
         idx, text = raw.split("\t", 1)
@@ -49,10 +50,15 @@ def plate_names(en_file: Path, pool_size: int) -> dict[int, str]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
     ap.add_argument("--test-set", default="docs/SPEAKER_TEST_SET.md")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
-    ap.add_argument("--en-dump", default="data/translation/en")
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
     args = ap.parse_args()
+    lang = language_from_args(args)
+    dump_root = (Path(args.translation_root)
+                 if args.translation_root else lang.dump_root)
 
     cases = parse_test_set(Path(args.test_set))
     if not cases:
@@ -65,7 +71,7 @@ def main() -> None:
     failures = []
     for chunk, record, expected in cases:
         pool_size = pool_sizes.get(chunk) or 0
-        names = plate_names(Path(args.en_dump) / "SCEN" / f"chunk_{chunk:03d}.txt", pool_size)
+        names = plate_names(dump_root / "SCEN" / f"chunk_{chunk:03d}.txt", pool_size)
         slot = slots_by_chunk.get(chunk, {}).get(record)
         got = names.get(slot + 1, f"(slot {slot})") if isinstance(slot, int) and slot >= 0 \
             else ("(no plate)" if slot is None else "(location/crowd)")

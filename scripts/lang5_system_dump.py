@@ -156,8 +156,8 @@ def find_groups(data: bytes) -> list[tuple[int, list[int], int]]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--system-bin", default="work/extracted/SYSTEM.BIN")
-    ap.add_argument("--tbl", default="data/tables/lang5_jp.tbl")
-    ap.add_argument("--out", default="data/translation/system_strings.json")
+    ap.add_argument("--tbl", default="data/common/tables/lang5_jp.tbl")
+    ap.add_argument("--out", default="work/systemdump/system_strings.json")
     args = ap.parse_args()
 
     data = Path(args.system_bin).read_bytes()
@@ -189,7 +189,7 @@ def main() -> None:
                 "offset": f"0x{off:05X}",
                 "words": words,
                 "jp": decode_run(run, codemap),
-                "en": "",
+                "text": "",
             })
 
     # Loose strings: FFFF-terminated runs in the text region that are not part of
@@ -209,7 +209,7 @@ def main() -> None:
                 entries.append({
                     "group": -1, "table": None, "index": None,
                     "offset": f"0x{pos:05X}", "words": words,
-                    "jp": text, "en": "",
+                    "jp": text, "text": "",
                 })
         pos += (words + 1) * 2
 

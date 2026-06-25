@@ -15,6 +15,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from lang5_project import COMMON_FONT_FIXES, COMMON_FONT_MAP
+
 GLYPH_W = 12
 GLYPH_H = 12
 GLYPH_BYTES = 18
@@ -77,9 +79,9 @@ def img_tag(b64: str | None, cls: str = "") -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--groups-report", default="data/font_mapping/groups_report.csv")
+    ap.add_argument("--groups-report", default=str(COMMON_FONT_MAP))
     ap.add_argument("--system-bin", default="work/extracted/SYSTEM.BIN")
-    ap.add_argument("--proposals", default="data/font_mapping/proposed_fixes.csv")
+    ap.add_argument("--proposals", default=str(COMMON_FONT_FIXES))
     ap.add_argument("--out", default="work/font_review/font_review.html")
     ap.add_argument("--flagged-only", action="store_true",
                     help="Emit only the flagged-entries table, skip the full grid.")

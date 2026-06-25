@@ -1,0 +1,35 @@
+{
+  "_comment": [
+    "Replacement for the name entry character grid (the original offers",
+    "katakana only). 19 runs of 5 characters in the SYSTEM.BIN run order.",
+    "The name entry screen draws the runs as three 5-column groups:",
+    "rows 1-7, 8-14 and 15-19 (verified in-game), so the layout below",
+    "fills group 1 with capitals+punctuation, group 2 with lowercase and",
+    "group 3 with digits. The executable also holds a 10x10 copy of the",
+    "same runs (row K = run K | run K+9); both copies are patched.",
+    "A space means an empty (blank, types a space) cell. Every character",
+    "must map to a single token in the insert table: native capitals and",
+    "digits, single lowercase glyphs, fullwidth punctuation."
+  ],
+  "runs": [
+    "ABCDE",
+    "FGHIJ",
+    "KLMNO",
+    "PQRST",
+    "UVWXY",
+    "Z！？'-",
+    "     ",
+    "abcde",
+    "fghij",
+    "klmno",
+    "pqrst",
+    "uvwxy",
+    "z.,  ",
+    "     ",
+    "12345",
+    "67890",
+    "     ",
+    "     ",
+    "     "
+  ]
+}

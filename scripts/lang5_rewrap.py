@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Re-flow EN dump records to the real text window width.
+"""Re-flow translated dump records to the real text window width.
 
 Within each record, text between control tags is re-wrapped: existing
 <$FFFC> line breaks are treated as soft (replaced by spaces) and new ones
@@ -32,6 +32,7 @@ import argparse
 import re
 from pathlib import Path
 
+from lang5_project import add_language_args, language_from_args
 from lang5_scen import FORCE_PAGE_BREAK, TAG_RE, Codec, consumes_argument, \
     find_text_block, load_charmap_tbl, read_chunk_spans, words_from_bytes
 from lang5_speakers import trace_vm_bytecode, u16, u32, vm_block
@@ -607,19 +608,29 @@ def visible_cells(codec: Codec, text: str) -> int:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--en-dump", default="data/translation/en")
-    ap.add_argument("--tbl", default="work/tables/lang5_en.tbl")
+    add_language_args(ap)
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
+    ap.add_argument("--tbl", default=None)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
-    ap.add_argument("--width", type=int, default=21)
-    ap.add_argument("--choice-width", type=int, default=21)
+    ap.add_argument("--width", type=int, default=None)
+    ap.add_argument("--choice-width", type=int, default=None)
     # The JP script routinely shows 4-line pages after engine wrap (594 of
     # them; 5-line pages exist but are rare), so 4 is the safe page height.
-    ap.add_argument("--max-lines", type=int, default=4)
+    ap.add_argument("--max-lines", type=int, default=None)
     ap.add_argument("--compact-battle-pages", action="store_true",
                     help="Experimental: also demote safe-looking FFFD breaks in battle chunks.")
     args = ap.parse_args()
 
-    codec = Codec(load_charmap_tbl(Path(args.tbl)))
+    lang = language_from_args(args)
+    dump_root = (Path(args.translation_root)
+                 if args.translation_root else lang.dump_root)
+    tbl = Path(args.tbl) if args.tbl else lang.tbl
+    width_arg = args.width if args.width is not None else lang.window_width
+    choice_width = args.choice_width if args.choice_width is not None else lang.choice_width
+    max_lines = args.max_lines if args.max_lines is not None else lang.max_lines
+
+    codec = Codec(load_charmap_tbl(tbl))
     scen_path = Path(args.scen)
     pool_sizes = speaker_pool_sizes(scen_path) if scen_path.exists() else {}
     traced_slots = traced_plate_slots(scen_path) if scen_path.exists() else {}
@@ -631,7 +642,7 @@ def main() -> None:
     if not pool_sizes:
         print(f"WARNING: {args.scen} not found; falling back to the FFFF-prefix "
               "plate heuristic (location plates may inflate the reserve)")
-    for fp in sorted(Path(args.en_dump).glob("*/chunk_*.txt")):
+    for fp in sorted(dump_root.glob("*/chunk_*.txt")):
         records = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
@@ -665,7 +676,7 @@ def main() -> None:
         # chunks where one speaker narrates the whole block; the quiz's plate
         # does not persist, so only explicitly resolved records carry a reserve.
         plated_no_fb = confident and chunk_idx in persistent_chunks
-        width = args.width
+        width = width_arg
         out_lines: list[str] = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" not in raw or raw.startswith("#"):
@@ -688,8 +699,8 @@ def main() -> None:
                 else:
                     new_text = " ".join(text.replace(LINE_BREAK, " ").split())
                 n = visible_cells(codec, new_text.split("<$FFFE>")[0])
-                if n > args.choice_width:
-                    print(f"{fp.name} record {idx}: choice is {n} cells (max {args.choice_width})")
+                if n > choice_width:
+                    print(f"{fp.name} record {idx}: choice is {n} cells (max {choice_width})")
                 out_lines.append(f"{idx}\t{new_text}")
             else:
                 force_plate = False
@@ -716,15 +727,15 @@ def main() -> None:
                 tail_reserve = YESNO_TAIL_RESERVE if rec_idx in yesno_records else 0
                 new_text = reflow_record(
                     codec, text, width, reserve, force_plate,
-                    max_lines=args.max_lines,
+                    max_lines=max_lines,
                     compact_pages=compact_pages,
                     tail_reserve=tail_reserve,
                 )
                 # Page height check: lines between page/terminator controls.
                 for page in page_segments(new_text):
                     n = page.count(LINE_BREAK) + 1
-                    if page.strip() and n > args.max_lines:
-                        print(f"{fp.name} record {idx}: page has {n} lines (max {args.max_lines})")
+                    if page.strip() and n > max_lines:
+                        print(f"{fp.name} record {idx}: page has {n} lines (max {max_lines})")
                 out_lines.append(f"{idx}\t{new_text}")
         fp.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
         print(f"reflowed {fp}")

@@ -14,8 +14,8 @@ blocked), the monologue is presented as continuation pages of Virash's line
 that immediately precedes the cutscene. The player reads the full translation
 in the dialogue window, then the voiced scene plays.
 
-- **Where:** `data/translation/en/SCEN/chunk_069.txt`, record 30 (Virash,
-  FB00 `0x18`). The monologue text (from `data/translation/virash_monologue.json`)
+- **Where:** `data/lang/en/SCEN/chunk_069.txt`, record 30 (Virash,
+  FB00 `0x18`). The monologue text (from `data/lang/en/virash_monologue.json`)
   is appended after his spoken "…More than you could ever imagine." line. No new
   record / FB00 id is created (`0x19` stays unused), so the JP control-tag
   signature is preserved and no override is needed.
@@ -33,7 +33,7 @@ in the dialogue window, then the voiced scene plays.
   - `scripts/lang5_rewrap.py` — `reflow_record` splits on the token (only the
     first segment keeps the speaker plate; only the last carries the yes/no tail
     reserve); `page_segments` treats it as a page boundary for the height check.
-  - `scripts/lang5_validate_en.py` — strips it before the ASCII-punctuation
+  - `scripts/lang5_validate_translation.py` — strips it before the ASCII-punctuation
     check (it contains `!`); the control signature already ignores it.
 - **Checks:** `verify_roundtrip`, `rewrap`, `check_speakers`, `validate_en`
   (chunk 69 `body` within budget, SCEN/SCEN2 fixed-size repack OK) all pass; the
@@ -185,7 +185,7 @@ baked into the scrolling texture (which would scroll with the background).
 ## Monologue transcript & subtitle source
 
 The machine-readable subtitle source — timed JP + EN cues — is
-**`data/translation/virash_monologue.json`** (edit the text there). This section
+**`data/lang/en/virash_monologue.json`** (edit the text there). This section
 is provenance: how that text was obtained and verified.
 
 ### Two independent transcripts agree

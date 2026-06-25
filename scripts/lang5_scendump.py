@@ -20,6 +20,7 @@ from lang5_scen import (
     words_from_bytes,
 )
 from lang5_rewrap import semantic_plate_slots
+from lang5_project import COMMON_FONT_MAP
 
 _TAG = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 
@@ -88,7 +89,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
-    ap.add_argument("--charmap", default="data/font_mapping/groups_report.csv")
+    ap.add_argument("--charmap", default=str(COMMON_FONT_MAP))
     ap.add_argument("--out-dir", default="work/scriptdump")
     args = ap.parse_args()
 

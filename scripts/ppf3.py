@@ -62,7 +62,7 @@ def main() -> None:
     parser.add_argument("output", help="Output PPF path")
     parser.add_argument(
         "--description",
-        default="Langrisser V EN patch",
+        default="Langrisser V patch",
         help="ASCII description (max 50 chars)",
     )
     parser.add_argument(

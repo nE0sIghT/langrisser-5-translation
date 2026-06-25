@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build the Langrisser V EN PPF patch.
+"""Build a Langrisser V target-language PPF patch.
 
-Pipeline: EN font into SYSTEM.BIN -> insert EN dump into SCEN/SCEN2 ->
+Pipeline: language font into SYSTEM.BIN -> insert language dump into SCEN/SCEN2 ->
 inject all three into a copy of the BIN -> PPF3 diff against the original.
 """
 import argparse
@@ -10,97 +10,119 @@ import subprocess
 import sys
 from pathlib import Path
 
+from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
 from ppf3 import write_ppf3
 
 
-def run(*cmd: str) -> None:
-    subprocess.run([sys.executable, *cmd], check=True)
+def run(*cmd: object) -> None:
+    subprocess.run([sys.executable, *(str(c) for c in cmd)], check=True)
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
     ap.add_argument("--orig-bin", default="iso/SLPS-01818-9-B.bin")
-    ap.add_argument("--en-dump", default="data/translation/en")
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
     ap.add_argument("--patch-version", default="dev")
-    ap.add_argument("--work-bin", default="work/build/langrisser_v_en.bin")
-    ap.add_argument("--out-ppf", default="patches/langrisser_v_en.ppf")
+    ap.add_argument("--work-bin", default=None)
+    ap.add_argument("--out-ppf", default=None)
     args = ap.parse_args()
 
+    lang = language_from_args(args)
     scripts = Path(__file__).parent
     Path("work/build").mkdir(parents=True, exist_ok=True)
+    translation_root = (Path(args.translation_root)
+                        if args.translation_root else lang.dump_root)
+    tbl = lang.tbl
+    suffix = lang.suffix
+    work_bin_path = Path(args.work_bin) if args.work_bin else lang.work_bin
+    out_ppf_path = Path(args.out_ppf) if args.out_ppf else lang.out_ppf
 
-    run(scripts / "lang5_build_en_font.py", "--system-bin", args.system,
-        "--out-system-bin", "work/build/SYSTEM.BIN.font",
-        "--out-tbl", "work/tables/lang5_en.tbl")
+    font_args = [
+        scripts / "lang5_build_font.py",
+        "--groups-report", COMMON_FONT_MAP,
+        "--assignments", lang.font_assignments,
+        "--system-bin", args.system,
+        "--out-system-bin", f"work/build/SYSTEM.BIN.{suffix}.font",
+        "--out-tbl", tbl,
+        "--font-size", str(lang.font_size),
+    ]
+    if lang.font:
+        font_args.extend(["--font", lang.font])
+    run(*font_args)
 
     # Name-entry screen (kana grid in SYSTEM.BIN + the EXE's input table).
     run(scripts / "lang5_patch_name_entry.py",
-        "--system-in", "work/build/SYSTEM.BIN.font",
-        "--system-out", "work/build/SYSTEM.BIN.ne",
+        "--grid", lang.name_entry_grid,
+        "--system-in", f"work/build/SYSTEM.BIN.{suffix}.font",
+        "--system-out", f"work/build/SYSTEM.BIN.{suffix}.ne",
         "--exe-in", "work/extracted/SLPS_018.19",
-        "--exe-out", "work/build/SLPS_018.19.en",
-        "--tbl", "work/tables/lang5_en.tbl")
+        "--exe-out", f"work/build/SLPS_018.19.{suffix}",
+        "--tbl", tbl)
 
     # All SYSTEM.BIN UI text (names, descriptions, command help, save messages)
     # via the unified offset-table flow (see docs/SYSTEM_BIN_FORMAT.md).
     # --repack regenerates each group's offset table so short kanji labels can
-    # hold a full English word; the engine addresses every string by index as
+    # hold a full translated word; the engine addresses every string by index as
     # base + table[k]*2 (verified in the EXE, see SYSTEM_BIN_FORMAT.md), so the
     # regenerated table is followed correctly. --max-grow caps per-line growth.
     run(scripts / "lang5_system_pack.py",
-        "--system-in", "work/build/SYSTEM.BIN.ne",
-        "--system-out", "work/build/SYSTEM.BIN.en",
-        "--strings", "data/translation/system_strings.json",
-        "--tbl", "work/tables/lang5_en.tbl",
+        "--system-in", f"work/build/SYSTEM.BIN.{suffix}.ne",
+        "--system-out", f"work/build/SYSTEM.BIN.{suffix}",
+        "--strings", lang.system_strings,
+        "--tbl", tbl,
         "--repack", "--max-grow", "4",
         "--strict")
 
     run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",
         "--scen", args.scen, "--scen2", args.scen2,
-        "--dump-dir", args.en_dump, "--charmap", "work/tables/lang5_en.tbl",
-        "--out-scen", "work/build/SCEN.en.DAT", "--out-scen2", "work/build/SCEN2.en.DAT")
+        "--dump-dir", translation_root, "--charmap", tbl,
+        "--out-scen", f"work/build/SCEN.{suffix}.DAT",
+        "--out-scen2", f"work/build/SCEN2.{suffix}.DAT")
 
     run(scripts / "lang5_imgdat.py", "title-credits",
         args.imgdat,
-        "--out-imgdat", "work/build/IMG.DAT.en",
+        "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
         "--version", args.patch_version,
-        "--out-raw-preview", "work/build/title_credits_raw.png",
-        "--out-display", "work/build/title_credits_display.png",
-        "--out-crop", "work/build/title_credits_crop.png")
+        "--out-raw-preview", f"work/build/title_credits_{suffix}_raw.png",
+        "--out-display", f"work/build/title_credits_{suffix}_display.png",
+        "--out-crop", f"work/build/title_credits_{suffix}_crop.png")
 
-    # Redraw the prologue poem graphic in English on top of the title credits
+    # Redraw the translated prologue poem graphic on top of the title credits
     # (different asset, so the two IMG.DAT edits do not overlap).
     run(scripts / "lang5_poem_translate.py",
-        "--imgdat", "work/build/IMG.DAT.en",
-        "--out-imgdat", "work/build/IMG.DAT.en",
-        "--out-preview", "work/build/poem_en_preview.png")
+        "--imgdat", f"work/build/IMG.DAT.{suffix}",
+        "--poem", lang.poem,
+        "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
+        "--out-preview", f"work/build/poem_{suffix}_preview.png")
 
-    work_bin = Path(args.work_bin)
+    work_bin = work_bin_path
     work_bin.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(args.orig_bin, work_bin)
 
     for iso_path, local in (
-        ("/L5/SCEN.DAT", "work/build/SCEN.en.DAT"),
-        ("/L5/SCEN2.DAT", "work/build/SCEN2.en.DAT"),
-        ("/L5/SYSTEM.BIN", "work/build/SYSTEM.BIN.en"),
-        ("/L5/IMG.DAT", "work/build/IMG.DAT.en"),
-        ("/SLPS_018.19", "work/build/SLPS_018.19.en"),
+        ("/L5/SCEN.DAT", f"work/build/SCEN.{suffix}.DAT"),
+        ("/L5/SCEN2.DAT", f"work/build/SCEN2.{suffix}.DAT"),
+        ("/L5/SYSTEM.BIN", f"work/build/SYSTEM.BIN.{suffix}"),
+        ("/L5/IMG.DAT", f"work/build/IMG.DAT.{suffix}"),
+        ("/SLPS_018.19", f"work/build/SLPS_018.19.{suffix}"),
     ):
         # No --allow-grow: relocation is unsafe on this disc (the free tail
         # region overlaps the CD audio tracks). Sizes must stay unchanged.
         run(scripts / "iso_mode2.py", str(work_bin), "inject", iso_path, local)
 
-    out_ppf = Path(args.out_ppf)
+    out_ppf = out_ppf_path
     out_ppf.parent.mkdir(parents=True, exist_ok=True)
     records = write_ppf3(
         Path(args.orig_bin).read_bytes(),
         work_bin.read_bytes(),
         out_ppf,
-        "Langrisser V EN script+font",
+        lang.patch_description,
     )
     print(f"ppf_records={records} out={out_ppf}")
 

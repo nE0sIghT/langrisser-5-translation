@@ -22,6 +22,7 @@ from lang5_scen import (
     words_from_bytes,
     words_to_bytes,
 )
+from lang5_project import COMMON_FONT_MAP
 
 
 def check_codec(src: Path, codec: Codec) -> int:
@@ -44,7 +45,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
-    ap.add_argument("--charmap", default="data/font_mapping/groups_report.csv")
+    ap.add_argument("--charmap", default=str(COMMON_FONT_MAP))
     args = ap.parse_args()
 
     codec = Codec(load_charmap_csv(Path(args.charmap)))
