@@ -106,9 +106,11 @@ stable source id to target text. Grouped ids use
   lengths, so a string may be longer or shorter (bounded by the group's total
   size). Because this moves later strings within the group, it is only safe if
   the game locates strings by table index (not by absolute offset).
-  `--max-grow N` then caps how many words wider than the original each line may
-  get. The build uses `--repack --max-grow 4` so short kanji labels can hold a
-  real translated word.
+  The selected language pack's `system_layout.json` caps how many words wider
+  than the original each line may get. The conservative default is 4; lines
+  verified to need more room use explicit stable-id overrides. The
+  `--max-grow N` option can replace the default for diagnostics, but the normal
+  build takes its limits entirely from the language pack.
 
   **Index addressing is verified in the EXE (so `--repack` is safe).** SYSTEM.BIN
   is loaded to the fixed base `0x80134a00` (the constant is built at

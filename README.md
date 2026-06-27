@@ -66,6 +66,7 @@ The build scripts expect this verified local image:
 | `data/lang/<lang>/manifest.json` | language settings used by tools |
 | `data/lang/<lang>/SCEN/` | translated script chunks for that language |
 | `data/lang/<lang>/system_strings.json` | SYSTEM.BIN UI text |
+| `data/lang/<lang>/system_layout.json` | SYSTEM.BIN line-growth constraints |
 | `data/lang/<lang>/names.csv` | item, class, spell and NPC names |
 | `data/lang/<lang>/font_slot_assignments.csv` | target glyph assignments |
 | `work/extracted/` | extracted game files, generated |
@@ -118,6 +119,7 @@ Review or edit these files for the target language:
 - `data/lang/<lang>/manifest.json`
 - `data/lang/<lang>/font_slot_assignments.csv`
 - `data/lang/<lang>/system_strings.json`
+- `data/lang/<lang>/system_layout.json`
 - `data/lang/<lang>/names.csv`
 - `data/lang/<lang>/glossary.csv`
 - `data/lang/<lang>/name_entry_grid.json`
@@ -127,6 +129,10 @@ Review or edit these files for the target language:
 `system_strings.json` is a target-only `stable id -> translated text` overlay.
 Its offsets, budgets and Japanese source come from the generated
 `work/systemdump/system_strings.json`.
+
+`system_layout.json` keeps the conservative per-line growth limit and any
+stable-id exceptions required by longer target-language strings. Add an
+exception only after confirming that the affected UI field can display it.
 
 Regenerate font data when the alphabet changes:
 

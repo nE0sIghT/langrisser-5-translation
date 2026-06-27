@@ -84,9 +84,10 @@ def main() -> None:
         "--system-in", f"work/build/SYSTEM.BIN.{suffix}.ne",
         "--system-out", f"work/build/SYSTEM.BIN.{suffix}",
         "--strings", lang.system_strings,
+        "--layout", lang.system_layout,
         "--source-strings", system_source,
         "--tbl", tbl,
-        "--repack", "--max-grow", "6",
+        "--repack",
         "--strict")
 
     run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",

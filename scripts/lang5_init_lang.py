@@ -20,6 +20,7 @@ from lang5_project import DEFAULT_LANG_ROOT, load_language
 SCALAR_FILES = [
     "font_assignments",
     "system_strings",
+    "system_layout",
     "names",
     "glossary",
     "name_entry_grid",
@@ -47,6 +48,14 @@ def write_scaffold(key: str, src: Path, dst: Path) -> None:
         return
     if key == "system_strings":
         dst.write_text("{}\n", encoding="utf-8")
+        return
+    if key == "system_layout":
+        source = json.loads(src.read_text(encoding="utf-8"))
+        value = {
+            "default_max_grow": source.get("default_max_grow", 4),
+            "overrides": {},
+        }
+        dst.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
         return
     if key in ("names", "glossary"):
         with src.open(encoding="utf-8", newline="") as fh:

@@ -9,9 +9,10 @@ byte length - only to the group's total size (the group stays at its fixed base
 so nothing that points at it has to move).
 
 Per-string the limit is the on-screen line width, not the data: each string is
-one display line, so by default a translation may not render wider than the
-original line did (`--max-grow` raises that cap deliberately). Strings left
-untranslated keep their original bytes; `text == "{BLANK}"` clears the line.
+one display line. The language pack's system_layout.json sets a conservative
+default growth limit and explicit stable-id exceptions for strings verified to
+need more room. Strings left untranslated keep their original bytes;
+`text == "{BLANK}"` clears the line.
 
 See docs/SYSTEM_BIN_FORMAT.md.
 """
@@ -27,6 +28,38 @@ from lang5_scen import Codec, load_charmap_tbl
 from lang5_system_dump import find_groups, run_length
 
 FFFF = 0xFFFF
+
+
+def load_system_layout(path: Path, source_by_id: dict[str, dict]) -> tuple[int, dict[str, int]]:
+    """Load and validate per-language SYSTEM line-growth limits."""
+    if not path.exists():
+        raise SystemExit(f"SYSTEM layout not found: {path}")
+    layout = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(layout, dict):
+        raise SystemExit(f"SYSTEM layout must be an object: {path}")
+    unknown_fields = set(layout) - {"default_max_grow", "overrides"}
+    if unknown_fields:
+        raise SystemExit(f"{path}: unknown fields: {sorted(unknown_fields)}")
+
+    default = layout.get("default_max_grow")
+    overrides = layout.get("overrides", {})
+    if isinstance(default, bool) or not isinstance(default, int) or default < 0:
+        raise SystemExit(f"{path}: default_max_grow must be a non-negative integer")
+    if not isinstance(overrides, dict):
+        raise SystemExit(f"{path}: overrides must be an object")
+
+    clean: dict[str, int] = {}
+    for entry_id, value in overrides.items():
+        if entry_id not in source_by_id:
+            raise SystemExit(f"{path}: unknown SYSTEM id in overrides: {entry_id}")
+        if source_by_id[entry_id]["group"] == -1:
+            raise SystemExit(f"{path}: loose SYSTEM string cannot grow: {entry_id}")
+        if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+            raise SystemExit(
+                f"{path}: override for {entry_id} must be a non-negative integer"
+            )
+        clean[entry_id] = value
+    return default, clean
 
 
 def reserve_leading_cells(orig: list[int]) -> list[int]:
@@ -52,6 +85,8 @@ def main() -> None:
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.font")
     ap.add_argument("--system-out", default=None)
     ap.add_argument("--strings", default=None)
+    ap.add_argument("--layout", default=None,
+                    help="Per-language SYSTEM line-growth limits JSON.")
     ap.add_argument("--source-strings",
                     default="work/systemdump/system_strings.json",
                     help="Generated SYSTEM source dump with offsets and JP text.")
@@ -61,15 +96,16 @@ def main() -> None:
                          "length (default: in-place, table untouched, byte-compatible). "
                          "Only safe if the game locates strings by table index; verify "
                          "in an emulator before enabling.")
-    ap.add_argument("--max-grow", type=int, default=0,
-                    help="With --repack, allow each line to be at most this many words "
-                         "wider than the original (default 0 = display-safe).")
+    ap.add_argument("--max-grow", type=int, default=None,
+                    help="Override the layout's default growth limit for diagnostics; "
+                         "per-id layout overrides still take precedence.")
     ap.add_argument("--strict", action="store_true",
                     help="Exit non-zero on any unencodable line or over-budget group.")
     args = ap.parse_args()
 
     lang = language_from_args(args)
     strings_path = Path(args.strings) if args.strings else lang.system_strings
+    layout_path = Path(args.layout) if args.layout else lang.system_layout
     source_strings_path = Path(args.source_strings)
     tbl = Path(args.tbl) if args.tbl else lang.tbl
     system_out = (Path(args.system_out) if args.system_out
@@ -103,10 +139,24 @@ def main() -> None:
         raise SystemExit(
             f"{strings_path}: {len(unknown)} unknown SYSTEM ids, first: {unknown[:5]}"
         )
+    default_max_grow, max_grow_overrides = load_system_layout(
+        layout_path, source_by_id
+    )
+    if args.max_grow is not None:
+        if args.max_grow < 0:
+            raise SystemExit("--max-grow must be a non-negative integer")
+        default_max_grow = args.max_grow
 
     group_by_table = {table_off: gi for gi, (table_off, _table, _base) in enumerate(groups)}
     by_key: dict[tuple[int, int], str] = {}
+    id_by_key: dict[tuple[int, int], str] = {}
     loose: list[tuple[dict, str]] = []
+    for source in source_entries:
+        if source["group"] == -1:
+            continue
+        table_off = int(source["table"], 16)
+        if table_off in group_by_table:
+            id_by_key[(group_by_table[table_off], source["index"])] = source["id"]
     for entry_id, text in translations.items():
         if not isinstance(text, str):
             raise SystemExit(f"{strings_path}: {entry_id} value must be a string")
@@ -182,9 +232,14 @@ def main() -> None:
                 seqs.append(orig)
                 continue
             toks = reserve_leading_cells(orig) + toks
-            cap = orig_len + args.max_grow if args.repack else orig_len
+            entry_id = id_by_key[(gi, k)]
+            max_grow = max_grow_overrides.get(entry_id, default_max_grow)
+            cap = orig_len + max_grow if args.repack else orig_len
             if len(toks) > cap:
-                problems.append(f"g{gi}#{k}: line {len(toks)}>{cap} :: {text!r}")
+                problems.append(
+                    f"{entry_id}: line {len(toks)}>{cap} "
+                    f"(max-grow {max_grow}) :: {text!r}"
+                )
                 seqs.append(orig)
                 continue
             seqs.append(toks)

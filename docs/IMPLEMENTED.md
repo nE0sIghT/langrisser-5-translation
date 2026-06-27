@@ -42,6 +42,8 @@ Details: `docs/SPEAKER_NAME_EXTRACTION.md` and
 - Reverse-engineered SYSTEM.BIN string groups and verified table-index runtime
   addressing.
 - Implemented offset-table-aware SYSTEM dump and fixed-size repack.
+- Added per-language SYSTEM line-growth limits with stable-ID exceptions, so
+  verified long fields do not weaken validation for unrelated UI strings.
 
 Details: `docs/SYSTEM_BIN_FORMAT.md` and
 `docs/NAME_ENTRY_ALPHABET.md`.
@@ -67,9 +69,9 @@ Details: `docs/IMG_DAT_FORMAT.md` and
   credits.
 - Produced a fixed-size PPF build without growing any disc file.
 
-The staff roll intentionally remains Japanese. Remaining English work is
-cross-checking against Japanese and editorial/runtime polish, not initial
-coverage.
+The voice-cast name list is translated; the remaining staff roll stays
+Japanese. Remaining English work is cross-checking against Japanese and
+editorial/runtime polish, not initial coverage.
 
 ## Multilingual Build Architecture
 

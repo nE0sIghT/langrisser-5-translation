@@ -21,6 +21,7 @@ data/lang/<code>/
   SCEN/
   font_slot_assignments.csv
   system_strings.json
+  system_layout.json
   names.csv
   glossary.csv
   name_entry_grid.json
@@ -39,6 +40,7 @@ Language-specific data uses neutral target fields:
 - `names.csv`: `jp,text,alt` (`alt` is an optional target-language short form);
 - `glossary.csv`: `jp,guide_en,text,note`;
 - `system_strings.json`: object mapping generated stable ids to target text;
+- `system_layout.json`: default and per-stable-id SYSTEM line-growth limits;
 - `virash_monologue.json`: each cue stores its translation in `text`.
 
 `guide_en` is explicitly an English reference-source field, not the selected
@@ -62,6 +64,7 @@ Fields currently consumed by the tools:
 | `script_dir` | Relative path to translated SCEN chunks, normally `SCEN`. |
 | `font_assignments` | Relative path to target glyph assignments CSV. |
 | `system_strings` | Relative path to SYSTEM.BIN UI translation JSON. |
+| `system_layout` | Relative path to SYSTEM.BIN line-growth constraints JSON. |
 | `names` | Relative path to name table CSV. |
 | `glossary` | Relative path to glossary CSV. |
 | `name_entry_grid` | Relative path to name-entry layout JSON. |
@@ -77,6 +80,30 @@ Fields currently consumed by the tools:
 | `max_lines` | Safe page height for rewrap checks. |
 
 Relative manifest paths are resolved from the language directory.
+
+## SYSTEM Layout Constraints
+
+`system_layout.json` prevents one translated UI line from becoming
+unexpectedly wider merely because its offset-table group has enough storage:
+
+```json
+{
+  "default_max_grow": 4,
+  "overrides": {
+    "table:08052:262": 6
+  }
+}
+```
+
+Values are additional encoded words beyond the original line length. Overrides
+use the same generated stable ids as `system_strings.json`; unknown ids,
+negative values and loose strings are rejected. Loose strings have no
+regenerable offset table and always remain within their original fixed budget.
+Keep the default conservative and add only display-verified exceptions.
+
+`lang5_system_pack.py --max-grow N` is a diagnostic override for the default;
+stable-id overrides still take precedence. The normal build does not pass this
+option and reads all limits from the language pack.
 
 ## Creating A Pack
 
