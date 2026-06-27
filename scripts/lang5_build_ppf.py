@@ -65,6 +65,15 @@ def main() -> None:
         "--exe-out", f"work/build/SLPS_018.19.{suffix}",
         "--tbl", tbl)
 
+    # Regenerate the SYSTEM source dump (offsets, budgets, JP source) from the
+    # original SYSTEM.BIN so the packer can join the durable target-only overlay
+    # to it. Done here so the build is self-contained and never depends on a
+    # pre-existing (and possibly stale) work/systemdump dump.
+    system_source = f"work/build/system_source.{suffix}.json"
+    run(scripts / "lang5_system_dump.py",
+        "--system-bin", args.system,
+        "--out", system_source)
+
     # All SYSTEM.BIN UI text (names, descriptions, command help, save messages)
     # via the unified offset-table flow (see docs/SYSTEM_BIN_FORMAT.md).
     # --repack regenerates each group's offset table so short kanji labels can
@@ -75,6 +84,7 @@ def main() -> None:
         "--system-in", f"work/build/SYSTEM.BIN.{suffix}.ne",
         "--system-out", f"work/build/SYSTEM.BIN.{suffix}",
         "--strings", lang.system_strings,
+        "--source-strings", system_source,
         "--tbl", tbl,
         "--repack", "--max-grow", "4",
         "--strict")
