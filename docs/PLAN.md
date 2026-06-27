@@ -54,11 +54,13 @@ not expected to fit the fixed SCEN budget.
 
 ## Stage 3: Russian Terminology
 
-1. Populate Russian target values in `names.csv` and `glossary.csv`.
-2. Verify names, countries, classes, items, spells and military terms against
-   Japanese and the established series terminology.
-3. Treat existing English wording as evidence, not authority.
-4. Keep one canonical Russian rendering for every recurring term.
+- [x] Approve and populate the core Russian character, place, faction and
+  series terminology in `glossary.csv`.
+- [ ] Populate Russian class, unit, item and spell names in `names.csv`.
+- [ ] Verify names, countries, classes, items, spells and military terms
+  against Japanese and the established series terminology.
+- [ ] Treat existing English wording as evidence, not authority.
+- [ ] Keep one canonical Russian rendering for every recurring term.
 
 ## Stage 4: Translation Order
 
