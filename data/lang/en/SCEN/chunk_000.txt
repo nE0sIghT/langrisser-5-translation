@@ -146,7 +146,7 @@
 107	・Strength<$FFFE>
 # spk: (no plate)
 108	<$FB00><$001C>Detailed settings: which ideal best<$FFFC>matches the specimen？<$FFFE>
-109	・Survive whatever the cost<$FFFE>
+109	・Survive even if all allies die<$FFFE>
 110	・Risk himself for allies<$FFFE>
 111	・Kill allies for secrecy<$FFFE>
 112	・Lives over the mission<$FFFE>
@@ -235,7 +235,7 @@
 181	・One strong commander<$FFFE>
 182	・A force loyal to command<$FFFE>
 # spk: (no plate)
-183	<$FB00><$001A>Set his action pattern when ambushed by a<$FFFC>superior force.<$FFFE>
+183	<$FB00><$001A>Set his response pattern when ambushed by<$FFFC>the enemy.<$FFFE>
 184	・Retreat and regroup<$FFFE>
 185	・Immediate counterattack<$FFFE>
 186	・Hold and regroup<$FFFE>
@@ -253,16 +253,16 @@
 196	・Aggressive instinct<$FFFE>
 197	・Sexual instinct<$FFFE>
 # spk: Operator
-198	Each stage opens with a story<$FFFC>scene, then moves to the <$FFF4>preparations<$FFFC>menu<$FFF3>. There you hire mercenaries, buy and<$FFFC>equip items, and deploy commanders.<$FFFD>Once all commanders are placed, <$FFF4>Deploy<$FFFC><$FFF3>starts the battle. The first battlefield<$FFFC>has no shop or mercenary post, and<$FFFC>deployment is fixed.<$FFFD>Press the <$FFF4>△ button <$FFF3>on any command to view<$FFFC>its description.<$FFFE>
+198	Each stage opens with a story<$FFFC>scene, then moves to the <$FFF4>preparations<$FFFC>menu<$FFF3>.<$FFFD>There you hire mercenaries, trade and<$FFFC>equip items, and deploy commanders. Once<$FFFC>all are placed, <$FFF4>Deploy<$FFF3> starts the battle.<$FFFD>The first battlefield has no shop or<$FFFC>mercenary post, so you can only inspect<$FFFC>it. Deployment is fixed.<$FFFD>Press the <$FFF4>△ button <$FFF3>on any command to view<$FFFC>its description.<$FFFE>
 # spk: Operator
 199	The specimen can experience a<$FFFC><$FFF4>virtual battle <$FFF3>to learn how combat works.<$FFFC>Try it？<$FFFE>
 # spk: Operator
-200	First, some basic knowledge<$FFFC>about the <$FFF4>action system<$FFF3>. It runs close to<$FFFC>real time. Turn counts only matter in<$FFFC>timed scenarios.<$FFFD>Each unit may act when its commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns flow by. The<$FFFC>meter is in the info bar below. Its size<$FFFC>shows the action capacity.<$FFFD>Issuing a command deducts its action cost<$FFFC>from the meter. So units act whenever the<$FFFC>meter is full, not once per turn. Now<$FFFC>launching the virtual battle program.<$FFFE>
+200	First, some basic knowledge<$FFFC>about the <$FFF4>action system<$FFF3>. It runs close to<$FFFC>real time. Turn counts only matter in<$FFFC>timed scenarios.<$FFFD>Each unit may act when its commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns flow by. The<$FFFC>meter is in the info bar below. <$FFF4>Its size<$FFF3><$FFFC>shows the action capacity.<$FFFD>Issuing a command deducts its action cost<$FFFC>from the meter. So units act whenever the<$FFFC>meter is full, not once per turn. Now<$FFFC>launching the virtual battle program.<$FFFE>
 # spk: Operator
 201	Finally, two key topics can be<$FFFC>input. Even without the virtual battle,<$FFFC>these are worth teaching.<$FFFD><$FFF4>Action system: basics <$FFF3>Review？<$FFFE>
 # spk: (no plate)
-202	The action order system runs close to real<$FFFC>time. Turns are only a guide. Units act<$FFFC>when the commander's <$FFF4>action meter <$FFF3>fills<$FFFC>as turns pass.<$FFFD>Issuing a command deducts its cost from<$FFFC>the meter. So units act whenever their<$FFFC>meter is full, not once per turn. The next<$FFFC>unit to act is shown at the top right.<$FFFE>
+202	The action order system runs close to real<$FFFC>time. Turn counts only guide timed<$FFFC>scenarios. Units act when the commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns pass.<$FFFD>Issuing a command deducts its cost from<$FFFC>the meter. So units act whenever their<$FFFC>meter is full, not once per turn. The next<$FFFC>unit to act is shown at the top right.<$FFFE>
 # spk: Operator
 203	<$FFF4>Action system: meter <$FFF3>Review？<$FFFE>
 # spk: Operator
-204	The action meter is shown in the<$FFFC>info bar at the bottom. Its size is the<$FFFC>action capacity. When it fills, the<$FFFC>commander may act.<$FFFD>Two colors: yellow is the current amount,<$FFFC>red is the cost to attack.<$FFFE><$FFFF>
+204	The action meter is shown in the<$FFFC>info bar at the bottom. <$FFF4>Its size<$FFF3> is the<$FFFC>action capacity. When it fills, the<$FFFC>commander may act.<$FFFD>Two colors: yellow is the current amount,<$FFFC>red is the cost to attack.<$FFFE><$FFFF>

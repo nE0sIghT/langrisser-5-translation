@@ -20,12 +20,12 @@ and Virash narration, may remain with the durable language assets.
 
 - English content coverage is complete, but it is not yet certified by the new
   record-by-record Japanese cross-check.
-- The Russian language pack is an intentionally untranslated scaffold using
-  the accepted Spleen 6x12 bitmap font, which covers the complete Russian
-  alphabet including `Ё/ё`.
-- The multilingual EN pipeline builds successfully. The clean RU scaffold is
-  intentionally not buildable until Stage 1 allocates its glyph slots and
-  supplies its name grid.
+- The Russian language pack uses the accepted Spleen 6x12 bitmap font, which
+  covers the complete Russian alphabet including `Ё/ё`.
+- The startup quiz, tutorial, initial menu/configuration strings, name-entry
+  grid and language-specific title credits have Russian preview data.
+- Both EN and RU pipelines build successfully. Russian content after the
+  startup tutorial remains untranslated.
 - Completed reverse engineering and tooling are recorded in
   `docs/IMPLEMENTED.md`.
 
@@ -34,15 +34,15 @@ and Virash narration, may remain with the durable language assets.
 - [x] Verify all Russian letters, including `Ё/ё`, digits and required
   punctuation, in Spleen 6x12.
 - [x] Extend pair detection from ASCII-only words to Unicode Cyrillic words.
-- [ ] Allocate mandatory single glyphs and frequency-ranked Russian pair
+- [x] Allocate mandatory single glyphs and frequency-ranked Russian pair
   glyphs.
 - [ ] Render and review every allocated single/pair glyph.
-- [ ] Prepare the Russian name-entry grid.
-- [ ] Prove that a representative translated chunk fits and builds without
+- [x] Prepare the Russian name-entry grid.
+- [x] Prove that a representative translated chunk fits and builds without
   using slots above 1820.
 
-This stage blocks bulk translation: single-cell Cyrillic without pair glyphs is
-not expected to fit the fixed SCEN budget.
+The allocator is additive and idempotent. It derives additional Cyrillic pair
+glyphs as the translated corpus grows; visual review remains an ongoing gate.
 
 ## Stage 2: Three-Way Review Tooling
 
@@ -109,13 +109,14 @@ A scenario is complete only when:
 
 | Content | RU translated | EN checked against JP | Terms checked | Validate | Build |
 | --- | --- | --- | --- | --- | --- |
-| Startup quiz | No | No | No | No | No |
-| Tutorial | No | No | No | No | No |
+| Startup quiz | Yes | Yes | Yes | Yes | Yes |
+| Tutorial | Yes | Yes | Yes | Yes | Yes |
 | Scenarios 1-36 | 0/36 | 0/36 | No | No | No |
 | Optional scenarios 38-42 | 0/5 | 0/5 | No | No | No |
 | Recap 129 | No | No | No | No | No |
 | Bios 130 | No | No | No | No | No |
-| SYSTEM/UI | No | No | No | No | No |
+| SYSTEM/UI | Partial | Partial | Partial | Yes | Yes |
+| Title credits | Yes | N/A | Yes | Yes | Yes |
 | Prologue poem | No | No | No | No | No |
 | Virash narration | No | No | No | No | No |
 

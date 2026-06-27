@@ -1,7 +1,27 @@
 {
   "_comment": [
-    "Target-language name-entry grid. Supply exactly 19 runs of 5 characters",
-    "before building this language pack; an empty list marks an unfinished scaffold."
+    "Russian name-entry grid. The executable renders row K as run K followed",
+    "by run K+9, so paired runs form readable 10-character rows."
   ],
-  "runs": []
+  "runs": [
+    "АБВГД",
+    "ЙКЛМН",
+    "УФХЦЧ",
+    "ЭЮЯаб",
+    "жзийк",
+    "рстуф",
+    "ъыьэю",
+    "56789",
+    "-    ",
+    "ЕЁЖЗИ",
+    "ОПРСТ",
+    "ШЩЪЫЬ",
+    "вгдеё",
+    "лмноп",
+    "хцчшщ",
+    "я1234",
+    "0！？.,",
+    "     ",
+    "     "
+  ]
 }
