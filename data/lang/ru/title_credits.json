@@ -1,7 +1,6 @@
 {
   "_comment": "Available placeholders: {version}, {commit}.",
   "lines": [
-    "Перевод v{version} ({commit})",
-    "Юрий «nE0sIghT» Конотопов"
+    "Перевод v{version} ({commit}) от Юрия «nE0sIghT» Конотопова"
   ]
 }
