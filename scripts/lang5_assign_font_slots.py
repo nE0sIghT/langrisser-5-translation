@@ -53,10 +53,26 @@ def map_target_texts(mp: Path) -> list[str]:
             if (e.get("text") or "").strip() and e["text"] != "{BLANK}"]
 
 
-def map_jp_keys(mp: Path) -> set[str]:
+def map_jp_keys(mp: Path, source_by_id: dict[str, dict]) -> set[str]:
     """JP source strings from a translation map (used to mark UI glyph slots)."""
     data = json.loads(mp.read_text(encoding="utf-8"))
     if isinstance(data, dict):
+        overlay_ids = {
+            key for key in data
+            if key.startswith("table:") or key.startswith("offset:")
+        }
+        unknown = overlay_ids - set(source_by_id)
+        if unknown:
+            raise SystemExit(
+                f"{mp}: SYSTEM overlay ids require a current source dump; "
+                f"unknown ids: {sorted(unknown)[:5]}"
+            )
+        if data and set(data).issubset(source_by_id):
+            return {
+                source_by_id[entry_id]["jp"]
+                for entry_id, text in data.items()
+                if text and source_by_id[entry_id].get("jp")
+            }
         return set(data)
     return {e["jp"] for e in data if e.get("jp")}
 
@@ -200,6 +216,9 @@ def main() -> None:
     ap.add_argument("--menu-map", action="append",
                     default=None,
                     help="Translation maps (repeatable); defaults to menu+names maps.")
+    ap.add_argument("--system-source",
+                    default="work/systemdump/system_strings.json",
+                    help="Generated SYSTEM source dump used to resolve overlay ids.")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     args = ap.parse_args()
@@ -233,9 +252,16 @@ def main() -> None:
     # BTLDAT/MRCUSW/SLPS are mostly code/data whose pseudo-runs would
     # inflate the "used in UI" set; real UI strings live in SYSTEM/ALLUS*.
     translated_keys = set()
+    source_by_id: dict[str, dict] = {}
+    source_path = Path(args.system_source)
+    if source_path.exists():
+        source_by_id = {
+            entry["id"]: entry
+            for entry in json.loads(source_path.read_text(encoding="utf-8"))
+        }
     for mp in maps:
         if mp.exists():
-            translated_keys |= map_jp_keys(mp)
+            translated_keys |= map_jp_keys(mp, source_by_id)
     pool = [i for i in sacrificial_pool(
         groups_report, Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",

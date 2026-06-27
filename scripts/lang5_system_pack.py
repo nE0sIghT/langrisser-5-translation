@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Pack translated SYSTEM.BIN strings back into their offset-table groups.
+"""Pack target-language SYSTEM.BIN overlays into their offset-table groups.
 
 This is the inverse of `lang5_system_dump.py`. For each group it rebuilds the
-`[u16 offset table][strings]` layout from the translation JSON, regenerating the
-offset table from the *actual* (possibly changed) string lengths. Because the
-table is regenerated, a translated string is no longer bound to the original
-string's byte length - only to the group's total size (the group stays at its
-fixed base so nothing that points at it has to move).
+`[u16 offset table][strings]` layout from a generated source dump under work/
+and a durable target-only overlay under data/lang/. Because the table is
+regenerated, a translated string is no longer bound to the original string's
+byte length - only to the group's total size (the group stays at its fixed base
+so nothing that points at it has to move).
 
 Per-string the limit is the on-screen line width, not the data: each string is
 one display line, so by default a translation may not render wider than the
@@ -52,6 +52,9 @@ def main() -> None:
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.font")
     ap.add_argument("--system-out", default=None)
     ap.add_argument("--strings", default=None)
+    ap.add_argument("--source-strings",
+                    default="work/systemdump/system_strings.json",
+                    help="Generated SYSTEM source dump with offsets and JP text.")
     ap.add_argument("--tbl", default=None)
     ap.add_argument("--repack", action="store_true",
                     help="Regenerate each group's offset table so strings may change "
@@ -67,6 +70,7 @@ def main() -> None:
 
     lang = language_from_args(args)
     strings_path = Path(args.strings) if args.strings else lang.system_strings
+    source_strings_path = Path(args.source_strings)
     tbl = Path(args.tbl) if args.tbl else lang.tbl
     system_out = (Path(args.system_out) if args.system_out
                   else lang.build_path("SYSTEM.BIN.{lang}"))
@@ -74,23 +78,61 @@ def main() -> None:
     codec = Codec(load_charmap_tbl(tbl))
     data = bytearray(Path(args.system_in).read_bytes())
     groups = find_groups(data)
-    by_key = {}
-    loose = []
-    for e in json.loads(strings_path.read_text(encoding="utf-8")):
-        if e["group"] == -1:
-            loose.append(e)
+    if not source_strings_path.exists():
+        raise SystemExit(
+            f"SYSTEM source dump not found: {source_strings_path}; "
+            "run scripts/lang5_system_dump.py first"
+        )
+    source_entries = json.loads(source_strings_path.read_text(encoding="utf-8"))
+    translations = json.loads(strings_path.read_text(encoding="utf-8"))
+    if not isinstance(source_entries, list):
+        raise SystemExit(f"SYSTEM source dump must be a list: {source_strings_path}")
+    if not isinstance(translations, dict):
+        raise SystemExit(f"SYSTEM translation overlay must be an object: {strings_path}")
+    if any("id" not in entry for entry in source_entries):
+        raise SystemExit(
+            f"outdated SYSTEM source dump: {source_strings_path}; "
+            "regenerate it with scripts/lang5_system_dump.py"
+        )
+
+    source_by_id = {e["id"]: e for e in source_entries}
+    if len(source_by_id) != len(source_entries):
+        raise SystemExit(f"duplicate ids in SYSTEM source dump: {source_strings_path}")
+    unknown = sorted(set(translations) - set(source_by_id))
+    if unknown:
+        raise SystemExit(
+            f"{strings_path}: {len(unknown)} unknown SYSTEM ids, first: {unknown[:5]}"
+        )
+
+    group_by_table = {table_off: gi for gi, (table_off, _table, _base) in enumerate(groups)}
+    by_key: dict[tuple[int, int], str] = {}
+    loose: list[tuple[dict, str]] = []
+    for entry_id, text in translations.items():
+        if not isinstance(text, str):
+            raise SystemExit(f"{strings_path}: {entry_id} value must be a string")
+        if not text:
+            continue
+        source = source_by_id[entry_id]
+        if source["group"] == -1:
+            loose.append((source, text))
         else:
-            by_key[(e["group"], e["index"])] = e
+            table_off = int(source["table"], 16)
+            if table_off not in group_by_table:
+                raise SystemExit(
+                    f"{source_strings_path}: source table {source['table']} "
+                    "does not exist in the input SYSTEM.BIN"
+                )
+            by_key[(group_by_table[table_off], source["index"])] = text
 
     problems = []
     changed = 0
 
     # Loose strings have no table to regenerate: write within the fixed budget.
-    for e in loose:
+    for e, text in loose:
         # rstrip only: a leading space is a deliberate layout choice (it separates
         # the text from an engine-drawn prefix like the LOAD-menu "[N]面" counter),
         # so it must survive into the encoded line.
-        text = (e.get("text") or "").rstrip()
+        text = text.rstrip()
         if not text:
             continue
         off = int(e["offset"], 16)
@@ -125,8 +167,7 @@ def main() -> None:
             orig_len = table[k + 1] - table[k] - 1 if k + 1 < n else run_length(data, off)
             lens.append(orig_len)
             orig = list(struct.unpack_from("<%dH" % orig_len, data, off)) if orig_len else []
-            e = by_key.get((gi, k))
-            text = (e.get("text") or "").rstrip() if e else ""  # keep leading layout spaces
+            text = by_key.get((gi, k), "").rstrip()  # keep leading layout spaces
             if not text:
                 seqs.append(orig)
                 continue
@@ -137,13 +178,13 @@ def main() -> None:
             try:
                 toks = codec.encode(text)
             except Exception as exc:
-                problems.append(f"g{gi}#{k} {e['offset']}: unencodable ({exc}) :: {text!r}")
+                problems.append(f"g{gi}#{k}: unencodable ({exc}) :: {text!r}")
                 seqs.append(orig)
                 continue
             toks = reserve_leading_cells(orig) + toks
             cap = orig_len + args.max_grow if args.repack else orig_len
             if len(toks) > cap:
-                problems.append(f"g{gi}#{k} {e['offset']}: line {len(toks)}>{cap} :: {text!r}")
+                problems.append(f"g{gi}#{k}: line {len(toks)}>{cap} :: {text!r}")
                 seqs.append(orig)
                 continue
             seqs.append(toks)

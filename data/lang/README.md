@@ -12,6 +12,7 @@ running the script dumper.
 The `ru` directory is a scaffold. It intentionally starts with copied structure
 and empty `SCEN/`; translate it before building a release patch.
 
-Target text uses language-neutral fields (`text` in name, glossary and JSON
-records; `char` in font assignments). `guide_en` is retained only as an
-explicit English reference column.
+Target text uses language-neutral fields (`text` in name, glossary and
+non-reproducible JSON records; `char` in font assignments). SYSTEM translations
+are stored as a stable-id-to-text object with no extracted JP source.
+`guide_en` is retained only as an explicit English reference column.

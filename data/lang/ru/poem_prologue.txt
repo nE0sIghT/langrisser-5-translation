@@ -3,43 +3,4 @@
 # one uniform pitch into a single continuous scroll strip (no gap between
 # screens), then slices it into the three stored panels; a line may straddle a
 # panel boundary and rejoins seamlessly as the engine scrolls.
-The crimson elder sister,
-a merciless queen,
-looks down upon us in majesty.
-The azure younger sister,
-a merciless warrior,
-looks coldly down upon us.
-The skyfaring ship, reaper's wings,
-carries our souls to hell.
-We, the oppressed, look up
-and glare at heaven in wrath.
-
-Crimson elder, azure younger,
-stand side by side in this night sky;
-we find sorrow's color.
-We lament, grieve, rage, laugh.
-At last we clench our fists;
-at last we nock our arrows.
-We shall stand against
-the merciless sisters;
-that alone is the way to live.
-
-Our wrath shall burn
-this sky and all the earth;
-our sorrow shall freeze
-this sky and all the seas.
-At last the merciless queen
-is driven from this land,
-and sets forth on a journey.
-And the merciless younger sister
-sleeps quietly,
-waiting for her elder sister.
-
-Leaving words of hatred,
-the queen hides herself
-in a frozen world of stars.
-After more than two centuries,
-she will return to this land
-and sow seeds of misfortune,
-brandishing the sword of madness
-to seize all of this world.
+# TODO: add the target-language poem while preserving four logical blocks.

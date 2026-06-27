@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Round-trip integrity test for the SCEN dump/insert toolchain.
+"""Round-trip integrity test for the SCEN and SYSTEM dump/insert toolchains.
 
 Check 1 (codec): every record decoded from the source files re-encodes to
 the exact original bytes.
 Check 2 (pipeline): dumping to a temp dir and inserting without edits
 produces byte-identical SCEN.DAT/SCEN2.DAT.
+Check 3 (SYSTEM): generating source metadata and packing an empty target
+overlay produces a byte-identical SYSTEM.BIN.
 
 Exits non-zero on any mismatch.
 """
@@ -22,7 +24,7 @@ from lang5_scen import (
     words_from_bytes,
     words_to_bytes,
 )
-from lang5_project import COMMON_FONT_MAP
+from lang5_project import COMMON_FONT_MAP, COMMON_JP_TBL
 
 
 def check_codec(src: Path, codec: Codec) -> int:
@@ -45,7 +47,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
+    ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--charmap", default=str(COMMON_FONT_MAP))
+    ap.add_argument("--jp-tbl", default=str(COMMON_JP_TBL))
     args = ap.parse_args()
 
     codec = Codec(load_charmap_csv(Path(args.charmap)))
@@ -73,6 +77,30 @@ def main() -> None:
             print(f"pipeline round-trip {src.name}: {'OK' if same else 'MISMATCH'}")
             if not same:
                 failures += 1
+
+        system_source = Path(tmp) / "system_source.json"
+        empty_overlay = Path(tmp) / "system_overlay.json"
+        system_out = build_dir / "SYSTEM.BIN"
+        empty_overlay.write_text("{}\n", encoding="utf-8")
+        run(
+            scripts / "lang5_system_dump.py",
+            "--system-bin", args.system,
+            "--tbl", args.jp_tbl,
+            "--out", system_source,
+        )
+        run(
+            scripts / "lang5_system_pack.py",
+            "--system-in", args.system,
+            "--system-out", system_out,
+            "--source-strings", system_source,
+            "--strings", empty_overlay,
+            "--tbl", args.jp_tbl,
+            "--strict",
+        )
+        same = Path(args.system).read_bytes() == system_out.read_bytes()
+        print(f"pipeline round-trip SYSTEM.BIN: {'OK' if same else 'MISMATCH'}")
+        if not same:
+            failures += 1
 
     sys.exit(1 if failures else 0)
 

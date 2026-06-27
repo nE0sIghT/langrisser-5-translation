@@ -1,187 +1,125 @@
-# Translation Toolkit Plan
+# Russian Translation Plan
 
-Goal: a working toolkit for translating Langrisser V (PS1), modeled after the
-Langrisser 3 toolkit (`external/lang3`): dump script -> edit per-chunk text
-files -> insert -> build PPF.
+## Goal
 
-## Verified root cause of past failures (2026-06-11)
+Produce a complete Russian translation directly from the Japanese game script
+while verifying the existing English translation record by record.
 
-The legacy pipeline parsed SCEN record boundaries with a +2 byte shift.
+Source priority is strict:
 
-Actual text block format inside a chunk:
+1. The generated Japanese dump under `work/` is authoritative.
+2. `data/lang/en/` is a cross-check and must not replace reading the Japanese.
+3. The GameFAQs guide and fan terminology are secondary references.
+4. If English conflicts with Japanese, Japanese wins and English is corrected.
 
-```
-base:   u16 block_size              ; total size of text block, relative to base
-base+2: u16 offsets[N]              ; record offsets, RELATIVE TO base, ascending
-        records...                  ; record i = [base+off[i], base+off[i+1])
-                                    ; last record ends at base+block_size
-```
+Generated Japanese SCEN and SYSTEM text is never committed. Image/audio source
+text that cannot be reproduced by the text dumpers, such as the prologue poem
+and Virash narration, may remain with the durable language assets.
 
-The legacy code treated `base+2` (start of the offset array) as the offset
-base. Consequences, all confirmed on real data:
+## Current Baseline
 
-- every dumped record contained the first token of the *next* record at its
-  tail; with shift corrected, 9886/9886 SCEN.DAT records end with a
-  0xFFFx terminator (6.6% before);
-- EN insertion overwrote the first token of neighboring records (e.g. the
-  choice marker in the startup quiz) and padded tails with 0x0000 — the
-  likely cause of hangs;
-- the last record of every chunk was silently dropped from the dump.
+- English content coverage is complete, but it is not yet certified by the new
+  record-by-record Japanese cross-check.
+- The Russian language pack is an intentionally untranslated scaffold.
+- The multilingual EN pipeline builds successfully. The clean RU scaffold is
+  intentionally not buildable until Stage 1 supplies its font and name grid.
+- Completed reverse engineering and tooling are recorded in
+  `docs/IMPLEMENTED.md`.
 
-Other established facts:
+## Stage 1: Russian Font And Encoding
 
-- Encoding is custom: u16 token = glyph index in the 12x12 1bpp font
-  (18 bytes/glyph) at offset 0 of SYSTEM.BIN. Verified visually.
-- Tokens < 0xE000 printable; 0xF6xx/0xFBxx consume argument words;
-  0xFFFC..0xFFFF are separators/terminators (see DISASM_SUMMARY.md).
-- `work/translation.txt` is the GameFAQs guide by borgor
-  (https://gamefaqs.gamespot.com/saturn/562834-langrisser-v-the-end-of-legend/faqs/41339),
-  a full scene-by-scene "Speaker : line" EN script keyed by "Scenario N" /
-  "Scenario N Clear".
-- The legacy auto-alignment (`jp_en_full_records.json`) is statistically
-  misaligned garbage and must not be used. Only the curated chunk-0 quiz
-  overrides and the menu map are worth keeping.
-- Font table `groups_report.csv` is structurally correct but contains ~100
-  entries where OCR picked Chinese variant codepoints instead of JP forms
-  (see `proposed_fixes.csv`), plus point errors (124 must be を).
-- SCEN.DAT and SCEN2.DAT have identical structure (131 chunks, 110 with text
-  tables, 9886 records each); chunk 0 is byte-identical between them.
+1. Verify all Russian letters, including `Ё/ё`, digits and required punctuation.
+2. Extend pair detection from ASCII-only words to Unicode Cyrillic words.
+3. Allocate mandatory single glyphs and frequency-ranked Russian pair glyphs.
+4. Render and review every allocated single/pair glyph.
+5. Prepare the Russian name-entry grid.
+6. Prove that a representative translated chunk fits and builds without using
+   slots above 1820.
 
-## Stage 1 — correct container codec (fully automatable)
+This stage blocks bulk translation: single-cell Cyrillic without pair glyphs is
+not expected to fit the fixed SCEN budget.
 
-Rewrite dump/insert around the verified block format:
+## Stage 2: Three-Way Review Tooling
 
-1. Chunk walker: u32 pointer table at file start, payloads at 0x800-aligned
-   offsets.
-2. Text block locator: replace the "longest ascending u16 run" heuristic with
-   strict validation: `u16 block_size` at base, ascending offsets, every
-   record terminated by 0xFFFx, `base+block_size` within chunk. Audit the 21
-   chunks the old heuristic skipped — find smaller tables or prove they hold
-   no text.
-3. Dumper: per-chunk text files (lang3 style), tokens < 0xE000 as chars via
-   the font table, the rest as `<$XXXX>` tags. No records dropped.
-4. Inserter: rebuild records inside the text block first; when a chunk-local
-   budget is too tight, use fixed-size container repack: grow the text block,
-   rebuild 0x800-aligned chunks, rewrite the chunk pointer table, and keep
-   the final SCEN/SCEN2 file size byte-identical.
-5. Mandatory round-trip test: dump -> insert with no edits == byte-identical
-   SCEN/SCEN2. CI-style check script.
+1. Generate a JP / existing EN / new RU view keyed by chunk and record.
+2. Show speaker plate, control words and page boundaries for each record.
+3. Flag missing records, control-signature differences and residual Japanese.
+4. Track separate `RU translated` and `EN checked against JP` states.
+5. Keep all generated review pages under `work/`.
 
-## Stage 2 — font table fixes (semi-automatic)
+## Stage 3: Russian Terminology
 
-1. Review `data/common/font_mapping/proposed_fixes.csv` against
-   `work/font_review/font_review.html` (generated by
-   `scripts/lang5_font_review.py`), apply accepted fixes to
-   `groups_report.csv`.
-2. Resolve unmapped tokens seen in script text (272=闘?, 372=敵?, 714=精?,
-   769=風?).
-3. Regenerate the JP dump; grep for residual `<$xxxx>` in dialog text to find
-   remaining gaps.
+1. Populate Russian target values in `names.csv` and `glossary.csv`.
+2. Verify names, countries, classes, items, spells and military terms against
+   Japanese and the established series terminology.
+3. Treat existing English wording as evidence, not authority.
+4. Keep one canonical Russian rendering for every recurring term.
 
-## Stage 3 — proof of concept patch (built, awaiting in-game test)
+## Stage 4: Translation Order
 
-1. Full EN startup quiz in `data/lang/en/SCEN/chunk_000.txt` (durable
-   translation asset; the JSON overrides were only a bootstrap).
-2. EN lowercase font: `data/lang/en/font_slot_assignments.csv` maps 24
-   new glyphs into the 3 junk tiles + 21 rare kanji slots (each used once
-   in the whole script, outside chunk 0 and outside menu strings).
-3. `scripts/lang5_build_ppf.py` builds the patch; the cue/bin pair in
-   `work/build/` boots directly in DuckStation.
+Translate and cross-check in this order:
 
-Capacity facts learned while building:
+1. Startup quiz.
+2. Tutorial.
+3. Main scenarios 1-36.
+4. Optional scenarios 38-42.
+5. Recap and biography chunks 129-130.
+6. SYSTEM/UI strings.
+7. Prologue poem and Virash narration.
 
-- Text block location: the game computes `text_off = vm_off + vm_size`
-  (vm_off = u32 at chunk+0, vm_size = u32 at chunk+vm_off+0x3C), confirmed
-  on all 262 chunks and by archived runtime RE. Growing the block keeps
-  the base; only the chunk suffix shifts. Battle chunks start their suffix
-  with an asset-slot pointer table read through 32-bit loads. All original
-  battle suffix starts are 4-byte aligned, so the inserter now 4-aligns grown
-  text blocks. The old chunk 002 portrait regression was caused by a 2-byte
-  suffix misalignment, not by suffix movement itself; restored chunk 002 text
-  with a 4-byte aligned suffix was verified in-game. Use block-budget
-  validation only as a diagnostic fallback for future battle asset regressions.
-- The inserter first absorbs block growth into the chunk's own trailing zero
-  padding. If that is not enough, fixed-size repack may move later chunks and
-  reclaim whole-sector padding elsewhere in the same SCEN/SCEN2 file. The
-  output file size and ISO layout remain byte-identical in length.
-- Files cannot grow or relocate on this disc: CD audio tracks start 150
-  sectors after the last file (iso_mode2 --allow-grow would clobber them;
-  do not use it for SCEN/SCEN2).
-- EN text is ~1.5x JP in tokens; pair glyphs and fixed-size repack reduce
-  the need for aggressive line cuts, but tight chunks still need editorial
-  trimming when the whole SCEN/SCEN2 file budget is exhausted.
+Work scenario by scenario, not by arbitrary chunk order.
 
-## Status snapshot (2026-06-13)
+## Per-Scenario Procedure
 
-Done: stages 0-3, the full main story route, startup quiz, tutorial battle,
-all optional map intros/battles, recap chunks 129-130, menu/UI/name runs, the
-English glyph system, and the title-screen credit/QR patch. The current build
-validates with fixed-size SCEN/SCEN2 repacking and produces a PPF without
-growing any disc file. Main story scenarios 1-36, optional chunks 38-42/82-86,
-and recap chunks 129-130 are translated as durable per-chunk assets in
-`data/lang/en/SCEN/`; the inserter reuses that source for `SCEN2.DAT`.
+1. Generate or refresh the Japanese source dump from the original image.
+2. Stage the scenario in `work/wip_ru/`.
+3. Read every Japanese record and compare the corresponding English record.
+4. Translate Japanese to Russian without using English as the sole source.
+5. Correct English when Japanese confirms a meaning, subject, tone or
+   terminology error.
+6. Preserve all control words and argument words in order.
+7. Rewrap both changed language packs and verify speakers, choices and pages.
+8. Record any lost nuance caused by the fixed byte budget in
+   `docs/COMPRESSION_DEBT.md` with the affected language.
+9. Run validation and full builds for every changed language.
+10. Move a Russian chunk into `data/lang/ru/SCEN/` only when the whole chunk is
+    translated and validated.
 
-Still open outside the main story route:
+## Scenario Completion Gate
 
-- In-game QA and wording/line-break polish across the completed content.
-- Release packaging.
+A scenario is complete only when:
 
-## Stage 4 — remaining script coverage
+- every Japanese record has a Russian translation;
+- every corresponding English record has been checked against Japanese;
+- no untranslated Japanese remains in the Russian target;
+- control signatures and argument words match the source;
+- speaker-plate tests and line wrapping pass;
+- terminology is consistent;
+- compression debt is current;
+- EN and RU validation/builds pass for all changed data.
 
-1. Tutorial battle chunk 37 is translated. This completes the startup quiz
-   flow.
-2. Optional maps are translated in intro/battle pairs:
-   `82+38`, `83+39`, `84+40`, `85+41`, `86+42`.
-3. World-situation recap chunk 129 and recap/bios chunk 130 are translated.
-4. After every completed chunk or scenario pair: rewrap, validate, rebuild PPF,
-   regenerate review HTML, and commit only the durable translation assets plus
-   any required documentation updates.
+## Progress
 
-## Stage 5 — full-game polish
+| Content | RU translated | EN checked against JP | Terms checked | Validate | Build |
+| --- | --- | --- | --- | --- | --- |
+| Startup quiz | No | No | No | No | No |
+| Tutorial | No | No | No | No | No |
+| Scenarios 1-36 | 0/36 | 0/36 | No | No | No |
+| Optional scenarios 38-42 | 0/5 | 0/5 | No | No | No |
+| Recap 129 | No | No | No | No | No |
+| Bios 130 | No | No | No | No | No |
+| SYSTEM/UI | No | No | No | No | No |
+| Prologue poem | No | No | No | No | No |
+| Virash narration | No | No | No | No | No |
 
-1. Playtest the whole main route plus tutorial and optional maps.
-2. Review line breaks and speaker-plate wrapping in-game, especially first
-   lines of spoken records and choice rows.
-3. Revisit `docs/COMPRESSION_DEBT.md` and restore compressed nuance where
-   budget allows.
-4. Battle log composite messages (name-prefix runs like 「の効果！」) need
-   template-aware translation if they appear untranslated in playtesting.
-5. Battle chunk aligned-growth verification is complete for chunk 002.
-   `scripts/lang5_battle_suffix.py` identifies the suffix asset-slot table and
-   the inserter keeps grown text blocks 4-byte aligned. Block-budget mode is a
-   fallback diagnostic, not the normal translation budget.
-6. Title screen credit graphics are part of the standard build.
-   `scripts/lang5_imgdat.py title-credits` patches the two title-screen
-   assets 10 and 11 in-place, using the bundled
-   `LiberationSansNarrow-Bold.ttf`, the requested patch version, the current
-   git commit hash, and a QR code for the project repository. The command
-   also writes raw/display previews for QA.
-7. Release packaging: PPF + README; xdelta as alternative format.
+## Final Gate
 
-Credits/staff roll is intentionally left untranslated (kept in JP).
+1. Confirm that every translatable JP record has a Russian target record.
+2. Confirm that every existing English record has completed JP cross-check.
+3. Confirm that no partial Russian chunk exists in durable data.
+4. Run all mandatory checks for EN and RU.
+5. Build both complete PPF patches without changing any disc-file size.
+6. Revisit all open compression debt before release packaging.
 
-## Stage 6 — multilingual/RU refactor
-
-1. Translation data is organized as language packs under `data/lang/<lang>/`.
-   English moved to `data/lang/en/`; Russian starts as `data/lang/ru/`.
-2. Common, non-language data lives under `data/common/`:
-   `scenario_map.json`, font mapping CSVs and the reference JP `.tbl`.
-3. Generated JP source dumps stay under `work/scriptdump/`; generated SYSTEM
-   inspection dumps stay under `work/systemdump/`. Do not commit those dumps.
-4. Build/edit tools accept `--lang <code>` and resolve paths through
-   `data/lang/<code>/manifest.json`. Historical script names with `en` remain
-   for compatibility.
-5. New-language scaffolding is handled by `scripts/lang5_init_lang.py`; it does
-   not copy SCEN chunks unless `--copy-script` is explicitly requested.
-
-## Plan B (only if needed)
-
-- VWF / renderer advance patching (MIPS RE of the glyph blitter) — if 6px
-  half-cell letters ever feel too small. Current pair-glyph approach makes
-  this optional.
-
-## Non-automatable (human work)
-
-- Proofreading scene alignment (stage 4c).
-- Occasional line shortening where a chunk overflows.
-- Playtesting.
+Runtime playtesting is performed separately from this static translation and
+build workflow.

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Create a new target-language scaffold under data/lang/<code>.
+"""Create a clean target-language scaffold under data/lang/<code>.
 
-The scaffold copies durable editorial assets from an existing language pack
-(font slots, SYSTEM strings, name/glossary tables, graphics transcript text),
-but does not copy SCEN chunks unless --copy-script is given. Generated JP dumps
-belong in work/scriptdump/ and are never created here.
+The scaffold copies source structure but clears target text, font assignments,
+name-entry characters and other translated values. It does not copy SCEN chunks
+unless --copy-script is given. Generated JP dumps belong under work/ and are
+never created here.
 """
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import shutil
 from pathlib import Path
@@ -31,6 +32,82 @@ SCALAR_FILES = [
 
 def rel_to_root(root: Path, path: Path) -> str:
     return path.resolve().relative_to(root.resolve()).as_posix()
+
+
+def write_scaffold(key: str, src: Path, dst: Path) -> None:
+    if key == "poem_source":
+        shutil.copyfile(src, dst)
+        return
+    if key == "font_assignments":
+        with src.open(encoding="utf-8", newline="") as fh:
+            fields = csv.DictReader(fh).fieldnames
+        if not fields:
+            raise SystemExit(f"missing CSV header: {src}")
+        dst.write_text(",".join(fields) + "\n", encoding="utf-8")
+        return
+    if key == "system_strings":
+        dst.write_text("{}\n", encoding="utf-8")
+        return
+    if key in ("names", "glossary"):
+        with src.open(encoding="utf-8", newline="") as fh:
+            reader = csv.DictReader(fh)
+            fields = reader.fieldnames
+            rows = list(reader)
+        if not fields or "text" not in fields:
+            raise SystemExit(f"missing target text column: {src}")
+        for row in rows:
+            row["text"] = ""
+            if key == "names" and "alt" in row:
+                row["alt"] = ""
+        with dst.open("w", encoding="utf-8", newline="") as fh:
+            writer = csv.DictWriter(fh, fieldnames=fields, lineterminator="\n")
+            writer.writeheader()
+            writer.writerows(rows)
+        return
+    if key == "manual_record_overrides":
+        values = json.loads(src.read_text(encoding="utf-8"))
+        dst.write_text(
+            json.dumps({name: "" for name in values}, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return
+    if key == "name_entry_grid":
+        value = {
+            "_comment": [
+                "Target-language name-entry grid. Supply exactly 19 runs of 5 characters",
+                "before building this language pack; an empty list marks an unfinished scaffold.",
+            ],
+            "runs": [],
+        }
+        dst.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
+        return
+    if key == "poem":
+        comments = []
+        for line in src.read_text(encoding="utf-8").splitlines():
+            if line.startswith("#"):
+                comments.append(line)
+            elif line.strip():
+                break
+        comments.append(
+            "# TODO: add the target-language poem while preserving four logical blocks."
+        )
+        dst.write_text("\n".join(comments) + "\n", encoding="utf-8")
+        return
+    if key == "virash_monologue":
+        value = json.loads(src.read_text(encoding="utf-8"))
+        value["_comment"] = (
+            "Subtitle source for the scenario-25 Virash monologue. JP and timings "
+            "are source material recovered from the non-text cutscene; text is "
+            "the target translation."
+        )
+        for cue in value["cues"]:
+            cue["text"] = ""
+        dst.write_text(
+            json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return
+    shutil.copyfile(src, dst)
 
 
 def main() -> None:
@@ -68,7 +145,7 @@ def main() -> None:
         if dst_path.exists() and not args.force:
             print(f"skip existing {dst_path}")
             continue
-        shutil.copyfile(src_path, dst_path)
+        write_scaffold(key, src_path, dst_path)
         manifest[key] = dst_path.name
         print(f"copied {src_path} -> {dst_path}")
 

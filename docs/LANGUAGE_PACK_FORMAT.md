@@ -36,13 +36,18 @@ in `work/wip_<code>/SCEN/`.
 Language-specific data uses neutral target fields:
 
 - `font_slot_assignments.csv`: `index_dec,char,replaced_char`;
-- `names.csv`: `jp,text,alt`;
+- `names.csv`: `jp,text,alt` (`alt` is an optional target-language short form);
 - `glossary.csv`: `jp,guide_en,text,note`;
-- `system_strings.json`: each entry stores its translation in `text`;
+- `system_strings.json`: object mapping generated stable ids to target text;
 - `virash_monologue.json`: each cue stores its translation in `text`.
 
 `guide_en` is explicitly an English reference-source field, not the selected
 language's output field.
+
+`system_strings.json` intentionally contains no extracted Japanese text or
+offset metadata. `lang5_system_dump.py` regenerates those fields under
+`work/systemdump/system_strings.json`; the packer joins the durable overlay to
+that source by ids such as `table:08052:1` and `offset:176A0`.
 
 ## Manifest
 
@@ -79,8 +84,8 @@ Relative manifest paths are resolved from the language directory.
 python3 scripts/lang5_init_lang.py ru --label Russian
 ```
 
-The initializer copies durable editorial scaffolding from an existing language
-pack but leaves `SCEN/` empty unless `--copy-script` is explicitly passed.
+The initializer copies source structure while clearing target values. It leaves
+`SCEN/` empty unless `--copy-script` is explicitly passed.
 
 After editing the manifest and adding target text, update glyph slots:
 

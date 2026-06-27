@@ -1,8 +1,10 @@
 # Agent instructions
 
 Toolkit for translating Langrisser V (PS1, SLPS-01818). Read `README.md`
-first for the human translation workflow; `docs/PLAN.md` holds the verified
-format notes. This file lists the rules that must not be broken.
+first for the human translation workflow; `docs/PLAN.md` holds active work,
+`docs/IMPLEMENTED.md` records completed milestones, and the format-specific
+documents hold verified binary details. This file lists the rules that must not
+be broken.
 
 ## Hard invariants
 

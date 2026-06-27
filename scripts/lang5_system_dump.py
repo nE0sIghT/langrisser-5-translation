@@ -183,13 +183,13 @@ def main() -> None:
                 continue  # name-entry grid run: owned by lang5_patch_name_entry
             run = list(struct.unpack_from("<%dH" % words, data, off)) if words else []
             entries.append({
+                "id": f"table:{table_off:05X}:{k}",
                 "group": gi,
                 "table": f"0x{table_off:05X}",
                 "index": k,
                 "offset": f"0x{off:05X}",
                 "words": words,
                 "jp": decode_run(run, codemap),
-                "text": "",
             })
 
     # Loose strings: FFFF-terminated runs in the text region that are not part of
@@ -207,9 +207,10 @@ def main() -> None:
             text = decode_run(run, codemap)
             if any("぀" <= ch <= "ヿ" or "一" <= ch <= "鿿" for ch in text):
                 entries.append({
+                    "id": f"offset:{pos:05X}",
                     "group": -1, "table": None, "index": None,
                     "offset": f"0x{pos:05X}", "words": words,
-                    "jp": text, "text": "",
+                    "jp": text,
                 })
         pos += (words + 1) * 2
 

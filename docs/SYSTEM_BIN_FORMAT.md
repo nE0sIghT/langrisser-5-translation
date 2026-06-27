@@ -59,9 +59,9 @@ rejects look-alike ascending data (nested sub-tables, stat arrays). The greedy
 ascending read can also overshoot into the first string; the dumper trims the
 table to the longest prefix that still validates.
 
-The original (Japanese) build has 16 groups holding 2639 strings, plus a small
-run of ~10 **loose** strings (the memory-card / "do not power off" messages) that
-have no offset table and are addressed directly. The dumper emits those with
+The original Japanese build has 16 groups holding 2620 strings, plus 9
+**loose** strings (the memory-card / "do not power off" messages) that have no
+offset table and are addressed directly. The dumper emits those with
 `group = -1`.
 
 ### Why the first line of a description used to look "glued"
@@ -78,16 +78,23 @@ short tail lines.
 # 1. dump every string (offset table aware) to a generated inspection JSON
 python3 scripts/lang5_system_dump.py --out work/systemdump/system_strings.json
 
-# 2. translate the durable language-pack copy:
+# 2. translate the target-only stable-id overlay:
 #    data/lang/<lang>/system_strings.json
-#    "{BLANK}" clears a leftover line.
+#    "{BLANK}" clears a leftover line; omitted ids preserve the JP source.
 
 # 3. pack back into SYSTEM.BIN
 python3 scripts/lang5_system_pack.py \
     --system-in work/build/SYSTEM.BIN.font \
-    --system-out work/build/SYSTEM.BIN.en \
+    --system-out work/build/SYSTEM.BIN.<lang> \
+    --source-strings work/systemdump/system_strings.json \
     --strings data/lang/<lang>/system_strings.json --strict
 ```
+
+The generated source dump contains ids, offsets, budgets and JP text. It stays
+under ignored `work/`. The durable language file is only a JSON object from a
+stable source id to target text. Grouped ids use
+`table:<table-offset>:<index>`; loose directly addressed strings use
+`offset:<string-offset>`.
 
 `lang5_system_pack.py` has two modes:
 
@@ -100,8 +107,8 @@ python3 scripts/lang5_system_pack.py \
   size). Because this moves later strings within the group, it is only safe if
   the game locates strings by table index (not by absolute offset).
   `--max-grow N` then caps how many words wider than the original each line may
-  get. The build uses `--repack --max-grow 4` so short kanji labels (`霊`, `竜`,
-  `剣聖`, `忍術`, `町長`, `執事`, …) can hold a real English word.
+  get. The build uses `--repack --max-grow 4` so short kanji labels can hold a
+  real translated word.
 
   **Index addressing is verified in the EXE (so `--repack` is safe).** SYSTEM.BIN
   is loaded to the fixed base `0x80134a00` (the constant is built at
@@ -121,14 +128,15 @@ python3 scripts/lang5_system_pack.py \
 
 A string is one on-screen line. Even though `--repack` frees the data from the
 original byte length, the **display** does not grow: each line is bounded by the
-text box width (about 21 full-width cells; half-width English packs ~2 glyphs per
-cell), and a help topic has a fixed number of lines (one run per line, and `N` is
+text box width (about 21 full-width cells; compact pair fonts pack roughly two
+letters per cell), and a help topic has a fixed number of lines (one run per line, and `N` is
 fixed per group). Growing a line past the box width clips it. So `--repack` only
 usefully reclaims room on lines that were under-full or via re-flowing a topic
 across its existing lines — it does not allow unbounded expansion.
 
 ## Round-trip guarantee
 
-Dumping with the JP table and packing with all `en` empty reproduces SYSTEM.BIN
-byte-for-byte (`lang5_system_pack.py --system-in SYSTEM.BIN --tbl
-data/common/tables/lang5_jp.tbl`), which is the correctness check for the group parser.
+Dumping with the JP table and packing an empty translation overlay reproduces
+SYSTEM.BIN byte-for-byte (`lang5_system_pack.py --system-in SYSTEM.BIN --tbl
+data/common/tables/lang5_jp.tbl`), which is the correctness check for the group
+parser.

@@ -93,10 +93,13 @@ Dump source text and verify the no-edit round trip:
 
 ```bash
 python3 scripts/lang5_scendump.py
+python3 scripts/lang5_system_dump.py
 python3 scripts/lang5_verify_roundtrip.py
 ```
 
-The generated JP source for translation is `work/scriptdump/`.
+Generated JP source stays under `work/scriptdump/` and `work/systemdump/`.
+These reproducible dumps are required for translation and building but are not
+committed.
 
 ## Flow 2: Prepare A Language Pack
 
@@ -106,8 +109,9 @@ Create a new language scaffold:
 python3 scripts/lang5_init_lang.py ru --label Russian
 ```
 
-By default this copies durable editorial files but not script chunks. Use
-`--copy-script` only for explicit experiments.
+By default this copies source structure while clearing target-language fields
+and does not copy script chunks. Use `--copy-script` only for explicit
+experiments.
 
 Review or edit these files for the target language:
 
@@ -119,6 +123,10 @@ Review or edit these files for the target language:
 - `data/lang/<lang>/name_entry_grid.json`
 - `data/lang/<lang>/poem_prologue.txt`
 - `data/lang/<lang>/virash_monologue.json`
+
+`system_strings.json` is a target-only `stable id -> translated text` overlay.
+Its offsets, budgets and Japanese source come from the generated
+`work/systemdump/system_strings.json`.
 
 Regenerate font data when the alphabet changes:
 
@@ -187,7 +195,9 @@ python3 scripts/lang5_build_ppf.py --lang en --patch-version 2
 
 ## Documentation
 
-- `docs/PLAN.md`: verified format notes and project plan.
+- `docs/PLAN.md`: active Russian translation and English cross-check plan.
+- `docs/IMPLEMENTED.md`: completed toolkit and English-release milestones.
+- `docs/INTERNAL_DATA_FORMATS.md`: format index and verified binary notes.
 - `docs/LANGUAGE_PACK_FORMAT.md`: language-pack structure.
 - `docs/SYSTEM_BIN_FORMAT.md`: SYSTEM.BIN string groups.
 - `docs/IMG_DAT_FORMAT.md`: IMG.DAT image container.
