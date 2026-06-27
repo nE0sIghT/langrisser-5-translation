@@ -7,6 +7,7 @@
   "font_assignments": "font_slot_assignments.csv",
   "system_strings": "system_strings.json",
   "system_layout": "system_layout.json",
+  "title_credits": "title_credits.json",
   "names": "names.csv",
   "glossary": "glossary.csv",
   "name_entry_grid": "name_entry_grid.json",

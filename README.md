@@ -67,6 +67,7 @@ The build scripts expect this verified local image:
 | `data/lang/<lang>/SCEN/` | translated script chunks for that language |
 | `data/lang/<lang>/system_strings.json` | SYSTEM.BIN UI text |
 | `data/lang/<lang>/system_layout.json` | SYSTEM.BIN line-growth constraints |
+| `data/lang/<lang>/title_credits.json` | language-specific title credits |
 | `data/lang/<lang>/names.csv` | item, class, spell and NPC names |
 | `data/lang/<lang>/font_slot_assignments.csv` | target glyph assignments |
 | `work/extracted/` | extracted game files, generated |
@@ -120,6 +121,7 @@ Review or edit these files for the target language:
 - `data/lang/<lang>/font_slot_assignments.csv`
 - `data/lang/<lang>/system_strings.json`
 - `data/lang/<lang>/system_layout.json`
+- `data/lang/<lang>/title_credits.json`
 - `data/lang/<lang>/names.csv`
 - `data/lang/<lang>/glossary.csv`
 - `data/lang/<lang>/name_entry_grid.json`

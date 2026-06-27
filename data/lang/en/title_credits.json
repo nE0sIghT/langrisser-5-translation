@@ -1,0 +1,8 @@
+{
+  "_comment": "Available placeholders: {version}, {commit}.",
+  "lines": [
+    "Translation v{version} ({commit}) by Yuri \"nE0sIghT\" Konotopov",
+    "Thanks to CyberWarriorX for the Langrisser III toolkit",
+    "Thanks to borgor for the Langrisser V translation guide"
+  ]
+}

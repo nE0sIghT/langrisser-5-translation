@@ -21,6 +21,7 @@ SCALAR_FILES = [
     "font_assignments",
     "system_strings",
     "system_layout",
+    "title_credits",
     "names",
     "glossary",
     "name_entry_grid",
@@ -56,6 +57,19 @@ def write_scaffold(key: str, src: Path, dst: Path) -> None:
             "overrides": {},
         }
         dst.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
+        return
+    if key == "title_credits":
+        value = {
+            "_comment": (
+                "One to three target-language title-credit lines. "
+                "Available placeholders: {version}, {commit}."
+            ),
+            "lines": [],
+        }
+        dst.write_text(
+            json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
         return
     if key in ("names", "glossary"):
         with src.open(encoding="utf-8", newline="") as fh:

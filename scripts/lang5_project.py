@@ -72,6 +72,10 @@ class LanguagePack:
         return _path(self.root, str(self._data.get("system_layout") or "system_layout.json"))  # type: ignore[return-value]
 
     @property
+    def title_credits(self) -> Path:
+        return _path(self.root, str(self._data.get("title_credits") or "title_credits.json"))  # type: ignore[return-value]
+
+    @property
     def names(self) -> Path:
         return _path(self.root, str(self._data.get("names") or "names.csv"))  # type: ignore[return-value]
 

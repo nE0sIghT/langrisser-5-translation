@@ -229,12 +229,39 @@ def git_short_hash(repo_root: str | Path | None = None) -> str:
     return value
 
 
-def title_credit_lines(version: str, commit_hash: str) -> list[str]:
+def default_title_credit_lines(version: str, commit_hash: str) -> list[str]:
     return [
         f'Translation v{version} ({commit_hash}) by Yuri "nE0sIghT" Konotopov',
         "Thanks to CyberWarriorX for the Langrisser III toolkit",
         "Thanks to borgor for the Langrisser V translation guide",
     ]
+
+
+def load_title_credit_lines(
+    config_path: str | Path | None,
+    version: str,
+    commit_hash: str,
+) -> list[str]:
+    if config_path is None:
+        return default_title_credit_lines(version, commit_hash)
+    path = Path(config_path)
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict) or not isinstance(data.get("lines"), list):
+        raise ValueError(f"{path}: expected an object with a lines array")
+    lines = data["lines"]
+    if not 1 <= len(lines) <= len(TITLE_CREDIT_SPECS):
+        raise ValueError(
+            f"{path}: expected 1-{len(TITLE_CREDIT_SPECS)} title-credit lines"
+        )
+    result = []
+    for line in lines:
+        if not isinstance(line, str) or not line.strip():
+            raise ValueError(f"{path}: title-credit lines must be non-empty strings")
+        try:
+            result.append(line.format(version=version, commit=commit_hash))
+        except (KeyError, ValueError) as exc:
+            raise ValueError(f"{path}: invalid title-credit template {line!r}") from exc
+    return result
 
 
 def qr_matrix_for_url(url: str) -> list[list[bool]]:
@@ -380,21 +407,24 @@ def draw_title_credits(
     rows: list[bytearray],
     profile: GapBitmapProfile,
     palette: list[tuple[int, int, int]],
-    version: str,
-    commit_hash: str,
+    lines: list[str],
     font_path: str | None = None,
 ) -> None:
     resolved_font = resolve_title_font(font_path)
     alpha_table = title_alpha_table(palette, profile, TITLE_CREDIT_TARGET_RGB)
-    lines = title_credit_lines(version, commit_hash)
-    for spec in TITLE_CREDIT_SPECS:
+    for spec, line in zip(TITLE_CREDIT_SPECS, lines):
         display_mask = title_text_mask(
-            lines[spec.line_index],
+            line,
             resolved_font,
             spec.font_size,
             spec.stroke_width,
         )
         raw_mask = display_mask.resize((display_mask.width, spec.raw_height), Image.Resampling.LANCZOS)
+        if raw_mask.width > profile.width:
+            raise ValueError(
+                f"title-credit line {spec.line_index + 1} is too wide: "
+                f"{raw_mask.width}>{profile.width}"
+            )
         x = (profile.width - raw_mask.width) // 2
         y = profile.logical_y_from_global(spec.global_y)
         paste_alpha_mask(rows, profile, raw_mask, x, y, alpha_table)
@@ -914,6 +944,9 @@ def cmd_dump_all(args: argparse.Namespace) -> None:
 def cmd_title_credits_preview(args: argparse.Namespace) -> None:
     data = read_img(args.imgdat)
     commit_hash = args.commit_hash or git_short_hash()
+    lines = load_title_credit_lines(
+        args.credits_json, args.version, commit_hash
+    )
 
     for profile_name in TITLE_PATCH_PROFILE_NAMES:
         profile = PROFILES[profile_name]
@@ -923,7 +956,7 @@ def cmd_title_credits_preview(args: argparse.Namespace) -> None:
         if palette is None:
             raise ValueError(f"{profile.name} has no palette configured")
 
-        draw_title_credits(rows, profile, palette, args.version, commit_hash, args.font)
+        draw_title_credits(rows, profile, palette, lines, args.font)
         if not args.no_qr:
             draw_title_qr(
                 rows,
@@ -1022,6 +1055,8 @@ def build_parser() -> argparse.ArgumentParser:
         p.add_argument("--version", default=DEFAULT_PATCH_VERSION)
         p.add_argument("--commit-hash", help="default: git rev-parse --short=8 HEAD")
         p.add_argument("--font", help="default: data/fonts/LiberationSansNarrow-Bold.ttf")
+        p.add_argument("--credits-json",
+                       help="target-language title-credit line templates")
         p.add_argument("--qr-url", default=TITLE_QR_URL)
         p.add_argument("--no-qr", action="store_true")
         p.add_argument("--qr-x", type=int, default=550)

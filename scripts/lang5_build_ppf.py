@@ -18,6 +18,13 @@ def run(*cmd: object) -> None:
     subprocess.run([sys.executable, *(str(c) for c in cmd)], check=True)
 
 
+def has_target_text(path: Path) -> bool:
+    return any(
+        line.strip() and not line.lstrip().startswith("#") and line.strip() != "---"
+        for line in path.read_text(encoding="utf-8").splitlines()
+    )
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     add_language_args(ap)
@@ -100,17 +107,21 @@ def main() -> None:
         args.imgdat,
         "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
         "--version", args.patch_version,
+        "--credits-json", lang.title_credits,
         "--out-raw-preview", f"work/build/title_credits_{suffix}_raw.png",
         "--out-display", f"work/build/title_credits_{suffix}_display.png",
         "--out-crop", f"work/build/title_credits_{suffix}_crop.png")
 
     # Redraw the translated prologue poem graphic on top of the title credits
     # (different asset, so the two IMG.DAT edits do not overlap).
-    run(scripts / "lang5_poem_translate.py",
-        "--imgdat", f"work/build/IMG.DAT.{suffix}",
-        "--poem", lang.poem,
-        "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
-        "--out-preview", f"work/build/poem_{suffix}_preview.png")
+    if has_target_text(lang.poem):
+        run(scripts / "lang5_poem_translate.py",
+            "--imgdat", f"work/build/IMG.DAT.{suffix}",
+            "--poem", lang.poem,
+            "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
+            "--out-preview", f"work/build/poem_{suffix}_preview.png")
+    else:
+        print(f"no target poem in {lang.poem}; preserving the original poem asset")
 
     work_bin = work_bin_path
     work_bin.parent.mkdir(parents=True, exist_ok=True)
