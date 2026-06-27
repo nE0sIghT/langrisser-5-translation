@@ -19,14 +19,18 @@ from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
 from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, words_from_bytes
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
-WORD_RE = re.compile(r"[A-Za-z'.,0-9]+")
-SPACE_LETTER_RE = re.compile(r" ([A-Za-z0-9])")
-LETTER_SPACE_RE = re.compile(r"([A-Za-z0-9]) (?=[A-Za-z0-9])")
+WORD_RE = re.compile(r"[\w'.,]+", re.UNICODE)
+SPACE_LETTER_RE = re.compile(r" ([^\W_])", re.UNICODE)
+LETTER_SPACE_RE = re.compile(r"([^\W_]) (?=[^\W_])", re.UNICODE)
 PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
-LETTER_COLON_RE = re.compile(r"([A-Za-z0-9]):")
-SINGLES = "abcdefghijklmnopqrstuvwxyz'.,…" + "\u00fc\u00f6"
-PAIR_TAIL = set("abcdefghijklmnopqrstuvwxyz'.,0123456789")
+LETTER_COLON_RE = re.compile(r"([^\W_]):", re.UNICODE)
+SINGLE_PUNCTUATION = "'.,…"
+PAIR_PUNCTUATION = "'.,"
 PUNCT_PAIRS = ("！？", "？！")
+
+
+def is_pair_tail(ch: str) -> bool:
+    return ch.islower() or ch.isdigit() or ch in PAIR_PUNCTUATION
 
 
 def word_pairs(w: str):
@@ -36,7 +40,9 @@ def word_pairs(w: str):
     i = 0
     while i + 1 < len(w):
         a, b = w[i], w[i + 1]
-        ok = b in PAIR_TAIL and (a in PAIR_TAIL or (a.isupper() and i == 0))
+        ok = is_pair_tail(b) and (
+            is_pair_tail(a) or (a.isupper() and i == 0)
+        )
         if ok:
             yield w[i : i + 2]
             i += 2
@@ -108,7 +114,7 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
     singles.update(extra_singles)
     for t in script_texts + menu_texts:
         for ch in t:
-            if ch in SINGLES:
+            if ch.islower() or ch in SINGLE_PUNCTUATION:
                 singles.add(ch)
         spacing_pairs.update(" " + m.group(1) for m in SPACE_LETTER_RE.finditer(t))
         spacing_pairs.update(m.group(1) + " " for m in LETTER_SPACE_RE.finditer(t))

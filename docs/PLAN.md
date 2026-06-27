@@ -33,7 +33,7 @@ and Virash narration, may remain with the durable language assets.
 
 - [x] Verify all Russian letters, including `Ё/ё`, digits and required
   punctuation, in Spleen 6x12.
-- [ ] Extend pair detection from ASCII-only words to Unicode Cyrillic words.
+- [x] Extend pair detection from ASCII-only words to Unicode Cyrillic words.
 - [ ] Allocate mandatory single glyphs and frequency-ranked Russian pair
   glyphs.
 - [ ] Render and review every allocated single/pair glyph.
