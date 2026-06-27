@@ -86,7 +86,7 @@ def main() -> None:
         "--strings", lang.system_strings,
         "--source-strings", system_source,
         "--tbl", tbl,
-        "--repack", "--max-grow", "4",
+        "--repack", "--max-grow", "6",
         "--strict")
 
     run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",
