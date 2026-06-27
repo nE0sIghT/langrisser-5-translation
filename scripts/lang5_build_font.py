@@ -18,10 +18,9 @@ GLYPH_W = 12
 GLYPH_H = 12
 GLYPH_BYTES = 18
 
-# Spleen 6x12 (BSD) is a bitmap font drawn exactly on a 6x12 grid:
-# ascent 9 + descent 3 = 12 rows, two glyphs tile a 12x12 cell perfectly
-# and the x-height is taller than PixelMplus10. PixelMplus10 kept as an
-# alternative.
+# Spleen 6x12 is the English fallback. Language manifests may select another
+# 6x12 bitmap font, such as Terminus for Cyrillic; two glyphs then tile a
+# 12x12 game cell at a 6px pitch. PixelMplus10 remains the symbol fallback.
 FONT_CANDIDATES = [
     "data/fonts/spleen-6x12.bdf",
     "data/fonts/PixelMplus10-Regular.ttf",
@@ -49,7 +48,7 @@ RENDER_SUBST = {"！": "!", "？": "?"}
 def pick_fonts(path: str, size: int) -> list[ImageFont.FreeTypeFont]:
     """All available candidate fonts; the first is primary, the rest are
     per-glyph fallbacks for characters the primary lacks (e.g. ♀/♂ live in
-    PixelMplus but not in Spleen)."""
+    PixelMplus but not in the bitmap fonts)."""
     fonts = []
     for cand in ([path] if path else []) + FONT_CANDIDATES:
         if cand and Path(cand).exists():

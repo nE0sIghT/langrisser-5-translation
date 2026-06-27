@@ -45,15 +45,41 @@ def main() -> None:
     Path("work/build").mkdir(parents=True, exist_ok=True)
     translation_root = (Path(args.translation_root)
                         if args.translation_root else lang.dump_root)
+    build_translation_root = Path(f"work/build/translation.{lang.suffix}")
+    if build_translation_root.exists():
+        shutil.rmtree(build_translation_root)
+    shutil.copytree(translation_root, build_translation_root)
     tbl = lang.tbl
     suffix = lang.suffix
     work_bin_path = Path(args.work_bin) if args.work_bin else lang.work_bin
     out_ppf_path = Path(args.out_ppf) if args.out_ppf else lang.out_ppf
 
+    # Rebuild the generated SYSTEM source first: the font allocator needs the
+    # current stable ids to exclude JP glyphs still used by untranslated UI.
+    system_source = f"work/build/system_source.{suffix}.json"
+    run(scripts / "lang5_system_dump.py",
+        "--system-bin", args.system,
+        "--out", system_source)
+
+    # Complete the durable assignment baseline with every pair required by the
+    # current target corpus. The generated copy keeps ordinary builds from
+    # modifying tracked language-pack data while preventing stale pair tables.
+    build_assignments = f"work/build/font_slot_assignments.{suffix}.csv"
+    run(scripts / "lang5_assign_font_slots.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--groups-report", COMMON_FONT_MAP,
+        "--assignments", lang.font_assignments,
+        "--out-assignments", build_assignments,
+        "--translation-root", build_translation_root,
+        "--system-source", system_source,
+        "--scen", args.scen,
+        "--scen2", args.scen2)
+
     font_args = [
         scripts / "lang5_build_font.py",
         "--groups-report", COMMON_FONT_MAP,
-        "--assignments", lang.font_assignments,
+        "--assignments", build_assignments,
         "--system-bin", args.system,
         "--out-system-bin", f"work/build/SYSTEM.BIN.{suffix}.font",
         "--out-tbl", tbl,
@@ -63,6 +89,23 @@ def main() -> None:
         font_args.extend(["--font", lang.font])
     run(*font_args)
 
+    # Pair selection changes measured cell widths. Rewrap and validate a build
+    # copy against the exact generated table used for insertion; a build must
+    # never rewrite tracked translation sources.
+    run(scripts / "lang5_rewrap.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--translation-root", build_translation_root,
+        "--tbl", tbl,
+        "--scen", args.scen)
+    run(scripts / "lang5_validate_translation.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--translation-root", build_translation_root,
+        "--tbl", tbl,
+        "--scen", args.scen,
+        "--scen2", args.scen2)
+
     # Name-entry screen (kana grid in SYSTEM.BIN + the EXE's input table).
     run(scripts / "lang5_patch_name_entry.py",
         "--grid", lang.name_entry_grid,
@@ -71,15 +114,6 @@ def main() -> None:
         "--exe-in", "work/extracted/SLPS_018.19",
         "--exe-out", f"work/build/SLPS_018.19.{suffix}",
         "--tbl", tbl)
-
-    # Regenerate the SYSTEM source dump (offsets, budgets, JP source) from the
-    # original SYSTEM.BIN so the packer can join the durable target-only overlay
-    # to it. Done here so the build is self-contained and never depends on a
-    # pre-existing (and possibly stale) work/systemdump dump.
-    system_source = f"work/build/system_source.{suffix}.json"
-    run(scripts / "lang5_system_dump.py",
-        "--system-bin", args.system,
-        "--out", system_source)
 
     # All SYSTEM.BIN UI text (names, descriptions, command help, save messages)
     # via the unified offset-table flow (see docs/SYSTEM_BIN_FORMAT.md).
@@ -99,7 +133,7 @@ def main() -> None:
 
     run(scripts / "lang5_sceninsert.py", "--fixed-size-repack",
         "--scen", args.scen, "--scen2", args.scen2,
-        "--dump-dir", translation_root, "--charmap", tbl,
+        "--dump-dir", build_translation_root, "--charmap", tbl,
         "--out-scen", f"work/build/SCEN.{suffix}.DAT",
         "--out-scen2", f"work/build/SCEN2.{suffix}.DAT")
 

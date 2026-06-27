@@ -117,7 +117,14 @@ python3 scripts/lang5_init_lang.py ru --label Russian
 The initializer copies source structure while clearing target values. It leaves
 `SCEN/` empty unless `--copy-script` is explicitly passed.
 
-After editing the manifest and adding target text, update glyph slots:
+The full PPF build completes the tracked assignment baseline into a generated
+`work/build/font_slot_assignments.<lang>.csv`, then rebuilds the font, rewraps
+a copy under `work/build/translation.<lang>/` and validates it before
+insertion. The build never rewrites tracked translation sources. This makes
+newly required pairs part of the actual build instead of an optional
+maintenance step.
+
+To persist newly derived assignments in the language pack for review, run:
 
 ```bash
 python3 scripts/lang5_assign_font_slots.py --lang ru

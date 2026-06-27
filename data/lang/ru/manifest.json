@@ -15,10 +15,10 @@
   "poem": "poem_prologue.txt",
   "poem_source": "poem_prologue_jp.txt",
   "virash_monologue": "virash_monologue.json",
-  "font": "../../fonts/spleen-6x12.bdf",
-  "font_size": 10,
+  "font": "../../fonts/terminus-normal.otb",
+  "font_size": 12,
   "window_width": 21,
-  "choice_width": 21,
+  "choice_width": 20,
   "max_lines": 4,
   "single_chars": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
 }

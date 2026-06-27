@@ -252,13 +252,13 @@ class Codec:
         if width != 1:
             return 0
         ch = text[i]
-        if "A" <= ch <= "Z":
+        if ch.isupper():
             # Lone capital followed by lowercase: the centered native glyph
-            # leaves a gap before the left-aligned tail ("Y es"). All-caps
-            # words (HARD, MP) are native by design and stay penalty-free.
+            # leaves a gap before the left-aligned tail ("Y es", "Г из").
+            # All-caps words (HARD, MP) stay penalty-free.
             nxt = text[i + 1] if i + 1 < len(text) else ""
-            return 10 if "a" <= nxt <= "z" else 0
-        if "a" <= ch <= "z":
+            return 10 if nxt.islower() else 0
+        if ch.islower():
             # A single lowercase is seamless at the end of a word, slightly
             # off elsewhere (half-cell gap before the next pair).
             nxt = text[i + 1] if i + 1 < len(text) else ""

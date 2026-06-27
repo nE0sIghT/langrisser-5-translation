@@ -30,6 +30,7 @@ if they exceed the width.
 """
 import argparse
 import re
+import sys
 from pathlib import Path
 
 from lang5_project import add_language_args, language_from_args
@@ -467,9 +468,11 @@ def display_plate_slots(
                 if rec <= block.record_count:
                     rec_slots.setdefault(rec, None if vm[p + 9] == 0xFF else vm[p + 9])
                     # opcode 0x0c draws a yes/no confirmation box over the
-                    # bottom-right of the window (verified: every 0x0c record
-                    # ends in a question, e.g. "Pass the mic to Lambda？").
-                    if vm[p] == 0x0C:
+                    # bottom-right of a question window. The opcode is also
+                    # used by non-question quiz records, so require the native
+                    # question-mark glyph before reserving that space.
+                    a, b = block.record_span(rec)
+                    if vm[p] == 0x0C and 0x0005 in words_from_bytes(chunk[a:b]):
                         yesno.setdefault(ci, set()).add(rec)
                 p += 12
                 continue
@@ -642,6 +645,7 @@ def main() -> None:
     if not pool_sizes:
         print(f"WARNING: {args.scen} not found; falling back to the FFFF-prefix "
               "plate heuristic (location plates may inflate the reserve)")
+    choice_errors = 0
     for fp in sorted(dump_root.glob("*/chunk_*.txt")):
         records = []
         for raw in fp.read_text(encoding="utf-8").splitlines():
@@ -701,6 +705,7 @@ def main() -> None:
                 n = visible_cells(codec, new_text.split("<$FFFE>")[0])
                 if n > choice_width:
                     print(f"{fp.name} record {idx}: choice is {n} cells (max {choice_width})")
+                    choice_errors += 1
                 out_lines.append(f"{idx}\t{new_text}")
             else:
                 force_plate = False
@@ -739,6 +744,9 @@ def main() -> None:
                 out_lines.append(f"{idx}\t{new_text}")
         fp.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
         print(f"reflowed {fp}")
+    if choice_errors:
+        print(f"{choice_errors} choice record(s) exceed the safe single-line width")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

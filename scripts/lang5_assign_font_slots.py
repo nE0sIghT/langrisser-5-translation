@@ -34,20 +34,21 @@ def is_pair_tail(ch: str) -> bool:
 
 
 def word_pairs(w: str):
-    """Greedy pairing exactly as Codec.encode will see it: a capital is
-    allowed only as the first char of a word-initial pair; all-caps words
-    stay native full-width singles."""
-    i = 0
-    while i + 1 < len(w):
+    """Every usable adjacent pair in a word.
+
+    Codec.encode chooses the globally cheapest tiling. Supplying only one
+    greedy tiling prevents it from shifting pair boundaries to avoid an
+    interior single glyph or to combine the preceding space with the first
+    letter. A capital is still allowed only at the start of a word; all-caps
+    words stay native full-width singles.
+    """
+    for i in range(len(w) - 1):
         a, b = w[i], w[i + 1]
         ok = is_pair_tail(b) and (
             is_pair_tail(a) or (a.isupper() and i == 0)
         )
         if ok:
             yield w[i : i + 2]
-            i += 2
-        else:
-            i += 1
 
 
 def map_target_texts(mp: Path) -> list[str]:
@@ -217,6 +218,9 @@ def main() -> None:
     add_language_args(ap)
     ap.add_argument("--groups-report", default=None)
     ap.add_argument("--assignments", default=None)
+    ap.add_argument("--out-assignments", default=None,
+                    help="Write the completed assignment set here instead of "
+                         "modifying the language pack CSV.")
     ap.add_argument("--translation-root", default=None,
                     help="Override the language pack's translated-text root.")
     ap.add_argument("--menu-map", action="append",
@@ -232,6 +236,8 @@ def main() -> None:
     lang = language_from_args(args)
     groups_report = Path(args.groups_report) if args.groups_report else COMMON_FONT_MAP
     assignments = Path(args.assignments) if args.assignments else lang.font_assignments
+    out_assignments = (Path(args.out_assignments)
+                       if args.out_assignments else assignments)
     translation_root = (Path(args.translation_root)
                         if args.translation_root else lang.dump_root)
 
@@ -280,7 +286,20 @@ def main() -> None:
     need = (must + optional)[: len(pool)]
     if dropped:
         print(f"pool limit: {dropped} least-frequent dialog pairs fall back to single letters")
+    def write_rows() -> None:
+        out_assignments.parent.mkdir(parents=True, exist_ok=True)
+        with out_assignments.open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(
+                f,
+                fieldnames=["index_dec", "char", "replaced_char"],
+                lineterminator="\n",
+            )
+            w.writeheader()
+            w.writerows(rows)
+
     if not need:
+        if out_assignments != assignments:
+            write_rows()
         print("assignments up to date")
         return
 
@@ -295,14 +314,7 @@ def main() -> None:
         rows.append({"index_dec": str(slot), "char": unit,
                      "replaced_char": gmap.get(slot, "")})
 
-    with apath.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(
-            f,
-            fieldnames=["index_dec", "char", "replaced_char"],
-            lineterminator="\n",
-        )
-        w.writeheader()
-        w.writerows(rows)
+    write_rows()
     print(f"added {len(need)} assignments (total {len(rows)})")
 
 

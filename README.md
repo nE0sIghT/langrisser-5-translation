@@ -32,6 +32,8 @@ This toolkit is GPL-3.0-or-later. See `LICENSE`. Game assets are not included.
 
 Bundled third-party fonts:
 
+- `data/fonts/terminus-normal.otb`: Terminus Font, SIL Open Font License 1.1.
+  See `data/fonts/Terminus-OFL.txt`.
 - `data/fonts/spleen-6x12.bdf`: Spleen 6x12, BSD 2-Clause. See
   `data/fonts/Spleen-LICENSE`.
 - `data/fonts/PixelMplus*.ttf`: PixelMplus / M+ Fonts, M+ Font License. See
@@ -136,7 +138,11 @@ Its offsets, budgets and Japanese source come from the generated
 stable-id exceptions required by longer target-language strings. Add an
 exception only after confirming that the affected UI field can display it.
 
-Regenerate font data when the alphabet changes:
+The full patch build derives any missing target-language pairs into
+`work/build/font_slot_assignments.<lang>.csv`, rebuilds the font, rewraps a
+copy under `work/build/translation.<lang>/` with that exact table and validates
+it before insertion. It never rewrites tracked translation sources. To persist
+a new assignment baseline for review, run:
 
 ```bash
 python3 scripts/lang5_assign_font_slots.py --lang ru

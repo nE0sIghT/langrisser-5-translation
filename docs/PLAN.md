@@ -20,7 +20,7 @@ and Virash narration, may remain with the durable language assets.
 
 - English content coverage is complete, but it is not yet certified by the new
   record-by-record Japanese cross-check.
-- The Russian language pack uses the accepted Spleen 6x12 bitmap font, which
+- The Russian language pack uses Terminus 6x12, which
   covers the complete Russian alphabet including `Ё/ё`.
 - The startup quiz, tutorial, initial menu/configuration strings, name-entry
   grid and language-specific title credits have Russian preview data.
@@ -32,7 +32,7 @@ and Virash narration, may remain with the durable language assets.
 ## Stage 1: Russian Font And Encoding
 
 - [x] Verify all Russian letters, including `Ё/ё`, digits and required
-  punctuation, in Spleen 6x12.
+  punctuation, in Terminus 6x12.
 - [x] Extend pair detection from ASCII-only words to Unicode Cyrillic words.
 - [x] Allocate mandatory single glyphs and frequency-ranked Russian pair
   glyphs.
