@@ -20,21 +20,26 @@ and Virash narration, may remain with the durable language assets.
 
 - English content coverage is complete, but it is not yet certified by the new
   record-by-record Japanese cross-check.
-- The Russian language pack is an intentionally untranslated scaffold.
+- The Russian language pack is an intentionally untranslated scaffold using
+  the accepted Spleen 6x12 bitmap font, which covers the complete Russian
+  alphabet including `Ё/ё`.
 - The multilingual EN pipeline builds successfully. The clean RU scaffold is
-  intentionally not buildable until Stage 1 supplies its font and name grid.
+  intentionally not buildable until Stage 1 allocates its glyph slots and
+  supplies its name grid.
 - Completed reverse engineering and tooling are recorded in
   `docs/IMPLEMENTED.md`.
 
 ## Stage 1: Russian Font And Encoding
 
-1. Verify all Russian letters, including `Ё/ё`, digits and required punctuation.
-2. Extend pair detection from ASCII-only words to Unicode Cyrillic words.
-3. Allocate mandatory single glyphs and frequency-ranked Russian pair glyphs.
-4. Render and review every allocated single/pair glyph.
-5. Prepare the Russian name-entry grid.
-6. Prove that a representative translated chunk fits and builds without using
-   slots above 1820.
+- [x] Verify all Russian letters, including `Ё/ё`, digits and required
+  punctuation, in Spleen 6x12.
+- [ ] Extend pair detection from ASCII-only words to Unicode Cyrillic words.
+- [ ] Allocate mandatory single glyphs and frequency-ranked Russian pair
+  glyphs.
+- [ ] Render and review every allocated single/pair glyph.
+- [ ] Prepare the Russian name-entry grid.
+- [ ] Prove that a representative translated chunk fits and builds without
+  using slots above 1820.
 
 This stage blocks bulk translation: single-cell Cyrillic without pair glyphs is
 not expected to fit the fixed SCEN budget.

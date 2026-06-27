@@ -14,7 +14,7 @@
   "poem": "poem_prologue.txt",
   "poem_source": "poem_prologue_jp.txt",
   "virash_monologue": "virash_monologue.json",
-  "font": "../../fonts/DejaVuSerif-Bold.ttf",
+  "font": "../../fonts/spleen-6x12.bdf",
   "font_size": 10,
   "window_width": 21,
   "choice_width": 21,
