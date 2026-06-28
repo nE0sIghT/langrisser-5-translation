@@ -36,13 +36,14 @@ and Virash narration, may remain with the durable language assets.
 - [x] Extend pair detection from ASCII-only words to Unicode Cyrillic words.
 - [x] Allocate mandatory single glyphs and frequency-ranked Russian pair
   glyphs.
-- [ ] Render and review every allocated single/pair glyph.
+- [x] Accept Terminus 6x12 as the Russian base font and review its rendered
+  Cyrillic glyphs.
 - [x] Prepare the Russian name-entry grid.
 - [x] Prove that a representative translated chunk fits and builds without
   using slots above 1820.
 
 The allocator is additive and idempotent. It derives additional Cyrillic pair
-glyphs as the translated corpus grows; visual review remains an ongoing gate.
+glyphs from the accepted Terminus face as the translated corpus grows.
 
 ## Stage 2: Three-Way Review Tooling
 
