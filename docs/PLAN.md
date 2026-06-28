@@ -124,8 +124,47 @@ A scenario is complete only when:
 | Prologue poem | No | No | Yes | No | No |
 | Startup quiz | Draft | Partial | Yes | Yes | Yes |
 | Tutorial | Draft | Partial | Yes | Yes | Yes |
-| Scenarios 1-36 | 0/36 | 0/36 | No | No | No |
-| Optional scenarios 38-42 | 0/5 | 0/5 | No | No | No |
+| Scenario 1 | No | No | No | No | No |
+| Scenario 2 | No | No | No | No | No |
+| Scenario 3 | No | No | No | No | No |
+| Scenario 4 | No | No | No | No | No |
+| Scenario 5 | No | No | No | No | No |
+| Scenario 6 | No | No | No | No | No |
+| Scenario 7 | No | No | No | No | No |
+| Scenario 8 | No | No | No | No | No |
+| Scenario 9 | No | No | No | No | No |
+| Scenario 10 | No | No | No | No | No |
+| Scenario 11 | No | No | No | No | No |
+| Scenario 12 | No | No | No | No | No |
+| Scenario 13 | No | No | No | No | No |
+| Scenario 14 | No | No | No | No | No |
+| Scenario 15 | No | No | No | No | No |
+| Scenario 16 | No | No | No | No | No |
+| Scenario 17 | No | No | No | No | No |
+| Scenario 18 | No | No | No | No | No |
+| Scenario 19 | No | No | No | No | No |
+| Scenario 20 | No | No | No | No | No |
+| Scenario 21 | No | No | No | No | No |
+| Scenario 22 | No | No | No | No | No |
+| Scenario 23 | No | No | No | No | No |
+| Scenario 24 | No | No | No | No | No |
+| Scenario 25 | No | No | No | No | No |
+| Scenario 26 | No | No | No | No | No |
+| Scenario 27 | No | No | No | No | No |
+| Scenario 28 | No | No | No | No | No |
+| Scenario 29 | No | No | No | No | No |
+| Scenario 30 | No | No | No | No | No |
+| Scenario 31 | No | No | No | No | No |
+| Scenario 32 | No | No | No | No | No |
+| Scenario 33 | No | No | No | No | No |
+| Scenario 34 | No | No | No | No | No |
+| Scenario 35 | No | No | No | No | No |
+| Scenario 36 | No | No | No | No | No |
+| Optional scenario 38 | No | No | No | No | No |
+| Optional scenario 39 | No | No | No | No | No |
+| Optional scenario 40 | No | No | No | No | No |
+| Optional scenario 41 | No | No | No | No | No |
+| Optional scenario 42 | No | No | No | No | No |
 | Recap 129 | No | No | No | No | No |
 | Bios 130 | No | No | No | No | No |
 | SYSTEM/UI | Partial | Partial | Partial | Yes | Yes |
