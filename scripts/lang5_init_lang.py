@@ -26,6 +26,7 @@ SCALAR_FILES = [
     "glossary",
     "name_entry_grid",
     "manual_record_overrides",
+    "review_status",
     "poem",
     "poem_source",
     "virash_monologue",
@@ -46,6 +47,12 @@ def write_scaffold(key: str, src: Path, dst: Path) -> None:
         if not fields:
             raise SystemExit(f"missing CSV header: {src}")
         dst.write_text(",".join(fields) + "\n", encoding="utf-8")
+        return
+    if key == "review_status":
+        dst.write_text(
+            "chunk,record,target_done,reference_checked,note\n",
+            encoding="utf-8",
+        )
         return
     if key == "system_strings":
         dst.write_text("{}\n", encoding="utf-8")

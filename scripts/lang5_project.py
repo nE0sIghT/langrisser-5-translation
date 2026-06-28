@@ -92,6 +92,10 @@ class LanguagePack:
         return _path(self.root, str(self._data.get("manual_record_overrides") or "manual_record_overrides.json"))  # type: ignore[return-value]
 
     @property
+    def review_status(self) -> Path:
+        return _path(self.root, str(self._data.get("review_status") or "review_status.csv"))  # type: ignore[return-value]
+
+    @property
     def poem(self) -> Path:
         return _path(self.root, str(self._data.get("poem") or "poem_prologue.txt"))  # type: ignore[return-value]
 

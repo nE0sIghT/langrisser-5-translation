@@ -27,6 +27,7 @@ data/lang/<code>/
   glossary.csv
   name_entry_grid.json
   manual_record_overrides.json
+  review_status.csv
   poem_prologue.txt
   poem_prologue_jp.txt
   virash_monologue.json
@@ -44,6 +45,8 @@ Language-specific data uses neutral target fields:
 - `system_layout.json`: default and per-stable-id SYSTEM line-growth limits;
 - `title_credits.json`: one to three language-specific title-credit templates;
 - `virash_monologue.json`: each cue stores its translation in `text`.
+- `review_status.csv`: record-level target completion and reference-vs-JP
+  review decisions.
 
 `guide_en` is explicitly an English reference-source field, not the selected
 language's output field.
@@ -72,6 +75,7 @@ Fields currently consumed by the tools:
 | `glossary` | Relative path to glossary CSV. |
 | `name_entry_grid` | Relative path to name-entry layout JSON. |
 | `manual_record_overrides` | Relative path to quiz/bootstrap overrides. |
+| `review_status` | Relative path to record-level translation review CSV. |
 | `poem` | Relative path to translated prologue poem text. |
 | `poem_source` | Relative path to recognized original poem text. |
 | `virash_monologue` | Relative path to Virash monologue cue JSON. |
@@ -84,6 +88,33 @@ Fields currently consumed by the tools:
 | `max_lines` | Safe page height for rewrap checks. |
 
 Relative manifest paths are resolved from the language directory.
+
+## Record Review Status
+
+`review_status.csv` is a sparse or complete list with this fixed header:
+
+```csv
+chunk,record,target_done,reference_checked,note
+```
+
+- `target_done`: `1` only after the target record is translated and reviewed;
+- `reference_checked`: `1` only after the existing reference-language record
+  has been checked against the Japanese source;
+- `note`: optional editorial context.
+
+Missing rows mean both states are pending. The review generator validates
+booleans, duplicate keys and stale full-run keys. These states are editorial
+decisions and are intentionally independent from automatic checks for missing
+records, control-signature differences and residual Japanese.
+
+Generate a scenario-oriented three-way review with:
+
+```bash
+python3 scripts/lang5_review_html.py --lang ru --scenario 1
+```
+
+The JP dump drives the records, English is the default reference language, and
+all HTML output stays under `work/review/<lang>/`.
 
 ## SYSTEM Layout Constraints
 

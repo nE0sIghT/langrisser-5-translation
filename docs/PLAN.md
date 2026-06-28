@@ -47,11 +47,12 @@ glyphs from the accepted Terminus face as the translated corpus grows.
 
 ## Stage 2: Three-Way Review Tooling
 
-1. Generate a JP / existing EN / new RU view keyed by chunk and record.
-2. Show speaker plate, control words and page boundaries for each record.
-3. Flag missing records, control-signature differences and residual Japanese.
-4. Track separate `RU translated` and `EN checked against JP` states.
-5. Keep all generated review pages under `work/`.
+- [x] Generate a JP / existing EN / new RU view keyed by chunk and record.
+- [x] Show speaker plate, control words and page boundaries for each record.
+- [x] Flag missing records, control-signature differences and residual
+  Japanese.
+- [x] Track separate `RU translated` and `EN checked against JP` states.
+- [x] Keep all generated review pages under `work/`.
 
 ## Stage 3: Russian Terminology
 

@@ -84,3 +84,6 @@ editorial/runtime polish, not initial coverage.
 - Kept reproducible JP SCEN and SYSTEM dumps under ignored `work/` paths.
 - Converted durable SYSTEM translations to target-only stable-ID overlays; the
   generated metadata and Japanese source remain under `work/systemdump/`.
+- Added scenario-oriented JP/EN/target HTML review pages with speaker plates,
+  control/page structure, automatic structural flags and durable per-record
+  translation/cross-check status.

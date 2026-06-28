@@ -72,6 +72,7 @@ The build scripts expect this verified local image:
 | `data/lang/<lang>/title_credits.json` | language-specific title credits |
 | `data/lang/<lang>/names.csv` | item, class, spell and NPC names |
 | `data/lang/<lang>/font_slot_assignments.csv` | target glyph assignments |
+| `data/lang/<lang>/review_status.csv` | per-record translation and JP cross-check status |
 | `work/extracted/` | extracted game files, generated |
 | `work/scriptdump/` | generated JP script dump, not tracked |
 | `work/wip_<lang>/` | partial translation staging area |
@@ -169,8 +170,20 @@ Per translation pass:
 python3 scripts/lang5_rewrap.py --lang ru
 python3 scripts/lang5_check_speakers.py --lang ru
 python3 scripts/lang5_validate_translation.py --lang ru
-python3 scripts/lang5_review_html.py --lang ru
+python3 scripts/lang5_review_html.py --lang ru --scenario 1
 ```
+
+The review generator writes `work/review/ru/index.html` and one page per
+selected chunk. It shows JP, existing EN and RU text together with speaker
+plates, controls and page boundaries. Use `--scenario quiz`, `--scenario 1`,
+or `--scenario opt:<name>` to follow play order; omit `--scenario` for the
+complete non-empty script.
+
+Review decisions are durable language-pack data in
+`data/lang/ru/review_status.csv`. Set `target_done=1` only after the RU record
+is complete and `reference_checked=1` only after checking the EN record against
+JP. The generated page separately flags missing records, control mismatches and
+residual Japanese.
 
 Editing rules:
 
