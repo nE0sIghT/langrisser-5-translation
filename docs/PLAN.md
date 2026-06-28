@@ -68,15 +68,25 @@ glyphs from the accepted Terminus face as the translated corpus grows.
 
 Translate and cross-check in this order:
 
-1. Startup quiz.
-2. Tutorial.
+1. Prologue poem.
+2. Complete startup flow: quiz and tutorial.
 3. Main scenarios 1-36.
 4. Optional scenarios 38-42.
 5. Recap and biography chunks 129-130.
 6. SYSTEM/UI strings.
-7. Prologue poem and Virash narration.
+7. Virash narration.
 
 Work scenario by scenario, not by arbitrary chunk order.
+
+The poem pass reads the original Japanese image text, checks every line of the
+existing English verse against it, and produces a Russian poetic rendering
+without dropping meaning for rhyme. Layout is reviewed as one continuous
+scroll before it is split back into the three game panels.
+
+The startup-flow pass covers every quiz and tutorial record, including choices,
+results, control words and related SYSTEM labels. Existing Russian preview text
+does not count as complete until its Japanese meaning and the corresponding
+English line have both been checked record by record.
 
 ## Per-Scenario Procedure
 
@@ -111,15 +121,15 @@ A scenario is complete only when:
 
 | Content | RU translated | EN checked against JP | Terms checked | Validate | Build |
 | --- | --- | --- | --- | --- | --- |
-| Startup quiz | Yes | Yes | Yes | Yes | Yes |
-| Tutorial | Yes | Yes | Yes | Yes | Yes |
+| Prologue poem | No | No | Yes | No | No |
+| Startup quiz | Draft | Partial | Yes | Yes | Yes |
+| Tutorial | Draft | Partial | Yes | Yes | Yes |
 | Scenarios 1-36 | 0/36 | 0/36 | No | No | No |
 | Optional scenarios 38-42 | 0/5 | 0/5 | No | No | No |
 | Recap 129 | No | No | No | No | No |
 | Bios 130 | No | No | No | No | No |
 | SYSTEM/UI | Partial | Partial | Partial | Yes | Yes |
 | Title credits | Yes | N/A | Yes | Yes | Yes |
-| Prologue poem | No | No | No | No | No |
 | Virash narration | No | No | No | No | No |
 
 ## Final Gate
