@@ -169,6 +169,7 @@ Per translation pass:
 ```bash
 python3 scripts/lang5_rewrap.py --lang ru
 python3 scripts/lang5_check_speakers.py --lang ru
+python3 scripts/lang5_validate_terms.py --lang ru --require-complete --require-speakers --max-plate-chars 10
 python3 scripts/lang5_validate_translation.py --lang ru
 python3 scripts/lang5_review_html.py --lang ru --scenario 1
 ```
@@ -229,6 +230,7 @@ python3 scripts/lang5_build_ppf.py --lang en --patch-version 2
 - `docs/IMPLEMENTED.md`: completed toolkit and English-release milestones.
 - `docs/INTERNAL_DATA_FORMATS.md`: format index and verified binary notes.
 - `docs/LANGUAGE_PACK_FORMAT.md`: language-pack structure.
+- `docs/RU_TERMINOLOGY.md`: canonical Russian names and terminology policy.
 - `docs/SYSTEM_BIN_FORMAT.md`: SYSTEM.BIN string groups.
 - `docs/IMG_DAT_FORMAT.md`: IMG.DAT image container.
 - `docs/BATTLE_SUFFIX_FORMAT.md`: battle chunk suffix payloads.

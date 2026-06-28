@@ -58,11 +58,11 @@ glyphs from the accepted Terminus face as the translated corpus grows.
 
 - [x] Approve and populate the core Russian character, place, faction and
   series terminology in `glossary.csv`.
-- [ ] Populate Russian class, unit, item and spell names in `names.csv`.
-- [ ] Verify names, countries, classes, items, spells and military terms
+- [x] Populate Russian class, unit, item and spell names in `names.csv`.
+- [x] Verify names, countries, classes, items, spells and military terms
   against Japanese and the established series terminology.
-- [ ] Treat existing English wording as evidence, not authority.
-- [ ] Keep one canonical Russian rendering for every recurring term.
+- [x] Treat existing English wording as evidence, not authority.
+- [x] Keep one canonical Russian rendering for every recurring term.
 
 ## Stage 4: Translation Order
 

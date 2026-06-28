@@ -35,6 +35,8 @@ be broken.
 python3 scripts/lang5_verify_roundtrip.py   # byte-identical no-edit pipeline
 python3 scripts/lang5_rewrap.py --lang en             # window-width line wrapping
 python3 scripts/lang5_check_speakers.py --lang en     # speaker plates vs the in-game test set
+python3 scripts/lang5_validate_terms.py --lang en --require-complete
+python3 scripts/lang5_validate_terms.py --lang ru --require-complete --require-speakers --max-plate-chars 10
 python3 scripts/lang5_validate_translation.py --lang en        # tags, encodability, budgets
 python3 scripts/lang5_build_ppf.py --lang en          # full build must succeed
 ```

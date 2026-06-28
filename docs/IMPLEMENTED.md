@@ -87,3 +87,6 @@ editorial/runtime polish, not initial coverage.
 - Added scenario-oriented JP/EN/target HTML review pages with speaker plates,
   control/page structure, automatic structural flags and durable per-record
   translation/cross-check status.
+- Populated and validated the Russian class, creature, equipment, spell,
+  military-role and proper-name terminology, including every SCEN speaker-pool
+  key and the five-cell plate-width constraint.

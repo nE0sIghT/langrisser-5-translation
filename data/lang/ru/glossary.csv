@@ -13,7 +13,7 @@ jp,guide_en,text,note
 ランディウス,Landius,Ландиус,Grand Duke; alias of Lambert
 ランベルト,Lambert,Ламберт,
 エミリー,Emily,Эмили,general / adjutant
-ギザロフ,Gizarov,Гизароф,"guide: Gizarov; L4 fan canon: Gizarof — USED IN QUIZ, confirm"
+ギザロフ,Gizarov,Гизароф,project spelling; guide uses Gizarov and series sources use Gizarof
 ジェシカ,Jessica,Джессика,L3 canon match
 ローゼンシル,Rosenshill,Розенсиэль,
 ヴィラージュ,Virash,Вираш,
@@ -47,8 +47,47 @@ jp,guide_en,text,note
 ヴェルゼリア,Velzeria,Вельзерия,dark land (series)
 リベラリスタ,Liberalist,Либералист,rebel group; guide: Liberalist(s)
 クフィール,?,Кфир,mercenary band? verify in script
-Cナイツ,Crimson Knights,Кримзонианские рыцари,short UI may use C.Knights if budget requires
-バラン,?,Валан,
+Cナイツ,Crimson Knights,Кримзонианские рыцари,canonical English is Crimzonian Knights; short RU plate is К. рыцари
+バラン,Baran,Валан,project decision
 サムソン,?,Самсон,
 アドン,?,Адон,
 ガルツォーク,?,Галшок,Fandom scenario list; project decision
+リグリア,Rigüler,Ригюлер,project decision; preserve the proper name rather than Liguria
+レイノルズ,Reynolds,Рейнольдс,territory and its soldiers
+ロシュフォール,Rochefort,Рошфор,province ruled by Lainforce
+クリムゾニア,Crimzonia,Кримзония,state and ruling civilization
+クリムゾランダー,Crimzo Landers,ландеры Кримзо,lower-class descendants; unrelated to the landing-troop unit
+エルサリア,El Sallia,Эль-Саллия,continent
+イェレス,Yeless,Йелесс,continent
+ペイリア,Pelia,Пелия,blue moon
+クノックス,Knox,Нокс,project decision
+ハディング,Hadding,Хаддинг,project decision
+エストール,Estor,Эстор,project decision
+Cナイツ1,C.Knights 1,Рыцарь 1,
+Cナイツ2,C.Knights 2,Рыцарь 2,
+Cナイツ3,C.Knights 3,Рыцарь 3,
+Cナイツ4,C.Knights 4,Рыцарь 4,
+Cナイツ5,C.Knights 5,Рыцарь 5,
+Cナイツ6,C.Knights 6,Рыцарь 6,
+Cナイツ7,C.Knights 7,Рыцарь 7,
+Cナイツ8,C.Knights 8,Рыцарь 8,
+Cナイツ9,C.Knights 9,Рыцарь 9,
+キャサリン,Catherine,Кэтрин,
+ギザロフ私兵,Gizarof private,Гвардеец,
+レイノルズ兵,Reynolds soldier,Рейнольдс,
+ロシュフォール兵,Rochefort soldier,Рошфор,
+一同,Everyone,Все,
+使者,Messenger,Гонец,
+兵士長,Captain,Капитан,
+制御装置,Device,Устройство,
+声,Voice,Голос,
+女性,Woman,Женщина,
+探索部隊,Scouts,Разведка,
+攻撃部隊,Attackers,Штурм,
+民衆,Crowd,Толпа,
+牢番,Jailer,Тюремщик,
+衛兵,Guard,Стража,
+警告,Warning,Внимание,
+警報,Alarm,Тревога,
+連邦兵,Federal soldier,Солдат,
+機械音声,Machine voice,Машина,

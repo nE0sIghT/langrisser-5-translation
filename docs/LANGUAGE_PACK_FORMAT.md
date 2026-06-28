@@ -116,6 +116,19 @@ python3 scripts/lang5_review_html.py --lang ru --scenario 1
 The JP dump drives the records, English is the default reference language, and
 all HTML output stays under `work/review/<lang>/`.
 
+Target terminology can be checked independently of script completion:
+
+```bash
+python3 scripts/lang5_validate_terms.py --lang ru --require-complete --require-speakers --max-plate-chars 10
+```
+
+The validator compares the JP key sequence with the reference pack and checks
+duplicate keys, required values, glossary aliases and canonical overlap
+between `names.csv` and `glossary.csv`. With `--require-speakers`, it also
+verifies that every real SCEN speaker-pool key has a target-language plate;
+`--max-plate-chars` applies a conservative pre-pair length limit where the
+target language needs one.
+
 ## SYSTEM Layout Constraints
 
 `system_layout.json` prevents one translated UI line from becoming
