@@ -78,6 +78,7 @@ Fields currently consumed by the tools:
 | `font` | Font path for rendering target glyph slots, relative to the language root. |
 | `font_size` | TTF render size for font-slot rendering. |
 | `single_chars` | Optional alphabet characters to allocate even before script text exists. |
+| `forced_pairs` | Optional two-character glyphs that must be allocated, such as compact UI labels. |
 | `window_width` | Dialogue window width in cells. |
 | `choice_width` | Choice-row width in cells. |
 | `max_lines` | Safe page height for rewrap checks. |

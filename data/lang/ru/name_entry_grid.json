@@ -1,26 +1,26 @@
 {
   "_comment": [
-    "Russian name-entry grid. The executable renders row K as run K followed",
-    "by run K+9, so paired runs form readable 10-character rows."
+    "Russian name-entry grid in the verified interactive layout: uppercase",
+    "runs 1-7, lowercase runs 8-14, then digits and punctuation in runs 15-19."
   ],
   "runs": [
     "АБВГД",
-    "ЙКЛМН",
-    "УФХЦЧ",
-    "ЭЮЯаб",
-    "жзийк",
-    "рстуф",
-    "ъыьэю",
-    "56789",
-    "-    ",
     "ЕЁЖЗИ",
+    "ЙКЛМН",
     "ОПРСТ",
+    "УФХЦЧ",
     "ШЩЪЫЬ",
-    "вгдеё",
-    "лмноп",
-    "хцчшщ",
-    "я1234",
-    "0！？.,",
+    "ЭЮЯ  ",
+    "абвгд",
+    "еёжзи",
+    "йклмн",
+    "опрст",
+    "уфхцч",
+    "шщъыь",
+    "эюя  ",
+    "12345",
+    "67890",
+    "！？.,-",
     "     ",
     "     "
   ]

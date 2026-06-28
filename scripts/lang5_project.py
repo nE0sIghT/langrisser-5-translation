@@ -116,6 +116,13 @@ class LanguagePack:
         return str(self._data.get("single_chars") or "")
 
     @property
+    def forced_pairs(self) -> list[str]:
+        pairs = self._data.get("forced_pairs") or []
+        if not isinstance(pairs, list) or any(not isinstance(p, str) or len(p) != 2 for p in pairs):
+            raise SystemExit(f"{self.root / 'manifest.json'}: forced_pairs must contain two-character strings")
+        return list(pairs)
+
+    @property
     def window_width(self) -> int:
         return int(self._data.get("window_width") or 21)
 

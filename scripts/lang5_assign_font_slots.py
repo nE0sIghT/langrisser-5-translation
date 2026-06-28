@@ -85,7 +85,7 @@ def map_jp_keys(mp: Path, source_by_id: dict[str, dict]) -> set[str]:
 
 
 def needed_units(translation_root: Path, menu_maps: list[Path],
-                 extra_singles: str = ""):
+                 extra_singles: str = "", forced_pairs: list[str] | None = None):
     """Return (singles, menu_pairs, spacing_pairs, script_pairs).
 
     Menu labels must fit fixed slot counts, so they get the full pairing
@@ -113,6 +113,8 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
     spacing_pairs: collections.Counter = collections.Counter()
     script_pairs: collections.Counter = collections.Counter()
     singles.update(extra_singles)
+    for pair in forced_pairs or []:
+        menu_pairs[pair] += 1_000_000
     for t in script_texts + menu_texts:
         for ch in t:
             if ch.islower() or ch in SINGLE_PUNCTUATION:
@@ -251,7 +253,7 @@ def main() -> None:
 
     maps = [Path(p) for p in (args.menu_map or [str(lang.system_strings)])]
     singles, menu_pairs, spacing_pairs, script_pairs = needed_units(
-        translation_root, maps, lang.single_chars
+        translation_root, maps, lang.single_chars, lang.forced_pairs
     )
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
