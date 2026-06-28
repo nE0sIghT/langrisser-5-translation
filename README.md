@@ -195,6 +195,9 @@ python3 scripts/lang5_validate_translation.py --lang ru
 python3 scripts/lang5_build_ppf.py --lang ru --patch-version dev
 ```
 
+The PPF build automatically validates engine-specific SYSTEM UI constraints,
+including the startup menu's 9-cell VRAM-atlas rows.
+
 Generated outputs:
 
 - `work/build/langrisser_v_ru.bin`

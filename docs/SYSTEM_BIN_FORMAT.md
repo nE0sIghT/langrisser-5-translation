@@ -136,6 +136,42 @@ fixed per group). Growing a line past the box width clips it. So `--repack` only
 usefully reclaims room on lines that were under-full or via re-flowing a topic
 across its existing lines — it does not allow unbounded expansion.
 
+### Startup-menu VRAM atlas rows
+
+The startup menu streams its three labels through `FUN_800a5b14` in this order:
+
+1. `table:08052:211` (`START`)
+2. `table:08052:71` (`LOAD`)
+3. `table:08052:212` (`コンフィグ`)
+
+Each encoded token is converted to a 12x12 bitmap and uploaded to a temporary
+VRAM atlas with 9 columns:
+
+```text
+x = 0x395 + (slot % 9) * 3    # width is in 16-bit VRAM words
+y = 0x100 + (slot / 9) * 12
+```
+
+The atlas has 189 slots (`9 * 21`); `FUN_800a5b14` checks the upper bound at
+`0x800a5b64`. A separate `0xBD` immediate at `0x800815fc` is an unrelated
+screen coordinate.
+
+Although the renderer contains code intended to split a strip at an atlas-row
+boundary, the continuation is not displayed on this menu. Therefore each
+individual label must fit in the remainder of its current 9-cell row. The
+original layout preserves this invariant: `START` uses 5 slots and `LOAD` uses
+4, so `コンフィグ` starts at slot 9.
+
+This was confirmed by the Russian build: `Начать` (3) plus `Загрузка` (4)
+placed `Настройки` (5) at slot 7, displaying only its first two tokens
+(`Наст`). Shortening the preceding label by one slot exposed exactly one more
+token. Using `Новая игра` (5) restores the original `5 + 4 = 9` alignment and
+the full label displays.
+
+`data/common/system_ui_constraints.json` records these sequences.
+`scripts/lang5_validate_system_ui.py` encodes the final target strings with the
+generated table and fails the build if a label crosses an atlas row.
+
 ## Round-trip guarantee
 
 Dumping with the JP table and packing an empty translation overlay reproduces

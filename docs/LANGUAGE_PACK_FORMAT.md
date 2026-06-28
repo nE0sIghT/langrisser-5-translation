@@ -125,6 +125,10 @@ insertion. The build never rewrites tracked translation sources. This makes
 newly required pairs part of the actual build instead of an optional
 maintenance step.
 
+After generating the final table, the build also checks shared engine layout
+constraints from `data/common/system_ui_constraints.json`. In particular,
+startup-menu labels may not cross a 9-cell VRAM-atlas row.
+
 To persist newly derived assignments in the language pack for review, run:
 
 ```bash

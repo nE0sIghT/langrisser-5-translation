@@ -89,6 +89,15 @@ def main() -> None:
         font_args.extend(["--font", lang.font])
     run(*font_args)
 
+    # Some SYSTEM menus stream several labels through a 9-column VRAM glyph
+    # atlas. A label crossing an atlas row loses its continuation on screen.
+    run(scripts / "lang5_validate_system_ui.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--tbl", tbl,
+        "--strings", lang.system_strings,
+        "--system-source", system_source)
+
     # Pair selection changes measured cell widths. Rewrap and validate a build
     # copy against the exact generated table used for insertion; a build must
     # never rewrite tracked translation sources.

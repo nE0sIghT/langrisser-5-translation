@@ -1,0 +1,14 @@
+{
+  "atlas_sequences": [
+    {
+      "name": "startup menu",
+      "columns": 9,
+      "start_slot": 0,
+      "ids": [
+        "table:08052:211",
+        "table:08052:71",
+        "table:08052:212"
+      ]
+    }
+  ]
+}
