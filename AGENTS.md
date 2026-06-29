@@ -73,8 +73,13 @@ game, add a row to `docs/SPEAKER_TEST_SET.md`.
   Choice records (`・...`) must stay single-line — a wrapped tail becomes
   a phantom selectable row. Multi-bullet objective records keep their
   structure.
-- The font has no `; — – !? /`; use `,` and full-width `！？`. Ellipsis is
-  the single-cell `…` (a trailing period merges into it: `…` not `….`).
+- Punctuation support is language-pack specific. A mark is usable only when it
+  exists in the native map or is allocated through that pack's `single_chars`
+  and is present in its bundled font. EN allocates `";!?/`; RU allocates
+  `«»—;!?/`. Prefer the ordinary `-` in translated dialogue; use `—` only
+  when it materially improves a poetic line, never as habitual prose
+  punctuation. Ellipsis is the single-cell `…` (a trailing period merges into
+  it: `…` not `….`).
   Write ordinary spaces in translated text; the encoder may fold them into
   narrow `space+letter`, `letter+space`, `punctuation+space`, and
   `letter+punctuation` glyphs when those assignments exist. Do not hand-remove

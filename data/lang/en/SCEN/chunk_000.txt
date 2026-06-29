@@ -8,7 +8,7 @@
 6	Lanford<$FFFF>
 7	Operator<$FFFF>
 # spk: (no plate)
-8	<$FB00><$0001>Lord Gizarof. The specimen is ready for<$FFFC>cultivation. Awaiting your orders.<$FFFE>
+8	<$FB00><$0001>Lord Gizarof. The specimen is ready for<$FFFC>cultivation. I will read each item in<$FFFC>order. Awaiting your instructions.<$FFFE>
 # spk: (no plate)
 9	Set the equipment the specimen will carry<$FFFC>on completion. Press the ○ button.<$FFFE>
 # spk: (no plate)
@@ -90,7 +90,7 @@
 # spk: Sigma
 62	・<$FFF4>Wind:<$FFF3>Sylph<$FFFE>
 # spk: (no plate)
-63	<$FB00><$0007>A zodiac gem will boost his growth. Choose<$FFFC>the specimen's guardian sign.<$FFFE>
+63	<$FB00><$0007>A gem engraved with a zodiac sign will<$FFFC>enhance the specimen's abilities. First,<$FFFC>choose the guardian sign.<$FFFE>
 64	・Capricorn<$FFFE>
 65	・Aquarius<$FFFE>
 66	・Pisces<$FFFE>
@@ -171,15 +171,15 @@
 # spk: (no plate)
 128	<$FB00><$000E>What emotion is the driving source of his<$FFFC>courage？<$FFFE>
 129	・Friendship or love<$FFFE>
-130	・Indomitable will<$FFFE>
+130	・Indomitable fighting spirit<$FFFE>
 131	・Selfless heart<$FFFE>
-132	・Strong obsession<$FFFE>
+132	・Powerful obsession<$FFFE>
 # spk: (no plate)
-133	<$FB00><$000F>Define true strength.<$FFFE>
+133	<$FB00><$000F>Define strength.<$FFFE>
 134	・Brilliant intellect<$FFFE>
 135	・High combat ability<$FFFE>
 136	・Strong spiritual power<$FFFE>
-137	・Inspiring leadership<$FFFE>
+137	・Leadership unlocking others' potential<$FFFE>
 # spk: (no plate)
 138	<$FB00><$000B>Set his stance toward the Goddess of Light<$FFFC>and the God of Chaos.<$FFFE>
 139	・Faith in the Light Goddess<$FFFE>
@@ -220,8 +220,8 @@
 168	<$FB00><$0011>Set his ideal mindset before battle.<$FFFE>
 169	・Fight by pure instinct<$FFFE>
 170	・Fight filled with revenge<$FFFE>
-171	・Obey mission selflessly<$FFFE>
-172	・Fight only in defense<$FFFE>
+171	・Discard self to carry out orders<$FFFE>
+172	・Dislike battle; fight only in defense<$FFFE>
 # spk: (no plate)
 173	<$FB00><$0014>Which tactic is he best at？<$FFFE>
 174	・Ambush tactics<$FFFE>
@@ -247,7 +247,7 @@
 191	・Command<$FFFE>
 192	・Charisma<$FFFE>
 # spk: (no plate)
-193	<$FB00><$0015>Stimulate one primal instinct to draw out<$FFFC>latent power.<$FFFE>
+193	<$FB00><$0015>Stimulate one human instinct to draw out<$FFFC>his basic abilities.<$FFFE>
 194	・Predatory instinct<$FFFE>
 195	・Sleep instinct<$FFFE>
 196	・Aggressive instinct<$FFFE>
@@ -257,7 +257,7 @@
 # spk: Operator
 199	The specimen can experience a<$FFFC><$FFF4>virtual battle <$FFF3>to learn how combat works.<$FFFC>Try it？<$FFFE>
 # spk: Operator
-200	First, some basic knowledge<$FFFC>about the <$FFF4>action system<$FFF3>. It runs close to<$FFFC>real time. Turn counts only matter in<$FFFC>timed scenarios.<$FFFD>Each unit may act when its commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns flow by. The<$FFFC>meter is in the info bar below. <$FFF4>Its size<$FFF3><$FFFC>shows the action capacity.<$FFFD>Issuing a command deducts its action cost<$FFFC>from the meter. So units act whenever the<$FFFC>meter is full, not once per turn. Now<$FFFC>launching the virtual battle program.<$FFFE>
+200	First, some basic knowledge<$FFFC>about the <$FFF4>action system<$FFF3>. It runs close to<$FFFC>real time. Turn count is only a guide in<$FFFC>time-limited scenarios.<$FFFD>Each unit may act when its commander's<$FFFC><$FFF4>action meter <$FFF3>fills as turns flow by. The<$FFFC>meter is in the info bar below. <$FFF4>Its size<$FFF3><$FFFC>shows the action capacity.<$FFFD>Issuing a command deducts its action cost<$FFFC>from the meter. So units act whenever the<$FFFC>meter is full, not once per turn. Now<$FFFC>launching the virtual battle program.<$FFFE>
 # spk: Operator
 201	Finally, two key topics can be<$FFFC>input. Even without the virtual battle,<$FFFC>these are worth teaching.<$FFFD><$FFF4>Action system: basics <$FFF3>Review？<$FFFE>
 # spk: (no plate)

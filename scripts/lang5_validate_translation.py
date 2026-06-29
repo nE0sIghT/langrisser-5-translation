@@ -15,7 +15,7 @@ from lang5_scen import (Codec, FORCE_PAGE_BREAK, TAG_RE, consumes_argument,
                         find_text_block, load_charmap_tbl, read_chunk_spans)
 from lang5_sceninsert import align_up, rebuild_chunk_fixed, trim_blobs_to_fit
 
-ASCII_BAD = re.compile(r"[!?;—–]")
+LEGACY_UNALLOCATED_PUNCTUATION = set("!?;—–")
 
 
 def read_records(path: Path) -> dict[int, str]:
@@ -88,6 +88,9 @@ def main() -> None:
     args = ap.parse_args()
 
     lang = language_from_args(args)
+    unallocated_punctuation = (
+        LEGACY_UNALLOCATED_PUNCTUATION - set(lang.single_chars)
+    )
     translation_root = (Path(args.translation_root)
                         if args.translation_root else lang.dump_root)
     tbl = Path(args.tbl) if args.tbl else lang.tbl
@@ -122,10 +125,13 @@ def main() -> None:
             if target[idx].count("<$FFF4>") != target[idx].count("<$FFF3>"):
                 print(f"chunk {cidx} rec {idx}: UNBALANCED highlight tags")
                 problems += 1
-            if ASCII_BAD.search(
-                TAG_RE.sub("", target[idx].replace(FORCE_PAGE_BREAK, ""))
-            ):
-                print(f"chunk {cidx} rec {idx}: unsupported ASCII punctuation")
+            plain_text = TAG_RE.sub(
+                "", target[idx].replace(FORCE_PAGE_BREAK, "")
+            )
+            found_unallocated = sorted(set(plain_text) & unallocated_punctuation)
+            if found_unallocated:
+                marks = "".join(found_unallocated)
+                print(f"chunk {cidx} rec {idx}: unallocated punctuation: {marks}")
                 problems += 1
             try:
                 body += 2 * len(codec.encode(target[idx]))
