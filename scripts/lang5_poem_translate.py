@@ -42,6 +42,7 @@ OUTLINE_INDEX = 212      # black outline / shadow
 FONT = "data/fonts/DejaVuSerif-Bold.ttf"
 FONT_SIZE = 12
 LINE_HEIGHT = 18         # stamp canvas height per rendered line
+HORIZONTAL_MARGIN = 8    # keep glyphs and their outline clear of panel edges
 TOP_MARGIN = 24          # first line top, matching the original poem (~25)
 BOTTOM_EMPTY = 44        # blank tail on the last screen, so it can be read
 MAX_PITCH = 20           # original line pitch; compress only if the text is taller
@@ -108,6 +109,12 @@ def make_line_stamp(text: str, width: int, font_path: str) -> LineStamp:
     draw = ImageDraw.Draw(big)
     font = ImageFont.truetype(font_path, FONT_SIZE * SUPERSAMPLE)
     text_w = draw.textlength(text, font=font)
+    max_text_w = (width - 2 * HORIZONTAL_MARGIN) * SUPERSAMPLE
+    if text_w > max_text_w:
+        raise ValueError(
+            f"poem line is too wide ({text_w / SUPERSAMPLE:.1f}px > "
+            f"{max_text_w / SUPERSAMPLE:.1f}px): {text!r}"
+        )
     draw.text(((width * SUPERSAMPLE - text_w) / 2, SUPERSAMPLE), text, fill=255, font=font)
     small = big.resize((width, LINE_HEIGHT), Image.LANCZOS)
     glyph = small.load()

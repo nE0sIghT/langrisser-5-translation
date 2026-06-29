@@ -121,7 +121,7 @@ A scenario is complete only when:
 
 | Content | RU translated | EN checked against JP | Terms checked | Validate | Build |
 | --- | --- | --- | --- | --- | --- |
-| Prologue poem | No | No | Yes | No | No |
+| Prologue poem | Yes | Yes | Yes | Yes | Yes |
 | Startup quiz | Draft | Partial | Yes | Yes | Yes |
 | Tutorial | Draft | Partial | Yes | Yes | Yes |
 | Scenario 1 | No | No | No | No | No |
