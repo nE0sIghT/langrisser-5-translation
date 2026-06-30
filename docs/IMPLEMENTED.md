@@ -102,3 +102,11 @@ editorial/runtime polish, not initial coverage.
 - Added deterministic target-font-aware reflow for fixed four-line unit, item
   and magic description cards.
 - Preserved fixed SYSTEM.BIN size and verified complete EN and RU builds.
+
+## Russian Scenario Translation
+
+- Translated scenario 1 from Japanese, including its opening scene, battle,
+  branching dialogue, item events, post-battle scene and complete tactical
+  tutorial.
+- Cross-checked every scenario 1 record against the English pack and restored
+  the JP modification/cloning detail that the English text had omitted.

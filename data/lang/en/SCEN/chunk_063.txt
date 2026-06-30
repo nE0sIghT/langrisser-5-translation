@@ -181,7 +181,7 @@
 # spk: Sigma
 96	…This sword…？<$FFFE>
 # spk: Clarett
-97	It is the Egil family treasure,<$FFFC>the sword you used before. They say an<$FFFC>Egil emperor of Rigüler found it one<$FFFC>thousand years ago while trying to save<$FFFC>his wife.<$FFFD>It is hard to wield, and few Egils ever<$FFFC>mastered it… I hoped using it might help<$FFFC>your memory return…<$FFFE>
+97	It is the Egil family treasure,<$FFFC>the sword you used before.<$FFFD>They say an Egil emperor of Rigüler found<$FFFC>it one thousand years ago while trying to<$FFFC>save his wife. It is hard to wield, and<$FFFC>few Egils ever mastered it…<$FFFD>I hoped using it might help your memory<$FFFC>return…<$FFFE>
 # spk: McClaine
 98	I see. If I once used it, my<$FFFC>body may remember it.<$FFFE>
 # spk: Sigma

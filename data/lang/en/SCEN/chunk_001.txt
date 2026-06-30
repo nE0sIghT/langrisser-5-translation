@@ -23,7 +23,7 @@
 # spk: Aizel
 17	<$FB00><$0035>A specimen<$FFF5><$FFF8>…<$FFFE>
 # spk: Lainforce
-18	<$FB00><$0036>Gizarof made humans of<$FFFC>terrible power. A specimen is one born of<$FFFC>that work.<$FFFE>
+18	<$FB00><$0036>Gizarof researched<$FFFC>modification and cloning to create people<$FFFC>of terrible power. A specimen is one born<$FFFC>of that work.<$FFFE>
 # spk: Sigma
 19	<$FB00><$0037>They are already deep inside.<$FFFE>
 # spk: Lambda

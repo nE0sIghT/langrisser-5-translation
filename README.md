@@ -64,7 +64,7 @@ The build scripts expect this verified local image:
 | --- | --- |
 | `data/common/` | shared maps, original font map and JP table |
 | `data/lang/en/` | English language pack |
-| `data/lang/ru/` | Russian language scaffold |
+| `data/lang/ru/` | Russian language pack under active scenario translation |
 | `data/lang/<lang>/manifest.json` | language settings used by tools |
 | `data/lang/<lang>/SCEN/` | translated script chunks for that language |
 | `data/lang/<lang>/system_strings.json` | SYSTEM.BIN UI text |
