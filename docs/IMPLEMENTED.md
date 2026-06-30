@@ -102,6 +102,9 @@ editorial/runtime polish, not initial coverage.
 - Added deterministic target-font-aware reflow for fixed four-line unit, item
   and magic description cards.
 - Preserved fixed SYSTEM.BIN size and verified complete EN and RU builds.
+- Cross-checked all 95 equipment slots and 94 unique description cards against
+  Japanese, correcting damaged EN/RU line joins, inaccurate item names and
+  three EN action-cost values that had been mistaken for percentages.
 
 ## Russian Scenario Translation
 
