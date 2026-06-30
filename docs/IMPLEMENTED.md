@@ -90,3 +90,15 @@ editorial/runtime polish, not initial coverage.
 - Populated and validated the Russian class, creature, equipment, spell,
   military-role and proper-name terminology, including every SCEN speaker-pool
   key and the five-cell plate-width constraint.
+
+## Russian SYSTEM/UI
+
+- Translated the complete Russian SYSTEM/UI corpus, including menus, battle and
+  preparation prompts, save/load messages, names, classes, units, spells,
+  equipment, skills and their description cards.
+- Added strict completeness validation for SYSTEM translations.
+- Added canonical inheritance from each language pack's names and glossary,
+  avoiding duplicate context-free translations in SYSTEM overlays.
+- Added deterministic target-font-aware reflow for fixed four-line unit, item
+  and magic description cards.
+- Preserved fixed SYSTEM.BIN size and verified complete EN and RU builds.

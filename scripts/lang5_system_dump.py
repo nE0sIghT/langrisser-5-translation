@@ -189,6 +189,10 @@ def main() -> None:
                 "index": k,
                 "offset": f"0x{off:05X}",
                 "words": words,
+                "leading_cells": next(
+                    (i for i, word in enumerate(run) if word != 0),
+                    len(run),
+                ),
                 "jp": decode_run(run, codemap),
             })
 
@@ -205,11 +209,17 @@ def main() -> None:
         if words >= 1 and not covered[pos]:
             run = list(struct.unpack_from("<%dH" % words, data, pos))
             text = decode_run(run, codemap)
-            if any("぀" <= ch <= "ヿ" or "一" <= ch <= "鿿" for ch in text):
+            if words <= MAX_STEP and any(
+                "぀" <= ch <= "ヿ" or "一" <= ch <= "鿿" for ch in text
+            ):
                 entries.append({
                     "id": f"offset:{pos:05X}",
                     "group": -1, "table": None, "index": None,
                     "offset": f"0x{pos:05X}", "words": words,
+                    "leading_cells": next(
+                        (i for i, word in enumerate(run) if word != 0),
+                        len(run),
+                    ),
                     "jp": text,
                 })
         pos += (words + 1) * 2

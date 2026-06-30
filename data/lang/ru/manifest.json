@@ -7,6 +7,7 @@
   "font_assignments": "font_slot_assignments.csv",
   "system_strings": "system_strings.json",
   "system_layout": "system_layout.json",
+  "system_complete": true,
   "title_credits": "title_credits.json",
   "names": "names.csv",
   "glossary": "glossary.csv",
@@ -21,7 +22,7 @@
   "window_width": 21,
   "choice_width": 20,
   "max_lines": 4,
-  "single_chars": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя«»—;!?/",
+  "single_chars": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя«»—;!?/%",
   "forced_pairs": [
     "ОК"
   ]

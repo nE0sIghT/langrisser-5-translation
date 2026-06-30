@@ -134,6 +134,11 @@ Review or edit these files for the target language:
 `system_strings.json` is a target-only `stable id -> translated text` overlay.
 Its offsets, budgets and Japanese source come from the generated
 `work/systemdump/system_strings.json`.
+Exact JP strings already present in the language pack's `names.csv` or
+`glossary.csv` are inherited automatically during the build; do not duplicate
+those canonical translations in the SYSTEM overlay.
+Set `system_complete` in the language manifest only after the strict resolver
+passes; later builds then reject any unresolved Japanese SYSTEM entry.
 
 `system_layout.json` keeps the conservative per-line growth limit and any
 stable-id exceptions required by longer target-language strings. Add an

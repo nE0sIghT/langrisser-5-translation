@@ -22,8 +22,8 @@ and Virash narration, may remain with the durable language assets.
   record-by-record Japanese cross-check.
 - The Russian language pack uses Terminus 6x12, which
   covers the complete Russian alphabet including `Ё/ё`.
-- The startup quiz, tutorial, initial menu/configuration strings, name-entry
-  grid and language-specific title credits have Russian preview data.
+- The startup quiz, tutorial, complete SYSTEM/UI text, name-entry grid and
+  language-specific title credits are translated into Russian.
 - Both EN and RU pipelines build successfully. Russian content after the
   startup tutorial remains untranslated.
 - Completed reverse engineering and tooling are recorded in
@@ -70,10 +70,10 @@ Translate and cross-check in this order:
 
 1. Prologue poem.
 2. Complete startup flow: quiz and tutorial.
-3. Main scenarios 1-36.
-4. Optional scenarios 38-42.
-5. Recap and biography chunks 129-130.
-6. SYSTEM/UI strings.
+3. SYSTEM/UI strings.
+4. Main scenarios 1-36.
+5. Optional scenarios 38-42.
+6. Recap and biography chunks 129-130.
 7. Virash narration.
 
 Work scenario by scenario, not by arbitrary chunk order.
@@ -167,7 +167,7 @@ A scenario is complete only when:
 | Optional scenario 42 | No | No | No | No | No |
 | Recap 129 | No | No | No | No | No |
 | Bios 130 | No | No | No | No | No |
-| SYSTEM/UI | Partial | Partial | Partial | Yes | Yes |
+| SYSTEM/UI | Yes | Yes | Yes | Yes | Yes |
 | Title credits | Yes | N/A | Yes | Yes | Yes |
 | Virash narration | No | No | No | No | No |
 

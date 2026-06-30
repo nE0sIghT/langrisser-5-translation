@@ -60,6 +60,17 @@ def main() -> None:
     run(scripts / "lang5_system_dump.py",
         "--system-bin", args.system,
         "--out", system_source)
+    resolved_system_strings = f"work/build/system_strings.{suffix}.json"
+    resolve_args = [
+        scripts / "lang5_resolve_system_strings.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--system-source", system_source,
+        "--out", resolved_system_strings,
+    ]
+    if lang.system_complete:
+        resolve_args.append("--require-complete")
+    run(*resolve_args)
 
     # Complete the durable assignment baseline with every pair required by the
     # current target corpus. The generated copy keeps ordinary builds from
@@ -72,6 +83,7 @@ def main() -> None:
         "--assignments", lang.font_assignments,
         "--out-assignments", build_assignments,
         "--translation-root", build_translation_root,
+        "--menu-map", resolved_system_strings,
         "--system-source", system_source,
         "--scen", args.scen,
         "--scen2", args.scen2)
@@ -88,6 +100,12 @@ def main() -> None:
     if lang.font:
         font_args.extend(["--font", lang.font])
     run(*font_args)
+    reflowed_system_strings = f"work/build/system_strings.{suffix}.reflowed.json"
+    run(scripts / "lang5_reflow_system_cards.py",
+        "--strings", resolved_system_strings,
+        "--out", reflowed_system_strings,
+        "--tbl", tbl,
+        "--system-source", system_source)
 
     # Some SYSTEM menus stream several labels through a 9-column VRAM glyph
     # atlas. A label crossing an atlas row loses its continuation on screen.
@@ -95,7 +113,7 @@ def main() -> None:
         "--lang", args.lang,
         "--lang-root", args.lang_root,
         "--tbl", tbl,
-        "--strings", lang.system_strings,
+        "--strings", reflowed_system_strings,
         "--system-source", system_source)
 
     # Pair selection changes measured cell widths. Rewrap and validate a build
@@ -133,7 +151,7 @@ def main() -> None:
     run(scripts / "lang5_system_pack.py",
         "--system-in", f"work/build/SYSTEM.BIN.{suffix}.ne",
         "--system-out", f"work/build/SYSTEM.BIN.{suffix}",
-        "--strings", lang.system_strings,
+        "--strings", reflowed_system_strings,
         "--layout", lang.system_layout,
         "--source-strings", system_source,
         "--tbl", tbl,

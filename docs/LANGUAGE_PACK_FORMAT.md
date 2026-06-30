@@ -70,6 +70,7 @@ Fields currently consumed by the tools:
 | `font_assignments` | Relative path to target glyph assignments CSV. |
 | `system_strings` | Relative path to SYSTEM.BIN UI translation JSON. |
 | `system_layout` | Relative path to SYSTEM.BIN line-growth constraints JSON. |
+| `system_complete` | Fail the build when any Japanese-bearing SYSTEM entry remains unresolved. |
 | `title_credits` | Relative path to title-credit templates JSON. |
 | `names` | Relative path to name table CSV. |
 | `glossary` | Relative path to glossary CSV. |

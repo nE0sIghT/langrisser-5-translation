@@ -59,7 +59,7 @@ rejects look-alike ascending data (nested sub-tables, stat arrays). The greedy
 ascending read can also overshoot into the first string; the dumper trims the
 table to the longest prefix that still validates.
 
-The original Japanese build has 16 groups holding 2620 strings, plus 9
+The original Japanese build has 16 groups holding 2620 strings, plus 8
 **loose** strings (the memory-card / "do not power off" messages) that have no
 offset table and are addressed directly. The dumper emits those with
 `group = -1`.
@@ -82,17 +82,24 @@ python3 scripts/lang5_system_dump.py --out work/systemdump/system_strings.json
 #    data/lang/<lang>/system_strings.json
 #    "{BLANK}" clears a leftover line; omitted ids preserve the JP source.
 
-# 3. pack back into SYSTEM.BIN
+# 3. resolve exact canonical names/terms inherited from the language pack
+python3 scripts/lang5_resolve_system_strings.py --lang <lang> \
+    --system-source work/systemdump/system_strings.json \
+    --out work/build/system_strings.<lang>.json
+
+# 4. pack back into SYSTEM.BIN
 python3 scripts/lang5_system_pack.py \
     --system-in work/build/SYSTEM.BIN.font \
     --system-out work/build/SYSTEM.BIN.<lang> \
     --source-strings work/systemdump/system_strings.json \
-    --strings data/lang/<lang>/system_strings.json --strict
+    --strings work/build/system_strings.<lang>.json --strict
 ```
 
 The generated source dump contains ids, offsets, budgets and JP text. It stays
 under ignored `work/`. The durable language file is only a JSON object from a
-stable source id to target text. Grouped ids use
+stable source id to context-dependent target text. Exact source strings found
+in the language pack's `names.csv` or `glossary.csv` are inherited
+automatically and must not be duplicated in the overlay. Grouped ids use
 `table:<table-offset>:<index>`; loose directly addressed strings use
 `offset:<string-offset>`.
 
@@ -135,6 +142,16 @@ letters per cell), and a help topic has a fixed number of lines (one run per lin
 fixed per group). Growing a line past the box width clips it. So `--repack` only
 usefully reclaims room on lines that were under-full or via re-flowing a topic
 across its existing lines — it does not allow unbounded expansion.
+
+The unit, item and magic description tables are fixed four-line cards.
+`data/common/system_card_layout.json` records their table ids and verified
+21-cell line width. `lang5_reflow_system_cards.py` treats each card as one text
+block and deterministically redistributes words across its four lines using the
+exact generated target-language table. Per-line leading cells reserved for
+engine-drawn values are recorded by the dumper and subtracted from the available
+width. The packer then enforces the same
+absolute cell limit for those groups instead of the conservative per-source-line
+growth heuristic.
 
 ### Startup-menu VRAM atlas rows
 

@@ -72,6 +72,15 @@ class LanguagePack:
         return _path(self.root, str(self._data.get("system_layout") or "system_layout.json"))  # type: ignore[return-value]
 
     @property
+    def system_complete(self) -> bool:
+        value = self._data.get("system_complete", False)
+        if not isinstance(value, bool):
+            raise SystemExit(
+                f"{self.root / 'manifest.json'}: system_complete must be boolean"
+            )
+        return value
+
+    @property
     def title_credits(self) -> Path:
         return _path(self.root, str(self._data.get("title_credits") or "title_credits.json"))  # type: ignore[return-value]
 

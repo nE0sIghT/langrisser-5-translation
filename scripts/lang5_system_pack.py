@@ -62,6 +62,19 @@ def load_system_layout(path: Path, source_by_id: dict[str, dict]) -> tuple[int, 
     return default, clean
 
 
+def load_card_layout(path: Path) -> dict[int, int]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    groups = data.get("groups", {})
+    if not isinstance(groups, dict):
+        raise SystemExit(f"{path}: groups must be an object")
+    out: dict[int, int] = {}
+    for table, spec in groups.items():
+        if not isinstance(spec, dict) or "line_cells" not in spec:
+            raise SystemExit(f"{path}: invalid card layout for {table}")
+        out[int(table, 16)] = int(spec["line_cells"])
+    return out
+
+
 def reserve_leading_cells(orig: list[int]) -> list[int]:
     """Leading 0x0000 cells from the original run, to prepend to a translation.
 
@@ -87,6 +100,8 @@ def main() -> None:
     ap.add_argument("--strings", default=None)
     ap.add_argument("--layout", default=None,
                     help="Per-language SYSTEM line-growth limits JSON.")
+    ap.add_argument("--card-layout",
+                    default="data/common/system_card_layout.json")
     ap.add_argument("--source-strings",
                     default="work/systemdump/system_strings.json",
                     help="Generated SYSTEM source dump with offsets and JP text.")
@@ -142,6 +157,7 @@ def main() -> None:
     default_max_grow, max_grow_overrides = load_system_layout(
         layout_path, source_by_id
     )
+    card_line_cells = load_card_layout(Path(args.card_layout))
     if args.max_grow is not None:
         if args.max_grow < 0:
             raise SystemExit("--max-grow must be a non-negative integer")
@@ -234,7 +250,10 @@ def main() -> None:
             toks = reserve_leading_cells(orig) + toks
             entry_id = id_by_key[(gi, k)]
             max_grow = max_grow_overrides.get(entry_id, default_max_grow)
-            cap = orig_len + max_grow if args.repack else orig_len
+            if args.repack and table_off in card_line_cells:
+                cap = card_line_cells[table_off]
+            else:
+                cap = orig_len + max_grow if args.repack else orig_len
             if len(toks) > cap:
                 problems.append(
                     f"{entry_id}: line {len(toks)}>{cap} "
