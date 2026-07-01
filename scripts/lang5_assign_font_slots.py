@@ -20,6 +20,7 @@ from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, wor
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 WORD_RE = re.compile(r"[\w'.,]+", re.UNICODE)
+ALPHA_WORD_RE = re.compile(r"[^\W_]+", re.UNICODE)
 HYPHENATED_WORD_RE = re.compile(
     r"[^\W_]+(?:-[^\W_]+)+",
     re.UNICODE,
@@ -30,7 +31,7 @@ PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
 LETTER_COLON_RE = re.compile(r"([^\W_]):", re.UNICODE)
 SINGLE_PUNCTUATION = "'.,…"
 PAIR_PUNCTUATION = "'.,"
-PUNCT_PAIRS = ("！？", "？！")
+PUNCT_PAIRS = ("！？", "？！", " -")
 
 
 def is_pair_tail(ch: str) -> bool:
@@ -46,6 +47,9 @@ def word_pairs(w: str):
     letter. A capital is still allowed only at the start of a word; all-caps
     words stay native full-width singles.
     """
+    if len(w) == 2 and w.isupper():
+        yield w
+        return
     for i in range(len(w) - 1):
         a, b = w[i], w[i + 1]
         ok = is_pair_tail(b) and (
@@ -112,9 +116,61 @@ def map_jp_keys(mp: Path, source_by_id: dict[str, dict]) -> set[str]:
     return {e["jp"] for e in data if e.get("jp")}
 
 
+def continuity_pairs(texts: list[str], known: set[str],
+                     frequency: collections.Counter) -> collections.Counter:
+    """Pairs needed to avoid full-cell singleton letters inside words.
+
+    Odd-length words can tile from either edge, including a neighbouring
+    space. Choose the alignment requiring the fewest new pair glyphs; normal
+    pair frequency breaks ties so the selected additions remain reusable.
+    """
+    out: collections.Counter = collections.Counter()
+    available = set(known)
+    for text in texts:
+        for match in ALPHA_WORD_RE.finditer(text):
+            word = match.group(0)
+            if len(word) < 2:
+                continue
+            valid = set(word_pairs(word))
+            options: list[list[str]] = []
+
+            even = [word[i:i + 2] for i in range(0, len(word) - 1, 2)]
+            if all(pair in valid for pair in even):
+                if len(word) % 2 == 0:
+                    options.append(even)
+                elif match.end() < len(text) and text[match.end()] == " ":
+                    options.append([*even, word[-1] + " "])
+
+            if len(word) % 2:
+                odd = [word[i:i + 2] for i in range(1, len(word) - 1, 2)]
+                if (
+                    match.start() > 0
+                    and text[match.start() - 1] == " "
+                    and all(pair in valid for pair in odd)
+                ):
+                    options.append([" " + word[0], *odd])
+
+            # A boundary singleton is still preferable to an interior one when
+            # punctuation prevents a space pair.
+            if not options:
+                options.append(even)
+
+            def score(option: list[str]) -> tuple[int, int]:
+                missing = {pair for pair in option if pair not in available}
+                return len(missing), -sum(frequency[pair] for pair in option)
+
+            chosen = min(options, key=score)
+            for pair in chosen:
+                if pair not in available:
+                    out[pair] += 1
+                    available.add(pair)
+    return out
+
+
 def needed_units(translation_root: Path, menu_maps: list[Path],
-                 extra_singles: str = "", forced_pairs: list[str] | None = None):
-    """Return (singles, menu_pairs, spacing_pairs, script_pairs).
+                 extra_singles: str = "", forced_pairs: list[str] | None = None,
+                 existing_units: set[str] | None = None):
+    """Return singles and prioritized pair groups needed by target text.
 
     Menu labels must fit fixed slot counts, so they get the full pairing
     rules (capital-initial, digits, punctuation) and absolute priority.
@@ -143,18 +199,39 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
     singles.update(extra_singles)
     for pair in forced_pairs or []:
         menu_pairs[pair] += 1_000_000
-    for t in script_texts + menu_texts:
+
+    def collect_spacing(text: str, target: collections.Counter) -> None:
+        target.update(
+            " " + match.group(1)
+            for match in SPACE_LETTER_RE.finditer(text)
+        )
+        target.update(
+            match.group(1) + " "
+            for match in LETTER_SPACE_RE.finditer(text)
+        )
+        target.update(
+            match.group(1) + " "
+            for match in PUNCT_SPACE_RE.finditer(text)
+        )
+        target.update(
+            match.group(1) + ":"
+            for match in LETTER_COLON_RE.finditer(text)
+        )
+        for match in HYPHENATED_WORD_RE.finditer(text):
+            target.update(hyphen_boundary_pairs(match.group(0)))
+
+    for t in script_texts:
         for ch in t:
             if ch.islower() or ch in SINGLE_PUNCTUATION:
                 singles.add(ch)
-        spacing_pairs.update(" " + m.group(1) for m in SPACE_LETTER_RE.finditer(t))
-        spacing_pairs.update(m.group(1) + " " for m in LETTER_SPACE_RE.finditer(t))
-        spacing_pairs.update(m.group(1) + " " for m in PUNCT_SPACE_RE.finditer(t))
-        spacing_pairs.update(m.group(1) + ":" for m in LETTER_COLON_RE.finditer(t))
-        for m in HYPHENATED_WORD_RE.finditer(t):
-            spacing_pairs.update(hyphen_boundary_pairs(m.group(0)))
+        collect_spacing(t, spacing_pairs)
+    for t in menu_texts:
+        for ch in t:
+            if ch.islower() or ch in SINGLE_PUNCTUATION:
+                singles.add(ch)
+        collect_spacing(t, menu_pairs)
     for p in PUNCT_PAIRS:
-        spacing_pairs[p] += 1_000_000
+        menu_pairs[p] += 1_000_000
     for t in menu_texts:
         for m in WORD_RE.finditer(t):
             for p in word_pairs(m.group(0)):
@@ -163,7 +240,12 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
         for m in WORD_RE.finditer(t):
             for p in word_pairs(m.group(0)):
                 script_pairs[p] += 1
-    return singles, menu_pairs, spacing_pairs, script_pairs
+    continuity = continuity_pairs(
+        script_texts,
+        set(existing_units or ()) | set(menu_pairs),
+        script_pairs,
+    )
+    return singles, menu_pairs, spacing_pairs, continuity, script_pairs
 
 
 def decode_run_key(words: list[int], tok2char: dict[int, str]) -> str:
@@ -282,13 +364,15 @@ def main() -> None:
             existing[r["char"]] = int(r["index_dec"])
 
     maps = [Path(p) for p in (args.menu_map or [str(lang.system_strings)])]
-    singles, menu_pairs, spacing_pairs, script_pairs = needed_units(
-        translation_root, maps, lang.single_chars, lang.forced_pairs
+    singles, menu_pairs, spacing_pairs, continuity, script_pairs = needed_units(
+        translation_root, maps, lang.single_chars, lang.forced_pairs, set(existing)
     )
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
-    optional = [p for p, _ in spacing_pairs.most_common()
+    optional = [p for p, _ in continuity.most_common()
                 if p not in existing and p not in must]
+    optional += [p for p, _ in spacing_pairs.most_common()
+                 if p not in existing and p not in must and p not in optional]
     optional += [p for p, _ in script_pairs.most_common()
                  if p not in existing and p not in must and p not in optional]
 

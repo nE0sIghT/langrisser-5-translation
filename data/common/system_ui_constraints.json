@@ -80,6 +80,36 @@
       "name": "turn banner",
       "id": "table:08052:209",
       "max_cells": 4
+    },
+    {
+      "name": "system menu: win and loss conditions",
+      "id": "table:08052:69",
+      "max_cells": 6
+    },
+    {
+      "name": "system menu: save",
+      "id": "table:08052:70",
+      "max_cells": 4
+    },
+    {
+      "name": "system menu: load",
+      "id": "table:08052:71",
+      "max_cells": 4
+    },
+    {
+      "name": "system menu: config",
+      "id": "table:08052:72",
+      "max_cells": 5
+    },
+    {
+      "name": "system menu: action order",
+      "id": "table:08052:73",
+      "max_cells": 6
+    },
+    {
+      "name": "system menu: end turn",
+      "id": "table:08052:74",
+      "max_cells": 6
     }
   ]
 }
