@@ -43,6 +43,41 @@ NATIVE_VISUAL_OVERRIDES = {
 # forms (NATIVE_VISUAL_OVERRIDES), so render the pairs the same way. The .tbl /
 # encoder keys stay fullwidth, so the source text still maps to these tiles.
 RENDER_SUBST = {"！": "!", "？": "?"}
+# A pair has two five-pixel ink areas plus one leading guard column per
+# half-cell. Terminus only exceeds that width for these Cyrillic forms; Omega
+# comes from the wider symbol fallback. Singles retain their original width.
+COMPACT_PAIR_GLYPHS = {
+    "д": (
+        ".....", ".....", ".....", ".....",
+        ".###.", ".#.#.", ".#.#.", ".#.#.",
+        ".#.#.", "#####", "#...#", ".....",
+    ),
+    "Д": (
+        ".....", ".....", ".###.", ".#.#.",
+        ".#.#.", ".#.#.", ".#.#.", ".#.#.",
+        ".#.#.", "#####", "#...#", ".....",
+    ),
+    "ц": (
+        ".....", ".....", ".....", ".....",
+        "#..#.", "#..#.", "#..#.", "#..#.",
+        "#..#.", ".####", "....#", "....#",
+    ),
+    "Ц": (
+        ".....", ".....", "#..#.", "#..#.",
+        "#..#.", "#..#.", "#..#.", "#..#.",
+        "#..#.", ".####", "....#", "....#",
+    ),
+    "щ": (
+        ".....", ".....", ".....", ".....",
+        "#.#.#", "#.#.#", "#.#.#", "#.#.#",
+        "#.#.#", ".####", "....#", "....#",
+    ),
+    "Ω": (
+        ".....", ".....", ".###.", "#...#",
+        "#...#", "#...#", "#...#", "#...#",
+        ".#.#.", "##.##", ".....", ".....",
+    ),
+}
 
 
 def pick_fonts(path: str, size: int) -> list[ImageFont.FreeTypeFont]:
@@ -81,6 +116,14 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
         if ch == " ":
             continue
         ch = RENDER_SUBST.get(ch, ch)
+        compact = COMPACT_PAIR_GLYPHS.get(ch) if len(text) == 2 else None
+        if compact:
+            x = k * 6
+            for y, row in enumerate(compact):
+                for px, value in enumerate(row):
+                    if value == "#":
+                        d.point((x + px, y), fill=0)
+            continue
         font = next((f for f in fonts if font_has(f, ch)), fonts[0])
         ascent, _descent = font.getmetrics()
         bbox = d.textbbox((0, 0), ch, font=font)
@@ -91,12 +134,46 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
     if "…" in text:
         img = shift_image_down(img, 3)
     img = img.point(lambda v: 0 if v < 140 else 255)
+    img = add_left_guard(img, text)
     px = img.load()
     out = bytearray(GLYPH_BYTES)
     for i in range(GLYPH_W * GLYPH_H):
         if px[i % GLYPH_W, i // GLYPH_W] == 0:
             out[i // 8] |= 1 << (7 - (i % 8))
     return bytes(out)
+
+
+def add_left_guard(img: Image.Image, text: str) -> Image.Image:
+    """Keep column zero blank, matching the native game's text glyphs.
+
+    Each six-pixel half-cell reserves its first column: pair glyphs occupy
+    x=1..5 and x=7..11. Wide pair glyphs require an explicit compact form;
+    silently dropping or merging their edge pixels would corrupt the letter.
+    Singles have the full remaining eleven columns available.
+    """
+    src = img.load()
+    out = Image.new("L", img.size, 255)
+    dst = out.load()
+    if len(text) == 2:
+        if any(src[x, y] == 0 for x in (5, 11) for y in range(GLYPH_H)):
+            raise ValueError(
+                f"pair {text!r} contains a glyph wider than five pixels; "
+                "add a compact pair form"
+            )
+        for y in range(GLYPH_H):
+            for x in range(5):
+                dst[x + 1, y] = src[x, y]
+            for x in range(6, GLYPH_W - 1):
+                dst[x + 1, y] = src[x, y]
+    else:
+        if any(src[GLYPH_W - 1, y] == 0 for y in range(GLYPH_H)):
+            raise ValueError(
+                f"single glyph {text!r} is too wide for a left guard"
+            )
+        for y in range(GLYPH_H):
+            for x in range(GLYPH_W - 1):
+                dst[x + 1, y] = src[x, y]
+    return out
 
 
 def shift_image_down(img: Image.Image, dy: int) -> Image.Image:
