@@ -197,6 +197,8 @@ Editing rules:
 - Move only safe line/page breaks: `<$FFFC>` and `<$FFFD>`.
 - Keep choice records single-line.
 - Use ordinary spaces and punctuation; the encoder selects compact glyph pairs.
+- Keep normal hyphenated spelling; the allocator creates boundary pairs that
+  prevent narrow hyphens from producing false visual spaces.
 - Record meaning loss caused by byte budgets in `docs/COMPRESSION_DEBT.md`.
 
 English reference guide:

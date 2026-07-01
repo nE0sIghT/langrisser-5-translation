@@ -260,7 +260,13 @@ class Codec:
             return 10 if nxt.islower() else 0
         if ch.islower():
             # A single lowercase is seamless at the end of a word, slightly
-            # off elsewhere (half-cell gap before the next pair).
+            # off elsewhere (half-cell gap before the next pair or hyphen).
             nxt = text[i + 1] if i + 1 < len(text) else ""
-            return 1 if nxt.isalpha() else 0
+            return 1 if nxt.isalpha() or nxt == "-" else 0
+        if ch == "-":
+            prev = text[i - 1] if i else ""
+            nxt = text[i + 1] if i + 1 < len(text) else ""
+            # A native standalone hyphen occupies a full cell despite its
+            # narrow ink. Prefer an allocated boundary pair inside words.
+            return 2 if prev.isalpha() or nxt.isalpha() else 0
         return 0

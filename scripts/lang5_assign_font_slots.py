@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Maintain target-language glyph slot assignments.
 
-Collects every single char and lowercase pair needed by the current target
-texts (script dump translations + menu map values), keeps all existing
-assignments stable, and assigns new needs to the cheapest sacrificial
-kanji slots: confirmed kanji, unused in chunk 0, unused in menu/UI string
-runs, rarest in the script (those lines will be translated eventually).
+Collects every single char and compact pair needed by the current target texts
+(script dump translations + menu map values), keeps all existing assignments
+stable, and assigns new needs to the cheapest sacrificial kanji slots:
+confirmed kanji, unused in chunk 0, unused in menu/UI string runs, rarest in
+the script (those lines will be translated eventually).
 """
 import argparse
 import collections
@@ -20,6 +20,10 @@ from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, wor
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 WORD_RE = re.compile(r"[\w'.,]+", re.UNICODE)
+HYPHENATED_WORD_RE = re.compile(
+    r"[^\W_]+(?:-[^\W_]+)+",
+    re.UNICODE,
+)
 SPACE_LETTER_RE = re.compile(r" ([^\W_])", re.UNICODE)
 LETTER_SPACE_RE = re.compile(r"([^\W_]) (?=[^\W_])", re.UNICODE)
 PUNCT_SPACE_RE = re.compile(r"([,\.…？！:]) ")
@@ -49,6 +53,30 @@ def word_pairs(w: str):
         )
         if ok:
             yield w[i : i + 2]
+
+
+def hyphen_boundary_pairs(word: str):
+    """Yield the boundary pairs needed for a gap-free hyphenated word.
+
+    A pair font puts two half-width characters in one native cell. Without a
+    pair crossing each hyphen, the standalone narrow hyphen or adjacent letter
+    leaves half a cell blank and makes ``Наконец-то`` look like
+    ``Наконец -то``. Choose one boundary pair per hyphen according to the
+    current segment parity, so the whole word tiles tightly without spending
+    two scarce glyph slots on both ``letter-`` and ``-letter``.
+    """
+    parts = word.split("-")
+    consumed_prefix = 0
+    for i in range(len(parts) - 1):
+        left = parts[i]
+        right = parts[i + 1]
+        available = len(left) - consumed_prefix
+        if available % 2:
+            yield left[-1] + "-"
+            consumed_prefix = 0
+        else:
+            yield "-" + right[0]
+            consumed_prefix = 1
 
 
 def map_target_texts(mp: Path) -> list[str]:
@@ -123,6 +151,8 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
         spacing_pairs.update(m.group(1) + " " for m in LETTER_SPACE_RE.finditer(t))
         spacing_pairs.update(m.group(1) + " " for m in PUNCT_SPACE_RE.finditer(t))
         spacing_pairs.update(m.group(1) + ":" for m in LETTER_COLON_RE.finditer(t))
+        for m in HYPHENATED_WORD_RE.finditer(t):
+            spacing_pairs.update(hyphen_boundary_pairs(m.group(0)))
     for p in PUNCT_PAIRS:
         spacing_pairs[p] += 1_000_000
     for t in menu_texts:
