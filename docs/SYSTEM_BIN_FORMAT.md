@@ -153,6 +153,12 @@ width. The packer then enforces the same
 absolute cell limit for those groups instead of the conservative per-source-line
 growth heuristic.
 
+Some compact status and class-name fields are narrower than the normal
+21-cell line. Runtime-verified limits for these fields live in
+`data/common/system_ui_constraints.json` under `fixed_width_fields`.
+`lang5_validate_system_ui.py` measures the resolved translation with the exact
+generated language table and rejects a build that exceeds one of those limits.
+
 ### Startup-menu VRAM atlas rows
 
 The startup menu streams its three labels through `FUN_800a5b14` in this order:

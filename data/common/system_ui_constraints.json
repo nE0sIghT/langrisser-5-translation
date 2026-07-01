@@ -10,5 +10,26 @@
         "table:08052:212"
       ]
     }
+  ],
+  "fixed_width_fields": [
+    {
+      "name": "class stat: command range",
+      "id": "table:08052:11",
+      "max_cells": 4
+    },
+    {
+      "name": "class stat: judgment",
+      "id": "table:08052:12",
+      "max_cells": 2
+    },
+    {
+      "name": "class: Silver Knight",
+      "ids": [
+        "table:09542:63",
+        "table:09542:64",
+        "table:09542:65"
+      ],
+      "max_cells": 8
+    }
   ]
 }

@@ -75,6 +75,35 @@ def main() -> None:
                 )
             slot += length
 
+    for field in constraints.get("fixed_width_fields", []):
+        name = field["name"]
+        max_cells = int(field["max_cells"])
+        entry_ids = field.get("ids", [field.get("id")])
+        for entry_id in entry_ids:
+            if entry_id not in source:
+                print(f"{name}: unknown SYSTEM id {entry_id}")
+                problems += 1
+                continue
+            text = overlay.get(entry_id, source[entry_id])
+            if text == "{BLANK}":
+                text = ""
+            try:
+                length = len(codec.encode(str(text).rstrip()))
+            except ValueError as exc:
+                print(f"{name}: {entry_id} is unencodable: {exc}")
+                problems += 1
+                continue
+            if length > max_cells:
+                print(
+                    f"{name}: {entry_id} {text!r} uses {length}>{max_cells} cells"
+                )
+                problems += 1
+            else:
+                print(
+                    f"{name}: {entry_id} {text!r} "
+                    f"uses {length}/{max_cells} cells OK"
+                )
+
     if problems:
         print(f"{problems} SYSTEM UI layout problem(s)")
         sys.exit(1)
