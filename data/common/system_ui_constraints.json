@@ -35,6 +35,51 @@
         "table:09542:65"
       ],
       "max_cells": 8
+    },
+    {
+      "name": "battle menu: move",
+      "id": "table:08052:20",
+      "max_cells": 3
+    },
+    {
+      "name": "battle menu: magic",
+      "id": "table:08052:21",
+      "max_cells": 2
+    },
+    {
+      "name": "battle menu: attack",
+      "id": "table:08052:22",
+      "max_cells": 3
+    },
+    {
+      "name": "battle menu: heal",
+      "id": "table:08052:23",
+      "max_cells": 3
+    },
+    {
+      "name": "battle menu: summon",
+      "id": "table:08052:24",
+      "max_cells": 2
+    },
+    {
+      "name": "battle menu: order",
+      "id": "table:08052:28",
+      "max_cells": 2
+    },
+    {
+      "name": "order setting: normal",
+      "id": "table:08052:30",
+      "max_cells": 2
+    },
+    {
+      "name": "unit type: mercenary",
+      "id": "table:08052:36",
+      "max_cells": 3
+    },
+    {
+      "name": "turn banner",
+      "id": "table:08052:209",
+      "max_cells": 4
     }
   ]
 }
