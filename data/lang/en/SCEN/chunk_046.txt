@@ -26,6 +26,6 @@
 # spk: Brenda
 16	<$FB00><$000C>Eh, I'll manage.<$FFFE>
 # spk: (no plate)
-17	<$0000>Fleeing the sorcery laboratory,<$FFFC><$F600><$0000> and Lambda set out for<$FFFC>Gizarof. <$0000>Who are they, and what were<$FFFC>they made for…<$FFFD><$0000>Meeting Gizarof would answer everything.<$FFFC><$0000>But Aizel, who led the raid on the lab,<$FFFC>once more bars the fugitives' way.<$FFFE>
+17	<$0000>Fleeing the sorcery laboratory,<$FFFC><$F600><$0000> and Lambda set out for<$FFFC>Gizarof. <$0000>Who are they, and what were<$FFFC>they made for…<$FFFD><$0000>Meeting Gizarof would answer everything.<$FFFC><$0000>But Aizel, who attacked the laboratory,<$FFFC>once more bars the fugitives' way.<$FFFE>
 # spk: (no plate)
 18	Victory terms<$FFFC><$0000><$FFFC>・<$F600><$0000> and Lambda escape west<$FFFC>・Defeat Aizel<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> or Lambda dies<$FFFE><$FFFF>

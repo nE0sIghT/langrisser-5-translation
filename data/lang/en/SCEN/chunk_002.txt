@@ -129,7 +129,7 @@
 # spk: Sigma
 70	<$FB00><$003E>Did we get him！？<$FFFE>
 # spk: Aizel
-71	<$FB00><$003F>Truly the work of made<$FFFC>beings<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay<$FFFC>hidden in them<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
+71	<$FB00><$003F>Just what I'd expect from beings<$FFFC>created by experiment<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think<$FFFC>that such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay hidden within<$FFFC>you<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
 # spk: Selena
 72	Now then, tell us what you were<$FFFC>doing here！<$FFFE>
 # spk: Aizel
