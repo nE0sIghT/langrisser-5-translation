@@ -23,6 +23,11 @@
       "max_cells": 2
     },
     {
+      "name": "class stat: movement",
+      "id": "table:08052:13",
+      "max_cells": 2
+    },
+    {
       "name": "class: Silver Knight",
       "ids": [
         "table:09542:63",
