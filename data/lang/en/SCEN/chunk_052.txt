@@ -108,7 +108,7 @@
 # spk: Alfred
 60	<$FFF7><$FB00><$0012>Wow<$FFF5>…<$FE14>…<$FE14><$FFF6><$FB00><$0013>So it's that rare？<$FFFE>
 # spk: Brenda
-61	<$FB00><$0014>A World Tree has three names. Up<$FFFC>to 50 years it's Silverleaf, then Golden<$FFFC>Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a World Tree.<$FFFE>
+61	<$FB00><$0014>A World Tree has three names. Up<$FFFC>to 50 years it's Silverleaf, the next 50<$FFFC>years Golden Tree.<$FFFD><$FB00><$0015>After 100 years, it becomes a World Tree.<$FFFE>
 # spk: Sigma
 62	<$FB00><$0016>I remember. It's the tree from the<$FFFC>lab where we woke up.<$FFFE>
 # spk: Lambda

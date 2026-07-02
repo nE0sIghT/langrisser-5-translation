@@ -140,13 +140,13 @@
 # spk: Sigma
 78	<$FB00><$0044>What are you after！<$FFFE>
 # spk: Aizel
-79	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
+79	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to my lord's plan.<$FFFE>
 # spk: Aizel
 80	<$FB00><$0043>Come quietly now.<$FFFE>
 # spk: Lambda
 81	<$FB00><$0045>Why do you hound us？<$FFFE>
 # spk: Aizel
-82	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to his plan.<$FFFE>
+82	<$FB00><$0046>I cannot say. Only that you are<$FFFC>key to my lord's plan.<$FFFE>
 # spk: Aizel
 83	<$FB00><$0047>No business with you. Move.<$FFFE>
 # spk: Soldier

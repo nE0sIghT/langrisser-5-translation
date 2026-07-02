@@ -68,7 +68,7 @@
 # spk: Lambda
 38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it now<$FFFC><$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
 # spk: Gizarof
-39	…<$FE32>…<$FE32>…<$FE32>…<$FE32>…<$FB00><$005D>Test results for<$FFFC>Sigma: the ability activates only once.<$FFFD><$FB00><$005E>It violently consumes life. A second use<$FFFC>would kill him.<$FFFE>
+39	…<$FE32>…<$FE32>…<$FE32>…<$FE32>…<$FB00><$005D>Test results for the<$FFFC>prototype, Sigma: the ability activates<$FFFC>only once.<$FFFD><$FB00><$005E>It violently consumes life. A second use<$FFFC>would kill him.<$FFFE>
 # spk: Gizarof
 40	<$FB00><$005F>The complete model that<$FFFC>overcomes this flaw will be tested by one<$FFFC>I trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
 # spk: Lambda

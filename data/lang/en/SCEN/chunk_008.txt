@@ -145,7 +145,7 @@
 # spk: Sigma
 79	<$FB00><$004B>Seems they're not following. Good,<$FFFC>let's press on while we can.<$FFFE>
 # spk: Sigma
-80	<$FFF8>Kh！ <$FFF6>The enemy crossed the bridge<$FFF8>…<$FFFC><$FFF6>We must beat those across<$FFF8>…<$FFFE>
+80	<$FFF8>Kh！ <$FFF6>The enemy crossed the bridge<$FFF8>…<$FFFC><$FFF6>We must at least beat those who crossed,<$FFFC>or we can't shake them<$FFF8>…<$FFFE>
 # spk: (no plate)
-81	Victory terms changed！<$FFFC><$0000><$FFFC>・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
-82	・Cross with no enemy across<$FFFC>・Defeat all enemies<$FFFE>
+81	Victory terms changed！<$FFFC><$0000><$FFFC>・All cross, letting no enemy across<$FFFC>・Defeat all enemies<$FFFE>
+82	・All cross, letting no enemy across<$FFFC>・Defeat all enemies<$FFFE>
