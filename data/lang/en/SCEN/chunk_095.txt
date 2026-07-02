@@ -129,7 +129,7 @@
 # spk: Sigma
 68	<$FB00><$00B8>Me？<$FFFE>
 # spk: McClaine
-69	<$FB00><$00B9>Fine. I'll tell it from the<$FFFC>start.<$FFFD><$FB00><$00BA>Marie and I were captured by Gizarof. I<$FFFC>failed, so he meant to dispose of me.<$FFFE>
+69	<$FB00><$00B9>Fine. I'll tell it from the<$FFFC>start.<$FFFD><$FB00><$00BA>Marie and I were captured by Gizarof and<$FFFC>used in his living experiments. I was a<$FFFC>failure, so he meant to dispose of me.<$FFFE>
 # spk: McClaine
 70	<$FB00><$00BB>Look at my body. This is what he<$FFFC>turned me into. A lot happened, but now I<$FFFC>remember everything.<$FFFE>
 # spk: McClaine
