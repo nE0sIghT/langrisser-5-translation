@@ -68,7 +68,7 @@
 # spk: Brenda
 38	<$FB00><$0091>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0092>mean to<$FFFC>gather mana<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Lainforce
-39	<$FB00><$0093>Oho, you noticed.<$FFFD><$FB00><$0094>You know our homeland Crimzo faces<$FFFC>extinction.<$FFFD><$FB00><$0095>On its 200-year extreme elliptical<$FFFC>orbit, Crimzo scarcely receives the sun.<$FFFC>In that time we pass the years in long<$FFFC>sleep.<$FFFD><$FB00><$0096>But the cold-sleep devices need mana too.<$FFFC>Crimzo, its mana near spent, has no next<$FFFC>200 years.<$FFFD><$FB00><$0097>And since Chaos was summoned, the Chaos<$FFFC>Gate left open on Crimzo is active.<$FFFD><$FB00><$0098>Left alone, monsters from the Gate will<$FFFC>destroy the kin still on Crimzo.<$FFFE>
+39	<$FB00><$0093>Oho, you noticed.<$FFFD><$FB00><$0094>You know our homeland Crimzo faces<$FFFC>extinction.<$FFFD><$FB00><$0095>On its 200-year extreme elliptical orbit,<$FFFC>Crimzo scarcely receives the sun. In that<$FFFC>time we pass the years in long sleep.<$FFFD><$FB00><$0096>But the cold-sleep devices need mana too.<$FFFC>Crimzo, its mana near spent, has no next<$FFFC>200 years.<$FFFD><$FB00><$0097>And since Chaos was summoned, the Chaos<$FFFC>Gate left open on Crimzo is active.<$FFFD><$FB00><$0098>Left alone, monsters from the Gate will<$FFFC>destroy the kin still on Crimzo.<$FFFE>
 # spk: Brenda
 40	<$FB00><$0099>So if Marie's power sends mana to<$FFFC>Crimzo, Crimzo stays in this land's orbit<$FFFC>again.<$FFFE>
 # spk: Lainforce

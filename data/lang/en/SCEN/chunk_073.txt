@@ -45,7 +45,7 @@
 # spk: Lanford
 27	<$FB00><$0017>How can you say that！<$FFF5> <$FB00><$0018>You were<$FFFC>harsh with me only because you cared<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$0019>Masterson told me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Lambert
-28	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001A>That Masterson. A<$FFFC>tight-lipped man, but he couldn't take<$FFFC>it to the grave after all.<$FFFE>
+28	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001A>That Masterson. A<$FFFC>tight-lipped man, but he couldn't take it<$FFFC>to the grave after all.<$FFFE>
 # spk: Lambert
 29	<$FB00><$001B>Now, let us end this. Any longer<$FFFC>and parting grows too hard.<$FFFD><$FB00><$001C>Lainforce is a dangerous man. Stop his<$FFFC>ambition at all costs！ His next target is<$FFFC>the ancient relic sleeping beneath<$FFFC>Valtar！<$FFFD><$FB00><$001D>Young ones, I leave this country to you！<$FFFE>
 # spk: Lambert
@@ -74,7 +74,7 @@
 # spk: Ferakia
 42	<$FB00><$002E>Honestly, just when I'd nearly<$FFFC>got the humans dancing to my strings<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$002F>my<$FFFC>plan's in ruins！<$FFFE>
 # spk: Gaiel
-43	<$FB00><$0030>Why lend Crimzonia a hand at<$FFFC>all？ Just destroy them along with the<$FFFC>humans.<$FFFE>
+43	<$FB00><$0030>Why lend Crimzonia a hand at all？<$FFFC>Just destroy them along with the humans.<$FFFE>
 # spk: Ferakia
 44	<$FB00><$0031>Crimzo has the Chaos Gate, you<$FFFC>know？ And Crimzo only comes around every<$FFFC>200 years.<$FFFD><$FB00><$0032>Buoyed by Lord Chaos's power, our strength<$FFFC>is amplified. Now is the best chance！<$FFFE>
 # spk: Gaiel

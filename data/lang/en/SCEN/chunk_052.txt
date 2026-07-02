@@ -47,7 +47,7 @@
 # spk: Sigma
 28	If <$FFF4>casting time <$FFF3>fits within<$FFFC><$FFF4>action points<$FFF3>, the spell fires at once.<$FFFC>If not, it waits until the next action,<$FFFC>right？<$FFFE>
 # spk: Lambda
-29	Exactly. A short-cast spell can<$FFFC>be used right away.<$FFFE>
+29	Exactly. A short-cast spell can be<$FFFC>used right away.<$FFFE>
 # spk: Lambda
 30	For beast magic, if <$FFF4>action points<$FFFC>exceed casting time<$FFF3>, it fires at once. If<$FFFC>not, it waits until the next command.<$FFFE>
 # spk: Sigma

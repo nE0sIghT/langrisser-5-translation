@@ -58,9 +58,9 @@
 # spk: Sigma
 32	<$FB00><$00A0>We want to thwart his ambition and<$FFFC>protect this world. That's why we aid her<$FFFC>and Alfred.<$FFFE>
 # spk: Brenda
-33	<$FB00><$00A1>By rights we Crimzo Landers<$FFFC>should handle it ourselves, but we can't<$FFFC>keep up the brave front forever.<$FFFE>
+33	<$FB00><$00A1>By rights we Crimzo Landers should<$FFFC>handle it ourselves, but we can't keep up<$FFFC>the brave front forever.<$FFFE>
 # spk: Lanford
-34	<$FB00><$00A2>Understood. Forgive me, Landius.<$FFFC>From here I will act with these people.<$FFFD><$FB00><$00A3>With Crimzonia's ambition using my<$FFFC>father, I cannot stand by and watch.<$FFFE>
+34	<$FB00><$00A2>Understood. Forgive me, Landius.<$FFFC>From here I will act with these people.<$FFFD><$FB00><$00A3>With Crimzonia's ambition using my father,<$FFFC>I cannot stand by and watch.<$FFFE>
 # spk: Landius
 35	<$FB00><$00A4>I thought you'd say that,<$FFFC>Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll return to<$FFFC>Caconsis once and report the situation to<$FFFC>the admiral.<$FFFE>
 # spk: Lanford

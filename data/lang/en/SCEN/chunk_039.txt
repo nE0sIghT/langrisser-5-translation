@@ -253,7 +253,7 @@
 # spk: Alfred
 135	Believe it or not, I've taken<$FFFC>singing lessons！ Please feel my song with<$FFFC>your heart！<$FFFE>
 # spk: Alfred
-136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break<$FFFC>through this night～and run～♪<$FFFC>BRAKE<$0000>THE<$0000>SUN no one looks<$FFFC>back～♪<$FFFE>
+136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break through<$FFFC>this night～and run～♪<$FFFC>BRAKE<$0000>THE<$0000>SUN no one looks<$FFFC>back～♪<$FFFE>
 # spk: Alfred
 137	Huh？ But I've already sung…<$FFFE>
 # spk: Brenda
@@ -263,7 +263,7 @@
 # spk: Brenda
 140	I've already had my turn, though.<$FFFE>
 # spk: Clarett
-141	Everyone～！<$FFFC>thanks-for-wait-ing～♡ it's the<$FFFC>pretty warrior princess Clarett♡<$FFFD>Let's get pumped！ Let's come on, music！<$FFFC>Everybody sing along！<$FFFE>
+141	Everyone～！<$FFFC>thanks-for-wait-ing～♡ it's the pretty<$FFFC>warrior princess Clarett♡<$FFFD>Let's get pumped！ Let's come on, music！<$FFFC>Everybody sing along！<$FFFE>
 # spk: Clarett
 142	What can I do？ for your<$FFFC>sake～♪ you who fear no pain<$0000>am I only<$FFFC>watching over you？<$FFFD>if that's just ordinary love<$0000>I'll shatter<$FFFC>it burning like a flame<$0000>that is my<$FFFC>stance～♪<$FFFE>
 # spk: Clarett
@@ -319,7 +319,7 @@
 # spk: Samson
 168	Let's go pop！<$FFFE>
 # spk: Samson
-169	Stuff your cheeks with protein<$FFFC>dumbbell<$0000>dumbbell<$0000>1, 2, 3, 4！ slather<$FFFC>on the vaseline smile<$0000>smile<$0000>1, 2, 3,<$FFFC>4！<$FFFE>
+169	Stuff your cheeks with protein<$FFFC>dumbbell<$0000>dumbbell<$0000>1, 2, 3, 4！ slather on<$FFFC>the vaseline smile<$0000>smile<$0000>1, 2, 3, 4！<$FFFE>
 # spk: Baran
 170	Adon！ the mic, take it～！<$FFFE>
 # spk: Adon

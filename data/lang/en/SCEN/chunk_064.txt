@@ -34,7 +34,7 @@
 # spk: Mariandel
 21	<$FB00><$0010>Is there no way to stop that？<$FFFE>
 # spk: Mariandel
-22	<$FB00><$0011>As long as we have no way to<$FFFC>destroy Chaos completely, the source of<$FFFC>their power, there is no decisive method.<$FFFD><$FB00><$0054>At best, destroy Alhazard and weaken<$FFFC>Böser and the demons.<$FFFE>
+22	<$FB00><$0011>As long as we have no way to<$FFFC>destroy Chaos completely, the source of<$FFFC>their power, there is no decisive method.<$FFFD><$FB00><$0054>At best, destroy Alhazard and weaken Böser<$FFFC>and the demons.<$FFFE>
 # spk: Sigma
 23	<$FB00><$0012>Alhazard is the sword stolen at<$FFFC>the port, right？<$FFFE>
 # spk: Jessica

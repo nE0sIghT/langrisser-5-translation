@@ -64,7 +64,7 @@
 # spk: Mariandel
 35	<$FB00><$001E>Then Lainforce, who attacked<$FFFC>that Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Virash
-36	<$FB00><$001F>He is of the ruling class from the<$FFFC>red moon Crimzo. He came down to the<$FFFC>surface during Crimzo's approach 200<$FFFC>years ago.<$FFFD><$FB00><$0020>And as Crimzo nears again, he schemes to<$FFFC>seize this land once more.<$FFFD><$FB00><$0021>Unlike us Crimzo Landers, who seek to<$FFFC>coexist with humans, the Crimzonians have<$FFFC>never given up ruling the surface.<$FFFE>
+36	<$FB00><$001F>He is of the ruling class from the<$FFFC>red moon Crimzo. He came down to the<$FFFC>surface during Crimzo's approach 200 years<$FFFC>ago.<$FFFD><$FB00><$0020>And as Crimzo nears again, he schemes to<$FFFC>seize this land once more.<$FFFD><$FB00><$0021>Unlike us Crimzo Landers, who seek to<$FFFC>coexist with humans, the Crimzonians have<$FFFC>never given up ruling the surface.<$FFFE>
 # spk: Brenda
 37	<$FB00><$0022>We fight them to stop exactly<$FFFC>that.<$FFFE>
 # spk: Clarett
@@ -74,7 +74,7 @@
 # spk: Sigma
 40	<$FB00><$0026>So to keep this world at peace, we<$FFFC>have to stop him<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Virash
-41	<$FB00><$0027>Right now he's formed the<$FFFC>Three-Country Alliance and made war on<$FFFC>the Federation. Amid the chaos of<$FFFC>Gizarof's revolt, he could win with ease.<$FFFE>
+41	<$FB00><$0027>Right now he's formed the<$FFFC>Three-Country Alliance and made war on the<$FFFC>Federation. Amid the chaos of Gizarof's<$FFFC>revolt, he could win with ease.<$FFFE>
 # spk: Mariandel
 42	<$FB00><$0028>And this Three-Country<$FFFC>Alliance, what is it？<$FFFE>
 # spk: Virash
@@ -90,7 +90,7 @@
 # spk: Alfred
 48	<$FB00><$002F>Everyone, lend me your strength<$FFFC>this time. My brother<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0030>I have to stop<$FFFC>my brother！<$FFFE>
 # spk: Virash
-49	<$FB00><$0031>Right. Stopping the<$FFFC>Three-Country Alliance also means<$FFFC>crushing Lainforce's ambition.<$FFFE>
+49	<$FB00><$0031>Right. Stopping the Three-Country<$FFFC>Alliance also means crushing Lainforce's<$FFFC>ambition.<$FFFE>
 # spk: Sigma
 50	<$FB00><$0032>Then our goals are the same. Let's<$FFFC>go stop Alfred's brother.<$FFFE>
 # spk: Virash

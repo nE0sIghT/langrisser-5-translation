@@ -37,7 +37,7 @@
 # spk: Sigma
 23	<$FB00><$0016>So what do you want？<$FFFE>
 # spk: Omega
-24	<$FB00><$0017>Isn't it obvious？ I came to<$FFFC>defeat you. So, did your memories come<$FFFC>back？<$FFFE>
+24	<$FB00><$0017>Isn't it obvious？ I came to defeat<$FFFC>you. So, did your memories come back？<$FFFE>
 # spk: Sigma
 25	<$FFFA><$FFF8>…<$FFFE>
 # spk: Omega

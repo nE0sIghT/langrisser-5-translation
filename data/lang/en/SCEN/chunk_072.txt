@@ -27,7 +27,7 @@
 # spk: Soldier
 21	<$FB00><$0007>Lord Zero！ The enemy brought<$FFFC>out an ancient weapon！<$FFFE>
 # spk: Zero
-22	<$FB00><$0008>Don't panic. The Crimzo Landers,<$FFFC>who until now avoided drawing notice, have<$FFFC>thrown such force at us. That alone proves<$FFFC>they have no fallback left.<$FFFE>
+22	<$FB00><$0008>Don't panic. The Crimzo Landers, who<$FFFC>until now avoided drawing notice, have<$FFFC>thrown such force at us. That alone proves<$FFFC>they have no fallback left.<$FFFE>
 # spk: Soldier
 23	<$FB00><$0009>But at this rate<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Zero

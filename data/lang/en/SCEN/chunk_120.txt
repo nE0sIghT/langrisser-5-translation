@@ -12,7 +12,7 @@
 # spk: Gaiel
 10	<$FB00><$004D>What<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FE14> <$FFF6><$FB00><$004E>What is the meaning of<$FFFC>this！<$FFFE>
 # spk: Machine
-11	<$FB00><$004F>TARGET NOT<$FFFC>VISIBLE, SO ACCURATE<$FFFC>BOMBARDMENT COULD NOT BE<$FFFC>PERFORMED.<$FFFE>
+11	<$FB00><$004F>TARGET NOT VISIBLE, SO<$FFFC>ACCURATE BOMBARDMENT<$FFFC>COULD NOT BE PERFORMED.<$FFFE>
 # spk: Gaiel
 12	<$FB00><$0050>Argh！ That clouds this thin should<$FFFC>render it useless！<$FFF5> <$FB00><$0051>What a grievous<$FFFC>flaw<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Machine

@@ -45,7 +45,7 @@
 27	<$FFF8><$FB00><$0074>…<$FFFE>
 # spk: Lenard
 28	<$FB00><$0075>If such dependence returns to<$FFFC>power, this will repeat.<$FFFD><$FB00><$0076>I won't endanger my soldiers. Better to<$FFFC>leave things be.<$FFFD><$FB00><$0077>Now leave.<$FFFE>
-29	Three-Country Alliance, Lainforce's<$FFFC>Castle<$FFFF>
+29	Three-Country Alliance, Lainforce's Castle<$FFFF>
 # spk: Alvince
 30	<$FFF8>…<$FFF6><$FB00><$0078>Yes. I want back the lands<$FFFC>Gizarof stole.<$FFFE>
 # spk: Lainforce

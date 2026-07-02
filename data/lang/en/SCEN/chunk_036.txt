@@ -32,7 +32,7 @@
 # spk: Guardian
 22	<$FB00><$0064>New intruder detected. Entering<$FFFC>attack mode.<$FFFE>
 # spk: Guardian
-23	<$FB00><$0066>Releasing man-eaters.<$FFFC>Beginning prisoner disposal.<$FFFE>
+23	<$FB00><$0066>Releasing man-eaters. Beginning<$FFFC>prisoner disposal.<$FFFE>
 # spk: Monster
 24	<$FB00><$0067>First meal in ages…<$FFFE>
 # spk: Monster

@@ -173,7 +173,7 @@
 # spk: Officer
 96	…U… uugh…<$FFFE>
 # spk: Officer
-97	W-why… No one should be able<$FFFC>to defeat me…<$FFFE>
+97	W-why… No one should be able to<$FFFC>defeat me…<$FFFE>
 # spk: Officer
 98	Aah！<$FFFD>…I'm sorry, Roberto… I think… I am<$FFFC>done…<$FFFE>
 # spk: Officer

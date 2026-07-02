@@ -32,7 +32,7 @@
 # spk: Russel
 21	<$FB00><$002C>Hm？ If it isn't Lanford. I<$FFFC>wondered where you'd gone after breaking<$FFFC>out of the dungeon<$FFF5><$FFF8>….<$FFFE>
 # spk: Lanford
-22	<$FB00><$002D>I fight to stop the<$FFFC>Three-Country Alliance. I would have<$FFFC>your aid too.<$FFFD><$FB00><$002E>First, let me examine the crystal my<$FFFC>father gave you.<$FFFE>
+22	<$FB00><$002D>I fight to stop the<$FFFC>Three-Country Alliance. I would have your<$FFFC>aid too.<$FFFD><$FB00><$002E>First, let me examine the crystal my<$FFFC>father gave you.<$FFFE>
 # spk: Russel
 23	<$FB00><$002F>What does a jailbreaker have to<$FFFC>say？ If you wish to talk so badly, you<$FFFC>can wait quietly in a cell until I return.<$FFFD><$FB00><$0030>You there, seize them！<$FFFE>
 # spk: Butler
@@ -70,7 +70,7 @@
 # spk: Brenda
 40	<$FB00><$0042>This is no concern of you demons,<$FFFC>is it？<$FFFE>
 # spk: Ferakia
-41	<$FB00><$0043>Concern or not, I love getting<$FFFC>in others' way！<$FFFD><$FB00><$0044>And you say you need it to stop the<$FFFC>Three-Country Alliance？ Knowing that,<$FFFC>all the more reason to smash that crystal.<$FFFE>
+41	<$FB00><$0043>Concern or not, I love getting<$FFFC>in others' way！<$FFFD><$FB00><$0044>And you say you need it to stop the<$FFFC>Three-Country Alliance？ Knowing that, all<$FFFC>the more reason to smash that crystal.<$FFFE>
 # spk: Mariandel
 42	<$FB00><$0045>Strange. Why would a demon<$FFFC>side with the Three-Country Alliance？<$FFFE>
 # spk: Ferakia
@@ -242,7 +242,7 @@
 # spk: Mariandel
 128	<$FB00><$0065>Still, that demon's manner, it<$FFFC>felt as if she sides with the<$FFFC>Three-Country Alliance.<$FFFE>
 # spk: Brenda
-129	<$FB00><$0066>Something's behind it.<$FFFC>Crimzonians and humans would never team<$FFFC>with demons, at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
+129	<$FB00><$0066>Something's behind it. Crimzonians<$FFFC>and humans would never team with demons,<$FFFC>at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
 # spk: Sigma
 130	Empty！？ A wasted effort<$FFF8>….<$FFFE>
 # spk: Mariandel

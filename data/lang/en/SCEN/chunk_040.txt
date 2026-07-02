@@ -32,7 +32,7 @@
 # spk: Clarett
 20	Agh！！ That pervert！！<$FFFE>
 # spk: Goldry
-21	Fancy meeting you here！ Don't<$FFFC>think you'll make it out alive！！<$FFFD>Men！！<$FFFD><$0000> <$0000><$0000><$0000><$0000><$FFF4>dead silence<$FFF3><$FFFD><$FFF8>D-damn it！！ Those guys were dead<$FFFC>weight for job hunting, so I left them<$FFFC>back in Yeles…<$0663><$FFFD><$FFF8>Wait… wasn't my voice actor the same as<$FFFC>Gaiel's？ …I can use that…<$FFFE>
+21	Fancy meeting you here！ Don't<$FFFC>think you'll make it out alive！！<$FFFD>Men！！<$FFFD><$0000> <$0000><$0000><$0000><$0000><$FFF4>dead silence<$FFF3><$FFFD><$FFF8>D-damn it！！ Those guys were dead weight<$FFFC>for job hunting, so I left them back in<$FFFC>Yeles…<$0663><$FFFD><$FFF8>Wait… wasn't my voice actor the same as<$FFFC>Gaiel's？ …I can use that…<$FFFE>
 # spk: Goldry
 22	<$FFF7>Ahh, <$FFFB><$FFF6>well…<$FFFB> I'm not such a<$FFFC>villain myself. Let's just settle this<$FFFC>with a single game.<$FFFE>
 # spk: Brenda

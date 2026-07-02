@@ -93,7 +93,7 @@
 # spk: Lainforce
 52	<$FB00><$0074>But I lost<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FB00><$0075>Crimzonia<$FFFC>is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF8><$FFFA><$FB00><$0076>Heh.<$FFF5><$FE28> <$FFF6><$FB00><$0077>What was it all for, the<$FFFC>things I've done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Aizel
-53	<$FB00><$0078>Lord Lainforce. Do you still cling<$FFFC>to winning and losing？<$FFFD><$FB00><$0079>And you did stop Crimzo. Now, isn't it<$FFFC>all right to show your true feelings？<$FFFE>
+53	<$FB00><$0078>Lord Lainforce. Do you still cling<$FFFC>to winning and losing？<$FFFD><$FB00><$0079>And you did stop Crimzo. Now, isn't it all<$FFFC>right to show your true feelings？<$FFFE>
 # spk: Lainforce
 54	<$FB00><$007A>My<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007B>true<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007C>feelings, you<$FFFC>say….<$FFFE>
 # spk: Aizel
@@ -151,7 +151,7 @@
 # spk: Virash
 81	<$FB00><$00A3>By the way, Lainforce, do you know<$FFFC>how many more shots it can fire？<$FFFE>
 # spk: Lainforce
-82	<$FB00><$00A4>For Crimzo, half the air's<$FFFC>mana was used. By calculation, the<$FFFC>ultimate weapon's continuous-use limit<$FFFC>is three shots.<$FFFE>
+82	<$FB00><$00A4>For Crimzo, half the air's<$FFFC>mana was used. By calculation, the<$FFFC>ultimate weapon's continuous-use limit is<$FFFC>three shots.<$FFFE>
 # spk: Brenda
 83	<$FB00><$00A5>It fired once on the sky<$FFFC>battleship, so that leaves two, right？<$FFFE>
 # spk: Virash

@@ -127,7 +127,7 @@
 # spk: Mariandel
 71	By the look of it, you haven't<$FFFC>found it.<$FFFE>
 # spk: Sigema
-72	T-the treasure, it's the gym.<$FFFC>You can see it right there.<$FFFE>
+72	T-the treasure, it's the gym. You<$FFFC>can see it right there.<$FFFE>
 # spk: Mariandel
 73	It certainly is a suspicious<$FFFC>place.<$FFFE>
 # spk: Sigema
@@ -408,7 +408,7 @@
 # spk: Lanford
 227	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Sigema
-228	NOOOOO！ what are you doing,<$FFFC>little girl！<$FFFE>
+228	NOOOOO！ what are you doing, little<$FFFC>girl！<$FFFE>
 # spk: Alfred
 229	NOOOOO！ that hurts, des！<$FFFE>
 # spk: Lanford
@@ -436,7 +436,7 @@
 # spk: Lanford
 241	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Sigema
-242	NOOOOO！ what are you doing,<$FFFC>little girl！<$FFFE>
+242	NOOOOO！ what are you doing, little<$FFFC>girl！<$FFFE>
 # spk: Alfred
 243	NOOOOO！ that hurts, des！<$FFFE>
 # spk: Lanford
@@ -501,7 +501,7 @@
 273	Victory condition changed！ <$0000> ・Wipe out<$FFFC>the brothers<$FFFE>
 274	・Wipe out the brothers<$FFFE>
 # spk: Helper
-275	H-huh！？ sorry, I made a<$FFFC>mistake！<$FFFE>
+275	H-huh！？ sorry, I made a mistake！<$FFFE>
 # spk: Helper
 276	Huh？ huh？<$FFFD>I'm sorry. I made a mistake～.<$FFFE>
 # spk: Shop

@@ -76,7 +76,7 @@
 # spk: Omega
 44	<$FFF7><$FB00><$002F><$FFF4>U<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>o<$FE14>h<$FE14>！<$FFF3><$FFFE>
 # spk: Control prog.
-45	<$FB00><$0030>Warning. Pelia's<$FFFC>self-destruct device has activated. All<$FFFC>humans inside, evacuate to Crimzo at<$FFFC>once.<$FFFD><$FB00><$0031>Repeating. Pelia's self-destruct device<$FFFC>has activated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FB00><$0030>Warning. Pelia's<$FFFC>self-destruct device has activated. All<$FFFC>humans inside, evacuate to Crimzo at once.<$FFFD><$FB00><$0031>Repeating. Pelia's self-destruct device<$FFFC>has activated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Alfred
 46	<$FB00><$0032>We did it！ We did it！<$FFFE>
 # spk: Lanford
@@ -188,7 +188,7 @@
 # spk: Sigma
 101	<$FB00><$006D>…U…ugh… Pelia…<$FFFE>
 # spk: Mariandel
-102	……<$FB00><$006E>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because you<$FFFC>fought… the surface is safe！<$FFFE>
+102	……<$FB00><$006E>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't collide.<$FFFD>……<$FB00><$006F>The surface is safe. Because you<$FFFC>fought… the surface is safe！<$FFFE>
 # spk: Sigma
 103	<$FB00><$0070>I see, good…<$FFFE>
 # spk: Mariandel
@@ -200,7 +200,7 @@
 # spk: Sigma
 107	……<$FB00><$006D>U…ugh… Pelia…<$FFFE>
 # spk: Clarett
-108	……<$FB00><$0073>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$0074>Everyone is safe… Crimzo, our planet,<$FFFC>everyone…<$FFFE>
+108	……<$FB00><$0073>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't collide.<$FFFD>……<$FB00><$0074>Everyone is safe… Crimzo, our planet,<$FFFC>everyone…<$FFFE>
 # spk: Sigma
 109	<$FB00><$0070>I see, good…<$FFFE>
 # spk: Sigma
@@ -212,7 +212,7 @@
 # spk: Sigma
 113	……<$FB00><$006D>U…ugh… Pelia…<$FFFE>
 # spk: Brenda
-114	……<$FB00><$0077>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't<$FFFC>collide.<$FFFD>……<$FB00><$0078>Because you fought… everyone, everyone<$FFFC>was saved…<$FFFE>
+114	……<$FB00><$0077>It's all right！ Pelia was<$FFFC>destroyed. Pelia and Crimzo won't collide.<$FFFD>……<$FB00><$0078>Because you fought… everyone, everyone<$FFFC>was saved…<$FFFE>
 # spk: Sigma
 115	<$FB00><$0070>I see, good…<$FFFE>
 # spk: Brenda

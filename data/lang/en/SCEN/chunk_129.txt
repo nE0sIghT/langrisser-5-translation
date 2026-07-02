@@ -25,7 +25,7 @@
 # spk: (no plate)
 15	<$0000><$FFF4>Caconsis Army, Wiler's Unit<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> After the battle, Wiler's men<$FFFC>interrogate Goldry.<$FFFD>As his misdeeds come to light, Goldry<$FFFC>quits the army and vanishes.<$FFFE>
 # spk: (no plate)
-16	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> Aizel, scheming to capture<$FFFC><$F600><$0000> and Lambda, and Goldry,<$FFFC>pursuing the group<$FFFD>out of spite, clash with them in a<$FFFC>three-way battle at a ruined village.<$FFFC>With the help of Brenda's mercenary band,<$FFFC>they prevail.<$FFFD>After the battle, Alfred hurries home and<$FFFC>departs, while Brenda, a mercenary who<$FFFC>wishes to serve Marshal Gizarof, joins the<$FFFC>group.<$FFFD>Reaching Gizarof, they are ordered to<$FFFC>recover the Sage's Crystal, stolen by the<$FFFC>demons, and set out for the demon castle.<$FFFE>
+16	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> Aizel, scheming to capture<$FFFC><$F600><$0000> and Lambda, and Goldry,<$FFFC>pursuing the group<$FFFD>out of spite, clash with them in a<$FFFC>three-way battle at a ruined village. With<$FFFC>the help of Brenda's mercenary band, they<$FFFC>prevail.<$FFFD>After the battle, Alfred hurries home and<$FFFC>departs, while Brenda, a mercenary who<$FFFC>wishes to serve Marshal Gizarof, joins the<$FFFC>group.<$FFFD>Reaching Gizarof, they are ordered to<$FFFC>recover the Sage's Crystal, stolen by the<$FFFC>demons, and set out for the demon castle.<$FFFE>
 # spk: (no plate)
 17	<$0000><$FFF4>Alfred<$FFF3> <$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3> Meanwhile,<$FFFC>Alfred was being pursued by his brother<$FFFC>Alvince. He was suspected of poisoning his<$FFFC>father<$FFFD>Rockwell with the medicine he got from<$FFFC>Clarett. Fleeing, Alfred takes refuge in a<$FFFC>mountain fort.<$FFFE>
 # spk: (no plate)
@@ -53,7 +53,7 @@
 # spk: (no plate)
 29	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>El Sallia<$FFFC>Continent<$FFF3><$FFF3> Helping villagers attacked by a<$FFFC>tax<$FFFD>collector along the way, <$F600><$0000><$FFFC>and company finally reach Salrath. But<$FFFC>waiting there, like Jessica, were Duke<$FFFC>Lenard's harsh words.<$FFFD>As the group leaves Salrath, Omega<$FFFC>approaches when <$F600><$0000> is alone.<$FFFC>According to Omega, <$F600><$0000> is<$FFFC>not a<$FFFD>created being but, like Lambda, one who<$FFFC>was modified. Moreover, <$F600><$0000><$FFFC>is from El Sallia and was captain of the<$FFFC>Kalxath Imperial Guard.<$FFFD>The one Clarett killed in Yeles was<$FFFC><$F600><$0000> himself…<$FFFE>
 # spk: (no plate)
-30	<$0000><$FFF4>Three-Country Alliance<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> Three nobles, Lainforce of<$FFFC>Rochefort, Alvince of Reynolds, and<$FFFC>Lambert<$FFFD>of Sutherland, ally and wage a war of<$FFFC>independence against the Federation.<$FFFE>
+30	<$0000><$FFF4>Three-Country Alliance<$FFF3> <$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3><$FFFC>Three nobles, Lainforce of Rochefort,<$FFFC>Alvince of Reynolds, and Lambert<$FFFD>of Sutherland, ally and wage a war of<$FFFC>independence against the Federation.<$FFFE>
 # spk: (no plate)
 31	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>El Sallia<$FFFC>Continent<$FFF3><$FFF3> Refused aid by Duke Lenard,<$FFFC>Clarett heads east to win the help of her<$FFFC>fiance Eric.<$FFFD>Helping citizens oppressed by a tax<$FFFC>collector, Brenda points out that Clarett<$FFFC>is no different from those citizens who<$FFFC>leave everything to others.<$FFFE>
 # spk: (no plate)
@@ -131,7 +131,7 @@
 # spk: (no plate)
 68	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> Reaching Alvince's mansion, the<$FFFC>group learns his heart twisted by greed<$FFFC>and resolves to defeat him.<$FFFD>Beating Alvince, they head for Sutherland,<$FFFC>where Lambert waits.<$FFFE>
 # spk: (no plate)
-69	<$0000><$FFF4>Three-Country Alliance, Rochefort<$FFFC>Castle<$FFF3> <$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3> From the<$FFFC>strategist Zero's report, Lainforce<$FFFC>decides to occupy the town of Valtar.<$FFFE>
+69	<$0000><$FFF4>Three-Country Alliance, Rochefort Castle<$FFF3><$FFFC><$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3> From the strategist<$FFFC>Zero's report, Lainforce decides to occupy<$FFFC>the town of Valtar.<$FFFE>
 # spk: (no plate)
 70	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> The butler Masterson blocks the<$FFFC>group on their way to Sutherland. After a<$FFFC>sorrowful battle, they defeat him.<$FFFD>The dying Masterson reveals the existence<$FFFC>of a curse laid on Lambert. Lainforce<$FFFC>exploited it, and so Lambert came to side<$FFFC>with the Alliance.<$FFFD>The group heads for the mansion of Federal<$FFFC>Chancellor Russel, seeking a way to break<$FFFC>the curse.<$FFFE>
 # spk: (no plate)
@@ -139,7 +139,7 @@
 # spk: (no plate)
 72	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> Through Langrisser's power, the<$FFFC>group sees<$FFFD>through that Ferakia had transformed into<$FFFC>Russel, and drives him off. Still uneasy<$FFFC>about Ferakia's actions, they hurry to<$FFFC>Virash.<$FFFD>By his appraisal, the curse can be lifted<$FFFC>if someone of the afflicted bloodline<$FFFC>gives up their life at the place of its<$FFFC>casting.<$FFFD>Hearing this, Marshal Lanford resolves to<$FFFC>sacrifice his own life.<$FFFE>
 # spk: (no plate)
-73	<$0000><$FFF4>Three-Country Alliance, Rochefort<$FFFC>Castle<$FFF3> <$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3> Meanwhile,<$FFFC>Lambert too comes to know how to break the<$FFFC>curse.<$FFFE>
+73	<$0000><$FFF4>Three-Country Alliance, Rochefort Castle<$FFF3><$FFFC><$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3> Meanwhile, Lambert too<$FFFC>comes to know how to break the curse.<$FFFE>
 # spk: (no plate)
 74	<$0000><$FFF4>Lambert and Marshal Lanford<$FFF3> <$FFF4><$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFF3> Father and son, Lambert and<$FFFC>Marshal Lanford, reunite at an ancient<$FFFC>ruin. Lambert tells of Lainforce's next<$FFFD>target, then takes his own life to break<$FFFC>the curse. With the grieving Lanford, the<$FFFC>group heads for Valtar.<$FFFE>
 # spk: (no plate)

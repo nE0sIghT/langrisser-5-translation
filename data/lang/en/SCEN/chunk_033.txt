@@ -19,7 +19,7 @@
 # spk: Mariandel
 15	Ancient Ruin, Weather Control<$FFFC>Facility<$FFFF>
 # spk: Mariandel
-16	<$FB00><$000E>So this is the<$FFFC>weather-control ruin Virash spoke of.<$FFFE>
+16	<$FB00><$000E>So this is the weather-control<$FFFC>ruin Virash spoke of.<$FFFE>
 # spk: Sigma
 17	<$FB00><$000F>Erm, the control device is<$FFF5><$FFF8>…. <$FFF6><$FB00><$0010>Ah,<$FFFC>atop that pedestal.<$FFFE>
 # spk: Brenda
@@ -99,7 +99,7 @@
 # spk: Engineer
 56	<$FB00><$003A>Then 68 hours.<$FFFE>
 # spk: Device
-57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER<$FFFC>CONTROL.<$FFFE>
+57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER CONTROL.<$FFFE>
 # spk: Engineer
 58	<$FB00><$003C>Right, it's working！ Clouds<$FFFC>should form right away.<$FFFE>
 # spk: Sigma

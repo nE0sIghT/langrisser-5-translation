@@ -70,7 +70,7 @@
 # spk: Sigma
 40	Bring the <$FFF4>leader's HP to 7 or<$FFFC>less<$FFF3>, right？ I know that much.<$FFFE>
 # spk: Lambda
-41	Mercenaries and leaders both have<$FFFC><$FFF4>10 HP at most<$FFF3>. Healing restores <$FFF4>3 HP<$FFFC>and 2 MP<$FFF3>.<$FFFD>Any unit at <$FFF4>7 HP or less <$FFF3>will try to<$FFFC>heal, but <$FFF4>only leaders have the Heal<$FFFC>command<$FFF3>.<$FFFD>Mercenaries can't recover unless they<$FFFC>start the next turn <$FFF4>next to their leader<$FFF3>.<$FFFC>Turn that around and you can stall whole<$FFFC>units.<$FFFE>
+41	Mercenaries and leaders both have<$FFFC><$FFF4>10 HP at most<$FFF3>. Healing restores <$FFF4>3 HP and<$FFFC>2 MP<$FFF3>.<$FFFD>Any unit at <$FFF4>7 HP or less <$FFF3>will try to<$FFFC>heal, but <$FFF4>only leaders have the Heal<$FFFC>command<$FFF3>.<$FFFD>Mercenaries can't recover unless they<$FFFC>start the next turn <$FFF4>next to their leader<$FFF3>.<$FFFC>Turn that around and you can stall whole<$FFFC>units.<$FFFE>
 # spk: Sigma
 42	I see. At <$FFF4>7 or less<$FFF3>, a leader<$FFFC>stops to heal. So wound the leader, and<$FFFC>the whole unit grinds to a halt.<$FFFE>
 # spk: Lambda

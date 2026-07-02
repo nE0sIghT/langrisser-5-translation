@@ -239,7 +239,7 @@
 # spk: Lanford
 126	<$FB00><$006E>You too？<$FFFE>
 # spk: Alfred
-127	<$FB00><$006F>Yes. My brother has joined the<$FFFC>Three-Country Alliance, and I mean to<$FFFC>stop him.<$FFFE>
+127	<$FB00><$006F>Yes. My brother has joined the<$FFFC>Three-Country Alliance, and I mean to stop<$FFFC>him.<$FFFE>
 # spk: Lanford
 128	<$FB00><$0070>Our goal is the same, it seems.<$FFFC>First we must deal with this.<$FFFE>
 # spk: Alfred

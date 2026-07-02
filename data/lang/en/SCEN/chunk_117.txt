@@ -16,7 +16,7 @@
 # spk: Ferakia
 13	<$FB00><$008A>Damn it！<$FFF5><$FFF8><$FE1E><$FE1E><$FFF6><$FB00><$008B>What monstrous power<$FFFC>is this！<$FFFE>
 # spk: Ferakia
-14	<$FB00><$008D>To think the Crimzonia lot<$FFFC>would bring out a thing like that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$008E>This was not in my reckoning！<$FFFE>
+14	<$FB00><$008D>To think the Crimzonia lot would<$FFFC>bring out a thing like that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$008E>This<$FFFC>was not in my reckoning！<$FFFE>
 15	Sky Battleship Bridge<$FFFF>
 # spk: Soldier
 16	<$FB00><$008F>Lord Zero！ We hold the<$FFFC>advantage. The demons' destruction is only<$FFFC>a matter of time！<$FFFE>

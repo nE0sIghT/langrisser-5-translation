@@ -577,7 +577,7 @@
 # spk: Shop
 305	Are you all right…？<$FFFE>
 # spk: Baran
-306	<$FFF8>…Ohh！？<$0000>I sense a wonderful<$FFFC>adventure！<$FFFD><$FFF4>sharp look<$FFF3><$FFFD>No, lovely young lady. for your sake, this<$FFFC>Baran will gladly do 100,000 squats and<$FFFC>a million sit-ups♡<$FFFE>
+306	<$FFF8>…Ohh！？<$0000>I sense a wonderful<$FFFC>adventure！<$FFFD><$FFF4>sharp look<$FFF3><$FFFD>No, lovely young lady. for your sake, this<$FFFC>Baran will gladly do 100,000 squats and a<$FFFC>million sit-ups♡<$FFFE>
 # spk: Adon
 307	Big Bro Baran, you're absolutely<$FFFC>smitten.<$FFFE>
 # spk: Baran

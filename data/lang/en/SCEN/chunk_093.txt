@@ -96,7 +96,7 @@
 # spk: Sigma
 54	<$FB00><$0042>Two swords with strange powers<$FFF5><$FFF8>…<$FE14><$FE14>…<$FFFC><$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$0043>Could they be<$FFF5><$FFF8>…？<$FFFE>
 # spk: Lambda
-55	<$FB00><$0044>No doubt. That is the true form<$FFFC>of the Sage's Crystal.<$FFFE>
+55	<$FB00><$0044>No doubt. That is the true form of<$FFFC>the Sage's Crystal.<$FFFE>
 # spk: Alfred
 56	<$FB00><$0045>Um<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0046>I can't follow this at all<$FFFC><$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda

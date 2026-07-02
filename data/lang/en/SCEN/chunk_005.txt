@@ -58,9 +58,9 @@
 # spk: (no plate)
 37	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 3P！<$FFFE>
 # spk: (no plate)
-38	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 2P！ <$FFF4>Holy resist<$FFF3><$FFFC>rose by 2P！<$FFFE>
+38	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 2P！ <$FFF4>Holy resist<$FFF3> rose<$FFFC>by 2P！<$FFFE>
 # spk: (no plate)
-39	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 1P！ <$FFF4>Holy resist<$FFF3><$FFFC>rose by 2P！ <$FFF4>Dark resist<$FFF3> rose by 2P！<$FFFE>
+39	Juicy berries clear your head.<$FFFD><$0000> <$FFF4>Max MP<$FFF3> rose by 1P！ <$FFF4>Holy resist<$FFF3> rose<$FFFC>by 2P！ <$FFF4>Dark resist<$FFF3> rose by 2P！<$FFFE>
 # spk: Sigma
 40	<$FB00><$0026>Cramped little village, though.<$FFFE>
 # spk: Lambda
@@ -106,19 +106,19 @@
 # spk: Merc
 61	…n-no…Captain！！<$FFFE>
 # spk: Goldry
-62	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+62	<$FB00><$003E>Now you'll see my TRUE strength！<$FFFE>
 # spk: Sigma
 63	<$FB00><$003F>Fine, show me.<$FFFE>
 # spk: Goldry
 64	<$FB00><$0042>Quiet, you！<$FFFE>
 # spk: Goldry
-65	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+65	<$FB00><$003E>Now you'll see my TRUE strength！<$FFFE>
 # spk: Lambda
 66	<$FB00><$0040>Not interested.<$FFFE>
 # spk: Goldry
 67	<$FB00><$0042>Quiet, you！<$FFFE>
 # spk: Goldry
-68	<$FB00><$003E>Now you'll see my TRUE<$FFFC>strength！<$FFFE>
+68	<$FB00><$003E>Now you'll see my TRUE strength！<$FFFE>
 # spk: Alfred
 69	<$FB00><$0041>You said that last time too<$FFF5><$FFF8>…<$FFFE>
 # spk: Goldry

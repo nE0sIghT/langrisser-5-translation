@@ -22,7 +22,7 @@
 # spk: Lanford
 16	<$FB00><$0009>You who tried to attack us, your<$FFFC>own allies and all, what can you say.<$FFFE>
 # spk: Gaiel
-17	<$FB00><$000A>Allies？<$FFF5> <$FB00><$000B>Who are my allies？<$FFF5><$FFFC><$FB00><$000C>Back when I served Böser, perhaps, but<$FFFC>not now.<$FFFD><$FB00><$000D>I care nothing for the demons' future. I<$FFFC>will rule this world！<$FFFE>
+17	<$FB00><$000A>Allies？<$FFF5> <$FB00><$000B>Who are my allies？<$FFF5><$FFFC><$FB00><$000C>Back when I served Böser, perhaps, but not<$FFFC>now.<$FFFD><$FB00><$000D>I care nothing for the demons' future. I<$FFFC>will rule this world！<$FFFE>
 # spk: Clarett
 18	<$FB00><$000E>That I will never allow！<$FFF5> <$FB00><$000F>By<$FFFC>the blood of Kalxath, I'll defeat you！<$FFF5><$FFFC><$FB00><$0010>Prepare yourself！<$FFFE>
 # spk: Gaiel

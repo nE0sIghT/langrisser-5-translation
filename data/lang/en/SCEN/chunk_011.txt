@@ -57,7 +57,7 @@
 # spk: Lambda
 36	<$FB00><$0036>What will you do, Clarett？<$FFFE>
 # spk: Clarett
-37	<$FB00><$0037>Isn't it obvious？ We save<$FFFC>them！<$FFFE>
+37	<$FB00><$0037>Isn't it obvious？ We save them！<$FFFE>
 # spk: Clarett
 38	<$FB00><$0038>But how should we fight…？<$FFFE>
 # spk: Sigma

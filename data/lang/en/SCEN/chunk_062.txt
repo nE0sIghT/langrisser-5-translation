@@ -64,7 +64,7 @@
 # spk: Officer
 41	<$FB00><$0021>What should we do, Lord<$FFFC>Alvince？<$FFFE>
 # spk: Alvince
-42	<$FB00><$0022>Forget the half-dead<$FFFC>Federation army！ Focus on Rochefort！ Do<$FFFC>not let them escape！<$FFFE>
+42	<$FB00><$0022>Forget the half-dead Federation<$FFFC>army！ Focus on Rochefort！ Do not let them<$FFFC>escape！<$FFFE>
 # spk: Officer
 43	<$FB00><$0023>Yes sir！<$FFFE>
 # spk: Alvince

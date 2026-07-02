@@ -71,7 +71,7 @@
 # spk: (no plate)
 38	Because <$F600><$0000> noticed the<$FFFC>change, Marie avoided becoming a tree. But<$FFFC>the price was high, and she never rose<$FFFC>from bed again.<$FFFE>
 # spk: (no plate)
-39	Even Crimzonia's magitek science could<$FFFC>not remove the World Tree fused with her<$FFFC>body, and at last she became a World Tree<$FFFC>herself.<$FFFE>
+39	Even Crimzonia's magitek science could not<$FFFC>remove the World Tree fused with her body,<$FFFC>and at last she became a World Tree<$FFFC>herself.<$FFFE>
 # spk: (no plate)
 40	When she first met <$F600><$0000>'s<$FFFC>group, Clarett had no self of her own and<$FFFC>simply drifted with others.<$FFFD>But Brenda and Lenard made her see it, and<$FFFC>she resolved to change herself.<$FFFE>
 # spk: (no plate)
@@ -117,7 +117,7 @@
 # spk: (no plate)
 61	At first, Brenda hid her identity as a<$FFFC>Crimzo Lander when she approached<$FFFC><$F600><$0000>'s group.<$FFFE>
 # spk: (no plate)
-62	Her skill as a mercenary leader was high,<$FFFC>and in battle she became indispensable.<$FFFD>After Pelia, she worked with Crimzonia<$FFFC>and Marie to calm the disasters caused by<$FFFC>the moon's loss.<$FFFE>
+62	Her skill as a mercenary leader was high,<$FFFC>and in battle she became indispensable.<$FFFD>After Pelia, she worked with Crimzonia and<$FFFC>Marie to calm the disasters caused by the<$FFFC>moon's loss.<$FFFE>
 # spk: (no plate)
 63	At first the gulf between Crimzo Landers<$FFFC>and Crimzonia was wide. Thanks to Brenda,<$FFFC>Virash, Marie and others, it slowly<$FFFC>narrowed.<$FFFE>
 # spk: (no plate)
