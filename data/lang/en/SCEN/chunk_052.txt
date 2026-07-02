@@ -31,7 +31,7 @@
 # spk: Sigma
 19	How do we learn it？<$FFFE>
 # spk: Brenda
-20	At LV10 after battle EXP, you<$FFFC>can <$FFF4>Class Change<$FFF3>. New classes teach new<$FFFC>skills.<$FFFE>
+20	That one I can teach. At LV10<$FFFC>after battle EXP, you can <$FFF4>Class Change<$FFF3>.<$FFFC>New classes teach new skills.<$FFFE>
 # spk: Lambda
 21	When assigning mercs, choose both<$FFFC>types first, then each number. Until now<$FFFC>it was <$FFF4>Choose Mercs<$FFF3>, then <$FFF4>Set Number<$FFF3>.<$FFFD>With mixed mercs, pick type one, type two,<$FFFC>then each number.<$FFFE>
 # spk: Sigma

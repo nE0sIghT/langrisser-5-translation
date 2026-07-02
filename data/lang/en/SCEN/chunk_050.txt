@@ -148,6 +148,6 @@
 # spk: Soldier
 79	<$FB00><$0054>Sir！ Troops to the back gate as<$FFFC>well.<$FFFE>
 # spk: (no plate)
-80	<$0000>Tasked by Gizarof to recover the Sage's<$FFFC>Crystal, the two head north with Brenda.<$FFFC><$0000>On the way, in the Reynolds mountains,<$FFFC>they see Alfred hunted by his own brother.<$FFFE>
+80	<$0000>Tasked by Gizarof to recover the Sage's<$FFFC>Crystal, the two head north with Brenda,<$FFFC>toward the demons' gathering place.<$FFFD><$0000>On the way, in the Reynolds mountains,<$FFFC>they see Alfred hunted by his own brother.<$FFFE>
 # spk: (no plate)
 81	Victory terms<$FFFC><$0000><$FFFC>・Defeat Alvince<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・Alfred dies<$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>

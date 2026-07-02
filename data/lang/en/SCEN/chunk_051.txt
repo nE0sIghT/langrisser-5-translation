@@ -28,7 +28,7 @@
 # spk: Alfred
 19	<$FB00><$000A>Fight Caconsis？<$FFFE>
 # spk: Sigma
-20	<$FB00><$000B>Yes. We fought them before. Be<$FFFC>ready.<$FFFE>
+20	<$FB00><$000B>Yes. We fought them once before. I<$FFFC>was ready for this.<$FFFE>
 21	At Gizarof's Lab<$FFFF>
 # spk: Gizarof
 22	<$FB00><$0077>Guh<$FFF7>ah！<$FFFE>

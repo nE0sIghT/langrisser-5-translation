@@ -17,7 +17,7 @@
 # spk: Jessica
 14	<$FB00><$0080>It seems everyone is safe.<$FFFE>
 # spk: McClaine
-15	<$FB00><$0081>With your sword, we beat<$FFFC>Gizarof！<$FFFE>
+15	<$FB00><$0081>With that sword you lent us, we<$FFFC>even beat the bastard Gizarof！<$FFFE>
 # spk: Jessica
 16	<$FB00><$002F>Landius. I must return to heaven<$FFFC>soon. May I have the sword back？<$FFFE>
 # spk: Landius
@@ -49,7 +49,7 @@
 # spk: Lanford
 30	<$FB00><$0092>Emily！ Why are you here？<$FFFE>
 # spk: Emily
-31	<$FB00><$0093>Forgive me. I worried and followed<$FFFC>you.<$FFFE>
+31	<$FB00><$0093>Forgive me. I knew you would be<$FFFC>fine, yet I followed all the same.<$FFFE>
 # spk: Lanford
 32	<$FB00><$0094>I keep worrying you. But he is<$FFFC>safe. You two can live as family now.<$FFFE>
 # spk: Landius
@@ -92,7 +92,7 @@
 # spk: Merc
 52	<$FB00><$003E>Unusual<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$003F>unusual<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
 # spk: Merc
-53	<$FB00><$0040>Oh！ Jessica teleported away with<$FFFC>both strange swords.<$FFFD><$FB00><$0041>I think she was a mage from El Sallia.<$FFFE>
+53	<$FB00><$0040>Oh！ A woman called Jessica went and<$FFFC>teleported away with both strange swords.<$FFFD><$FB00><$0041>I think she was a mage from El Sallia.<$FFFE>
 # spk: Sigma
 54	<$FB00><$0042>Two swords with strange powers<$FFF5><$FFF8>…<$FE14><$FE14>…<$FFFC><$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$0043>Could they be<$FFF5><$FFF8>…？<$FFFE>
 # spk: Lambda
