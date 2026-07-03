@@ -47,11 +47,11 @@
 # spk: Gaiel
 29	<$FB00><$0015>Of course. Who do you think I am？<$FFFC>Besides, you stopped attacking humans.<$FFFE>
 # spk: Grove
-30	<$FB00><$0016>Hee hee！ Humans now kill one<$FFFC>another.<$FFFD><$FB00><$0017>Let them be and they'll weaken themselves.<$FFFE>
+30	<$FB00><$0016>Hee hee！ The human world is a<$FFFC>fine show now. Humans kill one another.<$FFFD><$FB00><$0017>Let them be and they'll weaken themselves.<$FFFE>
 # spk: Gaiel
 31	<$FB00><$0018>Hmph. If merely waiting will<$FFFC>improve the situation, there is no reason<$FFFC>not to use it.<$FFFD><$FB00><$0019>It seems your scheme has borne fruit,<$FFFC>Grove.<$FFFE>
 # spk: Grove
-32	<$FB00><$001A>Naturally. Who do you think I am？<$FFFC>I hear Böser was crushed on Yeless？<$FFFE>
+32	<$FB00><$001A>Naturally. Who do you take the<$FFFC>great Grove for？ I hear Böser was crushed<$FFFC>on Yeless？<$FFFE>
 # spk: Gaiel
 33	<$FB00><$001B>Yes. He was defeated by this sword<$FFFC>again.<$FFFE>
 # spk: Sigma
