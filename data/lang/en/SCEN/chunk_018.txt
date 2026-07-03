@@ -134,7 +134,7 @@
 # spk: Clarett
 73	<$FB00><$0058>I have never heard that.<$FFFE>
 # spk: Gilmore
-74	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded, Dalsis had a<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
+74	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was even founded as a<$FFFC>kingdom, the Dalsis Empire had a gifted<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed a traveling nun<$FFFC>named Chris, and had Leon<$FFF5><$FFF8>…<$FFFE>
 # spk: Jessica
 75	<$FB00><$005C>Stop. Your story already fails.<$FFFD><$FB00><$005D>Chris wed Ledin of Baldia. Leon lived<$FFFC>about 200 years after them.<$FFFE>
 # spk: Gilmore
@@ -204,7 +204,7 @@
 # spk: Clarett
 108	<$FB00><$0058>I have never heard that.<$FFFE>
 # spk: Gilmore
-109	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was founded, Dalsis had a<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed Chris, and had<$FFFC>Leon<$FFF5><$FFF8>…<$FFFE>
+109	<$FB00><$0059>Then listen well！ This goes back<$FFFC>centuries.<$FFFD><$FB00><$005A>Before Kalxath was even founded as a<$FFFC>kingdom, the Dalsis Empire had a gifted<$FFFC>youth named Lance Kalxath.<$FFFD><$FB00><$005B>He founded Kalxath, wed a traveling nun<$FFFC>named Chris, and had Leon<$FFF5><$FFF8>…<$FFFE>
 # spk: Jessica
 110	<$FB00><$005C>Stop. Your story already fails.<$FFFD><$FB00><$005D>Chris wed Ledin of Baldia. Leon lived<$FFFC>about 200 years after them.<$FFFE>
 # spk: Gilmore
