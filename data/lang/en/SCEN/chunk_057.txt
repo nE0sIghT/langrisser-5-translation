@@ -16,7 +16,7 @@
 # spk: Lenard
 13	<$FFF8>…<$FFF6><$FB00><$0004>Letting citizens govern is bold.<$FFFC>But are nobles truly unnecessary？<$FFFE>
 # spk: Clarett
-14	<$FB00><$0005>No.<$FFFD><$FB00><$0006>Nobles are educated. Schools can raise<$FFFC>public knowledge, but that takes time.<$FFFD><$FB00><$0007>So two houses: citizens draft laws in a<$FFFC>lower house.<$FFFD><$FB00><$0008>Nobles review them in an upper house. Laws<$FFFC>pass only if both agree.<$FFFE>
+14	<$FB00><$0005>No.<$FFFD><$FB00><$0006>Nobles are educated. Schools can raise<$FFFC>public knowledge, but that takes time.<$FFFD><$FB00><$0007>So two houses: citizens raise issues,<$FFFC>debate them, and draft laws in a lower<$FFFC>house.<$FFFD><$FB00><$0008>Nobles review them in an upper house. Laws<$FFFC>pass only if both agree.<$FFFE>
 # spk: Lenard
 15	<$FB00><$0009>I see. Reasonable. The citizens<$FFFC>would elect their representatives？<$FFFE>
 # spk: Clarett

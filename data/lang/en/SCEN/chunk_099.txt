@@ -57,7 +57,7 @@
 # spk: Alfred
 34	<$FB00><$0081>Estor？<$FFFE>
 # spk: Liberalist
-35	<$FB00><$0082>Estor, the great temple of<$FFFC>light. You seek its support to unite the<$FFFC>people.<$FFFE>
+35	<$FB00><$0082>Estor, the great temple of<$FFFC>light revered across this land. You seek<$FFFC>its support to unite the people.<$FFFE>
 # spk: Brenda
 36	<$FB00><$0083>Hah. Is this really Clarett？ Can<$FFFC>someone change that fast<$FFF5><$FFF8>…？<$FFFE>
 # spk: Alfred
