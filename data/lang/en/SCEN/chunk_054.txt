@@ -37,7 +37,7 @@
 # spk: Lanford
 25	<$FB00><$000F>Yes.<$FFFE>
 # spk: Lanford
-26	<$FB00><$0010>With Caconsis aid, we finally<$FFFC>defeated the traitor Gizarof.<$FFFD><$FB00><$0011>His wounds on the Federation run deep.<$FFFC>Recovery will take time.<$FFFD><$FB00><$0012>His men may yet rally. Stay alert, and<$FFFC>help me restore the Federation quickly.<$FFFE>
+26	<$FB00><$0010>With Caconsis aid, we finally<$FFFC>defeated the traitor Gizarof.<$FFFD><$FB00><$0011>The wounds left by Gizarof, who tried to<$FFFC>claim the Federation for his own, run<$FFFC>deep. Recovery will take time.<$FFFD><$FB00><$0012>His men may yet rally. Stay alert, and<$FFFC>help me restore the Federation quickly.<$FFFE>
 # spk: Soldier
 27	<$FFF7><$FB00><$0013>Yes, sir！<$FFF5><$FFF8><$FFFE>
 # spk: Rozenciel
@@ -52,7 +52,7 @@
 # spk: Aizel
 33	<$FFFA><$FB00><$0018>Forgive me, Lord Lainforce. I<$FFFC>still have not captured them<$FFF5><$FFF8>…<$FFFE>
 # spk: Lainforce
-34	<$FB00><$0019>That matter is over. From now<$FFFC>on, he will recover the vessels.<$FFFE>
+34	<$FB00><$0019>That matter is over. From now<$FFFC>on, he will recover the specimens.<$FFFE>
 # spk: Aizel
 35	<$FB00><$001A>He is the one from then？<$FFFE>
 # spk: Omega
@@ -60,7 +60,7 @@
 # spk: Aizel
 37	<$FB00><$001C>Lord Lainforce<$FFF5><$FFF8>…,<$FFF6><$FB00><$001D>am I relieved of<$FFFC>my duty？<$FFFE>
 # spk: Lainforce
-38	<$FB00><$001E>No. He can sense vessels like<$FFFC>him, even far away. He is better suited.<$FFFD><$FB00><$001F>Instead, I have another task. I can<$FFFC>entrust it only to you.<$FFFE>
+38	<$FB00><$001E>No. He can sense specimens<$FFFC>like him, even far away. He is better<$FFFC>suited.<$FFFD><$FB00><$001F>Instead, I have another task. I can<$FFFC>entrust it only to you.<$FFFE>
 # spk: Aizel
 39	<$FB00><$0020>Yes, sir. Command me as you wish.<$FFFE>
 40	At El Sallia Port<$FFFF>
