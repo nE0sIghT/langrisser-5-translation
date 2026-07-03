@@ -102,6 +102,6 @@
 # spk: Sigma
 58	<$FB00><$0032>With this, we can fly there at<$FFFC>once！<$FFFE>
 # spk: (no plate)
-59	<$0000>After the Liberlisters were freed from<$FFFC>Gaiana Prison, Salrath's main force was<$FFFC>still surrounded by a huge army.<$FFFD><$0000>The distance was too great for a rescue,<$FFFC>and the situation looked hopeless.<$FFFD><$0000>But Brenda appeared with a flying ship<$FFFC>from somewhere, letting them reach the<$FFFC>battlefield sky in little time.<$FFFD><$0000>There they found the flying corps acting<$FFFC>as Kalxath's eyes…<$FFFE>
+59	<$0000>After the Liberalists were freed from<$FFFC>Gaiana Prison, Salrath's main force was<$FFFC>still surrounded by a huge army.<$FFFD><$0000>The distance was too great for a rescue,<$FFFC>and the situation looked hopeless.<$FFFD><$0000>But Brenda appeared with a flying ship<$FFFC>from somewhere, letting them reach the<$FFFC>battlefield sky in little time.<$FFFD><$0000>There they found the flying corps acting<$FFFC>as Kalxath's eyes…<$FFFE>
 # spk: (no plate)
 60	Victory terms<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE><$FFFF>
