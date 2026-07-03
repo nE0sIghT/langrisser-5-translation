@@ -55,7 +55,7 @@
 # spk: Clarett
 33	<$FB00><$0070>Sky battleships？<$FFFE>
 # spk: Brenda
-34	<$FB00><$0071>I guess, battleships that could<$FFFC>travel from this star to the moon.<$FFFE>
+34	<$FB00><$0071>I guess, battleships that could<$FFFC>travel from this planet to the moon.<$FFFE>
 # spk: Clarett
 35	<$FFF7><$FB00><$0072>Wow… <$FFF5><$FFF8><$FFF6><$FB00><$0073>What was the ancient magic<$FFFC>world like？ I cannot imagine.<$FFFE>
 # spk: Lambda

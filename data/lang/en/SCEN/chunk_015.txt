@@ -117,7 +117,7 @@
 # spk: (no plate)
 68	You press it into the wall, and it clicks.<$FFFE>
 # spk: (no plate)
-69	Sliding it aside reveals a small box<$FFFC>behind the relief. Inside is a <$FFF4>karaoke<$FFFC>pass for 5, 30 free minutes<$FFF3>.<$FFFD><$0000> <$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
+69	Sliding it aside reveals a small box<$FFFC>behind the relief. Inside is a <$FFF4>Karaoke<$FFFC>Hanamichi pass for 5, 30 free minutes<$FFF3>.<$FFFD><$0000> <$FFF4>5-person 30-min pass<$FFF3> obtained！<$FFFE>
 # spk: (no plate)
 70	The relief crumbles with a rattle.<$FFFE>
 # spk: Sigma

@@ -42,7 +42,7 @@
 # spk: Russel
 28	<$FB00><$0014>Me？<$FFFE>
 # spk: (location/crowd)
-29	<$FB00><$0015>Yes. After Gizarof's chaos, no<$FFFC>premier has been named since your father's<$FFFC>execution.<$FFFD><$FB00><$0016>You know the office well. With your<$FFFC>popularity, it is natural.<$FFFD><$FB00><$0017>The Three Kingdom Alliance now rebels<$FFFC>against the Federation. Please aid us.<$FFFE>
+29	<$FB00><$0015>Yes. After Gizarof's chaos, no<$FFFC>premier has been named since your father's<$FFFC>execution.<$FFFD><$FB00><$0016>You know the office well. With your<$FFFC>popularity, it is natural.<$FFFD><$FB00><$0017>The Three-Country Alliance now rebels<$FFFC>against the Federation. Please aid us.<$FFFE>
 # spk: Russel
 30	<$FB00><$0018>If Her Majesty says so much, I<$FFFC>cannot refuse. Very well. I will fulfill<$FFFC>this great duty.<$FFFE>
 # spk: Rozenciel
@@ -50,7 +50,7 @@
 # spk: Leader
 32	<$FB00><$001B>Yes, Your Majesty！<$FFFE>
 # spk: Russel
-33	<$FB00><$001C>Then, what is our current response<$FFFC>to the Three Kingdom Alliance？<$FFFE>
+33	<$FB00><$001C>Then, what is our current response<$FFFC>to the Three-Country Alliance？<$FFFE>
 # spk: Leader
 34	<$FB00><$001D>Marshal Lanford is personally<$FFFC>commanding at the front.<$FFFE>
 # spk: Russel
