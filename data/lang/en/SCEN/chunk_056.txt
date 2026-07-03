@@ -27,7 +27,7 @@
 # spk: Sigma
 18	<$FB00><$000F>My<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0010>past！？<$FFFE>
 # spk: Omega
-19	<$FB00><$0011>You crossed from El Sallia to<$FFFC>Yeless, a first-rate swordsman with dead<$FFFC>eyes.<$FFFD><$FB00><$0012>Gizarof picked you up. I was his right<$FFFC>hand.<$FFFD><$FB00><$0013>Then you came and took the top spot.<$FFFE>
+19	<$FB00><$0011>You crossed from El Sallia to<$FFFC>Yeless, a first-rate swordsman. I don't<$FFFC>know why, but your eyes were dark.<$FFFD><$FB00><$0012>That much hasn't changed. Gizarof picked<$FFFC>you up, a drifter. I was his right hand.<$FFFD><$FB00><$0013>Then you came and took the top spot.<$FFFE>
 # spk: Omega
 20	<$FB00><$0014>Then one day<$FFF5><$FFF8>… you were killed.<$FFFE>
 # spk: Sigma

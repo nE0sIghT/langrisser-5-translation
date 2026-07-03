@@ -40,7 +40,7 @@
 # spk: Taxman
 25	<$FB00><$003A>Silence！ You won't pay, so we<$FFFC>collect！<$FFFE>
 # spk: Mayor
-26	<$FB00><$003B>But we can't pay！ That food is our<$FFFC>emergency store…<$FFFE>
+26	<$FB00><$003B>But we truly can't pay！ That food<$FFFC>is the emergency store the law itself<$FFFC>requires…<$FFFE>
 # spk: Taxman
 27	<$FB00><$003C>Old law！ Current law says tax<$FFFC>dodgers die！<$FFFE>
 # spk: Townsman
