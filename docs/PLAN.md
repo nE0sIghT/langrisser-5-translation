@@ -24,8 +24,8 @@ and Virash narration, may remain with the durable language assets.
   covers the complete Russian alphabet including `Ё/ё`.
 - The startup quiz, tutorial, complete SYSTEM/UI text, name-entry grid and
   language-specific title credits are translated into Russian.
-- Both EN and RU pipelines build successfully. Russian scenarios 1-28 are
-  complete; scenarios 29 onward remain untranslated.
+- Both EN and RU pipelines build successfully. Russian scenarios 1-29 are
+  complete; scenarios 30 onward remain untranslated.
 - Completed reverse engineering and tooling are recorded in
   `docs/IMPLEMENTED.md`.
 
@@ -152,7 +152,7 @@ A scenario is complete only when:
 | Scenario 26 | Yes | Yes | Yes | Yes | Yes |
 | Scenario 27 | Yes | Yes | Yes | Yes | Yes |
 | Scenario 28 | Yes | Yes | Yes | Yes | Yes |
-| Scenario 29 | No | No | No | No | No |
+| Scenario 29 | Yes | Yes | Yes | Yes | Yes |
 | Scenario 30 | No | No | No | No | No |
 | Scenario 31 | No | No | No | No | No |
 | Scenario 32 | No | No | No | No | No |
