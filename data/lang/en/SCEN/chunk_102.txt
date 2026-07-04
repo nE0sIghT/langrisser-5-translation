@@ -11,7 +11,7 @@
 9	Town<$FFFF>
 10	Federal Camp<$FFFF>
 # spk: Messenger
-11	<$FB00><$0076>I bring a message from Premier<$FFFC>Russel.<$FFFE>
+11	<$FB00><$0076>I bring a message from<$FFFC>Chancellor Russel.<$FFFE>
 # spk: Lanford
 12	<$FB00><$0077>Russel？ I see, he returned.<$FFFE>
 # spk: Messenger
@@ -29,7 +29,7 @@
 # spk: Lanford
 19	<$FFF7>…<$FE3C><$FB00><$007E>Wh<$FFF5>…<$FE3C>…<$FE3C>！？<$FFFE>
 # spk: Messenger
-20	<$FB00><$007F>Premier Russel decided. He<$FFFC>fears concentrating our weakened troops<$FFFC>could invite invasion…<$FFFE>
+20	<$FB00><$007F>Chancellor Russel decided. He<$FFFC>fears concentrating our weakened troops<$FFFC>could invite invasion…<$FFFE>
 # spk: Lanford
 21	<$FB00><$0080>But without reinforcements, they<$FFFC>will collapse the Federation from within！<$FFFD><$FFF8>…<$FB00><$0081>Kh！<$FFFD><$FFF6><$FB00><$0082>What is he thinking！？<$FFFE>
 # spk: Messenger

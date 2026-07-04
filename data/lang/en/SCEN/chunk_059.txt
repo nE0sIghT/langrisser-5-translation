@@ -46,7 +46,7 @@
 # spk: Russel
 30	<$FB00><$0018>If Her Majesty says so much, I<$FFFC>cannot refuse. Very well. I will fulfill<$FFFC>this great duty.<$FFFE>
 # spk: Rozenciel
-31	<$FB00><$0019>We will hold a formal<$FFFC>investiture soon.<$FFFD><$FB00><$001A>I count on you, Premier Russel. Everyone,<$FFFC>support Russel.<$FFFE>
+31	<$FB00><$0019>We will hold a formal<$FFFC>investiture soon.<$FFFD><$FB00><$001A>I count on you, Chancellor Russel.<$FFFC>Everyone, support Russel.<$FFFE>
 # spk: Leader
 32	<$FB00><$001B>Yes, Your Majesty！<$FFFE>
 # spk: Russel

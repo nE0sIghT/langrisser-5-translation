@@ -185,11 +185,11 @@
 # spk: Lanford
 99	<$FB00><$004C>If the curse is broken, my<$FFFC>father will have no need to aid Lainforce.<$FFFD><$FB00><$004D>Masterson. The relic of the magic<$FFFC>civilization my father brought home, where<$FFFC>is it now？<$FFFE>
 # spk: Masterson
-100	<$FB00><$004E>I believe… it was presented<$FFFC>to the Premier's manor…. That is all I<$FFFC>know….<$FFFD><$FB00><$004F>Lord Lanford. Please, do not let the<$FFFC>master's care go to waste….<$FFFE>
+100	<$FB00><$004E>I believe… it was presented<$FFFC>to the Chancellor's manor…. That is all<$FFFC>I know….<$FFFD><$FB00><$004F>Lord Lanford. Please, do not let the<$FFFC>master's care go to waste….<$FFFE>
 # spk: Lanford
 101	<$FB00><$0050>Masterson. I'm sorry<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0051>I will break the curse without fail and<$FFFC>mend things with my father. So rest easy<$FFFC>now….<$FFFE>
 # spk: Alfred
-102	<$FB00><$0052>Let's hurry to the Premier's<$FFFC>manor.<$FFFE>
+102	<$FB00><$0052>Let's hurry to the Chancellor's<$FFFC>manor.<$FFFE>
 # spk: Lanford
 103	<$FB00><$0053>I'm sorry, Alfred. Had I known<$FFFC>sooner, I might have saved your brother.<$FFFE>
 # spk: Alfred

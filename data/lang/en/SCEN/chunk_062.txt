@@ -29,7 +29,7 @@
 # spk: Russel
 23	<$FB00><$0009>That you might use your marshal<$FFFC>rank to gather soldiers and aid the<$FFFC>Three-Country Alliance…<$FFFE>
 # spk: Lanford
-24	<$FB00><$000A>What！？ <$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that too,<$FFFC>Premier？<$FFFE>
+24	<$FB00><$000A>What！？ <$FFF5><$FFF8><$FE3C><$FFF6><$FB00><$000B>Do you believe that too,<$FFFC>Chancellor？<$FFFE>
 # spk: Russel
 25	<$FB00><$000C>No, I do not<$FFF5><$FFF8>… <$FFF6><$FB00><$000D>But we must not let<$FFFC>needless suspicion trouble nobles or<$FFFC>citizens.<$FFFD><$FB00><$000E>So<$FFF5><$FFF8><$FE3C>…<$FE3C>…<$FE3C><$FFF6><$FB00><$000F>Guards！<$FFFE>
 # spk: Leader

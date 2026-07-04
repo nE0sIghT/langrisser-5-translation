@@ -81,7 +81,7 @@
 49	<$FB00><$006F>Emergency landing！<$FFFE>
 50	Federation Castle, Audience Hall<$FFFF>
 # spk: Leader
-51	<$FB00><$0070>Premier, urgent news！<$FFFE>
+51	<$FB00><$0070>Chancellor, urgent news！<$FFFE>
 # spk: Russel
 52	<$FB00><$0071>What is it？<$FFFE>
 # spk: Leader

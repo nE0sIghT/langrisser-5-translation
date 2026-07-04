@@ -76,6 +76,6 @@
 # spk: Merc
 46	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0022>Boss, Virash<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0023>I'm sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: (no plate)
-47	<$0000>Having heard of the curse from<$FFFC>Masterson, the party made for Premier<$FFFC>Russel's manor. <$0000>They came to learn the<$FFFC>truth of the curse on Lanford's house.<$FFFD><$0000>But there, Russel's dreadful true nature<$FFFC>comes to light….<$FFFE>
+47	<$0000>Having heard of the curse from<$FFFC>Masterson, the party made for Chancellor<$FFFC>Russel's manor. <$0000>They came to learn the<$FFFC>truth of the curse on Lanford's house.<$FFFD><$0000>But there, Russel's dreadful true nature<$FFFC>comes to light….<$FFFE>
 # spk: (no plate)
 48	Victory terms<$FFFC><$0000><$FFFC>・Defeat Ferakia<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>
