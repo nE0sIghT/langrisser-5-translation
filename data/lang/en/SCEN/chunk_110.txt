@@ -15,7 +15,7 @@
 # spk: Brenda
 13	<$FB00><$005F>Lain<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
 # spk: Lainforce
-14	<$FB00><$0060>Hoho. So you are the ones who<$FFFC>took the sacred sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
+14	<$FB00><$0060>Hoho. So you are the ones who<$FFFC>took the holy sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
 # spk: Sigma
 15	<$FB00><$0062>You think we'll be caught that<$FFFC>easily？<$FFFE>
 # spk: Lainforce

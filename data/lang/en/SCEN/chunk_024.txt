@@ -319,7 +319,7 @@
 # spk: Sigma
 165	All right！ Got it again！<$FFFE>
 # spk: Lainforce
-166	<$FB00><$005C>What is going on？ Has the<$FFFC>sacred sword not been recovered yet？<$FFFE>
+166	<$FB00><$005C>What is going on？ Has the holy<$FFFC>sword not been recovered yet？<$FFFE>
 # spk: Sigma
 167	<$FB00><$005D>He is<$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda
