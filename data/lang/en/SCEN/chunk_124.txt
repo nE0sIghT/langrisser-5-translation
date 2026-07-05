@@ -1,0 +1,65 @@
+# file=SCEN.DAT chunk=124 chunk_start=0x15B0000
+# block_base=0x3284 block_size=0x0988 records=36
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Gizarof<$FFFF>
+8	Gizarof<$FFFF>
+9	At the Magic Research Lab<$FFFF>
+# spk: Sigma
+10	<$FB00><$004D>Looks like this place hasn't been<$FFFC>ransacked yet.<$FFFE>
+# spk: Brenda
+11	<$FB00><$004E>Right. Both the Federal and the<$FFFC>Caconsis armies have their hands full<$FFFC>rebuilding their broken nations before any<$FFFC>of Gizarof's research.<$FFFE>
+# spk: Lambda
+12	<$FB00><$004F>Found it.<$FFFE>
+# spk: Sigma
+13	<$FB00><$0050>You found it？<$FFFE>
+# spk: Lambda
+14	<$FB00><$0051>This is the crystal that records<$FFFC>the master's research results. This is the<$FFFC>only thing that seems tied to the Sage's<$FFFC>Crystal.<$FFFE>
+# spk: Brenda
+15	<$FB00><$0052>"In my pursuit of immortality, I<$FFFC>leave this behind against any<$FFFC>eventuality," is it.<$FFFE>
+# spk: Alfred
+16	<$FB00><$0053>Do you know how to use it？<$FFFE>
+# spk: Lambda
+17	<$FB00><$0054>I'll give it a try.<$FFFE>
+# spk: Gizarof
+18	<$FB00><$0055>The Sage's Crystal is two<$FFFC>blades, the holy sword Langrisser and the<$FFFC>demon sword Alhazard, fused into one.<$FFFD><$FB00><$0056>This crystal was born centuries ago, east<$FFFC>of here, on the continent of El Sallia.<$FFFC>But some thirty years past, the dark god<$FFFC>Gendrasil carried it here to Yeless.<$FFFD><$FB00><$0057>Now it is in my hands. Yet the me of now<$FFFC>cannot return the crystal to its blade<$FFFC>form. As my research advances, in<$FFFC>time<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+# spk: Gizarof
+19	…<$FE32>…<$FE3C>…<$FE46>…<$FE50>…<$FE5A>.<$FFFE>
+# spk: Lambda
+20	<$FFF8>…<$FE3C>…<$FE28><$FFF6><$FB00><$0058>The magic is growing unstable.<$FFFE>
+# spk: Gizarof
+21	<$FB00><$0059>Now, into the Sigma and Omega I<$FFFC>made, I built a certain contrivance. Both,<$FFFC>by equipping Langrisser, draw out the<$FFFC>power given to them to the fullest.<$FFFE>
+# spk: Gizarof
+22	<$FB00><$005A>That power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46>.<$FFFE>
+# spk: Sigma
+23	<$FB00><$005B>That power is what？ Lambda！<$FFFE>
+# spk: Lambda
+24	<$FFF8>…<$FB00><$005C>Quiet, I'm adjusting it<$FFFC>now<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+# spk: Gizarof
+25	…<$FE32>…<$FE32>…<$FE32>…<$FE32>……<$FB00><$005D>Results from the<$FFFC>prototype Sigma have come in. By these, it<$FFFC>seems Sigma can invoke his ability only<$FFFC>once.<$FFFD><$FB00><$005E>The cause is the fierce drain on his life<$FFFC>energy. A second use would exhaust his<$FFFC>life force, and he would die.<$FFFE>
+# spk: Gizarof
+26	<$FB00><$005F>The experiment for the finished<$FFFC>type that overcomes this flaw, I entrust<$FFFC>to one I can trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Lambda
+27	<$FFF8>…<$FFF6><$FB00><$0060>Kh, there it is again<$FFF5><$FFF8>…….<$FFFE>
+# spk: Gizarof
+28	…<$FE32>…<$FE32>…<$FE1E>………<$FB00><$0061>The experiment<$FFFC>succeeded, and Omega was made able to use<$FFFC>it multiple times.<$FFFD><$FB00><$0062>Further, even without Langrisser, Omega<$FFFC>can draw out that power to a degree.<$FFFE>
+# spk: Gizarof
+29	<$FB00><$0063>In any case, when they awaken,<$FFFC>it means mighty soldiers will stand ready<$FFFC>in my hands. Until then, together with<$FFFC>Kruger, I must<$FE3C>…<$FE32>…<$FE28>seize control<$FFF5>…<$FE3C>…<$FE3C>.<$FFFE>
+# spk: Lambda
+30	<$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0064>No good. It can't be restored<$FFFC>any further.<$FFFE>
+# spk: Alfred
+31	<$FB00><$0065>What in the world was that？ The<$FFFC>middle seems to have dropped out.<$FFFE>
+# spk: Sigma
+32	<$FB00><$0066>What happens if I hold<$FFFC>Langrisser？ What is this power that can be<$FFFC>used only once？<$FFFE>
+# spk: Brenda
+33	<$FB00><$0067>Isn't it simple？ Just find<$FFFC>Langrisser and try holding it.<$FFFE>
+# spk: Sigma
+34	<$FB00><$0068>But the woman mage who held that<$FFFC>sword<$FFF5><$FFF8>…….<$FFFE>
+# spk: Brenda
+35	<$FB00><$0069>I got word from my subordinate<$FFFC>just now. The woman is in the Kingdom of<$FFFC>Caconsis, at Fizzit Port.<$FFFD><$FB00><$006A>Ocean ships don't leave all that often,<$FFFC>so if we hurry we may make it in time.<$FFFE>
+# spk: Sigma
+36	<$FB00><$006B>Good. Let's set out at once.<$FFFE>

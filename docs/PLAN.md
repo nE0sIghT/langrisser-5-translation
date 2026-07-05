@@ -169,6 +169,7 @@ A scenario is complete only when:
 | Bios 130 | No | No | No | No | No |
 | SYSTEM/UI | Yes | Yes | Yes | Yes | Yes |
 | Title credits | Yes | N/A | Yes | Yes | Yes |
+| Epilogue chunks 124-126 | Yes | Yes | Yes | Yes | Yes |
 | Virash narration | No | No | No | No | No |
 
 ## Final Gate

@@ -1,0 +1,23 @@
+# file=SCEN.DAT chunk=126 chunk_start=0x15F5800
+# block_base=0x15D0 block_size=0x019C records=14
+1	Sigma<$FFFF>
+2	Mariandel<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Goldry<$FFFF>
+# spk: Goldry
+8	You'll pay for this！！<$FFFE>
+# spk: Sigma
+9	The sparks are terrible.<$FFFE>
+# spk: Alfred
+10	Still, what an awful thing to do,<$FFFC>setting the place ablaze out of nowhere！<$FFFE>
+# spk: Clarett
+11	I absolutely hate that man！<$FFFE>
+# spk: Brenda
+12	Even so, the other customers seem<$FFFC>to have gotten out safely, so that's a<$FFFC>relief for now.<$FFFE>
+# spk: Mariandel
+13	We've wasted quite a lot of<$FFFC>time. I think we'd best hurry along soon.<$FFFE>
+# spk: Sigma
+14	Right！ Let's go, everyone！<$FFFE><$FFFF>

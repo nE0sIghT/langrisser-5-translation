@@ -1,0 +1,81 @@
+# file=SCEN.DAT chunk=125 chunk_start=0x15CE000
+# block_base=0x4188 block_size=0x097C records=45
+1	Sigma<$FFFF>
+2	Lambda<$FFFF>
+3	Clarett<$FFFF>
+4	Alfred<$FFFF>
+5	Brenda<$FFFF>
+6	Lanford<$FFFF>
+7	Estor<$FFFF>
+8	Eric<$FFFF>
+9	At the Temple of Estor<$FFFF>
+# spk: Estor
+10	<$FFF8>…<$FFF6><$FB00><$007B>I am indeed impressed by your<$FFFC>ideals.<$FFFE>
+# spk: Clarett
+11	<$FB00><$007C>Then you will lend us your aid.<$FFFE>
+# spk: Estor
+12	<$FB00><$007D>However, that and this are<$FFFC>separate matters. We cannot cooperate with<$FFFC>a revolution.<$FFFE>
+# spk: Eric
+13	<$FB00><$007E>Why not？ Is it the will of the<$FFFC>Goddess Lushiris？<$FFFE>
+# spk: Estor
+14	<$FFFA><$FB00><$007F>N-no, that is not it<$FFF5><$FFF8>…….<$FFFE>
+# spk: Clarett
+15	<$FB00><$0080>Then let us hear your reason,<$FFFC>Your Grace.<$FFFE>
+# spk: Estor
+16	<$FB00><$0081>There is no certainty the<$FFFC>revolution will succeed. Should it fail,<$FFFC>what becomes of this temple's standing？<$FFFE>
+# spk: Clarett
+17	<$FB00><$0082>But if you cooperate and we win<$FFFC>the people to our side, the revolution<$FFFC>will succeed！<$FFFE>
+# spk: Estor
+18	<$FB00><$0083>I-in any case, we cannot make an<$FFFC>enemy of Lord Gilmore！<$FFFE>
+# spk: Eric
+19	<$FB00><$0084>No<$FFF5><$FFF8>…….<$FFFE>
+# spk: Estor
+20	<$FB00><$0085>Please, take your leave. May the<$FFFC>protection of Lady Lushiris be upon you.<$FFFE>
+# spk: Alfred
+21	<$FB00><$0086>Looks like it was no good<$FFF5><$FFF8>…….<$FFFE>
+# spk: Clarett
+22	<$FB00><$0087>Honestly, what could have<$FFFC>happened？ He was not a man to say such<$FFFC>things.<$FFFE>
+# spk: Sigma
+23	<$FB00><$0088>I watched from here, and he seemed<$FFFC>frightened of something. Could there be a<$FFFC>reason？<$FFFE>
+# spk: Brenda
+24	<$FB00><$0089>Looks like it's my turn again.<$FFFE>
+# spk: Alfred
+25	<$FB00><$008A>What will you do？<$FFFE>
+# spk: Brenda
+26	<$FB00><$008B>I'm a mercenary, you know？ Of<$FFFC>course I've been to this continent a few<$FFFC>times. I'll follow the ties I made then<$FFFC>and dig up some information.<$FFFE>
+# spk: Sigma
+27	<$FB00><$008C>Can you really do that？<$FFFE>
+# spk: Brenda
+28	<$FB00><$008D>Don't go underestimating a<$FFFC>mercenary's information network.<$FFFD><$FB00><$008E>Sure, it loses to a thief's network, but<$FFFC>we make our living off strife. If there's<$FFFC>something behind this affair, some<$FFFC>information is bound to turn up.<$FFFD><$FB00><$008F>Well then, once I get back to the airship<$FFFC>and pack up, I'll head out right away.<$FFFE>
+# spk: Clarett
+29	<$FB00><$0090>Having Brenda with us is a real<$FFFC>help.<$FFFE>
+# spk: Lambda
+30	<$FB00><$0091>An ancient airship, a mercenary<$FFFC>network… just what is she？<$FFFE>
+# spk: Eric
+31	<$FB00><$0092>Indeed. It all feels a little too<$FFFC>well arranged.<$FFFE>
+# spk: Alfred
+32	<$FB00><$0093>There certainly is something<$FFFC>suspicious about it.<$FFFE>
+# spk: Clarett
+33	<$FB00><$0094>As I said before, I think she's<$FFFC>a good person. The fact that she's helped<$FFFC>us is undeniable.<$FFFE>
+# spk: Lambda
+34	<$FB00><$0095>What do you think？<$FFFE>
+# spk: Sigma
+35	<$FB00><$0096>I<$FFF5><$FFF8>…….<$FFFE>
+36	・I think she's a good person.<$FFFE>
+37	・I think she's suspicious.<$FFFE>
+# spk: Sigma
+38	・She doesn't look like a good person.<$FFFE>
+# spk: Clarett
+39	<$FB00><$0097>Right, right！ It's wrong to<$FFFC>doubt a comrade！<$FFFE>
+# spk: Clarett
+40	<$FFF8>……<$FFFE>
+# spk: Lambda
+41	<$FB00><$0098>What could her aim be？<$FFFE>
+# spk: Clarett
+42	<$FFF8>…<$FFF6><$FB00><$0099>But she always helps us<$FFF5><$FFF8>…….<$FFFE>
+# spk: Brenda
+43	<$FB00><$009A>Now then, that's that. I'll be<$FFFC>off, then. I'll be back with some<$FFFC>information by tomorrow midday.<$FFFD><$FB00><$009B>Just in case, I've shut down the magitek<$FFFC>reactor, so please keep watch over the<$FFFC>airship.<$FFFE>
+# spk: Alfred
+44	<$FB00><$009C>Why did you shut down the<$FFFC>airship's reactor？<$FFFE>
+# spk: Brenda
+45	<$FB00><$009D>It's tricky to handle. If it were<$FFFC>to run wild, things would get ugly.<$FFFD><$FB00><$009E>Well then, I'm off.<$FFFE>
