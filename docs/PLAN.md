@@ -161,7 +161,7 @@ A scenario is complete only when:
 | Scenario 35 | Yes | Yes | Yes | Yes | Yes |
 | Scenario 36 | Yes | Yes | Yes | Yes | Yes |
 | Optional scenario 38 | Yes | Yes | Yes | Yes | Yes |
-| Optional scenario 39 | No | No | No | No | No |
+| Optional scenario 39 | Yes | Yes | Yes | Yes | Yes |
 | Optional scenario 40 | No | No | No | No | No |
 | Optional scenario 41 | No | No | No | No | No |
 | Optional scenario 42 | No | No | No | No | No |
