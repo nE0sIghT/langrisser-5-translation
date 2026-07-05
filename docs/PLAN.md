@@ -163,7 +163,7 @@ A scenario is complete only when:
 | Optional scenario 38 | Yes | Yes | Yes | Yes | Yes |
 | Optional scenario 39 | Yes | Yes | Yes | Yes | Yes |
 | Optional scenario 40 | Yes | Yes | Yes | Yes | Yes |
-| Optional scenario 41 | No | No | No | No | No |
+| Optional scenario 41 | Yes | Yes | Yes | Yes | Yes |
 | Optional scenario 42 | No | No | No | No | No |
 | Recap 129 | No | No | No | No | No |
 | Bios 130 | No | No | No | No | No |
