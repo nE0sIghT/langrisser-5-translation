@@ -102,59 +102,37 @@ def font_has(font: ImageFont.FreeTypeFont, ch: str) -> bool:
     return mask_bytes(ch) != mask_bytes("\U000E0000")
 
 
-WIDE_CAPS_FONT = "data/fonts/PixelMplus12-Regular.ttf"
-_wide_caps_font: list[ImageFont.FreeTypeFont] = []
-
-
-def render_wide_capital(ch: str) -> Image.Image:
-    """Render a single capital as a fullwidth glyph filling the cell.
+def render_wide_capital(ch: str, fonts: list[ImageFont.FreeTypeFont]) -> Image.Image:
+    """Render a single capital wide by doubling the primary font's glyph.
 
     An unpaired capital drawn at half width floats in the 12px cell, so
-    all-caps words (machine lines, arcade splashes) look starved. The
-    fullwidth PixelMplus forms match the native JP glyph weight instead.
-    Latin capitals map to their fullwidth compatibility forms; ink wider
-    than 11px (Щ) loses its emptiest interior column to keep the right
-    guard column blank.
+    all-caps words (machine lines, arcade splashes) look starved. A 2x
+    horizontal stretch of the primary (Terminus) capital keeps the exact
+    letterforms of the running text at double stroke weight, filling
+    10-11px of the cell like the native JP glyphs. The vertical placement
+    is the normal single-glyph baseline, so caps stay on the native cap
+    line and Ё keeps its diaeresis.
     """
-    if not _wide_caps_font:
-        _wide_caps_font.append(ImageFont.truetype(WIDE_CAPS_FONT, size=12))
-    font = _wide_caps_font[0]
-    draw_ch = chr(0xFF21 + ord(ch) - 0x41) if "A" <= ch <= "Z" else ch
-    canvas = Image.new("L", (GLYPH_W * 2, GLYPH_H * 2), 255)
+    font = next((f for f in fonts if font_has(f, ch)), fonts[0])
+    canvas = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     d = ImageDraw.Draw(canvas)
-    d.text((2, 2), draw_ch, font=font, fill=0)
+    ascent, _descent = font.getmetrics()
+    bbox = d.textbbox((0, 0), ch, font=font)
+    d.text((0 - bbox[0], BASELINE_ROW - ascent), ch, font=font, fill=0)
     canvas = canvas.point(lambda v: 0 if v < 140 else 255)
     px = canvas.load()
-    ink = [(x, y) for x in range(GLYPH_W * 2) for y in range(GLYPH_H * 2)
+    ink = [(x, y) for x in range(GLYPH_W) for y in range(GLYPH_H)
            if px[x, y] == 0]
     img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     if not ink:
         return img
     x0 = min(x for x, _ in ink)
-    x1 = max(x for x, _ in ink)
-    y0 = min(y for _, y in ink)
-    y1 = max(y for _, y in ink)
-    inkset = set(ink)
-    grid = [[(x, y) in inkset for x in range(x0, x1 + 1)]
-            for y in range(y0, y1 + 1)]
-    # Squeeze to the cell: past 11px of width drop the second-to-last
-    # column (trims a bar end but keeps serif gaps and the descender
-    # tail); past 10px of height drop the emptiest interior row (Ё's
-    # diaeresis must survive above the cap line).
-    while len(grid[0]) > GLYPH_W - 1:
-        drop = len(grid[0]) - 2
-        grid = [row[:drop] + row[drop + 1:] for row in grid]
-    while len(grid) > 10:
-        drop = min(range(1, len(grid) - 1),
-                   key=lambda r: sum(grid[r]))
-        grid.pop(drop)
     out = img.load()
-    # Native capitals rest their ink bottom on row 9.
-    top = 9 - (len(grid) - 1)
-    for ry, row in enumerate(grid):
-        for cx, on in enumerate(row):
-            if on and 0 <= top + ry < GLYPH_H:
-                out[cx, top + ry] = 0
+    for x, y in ink:
+        for dx in (0, 1):
+            nx = (x - x0) * 2 + dx
+            if nx < GLYPH_W - 1:  # keep the right guard column blank
+                out[nx, y] = 0
     return img
 
 
@@ -168,7 +146,7 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
     single capitals render fullwidth (see render_wide_capital).
     """
     if len(text) == 1 and text.isalpha() and text.isupper():
-        wide = render_wide_capital(text)
+        wide = render_wide_capital(text, fonts)
         wpx = wide.load()
         out = bytearray(GLYPH_BYTES)
         for i in range(GLYPH_W * GLYPH_H):
