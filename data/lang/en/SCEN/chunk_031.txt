@@ -40,7 +40,7 @@
 # spk: Soldier
 27	<$FB00><$004D>What！<$FFF5> <$FB00><$004E>Enemies, in a place like<$FFFC>this？<$FFFE>
 # spk: Guardian
-28	<$FB00><$004F>NOW ENTERING INTERCEPT<$FFFC>MODE！<$FFFE>
+28	<$FB00><$004F>NOW ENTERING<$FFFC>INTERCEPT MODE！<$FFFE>
 # spk: Soldier
 29	<$FB00><$0050>Get word to Lord Aizel！<$FFF5> <$FB00><$0051>Hold<$FFFC>this place no matter what！<$FFFE>
 # spk: Brenda

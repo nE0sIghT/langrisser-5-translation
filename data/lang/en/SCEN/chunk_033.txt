@@ -95,11 +95,11 @@
 # spk: Engineer
 54	<$FB00><$0037>From now, continuous<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>set.<$FFFE>
 # spk: Device
-55	<$FB00><$0039>ERROR. WITH REMAINING<$FFFC>ENERGY, 68 HOURS MAXIMUM.<$FFFE>
+55	<$FB00><$0039>ERROR. WITH<$FFFC>REMAINING ENERGY, 68<$FFFC>HOURS MAXIMUM.<$FFFE>
 # spk: Engineer
 56	<$FB00><$003A>Then 68 hours.<$FFFE>
 # spk: Device
-57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER CONTROL.<$FFFE>
+57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER<$FFFC>CONTROL.<$FFFE>
 # spk: Engineer
 58	<$FB00><$003C>Right, it's working！ Clouds<$FFFC>should form right away.<$FFFE>
 # spk: Sigma

@@ -214,6 +214,21 @@ class Codec:
             i = j
         return out
 
+    @staticmethod
+    def _caps_run_len(text: str, i: int) -> int:
+        """Length of the maximal uppercase-letter run containing text[i]."""
+        def caps(ch: str) -> bool:
+            return ch.isalpha() and ch.isupper()
+        if not caps(text[i]):
+            return 0
+        a = i
+        while a > 0 and caps(text[a - 1]):
+            a -= 1
+        b = i
+        while b + 1 < len(text) and caps(text[b + 1]):
+            b += 1
+        return b - a + 1
+
     def _encode_plain(self, text: str, base_pos: int) -> list[int]:
         n = len(text)
         # dp[i] = (token_count, visual_penalty, token_list)
@@ -224,6 +239,13 @@ class Codec:
             for width in (2, 1):
                 piece = text[i : i + width]
                 if len(piece) != width:
+                    continue
+                # An all-caps word of three or more letters renders as
+                # uniform fullwidth singles; pairing part of it (e.g. a
+                # menu pair like НА inside ВНИМАНИЕ) would make it lumpy.
+                # Two-letter caps runs (АТ, DF, ДА...) still pack as pairs.
+                if (width == 2 and piece.isalpha() and piece.isupper()
+                        and self._caps_run_len(text, i) >= 3):
                     continue
                 tok = self.char2tok.get(piece)
                 tail = dp[i + width]
