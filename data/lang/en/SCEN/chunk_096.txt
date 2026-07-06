@@ -12,7 +12,7 @@
 # spk: Jessica
 9	<$FB00><$0087>You saved us again. But why did<$FFFC>you come here<$FFF5><$FFF8>…？<$FFFE>
 # spk: Brenda
-10	<$FB00><$0088>We heard a lot from the man<$FFFC>chasing you. He's her brother, McClaine or<$FFFC>something.<$FFFE>
+10	<$FB00><$0088>We heard a lot from the man<$FFFC>chasing you. He's her brother, McClaine<$FFFC>or something.<$FFFE>
 # spk: Jessica
 11	<$FB00><$0089>McClaine？ <$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$008A>I see. You are<$FFFC>McClaine's sister.<$FFFE>
 # spk: Lambda

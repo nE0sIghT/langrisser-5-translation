@@ -22,7 +22,7 @@
 14	・NORMAL<$FFFE>
 15	・HARD<$FFFE>
 # spk: Operator
-16	<$FFF4>HARD <$FFF3>makes experience harder to<$FFFC>earn, and enemies are stronger. Confirm？<$FFFE>
+16	<$FFF4>HARD <$FFF3>makes experience harder<$FFFC>to earn, and enemies are stronger.<$FFFC>Confirm？<$FFFE>
 # spk: (no plate)
 17	<$FFFA>∑066, virtual battle program launched.<$FFFC>Please prepare for input.<$FFFE>
 # spk: (no plate)

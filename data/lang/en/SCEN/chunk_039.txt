@@ -209,7 +209,7 @@
 # spk: Lambda
 113	Words overflow from deep in my<$FFFC>heart… So this is…<$FFF4>KARAOKE<$FFF3>…<$FFFE>
 # spk: Alfred
-114	Song goes on… ♪BRAKE<$0000>FOR<$0000>ALL<$FFFC><$0000>we can change<$0000>everything～♪<$FFFE>
+114	Song goes on…<$FFFC>♪BRAKE<$0000>FOR<$0000>ALL <$0000>we can<$FFFC>change<$0000>everything～♪<$FFFE>
 # spk: Sigma
 115	Alfred. That song is way too cool.<$FFFC>It's wasted on a kid like you.<$FFFE>
 # spk: Alfred
@@ -253,7 +253,7 @@
 # spk: Alfred
 135	Believe it or not, I've taken<$FFFC>singing lessons！ Please feel my song with<$FFFC>your heart！<$FFFE>
 # spk: Alfred
-136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break through this<$FFFC>night～and run～♪ BRAKE<$0000>THE<$0000>SUN no<$FFFC>one looks back～♪<$FFFE>
+136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break<$FFFC>through this night～and run～♪<$FFFC>BRAKE<$0000>THE<$0000>SUN no one looks<$FFFC>back～♪<$FFFE>
 # spk: Alfred
 137	Huh？ But I've already sung…<$FFFE>
 # spk: Brenda

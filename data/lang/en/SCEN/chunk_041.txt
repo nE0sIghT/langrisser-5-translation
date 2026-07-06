@@ -119,7 +119,7 @@
 # spk: Clarett
 67	Hmm, I wonder if this is any<$FFFC>good. What should I do<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6>nah, I'll pass！<$FFFE>
 # spk: (no plate)
-68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class 3-7<$0000>CANDY<$FFFE>
+68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
 # spk: Mariandel
 69	What's wrong？ did you find the<$FFFC>treasure？<$FFFE>
 # spk: Sigema
@@ -408,7 +408,7 @@
 # spk: Lanford
 227	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Sigema
-228	NOOOOO！ what are you doing, little<$FFFC>girl！<$FFFE>
+228	NOOOOO！ what are you doing,<$FFFC>little girl！<$FFFE>
 # spk: Alfred
 229	NOOOOO！ that hurts, des！<$FFFE>
 # spk: Lanford
@@ -436,7 +436,7 @@
 # spk: Lanford
 241	Why are you getting in my way,<$FFFC>des～！！<$FFFE>
 # spk: Sigema
-242	NOOOOO！ what are you doing, little<$FFFC>girl！<$FFFE>
+242	NOOOOO！ what are you doing,<$FFFC>little girl！<$FFFE>
 # spk: Alfred
 243	NOOOOO！ that hurts, des！<$FFFE>
 # spk: Lanford

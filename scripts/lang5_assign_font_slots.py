@@ -188,7 +188,10 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
                 body = raw.split("\t", 1)[1].replace(FORCE_PAGE_BREAK, "<$FFFD>")
-                script_texts.append(TAG_RE.sub("", body))
+                # The codec never forms a pair across a control tag, so
+                # tags must break pair candidates too; joining the halves
+                # would demand phantom pairs like ",п" from line breaks.
+                script_texts.append(TAG_RE.sub(" ", body))
     menu_texts: list[str] = []
     for mp in menu_maps:
         if mp.exists():
@@ -253,6 +256,13 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
         set(existing_units or ()) | set(menu_pairs),
         script_pairs,
     )
+    # An all-caps dialog word with no pairs renders uniformly (every
+    # letter fullwidth), which reads fine; holes appear only when it is
+    # partially paired. So dialog caps-caps pairs are not demanded at
+    # all, freeing their slots for lowercase word pairs. Menu labels
+    # keep theirs: menu widths depend on packing.
+    for p in [p for p in continuity if len(p) == 2 and p[0].isupper() and p[1].isupper()]:
+        del continuity[p]
     # Boost so even a once-used boundary outranks rare in-word pairs: a
     # split like "кое ‑как" reads worse than one thin letter elsewhere.
     for p, c in script_hyphens.items():
@@ -387,11 +397,15 @@ def main() -> None:
     )
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]
+    # Word integrity outranks spacing cosmetics: a missing word pair is a
+    # visible hole inside a word, while a missing spacing pair only makes
+    # a letter+space half a cell wider. So dialog word pairs (continuity,
+    # then remaining word pairs) take slots before letter+space pairs.
     optional = [p for p, _ in continuity.most_common()
                 if p not in existing and p not in must]
-    optional += [p for p, _ in spacing_pairs.most_common()
-                 if p not in existing and p not in must and p not in optional]
     optional += [p for p, _ in script_pairs.most_common()
+                 if p not in existing and p not in must and p not in optional]
+    optional += [p for p, _ in spacing_pairs.most_common()
                  if p not in existing and p not in must and p not in optional]
 
     # A pair tile only exists if both halves fit the five-pixel half-cell
