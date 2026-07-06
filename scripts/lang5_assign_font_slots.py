@@ -202,7 +202,8 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
     for pair in forced_pairs or []:
         menu_pairs[pair] += 1_000_000
 
-    def collect_spacing(text: str, target: collections.Counter) -> None:
+    def collect_spacing(text: str, target: collections.Counter,
+                        hyphen_target: collections.Counter | None = None) -> None:
         target.update(
             " " + match.group(1)
             for match in SPACE_LETTER_RE.finditer(text)
@@ -220,13 +221,18 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
             for match in LETTER_COLON_RE.finditer(text)
         )
         for match in HYPHENATED_WORD_RE.finditer(text):
-            target.update(hyphen_boundary_pairs(match.group(0)))
+            (hyphen_target if hyphen_target is not None
+             else target).update(hyphen_boundary_pairs(match.group(0)))
 
+    # A missing boundary pair leaves a mid-word hole ("Наконец ‑то"), the
+    # same artifact continuity pairs exist to prevent, so dialog hyphen
+    # pairs rank with continuity instead of the cosmetic spacing tier.
+    script_hyphens: collections.Counter = collections.Counter()
     for t in script_texts:
         for ch in t:
             if ch.islower() or ch in SINGLE_PUNCTUATION:
                 singles.add(ch)
-        collect_spacing(t, spacing_pairs)
+        collect_spacing(t, spacing_pairs, script_hyphens)
     for t in menu_texts:
         for ch in t:
             if ch.islower() or ch in SINGLE_PUNCTUATION:
@@ -247,6 +253,10 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
         set(existing_units or ()) | set(menu_pairs),
         script_pairs,
     )
+    # Boost so even a once-used boundary outranks rare in-word pairs: a
+    # split like "кое ‑как" reads worse than one thin letter elsewhere.
+    for p, c in script_hyphens.items():
+        continuity[p] += c + 4
     return singles, menu_pairs, spacing_pairs, continuity, script_pairs
 
 
