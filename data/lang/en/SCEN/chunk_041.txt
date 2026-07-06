@@ -39,7 +39,7 @@
 # spk: Sigema
 27	You fool～！ Sweat is the true<$FFFC>status of a real man！ How dare you call it<$FFFC>a stink！<$FFFE>
 # spk: Alfred
-28	W-why are you coming out from<$FFFC>over there, des？<$FFFE>
+28	W-why are you coming out from over<$FFFC>there, des？<$FFFE>
 # spk: Lanford
 29	The earth was round, des…<$FFFE>
 # spk: Sigema
@@ -51,7 +51,7 @@
 # spk: Helper
 33	Eh！ They haven't arrived yet？<$FFFD>Maybe they got lost<$FFF8>…<$FFFE>
 # spk: Lanford
-34	B-Bro！ Who in the world is<$FFFC>this girl, des？<$FFFE>
+34	B-Bro！ Who in the world is this<$FFFC>girl, des？<$FFFE>
 # spk: Sigema
 35	A part-timer I hired to make this<$FFFC>operation succeed. I've asked her to<$FFFC>defeat anyone who gets in our way.<$FFFE>
 # spk: Alfred
@@ -119,7 +119,7 @@
 # spk: Clarett
 67	Hmm, I wonder if this is any<$FFFC>good. What should I do<$FFF8>…<$FE14>…<$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6>nah, I'll pass！<$FFFE>
 # spk: (no plate)
-68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class<$FFFC>3-7<$0000>CANDY<$FFFE>
+68	Something is written on the pedestal.<$FFFD><$0000>Big Bro <$0000><$0000><$0000><$0000><$0000><$0000>Class 3-7<$0000>CANDY<$FFFE>
 # spk: Mariandel
 69	What's wrong？ did you find the<$FFFC>treasure？<$FFFE>
 # spk: Sigema
@@ -346,7 +346,7 @@
 # spk: Mariandel
 196	One Uminin Attacker, please.<$FFFE>
 # spk: Mariandel
-197	One High-Speed Uminin,<$FFFC>please.<$FFFE>
+197	One High-Speed Uminin, please.<$FFFE>
 # spk: Mariandel
 198	Too bad, but I'm out of money.<$FFFC>Uminin another time, then.<$FFFE>
 # spk: Mariandel
@@ -490,7 +490,7 @@
 # spk: (location/crowd)
 268	With this, recruitment is a<$FFFC>great success, des！ now, let's go<$FFFC>celebrate！<$FFFE>
 # spk: Sigma
-269	T-this wasn't supposed to<$FFFC>happen<$FFF8>…<$FFFE>
+269	T-this wasn't supposed to happen<$FFF8>…<$FFFE>
 # spk: Sigma
 270	Now we've beaten all the<$FFFC>impostors！<$FFFE>
 # spk: (location/crowd)

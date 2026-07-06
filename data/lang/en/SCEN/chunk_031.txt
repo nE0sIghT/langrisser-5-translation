@@ -24,7 +24,7 @@
 # spk: Mariandel
 19	<$FB00><$0044>So it seems.<$FFFE>
 # spk: Alfred
-20	<$FB00><$0045>But a sturdy-looking door is<$FFFC>shut, you see？<$FFFE>
+20	<$FB00><$0045>But a sturdy-looking door is shut,<$FFFC>you see？<$FFFE>
 # spk: Brenda
 21	<$FB00><$0046>There should be a device somewhere<$FFFC>to open the door.<$FFFE>
 # spk: Clarett
@@ -40,7 +40,7 @@
 # spk: Soldier
 27	<$FB00><$004D>What！<$FFF5> <$FB00><$004E>Enemies, in a place like<$FFFC>this？<$FFFE>
 # spk: Guardian
-28	<$FB00><$004F>NOW ENTERING<$FFFC>INTERCEPT MODE！<$FFFE>
+28	<$FB00><$004F>NOW ENTERING INTERCEPT MODE！<$FFFE>
 # spk: Soldier
 29	<$FB00><$0050>Get word to Lord Aizel！<$FFF5> <$FB00><$0051>Hold<$FFFC>this place no matter what！<$FFFE>
 # spk: Brenda

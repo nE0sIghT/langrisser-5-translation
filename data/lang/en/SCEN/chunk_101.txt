@@ -113,7 +113,7 @@
 # spk: Clarett
 63	<$FB00><$0082>But if you help us and bring the<$FFFC>people to our side, it will succeed！<$FFFE>
 # spk: Estor
-64	<$FB00><$0083>I-in any case, we cannot make<$FFFC>Lord Gilmore our enemy！<$FFFE>
+64	<$FB00><$0083>I-in any case, we cannot make Lord<$FFFC>Gilmore our enemy！<$FFFE>
 # spk: Eric
 65	<$FB00><$0084>No<$FFF5><$FFF8>…<$FFFE>
 # spk: Estor

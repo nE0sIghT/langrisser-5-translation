@@ -16,7 +16,8 @@ import struct
 from pathlib import Path
 
 from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
-from lang5_scen import consumes_argument, find_text_block, read_chunk_spans, words_from_bytes
+from lang5_scen import (FORCE_PAGE_BREAK, consumes_argument, find_text_block,
+                        read_chunk_spans, words_from_bytes)
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 WORD_RE = re.compile(r"[\w'.,]+", re.UNICODE)
@@ -186,7 +187,8 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
     for fp in sorted(translation_root.glob("*/chunk_*.txt")):
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
-                script_texts.append(TAG_RE.sub("", raw.split("\t", 1)[1]))
+                body = raw.split("\t", 1)[1].replace(FORCE_PAGE_BREAK, "<$FFFD>")
+                script_texts.append(TAG_RE.sub("", body))
     menu_texts: list[str] = []
     for mp in menu_maps:
         if mp.exists():
@@ -261,7 +263,8 @@ def decode_run_key(words: list[int], tok2char: dict[int, str]) -> str:
 
 
 def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
-                     other_files: list[Path], translated_keys: set[str]) -> list[int]:
+                     other_files: list[Path], translated_keys: set[str],
+                     translated_chunks: set[int]) -> list[int]:
     tok2char: dict[int, str] = {}
     rows = list(csv.DictReader(open(groups_report, encoding="utf-8")))
     for r in rows:
@@ -269,7 +272,7 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
             tok2char[int(r["index_dec"])] = r["char"]
 
     usage: collections.Counter = collections.Counter()
-    chunk0: set[int] = set()
+    jp_visible: set[int] = set()
     for f in (scen, scen2):
         data = f.read_bytes()
         for ci, (s, e) in enumerate(read_chunk_spans(data)):
@@ -281,8 +284,13 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
                 for w in words_from_bytes(chunk[a:b]):
                     if w < 0xE000 and not (prev is not None and consumes_argument(prev)):
                         usage[w] += 1
-                        if ci == 0:
-                            chunk0.add(w)
+                        # A chunk without a translation file still renders
+                        # its JP glyphs, so its tiles cannot be sacrificed.
+                        # Translated chunks are replaced on insert and stop
+                        # showing JP, mirroring the translated_keys rule for
+                        # UI runs below.
+                        if ci not in translated_chunks:
+                            jp_visible.add(w)
                     prev = w
 
     ui_used: collections.Counter = collections.Counter()
@@ -316,7 +324,7 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
         ch = r["char"]
         if len(ch) != 1 or not (0x4E00 <= ord(ch) <= 0x9FFF):
             continue
-        if idx in chunk0 or idx > 1820:
+        if idx in jp_visible or idx > 1820:
             continue
         if idx in ui_used:
             tier2.append((ui_used[idx] + usage.get(idx, 0), idx))
@@ -376,6 +384,32 @@ def main() -> None:
     optional += [p for p, _ in script_pairs.most_common()
                  if p not in existing and p not in must and p not in optional]
 
+    # A pair tile only exists if both halves fit the five-pixel half-cell
+    # (or have a compact form). Probe the actual renderer so glyphs it
+    # would reject (e.g. wide capitals in all-caps machine lines) fall
+    # back to fullwidth singles instead of failing the font build.
+    import lang5_build_font as bf
+    fonts = bf.pick_fonts(str(lang.font) if lang.font else "", lang.font_size)
+    pair_ok: dict[str, bool] = {}
+
+    def renderable(unit: str) -> bool:
+        if len(unit) != 2:
+            return True
+        if unit not in pair_ok:
+            try:
+                bf.render_tile(unit, fonts)
+                pair_ok[unit] = True
+            except ValueError:
+                pair_ok[unit] = False
+        return pair_ok[unit]
+
+    unrenderable = [p for p in must + optional if not renderable(p)]
+    if unrenderable:
+        print(f"unrenderable pairs fall back to singles: "
+              f"{len(unrenderable)} ({' '.join(unrenderable[:12])}...)")
+        must = [p for p in must if renderable(p)]
+        optional = [p for p in optional if renderable(p)]
+
     taken = set(existing.values())
     # BTLDAT/MRCUSW/SLPS are mostly code/data whose pseudo-runs would
     # inflate the "used in UI" set; real UI strings live in SYSTEM/ALLUS*.
@@ -390,11 +424,16 @@ def main() -> None:
     for mp in maps:
         if mp.exists():
             translated_keys |= map_jp_keys(mp, source_by_id)
+    translated_chunks = {
+        int(m.group(1))
+        for fp in translation_root.glob("*/chunk_*.txt")
+        if (m := re.match(r"chunk_(\d+)$", fp.stem))
+    }
     pool = [i for i in sacrificial_pool(
         groups_report, Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",
                            "work/extracted/ALLUSW.BIN")],
-        translated_keys,
+        translated_keys, translated_chunks,
     ) if i not in taken]
     if len(pool) < len(must):
         raise SystemExit(f"not enough sacrificial slots: need {len(must)}, have {len(pool)}")

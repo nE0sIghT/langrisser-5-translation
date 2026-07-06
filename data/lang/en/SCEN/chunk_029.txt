@@ -27,7 +27,7 @@
 # spk: Lanford
 21	<$FFF8><$FB00><$0046>Hm？<$FFF5> <$FFF6><$FB00><$0047>Is that… McClaine？<$FFFE>
 # spk: Mariandel
-22	<$FB00><$0048>B, brother？ Why are you<$FFFC>here？<$FFFE>
+22	<$FB00><$0048>B, brother？ Why are you here？<$FFFE>
 # spk: McClaine
 23	<$FB00><$004A>Lanford, and Marie too！<$FFFE>
 # spk: Mariandel

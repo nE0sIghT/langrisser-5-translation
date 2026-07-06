@@ -209,7 +209,7 @@
 # spk: Lambda
 113	Words overflow from deep in my<$FFFC>heart… So this is…<$FFF4>KARAOKE<$FFF3>…<$FFFE>
 # spk: Alfred
-114	Song goes on…<$FFFC>♪BRAKE<$0000>FOR<$0000>ALL <$0000>we can<$FFFC>change<$0000>everything～♪<$FFFE>
+114	Song goes on… ♪BRAKE<$0000>FOR<$0000>ALL<$FFFC><$0000>we can change<$0000>everything～♪<$FFFE>
 # spk: Sigma
 115	Alfred. That song is way too cool.<$FFFC>It's wasted on a kid like you.<$FFFE>
 # spk: Alfred
@@ -253,7 +253,7 @@
 # spk: Alfred
 135	Believe it or not, I've taken<$FFFC>singing lessons！ Please feel my song with<$FFFC>your heart！<$FFFE>
 # spk: Alfred
-136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break through<$FFFC>this night～and run～♪<$FFFC>BRAKE<$0000>THE<$0000>SUN no one looks<$FFFC>back～♪<$FFFE>
+136	1, 2, 3…<$FFFD>BRAKE<$0000>THE<$0000>NIGHT break through this<$FFFC>night～and run～♪ BRAKE<$0000>THE<$0000>SUN no<$FFFC>one looks back～♪<$FFFE>
 # spk: Alfred
 137	Huh？ But I've already sung…<$FFFE>
 # spk: Brenda
@@ -431,7 +431,7 @@
 # spk: Folk
 224	Will this be over soon…？<$FFFE>
 # spk: Folk
-225	Ahh～, I seriously wanna go do<$FFFC>karaoke, des！ <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev<$FFFC>team<$FFFE>
+225	Ahh～, I seriously wanna go do<$FFFC>karaoke, des！ <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
 # spk: Folk
 226	The morning sun<$0000>rising in the<$FFFC>eastern sky calls me to journey again<$FFFC>today<$FFFD>sometimes I feel like giving up but<$FFFC>wonderful things happen too<$FFFE>
 # spk: Folk
@@ -441,13 +441,13 @@
 # spk: Sigma
 229	This is bad！ the villagers are<$FFFC>running out of material！<$FFFE>
 # spk: Folk
-230	Ugh, I'm tired… I'd love to soak in<$FFFC>a hot spring… <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev<$FFFC>team<$FFFE>
+230	Ugh, I'm tired… I'd love to soak in<$FFFC>a hot spring… <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
 # spk: Folk
 231	A fragment called a dream each<$FFFC>person carries within we are born<$0000>and<$FFFC>live on, after all so never be swept away<$FFFE>
 # spk: Folk
 232	Yaawn… I'm so sleepy…<$FFFB> don't make<$FFFC>a girl pull an all-nighter.<$FFFC><$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
 # spk: Folk
-233	Ahh～, I seriously wanna go do<$FFFC>karaoke, des！ <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev<$FFFC>team<$FFFE>
+233	Ahh～, I seriously wanna go do<$FFFC>karaoke, des！ <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
 # spk: Folk
 234	The morning sun<$0000>rising in the<$FFFC>eastern sky calls me to journey again<$FFFC>today<$FFFD>sometimes I feel like giving up but<$FFFC>wonderful things happen too<$FFFE>
 # spk: Folk
@@ -457,7 +457,7 @@
 # spk: Sigma
 237	This is bad！ the villagers are<$FFFC>running out of material！<$FFFE>
 # spk: Folk
-238	Ugh, I'm tired… I'd love to soak in<$FFFC>a hot spring… <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev<$FFFC>team<$FFFE>
+238	Ugh, I'm tired… I'd love to soak in<$FFFC>a hot spring… <$0000><$0000><$0000><$0000><$0000><$0000>BY<$0000>the dev team<$FFFE>
 # spk: Folk
 239	A fragment called a dream each<$FFFC>person carries within we are born<$0000>and<$FFFC>live on, after all so never be swept away<$FFFE>
 # spk: Folk

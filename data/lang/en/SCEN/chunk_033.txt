@@ -83,11 +83,11 @@
 # spk: Engineer
 48	<$FB00><$002F>Right, how's this！<$FFFE>
 # spk: Device
-49	<$FB00><$0030>BEGINNING SETUP.<$FFFC>SELECT THE WEATHER.<$FFFE>
+49	<$FB00><$0030>BEGINNING SETUP. SELECT THE<$FFFC>WEATHER.<$FFFE>
 # spk: Engineer
 50	<$FB00><$0031>Weather, heavy overcast<$FFF5><$FFF8>…<$FFF6><$FB00><$0032>set.<$FFFE>
 # spk: Device
-51	<$FB00><$0033>INPUT THE AREA OF<$FFFC>EFFECT.<$FFFE>
+51	<$FB00><$0033>INPUT THE AREA OF EFFECT.<$FFFE>
 # spk: Engineer
 52	<$FB00><$0034>Area, all of Yeless<$FFF5><$FFF8>…<$FFF6><$FB00><$0035>set.<$FFFE>
 # spk: Device
@@ -95,11 +95,11 @@
 # spk: Engineer
 54	<$FB00><$0037>From now, continuous<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>set.<$FFFE>
 # spk: Device
-55	<$FB00><$0039>ERROR. WITH<$FFFC>REMAINING ENERGY, 68<$FFFC>HOURS MAXIMUM.<$FFFE>
+55	<$FB00><$0039>ERROR. WITH REMAINING ENERGY, 68<$FFFC>HOURS MAXIMUM.<$FFFE>
 # spk: Engineer
 56	<$FB00><$003A>Then 68 hours.<$FFFE>
 # spk: Device
-57	<$FB00><$003B>SETUP COMPLETE.<$FFFC>BEGINNING WEATHER CONTROL.<$FFFE>
+57	<$FB00><$003B>SETUP COMPLETE. BEGINNING WEATHER<$FFFC>CONTROL.<$FFFE>
 # spk: Engineer
 58	<$FB00><$003C>Right, it's working！ Clouds<$FFFC>should form right away.<$FFFE>
 # spk: Sigma

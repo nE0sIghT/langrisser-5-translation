@@ -68,7 +68,7 @@
 # spk: Clarett
 40	<$FB00><$0073>Yes, I was a little scared<$FFF5><$FFF8>… <$FFF6><$FB00><$0074>But<$FFFC>I'm all right now.<$FFFE>
 # spk: Clarett
-41	I-I wouldn't taste good<$FFFC>anyway！<$FFFE>
+41	I-I wouldn't taste good anyway！<$FFFE>
 # spk: Sigma
 42	I'll decide whether you taste<$FFFC>good. Stop struggling.<$FFFE>
 # spk: Clarett
@@ -94,7 +94,7 @@
 # spk: Sigma
 53	<$FB00><$00A6>Why not！<$FFFE>
 # spk: Omega
-54	<$FB00><$00A7>If I start the self-destruct,<$FFFC>I've got no way out of here.<$FFF5> <$FB00><$00A8>What if you<$FFFC>and I don't settle this before it blows？<$FFFE>
+54	<$FB00><$00A7>If I start the self-destruct, I've<$FFFC>got no way out of here.<$FFF5> <$FB00><$00A8>What if you and<$FFFC>I don't settle this before it blows？<$FFFE>
 # spk: Sigma
 55	<$FB00><$00A9>Then if you beat me, will you save<$FFFC>the surface？<$FFF5> <$FB00><$00AA>Even at the cost of your<$FFFC>life！<$FFF5> <$FB00><$00AB>Are you ready for that？<$FFFE>
 # spk: Omega

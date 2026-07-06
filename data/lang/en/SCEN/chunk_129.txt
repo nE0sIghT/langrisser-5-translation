@@ -61,7 +61,7 @@
 # spk: (no plate)
 33	<$0000>Stung by those words, Clarett flees the<$FFFC>scene. Standing alone, apart from the<$FFFC>group, Clarett resolves to change herself.<$FFFD>And she conceives of building a new<$FFFC>political system.<$FFFE>
 # spk: (no plate)
-34	<$0000>Lord Lenard, hearing Clarett's vision of<$FFFC>a new people-led system, agrees to aid<$FFFC>her clear goal. Having finally won the<$FFFC>Salrath army's<$FFFD>help, Clarett's group heads for Gaiana<$FFFC>Prison to free the Liberalists imprisoned<$FFFC>for opposing the emperor.<$FFFE>
+34	<$0000>Lord Lenard, hearing Clarett's vision of<$FFFC>a new people-led system, agrees to aid her<$FFFC>clear goal. Having finally won the Salrath<$FFFC>army's<$FFFD>help, Clarett's group heads for Gaiana<$FFFC>Prison to free the Liberalists imprisoned<$FFFC>for opposing the emperor.<$FFFE>
 # spk: (no plate)
 35	<$0000><$FFF4>Federal Kingdom, Regenburg Castle<$FFF3><$FFFC><$FFF4><$FFF4>Yeles Continent<$FFF3><$FFF3> Meanwhile, Marshal<$FFFC>Lanford, hearing of the Three-Country<$FFFC>Alliance's revolt, hastily gathers troops.<$FFFD>Among the rebel allies was Marshal<$FFFC>Lanford's own father…<$FFFE>
 # spk: (no plate)
@@ -151,7 +151,7 @@
 # spk: (no plate)
 78	<$0000><$FFF4><$F600><$0000> and company<$FFF3> <$FFF4>Yeles<$FFFC>Continent<$FFF3><$FFFE>
 # spk: (no plate)
-79	<$0000>Through the diversion of the other four,<$FFFC><$F600><$0000> succeeds in slipping into<$FFFC>the thinly-guarded town of Valtar<$FFFC>together with Marie.<$FFFE>
+79	<$0000>Through the diversion of the other four,<$FFFC><$F600><$0000> succeeds in slipping into<$FFFC>the thinly-guarded town of Valtar together<$FFFC>with Marie.<$FFFE>
 # spk: (no plate)
 80	<$0000>Through the diversion of the other four,<$FFFC><$F600><$0000> slips into the<$FFFC>thinly-guarded town of Valtar together<$FFFC>with Alfred.<$FFFE>
 # spk: (no plate)

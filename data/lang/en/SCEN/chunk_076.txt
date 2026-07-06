@@ -14,7 +14,7 @@
 # spk: Ferakia
 12	<$FB00><$0003>Argh, that I of all people<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$0004>Is this the end<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
 # spk: Soldier
-13	<$FB00><$0005>L, Lord Zero！ Th, this<$FFFC>is<$FFF5><$FFF7>…<$FE14>…<$FE14>！<$FE14> <$FFF6><$FB00><$0006>U, uwaah！<$FFF5><$FFF7><$FFFE>
+13	<$FB00><$0005>L, Lord Zero！ Th, this is<$FFF5><$FFF7>…<$FE14>…<$FE14>！<$FE14><$FFFC><$FFF6><$FB00><$0006>U, uwaah！<$FFF5><$FFF7><$FFFE>
 # spk: Zero
 14	<$FFF8>…<$FE14>…<$FE14><$FB00><$0007>Hm.<$FFF6> It was the right call to<$FFFC>leave Lord Lainforce behind after all.<$FFFE>
 # spk: Zero

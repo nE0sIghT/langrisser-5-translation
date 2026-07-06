@@ -168,7 +168,7 @@
 # spk: Officer
 90	…I won't die！ There's no way<$FFFC>I, of all people, would die… guhah！<$FFFE>
 # spk: Officer
-91	You'll… pay for this….<$FFFC>…Uu….<$FFFE>
+91	You'll… pay for this…. …Uu….<$FFFE>
 # spk: Officer
 92	With my strength….<$FFFE>
 # spk: Clarett

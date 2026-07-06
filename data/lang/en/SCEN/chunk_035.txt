@@ -136,7 +136,7 @@
 # spk: Gaiel
 75	<$FB00><$0034>This！<$FFFD><$FB00><$0035>Move, Pelia！<$FFFE>
 # spk: Control prog.
-76	…<$FB00><$0036>Command accepted. NOW<$FFFC>BEGINNING MOVEMENT<$FFFC>TOWARD CRIMSO.<$FFFE>
+76	…<$FB00><$0036>Command accepted. NOW<$FFFC>BEGINNING MOVEMENT TOWARD CRIMSO.<$FFFE>
 # spk: Mariandel
 77	<$FB00><$0037>Toward Crimzo<$FFF5><$FFF8>…<$FFF6><$FB00><$0038>Don't tell me,<$FFFC>you'll crash the moons together？<$FFFE>
 # spk: Gaiel

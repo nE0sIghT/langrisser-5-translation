@@ -60,6 +60,6 @@
 # spk: Sigma
 34	<$FB00><$0068>But the woman mage who held that<$FFFC>sword<$FFF5><$FFF8>…….<$FFFE>
 # spk: Brenda
-35	<$FB00><$0069>I got word from my subordinate<$FFFC>just now. The woman is in the Kingdom of<$FFFC>Caconsis, at Fizzit Port.<$FFFD><$FB00><$006A>Ocean ships don't leave all that often,<$FFFC>so if we hurry we may make it in time.<$FFFE>
+35	<$FB00><$0069>I got word from my subordinate<$FFFC>just now. The woman is in the Kingdom of<$FFFC>Caconsis, at Fizzit Port.<$FFFD><$FB00><$006A>Ocean ships don't leave all that often, so<$FFFC>if we hurry we may make it in time.<$FFFE>
 # spk: Sigma
 36	<$FB00><$006B>Good. Let's set out at once.<$FFFE>

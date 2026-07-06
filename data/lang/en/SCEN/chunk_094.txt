@@ -88,6 +88,6 @@
 # spk: Sigma
 48	<$FB00><$0068>But the woman mage with that<$FFFC>sword<$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda
-49	<$FB00><$0069>My subordinate just reported in.<$FFFC>She's in Caconsis, at Fizzit Port.<$FFFD><$FB00><$006A>Ocean ships don't sail often. If we<$FFFC>hurry, we may catch her.<$FFFE>
+49	<$FB00><$0069>My subordinate just reported in.<$FFFC>She's in Caconsis, at Fizzit Port.<$FFFD><$FB00><$006A>Ocean ships don't sail often. If we hurry,<$FFFC>we may catch her.<$FFFE>
 # spk: Sigma
 50	<$FB00><$006B>Good. Let's leave at once.<$FFFE><$FFFF>

@@ -196,7 +196,7 @@
 # spk: Brenda
 102	<$FB00><$007F>Hey, Clarett. Will you introduce<$FFFC>him？<$FFFE>
 # spk: Clarett
-103	<$FB00><$0080>Y-yes. This is Eric. My<$FFFC>fiance.<$FFFE>
+103	<$FB00><$0080>Y-yes. This is Eric. My fiance.<$FFFE>
 # spk: Alfred
 104	<$FB00><$0081>Ah, the one you mentioned before？<$FFFC><$FFF5><$FFF8>…<$FFF6><$FB00><$0082>So you really had a fiance<$FFF5><$FFF8>…<$FFFE>
 # spk: Clarett

@@ -77,7 +77,7 @@
 # spk: Reynolds
 48	<$FB00><$0027>You traitors！ How dare you<$FFFC>betray us！<$FFFE>
 # spk: Rochefort
-49	<$FB00><$0028>W-what are you talking<$FFFC>about？ Put away those dangerous weapons！<$FFFE>
+49	<$FB00><$0028>W-what are you talking about？<$FFFC>Put away those dangerous weapons！<$FFFE>
 # spk: Reynolds
 50	<$FB00><$0029>Silence！<$FFF5><$FFF7><$FFFE>
 # spk: Soldier

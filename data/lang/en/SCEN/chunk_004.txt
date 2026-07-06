@@ -128,7 +128,7 @@
 # spk: Alfred
 70	<$FB00><$0077>I knew it…this is all I amount<$FFFC>to…<$FFFE>
 # spk: Town
-71	A-anyway, run for it, get out of<$FFFC>the town！<$FFFE>
+71	A-anyway, run for it, get out of the<$FFFC>town！<$FFFE>
 # spk: (location/crowd)
 72	Move！ Out of the way！<$FFFE>
 # spk: Town
