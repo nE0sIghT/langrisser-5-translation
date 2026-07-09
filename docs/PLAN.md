@@ -291,7 +291,7 @@ A scenario is complete only when:
 | Optional scenario 39 | Done | Artistic pass complete for chunks 083 and 039; no compression debt. |
 | Optional scenario 40 | Done | Artistic pass complete for chunks 084 and 040; no compression debt. |
 | Optional scenario 41 | Done | Artistic pass complete for chunks 085 and 041; JP-leftover punctuation normalized; no compression debt. |
-| Optional scenario 42 | Pending |  |
+| Optional scenario 42 | Done | Artistic pass complete for chunks 086 and 042; JP-leftover punctuation normalized; no compression debt. |
 | Recap 129 | Pending | After optional scenarios. |
 | Bios 130 | Pending | After optional scenarios. |
 | SYSTEM/UI | Pending | Final visible-text polish. |
