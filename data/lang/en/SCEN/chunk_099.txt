@@ -34,7 +34,7 @@
 22	<$FB00><$0073>You really have changed. You're<$FFFC>nothing like before.<$FFFE>
 # spk: Clarett
 23	<$FB00><$0074>Because Brenda scolded me？<$FFFE>
-# spk: Lambda
+# spk: Brenda
 24	<$FB00><$0075>I-I didn't really<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
 25	<$FB00><$0076>Anyway, she wants not only to save<$FFFC>those Gilmore oppressed, but to prevent<$FFFC>future tyrants.<$FFFD><$FB00><$0077>Will you help her？<$FFFE>
