@@ -280,7 +280,7 @@ A scenario is complete only when:
 | Scenario 27 | Done | Artistic pass complete for chunks 071, 027 and 113; no compression debt. |
 | Scenario 28 | Done | Artistic pass complete for chunks 072, 028 and 114; no compression debt. |
 | Scenario 29 | Done | Artistic pass complete for chunks 073, 029 and 115; no compression debt. |
-| Scenario 30 | Pending |  |
+| Scenario 30 | Done | Artistic pass complete for chunks 074, 030 and 116; no compression debt. |
 | Scenario 31 | Pending |  |
 | Scenario 32 | Pending |  |
 | Scenario 33 | Pending |  |
