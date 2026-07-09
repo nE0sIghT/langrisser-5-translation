@@ -287,7 +287,7 @@ A scenario is complete only when:
 | Scenario 34 | Done | Artistic pass complete for chunks 078, 034 and 120; no compression debt. |
 | Scenario 35 | Done | Artistic pass complete for chunks 079, 035 and 121; no compression debt. |
 | Scenario 36 | Done | Artistic pass complete for chunks 080, 036 and 122; JP-leftover punctuation normalized; no compression debt. |
-| Optional scenario 38 | Pending | After main scenarios. |
+| Optional scenario 38 | Done | Artistic pass complete for chunks 082 and 038; JP-leftover punctuation normalized; no compression debt. |
 | Optional scenario 39 | Pending |  |
 | Optional scenario 40 | Pending |  |
 | Optional scenario 41 | Pending |  |
