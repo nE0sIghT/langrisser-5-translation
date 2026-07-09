@@ -272,7 +272,7 @@ A scenario is complete only when:
 | Scenario 19 | Done | Artistic pass complete for chunks 063, 019 and 105; no compression debt. |
 | Scenario 20 | Done | Artistic pass complete for chunks 064, 020 and 106; no compression debt. |
 | Scenario 21 | Done | Artistic pass complete for chunks 065, 021 and 107; no compression debt. |
-| Scenario 22 | Pending |  |
+| Scenario 22 | Done | Artistic pass complete for chunks 066, 022 and 108; no compression debt. |
 | Scenario 23 | Pending |  |
 | Scenario 24 | Pending |  |
 | Scenario 25 | Pending | First known issue: "Палата Бренды" -> "Покои Бренды". |
