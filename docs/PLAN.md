@@ -294,7 +294,7 @@ A scenario is complete only when:
 | Optional scenario 42 | Done | Artistic pass complete for chunks 086 and 042; JP-leftover punctuation normalized; no compression debt. |
 | Recap 129 | Done | Artistic pass complete for world recap chunk 129; no compression debt. |
 | Bios 130 | Done | Artistic pass complete for biography chunk 130; no compression debt. |
-| SYSTEM/UI | Pending | Final visible-text polish. |
+| SYSTEM/UI | Done | Final visible-text polish for visible labels, memory-card text and help strings; no compression debt. |
 | Prologue poem | Pending | Final visible-text polish. |
 | Virash narration | Pending | Final visible-text polish. |
 
