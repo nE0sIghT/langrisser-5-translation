@@ -421,7 +421,7 @@ def main() -> None:
             return True
         if unit not in pair_ok:
             try:
-                bf.render_tile(unit, fonts)
+                bf.render_tile(unit, fonts, caps_fonts=[])
                 pair_ok[unit] = True
             except ValueError:
                 pair_ok[unit] = False

@@ -99,6 +99,9 @@ def main() -> None:
     ]
     if lang.font:
         font_args.extend(["--font", lang.font])
+    if lang.caps_font:
+        font_args.extend(["--caps-font", lang.caps_font,
+                          "--caps-font-size", str(lang.caps_font_size)])
     run(*font_args)
     reflowed_system_strings = f"work/build/system_strings.{suffix}.reflowed.json"
     run(scripts / "lang5_reflow_system_cards.py",

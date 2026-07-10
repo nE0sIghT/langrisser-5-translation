@@ -19,6 +19,8 @@
   "virash_monologue": "virash_monologue.json",
   "font": "../../fonts/terminus-normal.otb",
   "font_size": 12,
+  "caps_font": "../../fonts/ter-u14n.bdf",
+  "caps_font_size": 14,
   "window_width": 21,
   "choice_width": 20,
   "max_lines": 4,

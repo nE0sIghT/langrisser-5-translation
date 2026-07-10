@@ -30,6 +30,11 @@ FONT_CANDIDATES = [
 # row 10 achieves that; descenders get squashed from 3px to 2px, which is
 # the lesser evil.
 BASELINE_ROW = 10
+# Wide caps sit like the native kana/kanji: ink bottom on row 10 (the
+# second-to-last row), with the last row 11 carrying only descender
+# features (Д legs, Ф stem tip, Ц/Щ tails), so the 14px cap body fills
+# rows 1..10.
+WIDE_BASELINE_ROW = 11
 LEADING_SPACE_X = 6
 NATIVE_VISUAL_OVERRIDES = {
     0x0005: "?",  # native ？ is too centered for the target font.
@@ -43,9 +48,85 @@ NATIVE_VISUAL_OVERRIDES = {
 # forms (NATIVE_VISUAL_OVERRIDES), so render the pairs the same way. The .tbl /
 # encoder keys stay fullwidth, so the source text still maps to these tiles.
 RENDER_SUBST = {"！": "!", "？": "?"}
+# Render-only redraw for any tile (pairs and singles alike). The stock
+# Terminus 6x12 ё draws its diaeresis two rows tall and flush on the letter
+# body, which reads as ears once the runtime outline surrounds it; one-row
+# dots with a blank gap row read as dots.
+REDRAWN_GLYPHS = {
+    "ё": (
+        ".....", ".....", ".#.#.", ".....",
+        ".###.", "#...#", "#####", "#....",
+        "#....", ".####", ".....", ".....",
+    ),
+}
 # A pair has two five-pixel ink areas plus one leading guard column per
 # half-cell. Terminus only exceeds that width for these Cyrillic forms; Omega
 # comes from the wider symbol fallback. Singles retain their original width.
+# Wide-caps compact forms for the 14px caps font. On the row-11 wide-caps
+# baseline the cap body fills rows 1..10 and Ф/Д fit whole (their stem tip
+# and legs land on row 11), but glyphs with ink above the cap line or two
+# rows below the baseline overshoot the cell: Ё/Й stack a diacritic on the
+# full body, Ц/Щ descend two rows. These forms keep the 14px stroke style
+# and compress the body or tail by one row, staying on the shared
+# baseline. Rows are centered horizontally in the cell.
+WIDE_CAPS_COMPACT = {
+    "Ё": (
+        ".#..#.",
+        "......",
+        "######",
+        "#.....",
+        "#.....",
+        "#.....",
+        "####..",
+        "#.....",
+        "#.....",
+        "#.....",
+        "######",
+        "......",
+    ),
+    "Й": (
+        ".#..#.",
+        "..##..",
+        "#....#",
+        "#....#",
+        "#...##",
+        "#..#.#",
+        "#.#..#",
+        "##...#",
+        "#....#",
+        "#....#",
+        "#....#",
+        "......",
+    ),
+    "Ц": (
+        ".......",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        "#....#.",
+        ".######",
+        "......#",
+    ),
+    "Щ": (
+        "........",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        "#..#..#.",
+        ".#######",
+        ".......#",
+    ),
+}
 COMPACT_PAIR_GLYPHS = {
     "д": (
         ".....", ".....", ".....", ".....",
@@ -102,41 +183,69 @@ def font_has(font: ImageFont.FreeTypeFont, ch: str) -> bool:
     return mask_bytes(ch) != mask_bytes("\U000E0000")
 
 
-def render_wide_capital(ch: str, fonts: list[ImageFont.FreeTypeFont]) -> Image.Image:
-    """Render a single capital wide by doubling the primary font's glyph.
+def render_wide_capital(
+    ch: str,
+    fonts: list[ImageFont.FreeTypeFont],
+    caps_fonts: list[ImageFont.FreeTypeFont],
+) -> Image.Image:
+    """Render a single capital, wide when a dedicated caps font is set.
 
     An unpaired capital drawn at half width floats in the 12px cell, so
-    all-caps words (machine lines, arcade splashes) look starved. A 2x
-    horizontal stretch of the primary (Terminus) capital keeps the exact
-    letterforms of the running text at double stroke weight, filling
-    10-11px of the cell like the native JP glyphs. The vertical placement
-    is the normal single-glyph baseline, so caps stay on the native cap
-    line and Ё keeps its diaeresis.
+    all-caps words (machine lines, arcade splashes) look starved. With a
+    caps font (e.g. the 8x14 Terminus strike) the capital keeps real
+    letterforms at cap height 10 on the row-11 baseline (ink rows 1..10,
+    the native kana/kanji ink bottom), filling the cell without the
+    "square" look of a 2x stretch; descender features may use row 11.
+    Glyphs whose ink would overshoot the cell must provide a compact
+    form; shifting them off the shared baseline reads as a defect in
+    game. Without a caps font, the capital is the centered running-text
+    glyph.
     """
-    font = next((f for f in fonts if font_has(f, ch)), fonts[0])
-    canvas = Image.new("L", (GLYPH_W, GLYPH_H), 255)
+    img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
+    art = WIDE_CAPS_COMPACT.get(ch) if caps_fonts else None
+    if art:
+        d = ImageDraw.Draw(img)
+        x0 = (GLYPH_W - len(art[0])) // 2
+        for y, row in enumerate(art):
+            for dx, value in enumerate(row):
+                if value == "#":
+                    d.point((x0 + dx, y), fill=0)
+        return img
+    caps_font = next((f for f in caps_fonts if font_has(f, ch)), None)
+    font = caps_font or next((f for f in fonts if font_has(f, ch)), fonts[0])
+    head = GLYPH_H
+    canvas = Image.new("L", (GLYPH_W, GLYPH_H + head), 255)
     d = ImageDraw.Draw(canvas)
     ascent, _descent = font.getmetrics()
+    baseline = WIDE_BASELINE_ROW if caps_font is not None else BASELINE_ROW
     bbox = d.textbbox((0, 0), ch, font=font)
-    d.text((0 - bbox[0], BASELINE_ROW - ascent), ch, font=font, fill=0)
+    d.text((0 - bbox[0], head + baseline - ascent), ch, font=font, fill=0)
     canvas = canvas.point(lambda v: 0 if v < 140 else 255)
     px = canvas.load()
-    ink = [(x, y) for x in range(GLYPH_W) for y in range(GLYPH_H)
+    ink = [(x, y - head) for x in range(GLYPH_W) for y in range(GLYPH_H + head)
            if px[x, y] == 0]
-    img = Image.new("L", (GLYPH_W, GLYPH_H), 255)
     if not ink:
         return img
-    x0 = min(x for x, _ in ink)
+    width = max(x for x, _ in ink) - min(x for x, _ in ink) + 1
+    shift = (GLYPH_W - width) // 2 - min(x for x, _ in ink)
     out = img.load()
     for x, y in ink:
-        for dx in (0, 1):
-            nx = (x - x0) * 2 + dx
-            if nx < GLYPH_W - 1:  # keep the right guard column blank
-                out[nx, y] = 0
+        nx = x + shift
+        if caps_font is not None and (
+                nx in (0, GLYPH_W - 1) or y < 0 or y >= GLYPH_H):
+            raise ValueError(
+                f"wide capital {ch!r} does not fit the cell; "
+                "add a compact wide form"
+            )
+        out[nx, y] = 0
     return img
 
 
-def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
+def render_tile(
+    text: str,
+    fonts: list[ImageFont.FreeTypeFont],
+    caps_fonts: list[ImageFont.FreeTypeFont],
+) -> bytes:
     """Render 1 or 2 characters into one 12x12 tile on a common baseline.
 
     Pairs are drawn at a 6px pitch (PixelMplus halfwidth glyphs are 5px
@@ -146,7 +255,7 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
     single capitals render fullwidth (see render_wide_capital).
     """
     if len(text) == 1 and text.isalpha() and text.isupper():
-        wide = render_wide_capital(text, fonts)
+        wide = render_wide_capital(text, fonts, caps_fonts)
         wpx = wide.load()
         out = bytearray(GLYPH_BYTES)
         for i in range(GLYPH_W * GLYPH_H):
@@ -159,7 +268,9 @@ def render_tile(text: str, fonts: list[ImageFont.FreeTypeFont]) -> bytes:
         if ch == " ":
             continue
         ch = RENDER_SUBST.get(ch, ch)
-        compact = COMPACT_PAIR_GLYPHS.get(ch) if len(text) == 2 else None
+        compact = REDRAWN_GLYPHS.get(ch)
+        if compact is None and len(text) == 2:
+            compact = COMPACT_PAIR_GLYPHS.get(ch)
         if compact:
             x = k * 6
             for y, row in enumerate(compact):
@@ -235,6 +346,8 @@ def main() -> None:
     ap.add_argument("--out-tbl", default=None)
     ap.add_argument("--font", default=None)
     ap.add_argument("--font-size", type=int, default=None)
+    ap.add_argument("--caps-font", default=None)
+    ap.add_argument("--caps-font-size", type=int, default=None)
     args = ap.parse_args()
 
     lang = language_from_args(args)
@@ -244,6 +357,9 @@ def main() -> None:
     out_tbl = Path(args.out_tbl) if args.out_tbl else lang.tbl
     font_path = args.font if args.font is not None else (str(lang.font) if lang.font else "")
     font_size = args.font_size if args.font_size is not None else lang.font_size
+    caps_font_path = args.caps_font if args.caps_font is not None else (
+        str(lang.caps_font) if lang.caps_font else "")
+    caps_font_size = args.caps_font_size if args.caps_font_size is not None else lang.caps_font_size
 
     assignments: dict[int, str] = {}
     for row in csv.DictReader(open(assignments_path, encoding="utf-8")):
@@ -274,11 +390,16 @@ def main() -> None:
     tok2char.setdefault(0x0006, "！")
 
     fonts = pick_fonts(font_path, font_size)
+    caps_fonts = []
+    if caps_font_path:
+        if not Path(caps_font_path).exists():
+            raise SystemExit(f"caps font not found: {caps_font_path}")
+        caps_fonts.append(ImageFont.truetype(caps_font_path, size=caps_font_size or 12))
     data = bytearray(Path(args.system_bin).read_bytes())
     for tok, ch in assignments.items():
-        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts)
+        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts, caps_fonts)
     for tok, ch in NATIVE_VISUAL_OVERRIDES.items():
-        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts)
+        data[tok * GLYPH_BYTES : (tok + 1) * GLYPH_BYTES] = render_tile(ch, fonts, caps_fonts)
 
     out_system_bin.parent.mkdir(parents=True, exist_ok=True)
     out_system_bin.write_bytes(bytes(data))

@@ -125,6 +125,14 @@ class LanguagePack:
         return int(self._data.get("font_size") or 10)
 
     @property
+    def caps_font(self) -> Path | None:
+        return _path(self.root, self._data.get("caps_font"))
+
+    @property
+    def caps_font_size(self) -> int:
+        return int(self._data.get("caps_font_size") or 0)
+
+    @property
     def single_chars(self) -> str:
         return str(self._data.get("single_chars") or "")
 
