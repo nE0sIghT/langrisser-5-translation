@@ -296,7 +296,7 @@ A scenario is complete only when:
 | Bios 130 | Done | Artistic pass complete for biography chunk 130; no compression debt. |
 | SYSTEM/UI | Done | Final visible-text polish for visible labels, memory-card text and help strings; no compression debt. |
 | Prologue poem | Done | Final visible-text polish complete; preview layout checked as one continuous scroll; no compression debt. |
-| Virash narration | Pending | Final visible-text polish. |
+| Virash narration | Done | Final visible-text polish complete for the shipped in-dialogue subtitle source; no compression debt. |
 
 ## Final Gate
 
