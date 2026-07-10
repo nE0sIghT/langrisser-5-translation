@@ -29,8 +29,10 @@ Glyph 1820 starts at `0x7FF8` and occupies bytes through `0x8009`. The bytes
 from `0x800A` through `0x8051` are non-text prelude data, so
 `lang5_system_dump.py` starts at the first verified string-group table,
 `0x8052`; that group's first string base is `0x8298`. `lang5_build_font.py`
-rewrites glyphs only up to slot 1820 to draw the English alphabet (see also
-`IMG_DAT_FORMAT.md` for the unrelated picture assets).
+rewrites glyphs only up to slot 1820 to draw the target alphabet. Runtime font
+cell behavior and the verified 12x12 boundary probes are documented in
+`docs/FONT_RENDERING_MODEL.md` (see also `IMG_DAT_FORMAT.md` for the unrelated
+picture assets).
 
 ## String groups
 
