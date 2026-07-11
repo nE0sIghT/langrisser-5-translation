@@ -273,21 +273,27 @@ def main() -> None:
             continue
 
         # --repack: regenerate the offset table and pack the string blob tight.
-        new_table = [0]
-        for s in seqs[:-1]:
-            new_table.append(new_table[-1] + len(s) + 1)
-        blob_words = new_table[-1] + len(seqs[-1]) + 1
+        # Identical strings share one blob slot: the engine reads text at
+        # base + table[k]*2 and never writes back, so aliasing is safe.
+        new_table: list[int] = []
+        blob: list[int] = []
+        slot_by_seq: dict[tuple[int, ...], int] = {}
+        for s in seqs:
+            key = tuple(s)
+            slot = slot_by_seq.get(key)
+            if slot is None:
+                slot = len(blob)
+                slot_by_seq[key] = slot
+                blob.extend(s)
+                blob.append(FFFF)
+            new_table.append(slot)
+        blob_words = len(blob)
         if blob_words > blob_budget:
             problems.append(f"group {gi} @ {table_off:#x}: blob {blob_words}>{blob_budget} words")
             continue
         struct.pack_into("<%dH" % n, data, table_off, *new_table)
-        cur = base
-        for s in seqs:
-            if s:
-                struct.pack_into("<%dH" % len(s), data, cur, *s)
-            struct.pack_into("<H", data, cur + len(s) * 2, FFFF)
-            cur += (len(s) + 1) * 2
-        for off in range(cur, group_end, 2):
+        struct.pack_into("<%dH" % blob_words, data, base, *blob)
+        for off in range(base + blob_words * 2, group_end, 2):
             struct.pack_into("<H", data, off, FFFF)
 
     system_out.parent.mkdir(parents=True, exist_ok=True)
