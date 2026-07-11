@@ -14,11 +14,11 @@
 # spk: McClaine
 11	<$FB00><$00C5>I want to ask, do you know where<$FFFC>the folk who took shelter from the town of<$FFFC>Poria are？<$FFFE>
 # spk: Town
-12	<$FFFA><$FB00><$00C6>From the town of Poria<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF9><$FFF6><$FB00><$00C7>Could<$FFFC>it be<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+12	<$FFFA><$FB00><$00C6>From the town of Poria<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF9><$FFF6><$FB00><$00C7>Could it<$FFFC>be<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: McClaine
 13	<$FB00><$00C8>You know something？<$FFFE>
 # spk: Town
-14	<$FB00><$00C9>I'm not certain, but some were taken<$FFFC>to the underground factory.<$FFFD>Those here from the start weren't taken,<$FFFC>so<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+14	<$FB00><$00C9>I'm not certain, but some were taken<$FFFC>to the underground factory.<$FFFD>Those here from the start weren't taken,<$FFFC>so<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 15	<$FB00><$00CA>You mean the ones taken might be<$FFFC>the Poria people.<$FFFE>
 # spk: Town
@@ -28,7 +28,7 @@
 # spk: Mariandel
 18	<$FB00><$00CD>Ah, brother！<$FFFE>
 # spk: Mariandel
-19	<$FB00><$00CE>Wh, what do we do<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FB00><$00CE>Wh, what do we do<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Alfred
 20	<$FB00><$00CF>Isn't it obvious, we rescue them.<$FFFC>We do！<$FFFE>
 # spk: Sigma

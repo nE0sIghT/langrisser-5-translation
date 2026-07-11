@@ -82,11 +82,11 @@
 # spk: Sigma
 47	Good. Let's hurry on！<$FFFE>
 # spk: Lambda
-48	<$FFF8>…<$FE14>…<$FE14><$FFF7><$FB00><$0003>Ah<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+48	<$FFF8>…<$FE14>…<$FE14><$FFF7><$FB00><$0003>Ah<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Sigma
 49	<$FB00><$0004>What's wrong, Lambda？<$FFFE>
 # spk: Lambda
-50	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$0005>This tree<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+50	<$FFF8>…<$FE14><$FE14>…<$FE14><$FE14>…<$FE14><$FE14><$FB00><$0005>This tree<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 51	<$FB00><$0006>I feel like I've seen this tree<$FFFC>somewhere.<$FFFE>
 # spk: Alfred
@@ -130,7 +130,7 @@
 # spk: Lambda
 71	<$FB00><$0021>You don't have to believe me.<$FFFE>
 # spk: Sigma
-72	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
+72	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>…<$FE1E><$FFFE>
 73	・I believe you<$FFFE>
 74	・Trees can't talk<$FFFE>
 75	・What calamity？<$FFFE>
@@ -151,9 +151,9 @@
 # spk: Alfred
 83	<$FB00><$0029>The World Tree is mysterious<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
-84	<$FB00><$002A>But what calamity could it mean<$FFF5><$FFF8>…<$FFFC><$FE14><$FE14>…<$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about it now<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come on, Lambda.<$FFFE>
+84	<$FB00><$002A>But what calamity could it mean<$FFF5><$FFF8>…<$FFFC><$FE14><$FE14>…<$FE14><$FE14> <$FE14><$FE14><$FFF6><$FB00><$002B>No use thinking about it now<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFD><$FFF6><$FB00><$002C>Let's hurry to the lab. Come on, Lambda.<$FFFE>
 # spk: Lambda
-85	<$FFF7><$FB00><$002D>Yes<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+85	<$FFF7><$FB00><$002D>Yes<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Lambda
 86	<$FFF8>…<$FFF6><$FB00><$002E>Thank you.<$FFFE>
 # spk: (no plate)

@@ -15,7 +15,7 @@
 13	Shelfaniel<$FFFF>
 14	Caconsis Army in Combat<$FFFF>
 # spk: Demon
-15	G… curse you….<$FFFE>
+15	G… curse you…<$FFFE>
 # spk: Landius
 16	Careful！ They fight to the<$FFFC>death！<$FFFE>
 # spk: Officer
@@ -23,7 +23,7 @@
 # spk: Grunt
 18	Guhah！<$FFFE>
 # spk: Landius
-19	Damn, the odds are against<$FFFC>us….<$FFFE>
+19	Damn, the odds are against us…<$FFFE>
 # spk: Angelina
 20	Sister, that magic just now！？<$FFFE>
 # spk: Angelina

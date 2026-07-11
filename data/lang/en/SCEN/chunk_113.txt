@@ -11,7 +11,7 @@
 9	Messenger<$FFFF>
 10	Crimzo Lander Camp<$FFFF>
 # spk: Virash
-11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>Where on earth is it hiding？<$FFFC>There's no doubt the demon with Alhazard<$FFFC>has come to Yeless<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+11	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>Where on earth is it hiding？<$FFFC>There's no doubt the demon with Alhazard<$FFFC>has come to Yeless<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Merc
 12	<$FB00><$0056>What'll we do, Virash？ While the<$FFFC>boss holds Lainforce off, we have to seize<$FFFC>Alhazard, right？<$FFFE>
 # spk: Virash

@@ -50,7 +50,7 @@
 # spk: Clarett
 30	<$FB00><$0016>It is worth finding out whether<$FFFC>you were created or not, right？<$FFFE>
 # spk: Sigma
-31	<$FFF8><$FB00><$0017>Hmm<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+31	<$FFF8><$FB00><$0017>Hmm<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Jessica
 32	<$FB00><$0018>I do not mind. The choice is<$FFFC>yours.<$FFFE>
 # spk: Sigma
@@ -88,7 +88,7 @@
 # spk: Sigma
 49	<$FB00><$002C>I spoke with him before. According<$FFFC>to him, I<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$002D>well<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$002E>I apparently died<$FFFC>once.<$FFFE>
 # spk: Clarett
-50	<$FFF8><$FB00><$002F>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+50	<$FFF8><$FB00><$002F>…<$FE3C>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Sigma
 51	<$FB00><$0030>He said the experiment brought me<$FFFC>back to life<$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda

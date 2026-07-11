@@ -34,7 +34,7 @@
 # spk: Sigma
 21	<$FB00><$005F>What's going on there？<$FFFE>
 # spk: Alfred
-22	<$FB00><$0060>That voice<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFD><$FFF6><$FB00><$0061>Heeey！ Somebody help meee！<$FFFE>
+22	<$FB00><$0060>That voice<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFFD><$FFF6><$FB00><$0061>Heeey！ Somebody help meee！<$FFFE>
 # spk: Brenda
 23	<$FB00><$0062>That voice, it's<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
@@ -54,7 +54,7 @@
 # spk: Lambda
 31	<$FB00><$007F>Nobody attacks without a reason.<$FFFE>
 # spk: Alfred
-32	<$FB00><$0080>My brother says I killed our<$FFFC>father<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+32	<$FB00><$0080>My brother says I killed our<$FFFC>father<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFFE>
 # spk: Sigma
 33	<$FB00><$0081>Alfred, killing his father？<$FFFE>
 34	・Is it true？<$FFFE>
@@ -68,7 +68,7 @@
 # spk: Sigma
 40	<$FB00><$0084>You haven't the nerve for that.<$FFFE>
 # spk: Alfred
-41	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0085>I'm glad you believe me,<$FFFC>but<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>that's hard to take as<$FFFC>praise<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+41	<$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0085>I'm glad you believe me,<$FFFC>but<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0086>that's hard to take as praise<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Sigma
 42	<$FB00><$0087>What rubbish<$FFF5><$FFF8>…<$FFFE>
 # spk: Alfred
@@ -143,7 +143,7 @@
 # spk: Alvince
 78	<$FB00><$0072>Prepare yourself, Alfred.<$FFFE>
 # spk: Alfred
-79	<$FB00><$0073>Brother<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0074>Why<$FFF5><$FFF8>…<$FFFE>
+79	<$FB00><$0073>Brother<$FFF5><$FFF8>…<$FE32>…<$FE32> <$FE32><$FFF6><$FB00><$0074>Why<$FFF5><$FFF8>…<$FFFE>
 # spk: Alvince
 80	<$FB00><$0075>Brother or not, I cannot let our<$FFFC>lord's killer run free.<$FFFE>
 # spk: Alfred
@@ -153,7 +153,7 @@
 # spk: Alvince
 83	<$FB00><$0090>Impossible<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$0091>that I would lose<$FFFC><$FFF5><$FFF8>…<$FFFE>
 # spk: Alfred
-84	<$FB00><$0092>Brother<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFE>
+84	<$FB00><$0092>Brother<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FE3C><$FFFE>
 # spk: Alvince
 85	<$FB00><$0093>You're spared today. But your<$FFFC>patricide is not forgotten！<$FFFE>
 # spk: Sigma
@@ -161,7 +161,7 @@
 # spk: Brenda
 87	<$FB00><$0095>You all right, boy？<$FFFE>
 # spk: Alfred
-88	<$FB00><$0096>Y-yes<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0097>Thanks to you, I'm<$FFFC>safe.<$FFFE>
+88	<$FB00><$0096>Y-yes<$FFF5><$FFF8>…<$FE32>…<$FE32> <$FE32><$FFF6><$FB00><$0097>Thanks to you, I'm<$FFFC>safe.<$FFFE>
 # spk: Sigma
 89	<$FB00><$0098>Now, let's hear the full story.<$FFFE>
 # spk: Alfred

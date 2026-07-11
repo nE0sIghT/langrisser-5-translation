@@ -16,21 +16,21 @@
 12	・The crystal is destroyed<$FFFC>・<$F600><$0000> dies<$FFFE>
 13	Russel's Manor<$FFFF>
 # spk: Lanford
-14	<$FB00><$0024>Surely something can be done！<$FFF5><$FFFC><$FB00><$0025>I must examine the treasure my father<$FFFC>gave<$FFF5><$FFF8>….<$FFFE>
+14	<$FB00><$0024>Surely something can be done！<$FFF5><$FFFC><$FB00><$0025>I must examine the treasure my father<$FFFC>gave<$FFF5><$FFF8>…<$FFFE>
 # spk: Butler
 15	<$FB00><$0026>I've told you many times, I cannot<$FFFC>show you that crystal.<$FFFE>
 # spk: Brenda
 16	<$FB00><$0027>There's no talking to you！ Call<$FFFC>your master！<$FFFE>
 # spk: Butler
-17	<$FB00><$0028>Lord Russel does not meet those<$FFFC>without an appointment. First make an<$FFFC>appointment, and<$FFF5><$FFF8>….<$FFFE>
+17	<$FB00><$0028>Lord Russel does not meet those<$FFFC>without an appointment. First make an<$FFFC>appointment, and<$FFF5><$FFF8>…<$FFFE>
 # spk: Russel
 18	<$FB00><$0029>What is this racket？<$FFFE>
 # spk: Butler
-19	<$FB00><$002A>Lord Russel. These people<$FFF5><$FFF8>….<$FFFE>
+19	<$FB00><$002A>Lord Russel. These people<$FFF5><$FFF8>…<$FFFE>
 # spk: Lanford
-20	<$FB00><$002B>Russel<$FFF5><$FFF8>….<$FFFE>
+20	<$FB00><$002B>Russel<$FFF5><$FFF8>…<$FFFE>
 # spk: Russel
-21	<$FB00><$002C>Hm？ If it isn't Lanford. I<$FFFC>wondered where you'd gone after breaking<$FFFC>out of the dungeon<$FFF5><$FFF8>….<$FFFE>
+21	<$FB00><$002C>Hm？ If it isn't Lanford. I<$FFFC>wondered where you'd gone after breaking<$FFFC>out of the dungeon<$FFF5><$FFF8>…<$FFFE>
 # spk: Lanford
 22	<$FB00><$002D>I fight to stop the<$FFFC>Three-Country Alliance. I would have your<$FFFC>aid too.<$FFFD><$FB00><$002E>First, let me examine the crystal my<$FFFC>father gave you.<$FFFE>
 # spk: Russel
@@ -42,7 +42,7 @@
 # spk: Russel
 26	<$FB00><$0033>Ugh！ This light…！<$FFFE>
 # spk: Ferakia
-27	<$FB00><$0034>Curse it<$FFF5><$FFF8>….<$FFFE>
+27	<$FB00><$0034>Curse it<$FFF5><$FFF8>…<$FFFE>
 # spk: Lanford
 28	<$FB00><$0035>That form！<$FFFE>
 # spk: Butler
@@ -54,7 +54,7 @@
 # spk: Ferakia
 32	<$FB00><$0039>He wasn't very tasty.<$FFFE>
 # spk: Clarett
-33	<$FB00><$003A>You mean<$FFF5><$FFF8>….<$FFFE>
+33	<$FB00><$003A>You mean<$FFF5><$FFF8>…<$FFFE>
 # spk: Ferakia
 34	<$FB00><$003B>He was wandering the woods in a<$FFFC>daze. I only borrowed his rank and his<$FFFC>face.<$FFFE>
 # spk: Sigma
@@ -66,7 +66,7 @@
 # spk: Ferakia
 38	<$FB00><$0040>Cover me while I destroy the<$FFFC>crystal in the back！<$FFFE>
 # spk: Monster
-39	<$FB00><$0041>GRRR….<$FFFE>
+39	<$FB00><$0041>GRRR…<$FFFE>
 # spk: Brenda
 40	<$FB00><$0042>This is no concern of you demons,<$FFFC>is it？<$FFFE>
 # spk: Ferakia
@@ -82,7 +82,7 @@
 # spk: Ferakia
 46	<$FB00><$0051>Almost there.<$FFF5> <$FB00><$0052>Ahahaha！<$FFFC>Humans, thinking to beat me！<$FFFD><$FB00><$0053>Don't get too full of yourselves！<$FFFE>
 # spk: Mariandel
-47	<$FB00><$0054>This is bad！ If the crystal<$FFFC>is destroyed<$FFF5><$FFF8>….<$FFFE>
+47	<$FB00><$0054>This is bad！ If the crystal<$FFFC>is destroyed<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
 48	<$FB00><$0055>Hurry, everyone！ Focus our<$FFFC>attacks on that demon woman！<$FFFE>
 # spk: Ferakia
@@ -104,9 +104,9 @@
 # spk: Clarett
 57	<$FB00><$005A>Aah, the crystal！<$FFFE>
 # spk: Lanford
-58	<$FB00><$005B>Now the clue to breaking the<$FFFC>curse is<$FFF5><$FFF8>….<$FFFE>
+58	<$FB00><$005B>Now the clue to breaking the<$FFFC>curse is<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
-59	<$FB00><$005C>Sorry, Lanford<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>If only I'd done<$FFFC>better<$FFF5><$FFF8>….<$FFFE>
+59	<$FB00><$005C>Sorry, Lanford<$FFF5><$FFF8>… <$FFF6><$FB00><$005D>If only I'd done<$FFFC>better<$FFF5><$FFF8>…<$FFFE>
 # spk: (no plate)
 60	<$0000> <$0000>Got the Magical Bikini！<$FFFE>
 # spk: (no plate)
@@ -134,7 +134,7 @@
 # spk: (no plate)
 74	<$0000> <$FFF4>Sonic Band<$FFF3> obtained！<$FFFE>
 # spk: (no plate)
-75	<$0000> <$0000><$0000>It was empty inside….<$FFFE>
+75	<$0000> <$0000><$0000>It was empty inside…<$FFFE>
 # spk: (no plate)
 76	See you！ Bye-bye！<$FFFE>
 # spk: (no plate)
@@ -154,7 +154,7 @@
 # spk: Sigma
 84	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
 # spk: Mariandel
-85	…<$FB00><$004D>I'm sorry….<$FFFE>
+85	…<$FB00><$004D>I'm sorry…<$FFFE>
 # spk: Alfred
 86	<$FB00><$0075>I can fight too！<$FFFE>
 # spk: Alfred
@@ -192,11 +192,11 @@
 # spk: Sigma
 103	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 # spk: Clarett
-104	<$FB00><$005E>B, but….<$FFFE>
+104	<$FB00><$005E>B, but…<$FFFE>
 # spk: Sigma
 105	<$FB00><$005F>Enough, fall back！<$FFFE>
 # spk: Clarett
-106	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+106	<$FB00><$0060>Sorry, at such a crucial time…<$FFFE>
 # spk: Lanford
 107	<$FB00><$0085>By this sword, I'll defeat you！<$FFFE>
 # spk: Lanford
@@ -204,13 +204,13 @@
 # spk: Sigma
 109	<$FB00><$008A>Lanford！<$FFFE>
 # spk: Lanford
-110	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
+110	<$FB00><$008B>…I'm all right… I won't leave<$FFFC>it all to you…<$FFFE>
 # spk: Sigma
 111	<$FB00><$008C>Trust us！<$FFFE>
 # spk: Lanford
 112	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
 # spk: Monster
-113	Gwooooh….<$FFFE>
+113	Gwooooh…<$FFFE>
 # spk: Monster
 114	U, uu… how galling…<$FFFE>
 # spk: Monster
@@ -218,25 +218,25 @@
 # spk: Monster
 116	Such power… can it be…<$FFFE>
 # spk: Monster
-117	GRRRRR….<$FFFE>
+117	GRRRRR…<$FFFE>
 # spk: Monster
-118	Wh, why….<$FFFE>
+118	Wh, why…<$FFFE>
 # spk: Monster
-119	H, how….<$FFFE>
+119	H, how…<$FFFE>
 # spk: Monster
-120	…G…GG….<$FFFE>
+120	…G…GG…<$FFFE>
 # spk: Monster
 121	SHAAAAA！<$FFFE>
 # spk: Monster
-122	…SYUU….<$FFFE>
+122	…SYUU…<$FFFE>
 # spk: Ferakia
-123	<$FB00><$005E>U, uu<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>To think humans held<$FFFC>such power<$FFF5><$FFF8>….<$FFFE>
+123	<$FB00><$005E>U, uu<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>To think humans held<$FFFC>such power<$FFF5><$FFF8>…<$FFFE>
 # spk: Lanford
 124	<$FB00><$0060>I'll avenge Russel.<$FFFE>
 # spk: Ferakia
 125	<$FB00><$0061>Is this too the power of<$FFFC>Langrisser<$FFF5><$FFF8>… <$FFF6><$FB00><$0062>But I can't afford to die here<$FFFC>just yet！<$FFFE>
 # spk: Sigma
-126	<$FB00><$0063>Kh！ Quick to flee<$FFF5><$FFF8>….<$FFFE>
+126	<$FB00><$0063>Kh！ Quick to flee<$FFF5><$FFF8>…<$FFFE>
 # spk: Alfred
 127	<$FFF8>…<$FFF6><$FB00><$0064>At least the crystal is safe.<$FFFE>
 # spk: Mariandel
@@ -244,21 +244,21 @@
 # spk: Brenda
 129	<$FB00><$0066>Something's behind it. Crimzonians<$FFFC>and humans would never team with demons,<$FFFC>at least.<$FFFD><$FB00><$0067>More to the point, let's have Virash look<$FFFC>at this. He'll surely understand.<$FFFE>
 # spk: Sigma
-130	Empty！？ A wasted effort<$FFF8>….<$FFFE>
+130	Empty！？ A wasted effort<$FFF8>…<$FFFE>
 # spk: Mariandel
-131	<$FFF8>…. <$FFF6>Looks like there's<$FFFC>nothing.<$FFFE>
+131	<$FFF8>… <$FFF6>Looks like there's nothing.<$FFFE>
 # spk: Alfred
-132	Huh？ It's empty<$FFF8>….<$FFFE>
+132	Huh？ It's empty<$FFF8>…<$FFFE>
 # spk: Brenda
 133	It's empty！？ What a cheapskate,<$FFFC>honestly！<$FFFE>
 # spk: Clarett
 134	Awful！ It's totally empty！<$FFFE>
 # spk: Lanford
-135	Looks like it's already been<$FFFC>taken. Nothing inside<$FFF8>….<$FFFE>
+135	Looks like it's already been<$FFFC>taken. Nothing inside<$FFF8>…<$FFFE>
 # spk: Monster
 136	<$FB00><$0041>GYOOOOON！<$FFFE>
 # spk: Sigma
-137	<$FB00><$004B>So they were lurking<$FFFC>underwater….<$FFFE>
+137	<$FB00><$004B>So they were lurking underwater…<$FFFE>
 # spk: Mariandel
 138	<$FB00><$004C>What… an ambush？<$FFFE>
 # spk: Alfred

@@ -155,13 +155,13 @@
 # spk: Sigma
 88	<$FB00><$008A>Lanford！<$FFFE>
 # spk: (location/crowd)
-89	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
+89	<$FB00><$008B>…I'm all right… I won't<$FFFC>leave it all to you…<$FFFE>
 # spk: Sigma
 90	<$FB00><$008C>Trust us！<$FFFE>
 # spk: Lanford
 91	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
 # spk: Lainforce
-92	<$FFF8>…<$FFF6><$FB00><$0036>Uu<$FFF5><$FFF8>….<$FFFE>
+92	<$FFF8>…<$FFF6><$FB00><$0036>Uu<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma
 93	<$FB00><$0037>Did we get him！<$FFFE>
 # spk: Grove

@@ -33,9 +33,9 @@
 # spk: McClaine
 22	<$FFF6><$FB00><$0089>Are you really going back to<$FFFC>heaven？<$FFFE>
 # spk: Jessica
-23	<$FB00><$008A>McClaine<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take these swords back<$FFFC>to heaven. That is my duty<$FFF5><$FFF8>…<$FFFE>
+23	<$FB00><$008A>McClaine<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6><$FB00><$008B>I am sorry. I must take these swords back<$FFFC>to heaven. That is my duty<$FFF5><$FFF8>…<$FFFE>
 # spk: McClaine
-24	<$FB00><$008C>No, I won't stop you. But<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>…<$FFFC><$FE14>…<$FE14>.<$FFFE>
+24	<$FB00><$008C>No, I won't stop you. But<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>…<$FFFC><$FE14>…<$FE14><$FFFE>
 # spk: McClaine
 25	<$FFF6><$FB00><$008D>If fate allows, let us meet<$FFFC>again.<$FFFE>
 # spk: Jessica
@@ -63,7 +63,7 @@
 # spk: Lanford
 37	<$FB00><$009B>Leave it to me. Asked or not,<$FFFC>that was already my intent.<$FFFE>
 # spk: Emily
-38	<$FB00><$009C>Lord Lanford<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+38	<$FB00><$009C>Lord Lanford<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Landius
 39	<$FB00><$009D>All right！ We leave for<$FFFC>Caconsis！<$FFFE>
 40	On the Road to the Lab<$FFFF>
@@ -90,11 +90,11 @@
 # spk: Brenda
 51	<$FB00><$003D>That's all？ Nothing unusual<$FFFC>happened？<$FFFE>
 # spk: Merc
-52	<$FB00><$003E>Unusual<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$003F>unusual<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+52	<$FB00><$003E>Unusual<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFF6><$FB00><$003F>unusual<$FFF5><$FFF8>…<$FE32>…<$FE32><$FFFE>
 # spk: Merc
 53	<$FB00><$0040>Oh！ A woman called Jessica went and<$FFFC>teleported away with both strange swords.<$FFFD><$FB00><$0041>I think she was a mage from El Sallia.<$FFFE>
 # spk: Sigma
-54	<$FB00><$0042>Two swords with strange powers<$FFF5><$FFF8>…<$FE14><$FE14>…<$FFFC><$FE14><$FE14>. <$FE14><$FE14><$FFF6><$FB00><$0043>Could they be<$FFF5><$FFF8>…？<$FFFE>
+54	<$FB00><$0042>Two swords with strange powers<$FFF5><$FFF8>…<$FE14><$FE14>…<$FFFC><$FE14><$FE14><$FE14><$FE14><$FFF6><$FB00><$0043>Could they be<$FFF5><$FFF8>…？<$FFFE>
 # spk: Lambda
 55	<$FB00><$0044>No doubt. That is the true form of<$FFFC>the Sage's Crystal.<$FFFE>
 # spk: Alfred
@@ -106,7 +106,7 @@
 # spk: Brenda
 59	<$FB00><$0049>The Sage's Crystal was originally<$FFFC>two swords. They fused into a crystal 200<$FFFC>years ago.<$FFFE>
 # spk: Alfred
-60	<$FFF7><$FB00><$004A>Wow<$FFF5><$FFF8>…<$FE14>…<$FE14>. <$FE14><$FFF6><$FB00><$004B>What a strange story.<$FFFD><$FB00><$004C>So now what？ Look for the swords？<$FFFE>
+60	<$FFF7><$FB00><$004A>Wow<$FFF5><$FFF8>…<$FE14>…<$FE14> <$FE14><$FFF6><$FB00><$004B>What a strange story.<$FFFD><$FB00><$004C>So now what？ Look for the swords？<$FFFE>
 # spk: Sigma
 61	<$FB00><$004D>Well<$FFF5><$FFF8>…<$FFFE>
 62	・Ask Lambda<$FFFE>
@@ -125,7 +125,7 @@
 # spk: Sigma
 70	<$FB00><$0053>What do you think, Brenda？<$FFFE>
 # spk: Brenda
-71	<$FB00><$0054>Let's see<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0055>The swords must be powerful, or you would<$FFFC>not have been ordered to recover them.<$FFFD><$FB00><$0056>Taking them is one option.<$FFFE>
+71	<$FB00><$0054>Let's see<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFD><$FFF6><$FB00><$0055>The swords must be powerful, or you would<$FFFC>not have been ordered to recover them.<$FFFD><$FB00><$0056>Taking them is one option.<$FFFE>
 # spk: Sigma
 72	<$FB00><$0057>But Gizarof is dead. If we recover<$FFFC>the swords, who receives them？<$FFFE>
 # spk: Brenda

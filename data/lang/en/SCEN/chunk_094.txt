@@ -54,29 +54,29 @@
 # spk: Lambda
 31	<$FB00><$0054>I will try.<$FFFE>
 # spk: Gizarof
-32	<$FB00><$0055>The Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago on El Sallia,<$FFFC>east of here. 30 years ago, dark god<$FFFC>Gendrasil brought it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still cannot return it<$FFFC>to sword form. With more research,<$FFFC>someday<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+32	<$FB00><$0055>The Sage's Crystal joins holy<$FFFC>Langrisser and demon Alhazard.<$FFFD><$FB00><$0056>It was born centuries ago on El Sallia,<$FFFC>east of here. 30 years ago, dark god<$FFFC>Gendrasil brought it to Yeless.<$FFFD><$FB00><$0057>It is mine now. I still cannot return it<$FFFC>to sword form. With more research,<$FFFC>someday<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Gizarof
-33	…<$FE32>…<$FE3C>…<$FE46>…<$FE50>…<$FE5A>.<$FFFE>
+33	…<$FE32>…<$FE3C>…<$FE46>…<$FE50>…<$FE5A><$FFFE>
 # spk: Lambda
 34	<$FFF8>…<$FE3C>…<$FE28><$FFF6><$FB00><$0058>The magic is unstable.<$FFFE>
 # spk: Gizarof
 35	<$FB00><$0059>I built a mechanism into Sigma<$FFFC>and Omega. With Langrisser equipped, both<$FFFC>can draw out their given power.<$FFFE>
 # spk: Gizarof
-36	<$FB00><$005A>That power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46>.<$FFFE>
+36	<$FB00><$005A>That power is<$FFF5>…<$FE32>…<$FE3C>…<$FE46><$FFFE>
 # spk: Sigma
 37	<$FB00><$005B>What is that power？ Lambda！<$FFFE>
 # spk: Lambda
-38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it now<$FFFC><$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FFFE>
+38	<$FFF8>…<$FB00><$005C>Quiet. I am adjusting it now<$FFFC><$FFF5><$FFF8>…<$FE32>…<$FE32><$FFFE>
 # spk: Gizarof
 39	…<$FE32>…<$FE32>…<$FE32>…<$FE32>…<$FB00><$005D>Test results for the<$FFFC>prototype, Sigma: the ability activates<$FFFC>only once.<$FFFD><$FB00><$005E>It violently consumes life. A second use<$FFFC>would kill him.<$FFFE>
 # spk: Gizarof
-40	<$FB00><$005F>The complete model that<$FFFC>overcomes this flaw will be tested by one<$FFFC>I trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+40	<$FB00><$005F>The complete model that<$FFFC>overcomes this flaw will be tested by one<$FFFC>I trust<$FFF5>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Lambda
 41	<$FFF8>…<$FFF6><$FB00><$0060>Kh, again<$FFF5><$FFF8>…<$FFFE>
 # spk: Gizarof
 42	…<$FE32>…<$FE32>…<$FE1E>…<$FB00><$0061>The experiment<$FFFC>succeeded. Omega can use the power<$FFFC>multiple times.<$FFFD><$FB00><$0062>Even without Langrisser, Omega can draw<$FFFC>out part of that power.<$FFFE>
 # spk: Gizarof
-43	<$FB00><$0063>When they awaken, I will have<$FFFC>mighty soldiers.<$FFFD>Until then, with Kruger, I must seize<$FFFC><$FE3C>…<$FE32>…<$FE28>the Federation<$FFF5>…<$FE3C>…<$FE3C>.<$FFFE>
+43	<$FB00><$0063>When they awaken, I will have<$FFFC>mighty soldiers.<$FFFD>Until then, with Kruger, I must seize<$FFFC><$FE3C>…<$FE32>…<$FE28>the Federation<$FFF5>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Lambda
 44	<$FFF8>…<$FE28>…<$FE28><$FFF6><$FB00><$0064>No good. I cannot play any<$FFFC>more.<$FFFE>
 # spk: Alfred

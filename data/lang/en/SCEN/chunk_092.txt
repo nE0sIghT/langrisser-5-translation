@@ -57,11 +57,11 @@
 34	<$FB00><$00B3>All right, break's over. Let's<$FFFC>move out.<$FFFE>
 35	At the Dark Altar<$FFFF>
 # spk: Böser
-36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+36	<$FB00><$00B4>To think<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>that you could wield<$FFFC>Langrisser<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Landius
 37	<$FB00><$00B6>You've lost, Böser！ Now vanish<$FFFC>from this world！ We will never let the<$FFFC>darkness have it！<$FFFE>
 # spk: Böser
-38	…<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take…Alhazard from me. That…I will not<$FFFC>allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>…<$FE14>… <$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
+38	…<$FB00><$00B7>At this rate<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B8>they'll<$FFFC>take…Alhazard from me. That…I will not<$FFFC>allow<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFFD><$FFF6><$FB00><$00B9>It goes to no one<$FFF5><$FFF8><$FE14>…<$FE14>… <$FE14><$FFF6><$FB00><$00BA>Alhazard…fly！<$FFFE>
 # spk: Landius
 39	<$FB00><$00BB>What！？ He cast Alhazard away<$FFFC>with magic！？<$FFFE>
 # spk: Böser

@@ -33,7 +33,7 @@
 # spk: Shelfaniel
 23	That's right, Admiral.<$FFFE>
 # spk: Wiler
-24	…This is trouble….<$FFFE>
+24	…This is trouble…<$FFFE>
 25	Federation Castle, Audience Hall<$FFFF>
 # spk: Rozenciel
 26	<$FB00><$0003>It's a hard tale to believe at<$FFFC>once.<$FFFE>

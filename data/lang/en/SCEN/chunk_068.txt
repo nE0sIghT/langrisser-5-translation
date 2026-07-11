@@ -30,7 +30,7 @@
 # spk: Clarett
 19	<$FB00><$000E>I will help too.<$FFFE>
 # spk: Brenda
-20	<$FB00><$000F>But you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+20	<$FB00><$000F>But you<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Clarett
 21	<$FB00><$0010>I am no longer this country's<$FFFC>ruler. This country belongs to its people.<$FFFC>My work is done.<$FFFD><$FB00><$0011>And besides, I promised, didn't I？<$FFFE>
 # spk: Sigma
@@ -47,19 +47,19 @@
 # spk: Lanford
 28	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF9><$FFF6><$FB00><$0017>I still cannot go to<$FFFC>Caconsis. If word spreads that I defected<$FFFC>there, Caconsis will be in danger.<$FFFE>
 # spk: Landius
-29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0019>So I asked<$FFFC>Admiral Wiler to arrange a secret entry<$FFFC>into Caconsis. They agreed.<$FFFE>
+29	<$FB00><$0018>True, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FE3C> <$FFF6><$FB00><$0019>So I asked<$FFFC>Admiral Wiler to arrange a secret entry<$FFFC>into Caconsis. They agreed.<$FFFE>
 # spk: Lanford
 30	<$FB00><$001A>I see. But there is something<$FFFC>else on my mind.<$FFFE>
 # spk: Landius
 31	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001B>Your father, who joined the<$FFFC>Three-Country Alliance？<$FFFE>
 # spk: Lanford
-32	<$FB00><$001C>Yes. I had an older brother, a<$FFFC>fine man. He is gone now.<$FFFD><$FB00><$001D>After he died, Father changed. He suddenly<$FFFC>disowned me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$001E>Now he backs the alliance and bares his<$FFFC>fangs at the Federation. I feel there is a<$FFFC>reason. I want to find it.<$FFFE>
+32	<$FB00><$001C>Yes. I had an older brother, a<$FFFC>fine man. He is gone now.<$FFFD><$FB00><$001D>After he died, Father changed. He suddenly<$FFFC>disowned me<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFD><$FFF6><$FB00><$001E>Now he backs the alliance and bares his<$FFFC>fangs at the Federation. I feel there is a<$FFFC>reason. I want to find it.<$FFFE>
 # spk: Lanford
-33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by my own<$FFFC>hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+33	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$001F>If I cannot, then by my own<$FFFC>hand<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Landius
 34	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0020>All right, Lanford. But I'm<$FFFC>coming with you. My sister told me to look<$FFFC>after you.<$FFFE>
 # spk: Lanford
-35	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0021>Heh. Emily, of course<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+35	<$FFFA><$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0021>Heh. Emily, of course<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: (no plate)
 36	<$0000>Aizel's men carried Langrisser away from<$FFFC>El Sallia. <$0000>But Virash shot down the<$FFFC>airship carrying the sacred sword in<$FFFC>northeastern Yeless.<$FFFD><$0000>To recover Langrisser from the enemy<$FFFC>airship, <$F600><$0000> and the others<$FFFC>return to Yeless. <$0000>But others also seek<$FFFC>the sword.<$FFFE>
 # spk: (no plate)

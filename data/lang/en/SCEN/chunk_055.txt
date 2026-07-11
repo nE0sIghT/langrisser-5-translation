@@ -26,7 +26,7 @@
 # spk: Lambert
 18	<$FB00><$0009>I must attend a friend's<$FFFC>funeral. Be gone before I return, or I<$FFFC>will cut you down！<$FFFE>
 # spk: Lanford
-19	<$FB00><$000A>Father<$FFF5><$FFF8>…<$FE28>…<$FE28>. <$FE28><$FFF6><$FB00><$000B>Why have you changed<$FFFC><$FFF5><$FFF8>…<$FE28>…<$FE28>？<$FFFE>
+19	<$FB00><$000A>Father<$FFF5><$FFF8>…<$FE28>…<$FE28> <$FE28><$FFF6><$FB00><$000B>Why have you changed<$FFFC><$FFF5><$FFF8>…<$FE28>…<$FE28>？<$FFFE>
 # spk: Lanford
 20	<$FFF6><$FB00><$000C>You know, don't you？ Why has<$FFFC>Father changed？<$FFFE>
 # spk: Masterson

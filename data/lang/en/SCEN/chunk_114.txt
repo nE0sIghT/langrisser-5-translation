@@ -17,7 +17,7 @@
 # spk: Lambert
 13	<$FB00><$006A>It's time you told me how to<$FFFC>break the curse.<$FFFE>
 # spk: Lainforce
-14	<$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+14	<$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lambert
 15	<$FB00><$006B>Alvince and my butler Masterson<$FFFC>are both slain. By the reports, my son<$FFFC>Lanford was among them.<$FFFD><$FB00><$006C>At this rate, the day my son and I fight<$FFFC>is not far off. That would be the curse<$FFFC>fulfilled.<$FFFE>
 # spk: Lainforce
@@ -25,7 +25,7 @@
 # spk: Lambert
 17	<$FB00><$006E>Wh… that's fine. Tell me！<$FFFE>
 # spk: Lainforce
-18	<$FB00><$006F>Very well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$006F>Very well<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 19	A Room at the Inn<$FFFF>
 # spk: Brenda
 20	<$FB00><$0070>So, what is it, Virash. Do you<$FFFC>know how to break it？<$FFFE>
@@ -34,13 +34,13 @@
 # spk: Lanford
 22	<$FB00><$0073>Then tell us.<$FFFE>
 # spk: Virash
-23	<$FB00><$0074>That's… well<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FB00><$0074>That's… well<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
 24	<$FB00><$0075>You're being cagey！ We're in a<$FFFC>hurry, you know？<$FFFE>
 # spk: Alfred
 25	<$FB00><$0076>Is the method so difficult？<$FFFE>
 # spk: Mariandel
-26	<$FB00><$0077>Difficult, and yet<$FFFC>simple<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+26	<$FB00><$0077>Difficult, and yet simple<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
 27	<$FB00><$0078>That tells us nothing！<$FFFE>
 # spk: Lanford
@@ -56,7 +56,7 @@
 # spk: Sigma
 33	<$FB00><$0080>And so the curse ends.<$FFFE>
 # spk: Sigma
-34	<$FB00><$0081>Lanford, or Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+34	<$FB00><$0081>Lanford, or Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Mariandel
 35	<$FB00><$0082>Lanford！<$FFFE>
 # spk: Lanford
@@ -76,7 +76,7 @@
 # spk: Virash
 43	<$FB00><$008A>Lainforce's next target is the sky<$FFFC>battleship sleeping beneath Valtar.<$FFFD><$FB00><$008B>While I held off his main force, I asked<$FFFC>the girls to destroy the battleship, but<$FFFC>it seems the Crimzonian Knights appeared.<$FFFE>
 # spk: Brenda
-44	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>The Crimzonian Knights<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+44	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>The Crimzonian Knights<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 45	<$FB00><$008D>I'm sorry, Brenda.<$FFF5> <$FB00><$008E>Had I gone<$FFFC>with them, they need not have died so<$FFFC>pointlessly. This one is my failure.<$FFFE>
 # spk: Brenda

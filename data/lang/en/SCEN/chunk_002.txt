@@ -129,7 +129,7 @@
 # spk: Sigma
 70	<$FB00><$003E>Did we get him！？<$FFFE>
 # spk: Aizel
-71	<$FB00><$003F>Just what I'd expect from beings<$FFFC>created by experiment<$FFF5><$FFF8>…<$FE32>…<$FE32>.<$FE32> <$FFF6><$FB00><$0040>To think<$FFFC>that such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay hidden within<$FFFC>you<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
+71	<$FB00><$003F>Just what I'd expect from beings<$FFFC>created by experiment<$FFF5><$FFF8>…<$FE32>…<$FE32><$FE32> <$FFF6><$FB00><$0040>To think that<$FFFC>such<$FFF5><$FFF8>…<$FFF6><$FB00><$0041>power<$FFF8>…<$FFF6>lay hidden within you<$FFF5><$FFF8>…<$FFFD><$0000>…<$FFF6><$FB00><$0042>I must withdraw for now<$FFF5><$FFF8>…<$FFFE>
 # spk: Selena
 72	Now then, tell us what you were<$FFFC>doing here！<$FFFE>
 # spk: Aizel
@@ -139,7 +139,7 @@
 # spk: Sigma
 75	<$FB00><$0021>So only that one is left.<$FFFE>
 # spk: Aizel
-76	<$FB00><$0022>Mmgh<$FFF5><$FFF8>…<$FE32>…<$FE32>. <$FE32><$FFF6><$FB00><$0023>We had to hurry the<$FFFC>pursuit, but perhaps I brought too few<$FFFC>men.<$FFFE>
+76	<$FB00><$0022>Mmgh<$FFF5><$FFF8>…<$FE32>…<$FE32> <$FE32><$FFF6><$FB00><$0023>We had to hurry the<$FFFC>pursuit, but perhaps I brought too few<$FFFC>men.<$FFFE>
 # spk: Lambda
 77	<$FB00><$0024>There's no need to force a fight.<$FFFC>Right now, moving on comes first.<$FFFE>
 # spk: Sigma

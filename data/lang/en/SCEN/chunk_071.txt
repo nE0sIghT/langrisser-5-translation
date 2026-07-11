@@ -24,6 +24,6 @@
 # spk: Zero
 16	<$FB00><$000D>As you will.<$FFFE>
 # spk: (no plate)
-17	<$0000>Having beaten the greed-driven Alvince,<$FFFC>the party left Reynolds for Sutherland,<$FFFC>the domain of Lanford's father Lambert.<$FFFD><$0000>But just before they reached Lambert's<$FFFC>manor, a company lay in wait for them….<$FFFE>
+17	<$0000>Having beaten the greed-driven Alvince,<$FFFC>the party left Reynolds for Sutherland,<$FFFC>the domain of Lanford's father Lambert.<$FFFD><$0000>But just before they reached Lambert's<$FFFC>manor, a company lay in wait for them…<$FFFE>
 # spk: (no plate)
 18	Victory terms<$FFFC><$0000><$FFFC>・Defeat Butler Masterson<$FFFD>Defeat terms<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>

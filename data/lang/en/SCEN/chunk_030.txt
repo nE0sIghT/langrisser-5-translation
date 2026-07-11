@@ -38,7 +38,7 @@
 # spk: (no plate)
 25	You hurry away, and lightning strikes near<$FFFC>the sign. …Glad you're safe.<$FFFE>
 # spk: (no plate)
-26	You stay where you are….<$FFFE>
+26	You stay where you are…<$FFFE>
 # spk: (no plate)
 27	A voice came from nowhere.<$FFFD>To withstand my lightning, splendid. Take<$FFFC>this as a reward！<$FFFD><$0000> <$0000><$FFF4>Mjollnir<$FFF3> obtained！<$FFFE>
 # spk: (no plate)
@@ -68,7 +68,7 @@
 # spk: Sigma
 40	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
 # spk: Mariandel
-41	…<$FB00><$004D>I'm sorry….<$FFFE>
+41	…<$FB00><$004D>I'm sorry…<$FFFE>
 # spk: Alfred
 42	<$FB00><$0075>I can fight too！<$FFFE>
 # spk: Alfred
@@ -96,11 +96,11 @@
 # spk: Sigma
 54	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 # spk: Clarett
-55	<$FB00><$005E>B, but….<$FFFE>
+55	<$FB00><$005E>B, but…<$FFFE>
 # spk: Sigma
 56	<$FB00><$005F>Enough, fall back！<$FFFE>
 # spk: Clarett
-57	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+57	<$FB00><$0060>Sorry, at such a crucial time…<$FFFE>
 # spk: Lanford
 58	<$FB00><$0083>Here I go！<$FFFE>
 # spk: Lanford
@@ -116,9 +116,9 @@
 # spk: Guard
 64	<$FB00><$0035>D, damn… Lord Omegaaa！！<$FFFE>
 # spk: Sigma
-65	<$FB00><$0036>Did we get him<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0037>Hm？ This presence<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>We're surrounded！？<$FFFE>
+65	<$FB00><$0036>Did we get him<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0037>Hm？ This presence<$FFF5><$FFF8>… <$FFF6><$FB00><$0038>We're surrounded！？<$FFFE>
 # spk: Mariandel
-66	<$FB00><$0039>An ambush<$FFF5><$FFF8>….<$FFFE>
+66	<$FB00><$0039>An ambush<$FFF5><$FFF8>…<$FFFE>
 # spk: Alfred
 67	<$FB00><$003A>A, an ambush？<$FFFE>
 # spk: Brenda
@@ -126,25 +126,25 @@
 # spk: Clarett
 69	<$FB00><$003D>They read us！？<$FFFE>
 # spk: Lanford
-70	<$FB00><$003E>It was going too smoothly<$FFF5><$FFF8>….<$FFFE>
+70	<$FB00><$003E>It was going too smoothly<$FFF5><$FFF8>…<$FFFE>
 # spk: Omega
 71	<$FB00><$003F>That's right. Curse your folly for<$FFFC>charging in alone like this！<$FFFD><$FB00><$0040>No more holding back！ With my power, I'll<$FFFC>crush you！ On Lord Gizarof's name！<$FFFE>
 # spk: Sigma
 72	<$FB00><$0041>I can't lose here. Whatever it<$FFFC>takes, I have to buy time until the decoy<$FFFC>team returns.<$FFFE>
 # spk: C.Knights 8
-73	<$FB00><$0057>Why… why does a<$FFFC>surface-dweller hold such power….<$FFFE>
+73	<$FB00><$0057>Why… why does a<$FFFC>surface-dweller hold such power…<$FFFE>
 # spk: C.Knights 9
 74	<$FB00><$0058>Acht！<$FFFE>
 # spk: C.Knights 8
-75	<$FB00><$0059>I'm counting on you, Neun…<$FFFC>Lord Lainforce….<$FFFE>
+75	<$FB00><$0059>I'm counting on you, Neun…<$FFFC>Lord Lainforce…<$FFFE>
 # spk: (location/crowd)
 76	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimzonian<$FFFC>Knights aren't much either！<$FFFE>
 # spk: C.Knights 9
-77	<$FB00><$0054>That the glorious Crimzonian<$FFFC>Knights should fall to a<$FFFC>surface-dweller….<$FFFE>
+77	<$FB00><$0054>That the glorious Crimzonian<$FFFC>Knights should fall to a surface-dweller…<$FFFE>
 # spk: C.Knights 8
 78	<$FB00><$0055>Neun！<$FFFE>
 # spk: C.Knights 9
-79	<$FB00><$0056>I'm counting on you, Acht…<$FFFC>Lord Lainforce….<$FFFE>
+79	<$FB00><$0056>I'm counting on you, Acht…<$FFFC>Lord Lainforce…<$FFFE>
 # spk: (location/crowd)
 80	<$FFF8><$FB00><$005A>Tch！<$FFF5> <$FFF6><$FB00><$005B>The Crimzonian<$FFFC>Knights aren't much either！<$FFFE>
 # spk: Omega
@@ -152,25 +152,25 @@
 # spk: Sigma
 82	<$FB00><$005D>The match is decided, Omega.<$FFFE>
 # spk: Omega
-83	<$FB00><$005E>Wh, why<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Lord Gizarof's<$FFFC>remodeling<$FFF5><$FFF8>….<$FFFE>
+83	<$FB00><$005E>Wh, why<$FFF5><$FFF8>…<$FFF6><$FB00><$005F>Lord Gizarof's<$FFFC>remodeling<$FFF5><$FFF8>…<$FFFE>
 # spk: Mariandel
 84	<$FB00><$0060>Remodeling is just remodeling.<$FFF5><$FFFC><$FB00><$0061>You grew complacent with it and forgot to<$FFFC>hone yourself.<$FFFE>
 # spk: Lanford
 85	<$FB00><$0062>Remodeling is no more than<$FFFC>remodeling.<$FFF5> <$FB00><$0063>Haven't you grown complacent<$FFFC>and forgotten to hone yourself？<$FFFE>
 # spk: Omega
-86	<$FB00><$0064>…Only I can prove Lord Gizarof's<$FFFC>great work… only I<$FFF5><$FFF8>…. <$FFF6><$FB00><$0065>I must win with this<$FFFC>power… for Lord Gizarof….<$FFFE>
+86	<$FB00><$0064>…Only I can prove Lord Gizarof's<$FFFC>great work… only I<$FFF5><$FFF8>… <$FFF6><$FB00><$0065>I must win with this<$FFFC>power… for Lord Gizarof…<$FFFE>
 # spk: Sigma
-87	<$FB00><$0066>Omega<$FFF5><$FFF8>…. <$FFF6><$FB00><$0067>To care for Gizarof so<$FFFC>deeply<$FFF5><$FFF8>….<$FFFE>
+87	<$FB00><$0066>Omega<$FFF5><$FFF8>… <$FFF6><$FB00><$0067>To care for Gizarof so<$FFFC>deeply<$FFF5><$FFF8>…<$FFFE>
 # spk: Officer
-88	Wh, why….<$FFFE>
+88	Wh, why…<$FFFE>
 # spk: Officer
-89	Tell my wife… tell my wife….<$FFFC>I….<$FFFE>
+89	Tell my wife… tell my wife… I…<$FFFE>
 # spk: Officer
 90	…I won't die！ There's no way<$FFFC>I, of all people, would die… guhah！<$FFFE>
 # spk: Officer
-91	You'll… pay for this…. …Uu….<$FFFE>
+91	You'll… pay for this… …Uu…<$FFFE>
 # spk: Officer
-92	With my strength….<$FFFE>
+92	With my strength…<$FFFE>
 # spk: Clarett
 93	Is everyone all right！？<$FFFE>
 # spk: Mariandel
@@ -184,7 +184,7 @@
 # spk: Omega
 98	<$FB00><$0042>I'll show you the true use of our<$FFFC>power！<$FFF5> <$FFF7><$FB00><$0043>Nuooooh！<$FFFE>
 # spk: Sigma
-99	<$FB00><$0044>He used his power again<$FFF5><$FFF8>…. <$FFF6><$FB00><$0045>Hm？<$FFFC>This is different from before！<$FFFE>
+99	<$FB00><$0044>He used his power again<$FFF5><$FFF8>… <$FFF6><$FB00><$0045>Hm？ This<$FFFC>is different from before！<$FFFE>
 # spk: Omega
 100	<$FB00><$0046>Amplify others' morale and mental<$FFFC>energy and make it your own.<$FFFD>This is the power's true use！<$FFF5> <$FB00><$0047>Now die,<$FFFC>you defective！<$FFFE>
 # spk: Clarett

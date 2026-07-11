@@ -18,7 +18,7 @@
 # spk: Eric
 13	<$FB00><$007E>Why not？ Is it the will of the<$FFFC>Goddess Lushiris？<$FFFE>
 # spk: Estor
-14	<$FFFA><$FB00><$007F>N-no, that is not it<$FFF5><$FFF8>…….<$FFFE>
+14	<$FFFA><$FB00><$007F>N-no, that is not it<$FFF5><$FFF8>……<$FFFE>
 # spk: Clarett
 15	<$FB00><$0080>Then let us hear your reason,<$FFFC>Your Grace.<$FFFE>
 # spk: Estor
@@ -28,11 +28,11 @@
 # spk: Estor
 18	<$FB00><$0083>I-in any case, we cannot make an<$FFFC>enemy of Lord Gilmore！<$FFFE>
 # spk: Eric
-19	<$FB00><$0084>No<$FFF5><$FFF8>…….<$FFFE>
+19	<$FB00><$0084>No<$FFF5><$FFF8>……<$FFFE>
 # spk: Estor
 20	<$FB00><$0085>Please, take your leave. May the<$FFFC>protection of Lady Lushiris be upon you.<$FFFE>
 # spk: Alfred
-21	<$FB00><$0086>Looks like it was no good<$FFF5><$FFF8>…….<$FFFE>
+21	<$FB00><$0086>Looks like it was no good<$FFF5><$FFF8>……<$FFFE>
 # spk: Clarett
 22	<$FB00><$0087>Honestly, what could have<$FFFC>happened？ He was not a man to say such<$FFFC>things.<$FFFE>
 # spk: Sigma
@@ -60,7 +60,7 @@
 # spk: Lambda
 34	<$FB00><$0095>What do you think？<$FFFE>
 # spk: Sigma
-35	<$FB00><$0096>I<$FFF5><$FFF8>…….<$FFFE>
+35	<$FB00><$0096>I<$FFF5><$FFF8>……<$FFFE>
 36	・I think she's a good person.<$FFFE>
 37	・I think she's suspicious.<$FFFE>
 # spk: Sigma
@@ -72,7 +72,7 @@
 # spk: Lambda
 41	<$FB00><$0098>What could her aim be？<$FFFE>
 # spk: Clarett
-42	<$FFF8>…<$FFF6><$FB00><$0099>But she always helps us<$FFF5><$FFF8>…….<$FFFE>
+42	<$FFF8>…<$FFF6><$FB00><$0099>But she always helps us<$FFF5><$FFF8>……<$FFFE>
 # spk: Brenda
 43	<$FB00><$009A>Now then, that's that. I'll be<$FFFC>off, then. I'll be back with some<$FFFC>information by tomorrow midday.<$FFFD><$FB00><$009B>Just in case, I've shut down the magitek<$FFFC>reactor, so please keep watch over the<$FFFC>airship.<$FFFE>
 # spk: Alfred

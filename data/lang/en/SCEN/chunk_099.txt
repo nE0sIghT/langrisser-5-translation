@@ -23,7 +23,7 @@
 # spk: Liberalist
 17	<$FB00><$006C>What is that？<$FFFE>
 # spk: Clarett
-18	<$FB00><$006D>Actually<$FFF5><$FFF8>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+18	<$FB00><$006D>Actually<$FFF5><$FFF8>…<$FE3C>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Liberalist
 19	<$FB00><$006E>Such a thing<$FFF5><$FFF8>…！<$FFFE>
 # spk: Liberalist

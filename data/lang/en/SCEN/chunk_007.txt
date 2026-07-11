@@ -108,7 +108,7 @@
 # spk: Aizel
 61	This time you won't escape！<$FFFE>
 # spk: Aizel
-62	<$FFF8><$FB00><$0027>Ggh… <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
+62	<$FFF8><$FB00><$0027>Ggh… <$FFF5><$FE78><$FFF6><$FB00><$0028>Again<$FFF5><$FFF8>…<$FE3C>…<$FE3C> <$FE3C><$FFF6><$FB00><$0029>We have the<$FFFC>greater force, and yet<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002A>Bah, retreat！<$FFFE>
 # spk: Sigma
 63	<$FB00><$002B>Looks like it's over.<$FFFE>
 # spk: Brenda

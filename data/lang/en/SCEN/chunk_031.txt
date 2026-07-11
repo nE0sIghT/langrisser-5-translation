@@ -32,7 +32,7 @@
 # spk: Brenda
 23	<$FB00><$0048>Yeah, that's it！<$FFF5> <$FB00><$0049>There are two,<$FFFC>and unless both switches are thrown, the<$FFFC>control room door won't open.<$FFFE>
 # spk: Sigma
-24	<$FB00><$004A>Split into two teams, or three<$FFF5><$FFF8>….<$FFFE>
+24	<$FB00><$004A>Split into two teams, or three<$FFF5><$FFF8>…<$FFFE>
 # spk: Lanford
 25	<$FB00><$004B>Think it through. We've come<$FFFC>this far, failure isn't allowed.<$FFFE>
 # spk: Guardian
@@ -80,9 +80,9 @@
 # spk: Alfred
 48	<$FB00><$0066>Erm, which one<$FFF5><$FFF8>…<$FFF6><$FB00><$0067>this one？<$FFFE>
 # spk: Brenda
-49	<$FB00><$0068>Push this, and this<$FFF5><$FFF8>….<$FFFE>
+49	<$FB00><$0068>Push this, and this<$FFF5><$FFF8>…<$FFFE>
 # spk: Clarett
-50	<$FB00><$0069>Which one<$FFF5><$FFF8>…. <$FFF6><$FB00><$006A>Ah, just push them<$FFFC>at random！<$FFFE>
+50	<$FB00><$0069>Which one<$FFF5><$FFF8>… <$FFF6><$FB00><$006A>Ah, just push them<$FFFC>at random！<$FFFE>
 # spk: Lanford
 51	<$FB00><$006B>This stops the magitek system.<$FFFE>
 # spk: Warning
@@ -122,7 +122,7 @@
 # spk: Sigma
 70	<$FB00><$004C>Marie, leave this to us and pull<$FFFC>back！<$FFFE>
 # spk: Mariandel
-71	…<$FB00><$004D>I'm sorry….<$FFFE>
+71	…<$FB00><$004D>I'm sorry…<$FFFE>
 # spk: Alfred
 72	<$FB00><$007D>Don't get in my way！<$FFFE>
 # spk: Alfred
@@ -162,11 +162,11 @@
 # spk: Sigma
 90	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 # spk: Clarett
-91	<$FB00><$005E>B, but….<$FFFE>
+91	<$FB00><$005E>B, but…<$FFFE>
 # spk: Sigma
 92	<$FB00><$005F>Enough, fall back！<$FFFE>
 # spk: Clarett
-93	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+93	<$FB00><$0060>Sorry, at such a crucial time…<$FFFE>
 # spk: Lanford
 94	<$FB00><$007E>Don't get in my way！<$FFFE>
 # spk: Lanford
@@ -182,33 +182,33 @@
 # spk: Lanford
 100	<$FB00><$0092>…At such a crucial time,<$FFFC>forgive me…<$FFFE>
 # spk: Guardian
-101	…V…VV…W….<$FFFE>
+101	…V…VV…W…<$FFFE>
 # spk: Guardian
-102	…V…vv….<$FFFE>
+102	…V…vv…<$FFFE>
 # spk: Soldier
-103	I can't die here….<$FFFE>
+103	I can't die here…<$FFFE>
 # spk: Soldier
-104	L, Lord Ai…zer….<$FFFE>
+104	L, Lord Ai…zer…<$FFFE>
 # spk: Soldier
-105	…I don't want to die…. …I<$FFFC>don't want to die…. …I don't want to<$FFFC>die…. …I don't want to die….<$FFFE>
+105	…I don't want to die… …I<$FFFC>don't want to die… …I don't want to<$FFFC>die… …I don't want to die…<$FFFE>
 # spk: Aizel
-106	<$FB00><$0082>…Gh… uu….<$FFFE>
+106	<$FB00><$0082>…Gh… uu…<$FFFE>
 # spk: Brenda
 107	<$FB00><$0083>This is the end, Aizel.<$FFFE>
 # spk: Aizel
-108	<$FFF8>…<$FFF6><$FB00><$0084>Lady Brenda… Lord Lainforce<$FFFC>is… uu….<$FFFE>
+108	<$FFF8>…<$FFF6><$FB00><$0084>Lady Brenda… Lord Lainforce<$FFFC>is… uu…<$FFFE>
 # spk: C.Knights 6
-109	I can't fall here. I must<$FFFC>protect Lord Lain…force….<$FFFE>
+109	I can't fall here. I must<$FFFC>protect Lord Lain…force…<$FFFE>
 # spk: C.Knights 6
-110	That the Crimzonian Knights<$FFFC>should….<$FFFE>
+110	That the Crimzonian Knights<$FFFC>should…<$FFFE>
 # spk: C.Knights 7
-111	…To think surface-dwellers<$FFFC>held such skill…. But next time I won't<$FFFC>lose….<$FFFE>
+111	…To think surface-dwellers<$FFFC>held such skill… But next time I won't<$FFFC>lose…<$FFFE>
 # spk: C.Knights 7
-112	…That I should fall to<$FFFC>surface-dwellers….<$FFFE>
+112	…That I should fall to<$FFFC>surface-dwellers…<$FFFE>
 # spk: Soldier
-113	I can't lose here…. …but…<$FFFC>already….<$FFFE>
+113	I can't lose here… …but…<$FFFC>already…<$FFFE>
 # spk: Sigma
-114	<$FB00><$0080>Now to deal with the control<$FFFC>device….<$FFFE>
+114	<$FB00><$0080>Now to deal with the control<$FFFC>device…<$FFFE>
 # spk: (no plate)
 115	<$0000> Operated the control panel and halted<$FFFC>the magitek system.<$FFFE>
 # spk: Sigma
@@ -223,11 +223,11 @@
 120	<$FFF4>Victory terms changed！<$FFF3> <$0000> ・Cut the<$FFFC>power to the control device<$FFFE>
 121	・Cut the power to the control device<$FFFE>
 # spk: Aizel
-122	<$FB00><$0054>Mh, you're<$FFF5><$FFF8>….<$FFFE>
+122	<$FB00><$0054>Mh, you're<$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda
-123	<$FB00><$0055>Aizel<$FFF5><$FFF8>….<$FFFE>
+123	<$FB00><$0055>Aizel<$FFF5><$FFF8>…<$FFFE>
 # spk: Aizel
-124	<$FB00><$0056>I see. So the Crimzo Landers told<$FFFC>you of this control room<$FFF5><$FFF8>….<$FFFE>
+124	<$FB00><$0056>I see. So the Crimzo Landers told<$FFFC>you of this control room<$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda
 125	<$FB00><$0057>Too bad, Aizel. However mighty the<$FFFC>magitek weapons guarding it, useless if<$FFFC>they don't move, no？<$FFFE>
 # spk: Aizel
@@ -251,4 +251,4 @@
 # spk: Aizel
 135	<$FFF7><$FB00><$0075>Hahaha！<$FFF5><$FFF8> <$FFF6><$FB00><$0076>Now none but Lord<$FFFC>Lainforce, who holds the release code, can<$FFFC>disarm this defense system！ You've lost！<$FFFE>
 # spk: Sigma
-136	<$FB00><$0077>Sorry, everyone<$FFF5><$FFF8>….<$FFFE>
+136	<$FB00><$0077>Sorry, everyone<$FFF5><$FFF8>…<$FFFE>

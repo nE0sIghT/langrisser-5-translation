@@ -11,7 +11,7 @@
 # spk: Mariandel
 9	Lainforce's Castle<$FFFF>
 # spk: Virash
-10	<$FB00><$003D>To think there was such a<$FFFC>method<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+10	<$FB00><$003D>To think there was such a<$FFFC>method<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
 11	<$FB00><$003E>What are you admiring it for！<$FFF5><$FFFC><$FB00><$003F>Pelia is in danger, you know？<$FFFE>
 # spk: Lainforce
@@ -19,23 +19,23 @@
 # spk: Alfred
 13	<$FB00><$0041>Then there's no saving us？<$FFF5><$FFFC><$FB00><$0042>There's no other way？<$FFFE>
 # spk: Mariandel
-14	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0043>What was it all for, the<$FFFC>things we did<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+14	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0043>What was it all for, the<$FFFC>things we did<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 15	<$FB00><$0044>It's not that there's no way.<$FFFE>
 # spk: Sigma
 16	<$FB00><$0045>Truly, Virash？<$FFFE>
 # spk: Virash
-17	<$FB00><$0046>Alhazard is surely no use now.<$FFF5><$FFFC><$FB00><$0047>But Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+17	<$FB00><$0046>Alhazard is surely no use now.<$FFF5><$FFFC><$FB00><$0047>But Langrisser<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
-18	<$FB00><$0048>Langrisser？<$FFF5> <$FB00><$0049>But it's<$FFFC>unfinished<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$0048>Langrisser？<$FFF5> <$FB00><$0049>But it's<$FFFC>unfinished<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 19	<$FFF7><$FB00><$004A>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$004B>With Langrisser's power,<$FFFC>it can't be moved from here.<$FFFD><$FB00><$004C>But board Pelia, and moving it isn't<$FFFC>impossible.<$FFFE>
 # spk: Brenda
-20	<$FB00><$004D>True enough<$FFF5><$FFF8>…<$FE14>…<$FE14>. <$FFF6><$FB00><$004E>But one more<$FFFC>problem remains<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+20	<$FB00><$004D>True enough<$FFF5><$FFF8>…<$FE14>…<$FE14> <$FFF6><$FB00><$004E>But one more<$FFFC>problem remains<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Clarett
 21	<$FB00><$004F>One more problem？<$FFFE>
 # spk: Virash
-22	<$FFF7><$FB00><$0050>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0051>Langrisser, which draws on<$FFFC>human will, uses no mana at all.<$FFFD><$FFFA><$FB00><$0052>But to gather enough will to control<$FFFC>Pelia, you need a thousand people.<$FFFD><$FB00><$0053>How to carry that many to Pelia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FFF7><$FB00><$0050>Yeah.<$FFF5><$FFF8> <$FFF6><$FB00><$0051>Langrisser, which draws on<$FFFC>human will, uses no mana at all.<$FFFD><$FFFA><$FB00><$0052>But to gather enough will to control<$FFFC>Pelia, you need a thousand people.<$FFFD><$FB00><$0053>How to carry that many to Pelia<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 23	<$FB00><$0054>At the Crimzo Lander base<$FFFC>there should be one more mid-sized sky<$FFFC>battleship, no？<$FFFE>
 # spk: Virash
@@ -45,13 +45,13 @@
 # spk: Lanford
 26	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0057>In effect, no recourse,<$FFFC>then.<$FFFE>
 # spk: Sigma
-27	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0058>It's all right.<$FFF5> <$FB00><$0059>If even just<$FFFC>we can reach Pelia, we should be able to<$FFFC>stop it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+27	<$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$0058>It's all right.<$FFF5> <$FB00><$0059>If even just<$FFFC>we can reach Pelia, we should be able to<$FFFC>stop it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 28	<$FB00><$005A>What are you saying？<$FFFE>
 # spk: Sigma
 29	<$FB00><$005B>For an ordinary person it may be<$FFFC>impossible.<$FFF5> <$FB00><$005C>But I, remodeled by Gizarof,<$FFFC>can do it.<$FFFE>
 # spk: Mariandel
-30	<$FB00><$005D>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+30	<$FB00><$005D>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 31	<$FB00><$005E>The remodeling done to Omega and<$FFFC>me amplifies power taken in from outside.<$FFF5><$FFFD><$FB00><$005F>If it's only amplifying the human will<$FFFC>gathered by Langrisser, just us can draw<$FFFC>enough power.<$FFFE>
 # spk: Mariandel
@@ -67,13 +67,13 @@
 # spk: Virash
 37	<$FB00><$006A>Not with an ordinary crystal.<$FFF5><$FFFC><$FB00><$006B>But there's a high-purity crystal.<$FFFE>
 # spk: Lanford
-38	<$FB00><$006C>That's it！<$FFF5> <$FB00><$006D>The crystal my<$FFFC>father and the others found<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+38	<$FB00><$006C>That's it！<$FFF5> <$FB00><$006D>The crystal my<$FFFC>father and the others found<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Alfred
-39	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006E>So what my father did was not<$FFFC>wasted after all<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006E>So what my father did was not<$FFFC>wasted after all<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 40	<$FB00><$006F>Understood.<$FFF5><$FFFB> <$FB00><$0070>I'll order the<$FFFC>engineers to make the swap.<$FFF5> <$FB00><$0071>I'll head<$FFFC>for Crimzo on the sky battleship.<$FFFE>
 # spk: Virash
-41	<$FB00><$0072>I'll help too.<$FFF5> <$FB00><$0073>We're no longer at<$FFFC>odds, after all<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+41	<$FB00><$0072>I'll help too.<$FFF5> <$FB00><$0073>We're no longer at<$FFFC>odds, after all<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 42	<$FFF8><$FB00><$0074>Mm.<$FFFE>
 # spk: Virash

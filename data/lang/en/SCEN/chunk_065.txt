@@ -13,7 +13,7 @@
 # spk: Aizel
 11	<$FB00><$0003>Forward！ Do not flinch before<$FFFC>mere monsters！<$FFFE>
 # spk: Grove
-12	<$FB00><$0004>Gah, Kalxath still has an<$FFFC>airship… I thought it burned up the other<$FFFC>day<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C><$FFFD><$FB00><$0005>You lot, do not let them pass！<$FFFE>
+12	<$FB00><$0004>Gah, Kalxath still has an<$FFFC>airship… I thought it burned up the other<$FFFC>day<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FE3C><$FFFD><$FB00><$0005>You lot, do not let them pass！<$FFFE>
 # spk: Demon
 13	<$FB00><$0006>Understood. Even if it costs our<$FFFC>lives, we will not let them through.<$FFFE>
 # spk: Aizel

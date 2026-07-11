@@ -22,7 +22,7 @@
 # spk: Landius
 14	<$FB00><$008B>Landius, well met. I serve now<$FFFC>as envoy of the Caconsis Kingdom.<$FFFE>
 # spk: Mariandel
-15	<$FB00><$008C>Landius of the Caconsis<$FFFC>Kingdom<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE28> <$FFF6><$FB00><$008D>Could you be the one my<$FFFC>brother mentioned<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$008C>Landius of the Caconsis<$FFFC>Kingdom<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE28> <$FFF6><$FB00><$008D>Could you be the one my<$FFFC>brother mentioned<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Landius
 16	<$FB00><$008E>Your brother？<$FFFE>
 # spk: Brenda
@@ -32,15 +32,15 @@
 # spk: Lanford
 19	<$FB00><$0091>Know him？ He fought at our side<$FFFC>as a comrade.<$FFFE>
 # spk: Landius
-20	<$FB00><$0092>McClaine's sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0093>I see,<$FFFC>so you're Marie. I'm glad you're safe.<$FFFC>Have you met McClaine yet？<$FFFE>
+20	<$FB00><$0092>McClaine's sister<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$0093>I see,<$FFFC>so you're Marie. I'm glad you're safe.<$FFFC>Have you met McClaine yet？<$FFFE>
 # spk: Mariandel
-21	<$FB00><$0094>Yes. He's on the El Sallia<$FFFC>continent now, but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+21	<$FB00><$0094>Yes. He's on the El Sallia<$FFFC>continent now, but<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Landius
-22	<$FB00><$0095>El Sallia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0096>Ah, he went<$FFFC>after Jessica<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FB00><$0095>El Sallia<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$0096>Ah, he went<$FFFC>after Jessica<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 23	<$FB00><$0097>In any case, his kin is safe.<$FFFC>He'll be glad of it.<$FFFE>
 # spk: Sigma
-24	<$FB00><$0098>Speaking of kin, Alfred's and<$FFFC>yours<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+24	<$FB00><$0098>Speaking of kin, Alfred's and<$FFFC>yours<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Alfred
 25	<$FB00><$0099>Yes. Lanford, there's something I<$FFFC>must tell you.<$FFFE>
 # spk: Lanford
@@ -54,7 +54,7 @@
 # spk: Lanford
 30	<$FB00><$009E>Tell me everything.<$FFFE>
 # spk: Lanford
-31	<$FFFA><$FB00><$009F>The red moon Crimzo, and<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+31	<$FFFA><$FB00><$009F>The red moon Crimzo, and<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 32	<$FB00><$00A0>We want to thwart his ambition and<$FFFC>protect this world. That's why we aid her<$FFFC>and Alfred.<$FFFE>
 # spk: Brenda
@@ -64,13 +64,13 @@
 # spk: Landius
 35	<$FB00><$00A4>I thought you'd say that,<$FFFC>Lanford.<$FFFD><$FB00><$00A5>All right, take great care. I'll return to<$FFFC>Caconsis once and report the situation to<$FFFC>the admiral.<$FFFE>
 # spk: Lanford
-36	<$FFFA><$FB00><$00A6>And as for Emily<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+36	<$FFFA><$FB00><$00A6>And as for Emily<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 37	<$FB00><$00A7>I know. I'll find a way to reach<$FFFC>your sister myself.<$FFFE>
 # spk: Lanford
 38	<$FB00><$00A8>I'm sorry. I'm counting on you.<$FFFE>
 # spk: Landius
-39	<$FB00><$00A9>Take care, then<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+39	<$FB00><$00A9>Take care, then<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: (no plate)
 40	<$0000> Lanford joined the party！<$FFFE>
 # spk: Sigma

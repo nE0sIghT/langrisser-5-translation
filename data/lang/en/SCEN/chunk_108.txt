@@ -14,7 +14,7 @@
 # spk: Virash
 12	<$FB00><$005C>Yo, Brenda.<$FFFE>
 # spk: Brenda
-13	<$FB00><$005D>Virash<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+13	<$FB00><$005D>Virash<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Alfred
 14	<$FB00><$005E>Who is he？<$FFFE>
 # spk: Brenda
@@ -26,7 +26,7 @@
 # spk: Clarett
 18	<$FB00><$0063>Eric.<$FFFE>
 # spk: Eric
-19	<$FB00><$0064>Ah, Clarett！ I missed you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+19	<$FB00><$0064>Ah, Clarett！ I missed you<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Clarett
 20	<$FB00><$0065>You were worried for me. Thank<$FFFC>you, Eric.<$FFFE>
 # spk: Virash
@@ -38,11 +38,11 @@
 # spk: Brenda
 24	<$FB00><$0069>We were just talking it over. That<$FFFC>demon Gaiel may have them.<$FFFE>
 # spk: Sigma
-25	<$FB00><$006A>Hold on<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+25	<$FB00><$006A>Hold on<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Mariandel
 26	<$FB00><$006B>What is it？<$FFFE>
 # spk: Sigma
-27	<$FB00><$006C>What if Omega<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+27	<$FB00><$006C>What if Omega<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Mariandel
 28	<$FB00><$006D>He did say something. About<$FFFC>having bought enough time.<$FFFE>
 # spk: Virash
@@ -65,8 +65,8 @@
 # spk: Gilmore
 38	<$FB00><$0078>You useless oafs！ Aim properly！<$FFFC>All you hit was the castle！<$FFFE>
 # spk: Soldier
-39	<$FB00><$0079>Forgive us. We never expected<$FFFC>such recoil from the cannon<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+39	<$FB00><$0079>Forgive us. We never expected<$FFFC>such recoil from the cannon<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Gilmore
 40	<$FB00><$007A>No back talk！ When is the next<$FFFC>shot？<$FFFE>
 # spk: Soldier
-41	<$FB00><$007B>We are charging mana now.<$FFFC>Perhaps an hour more<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+41	<$FB00><$007B>We are charging mana now.<$FFFC>Perhaps an hour more<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>

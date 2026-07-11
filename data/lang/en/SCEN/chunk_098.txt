@@ -27,7 +27,7 @@
 # spk: Sigma
 18	<$FB00><$0072>A man from my past told me.<$FFFD><$FB00><$0073>You said it wasn't me, and I hid behind<$FFFC>that.<$FFFD><$FB00><$0074>So I was running too.<$FFFE>
 # spk: Clarett
-19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>No<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0076>Then why are you<$FFFC>alive？ You died then, I know it！<$FFFE>
+19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0075>No<$FFF5><$FFF8>…<$FE3C>…<$FE3C> <$FE3C><$FFF6><$FB00><$0076>Then why are you<$FFFC>alive？ You died then, I know it！<$FFFE>
 # spk: Sigma
 20	<$FB00><$0077>Gizarof used me for research. His<$FFFC>experiment revived me.<$FFFE>
 # spk: Clarett
@@ -35,7 +35,7 @@
 # spk: Sigma
 22	<$FB00><$0079>So I killed your father. What<$FFFC>now？ Stab me again？<$FFFE>
 # spk: Clarett
-23	…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+23	…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Clarett
 24	<$FB00><$007A>No. Enough. You died once and<$FFFC>atoned. You don't need to die twice.<$FFFD><$FB00><$007B>Besides<$FFF5><$FFF8>…<$FFFE>
 # spk: Sigma

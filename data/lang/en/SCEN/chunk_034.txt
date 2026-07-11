@@ -25,9 +25,9 @@
 18	<$FFF8>…<$FFF7><$FB00><$0010>Heh heh heh！<$FFF5> <$FFF6><$FB00><$0011>Farewell, Grove.<$FFF5><$FFFC><$FB00><$0012>And you heirs of the light！<$FFFE>
 19	Demon Temple, Near the Entrance<$FFFF>
 # spk: Sigma
-20	<$FB00><$0013>The demon base is said to be<$FFFC>ahead, but<$FFF5><$FFF8>….<$FFFE>
+20	<$FB00><$0013>The demon base is said to be<$FFFC>ahead, but<$FFF5><$FFF8>…<$FFFE>
 # spk: Grove
-21	<$FB00><$0014>I've been waiting<$FFF5><$FFF8>….<$FFFE>
+21	<$FB00><$0014>I've been waiting<$FFF5><$FFF8>…<$FFFE>
 # spk: Lanford
 22	<$FB00><$0015>This time you won't escape.<$FFF5><$FFFC><$FB00><$0016>For toying with my friend's corpse, you'll<$FFFC>pay！<$FFFE>
 # spk: Grove
@@ -35,7 +35,7 @@
 # spk: Clarett
 24	<$FB00><$0018>What？ This sound<$FFF5><$FFF8>…？<$FFFE>
 # spk: Mariandel
-25	<$FB00><$0019>The air is<$FFF5><$FFF8>…<$FFF6><$FB00><$001A>the mana is<$FFFC>stirring<$FFF5><$FFF8>….<$FFFE>
+25	<$FB00><$0019>The air is<$FFF5><$FFF8>…<$FFF6><$FB00><$001A>the mana is<$FFFC>stirring<$FFF5><$FFF8>…<$FFFE>
 # spk: Brenda
 26	<$FB00><$001B>That means！<$FFF5><$FFF7><$FFFE>
 # spk: Alfred
@@ -49,7 +49,7 @@
 # spk: Grove
 31	<$FB00><$002F>Come out, my dear corpses！<$FFFE>
 # spk: Ferakia
-32	<$FB00><$0030>…U… uu….<$FFFE>
+32	<$FB00><$0030>…U… uu…<$FFFE>
 # spk: Grove
 33	<$FB00><$0031>I'll draw out your power to the<$FFFC>full.<$FFF5> <$FB00><$0032>Fight with everything！<$FFFE>
 # spk: Grove
@@ -63,7 +63,7 @@
 # spk: Grove
 38	<$FB00><$002B>Now, devour them！<$FFFE>
 # spk: Sigma
-39	<$FB00><$002C>Fighting it in the water is<$FFFC>dangerous.<$FFF5> <$FB00><$002D>Best lure it onto land<$FFFC>somehow<$FFF5>….<$FFFE>
+39	<$FB00><$002C>Fighting it in the water is<$FFFC>dangerous.<$FFF5> <$FB00><$002D>Best lure it onto land<$FFFC>somehow<$FFF5>…<$FFFE>
 # spk: Sigma
 40	<$FB00><$0033>We've cornered you, Grove！<$FFFE>
 # spk: Alfred
@@ -83,7 +83,7 @@
 # spk: (no plate)
 48	With a dull groan, the door opened. Beyond<$FFFC>is a wide cavern. Better to explore it<$FFFC>once the battle's done.<$FFFE>
 # spk: (no plate)
-49	The door was heavy and would not open….<$FFFE>
+49	The door was heavy and would not open…<$FFFE>
 # spk: Sigma
 50	<$FB00><$003A>Not only destroying my people, but<$FFFC>plunging El Sallia into war.<$FFF5> <$FB00><$003B>You'll atone<$FFFC>for that crime！<$FFFE>
 # spk: Grove
@@ -91,11 +91,11 @@
 # spk: Sigma
 52	<$FB00><$002D>I won't die in a place like this…<$FFFE>
 # spk: Mariandel
-53	<$FB00><$0048>Kh… but I can still go….<$FFFE>
+53	<$FB00><$0048>Kh… but I can still go…<$FFFE>
 # spk: Sigma
 54	<$FB00><$0049>Marie！ Don't push it, fall back！<$FFFE>
 # spk: Mariandel
-55	<$FB00><$004A>…Please, don't lose….<$FFFE>
+55	<$FB00><$004A>…Please, don't lose…<$FFFE>
 # spk: Alfred
 56	<$FB00><$003F>I cannot forgive you. Prepare<$FFFC>yourself！<$FFFE>
 # spk: Grove
@@ -119,17 +119,17 @@
 # spk: Clarett
 66	<$FB00><$003D>For the many citizens, and for<$FFFC>my father, I'll have my revenge！<$FFFE>
 # spk: Grove
-67	<$FB00><$003E>How unpleasant. Getting so worked<$FFFC>up<$FFF5><$FFF8>….<$FFFE>
+67	<$FB00><$003E>How unpleasant. Getting so worked<$FFFC>up<$FFF5><$FFF8>…<$FFFE>
 # spk: Clarett
 68	<$FB00><$005C>Ow！ Y, you！<$FFFE>
 # spk: Sigma
 69	<$FB00><$005D>Clarett！？ Don't overdo it！<$FFFE>
 # spk: Clarett
-70	<$FB00><$005E>B, but….<$FFFE>
+70	<$FB00><$005E>B, but…<$FFFE>
 # spk: Sigma
 71	<$FB00><$005F>Enough, fall back！<$FFFE>
 # spk: Clarett
-72	<$FB00><$0060>Sorry, at such a crucial<$FFFC>time….<$FFFE>
+72	<$FB00><$0060>Sorry, at such a crucial time…<$FFFE>
 # spk: Lanford
 73	<$FB00><$0041>Those who disturb the rest of<$FFFC>the dead, I cannot let live！<$FFFE>
 # spk: Grove
@@ -137,15 +137,15 @@
 # spk: Sigma
 75	<$FB00><$008A>Lanford！<$FFFE>
 # spk: Lanford
-76	<$FB00><$008B>…I'm all right…. I won't<$FFFC>leave it all to you…<$FFFE>
+76	<$FB00><$008B>…I'm all right… I won't leave<$FFFC>it all to you…<$FFFE>
 # spk: Sigma
 77	<$FB00><$008C>Trust us！<$FFFE>
 # spk: Lanford
 78	<$FB00><$008D>…Comrades, eh. Then I'll fall<$FFFC>back.<$FFFE>
 # spk: Monster
-79	…Lord Chaos….<$FFFE>
+79	…Lord Chaos…<$FFFE>
 # spk: Monster
-80	…GOOOO….<$FFFE>
+80	…GOOOO…<$FFFE>
 # spk: Monster
 81	SYAAAAA！<$FFFE>
 # spk: Monster
@@ -155,11 +155,11 @@
 # spk: Monster
 84	…V, victory… to the demons！<$FFFE>
 # spk: Monster
-85	…Curse… curse… curse…<$FFFC>curse… curse….<$FFFE>
+85	…Curse… curse… curse…<$FFFC>curse… curse…<$FFFE>
 # spk: Ferakia
-86	…U… uu….<$FFFE>
+86	…U… uu…<$FFFE>
 # spk: Monster
-87	…I'll devour… your<$FFFC>entrails….<$FFFE>
+87	…I'll devour… your entrails…<$FFFE>
 # spk: Grove
 88	<$FB00><$002E>Now, the final flourish.<$FFFE>
 # spk: Grove
@@ -169,7 +169,7 @@
 # spk: Grove
 91	<$FB00><$0043>I'll use you as a zombie too！<$FFFE>
 # spk: Grove
-92	<$FFF7><$FB00><$0044>Gwah！<$FFF5><$FFF8> …<$FFF6><$FB00><$0045>I… won't die… I'll<$FFFC>beat Gaiel… Gaiel I'll….<$FFF5> <$FFF7><$FB00><$0046>G, geh！<$FFFE>
+92	<$FFF7><$FB00><$0044>Gwah！<$FFF5><$FFF8> …<$FFF6><$FB00><$0045>I… won't die… I'll<$FFFC>beat Gaiel… Gaiel I'll…<$FFF5> <$FFF7><$FB00><$0046>G, geh！<$FFFE>
 # spk: Clarett
 93	<$FB00><$0047>This time he's really dead.<$FFFE>
 # spk: Brenda
@@ -177,7 +177,7 @@
 # spk: Lanford
 95	<$FFF8>…<$FFF6><$FB00><$0049>But there's no time to relax.<$FFFE>
 # spk: Sigma
-96	True enough, but<$FFF8>…. <$FFF6>those stairs<$FFFC>down trouble me. I'm tempted to<$FFFC>descend<$FFF8>….<$FFFE>
+96	True enough, but<$FFF8>… <$FFF6>those stairs<$FFFC>down trouble me. I'm tempted to descend<$FFF8>…<$FFFE>
 # spk: (no plate)
 97	Go underground？<$FFFE>
 # spk: Sigma

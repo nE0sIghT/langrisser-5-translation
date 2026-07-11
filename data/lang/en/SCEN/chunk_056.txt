@@ -68,7 +68,7 @@
 # spk: Omega
 39	<$FB00><$002B>I wanted to settle this now, but<$FFFC>another task comes first.<$FFFD><$FB00><$002C>Remember everything before we meet again,<$FFFC>or it won't be fun.<$FFFE>
 # spk: Sigma
-40	<$FB00><$002D>It was me<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$002E>Clarett killed me<$FFFC>once<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>…<$FFFE>
+40	<$FB00><$002D>It was me<$FFF5><$FFF8>…<$FE3C>…<$FE3C> <$FE3C><$FFF6><$FB00><$002E>Clarett killed me<$FFFC>once<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$002F>I can't tell her this<$FFF5><$FFF8>…<$FFFE>
 # spk: (no plate)
 41	<$0000>Rejected by Lenard too, Clarett went<$FFFC>east for another ally. <$0000>On the road,<$FFFC>another town suffered under heavy taxes…<$FFFE>
 # spk: (no plate)

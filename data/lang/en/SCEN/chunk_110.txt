@@ -13,7 +13,7 @@
 11	Mother<$FFFF>
 12	Malga Mountains<$FFFF>
 # spk: Brenda
-13	<$FB00><$005F>Lain<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+13	<$FB00><$005F>Lain<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Lainforce
 14	<$FB00><$0060>Hoho. So you are the ones who<$FFFC>took the holy sword. How convenient.<$FFFD><$FB00><$0061>To think I would gain the specimens along<$FFFC>with the sword.<$FFFE>
 # spk: Sigma
@@ -45,9 +45,9 @@
 # spk: Virash
 28	<$FB00><$006F>There you are. Did you find the<$FFFC>sword？<$FFFE>
 # spk: Alfred
-29	<$FB00><$0070>Virash. We got the sword,<$FFFC>but<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+29	<$FB00><$0070>Virash. We got the sword, but<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Clarett
-30	<$FB00><$0071>More importantly, Brenda chased<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+30	<$FB00><$0071>More importantly, Brenda chased<$FFFC>Lainforce<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Virash
 31	<$FB00><$0072>What？<$FFFE>
 # spk: Mariandel
@@ -55,7 +55,7 @@
 # spk: Virash
 33	<$FB00><$0074>The reactor？ That's bad！ You all<$FFFC>get out of here now！<$FFFE>
 # spk: Sigma
-34	<$FB00><$0075>But Brenda is<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+34	<$FB00><$0075>But Brenda is<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Virash
 35	<$FB00><$0076>I will handle her. Now hurry and<$FFFC>get out of here. Understand？<$FFFE>
 36	Airship, Nose Section<$FFFF>
@@ -74,13 +74,13 @@
 # spk: Lainforce
 43	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0080>Are you serious？<$FFFE>
 # spk: Brenda
-44	<$FB00><$0081>Believe me or don't. We will have<$FFFC>the answer soon enough<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+44	<$FB00><$0081>Believe me or don't. We will have<$FFFC>the answer soon enough<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Lainforce
-45	<$FB00><$0082>Good grief<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+45	<$FB00><$0082>Good grief<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Brenda
 46	<$FFFA><$FFF8><$FB00><$0083>Guh！<$FFFE>
 # spk: Lainforce
-47	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0084>Such a strong-willed<$FFFC>woman<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+47	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0084>Such a strong-willed<$FFFC>woman<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 48	Outside the airship<$FFFF>
 # spk: Virash
 49	<$FB00><$0085>Brenda！ Where are you, Brenda！<$FFFE>
@@ -95,7 +95,7 @@
 # spk: Virash
 54	<$FB00><$008B>Wh, what<$FFF5><$FFF7>…<$FE1E>…<$FE1E>！？<$FFFE>
 # spk: Lainforce
-55	<$FB00><$008C>If it were me, I would never<$FFFC>let her face danger, even if I had to<$FFFC>throw my life away.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>To lose to a man<$FFFC>like this？<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+55	<$FB00><$008C>If it were me, I would never<$FFFC>let her face danger, even if I had to<$FFFC>throw my life away.<$FFF5><$FFF8> …<$FE1E>…<$FE1E><$FFF6><$FB00><$008D>To lose to a man<$FFFC>like this？<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Lainforce
 56	<$FB00><$008E>Enough. Farewell.<$FFFE>
 # spk: Virash
@@ -108,37 +108,37 @@
 # spk: Gotahl mayor
 61	…<$FE1E>…<$FE1E><$FFF6><$FB00><$0092>You. What happened<$FFFC>here？<$FFFE>
 # spk: Brenda
-62	<$FB00><$0093>I… I do not know… I was up in<$FFFC>the hills. When I came back<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+62	<$FB00><$0093>I… I do not know… I was up in<$FFFC>the hills. When I came back<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Gotahl mayor
-63	<$FB00><$0094>It has rained so much<$FFFC>lately. Maybe the levee broke<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFD><$FFF6><$FB00><$0095>First, we have to help the wounded. You<$FFFC>help too.<$FFFE>
+63	<$FB00><$0094>It has rained so much<$FFFC>lately. Maybe the levee broke<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFD><$FFF6><$FB00><$0095>First, we have to help the wounded. You<$FFFC>help too.<$FFFE>
 # spk: Brenda
-64	<$FB00><$0096>Yes<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+64	<$FB00><$0096>Yes<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Mother
-65	<$FB00><$0097>Uuh<$FFF5><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
+65	<$FB00><$0097>Uuh<$FFF5><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Brenda
 66	<$FB00><$0098>Ah, she is still breathing.<$FFFE>
 # spk: Gotahl mayor
 67	<$FB00><$0099>What？<$FFFE>
 # spk: Mother
-68	<$FB00><$009A>This child… and this crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+68	<$FB00><$009A>This child… and this crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Gotahl mayor
 69	<$FB00><$009B>Stay with us！<$FFFE>
 # spk: Mother
 70	<$FB00><$009C>Please<$FFFA>… take the boy<$FFF5><$FFF8>…<$FE1E>…<$FFFE>
 # spk: Gotahl mayor
-71	<$FB00><$009D>Y, yes. I swear I will care<$FFFC>for him<$FFF5><$FFF8>…<$FE1E>.<$FFFE>
+71	<$FB00><$009D>Y, yes. I swear I will care<$FFFC>for him<$FFF5><$FFF8>…<$FE1E><$FFFE>
 # spk: Mother
-72	<$FFFA><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E>.<$FFFE>
+72	<$FFFA><$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Brenda
-73	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$009E>How terrible<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+73	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$009E>How terrible<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Gotahl mayor
 74	<$FB00><$009F>Do you know what this<$FFFC>crystal is？<$FFFE>
 # spk: Brenda
-75	<$FB00><$00A0>It is the Sage Crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FE1E> <$FFF6><$FB00><$00A1>It<$FFFC>is Recrio Village's treasure.<$FFFD><$FB00><$00A2>Are there any other survivors？<$FFFE>
+75	<$FB00><$00A0>It is the Sage Crystal<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FE1E> <$FFF6><$FB00><$00A1>It is<$FFFC>Recrio Village's treasure.<$FFFD><$FB00><$00A2>Are there any other survivors？<$FFFE>
 # spk: Gotahl mayor
-76	<$FFFA><$FB00><$00A3>No, no one else<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+76	<$FFFA><$FB00><$00A3>No, no one else<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Brenda
-77	<$FB00><$00A4>I see<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+77	<$FB00><$00A4>I see<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Brenda
 78	<$FFF6><$FB00><$00A5>Please<$FFF5><$FFF8>…<$FE1E>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00A6>I ask this of you as<$FFFC>well. Keep this crystal in your village.<$FFFC>And give it to no one.<$FFFE>
 # spk: Gotahl mayor

@@ -23,13 +23,13 @@
 # spk: Eric
 19	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0050>Clarett. So you won. …I'm<$FFFC>glad.<$FFFE>
 # spk: Clarett
-20	<$FB00><$0051>Yes. You destroyed the cannon…<$FFFC>We owe this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+20	<$FB00><$0051>Yes. You destroyed the cannon…<$FFFC>We owe this victory to you<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Eric
 21	<$FFF8>…<$FE3C>…<$FE3C><$FFF6><$FB00><$0052>So I have atoned… Now I can die<$FFFC>in peace<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Clarett
 22	<$FB00><$0053>Don't you give up！ We'll treat<$FFFC>you right away！<$FFFE>
 # spk: Eric
-23	…<$FB00><$0054>I'm sorry, Clarett. Without me,<$FFFC>your fight might have been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
+23	…<$FB00><$0054>I'm sorry, Clarett. Without me,<$FFFC>your fight might have been easier<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFD><$FFF6><$FB00><$0055>Your ideal is beautiful. You will rebuild<$FFFC>this country, I know it<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFD><$FFF6><$FB00><$0056>If only I could have seen i<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Clarett
 24	<$FB00><$0057>Eriiiic！<$FFFE>
 25	Federation Castle, Dungeon<$FFFF>
@@ -44,7 +44,7 @@
 # spk: Emily
 30	<$FB00><$005C>Surely something can be done！<$FFFE>
 # spk: Lanford
-31	<$FB00><$005D>You are<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+31	<$FB00><$005D>You are<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Landius
 32	<$FB00><$005E>Shh！<$FFF8><$FFF5><$FFFD><$FFF6><$FB00><$005F>Quietly. Follow me.<$FFFE>
 33	In the mountains<$FFFF>
@@ -59,7 +59,7 @@
 # spk: Soldier
 38	<$FB00><$0064>Nothing so far.<$FFFE>
 # spk: Virash
-39	<$FB00><$0065>Could they be headed somewhere<$FFFC>else？ If so<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+39	<$FB00><$0065>Could they be headed somewhere<$FFFC>else？ If so<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Soldier
 40	<$FB00><$0066>Lord Virash, enemy detected.<$FFFE>
 # spk: Virash
@@ -87,7 +87,7 @@
 # spk: Leader
 53	<$FB00><$0072>Marshal Lanford has escaped the<$FFFC>dungeon！<$FFFE>
 # spk: Russel
-54	<$FFF7><$FB00><$0073>Hoh<$FFF5><$FFF8><$FE3C>…<$FE3C>,<$FE3C><$FFF6><$FB00><$0074>escaping before his<$FFFC>trial<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$0075>Now we may execute him<$FFFC>openly<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFD><$FFF6><$FB00><$0076>What of the pursuit？<$FFFE>
+54	<$FFF7><$FB00><$0073>Hoh<$FFF5><$FFF8><$FE3C>…<$FE3C>,<$FE3C><$FFF6><$FB00><$0074>escaping before his<$FFFC>trial<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FE3C> <$FFF6><$FB00><$0075>Now we may execute him<$FFFC>openly<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFD><$FFF6><$FB00><$0076>What of the pursuit？<$FFFE>
 # spk: Leader
 55	<$FB00><$0077>Caconsis hands seem to have aided<$FFFC>him. They head south.<$FFFE>
 # spk: Russel
@@ -95,6 +95,6 @@
 # spk: Russel
 57	<$FFF8>…<$FE3C><$FFF6><$FB00><$0079>Hm. I have an idea. Let him run<$FFFC>for now！<$FFFE>
 # spk: Leader
-58	<$FFF7><$FB00><$007A>Y, yes<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FE3C> <$FFF6><$FB00><$007B>As you command.<$FFFE>
+58	<$FFF7><$FB00><$007A>Y, yes<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FE3C> <$FFF6><$FB00><$007B>As you command.<$FFFE>
 # spk: Russel
 59	<$FB00><$007C>If Caconsis shelters a fugitive,<$FFFC>war has fresh kindling. Interesting.<$FFFE><$FFFF>

@@ -17,7 +17,7 @@
 # spk: Alfred
 13	<$FB00><$0005>No, Lanford. To break the curse,<$FFFC>it could just as well be me.<$FFFE>
 # spk: Lanford
-14	<$FB00><$0006>Alfred, what are you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+14	<$FB00><$0006>Alfred, what are you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Alfred
 15	<$FB00><$0007>I have no father and no brother<$FFFC>left. But you still have your father.<$FFFD><$FB00><$0008>If the curse breaks, you can be with Lord<$FFFC>Lambert again, can't you？<$FFFE>
 # spk: Lanford
@@ -25,9 +25,9 @@
 # spk: (no plate)
 17	<$FB00><$000B>No, it will not be you either, Lanford.<$FFFE>
 # spk: Lanford
-18	<$FB00><$000C>F, father<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+18	<$FB00><$000C>F, father<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Alfred
-19	<$FB00><$000D>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FB00><$000D>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lambert
 20	<$FB00><$000E>It's been a while, you two.<$FFFE>
 # spk: Lanford
@@ -43,7 +43,7 @@
 # spk: Lambert
 26	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0016>You're a Federation marshal<$FFFC>now. You've done well, Lanford. Forgive me<$FFFC>for treating you so harshly all this time.<$FFFE>
 # spk: Lanford
-27	<$FB00><$0017>How can you say that！<$FFF5> <$FB00><$0018>You were<$FFFC>harsh with me only because you cared<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$0019>Masterson told me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+27	<$FB00><$0017>How can you say that！<$FFF5> <$FB00><$0018>You were<$FFFC>harsh with me only because you cared<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFC><$FFF6><$FB00><$0019>Masterson told me<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lambert
 28	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$001A>That Masterson. A<$FFFC>tight-lipped man, but he couldn't take it<$FFFC>to the grave after all.<$FFFE>
 # spk: Lambert
@@ -53,22 +53,22 @@
 # spk: Lanford
 31	<$FB00><$001F>Faaather！<$FFF5><$FFF7><$FFFE>
 # spk: Alfred
-32	<$FB00><$0020>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+32	<$FB00><$0020>Lord Lambert<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
-33	<$FFF8><$FFFA><$FB00><$0021>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+33	<$FFF8><$FFFA><$FB00><$0021>…<$FE14>…<$FE14>…<$FE14><$FFFE>
 # spk: Clarett
-34	<$FFF8>…<$FE14><$FFF6><$FB00><$0022>Lanford<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+34	<$FFF8>…<$FE14><$FFF6><$FB00><$0022>Lanford<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 35	<$FB00><$0023>Let's go. To the city of Valtar.<$FFF5><$FFFC><$FB00><$0024>To stop Lainforce's ambition！<$FFFE>
 # spk: Brenda
 36	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0025>This time I'll settle it for<$FFFC>good, Lain！<$FFFE>
 37	Demon Stronghold<$FFFF>
 # spk: Ferakia
-38	<$FB00><$0026>Argh, damn it！ Why do they have<$FFFC>Langrisser！<$FFFD><$FB00><$0027>Without that, there's no way I'd have<$FFFC>lost<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+38	<$FB00><$0026>Argh, damn it！ Why do they have<$FFFC>Langrisser！<$FFFD><$FB00><$0027>Without that, there's no way I'd have<$FFFC>lost<$FFF5><$FFF8>…<$FE14>…<$FE14>…<$FE14><$FFFE>
 # spk: Gaiel
 39	<$FB00><$0028>You're in a temper, Ferakia.<$FFF5> <$FB00><$0029>It<$FFFC>ruins that lovely face.<$FFFE>
 # spk: Ferakia
-40	<$FB00><$002A>Shut up！<$FFF5> <$FB00><$002B>It's your fault for<$FFFC>leaving Langrisser to Grove in the first<$FFFC>place<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+40	<$FB00><$002A>Shut up！<$FFF5> <$FB00><$002B>It's your fault for<$FFFC>leaving Langrisser to Grove in the first<$FFFC>place<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Gaiel
 41	<$FB00><$002C>You're saying Grove losing it is<$FFFC>my fault？<$FFF5> <$FB00><$002D>That's a baseless charge.<$FFFE>
 # spk: Ferakia
@@ -78,7 +78,7 @@
 # spk: Ferakia
 44	<$FB00><$0031>Crimzo has the Chaos Gate, you<$FFFC>know？ And Crimzo only comes around every<$FFFC>200 years.<$FFFD><$FB00><$0032>Buoyed by Lord Chaos's power, our strength<$FFFC>is amplified. Now is the best chance！<$FFFE>
 # spk: Gaiel
-45	<$FB00><$0033>I'm well aware.<$FFF5> <$FB00><$0034>But there's no<$FFFC>need to risk ourselves aiding Crimzonia.<$FFFD><$FB00><$0035>In just 200 more years, Crimzonia dies<$FFFC>out. After that, at our leisure<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+45	<$FB00><$0033>I'm well aware.<$FFF5> <$FB00><$0034>But there's no<$FFFC>need to risk ourselves aiding Crimzonia.<$FFFD><$FB00><$0035>In just 200 more years, Crimzonia dies<$FFFC>out. After that, at our leisure<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Ferakia
 46	<$FB00><$0036>You're far too cautious. For<$FFFC>one, who's to say we demons won't be wiped<$FFFC>out before the next 200 years？<$FFFE>
 # spk: Gaiel
@@ -96,7 +96,7 @@
 # spk: Gaiel
 53	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF9><$FFF6><$FB00><$0040>Understood.<$FFFE>
 # spk: Ferakia
-54	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0041>Honestly, that man's grown<$FFFC>so arrogant the moment Lord Böser<$FFFC>vanished<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+54	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0041>Honestly, that man's grown<$FFFC>so arrogant the moment Lord Böser<$FFFC>vanished<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: (no plate)
 55	<$0000>Lambert told them Lainforce's aim, then<$FFFC>took his own life to break the curse on<$FFFC>his house. <$0000>The sky battleship Lainforce<$FFFC>seeks is buried in the city of Valtar.<$FFFD><$0000>Rushing into the city, the party found<$FFFC>the Crimzonian Knights led by Omega, and<$FFFC>McClaine standing against them.<$FFFE>
 # spk: (no plate)

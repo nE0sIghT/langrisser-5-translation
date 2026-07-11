@@ -19,7 +19,7 @@
 # spk: Clarett
 13	<$FB00><$0075>Huh？ What are you talking<$FFFC>about？<$FFFE>
 # spk: Alfred
-14	<$FB00><$0076>Don't play dumb！ With the<$FFFC>medicine you gave me, Father<$FFF5>…<$FE1E>…<$FFFC><$FE1E><$FB00><$0077>Father<$FFF5>…<$FE1E>…<$FE1E>. <$FE1E><$FB00><$0078>He died！<$FFFE>
+14	<$FB00><$0076>Don't play dumb！ With the<$FFFC>medicine you gave me, Father<$FFF5>…<$FE1E>… <$FE1E><$FB00><$0077>Father<$FFF5>…<$FE1E>…<$FE1E><$FFFC><$FE1E><$FB00><$0078>He died！<$FFFE>
 # spk: Clarett
 15	<$FB00><$0079>Wait a second！ I never gave you<$FFFC>poison！<$FFFE>
 # spk: Alfred
@@ -77,7 +77,7 @@
 # spk: Clarett
 42	<$FB00><$0099>Lady Jessica, if you're<$FFFC>returning to El Sallia, take me too！<$FFFE>
 # spk: Jessica
-43	<$FB00><$009A>The ship to El Sallia seems to<$FFFC>have already left<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+43	<$FB00><$009A>The ship to El Sallia seems to<$FFFC>have already left<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Clarett
 44	<$FB00><$009B>We can still see it, but the<$FFFC>next ship is in two days.<$FFFE>
 # spk: Jessica
@@ -141,11 +141,11 @@
 # spk: Alfred
 74	<$FB00><$00C0>Then that town really was<$FFF5><$FFF8>…<$FFFE>
 # spk: Lambda
-75	<$FFF8>…<$FE32>…<$FE32>…<$FE32>.<$FFFE>
+75	<$FFF8>…<$FE32>…<$FE32>…<$FE32><$FFFE>
 # spk: McClaine
 76	<$FB00><$00C2>But thank goodness. You're safe,<$FFFC>and only your hair changed.<$FFFD><$FB00><$00C3>I'm so glad<$FFF5><$FFF8>… <$FFF6><$FB00><$00C4>Mother and Father will be<$FFFC>overjoyed！<$FFFE>
 # spk: Lambda
-77	<$FB00><$00C5>But<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C6>I<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C7>I<$FFF5><$FFF8>…<$FE3C>…<$FE3C>.<$FFFE>
+77	<$FB00><$00C5>But<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C6>I<$FFF5>…<$FE3C>…<$FE3C><$FB00><$00C7>I<$FFF5><$FFF8>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Sigma
 78	<$FB00><$00C8>Lambda！<$FFFE>
 # spk: Brenda
@@ -235,7 +235,7 @@
 # spk: Alfred
 122	<$FB00><$0106>Yes, I'll go too<$FFF5><$FFF7>…<$FFFE>
 # spk: Lambda
-123	<$FFF8>…<$FFF6><$FB00><$0107>Um<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14>. <$FE14><$FFF6><$FB00><$0108>Tell me about my past <$FFF5><$FFF8>…<$FFFE>
+123	<$FFF8>…<$FFF6><$FB00><$0107>Um<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14> <$FE14><$FFF6><$FB00><$0108>Tell me about my past <$FFF5><$FFF8>…<$FFFE>
 # spk: McClaine
 124	<$FB00><$0109>Well, you loved flowers<$FFF5><$FFF8>…<$FFFE>
 # spk: McClaine

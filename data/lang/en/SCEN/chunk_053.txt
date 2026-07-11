@@ -8,7 +8,7 @@
 6	Lanford<$FFFF>
 7	Abandoned Village near Fizzit Port<$FFFF>
 # spk: Lambda
-8	<$FFF8>…<$FB00><$0003><$FE3C>…<$FE3C>…<$FE3C>.<$FFFE>
+8	<$FFF8>…<$FB00><$0003><$FE3C>…<$FE3C>…<$FE3C><$FFFE>
 # spk: Sigma
 9	<$FB00><$0004>What's wrong, Lambda？<$FFFE>
 # spk: Lambda

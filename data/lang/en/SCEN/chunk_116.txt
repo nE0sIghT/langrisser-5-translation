@@ -14,29 +14,29 @@
 # spk: Lainforce
 11	<$FB00><$006B>Where's gone the bravado you<$FFFC>had just now？<$FFFE>
 # spk: McClaine
-12	<$FB00><$006C>That's filthy, Lainforce！ Using<$FFFC>hostages<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+12	<$FB00><$006C>That's filthy, Lainforce！ Using<$FFFC>hostages<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 13	<$FB00><$006D>How is it filthy. Without<$FFFC>spending soldiers or spilling blood, I can<$FFFC>capture you.<$FFF5> <$FB00><$006E>Is there a cleaner plan than<$FFFC>this？<$FFFE>
 # spk: McClaine
-14	<$FFFA><$FFF8><$FB00><$006F>…Kh….<$FFFE>
+14	<$FFFA><$FFF8><$FB00><$006F>…Kh…<$FFFE>
 # spk: Lanford
 15	<$FB00><$0070>Hah, McClaine！<$FFFE>
 # spk: Mariandel
 16	<$FB00><$0071>Brother！<$FFFE>
 # spk: Lainforce
-17	<$FB00><$0072>Ho. So you're brother and<$FFFC>sister<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+17	<$FB00><$0072>Ho. So you're brother and<$FFFC>sister<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
 18	<$FB00><$0073>Taking hostages<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0074>how low can<$FFFC>you sink！<$FFFE>
 # spk: Mother
-19	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$0075>Mariandel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0076>You're<$FFFC>alive, both of you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+19	<$FE00>…<$FE14>…<$FE14><$FFF6><$FB00><$0075>Mariandel<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$0076>You're alive,<$FFFC>both of you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Mariandel
 20	<$FB00><$0077>M… mother<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
 # spk: McClaine
-21	<$FB00><$0078>That's how it is, Marie<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E><$FFFC><$FFF6><$FB00><$0079>Like this, we can't lift a finger<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+21	<$FB00><$0078>That's how it is, Marie<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE1E><$FFFC><$FFF6><$FB00><$0079>Like this, we can't lift a finger<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 22	<$FB00><$007A>Omega's report told me she's<$FFFC>from Poria. So I took her into custody.<$FFFE>
 # spk: Mother
-23	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>Forgive me, Mariandel.<$FFFC>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$007B>Forgive me, Mariandel.<$FFFC>McClaine<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 24	<$FB00><$007C>Now, the touching reunion ends<$FFFC>here.<$FFF5><$FFFB> <$FB00><$007D>I too dislike pointless killing.<$FFFC>Let's make a deal.<$FFFE>
 # spk: Sigma
@@ -56,17 +56,17 @@
 # spk: Lainforce
 32	<$FB00><$0088>Don't be so alarmed. I'll do<$FFFC>her no harm. I only want to borrow her<$FFFC>power. The power to commune with the World<$FFFC>Tree.<$FFFE>
 # spk: Sigma
-33	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0089>How do you know that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+33	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0089>How do you know that<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 34	<$FB00><$008A>No wonder. It was I who gave<$FFFC>Gizarof the World Tree sample.<$FFFD><$FB00><$008B>Her remodeling used the World Tree. That's<$FFFC>why she holds so vast a magic capacity.<$FFFE>
 # spk: Mariandel
-35	<$FB00><$008C>The World Tree, in my<$FFFC>body<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+35	<$FB00><$008C>The World Tree, in my body<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
-36	<$FB00><$008D>So that's why she can talk to<$FFFC>plants<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+36	<$FB00><$008D>So that's why she can talk to<$FFFC>plants<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
-37	<$FB00><$008E>Just so.<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$008F>The World Tree, king<$FFFC>of all plants<$FFF5><$FFF8>….<$FFFD><$FFF6><$FB00><$0090>It births mana into this world, communes<$FFFC>with all plants, and bends mana at will.<$FFFC>Naturally, she holds that power too.<$FFFE>
+37	<$FB00><$008E>Just so.<$FFF5><$FFF8><$FE3C> <$FFF6><$FB00><$008F>The World Tree, king<$FFFC>of all plants<$FFF5><$FFF8>…<$FFFD><$FFF6><$FB00><$0090>It births mana into this world, communes<$FFFC>with all plants, and bends mana at will.<$FFFC>Naturally, she holds that power too.<$FFFE>
 # spk: Brenda
-38	<$FB00><$0091>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0092>mean to<$FFFC>gather mana<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+38	<$FB00><$0091>Don't tell me, you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0092>mean to<$FFFC>gather mana<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
 39	<$FB00><$0093>Oho, you noticed.<$FFFD><$FB00><$0094>You know our homeland Crimzo faces<$FFFC>extinction.<$FFFD><$FB00><$0095>On its 200-year extreme elliptical orbit,<$FFFC>Crimzo scarcely receives the sun. In that<$FFFC>time we pass the years in long sleep.<$FFFD><$FB00><$0096>But the cold-sleep devices need mana too.<$FFFC>Crimzo, its mana near spent, has no next<$FFFC>200 years.<$FFFD><$FB00><$0097>And since Chaos was summoned, the Chaos<$FFFC>Gate left open on Crimzo is active.<$FFFD><$FB00><$0098>Left alone, monsters from the Gate will<$FFFC>destroy the kin still on Crimzo.<$FFFE>
 # spk: Brenda
@@ -74,9 +74,9 @@
 # spk: Lainforce
 41	<$FB00><$009A>This is our first and last<$FFFC>chance.<$FFF5> <$FB00><$009B>For it we spent 200 years<$FFFC>planting World Trees and filling this land<$FFFC>with mana.<$FFFD><$FB00><$009C>To carry out this plan, I'll be ogre or<$FFFC>devil！ Until you cooperate, I'll spare no<$FFFC>slaughter！<$FFFE>
 # spk: Sigma
-42	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$009D>He means it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF9><$FFF6><$FB00><$009E>Please cooperate, Marie.<$FFFE>
+42	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$009D>He means it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFD><$FFF9><$FFF6><$FB00><$009E>Please cooperate, Marie.<$FFFE>
 # spk: Alfred
-43	<$FB00><$009F>But if Crimzo stops<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+43	<$FB00><$009F>But if Crimzo stops<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 44	<$FB00><$00A0>It means they gain the<$FFFC>advantage.<$FFFE>
 # spk: Mariandel
@@ -92,7 +92,7 @@
 # spk: Sigma
 50	<$FB00><$00A8>Don't be reckless！ Trust us！<$FFF5><$FE3C><$FFFC><$FB00><$00A9>Even if Crimzo is saved, we won't hand the<$FFFC>surface to them！<$FFFE>
 # spk: Mariandel
-51	<$FB00><$00AA>But<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+51	<$FB00><$00AA>But<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Sigma
 52	<$FB00><$00AB>For now, do as he says. Let's give<$FFFC>them a chance to live too.<$FFFD><$FB00><$00AC>Leave what comes after to me！ I'll never<$FFFC>give up the surface！<$FFFE>
 # spk: Mariandel

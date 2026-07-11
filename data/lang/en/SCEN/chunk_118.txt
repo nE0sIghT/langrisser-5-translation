@@ -13,11 +13,11 @@
 11	Emily<$FFFF>
 12	After the Battle<$FFFF>
 # spk: Lainforce
-13	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0038>Gh… it can't be<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0039>that I<$FFFC>should be the one defeated<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+13	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0038>Gh… it can't be<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0039>that I<$FFFC>should be the one defeated<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 14	<$FB00><$003A>Lainforce. As promised, answer<$FFFC>my question.<$FFFE>
 # spk: Lainforce
-15	<$FB00><$003B>What is it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+15	<$FB00><$003B>What is it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 16	<$FB00><$003C>What is your true aim.<$FFFE>
 # spk: Lainforce
@@ -29,17 +29,17 @@
 # spk: Brenda
 20	<$FB00><$0041>I want to know too. At the least,<$FFFC>I've a right to ask.<$FFFD><$FB00><$0042>If you only meant to restore Crimzo's<$FFFC>orbit, why did you have to attack my<$FFFC>village？<$FFFE>
 # spk: Lainforce
-21	<$FB00><$0043>That was<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+21	<$FB00><$0043>That was<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Aizel
-22	<$FB00><$0044>I'll tell the rest from here<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+22	<$FB00><$0044>I'll tell the rest from here<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
-23	<$FB00><$0045>Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+23	<$FB00><$0045>Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Mariandel
 24	<$FB00><$0046>And Virash too！ You, you're<$FFFC>the one who attacked our village<$FFF5><$FFF8>…<$FE14>…<$FE14>！<$FFFE>
 # spk: Virash
 25	<$FB00><$0047>Don't be so hasty, Brenda.<$FFF5> <$FB00><$0048>He has<$FFFC>something to say at the end.<$FFF5> <$FE28><$FB00><$0049>It'd be good<$FFFC>to hear his last wish.<$FFFE>
 # spk: Brenda
-26	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$004A>All right<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+26	<$FFF8>…<$FE1E>…<$FE1E>…<$FE1E><$FFF6><$FB00><$004A>All right<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 27	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$004B>Forgive me, Lord Virash, Lady<$FFFC>Brenda.<$FFFE>
 # spk: Aizel
@@ -49,71 +49,71 @@
 # spk: Aizel
 30	<$FB00><$004E>At first, Lord Lainforce and I<$FFFC>approached Recrio Village. It kept a map<$FFFC>of the Crimzo Lander military sites used<$FFFC>in the last great war.<$FFFE>
 # spk: Landius
-31	<$FB00><$004F>Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+31	<$FB00><$004F>Recrio Village<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Emily
 32	<$FFF8><$FB00><$0050>Shh！<$FFFE>
 # spk: Aizel
 33	<$FB00><$0051>But there Lord Lainforce met you,<$FFFC>Lady Brenda, and his heart changed.<$FFFE>
 # spk: Lainforce
-34	<$FFFA><$FB00><$0052>Stop, Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+34	<$FFFA><$FB00><$0052>Stop, Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 35	<$FB00><$0053>No. I cannot pass on until I clear<$FFFC>the misunderstanding between you two.<$FFFC>Forgive my rudeness, but let me speak.<$FFFE>
 # spk: Lainforce
-36	<$FFF8><$FFFA>…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+36	<$FFF8><$FFFA>…<$FE14>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 37	<$FB00><$0054>That Lord Lainforce's feelings<$FFFC>then were no lie, you, Lady Brenda, of all<$FFFC>people, must know best.<$FFFE>
 # spk: Brenda
-38	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>I didn't want to doubt it<$FFFC>either<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0056>but<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+38	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0055>I didn't want to doubt it<$FFFC>either<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0056>but<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 39	<$FB00><$0057>Lord Lainforce was taken with you.<$FFFC>And Crimzonia's long-held wish, to rule<$FFFC>this surface once more, came into peril.<$FFFD><$FB00><$0058>So Zero lied to Lord Lainforce. That you<$FFFC>already had a fiancee, and weren't serious<$FFFC>about him.<$FFFE>
 # spk: Lainforce
-40	<$FB00><$0059>What！<$FFF5><$FFF8><$FE1E><$FE1E> <$FFF6><$FB00><$005A>But I… saw Brenda and<$FFFC>that man talking fondly<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+40	<$FB00><$0059>What！<$FFF5><$FFF8><$FE1E><$FE1E> <$FFF6><$FB00><$005A>But I… saw Brenda and<$FFFC>that man talking fondly<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
-41	<$FFF6><$FB00><$005B>I saw Brenda laughing happily at<$FFFC>that man's words<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+41	<$FFF6><$FB00><$005B>I saw Brenda laughing happily at<$FFFC>that man's words<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
-42	<$FB00><$005C>Talking fondly<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF6><$FB00><$005D>Virash is like a brother to me, you know？<$FFFE>
+42	<$FB00><$005C>Talking fondly<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFD><$FFF6><$FB00><$005D>Virash is like a brother to me, you know？<$FFFE>
 # spk: Virash
 43	<$FB00><$005E>I carried messages between the<$FFFC>Crimzo Landers, so I was rarely in Recrio<$FFFC>Village.<$FFFD><$FB00><$005F>You must have seen the time I came home<$FFFC>after long and she was sharing news with<$FFFC>me.<$FFFE>
 # spk: Lainforce
-44	<$FB00><$0060>Then<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0061>it was a<$FFFC>misunderstanding<$FFF5><$FFF8>…<$FE1E>…<$FE14>.<$FFFE>
+44	<$FB00><$0060>Then<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0061>it was a<$FFFC>misunderstanding<$FFF5><$FFF8>…<$FE1E>…<$FE14><$FFFE>
 # spk: Aizel
 45	<$FB00><$0062>Looking back, even that<$FFFC>misunderstanding may have been carefully<$FFFC>set up by Zero.<$FFFD><$FB00><$0063>Zero, who always forced heavy duties on<$FFFC>him, on that one day allowed Lord<$FFFC>Lainforce to go out.<$FFFE>
 # spk: Lainforce
-46	<$FB00><$0064>Why would Zero go so far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+46	<$FB00><$0064>Why would Zero go so far<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 47	<$FB00><$0065>That man was faithful to his duty.<$FFFC>Faithful enough to kill his own feelings<$FFFC>for it.<$FFFD><$FB00><$0066>Would Lord Lainforce's change of heart<$FFFC>doom Crimzonia. That alone was on his<$FFFC>mind.<$FFFD><$FB00><$0067>One day, Zero ordered me thus. Attack<$FFFC>Recrio Village, without Lord Lainforce.<$FFFD><$FB00><$0068>So on my own, I called Lady Brenda to that<$FFFC>hill, and attacked the village meanwhile.<$FFF5><$FE1E><$FE14><$FFFC><$FB00><$0069>That deepened the misunderstanding between<$FFFC>you two.<$FFFD><$FB00><$006A>I am sorry.<$FFFE>
 # spk: Lainforce
-48	<$FB00><$006B>So that's how it was<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE3C> <$FFF6><$FB00><$006C>I<$FFFC>put you through nothing but pain. My<$FFFC>thanks.<$FFFE>
+48	<$FB00><$006B>So that's how it was<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE3C> <$FFF6><$FB00><$006C>I<$FFFC>put you through nothing but pain. My<$FFFC>thanks.<$FFFE>
 # spk: Clarett
 49	<$FB00><$006D>But why？<$FFF5> <$FB00><$006E>You who loved Brenda<$FFFC>so much, why do you fight like this？<$FFFE>
 # spk: Lainforce
-50	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006F>Zero's influence, perhaps.<$FFFD><$FB00><$0070>I am a prince of Crimzonia. A prince must<$FFFC>cast off private feeling for his people.<$FFFD><$FFF9><$FB00><$0071>Brenda. When our love ended, I awoke to my<$FFFC>duty.<$FFFD><$FB00><$0072>And to forget you, I cast myself<$FFFC>away<$FFF5><$FFF8>…<$FE1E>…<$FE1E>.<$FFFE>
+50	<$FFFA><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$006F>Zero's influence, perhaps.<$FFFD><$FB00><$0070>I am a prince of Crimzonia. A prince must<$FFFC>cast off private feeling for his people.<$FFFD><$FFF9><$FB00><$0071>Brenda. When our love ended, I awoke to my<$FFFC>duty.<$FFFD><$FB00><$0072>And to forget you, I cast myself away<$FFF5><$FFF8>…<$FE1E>…<$FE1E><$FFFE>
 # spk: Brenda
-51	<$FB00><$0073>Lain<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+51	<$FB00><$0073>Lain<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
-52	<$FB00><$0074>But I lost<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FB00><$0075>Crimzonia<$FFFC>is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF8><$FFFA><$FB00><$0076>Heh.<$FFF5><$FE28> <$FFF6><$FB00><$0077>What was it all for, the<$FFFC>things I've done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+52	<$FB00><$0074>But I lost<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FB00><$0075>Crimzonia<$FFFC>is<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF8><$FFFA><$FB00><$0076>Heh.<$FFF5><$FE28> <$FFF6><$FB00><$0077>What was it all for, the<$FFFC>things I've done<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 53	<$FB00><$0078>Lord Lainforce. Do you still cling<$FFFC>to winning and losing？<$FFFD><$FB00><$0079>And you did stop Crimzo. Now, isn't it all<$FFFC>right to show your true feelings？<$FFFE>
 # spk: Lainforce
-54	<$FB00><$007A>My<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007B>true<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007C>feelings, you<$FFFC>say….<$FFFE>
+54	<$FB00><$007A>My<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007B>true<$FFF5><$FFF8>…<$FE1E><$FFF6><$FB00><$007C>feelings, you say…<$FFFE>
 # spk: Aizel
 55	<$FB00><$007D>Your wish was to save Crimzonia<$FFFC>from its crisis.<$FFFD><$FFF6><$FB00><$007E>Just because some of Crimzonia long for<$FFFC>past glory, you need not pursue it.<$FFFD><$FB00><$007F>You, the prince, hold the right to decide<$FFFC>your people's future.<$FFFE>
 # spk: Lainforce
 56	<$FB00><$0080>What would you have me do,<$FFFC>Aizel.<$FFFE>
 # spk: Aizel
-57	<$FB00><$0081>Coexistence. You once said this to<$FFFC>me. How wonderful it would be to coexist<$FFFC>with surface-dwellers, like the Crimzo<$FFFC>Landers.<$FFFD><$FB00><$0082>I am of the surface, yet I believe you and<$FFFC>I understood each other. It is by no means<$FFFC>impossible<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+57	<$FB00><$0081>Coexistence. You once said this to<$FFFC>me. How wonderful it would be to coexist<$FFFC>with surface-dwellers, like the Crimzo<$FFFC>Landers.<$FFFD><$FB00><$0082>I am of the surface, yet I believe you and<$FFFC>I understood each other. It is by no means<$FFFC>impossible<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lainforce
-58	<$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0083>True.<$FFFD>I'm one who lost once.<$FFF5><$FFF8><$FE1E> <$FFF6><$FB00><$0084>But what we have<$FFFC>done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+58	<$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$0083>True.<$FFFD>I'm one who lost once.<$FFF5><$FFF8><$FE1E> <$FFF6><$FB00><$0084>But what we have<$FFFC>done<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 59	<$FB00><$0085>We Crimzo Landers only wish to<$FFFC>live quietly alongside humans. If<$FFFC>Crimzonia has no will to fight, there's no<$FFFC>need to be enemies.<$FFFD><$FB00><$0086>And your last trump card, the sky<$FFFC>battleship, was sunk by the ultimate<$FFFC>weapon's attack.<$FFFE>
 # spk: Lainforce
-60	<$FB00><$0087>What！<$FFF5><$FFF7><$FE1E> <$FFF6><$FB00><$0088>Then Zero is<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+60	<$FB00><$0087>What！<$FFF5><$FFF7><$FE1E> <$FFF6><$FB00><$0088>Then Zero is<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 61	<$FB00><$0089>Now is not the time to quarrel<$FFFC>among ourselves.<$FFFD><$FB00><$008A>Unless we take Alhazard from the<$FFFC>demons<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008B>no, the true holy sword, this<$FFFC>surface will fall into their hands.<$FFFE>
 # spk: Lainforce
 62	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008C>Understood.<$FFFE>
 # spk: Aizel
-63	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008D>It seems my part is done<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+63	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$008D>It seems my part is done<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Aizel
 64	<$FFF6><$FB00><$008E>That I cannot see the world where<$FFFC>Lord Lainforce and humans coexist<$FE14>…<$FE14>…<$FE14><$FFFC>is<$FE14>…<$FE14>…<$FE14> my one regret<$FE14>…<$FE14>…<$FFF5><$FFFE>
 # spk: Lainforce
@@ -121,7 +121,7 @@
 # spk: Aizel
 66	…<$FE1E>…<$FE1E><$FB00><$0090>Lain…for…ce…, my lord…<$FFF5><$FFF8><$FFFE>
 # spk: Lainforce
-67	<$FFFA><$FB00><$0091>I'm sorry, Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0092>I put<$FFFC>you through nothing but hardship<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFD><$FFF6><$FB00><$0093>My debt I'll repay by saving this world.<$FFFC>Watch over me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+67	<$FFFA><$FB00><$0091>I'm sorry, Aizel<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$0092>I put<$FFFC>you through nothing but hardship<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFD><$FFF6><$FB00><$0093>My debt I'll repay by saving this world.<$FFFC>Watch over me<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Lainforce
 68	<$FFF6><$FB00><$0094>But so the use of the ultimate<$FFFC>weapon is known at last.<$FFFE>
 # spk: Sigma
@@ -133,9 +133,9 @@
 # spk: Alfred
 72	<$FB00><$0098>That moon is artificial！？<$FFFE>
 # spk: Mariandel
-73	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0099>Unbelievable<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+73	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0099>Unbelievable<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
-74	<$FFFA><$FB00><$009A>So ancient magitek made such<$FFFC>things possible<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+74	<$FFFA><$FB00><$009A>So ancient magitek made such<$FFFC>things possible<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
 75	<$FB00><$009B>And the holy sword is the key that<$FFFC>controls that cannon.<$FFFE>
 # spk: Clarett
@@ -155,9 +155,9 @@
 # spk: Brenda
 83	<$FB00><$00A5>It fired once on the sky<$FFFC>battleship, so that leaves two, right？<$FFFE>
 # spk: Virash
-84	<$FB00><$00A6>It can fire two more shots strong<$FFFC>enough to sink a battleship in one<$FFFC>blow<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+84	<$FB00><$00A6>It can fire two more shots strong<$FFFC>enough to sink a battleship in one<$FFFC>blow<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
-85	<$FB00><$00A7>Then what about Langrisser？<$FFF5><$FFF8><$FFFB> <$FB00><$00A8>It<$FFFC>too should be made from a holy sword. If<$FFFC>we use it to disrupt the ultimate<$FFFC>weapon<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+85	<$FB00><$00A7>Then what about Langrisser？<$FFF5><$FFF8><$FFFB> <$FB00><$00A8>It<$FFFC>too should be made from a holy sword. If<$FFFC>we use it to disrupt the ultimate<$FFFC>weapon<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 86	<$FB00><$00A9>As I said before, the holy sword<$FFFC>that became Langrisser is a replica we<$FFFC>Crimzo Landers made. And an unfinished one<$FFFC>at that.<$FFFD><$FB00><$00AA>To control it with Langrisser, you'd have<$FFFC>to go to Pelia's very core.<$FFFE>
 # spk: Brenda
@@ -167,7 +167,7 @@
 # spk: Lainforce
 89	<$FB00><$00AF>But the ultimate weapon has a<$FFFC>weakness too.<$FFF5><$FFFB> <$FB00><$00B0>It can't strike where<$FFFC>Pelia cannot see.<$FFFD><$FB00><$00B1>To fire, the target area must not be<$FFFC>covered by cloud, and from that point the<$FFFC>moon's elevation must be 30 degrees or<$FFFC>more.<$FFFE>
 # spk: Virash
-90	<$FFFA><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$00B2>I see. We might be able to use<$FFFC>that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+90	<$FFFA><$FFF8>…<$FE1E>…<$FE1E><$FFF6><$FB00><$00B2>I see. We might be able to use<$FFFC>that<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
 91	<$FFFA><$FB00><$00B3>Virash？<$FFF5> <$FFF9><$FB00><$00B4>Being coy is a bad<$FFFC>habit.<$FFFE>
 # spk: Virash

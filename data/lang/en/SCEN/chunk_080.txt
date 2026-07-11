@@ -69,7 +69,7 @@
 # spk: Brenda
 42	<$FB00><$0004>About an hour, I'd say.<$FFFE>
 # spk: Clarett
-43	<$FB00><$0005>Look<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0006>Our world has gotten so<$FFFC>small<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+43	<$FB00><$0005>Look<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFF6><$FB00><$0006>Our world has gotten so<$FFFC>small<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Mariandel
 44	<$FB00><$0007>It was blue and beautiful.<$FFFE>
 # spk: Lanford
@@ -77,7 +77,7 @@
 # spk: Alfred
 46	<$FB00><$0009>It is strange. Hard to believe we<$FFFC>lived on something so round.<$FFFE>
 # spk: Brenda
-47	<$FB00><$000A>Whoa, incoming transmission<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+47	<$FB00><$000A>Whoa, incoming transmission<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Virash
 48	<$FB00><$000B>How are things there？<$FFFE>
 # spk: Brenda
@@ -111,7 +111,7 @@
 # spk: Brenda
 63	<$FB00><$001E>Pelia's defense system！<$FFFE>
 # spk: Alfred
-64	<$FB00><$001F>No, not after coming this<$FFFC>far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+64	<$FB00><$001F>No, not after coming this far<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 65	<$FB00><$0020>Can you do anything, Brenda？<$FFFE>
 # spk: Brenda
@@ -120,9 +120,9 @@
 # spk: Lanford
 68	<$FB00><$0024>Looks like we got inside<$FFFC>somehow.<$FFFE>
 # spk: Alfred
-69	<$FB00><$0025>But the ship<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+69	<$FB00><$0025>But the ship<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Brenda
-70	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0026>I'm sorry<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$0027>If I'd<$FFFC>piloted better, this wouldn't have<$FFFC>happened<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+70	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$0026>I'm sorry<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$0027>If I'd piloted<$FFFC>better, this wouldn't have happened<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 71	<$FB00><$0028>Not getting shot down is enough.<$FFFE>
 # spk: Clarett
@@ -130,11 +130,11 @@
 # spk: Lanford
 73	<$FB00><$002B>Exactly.<$FFFE>
 # spk: Mariandel
-74	<$FB00><$002C>Look<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$002D>The path splits<$FFFC>here.<$FFFE>
+74	<$FB00><$002C>Look<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$002D>The path splits<$FFFC>here.<$FFFE>
 # spk: Sigma
-75	<$FB00><$002E>Six paths total<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE1E> <$FFF6><$FB00><$002F>Brenda,<$FFFC>can you tell？<$FFFE>
+75	<$FB00><$002E>Six paths total<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE1E> <$FFF6><$FB00><$002F>Brenda, can<$FFFC>you tell？<$FFFE>
 # spk: Brenda
-76	<$FB00><$0030>Not this deep in, no<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+76	<$FB00><$0030>Not this deep in, no<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 77	<$FB00><$0031>What now？<$FFF5> <$FFF6><$FB00><$0032>Check them one by<$FFFC>one？<$FFFE>
 # spk: Clarett
@@ -144,7 +144,7 @@
 # spk: Lanford
 80	<$FB00><$0035>Understood. We'll meet back<$FFFC>here.<$FFFE>
 # spk: Sigma
-81	<$FB00><$005B>We cannot afford to fail after<$FFFC>coming this far<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+81	<$FB00><$005B>We cannot afford to fail after<$FFFC>coming this far<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Mariandel
 82	<$FB00><$0036>We'll be all right<$FFF5>…<$FE14>…<$FE14>？<$FFFE>
 # spk: Sigma
@@ -160,15 +160,15 @@
 # spk: Mariandel
 88	<$FB00><$003F>Yes.<$FFF5> <$FB00><$0040>I feel like I can do<$FFFC>anything for you.<$FFF5><$FFF8> …<$FE14>…<$FE14><$FFF6><$FB00><$0041>Let's meet again.<$FFFE>
 # spk: Brenda
-89	<$FB00><$0042>Hey<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FFFE>
+89	<$FB00><$0042>Hey<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFFE>
 # spk: Sigma
 90	<$FFF8><$FB00><$0043>Hm？<$FFFE>
 # spk: Brenda
-91	<$FB00><$0044>Please don't do anything reckless.<$FFF5><$FFFC><$FB00><$0045>Promise me？<$FFF5> <$FB00><$0046>Otherwise I<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+91	<$FB00><$0044>Please don't do anything reckless.<$FFF5><$FFFC><$FB00><$0045>Promise me？<$FFF5> <$FB00><$0046>Otherwise I<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 92	<$FB00><$0047>We already promised. I'm immortal.<$FFFD>…<$FE14>…<$FE14><$FFF6><$FB00><$0048>Are you scared, Brenda<$FFF5><$FFF8>…<$FE14>…<$FE14>？<$FFFE>
 # spk: Brenda
-93	<$FB00><$0049>Heh, sorry. Not like me, huh<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFC><$FFF6><$FB00><$004A>Well, I'm going too！<$FFFE>
+93	<$FB00><$0049>Heh, sorry. Not like me, huh<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14><$FFFC><$FFF6><$FB00><$004A>Well, I'm going too！<$FFFE>
 # spk: Sigma
 94	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$004B>Ah, Brenda！<$FFFE>
 # spk: Clarett
@@ -197,7 +197,7 @@
 106	Victory Conditions<$FFFC><$0000><$FFFC>・Defeat all enemies<$FFFD>Defeat Conditions<$FFFC><$0000><$FFFC>・<$F600><$0000> dies<$FFFE>
 107	Outside the Inn<$FFFF>
 # spk: Mariandel
-108	…<$FE14>…<$FE14>…<$FE14>.<$FFFE>
+108	…<$FE14>…<$FE14>…<$FE14><$FFFE>
 # spk: (location/crowd)
 109	<$FB00><$0009>Talking to trees again？<$FFFE>
 # spk: Mariandel
@@ -500,13 +500,13 @@
 # spk: Alfred
 260	<$FB00><$00B1>Yes. I was thinking over my<$FFFC>journey so far.<$FFFD><$FB00><$00B2>At first I only sought Father's medicine.<$FFFC>I just drifted along. Looking back, I was<$FFFC>running from reality.<$FFFD><$FB00><$00B3>Meeting all of you changed me, little by<$FFFC>little.<$FFFD><$FB00><$00B4>Without you, I'd still live by others'<$FFFC>will. Or my brother might have killed me<$FFFC>first.<$FFFE>
 # spk: Sigma
-261	<$FB00><$00B5>Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+261	<$FB00><$00B5>Alfred<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Alfred
 262	<$FB00><$00B6>Now I don't know whether my<$FFFC>brother truly was bound by the curse.<$FFFD><$FB00><$00B7>But the crystal that caused that curse<$FFFC>will now carry us to Pelia…<$FFFE>
 # spk: Sigma
 263	<$FB00><$00B8>Yes. Because Alfred and Lanford's<$FFFC>father found that crystal, tragedy<$FFFC>followed.<$FFFD><$FB00><$00B9>But thanks to that same crystal, we<$FFFC>exposed Ferakia, and now we can travel to<$FFFC>the stars.<$FFFE>
 # spk: Alfred
-264	<$FFFA><$FB00><$00BA>The curse is gone, and its power<$FFFC>now sends hope into the sky<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+264	<$FFFA><$FB00><$00BA>The curse is gone, and its power<$FFFC>now sends hope into the sky<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
 265	<$FB00><$00BB>That's right.<$FFFE>
 # spk: Alfred
@@ -531,7 +531,7 @@
 # spk: Lanford
 276	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00C9>Tomorrow, at last.<$FFFE>
 # spk: Sigma
-277	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00CA>Yes. Tomorrow decides this<$FFFC>world's fate. And we are the ones who will<$FFFC>decide it<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+277	<$FFF8>…<$FE14>…<$FE14><$FFF6><$FB00><$00CA>Yes. Tomorrow decides this<$FFFC>world's fate. And we are the ones who will<$FFFC>decide it<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 278	<$FB00><$00CB>What is it？ Are you afraid？<$FFFE>
 # spk: Sigma
@@ -539,7 +539,7 @@
 # spk: Lanford
 280	<$FB00><$00CD>Indeed. Only you can stop Pelia.<$FFFD><$FB00><$00CE>All we can do is make sure you face it at<$FFFC>your best.<$FFFE>
 # spk: Sigma
-281	<$FFFA><$FB00><$00CF>Thank you<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FFF9><$FB00><$00D0>Aren't you afraid, Lanford？<$FFFE>
+281	<$FFFA><$FB00><$00CF>Thank you<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFD><$FFF9><$FB00><$00D0>Aren't you afraid, Lanford？<$FFFE>
 # spk: Lanford
 282	<$FFFA><$FB00><$00D1>I have fought many battles<$FFFC>bearing a nation's fate, but this is on<$FFFC>another scale. Honestly, I am full of<$FFFC>unease.<$FFFE>
 # spk: Lanford
@@ -549,7 +549,7 @@
 # spk: Lanford
 285	<$FB00><$00F1>Yes. I will absolutely protect<$FFFC>the world where Emily lives. Even at the<$FFFC>cost of my life.<$FFFD><$FB00><$00F2>Laugh if you call it clumsy, but that is<$FFFC>how I love.<$FFFE>
 # spk: Sigma
-286	<$FB00><$00F3>Lanford<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+286	<$FB00><$00F3>Lanford<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 287	<$FB00><$00F4>Now, it is late. I should sleep<$FFFC>soon.<$FFFE>
 # spk: Sigma
@@ -565,7 +565,7 @@
 # spk: Sigma
 293	<$FB00><$00D9>Marie？ About me？<$FFFE>
 # spk: Sigma
-294	<$FB00><$00E6>Marie cares for me…<$FFFD><$FB00><$00E7>This is before something important, so I<$FFFC>should not dwell on it now. But if we<$FFFC>return safely, perhaps I should ask<$FFFC>Marie<$FFF5><$FFF8>…<$FE14>…<$FE1E>.<$FFFE>
+294	<$FB00><$00E6>Marie cares for me…<$FFFD><$FB00><$00E7>This is before something important, so I<$FFFC>should not dwell on it now. But if we<$FFFC>return safely, perhaps I should ask<$FFFC>Marie<$FFF5><$FFF8>…<$FE14>…<$FE1E><$FFFE>
 # spk: Lanford
 295	<$FB00><$00DD>I do not know if you noticed,<$FFFC>but Brenda seems to care for you deeply.<$FFFE>
 # spk: Sigma
@@ -573,9 +573,9 @@
 # spk: Lanford
 297	<$FB00><$00DF>Surprised？<$FFFD><$FB00><$00E0>But I doubt I am wrong.<$FFFE>
 # spk: Sigma
-298	<$FB00><$00E1>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+298	<$FB00><$00E1>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Sigma
-299	<$FB00><$00EB>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FE14> <$FFF6><$FB00><$00EC>I<$FFFC>see<$FFF5><$FFF8>…<$FE14>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00ED>I never noticed.<$FFF5> <$FB00><$00EE>I was focused<$FFFC>only on what lay ahead, with no room for<$FFFC>that<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFD><$FB00><$00EF>When this battle ends, maybe I'll ask<$FFFC>Brenda how she feels.<$FFFD><$FB00><$00F0>But first we have to do something about<$FFFC>Pelia<$FFF5><$FFF8>…<$FE14>…<$FE14>.<$FFFE>
+299	<$FB00><$00EB>Brenda cares for me<$FFF5><$FFF8>…<$FE14>…<$FE14><$FE14> <$FFF6><$FB00><$00EC>I<$FFFC>see<$FFF5><$FFF8>…<$FE14>…<$FE1E>,<$FE1E><$FFF6><$FB00><$00ED>I never noticed.<$FFF5> <$FB00><$00EE>I was focused<$FFFC>only on what lay ahead, with no room for<$FFFC>that<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFD><$FB00><$00EF>When this battle ends, maybe I'll ask<$FFFC>Brenda how she feels.<$FFFD><$FB00><$00F0>But first we have to do something about<$FFFC>Pelia<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>
 # spk: Lanford
 300	<$FB00><$00DA>I do not know if you noticed,<$FFFC>but Clarett seems to care for you deeply.<$FFFE>
 # spk: Sigma
@@ -583,7 +583,7 @@
 # spk: Lanford
 302	<$FB00><$00DC>Yes. Did you not notice how<$FFFC>differently she acts with you？<$FFFE>
 # spk: Sigma
-303	<$FFF8>…<$FE14>…<$FE14>.<$FE14><$FFFE>
+303	<$FFF8>…<$FE14>…<$FE14><$FE14><$FFFE>
 # spk: Sigma
 304	<$FB00><$00E8>Clarett loved me… Was I so<$FFFC>preoccupied that I never noticed？<$FFFD><$FB00><$00E9>But that ends tomorrow. If tomorrow goes<$FFFC>well…<$FFFD><$FB00><$00EA>I should sleep. Tomorrow starts early.<$FFFE>
 # spk: Lanford

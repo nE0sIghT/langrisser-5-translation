@@ -21,7 +21,7 @@
 # spk: Clarett
 16	<$FB00><$0022>I'm Clarett of Kalxath. I came<$FFFC>from El Sallia in search of you.<$FFFE>
 # spk: Jessica
-17	<$FB00><$0023>Of Kalxath<$FFF5><$FFF8>…<$FE3C>…<$FE3C>. <$FE3C><$FFF6><$FB00><$0024>What would you<$FFFC>want with me？<$FFFE>
+17	<$FB00><$0023>Of Kalxath<$FFF5><$FFF8>…<$FE3C>…<$FE3C> <$FE3C><$FFF6><$FB00><$0024>What would you<$FFFC>want with me？<$FFFE>
 # spk: Clarett
 18	<$FB00><$0025>Well, you see<$FFF5><$FFF8>…<$FFFE>
 # spk: Monster
@@ -155,7 +155,7 @@
 # spk: Brenda
 83	<$FB00><$006F>…I'll do that. Wouldn't want to<$FFFC>drag you down…<$FFFE>
 # spk: Clarett
-84	<$FFF8>…<$FFF6><$FB00><$005D>It's him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FE3C>. <$FE32><$FFF6><$FB00><$005E>Why is he here,<$FFFC>of all places？<$FFFE>
+84	<$FFF8>…<$FFF6><$FB00><$005D>It's him<$FFF5><$FFF8><$FE32>…<$FE32>…<$FE3C> <$FE32><$FFF6><$FB00><$005E>Why is he here,<$FFFC>of all places？<$FFFE>
 # spk: Clarett
 85	Now you'll see what happens when<$FFFC>you anger me！<$FFFE>
 # spk: Clarett
