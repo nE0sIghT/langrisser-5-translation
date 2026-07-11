@@ -32,21 +32,26 @@ WIDTH, HEIGHT = 120, 28
 VRAM_X_WORDS, VRAM_Y, WIDTH_WORDS, ROWS = 0x340, 0x1C8, 0x3C, 0x1C
 # Inner plate face between the corner rivets (x 12-14/112-113 top,
 # 6-7/110-111 bottom) and the frame highlights (x 6..12 and 110..114). Only
-# the original lettering rows 11..17 and the underline row 18 are erased;
-# the rows above keep their native tick shading untouched.
+# the original lettering rows are repainted; the underline (rows 18-19, full
+# face width) and the tick shading above the letters stay original.
 FACE_X0, FACE_X1 = 13, 110
-TEXT_Y0, TEXT_Y1 = 11, 18
+TEXT_Y0, TEXT_Y1 = 10, 18
 UNDERLINE_Y = 18
-UL_X0, UL_X1 = 9, 110
 FACE_Y0 = 7                     # top of the paintable face (new glyph tops)
 BASELINE = 17                   # original caps sit on row 17
-CAP_TOP = 9                     # drawn slightly taller than the original 11..17
-# Colour-class luminance bounds on the plate: engraved stroke, plate midtone,
-# bevel highlight.
+CAP_TOP = 7                     # taller than the original 11..17: the Cyrillic
+                                # line needs the full face to match the English span
+# The original lettering spans x 14..106; the new text is letter-spaced out
+# to the same width.
+TARGET_X0, TARGET_X1 = 14, 107
+# Colour-class luminance bounds on the plate: engraved stroke, plate face
+# mottle, bevel highlight. Pixels darker than the face floor are letter
+# strokes or their antialias; brighter than the ceiling are bevel shine.
 DARK_LUM, BRIGHT_LUM = 25, 90
-FONT = "data/fonts/LiberationSansNarrow-Bold.ttf"
+FACE_LUM_FLOOR = 42
+FONT = "data/fonts/DejaVuSerif-Bold.ttf"
 SUPERSAMPLE = 4
-STROKE_ALPHA, EDGE_ALPHA = 200, 95
+STROKE_ALPHA, MID_ALPHA, EDGE_ALPHA = 190, 120, 70
 CLUT_INDEX = 1                  # first grayscale CLUT of asset 0 (for classes/preview)
 
 
@@ -85,19 +90,19 @@ def write_plate(data: bytearray, packs: list[int], pixels: bytes) -> None:
         pos += n
 
 
-def render_mask(text: str, font_path: str) -> Image.Image:
-    """Antialiased 1x text alpha, caps on the plate's cap band.
+def render_mask(text: str, font_path: str, cap_top: int) -> Image.Image:
+    """Antialiased 1x text alpha spanning the original lettering width.
 
-    The glyphs are rendered supersampled and downsampled once, at the
-    largest cap height (up to the band height) whose natural advance fits
-    the face; the width is never squeezed afterwards, which would tear
-    the thin strokes.
+    The glyphs are rendered supersampled at the plate's cap band height and
+    letter-spaced out so the line covers the same span as the original
+    English lettering; the width is never squeezed, which would tear the
+    thin strokes.
     """
     ss = SUPERSAMPLE
-    max_w = (FACE_X1 - FACE_X0 - 4) * ss
+    target_w = (TARGET_X1 - TARGET_X0) * ss
     probe = Image.new("L", (8, 8))
     d = ImageDraw.Draw(probe)
-    for cap in range(BASELINE - CAP_TOP + 1, 4, -1):
+    for cap in range(BASELINE - cap_top + 1, 4, -1):
         font = None
         for cand in range(cap * ss // 2, cap * ss * 3):
             f = ImageFont.truetype(font_path, cand)
@@ -107,18 +112,18 @@ def render_mask(text: str, font_path: str) -> Image.Image:
                 break
         if font is None:
             continue
-        if d.textlength(text, font=font) > max_w:
+        advances = [d.textlength(ch, font=font) for ch in text]
+        natural = sum(advances)
+        if natural > target_w:
             continue
-        big = Image.new("L", (WIDTH * ss * 2, HEIGHT * ss), 0)
+        tracking = (target_w - natural) / max(1, len(text) - 1)
+        big = Image.new("L", (target_w + 2 * ss, HEIGHT * ss), 0)
         bd = ImageDraw.Draw(big)
         bbox = bd.textbbox((0, 0), "Н", font=font)
-        bd.text((WIDTH * ss // 2, BASELINE * ss - bbox[3]), text, fill=255, font=font)
-        ink = big.getbbox()
-        if ink is None:
-            break
-        x0 = ink[0] - ink[0] % ss
-        x1 = ink[2] + (-ink[2]) % ss
-        big = big.crop((x0, 0, x1, HEIGHT * ss))
+        pen = 0.0
+        for ch, advance in zip(text, advances):
+            bd.text((ss + pen, BASELINE * ss - bbox[3]), ch, fill=255, font=font)
+            pen += advance + tracking
         return big.resize((big.width // ss, HEIGHT), Image.LANCZOS)
     raise SystemExit(f"cannot fit {text!r} on the plate with {font_path}")
 
@@ -131,6 +136,7 @@ def main() -> None:
     ap.add_argument("--out-imgdat", default="work/build/IMG.DAT.now_loading")
     ap.add_argument("--out-preview", default=None)
     ap.add_argument("--font", default=FONT)
+    ap.add_argument("--cap-top", type=int, default=CAP_TOP)
     args = ap.parse_args()
     lang = language_from_args(args)
     text = args.text if args.text is not None else lang.now_loading
@@ -155,86 +161,91 @@ def main() -> None:
     # stroke core, two antialias midtones and the bevel highlight.
     used = Counter(pixels[y * WIDTH + x]
                    for y in range(FACE_Y0, UNDERLINE_Y + 2)
-                   for x in range(UL_X0, UL_X1))
+                   for x in range(FACE_X0, FACE_X1))
 
     def nearest_used(target: float) -> int:
         return min(used, key=lambda i: (abs(luminance(palette[i]) - target),
                                         -used[i]))
 
     stroke_index = nearest_used(5)
-    mid_index = nearest_used(28)
-    edge_index = nearest_used(46)
-    bevel_index = nearest_used(92)
+    mid_index = nearest_used(15)
+    edge_index = nearest_used(32)
 
-    # Refill the lettering rows with synthesized plate texture: the per-row
-    # median luminance of the letter-free pixels keeps the vertical shading,
-    # and a smooth value-noise mottle replaces the scratched face. Random
-    # per-pixel sampling reads as salt-and-pepper noise; the original mottle
-    # is spatially coherent, so the noise must be too. The underline row has
-    # no clean pixels of its own and borrows the row above.
-    def hash01(i: int, j: int) -> float:
-        return ((i * 73856093 ^ j * 19349663) % 65536) / 65536 - 0.5
+    # Paint over the original lettering with the plate's own open texture:
+    # every letter-free run of the same row (the clear face left and right
+    # of the strokes and the gaps between them) becomes clone material, and
+    # each hole is covered by stitching whole runs picked by a position
+    # hash. Real contiguous pixels keep the face's mottle and its vertical
+    # shading; the underline rows below stay original.
+    def clean_flags(y: int) -> list[bool]:
+        return [FACE_LUM_FLOOR <= lum_at(x, y) <= BRIGHT_LUM
+                for x in range(FACE_X0, FACE_X1)]
 
-    def smoothstep(t: float) -> float:
-        return t * t * (3 - 2 * t)
-
-    def mottle(x: int, y: int) -> float:
-        gx, gy = x / 3.0, y / 2.0
-        x0, y0 = int(gx), int(gy)
-        fx, fy = smoothstep(gx - x0), smoothstep(gy - y0)
-        top = hash01(x0, y0) * (1 - fx) + hash01(x0 + 1, y0) * fx
-        bottom = hash01(x0, y0 + 1) * (1 - fx) + hash01(x0 + 1, y0 + 1) * fx
-        return top * (1 - fy) + bottom * fy
+    def clean_runs(y: int, min_len: int) -> list[tuple[int, int]]:
+        flags = clean_flags(y)
+        runs = []
+        x = 0
+        while x < len(flags):
+            if flags[x]:
+                start = x
+                while x < len(flags) and flags[x]:
+                    x += 1
+                if x - start >= min_len:
+                    runs.append((start, x - start))
+            else:
+                x += 1
+        return runs
 
     out = bytearray(pixels)
-    for y in range(TEXT_Y0, UNDERLINE_Y + 1):
-        row_src = y if y < UNDERLINE_Y else TEXT_Y1 - 2
-        lums = sorted(lum_at(x, row_src) for x in range(FACE_X0, FACE_X1)
-                      if DARK_LUM <= lum_at(x, row_src) <= BRIGHT_LUM)
-        if len(lums) < 4:
-            raise SystemExit(f"row {row_src} has no clean face pixels; wrong layout?")
-        median = lums[len(lums) // 2]
-        for x in range(FACE_X0 if y < UNDERLINE_Y else UL_X0,
-                       FACE_X1 if y < UNDERLINE_Y else UL_X1):
-            out[y * WIDTH + x] = nearest_used(median + mottle(x, y) * 16)
+    for y in range(TEXT_Y0, TEXT_Y1):
+        clean = clean_flags(y)
+        # Clone material: this row's own clean runs, else a neighbor row's.
+        src_y, runs = y, clean_runs(y, 3)
+        if not runs:
+            for dy in (1, -1, 2, -2):
+                cand = y + dy
+                if TEXT_Y0 - 3 <= cand < TEXT_Y1 and clean_runs(cand, 3):
+                    src_y, runs = cand, clean_runs(cand, 3)
+                    break
+        if not runs:
+            raise SystemExit(f"row {y} has no clean face runs; wrong layout?")
+        x = 0
+        while x < len(clean):
+            if clean[x]:
+                x += 1
+                continue
+            hole = x
+            while x < len(clean) and not clean[x]:
+                x += 1
+            pos = hole
+            while pos < x:
+                start, length = runs[(pos * 2654435761 + y * 40503) % len(runs)]
+                take = min(length, x - pos)
+                src = (src_y * WIDTH + FACE_X0 + start)
+                dst = (y * WIDTH + FACE_X0 + pos)
+                out[dst : dst + take] = pixels[src : src + take]
+                pos += take
 
-    mask = render_mask(text, args.font)
-    mx0 = (FACE_X0 + FACE_X1 - mask.width) // 2
+    mask = render_mask(text, args.font, args.cap_top)
+    mx0 = (TARGET_X0 + TARGET_X1 - mask.width) // 2
     alpha = mask.load()
 
     def paint(x: int, y: int, index: int) -> None:
-        if UL_X0 <= x < UL_X1 and FACE_Y0 <= y <= UNDERLINE_Y:
+        if FACE_X0 <= x < FACE_X1 and FACE_Y0 <= y <= UNDERLINE_Y + 1:
             out[y * WIDTH + x] = index
 
-    # Engraving: bevel highlight one pixel down-right of the stroke core,
-    # only over free plate, then the antialiased stroke in three levels.
-    def alpha_at(xx: int, yy: int) -> int:
-        if 0 <= xx < mask.width and 0 <= yy < mask.height:
-            return alpha[xx, yy]
-        return 0
-
-    for yy in range(mask.height):
-        for xx in range(mask.width):
-            if alpha[xx, yy] >= STROKE_ALPHA and alpha_at(xx + 1, yy + 1) < EDGE_ALPHA:
-                paint(mx0 + xx + 1, yy + 1, bevel_index)
+    # The antialiased stroke in three dark levels; the original's bevel
+    # shine is too subtle at this size to reproduce without speckling the
+    # letter counters, so the glyphs stay plain engraving.
     for yy in range(mask.height):
         for xx in range(mask.width):
             value = alpha[xx, yy]
             if value >= STROKE_ALPHA:
                 paint(mx0 + xx, yy, stroke_index)
-            elif value >= 145:
+            elif value >= MID_ALPHA:
                 paint(mx0 + xx, yy, mid_index)
             elif value >= EDGE_ALPHA:
                 paint(mx0 + xx, yy, edge_index)
-    # Underline across the full face like the original; its shadow row 19
-    # below is original art and already spans the same width. The original
-    # underline end-curl also dented the bevel row 20; repair it with the
-    # bevel pattern from a few pixels left.
-    for x in range(UL_X0, UL_X1 - 3):
-        paint(x, UNDERLINE_Y, stroke_index)
-    for x in range(102, 109):
-        out[20 * WIDTH + x] = out[20 * WIDTH + x - 8]
-
     for pair in pairs:
         write_plate(data, pair, bytes(out))
     out_path = Path(args.out_imgdat)
