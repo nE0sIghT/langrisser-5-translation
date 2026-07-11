@@ -43,6 +43,14 @@ FACE_Y0 = 7                     # top of the paintable face (new glyph tops)
 # one-to-one with the lettering band.
 PATCH_X, PATCH_W, PATCH_H = 8, 5, 9
 BLUR_RADIUS = 0.7
+# The original g tail dents the bevel row below the underline shadow.
+G_TAIL_X0, G_TAIL_X1, G_TAIL_Y = 101, 110, 20
+# The tall ascenders (N, L, d, the i dot) poke above the lettering band
+# into the tick-shaded rows; that strip is covered from the same rows'
+# clean stretch right of the lettering so the tick pattern survives.
+ASC_Y0, ASC_Y1 = 8, 11
+ASC_X0, ASC_X1 = 13, 92
+ASC_SRC_X, ASC_SRC_W = 94, 14
 BASELINE = 17                   # original caps sit on row 17
 CAP_TOP = 7                     # taller than the original 11..17: the Cyrillic
                                 # line needs the full face to match the English span
@@ -51,7 +59,7 @@ CAP_TOP = 7                     # taller than the original 11..17: the Cyrillic
 TARGET_X0, TARGET_X1 = 14, 107
 FONT = "data/fonts/DejaVuSerif-Bold.ttf"
 SUPERSAMPLE = 4
-STROKE_ALPHA, MID_ALPHA, EDGE_ALPHA = 190, 120, 70
+STROKE_LUM = 4                  # near-black engraved stroke core
 CLUT_INDEX = 1                  # first grayscale CLUT of asset 0 (for classes/preview)
 
 
@@ -91,12 +99,13 @@ def write_plate(data: bytearray, packs: list[int], pixels: bytes) -> None:
 
 
 def render_mask(text: str, font_path: str, cap_top: int) -> Image.Image:
-    """Antialiased 1x text alpha spanning the original lettering width.
+    """Antialiased plate-sized alpha of the lettering and the underline.
 
-    The glyphs are rendered supersampled at the plate's cap band height and
+    The glyphs are rendered supersampled at the plate's cap band height,
     letter-spaced out so the line covers the same span as the original
-    English lettering; the width is never squeezed, which would tear the
-    thin strokes.
+    English lettering, and centered; the underline with its shadow row is
+    part of the same mask so everything downsamples together. The width is
+    never squeezed, which would tear the thin strokes.
     """
     ss = SUPERSAMPLE
     target_w = (TARGET_X1 - TARGET_X0) * ss
@@ -117,14 +126,18 @@ def render_mask(text: str, font_path: str, cap_top: int) -> Image.Image:
         if natural > target_w:
             continue
         tracking = (target_w - natural) / max(1, len(text) - 1)
-        big = Image.new("L", (target_w + 2 * ss, HEIGHT * ss), 0)
+        big = Image.new("L", (WIDTH * ss, HEIGHT * ss), 0)
         bd = ImageDraw.Draw(big)
         bbox = bd.textbbox((0, 0), "Н", font=font)
-        pen = 0.0
+        pen = (TARGET_X0 + TARGET_X1) * ss / 2 - target_w / 2
         for ch, advance in zip(text, advances):
-            bd.text((ss + pen, BASELINE * ss - bbox[3]), ch, fill=255, font=font)
+            bd.text((pen, BASELINE * ss - bbox[3]), ch, fill=255, font=font)
             pen += advance + tracking
-        return big.resize((big.width // ss, HEIGHT), Image.LANCZOS)
+        bd.rectangle((UL_X0 * ss, UNDERLINE_Y * ss,
+                      UL_X1 * ss - 1, (UNDERLINE_Y + 1) * ss - 1), fill=255)
+        bd.rectangle((UL_X0 * ss, (UNDERLINE_Y + 1) * ss,
+                      UL_X1 * ss - 1, (UNDERLINE_Y + 2) * ss - 1), fill=150)
+        return big.resize((WIDTH, HEIGHT), Image.LANCZOS)
     raise SystemExit(f"cannot fit {text!r} on the plate with {font_path}")
 
 
@@ -137,6 +150,8 @@ def main() -> None:
     ap.add_argument("--out-preview", default=None)
     ap.add_argument("--font", default=FONT)
     ap.add_argument("--cap-top", type=int, default=CAP_TOP)
+    ap.add_argument("--erase-only", action="store_true",
+                    help="cover the original lettering but draw no new text")
     args = ap.parse_args()
     lang = language_from_args(args)
     text = args.text if args.text is not None else lang.now_loading
@@ -164,10 +179,6 @@ def main() -> None:
         return min(used, key=lambda i: (abs(luminance(palette[i]) - target),
                                         -used[i]))
 
-    stroke_index = nearest_used(5)
-    mid_index = nearest_used(15)
-    edge_index = nearest_used(32)
-
     # Cover the original lettering and its underline with the plate's own
     # face: the open patch just left of the letters (PATCH_X..+PATCH_W,
     # rows 10..18) is aligned row-for-row with the lettering band, so
@@ -183,36 +194,39 @@ def main() -> None:
             sx = PATCH_X + (x - x0) % PATCH_W
             out[y * WIDTH + x] = pixels[sy * WIDTH + sx]
             covered.append((x, y))
+    # The g tail also dented the bevel row below the underline shadow;
+    # cover it with the same row's own pattern from a few pixels left.
+    for x in range(G_TAIL_X0, G_TAIL_X1):
+        out[G_TAIL_Y * WIDTH + x] = pixels[G_TAIL_Y * WIDTH + x - 9]
+        covered.append((x, G_TAIL_Y))
+    # Ascender tops in the tick rows, covered by the same rows' clean part.
+    for y in range(ASC_Y0, ASC_Y1):
+        for x in range(ASC_X0, ASC_X1):
+            out[y * WIDTH + x] = pixels[y * WIDTH + ASC_SRC_X + (x - ASC_X0) % ASC_SRC_W]
+            covered.append((x, y))
     rgb = Image.new("RGB", (WIDTH, HEIGHT))
     rgb.putdata([palette[v] for v in out])
     blurred = rgb.filter(ImageFilter.GaussianBlur(BLUR_RADIUS)).load()
     for x, y in covered:
         out[y * WIDTH + x] = nearest_used(luminance(blurred[x, y]))
 
-    mask = render_mask(text, args.font, args.cap_top)
-    mx0 = (TARGET_X0 + TARGET_X1 - mask.width) // 2
-    alpha = mask.load()
-
     def paint(x: int, y: int, index: int) -> None:
         if FACE_X0 <= x < FACE_X1 and FACE_Y0 <= y <= UNDERLINE_Y + 1:
             out[y * WIDTH + x] = index
 
-    # The antialiased stroke in three dark levels; the original's bevel
-    # shine is too subtle at this size to reproduce without speckling the
-    # letter counters, so the glyphs stay plain engraving.
-    for yy in range(mask.height):
-        for xx in range(mask.width):
-            value = alpha[xx, yy]
-            if value >= STROKE_ALPHA:
-                paint(mx0 + xx, yy, stroke_index)
-            elif value >= MID_ALPHA:
-                paint(mx0 + xx, yy, mid_index)
-            elif value >= EDGE_ALPHA:
-                paint(mx0 + xx, yy, edge_index)
-    # Full-width underline like the original, with its darker shadow row.
-    for x in range(UL_X0, UL_X1):
-        paint(x, UNDERLINE_Y, stroke_index)
-        paint(x, UNDERLINE_Y + 1, mid_index)
+    if not args.erase_only:
+        alpha = render_mask(text, args.font, args.cap_top).load()
+        # Alpha-blend the near-black stroke over the actual plate pixel and
+        # snap to the nearest plate index: the lettering antialiases against
+        # the real background with every gray step the palette offers.
+        for y in range(FACE_Y0, UNDERLINE_Y + 2):
+            for x in range(FACE_X0, FACE_X1):
+                value = alpha[x, y]
+                if value < 12:
+                    continue
+                bg = luminance(palette[out[y * WIDTH + x]])
+                target = bg + (STROKE_LUM - bg) * value / 255
+                paint(x, y, nearest_used(target))
     for pair in pairs:
         write_plate(data, pair, bytes(out))
     out_path = Path(args.out_imgdat)
