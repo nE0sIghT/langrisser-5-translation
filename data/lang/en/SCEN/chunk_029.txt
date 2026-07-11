@@ -86,11 +86,11 @@
 # spk: Sigma
 52	If we get out of here alive,<$FFFC>you'll see them.<$FFFE>
 # spk: Mariandel
-53	<$FFF8>…<$FFF6><$F600><$0000><$FFFE>
+53	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
 # spk: Sigma
 54	<$FB00><$0064>Don't worry, Marie. I'll reunite<$FFFC>you with your parents without fail！<$FFFE>
 # spk: Mariandel
-55	<$FFF8>…<$FFF6><$F600><$0000><$FFFE>
+55	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
 # spk: Sigma
 56	What are you standing dazed for！<$FFFC>Now we fight！<$FFFE>
 # spk: Mariandel
@@ -98,7 +98,7 @@
 # spk: Sigma
 58	Think of yourself now！ If we get<$FFFC>out alive, you can search for them！<$FFFE>
 # spk: Mariandel
-59	<$FFF8>…<$FFF6><$F600><$0000><$FFFE>
+59	<$FFF8>…<$FFF6><$F600><$0000>.<$FFFE>
 # spk: Sigma
 60	<$FB00><$0065>For that, we take no risks. We get<$FFFC>the citizens out, then escape ourselves.<$FFFE>
 61	・Even one unit of citizens is killed<$FFFC>・<$F600><$0000> dies<$FFFE>
