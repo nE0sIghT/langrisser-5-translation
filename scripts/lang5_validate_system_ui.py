@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 from lang5_project import ROOT, add_language_args, language_from_args
-from lang5_scen import Codec, load_charmap_tbl
+from lang5_scen import Codec, TAG_RE, load_charmap_tbl
 
 BLANK_CELL = 0x0000
 
@@ -38,6 +38,10 @@ def first_visible_text(codec: Codec, tokens: list[int]) -> str:
         if token != BLANK_CELL:
             return codec.tok2char.get(token, "")
     return ""
+
+
+def authored_visible_text(text: str) -> str:
+    return TAG_RE.sub("", str(text)).strip()
 
 
 def main() -> None:
@@ -162,7 +166,11 @@ def main() -> None:
         else:
             visible_start = suffix_start + first_visible
             visible = first_visible_text(codec, suffix_tokens)
-            min_gap = 0 if visible[:1] in ":;,.!?)]}" else 1
+            prefix_tail = authored_visible_text(prefix)[-1:]
+            min_gap = 0 if (
+                visible[:1] in ":;,.!?)]}"
+                or prefix_tail in ":;,.!?)]}"
+            ) else 1
         ok = True
         if end_cell > max_cells:
             print(
