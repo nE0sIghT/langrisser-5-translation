@@ -111,5 +111,28 @@
       "id": "table:08052:74",
       "max_cells": 6
     }
+  ],
+  "composed_runtime_fields": [
+    {
+      "name": "deployment prompt: gear leader",
+      "prefix_id": "table:08052:102",
+      "suffix_id": "table:08052:108",
+      "suffix_start": 2,
+      "max_cells": 9
+    },
+    {
+      "name": "deployment prompt: assign leader",
+      "prefix_id": "table:08052:106",
+      "suffix_id": "table:08052:108",
+      "suffix_start": 2,
+      "max_cells": 9
+    },
+    {
+      "name": "deployment prompt: place leader",
+      "prefix_id": "table:08052:107",
+      "suffix_id": "table:08052:108",
+      "suffix_start": 2,
+      "max_cells": 9
+    }
   ]
 }
