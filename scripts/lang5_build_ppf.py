@@ -187,6 +187,16 @@ def main() -> None:
     else:
         print(f"no target poem in {lang.poem}; preserving the original poem asset")
 
+    # Redraw the SCENARIO CLEAR banner (asset 9; does not overlap the edits above).
+    if lang.scenario_clear:
+        run(scripts / "lang5_scenario_clear.py",
+            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--imgdat", f"work/build/IMG.DAT.{suffix}",
+            "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
+            "--out-preview", f"work/build/scenario_clear_{suffix}_preview.png")
+    else:
+        print("no scenario_clear text; preserving the original banner asset")
+
     work_bin = work_bin_path
     work_bin.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(args.orig_bin, work_bin)
