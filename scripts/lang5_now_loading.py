@@ -16,7 +16,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 from lang5_project import add_language_args, language_from_args
 
@@ -35,20 +35,20 @@ VRAM_X_WORDS, VRAM_Y, WIDTH_WORDS, ROWS = 0x340, 0x1C8, 0x3C, 0x1C
 # the original lettering rows are repainted; the underline (rows 18-19, full
 # face width) and the tick shading above the letters stay original.
 FACE_X0, FACE_X1 = 13, 110
-TEXT_Y0, TEXT_Y1 = 10, 18
+TEXT_Y0 = 10                    # first lettering row to cover
 UNDERLINE_Y = 18
+UL_X0, UL_X1 = 9, 108           # original underline span
 FACE_Y0 = 7                     # top of the paintable face (new glyph tops)
+# Open face patch just left of the original letters; its rows 10..18 align
+# one-to-one with the lettering band.
+PATCH_X, PATCH_W, PATCH_H = 8, 5, 9
+BLUR_RADIUS = 0.7
 BASELINE = 17                   # original caps sit on row 17
 CAP_TOP = 7                     # taller than the original 11..17: the Cyrillic
                                 # line needs the full face to match the English span
 # The original lettering spans x 14..106; the new text is letter-spaced out
 # to the same width.
 TARGET_X0, TARGET_X1 = 14, 107
-# Colour-class luminance bounds on the plate: engraved stroke, plate face
-# mottle, bevel highlight. Pixels darker than the face floor are letter
-# strokes or their antialias; brighter than the ceiling are bevel shine.
-DARK_LUM, BRIGHT_LUM = 25, 90
-FACE_LUM_FLOOR = 42
 FONT = "data/fonts/DejaVuSerif-Bold.ttf"
 SUPERSAMPLE = 4
 STROKE_ALPHA, MID_ALPHA, EDGE_ALPHA = 190, 120, 70
@@ -154,9 +154,6 @@ def main() -> None:
         raise SystemExit("plate copies differ; refusing to patch them uniformly")
     pixels = copies[0]
 
-    def lum_at(x: int, y: int) -> float:
-        return luminance(palette[pixels[y * WIDTH + x]])
-
     # Palette indices already used on the plate, by luminance: the engraved
     # stroke core, two antialias midtones and the bevel highlight.
     used = Counter(pixels[y * WIDTH + x]
@@ -171,60 +168,26 @@ def main() -> None:
     mid_index = nearest_used(15)
     edge_index = nearest_used(32)
 
-    # Paint over the original lettering with the plate's own open texture:
-    # every letter-free run of the same row (the clear face left and right
-    # of the strokes and the gaps between them) becomes clone material, and
-    # each hole is covered by stitching whole runs picked by a position
-    # hash. Real contiguous pixels keep the face's mottle and its vertical
-    # shading; the underline rows below stay original.
-    def clean_flags(y: int) -> list[bool]:
-        return [FACE_LUM_FLOOR <= lum_at(x, y) <= BRIGHT_LUM
-                for x in range(FACE_X0, FACE_X1)]
-
-    def clean_runs(y: int, min_len: int) -> list[tuple[int, int]]:
-        flags = clean_flags(y)
-        runs = []
-        x = 0
-        while x < len(flags):
-            if flags[x]:
-                start = x
-                while x < len(flags) and flags[x]:
-                    x += 1
-                if x - start >= min_len:
-                    runs.append((start, x - start))
-            else:
-                x += 1
-        return runs
-
+    # Cover the original lettering and its underline with the plate's own
+    # face: the open patch just left of the letters (PATCH_X..+PATCH_W,
+    # rows 10..18) is aligned row-for-row with the lettering band, so
+    # tiling it horizontally preserves the vertical shading with real
+    # texture. A light Gaussian pass over the covered pixels then hides
+    # the tile seams; the sharp text and underline are drawn after it.
     out = bytearray(pixels)
-    for y in range(TEXT_Y0, TEXT_Y1):
-        clean = clean_flags(y)
-        # Clone material: this row's own clean runs, else a neighbor row's.
-        src_y, runs = y, clean_runs(y, 3)
-        if not runs:
-            for dy in (1, -1, 2, -2):
-                cand = y + dy
-                if TEXT_Y0 - 3 <= cand < TEXT_Y1 and clean_runs(cand, 3):
-                    src_y, runs = cand, clean_runs(cand, 3)
-                    break
-        if not runs:
-            raise SystemExit(f"row {y} has no clean face runs; wrong layout?")
-        x = 0
-        while x < len(clean):
-            if clean[x]:
-                x += 1
-                continue
-            hole = x
-            while x < len(clean) and not clean[x]:
-                x += 1
-            pos = hole
-            while pos < x:
-                start, length = runs[(pos * 2654435761 + y * 40503) % len(runs)]
-                take = min(length, x - pos)
-                src = (src_y * WIDTH + FACE_X0 + start)
-                dst = (y * WIDTH + FACE_X0 + pos)
-                out[dst : dst + take] = pixels[src : src + take]
-                pos += take
+    covered = []
+    for y in range(TEXT_Y0, UNDERLINE_Y + 2):
+        sy = min(y, TEXT_Y0 + PATCH_H - 1)
+        x0 = FACE_X0 if y < UNDERLINE_Y else UL_X0
+        for x in range(x0, FACE_X1):
+            sx = PATCH_X + (x - x0) % PATCH_W
+            out[y * WIDTH + x] = pixels[sy * WIDTH + sx]
+            covered.append((x, y))
+    rgb = Image.new("RGB", (WIDTH, HEIGHT))
+    rgb.putdata([palette[v] for v in out])
+    blurred = rgb.filter(ImageFilter.GaussianBlur(BLUR_RADIUS)).load()
+    for x, y in covered:
+        out[y * WIDTH + x] = nearest_used(luminance(blurred[x, y]))
 
     mask = render_mask(text, args.font, args.cap_top)
     mx0 = (TARGET_X0 + TARGET_X1 - mask.width) // 2
@@ -246,6 +209,10 @@ def main() -> None:
                 paint(mx0 + xx, yy, mid_index)
             elif value >= EDGE_ALPHA:
                 paint(mx0 + xx, yy, edge_index)
+    # Full-width underline like the original, with its darker shadow row.
+    for x in range(UL_X0, UL_X1):
+        paint(x, UNDERLINE_Y, stroke_index)
+        paint(x, UNDERLINE_Y + 1, mid_index)
     for pair in pairs:
         write_plate(data, pair, bytes(out))
     out_path = Path(args.out_imgdat)
