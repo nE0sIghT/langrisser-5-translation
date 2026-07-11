@@ -32,8 +32,8 @@ This toolkit is GPL-3.0-or-later. See `LICENSE`. Game assets are not included.
 
 Bundled third-party fonts:
 
-- `data/fonts/terminus-normal.otb`: Terminus Font, SIL Open Font License 1.1.
-  See `data/fonts/Terminus-OFL.txt`.
+- `data/fonts/terminus-normal.otb` and `data/fonts/ter-u14n.bdf`: Terminus
+  Font, SIL Open Font License 1.1. See `data/fonts/Terminus-OFL.txt`.
 - `data/fonts/spleen-6x12.bdf`: Spleen 6x12, BSD 2-Clause. See
   `data/fonts/Spleen-LICENSE`.
 - `data/fonts/PixelMplus*.ttf`: PixelMplus / M+ Fonts, M+ Font License. See
