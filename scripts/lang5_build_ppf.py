@@ -197,6 +197,16 @@ def main() -> None:
     else:
         print("no scenario_clear text; preserving the original banner asset")
 
+    # Redraw the Now Loading plate (asset 0 type-2 texture; separate packets).
+    if lang.now_loading:
+        run(scripts / "lang5_now_loading.py",
+            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--imgdat", f"work/build/IMG.DAT.{suffix}",
+            "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
+            "--out-preview", f"work/build/now_loading_{suffix}_preview.png")
+    else:
+        print("no now_loading text; preserving the original plate texture")
+
     work_bin = work_bin_path
     work_bin.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(args.orig_bin, work_bin)

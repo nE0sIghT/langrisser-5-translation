@@ -129,6 +129,10 @@ class LanguagePack:
         return str(self._data.get("scenario_clear") or "")
 
     @property
+    def now_loading(self) -> str:
+        return str(self._data.get("now_loading") or "")
+
+    @property
     def caps_font(self) -> Path | None:
         return _path(self.root, self._data.get("caps_font"))
 

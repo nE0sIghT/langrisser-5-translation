@@ -18,6 +18,7 @@
   "poem_source": "poem_prologue_jp.txt",
   "virash_monologue": "virash_monologue.json",
   "scenario_clear": "СЦЕНАРИЙ ПРОЙДЕН",
+  "now_loading": "Идёт загрузка",
   "font": "../../fonts/terminus-normal.otb",
   "font_size": 12,
   "caps_font": "../../fonts/ter-u14n.bdf",
