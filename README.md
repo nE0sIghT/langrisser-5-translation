@@ -1,23 +1,29 @@
 # Langrisser V (PS1) Translation Toolkit
 
-Toolkit for translating Langrisser V (PS1, SLPS-01818). English is the shipped
-v2 target. Other targets, including Russian, are language packs under
-`data/lang/<lang>/` and use the same extraction, validation, font and packaging
-flow.
+Toolkit and language-pack repository for translating **Langrisser V** (PS1,
+SLPS-01818). The project currently ships English and Russian patches, and the
+same tooling can be used to prepare additional target-language packs under
+`data/lang/<lang>/`.
 
-Game assets, extracted files and generated dumps are not tracked. Durable
-translation data is tracked under `data/`; generated data stays under `work/`.
+The repository contains only durable translation data and tooling. Original game
+assets, extracted files, generated Japanese dumps, build products and local
+patch outputs are not tracked.
 
 ## Patch Use
 
 Provide your own original Langrisser V disc image. The patch modifies only the
 `.bin`; the `.cue` is unchanged.
 
-- DuckStation: put `yourgame.ppf` next to `yourgame.bin` and run the game.
+- DuckStation: put the language PPF next to your `.bin` and run the game.
 - Other emulators: apply the PPF3 patch to the `.bin` with a PPF tool, then keep
   the original `.cue`.
 
-Verify the result against release `SHA256SUMS`.
+Generated patch names:
+
+- `patches/langrisser_v_en.ppf` - English patch.
+- `patches/langrisser_v_ru.ppf` - Russian patch.
+
+Verify release downloads against release `SHA256SUMS`.
 
 ## Donations
 
@@ -62,24 +68,47 @@ The build scripts expect this verified local image:
 
 | Path | Purpose |
 | --- | --- |
-| `data/common/` | shared maps, original font map and JP table |
+| `data/common/` | shared maps, scenario map, UI constraints and JP table |
 | `data/lang/en/` | English language pack |
-| `data/lang/ru/` | Russian language pack under active scenario translation |
+| `data/lang/ru/` | Russian language pack |
 | `data/lang/<lang>/manifest.json` | language settings used by tools |
-| `data/lang/<lang>/SCEN/` | translated script chunks for that language |
-| `data/lang/<lang>/system_strings.json` | SYSTEM.BIN UI text |
+| `data/lang/<lang>/SCEN/` | completed translated script chunks for that language |
+| `data/lang/<lang>/system_strings.json` | target SYSTEM.BIN UI text overlay |
 | `data/lang/<lang>/system_layout.json` | SYSTEM.BIN line-growth constraints |
 | `data/lang/<lang>/title_credits.json` | language-specific title credits |
-| `data/lang/<lang>/names.csv` | item, class, spell and NPC names |
+| `data/lang/<lang>/names.csv` | item, class, spell, unit and NPC names |
+| `data/lang/<lang>/glossary.csv` | canonical glossary and recurring terms |
 | `data/lang/<lang>/font_slot_assignments.csv` | target glyph assignments |
+| `data/lang/<lang>/name_entry_grid.json` | target name-entry alphabet layout |
 | `data/lang/<lang>/review_status.csv` | per-record translation and JP cross-check status |
 | `work/extracted/` | extracted game files, generated |
 | `work/scriptdump/` | generated JP script dump, not tracked |
+| `work/systemdump/` | generated SYSTEM.BIN string dump, not tracked |
 | `work/wip_<lang>/` | partial translation staging area |
 | `work/build/` | generated build files and previews |
 | `patches/langrisser_v_<lang>.ppf` | generated PPF output |
 
-Do not commit generated JP script dumps or partial translated chunks.
+Do not commit generated JP script dumps, extracted game files, build outputs or
+partial translated chunks.
+
+## Translation Model
+
+Every target language is a language pack under `data/lang/<lang>/`. A pack
+contains durable translation/editorial data only:
+
+- completed SCEN chunks;
+- target SYSTEM strings;
+- names, glossary and review status;
+- font assignments and name-entry layout;
+- target title credits and non-reproducible graphic/cutscene transcript text.
+
+Generated Japanese source data stays under `work/` and is reproducible from the
+user's own disc image. This avoids committing game text that can be extracted by
+scripts.
+
+English (`en`) and Russian (`ru`) are complete language packs. Additional
+languages should start from `scripts/lang5_init_lang.py` and follow the same
+extraction, review, validation and build flow.
 
 ## Flow 1: Extract Source Data
 
@@ -103,15 +132,14 @@ python3 scripts/lang5_verify_roundtrip.py
 ```
 
 Generated JP source stays under `work/scriptdump/` and `work/systemdump/`.
-These reproducible dumps are required for translation and building but are not
-committed.
+These dumps are required for translation and building but are not committed.
 
 ## Flow 2: Prepare A Language Pack
 
 Create a new language scaffold:
 
 ```bash
-python3 scripts/lang5_init_lang.py ru --label Russian
+python3 scripts/lang5_init_lang.py <lang> --label "Language Name"
 ```
 
 By default this copies source structure while clearing target-language fields
@@ -128,68 +156,82 @@ Review or edit these files for the target language:
 - `data/lang/<lang>/names.csv`
 - `data/lang/<lang>/glossary.csv`
 - `data/lang/<lang>/name_entry_grid.json`
+- `data/lang/<lang>/manual_record_overrides.json`
 - `data/lang/<lang>/poem_prologue.txt`
 - `data/lang/<lang>/virash_monologue.json`
 
 `system_strings.json` is a target-only `stable id -> translated text` overlay.
-Its offsets, budgets and Japanese source come from the generated
-`work/systemdump/system_strings.json`.
-Exact JP strings already present in the language pack's `names.csv` or
-`glossary.csv` are inherited automatically during the build; do not duplicate
-those canonical translations in the SYSTEM overlay.
+Offsets, budgets and Japanese source come from the generated
+`work/systemdump/system_strings.json`. Exact JP strings already present in the
+language pack's `names.csv` or `glossary.csv` are inherited automatically during
+the build; do not duplicate those canonical translations in the SYSTEM overlay.
 Set `system_complete` in the language manifest only after the strict resolver
 passes; later builds then reject any unresolved Japanese SYSTEM entry.
 
-`system_layout.json` keeps the conservative per-line growth limit and any
-stable-id exceptions required by longer target-language strings. Add an
-exception only after confirming that the affected UI field can display it.
+`system_layout.json` keeps conservative per-line growth limits and stable-id
+exceptions required by longer target-language strings. Add exceptions only after
+confirming that the affected UI field can display them.
 
 The full patch build derives any missing target-language pairs into
-`work/build/font_slot_assignments.<lang>.csv`, rebuilds the font, rewraps a
-copy under `work/build/translation.<lang>/` with that exact table and validates
-it before insertion. It never rewrites tracked translation sources. To persist
-a new assignment baseline for review, run:
+`work/build/font_slot_assignments.<lang>.csv`, rebuilds the font, rewraps a copy
+under `work/build/translation.<lang>/` with that exact table and validates it
+before insertion. It never rewrites tracked translation sources. To persist a
+new assignment baseline for review, run:
 
 ```bash
-python3 scripts/lang5_assign_font_slots.py --lang ru
-python3 scripts/lang5_build_font.py --lang ru
+python3 scripts/lang5_assign_font_slots.py --lang <lang>
+python3 scripts/lang5_build_font.py --lang <lang>
 python3 scripts/lang5_font_review.py
 ```
 
-## Flow 3: Translate
+## Flow 3: Translate And Review
 
 Work scenario by scenario:
 
 ```bash
-python3 scripts/lang5_scenario.py --lang ru list
-python3 scripts/lang5_scenario.py --lang ru dump 1
-python3 scripts/lang5_scenario.py --lang ru prefill 1
+python3 scripts/lang5_scenario.py --lang <lang> list
+python3 scripts/lang5_scenario.py --lang <lang> dump 1
+python3 scripts/lang5_scenario.py --lang <lang> prefill 1
 ```
 
-`prefill` writes partial chunks to `work/wip_ru/SCEN/`. Move a chunk to
-`data/lang/ru/SCEN/` only after it is fully translated and validates.
+`prefill` writes partial chunks to `work/wip_<lang>/SCEN/`. Move a chunk to
+`data/lang/<lang>/SCEN/` only after it is fully translated and validates.
 
-Per translation pass:
+Source priority for translation and review:
+
+1. Generated Japanese dump under `work/` is authoritative.
+2. Existing English text is a cross-check, not a replacement for the Japanese.
+3. The GameFAQs guide and fan terminology are secondary references.
+4. If English conflicts with Japanese, Japanese wins and English should be
+   corrected.
+
+Per translation/review pass:
 
 ```bash
-python3 scripts/lang5_rewrap.py --lang ru
-python3 scripts/lang5_check_speakers.py --lang ru
-python3 scripts/lang5_validate_terms.py --lang ru --require-complete --require-speakers --max-plate-chars 10
-python3 scripts/lang5_validate_translation.py --lang ru
-python3 scripts/lang5_review_html.py --lang ru --scenario 1
+python3 scripts/lang5_rewrap.py --lang <lang>
+python3 scripts/lang5_check_speakers.py --lang <lang>
+python3 scripts/lang5_validate_terms.py --lang <lang> --require-complete
+python3 scripts/lang5_validate_translation.py --lang <lang>
+python3 scripts/lang5_review_html.py --lang <lang> --scenario 1
 ```
 
-The review generator writes `work/review/ru/index.html` and one page per
-selected chunk. It shows JP, existing EN and RU text together with speaker
-plates, controls and page boundaries. Use `--scenario quiz`, `--scenario 1`,
-or `--scenario opt:<name>` to follow play order; omit `--scenario` for the
-complete non-empty script.
+For Russian, enforce speaker coverage and conservative plate width:
+
+```bash
+python3 scripts/lang5_validate_terms.py --lang ru --require-complete --require-speakers --max-plate-chars 10
+```
+
+The review generator writes `work/review/<lang>/index.html` and one page per
+selected chunk. It shows JP, reference EN and target text together with speaker
+plates, controls and page boundaries. Use `--scenario quiz`, `--scenario 1`, or
+`--scenario opt:<name>` to follow play order; omit `--scenario` for the complete
+non-empty script.
 
 Review decisions are durable language-pack data in
-`data/lang/ru/review_status.csv`. Set `target_done=1` only after the RU record
-is complete and `reference_checked=1` only after checking the EN record against
-JP. The generated page separately flags missing records, control mismatches and
-residual Japanese.
+`data/lang/<lang>/review_status.csv`. Set `target_done=1` only after the target
+record is complete and `reference_checked=1` only after checking the reference
+English record against JP. Generated review pages separately flag missing
+records, control mismatches and residual Japanese.
 
 Editing rules:
 
@@ -206,35 +248,50 @@ https://gamefaqs.gamespot.com/saturn/562834-langrisser-v-the-end-of-legend/faqs/
 
 ## Flow 4: Build Patch
 
-Mandatory checks and build:
+Mandatory shared checks:
 
 ```bash
 python3 scripts/lang5_verify_roundtrip.py
-python3 scripts/lang5_rewrap.py --lang ru
-python3 scripts/lang5_check_speakers.py --lang ru
-python3 scripts/lang5_validate_translation.py --lang ru
-python3 scripts/lang5_build_ppf.py --lang ru --patch-version dev
+python3 scripts/lang5_rewrap.py --lang <lang>
+python3 scripts/lang5_check_speakers.py --lang <lang>
+python3 scripts/lang5_validate_terms.py --lang <lang> --require-complete
+python3 scripts/lang5_validate_translation.py --lang <lang>
+python3 scripts/lang5_build_ppf.py --lang <lang> --patch-version dev
 ```
 
 The PPF build automatically validates engine-specific SYSTEM UI constraints,
-including the startup menu's 9-cell VRAM-atlas rows.
+including startup-menu VRAM-atlas rows and other tight fixed-width fields.
 
-Generated outputs:
+Generated outputs for language suffix `<s>`:
 
-- `work/build/langrisser_v_ru.bin`
-- `patches/langrisser_v_ru.ppf`
+- `work/build/langrisser_v_<s>.bin`
+- `patches/langrisser_v_<s>.ppf`
+- generated DAT/SYSTEM/EXE intermediates under `work/build/`
 - preview images under `work/build/`
 
-Build English v2:
+Release build examples:
 
 ```bash
-python3 scripts/lang5_build_ppf.py --lang en --patch-version 2
+python3 scripts/lang5_build_ppf.py --lang en --patch-version 3
+python3 scripts/lang5_build_ppf.py --lang ru --patch-version 3
 ```
+
+## Important Constraints
+
+- Disc files must not grow. SCEN/SCEN2 chunk relocation is allowed only inside
+  the original fixed file sizes.
+- `SCEN` is the canonical script source. `SCEN2` text is byte-identical and is
+  rebuilt from the same language-pack chunks.
+- The font atlas ends at glyph 1820; later SYSTEM.BIN words are menu data.
+- Control words and argument words must survive translation in order.
+- Target punctuation must exist in the native map or be allocated by the
+  language pack.
 
 ## Documentation
 
-- `docs/PLAN.md`: active Russian translation and English cross-check plan.
-- `docs/IMPLEMENTED.md`: completed toolkit and English-release milestones.
+- `AGENTS.md`: non-negotiable project rules for coding agents.
+- `docs/PLAN.md`: active Russian editorial and EN cross-check plan.
+- `docs/IMPLEMENTED.md`: completed toolkit, English and multilingual milestones.
 - `docs/INTERNAL_DATA_FORMATS.md`: format index and verified binary notes.
 - `docs/LANGUAGE_PACK_FORMAT.md`: language-pack structure.
 - `docs/RU_TERMINOLOGY.md`: canonical Russian names and terminology policy.
