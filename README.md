@@ -209,10 +209,15 @@ Per translation/review pass:
 
 ```bash
 python3 scripts/lang5_rewrap.py --lang <lang>
-python3 scripts/lang5_check_speakers.py --lang <lang>
 python3 scripts/lang5_validate_terms.py --lang <lang> --require-complete
 python3 scripts/lang5_validate_translation.py --lang <lang>
 python3 scripts/lang5_review_html.py --lang <lang> --scenario 1
+```
+
+For English, verify the speaker extractor against the in-game test set:
+
+```bash
+python3 scripts/lang5_check_speakers.py --lang en
 ```
 
 For Russian, enforce speaker coverage and conservative plate width:
@@ -253,11 +258,14 @@ Mandatory shared checks:
 ```bash
 python3 scripts/lang5_verify_roundtrip.py
 python3 scripts/lang5_rewrap.py --lang <lang>
-python3 scripts/lang5_check_speakers.py --lang <lang>
 python3 scripts/lang5_validate_terms.py --lang <lang> --require-complete
 python3 scripts/lang5_validate_translation.py --lang <lang>
 python3 scripts/lang5_build_ppf.py --lang <lang> --patch-version dev
 ```
+
+Run `python3 scripts/lang5_check_speakers.py --lang en` before English release
+builds; Russian speaker coverage is enforced by
+`lang5_validate_terms.py --lang ru --require-complete --require-speakers --max-plate-chars 10`.
 
 The PPF build automatically validates engine-specific SYSTEM UI constraints,
 including startup-menu VRAM-atlas rows and other tight fixed-width fields.
@@ -269,12 +277,16 @@ Generated outputs for language suffix `<s>`:
 - generated DAT/SYSTEM/EXE intermediates under `work/build/`
 - preview images under `work/build/`
 
-Release build examples:
+Release build:
 
 ```bash
-python3 scripts/lang5_build_ppf.py --lang en --patch-version 3
-python3 scripts/lang5_build_ppf.py --lang ru --patch-version 3
+scripts/release.sh --release
 ```
+
+The release script builds the complete English and Russian artifact set by
+default, writes it to `dist/vX/`, and records PPF plus patched-image hashes in
+`SHA256SUMS` and `MANIFEST.txt`. Use `--lang <lang>` to build a single language
+or `--version <label>` for a non-tagged development release.
 
 ## Important Constraints
 
