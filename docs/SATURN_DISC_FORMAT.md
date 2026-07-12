@@ -694,10 +694,14 @@ Not directly reusable:
 
 ## Work Tracker
 
-Current focus: text extraction for translation is complete. Remaining work is
-font/renderer classification and title/bitmap assets, then insertion/repack
-rules. The record-payload and full `resource_table` grammars are only needed
-for graphics/map/event editing, not for text.
+Current focus: the minimally-necessary text path for translation is complete —
+both SCEN and SYSTEM text are located, deterministically dumpable, and mapped
+1:1 to the PS1 script/UI, and the font format is confirmed PS1-compatible.
+Remaining work is secondary to reading/porting the text: full title/bitmap
+pixel decode, the Saturn-specific kanji table (to read JP kanji), and the
+insertion/repack path (needs Saturn executable analysis for string addressing).
+The record-payload and full `resource_table` grammars are only needed for
+graphics/map/event editing, not for text.
 
 ### Milestones
 
