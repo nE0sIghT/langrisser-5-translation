@@ -691,10 +691,16 @@ likely 16bpp payload are the current confirmed/hypothesised starting points.
 Further findings (still not a working decoder):
 
 - The `TITLE1.DAT` pixel payload is **uncompressed** (entropy ~6.1 bits/byte,
-  256 distinct byte values) — not LZH/CPK packed like `GRAPHIC.LZH`/`LANG5.CPK`.
-- Rendered as **linear** 16bpp it is scrambled (structured bands over noise),
-  which points to Saturn VDP **tiled** storage (8x8 cells addressed through a
-  pattern table) and/or a sprite table in the descriptor, not a linear bitmap.
+  exactly 256 distinct byte values) — not LZH/CPK packed like
+  `GRAPHIC.LZH`/`LANG5.CPK`.
+- The pixels are **8bpp CLUT-indexed**, not 16bpp: rendering the payload bytes
+  as indices through a 256-entry 16bpp CLUT (the color block that begins the
+  descriptor at `A100 DFFF …`) produces real structure — text-like bands and
+  repeated glyph shapes — whereas a 16bpp interpretation is noise.
+- The image is still **not a single linear bitmap**: every candidate width
+  shears, and the descriptor carries sprite dimensions (`80x28`, `40x28`) plus
+  data offsets, so the payload is a set of VDP cells/sprites reassembled through
+  the descriptor's sprite table. Decoding that table is the remaining step.
 - `CLEAR.DAT` (the likely SCENARIO CLEAR banner) does **not** use the `(a,b)`
   directory at all (its `count` word reads `888` and the descriptor is zero), so
   it is a different, still-unidentified structure.
