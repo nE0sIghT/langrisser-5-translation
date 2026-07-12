@@ -601,19 +601,32 @@ Confirmed examples:
 | `SND_DAT.BIN` | `135220` | `2` | `(0x14, 0x67F2)`, `(0x6808, 0x1A82A)` |
 
 The meaning of each pair is not fully proven. For title/open/cast/staff assets,
-the `a` offset often points to a small metadata/header block and the `b` offset
-often points to pixel-like payload bytes. Example `TITLE1.DAT` entry 0:
+the `a` offset points to a descriptor/header block and the `b` offset points to
+pixel payload bytes. Example `TITLE1.DAT` entry 0 descriptor:
 
 ```text
 a = 0x14:
-00001E60 0050001C 0028001C 00000020 00000200 00000420 ...
-
-b = 0x1FD4:
-FFFFFFFF FFFFFFFF FFFFFFFF 00FFFFFF 0000FFFF ...
+00001E60 0050001C 0028001C 00000020 00000200 00000420 000015A0 00000000
+A100DFFF DBDFE7DF FBBED7DF DFBFEFBE ...
 ```
 
+Partially decoded descriptor fields (all swapped-word/on-disc BE):
+
+- `0x0050 x 0x001C` and `0x0028 x 0x001C` read as `width x height` pairs
+  (`80x28`, `40x28`), followed by a series of `u32` sub-offsets
+  (`0x20, 0x200, 0x420, 0x15A0`) into the payload.
+- The trailing `A100DFFF DBDFE7DF …` words look like a 16bpp color block.
+
+The `b` pixel payload for `TITLE1.DAT` begins `FFFF FFFF … 00FF FFFF 0000 FFFF`.
+Read as `u16`, the `FFFF → 00FF → 0000` run at a shape edge looks like
+antialiasing in **16bpp RGB555 direct colour** (white to black), which suggests
+the payload is direct-colour pixels rather than CLUT indices. This is a strong
+hypothesis, not yet confirmed: the exact pixel dimensions, row stride and how the
+descriptor sub-offsets tile the payload are still undecoded.
+
 These are not PS1 `IMG.DAT` records. A Saturn title/bitmap editor will need a
-separate decoder.
+separate decoder; the container directory, descriptor `width x height` fields and
+likely 16bpp payload are the current confirmed/hypothesised starting points.
 
 ## Executable / Code Files
 
@@ -718,6 +731,8 @@ for graphics/map/event editing, not for text.
 | The Saturn text font equals the PS1 font. | Rejected (partial) | 465/1821 glyph slots byte-identical; 1356 differ, all in the `0x0185+` kanji region; kana identical. |
 | `WD_FONT.BIN` holds the in-game text font. | Rejected | It is repeating dither/window pattern data (`0xAA`/`0x99`/`0x66`), not 12x12 glyphs; SYSTEM.DAT owns the text font. |
 | Saturn title/OPEN/CAST/STAFF `.DAT` files are PS1 `IMG.DAT` records. | Rejected | They use separate swapped-word/on-disc BE directory-like headers and different payload layout. |
+| Saturn title assets store a descriptor block with `width x height` fields plus a pixel payload. | Confirmed (partial) | `TITLE1.DAT` entry-0 descriptor holds `80x28`/`40x28` dims and payload sub-offsets; the `a`/`b` directory splits descriptor from pixels. |
+| The Saturn title pixel payload is 16bpp RGB555 direct colour. | Plausible / unconfirmed | `FFFF→00FF→0000` `u16` runs at shape edges look like white-to-black antialiasing; exact dims/stride not yet decoded. |
 
 ### Immediate Next Steps
 
