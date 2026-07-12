@@ -25,13 +25,21 @@ import json
 import struct
 from pathlib import Path
 
+from lang5_offsetgroups import (
+    decode_run,
+    find_groups,
+    load_codemap,
+    run_length,
+)
 from lang5_patch_name_entry import grid_span as name_entry_grid_span
 
-FFFF = 0xFFFF
-SOFT_BREAK = 0xFFFC
 SCAN_START = 0x8052      # first verified text group table
 MAX_STEP = 0x30          # max plausible string length (+terminator) in words
-MIN_ENTRIES = 8          # a real group has at least this many strings
+
+# The offset-table group model (read_table/base_for/group_at/find_groups plus
+# load_codemap/decode_run/run_length) lives in lang5_offsetgroups so the Saturn
+# tooling reuses it with a big-endian config. It is imported here and re-exported
+# for the packer and other PS1 callers, which use the default PS1 config.
 
 # The katakana name-entry grid lives inside group 0 but is owned by
 # lang5_patch_name_entry.py, which rewrites it as fixed 5-single-glyph runs.
@@ -39,118 +47,6 @@ MIN_ENTRIES = 8          # a real group has at least this many strings
 # text picks readability pair-glyphs (e.g. "ab" in one cell), which collapses
 # the 5-column grid and corrupts the rename screen. Its span comes from the
 # patcher (the single source of the grid location); see name_entry_grid_span.
-
-
-def load_codemap(tbl_path: str) -> dict[int, str]:
-    codemap: dict[int, str] = {}
-    for line in Path(tbl_path).read_text(encoding="utf-8").splitlines():
-        if line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        key = key.strip()
-        if len(key) == 4:
-            try:
-                codemap[int(key, 16)] = value
-            except ValueError:
-                pass
-    return codemap
-
-
-def decode_run(words: list[int], codemap: dict[int, str]) -> str:
-    out: list[str] = []
-    for w in words:
-        if w == SOFT_BREAK:
-            out.append("\\n")
-        elif w >= 0xFB00 or w == 0:
-            out.append("" if w == 0 else f"{{{w:04X}}}")
-        else:
-            out.append(codemap.get(w, f"{{?{w:04X}}}"))
-    return "".join(out)
-
-
-def read_table(data: bytes, pos: int) -> list[int] | None:
-    """Parse a group offset table at `pos`, or None if there isn't one."""
-    if pos + 2 > len(data) or struct.unpack_from("<H", data, pos)[0] != 0:
-        return None
-    vals = [0]
-    prev = 0
-    i = pos + 2
-    while i + 2 <= len(data):
-        v = struct.unpack_from("<H", data, i)[0]
-        if prev < v <= prev + MAX_STEP:
-            vals.append(v)
-            prev = v
-            i += 2
-        else:
-            break
-    return vals if len(vals) >= MIN_ENTRIES else None
-
-
-def run_length(data: bytes, off: int) -> int:
-    n = 0
-    while off + 2 * n + 2 <= len(data) and struct.unpack_from("<H", data, off + 2 * n)[0] != FFFF:
-        n += 1
-    return n
-
-
-MAX_PREAMBLE = 16  # words between a group's table and its string base
-
-
-def base_for(data: bytes, pos: int, table: list[int]) -> int | None:
-    """Return the string base for a group, or None if the table is not a group.
-
-    A real text group has a 0xFFFF terminator just before every string start.
-    The base is normally `table_end`, but a few groups (e.g. the memory-card
-    messages) keep a small preamble between the table and the strings, so try a
-    short range of bases and accept the first where every terminator checks out.
-    This rejects look-alike ascending sequences (nested sub-tables) outright.
-    """
-    table_end = pos + len(table) * 2
-    for pre in range(MAX_PREAMBLE + 1):
-        base = table_end + pre * 2
-        ok = True
-        for k in range(1, len(table)):
-            term = base + (table[k] - 1) * 2
-            if term + 2 > len(data) or struct.unpack_from("<H", data, term)[0] != FFFF:
-                ok = False
-                break
-        if ok:
-            return base
-    return None
-
-
-def group_at(data: bytes, pos: int) -> tuple[list[int], int] | None:
-    """Return (table, base) for the group at `pos`, trimming any over-read.
-
-    `read_table` greedily extends the ascending run, which can swallow the first
-    string's leading codes when they happen to keep ascending. Accept the longest
-    table prefix whose every entry points at a FFFF-terminated string.
-    """
-    table = read_table(data, pos)
-    if table is None:
-        return None
-    for n in range(len(table), MIN_ENTRIES - 1, -1):
-        sub = table[:n]
-        base = base_for(data, pos, sub)
-        if base is not None:
-            return sub, base
-    return None
-
-
-def find_groups(data: bytes) -> list[tuple[int, list[int], int]]:
-    groups: list[tuple[int, list[int], int]] = []
-    pos = SCAN_START
-    while pos + 2 <= len(data):
-        found = group_at(data, pos)
-        if found is not None:
-            table, base = found
-            last_off = base + table[-1] * 2
-            end = last_off + (run_length(data, last_off) + 1) * 2
-            groups.append((pos, table, base))
-            pos = end
-        else:
-            pos += 2
-    return groups
 
 
 def main() -> None:

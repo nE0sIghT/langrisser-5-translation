@@ -18,21 +18,12 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-import struct
 from pathlib import Path
 
-from lang5_system_dump import load_codemap
+from lang5_offsetgroups import load_codemap
+from saturn_scen import TEXT_TERMINATORS, local_index_entries, parse_catalog
 
-TEXT_TERMINATORS = {0xFFFE, 0xFFFF}
 SOFT_BREAK = 0xFFFC
-
-
-def u32be(data: bytes, off: int) -> int:
-    return struct.unpack_from(">I", data, off)[0]
-
-
-def u16be(data: bytes, off: int) -> int:
-    return struct.unpack_from(">H", data, off)[0]
 
 
 def decode_tokens(words: list[int], codemap: dict[int, str]) -> str:
@@ -49,43 +40,6 @@ def decode_tokens(words: list[int], codemap: dict[int, str]) -> str:
         else:
             out.append(codemap.get(word, "{?%04X}" % word))
     return "".join(out)
-
-
-def parse_catalog(data: bytes) -> list[tuple[int, int]]:
-    count = u32be(data, 0)
-    return [
-        (u32be(data, 4 + i * 8) * 0x800, u32be(data, 8 + i * 8))
-        for i in range(count)
-    ]
-
-
-def local_index_entries(data: bytes, start: int, used: int) -> list[list[int]] | None:
-    """Return the token-word entries of a block's field_3c text table."""
-    if used < 0x44:
-        return None
-    resource_table_offset = u32be(data, start)
-    if not (0 <= resource_table_offset <= used - 0x44):
-        return None
-    table_base = start + resource_table_offset
-    field_3c = u32be(data, table_base + 0x3C)
-    base = table_base + field_3c
-    if base + 6 > len(data):
-        return None
-    total_size = u32be(data, base)
-    if not (4 <= total_size <= used - resource_table_offset - field_3c):
-        return None
-    first_offset = u16be(data, base + 4)
-    if first_offset < 6 or (first_offset - 4) % 2:
-        return None
-    count = (first_offset - 4) // 2
-    offsets = [u16be(data, base + 4 + i * 2) for i in range(count)]
-    entries: list[list[int]] = []
-    for i, off in enumerate(offsets):
-        next_off = offsets[i + 1] if i + 1 < count else total_size
-        if not (first_offset <= off <= next_off <= total_size):
-            return None
-        entries.append([u16be(data, base + off + 2 * j) for j in range((next_off - off) // 2)])
-    return entries
 
 
 def dump(data: bytes, codemap: dict[int, str]) -> dict:

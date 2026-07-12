@@ -8,20 +8,22 @@ import json
 import struct
 from pathlib import Path
 
-from lang5_system_dump import load_codemap
+from lang5_binfmt import BE
+from lang5_offsetgroups import load_codemap
 from lang5_textcodec import decode_words
+from saturn_scen import SECTOR, TEXT_TERMINATORS
+from saturn_scen import parse_catalog as scen_parse_catalog
 
 
-TEXT_TERMINATORS = {0xFFFE, 0xFFFF}
 COMMON_CONTROL_WORDS = {0xFFFC, 0xFFFD, 0xFFF3, 0xFFF4, 0xFFF5, 0xFFF8}
 
 
 def u32be(data: bytes, off: int) -> int:
-    return struct.unpack_from(">I", data, off)[0]
+    return BE.u32(data, off)
 
 
 def u16be(data: bytes, off: int) -> int:
-    return struct.unpack_from(">H", data, off)[0]
+    return BE.u16(data, off)
 
 
 def parse_resource_map(chunk: bytes, start: int, end: int, record_ids: list[int]) -> dict:
@@ -154,19 +156,17 @@ def parse_local_index_table(section: bytes, base: int) -> dict:
 
 
 def parse_catalog(data: bytes) -> dict:
+    blocks = scen_parse_catalog(data)
     count = u32be(data, 0)
-    raw_entries = []
-    if 0 < count < 0x10000 and 4 + count * 8 <= len(data):
-        for index in range(count):
-            off = 4 + index * 8
-            start_sector = u32be(data, off)
-            used_size = u32be(data, off + 4)
-            raw_entries.append({
-                "index": index,
-                "start_sector": start_sector,
-                "start_offset": start_sector * 0x800,
-                "used_size": used_size,
-            })
+    raw_entries = [
+        {
+            "index": index,
+            "start_sector": start_offset // SECTOR,
+            "start_offset": start_offset,
+            "used_size": used_size,
+        }
+        for index, (start_offset, used_size) in enumerate(blocks)
+    ]
 
     entries = []
     for i, ent in enumerate(raw_entries):
