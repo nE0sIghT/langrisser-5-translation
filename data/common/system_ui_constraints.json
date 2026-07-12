@@ -13,7 +13,7 @@
   ],
   "fixed_width_fields": [
     {
-      "name": "shop buy header: price",
+      "name": "shop buy header: buy",
       "id": "table:08052:121",
       "max_cells": 2
     },
