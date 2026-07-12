@@ -25,10 +25,41 @@ from lang5_sceninsert import parse_dump_file
 from saturn_scen import local_index_entries, parse_catalog, repack_scen
 
 
+def _speaker(tokens: list[int]) -> int | None:
+    """First `FB00` speaker argument in a token stream, or None."""
+    for i, token in enumerate(tokens):
+        if token == 0xFB00 and i + 1 < len(tokens):
+            return tokens[i + 1]
+    return None
+
+
+def align_prefix(entries: list[list[int]], records: dict[int, str],
+                 codec: Codec) -> list[list[int]] | None:
+    """Map Saturn entry `e` to PS1 record `e+1`, verified by speaker tokens.
+
+    Returns the encoded entry list if every Saturn entry lines up with a record
+    carrying the same `FB00` speaker (so exact-count and trailing-extra-record
+    blocks map safely), or None if the sequences diverge (interspersed
+    insertions/merges that need real alignment).
+    """
+    if len(records) < len(entries):
+        return None
+    encoded: list[list[int]] = []
+    for e, entry in enumerate(entries):
+        text = records.get(e + 1)
+        if text is None:
+            return None
+        tokens = codec.encode(text)
+        if _speaker(entry) != _speaker(tokens):
+            return None
+        encoded.append(tokens)
+    return encoded
+
+
 def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec) -> tuple[bytes, dict]:
     blocks = parse_catalog(data)
-    stats = {"blocks": len(blocks), "applied": 0, "skipped_count": 0,
-             "entries_written": 0, "missing_dump": 0, "grown_blocks": 0}
+    stats = {"blocks": len(blocks), "applied": 0, "skipped_misaligned": 0,
+             "entries_written": 0, "missing_dump": 0}
     block_entries: dict[int, list[list[int]]] = {}
     for chunk_index, (start, used) in enumerate(blocks):
         entries = local_index_entries(data, start, used)
@@ -39,11 +70,10 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec) -> tuple[bytes, d
             stats["missing_dump"] += 1
             continue
         records = parse_dump_file(dump_path)  # {1-based idx: text}
-        # Exact 1:1 mapping only: Saturn entry e <-> record e+1.
-        if not records or max(records) != len(entries) or len(records) != len(entries):
-            stats["skipped_count"] += 1
+        new_entries = align_prefix(entries, records, codec)
+        if new_entries is None:
+            stats["skipped_misaligned"] += 1
             continue
-        new_entries = [codec.encode(records[e + 1]) for e in range(len(entries))]
         block_entries[chunk_index] = new_entries
         stats["applied"] += 1
         stats["entries_written"] += len(new_entries)
@@ -73,7 +103,7 @@ def main() -> None:
     print(
         f"applied {stats['applied']}/{stats['blocks']} blocks, "
         f"{stats['entries_written']} entries; "
-        f"skipped(count-mismatch)={stats['skipped_count']} "
+        f"skipped(misaligned)={stats['skipped_misaligned']} "
         f"missing-dump={stats['missing_dump']}; "
         f"file grew {stats['grown_bytes']} bytes -> {out_path}"
     )
