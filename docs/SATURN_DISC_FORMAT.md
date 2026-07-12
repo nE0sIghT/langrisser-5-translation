@@ -40,7 +40,8 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_font.py` | Render Saturn `SYSTEM.DAT` glyph slots and diff them against the PS1 font |
 | `scripts/saturn_scen.py` | Shared SCEN.DAT read/rebuild model (catalog, block header, field_3c text pool) |
 | `scripts/lang5_saturn_apply.py` | Apply the universal `data/lang` translation to the Saturn SCEN text pool |
-| `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font into `SYSTEM.DAT` + text into `SCEN.DAT` |
+| `scripts/lang5_saturn_system_pack.py` | Pack the SYSTEM UI translation into the Saturn `SYSTEM.DAT` groups |
+| `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font + SYSTEM text + SCEN text |
 
 The Saturn tools share the platform-agnostic core: `lang5_binfmt` (byte order),
 `lang5_offsetgroups` (the SYSTEM group model), `lang5_build_font` (glyph slot
@@ -60,13 +61,23 @@ python3 scripts/lang5_saturn_build.py --lang ru \
   --assignments work/build/font_slot_assignments.ru.csv
 ```
 
-`lang5_build_font` writes the Cyrillic alphabet into `SYSTEM.DAT` glyph slots
-`0..1820` (text region untouched) and emits the `.tbl`; `lang5_saturn_apply`
-inserts the translated scenario text. On the RU pack this applies 97/131 SCEN
-blocks; the file re-parses across all 131 blocks and reads back as Russian.
-Remaining before a shippable disc: SYSTEM UI-text repack (the shared group model
-with a BE packer), reconciling the 28 interspersed-delta blocks, and injecting
-the grown files back into the mixed-mode BIN/CUE.
+The stages, all reusing shared logic:
+
+- `lang5_build_font` writes the Cyrillic alphabet into `SYSTEM.DAT` glyph slots
+  `0..1820` (text region untouched) and emits the `.tbl`.
+- `lang5_saturn_system_pack` rebuilds the SYSTEM UI groups with the translated
+  text via the shared group model (BE), mapping Saturn group `g` index `i` to
+  the PS1 group `g` index `i`. On the RU pack it packs 12/16 groups (e.g. the
+  unit-name group reads `Солдат`/`Легион`); groups whose translation exceeds the
+  fixed group budget are left in Japanese, exactly as the PS1 flow fits within a
+  group's span.
+- `lang5_saturn_apply` inserts the translated scenario text: 97/131 SCEN blocks
+  on the RU pack; the file re-parses across all 131 blocks and reads back as
+  Russian.
+
+Remaining before a shippable disc: reconciling the 28 interspersed-delta SCEN
+blocks and the 4 over-budget/unaligned SYSTEM groups (data-alignment tasks), and
+injecting the grown files back into the mixed-mode BIN/CUE (the output format).
 
 Generated investigation output lives under `work/build/saturn/` and is not
 tracked.
@@ -838,8 +849,12 @@ graphics/map/event editing, not for text.
 - [ ] Decode at least one Saturn title/bitmap container.
 - [x] Define the SCEN insertion/repack model (fixed-size field_3c rebuild).
 - [x] Validate the model by 131/131 byte-identical round-trip + substitution.
-- [ ] Reconcile the Saturn<->PS1 per-chunk mapping deltas for string pull.
-- [ ] Wire the Saturn build flow into the pipeline alongside PS1.
+- [x] Implement SCEN text growth (append + re-layout) and apply the RU pack.
+- [x] Implement the Saturn SYSTEM UI-text packer (shared group model, BE).
+- [x] Reuse the font builder to draw Cyrillic into the Saturn glyph plane.
+- [x] Wire the Saturn build flow (font + SYSTEM + SCEN) reusing shared stages.
+- [ ] Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
+- [ ] Inject the grown Saturn files back into the mixed-mode BIN/CUE.
 - [ ] Decode `SCEN.DAT` record-payload grammar (graphics/map/event editing only).
 - [ ] Decode `SCEN.DAT` `resource_table` resource semantics (non-text editing only).
 

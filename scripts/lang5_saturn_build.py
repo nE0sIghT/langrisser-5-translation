@@ -70,13 +70,21 @@ def main() -> None:
                          "--caps-font-size", str(lang.caps_font_size)])
     run(*font_cmd)
 
+    system_out = saturn / f"SYSTEM.{lang.suffix}.DAT"
+    run(scripts / "lang5_saturn_system_pack.py",
+        "--system-in", system_font,
+        "--system-out", system_out,
+        "--strings", f"work/build/system_strings.{lang.suffix}.json",
+        "--tbl", tbl)
+
+    scen_out = saturn / f"SCEN.{lang.suffix}.DAT"
     run(scripts / "lang5_saturn_apply.py",
         "--lang", args.lang, "--lang-root", args.lang_root,
         "--scen", scen_in,
-        "--out-scen", saturn / f"SCEN.{lang.suffix}.DAT",
+        "--out-scen", scen_out,
         "--tbl", tbl)
 
-    print(f"saturn build: font -> {system_font}, scen -> {saturn / f'SCEN.{lang.suffix}.DAT'}")
+    print(f"saturn build: system -> {system_out}, scen -> {scen_out}")
 
 
 if __name__ == "__main__":
