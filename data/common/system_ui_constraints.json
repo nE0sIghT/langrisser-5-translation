@@ -13,6 +13,11 @@
   ],
   "fixed_width_fields": [
     {
+      "name": "shop buy header: price",
+      "id": "table:08052:121",
+      "max_cells": 2
+    },
+    {
       "name": "class stat: command range",
       "id": "table:08052:11",
       "max_cells": 4
