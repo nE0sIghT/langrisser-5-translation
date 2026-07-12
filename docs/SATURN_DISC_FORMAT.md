@@ -701,9 +701,37 @@ Further findings (still not a working decoder):
   shears, and the descriptor carries sprite dimensions (`80x28`, `40x28`) plus
   data offsets, so the payload is a set of VDP cells/sprites reassembled through
   the descriptor's sprite table. Decoding that table is the remaining step.
-- `CLEAR.DAT` (the likely SCENARIO CLEAR banner) does **not** use the `(a,b)`
-  directory at all (its `count` word reads `888` and the descriptor is zero), so
-  it is a different, still-unidentified structure.
+- `CLEAR.DAT` (the SCENARIO CLEAR banner) is now decoded — see below.
+
+### `CLEAR.DAT` (SCENARIO CLEAR) — decoded and translated
+
+A VDP1 VRAM dump was used **only to discover** the format; the tool itself reads
+everything from the disc file. The VDP1 command table (32-byte commands at VRAM
+`0x0`) lists a sprite of **224x80, 8bpp** at texture address `0x4A200`, drawn at
+(48,72) — the banner. That texture appears verbatim in `CLEAR.DAT`, so the file
+is uncompressed, and everything the redraw needs is on-disc:
+
+```text
+u32 texture_offset   (0x378)
+u32 texture_size     (0x4600 = 224*80)
+VDP1 sprite header / coordinate table
+tex_off - 0x200: 256-entry CLUT (16bpp, big-endian BGR555 — same layout as PS1
+                 IMG.DAT; reuse lang5_imgdat.rgb555_to_rgb888)
+0x378: 224x80 8bpp texture (background = index 0)
+```
+
+The "888" first word was a misread — it is `0x378`, the texture offset. The
+palette is the 512 bytes immediately before the texture (`tex_off - 0x200`).
+`scripts/saturn_scenario_clear.py` reads the texture and CLUT from `CLEAR.DAT`
+and rewrites the texture in place (fixed size) by calling the shared
+`lang5_banner.redraw_banner` — the exact erase-and-redraw core the PS1 banner
+uses — producing a gold `СЦЕНАРИЙ ПРОЙДЕН`.
+
+This gives the general Saturn graphic recipe: an uncompressed 8bpp texture with a
+`tex_off`/`tex_size` header and a 256-colour BGR555 CLUT just before the texture,
+redrawn in index space with the shared banner core. (A VRAM dump plus the VDP1
+command table is the way to *find* a sprite's `(SRCA, width, height, mode)`, but
+the build depends only on the disc file.)
 
 Decoding the tile arrangement, palette and dimensions — and then redrawing the
 translated graphics — is an open sub-project. **The graphic assets (title
@@ -722,7 +750,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | Title credits graphic | done | **not decoded** — VDP-tiled container, no decoder |
 | Prologue poem graphic | done | **not decoded** |
 | Now Loading plate | done | **not located/decoded** |
-| SCENARIO CLEAR banner | done | **not decoded** — `CLEAR.DAT`, unknown structure |
+| SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
 | Virash cutscene subtitles | done | **not investigated** |
 

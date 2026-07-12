@@ -84,6 +84,14 @@ def main() -> None:
         "--out-scen", scen_out,
         "--tbl", tbl)
 
+    # SCENARIO CLEAR banner (CLEAR.DAT), if extracted and the pack sets the text.
+    clear_in = saturn / "CLEAR.DAT"
+    if lang.scenario_clear and clear_in.exists():
+        run(scripts / "saturn_scenario_clear.py",
+            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--clear", clear_in,
+            "--out-clear", saturn / f"CLEAR.{lang.suffix}.DAT")
+
     print(f"saturn build: system -> {system_out}, scen -> {scen_out}")
 
 

@@ -10,13 +10,13 @@ original letters pixel-by-pixel (nearest sample in the same row), so the
 vertical gradient and the horizontal green-to-gold drift both survive.
 """
 import argparse
-import bisect
 import importlib.util
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 
+from lang5_banner import BannerLayout, redraw_banner
 from lang5_project import add_language_args, language_from_args
 
 SCRIPTS = Path(__file__).resolve().parent
@@ -26,90 +26,17 @@ sys.modules["lang5_imgdat"] = imd
 _spec.loader.exec_module(imd)
 
 ASSET_INDEX = 9
-BG_INDEX = 255            # the field behind the lettering is plain black
-# Lettering rectangle (the bracket ornaments at x~18 and x~206 stay outside).
-TEXT_X0, TEXT_X1 = 22, 205
-TEXT_Y0, TEXT_Y1 = 30, 50
-# Original caps: ink rows 31..48, so cap height 16 on a row-48 baseline.
-CAP_TOP, BASELINE = 32, 48
-# Diacritics may rise into the black gap above the letters and a descender may
-# dip one row below, but never into the rods.
-PAINT_Y0, PAINT_Y1 = 28, 51
-# Colour-class luminance bounds: bright letter fill vs antialias midtones.
-BRIGHT_LUM, MID_LUM = 110, 45
 FONT = "data/fonts/DejaVuSerif-Bold.ttf"
-SUPERSAMPLE = 4
-BRIGHT_ALPHA, MID_ALPHA = 160, 70
-
-
-def luminance(color: tuple[int, int, int]) -> float:
-    return (color[0] * 3 + color[1] * 6 + color[2]) / 10
-
-
-def collect_row_samples(rows: list[bytearray], palette: list[tuple[int, int, int]]
-                        ) -> tuple[dict[int, list[tuple[int, int]]], dict[int, list[tuple[int, int]]]]:
-    """Per-row (x, index) samples of the original letter fill and midtones."""
-    bright: dict[int, list[tuple[int, int]]] = {}
-    mid: dict[int, list[tuple[int, int]]] = {}
-    for y in range(TEXT_Y0, TEXT_Y1):
-        for x in range(TEXT_X0, TEXT_X1):
-            index = rows[y][x]
-            if index == BG_INDEX:
-                continue
-            lum = luminance(palette[index])
-            if lum > BRIGHT_LUM:
-                bright.setdefault(y, []).append((x, index))
-            elif lum > MID_LUM:
-                mid.setdefault(y, []).append((x, index))
-    return bright, mid
-
-
-def nearest_sample(samples: dict[int, list[tuple[int, int]]], y: int, x: int) -> int | None:
-    """Index of the sample nearest to (x, y): same row first, else nearest row."""
-    for dy in range(0, TEXT_Y1 - PAINT_Y0):
-        for yy in (y - dy, y + dy) if dy else (y,):
-            row = samples.get(yy)
-            if not row:
-                continue
-            pos = bisect.bisect_left(row, (x,))
-            best = None
-            for cand in (row[pos - 1] if pos else None,
-                         row[pos] if pos < len(row) else None):
-                if cand and (best is None or abs(cand[0] - x) < abs(best[0] - x)):
-                    best = cand
-            return best[1]
-    return None
-
-
-def render_mask(text: str, font_path: str) -> Image.Image:
-    """Text alpha mask sized to the banner, caps on the original cap band."""
-    ss = SUPERSAMPLE
-    cap_target = (BASELINE - CAP_TOP) * ss
-    size = cap_target
-    font = None
-    probe = Image.new("L", (8, 8))
-    d = ImageDraw.Draw(probe)
-    for cand in range(cap_target // 2, cap_target * 2):
-        f = ImageFont.truetype(font_path, cand)
-        bbox = d.textbbox((0, 0), "H", font=f)
-        if bbox[3] - bbox[1] >= cap_target:
-            font, size = f, cand
-            break
-    if font is None:
-        raise SystemExit(f"cannot reach cap height {cap_target} with {font_path}")
-    width, height = 224 * ss, (PAINT_Y1 - PAINT_Y0) * ss
-    big = Image.new("L", (width * 2, height), 0)
-    d = ImageDraw.Draw(big)
-    bbox = d.textbbox((0, 0), "H", font=font)
-    baseline_y = (BASELINE - PAINT_Y0) * ss
-    d.text((width // 2, baseline_y - bbox[3]), text, fill=255, font=font)
-    ink = big.getbbox()
-    if ink is None:
-        raise SystemExit("banner text rendered empty")
-    big = big.crop((ink[0], 0, ink[2], height))
-    max_w = (TEXT_X1 - TEXT_X0 - 4) * ss
-    new_w = min(big.width, max_w)
-    return big.resize((new_w // ss, height // ss), Image.LANCZOS)
+# The field behind the lettering is plain black (index 255); the bracket
+# ornaments at x~18 and x~206 stay outside the lettering rectangle. Original
+# caps ink rows 31..48 (cap height 16 on a row-48 baseline); diacritics may
+# rise into the black gap above and a descender dip one row below, never into
+# the rods.
+PS1_LAYOUT = BannerLayout(
+    text_x0=22, text_x1=205, text_y0=30, text_y1=50,
+    cap_top=32, baseline=48, paint_y0=28, paint_y1=51,
+    bg_index=255,
+)
 
 
 def main() -> None:
@@ -137,27 +64,7 @@ def main() -> None:
 
     start, packets, width, block_rows = groups[0]
     rows = imd.decode_image(asset, start, packets, width, block_rows)
-    bright, mid = collect_row_samples(rows, palettes[0])
-    if not bright:
-        raise SystemExit("no letter fill samples found; wrong asset layout?")
-
-    for y in range(TEXT_Y0, TEXT_Y1):
-        for x in range(TEXT_X0, TEXT_X1):
-            rows[y][x] = BG_INDEX
-
-    mask = render_mask(text, args.font)
-    mx0 = (TEXT_X0 + TEXT_X1 - mask.width) // 2
-    alpha = mask.load()
-    for yy in range(mask.height):
-        y = PAINT_Y0 + yy
-        for xx in range(mask.width):
-            value = alpha[xx, yy]
-            if value < MID_ALPHA:
-                continue
-            samples = bright if value >= BRIGHT_ALPHA else mid
-            index = nearest_sample(samples, y, mx0 + xx)
-            if index is not None:
-                rows[y][mx0 + xx] = index
+    redraw_banner(rows, palettes[0], text, args.font, PS1_LAYOUT)
 
     patched = asset
     for start, packets, width, block_rows in groups:
