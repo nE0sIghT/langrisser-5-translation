@@ -222,6 +222,26 @@ table 0x094A8 index 0: ファイター
 table 0x09FC8 index 0: ソルジャー
 ```
 
+### Correspondence to PS1 `SYSTEM.BIN`
+
+The 16 Saturn groups map onto the 16 PS1 `SYSTEM.BIN` groups in the same order:
+
+| Property | PS1 `SYSTEM.BIN` | Saturn `SYSTEM.DAT` |
+| --- | ---: | ---: |
+| Groups | `16` | `16` |
+| Strings | `2620` | `2639` |
+
+Per-group entry counts are identical for `14 / 16` groups; only group 0
+(`292` vs `272`), group 1 (`44` vs `41`) and group 15 (`88` vs `92`) differ
+slightly. Content aligns by index: in the unit-name group (Saturn `0x09FC8` /
+PS1 `0x0A060`, both 130 entries), `127 / 130` strings are byte-identical, and
+the only 3 differences (`較者` vs `聖者`) are the same kanji glyph-slot
+reordering on an otherwise identical string.
+
+This means the existing PS1 SYSTEM translation (unit/class names, menu labels,
+descriptions) ports to Saturn by group+index alignment, exactly like the SCEN
+text pool ports by `(chunk, entry)` alignment.
+
 Implication for tooling: `lang5_system_dump.py` / `lang5_system_pack.py` can be
 ported by adding an endian-aware mode and Saturn scan start/table offsets. The
 PS1 runtime proof about `SYSTEM.BIN` index addressing does not automatically
@@ -651,7 +671,8 @@ Reusable with little conceptual risk:
   source ids to PS1 ids.
 - Review workflow concepts.
 - Text token codec concepts: endian and record location are now solved; the
-  Saturn text pool dumps deterministically and aligns to PS1 chunks 1:1.
+  Saturn SCEN text pool aligns to PS1 chunks 1:1 and the SYSTEM groups align to
+  PS1 groups 1:1, so both text stores port from the existing translation.
 - The slot-rewrite font builder (`lang5_build_font.py`): the Saturn font is the
   same 12x12x18 PS1 format in `SYSTEM.DAT`, so drawing the target alphabet into
   slots `0..1820` ports directly.
@@ -696,6 +717,7 @@ for graphics/map/event editing, not for text.
 - [x] Confirm `field_3c` local index table is the scenario text pool.
 - [x] Build a deterministic Saturn script dump with stable `(chunk, entry)` ids.
 - [x] Compare Saturn script entries against PS1 `work/scriptdump/` (131 chunks 1:1).
+- [x] Confirm Saturn `SYSTEM.DAT` groups correspond 1:1 to PS1 `SYSTEM.BIN`.
 - [x] Confirm the Saturn dialogue/control-word grammar (matches PS1 model).
 - [x] Characterize the Saturn glyph map vs PS1 (kana identical, kanji reordered).
 - [x] Classify the Saturn font storage and renderer cell model (`SYSTEM.DAT`, 12x12x18, PS1-compatible).
@@ -714,6 +736,7 @@ for graphics/map/event editing, not for text.
 | `ADPCM/**/*.XA` extents point directly to physical raw sectors. | Rejected | Physical sector is ISO extent minus the 225-sector pregap. |
 | `SYSTEM.DAT` text tables are PS1-style little-endian groups. | Rejected | Little-endian scan finds no groups; swapped/on-disc BE scan finds 16 valid groups. |
 | `SYSTEM.DAT` keeps the same broad text-table concept as PS1. | Confirmed | 16 swapped/on-disc BE groups decode to unit/menu/system strings; total 2639 strings. |
+| Saturn `SYSTEM.DAT` groups correspond 1:1 to PS1 `SYSTEM.BIN` groups. | Confirmed | Both 16 groups in the same order; 14/16 have identical entry counts; the unit-name group is 127/130 byte-identical by index (3 diffs are glyph-slot reordering). |
 | Saturn `SCEN.DAT` top-level entries are `(event id, pointer)`. | Rejected | First field multiplied by `0x800` gives every payload start; second field is always `used_size <= allocated_size`, with zero padding after it. |
 | Saturn `SCEN.DAT` top-level catalog is `(start_sector, used_size)`. | Confirmed | All 131 entries validate; first payload starts at `0x800`, allocation is sector-aligned, all padding bytes are zero. |
 | Saturn `SCEN.DAT` payloads have a fixed header with section offsets. | Confirmed | All 131 blocks have ordered section offsets from `0x30` through `resource_table_offset`. |
