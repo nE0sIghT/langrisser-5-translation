@@ -105,3 +105,62 @@ def local_index_entries(data: bytes, start: int, used: int, order: ByteOrder = B
         next_off = offsets[i + 1] if i + 1 < len(offsets) else total_size
         entries.append([order.u16(data, base + off + 2 * j) for j in range((next_off - off) // 2)])
     return entries
+
+
+class TableTooLarge(ValueError):
+    """Raised when rebuilt text entries do not fit the original table size."""
+
+
+def build_local_index_table(entries: list[list[int]], total_size: int, order: ByteOrder = BE) -> bytes:
+    """Rebuild the field_3c table region for `entries`, padded to `total_size`.
+
+    The region is fixed length so nothing after it in the block moves: any
+    unused tail is zero-padded. Entry count and order must be preserved by the
+    caller; the engine addresses entries through the regenerated offset array
+    (`base + total_size` and all data past it stay byte-for-byte in place).
+    Raises :class:`TableTooLarge` if the content exceeds `total_size`.
+    """
+    count = len(entries)
+    first_offset = 4 + count * 2
+    offsets: list[int] = []
+    cursor = first_offset
+    for words in entries:
+        offsets.append(cursor)
+        cursor += len(words) * 2
+    # Entry offsets are stored as u16, so the whole table must fit in 0xFFFF
+    # bytes as well as within the fixed original size; check before packing.
+    packed_size = 4 + count * 2 + sum(len(words) for words in entries) * 2
+    if packed_size > total_size or cursor > 0xFFFF:
+        raise TableTooLarge(
+            f"rebuilt table {packed_size} (end 0x{cursor:X}) exceeds "
+            f"original {total_size} / 0xFFFF"
+        )
+    out = bytearray(order.pack_u32(total_size))
+    for off in offsets:
+        out += order.pack_u16(off)
+    for words in entries:
+        for word in words:
+            out += order.pack_u16(word)
+    out += b"\x00" * (total_size - len(out))
+    return bytes(out)
+
+
+def splice_local_index_table(data: bytes, start: int, used: int,
+                             entries: list[list[int]], order: ByteOrder = BE) -> bytes:
+    """Return `data` with block `start`'s field_3c table rebuilt for `entries`.
+
+    Preserves the file length and every byte outside the fixed-size table
+    region; raises if the block has no local index table or the content does
+    not fit.
+    """
+    layout = local_index_layout(data, start, used, order)
+    if layout is None:
+        raise ValueError(f"block at 0x{start:X} has no field_3c local index table")
+    base, total_size, offsets = layout
+    if len(entries) != len(offsets):
+        raise ValueError(
+            f"entry count changed for block at 0x{start:X}: "
+            f"{len(offsets)} -> {len(entries)}"
+        )
+    region = build_local_index_table(entries, total_size, order)
+    return data[:base] + region + data[base + total_size:]

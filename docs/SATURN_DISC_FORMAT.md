@@ -38,6 +38,11 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_scen_scan.py` | Scan Saturn `SCEN.DAT` catalog, chunk headers, record indices and token streams |
 | `scripts/saturn_scen_text.py` | Dump the full Saturn `SCEN.DAT` scenario text pool with stable `(chunk, entry)` ids |
 | `scripts/saturn_font.py` | Render Saturn `SYSTEM.DAT` glyph slots and diff them against the PS1 font |
+| `scripts/saturn_scen.py` | Shared SCEN.DAT read/rebuild model (catalog, block header, field_3c text pool) |
+
+The Saturn tools share the platform-agnostic core: `lang5_binfmt` (byte order),
+`lang5_offsetgroups` (the SYSTEM group model), and the PS1 token codec, so no
+common logic is duplicated between the PS1 and Saturn tooling.
 
 Generated investigation output lives under `work/build/saturn/` and is not
 tracked.
@@ -648,6 +653,65 @@ These are not PS1 `IMG.DAT` records. A Saturn title/bitmap editor will need a
 separate decoder; the container directory, descriptor `width x height` fields and
 likely 16bpp payload are the current confirmed/hypothesised starting points.
 
+## Insertion / Repack Model
+
+Applying the translation is a **fixed-size repack**, exactly like the PS1 flow:
+every file keeps its length (the disc layout forbids growth), and each text
+structure is rebuilt in place with translated content that must fit its original
+byte budget.
+
+### SCEN scenario text — proven
+
+The `field_3c` text pool is rebuilt in place per block. Its region layout is::
+
+    u32 total_size
+    u16 entry_offsets[count]      # relative to the region base, u16
+    entry payloads (u16 tokens, FFFE/FFFF-terminated), concatenated
+    zero padding to total_size
+
+`saturn_scen.build_local_index_table` / `splice_local_index_table` rebuild the
+region from a list of token entries and splice it back. The model is validated:
+
+- Rebuilding all 131 blocks from their own parsed entries reproduces the file
+  **byte-for-byte** (`131/131` identical), so the layout is fully understood.
+- A modified entry keeps the file length, leaves every byte outside the region
+  unchanged, and reads back correctly; other entries are identical up to their
+  terminator (freed space becomes trailing zero padding after a terminator,
+  which the engine never reads).
+
+Constraints for insertion:
+
+- Preserve entry **count and order** (entries are addressed through the
+  regenerated offset array).
+- Keep the region within its original `total_size`, and the whole region under
+  `0xFFFF` bytes (offsets are `u16`); over-budget content raises `TableTooLarge`
+  and must be shortened/rewrapped, just like the PS1 fit step.
+- Nothing else in the block moves, so block headers, `resource_map`,
+  record payloads and the catalog stay untouched.
+
+### SYSTEM UI text — same offset-table repack
+
+`SYSTEM.DAT` groups are the same offset-table structure as PS1, so the PS1
+`--repack` path (regenerate each group's offset table, keep string indices)
+ports via the shared `lang5_offsetgroups` model with the Saturn BE config.
+Index addressing is proven on PS1 and structurally implied on Saturn (the
+offset-table indirection exists precisely to allow it); a final guarantee needs
+the Saturn executable, but the fixed-size in-place repack is safe regardless as
+long as string indices and group layout are preserved.
+
+### Font — slot rewrite
+
+Cyrillic glyphs are drawn into `SYSTEM.DAT` glyph slots `0..1820` (same
+12x12x18 format as PS1), so `lang5_build_font.py`'s slot-rewrite ports directly;
+only the glyph-plane file offset differs.
+
+### Still open for a shippable patch
+
+- The Saturn↔PS1 mapping deltas (a few entries per chunk) must be reconciled so
+  each Saturn entry pulls the right translated string.
+- The patch/output format for a mixed-mode BIN/CUE after in-place edits (the PS1
+  flow emits a PPF against a single `.bin`).
+
 ## Executable / Code Files
 
 Likely code-bearing files:
@@ -727,9 +791,12 @@ graphics/map/event editing, not for text.
 - [x] Classify the Saturn font storage and renderer cell model (`SYSTEM.DAT`, 12x12x18, PS1-compatible).
 - [ ] Build the Saturn-specific kanji table (only needed to fully read JP kanji).
 - [ ] Decode at least one Saturn title/bitmap container.
+- [x] Define the SCEN insertion/repack model (fixed-size field_3c rebuild).
+- [x] Validate the model by 131/131 byte-identical round-trip + substitution.
+- [ ] Reconcile the Saturn<->PS1 per-chunk mapping deltas for string pull.
+- [ ] Wire the Saturn build flow into the pipeline alongside PS1.
 - [ ] Decode `SCEN.DAT` record-payload grammar (graphics/map/event editing only).
 - [ ] Decode `SCEN.DAT` `resource_table` resource semantics (non-text editing only).
-- [ ] Define insertion/repack constraints only after read-only parity is proven.
 
 ### Tested Hypotheses
 
@@ -757,6 +824,7 @@ graphics/map/event editing, not for text.
 | Saturn `SYSTEM.DAT` uses the PS1 12x12x18 font format. | Confirmed | Glyph at `index*18`, 12 bits/row MSB-first; `下`/`部`/`シ` render correctly and are byte-identical to PS1. |
 | The Saturn text font equals the PS1 font. | Rejected (partial) | 465/1821 glyph slots byte-identical; 1356 differ, all in the `0x0185+` kanji region; kana identical. |
 | `WD_FONT.BIN` holds the in-game text font. | Rejected | It is repeating dither/window pattern data (`0xAA`/`0x99`/`0x66`), not 12x12 glyphs; SYSTEM.DAT owns the text font. |
+| The SCEN `field_3c` text pool can be rebuilt in place at fixed size. | Confirmed | Rebuilding all 131 blocks from their parsed entries reproduces the file byte-for-byte; a substitution preserves length and every byte outside the region. |
 | Saturn title/OPEN/CAST/STAFF `.DAT` files are PS1 `IMG.DAT` records. | Rejected | They use separate swapped-word/on-disc BE directory-like headers and different payload layout. |
 | Saturn title assets store a descriptor block with `width x height` fields plus a pixel payload. | Confirmed (partial) | `TITLE1.DAT` entry-0 descriptor holds `80x28`/`40x28` dims and payload sub-offsets; the `a`/`b` directory splits descriptor from pixels. |
 | The Saturn title pixel payload is 16bpp RGB555 direct colour. | Plausible / unconfirmed | `FFFF→00FF→0000` `u16` runs at shape edges look like white-to-black antialiasing; exact dims/stride not yet decoded. |
