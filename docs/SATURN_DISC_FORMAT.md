@@ -683,11 +683,32 @@ Constraints for insertion:
 
 - Preserve entry **count and order** (entries are addressed through the
   regenerated offset array).
-- Keep the region within its original `total_size`, and the whole region under
-  `0xFFFF` bytes (offsets are `u16`); over-budget content raises `TableTooLarge`
-  and must be shortened/rewrapped, just like the PS1 fit step.
-- Nothing else in the block moves, so block headers, `resource_map`,
-  record payloads and the catalog stay untouched.
+- The whole region must stay under `0xFFFF` bytes (offsets are `u16`).
+- If the content fits the original `total_size`, nothing else in the block moves.
+
+Growth (translated text longer than Japanese — the common case for Russian):
+because the text table sits among other resources, it cannot grow in place, so
+`saturn_scen.rebuild_block_text` **appends** the enlarged table at the block end
+and repoints the `resource_table.field_3c` pointer to it (only that 4-byte
+pointer changes; every other resource is byte-preserved). The block then grows,
+and `saturn_scen.repack_scen` re-lays out all blocks at 0x800-sector alignment
+and rewrites the top-level catalog (`count`, `start_sector`, `used_size`). This
+is validated: appending a grown table reads the translated entries back
+correctly with all other bytes intact, an empty repack reproduces the file
+byte-for-byte, and applying the Russian pack grows the file and still re-parses
+across all 131 blocks.
+
+### Universality
+
+The `data/lang/<code>` pack is console-agnostic: the same translation applies to
+both PS1 and Saturn. Because the target alphabet occupies the same font slots on
+both, a record's encoded token stream is identical; only the byte order and
+container differ. `scripts/lang5_saturn_apply.py` reuses the PS1 dump
+(`parse_dump_file`), codec (`Codec`) and `.tbl` unchanged, mapping Saturn block
+`c` entry `e` to PS1 chunk `c` record `e+1`. Platform is therefore a build-time
+choice, not a property of the pack. On the current RU pack it applies 89/131
+blocks automatically; the remaining 36 have a per-chunk record-count delta that
+needs mapping reconciliation (a data task, not a format gap), and 6 are empty.
 
 ### SYSTEM UI text — same offset-table repack
 

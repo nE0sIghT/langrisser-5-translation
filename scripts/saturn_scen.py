@@ -19,6 +19,10 @@ SECTOR = 0x800
 TEXT_TERMINATORS = {0xFFFE, 0xFFFF}
 
 
+def align_up(value: int, align: int = SECTOR) -> int:
+    return (value + align - 1) // align * align
+
+
 def parse_catalog(data: bytes, order: ByteOrder = BE) -> list[tuple[int, int]]:
     """Return `(start_offset, used_size)` for every payload block.
 
@@ -164,3 +168,71 @@ def splice_local_index_table(data: bytes, start: int, used: int,
         )
     region = build_local_index_table(entries, total_size, order)
     return data[:base] + region + data[base + total_size:]
+
+
+def rebuild_block_text(block: bytes, entries: list[list[int]], order: ByteOrder = BE) -> bytes:
+    """Return `block` with its field_3c text table set to `entries`.
+
+    If the rebuilt table fits the original `total_size`, it is spliced in place
+    and the block length is unchanged. Otherwise the enlarged table is appended
+    at the block end and the `resource_table.field_3c` pointer is repointed to
+    it; every existing byte (all other resources) is preserved and only the
+    4-byte field_3c pointer changes, so the block grows by the enlarged table.
+    The block is taken and returned as standalone bytes (offset 0).
+    """
+    used = len(block)
+    layout = local_index_layout(block, 0, used, order)
+    if layout is None:
+        raise ValueError("block has no field_3c local index table")
+    base, total_size, offsets = layout
+    if len(entries) != len(offsets):
+        raise ValueError(f"entry count changed: {len(offsets)} -> {len(entries)}")
+    packed = 4 + len(entries) * 2 + sum(len(words) for words in entries) * 2
+    if packed > 0xFFFF:
+        raise TableTooLarge(f"table {packed} exceeds the u16 offset range 0xFFFF")
+    if packed <= total_size:
+        region = build_local_index_table(entries, total_size, order)
+        return block[:base] + region + block[base + total_size:]
+    header = parse_block_header(block, 0, used, order)
+    if header is None:
+        raise ValueError("block header did not parse")
+    field_3c_ptr = header.resource_table_offset + 0x3C
+    out = bytearray(block)
+    out[field_3c_ptr:field_3c_ptr + 4] = order.pack_u32(used - header.resource_table_offset)
+    out += build_local_index_table(entries, packed, order)
+    return bytes(out)
+
+
+def repack_scen(data: bytes, block_entries: dict[int, list[list[int]]],
+                order: ByteOrder = BE) -> bytes:
+    """Rebuild the whole SCEN.DAT applying `block_entries` and re-laying out.
+
+    Each block whose index is in `block_entries` gets its field_3c text table
+    rebuilt (growing the block if needed); other blocks are kept byte-identical.
+    All blocks are then re-laid-out at 0x800-sector alignment and the top-level
+    catalog (`count`, then per-block `start_sector`/`used_size`) is rewritten to
+    match. With an empty `block_entries` this reproduces the input file.
+    """
+    blocks = parse_catalog(data, order)
+    count = len(blocks)
+    rebuilt: list[bytes] = []
+    for chunk_index, (start, used) in enumerate(blocks):
+        block = data[start:start + used]
+        if chunk_index in block_entries:
+            block = rebuild_block_text(block, block_entries[chunk_index], order)
+        rebuilt.append(block)
+
+    first_start = align_up(4 + count * 8)
+    starts: list[int] = []
+    cursor = first_start
+    for block in rebuilt:
+        starts.append(cursor)
+        cursor = align_up(cursor + len(block))
+
+    out = bytearray(cursor)
+    out[0:4] = order.pack_u32(count)
+    for i, (block, start) in enumerate(zip(rebuilt, starts)):
+        out[4 + i * 8:4 + i * 8 + 4] = order.pack_u32(start // SECTOR)
+        out[4 + i * 8 + 4:4 + i * 8 + 8] = order.pack_u32(len(block))
+        out[start:start + len(block)] = block
+    return bytes(out)
