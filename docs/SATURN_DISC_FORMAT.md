@@ -733,6 +733,18 @@ redrawn in index space with the shared banner core. (A VRAM dump plus the VDP1
 command table is the way to *find* a sprite's `(SRCA, width, height, mode)`, but
 the build depends only on the disc file.)
 
+### Now Loading plate — compressed (not yet decoded)
+
+The Now Loading dump's VDP1 command table draws a **120x32, 8bpp** sprite at
+`0x4A200` (position 182,183). Unlike the banner, this texture is **not** stored
+raw in any disc file (a full-disc byte scan of a dense plate signature finds no
+match), so it is compressed. It is **not** in `GRAPHIC.LZH`: that file is a
+standard LHA (`-lh5-`) archive of the bonus JPEG CG gallery (`GRAPHIC.DOC` calls
+it おまけCG and says extraction matches Langrisser 3/4 — an LZH of JPEGs), not the
+in-game UI. Locating the compressed Now Loading source and its codec is a
+separate task. `TITLE1.DAT`, by contrast, *is* an uncompressed 8bpp container and
+should decode with the same recipe as `CLEAR.DAT`.
+
 Decoding the tile arrangement, palette and dimensions — and then redrawing the
 translated graphics — is an open sub-project. **The graphic assets (title
 credits, prologue poem, Now Loading, SCENARIO CLEAR) and the name-entry screen
@@ -749,7 +761,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **not decoded** — VDP-tiled container, no decoder |
 | Prologue poem graphic | done | **not decoded** |
-| Now Loading plate | done | **not located/decoded** |
+| Now Loading plate | done | **compressed** — 120x32 8bpp, source not raw on disc (see below) |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
 | Virash cutscene subtitles | done | **not investigated** |
