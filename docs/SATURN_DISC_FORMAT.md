@@ -688,6 +688,42 @@ These are not PS1 `IMG.DAT` records. A Saturn title/bitmap editor will need a
 separate decoder; the container directory, descriptor `width x height` fields and
 likely 16bpp payload are the current confirmed/hypothesised starting points.
 
+Further findings (still not a working decoder):
+
+- The `TITLE1.DAT` pixel payload is **uncompressed** (entropy ~6.1 bits/byte,
+  256 distinct byte values) — not LZH/CPK packed like `GRAPHIC.LZH`/`LANG5.CPK`.
+- Rendered as **linear** 16bpp it is scrambled (structured bands over noise),
+  which points to Saturn VDP **tiled** storage (8x8 cells addressed through a
+  pattern table) and/or a sprite table in the descriptor, not a linear bitmap.
+- `CLEAR.DAT` (the likely SCENARIO CLEAR banner) does **not** use the `(a,b)`
+  directory at all (its `count` word reads `888` and the descriptor is zero), so
+  it is a different, still-unidentified structure.
+
+Decoding the tile arrangement, palette and dimensions — and then redrawing the
+translated graphics — is an open sub-project. **The graphic assets (title
+credits, prologue poem, Now Loading, SCENARIO CLEAR) and the name-entry screen
+are not yet recognized well enough to translate on Saturn.**
+
+## Translation Coverage On Saturn
+
+Honest status of applying the universal `data/lang` pack to Saturn, by asset:
+
+| Translation asset (README) | PS1 | Saturn |
+| --- | --- | --- |
+| SCEN scenario/dialogue text | done | done — 97/131 blocks; 28 need mapping reconciliation |
+| SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
+| Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
+| Title credits graphic | done | **not decoded** — VDP-tiled container, no decoder |
+| Prologue poem graphic | done | **not decoded** |
+| Now Loading plate | done | **not located/decoded** |
+| SCENARIO CLEAR banner | done | **not decoded** — `CLEAR.DAT`, unknown structure |
+| Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
+| Virash cutscene subtitles | done | **not investigated** |
+
+The text and font path (the bulk of the script) is applied and validated;
+the graphic assets and the name-entry screen are open sub-projects (see the
+asset-container notes above and the open questions below).
+
 ## Insertion / Repack Model
 
 Applying the translation is a **fixed-size repack**, exactly like the PS1 flow:
