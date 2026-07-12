@@ -810,6 +810,36 @@ only the glyph-plane file offset differs.
 - The patch/output format for a mixed-mode BIN/CUE after in-place edits (the PS1
   flow emits a PPF against a single `.bin`).
 
+### Cross-validation and ISO-output recipe (Langrisser III, Saturn)
+
+The sibling project `external/langrisser3-english` (same publisher, same Saturn
+engine family) independently confirms this container model and supplies the
+disc-output recipe. Its `D00.DAT` is structurally identical to our `SCEN.DAT`:
+
+- a big-endian `u32 section_count` then `(sector, size)` pairs at `0x800`
+  sectors — our catalog;
+- each section's text area is `u32 text_size`, `u16 offset_table_size`, a
+  `u16` offset array **ending in a `0x00A4` sentinel**, then 2-byte big-endian
+  tile-code entries with control codes (`0xF600` consumes an argument) — our
+  `field_3c` text pool. The sentinel is the "+1" entry our count includes.
+
+Its `iso_tools.py` shows the disc-output path we still need (to be
+reimplemented here — that repo has no open-source license, and the technique is
+standard CD-ROM practice):
+
+- Mode1/2352 sectors, user data at offset `16`, with **EDC/ECC recomputed**
+  per edited sector.
+- Growing a file by **relocating it to the end of the image** and updating its
+  ISO9660 directory record (extent + size, written both little- and big-endian
+  per spec).
+- Reassembling the `.cue`/BIN set from the patched track 1 plus the original
+  audio tracks, shifting track 2's MSF for the new track-1 length.
+
+This directly applies to injecting our grown `SCEN.DAT` (and same-size
+`SYSTEM.DAT`) into the Saturn disc. It does **not** help with the graphic
+assets: that project also leaves the title/UI graphics untranslated, so the
+VDP tile/CLUT decode still needs a VRAM dump.
+
 ## Executable / Code Files
 
 Likely code-bearing files:
