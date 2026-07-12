@@ -39,10 +39,34 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_scen_text.py` | Dump the full Saturn `SCEN.DAT` scenario text pool with stable `(chunk, entry)` ids |
 | `scripts/saturn_font.py` | Render Saturn `SYSTEM.DAT` glyph slots and diff them against the PS1 font |
 | `scripts/saturn_scen.py` | Shared SCEN.DAT read/rebuild model (catalog, block header, field_3c text pool) |
+| `scripts/lang5_saturn_apply.py` | Apply the universal `data/lang` translation to the Saturn SCEN text pool |
+| `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font into `SYSTEM.DAT` + text into `SCEN.DAT` |
 
 The Saturn tools share the platform-agnostic core: `lang5_binfmt` (byte order),
-`lang5_offsetgroups` (the SYSTEM group model), and the PS1 token codec, so no
-common logic is duplicated between the PS1 and Saturn tooling.
+`lang5_offsetgroups` (the SYSTEM group model), `lang5_build_font` (glyph slot
+rewrite), and the PS1 token codec/dump loader, so no common logic is duplicated
+between the PS1 and Saturn tooling.
+
+### Build-time platform selection
+
+Platform is chosen at build time; the `data/lang/<code>` pack is unchanged.
+`lang5_saturn_build.py` runs the reused stages against the extracted Saturn
+files:
+
+```bash
+python3 scripts/saturn_disc.py extract SYSTEM.DAT work/build/saturn/SYSTEM.DAT
+python3 scripts/saturn_disc.py extract SCEN.DAT   work/build/saturn/SCEN.DAT
+python3 scripts/lang5_saturn_build.py --lang ru \
+  --assignments work/build/font_slot_assignments.ru.csv
+```
+
+`lang5_build_font` writes the Cyrillic alphabet into `SYSTEM.DAT` glyph slots
+`0..1820` (text region untouched) and emits the `.tbl`; `lang5_saturn_apply`
+inserts the translated scenario text. On the RU pack this applies 97/131 SCEN
+blocks; the file re-parses across all 131 blocks and reads back as Russian.
+Remaining before a shippable disc: SYSTEM UI-text repack (the shared group model
+with a BE packer), reconciling the 28 interspersed-delta blocks, and injecting
+the grown files back into the mixed-mode BIN/CUE.
 
 Generated investigation output lives under `work/build/saturn/` and is not
 tracked.
