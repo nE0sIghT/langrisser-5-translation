@@ -37,6 +37,7 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_system_dump.py` | Dump Saturn `SYSTEM.DAT` text groups using the confirmed on-disc word order |
 | `scripts/saturn_scen_scan.py` | Scan Saturn `SCEN.DAT` catalog, chunk headers, record indices and token streams |
 | `scripts/saturn_scen_text.py` | Dump the full Saturn `SCEN.DAT` scenario text pool with stable `(chunk, entry)` ids |
+| `scripts/saturn_font.py` | Render Saturn `SYSTEM.DAT` glyph slots and diff them against the PS1 font |
 
 Generated investigation output lives under `work/build/saturn/` and is not
 tracked.
@@ -513,22 +514,59 @@ the PS1 Japanese table but are **not** a full match:
   `ランフォード…`, `レインフォルス`) and hiragana decodes cleanly.
 - **Control words are identical** (`FFFC`, `FFFD`, `FFFE`, `FFFF`, `FFF3`–`FFF8`,
   `FB00`+arg).
-- **Kanji banks are piecewise-reordered.** Some kanji decode correctly, others
-  are shifted. Confirmed alignment against the PS1 script:
+- **Kanji slots are reordered/replaced.** Some kanji decode correctly, others
+  do not. The root cause is the font plane itself (see the Font section): the
+  Saturn `SYSTEM.DAT` glyph slot at a given id often holds a different kanji
+  than PS1. Confirmed alignment against the PS1 script and font:
 
-| Saturn token | PS1 table glyph | Correct Saturn glyph | Note |
+| Saturn token | PS1 glyph slot | Saturn glyph slot | Note |
 | --- | --- | --- | --- |
 | `0x020D` | 差 | 元 | `ランフォード元帥` (Lanford the Marshal) |
-| `0x020E` | 元 | 帥 | so this kanji band is shifted by one |
-| `0x0138` | 部 | 部 | `部下` decodes correctly — no shift here |
-| `0x0122` | 下 | 下 | same band unshifted |
+| `0x020E` | 元 | 帥 | Saturn slot holds a different kanji than PS1 |
+| `0x0138` | 部 | 部 | identical slot — `部下` decodes correctly |
+| `0x0122` | 下 | 下 | identical slot |
 
-The shift is local to certain kanji bands, not global, so a Saturn-specific
-kanji table is required to read Japanese kanji perfectly. This does **not**
-block the translation port: kana + control structure decode correctly, which is
-enough to align Saturn text entries with PS1 records structurally (see the
-per-chunk correspondence above), and inserted target text will use a
-project-authored font/table regardless.
+Because token ids are glyph-plane indices, the fix is a Saturn-specific glyph
+table, derived by rendering the divergent Saturn slots (or by aligning Saturn
+entries to matched PS1 records). This does **not** block the translation port:
+kana + control structure decode correctly, which is enough to align Saturn text
+entries with PS1 records structurally (see the per-chunk correspondence above),
+and inserted target text will use a project-authored font/table regardless.
+
+## Font (`SYSTEM.DAT` glyph plane)
+
+The in-game text font is owned by `SYSTEM.DAT`, in the same format as PS1
+`SYSTEM.BIN`:
+
+| Property | Value |
+| --- | --- |
+| Cell | `12x12`, `1bpp`, `18` bytes/glyph, `12` bits/row MSB-first, rows packed continuously |
+| Glyph address | `index * 18` from offset `0` |
+| Glyph slots | `0..1820` (same as PS1) |
+| Byte order | natural (glyph bytes are **not** byte-swapped, unlike the `u16` text tokens) |
+
+Both the SYSTEM UI text and the SCEN dialogue index into this one plane: SCEN
+token `0x0094` renders シ from the `SYSTEM.DAT` font, matching `シグマ` in the
+script. `WD_FONT.BIN` (8 KiB) is not this font — it is repeating dither/window
+pattern data (`0xAA`/`0x99`/`0x66`), not text glyphs.
+
+Comparison of glyph slots `0..1820` against PS1 `SYSTEM.BIN`:
+
+| Property | Value |
+| --- | --- |
+| Identical slots | `465` |
+| Differing slots | `1356` |
+| First differing slot | `0x00CA` (starts at byte `0xE34`; first differing byte `0xE35`, the known divergence point) |
+| Main differing bands | `0x0185..0x025D`, `0x025F..0x02CA`, `0x02CC..0x05AC`, `0x05FC..0x071C` |
+
+Kana, punctuation and the early shared range (slots `0x00..0xC9` and the
+`0x00CB..0x0184` band) are byte-identical, which is why kana and some kanji
+decode correctly. The large `0x0185+` kanji region is reordered/replaced.
+
+Implication for tooling: the glyph format and slot layout match PS1 exactly, so
+`lang5_build_font.py`'s slot-rewrite approach (draw the target alphabet into
+slots `0..1820`) is directly portable to Saturn `SYSTEM.DAT`; only the file
+offset of the glyph plane and the surrounding container differ.
 
 Reproducible command:
 
@@ -599,17 +637,18 @@ Reusable with little conceptual risk:
 - Canonical terminology (`names.csv`, `glossary.csv`) after mapping Saturn
   source ids to PS1 ids.
 - Review workflow concepts.
-- Text token codec concepts, once endian, record location and any Saturn glyph
-  map differences are handled.
+- Text token codec concepts: endian and record location are now solved; the
+  Saturn text pool dumps deterministically and aligns to PS1 chunks 1:1.
+- The slot-rewrite font builder (`lang5_build_font.py`): the Saturn font is the
+  same 12x12x18 PS1 format in `SYSTEM.DAT`, so drawing the target alphabet into
+  slots `0..1820` ports directly.
 
 Partially reusable after platform adaptation:
 
 - `SYSTEM.BIN` dumper/packer logic: same group concept, but Saturn
   `SYSTEM.DAT` uses swapped/on-disc BE words and shifted groups.
-- Font assignment concepts: token ids appear compatible, but Saturn font
-  storage and renderer need verification.
-- Scenario validation concepts: control words are similar, but exact record
-  boundaries and VM metadata are unknown.
+- Scenario validation concepts: control words match the PS1 model, but record
+  payload/VM metadata is still undecoded (not needed for text).
 
 Not directly reusable:
 
@@ -645,9 +684,9 @@ for graphics/map/event editing, not for text.
 - [x] Build a deterministic Saturn script dump with stable `(chunk, entry)` ids.
 - [x] Compare Saturn script entries against PS1 `work/scriptdump/` (131 chunks 1:1).
 - [x] Confirm the Saturn dialogue/control-word grammar (matches PS1 model).
-- [x] Characterize the Saturn glyph map vs PS1 (kana identical, kanji piecewise-reordered).
+- [x] Characterize the Saturn glyph map vs PS1 (kana identical, kanji reordered).
+- [x] Classify the Saturn font storage and renderer cell model (`SYSTEM.DAT`, 12x12x18, PS1-compatible).
 - [ ] Build the Saturn-specific kanji table (only needed to fully read JP kanji).
-- [ ] Classify the Saturn font storage and renderer cell model.
 - [ ] Decode at least one Saturn title/bitmap container.
 - [ ] Decode `SCEN.DAT` record-payload grammar (graphics/map/event editing only).
 - [ ] Decode `SCEN.DAT` `resource_table` resource semantics (non-text editing only).
@@ -674,13 +713,16 @@ for graphics/map/event editing, not for text.
 | Saturn `SCEN.DAT` chunks correspond 1:1 to PS1 `SCEN.DAT` chunks. | Confirmed | Both have 131 chunks; per-chunk text counts match exactly for 95/131 and within ±2 for 111/131; all deltas small and negative. |
 | Saturn `SCEN.DAT` record payloads are text records. | Rejected | Payloads between record-index and `resource_map` are high-entropy binary resources (tilemaps/graphics/VM); text lives only in the `field_3c` pool. |
 | Saturn `SCEN.DAT` contains raw swapped-word/on-disc BE token streams. | Confirmed | Scanner finds 619 candidates; these are the same entries the `field_3c` walk yields. |
-| PS1 JP token table is exact for Saturn scenario text. | Rejected (partial map) | Kana and control words match exactly; kanji banks are piecewise-reordered (e.g. 元 is Saturn `0x020D` vs PS1 `0x020E`, while `部下` at `0x0138`/`0x0122` is unshifted). |
+| PS1 JP token table is exact for Saturn scenario text. | Rejected (partial map) | Kana and control words match exactly; kanji slots are reordered (e.g. 元 is Saturn `0x020D` vs PS1 `0x020E`, while `部下` at `0x0138`/`0x0122` is unshifted). |
+| Saturn `SYSTEM.DAT` uses the PS1 12x12x18 font format. | Confirmed | Glyph at `index*18`, 12 bits/row MSB-first; `下`/`部`/`シ` render correctly and are byte-identical to PS1. |
+| The Saturn text font equals the PS1 font. | Rejected (partial) | 465/1821 glyph slots byte-identical; 1356 differ, all in the `0x0185+` kanji region; kana identical. |
+| `WD_FONT.BIN` holds the in-game text font. | Rejected | It is repeating dither/window pattern data (`0xAA`/`0x99`/`0x66`), not 12x12 glyphs; SYSTEM.DAT owns the text font. |
 | Saturn title/OPEN/CAST/STAFF `.DAT` files are PS1 `IMG.DAT` records. | Rejected | They use separate swapped-word/on-disc BE directory-like headers and different payload layout. |
 
 ### Immediate Next Steps
 
-1. Classify the Saturn font storage and renderer cell model (`SYSTEM.DAT`
-   font-like prefix, `WD_FONT.BIN`), the prerequisite for rendering target text.
+1. Confirm whether Saturn `SYSTEM.DAT` runtime accesses strings by table index
+   (like PS1) or by absolute offset — this gates SYSTEM/text repack.
 2. Decode one Saturn title/bitmap container (`TITLE1.DAT`) for graphic assets.
 3. Build the Saturn-specific kanji table by aligning Saturn entries with matched
    PS1 records, so JP kanji reads cleanly (optional: structural alignment already
@@ -734,11 +776,15 @@ Resolved for the translation text path:
 - Saturn chunks map 1:1 to PS1 chunks, so the existing translation can be ported
   by `(chunk, entry)` alignment.
 
+Resolved for the font/render path:
+
+- `SYSTEM.DAT` owns the text font (12x12x18, glyph at `index*18`, PS1-compatible
+  slots `0..1820`); `WD_FONT.BIN` is dither/window pattern data. SCEN dialogue
+  and SYSTEM UI share this one plane. The slot-rewrite font builder is portable.
+
 Still open:
 
-- Which file owns the main in-game font used by dialogue: `SYSTEM.DAT`,
-  `WD_FONT.BIN`, or both, and what is the renderer cell/glyph-index model?
-- What is the exact Saturn kanji bank ordering (needed only to read JP kanji)?
+- What is the exact Saturn kanji slot ordering (needed only to read JP kanji)?
 - Does Saturn `SYSTEM.DAT` runtime access strings by table index like PS1, or by
   absolute offset? (Gates SYSTEM repack.)
 - What is the `resource_table`/record-payload grammar? (Graphics/map/event
