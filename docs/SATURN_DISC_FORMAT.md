@@ -75,7 +75,7 @@ The stages, all reusing shared logic:
   unit-name group reads `Солдат`/`Легион`); groups whose translation exceeds the
   fixed group budget are left in Japanese, exactly as the PS1 flow fits within a
   group's span.
-- `lang5_saturn_apply` inserts the translated scenario text: 97/131 SCEN blocks
+- `lang5_saturn_apply` inserts the translated scenario text: 100/131 SCEN blocks
   on the RU pack; the file re-parses across all 131 blocks and reads back as
   Russian.
 - Graphic steps run when the corresponding Saturn files are extracted:
@@ -85,7 +85,7 @@ The stages, all reusing shared logic:
 - With `--remaster-disc`, the build writes a translated mixed-mode BIN/CUE under
   `work/build/saturn/`.
 
-Remaining before full PS1 parity: reconciling the 28 interspersed-delta SCEN
+Remaining before full PS1 parity: reconciling the 25 interspersed-delta SCEN
 blocks and the 4 over-budget/unaligned SYSTEM groups (data-alignment tasks), and
 runtime-checking the statically patched Saturn-only screens.
 
@@ -949,7 +949,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 
 | Translation asset (README) | PS1 | Saturn |
 | --- | --- | --- |
-| SCEN scenario/dialogue text | done | done — 97/131 blocks; 28 need mapping reconciliation |
+| SCEN scenario/dialogue text | done | done — 100/131 blocks; 25 need mapping reconciliation; 3 are applied through unique stable-token signature alignment |
 | SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
@@ -1208,6 +1208,7 @@ for text.
 | The Saturn name-entry screen uses a PS1-style executable 10x10 table. | Rejected | Full PS1 row-layout patterns do not occur in `A0LANG5.BIN`, `PROG1.BIN` or `PROG2.BIN`; only the two full tables in `SYSTEM.DAT` match. |
 | The Saturn name-entry grid and input list can be patched in `SYSTEM.DAT`. | Confirmed statically | `saturn_name_entry.py` verifies and rewrites the full display grid at `0x08CE6` and flat input table at `0x1B6E0` using target-language single glyph tokens. |
 | Saturn translated files can be remastered into a mixed-mode BIN/CUE. | Confirmed structurally | `saturn_disc.py remaster` relocates grown `SCEN.DAT`, shifts track 2+ cue times and ADPCM directory extents, rebuilds MODE1 EDC/ECC, and extracted replacements compare byte-identical to build outputs. |
+| Some Saturn/PS1 SCEN count deltas can be aligned without manual maps. | Confirmed narrowly | Three chunks have a unique exact subsequence match when comparing only platform-stable JP tokens (kana/ASCII/punctuation/control words). `lang5_saturn_apply.py` applies only those unique matches and leaves ambiguous cases untouched. |
 
 ### Immediate Next Steps
 
