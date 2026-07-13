@@ -8,14 +8,14 @@ are drawn into it. The Saturn title is the big VDP2-cell image inside the
 so the flow is: de-tile the cells -> draw the lines in the linear bitmap ->
 re-tile only the cells touched, splicing them back so the file size is preserved.
 
-The exact 256-colour CLUT of this image is loaded to CRAM by game code and is not
-in the file, so — like the banner redraw — the text is written in **index space**
-using an existing bright ink index (default 253, the value the title's own white
-lettering uses; verify in the grayscale preview). Placement (`--y0`, `--ink`) is
-tunable because it can only be finally judged in an emulator.
+The image's 256-colour CLUT is in the container descriptor (the second of its two
+palettes; see `saturn_container.image_clut_offset`), so the credit ink index is
+chosen the same way the PS1 build does — `nearest_palette_index` to a light
+target — instead of being hard-coded. `--ink` overrides it; `--y0` places the
+lines. A colour preview is emitted from the real palette for review.
 
-The 1-bit text rasteriser is reused from the PS1 tooling
-(`lang5_imgdat.text_mask`); no text-layout logic is duplicated.
+The 1-bit text rasteriser and the palette match are reused from the PS1 tooling
+(`lang5_imgdat.text_mask`, `nearest_palette_index`); no logic is duplicated.
 """
 
 from __future__ import annotations
@@ -37,10 +37,10 @@ sys.modules["lang5_imgdat"] = imd
 _spec.loader.exec_module(imd)
 
 FONT = "data/fonts/DejaVuSerif-Bold.ttf"
-DEFAULT_INK = 253            # a bright index the title's own white text uses
+CREDIT_TARGET_RGB = (240, 240, 240)   # light ink, matched into the title palette
 DEFAULT_FONT_SIZE = 11
 DEFAULT_LINE_STEP = 12       # vertical spacing between credit lines
-DEFAULT_Y0 = 196             # first credit baseline, inside the 224-line frame
+DEFAULT_Y0 = 186             # first credit baseline; 3 lines fit inside 224
 
 
 def credit_lines(args: argparse.Namespace) -> list[str]:
@@ -85,7 +85,8 @@ def main() -> None:
     ap.add_argument("--out-title", default="work/build/saturn/TITLE1.ru.DAT")
     ap.add_argument("--out-preview", default="work/build/saturn/title_credits_preview.png")
     ap.add_argument("--font", default=FONT)
-    ap.add_argument("--ink", type=int, default=DEFAULT_INK)
+    ap.add_argument("--ink", type=int, default=None,
+                    help="ink palette index (default: nearest to a light colour)")
     ap.add_argument("--y0", type=int, default=DEFAULT_Y0)
     ap.add_argument("--font-size", type=int, default=DEFAULT_FONT_SIZE)
     ap.add_argument("--line-step", type=int, default=DEFAULT_LINE_STEP)
@@ -105,16 +106,23 @@ def main() -> None:
     images = cont.images()
     if not images:
         raise SystemExit(f"{args.title}: no image sub-asset found")
-    _, img = images[0] if args.asset is None else next(
+    desc, img = images[0] if args.asset is None else next(
         ((d, e) for d, e in images if e.index == args.asset),
         (None, None))
     if img is None:
         raise SystemExit(f"{args.title}: no image sub-asset {args.asset}")
 
+    clut_off = sc.image_clut_offset(cont.sub(desc))
+    if clut_off is None:
+        raise SystemExit(f"{args.title}: no image CLUT in the descriptor")
+    palette = sc.read_clut(cont.sub(desc), clut_off)
+    ink = args.ink if args.ink is not None else imd.nearest_palette_index(
+        palette, CREDIT_TARGET_RGB)
+
     cells = cont.sub(img)
     pixels, width, _ = sc.detile(cells, args.cols)
     lines = credit_lines(args)
-    stamp(pixels, width, lines, args.font, args.y0, args.ink,
+    stamp(pixels, width, lines, args.font, args.y0, ink,
           args.font_size, args.line_step)
 
     # Re-tile only the full cell-rows and splice them back, so the trailing
@@ -128,12 +136,13 @@ def main() -> None:
     out.write_bytes(bytes(data))
     assert len(out.read_bytes()) == len(Path(args.title).read_bytes()), "TITLE1 size must be preserved"
 
-    # Grayscale (index-space) preview: bright indices show as bright, so ink 253
-    # reads as white just as it will in-game if it matches the title's text index.
+    # Colour preview from the image's real palette.
     prev_px, _, prev_h = sc.detile(new_cells, args.cols)
-    Image.frombytes("L", (width, prev_h), bytes(prev_px)).save(args.out_preview)
-    print(f"patched title -> {out}  (lines: {len(lines)}, ink {args.ink}, y0 {args.y0})")
-    print(f"grayscale preview -> {args.out_preview}")
+    preview = Image.new("RGB", (width, prev_h))
+    preview.putdata([palette[v] for v in prev_px])
+    preview.save(args.out_preview)
+    print(f"patched title -> {out}  (lines: {len(lines)}, ink {ink}, y0 {args.y0})")
+    print(f"colour preview -> {args.out_preview}")
 
 
 if __name__ == "__main__":

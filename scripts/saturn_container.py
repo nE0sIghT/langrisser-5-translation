@@ -87,16 +87,34 @@ def parse_toc(data: bytes) -> list[TocEntry]:
 
 
 def find_clut_offset(descriptor: bytes) -> int | None:
-    """Offset of the 256-colour CLUT inside a descriptor sub-asset.
+    """Offset of the sprite CLUT inside a descriptor sub-asset.
 
-    The descriptor header is a list of u32s; the CLUT is the block whose length
-    field is `0x200`. We look for an `(offset, 0x200)` pair pointing in-bounds.
+    The descriptor header is a list of u32s; a CLUT is a `0x200`-byte block. We
+    look for an `(offset, 0x200)` pair pointing in-bounds. This is the palette of
+    the descriptor's small VDP1 sprites; the big cell image uses the next one
+    (see :func:`image_clut_offset`).
     """
     for pos in range(0, min(len(descriptor), 0x40) - 8, 4):
         off, length = BE.u32(descriptor, pos), BE.u32(descriptor, pos + 4)
         if length == CLUT_BYTES and 0 < off and off + CLUT_BYTES <= len(descriptor):
             return off
     return None
+
+
+def image_clut_offset(descriptor: bytes) -> int | None:
+    """Offset of the big cell image's CLUT inside its descriptor sub-asset.
+
+    The descriptor stores two consecutive 256-colour palettes: the first is for
+    its small sprites, the second (immediately after) is the palette the cell
+    image is drawn with. Verified across TITLE1/OPEN/CAST: with this palette the
+    background maps to pure black (index 255 = `(0,0,0)`) and the art is coherent
+    (stone logo / blue nebula), whereas the sprite palette renders it as noise.
+    """
+    sprite = find_clut_offset(descriptor)
+    if sprite is None:
+        return None
+    img = sprite + CLUT_BYTES
+    return img if img + CLUT_BYTES <= len(descriptor) else sprite
 
 
 def read_clut(descriptor: bytes, offset: int) -> list[tuple[int, int, int]]:
@@ -189,7 +207,7 @@ def cmd_preview(args: argparse.Namespace) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(args.container).stem
     for i, (desc, img) in enumerate(cont.images()):
-        clut_off = find_clut_offset(cont.sub(desc))
+        clut_off = image_clut_offset(cont.sub(desc))
         palette = (read_clut(cont.sub(desc), clut_off) if clut_off is not None
                    else [(v, v, v) for v in range(256)])
         pixels, width, height = detile(cont.sub(img), args.cols)

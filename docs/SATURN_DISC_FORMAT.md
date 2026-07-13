@@ -722,10 +722,17 @@ Each container holds two kinds of sub-asset, alternating (small descriptor, then
 its big pixel payload):
 
 - **Small sub-asset `[0]`** — a nested mini-container: a sprite table of
-  `(u16 width_px, u16 height_px)` entries plus data offsets, a 256-colour BGR555
-  CLUT (the `0x200`-byte block the descriptor points at), and a VDP1
-  coordinate/command table whose words echo the `CLEAR.DAT` header (`0x3c`,
-  `0x44`, ...). Dimensions seen: `80x28`, `40x28`.
+  `(u16 width_px, u16 height_px)` entries plus data offsets, **two consecutive
+  256-colour BGR555 CLUTs**, and a VDP1 coordinate/command table whose words echo
+  the `CLEAR.DAT` header (`0x3c`, `0x44`, ...). Dimensions seen: `80x28`, `40x28`.
+  The descriptor header gives the first CLUT as an `(offset, 0x200)` pair (e.g.
+  `0x20` in `TITLE1.DAT`); that first palette is for the small VDP1 sprites, and
+  the **second palette, immediately after it (`+0x200`, e.g. `0x220`), is the one
+  the big cell image is drawn with**. Verified on TITLE1/OPEN/CAST: with the
+  image palette the background is pure black (index 255 = `(0,0,0)`) and the art
+  is coherent (stone "LANGRISSER / THE END OF LEGEND" logo; blue star nebula on
+  CAST); the sprite palette renders the image as colour noise. Big-endian BGR555,
+  reusing `lang5_imgdat.rgb555_to_rgb888`.
 - **Big sub-asset `[1]`** — the full-screen image, stored as **VDP2 8x8 cells**
   (its header `tex_off`/`tex_size` are `0`). Rendered linearly it shears with the
   diagonal-streak signature of tiled data; de-tiling with the mini-container's
@@ -837,7 +844,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SCEN scenario/dialogue text | done | done — 97/131 blocks; 28 need mapping reconciliation |
 | SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
-| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw in index space → re-tile, fixed size); in-game ink/placement tunable via `--ink`/`--y0` |
+| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
 | Prologue poem graphic | done | **recognized** — same container format (`TITLE2.DAT`/`OPEN.DAT`) |
 | Now Loading plate | done | **compressed** — 120x32 8bpp; VRAM↔disc identity proven (see below); not raw/tiled anywhere on disc nor in RAM (only VDP1 VRAM); no plate sub-asset descriptor exists — embedded + compressed in resident SH-2 code (`A0LANG5.BIN`/`PROG1.BIN`) |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
