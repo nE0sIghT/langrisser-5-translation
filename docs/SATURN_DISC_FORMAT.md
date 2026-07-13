@@ -71,10 +71,11 @@ The stages, all reusing shared logic:
   `0..1820` (text region untouched) and emits the `.tbl`.
 - `lang5_saturn_system_pack` rebuilds the SYSTEM UI groups with the translated
   text via the shared group model (BE), mapping Saturn group `g` index `i` to
-  the PS1 group `g` index `i`. On the RU pack it packs 12/16 groups (e.g. the
-  unit-name group reads `Солдат`/`Легион`); groups whose translation exceeds the
-  fixed group budget are left in Japanese, exactly as the PS1 flow fits within a
-  group's span.
+  the PS1 group `g` index `i` where the structure matches. On the RU pack it
+  packs 14/16 groups. Group 0 keeps the Saturn name-entry rows at their original
+  physical offset (`SYSTEM.DAT+0x08CE6`) before `saturn_name_entry.py` rewrites
+  them; group 5 fits by using the same identical-string de-duplication as the
+  PS1 repack path.
 - `lang5_saturn_apply` inserts the translated scenario text: 100/131 SCEN blocks
   on the RU pack; the file re-parses across all 131 blocks and reads back as
   Russian.
@@ -86,7 +87,7 @@ The stages, all reusing shared logic:
   `work/build/saturn/`.
 
 Remaining before full PS1 parity: reconciling the 25 interspersed-delta SCEN
-blocks and the 4 over-budget/unaligned SYSTEM groups (data-alignment tasks), and
+blocks and the 2 Saturn-specific SYSTEM groups (data-alignment tasks), and
 runtime-checking the statically patched Saturn-only screens.
 
 Generated investigation output lives under `work/build/saturn/` and is not
@@ -950,7 +951,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | Translation asset (README) | PS1 | Saturn |
 | --- | --- | --- |
 | SCEN scenario/dialogue text | done | done — 100/131 blocks; 25 need mapping reconciliation; 3 are applied through unique stable-token signature alignment |
-| SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
+| SYSTEM UI text | done | done — 14/16 groups; groups 1 and 15 need Saturn-specific mapping/line reconciliation |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |
@@ -1016,9 +1017,11 @@ both, a record's encoded token stream is identical; only the byte order and
 container differ. `scripts/lang5_saturn_apply.py` reuses the PS1 dump
 (`parse_dump_file`), codec (`Codec`) and `.tbl` unchanged, mapping Saturn block
 `c` entry `e` to PS1 chunk `c` record `e+1`. Platform is therefore a build-time
-choice, not a property of the pack. On the current RU pack it applies 89/131
-blocks automatically; the remaining 36 have a per-chunk record-count delta that
-needs mapping reconciliation (a data task, not a format gap), and 6 are empty.
+choice, not a property of the pack. On the current RU pack it applies 100/131
+blocks: 97 by direct/prefix mapping plus 3 by unique stable-token signature
+alignment. The remaining 25 have interspersed record-count deltas that need
+mapping reconciliation (a data task, not a format gap), and 6 are empty/missing
+target dumps.
 
 ### SYSTEM UI text — same offset-table repack
 
@@ -1030,6 +1033,23 @@ offset-table indirection exists precisely to allow it); a final guarantee needs
 the Saturn executable, but the fixed-size in-place repack is safe regardless as
 long as string indices and group layout are preserved.
 
+Current SYSTEM insertion status:
+
+- 14/16 groups pack for both EN and RU.
+- Group 0 is a verified exception to identical entry counts because Saturn keeps
+  the 19 visible name-entry rows inside the group. The packer preserves those
+  rows at `SYSTEM.DAT+0x08CE6` and packs translated strings on both sides; the
+  separate name-entry patch then rewrites the fixed rows. RU voice-actor names
+  in this fixed tail are compacted from `X. Name` to `X.Name` if needed to fit;
+  EN full actor names do not fit this fixed Saturn tail, so only those
+  actor-name entries are left original while the surrounding UI is translated.
+- Group 5 (unit type labels) fits after applying PS1-style identical-string
+  de-duplication inside the regenerated group blob.
+- Groups 1 and 15 remain open because their Saturn text is not just
+  over-budget: the save/backup-RAM messages and preparation-help cards have
+  Saturn-specific line splits/counts. They require a Saturn-specific mapping or
+  target overlay, not blind PS1 index reuse.
+
 ### Font — slot rewrite
 
 Cyrillic glyphs are drawn into `SYSTEM.DAT` glyph slots `0..1820` (same
@@ -1038,8 +1058,9 @@ only the glyph-plane file offset differs.
 
 ### Still open for full text parity
 
-- The Saturn↔PS1 mapping deltas (a few entries per chunk) must be reconciled so
-  each Saturn entry pulls the right translated string.
+- The Saturn↔PS1 SCEN mapping deltas (a few entries per chunk) must be
+  reconciled so each Saturn entry pulls the right translated string.
+- SYSTEM groups 1 and 15 need Saturn-specific mapping/line reconciliation.
 
 ### Cross-validation and ISO-output recipe (Langrisser III, Saturn)
 
@@ -1165,7 +1186,8 @@ for text.
 - [x] Implement the Saturn SYSTEM UI-text packer (shared group model, BE).
 - [x] Reuse the font builder to draw Cyrillic into the Saturn glyph plane.
 - [x] Wire the Saturn build flow (font + SYSTEM + SCEN) reusing shared stages.
-- [ ] Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
+- [ ] Reconcile the interspersed Saturn<->PS1 SCEN mapping deltas and SYSTEM
+      groups 1/15.
 - [x] Inject the grown Saturn files back into the mixed-mode BIN/CUE.
 - [ ] Decode `SCEN.DAT` record-payload grammar (graphics/map/event editing only).
 - [ ] Decode `SCEN.DAT` `resource_table` resource semantics (non-text editing only).
@@ -1209,11 +1231,12 @@ for text.
 | The Saturn name-entry grid and input list can be patched in `SYSTEM.DAT`. | Confirmed statically | `saturn_name_entry.py` verifies and rewrites the full display grid at `0x08CE6` and flat input table at `0x1B6E0` using target-language single glyph tokens. |
 | Saturn translated files can be remastered into a mixed-mode BIN/CUE. | Confirmed structurally | `saturn_disc.py remaster` relocates grown `SCEN.DAT`, shifts track 2+ cue times and ADPCM directory extents, rebuilds MODE1 EDC/ECC, and extracted replacements compare byte-identical to build outputs. |
 | Some Saturn/PS1 SCEN count deltas can be aligned without manual maps. | Confirmed narrowly | Three chunks have a unique exact subsequence match when comparing only platform-stable JP tokens (kana/ASCII/punctuation/control words). `lang5_saturn_apply.py` applies only those unique matches and leaves ambiguous cases untouched. |
+| Saturn SYSTEM group 5 only failed because the packer lacked PS1-style string de-duplication. | Confirmed | Adding identical-string blob de-duplication lets the unit-type label group fit without shortening target text. Group 0 also packs when the name-entry rows are kept at their original `SYSTEM.DAT+0x08CE6` address instead of being freely moved. |
 
 ### Immediate Next Steps
 
 1. Runtime-check the Saturn name-entry screen/cursor/OK behavior.
-2. Reconcile the interspersed Saturn<->PS1 SCEN/SYSTEM mapping deltas.
+2. Reconcile the interspersed Saturn<->PS1 SCEN deltas and SYSTEM groups 1/15.
 3. Runtime-check the remastered Saturn BIN/CUE.
 4. Build the Saturn-specific kanji table by aligning Saturn entries with matched
    PS1 records, so JP kanji reads cleanly (optional: structural alignment already
@@ -1259,7 +1282,8 @@ Completed:
 Next:
 
 1. Runtime-check the Saturn name-entry screen and cursor/OK behavior.
-2. Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
+2. Reconcile the interspersed Saturn<->PS1 SCEN mapping deltas and SYSTEM
+   groups 1/15.
 3. Runtime-check the remastered Saturn BIN/CUE.
 4. Optional cleanup:
    - build a Saturn-specific kanji table by aligning matched PS1/Saturn records;
