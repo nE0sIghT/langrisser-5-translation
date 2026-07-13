@@ -6,7 +6,9 @@ this Saturn flow. It reuses the shared stages unchanged:
 
 1. `lang5_build_font` draws the target alphabet into the Saturn `SYSTEM.DAT`
    glyph plane (same 12x12x18 format and slots as PS1) and emits the `.tbl`.
-2. `lang5_saturn_apply` inserts the translated scenario text into `SCEN.DAT`
+2. `saturn_name_entry` patches the name-entry display/input tables in
+   `SYSTEM.DAT` using the same target alphabet grid as the PS1 build.
+3. `lang5_saturn_apply` inserts the translated scenario text into `SCEN.DAT`
    (fixed-size where it fits, growing + re-laying-out blocks where it does not).
 
 Outputs the translated `SYSTEM.DAT` and `SCEN.DAT` under `work/build/saturn/`.
@@ -85,6 +87,11 @@ def main() -> None:
         "--system-in", system_font,
         "--system-out", system_out,
         "--strings", f"work/build/system_strings.{lang.suffix}.json",
+        "--tbl", tbl)
+    run(scripts / "saturn_name_entry.py",
+        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--system-in", system_out,
+        "--system-out", system_out,
         "--tbl", tbl)
     if lang.now_loading:
         run(scripts / "saturn_now_loading.py",
