@@ -43,7 +43,7 @@ Read-only tooling added for this investigation:
 | `scripts/lang5_saturn_system_pack.py` | Pack the SYSTEM UI translation into the Saturn `SYSTEM.DAT` groups |
 | `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font + SYSTEM text + SCEN text + decoded graphics |
 | `scripts/saturn_poem_translate.py` | Re-pack the shared prologue-poem render into `OPEN.DAT[2]` VDP1 runs |
-| `scripts/saturn_now_loading.py` | Re-pack the Saturn compressed `SYSTEM.DAT` Now Loading plate |
+| `scripts/saturn_now_loading.py` | Re-pack or diagnose the Saturn compressed `SYSTEM.DAT` Now Loading plate |
 | `scripts/saturn_name_entry.py` | Patch the Saturn name-entry display grid and input table in `SYSTEM.DAT` |
 
 The Saturn tools share the platform-agnostic core: `lang5_binfmt` (byte order),
@@ -912,13 +912,18 @@ i.e. depths `(1, 10, 5, 15)`, producing `1928/1937` bytes.
 `lang5_now_loading.redraw_plate_pixels`, so the Saturn visible plate is
 byte-identical to the PS1 translated plate; only the container codec differs.
 The build patches `SYSTEM.<lang>.DAT` in place and preserves the file length.
+The script also has `--diagnostic-stripes`, which writes obvious horizontal
+bands through the same compressor. Use that mode for runtime confirmation: if
+the Now Loading screen does not show the bands, the static stream location or
+the remaster path is still incomplete.
 
 Decoding the remaining tile arrangements, palettes and dimensions — and then
 redrawing the translated graphics — is still needed for the remaining bitmap
 assets. **Of the graphic assets: SCENARIO CLEAR is done; title credits are done;
-the prologue poem is done; Now Loading is done; staff/cast containers are
-recognized and tractable; the name-entry screen is statically patched but still
-needs runtime confirmation.**
+the prologue poem is done; Now Loading is statically decoded/re-encoded and has
+a diagnostic runtime test path; staff/cast containers are recognized and
+tractable; the name-entry screen is statically patched but still needs runtime
+confirmation.**
 
 ### Name-entry alphabet tables — `SYSTEM.DAT`
 
@@ -954,7 +959,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |
-| Now Loading plate | done | done — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate |
+| Now Loading plate | done | implemented/static — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate; runtime confirmation pending via `--diagnostic-stripes` |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | implemented/static — `saturn_name_entry.py` patches `SYSTEM.DAT+0x08CE6` display grid and `+0x1B6E0` input table; runtime confirmation pending |
 | Virash cutscene subtitles | done | **not investigated** |
@@ -1157,7 +1162,8 @@ for text.
 - [x] Decode and translate the `CLEAR.DAT` scenario-clear banner.
 - [x] Decode and stamp the `TITLE1.DAT` title credits.
 - [x] Decode and translate the `OPEN.DAT[2]` prologue poem run-atlas.
-- [x] Decode and translate the compressed `SYSTEM.DAT` Now Loading plate.
+- [x] Decode and re-encode the compressed `SYSTEM.DAT` Now Loading plate.
+- [ ] Runtime-confirm the translated/diagnostic `SYSTEM.DAT` Now Loading plate.
 - [x] Locate and patch the Saturn name-entry display grid and input table.
 - [x] Define the SCEN insertion/repack model (fixed-size field_3c rebuild).
 - [x] Validate the model by 131/131 byte-identical round-trip + substitution.
@@ -1204,7 +1210,7 @@ for text.
 | The prologue poem `OPEN.DAT[2]` run table uses direct byte offsets and pixel widths. | Rejected | `srca` and `width` looked tiny under that reading. Re-reading them as VDP1 units (`srca * 8`, `width_units * 8`) accounts for all 50 runs and exactly consumes the `0x12880` atlas. |
 | The prologue poem `OPEN.DAT[2]` is a fixed VDP1 run-atlas image. | Confirmed | Header geometry is 320x768; run table entries are `(x, y, srca_units, width_units/height)`; all original runs are consecutive in atlas space; `saturn_poem_translate.py` re-packs translated poems fixed-size. |
 | The Now Loading plate is only embedded in resident SH-2 code/data. | Rejected | Runtime tracing found the compressed stream in `SYSTEM.DAT+0x19E30`, loaded at `0x00219E30`; `PROG1` passes it to the decoder at `0x06082CAE`. |
-| The Saturn Now Loading plate can be decoded and re-encoded fixed-size. | Confirmed | `saturn_now_loading.py` decodes `SYSTEM.DAT+0x18000/+0x19E30` to the 120x32 VDP1 texture, redraws the visible 120x28 through the PS1 plate routine, and re-encodes the RU stream as `1928/1937` bytes. |
+| The Saturn Now Loading plate can be decoded and re-encoded fixed-size. | Confirmed statically | `saturn_now_loading.py` decodes `SYSTEM.DAT+0x18000/+0x19E30` to the 120x32 VDP1 texture, redraws the visible 120x28 through the PS1 plate routine, and re-encodes the RU stream as `1928/1937` bytes. Runtime use of the edited stream still needs confirmation. |
 | The Saturn name-entry screen uses a PS1-style executable 10x10 table. | Rejected | Full PS1 row-layout patterns do not occur in `A0LANG5.BIN`, `PROG1.BIN` or `PROG2.BIN`; only the two full tables in `SYSTEM.DAT` match. |
 | The Saturn name-entry grid and input list can be patched in `SYSTEM.DAT`. | Confirmed statically | `saturn_name_entry.py` verifies and rewrites the full display grid at `0x08CE6` and flat input table at `0x1B6E0` using target-language single glyph tokens. |
 | Saturn translated files can be remastered into a mixed-mode BIN/CUE. | Confirmed structurally | `saturn_disc.py remaster` relocates grown `SCEN.DAT`, shifts track 2+ cue times and ADPCM directory extents, rebuilds MODE1 EDC/ECC, and extracted replacements compare byte-identical to build outputs. |
@@ -1254,7 +1260,8 @@ Completed:
   - `CLEAR.DAT` scenario-clear banner decoded and redrawn;
   - `TITLE1.DAT` title-credit image decoded and stamped;
   - `OPEN.DAT[2]` prologue poem run-atlas decoded and re-packed.
-  - `SYSTEM.DAT` compressed Now Loading plate decoded and re-packed.
+  - `SYSTEM.DAT` compressed Now Loading plate decoded and re-packed; runtime
+    confirmation is pending.
 
 Next:
 
@@ -1286,7 +1293,7 @@ Resolved for the current graphic path:
 
 - `CLEAR.DAT`, `TITLE1.DAT` title credits, `OPEN.DAT[2]` prologue poem, and the
   compressed `SYSTEM.DAT` Now Loading plate are decoded and re-encodable
-  fixed-size.
+  fixed-size. Now Loading still needs runtime confirmation of the edited stream.
 - The Saturn name-entry display grid and flat input table are located and
   patchable in `SYSTEM.DAT`.
 - Translated Saturn files can be remastered into a mixed-mode BIN/CUE with
