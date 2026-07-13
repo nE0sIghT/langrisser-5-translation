@@ -22,7 +22,7 @@ release flow also patches them.
 | Source extraction | `iso_mode2.py` extracts PS1 files to `work/extracted/` | `saturn_disc.py extract` extracts Saturn files to `work/build/saturn/` | Partial | Saturn extraction exists, but there is no single Saturn equivalent to the PS1 release/extract bootstrap. | Add a Saturn extraction/bootstrap command or document the required extraction set in one release/build script. |
 | No-edit roundtrip | `lang5_verify_roundtrip.py` covers PS1 SCEN/SYSTEM no-edit paths | SCEN no-edit model is documented; SYSTEM and graphics have individual tooling | Partial | Roundtrip proofs are split across tools/docs instead of one mandatory build gate. | Add a Saturn no-edit verification driver that calls the existing per-container checks. |
 | Font slots | `lang5_assign_font_slots.py` -> generated assignments -> `lang5_build_font.py` | Saturn build now runs the same generated-assignment stage, then writes `SYSTEM.DAT` glyphs | Implemented | The shared assignment stage uses the PS1 common source and a Saturn build-copy table. | Keep platform-specific SYSTEM overlays sparse; extend allocator source handling only when real Saturn-only strings are added. |
-| SCEN text | `lang5_sceninsert.py --fixed-size-repack` writes all PS1 SCEN/SCEN2 text | `lang5_saturn_apply.py` writes Saturn `SCEN.DAT` field_3c pools through strict platform mapping | Strict gated (`100/131` auto, 6 service skipped, 25 blocked) | The remaining blocks are real PS1/Saturn entry-order/content differences. | Add durable `data/platforms/saturn/scen_mapping.json` entries and sparse language overrides where a Saturn entry has no PS1 equivalent. |
+| SCEN text | `lang5_sceninsert.py --fixed-size-repack` writes all PS1 SCEN/SCEN2 text | `lang5_saturn_apply.py` writes Saturn `SCEN.DAT` field_3c pools through strict platform mapping | Strict gated (`112/131` auto/mapped, 6 service skipped, 13 blocked) | The remaining blocks are real PS1/Saturn entry-order/content differences. | Add durable `data/platforms/saturn/scen_mapping.json` entries and sparse language overrides where a Saturn entry has no PS1 equivalent. |
 | SYSTEM text | `lang5_system_dump.py` -> resolver -> reflow -> strict `lang5_system_pack.py --repack` | `lang5_saturn_system_pack.py` packs all Saturn groups through explicit platform mapping | Implemented (`16/16`) | Saturn-only RAM/save strings and compact Saturn-only class labels are stored as sparse overlays. | Add runtime review rows if any Saturn-only SYSTEM string needs wording changes. |
 | Build-copy wrapping | PS1 build rewraps `work/build/translation.<lang>/` with the exact generated `.tbl` | Saturn build rewraps `work/build/translation.<lang>.saturn/` with the Saturn `.tbl` | Implemented | The tracked language pack is never rewritten. | None. |
 | Translation validation | PS1 build validates control words, encodability and budgets under exact `.tbl` | Saturn build validates the same generated translation copy under the Saturn `.tbl` | Implemented for common PS1-based text | Platform-specific override validation still depends on adding real override files. | Add validation for sparse Saturn override chunks when they are populated. |
@@ -38,8 +38,9 @@ release flow also patches them.
 ## SCEN Divergence Report
 
 The strict Saturn mapper applies 97 blocks by prefix, 3 blocks by unique
-stable-token signature (`3`, `9`, `15`), explicitly preserves 6 service chunks,
-and fails on 25 real misaligned blocks. Counts below compare Saturn `SCEN.DAT`
+stable-token signature (`3`, `9`, `15`), 12 blocks by explicit PS1-delete
+ranges, explicitly preserves 6 service chunks, and fails on 13 blocks that still
+need Saturn-specific text mapping/overlays. Counts below compare Saturn `SCEN.DAT`
 field_3c entries with PS1 `SCEN.DAT` text records. No source text is stored
 here.
 
@@ -153,8 +154,8 @@ for large CD images.
 
 ## Next Analysis Tasks
 
-1. Fill `data/platforms/saturn/scen_mapping.json` for the 25 strict SCEN
-   failures.
+1. Fill `data/platforms/saturn/scen_mapping.json` and sparse SCEN overlays for
+   the 13 remaining Saturn-only/revised SCEN failures.
 2. Add validation for populated sparse platform override chunks/strings.
 3. Re-run strict `python3 scripts/lang5_saturn_build.py --lang <lang>`; use
    `--allow-unmapped` only to exercise downstream container stages.
