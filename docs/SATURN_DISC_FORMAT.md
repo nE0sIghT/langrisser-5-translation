@@ -33,7 +33,7 @@ Read-only tooling added for this investigation:
 
 | Tool | Purpose |
 | --- | --- |
-| `scripts/saturn_disc.py` | Parse the Saturn CUE, list/extract track-1 ISO files, summarize track-2 XA sectors |
+| `scripts/saturn_disc.py` | Parse/extract/remaster the Saturn mixed-mode BIN/CUE and summarize track-2 XA sectors |
 | `scripts/saturn_system_dump.py` | Dump Saturn `SYSTEM.DAT` text groups using the confirmed on-disc word order |
 | `scripts/saturn_scen_scan.py` | Scan Saturn `SCEN.DAT` catalog, chunk headers, record indices and token streams |
 | `scripts/saturn_scen_text.py` | Dump the full Saturn `SCEN.DAT` scenario text pool with stable `(chunk, entry)` ids |
@@ -82,10 +82,12 @@ The stages, all reusing shared logic:
   `CLEAR.DAT` scenario-clear banner, `TITLE1.DAT` title credits, and
   `OPEN.DAT[2]` prologue poem. The `Now Loading` plate is part of
   `SYSTEM.DAT`, so it is patched immediately after the SYSTEM text packer.
+- With `--remaster-disc`, the build writes a translated mixed-mode BIN/CUE under
+  `work/build/saturn/`.
 
-Remaining before a shippable disc: reconciling the 28 interspersed-delta SCEN
+Remaining before full PS1 parity: reconciling the 28 interspersed-delta SCEN
 blocks and the 4 over-budget/unaligned SYSTEM groups (data-alignment tasks), and
-injecting the grown files back into the mixed-mode BIN/CUE (the output format).
+runtime-checking the statically patched Saturn-only screens.
 
 Generated investigation output lives under `work/build/saturn/` and is not
 tracked.
@@ -1034,12 +1036,10 @@ Cyrillic glyphs are drawn into `SYSTEM.DAT` glyph slots `0..1820` (same
 12x12x18 format as PS1), so `lang5_build_font.py`'s slot-rewrite ports directly;
 only the glyph-plane file offset differs.
 
-### Still open for a shippable patch
+### Still open for full text parity
 
 - The Saturn↔PS1 mapping deltas (a few entries per chunk) must be reconciled so
   each Saturn entry pulls the right translated string.
-- The patch/output format for a mixed-mode BIN/CUE after in-place edits (the PS1
-  flow emits a PPF against a single `.bin`).
 
 ### Cross-validation and ISO-output recipe (Langrisser III, Saturn)
 
@@ -1054,9 +1054,8 @@ disc-output recipe. Its `D00.DAT` is structurally identical to our `SCEN.DAT`:
   tile-code entries with control codes (`0xF600` consumes an argument) — our
   `field_3c` text pool. The sentinel is the "+1" entry our count includes.
 
-Its `iso_tools.py` shows the disc-output path we still need (to be
-reimplemented here — that repo has no open-source license, and the technique is
-standard CD-ROM practice):
+Its `iso_tools.py` shows the disc-output path now reimplemented here (that repo
+has no open-source license, and the technique is standard CD-ROM practice):
 
 - Mode1/2352 sectors, user data at offset `16`, with **EDC/ECC recomputed**
   per edited sector.
@@ -1067,9 +1066,12 @@ standard CD-ROM practice):
   audio tracks, shifting track 2's MSF for the new track-1 length.
 
 This directly applies to injecting our grown `SCEN.DAT` (and same-size
-`SYSTEM.DAT`) into the Saturn disc. It does **not** help with the graphic
-assets: that project also leaves the title/UI graphics untranslated, so the
-VDP tile/CLUT decode still needs a VRAM dump.
+`SYSTEM.DAT`) into the Saturn disc. `scripts/saturn_disc.py remaster` implements
+the output path conservatively: grown files are relocated into new MODE1 sectors
+inserted before track 2, `ADPCM/**/*.XA` logical LBAs and cue INDEX times are
+shifted by the same sector delta, and all modified MODE1 sectors are rebuilt
+with fresh EDC/ECC. It does **not** help with the graphic asset formats
+themselves; those still need per-format decoders.
 
 ## Executable / Code Files
 
@@ -1121,9 +1123,9 @@ Current focus: the minimally-necessary text path for translation is complete —
 both SCEN and SYSTEM text are located, deterministically dumpable, mapped 1:1 to
 the PS1 script/UI, packed back into Saturn files, and built with the shared
 language packs. The core font format is confirmed PS1-compatible. Remaining work
-is graphic/runtime parity: the name-entry screen, remaining staff/cast graphics,
-disc reinjection, and optional Saturn-specific kanji-table cleanup for reading
-JP kanji directly. The record-payload and full
+is graphic/runtime parity: remaining staff/cast graphics, unresolved mapping
+deltas, and optional Saturn-specific kanji-table cleanup for reading JP kanji
+directly. The record-payload and full
 `resource_table` grammars are only needed for graphics/map/event editing, not
 for text.
 
@@ -1133,6 +1135,7 @@ for text.
 - [x] Read track 1 as `MODE1/2352` ISO9660.
 - [x] List and extract track-1 files without modifying the image.
 - [x] Map ISO `ADPCM/**/*.XA` entries to track-2 physical sectors.
+- [x] Remaster translated Saturn files into a mixed-mode BIN/CUE.
 - [x] Confirm the 225-sector logical-to-physical XA correction.
 - [x] Dump Saturn `SYSTEM.DAT` string groups using the confirmed on-disc word order.
 - [x] Parse the `SCEN.DAT` top-level 131-entry table.
@@ -1163,7 +1166,7 @@ for text.
 - [x] Reuse the font builder to draw Cyrillic into the Saturn glyph plane.
 - [x] Wire the Saturn build flow (font + SYSTEM + SCEN) reusing shared stages.
 - [ ] Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
-- [ ] Inject the grown Saturn files back into the mixed-mode BIN/CUE.
+- [x] Inject the grown Saturn files back into the mixed-mode BIN/CUE.
 - [ ] Decode `SCEN.DAT` record-payload grammar (graphics/map/event editing only).
 - [ ] Decode `SCEN.DAT` `resource_table` resource semantics (non-text editing only).
 
@@ -1204,13 +1207,13 @@ for text.
 | The Saturn Now Loading plate can be decoded and re-encoded fixed-size. | Confirmed | `saturn_now_loading.py` decodes `SYSTEM.DAT+0x18000/+0x19E30` to the 120x32 VDP1 texture, redraws the visible 120x28 through the PS1 plate routine, and re-encodes the RU stream as `1928/1937` bytes. |
 | The Saturn name-entry screen uses a PS1-style executable 10x10 table. | Rejected | Full PS1 row-layout patterns do not occur in `A0LANG5.BIN`, `PROG1.BIN` or `PROG2.BIN`; only the two full tables in `SYSTEM.DAT` match. |
 | The Saturn name-entry grid and input list can be patched in `SYSTEM.DAT`. | Confirmed statically | `saturn_name_entry.py` verifies and rewrites the full display grid at `0x08CE6` and flat input table at `0x1B6E0` using target-language single glyph tokens. |
+| Saturn translated files can be remastered into a mixed-mode BIN/CUE. | Confirmed structurally | `saturn_disc.py remaster` relocates grown `SCEN.DAT`, shifts track 2+ cue times and ADPCM directory extents, rebuilds MODE1 EDC/ECC, and extracted replacements compare byte-identical to build outputs. |
 
 ### Immediate Next Steps
 
 1. Runtime-check the Saturn name-entry screen/cursor/OK behavior.
-2. Inject the grown Saturn files back into the mixed-mode BIN/CUE while keeping
-   file layout and audio tracks valid.
-3. Reconcile the interspersed Saturn<->PS1 SCEN/SYSTEM mapping deltas.
+2. Reconcile the interspersed Saturn<->PS1 SCEN/SYSTEM mapping deltas.
+3. Runtime-check the remastered Saturn BIN/CUE.
 4. Build the Saturn-specific kanji table by aligning Saturn entries with matched
    PS1 records, so JP kanji reads cleanly (optional: structural alignment already
    works without it).
@@ -1256,9 +1259,7 @@ Next:
 
 1. Runtime-check the Saturn name-entry screen and cursor/OK behavior.
 2. Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
-3. Build Saturn disc reinjection:
-   - rewrite ISO file extents/sizes or prove all edited files can stay in-place;
-   - preserve the mixed-mode layout and CD audio tracks.
+3. Runtime-check the remastered Saturn BIN/CUE.
 4. Optional cleanup:
    - build a Saturn-specific kanji table by aligning matched PS1/Saturn records;
    - finish staff/cast bitmap parity if needed for release polish.
@@ -1287,6 +1288,8 @@ Resolved for the current graphic path:
   fixed-size.
 - The Saturn name-entry display grid and flat input table are located and
   patchable in `SYSTEM.DAT`.
+- Translated Saturn files can be remastered into a mixed-mode BIN/CUE with
+  shifted track times and fresh MODE1 EDC/ECC.
 
 Still open:
 
@@ -1295,4 +1298,5 @@ Still open:
   editing only, not text.)
 - Does the statically patched Saturn name-entry screen behave correctly at
   runtime (cursor movement, text entry, OK/cancel)?
-- What patch format is appropriate for Saturn mixed-mode BIN/CUE after edits?
+- What compact patch format is appropriate for distributing Saturn mixed-mode
+  BIN/CUE edits, if full BIN/CUE output is not acceptable?

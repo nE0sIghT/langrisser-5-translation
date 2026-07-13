@@ -12,8 +12,8 @@ this Saturn flow. It reuses the shared stages unchanged:
    (fixed-size where it fits, growing + re-laying-out blocks where it does not).
 
 Outputs the translated `SYSTEM.DAT` and `SCEN.DAT` under `work/build/saturn/`.
-Disc re-mastering (injecting the grown files back into the mixed-mode BIN/CUE)
-is the remaining output step; see docs/SATURN_DISC_FORMAT.md.
+With `--remaster-disc`, it also writes a translated mixed-mode BIN/CUE under
+the same directory.
 """
 
 from __future__ import annotations
@@ -47,6 +47,14 @@ def main() -> None:
                     help="directory holding the extracted Saturn SYSTEM.DAT/SCEN.DAT")
     ap.add_argument("--assignments", default=None,
                     help="font slot assignments CSV (default: the pack's tracked file)")
+    ap.add_argument("--cue", default="iso/saturn/LANGRISSER_5.cue",
+                    help="source Saturn CUE for --remaster-disc")
+    ap.add_argument("--remaster-disc", action="store_true",
+                    help="build a translated BIN/CUE in addition to extracted files")
+    ap.add_argument("--out-bin", default=None,
+                    help="translated Saturn BIN path for --remaster-disc")
+    ap.add_argument("--out-cue", default=None,
+                    help="translated Saturn CUE path for --remaster-disc")
     args = ap.parse_args()
 
     lang = language_from_args(args)
@@ -131,6 +139,29 @@ def main() -> None:
             "--open", open_in,
             "--out-open", saturn / f"OPEN.{lang.suffix}.DAT",
             "--out-preview", saturn / f"open_poem_{lang.suffix}_preview.png")
+
+    if args.remaster_disc:
+        out_bin = Path(args.out_bin) if args.out_bin else saturn / f"langrisser_v_{lang.suffix}_saturn.bin"
+        out_cue = Path(args.out_cue) if args.out_cue else saturn / f"langrisser_v_{lang.suffix}_saturn.cue"
+        remaster_cmd: list[object] = [
+            scripts / "saturn_disc.py",
+            "--cue", args.cue,
+            "remaster",
+            "--out-bin", out_bin,
+            "--out-cue", out_cue,
+            "--replace", f"/SCEN.DAT={scen_out}",
+            "--replace", f"/SYSTEM.DAT={system_out}",
+        ]
+        clear_out = saturn / f"CLEAR.{lang.suffix}.DAT"
+        if clear_out.exists():
+            remaster_cmd.extend(["--replace", f"/CLEAR.DAT={clear_out}"])
+        title_out = saturn / f"TITLE1.{lang.suffix}.DAT"
+        if title_out.exists():
+            remaster_cmd.extend(["--replace", f"/TITLE1.DAT={title_out}"])
+        open_out = saturn / f"OPEN.{lang.suffix}.DAT"
+        if open_out.exists():
+            remaster_cmd.extend(["--replace", f"/OPEN.DAT={open_out}"])
+        run(*remaster_cmd)
 
     print(f"saturn build: system -> {system_out}, scen -> {scen_out}")
 
