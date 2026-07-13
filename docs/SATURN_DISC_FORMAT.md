@@ -766,10 +766,24 @@ Each run is a `w x h` red-text fragment blitted at `(x, y)`; the `y` values step
 by 20 px (`25, 45, 65, ...`, eight lines per poem block — matching the PS1
 `TOP_MARGIN ~24` / pitch 20). The atlas is the same ink model as the PS1 poem:
 background index 0, **outline index `0xd4` = 212 — identical to the PS1
-`lang5_poem_translate.OUTLINE_INDEX`** — and a red fill ramp, a strong
-cross-validation that both platforms share the poem art pipeline. Decoding with
-index 0 forced to black reproduces the red-on-black poem; a translated build
-regenerates the run table + atlas from the pack's poem text, fixed size.
+`lang5_poem_translate.OUTLINE_INDEX`** — and a red fill ramp (`89 -> 176 -> 209`,
+verified to be the same red shades in the Saturn CLUT). This is a strong
+cross-validation that both platforms share the poem art pipeline, and the PS1
+poem bytes are found verbatim inside `OPEN.DAT` (byte-match), confirming the
+pixels are shared.
+
+**Not yet re-encodable — open.** The 50-run table + running-cursor atlas above
+only accounts for the first ~9.5 KB of the sub-asset and its runs are tiny
+(~17–24 px total per line, far less than a full line of glyphs), so it is *not*
+the full-resolution poem. The full poem lives in the remaining ~65 KB
+(`0x28c4..0x12880`, where the PS1 byte-match actually lands), but that region
+decodes cleanly as **neither** a linear bitmap (per-panel width least-squares
+fits leave 16 000+ residuals) **nor** 8x8 VDP2 cells (de-tiling is noise) **nor**
+the 50-run scheme. So the exact storage of the full poem is still unresolved;
+the glyph *rendering* for a translation is settled (reuse
+`lang5_poem_translate.make_line_stamp`), but the Saturn *packing* is not, and no
+encoder should be shipped until it is. This is the one graphic whose Saturn
+container is not yet fully reverse-engineered.
 
 ### `CLEAR.DAT` (SCENARIO CLEAR) — decoded and translated
 
@@ -873,7 +887,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
-| Prologue poem graphic | done | **decoded** — `OPEN.DAT[2]` VDP1 text-run list (run table + 8bpp glyph atlas, outline index 212 as on PS1); renders red-on-black; Russian re-encoder is the remaining build step |
+| Prologue poem graphic | done | **partial** — `OPEN.DAT[2]`; pixels byte-identical to PS1 (outline 212, same red ramp), glyph rendering reuses the PS1 tool; but the full-poem packing (~65 KB region) is not linear/tiled/run-list — Saturn container not yet fully RE'd, so no encoder shipped |
 | Now Loading plate | done | **compressed** — 120x32 8bpp; VRAM↔disc identity proven (see below); not raw/tiled anywhere on disc nor in RAM (only VDP1 VRAM); no plate sub-asset descriptor exists — embedded + compressed in resident SH-2 code (`A0LANG5.BIN`/`PROG1.BIN`) |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
