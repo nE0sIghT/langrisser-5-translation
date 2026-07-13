@@ -331,11 +331,11 @@ strip). A line of text may straddle a column boundary (strip rows 256 / 512):
 its bottom sliver is the column's last rows, which - being rows 252-255 of the
 768-wide image - are exactly the `type=2` remainder block. Blanking that block
 (rather than rewriting it) drops those slivers and leaves a black seam between
-"screens". `scripts/lang5_poem_translate.py` renders the whole 768px strip on one
-uniform line pitch, slices it back into the three columns, and writes the main
-image **and** the remainder block. Translating it is a graphics edit: redraw the
-text into the indexed bitmap and re-pack it into the scanline packets, leaving
-every `0x20` packet header untouched.
+"screens". `scripts/lang5_poem_render.py` renders the whole 768px strip on one
+uniform line pitch; `scripts/lang5_poem_translate.py` slices it back into the
+three columns and writes the main image **and** the remainder block. Translating
+it is a graphics edit: redraw the text into the indexed bitmap and re-pack it
+into the scanline packets, leaving every `0x20` packet header untouched.
 
 `block_rows` and the per-row gap positions are fully determined by the width
 through the scanline rule, so `scripts/lang5_imgdat.py` derives them with

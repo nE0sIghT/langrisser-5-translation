@@ -28,6 +28,16 @@ def run(*cmd: object) -> None:
     subprocess.run([sys.executable, *(str(c) for c in cmd)], check=True)
 
 
+def has_target_text(path: Path) -> bool:
+    if not path.exists():
+        return False
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#") and stripped != "---":
+            return True
+    return False
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     add_language_args(ap)
@@ -99,6 +109,15 @@ def main() -> None:
             "--lang", args.lang, "--lang-root", args.lang_root,
             "--title", title_in,
             "--out-title", saturn / f"TITLE1.{lang.suffix}.DAT")
+
+    # Prologue poem in the attract loop (OPEN.DAT sub-asset 2), if extracted.
+    open_in = saturn / "OPEN.DAT"
+    if open_in.exists() and has_target_text(lang.poem):
+        run(scripts / "saturn_poem_translate.py",
+            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--open", open_in,
+            "--out-open", saturn / f"OPEN.{lang.suffix}.DAT",
+            "--out-preview", saturn / f"open_poem_{lang.suffix}_preview.png")
 
     print(f"saturn build: system -> {system_out}, scen -> {scen_out}")
 
