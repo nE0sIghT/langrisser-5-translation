@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Translate or diagnose the Saturn Now Loading plate inside SYSTEM.DAT.
+"""Translate the Saturn Now Loading plate inside SYSTEM.DAT.
 
 The Saturn release stores the visible plate in SYSTEM.DAT as a compressed
 120x32 VDP1 texture. At runtime the resident SH-2 decoder reads:
@@ -11,9 +11,7 @@ The Saturn release stores the visible plate in SYSTEM.DAT as a compressed
 The decoded first 28 rows are byte-identical to the PS1 IMG.DAT Now Loading
 plate; the remaining 4 rows are zero padding because the VDP1 command height is
 32. This script reuses the PS1 plate redraw and only implements the Saturn
-prefix/MTF compressor around it. `--diagnostic-stripes` writes an unmistakable
-test texture through the same compressor so runtime testing can prove whether
-the game uses this stream.
+prefix/MTF compressor around it.
 """
 
 from __future__ import annotations
@@ -283,15 +281,6 @@ def save_preview(path: Path, palette: list[tuple[int, int, int]],
     preview.save(path)
 
 
-def diagnostic_stripes() -> bytes:
-    """A deliberately obvious 120x32 test plate for runtime confirmation."""
-    visible = bytearray()
-    for y in range(VISIBLE_HEIGHT):
-        value = 0x01 if (y // 4) % 2 == 0 else 0x15
-        visible.extend([value] * WIDTH)
-    return bytes(visible) + b"\x00" * (WIDTH * (VDP1_HEIGHT - VISIBLE_HEIGHT))
-
-
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     add_language_args(ap)
@@ -302,12 +291,10 @@ def main() -> None:
     ap.add_argument("--out-preview", default=None)
     ap.add_argument("--font", default=now_loading.FONT)
     ap.add_argument("--cap-top", type=int, default=now_loading.CAP_TOP)
-    ap.add_argument("--diagnostic-stripes", action="store_true",
-                    help="write high-contrast horizontal bands instead of text")
     args = ap.parse_args()
 
     lang = language_from_args(args)
-    if not lang.now_loading and not args.diagnostic_stripes:
+    if not lang.now_loading:
         raise SystemExit(f"{lang.code} has no now_loading text in its manifest")
 
     system_path = Path(args.system)
@@ -320,17 +307,14 @@ def main() -> None:
         raise SystemExit("expected zero padding in Saturn Now Loading rows 28..31")
 
     palette = read_ps1_palette(Path(args.palette_imgdat))
-    if args.diagnostic_stripes:
-        target = diagnostic_stripes()
-    else:
-        visible = now_loading.redraw_plate_pixels(
-            decoded[:WIDTH * VISIBLE_HEIGHT],
-            palette,
-            lang.now_loading,
-            args.font,
-            args.cap_top,
-        )
-        target = bytes(visible) + b"\x00" * (WIDTH * (VDP1_HEIGHT - VISIBLE_HEIGHT))
+    visible = now_loading.redraw_plate_pixels(
+        decoded[:WIDTH * VISIBLE_HEIGHT],
+        palette,
+        lang.now_loading,
+        args.font,
+        args.cap_top,
+    )
+    target = bytes(visible) + b"\x00" * (WIDTH * (VDP1_HEIGHT - VISIBLE_HEIGHT))
     encoded, header = encode_stream_fitting(
         table,
         bytes(system[STREAM_OFFSET:STREAM_OFFSET + 5]),
