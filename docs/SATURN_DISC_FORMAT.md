@@ -703,6 +703,39 @@ Further findings (still not a working decoder):
   the descriptor's sprite table. Decoding that table is the remaining step.
 - `CLEAR.DAT` (the SCENARIO CLEAR banner) is now decoded — see below.
 
+### Multi-asset container format (the "one file" model, like PS1 `IMG.DAT`)
+
+The per-screen `.DAT` files are **containers with a top-level table of contents**,
+the direct analogue of PS1 `IMG.DAT` holding many assets. The header is:
+
+```text
+u32 count
+count x (u32 sub_offset, u32 sub_size)   # contiguous: off[i] + size[i] == off[i+1]
+```
+
+Verified byte-exact (contiguous, in-bounds) on `TITLE1.DAT`/`TITLE2.DAT`
+(count 2), `OPEN.DAT` (3), `CAST.DAT` (5) and `STAFF.DAT` (6). `CLEAR.DAT` has
+**no** TOC — it is a single bare asset that starts directly with its
+`tex_off`/`tex_size` header (reading its first word as a count gives garbage).
+
+Each container holds two kinds of sub-asset, alternating (small descriptor, then
+its big pixel payload):
+
+- **Small sub-asset `[0]`** — a nested mini-container: a sprite table of
+  `(u16 width_px, u16 height_px)` entries plus data offsets, a 256-colour BGR555
+  CLUT (the `0x200`-byte block the descriptor points at), and a VDP1
+  coordinate/command table whose words echo the `CLEAR.DAT` header (`0x3c`,
+  `0x44`, ...). Dimensions seen: `80x28`, `40x28`.
+- **Big sub-asset `[1]`** — the full-screen image, stored as **VDP2 8x8 cells**
+  (its header `tex_off`/`tex_size` are `0`). Rendered linearly it shears with the
+  diagonal-streak signature of tiled data; de-tiling with the mini-container's
+  CLUT is the remaining decode step. This is why a *linear* VRAM sprite never
+  byte-matches these files even uncompressed — the on-disc order is tiled.
+
+This is the general recipe for the title/prologue/staff/cast graphics; decoding
+the `[1]` cell arrangement + `[0]` sprite table lets them be translated the same
+way `CLEAR.DAT` was. See "Now Loading" below for why that asset is the exception.
+
 ### `CLEAR.DAT` (SCENARIO CLEAR) — decoded and translated
 
 A VDP1 VRAM dump was used **only to discover** the format; the tool itself reads
@@ -733,22 +766,67 @@ redrawn in index space with the shared banner core. (A VRAM dump plus the VDP1
 command table is the way to *find* a sprite's `(SRCA, width, height, mode)`, but
 the build depends only on the disc file.)
 
-### Now Loading plate — compressed (not yet decoded)
+### Now Loading plate — compressed (proven by a control experiment)
 
 The Now Loading dump's VDP1 command table draws a **120x32, 8bpp** sprite at
-`0x4A200` (position 182,183). Unlike the banner, this texture is **not** stored
-raw in any disc file (a full-disc byte scan of a dense plate signature finds no
-match), so it is compressed. It is **not** in `GRAPHIC.LZH`: that file is a
-standard LHA (`-lh5-`) archive of the bonus JPEG CG gallery (`GRAPHIC.DOC` calls
-it おまけCG and says extraction matches Langrisser 3/4 — an LZH of JPEGs), not the
-in-game UI. Locating the compressed Now Loading source and its codec is a
-separate task. `TITLE1.DAT`, by contrast, *is* an uncompressed 8bpp container and
-should decode with the same recipe as `CLEAR.DAT`.
+`0x4A200` (position 182,183). Rendered from the dump it is unmistakably the
+"Now Loading" engraved-metal plate, and its pixels are **byte-identical to the
+PS1 plate** in `IMG.DAT` asset 0 (the same baked bitmap, shared across
+platforms). So there is no doubt what the bytes are.
+
+**VRAM↔disc transform is identity — measured, not assumed.** The SCENARIO CLEAR
+banner is a control: it is uploaded to the *same* VRAM slot `0x4A200` and it *is*
+stored raw on disc (`CLEAR.DAT`). Its VRAM texture (224x80) equals the on-disc
+texture **100% byte-for-byte** (`swap16` matches only 65%). So the emulator dumps
+VDP1 VRAM in the same byte order the disc stores 8bpp textures: **no BE /
+word-swap / VRAM-format correction is needed** to compare a dumped sprite against
+disc data. This rules out "wrong byte order" as the reason the plate isn't found.
+
+Given that identity transform, the Now Loading plate is still **not present raw
+anywhere on the disc**: a full 507 MB image scan of several dense lettering rows
+(20–26 distinct bytes each) misses under identity, and the de-sectored track-1
+userdata (reconstruction validated — `A0LANG5.BIN` and the `CLEAR.DAT` texture
+are found raw in it) misses under identity, `swap16`, `swap32`, nibble-swap and
+8x8-tile (VDP2 cell) relayout — the last checked because the container `[1]`
+payloads *are* tiled (see the container-format section), so a tiled on-disc plate
+was the leading benign hypothesis; it too misses. (Flat all-one-byte rows do
+"match" random disc bytes; those are ignored.) The plate is also **absent from
+the entire state dump except VDP1 VRAM** — not in `wram-hi/lo`, `cdb-dram`,
+`sh1-ram`, or the VDP1 framebuffers — consistent with it being decompressed
+straight into VRAM and the source buffer already freed. Therefore the plate is
+genuinely **compressed** (or composed in VRAM by resident code), not merely
+reordered. No `(0x0078,0x001c)`/`(0x0078,0x0020)` sprite-dimension descriptor
+(the container's `(width,height)` form for 120x28/120x32) exists in any Saturn
+`.DAT`, so the plate is not a declared container sub-asset either.
+
+It is **not** in `GRAPHIC.LZH`: that file is a standard LHA (`-lh5-`) archive of
+the bonus JPEG CG gallery (`GRAPHIC.DOC` calls it おまけCG and says extraction
+matches Langrisser 3/4 — an LZH of JPEGs), not the in-game UI.
+
+There is **no dedicated Now Loading file** on the disc. `A0LANG5.BIN` is the
+resident SH-2 overlay/loader (starts with SH-2 code `0xD004…`, ~8% of its words
+are `0x0604xxxx`/`0x0607xxxx` HWRAM pointers) and it carries the engine's master
+file table near offset `0x36598` (`PROG1.BIN, SYSTEM.DAT, SCEN.DAT, MAP_C.DAT,
+MAP.DAT, CLEAR.DAT, BAR.BIN, CUR.DAT, …, TITLE1/2.DAT, OPEN.DAT, WD_FONT.BIN`).
+Nothing in that table is a loading-plate asset. So the plate is **embedded in
+resident code/data** (this overlay or `PROG1.BIN`, both loaded to `0x0604xxxx`)
+as a compressed blob, together with the decompressor and the code that composes
+the loading screen (map background sprite `SRCA 0x3078` + the plate sprite).
+Decoding it therefore needs the SH-2 decompressor reverse-engineered from
+`A0LANG5.BIN`/`PROG1.BIN` (no ready-made disassembly yet), not a byte scan.
+
+`TITLE1.DAT`, by contrast, *is* an uncompressed TOC container (see the
+container-format section): its `[0]` sub-asset holds the CLUT + VDP1 sprite
+table and its `[1]` sub-asset is the full title bitmap as VDP2 8x8 cells. It
+decodes without a decompressor — only the cell relayout + palette remain — so
+the title credits, prologue poem, staff and cast graphics are tractable now.
+Only the Now Loading plate needs the resident-code decompressor.
 
 Decoding the tile arrangement, palette and dimensions — and then redrawing the
-translated graphics — is an open sub-project. **The graphic assets (title
-credits, prologue poem, Now Loading, SCENARIO CLEAR) and the name-entry screen
-are not yet recognized well enough to translate on Saturn.**
+translated graphics — is an open sub-project. **Of the graphic assets: SCENARIO
+CLEAR is done; the title credits / prologue poem / staff / cast containers are
+now recognized (uncompressed TOC + VDP2 cells) and tractable; the Now Loading
+plate is compressed in resident code; the name-entry screen is not yet done.**
 
 ## Translation Coverage On Saturn
 
@@ -759,9 +837,9 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SCEN scenario/dialogue text | done | done — 97/131 blocks; 28 need mapping reconciliation |
 | SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
-| Title credits graphic | done | **not decoded** — VDP-tiled container, no decoder |
-| Prologue poem graphic | done | **not decoded** |
-| Now Loading plate | done | **compressed** — 120x32 8bpp, source not raw on disc (see below) |
+| Title credits graphic | done | **recognized** — `TITLE1.DAT` TOC container; `[1]` = VDP2 8x8 cells + `[0]` CLUT/sprite table; cell relayout is the remaining decode step |
+| Prologue poem graphic | done | **recognized** — same container format (`TITLE2.DAT`/`OPEN.DAT`) |
+| Now Loading plate | done | **compressed** — 120x32 8bpp; VRAM↔disc identity proven (see below); not raw/tiled anywhere on disc nor in RAM (only VDP1 VRAM); no plate sub-asset descriptor exists — embedded + compressed in resident SH-2 code (`A0LANG5.BIN`/`PROG1.BIN`) |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
 | Virash cutscene subtitles | done | **not investigated** |
