@@ -176,16 +176,21 @@ def expand_record_map(spec: dict, entry_count: int) -> dict[int, object]:
             platform = int(item["platform"])
             for off in range(count):
                 out[saturn + off] = {"platform": platform + off}
+        elif item.get("preserve"):
+            for off in range(count):
+                out[saturn + off] = {"preserve": True}
         else:
-            raise SystemExit(f"SCEN range mapping needs ps1 or platform: {item}")
+            raise SystemExit(f"SCEN range mapping needs ps1/platform/preserve: {item}")
     for item in spec.get("entries", []):
         saturn = int(item["saturn"])
         if "ps1" in item:
             out[saturn] = int(item["ps1"])
         elif "platform" in item:
             out[saturn] = {"platform": int(item["platform"])}
+        elif item.get("preserve"):
+            out[saturn] = {"preserve": True}
         else:
-            raise SystemExit(f"SCEN entry mapping needs ps1 or platform: {item}")
+            raise SystemExit(f"SCEN entry mapping needs ps1/platform/preserve: {item}")
     bad = [idx for idx in out if idx < 0 or idx >= entry_count]
     if bad:
         raise SystemExit(f"SCEN mapping has out-of-range Saturn entries: {bad[:5]}")
@@ -212,7 +217,8 @@ def align_by_mapping(entries: list[list[int]], records: dict[int, str],
                     f"Saturn SCEN chunk {chunk_index:03d} entry {saturn_index}: "
                     f"PS1 record {target} not found"
                 )
-        else:
+            encoded.append(codec.encode(text))
+        elif "platform" in target:
             platform_index = int(target["platform"])
             text = platform_records.get(platform_index)
             if text is None:
@@ -220,7 +226,9 @@ def align_by_mapping(entries: list[list[int]], records: dict[int, str],
                     f"Saturn SCEN chunk {chunk_index:03d} entry {saturn_index}: "
                     f"platform record {platform_index} not found"
                 )
-        encoded.append(codec.encode(text))
+            encoded.append(codec.encode(text))
+        else:
+            encoded.append(entries[saturn_index])
     return encoded
 
 

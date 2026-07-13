@@ -297,6 +297,7 @@ Experimental Saturn build data path:
 
 ```bash
 python3 scripts/lang5_saturn_build.py --lang ru
+python3 scripts/lang5_saturn_build.py --lang ru --remaster-disc
 ```
 
 This requires both PS1 base extracts (`work/extracted/SCEN.DAT`,
@@ -304,6 +305,10 @@ This requires both PS1 base extracts (`work/extracted/SCEN.DAT`,
 Strict mode stops on any unresolved `data/platforms/saturn/` mapping gap.
 Use `--allow-unmapped` only as a diagnostic to preserve unmapped Saturn source
 data while exercising the rest of the build pipe.
+The non-remaster command emits translated extracted files under
+`work/build/saturn/`; `--remaster-disc` emits a translated mixed-mode Saturn
+BIN/CUE in the same directory. Current Saturn output grows `SCEN.DAT`, so the
+generated `.cue` is part of that build artifact.
 
 The release script builds the complete English and Russian artifact set by
 default, writes it to `dist/vX/`, and records PPF plus patched-image hashes in
@@ -312,8 +317,9 @@ or `--version <label>` for a non-tagged development release.
 
 ## Important Constraints
 
-- Disc files must not grow. SCEN/SCEN2 chunk relocation is allowed only inside
-  the original fixed file sizes.
+- PS1 disc files must not grow. SCEN/SCEN2 chunk relocation is allowed only
+  inside the original fixed file sizes. Saturn uses a separate remastering path
+  when translated `SCEN.DAT` grows.
 - `SCEN` is the canonical script source. `SCEN2` text is byte-identical and is
   rebuilt from the same language-pack chunks.
 - The font atlas ends at glyph 1820; later SYSTEM.BIN words are menu data.

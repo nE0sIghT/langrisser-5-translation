@@ -160,6 +160,16 @@ A Saturn-only translated record uses a sparse platform chunk file:
 which resolves to
 `data/lang/<code>/platforms/saturn/SCEN/chunk_NNN.txt` record `253`.
 
+A verified non-translated SCEN entry can be preserved explicitly:
+
+```json
+{"saturn": 253, "preserve": true}
+```
+
+Use this only for service/control records that are not target-language text or
+for records owned by another platform adapter. Preserved SCEN entries are copied
+from the platform source entry unchanged.
+
 `system_mapping.json` uses `unresolved_groups` as the no-source-text tracker for
 known platform-specific SYSTEM deltas. Its `groups` object maps Saturn SYSTEM
 group entries either to PS1 group indices / stable ids or to language-specific
@@ -178,7 +188,8 @@ Saturn overlay ids:
 }
 ```
 
-Entries that are not ordinary translated text can be preserved explicitly:
+SYSTEM entries that are not ordinary translated text can also be preserved
+explicitly:
 
 ```json
 {"saturn": 213, "count": 19, "preserve": true}
