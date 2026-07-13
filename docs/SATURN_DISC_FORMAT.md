@@ -950,7 +950,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | Translation asset (README) | PS1 | Saturn |
 | --- | --- | --- |
 | SCEN scenario/dialogue text | done | strict pipeline — 100/131 blocks apply automatically, 6 service chunks are explicitly skipped, 25 require `data/platforms/saturn/scen_mapping.json` reconciliation; diagnostic mode can preserve them |
-| SYSTEM UI text | done | strict pipeline — 12/16 groups pack automatically, 4 require `data/platforms/saturn/system_mapping.json` or budget fixes |
+| SYSTEM UI text | done | strict pipeline — 16/16 groups pack through `data/platforms/saturn/system_mapping.json`; Saturn-only RAM/save strings live in sparse language overlays |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |

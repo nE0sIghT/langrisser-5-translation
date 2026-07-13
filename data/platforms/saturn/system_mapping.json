@@ -1,39 +1,289 @@
 {
   "_comment": [
     "Saturn SYSTEM mapping data. This file stores structure only: no extracted",
-    "Japanese text. A Saturn entry may map to a PS1 SYSTEM stable id or to a",
-    "language-specific platform override under data/lang/<lang>/platforms/saturn/."
+    "Japanese text. A Saturn entry may map to a PS1 SYSTEM stable id, a",
+    "language-specific platform override under data/lang/<lang>/platforms/saturn/",
+    "or preserve its original token stream when it is non-text or patched by a",
+    "separate Saturn adapter."
   ],
   "base_platform": "ps1",
-  "unresolved_groups": {
+  "unresolved_groups": {},
+  "groups": {
     "0": {
-      "saturn_table": "0x08084",
-      "ps1_table": "0x08052",
-      "saturn_entries": 292,
-      "ps1_entries": 291,
-      "reason": "mostly common UI with Saturn-only START/OPTION/RAM labels and no PS1 bonus-movie line"
+      "ranges": [
+        {
+          "saturn": 0,
+          "ps1": 0,
+          "count": 190
+        },
+        {
+          "saturn": 191,
+          "ps1": 191,
+          "count": 22
+        },
+        {
+          "saturn": 213,
+          "count": 19,
+          "preserve": true
+        },
+        {
+          "saturn": 232,
+          "ps1": 232,
+          "count": 7
+        },
+        {
+          "saturn": 239,
+          "count": 16,
+          "preserve": true
+        },
+        {
+          "saturn": 257,
+          "ps1": 255,
+          "count": 2
+        },
+        {
+          "saturn": 259,
+          "ps1": 257,
+          "count": 33
+        }
+      ],
+      "entries": [
+        {
+          "saturn": 190,
+          "platform": "table:08084:190"
+        },
+        {
+          "saturn": 255,
+          "platform": "table:08084:255"
+        },
+        {
+          "saturn": 256,
+          "platform": "table:08084:256"
+        }
+      ]
     },
     "1": {
-      "saturn_table": "0x09004",
-      "ps1_table": "0x08FAE",
-      "saturn_entries": 44,
-      "ps1_entries": 41,
-      "reason": "Saturn save/RAM messages replace PS1 memory-card messages"
+      "entries": [
+        {
+          "saturn": 0,
+          "platform": "table:09004:0"
+        },
+        {
+          "saturn": 1,
+          "platform": "table:09004:1"
+        },
+        {
+          "saturn": 2,
+          "platform": "table:09004:2"
+        },
+        {
+          "saturn": 3,
+          "platform": "table:09004:3"
+        },
+        {
+          "saturn": 4,
+          "platform": "table:09004:4"
+        },
+        {
+          "saturn": 5,
+          "platform": "table:09004:5"
+        },
+        {
+          "saturn": 6,
+          "platform": "table:09004:6"
+        },
+        {
+          "saturn": 7,
+          "platform": "table:09004:7"
+        },
+        {
+          "saturn": 8,
+          "platform": "table:09004:8"
+        },
+        {
+          "saturn": 9,
+          "platform": "table:09004:9"
+        },
+        {
+          "saturn": 10,
+          "platform": "table:09004:10"
+        },
+        {
+          "saturn": 11,
+          "platform": "table:09004:11"
+        },
+        {
+          "saturn": 12,
+          "platform": "table:09004:12"
+        },
+        {
+          "saturn": 13,
+          "platform": "table:09004:13"
+        },
+        {
+          "saturn": 14,
+          "platform": "table:09004:14"
+        },
+        {
+          "saturn": 15,
+          "platform": "table:09004:15"
+        },
+        {
+          "saturn": 16,
+          "platform": "table:09004:16"
+        },
+        {
+          "saturn": 17,
+          "platform": "table:09004:17"
+        },
+        {
+          "saturn": 18,
+          "platform": "table:09004:18"
+        },
+        {
+          "saturn": 19,
+          "platform": "table:09004:19"
+        },
+        {
+          "saturn": 20,
+          "platform": "table:09004:20"
+        },
+        {
+          "saturn": 21,
+          "platform": "table:09004:21"
+        },
+        {
+          "saturn": 22,
+          "preserve": true
+        },
+        {
+          "saturn": 23,
+          "platform": "table:09004:23"
+        },
+        {
+          "saturn": 24,
+          "platform": "table:09004:24"
+        },
+        {
+          "saturn": 25,
+          "platform": "table:09004:25"
+        },
+        {
+          "saturn": 26,
+          "platform": "table:09004:26"
+        },
+        {
+          "saturn": 27,
+          "platform": "table:09004:27"
+        },
+        {
+          "saturn": 28,
+          "platform": "table:09004:28"
+        },
+        {
+          "saturn": 29,
+          "platform": "table:09004:29"
+        },
+        {
+          "saturn": 30,
+          "platform": "table:09004:30"
+        },
+        {
+          "saturn": 31,
+          "platform": "table:09004:31"
+        },
+        {
+          "saturn": 32,
+          "platform": "table:09004:32"
+        },
+        {
+          "saturn": 33,
+          "platform": "table:09004:33"
+        },
+        {
+          "saturn": 34,
+          "platform": "table:09004:34"
+        },
+        {
+          "saturn": 35,
+          "platform": "table:09004:35"
+        },
+        {
+          "saturn": 36,
+          "platform": "table:09004:36"
+        },
+        {
+          "saturn": 37,
+          "platform": "table:09004:37"
+        },
+        {
+          "saturn": 38,
+          "platform": "table:09004:38"
+        },
+        {
+          "saturn": 39,
+          "platform": "table:09004:39"
+        },
+        {
+          "saturn": 40,
+          "platform": "table:09004:40"
+        },
+        {
+          "saturn": 41,
+          "platform": "table:09004:41"
+        },
+        {
+          "saturn": 42,
+          "platform": "table:09004:42"
+        },
+        {
+          "saturn": 43,
+          "platform": "table:09004:43"
+        }
+      ]
     },
     "5": {
-      "saturn_table": "0x0A854",
-      "ps1_table": "0x0A8EC",
-      "saturn_entries": 33,
-      "ps1_entries": 33,
-      "reason": "mapping is aligned but Russian encoding is 161 words for a 159-word group budget"
+      "ranges": [
+        {
+          "saturn": 0,
+          "ps1": 0,
+          "count": 33
+        }
+      ],
+      "entries": [
+        {
+          "saturn": 3,
+          "platform": "table:0A854:3"
+        },
+        {
+          "saturn": 30,
+          "platform": "table:0A854:30"
+        }
+      ]
     },
     "15": {
-      "saturn_table": "0x16D3C",
-      "ps1_table": "0x16DC0",
-      "saturn_entries": 88,
-      "ps1_entries": 92,
-      "reason": "command-help text is reordered/reworded around shop/equipment/options"
+      "ranges": [
+        {
+          "saturn": 0,
+          "ps1": 0,
+          "count": 12
+        },
+        {
+          "saturn": 12,
+          "ps1": 16,
+          "count": 12
+        },
+        {
+          "saturn": 24,
+          "ps1": 28,
+          "count": 20
+        },
+        {
+          "saturn": 44,
+          "ps1": 48,
+          "count": 44
+        }
+      ]
     }
-  },
-  "groups": {}
+  }
 }

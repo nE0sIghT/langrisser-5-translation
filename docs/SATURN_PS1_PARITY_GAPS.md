@@ -23,7 +23,7 @@ release flow also patches them.
 | No-edit roundtrip | `lang5_verify_roundtrip.py` covers PS1 SCEN/SYSTEM no-edit paths | SCEN no-edit model is documented; SYSTEM and graphics have individual tooling | Partial | Roundtrip proofs are split across tools/docs instead of one mandatory build gate. | Add a Saturn no-edit verification driver that calls the existing per-container checks. |
 | Font slots | `lang5_assign_font_slots.py` -> generated assignments -> `lang5_build_font.py` | Saturn build now runs the same generated-assignment stage, then writes `SYSTEM.DAT` glyphs | Implemented | The shared assignment stage uses the PS1 common source and a Saturn build-copy table. | Keep platform-specific SYSTEM overlays sparse; extend allocator source handling only when real Saturn-only strings are added. |
 | SCEN text | `lang5_sceninsert.py --fixed-size-repack` writes all PS1 SCEN/SCEN2 text | `lang5_saturn_apply.py` writes Saturn `SCEN.DAT` field_3c pools through strict platform mapping | Strict gated (`100/131` auto, 6 service skipped, 25 blocked) | The remaining blocks are real PS1/Saturn entry-order/content differences. | Add durable `data/platforms/saturn/scen_mapping.json` entries and sparse language overrides where a Saturn entry has no PS1 equivalent. |
-| SYSTEM text | `lang5_system_dump.py` -> resolver -> reflow -> strict `lang5_system_pack.py --repack` | `lang5_saturn_system_pack.py` now fails on unmapped or over-budget groups | Strict gated (`12/16` auto, 4 blocked) | Three tables have PS1/Saturn entry-count/ordering deltas; one table overflows the fixed Saturn group span by two words. | Add `data/platforms/saturn/system_mapping.json`, sparse Saturn SYSTEM overlays, and shorten group `5` labels by two words. |
+| SYSTEM text | `lang5_system_dump.py` -> resolver -> reflow -> strict `lang5_system_pack.py --repack` | `lang5_saturn_system_pack.py` packs all Saturn groups through explicit platform mapping | Implemented (`16/16`) | Saturn-only RAM/save strings and compact Saturn-only class labels are stored as sparse overlays. | Add runtime review rows if any Saturn-only SYSTEM string needs wording changes. |
 | Build-copy wrapping | PS1 build rewraps `work/build/translation.<lang>/` with the exact generated `.tbl` | Saturn build rewraps `work/build/translation.<lang>.saturn/` with the Saturn `.tbl` | Implemented | The tracked language pack is never rewritten. | None. |
 | Translation validation | PS1 build validates control words, encodability and budgets under exact `.tbl` | Saturn build validates the same generated translation copy under the Saturn `.tbl` | Implemented for common PS1-based text | Platform-specific override validation still depends on adding real override files. | Add validation for sparse Saturn override chunks when they are populated. |
 | SYSTEM UI validation | `lang5_validate_system_ui.py` checks atlas rows and fixed-width fields | Saturn build runs the common PS1 SYSTEM UI validator on common strings | Implemented for common strings | Saturn-only SYSTEM overlays are still absent. | Add Saturn-specific constraints when overlays are added or runtime proves a different geometry. |
@@ -84,16 +84,17 @@ Service chunks that are intentionally not language-pack chunks:
 
 ## SYSTEM Divergence Report
 
-The current Saturn SYSTEM packer translates 12 of 16 text tables. The skipped
-tables are below. Table numbers are only local report indices; use offsets for
-durable references.
+The Saturn SYSTEM packer now translates all 16 text tables in strict mode. The
+tables below were the structural blockers and are now covered by
+`data/platforms/saturn/system_mapping.json`. Table numbers are only local report
+indices; use offsets for durable references.
 
-| Saturn table | PS1 table | Saturn count | PS1 count | Current blocker | Proposed analysis/action |
+| Saturn table | PS1 table | Saturn count | PS1 count | Resolved action | Notes |
 | ---: | ---: | ---: | ---: | --- | --- |
-| `0x08084` | `0x08052` | 292 | 291 | Entry-count mismatch. | Mostly common UI, with Saturn-only `START`/`OPTION` and RAM labels plus no PS1 bonus-movie line. Needs explicit map/overrides. |
-| `0x09004` | `0x08FAE` | 44 | 41 | Entry-count mismatch. | Saturn save/RAM messages replace PS1 memory-card messages. Needs Saturn-specific target overlay. |
-| `0x0A854` | `0x0A8EC` | 33 | 33 | Fixed group overflow: rebuilt `161` words > budget `159`. | Mapping is fine; shorten two words or add better pair coverage. |
-| `0x16D3C` | `0x16DC0` | 88 | 92 | Entry-count mismatch. | Command-help text is reordered/reworded around shop/equipment/options. Needs explicit map/overrides. |
+| `0x08084` | `0x08052` | 292 | 291 | Mixed direct PS1 map, explicit `preserve` for the name-entry grid/control runs, and Saturn overlays for `START`/RAM labels. | `saturn_name_entry.py` rewrites the preserved grid after SYSTEM packing. |
+| `0x09004` | `0x08FAE` | 44 | 41 | Saturn-only RAM/save text overlay. | Decorative separator entry is preserved. |
+| `0x0A854` | `0x0A8EC` | 33 | 33 | Direct map plus two compact Saturn-only RU labels to fit the fixed group budget. | The group now fits in 159 words. |
+| `0x16D3C` | `0x16DC0` | 88 | 92 | Four explicit PS1 range mappings covering the reordered command-help blocks. | No Saturn-only target text needed. |
 
 ## Common-Layer Refactor Targets
 
@@ -103,7 +104,7 @@ These are analysis findings, not implementation steps already taken.
 | --- | --- | --- | --- |
 | Font assignment | Both PS1 and Saturn builds generate build-copy assignments. | Saturn-only overlay strings are not yet fed into assignment source. | Add platform overlay source handling when real overrides are populated. |
 | Rewrap/validate | Both PS1 and Saturn builds rewrap/validate build copies with the exact generated table. | Sparse platform override chunks are not yet validated because none are populated. | Validate platform override chunks when added. |
-| SYSTEM resolving | Saturn build regenerates the PS1 common SYSTEM source/resolved map before packing. | Saturn-only SYSTEM overlays still need platform source ids and target strings. | Use `data/platforms/saturn/system_mapping.json` plus `data/lang/<lang>/platforms/saturn/system_strings.json`. |
+| SYSTEM resolving | Saturn build regenerates the PS1 common SYSTEM source/resolved map before packing. | Implemented for current known Saturn SYSTEM deltas. | Extend `data/platforms/saturn/system_mapping.json` only if new Saturn-only SYSTEM strings are identified. |
 | Graphics rendering | Title, poem, clear and Now Loading already reuse several render cores. | Container adapters still import PS1 image helpers directly in places. | Keep rendering/palette helpers common; keep only container decode/encode per platform. |
 | Release | PS1 has `release.sh`; Saturn has only ad-hoc remastered BIN/CUE output. | No reproducible release artifact. | Add Saturn release mode after fixed-size audit; use xdelta as the binary patch format. |
 
@@ -154,10 +155,6 @@ for large CD images.
 
 1. Fill `data/platforms/saturn/scen_mapping.json` for the 25 strict SCEN
    failures.
-2. Fill `data/platforms/saturn/system_mapping.json` and sparse
-   `data/lang/<lang>/platforms/saturn/system_strings.json` for SYSTEM groups
-   `0`, `1` and `15`.
-3. Shorten or re-pair Saturn SYSTEM group `5` by two encoded words.
-4. Add validation for populated sparse platform override chunks/strings.
-5. Re-run strict `python3 scripts/lang5_saturn_build.py --lang <lang>`; use
+2. Add validation for populated sparse platform override chunks/strings.
+3. Re-run strict `python3 scripts/lang5_saturn_build.py --lang <lang>`; use
    `--allow-unmapped` only to exercise downstream container stages.

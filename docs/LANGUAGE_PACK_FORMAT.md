@@ -178,6 +178,16 @@ Saturn overlay ids:
 }
 ```
 
+Entries that are not ordinary translated text can be preserved explicitly:
+
+```json
+{"saturn": 213, "count": 19, "preserve": true}
+```
+
+Use this only for verified non-text runs or records owned by a separate platform
+adapter, such as the Saturn name-entry glyph grid before `saturn_name_entry.py`
+rewrites it.
+
 If a Saturn build is requested without the needed platform source files or
 without required platform mapping/overlays, the strict build fails. This is
 intentional: a PS1 extraction alone is not enough to produce a complete Saturn

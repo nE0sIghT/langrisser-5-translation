@@ -84,8 +84,11 @@ def expand_group_map(spec: dict, entry_count: int) -> dict[int, object]:
                     f"got {item}"
                 )
             out[saturn] = {"platform": platform}
+        elif item.get("preserve"):
+            for off in range(count):
+                out[saturn + off] = {"preserve": True}
         else:
-            raise SystemExit(f"SYSTEM range mapping needs ps1 or platform: {item}")
+            raise SystemExit(f"SYSTEM range mapping needs ps1/platform/preserve: {item}")
     for item in spec.get("entries", []):
         saturn = int(item["saturn"])
         if "ps1" in item:
@@ -94,8 +97,10 @@ def expand_group_map(spec: dict, entry_count: int) -> dict[int, object]:
             out[saturn] = {"ps1_id": str(item["ps1_id"])}
         elif "platform" in item:
             out[saturn] = {"platform": str(item["platform"])}
+        elif item.get("preserve"):
+            out[saturn] = {"preserve": True}
         else:
-            raise SystemExit(f"SYSTEM entry mapping needs ps1/ps1_id/platform: {item}")
+            raise SystemExit(f"SYSTEM entry mapping needs ps1/ps1_id/platform/preserve: {item}")
     bad = [idx for idx in out if idx < 0 or idx >= entry_count]
     if bad:
         raise SystemExit(f"SYSTEM mapping has out-of-range Saturn entries: {bad[:5]}")
@@ -219,12 +224,14 @@ def main() -> None:
                 ps1_id = str(target["ps1_id"])
                 text = translations.get(ps1_id)
                 seqs.append(encoded_from_text(codec, text, orig))
-            else:
+            elif "platform" in target:
                 platform_id = str(target["platform"])
                 text = platform_translations.get(platform_id)
                 seqs.append(
                     encoded_from_text(codec, text, orig, required_id=platform_id)
                 )
+            else:
+                seqs.append(orig)
         blob = build_group_blob(seqs)
         if len(blob) > budget:
             skipped_groups += 1
