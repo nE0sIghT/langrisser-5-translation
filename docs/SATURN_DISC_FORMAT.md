@@ -743,6 +743,34 @@ This is the general recipe for the title/prologue/staff/cast graphics; decoding
 the `[1]` cell arrangement + `[0]` sprite table lets them be translated the same
 way `CLEAR.DAT` was. See "Now Loading" below for why that asset is the exception.
 
+### Prologue poem — `OPEN.DAT` sub-asset `[2]` (VDP1 text-run list)
+
+The attract-loop poem (PS1 `IMG.DAT` asset 12, a 768x252 red-on-black bitmap) is
+on Saturn the third sub-asset of `OPEN.DAT` (`[1]` is the opening cutscene art).
+It is **uncompressed** (entropy ~4.3 bits/byte) and is *not* a linear image but a
+**VDP1 text-run list** — the poem is drawn as many small sprites:
+
+```text
++0x00 u32  sub-asset size
++0x04 u32  width  (0x140 = 320)
++0x08 u32  height (0x300 = 768 — three 320x256 attract screens stacked)
++0x14 u32  run count (0x32 = 50)
++0x24      256-entry BGR555 CLUT (index 0 = transparent -> the black attract bg)
++0x224     run table: `count` x (u16 x, u16 y, u16 srca, u16 (w<<8)|h)
++0x3b4     glyph atlas: 8bpp row-major pixels; each run reads `w*h` bytes at
+           atlas+srca (srca is the running byte cursor, so run i+1's srca equals
+           run i's srca + w*h — this pins the format exactly)
+```
+
+Each run is a `w x h` red-text fragment blitted at `(x, y)`; the `y` values step
+by 20 px (`25, 45, 65, ...`, eight lines per poem block — matching the PS1
+`TOP_MARGIN ~24` / pitch 20). The atlas is the same ink model as the PS1 poem:
+background index 0, **outline index `0xd4` = 212 — identical to the PS1
+`lang5_poem_translate.OUTLINE_INDEX`** — and a red fill ramp, a strong
+cross-validation that both platforms share the poem art pipeline. Decoding with
+index 0 forced to black reproduces the red-on-black poem; a translated build
+regenerates the run table + atlas from the pack's poem text, fixed size.
+
 ### `CLEAR.DAT` (SCENARIO CLEAR) — decoded and translated
 
 A VDP1 VRAM dump was used **only to discover** the format; the tool itself reads
@@ -845,7 +873,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
-| Prologue poem graphic | done | **recognized** — same container format (`TITLE2.DAT`/`OPEN.DAT`) |
+| Prologue poem graphic | done | **decoded** — `OPEN.DAT[2]` VDP1 text-run list (run table + 8bpp glyph atlas, outline index 212 as on PS1); renders red-on-black; Russian re-encoder is the remaining build step |
 | Now Loading plate | done | **compressed** — 120x32 8bpp; VRAM↔disc identity proven (see below); not raw/tiled anywhere on disc nor in RAM (only VDP1 VRAM); no plate sub-asset descriptor exists — embedded + compressed in resident SH-2 code (`A0LANG5.BIN`/`PROG1.BIN`) |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
