@@ -1,0 +1,7 @@
+{
+  "platform": "saturn",
+  "label": "Sega Saturn",
+  "base_platform": "ps1",
+  "scen_mapping": "scen_mapping.json",
+  "system_mapping": "system_mapping.json"
+}

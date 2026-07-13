@@ -14,7 +14,7 @@ import json
 import shutil
 from pathlib import Path
 
-from lang5_project import DEFAULT_LANG_ROOT, load_language
+from lang5_project import DEFAULT_LANG_ROOT, ROOT, load_language
 
 
 SCALAR_FILES = [
@@ -159,6 +159,15 @@ def main() -> None:
     dst_root.mkdir(parents=True, exist_ok=True)
     (dst_root / "SCEN").mkdir(exist_ok=True)
     (dst_root / "SCEN" / ".gitkeep").touch()
+    platform_root = ROOT / "data" / "platforms"
+    if platform_root.exists():
+        for platform_dir in sorted(p for p in platform_root.iterdir() if p.is_dir()):
+            dst_platform = dst_root / "platforms" / platform_dir.name
+            (dst_platform / "SCEN").mkdir(parents=True, exist_ok=True)
+            (dst_platform / "SCEN" / ".gitkeep").touch()
+            system_overlay = dst_platform / "system_strings.json"
+            if not system_overlay.exists() or args.force:
+                system_overlay.write_text("{}\n", encoding="utf-8")
 
     manifest = src.manifest_copy()
     manifest["lang"] = args.lang

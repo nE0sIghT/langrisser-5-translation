@@ -1,9 +1,10 @@
 # Langrisser V (PS1) Translation Toolkit
 
 Toolkit and language-pack repository for translating **Langrisser V** (PS1,
-SLPS-01818). The project currently ships English and Russian patches, and the
-same tooling can be used to prepare additional target-language packs under
-`data/lang/<lang>/`.
+SLPS-01818) and for porting those language packs to structurally compatible
+platform builds such as the Sega Saturn release. The project currently ships
+English and Russian PS1 patches, and the same tooling can be used to prepare
+additional target-language packs under `data/lang/<lang>/`.
 
 The repository contains only durable translation data and tooling. Original game
 assets, extracted files, generated Japanese dumps, build products and local
@@ -69,10 +70,12 @@ The build scripts expect this verified local image:
 | Path | Purpose |
 | --- | --- |
 | `data/common/` | shared maps, scenario map, UI constraints and JP table |
+| `data/platforms/` | platform manifests and PS1/Saturn mapping metadata |
 | `data/lang/en/` | English language pack |
 | `data/lang/ru/` | Russian language pack |
 | `data/lang/<lang>/manifest.json` | language settings used by tools |
 | `data/lang/<lang>/SCEN/` | completed translated script chunks for that language |
+| `data/lang/<lang>/platforms/` | sparse platform-specific target overlays |
 | `data/lang/<lang>/system_strings.json` | target SYSTEM.BIN UI text overlay |
 | `data/lang/<lang>/system_layout.json` | SYSTEM.BIN line-growth constraints |
 | `data/lang/<lang>/title_credits.json` | language-specific title credits |
@@ -101,6 +104,13 @@ contains durable translation/editorial data only:
 - names, glossary and review status;
 - font assignments and name-entry layout;
 - target title credits and non-reproducible graphic/cutscene transcript text.
+
+The common translation is PS1-based. Console-specific structure lives under
+`data/platforms/<platform>/`; target text that exists only on a platform lives
+under `data/lang/<lang>/platforms/<platform>/`. A Saturn build reuses common
+PS1 strings only when the platform mapping proves the entry correspondence.
+If platform-specific mapping or target text is missing, the strict build fails
+instead of silently preserving Japanese.
 
 Generated Japanese source data stays under `work/` and is reproducible from the
 user's own disc image. This avoids committing game text that can be extracted by
@@ -282,6 +292,18 @@ Release build:
 ```bash
 scripts/release.sh --release
 ```
+
+Experimental Saturn build data path:
+
+```bash
+python3 scripts/lang5_saturn_build.py --lang ru
+```
+
+This requires both PS1 base extracts (`work/extracted/SCEN.DAT`,
+`SCEN2.DAT`, `SYSTEM.BIN`) and Saturn extracts under `work/build/saturn/`.
+Strict mode stops on any unresolved `data/platforms/saturn/` mapping gap.
+Use `--allow-unmapped` only as a diagnostic to preserve unmapped Saturn source
+data while exercising the rest of the build pipe.
 
 The release script builds the complete English and Russian artifact set by
 default, writes it to `dist/vX/`, and records PPF plus patched-image hashes in

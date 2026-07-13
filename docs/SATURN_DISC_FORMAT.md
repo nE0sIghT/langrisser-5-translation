@@ -949,8 +949,8 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 
 | Translation asset (README) | PS1 | Saturn |
 | --- | --- | --- |
-| SCEN scenario/dialogue text | done | done — 100/131 blocks; 25 need mapping reconciliation; 3 are applied through unique stable-token signature alignment |
-| SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
+| SCEN scenario/dialogue text | done | strict pipeline — 100/131 blocks apply automatically, 6 service chunks are explicitly skipped, 25 require `data/platforms/saturn/scen_mapping.json` reconciliation; diagnostic mode can preserve them |
+| SYSTEM UI text | done | strict pipeline — 12/16 groups pack automatically, 4 require `data/platforms/saturn/system_mapping.json` or budget fixes |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |
@@ -1038,8 +1038,9 @@ only the glyph-plane file offset differs.
 
 ### Still open for full text parity
 
-- The Saturn↔PS1 mapping deltas (a few entries per chunk) must be reconciled so
-  each Saturn entry pulls the right translated string.
+- The Saturn↔PS1 mapping deltas must be reconciled in
+  `data/platforms/saturn/` so each Saturn entry either pulls a proven common PS1
+  target string or a sparse language-specific Saturn override.
 
 ### Cross-validation and ISO-output recipe (Langrisser III, Saturn)
 
@@ -1166,6 +1167,8 @@ for text.
 - [x] Reuse the font builder to draw Cyrillic into the Saturn glyph plane.
 - [x] Wire the Saturn build flow (font + SYSTEM + SCEN) reusing shared stages.
 - [ ] Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
+  The strict build now fails on these gaps instead of silently preserving
+  Japanese; `--allow-unmapped` is diagnostic only.
 - [x] Inject the grown Saturn files back into the mixed-mode BIN/CUE.
 - [ ] Decode `SCEN.DAT` record-payload grammar (graphics/map/event editing only).
 - [ ] Decode `SCEN.DAT` `resource_table` resource semantics (non-text editing only).

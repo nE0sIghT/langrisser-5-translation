@@ -4,12 +4,13 @@
 Platform is a build-time choice: the same pack that produces the PS1 PPF drives
 this Saturn flow. It reuses the shared stages unchanged:
 
-1. `lang5_build_font` draws the target alphabet into the Saturn `SYSTEM.DAT`
-   glyph plane (same 12x12x18 format and slots as PS1) and emits the `.tbl`.
-2. `saturn_name_entry` patches the name-entry display/input tables in
-   `SYSTEM.DAT` using the same target alphabet grid as the PS1 build.
-3. `lang5_saturn_apply` inserts the translated scenario text into `SCEN.DAT`
-   (fixed-size where it fits, growing + re-laying-out blocks where it does not).
+1. regenerate the common PS1 SYSTEM source and resolved target strings;
+2. complete font assignments into a build copy and emit a Saturn `.tbl`;
+3. reflow, validate and rewrap a generated translation copy with that table;
+4. pack Saturn `SYSTEM.DAT` through platform mappings;
+5. insert translated scenario text into Saturn `SCEN.DAT` through platform
+   mappings (fixed-size where it fits, growing + re-laying-out blocks where it
+   does not).
 
 Outputs the translated `SYSTEM.DAT` and `SCEN.DAT` under `work/build/saturn/`.
 With `--remaster-disc`, it also writes a translated mixed-mode BIN/CUE under
@@ -19,15 +20,19 @@ the same directory.
 from __future__ import annotations
 
 import argparse
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
+from lang5_platform import add_platform_args, platform_from_args
 from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
 
 
 def run(*cmd: object) -> None:
-    subprocess.run([sys.executable, *(str(c) for c in cmd)], check=True)
+    result = subprocess.run([sys.executable, *(str(c) for c in cmd)])
+    if result.returncode:
+        raise SystemExit(result.returncode)
 
 
 def has_target_text(path: Path) -> bool:
@@ -43,10 +48,19 @@ def has_target_text(path: Path) -> bool:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     add_language_args(ap)
+    add_platform_args(ap, "saturn")
     ap.add_argument("--saturn-dir", default="work/build/saturn",
                     help="directory holding the extracted Saturn SYSTEM.DAT/SCEN.DAT")
     ap.add_argument("--assignments", default=None,
                     help="font slot assignments CSV (default: the pack's tracked file)")
+    ap.add_argument("--translation-root", default=None,
+                    help="Override the language pack's translated-text root.")
+    ap.add_argument("--ps1-scen", default="work/extracted/SCEN.DAT",
+                    help="PS1 SCEN.DAT used as the common script source.")
+    ap.add_argument("--ps1-scen2", default="work/extracted/SCEN2.DAT",
+                    help="PS1 SCEN2.DAT used for common validation/font-slot safety.")
+    ap.add_argument("--ps1-system", default="work/extracted/SYSTEM.BIN",
+                    help="PS1 SYSTEM.BIN used as the common SYSTEM source.")
     ap.add_argument("--cue", default="iso/saturn/LANGRISSER_5.cue",
                     help="source Saturn CUE for --remaster-disc")
     ap.add_argument("--remaster-disc", action="store_true",
@@ -55,9 +69,14 @@ def main() -> None:
                     help="translated Saturn BIN path for --remaster-disc")
     ap.add_argument("--out-cue", default=None,
                     help="translated Saturn CUE path for --remaster-disc")
+    ap.add_argument("--allow-unmapped", action="store_true",
+                    help="Diagnostic mode: preserve unmapped Saturn SCEN/SYSTEM data.")
     args = ap.parse_args()
 
     lang = language_from_args(args)
+    platform = platform_from_args(args)
+    if platform.code != "saturn":
+        raise SystemExit(f"this builder only supports the saturn platform, got {platform.code}")
     scripts = Path(__file__).resolve().parent
     saturn = Path(args.saturn_dir)
     system_in = saturn / "SYSTEM.DAT"
@@ -68,16 +87,57 @@ def main() -> None:
                 f"missing {path}; extract it first: "
                 f"python3 scripts/saturn_disc.py extract {path.name} {path}"
             )
+    for path in (Path(args.ps1_scen), Path(args.ps1_scen2), Path(args.ps1_system)):
+        if not path.exists():
+            raise SystemExit(
+                f"missing common PS1 source {path}; extract PS1 base files first"
+            )
+
+    translation_root = (Path(args.translation_root)
+                        if args.translation_root else lang.dump_root)
+    build_translation_root = Path(f"work/build/translation.{lang.suffix}.saturn")
+    if build_translation_root.exists():
+        shutil.rmtree(build_translation_root)
+    shutil.copytree(translation_root, build_translation_root)
 
     assignments = Path(args.assignments) if args.assignments else lang.font_assignments
     system_font = saturn / f"SYSTEM.DAT.{lang.suffix}.font"
     tbl = saturn / f"lang5_{lang.suffix}.saturn.tbl"
 
+    system_source = Path(f"work/build/system_source.{lang.suffix}.json")
+    run(scripts / "lang5_system_dump.py",
+        "--system-bin", args.ps1_system,
+        "--out", system_source)
+    resolved_system_strings = Path(f"work/build/system_strings.{lang.suffix}.json")
+    resolve_args = [
+        scripts / "lang5_resolve_system_strings.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--system-source", system_source,
+        "--out", resolved_system_strings,
+    ]
+    if lang.system_complete:
+        resolve_args.append("--require-complete")
+    run(*resolve_args)
+
+    build_assignments = Path(f"work/build/font_slot_assignments.{lang.suffix}.saturn.csv")
+    run(scripts / "lang5_assign_font_slots.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--groups-report", COMMON_FONT_MAP,
+        "--assignments", assignments,
+        "--out-assignments", build_assignments,
+        "--translation-root", build_translation_root,
+        "--menu-map", resolved_system_strings,
+        "--system-source", system_source,
+        "--scen", args.ps1_scen,
+        "--scen2", args.ps1_scen2)
+
     font_cmd = [
         scripts / "lang5_build_font.py",
         "--lang", args.lang, "--lang-root", args.lang_root,
         "--groups-report", COMMON_FONT_MAP,
-        "--assignments", assignments,
+        "--assignments", build_assignments,
         "--system-bin", system_in,
         "--out-system-bin", system_font,
         "--out-tbl", tbl,
@@ -90,12 +150,49 @@ def main() -> None:
                          "--caps-font-size", str(lang.caps_font_size)])
     run(*font_cmd)
 
+    reflowed_system_strings = Path(f"work/build/system_strings.{lang.suffix}.saturn.reflowed.json")
+    run(scripts / "lang5_reflow_system_cards.py",
+        "--strings", resolved_system_strings,
+        "--out", reflowed_system_strings,
+        "--tbl", tbl,
+        "--system-source", system_source)
+    run(scripts / "lang5_validate_system_ui.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--tbl", tbl,
+        "--strings", reflowed_system_strings,
+        "--system-source", system_source)
+    run(scripts / "lang5_rewrap.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--translation-root", build_translation_root,
+        "--tbl", tbl,
+        "--scen", args.ps1_scen)
+    run(scripts / "lang5_validate_translation.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--translation-root", build_translation_root,
+        "--tbl", tbl,
+        "--scen", args.ps1_scen,
+        "--scen2", args.ps1_scen2)
+
     system_out = saturn / f"SYSTEM.{lang.suffix}.DAT"
-    run(scripts / "lang5_saturn_system_pack.py",
+    system_cmd: list[object] = [
+        scripts / "lang5_saturn_system_pack.py",
+        "--lang", args.lang,
+        "--lang-root", args.lang_root,
+        "--platform", args.platform,
+        "--platform-root", args.platform_root,
         "--system-in", system_font,
         "--system-out", system_out,
-        "--strings", f"work/build/system_strings.{lang.suffix}.json",
-        "--tbl", tbl)
+        "--ps1-system", args.ps1_system,
+        "--strings", reflowed_system_strings,
+        "--platform-strings", lang.root / "platforms" / platform.code / "system_strings.json",
+        "--tbl", tbl,
+    ]
+    if args.allow_unmapped:
+        system_cmd.append("--allow-unmapped")
+    run(*system_cmd)
     run(scripts / "saturn_name_entry.py",
         "--lang", args.lang, "--lang-root", args.lang_root,
         "--system-in", system_out,
@@ -109,11 +206,19 @@ def main() -> None:
             "--out-preview", saturn / f"now_loading_{lang.suffix}_preview.png")
 
     scen_out = saturn / f"SCEN.{lang.suffix}.DAT"
-    run(scripts / "lang5_saturn_apply.py",
+    scen_cmd: list[object] = [
+        scripts / "lang5_saturn_apply.py",
         "--lang", args.lang, "--lang-root", args.lang_root,
+        "--platform", args.platform,
+        "--platform-root", args.platform_root,
         "--scen", scen_in,
         "--out-scen", scen_out,
-        "--tbl", tbl)
+        "--tbl", tbl,
+        "--ps1-scen", args.ps1_scen,
+    ]
+    if args.allow_unmapped:
+        scen_cmd.append("--allow-unmapped")
+    run(*scen_cmd)
 
     # SCENARIO CLEAR banner (CLEAR.DAT), if extracted and the pack sets the text.
     clear_in = saturn / "CLEAR.DAT"

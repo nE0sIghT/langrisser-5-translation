@@ -19,6 +19,7 @@ disc image.
 data/lang/<code>/
   manifest.json
   SCEN/
+  platforms/
   font_slot_assignments.csv
   system_strings.json
   system_layout.json
@@ -35,6 +36,20 @@ data/lang/<code>/
 
 `SCEN/` contains only completed translated chunks. Work-in-progress chunks live
 in `work/wip_<code>/SCEN/`.
+
+`platforms/<platform>/` contains target-language text that exists only on that
+source platform. Keep this directory empty unless `data/platforms/<platform>/`
+explicitly maps an entry to it. The shared PS1-based translation remains in
+`SCEN/` and `system_strings.json`; do not duplicate common strings in platform
+overlays.
+
+Current platform overlay shape:
+
+```text
+data/lang/<code>/platforms/saturn/
+  SCEN/                 # sparse chunk_NNN.txt files for Saturn-only SCEN entries
+  system_strings.json   # sparse Saturn SYSTEM id -> target text overlay
+```
 
 Language-specific data uses neutral target fields:
 
@@ -91,6 +106,82 @@ Fields currently consumed by the tools:
 | `window_width` | Dialogue window width in cells. |
 | `choice_width` | Choice-row width in cells. |
 | `max_lines` | Safe page height for rewrap checks. |
+
+## Platform Packs
+
+Console-specific source structure lives under `data/platforms/<platform>/`.
+These files store mappings and layout decisions only; they must not contain
+extracted Japanese source text.
+
+```text
+data/platforms/
+  ps1/
+    manifest.json
+  saturn/
+    manifest.json
+    scen_mapping.json
+    system_mapping.json
+```
+
+The common language pack is PS1-based because the existing translation and
+review data were built from the PS1 `SCEN.DAT` and `SYSTEM.BIN` dumps. A
+non-PS1 build may reuse common target strings only when platform mapping proves
+that a platform entry corresponds to a PS1 chunk record or SYSTEM stable id.
+
+`scen_mapping.json`:
+
+- `empty_chunks`: service/name-pool chunks that are preserved and not counted
+  as missing translations;
+- `unresolved_chunks`: durable no-source-text tracker of Saturn chunks that
+  still need explicit mapping;
+- `chunks`: per-chunk explicit mapping for Saturn entries that cannot be proven
+  by automatic identity or unique stable-token alignment.
+
+Chunk mapping entries use zero-based platform entry indices and one-based PS1
+record numbers:
+
+```json
+{
+  "chunks": {
+    "4": {
+      "ranges": [{"saturn": 0, "ps1": 1, "count": 107}],
+      "entries": [{"saturn": 107, "ps1": 123}]
+    }
+  }
+}
+```
+
+A Saturn-only translated record uses a sparse platform chunk file:
+
+```json
+{"saturn": 253, "platform": 253}
+```
+
+which resolves to
+`data/lang/<code>/platforms/saturn/SCEN/chunk_NNN.txt` record `253`.
+
+`system_mapping.json` uses `unresolved_groups` as the no-source-text tracker for
+known platform-specific SYSTEM deltas. Its `groups` object maps Saturn SYSTEM
+group entries either to PS1 group indices / stable ids or to language-specific
+Saturn overlay ids:
+
+```json
+{
+  "groups": {
+    "1": {
+      "entries": [
+        {"saturn": 0, "platform": "table:09004:0"},
+        {"saturn": 30, "ps1_id": "table:08FAE:30"}
+      ]
+    }
+  }
+}
+```
+
+If a Saturn build is requested without the needed platform source files or
+without required platform mapping/overlays, the strict build fails. This is
+intentional: a PS1 extraction alone is not enough to produce a complete Saturn
+translation.
 
 Relative manifest paths are resolved from the language directory.
 

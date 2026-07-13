@@ -1,0 +1,39 @@
+{
+  "_comment": [
+    "Saturn SYSTEM mapping data. This file stores structure only: no extracted",
+    "Japanese text. A Saturn entry may map to a PS1 SYSTEM stable id or to a",
+    "language-specific platform override under data/lang/<lang>/platforms/saturn/."
+  ],
+  "base_platform": "ps1",
+  "unresolved_groups": {
+    "0": {
+      "saturn_table": "0x08084",
+      "ps1_table": "0x08052",
+      "saturn_entries": 292,
+      "ps1_entries": 291,
+      "reason": "mostly common UI with Saturn-only START/OPTION/RAM labels and no PS1 bonus-movie line"
+    },
+    "1": {
+      "saturn_table": "0x09004",
+      "ps1_table": "0x08FAE",
+      "saturn_entries": 44,
+      "ps1_entries": 41,
+      "reason": "Saturn save/RAM messages replace PS1 memory-card messages"
+    },
+    "5": {
+      "saturn_table": "0x0A854",
+      "ps1_table": "0x0A8EC",
+      "saturn_entries": 33,
+      "ps1_entries": 33,
+      "reason": "mapping is aligned but Russian encoding is 161 words for a 159-word group budget"
+    },
+    "15": {
+      "saturn_table": "0x16D3C",
+      "ps1_table": "0x16DC0",
+      "saturn_entries": 88,
+      "ps1_entries": 92,
+      "reason": "command-help text is reordered/reworded around shop/equipment/options"
+    }
+  },
+  "groups": {}
+}

@@ -17,6 +17,11 @@ SCEN chunks, SYSTEM.BIN strings, name/glossary tables, font slot assignments,
 name-entry layout, review status, and graphic/cutscene transcript text that is
 not recoverable by running the dumpers.
 
+Platform-specific target text lives under
+`data/lang/<lang>/platforms/<platform>/`. Keep it sparse: add entries only when
+`data/platforms/<platform>/` maps a console-specific source entry that cannot
+reuse the common PS1-based translation.
+
 Target text uses language-neutral fields:
 
 - `text` in name, glossary and non-reproducible JSON records;
