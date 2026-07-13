@@ -141,34 +141,15 @@ def render_mask(text: str, font_path: str, cap_top: int) -> Image.Image:
     raise SystemExit(f"cannot fit {text!r} on the plate with {font_path}")
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__)
-    add_language_args(ap)
-    ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
-    ap.add_argument("--text", default=None)
-    ap.add_argument("--out-imgdat", default="work/build/IMG.DAT.now_loading")
-    ap.add_argument("--out-preview", default=None)
-    ap.add_argument("--font", default=FONT)
-    ap.add_argument("--cap-top", type=int, default=CAP_TOP)
-    ap.add_argument("--erase-only", action="store_true",
-                    help="cover the original lettering but draw no new text")
-    args = ap.parse_args()
-    lang = language_from_args(args)
-    text = args.text if args.text is not None else lang.now_loading
-    if not text:
-        raise SystemExit("no plate text: pass --text or set now_loading in the manifest")
-    preview_path = (Path(args.out_preview) if args.out_preview
-                    else lang.build_path("now_loading_{lang}_preview.png"))
+def redraw_plate_pixels(pixels: bytes | bytearray, palette: list[tuple[int, int, int]],
+                        text: str, font_path: str = FONT, cap_top: int = CAP_TOP,
+                        erase_only: bool = False) -> bytearray:
+    """Return a translated 120x28 Now Loading plate texture.
 
-    data = imd.read_img(args.imgdat)
-    ent, asset = imd.get_asset(data, ASSET_INDEX)
-    palette = imd.clut_palettes(asset)[CLUT_INDEX]
-    pairs = find_plate_packets(data, ent)
-    copies = [read_plate(data, pair) for pair in pairs]
-    if any(c != copies[0] for c in copies[1:]):
-        raise SystemExit("plate copies differ; refusing to patch them uniformly")
-    pixels = copies[0]
-
+    Container-specific code (PS1 IMG.DAT packets, Saturn SYSTEM.DAT
+    compression) feeds this routine the same indexed plate bytes and palette, so
+    the visual edit remains byte-identical across platforms.
+    """
     # Palette indices already used on the plate, by luminance: the engraved
     # stroke core, two antialias midtones and the bevel highlight.
     used = Counter(pixels[y * WIDTH + x]
@@ -214,8 +195,8 @@ def main() -> None:
         if FACE_X0 <= x < FACE_X1 and FACE_Y0 <= y <= UNDERLINE_Y + 1:
             out[y * WIDTH + x] = index
 
-    if not args.erase_only:
-        alpha = render_mask(text, args.font, args.cap_top).load()
+    if not erase_only:
+        alpha = render_mask(text, font_path, cap_top).load()
         # Alpha-blend the near-black stroke over the actual plate pixel and
         # snap to the nearest plate index: the lettering antialiases against
         # the real background with every gray step the palette offers.
@@ -227,6 +208,38 @@ def main() -> None:
                 bg = luminance(palette[out[y * WIDTH + x]])
                 target = bg + (STROKE_LUM - bg) * value / 255
                 paint(x, y, nearest_used(target))
+    return out
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__)
+    add_language_args(ap)
+    ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
+    ap.add_argument("--text", default=None)
+    ap.add_argument("--out-imgdat", default="work/build/IMG.DAT.now_loading")
+    ap.add_argument("--out-preview", default=None)
+    ap.add_argument("--font", default=FONT)
+    ap.add_argument("--cap-top", type=int, default=CAP_TOP)
+    ap.add_argument("--erase-only", action="store_true",
+                    help="cover the original lettering but draw no new text")
+    args = ap.parse_args()
+    lang = language_from_args(args)
+    text = args.text if args.text is not None else lang.now_loading
+    if not text:
+        raise SystemExit("no plate text: pass --text or set now_loading in the manifest")
+    preview_path = (Path(args.out_preview) if args.out_preview
+                    else lang.build_path("now_loading_{lang}_preview.png"))
+
+    data = imd.read_img(args.imgdat)
+    ent, asset = imd.get_asset(data, ASSET_INDEX)
+    palette = imd.clut_palettes(asset)[CLUT_INDEX]
+    pairs = find_plate_packets(data, ent)
+    copies = [read_plate(data, pair) for pair in pairs]
+    if any(c != copies[0] for c in copies[1:]):
+        raise SystemExit("plate copies differ; refusing to patch them uniformly")
+    pixels = copies[0]
+    out = redraw_plate_pixels(pixels, palette, text, args.font, args.cap_top,
+                              erase_only=args.erase_only)
     for pair in pairs:
         write_plate(data, pair, bytes(out))
     out_path = Path(args.out_imgdat)

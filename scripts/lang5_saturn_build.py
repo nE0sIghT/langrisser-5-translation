@@ -86,6 +86,12 @@ def main() -> None:
         "--system-out", system_out,
         "--strings", f"work/build/system_strings.{lang.suffix}.json",
         "--tbl", tbl)
+    if lang.now_loading:
+        run(scripts / "saturn_now_loading.py",
+            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--system", system_out,
+            "--out-system", system_out,
+            "--out-preview", saturn / f"now_loading_{lang.suffix}_preview.png")
 
     scen_out = saturn / f"SCEN.{lang.suffix}.DAT"
     run(scripts / "lang5_saturn_apply.py",

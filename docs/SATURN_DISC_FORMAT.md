@@ -43,6 +43,7 @@ Read-only tooling added for this investigation:
 | `scripts/lang5_saturn_system_pack.py` | Pack the SYSTEM UI translation into the Saturn `SYSTEM.DAT` groups |
 | `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font + SYSTEM text + SCEN text + decoded graphics |
 | `scripts/saturn_poem_translate.py` | Re-pack the shared prologue-poem render into `OPEN.DAT[2]` VDP1 runs |
+| `scripts/saturn_now_loading.py` | Re-pack the Saturn compressed `SYSTEM.DAT` Now Loading plate |
 
 The Saturn tools share the platform-agnostic core: `lang5_binfmt` (byte order),
 `lang5_offsetgroups` (the SYSTEM group model), `lang5_build_font` (glyph slot
@@ -78,7 +79,8 @@ The stages, all reusing shared logic:
   Russian.
 - Graphic steps run when the corresponding Saturn files are extracted:
   `CLEAR.DAT` scenario-clear banner, `TITLE1.DAT` title credits, and
-  `OPEN.DAT[2]` prologue poem.
+  `OPEN.DAT[2]` prologue poem. The `Now Loading` plate is part of
+  `SYSTEM.DAT`, so it is patched immediately after the SYSTEM text packer.
 
 Remaining before a shippable disc: reconciling the 28 interspersed-delta SCEN
 blocks and the 4 over-budget/unaligned SYSTEM groups (data-alignment tasks), and
@@ -739,7 +741,8 @@ its big pixel payload):
 
 This is the general recipe for the title/prologue/staff/cast graphics; decoding
 the `[1]` cell arrangement + `[0]` sprite table lets them be translated the same
-way `CLEAR.DAT` was. See "Now Loading" below for why that asset is the exception.
+way `CLEAR.DAT` was. `Now Loading` is the other exception: it is a compressed
+texture inside `SYSTEM.DAT`, not a `.DAT` TOC sub-asset.
 
 ### Prologue poem — `OPEN.DAT` sub-asset `[2]` (VDP1 text-run list)
 
@@ -831,13 +834,13 @@ redrawn in index space with the shared banner core. (A VRAM dump plus the VDP1
 command table is the way to *find* a sprite's `(SRCA, width, height, mode)`, but
 the build depends only on the disc file.)
 
-### Now Loading plate — compressed (proven by a control experiment)
+### Now Loading plate — `SYSTEM.DAT` compressed texture
 
 The Now Loading dump's VDP1 command table draws a **120x32, 8bpp** sprite at
 `0x4A200` (position 182,183). Rendered from the dump it is unmistakably the
-"Now Loading" engraved-metal plate, and its pixels are **byte-identical to the
-PS1 plate** in `IMG.DAT` asset 0 (the same baked bitmap, shared across
-platforms). So there is no doubt what the bytes are.
+"Now Loading" engraved-metal plate, and its first 28 rows are **byte-identical
+to the PS1 plate** in `IMG.DAT` asset 0. The Saturn command height is 32 rows;
+rows 28..31 decode as zero padding.
 
 Runtime dump command evidence (VDP1 command words read as stored BE words):
 
@@ -857,55 +860,61 @@ stored raw on disc (`CLEAR.DAT`). Its VRAM texture (224x80) equals the on-disc
 texture **100% byte-for-byte** (`swap16` matches only 65%). So the emulator dumps
 VDP1 VRAM in the same byte order the disc stores 8bpp textures: **no BE /
 word-swap / VRAM-format correction is needed** to compare a dumped sprite against
-disc data. This rules out "wrong byte order" as the reason the plate isn't found.
+disc data.
 
-Given that identity transform, the Now Loading plate is still **not present raw
-anywhere on the disc**: a full 507 MB image scan of several dense lettering rows
-(20–26 distinct bytes each) misses under identity, and the de-sectored track-1
-userdata (reconstruction validated — `A0LANG5.BIN` and the `CLEAR.DAT` texture
-are found raw in it) misses under identity, `swap16`, `swap32`, nibble-swap and
-8x8-tile (VDP2 cell) relayout — the last checked because the container `[1]`
-payloads *are* tiled (see the container-format section), so a tiled on-disc plate
-was the leading benign hypothesis; it too misses. (Flat all-one-byte rows do
-"match" random disc bytes; those are ignored.) The plate is also **absent from
-the entire state dump except VDP1 VRAM** — not in `wram-hi/lo`, `cdb-dram`,
-`sh1-ram`, or the VDP1 framebuffers — consistent with it being decompressed
-straight into VRAM and the source buffer already freed. Therefore the plate is
-genuinely **compressed** (or composed in VRAM by resident code), not merely
-reordered. No `(0x0078,0x001c)`/`(0x0078,0x0020)` sprite-dimension descriptor
-(the container's `(width,height)` form for 120x28/120x32) exists in any Saturn
-`.DAT`, so the plate is not a declared container sub-asset either.
+The plate is not a declared `.DAT` container sub-asset. It is loaded through the
+resident SH-2 texture decoder from `SYSTEM.DAT`:
 
-It is **not** in `GRAPHIC.LZH`: that file is a standard LHA (`-lh5-`) archive of
-the bonus JPEG CG gallery (`GRAPHIC.DOC` calls it おまけCG and says extraction
-matches Langrisser 3/4 — an LZH of JPEGs), not the in-game UI.
+```text
+SYSTEM.DAT + 0x18000  prefix/Huffman-style decode table
+SYSTEM.DAT + 0x19E30  compressed Now Loading stream
+runtime source        0x00219E30 (SYSTEM.DAT loaded at 0x00200000)
+runtime output        0x25C4A200 (VDP1 VRAM 0x4A200)
+original stream used  0x791 bytes (1937)
+```
 
-There is **no dedicated Now Loading file** on the disc. `A0LANG5.BIN` is the
-resident SH-2 overlay/loader (starts with SH-2 code `0xD004…`, ~8% of its words
-are `0x0604xxxx`/`0x0607xxxx` HWRAM pointers) and it carries the engine's master
-file table near offset `0x36598` (`PROG1.BIN, SYSTEM.DAT, SCEN.DAT, MAP_C.DAT,
-MAP.DAT, CLEAR.DAT, BAR.BIN, CUR.DAT, …, TITLE1/2.DAT, OPEN.DAT, WD_FONT.BIN`).
-Nothing in that table is a loading-plate asset. So the plate is **embedded in
-resident code/data** (this overlay or `PROG1.BIN`, both loaded to `0x0604xxxx`)
-as a compressed blob, together with the decompressor and the code that composes
-the loading screen (map background sprite `SRCA 0x3078` + the plate sprite).
-Decoding it therefore needs the SH-2 decompressor reverse-engineered from
-`A0LANG5.BIN`/`PROG1.BIN` (no ready-made disassembly yet), not a byte scan.
+The relevant files are loaded in high/low WRAM as follows in the runtime dumps:
 
-`TITLE1.DAT`, by contrast, *is* an uncompressed TOC container (see the
-container-format section): its `[0]` sub-asset holds the CLUT + VDP1 sprite
-table and its `[1]` sub-asset is the full title bitmap as VDP2 8x8 cells. It
-decodes without a decompressor. `OPEN.DAT[2]` is also uncompressed but uses a
-separate VDP1 run-atlas format, now decoded and re-encodable for the prologue
-poem.
-Only the Now Loading plate needs the resident-code decompressor.
+| File | Runtime base |
+| --- | ---: |
+| `A0LANG5.BIN` | `0x06010000` |
+| `PROG1.BIN` | `0x06079000` |
+| `SYSTEM.DAT` | `0x00200000` |
+
+`PROG1.BIN` calls the decoder at `0x06082CAE` with:
+
+```text
+r4 = 0x00218000  # decode table
+r5 = 0x00219E30  # compressed stream
+r6 = 0x25C4A200  # VDP1 destination
+```
+
+The decoder body is in `A0LANG5.BIN` at runtime address `0x0601253C`. It walks a
+binary prefix tree from the table, then applies a 16-byte move-to-front history
+transform. Leaf types are:
+
+| Leaf second byte | Meaning |
+| --- | --- |
+| `0xFF` | literal byte from the first leaf byte |
+| `0xFE` | end marker |
+| `0xFA..0xFD` | MTF/history class; first leaf byte is an additional repeat count |
+
+The first five stream bytes are the MTF-class header. The original stream uses
+header `00000081f4`, i.e. history depths `(1, 8, 4, 15)`. The Russian PS1-parity
+redraw (`Загрузка…`, same 120x28 visible pixels as the PS1 patch plus four zero
+rows) fits the original `0x791`-byte stream budget with header `000000a1f5`,
+i.e. depths `(1, 10, 5, 15)`, producing `1928/1937` bytes.
+
+`scripts/saturn_now_loading.py` implements both decoder and encoder. It reuses
+`lang5_now_loading.redraw_plate_pixels`, so the Saturn visible plate is
+byte-identical to the PS1 translated plate; only the container codec differs.
+The build patches `SYSTEM.<lang>.DAT` in place and preserves the file length.
 
 Decoding the remaining tile arrangements, palettes and dimensions — and then
 redrawing the translated graphics — is still needed for the remaining bitmap
 assets. **Of the graphic assets: SCENARIO CLEAR is done; title credits are done;
-the prologue poem is done; staff/cast containers are recognized and tractable;
-the Now Loading plate is compressed in resident code; the name-entry screen is
-not yet done.**
+the prologue poem is done; Now Loading is done; staff/cast containers are
+recognized and tractable; the name-entry screen is not yet done.**
 
 ## Translation Coverage On Saturn
 
@@ -918,7 +927,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |
-| Now Loading plate | done | **compressed** — 120x32 8bpp; VRAM↔disc identity proven (see below); not raw/tiled anywhere on disc nor in RAM (only VDP1 VRAM); no plate sub-asset descriptor exists — embedded + compressed in resident SH-2 code (`A0LANG5.BIN`/`PROG1.BIN`) |
+| Now Loading plate | done | done — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | **not done** — grid in `SYSTEM.DAT` + SH-2 EXE input table |
 | Virash cutscene subtitles | done | **not investigated** |
@@ -1087,9 +1096,9 @@ Current focus: the minimally-necessary text path for translation is complete —
 both SCEN and SYSTEM text are located, deterministically dumpable, mapped 1:1 to
 the PS1 script/UI, packed back into Saturn files, and built with the shared
 language packs. The core font format is confirmed PS1-compatible. Remaining work
-is graphic/runtime parity: the compressed Now Loading plate, name-entry screen,
-remaining staff/cast graphics, disc reinjection, and optional Saturn-specific
-kanji-table cleanup for reading JP kanji directly. The record-payload and full
+is graphic/runtime parity: the name-entry screen, remaining staff/cast graphics,
+disc reinjection, and optional Saturn-specific kanji-table cleanup for reading
+JP kanji directly. The record-payload and full
 `resource_table` grammars are only needed for graphics/map/event editing, not
 for text.
 
@@ -1120,6 +1129,7 @@ for text.
 - [x] Decode and translate the `CLEAR.DAT` scenario-clear banner.
 - [x] Decode and stamp the `TITLE1.DAT` title credits.
 - [x] Decode and translate the `OPEN.DAT[2]` prologue poem run-atlas.
+- [x] Decode and translate the compressed `SYSTEM.DAT` Now Loading plate.
 - [x] Define the SCEN insertion/repack model (fixed-size field_3c rebuild).
 - [x] Validate the model by 131/131 byte-identical round-trip + substitution.
 - [x] Implement SCEN text growth (append + re-layout) and apply the RU pack.
@@ -1164,14 +1174,15 @@ for text.
 | Saturn title/open/cast/staff large image payloads are VDP2 8x8 cell streams. | Confirmed | `saturn_container.py` de-tiles 8bpp cells; `saturn_title_credits.py` re-tiles the modified title-credit image fixed-size. |
 | The prologue poem `OPEN.DAT[2]` run table uses direct byte offsets and pixel widths. | Rejected | `srca` and `width` looked tiny under that reading. Re-reading them as VDP1 units (`srca * 8`, `width_units * 8`) accounts for all 50 runs and exactly consumes the `0x12880` atlas. |
 | The prologue poem `OPEN.DAT[2]` is a fixed VDP1 run-atlas image. | Confirmed | Header geometry is 320x768; run table entries are `(x, y, srca_units, width_units/height)`; all original runs are consecutive in atlas space; `saturn_poem_translate.py` re-packs translated poems fixed-size. |
+| The Now Loading plate is only embedded in resident SH-2 code/data. | Rejected | Runtime tracing found the compressed stream in `SYSTEM.DAT+0x19E30`, loaded at `0x00219E30`; `PROG1` passes it to the decoder at `0x06082CAE`. |
+| The Saturn Now Loading plate can be decoded and re-encoded fixed-size. | Confirmed | `saturn_now_loading.py` decodes `SYSTEM.DAT+0x18000/+0x19E30` to the 120x32 VDP1 texture, redraws the visible 120x28 through the PS1 plate routine, and re-encodes the RU stream as `1928/1937` bytes. |
 
 ### Immediate Next Steps
 
-1. Reverse-engineer the compressed Now Loading plate source in resident
-   SH-2 code/data (`A0LANG5.BIN` / `PROG1.BIN`) or identify its decompressor.
-2. Decode the Saturn name-entry screen and input table.
-3. Inject the grown Saturn files back into the mixed-mode BIN/CUE while keeping
+1. Decode the Saturn name-entry screen and input table.
+2. Inject the grown Saturn files back into the mixed-mode BIN/CUE while keeping
    file layout and audio tracks valid.
+3. Reconcile the interspersed Saturn<->PS1 SCEN/SYSTEM mapping deltas.
 4. Build the Saturn-specific kanji table by aligning Saturn entries with matched
    PS1 records, so JP kanji reads cleanly (optional: structural alignment already
    works without it).
@@ -1211,16 +1222,14 @@ Completed:
   - `CLEAR.DAT` scenario-clear banner decoded and redrawn;
   - `TITLE1.DAT` title-credit image decoded and stamped;
   - `OPEN.DAT[2]` prologue poem run-atlas decoded and re-packed.
+  - `SYSTEM.DAT` compressed Now Loading plate decoded and re-packed.
 
 Next:
 
-1. Reverse-engineer the compressed Now Loading plate:
-   - trace the resident source blob/decompressor in `A0LANG5.BIN`/`PROG1.BIN`;
-   - keep using `work/saturn/dumps/now_loading` only as runtime evidence for
-     VDP1 command parameters, not as an insertion source.
-2. Decode the Saturn name-entry screen:
+1. Decode the Saturn name-entry screen:
    - locate the displayed alphabet grid;
    - locate the input table / accepted glyph list.
+2. Reconcile the interspersed Saturn<->PS1 per-chunk/group mapping deltas.
 3. Build Saturn disc reinjection:
    - rewrite ISO file extents/sizes or prove all edited files can stay in-place;
    - preserve the mixed-mode layout and CD audio tracks.
@@ -1247,15 +1256,14 @@ Resolved for the font/render path:
 
 Resolved for the current graphic path:
 
-- `CLEAR.DAT`, `TITLE1.DAT` title credits, and `OPEN.DAT[2]` prologue poem are
-  decoded and re-encodable fixed-size.
+- `CLEAR.DAT`, `TITLE1.DAT` title credits, `OPEN.DAT[2]` prologue poem, and the
+  compressed `SYSTEM.DAT` Now Loading plate are decoded and re-encodable
+  fixed-size.
 
 Still open:
 
 - What is the exact Saturn kanji slot ordering (needed only to read JP kanji)?
 - What is the `resource_table`/record-payload grammar? (Graphics/map/event
   editing only, not text.)
-- Where is the compressed resident source for the Now Loading plate and which
-  decompressor expands it to VDP1 VRAM?
 - Where are the Saturn name-entry screen glyph grid and input table?
 - What patch format is appropriate for Saturn mixed-mode BIN/CUE after edits?
