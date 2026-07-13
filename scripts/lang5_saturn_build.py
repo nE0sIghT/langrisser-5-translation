@@ -92,6 +92,14 @@ def main() -> None:
             "--clear", clear_in,
             "--out-clear", saturn / f"CLEAR.{lang.suffix}.DAT")
 
+    # Translator credits on the title screen (TITLE1.DAT container), if extracted.
+    title_in = saturn / "TITLE1.DAT"
+    if title_in.exists():
+        run(scripts / "saturn_title_credits.py",
+            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--title", title_in,
+            "--out-title", saturn / f"TITLE1.{lang.suffix}.DAT")
+
     print(f"saturn build: system -> {system_out}, scen -> {scen_out}")
 
 

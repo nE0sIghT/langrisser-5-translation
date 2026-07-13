@@ -837,7 +837,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SCEN scenario/dialogue text | done | done — 97/131 blocks; 28 need mapping reconciliation |
 | SYSTEM UI text | done | done — 12/16 groups; 4 over-budget/unaligned |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
-| Title credits graphic | done | **recognized** — `TITLE1.DAT` TOC container; `[1]` = VDP2 8x8 cells + `[0]` CLUT/sprite table; cell relayout is the remaining decode step |
+| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw in index space → re-tile, fixed size); in-game ink/placement tunable via `--ink`/`--y0` |
 | Prologue poem graphic | done | **recognized** — same container format (`TITLE2.DAT`/`OPEN.DAT`) |
 | Now Loading plate | done | **compressed** — 120x32 8bpp; VRAM↔disc identity proven (see below); not raw/tiled anywhere on disc nor in RAM (only VDP1 VRAM); no plate sub-asset descriptor exists — embedded + compressed in resident SH-2 code (`A0LANG5.BIN`/`PROG1.BIN`) |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
