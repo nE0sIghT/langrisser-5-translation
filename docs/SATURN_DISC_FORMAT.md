@@ -997,7 +997,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SYSTEM UI text | done | strict pipeline — 16/16 groups pack through `data/platforms/saturn/system_mapping.json`; Saturn-only RAM/save strings live in sparse language overlays |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines (same `title_text_mask`/`title_alpha_table` pipeline) into the uniquely-referenced background-plane cells of both `TITLE1.DAT` and `TITLE2.DAT` tilemap screens, band y=193..216 under the (C) line; fixed size; emits a two-plane composite preview |
-| Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |
+| Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 at the PS1 metrics (font 12 / line height 18) and grows the atlas to fit (the poem is the last sub-asset: header `+0x00`/`+0x20` and the TOC size are updated; RU: 38 runs, `0x19128` atlas bytes) |
 | Now Loading plate | done | done — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
 | Name-entry alphabet screen | done | implemented/static — `saturn_name_entry.py` patches `SYSTEM.DAT+0x08CE6` display grid and `+0x1B6E0` input table; runtime confirmation pending |

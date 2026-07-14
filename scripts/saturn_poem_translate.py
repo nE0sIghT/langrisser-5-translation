@@ -31,8 +31,11 @@ _spec.loader.exec_module(imd)
 SUBASSET_INDEX = 2
 BG_INDEX = poem_render.BG_INDEX
 FONT = poem_render.FONT
-FONT_SIZE = 10
-LINE_HEIGHT = 14
+# PS1 metric parity: the PS1 poem renders at font 12 / line height 18
+# (lang5_poem_translate). The Saturn canvas is wider (320 vs 256) and the
+# atlas grows to fit (the poem is the last OPEN.DAT sub-asset).
+FONT_SIZE = 12
+LINE_HEIGHT = 18
 TOP_MARGIN = 25
 BOTTOM_EMPTY = poem_render.BOTTOM_EMPTY
 MAX_PITCH = poem_render.MAX_PITCH
@@ -95,27 +98,37 @@ def write_u16(buf: bytearray, off: int, value: int) -> None:
 
 
 def patch_poem_subasset(sub: bytes, runs: list[Run]) -> bytes:
-    out = bytearray(sub)
+    """Rebuild the poem sub-asset, growing the atlas when the text needs it.
+
+    The poem is the last OPEN.DAT sub-asset, so a larger atlas only appends
+    bytes: the header stays self-consistent by updating the atlas size at
+    +0x20 and the total sub-asset size at +0x00 (== atlas_off + atlas_size).
+    """
     width = BE.u32(sub, 0x04)
     height = BE.u32(sub, 0x08)
     run_off = BE.u32(sub, 0x18)
     atlas_off = BE.u32(sub, 0x1C)
-    atlas_size = BE.u32(sub, 0x20)
+    orig_atlas_size = BE.u32(sub, 0x20)
     run_capacity = (atlas_off - run_off) // 8
     if width != 320 or height != 768:
         raise ValueError(f"unexpected poem geometry {width}x{height}")
     if len(runs) > run_capacity:
         raise ValueError(f"too many poem runs: {len(runs)} > {run_capacity}")
+    needed = sum(run.width * run.height for run in runs)
+    atlas_size = max(orig_atlas_size, (needed + 15) & ~15)
+    if atlas_size // 8 > 0xFFFF:
+        raise ValueError(f"poem atlas {atlas_size:#x} exceeds the u16 srca range")
+    out = bytearray(sub[:atlas_off])
+    write_u32(out, 0x00, atlas_off + atlas_size)
+    write_u32(out, 0x14, len(runs))
+    write_u32(out, 0x20, atlas_size)
+    out[run_off:atlas_off] = b"\x00" * (atlas_off - run_off)
     atlas = bytearray([BG_INDEX] * atlas_size)
     cursor = 0
-    write_u32(out, 0x14, len(runs))
-    out[run_off:atlas_off] = b"\x00" * (atlas_off - run_off)
     for i, run in enumerate(runs):
         if run.width % 8:
             raise ValueError("run width must be divisible by 8")
         n = run.width * run.height
-        if cursor + n > atlas_size:
-            raise ValueError(f"poem atlas overflow: {cursor + n:#x} > {atlas_size:#x}")
         atlas[cursor:cursor + n] = run.pixels
         ro = run_off + i * 8
         write_u16(out, ro + 0, run.x)
@@ -123,8 +136,7 @@ def patch_poem_subasset(sub: bytes, runs: list[Run]) -> bytes:
         write_u16(out, ro + 4, cursor // 8)
         write_u16(out, ro + 6, ((run.width // 8) << 8) | run.height)
         cursor += n
-    out[atlas_off:atlas_off + atlas_size] = atlas
-    return bytes(out)
+    return bytes(out + atlas)
 
 
 def decode_poem_subasset(sub: bytes) -> list[bytearray]:
@@ -197,16 +209,22 @@ def main() -> None:
     readback = decode_poem_subasset(patched)
     if readback != canvas:
         raise ValueError("patched OPEN.DAT poem readback does not match rendered canvas")
-    data[off:off + size] = patched
+    if off + size != len(data):
+        raise SystemExit("poem sub-asset is no longer last in OPEN.DAT; cannot grow")
+    data[24:28] = len(patched).to_bytes(4, "big")  # TOC entry 2 size
+    data[off:] = patched
     out = Path(out_open)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(bytes(data))
-    assert len(out.read_bytes()) == len(Path(args.open).read_bytes()), "OPEN.DAT size must be preserved"
+    grown = len(data) - (off + size)
+    if grown:
+        print(f"OPEN.DAT grew by {grown} bytes (atlas extended for the PS1-parity font)")
     poem_render.save_indexed_preview(readback, palette, Path(out_preview))
     atlas_bytes = sum(run.width * run.height for run in runs)
+    atlas_total = BE.u32(patched, 0x20)
     print(
         f"patched OPEN.DAT -> {out}  runs={len(runs)} pitch={layout.pitch} "
-        f"atlas={atlas_bytes:#x}/0x12880 font={args.font_size} line_height={args.line_height}"
+        f"atlas={atlas_bytes:#x}/{atlas_total:#x} font={args.font_size} line_height={args.line_height}"
     )
     print(f"poem preview -> {out_preview}")
 
