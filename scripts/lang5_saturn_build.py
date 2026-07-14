@@ -249,13 +249,15 @@ def main() -> None:
             "--clear", clear_in,
             "--out-clear", saturn / f"CLEAR.{lang.suffix}.DAT")
 
-    # Translator credits on the title screen (TITLE1.DAT container), if extracted.
-    title_in = saturn / "TITLE1.DAT"
-    if title_in.exists():
-        run(scripts / "saturn_title_credits.py",
-            "--lang", args.lang, "--lang-root", args.lang_root,
-            "--title", title_in,
-            "--out-title", saturn / f"TITLE1.{lang.suffix}.DAT")
+    # Translator credits on both title screens (TITLE1/TITLE2), if extracted.
+    for title_name in ("TITLE1", "TITLE2"):
+        title_in = saturn / f"{title_name}.DAT"
+        if title_in.exists():
+            run(scripts / "saturn_title_credits.py",
+                "--lang", args.lang, "--lang-root", args.lang_root,
+                "--title", title_in,
+                "--out-title", saturn / f"{title_name}.{lang.suffix}.DAT",
+                "--out-preview", saturn / f"{title_name.lower()}_credits_{lang.suffix}_preview.png")
 
     # Prologue poem in the attract loop (OPEN.DAT sub-asset 2), if extracted.
     open_in = saturn / "OPEN.DAT"
@@ -281,9 +283,10 @@ def main() -> None:
         clear_out = saturn / f"CLEAR.{lang.suffix}.DAT"
         if clear_out.exists():
             remaster_cmd.extend(["--replace", f"/CLEAR.DAT={clear_out}"])
-        title_out = saturn / f"TITLE1.{lang.suffix}.DAT"
-        if title_out.exists():
-            remaster_cmd.extend(["--replace", f"/TITLE1.DAT={title_out}"])
+        for title_name in ("TITLE1", "TITLE2"):
+            title_out = saturn / f"{title_name}.{lang.suffix}.DAT"
+            if title_out.exists():
+                remaster_cmd.extend(["--replace", f"/{title_name}.DAT={title_out}"])
         open_out = saturn / f"OPEN.{lang.suffix}.DAT"
         if open_out.exists():
             remaster_cmd.extend(["--replace", f"/OPEN.DAT={open_out}"])

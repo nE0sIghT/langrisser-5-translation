@@ -734,10 +734,20 @@ Further findings (still not a working decoder):
 - The pixels are **8bpp CLUT-indexed**, not 16bpp: rendering the payload bytes
   as indices through a 256-entry BGR555 CLUT produces real structure, whereas a
   16bpp interpretation is noise.
-- The large images are **VDP2 8x8 cells**, not a single linear bitmap. A 40-cell
-  row (`320 px`) reconstructs the title-credit image used by
-  `saturn_title_credits.py`; staff/cast full-art screens may need different
-  cell-column counts or a nametable.
+- The large images are **VDP2 8x8 cells**, not a single linear bitmap — and the
+  title screens are **tilemap-composed**: a linear de-tile of the cell store
+  looks like garbage. The `TITLE1`/`TITLE2` descriptor (sub-asset 0) carries
+  two pattern-name tables over one shared cell store: `u16` dims at `+0x04`
+  (`80x28`, the 640x224 hi-res overlay: logo, "press start button", the (C)
+  line) and `+0x08` (`40x28`, the 320x224 background art), the first table's
+  offset at `+0x14`, the second directly after it, total payload size at
+  `+0x00`. Entries are BE `u16`: char index in bits 0..11, flip bits 14..15
+  (overlay), palette bit 12 (background). The overlay's uniform filler tile is
+  its transparent pixel value (255 on `TITLE1`, 254 on `TITLE2`).
+  `saturn_title_credits.py` stamps the credit lines into background cells that
+  are referenced exactly once (the store has only 2 free cells, so nothing can
+  be allocated); staff/cast full-art screens may need different cell-column
+  counts or their own nametable handling.
 - `CLEAR.DAT` (the SCENARIO CLEAR banner) is now decoded — see below.
 
 ### Multi-asset container format (the "one file" model, like PS1 `IMG.DAT`)
@@ -986,7 +996,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SCEN scenario/dialogue text | done | done — strict pipeline translates 125/131 blocks through `data/platforms/saturn/scen_mapping.json`; 6 service/name-pool chunks are explicitly preserved |
 | SYSTEM UI text | done | strict pipeline — 16/16 groups pack through `data/platforms/saturn/system_mapping.json`; Saturn-only RAM/save strings live in sparse language overlays |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
-| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines into the `TITLE1.DAT` VDP2-cell image (de-tile → draw → re-tile, fixed size); ink chosen by `nearest_palette_index` on the image's real CLUT; placement tunable via `--y0` |
+| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines (same `title_text_mask`/`title_alpha_table` pipeline) into the uniquely-referenced background-plane cells of both `TITLE1.DAT` and `TITLE2.DAT` tilemap screens, band y=193..216 under the (C) line; fixed size; emits a two-plane composite preview |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 and re-packs it fixed-size (RU: 40 runs, `0x12128/0x12880` atlas bytes) |
 | Now Loading plate | done | done — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
