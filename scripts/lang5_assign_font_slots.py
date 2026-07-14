@@ -284,7 +284,7 @@ def decode_run_key(words: list[int], tok2char: dict[int, str]) -> str:
 
 def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
                      other_files: list[Path], translated_keys: set[str],
-                     translated_chunks: set[int]) -> list[int]:
+                     translated_chunks: set[int], max_slot: int) -> list[int]:
     tok2char: dict[int, str] = {}
     rows = list(csv.DictReader(open(groups_report, encoding="utf-8")))
     for r in rows:
@@ -344,7 +344,7 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
         ch = r["char"]
         if len(ch) != 1 or not (0x4E00 <= ord(ch) <= 0x9FFF):
             continue
-        if idx in jp_visible or idx > 1820:
+        if idx in jp_visible or idx > max_slot:
             continue
         if idx in ui_used:
             tier2.append((ui_used[idx] + usage.get(idx, 0), idx))
@@ -373,6 +373,9 @@ def main() -> None:
                     help="Generated SYSTEM source dump used to resolve overlay ids.")
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
+    ap.add_argument("--max-slot", type=int, default=1820,
+                    help="Highest usable glyph slot on the target platform "
+                         "(PS1 plane: 1820; Saturn: 1819, see manifest).")
     args = ap.parse_args()
 
     lang = language_from_args(args)
@@ -388,6 +391,13 @@ def main() -> None:
     apath = assignments
     if apath.exists():
         rows = list(csv.DictReader(open(apath, encoding="utf-8")))
+        # An inherited assignment beyond the platform's font plane must move:
+        # its char re-enters the needs below and gets a new slot from the pool.
+        over = [r for r in rows if int(r["index_dec"]) > args.max_slot]
+        if over:
+            rows = [r for r in rows if int(r["index_dec"]) <= args.max_slot]
+            print(f"reassigning {len(over)} slots beyond {args.max_slot}: "
+                  + " ".join(f"{r['index_dec']}={r['char']!r}" for r in over))
         for r in rows:
             existing[r["char"]] = int(r["index_dec"])
 
@@ -457,10 +467,40 @@ def main() -> None:
         groups_report, Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",
                            "work/extracted/ALLUSW.BIN")],
-        translated_keys, translated_chunks,
+        translated_keys, translated_chunks, args.max_slot,
     ) if i not in taken]
     if len(pool) < len(must):
-        raise SystemExit(f"not enough sacrificial slots: need {len(must)}, have {len(pool)}")
+        # A platform slot cap (e.g. Saturn's 1819) can displace inherited
+        # must-units after the pool is exhausted. Menu labels must fit fixed
+        # widths, so a must-unit outranks a held optional pair: evict the
+        # least valuable optional assignments (dead units first, then rare
+        # spacing pairs, then rare dialog pairs) and reuse their slots — the
+        # glyphs there are already sacrificed, so eviction costs no new tile.
+        def evict_rank(unit: str) -> tuple[int, int] | None:
+            if len(unit) != 2 or unit in menu_pairs or "-" in unit:
+                return None  # singles, menu pairs and hyphen pairs stay
+            if unit in script_pairs or unit in continuity:
+                return (2, script_pairs[unit] + continuity[unit])
+            if unit in spacing_pairs:
+                return (1, spacing_pairs[unit])
+            return (0, 0)  # not needed by any current text
+        candidates = sorted(
+            (r for r in rows if evict_rank(r["char"]) is not None),
+            key=lambda r: evict_rank(r["char"]),
+        )
+        short = len(must) - len(pool)
+        if len(candidates) < short:
+            raise SystemExit(
+                f"not enough sacrificial slots: need {len(must)}, have "
+                f"{len(pool)}, and only {len(candidates)} evictable pairs")
+        evicted = candidates[:short]
+        evicted_set = {id(r) for r in evicted}
+        rows = [r for r in rows if id(r) not in evicted_set]
+        for r in evicted:
+            existing.pop(r["char"], None)
+            pool.insert(0, int(r["index_dec"]))
+        print(f"evicted {short} optional pairs for platform must-units: "
+              + " ".join(f"{r['index_dec']}={r['char']!r}" for r in evicted))
     dropped = max(0, len(must) + len(optional) - len(pool))
     need = (must + optional)[: len(pool)]
     if dropped:

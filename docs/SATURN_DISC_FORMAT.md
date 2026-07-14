@@ -41,6 +41,7 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_scen.py` | Shared SCEN.DAT read/rebuild model (catalog, block header, field_3c text pool) |
 | `scripts/lang5_saturn_apply.py` | Apply the universal `data/lang` translation to the Saturn SCEN text pool |
 | `scripts/lang5_saturn_system_pack.py` | Pack the SYSTEM UI translation into the Saturn `SYSTEM.DAT` groups |
+| `scripts/saturn_system_validate.py` | Validate the packed `SYSTEM.DAT` write contract (pointer directory, group spans) |
 | `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font + SYSTEM text + SCEN text + decoded graphics |
 | `scripts/saturn_poem_translate.py` | Re-pack the shared prologue-poem render into `OPEN.DAT[2]` VDP1 runs |
 | `scripts/saturn_now_loading.py` | Re-pack the Saturn compressed `SYSTEM.DAT` Now Loading plate |
@@ -257,6 +258,34 @@ Group table summary:
 | 15 | `0x16D3C` | `88` | `0x16DEC` | `0x178F4` |
 
 Total grouped strings found: `2639`.
+
+### Group pointer directory — `SYSTEM.DAT + 0x8000`
+
+The runtime does not scan for the groups: `SYSTEM.DAT` carries a pointer
+directory at file offset `0x8000..0x8084`, immediately before group 0. It holds
+one big-endian `u32` pair per group — the group's offset-table address and its
+string-base address — pre-relocated for the fixed load base `0x00200000`
+(`00208084 002082CC 00209004 0020905C …`), plus one extra pointer `0x00215938`
+at `+0x8070` (the non-group blob between groups 13 and 14). No group-table
+pointers exist in `PROG1.BIN`/`PROG2.BIN`/`A0LANG5.BIN`; the directory is the
+addressing mechanism.
+
+Two hard consequences for the build:
+
+- groups must stay at their original offsets (the fixed-size in-place repack
+  already guarantees this), and
+- **nothing may ever write into `0x8000..0x8084`**. The font glyph plane ends
+  right below it: slot `1819` ends exactly at `0x7FF8`, slot `1820` would cross
+  `0x8000` and overwrite the group 0/1 pointers. This is not hypothetical: an
+  early build assigned Cyrillic pairs up to slot 1820, clobbered the group 0
+  table/base pointers and half of the group 1 table pointer, and the game
+  booted to an empty start menu and hung after the intro quiz reading garbage
+  offset tables. Hence `max_font_slot: 1819` in
+  `data/platforms/saturn/manifest.json` and the final
+  `scripts/saturn_system_validate.py` write-contract check in
+  `lang5_saturn_build.py` (directory byte-identical, groups unmoved, every
+  write inside the glyph plane / group spans / Now Loading stream budget /
+  name-entry input table).
 
 Example decoded strings using the confirmed on-disc `u16` token order:
 
@@ -609,8 +638,15 @@ The in-game text font is owned by `SYSTEM.DAT`, in the same format as PS1
 | --- | --- |
 | Cell | `12x12`, `1bpp`, `18` bytes/glyph, `12` bits/row MSB-first, rows packed continuously |
 | Glyph address | `index * 18` from offset `0` |
-| Glyph slots | `0..1820` (same as PS1) |
+| Glyph slots | `0..1817` hold glyphs; `1818..1820` are zero padding; writable slots are `0..1819` (slot `1820` crosses into the `0x8000` pointer directory — PS1 allows `0..1820`) |
 | Byte order | natural (glyph bytes are **not** byte-swapped, unlike the `u16` text tokens) |
+
+The plane's tail is also *shifted* relative to PS1: the last Saturn glyphs
+`1810..1817` equal PS1 `1814..1820` (minus one insertion around Saturn `1814`),
+so near the end the PS1-derived slot→kanji map is off by a few slots. The
+sacrificial-slot usage analysis is PS1-based and therefore approximate on
+Saturn; a sacrificed slot can cost a *different* kanji than the CSV's
+`replaced_char` suggests.
 
 Both the SYSTEM UI text and the SCEN dialogue index into this one plane: SCEN
 token `0x0094` renders シ from the `SYSTEM.DAT` font, matching `シグマ` in the
@@ -631,9 +667,10 @@ Kana, punctuation and the early shared range (slots `0x00..0xC9` and the
 decode correctly. The large `0x0185+` kanji region is reordered/replaced.
 
 Implication for tooling: the glyph format and slot layout match PS1 exactly, so
-`lang5_build_font.py`'s slot-rewrite approach (draw the target alphabet into
-slots `0..1820`) is directly portable to Saturn `SYSTEM.DAT`; only the file
-offset of the glyph plane and the surrounding container differ.
+`lang5_build_font.py`'s slot-rewrite approach is directly portable to Saturn
+`SYSTEM.DAT` — but capped at slot `1819` (`--max-slot`, from the platform
+manifest): slot `1820` would overwrite the group pointer directory at `0x8000`
+(see above).
 
 Reproducible command:
 

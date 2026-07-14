@@ -131,7 +131,8 @@ def main() -> None:
         "--menu-map", resolved_system_strings,
         "--system-source", system_source,
         "--scen", args.ps1_scen,
-        "--scen2", args.ps1_scen2)
+        "--scen2", args.ps1_scen2,
+        "--max-slot", str(platform.max_font_slot))
 
     font_cmd = [
         scripts / "lang5_build_font.py",
@@ -142,6 +143,7 @@ def main() -> None:
         "--out-system-bin", system_font,
         "--out-tbl", tbl,
         "--font-size", str(lang.font_size),
+        "--max-slot", str(platform.max_font_slot),
     ]
     if lang.font:
         font_cmd.extend(["--font", lang.font])
@@ -204,6 +206,13 @@ def main() -> None:
             "--system", system_out,
             "--out-system", system_out,
             "--out-preview", saturn / f"now_loading_{lang.suffix}_preview.png")
+    # The runtime addresses SYSTEM text through the pointer directory at
+    # +0x8000; validate the final file against the write contract so no
+    # stage can clobber it again (see docs/SATURN_DISC_FORMAT.md).
+    run(scripts / "saturn_system_validate.py",
+        "--orig", system_in,
+        "--system", system_out,
+        "--tbl", tbl)
 
     scen_out = saturn / f"SCEN.{lang.suffix}.DAT"
     scen_cmd: list[object] = [

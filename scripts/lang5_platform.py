@@ -46,6 +46,17 @@ class PlatformPack:
     def base_platform(self) -> str:
         return str(self._data.get("base_platform") or self.code)
 
+    @property
+    def max_font_slot(self) -> int:
+        """Highest glyph slot the platform's SYSTEM font plane can hold.
+
+        Defaults to the PS1 bound (1820). Saturn caps at 1819: slot 1820's
+        bytes cross file offset 0x8000, where SYSTEM.DAT keeps the group
+        pointer directory (see docs/SATURN_DISC_FORMAT.md).
+        """
+        value = self._data.get("max_font_slot")
+        return int(value) if value is not None else 1820
+
 
 def load_platform(platform: str, platform_root: str | Path = DEFAULT_PLATFORM_ROOT) -> PlatformPack:
     root = Path(platform_root)

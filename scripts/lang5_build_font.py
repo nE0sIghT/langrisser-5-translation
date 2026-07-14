@@ -348,6 +348,10 @@ def main() -> None:
     ap.add_argument("--font-size", type=int, default=None)
     ap.add_argument("--caps-font", default=None)
     ap.add_argument("--caps-font-size", type=int, default=None)
+    ap.add_argument("--max-slot", type=int, default=1820,
+                    help="Highest writable glyph slot (PS1 plane: 1820; "
+                         "Saturn: 1819 — slot 1820 would overwrite the "
+                         "group pointer directory at 0x8000).")
     args = ap.parse_args()
 
     lang = language_from_args(args)
@@ -364,10 +368,10 @@ def main() -> None:
     assignments: dict[int, str] = {}
     for row in csv.DictReader(open(assignments_path, encoding="utf-8")):
         idx = int(row["index_dec"])
-        if idx > 1820:
+        if idx > args.max_slot:
             raise SystemExit(
-                f"slot {idx} is beyond the font plane (glyphs end at 1820; "
-                "tiles 1821+ hold menu data)"
+                f"slot {idx} is beyond the font plane (last writable slot is "
+                f"{args.max_slot}; later bytes hold platform data)"
             )
         assignments[idx] = row["char"]
 
