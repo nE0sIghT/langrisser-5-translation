@@ -177,6 +177,18 @@ def main() -> None:
         "--tbl", tbl,
         "--scen", args.ps1_scen,
         "--scen2", args.ps1_scen2)
+    # Characters encoded through native PS1-map tokens can hit Saturn slots
+    # that hold a different glyph (reordered kanji region); copy the expected
+    # PS1 bitmaps over for every such character the content actually uses.
+    run(scripts / "saturn_fix_native_glyphs.py",
+        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--system-in", system_font,
+        "--ps1-system", args.ps1_system,
+        "--tbl", tbl,
+        "--assignments", build_assignments,
+        "--translation-root", build_translation_root,
+        "--strings", reflowed_system_strings,
+        "--strings", lang.root / "platforms" / platform.code / "system_strings.json")
 
     system_out = saturn / f"SYSTEM.{lang.suffix}.DAT"
     system_cmd: list[object] = [

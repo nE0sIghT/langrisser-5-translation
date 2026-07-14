@@ -284,6 +284,29 @@
           "count": 44
         }
       ]
+    },
+    "14": {
+      "ranges": [
+        {
+          "saturn": 0,
+          "ps1": 0,
+          "count": 140
+        }
+      ],
+      "entries": [
+        {
+          "saturn": 30,
+          "platform": "table:15A3C:30"
+        },
+        {
+          "saturn": 41,
+          "platform": "table:15A3C:41"
+        },
+        {
+          "saturn": 42,
+          "platform": "table:15A3C:42"
+        }
+      ]
     }
   }
 }

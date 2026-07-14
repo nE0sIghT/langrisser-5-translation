@@ -1,0 +1,7 @@
+# Saturn-only records for the battle tutorial (chunk 037): pad buttons differ.
+# Saturn originals: entry 9 = Aボタン (help), 16 = Cボタン (confirm),
+# 21 = Yボタン (HP display; PS1 used SELECT), 22 = Bボタン (cancel).
+9	You will now experience a<$FFFC>virtual battle. From here on, follow my<$FFFC>instructions.<$FFFD>While choosing commands, press the <$FFF4>A<$FFFC>button<$FFF3> to display help.<$FFFE>
+16	First, start with <$FFF4>Move<$FFF3>.<$FFFD>Press the C button on the unit to open<$FFFC>the <$FFF4>Main Menu<$FFF3>. Choose Move there.<$FFFD>When you choose Move, the <$FFF4>movement range<$FFF3><$FFFC>appears. You may move anywhere inside it.<$FFFD>First, move toward the rock to the<$FFFC>northeast.<$FFFE>
+21	When there are many units, HP<$FFFC>becomes hard to track.<$FFFD>In that case, press the <$FFF4>Y button<$FFF3><$FFFC>while no command is open. <$FFF4>HP values will<$FFFC>be displayed<$FFF3>.<$FFFE>
+22	Here is one more note about<$FFFC>magic.<$FFFD>When a spell finishes chanting, press the<$FFFC><$FFF4>B button<$FFF3> to open a menu. The menu<$FFFC>contains <$FFF4>Wait<$FFF3> and <$FFF4>Cancel<$FFF3>.<$FFFD><$FFF4>Wait<$FFF3> delays the spell by 15C, but<$FFFC>mercenaries can still act. <$FFF4>Cancel<$FFF3> stops<$FFFC>the spell.<$FFFD>After a spell activates, <$FFF4>the caster<$FFFC>cannot act for 25C<$FFF3>.<$FFFE>

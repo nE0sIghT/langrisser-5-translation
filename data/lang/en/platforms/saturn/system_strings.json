@@ -46,5 +46,8 @@
   "table:09004:8": "to open the reset screen.",
   "table:09004:9": "Saving new data needs",
   "table:0A854:3": "Pike",
-  "table:0A854:30": "M.Tech"
+  "table:0A854:30": "M.Tech",
+  "table:15A3C:30": "While a message shows, press the B",
+  "table:15A3C:41": "message voices play. When voice is ON,",
+  "table:15A3C:42": "press B during a line to stop just"
 }
