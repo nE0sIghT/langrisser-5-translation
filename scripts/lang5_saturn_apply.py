@@ -25,7 +25,8 @@ from lang5_platform import add_platform_args, platform_from_args
 from lang5_project import add_language_args, language_from_args
 from lang5_scen import Codec, find_text_block, load_charmap_tbl, read_chunk_spans, words_from_bytes
 from lang5_sceninsert import parse_dump_file
-from saturn_scen import local_index_entries, parse_catalog, repack_scen
+from saturn_scen import (local_index_entries, local_index_layout, parse_catalog,
+                         repack_scen)
 
 
 def _speaker(tokens: list[int]) -> int | None:
@@ -237,11 +238,12 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
                mapping: dict | None = None,
                lang_root: Path | None = None,
                platform_code: str = "saturn",
-               strict: bool = True) -> tuple[bytes, dict]:
+               strict: bool = True,
+               no_grow: bool = False) -> tuple[bytes, dict]:
     blocks = parse_catalog(data)
     stats = {"blocks": len(blocks), "applied": 0, "skipped_misaligned": 0,
              "entries_written": 0, "missing_dump": 0, "signature_aligned": 0,
-             "mapped": 0, "empty_skipped": 0}
+             "mapped": 0, "empty_skipped": 0, "skipped_over_budget": 0}
     mapping = mapping or {"empty_chunks": [], "chunks": {}}
     empty_chunks = {int(x) for x in mapping.get("empty_chunks", [])}
     chunk_specs = {int(k): v for k, v in (mapping.get("chunks") or {}).items()}
@@ -285,6 +287,12 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
                 if strict:
                     fatal.append(f"chunk {chunk_index:03d}: no proven Saturn<->PS1 mapping")
                 continue
+        if no_grow:
+            _, total_size, _ = local_index_layout(data, start, used)
+            packed = 4 + len(new_entries) * 2 + sum(len(w) for w in new_entries) * 2
+            if packed > total_size:
+                stats["skipped_over_budget"] += 1
+                continue
         block_entries[chunk_index] = new_entries
         stats["applied"] += 1
         stats["entries_written"] += len(new_entries)
@@ -313,6 +321,9 @@ def main() -> None:
                     help="Platform SCEN mapping JSON (default: platform manifest value)")
     ap.add_argument("--allow-unmapped", action="store_true",
                     help="Diagnostic mode: preserve chunks whose mapping is not proven.")
+    ap.add_argument("--no-grow", action="store_true",
+                    help="Diagnostic mode: keep over-budget blocks original so no "
+                         "block grows or moves (isolates growth-related bugs).")
     args = ap.parse_args()
 
     lang = language_from_args(args)
@@ -334,6 +345,7 @@ def main() -> None:
         lang_root=lang.root,
         platform_code=platform.code,
         strict=not args.allow_unmapped,
+        no_grow=args.no_grow,
     )
 
     out_path = Path(args.out_scen)
@@ -346,7 +358,8 @@ def main() -> None:
         f"mapped={stats['mapped']} "
         f"empty-skipped={stats['empty_skipped']} "
         f"skipped(misaligned)={stats['skipped_misaligned']} "
-        f"missing-dump={stats['missing_dump']}; "
+        f"missing-dump={stats['missing_dump']} "
+        f"skipped-over-budget={stats['skipped_over_budget']}; "
         f"file grew {stats['grown_bytes']} bytes -> {out_path}"
     )
 
