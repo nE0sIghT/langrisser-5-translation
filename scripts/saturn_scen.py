@@ -174,11 +174,16 @@ def rebuild_block_text(block: bytes, entries: list[list[int]], order: ByteOrder 
     """Return `block` with its field_3c text table set to `entries`.
 
     If the rebuilt table fits the original `total_size`, it is spliced in place
-    and the block length is unchanged. Otherwise the enlarged table is appended
-    at the block end and the `resource_table.field_3c` pointer is repointed to
-    it; every existing byte (all other resources) is preserved and only the
-    4-byte field_3c pointer changes, so the block grows by the enlarged table.
-    The block is taken and returned as standalone bytes (offset 0).
+    and the block length is unchanged. Otherwise the table is *enlarged in
+    place* and everything after it shifts back by the (4-aligned) growth: the
+    runtime loader (PROG1 `0x6079172`) resolves the table at
+    `rt + u32(rt+0x3C)` and then chains every following section *relative to
+    the table end* (`text + total_size`, plus u32 links stored in the data), so
+    the table must stay where field_3c points and the shifted tail keeps every
+    chained reference intact. Moving the table (the old approach of appending
+    it at the block end) breaks that chain — the engine then reads garbage
+    section pointers past the block. The block is taken and returned as
+    standalone bytes (offset 0).
     """
     used = len(block)
     layout = local_index_layout(block, 0, used, order)
@@ -190,17 +195,9 @@ def rebuild_block_text(block: bytes, entries: list[list[int]], order: ByteOrder 
     packed = 4 + len(entries) * 2 + sum(len(words) for words in entries) * 2
     if packed > 0xFFFF:
         raise TableTooLarge(f"table {packed} exceeds the u16 offset range 0xFFFF")
-    if packed <= total_size:
-        region = build_local_index_table(entries, total_size, order)
-        return block[:base] + region + block[base + total_size:]
-    header = parse_block_header(block, 0, used, order)
-    if header is None:
-        raise ValueError("block header did not parse")
-    field_3c_ptr = header.resource_table_offset + 0x3C
-    out = bytearray(block)
-    out[field_3c_ptr:field_3c_ptr + 4] = order.pack_u32(used - header.resource_table_offset)
-    out += build_local_index_table(entries, packed, order)
-    return bytes(out)
+    new_total = total_size if packed <= total_size else (packed + 3) & ~3
+    region = build_local_index_table(entries, new_total, order)
+    return block[:base] + region + block[base + total_size:]
 
 
 def repack_scen(data: bytes, block_entries: dict[int, list[list[int]]],

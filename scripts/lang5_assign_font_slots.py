@@ -284,7 +284,8 @@ def decode_run_key(words: list[int], tok2char: dict[int, str]) -> str:
 
 def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
                      other_files: list[Path], translated_keys: set[str],
-                     translated_chunks: set[int], max_slot: int) -> list[int]:
+                     translated_chunks: set[int], max_slot: int,
+                     excluded_slots: set[int] = frozenset()) -> list[int]:
     tok2char: dict[int, str] = {}
     rows = list(csv.DictReader(open(groups_report, encoding="utf-8")))
     for r in rows:
@@ -344,7 +345,7 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
         ch = r["char"]
         if len(ch) != 1 or not (0x4E00 <= ord(ch) <= 0x9FFF):
             continue
-        if idx in jp_visible or idx > max_slot:
+        if idx in jp_visible or idx > max_slot or idx in excluded_slots:
             continue
         if idx in ui_used:
             tier2.append((ui_used[idx] + usage.get(idx, 0), idx))
@@ -376,7 +377,16 @@ def main() -> None:
     ap.add_argument("--max-slot", type=int, default=1820,
                     help="Highest usable glyph slot on the target platform "
                          "(PS1 plane: 1820; Saturn: 1819, see manifest).")
+    ap.add_argument("--exclude-slots", default=None,
+                    help="Native-glyph plan JSON (saturn_fix_native_glyphs plan): "
+                         "its saturn_slot values stay native and are never "
+                         "assigned or kept as Cyrillic tiles.")
     args = ap.parse_args()
+
+    excluded: set[int] = set()
+    if args.exclude_slots:
+        plan = json.loads(Path(args.exclude_slots).read_text(encoding="utf-8"))
+        excluded = {p["saturn_slot"] for p in plan if p["saturn_slot"] is not None}
 
     lang = language_from_args(args)
     groups_report = Path(args.groups_report) if args.groups_report else COMMON_FONT_MAP
@@ -391,12 +401,16 @@ def main() -> None:
     apath = assignments
     if apath.exists():
         rows = list(csv.DictReader(open(apath, encoding="utf-8")))
-        # An inherited assignment beyond the platform's font plane must move:
-        # its char re-enters the needs below and gets a new slot from the pool.
-        over = [r for r in rows if int(r["index_dec"]) > args.max_slot]
+        # An inherited assignment beyond the platform's font plane, or on a
+        # slot the platform needs for a native glyph, must move: its char
+        # re-enters the needs below and gets a new slot from the pool.
+        def banned(r: dict) -> bool:
+            slot = int(r["index_dec"])
+            return slot > args.max_slot or slot in excluded
+        over = [r for r in rows if banned(r)]
         if over:
-            rows = [r for r in rows if int(r["index_dec"]) <= args.max_slot]
-            print(f"reassigning {len(over)} slots beyond {args.max_slot}: "
+            rows = [r for r in rows if not banned(r)]
+            print(f"reassigning {len(over)} banned slots: "
                   + " ".join(f"{r['index_dec']}={r['char']!r}" for r in over))
         for r in rows:
             existing[r["char"]] = int(r["index_dec"])
@@ -467,7 +481,7 @@ def main() -> None:
         groups_report, Path(args.scen), Path(args.scen2),
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",
                            "work/extracted/ALLUSW.BIN")],
-        translated_keys, translated_chunks, args.max_slot,
+        translated_keys, translated_chunks, args.max_slot, excluded,
     ) if i not in taken]
     if len(pool) < len(must):
         # A platform slot cap (e.g. Saturn's 1819) can displace inherited

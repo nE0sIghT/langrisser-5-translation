@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
-"""Stamp the translator credit lines onto the Saturn title screen (TITLE1.DAT).
+"""Stamp the translator credit lines onto the Saturn title screens.
 
 The visible title is not a linear bitmap: the container descriptor carries two
 VDP2 tilemaps over one shared 8x8-cell store — an 80x28 hi-res overlay (logo,
-"press start button", the (C) line; pixel value 255 is its transparent
-background) and a 40x28 background plane (the stone art). A linear de-tile of
-the cell store therefore looks like garbage; earlier credits stamped that way
-landed on random cells.
+"press start button", the (C) line; its transparent pixel value is the uniform
+filler tile: 255 on TITLE1, 254 on TITLE2) and a 40x28 background plane. The
+background plane also serves as the menu backdrop, so the credits must go onto
+the *overlay* — the layer that is only ever the title text.
 
-PS1 draws its credits into the title art, so the Saturn analogue is the stone
-background plane. Its cells in the band under the (C) line are referenced
-exactly once (verified at run time), so the credit pixels are drawn straight
-into those cells in place: no new cells are needed (the store has only two
-free cells) and the file size is preserved.
+The credit lines are drawn with a transparent background into the overlay band
+under the (C) line (y=193..223). The overlay's bottom rows reference the
+shared filler tile, so each touched position gets a *new* cell: the cell store
+is the container's last sub-asset, and it grows by the appended cells (TOC
+size and the pattern-name entries are updated; the char-index field is 12
+bits, so the grown store stays addressable). Non-filler cells referenced
+exactly once are edited in place; a shared non-filler cell is a hard error.
 
 Text rendering reuses the PS1 title-credit pipeline unchanged
-(`lang5_imgdat.title_text_mask` / `title_alpha_table` / `paste_alpha_mask` and
-the same credit lines), so the three lines carry the same anti-aliased look;
-the vertical specs are compressed into the 24-pixel band y=192..216 (the
-Saturn art is 224 lines tall vs 240 on PS1). The emitted preview composites
-both planes the way the console does, for review.
+(`lang5_imgdat.title_text_mask` / `title_alpha_table` / `paste_alpha_mask`
+with the PS1 line specs); masks are doubled horizontally because the overlay
+is a 640-wide hi-res plane, so the on-screen proportions match PS1. The
+emitted preview composites both planes for review.
 """
 
 from __future__ import annotations
@@ -55,12 +56,12 @@ class LineSpec:
     y: int
 
 
-# The PS1 specs squeezed into the free stone band under the overlay's (C)
-# line: rows 24..26 of the background plane, y=192..216.
+# The PS1 line specs (fonts/heights) shifted into the overlay band under the
+# (C) line: the Saturn screen is 224 lines tall vs 240 on PS1.
 SATURN_CREDIT_SPECS = [
-    LineSpec(font_size=16, stroke_width=0.14, raw_height=7, y=193),
-    LineSpec(font_size=14, stroke_width=0.12, raw_height=7, y=201),
-    LineSpec(font_size=14, stroke_width=0.12, raw_height=7, y=209),
+    LineSpec(font_size=20, stroke_width=0.14, raw_height=11, y=193),
+    LineSpec(font_size=17, stroke_width=0.12, raw_height=9, y=205),
+    LineSpec(font_size=17, stroke_width=0.12, raw_height=9, y=214),
 ]
 
 
@@ -68,15 +69,16 @@ SATURN_CREDIT_SPECS = [
 class Screen:
     """The two tilemaps and shared cell store behind the title screen."""
 
-    desc: bytes
+    desc: bytearray
     cells: bytearray
     palette: list[tuple[int, int, int]]
+    nt1_off: int
     overlay: list[list[int]]      # cols1 x rows1 pattern-name entries
     background: list[list[int]]   # cols2 x rows2
 
 
 def parse_screen(cont: sc.Container) -> Screen:
-    desc = cont.sub(cont.entries[0])
+    desc = bytearray(cont.sub(cont.entries[0]))
     cells = bytearray(cont.sub(cont.entries[1]))
     cols1, rows1 = BE.u16(desc, 0x04), BE.u16(desc, 0x06)
     cols2, rows2 = BE.u16(desc, 0x08), BE.u16(desc, 0x0A)
@@ -91,7 +93,7 @@ def parse_screen(cont: sc.Container) -> Screen:
     clut = sc.image_clut_offset(desc)
     if clut is None:
         raise SystemExit("no image CLUT in the TITLE descriptor")
-    palette = sc.read_clut(desc, clut)
+    palette = sc.read_clut(bytes(desc), clut)
 
     def table(off: int, cols: int, rows: int) -> list[list[int]]:
         return [
@@ -99,7 +101,7 @@ def parse_screen(cont: sc.Container) -> Screen:
             for cy in range(rows)
         ]
 
-    return Screen(desc, cells, palette,
+    return Screen(desc, cells, palette, nt1,
                   table(nt1, cols1, rows1), table(nt2, cols2, rows2))
 
 
@@ -124,72 +126,6 @@ def compose_plane(screen: Screen, plane: list[list[int]]) -> list[bytearray]:
     return rows
 
 
-def credit_lines(args: argparse.Namespace) -> list[str]:
-    if args.line:
-        return list(args.line)
-    version = args.version or "1"
-    return imd.default_title_credit_lines(version, imd.git_short_hash())
-
-
-def fitted_mask(line: str, font_path: str, spec: LineSpec, width: int) -> Image.Image:
-    for size in range(spec.font_size, 7, -1):
-        mask = imd.title_text_mask(line, font_path, size, spec.stroke_width)
-        raw = mask.resize((mask.width, spec.raw_height), Image.Resampling.LANCZOS)
-        if raw.width <= width:
-            return raw
-    raise SystemExit(f"credit line does not fit {width}px: {line!r}")
-
-
-def dominant_index(rows: list[bytearray], y0: int, y1: int) -> int:
-    counts: dict[int, int] = {}
-    for y in range(y0, y1):
-        for value in rows[y]:
-            counts[value] = counts.get(value, 0) + 1
-    return max(counts, key=counts.get)
-
-
-def stamp_background(screen: Screen, lines: list[str], font_path: str) -> None:
-    plane = screen.background
-    width, height = len(plane[0]) * 8, len(plane) * 8
-    rows = compose_plane(screen, plane)
-    original = [bytes(row) for row in rows]
-
-    band = (SATURN_CREDIT_SPECS[0].y,
-            SATURN_CREDIT_SPECS[-1].y + SATURN_CREDIT_SPECS[-1].raw_height)
-    shim = SimpleNamespace(width=width, height=height,
-                           background_index=dominant_index(rows, *band))
-    alpha_table = imd.title_alpha_table(screen.palette, shim,
-                                        imd.TITLE_CREDIT_TARGET_RGB)
-    for spec, line in zip(SATURN_CREDIT_SPECS, lines):
-        raw = fitted_mask(line, font_path, spec, width)
-        imd.paste_alpha_mask(rows, shim, raw,
-                             (width - raw.width) // 2, spec.y, alpha_table)
-
-    # Write the changed pixels back into the cells they came from. Every
-    # touched cell must be referenced exactly once across both tilemaps,
-    # otherwise the edit would also appear somewhere else on screen.
-    usage = cell_usage(screen)
-    for cy in range(len(plane)):
-        for cx in range(len(plane[0])):
-            changed = any(
-                rows[cy * 8 + py][cx * 8:cx * 8 + 8]
-                != original[cy * 8 + py][cx * 8:cx * 8 + 8]
-                for py in range(8)
-            )
-            if not changed:
-                continue
-            idx = plane[cy][cx] & CHAR_MASK
-            if usage[idx] != 1:
-                raise SystemExit(
-                    f"credit pixels hit shared cell {idx:#x} at "
-                    f"({cx},{cy}); move the lines to uniquely-mapped rows"
-                )
-            for py in range(8):
-                screen.cells[idx * CELL_BYTES + py * 8:
-                             idx * CELL_BYTES + py * 8 + 8] = \
-                    rows[cy * 8 + py][cx * 8:cx * 8 + 8]
-
-
 def overlay_transparent_value(screen: Screen) -> int:
     """The overlay's transparent pixel value = its uniform filler tile.
 
@@ -206,6 +142,75 @@ def overlay_transparent_value(screen: Screen) -> int:
     if len(values) != 1:
         raise SystemExit("overlay filler tile is not uniform; cannot infer transparency")
     return tile[0]
+
+
+def credit_lines(args: argparse.Namespace) -> list[str]:
+    if args.line:
+        return list(args.line)
+    version = args.version or "1"
+    return imd.default_title_credit_lines(version, imd.git_short_hash())
+
+
+def hires_mask(line: str, font_path: str, spec: LineSpec, width: int) -> Image.Image:
+    """PS1-spec mask doubled horizontally for the 640-wide hi-res plane."""
+    for size in range(spec.font_size, 9, -1):
+        mask = imd.title_text_mask(line, font_path, size, spec.stroke_width)
+        raw = mask.resize((mask.width * 2, spec.raw_height),
+                          Image.Resampling.LANCZOS)
+        if raw.width <= width:
+            return raw
+    raise SystemExit(f"credit line does not fit {width}px: {line!r}")
+
+
+def stamp_overlay(screen: Screen, lines: list[str], font_path: str) -> None:
+    plane = screen.overlay
+    width, height = len(plane[0]) * 8, len(plane) * 8
+    transparent = overlay_transparent_value(screen)
+    rows = compose_plane(screen, plane)
+    original = [bytes(row) for row in rows]
+
+    shim = SimpleNamespace(width=width, height=height,
+                           background_index=transparent)
+    alpha_table = imd.title_alpha_table(screen.palette, shim,
+                                        imd.TITLE_CREDIT_TARGET_RGB)
+    for spec, line in zip(SATURN_CREDIT_SPECS, lines):
+        raw = hires_mask(line, font_path, spec, width)
+        imd.paste_alpha_mask(rows, shim, raw,
+                             (width - raw.width) // 2, spec.y, alpha_table)
+
+    usage = cell_usage(screen)
+    filler_tile = bytes([transparent]) * CELL_BYTES
+    for cy in range(len(plane)):
+        for cx in range(len(plane[0])):
+            new_tile = b"".join(
+                bytes(rows[cy * 8 + py][cx * 8:cx * 8 + 8]) for py in range(8)
+            )
+            old_tile = b"".join(
+                original[cy * 8 + py][cx * 8:cx * 8 + 8] for py in range(8)
+            )
+            if new_tile == old_tile:
+                continue
+            entry = plane[cy][cx]
+            idx = entry & CHAR_MASK
+            if usage[idx] == 1:
+                screen.cells[idx * CELL_BYTES:(idx + 1) * CELL_BYTES] = new_tile
+                continue
+            if old_tile != filler_tile:
+                raise SystemExit(
+                    f"credit pixels hit shared non-filler cell {idx:#x} at "
+                    f"({cx},{cy}); move the lines"
+                )
+            new_idx = len(screen.cells) // CELL_BYTES
+            if new_idx > CHAR_MASK:
+                raise SystemExit("cell store full: char index field is 12 bits")
+            screen.cells += new_tile
+            plane[cy][cx] = (entry & ~CHAR_MASK) | new_idx
+    # write the updated overlay entries back into the descriptor
+    cols = len(plane[0])
+    for cy, entries in enumerate(plane):
+        for cx, entry in enumerate(entries):
+            off = screen.nt1_off + (cy * cols + cx) * 2
+            screen.desc[off:off + 2] = BE.pack_u16(entry)
 
 
 def screen_preview(screen: Screen) -> Image.Image:
@@ -242,26 +247,32 @@ def main() -> None:
     # language-independent, keeping the Saturn flow parallel to PS1.
     language_from_args(args)
 
-    data = bytearray(Path(args.title).read_bytes())
+    src = Path(args.title).read_bytes()
     cont = sc.load(args.title)
+    desc_entry, cells_entry = cont.entries[0], cont.entries[1]
+    if cells_entry.end != len(src):
+        raise SystemExit("cell store is not the last sub-asset; cannot grow")
     screen = parse_screen(cont)
     font_path = imd.resolve_title_font(args.font)
     lines = credit_lines(args)
     if len(lines) != len(SATURN_CREDIT_SPECS):
         raise SystemExit(f"expected {len(SATURN_CREDIT_SPECS)} credit lines, got {len(lines)}")
-    stamp_background(screen, lines, font_path)
+    grown_from = len(screen.cells)
+    stamp_overlay(screen, lines, font_path)
 
-    cells_entry = cont.entries[1]
-    assert len(screen.cells) == cells_entry.size, "cell store size must be preserved"
-    data[cells_entry.offset:cells_entry.end] = screen.cells
+    data = bytearray(src)
+    assert len(screen.desc) == desc_entry.size, "descriptor size must be preserved"
+    data[desc_entry.offset:desc_entry.end] = screen.desc
+    data[16:20] = BE.pack_u32(len(screen.cells))   # TOC entry 1 size
+    data[cells_entry.offset:] = screen.cells
     out = Path(args.out_title)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(bytes(data))
-    assert len(out.read_bytes()) == len(Path(args.title).read_bytes()), \
-        "TITLE1 size must be preserved"
 
     screen_preview(screen).save(args.out_preview)
-    print(f"patched title -> {out}  (3 credit lines into the background plane)")
+    added = (len(screen.cells) - grown_from) // CELL_BYTES
+    print(f"patched title -> {out}  (3 credit lines on the overlay plane, "
+          f"+{added} cells, file {len(src)} -> {len(data)})")
     print(f"screen preview -> {args.out_preview}")
 
 

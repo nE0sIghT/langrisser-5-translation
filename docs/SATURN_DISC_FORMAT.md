@@ -996,7 +996,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | SCEN scenario/dialogue text | done | done — strict pipeline translates 125/131 blocks through `data/platforms/saturn/scen_mapping.json`; 6 service/name-pool chunks are explicitly preserved |
 | SYSTEM UI text | done | strict pipeline — 16/16 groups pack through `data/platforms/saturn/system_mapping.json`; Saturn-only RAM/save strings live in sparse language overlays |
 | Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
-| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines (same `title_text_mask`/`title_alpha_table` pipeline) into the uniquely-referenced background-plane cells of both `TITLE1.DAT` and `TITLE2.DAT` tilemap screens, band y=193..216 under the (C) line; fixed size; emits a two-plane composite preview |
+| Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines (same `title_text_mask`/`title_alpha_table` pipeline, masks doubled for the 640-wide hi-res plane) onto the *overlay* tilemap of `TITLE1.DAT`/`TITLE2.DAT` with a transparent background (the 40x28 background plane doubles as the menu backdrop and must stay clean); each filler position gets a new cell appended to the cell store (last sub-asset, TOC size updated) |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 at the PS1 metrics (font 12 / line height 18) and grows the atlas to fit (the poem is the last sub-asset: header `+0x00`/`+0x20` and the TOC size are updated; RU: 38 runs, `0x19128` atlas bytes) |
 | Now Loading plate | done | done — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate |
 | SCENARIO CLEAR banner | done | done — `CLEAR.DAT` 224x80 8bpp, translated via the shared banner redraw |
@@ -1041,16 +1041,28 @@ Constraints for insertion:
 - If the content fits the original `total_size`, nothing else in the block moves.
 
 Growth (translated text longer than Japanese — the common case for Russian):
-because the text table sits among other resources, it cannot grow in place, so
-`saturn_scen.rebuild_block_text` **appends** the enlarged table at the block end
-and repoints the `resource_table.field_3c` pointer to it (only that 4-byte
-pointer changes; every other resource is byte-preserved). The block then grows,
-and `saturn_scen.repack_scen` re-lays out all blocks at 0x800-sector alignment
-and rewrites the top-level catalog (`count`, `start_sector`, `used_size`). This
-is validated: appending a grown table reads the translated entries back
-correctly with all other bytes intact, an empty repack reproduces the file
-byte-for-byte, and applying the Russian pack grows the file and still re-parses
-across all 131 blocks.
+the table is **enlarged in place and everything after it shifts back** by the
+4-aligned growth (`saturn_scen.rebuild_block_text`); `saturn_scen.repack_scen`
+then re-lays the blocks at 0x800-sector alignment and rewrites the top-level
+catalog. In-place growth is dictated by the runtime block loader (PROG1
+`0x6079172`, disassembled from the mednafen dumps):
+
+```text
+rt   = block + u32(block+0x00)         ; resource table
+                u16(rt+0x3A) -> global ; text base index
+text = rt + u32(rt+0x3C)               ; the field_3c table (u32 read)
+A    = text + u32(text)                ; == text + total_size: NEXT section!
+B    = A + u32(A) ...                  ; further sections chain on relative
+                                       ; u32 links stored in the data
+```
+
+Every section after the text table is addressed **relative to the table end**,
+so shifting the tail keeps the whole chain intact, while *moving* the table
+does not: the first Saturn build appended grown tables at the block end and
+repointed field_3c, which left `text + total_size` pointing at garbage past
+the block — in game the first battle lost its unit icons and hung, and the
+attract demos froze near the menu. The in-place growth mostly fits inside the
+0x800 sector slack, so the Russian file grows by only a few KB.
 
 ### Universality
 

@@ -120,6 +120,21 @@ def main() -> None:
         resolve_args.append("--require-complete")
     run(*resolve_args)
 
+    # Characters encoded through native PS1-map tokens can hit Saturn slots
+    # that hold a different glyph (reordered kanji region). Plan the remap to
+    # the Saturn slots that already hold the right glyphs, so the assigner
+    # never sacrifices those slots; the .tbl is remapped after the font build.
+    glyph_plan = Path(f"work/build/saturn/native_glyphs.{lang.suffix}.plan.json")
+    run(scripts / "saturn_fix_native_glyphs.py",
+        "--lang", args.lang, "--lang-root", args.lang_root,
+        "plan",
+        "--plan", glyph_plan,
+        "--saturn-orig", system_in,
+        "--ps1-system", args.ps1_system,
+        "--translation-root", build_translation_root,
+        "--strings", resolved_system_strings,
+        "--strings", lang.root / "platforms" / platform.code / "system_strings.json")
+
     build_assignments = Path(f"work/build/font_slot_assignments.{lang.suffix}.saturn.csv")
     run(scripts / "lang5_assign_font_slots.py",
         "--lang", args.lang,
@@ -132,7 +147,8 @@ def main() -> None:
         "--system-source", system_source,
         "--scen", args.ps1_scen,
         "--scen2", args.ps1_scen2,
-        "--max-slot", str(platform.max_font_slot))
+        "--max-slot", str(platform.max_font_slot),
+        "--exclude-slots", glyph_plan)
 
     font_cmd = [
         scripts / "lang5_build_font.py",
@@ -151,6 +167,16 @@ def main() -> None:
         font_cmd.extend(["--caps-font", lang.caps_font,
                          "--caps-font-size", str(lang.caps_font_size)])
     run(*font_cmd)
+    # Remap the .tbl onto the planned Saturn slots before anything encodes
+    # with it; PS1 bitmaps are copied only for glyphs Saturn lacks entirely.
+    run(scripts / "saturn_fix_native_glyphs.py",
+        "--lang", args.lang, "--lang-root", args.lang_root,
+        "apply",
+        "--plan", glyph_plan,
+        "--ps1-system", args.ps1_system,
+        "--tbl", tbl,
+        "--system-in", system_font,
+        "--assignments", build_assignments)
 
     reflowed_system_strings = Path(f"work/build/system_strings.{lang.suffix}.saturn.reflowed.json")
     run(scripts / "lang5_reflow_system_cards.py",
@@ -177,18 +203,6 @@ def main() -> None:
         "--tbl", tbl,
         "--scen", args.ps1_scen,
         "--scen2", args.ps1_scen2)
-    # Characters encoded through native PS1-map tokens can hit Saturn slots
-    # that hold a different glyph (reordered kanji region); copy the expected
-    # PS1 bitmaps over for every such character the content actually uses.
-    run(scripts / "saturn_fix_native_glyphs.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
-        "--system-in", system_font,
-        "--ps1-system", args.ps1_system,
-        "--tbl", tbl,
-        "--assignments", build_assignments,
-        "--translation-root", build_translation_root,
-        "--strings", reflowed_system_strings,
-        "--strings", lang.root / "platforms" / platform.code / "system_strings.json")
 
     system_out = saturn / f"SYSTEM.{lang.suffix}.DAT"
     system_cmd: list[object] = [
