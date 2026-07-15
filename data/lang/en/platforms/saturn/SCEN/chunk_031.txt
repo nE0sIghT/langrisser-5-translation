@@ -1,0 +1,6 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+38	<$FB00><$0072>Locking the control panel. The<$FFFC>defense systems now shift to top-level<$FFFC>alert.<$FFFE>
+39	<$FB00><$0073>Control panel locked. Shifting<$FFFC>to top-level alert.<$FFFE>
+40	<$FB00><$0074>No！ The control device！<$FFFE>
+41	<$FFF7><$FB00><$0075>Hahaha！<$FFF5><$FFF8> <$FFF6><$FB00><$0076>Now none but Lord<$FFFC>Lainforce, who holds the release code, can<$FFFC>disarm this defense system！ You've lost！<$FFFE>
+42	<$FB00><$0077>Sorry, everyone<$FFF5><$FFF8>…<$FFFE>

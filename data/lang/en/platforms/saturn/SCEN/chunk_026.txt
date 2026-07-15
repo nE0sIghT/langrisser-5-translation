@@ -1,0 +1,21 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+37	<$FB00><$0063>Enough, what are you doing！<$FFFC>Worthless wretches！<$FFFE>
+38	<$FB00><$0064>Prepare yourself！<$FFFE>
+39	<$FB00><$0065>Heh heh heh！ I cannot be beaten<$FFFC>by the likes of you！<$FFFE>
+40	<$FB00><$0066>What is Alvince scheming？<$FFFE>
+41	<$FB00><$0067>Burn to death along with this<$FFFC>manor！<$FFFE>
+42	<$FB00><$0068>Are you sane？ Setting fire to your<$FFFC>own manor！<$FFFE>
+43	<$FB00><$0069>You'll burn to death too！<$FFFE>
+44	<$FB00><$006A>Now, golems！ Remove the<$FFFC>intruders！<$FFFE>
+45	<$FB00><$006B>Look, the statues<$FFF5><$FFF8>…<$FFFE>
+46	<$FB00><$006C>So this is his trump card.<$FFFE>
+47	<$FB00><$006D>But what does he mean to do<$FFFC>himself？<$FFFE>
+48	<$FB00><$006E>Look at that.<$FFFE>
+49	<$FB00><$006F>That connects to a secret escape<$FFFC>passage. I fled through it myself<$FFF5><$FFF8>…<$FFFE>
+50	<$FB00><$0070>I see. He set the fire meaning to<$FFFC>escape alone<$FFF5><$FFF8>…<$FFFE>
+51	<$FB00><$0071>Fuhahaha！ I will not die！<$FFFE>
+52	<$FB00><$0072>Once we've beaten Alvince, let's<$FFFC>escape that way too！<$FFFE>
+54	・Defeat Alvince and get everyone out<$FFFC>・Defeat all enemies<$FFFE>
+77	<$FFF7><$FB00><$008E>Heh heh heh, hahahaha！<$FFF5><$FFF8> <$FFF6><$FB00><$008F>No one<$FFFC>can stop me！ Farewell, all of you！<$FFFE>
+78	<$FB00><$0090>B, brother！<$FFFE>
+79	<$FB00><$0091>Damn it, to let him escape<$FFF5><$FFF8>…<$FFFE>

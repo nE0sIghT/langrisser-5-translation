@@ -1,0 +1,4 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+106	Curse you！<$FFFE>
+108	So they've caught up<$FFF8>… <$FFF6>Nothing for<$FFFC>it now but to run flat out<$FFF8>…<$FFFE>
+129	<$FB00><$0052>Good. Looks like everyone has made<$FFFC>it out.<$FFFE><$FFFF>

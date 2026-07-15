@@ -1,0 +1,11 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+7	Эмили<$FFFF>
+8	Ландиус<$FFFF>
+22	<$FB00><$0019>Господин Ланфорд!<$FFFE>
+23	<$FB00><$001A>Эмили?<$FFFE>
+24	<$FB00><$001B>Мы не так сильны, но тоже<$FFFC>поможем.<$FFFE>
+25	<$FB00><$001C>Ах, а где господин Ланфорд?<$FFFE>
+26	<$FB00><$001D>Не тревожься. Просто немного<$FFFC>отдыхает.<$FFFE>
+27	<$FB00><$001E>Вот как, хорошо.<$FFFE>
+28	<$FB00><$001F>Я постараюсь вместо Ланфорда!<$FFFE>
+98	<$FB00><$0037>Получилось?!<$FFFE>

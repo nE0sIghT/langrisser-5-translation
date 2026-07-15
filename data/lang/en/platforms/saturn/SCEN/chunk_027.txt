@@ -1,0 +1,2 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+105	<$FB00><$002E>No. To keep you and the master<$FFFC>from fighting, even if this body perishes,<$FFFC>I will not withdraw.<$FFFE>

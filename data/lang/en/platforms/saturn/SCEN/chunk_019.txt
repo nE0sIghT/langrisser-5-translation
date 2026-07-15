@@ -1,0 +1,9 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+32	<$FB00><$00B2>Mihari Kushizekiki Hagushisoram！<$FFFD><$FFF8>…<$FE1E>…<$FE1E><$FB00><$00B3>Hm, what is this<$FFF5><$FFF7>…<$FE1E>…<$FE1E>？<$FFFE>
+33	<$FB00><$00B4>Something is wrong？<$FFFE>
+34	<$FB00><$00B5>Something seems wrong？<$FFFE>
+35	<$FB00><$00B6>Something is wrong？<$FFFE>
+36	<$FB00><$00B7>Something is wrong？<$FFFE>
+37	<$FB00><$00B8>Now what？<$FFFE>
+38	<$FFF8><$FB00><$00B9>Hmmm…！ <$FFF5><$FFF6><$FB00><$00BA>No more corpses to<$FFFC>revive！<$FFF5><$FFF7><$FFFE>
+39	<$FB00><$00BB>He is out of corpses. These are<$FFFC>the last.<$FFFE><$FFFF>

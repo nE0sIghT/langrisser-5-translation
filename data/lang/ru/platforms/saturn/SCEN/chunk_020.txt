@@ -1,0 +1,2 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+113	<$FB00><$003A>Так нам дальше не пройти<$FFF5><$FFF8>… <$FFF6><$FB00><$003B>Выходит,<$FFFC>операция провалена<$FFF5><$FFF8>…<$FFFE><$FFFF>

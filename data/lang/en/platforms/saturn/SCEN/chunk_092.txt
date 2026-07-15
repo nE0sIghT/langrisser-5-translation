@@ -1,0 +1,4 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+24	・I know<$FFFE>
+31	Kill them with magic, or close the<$FFFC>gap in one move and strike, right？<$FFFE>
+32	Oh, so you knew. That puts my mind<$FFFC>at ease.<$FFFE>

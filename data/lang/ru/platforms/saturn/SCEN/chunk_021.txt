@@ -1,0 +1,4 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+97	<$FB00><$003E>Наконец-то всё кончено.<$FFFE>
+98	<$FB00><$003F>Нас задержали в самом<$FFFC>неожиданном месте.<$FFFE>
+99	<$FB00><$0040>Ну что, поспешим.<$FFFE>

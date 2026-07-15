@@ -44,18 +44,18 @@
         },
         {
           "saturn": 106,
-          "preserve": true,
-          "pending_review": true
+          "platform": 106,
+          "auto_from_ps1": 123
         },
         {
           "saturn": 108,
-          "preserve": true,
-          "pending_review": true
+          "platform": 108,
+          "auto_from_ps1": 124
         },
         {
           "saturn": 129,
-          "preserve": true,
-          "pending_review": true
+          "platform": 129,
+          "auto_from_ps1": 130
         }
       ]
     },
@@ -96,8 +96,8 @@
         },
         {
           "saturn": 113,
-          "preserve": true,
-          "pending_review": true
+          "platform": 113,
+          "auto_from_ps1": 114
         }
       ]
     },
@@ -105,148 +105,148 @@
       "entries": [
         {
           "saturn": 46,
-          "preserve": true,
-          "pending_review": true
+          "platform": 46,
+          "auto_from_ps1": 119
         },
         {
           "saturn": 47,
-          "preserve": true,
-          "pending_review": true
+          "platform": 47,
+          "auto_from_ps1": 120
         },
         {
           "saturn": 48,
-          "preserve": true,
-          "pending_review": true
+          "platform": 48,
+          "auto_from_ps1": 121
         },
         {
           "saturn": 49,
-          "preserve": true,
-          "pending_review": true
+          "platform": 49,
+          "auto_from_ps1": 122
         },
         {
           "saturn": 50,
-          "preserve": true,
-          "pending_review": true
+          "platform": 50,
+          "auto_from_ps1": 123
         },
         {
           "saturn": 51,
-          "preserve": true,
-          "pending_review": true
+          "platform": 51,
+          "auto_from_ps1": 124
         },
         {
           "saturn": 52,
-          "preserve": true,
-          "pending_review": true
+          "platform": 52,
+          "auto_from_ps1": 125
         },
         {
           "saturn": 53,
-          "preserve": true,
-          "pending_review": true
+          "platform": 53,
+          "auto_from_ps1": 126
         },
         {
           "saturn": 54,
-          "preserve": true,
-          "pending_review": true
+          "platform": 54,
+          "auto_from_ps1": 128
         },
         {
           "saturn": 55,
-          "preserve": true,
-          "pending_review": true
+          "platform": 55,
+          "auto_from_ps1": 129
         },
         {
           "saturn": 56,
-          "preserve": true,
-          "pending_review": true
+          "platform": 56,
+          "auto_from_ps1": 130
         },
         {
           "saturn": 97,
-          "preserve": true,
-          "pending_review": true
+          "platform": 97,
+          "auto_from_ps1": 89
         },
         {
           "saturn": 123,
-          "preserve": true,
-          "pending_review": true
+          "platform": 123,
+          "auto_from_ps1": 108
         },
         {
           "saturn": 124,
-          "preserve": true,
-          "pending_review": true
+          "platform": 124,
+          "auto_from_ps1": 109
         },
         {
           "saturn": 125,
-          "preserve": true,
-          "pending_review": true
+          "platform": 125,
+          "auto_from_ps1": 110
         },
         {
           "saturn": 126,
-          "preserve": true,
-          "pending_review": true
+          "platform": 126,
+          "auto_from_ps1": 111
         },
         {
           "saturn": 127,
-          "preserve": true,
-          "pending_review": true
+          "platform": 127,
+          "auto_from_ps1": 112
         },
         {
           "saturn": 128,
-          "preserve": true,
-          "pending_review": true
+          "platform": 128,
+          "auto_from_ps1": 113
         },
         {
           "saturn": 129,
-          "preserve": true,
-          "pending_review": true
+          "platform": 129,
+          "auto_from_ps1": 114
         },
         {
           "saturn": 130,
-          "preserve": true,
-          "pending_review": true
+          "platform": 130,
+          "auto_from_ps1": 115
         },
         {
           "saturn": 131,
-          "preserve": true,
-          "pending_review": true
+          "platform": 131,
+          "auto_from_ps1": 116
         },
         {
           "saturn": 132,
-          "preserve": true,
-          "pending_review": true
+          "platform": 132,
+          "auto_from_ps1": 117
         },
         {
           "saturn": 133,
-          "preserve": true,
-          "pending_review": true
+          "platform": 133,
+          "auto_from_ps1": 118
         },
         {
           "saturn": 134,
-          "preserve": true,
-          "pending_review": true
+          "platform": 134,
+          "auto_from_ps1": 131
         },
         {
           "saturn": 135,
-          "preserve": true,
-          "pending_review": true
+          "platform": 135,
+          "auto_from_ps1": 132
         },
         {
           "saturn": 136,
-          "preserve": true,
-          "pending_review": true
+          "platform": 136,
+          "auto_from_ps1": 133
         },
         {
           "saturn": 137,
-          "preserve": true,
-          "pending_review": true
+          "platform": 137,
+          "auto_from_ps1": 134
         },
         {
           "saturn": 138,
-          "preserve": true,
-          "pending_review": true
+          "platform": 138,
+          "auto_from_ps1": 135
         },
         {
           "saturn": 139,
-          "preserve": true,
-          "pending_review": true
+          "platform": 139,
+          "auto_from_ps1": 136
         }
       ]
     },
@@ -254,43 +254,43 @@
       "entries": [
         {
           "saturn": 32,
-          "preserve": true,
-          "pending_review": true
+          "platform": 32,
+          "auto_from_ps1": 150
         },
         {
           "saturn": 33,
-          "preserve": true,
-          "pending_review": true
+          "platform": 33,
+          "auto_from_ps1": 151
         },
         {
           "saturn": 34,
-          "preserve": true,
-          "pending_review": true
+          "platform": 34,
+          "auto_from_ps1": 152
         },
         {
           "saturn": 35,
-          "preserve": true,
-          "pending_review": true
+          "platform": 35,
+          "auto_from_ps1": 153
         },
         {
           "saturn": 36,
-          "preserve": true,
-          "pending_review": true
+          "platform": 36,
+          "auto_from_ps1": 154
         },
         {
           "saturn": 37,
-          "preserve": true,
-          "pending_review": true
+          "platform": 37,
+          "auto_from_ps1": 155
         },
         {
           "saturn": 38,
-          "preserve": true,
-          "pending_review": true
+          "platform": 38,
+          "auto_from_ps1": 156
         },
         {
           "saturn": 39,
-          "preserve": true,
-          "pending_review": true
+          "platform": 39,
+          "auto_from_ps1": 157
         }
       ]
     },
@@ -298,8 +298,8 @@
       "entries": [
         {
           "saturn": 113,
-          "preserve": true,
-          "pending_review": true
+          "platform": 113,
+          "auto_from_ps1": 122
         }
       ]
     },
@@ -307,18 +307,18 @@
       "entries": [
         {
           "saturn": 97,
-          "preserve": true,
-          "pending_review": true
+          "platform": 97,
+          "auto_from_ps1": 109
         },
         {
           "saturn": 98,
-          "preserve": true,
-          "pending_review": true
+          "platform": 98,
+          "auto_from_ps1": 110
         },
         {
           "saturn": 99,
-          "preserve": true,
-          "pending_review": true
+          "platform": 99,
+          "auto_from_ps1": 111
         }
       ]
     },
@@ -451,8 +451,8 @@
         },
         {
           "saturn": 122,
-          "preserve": true,
-          "pending_review": true
+          "platform": 122,
+          "auto_from_ps1": 127
         }
       ]
     },
@@ -465,8 +465,8 @@
         },
         {
           "saturn": 79,
-          "preserve": true,
-          "pending_review": true
+          "platform": 79,
+          "auto_from_ps1": 80
         }
       ]
     },
@@ -474,8 +474,8 @@
       "entries": [
         {
           "saturn": 253,
-          "preserve": true,
-          "pending_review": true
+          "platform": 253,
+          "auto_from_ps1": 255
         }
       ]
     },
@@ -483,58 +483,58 @@
       "entries": [
         {
           "saturn": 57,
-          "preserve": true,
-          "pending_review": true
+          "platform": 57,
+          "auto_from_ps1": 130
         },
         {
           "saturn": 58,
-          "preserve": true,
-          "pending_review": true
+          "platform": 58,
+          "auto_from_ps1": 131
         },
         {
           "saturn": 59,
-          "preserve": true,
-          "pending_review": true
+          "platform": 59,
+          "auto_from_ps1": 132
         },
         {
           "saturn": 60,
-          "preserve": true,
-          "pending_review": true
+          "platform": 60,
+          "auto_from_ps1": 133
         },
         {
           "saturn": 62,
-          "preserve": true,
-          "pending_review": true
+          "platform": 62,
+          "auto_from_ps1": 134
         },
         {
           "saturn": 63,
-          "preserve": true,
-          "pending_review": true
+          "platform": 63,
+          "auto_from_ps1": 135
         },
         {
           "saturn": 64,
-          "preserve": true,
-          "pending_review": true
+          "platform": 64,
+          "auto_from_ps1": 136
         },
         {
           "saturn": 65,
-          "preserve": true,
-          "pending_review": true
+          "platform": 65,
+          "auto_from_ps1": 137
         },
         {
           "saturn": 66,
-          "preserve": true,
-          "pending_review": true
+          "platform": 66,
+          "auto_from_ps1": 138
         },
         {
           "saturn": 67,
-          "preserve": true,
-          "pending_review": true
+          "platform": 67,
+          "auto_from_ps1": 139
         },
         {
           "saturn": 136,
-          "preserve": true,
-          "pending_review": true
+          "platform": 136,
+          "auto_from_ps1": 129
         }
       ]
     },
@@ -542,83 +542,83 @@
       "entries": [
         {
           "saturn": 37,
-          "preserve": true,
-          "pending_review": true
+          "platform": 37,
+          "auto_from_ps1": 110
         },
         {
           "saturn": 38,
-          "preserve": true,
-          "pending_review": true
+          "platform": 38,
+          "auto_from_ps1": 111
         },
         {
           "saturn": 39,
-          "preserve": true,
-          "pending_review": true
+          "platform": 39,
+          "auto_from_ps1": 112
         },
         {
           "saturn": 40,
-          "preserve": true,
-          "pending_review": true
+          "platform": 40,
+          "auto_from_ps1": 113
         },
         {
           "saturn": 41,
-          "preserve": true,
-          "pending_review": true
+          "platform": 41,
+          "auto_from_ps1": 114
         },
         {
           "saturn": 42,
-          "preserve": true,
-          "pending_review": true
+          "platform": 42,
+          "auto_from_ps1": 115
         },
         {
           "saturn": 43,
-          "preserve": true,
-          "pending_review": true
+          "platform": 43,
+          "auto_from_ps1": 116
         },
         {
           "saturn": 44,
-          "preserve": true,
-          "pending_review": true
+          "platform": 44,
+          "auto_from_ps1": 117
         },
         {
           "saturn": 45,
-          "preserve": true,
-          "pending_review": true
+          "platform": 45,
+          "auto_from_ps1": 118
         },
         {
           "saturn": 46,
-          "preserve": true,
-          "pending_review": true
+          "platform": 46,
+          "auto_from_ps1": 119
         },
         {
           "saturn": 47,
-          "preserve": true,
-          "pending_review": true
+          "platform": 47,
+          "auto_from_ps1": 120
         },
         {
           "saturn": 48,
-          "preserve": true,
-          "pending_review": true
+          "platform": 48,
+          "auto_from_ps1": 121
         },
         {
           "saturn": 49,
-          "preserve": true,
-          "pending_review": true
+          "platform": 49,
+          "auto_from_ps1": 122
         },
         {
           "saturn": 50,
-          "preserve": true,
-          "pending_review": true
+          "platform": 50,
+          "auto_from_ps1": 123
         },
         {
           "saturn": 51,
-          "preserve": true,
-          "pending_review": true
+          "platform": 51,
+          "auto_from_ps1": 124
         },
         {
           "saturn": 52,
-          "preserve": true,
-          "pending_review": true
+          "platform": 52,
+          "auto_from_ps1": 125
         },
         {
           "saturn": 53,
@@ -627,8 +627,8 @@
         },
         {
           "saturn": 54,
-          "preserve": true,
-          "pending_review": true
+          "platform": 54,
+          "auto_from_ps1": 127
         },
         {
           "saturn": 55,
@@ -637,18 +637,18 @@
         },
         {
           "saturn": 77,
-          "preserve": true,
-          "pending_review": true
+          "platform": 77,
+          "auto_from_ps1": 143
         },
         {
           "saturn": 78,
-          "preserve": true,
-          "pending_review": true
+          "platform": 78,
+          "auto_from_ps1": 144
         },
         {
           "saturn": 79,
-          "preserve": true,
-          "pending_review": true
+          "platform": 79,
+          "auto_from_ps1": 145
         }
       ]
     },
@@ -656,8 +656,8 @@
       "entries": [
         {
           "saturn": 105,
-          "preserve": true,
-          "pending_review": true
+          "platform": 105,
+          "auto_from_ps1": 107
         }
       ]
     },
@@ -665,38 +665,38 @@
       "entries": [
         {
           "saturn": 45,
-          "preserve": true,
-          "pending_review": true
+          "platform": 45,
+          "auto_from_ps1": 136
         },
         {
           "saturn": 46,
-          "preserve": true,
-          "pending_review": true
+          "platform": 46,
+          "auto_from_ps1": 137
         },
         {
           "saturn": 47,
-          "preserve": true,
-          "pending_review": true
+          "platform": 47,
+          "auto_from_ps1": 138
         },
         {
           "saturn": 48,
-          "preserve": true,
-          "pending_review": true
+          "platform": 48,
+          "auto_from_ps1": 139
         },
         {
           "saturn": 49,
-          "preserve": true,
-          "pending_review": true
+          "platform": 49,
+          "auto_from_ps1": 140
         },
         {
           "saturn": 50,
-          "preserve": true,
-          "pending_review": true
+          "platform": 50,
+          "auto_from_ps1": 141
         },
         {
           "saturn": 51,
-          "preserve": true,
-          "pending_review": true
+          "platform": 51,
+          "auto_from_ps1": 142
         }
       ]
     },
@@ -704,8 +704,8 @@
       "entries": [
         {
           "saturn": 199,
-          "preserve": true,
-          "pending_review": true
+          "platform": 199,
+          "auto_from_ps1": 201
         }
       ]
     },
@@ -713,33 +713,33 @@
       "entries": [
         {
           "saturn": 7,
-          "preserve": true,
-          "pending_review": true
+          "platform": 7,
+          "auto_from_ps1": 7
         },
         {
           "saturn": 21,
-          "preserve": true,
-          "pending_review": true
+          "platform": 21,
+          "auto_from_ps1": 101
         },
         {
           "saturn": 22,
-          "preserve": true,
-          "pending_review": true
+          "platform": 22,
+          "auto_from_ps1": 102
         },
         {
           "saturn": 23,
-          "preserve": true,
-          "pending_review": true
+          "platform": 23,
+          "auto_from_ps1": 103
         },
         {
           "saturn": 24,
-          "preserve": true,
-          "pending_review": true
+          "platform": 24,
+          "auto_from_ps1": 104
         },
         {
           "saturn": 25,
-          "preserve": true,
-          "pending_review": true
+          "platform": 25,
+          "auto_from_ps1": 105
         }
       ]
     },
@@ -747,28 +747,28 @@
       "entries": [
         {
           "saturn": 38,
-          "preserve": true,
-          "pending_review": true
+          "platform": 38,
+          "auto_from_ps1": 132
         },
         {
           "saturn": 39,
-          "preserve": true,
-          "pending_review": true
+          "platform": 39,
+          "auto_from_ps1": 133
         },
         {
           "saturn": 40,
-          "preserve": true,
-          "pending_review": true
+          "platform": 40,
+          "auto_from_ps1": 134
         },
         {
           "saturn": 41,
-          "preserve": true,
-          "pending_review": true
+          "platform": 41,
+          "auto_from_ps1": 135
         },
         {
           "saturn": 42,
-          "preserve": true,
-          "pending_review": true
+          "platform": 42,
+          "auto_from_ps1": 136
         }
       ]
     },
@@ -776,53 +776,53 @@
       "entries": [
         {
           "saturn": 7,
-          "preserve": true,
-          "pending_review": true
+          "platform": 7,
+          "auto_from_ps1": 11
         },
         {
           "saturn": 8,
-          "preserve": true,
-          "pending_review": true
+          "platform": 8,
+          "auto_from_ps1": 10
         },
         {
           "saturn": 22,
-          "preserve": true,
-          "pending_review": true
+          "platform": 22,
+          "auto_from_ps1": 106
         },
         {
           "saturn": 23,
-          "preserve": true,
-          "pending_review": true
+          "platform": 23,
+          "auto_from_ps1": 107
         },
         {
           "saturn": 24,
-          "preserve": true,
-          "pending_review": true
+          "platform": 24,
+          "auto_from_ps1": 108
         },
         {
           "saturn": 25,
-          "preserve": true,
-          "pending_review": true
+          "platform": 25,
+          "auto_from_ps1": 109
         },
         {
           "saturn": 26,
-          "preserve": true,
-          "pending_review": true
+          "platform": 26,
+          "auto_from_ps1": 110
         },
         {
           "saturn": 27,
-          "preserve": true,
-          "pending_review": true
+          "platform": 27,
+          "auto_from_ps1": 111
         },
         {
           "saturn": 28,
-          "preserve": true,
-          "pending_review": true
+          "platform": 28,
+          "auto_from_ps1": 112
         },
         {
           "saturn": 98,
-          "preserve": true,
-          "pending_review": true
+          "platform": 98,
+          "auto_from_ps1": 105
         }
       ]
     },
@@ -830,53 +830,53 @@
       "entries": [
         {
           "saturn": 34,
-          "preserve": true,
-          "pending_review": true
+          "platform": 34,
+          "auto_from_ps1": 135
         },
         {
           "saturn": 35,
-          "preserve": true,
-          "pending_review": true
+          "platform": 35,
+          "auto_from_ps1": 136
         },
         {
           "saturn": 36,
-          "preserve": true,
-          "pending_review": true
+          "platform": 36,
+          "auto_from_ps1": 137
         },
         {
           "saturn": 37,
-          "preserve": true,
-          "pending_review": true
+          "platform": 37,
+          "auto_from_ps1": 138
         },
         {
           "saturn": 38,
-          "preserve": true,
-          "pending_review": true
+          "platform": 38,
+          "auto_from_ps1": 139
         },
         {
           "saturn": 39,
-          "preserve": true,
-          "pending_review": true
+          "platform": 39,
+          "auto_from_ps1": 140
         },
         {
           "saturn": 61,
-          "preserve": true,
-          "pending_review": true
+          "platform": 61,
+          "auto_from_ps1": 34
         },
         {
           "saturn": 62,
-          "preserve": true,
-          "pending_review": true
+          "platform": 62,
+          "auto_from_ps1": 35
         },
         {
           "saturn": 63,
-          "preserve": true,
-          "pending_review": true
+          "platform": 63,
+          "auto_from_ps1": 36
         },
         {
           "saturn": 129,
-          "preserve": true,
-          "pending_review": true
+          "platform": 129,
+          "auto_from_ps1": 134
         }
       ]
     },
@@ -893,23 +893,23 @@
       "entries": [
         {
           "saturn": 23,
-          "preserve": true,
-          "pending_review": true
+          "platform": 23,
+          "auto_from_ps1": 81
         },
         {
           "saturn": 24,
-          "preserve": true,
-          "pending_review": true
+          "platform": 24,
+          "auto_from_ps1": 82
         },
         {
           "saturn": 25,
-          "preserve": true,
-          "pending_review": true
+          "platform": 25,
+          "auto_from_ps1": 83
         },
         {
           "saturn": 26,
-          "preserve": true,
-          "pending_review": true
+          "platform": 26,
+          "auto_from_ps1": 84
         },
         {
           "saturn": 28,
@@ -918,8 +918,8 @@
         },
         {
           "saturn": 29,
-          "preserve": true,
-          "pending_review": true
+          "platform": 29,
+          "auto_from_ps1": 86
         },
         {
           "saturn": 66,
@@ -1014,8 +1014,8 @@
         },
         {
           "saturn": 125,
-          "preserve": true,
-          "pending_review": true
+          "platform": 125,
+          "auto_from_ps1": 135
         }
       ]
     },
@@ -1069,8 +1069,8 @@
         },
         {
           "saturn": 291,
-          "preserve": true,
-          "pending_review": true
+          "platform": 291,
+          "auto_from_ps1": 307
         }
       ]
     },
@@ -1078,18 +1078,18 @@
       "entries": [
         {
           "saturn": 24,
-          "preserve": true,
-          "pending_review": true
+          "platform": 24,
+          "auto_from_ps1": 24
         },
         {
           "saturn": 31,
-          "preserve": true,
-          "pending_review": true
+          "platform": 31,
+          "auto_from_ps1": 26
         },
         {
           "saturn": 32,
-          "preserve": true,
-          "pending_review": true
+          "platform": 32,
+          "auto_from_ps1": 27
         },
         {
           "saturn": 35,
@@ -1107,8 +1107,8 @@
         },
         {
           "saturn": 76,
-          "preserve": true,
-          "pending_review": true
+          "platform": 76,
+          "auto_from_ps1": 77
         }
       ]
     },
@@ -1121,8 +1121,8 @@
         },
         {
           "saturn": 48,
-          "preserve": true,
-          "pending_review": true
+          "platform": 48,
+          "auto_from_ps1": 49
         }
       ]
     },

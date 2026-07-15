@@ -1,0 +1,6 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+23	<$FB00><$001D>Сквозь тучи проступает синяя<$FFFC>луна<$FFF5><$FFF8>……<$FFFE>
+24	<$FB00><$001E>Ещё немного.<$FFF5> <$FB00><$001F>Едва тучи разойдутся<$FFFC>совсем - вам и конец!<$FFFE>
+25	<$FB00><$0020>Ну же, живее яви свой лик, Пелия!<$FFFE>
+26	<$FB00><$0021>Времени нет!<$FFF5> <$FB00><$0022>Надо одолеть его<$FFFC>сей же миг!<$FFFE>
+29	<$FB00><$002A>Не может быть!<$FFF5><$FFF7><$FFFE>

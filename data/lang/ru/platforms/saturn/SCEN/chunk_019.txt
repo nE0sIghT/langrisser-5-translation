@@ -1,0 +1,9 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+32	<$FB00><$00B2>Михари-кусизэкики-хагудзисорам!<$FFFD><$FFF8>…<$FE1E>…<$FE1E><$FB00><$00B3>М-м? Что такое<$FFF5><$FFF7>…<$FE1E>…<$FE1E><$FFFE>
+33	<$FB00><$00B4>Что-то тут неладно?<$FFFE>
+34	<$FB00><$00B5>Что-то тут неладно, да?<$FFFE>
+35	<$FB00><$00B6>Что-то тут неладно, а?<$FFFE>
+36	<$FB00><$00B7>Что-то тут неладно?<$FFFE>
+37	<$FB00><$00B8>Что на этот раз?<$FFFE>
+38	<$FFF8><$FB00><$00B9>М-м-м…!<$FFF5> <$FFF6><$FB00><$00BA>Да у меня же кончились<$FFFC>трупы для воскрешения!<$FFF5><$FFF7><$FFFE>
+39	<$FB00><$00BB>Похоже, запас у него иссяк. Эти -<$FFFC>последние.<$FFFE><$FFFF>

@@ -1,0 +1,2 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+48	<$FB00><$009E>В наступление!<$FFFE><$FFFF>

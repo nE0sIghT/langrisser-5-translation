@@ -1,0 +1,12 @@
+# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
+57	Good, nearly done.<$FFFE>
+58	Hold out just a little longer, you<$FFFC>lot！<$FFFE>
+59	U, understood…<$FFFE>
+60	Kh, best to hurry…<$FFFE>
+62	<$FB00><$0076>Right, ignite！<$FFF5><$FFF7><$FFFE>
+63	<$FB00><$0077>Stop！<$FFF5><$FFF7><$FFFE>
+64	<$FB00><$007B>N, no… No one said it would<$FFFC>explode…<$FFFE>
+65	<$FB00><$0078>No…<$FFFE>
+66	<$FB00><$0079>The tunnel…<$FFFE>
+67	<$FB00><$007A>Now we cannot go on…<$FFFE>
+136	<$FB00><$0071>Right.<$FFFE>

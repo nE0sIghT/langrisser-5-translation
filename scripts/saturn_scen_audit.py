@@ -98,6 +98,10 @@ def main() -> None:
     ap.add_argument("--out-kanji-map", default="work/build/saturn/saturn_kanji_map.json")
     ap.add_argument("--write-mapping", action="store_true",
                     help="Rewrite the chunk specs to the minimal exceptional form.")
+    ap.add_argument("--auto-resolve", action="store_true",
+                    help="Author platform records automatically where the Saturn "
+                         "original provably equals some PS1 record (duplicates / "
+                         "reordered lines), copying that record's ru/en text.")
     args = ap.parse_args()
 
     sat = Path(args.scen).read_bytes()
@@ -148,11 +152,47 @@ def main() -> None:
         en = parse_dump_file(Path(args.en_root) / f"chunk_{ci:03d}.txt") \
             if (Path(args.en_root) / f"chunk_{ci:03d}.txt").exists() else {}
         ps_sigs = [stable_signature(t) for t in ps1_tokens]
+
+        def strip_tail(tokens: list[int]) -> tuple[int, ...]:
+            t = tuple(tokens)
+            while t and t[-1] == 0xFFFF:
+                t = t[:-1]
+            return t
+
+        def provably_equal_record(si: int) -> int | None:
+            """A PS1 record (1-based) whose JP provably equals the Saturn entry.
+
+            Either exact token equality (kana/ASCII lines, duplicates moved
+            around), or equality of the decoded strings where every Saturn
+            kanji resolved through the derived map — same text, only the
+            reordered kanji token ids differ.
+            """
+            mine = strip_tail(entries[si])
+            for r, pt in enumerate(ps1_tokens):
+                if strip_tail(pt) == mine:
+                    return r + 1
+            sat_txt = dec_sat(list(mine))
+            if "?" in sat_txt:
+                return None
+            for r, pt in enumerate(ps1_tokens):
+                if dec_ps1(list(strip_tail(pt))) == sat_txt:
+                    return r + 1
+            return None
+
+        auto_writes: dict[int, int] = {}
         for si in unmatched:
             if si in platform_entries:
                 keep.append(platform_entries[si])
                 platform_total += 1
                 continue
+            if args.auto_resolve:
+                r = provably_equal_record(si)
+                if r is not None and r in ru and r in en:
+                    auto_writes[si] = r
+                    keep.append({"saturn": si, "platform": si,
+                                 "auto_from_ps1": r})
+                    platform_total += 1
+                    continue
             keep.append({"saturn": si, "preserve": True, "pending_review": True})
             pending_total += 1
             sig = stable_signature(entries[si])
@@ -172,6 +212,23 @@ def main() -> None:
                 if best + 1 in en:
                     chunk_report.append(f"  - EN: `{en[best + 1]}`")
             chunk_report.append("")
+        for root, records_map in ((Path(args.ru_root), ru), (Path(args.en_root), en)):
+            if not auto_writes:
+                break
+            pfile = root.parent / "platforms" / "saturn" / "SCEN" / f"chunk_{ci:03d}.txt"
+            existing = parse_dump_file(pfile) if pfile.exists() else {}
+            additions = [
+                f"{si}\t{records_map[r]}"
+                for si, r in sorted(auto_writes.items())
+                if si not in existing
+            ]
+            if additions:
+                header = ("# Auto-resolved Saturn records: the JP original provably "
+                          "equals the named PS1 record (duplicate/reordered line).\n"
+                          if not pfile.exists() else "")
+                pfile.parent.mkdir(parents=True, exist_ok=True)
+                with pfile.open("a", encoding="utf-8") as f:
+                    f.write(header + "\n".join(additions) + "\n")
         if keep:
             new_chunks[str(ci)] = {"entries": keep}
         if chunk_report:
