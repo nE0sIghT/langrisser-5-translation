@@ -26,21 +26,14 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from lang5_saturn_apply import (Normalizer, load_mapping, monotone_alignment,
-                                ps1_chunk_records, stable_signature)
+from lang5_saturn_apply import (Normalizer, load_font_map_csv, load_mapping,
+                                monotone_alignment, ps1_chunk_records,
+                                stable_signature)
 from lang5_sceninsert import parse_dump_file
 from lang5_project import COMMON_FONT_MAP
 from saturn_scen import local_index_entries, parse_catalog
 
 import csv
-
-
-def ps1_charmap() -> dict[int, str]:
-    out: dict[int, str] = {}
-    for row in csv.DictReader(open(COMMON_FONT_MAP, encoding="utf-8")):
-        if row["index_dec"].isdigit() and row["char"]:
-            out[int(row["index_dec"])] = row["char"]
-    return out
 
 
 def derive_saturn_kanji_map(sat: bytes, ps1: bytes, empty: set[int],
@@ -95,7 +88,8 @@ def main() -> None:
     ap.add_argument("--ru-root", default="data/lang/ru/SCEN")
     ap.add_argument("--en-root", default="data/lang/en/SCEN")
     ap.add_argument("--out-report", default="work/build/saturn/scen_platform_review.md")
-    ap.add_argument("--out-kanji-map", default="work/build/saturn/saturn_kanji_map.json")
+    ap.add_argument("--out-kanji-map", default="data/platforms/saturn/kanji_map.csv",
+                    help="Derived Saturn kanji font map (groups_report CSV convention).")
     ap.add_argument("--write-mapping", action="store_true",
                     help="Rewrite the chunk specs to the minimal exceptional form.")
     ap.add_argument("--auto-resolve", action="store_true",
@@ -110,13 +104,18 @@ def main() -> None:
     empty = {int(x) for x in mapping.get("empty_chunks", [])}
     chunk_specs = {int(k): v for k, v in (mapping.get("chunks") or {}).items()}
 
-    ps1map = ps1_charmap()
+    ps1map = load_font_map_csv(COMMON_FONT_MAP)
     satkanji = derive_saturn_kanji_map(sat, ps1, empty, ps1map)
     merged = dict(ps1map)
     merged.update(satkanji)
-    Path(args.out_kanji_map).write_text(
-        json.dumps({f"{k:04X}": v for k, v in sorted(satkanji.items())},
-                   ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+    with Path(args.out_kanji_map).open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["index_dec", "index_hex", "group",
+                                          "char", "source"], lineterminator="\n")
+        w.writeheader()
+        for idx, ch in sorted(satkanji.items()):
+            w.writerow({"index_dec": idx, "index_hex": f"{idx:X}",
+                        "group": "derived", "char": ch,
+                        "source": "vote:ps1_parallel_pairs"})
     dec_sat = decoder(merged)
     dec_ps1 = decoder(ps1map)
     norm = Normalizer(ps1map, satkanji)

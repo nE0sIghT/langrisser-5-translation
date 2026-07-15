@@ -1105,9 +1105,10 @@ attract demos froze near the menu. The in-place growth mostly fits inside the
 A Saturn entry takes a PS1 record's translation **only** when both JP
 originals provably match. Raw token ids in the reordered kanji bank
 (`>= 0x185`) are incomparable across consoles — but *normalized to text*
-through the tracked `data/platforms/saturn/kanji_map.json` (a token→character
-map for ~1030 Saturn kanji, voted from positionally-matched pair tokens by
-`saturn_scen_audit.py`) they compare directly. The apply
+through the tracked `data/platforms/saturn/kanji_map.csv` (same CSV convention
+as the common `groups_report.csv`, holding *only* the reordered kanji bank —
+~1030 tokens voted from positionally-matched pair tokens by
+`saturn_scen_audit.py`; the shared range is never duplicated) they compare directly. The apply
 (`monotone_alignment`) runs an order-preserving longest matching per block:
 pass 1 on the full normalized originals (kanji included, trailing `FFFF`
 stripped), pass 2 for records containing unresolved rare kanji — stable
@@ -1128,7 +1129,7 @@ the PS1-only record they supersede) or stay explicitly preserved with
 `scripts/saturn_scen_audit.py` regenerates the minimal mapping and emits
 `work/build/saturn/scen_platform_review.md`: each pending record with the
 Saturn original decoded through the *derived Saturn kanji map* (~1030 tokens
-voted from positionally-matched pair tokens, `saturn_kanji_map.json`) plus
+voted from positionally-matched pair tokens, `kanji_map.csv`) plus
 the closest PS1 record and its current ru/en text.
 
 ### Universality

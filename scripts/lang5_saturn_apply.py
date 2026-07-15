@@ -127,18 +127,14 @@ def proven_equal(norm: Normalizer | None, sat_tokens: list[int],
     return all(x is WILDCARD or x == y for x, y in zip(a, b))
 
 
-def load_kanji_map(path: Path | None) -> dict[int, str]:
+def load_font_map_csv(path: Path | None) -> dict[int, str]:
+    """Read a slot->char font map CSV (the common groups_report convention)."""
     if path is None or not path.exists():
         return {}
-    raw = json.loads(path.read_text(encoding="utf-8"))
-    return {int(k, 16): v for k, v in raw.items()}
-
-
-def ps1_charmap_from_report(groups_report: Path) -> dict[int, str]:
     import csv
 
     out: dict[int, str] = {}
-    for row in csv.DictReader(open(groups_report, encoding="utf-8")):
+    for row in csv.DictReader(open(path, encoding="utf-8")):
         if row["index_dec"].isdigit() and row["char"]:
             out[int(row["index_dec"])] = row["char"]
     return out
@@ -400,8 +396,8 @@ def main() -> None:
     data = Path(args.scen).read_bytes()
     ps1_scen = Path(args.ps1_scen).read_bytes() if args.ps1_scen else None
     from lang5_project import COMMON_FONT_MAP
-    norm = Normalizer(ps1_charmap_from_report(COMMON_FONT_MAP),
-                      load_kanji_map(platform.kanji_map))
+    norm = Normalizer(load_font_map_csv(COMMON_FONT_MAP),
+                      load_font_map_csv(platform.kanji_map))
     out, stats = apply_scen(
         data, lang.script_dir, codec, ps1_scen,
         mapping=mapping,
