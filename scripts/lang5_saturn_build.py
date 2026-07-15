@@ -120,6 +120,18 @@ def main() -> None:
         resolve_args.append("--require-complete")
     run(*resolve_args)
 
+    # Normalize the build copies with the platform record overrides so every
+    # stage (slot assignment, rewrap, encode validators) sees the text that
+    # actually ships — e.g. Saturn pad buttons instead of PS1 pad symbols.
+    run(scripts / "saturn_apply_text_overrides.py",
+        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--translation-root", build_translation_root,
+        "--strings", resolved_system_strings,
+        "--saturn-orig", system_in,
+        "--ps1-system", args.ps1_system,
+        "--scen-mapping", platform.scen_mapping,
+        "--system-mapping", platform.system_mapping)
+
     # Characters encoded through native PS1-map tokens can hit Saturn slots
     # that hold a different glyph (reordered kanji region). Plan the remap to
     # the Saturn slots that already hold the right glyphs, so the assigner
@@ -133,7 +145,8 @@ def main() -> None:
         "--ps1-system", args.ps1_system,
         "--translation-root", build_translation_root,
         "--strings", resolved_system_strings,
-        "--strings", lang.root / "platforms" / platform.code / "system_strings.json")
+        "--scen-mapping", platform.scen_mapping,
+        "--system-mapping", platform.system_mapping)
 
     build_assignments = Path(f"work/build/font_slot_assignments.{lang.suffix}.saturn.csv")
     run(scripts / "lang5_assign_font_slots.py",
@@ -167,15 +180,14 @@ def main() -> None:
         font_cmd.extend(["--caps-font", lang.caps_font,
                          "--caps-font-size", str(lang.caps_font_size)])
     run(*font_cmd)
-    # Remap the .tbl onto the planned Saturn slots before anything encodes
-    # with it; PS1 bitmaps are copied only for glyphs Saturn lacks entirely.
+    # Rewrite the .tbl onto the planned Saturn slots before anything encodes
+    # with it: remapped chars move to real Saturn glyphs, PS1-only chars are
+    # dropped so any overlooked usage fails the strict validators.
     run(scripts / "saturn_fix_native_glyphs.py",
         "--lang", args.lang, "--lang-root", args.lang_root,
         "apply",
         "--plan", glyph_plan,
-        "--ps1-system", args.ps1_system,
         "--tbl", tbl,
-        "--system-in", system_font,
         "--assignments", build_assignments)
 
     reflowed_system_strings = Path(f"work/build/system_strings.{lang.suffix}.saturn.reflowed.json")

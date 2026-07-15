@@ -1,3 +1,5 @@
 # Saturn-only records for chunk 000: the Saturn pad has A/B/C/X/Y/Z,
 # and the Saturn original says Cボタン where PS1 uses ○.
 8	Зададим снаряжение готового образца.<$FFFC>Нажмите C.<$FFFE>
+# Entry 193 (PS1 record 198): command help is the A button on Saturn.
+193	Каждый этап начинается с<$FFFC>сюжетной сцены, затем открывается <$FFF4>меню<$FFFC>подготовки<$FFF3>.<$FFFD>Там нанимают наёмников, торгуют и<$FFFC>снаряжают предметы, расставляют<$FFFC>командиров. Когда все размещены, команда<$FFFC><$FFF4>В бой<$FFF3> начинает сражение.<$FFFD>На первом поле нет магазина и найма,<$FFFC>поэтому его можно лишь осмотреть.<$FFFC>Расположение задано заранее. Кнопка <$FFF4>A<$FFF3><$FFFC>показывает описание выбранной команды.<$FFFE>

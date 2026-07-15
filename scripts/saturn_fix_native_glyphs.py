@@ -2,29 +2,33 @@
 """Point natively-encoded characters at the real Saturn glyph slots.
 
 The translation encodes some characters through *native* tokens taken from the
-PS1 slot->char map (`data/font_map`): `○`, the standalone hyphen, arrows, `×`.
-The Saturn `SYSTEM.DAT` glyph plane is reordered in that region, so the PS1
-token often points at a different Saturn glyph — the "sigma/lambda hieroglyph"
-bug. The Saturn font already contains most of those glyphs, just at other
-slots (`○` at 0x5F4, `-` at 0x380, ...), and those slots must not be handed
-out as sacrificial Cyrillic slots.
+PS1 slot->char map (`data/font_map`): `○`, the standalone hyphen, arrows. The
+Saturn `SYSTEM.DAT` glyph plane is reordered in that region, so the PS1 token
+often points at a different Saturn glyph — the "sigma/lambda hieroglyph" bug.
+The Saturn font already contains those glyphs at other slots (`○` at 0x5F4,
+`-` at 0x380, ...), and the `.tbl` must agree with the actual Saturn font: no
+glyph is ever copied from PS1.
+
+Character needs are computed from the *effective* Saturn texts — the common
+translation with the platform mapping applied, platform overlay/records
+included — so characters that exist only in PS1-replaced lines (the PS1 pad
+symbols `▢`/`△`) drop out entirely and their stale mappings are removed from
+the `.tbl` (any overlooked usage then fails the strict encode validators
+instead of rendering a wrong glyph).
 
 Two subcommands around the font build:
 
-- `plan` (before slot assignment): collect every character the translated
-  content encodes through a native token, compare the PS1 and Saturn bitmaps
-  at that token, and locate the exact PS1 bitmap elsewhere in the *original*
-  Saturn plane. Emits a JSON plan `{char, ps1_token, saturn_slot|null}`; the
-  found slots feed `lang5_assign_font_slots --exclude-slots` so the assigner
-  keeps them.
-- `apply` (after the font build): remap the generated `.tbl` so each planned
-  character encodes to its Saturn slot (stale mappings removed); characters
-  whose glyph exists nowhere in the Saturn plane (`saturn_slot: null`, e.g.
-  `×` — the Saturn original spells 2割/3付4 instead) get the PS1 12x12 bitmap
-  copied into the PS1-map slot (both planes share the 18-byte cell format).
-
-Runs before anything encodes with the `.tbl`, so reflow, rewrap, SYSTEM/SCEN
-pack and name-entry all use the corrected slots.
+- `plan` (before slot assignment): classify every needed native-token
+  character whose Saturn slot bitmap differs from PS1:
+  `remap` — the exact bitmap exists elsewhere in the original Saturn plane
+  (the slot is then excluded from the sacrificial pool via
+  `lang5_assign_font_slots --exclude-slots`); `assign` — the Saturn font has
+  no such glyph (e.g. `×`: the originals spell 2割/3付4), so the character is
+  force-assigned and rendered by the project font like any other tile;
+  `drop` — not needed by any effective Saturn text.
+- `apply` (after the font build): rewrite the `.tbl`: remapped characters
+  move to their Saturn slots, dropped characters lose their stale mappings
+  (assigned characters are already handled by the font build itself).
 """
 
 from __future__ import annotations
@@ -35,29 +39,113 @@ import json
 import re
 from pathlib import Path
 
+from lang5_binfmt import BE
 from lang5_build_font import GLYPH_BYTES, NATIVE_VISUAL_OVERRIDES
+from lang5_offsetgroups import PS1 as PS1_CFG
+from lang5_offsetgroups import SATURN as SATURN_CFG
+from lang5_offsetgroups import find_groups
 from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
+from lang5_saturn_apply import load_mapping as load_scen_mapping
+from lang5_saturn_system_pack import expand_group_map, load_mapping as load_system_mapping
+from lang5_sceninsert import parse_dump_file
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 PLANE_SLOTS = 1835   # both fonts end at slot 1834; Saturn data follows
 
 
-def content_chars(translation_root: Path, string_maps: list[Path],
-                  grid: Path | None) -> set[str]:
-    chars: set[str] = set()
+def scen_effective_texts(translation_root: Path, platform_scen_dir: Path,
+                         scen_mapping: dict) -> list[str]:
+    """The SCEN texts the Saturn apply will actually encode.
+
+    Chunks with a platform spec contribute exactly the PS1 records and
+    platform records the spec selects; unspecified chunks align by identity,
+    so every common record counts.
+    """
+    chunk_specs = {int(k): v for k, v in (scen_mapping.get("chunks") or {}).items()}
+    texts: list[str] = []
     for fp in sorted(translation_root.glob("*/chunk_*.txt")):
-        for raw in fp.read_text(encoding="utf-8").splitlines():
-            if "\t" in raw and not raw.startswith("#"):
-                chars.update(TAG_RE.sub("", raw.split("\t", 1)[1]))
-    for mp in string_maps:
-        if not mp.exists():
+        m = re.match(r"chunk_(\d+)$", fp.stem)
+        if not m:
             continue
-        data = json.loads(mp.read_text(encoding="utf-8"))
-        values = data.values() if isinstance(data, dict) else (
-            e.get("text") or "" for e in data)
-        for text in values:
-            if text and text != "{BLANK}":
-                chars.update(text)
+        chunk_index = int(m.group(1))
+        records = parse_dump_file(fp)
+        spec = chunk_specs.get(chunk_index)
+        if spec is None:
+            texts.extend(records.values())
+            continue
+        platform_file = platform_scen_dir / f"chunk_{chunk_index:03d}.txt"
+        platform_records = parse_dump_file(platform_file) if platform_file.exists() else {}
+        # Mirror lang5_saturn_apply.expand_record_map: entries override ranges.
+        targets: dict[int, object] = {}
+        for item in spec.get("ranges", []):
+            saturn, count = int(item["saturn"]), int(item["count"])
+            if "ps1" in item:
+                for off in range(count):
+                    targets[saturn + off] = int(item["ps1"]) + off
+            elif "platform" in item:
+                for off in range(count):
+                    targets[saturn + off] = {"platform": int(item["platform"]) + off}
+        for item in spec.get("entries", []):
+            saturn = int(item["saturn"])
+            if "ps1" in item:
+                targets[saturn] = int(item["ps1"])
+            elif "platform" in item:
+                targets[saturn] = {"platform": int(item["platform"])}
+            elif item.get("preserve"):
+                targets[saturn] = {"preserve": True}
+        for target in targets.values():
+            if isinstance(target, int):
+                if target in records:
+                    texts.append(records[target])
+            elif "platform" in target:
+                idx = int(target["platform"])
+                if idx not in platform_records:
+                    raise SystemExit(
+                        f"chunk {chunk_index:03d}: platform record {idx} "
+                        f"missing in {platform_file}")
+                texts.append(platform_records[idx])
+    return texts
+
+
+def system_effective_texts(translations: dict, platform_overlay: dict,
+                           system_mapping: dict, saturn_orig: bytes,
+                           ps1_system: bytes) -> list[str]:
+    """The SYSTEM strings the Saturn pack will actually encode."""
+    sat_groups = find_groups(saturn_orig, SATURN_CFG)
+    ps1_groups = find_groups(ps1_system, PS1_CFG)
+    group_specs = {int(k): v for k, v in (system_mapping.get("groups") or {}).items()}
+    texts: list[str] = []
+    for gi, (table_off, table, _base) in enumerate(sat_groups):
+        n = len(table)
+        ps1_table_off = ps1_groups[gi][0] if gi < len(ps1_groups) else None
+        spec = group_specs.get(gi)
+        if spec is None:
+            for k in range(n):
+                text = translations.get(f"table:{ps1_table_off:05X}:{k}")
+                if text:
+                    texts.append(text)
+            continue
+        for target in expand_group_map(spec, n).values():
+            text = None
+            if isinstance(target, int):
+                text = translations.get(f"table:{ps1_table_off:05X}:{target}")
+            elif "ps1_id" in target:
+                text = translations.get(str(target["ps1_id"]))
+            elif "platform" in target:
+                platform_id = str(target["platform"])
+                text = platform_overlay.get(platform_id)
+                if text is None:
+                    raise SystemExit(f"missing platform SYSTEM translation: {platform_id}")
+            if text:
+                texts.append(text)
+    return texts
+
+
+def chars_of(texts: list[str], grid: Path | None) -> set[str]:
+    chars: set[str] = set()
+    for text in texts:
+        if text and text != "{BLANK}":
+            chars.update(TAG_RE.sub("", text))
     if grid is not None and grid.exists():
         for run in json.loads(grid.read_text(encoding="utf-8"))["runs"]:
             chars.update(run)
@@ -66,8 +154,20 @@ def content_chars(translation_root: Path, string_maps: list[Path],
     return chars
 
 
+def is_symbol_class(ch: str) -> bool:
+    """Symbols/latin/punctuation — the class the translation encodes natively.
+
+    Kana and kanji stay out of the plan entirely: a differing bitmap there is
+    usually the *same* character redrawn (the first differing slot 0x00CA is
+    ロ on both consoles), the translation never encodes them, and the JP
+    tooling (name-entry anchors, dumps) needs their mappings intact.
+    """
+    code = ord(ch)
+    return code < 0x3000 or 0xFF00 <= code <= 0xFF65
+
+
 def ps1_native_tokens(groups_report: Path) -> dict[str, int]:
-    """Lowest PS1-map slot per single character (the encoder's choice)."""
+    """Lowest PS1-map slot per symbol-class character (the encoder's choice)."""
     best: dict[str, int] = {}
     for row in csv.DictReader(open(groups_report, encoding="utf-8")):
         if not row["index_dec"].isdigit():
@@ -75,6 +175,8 @@ def ps1_native_tokens(groups_report: Path) -> dict[str, int]:
         tok = int(row["index_dec"])
         ch = row["char"]
         if len(ch) != 1 or tok == 0 or tok in NATIVE_VISUAL_OVERRIDES:
+            continue
+        if not is_symbol_class(ch):
             continue
         if ch not in best or tok < best[ch]:
             best[ch] = tok
@@ -85,23 +187,34 @@ def glyph(plane: bytes, tok: int) -> bytes:
     return plane[tok * GLYPH_BYTES:(tok + 1) * GLYPH_BYTES]
 
 
-def cmd_plan(args: argparse.Namespace, lang) -> None:
-    chars = content_chars(
-        Path(args.translation_root),
-        [Path(p) for p in args.strings],
-        lang.name_entry_grid,
-    )
-    natives = ps1_native_tokens(Path(args.groups_report))
+def cmd_plan(args: argparse.Namespace, lang, platform_dir: Path) -> None:
+    translations = json.loads(Path(args.strings).read_text(encoding="utf-8"))
+    overlay_path = platform_dir / "system_strings.json"
+    platform_overlay = (json.loads(overlay_path.read_text(encoding="utf-8"))
+                        if overlay_path.exists() else {})
     sat = Path(args.saturn_orig).read_bytes()
     ps1 = Path(args.ps1_system).read_bytes()
-    plan: list[dict] = []
+    texts = scen_effective_texts(
+        Path(args.translation_root), platform_dir / "SCEN",
+        load_scen_mapping(Path(args.scen_mapping)),
+    )
+    texts += system_effective_texts(
+        translations, platform_overlay,
+        load_system_mapping(Path(args.system_mapping)), sat, ps1,
+    )
+    effective = chars_of(texts, lang.name_entry_grid)
+
+    natives = ps1_native_tokens(Path(args.groups_report))
+    remap: list[dict] = []
+    assign: list[str] = []
+    drop: list[str] = []
     taken: set[int] = set()
-    for ch in sorted(chars):
-        tok = natives.get(ch)
-        if tok is None:
-            continue
+    for ch, tok in sorted(natives.items()):
         want = glyph(ps1, tok)
         if glyph(sat, tok) == want:
+            continue
+        if ch not in effective:
+            drop.append(ch)
             continue
         slot = next((s for s in range(PLANE_SLOTS)
                      if s not in taken and s != 0
@@ -109,14 +222,17 @@ def cmd_plan(args: argparse.Namespace, lang) -> None:
                      and glyph(sat, s) == want), None)
         if slot is not None:
             taken.add(slot)
-        plan.append({"char": ch, "ps1_token": tok, "saturn_slot": slot})
+            remap.append({"char": ch, "ps1_token": tok, "saturn_slot": slot})
+        else:
+            assign.append(ch)
+    plan = {"remap": remap, "assign": assign, "drop": drop}
     out = Path(args.plan)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n",
                    encoding="utf-8")
-    found = sum(1 for p in plan if p["saturn_slot"] is not None)
-    print(f"native glyph plan: {found} on existing Saturn slots, "
-          f"{len(plan) - found} need PS1 copies -> {out}")
+    print(f"native glyph plan: {len(remap)} remapped to existing Saturn slots, "
+          f"{len(assign)} assigned as font tiles ({''.join(assign)!r}), "
+          f"{len(drop)} dropped (PS1-only) -> {out}")
 
 
 def cmd_apply(args: argparse.Namespace) -> None:
@@ -125,8 +241,7 @@ def cmd_apply(args: argparse.Namespace) -> None:
         int(r["index_dec"])
         for r in csv.DictReader(open(args.assignments, encoding="utf-8"))
     }
-    clash = [p for p in plan
-             if p["saturn_slot"] is not None and p["saturn_slot"] in assigned]
+    clash = [p for p in plan["remap"] if p["saturn_slot"] in assigned]
     if clash:
         raise SystemExit(
             "planned Saturn glyph slots were assigned to Cyrillic tiles "
@@ -134,38 +249,30 @@ def cmd_apply(args: argparse.Namespace) -> None:
 
     tbl_path = Path(args.tbl)
     lines = tbl_path.read_text(encoding="utf-8").splitlines()
-    remap = {p["ps1_token"]: (p["saturn_slot"], p["char"])
-             for p in plan if p["saturn_slot"] is not None}
+    remap = {p["ps1_token"]: (p["saturn_slot"], p["char"]) for p in plan["remap"]}
     stale_keys = {f"{slot:04X}" for slot, _ in remap.values()}
+    dropped = set(plan["drop"])
     out_lines: list[str] = []
     for line in lines:
-        key = line.split("=", 1)[0] if "=" in line else ""
-        if len(key) == 4 and not line.startswith("#"):
-            try:
-                tok = int(key, 16)
-            except ValueError:
-                tok = -1
-            if tok in remap:
-                continue              # stale PS1 mapping for the moved char
-            if key.upper() in stale_keys:
-                continue              # PS1-map char sitting on the reused slot
+        if "=" in line and not line.startswith("#"):
+            key, value = line.split("=", 1)
+            if len(key) == 4:
+                try:
+                    tok = int(key, 16)
+                except ValueError:
+                    tok = -1
+                if tok in remap:
+                    continue          # stale PS1 mapping for the moved char
+                if key.upper() in stale_keys:
+                    continue          # PS1-map char sitting on the reused slot
+                if value in dropped:
+                    continue          # PS1-only char: encoding it must fail loudly
         out_lines.append(line)
     for old, (new, ch) in sorted(remap.items()):
         out_lines.append(f"{new:04X}={ch}")
     tbl_path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
-
-    data = bytearray(Path(args.system_in).read_bytes())
-    ps1 = Path(args.ps1_system).read_bytes()
-    copied = []
-    for p in plan:
-        if p["saturn_slot"] is None:
-            tok = p["ps1_token"]
-            lo, hi = tok * GLYPH_BYTES, (tok + 1) * GLYPH_BYTES
-            data[lo:hi] = ps1[lo:hi]
-            copied.append(f"{tok:#06x}={p['char']!r}")
-    Path(args.system_in).write_bytes(bytes(data))
-    print(f"native glyphs: remapped {len(remap)} to existing Saturn slots"
-          + (f", copied {len(copied)} from PS1 ({' '.join(copied)})" if copied else ""))
+    print(f"native glyphs: remapped {len(remap)} to existing Saturn slots, "
+          f"dropped {len(dropped)} PS1-only chars from the tbl")
     if remap:
         print("  " + " ".join(f"{old:#06x}->{new:#06x}={ch!r}"
                               for old, (new, ch) in sorted(remap.items())))
@@ -181,22 +288,23 @@ def main() -> None:
                     help="plan: original (untranslated) Saturn SYSTEM.DAT.")
     ap.add_argument("--groups-report", default=str(COMMON_FONT_MAP))
     ap.add_argument("--translation-root", default=None)
-    ap.add_argument("--strings", action="append", default=[],
-                    help="plan: translated string map JSONs (repeatable).")
-    ap.add_argument("--tbl", default=None, help="apply: .tbl remapped in place.")
-    ap.add_argument("--system-in", default=None,
-                    help="apply: font-stage SYSTEM file (fallback copies land here).")
+    ap.add_argument("--strings", default=None,
+                    help="plan: resolved common SYSTEM strings JSON.")
+    ap.add_argument("--scen-mapping", default="data/platforms/saturn/scen_mapping.json")
+    ap.add_argument("--system-mapping", default="data/platforms/saturn/system_mapping.json")
+    ap.add_argument("--tbl", default=None, help="apply: .tbl rewritten in place.")
     ap.add_argument("--assignments", default=None,
                     help="apply: build font slot assignments CSV.")
     args = ap.parse_args()
     lang = language_from_args(args)
+    platform_dir = lang.root / "platforms" / "saturn"
     if args.command == "plan":
-        if not (args.saturn_orig and args.translation_root):
-            raise SystemExit("plan requires --saturn-orig and --translation-root")
-        cmd_plan(args, lang)
+        if not (args.saturn_orig and args.translation_root and args.strings):
+            raise SystemExit("plan requires --saturn-orig, --translation-root and --strings")
+        cmd_plan(args, lang, platform_dir)
     else:
-        if not (args.tbl and args.system_in and args.assignments):
-            raise SystemExit("apply requires --tbl, --system-in and --assignments")
+        if not (args.tbl and args.assignments):
+            raise SystemExit("apply requires --tbl and --assignments")
         cmd_apply(args)
 
 

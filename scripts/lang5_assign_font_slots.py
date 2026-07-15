@@ -384,9 +384,13 @@ def main() -> None:
     args = ap.parse_args()
 
     excluded: set[int] = set()
+    forced_singles = ""
     if args.exclude_slots:
         plan = json.loads(Path(args.exclude_slots).read_text(encoding="utf-8"))
-        excluded = {p["saturn_slot"] for p in plan if p["saturn_slot"] is not None}
+        excluded = {p["saturn_slot"] for p in plan["remap"]}
+        # Characters the platform font lacks entirely are rendered as
+        # project-font tiles like any other assigned single.
+        forced_singles = "".join(plan.get("assign", []))
 
     lang = language_from_args(args)
     groups_report = Path(args.groups_report) if args.groups_report else COMMON_FONT_MAP
@@ -417,7 +421,8 @@ def main() -> None:
 
     maps = [Path(p) for p in (args.menu_map or [str(lang.system_strings)])]
     singles, menu_pairs, spacing_pairs, continuity, script_pairs = needed_units(
-        translation_root, maps, lang.single_chars, lang.forced_pairs, set(existing)
+        translation_root, maps, lang.single_chars + forced_singles,
+        lang.forced_pairs, set(existing)
     )
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]

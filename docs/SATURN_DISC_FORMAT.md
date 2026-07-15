@@ -46,6 +46,9 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_poem_translate.py` | Re-pack the shared prologue-poem render into `OPEN.DAT[2]` VDP1 runs |
 | `scripts/saturn_now_loading.py` | Re-pack the Saturn compressed `SYSTEM.DAT` Now Loading plate |
 | `scripts/saturn_name_entry.py` | Patch the Saturn name-entry display grid and input table in `SYSTEM.DAT` |
+| `scripts/saturn_apply_text_overrides.py` | Normalize the build copies with the platform record overrides (Saturn pad buttons etc.) |
+| `scripts/saturn_fix_native_glyphs.py` | Plan/apply the native symbol remap onto the real Saturn glyph slots |
+| `scripts/saturn_title_credits.py` | Stamp the translator credits onto the `TITLE1`/`TITLE2` overlay tilemaps |
 
 The Saturn tools share the platform-agnostic core: `lang5_binfmt` (byte order),
 `lang5_offsetgroups` (the SYSTEM group model), `lang5_build_font` (glyph slot
@@ -648,6 +651,39 @@ sacrificial-slot usage analysis is PS1-based and therefore approximate on
 Saturn; a sacrificed slot can cost a *different* kanji than the CSV's
 `replaced_char` suggests.
 
+### Native symbols — the glyph plan (`saturn_fix_native_glyphs.py`)
+
+The translation encodes some characters through *native* tokens from the PS1
+slot→char map (`○`, the standalone `-`, arrows, `（）～`). The Saturn plane
+holds those glyphs at *different* slots (`○` `0x4F2`→`0x5F4`, `-`
+`0x316`→`0x380`, `←` `0x694`→`0x698`, ...), so the PS1 token would render an
+unrelated kanji. The build therefore runs a symbol-class-only (non-CJK,
+non-kana) *glyph plan* around the font build:
+
+- `remap` — the exact PS1 bitmap exists in the original Saturn plane: the
+  `.tbl` is rewritten to that slot, and `lang5_assign_font_slots
+  --exclude-slots` keeps the slot out of the sacrificial pool (inherited
+  assignments on it are reassigned);
+- `assign` — the Saturn font has no such glyph (`×`: the Saturn originals
+  spell `2割`/`3付4` instead), so the character is force-assigned and rendered
+  by the project font like any other tile — nothing is ever copied from PS1;
+- `drop` — needed by no *effective* Saturn text (see below): its stale
+  mapping is removed from the `.tbl`, so an overlooked usage fails the strict
+  encode validators instead of silently rendering a wrong glyph. This is how
+  the PS1 pad symbols `▢`/`△` are kept out of the Saturn build.
+
+Kana/kanji are never touched: a differing bitmap there is usually the *same*
+character redrawn (the first differing slot `0x00CA` is ロ on both consoles),
+and the JP-anchor tooling (name-entry locate, dumps) needs those mappings.
+
+Character needs are computed from the **effective** Saturn texts:
+`saturn_apply_text_overrides.py` runs before the plan and normalizes the build
+copies with the platform record overrides — shadowed SCEN records get the
+platform text (Saturn pad buttons `A`/`B`/`C`/`Y`/`START` instead of PS1
+`○×△▢`/`SELECT`), shadowed SYSTEM entries are removed in favour of the
+platform overlay — so every later stage (slot assignment, rewrap, validators)
+sees exactly the text that ships.
+
 Both the SYSTEM UI text and the SCEN dialogue index into this one plane: SCEN
 token `0x0094` renders シ from the `SYSTEM.DAT` font, matching `シグマ` in the
 script. `WD_FONT.BIN` (8 KiB) is not this font — it is repeating dither/window
@@ -995,7 +1031,7 @@ Honest status of applying the universal `data/lang` pack to Saturn, by asset:
 | --- | --- | --- |
 | SCEN scenario/dialogue text | done | done — strict pipeline translates 125/131 blocks through `data/platforms/saturn/scen_mapping.json`; 6 service/name-pool chunks are explicitly preserved |
 | SYSTEM UI text | done | strict pipeline — 16/16 groups pack through `data/platforms/saturn/system_mapping.json`; Saturn-only RAM/save strings live in sparse language overlays |
-| Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1820 |
+| Font glyphs | done | done — Cyrillic into `SYSTEM.DAT` slots 0..1819 (slot 1820 would cross the `0x8000` pointer directory); needed native symbols remapped onto the real Saturn slots via the glyph plan |
 | Title credits graphic | done | **done** — `saturn_title_credits.py` stamps the PS1 credit lines (same `title_text_mask`/`title_alpha_table` pipeline, masks doubled for the 640-wide hi-res plane) onto the *overlay* tilemap of `TITLE1.DAT`/`TITLE2.DAT` with a transparent background (the 40x28 background plane doubles as the menu backdrop and must stay clean); each filler position gets a new cell appended to the cell store (last sub-asset, TOC size updated) |
 | Prologue poem graphic | done | done — `OPEN.DAT[2]` VDP1 run-atlas format; `saturn_poem_translate.py` renders the target poem to 320x768 at the PS1 metrics (font 12 / line height 18) and grows the atlas to fit (the poem is the last sub-asset: header `+0x00`/`+0x20` and the TOC size are updated; RU: 38 runs, `0x19128` atlas bytes) |
 | Now Loading plate | done | done — compressed 120x32 8bpp texture in `SYSTEM.DAT`; decoded/re-encoded by `saturn_now_loading.py`; visible 120x28 output is byte-identical to the PS1 translated plate |
