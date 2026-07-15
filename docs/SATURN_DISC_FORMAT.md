@@ -1103,14 +1103,21 @@ attract demos froze near the menu. The in-place growth mostly fits inside the
 ### Alignment — PS1 is a reference, never an override
 
 A Saturn entry takes a PS1 record's translation **only** when both JP
-originals carry the identical stable token signature (kana/ASCII/controls;
-the kanji bank is reordered between consoles and cannot be compared). The
-apply computes an order-preserving longest matching over the signatures per
-block (`monotone_signature_alignment`), so insertions/deletions on either
-side align automatically and need no mapping ranges; explicit `ps1` mapping
-targets are verified the same way. This replaced the earlier speaker-checked
-prefix alignment, which silently mis-placed translations in narration-heavy
-blocks (no `FB00` speaker to compare — block 39 had 245 wrongly-fed entries).
+originals provably match. Raw token ids in the reordered kanji bank
+(`>= 0x185`) are incomparable across consoles — but *normalized to text*
+through the tracked `data/platforms/saturn/kanji_map.json` (a token→character
+map for ~1030 Saturn kanji, voted from positionally-matched pair tokens by
+`saturn_scen_audit.py`) they compare directly. The apply
+(`monotone_alignment`) runs an order-preserving longest matching per block:
+pass 1 on the full normalized originals (kanji included, trailing `FFFF`
+stripped), pass 2 for records containing unresolved rare kanji — stable
+signature (kana/ASCII/controls) match verified position-by-position with
+wildcards allowed only at the unresolved spots. Insertions/deletions on
+either side align automatically and need no mapping ranges; explicit `ps1`
+mapping targets are verified with the same proof. This replaced the earlier
+speaker-checked prefix alignment, which silently mis-placed translations in
+narration-heavy blocks (no `FB00` speaker to compare — block 39 had 245
+wrongly-fed entries).
 
 Entries with no proven counterpart hold Saturn-edited content (pad-button
 phrasing, extra lines, reordered duplicates, karaoke jokes). They must come
