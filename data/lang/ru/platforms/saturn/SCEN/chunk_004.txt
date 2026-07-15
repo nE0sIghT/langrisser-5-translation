@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+101	<$FB00><$0023>Я мало что понимаю, но<$FFFC>простите!<$FFFE>

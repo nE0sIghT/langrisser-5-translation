@@ -1,0 +1,26 @@
+# Saturn-edited records translated from the Saturn original.
+26	Pass the mark of vengeance？<$FFFE>
+27	Pass the mark of vengeance？<$FFFE>
+28	Pass the mark of vengeance？<$FFFE>
+29	Pass the mark of vengeance？<$FFFE>
+30	Pass the mark of vengeance？<$FFFE>
+31	Pass the mark of vengeance？<$FFFE>
+32	Pass the mark of vengeance？<$FFFE>
+33	Pass the mark of vengeance？<$FFFE>
+34	Pass the mark of vengeance？<$FFFE>
+35	Pass the mark of vengeance？<$FFFE>
+36	Pass the mark of vengeance？<$FFFE>
+37	Pass the mark of vengeance？<$FFFE>
+38	Pass the mark of vengeance？<$FFFE>
+39	Pass the mark of vengeance？<$FFFE>
+40	Pass the mark of vengeance？<$FFFE>
+41	Pass the mark of vengeance？<$FFFE>
+42	Pass the mark of vengeance？<$FFFE>
+43	Pass the mark of vengeance？<$FFFE>
+44	Pass the mark of vengeance？<$FFFE>
+45	Pass the mark of vengeance？<$FFFE>
+67	…Shhh…<$FFFE>
+68	…Hff…<$FFFE>
+70	D, damn it…<$FFFC>To mere humans…<$FFFE>
+74	…Hrgh…<$FFFE>
+102	<$FB00><$0039>Oh dear, the mark's bearer has<$FFFC>fallen<$FFF5><$FFF8>…<$FFFC><$0000><$FFF6><$FB00><$003A>Then, a new<$FFFC>bearer<$FFF5><$FFF8>…<$FFFE>

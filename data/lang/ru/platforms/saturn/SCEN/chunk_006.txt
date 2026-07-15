@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+57	На колышке сидит фея и машет рукой. <$0000>Ну<$FFFC>что, хватает тебе войска?<$FFFE>

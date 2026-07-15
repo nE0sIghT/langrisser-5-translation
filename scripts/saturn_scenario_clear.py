@@ -33,10 +33,12 @@ PALETTE_SIZE = 256 * 2   # 256-entry 16bpp CLUT sits directly before the texture
 FONT = "data/fonts/DejaVuSerif-Bold.ttf"
 # Caps span rows ~30..50 across x20..204 (inside the flanking bracket ornaments);
 # the gold letter fill sits at luminance ~130, midtone edges from ~35 up.
+# The plate behind the caps is opaque black at palette index 255; index 0 is
+# the VDP1-transparent colour — erasing to 0 made the band see-through in game.
 SATURN_LAYOUT = BannerLayout(
     text_x0=20, text_x1=204, text_y0=29, text_y1=51,
     cap_top=32, baseline=49, paint_y0=27, paint_y1=53,
-    bg_index=0, banner_width=WIDTH, bright_lum=115, mid_lum=35,
+    bg_index=255, banner_width=WIDTH, bright_lum=115, mid_lum=35,
 )
 
 

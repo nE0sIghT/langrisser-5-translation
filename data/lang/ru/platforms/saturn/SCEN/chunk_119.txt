@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+36	<$FB00><$008F>Моя цель - стать существом превыше<$FFFC>и Бёзера, и Хаоса, и повелевать этим<$FFFC>миром.<$FFF5> <$FB00><$0090>А для того - как погасить силу<$FFFC>докучливых Врат Хаоса<$FFF5><$FFF8>…<$FE14>…<$FE14><$FFFE>

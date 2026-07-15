@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+25	When the first one loses, the<$FFFC>second steps up, with no breaks.<$FFFD>But each bout has a time limit. <$FFF4>300<$FFFC>counts per bout！<$FFF3> That's <$FFF4>a full 5<$FFFC>turns<$FFF3>. On the 6th turn you lose the<$FFFC>bout.<$FFFD>Well？ Getting cold feet！？<$FFFE>

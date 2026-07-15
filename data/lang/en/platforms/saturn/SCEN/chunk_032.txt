@@ -1,3 +1,4 @@
 # Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
 8	Landius<$FFFF>
 73	<$FB00><$0023>Heh, I see.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>So I'm no longer<$FFFC>in the dishonor of a jailbreaker.<$FFFE>
+33	<$FB00><$0030>A call to surrender？ A poor<$FFFC>joke.<$FFFE>

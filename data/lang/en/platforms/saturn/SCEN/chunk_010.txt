@@ -1,0 +1,3 @@
+# Saturn-edited records translated from the Saturn original.
+113	Choose the route.<$FFFE>
+125	Choose the route.<$FFFE>

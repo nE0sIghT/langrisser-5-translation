@@ -3,3 +3,4 @@
 69	On the scrap, something like rivers and<$FFFC>mountains is drawn, with an X mark at the<$FFFC>center.<$FFFE>
 75	On the scrap, something like<$FFFC>rivers and mountains is drawn, with an X<$FFFC>at the center.<$FFFD>It could pass for a treasure map, but the<$FFFC>place is unfamiliar, so it's hard to<$FFFC>tell<$FFF8>…<$FFFE>
 112	<$FFF8>Heh heh heh heh… <$FFF6>A special<$FFFC>cremation, prepared just for you. Are you<$FFFC>pleased？<$FFFE>
+89	Interesting！ Let's see how<$FFFC>strong a coward like you has become！<$FFFE>

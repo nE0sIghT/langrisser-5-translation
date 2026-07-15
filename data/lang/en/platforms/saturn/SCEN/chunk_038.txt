@@ -1,0 +1,4 @@
+# Saturn-edited records translated from the Saturn original.
+238	Ah yes, the <$FFF4>Book of the Strike,<$FFFC>reprint edition<$FFF3>.<$FFFD>Going back in time to… checking the cheat<$FFFC>sheet<$FFFD>…uh, anyway, it's a book written by<$FFFC>someone long ago<$0663> apparently it wasn't<$FFFD>read this and anyone can learn the<$FFFC><$FFF4>Critical skill<$FFF3>, a fine product indeed.<$FFFE>
+240	That's right. regardless of warrior<$FFFC>class, it's recommended for everyone.<$FFFD>today at a special price, it's an<$FFFC>amazing, just <$FFF4>500P<$FFF3>！ a must-have to<$FFFC>keep one copy in every home.<$FFFE>
+371	Um… I'm so sorry<$0663><$FFFC>it seems we've run out of<$FFFC>that item.<$FFFE><$FFFF>

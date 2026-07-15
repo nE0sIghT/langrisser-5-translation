@@ -170,7 +170,8 @@ def continuity_pairs(texts: list[str], known: set[str],
 
 def needed_units(translation_root: Path, menu_maps: list[Path],
                  extra_singles: str = "", forced_pairs: list[str] | None = None,
-                 existing_units: set[str] | None = None):
+                 existing_units: set[str] | None = None,
+                 extra_script_dirs: list[Path] | None = None):
     """Return singles and prioritized pair groups needed by target text.
 
     Menu labels must fit fixed slot counts, so they get the full pairing
@@ -184,7 +185,10 @@ def needed_units(translation_root: Path, menu_maps: list[Path],
     assigned while the sacrificial pool lasts.
     """
     script_texts: list[str] = []
-    for fp in sorted(translation_root.glob("*/chunk_*.txt")):
+    script_files = sorted(translation_root.glob("*/chunk_*.txt"))
+    for extra in extra_script_dirs or []:
+        script_files.extend(sorted(extra.glob("chunk_*.txt")))
+    for fp in script_files:
         for raw in fp.read_text(encoding="utf-8").splitlines():
             if "\t" in raw and not raw.startswith("#"):
                 body = raw.split("\t", 1)[1].replace(FORCE_PAGE_BREAK, "<$FFFD>")
@@ -377,6 +381,8 @@ def main() -> None:
     ap.add_argument("--max-slot", type=int, default=1820,
                     help="Highest usable glyph slot on the target platform "
                          "(PS1 plane: 1820; Saturn: 1819, see manifest).")
+    ap.add_argument("--extra-script-dir", action="append", default=[],
+                    help="Additional script record dirs (platform SCEN records).")
     ap.add_argument("--exclude-slots", default=None,
                     help="Native-glyph plan JSON (saturn_fix_native_glyphs plan): "
                          "its saturn_slot values stay native and are never "
@@ -422,7 +428,8 @@ def main() -> None:
     maps = [Path(p) for p in (args.menu_map or [str(lang.system_strings)])]
     singles, menu_pairs, spacing_pairs, continuity, script_pairs = needed_units(
         translation_root, maps, lang.single_chars + forced_singles,
-        lang.forced_pairs, set(existing)
+        lang.forced_pairs, set(existing),
+        [Path(p) for p in args.extra_script_dir]
     )
     must = [c for c in sorted(singles) if c not in existing]
     must += [p for p, _ in menu_pairs.most_common() if p not in existing]

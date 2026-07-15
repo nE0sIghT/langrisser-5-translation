@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+23	<$FB00><$003F>In magic terms, something like a<$FFFC>Fireball.<$FFFE>

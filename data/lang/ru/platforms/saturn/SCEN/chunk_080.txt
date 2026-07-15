@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+269	<$FB00><$00F1>Да.<$FFFC><$0000><$FFFC>Хоть бы и ценою жизни.<$FFFD><$FB00><$00F2>Смейся, коли назовёшь это неловким, но так<$FFFC>уж я люблю.<$FFFE>

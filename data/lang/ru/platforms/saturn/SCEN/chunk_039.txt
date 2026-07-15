@@ -1,0 +1,5 @@
+# Saturn-edited records translated from the Saturn original.
+109	Песня продолжается… ♪Кто станет<$FFFC>тебе помехой <$0000>того я вовек не прощу<$FFFC><$0000>ценою жизни уберегу<$0000>сила любви-и♪<$FFFE>
+121	<$FFF4>OH!<$FFFC>IT'S<$0000>A<$FFFC>KARAOKE<$0000>MAGIC!<$FFF3><$FFFC>（перевод）Вот оно, чудо караоке!<$FFFE>
+206	LET'S<$0000>GO!<$FFFC>GO<$0000>GO<$0000>GO!<$FFFE>
+263	Как-то это нечестно-о<$0663><$FFFE><$FFFF>

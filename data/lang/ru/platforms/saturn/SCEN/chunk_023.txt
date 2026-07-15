@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+23	<$FB00><$003F>Если по-магически - что-то вроде<$FFFC>«Огненного шара».<$FFFE>

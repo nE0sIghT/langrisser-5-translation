@@ -6,3 +6,5 @@
 43	<$FB00><$0030>BEGINNING SETUP.<$FFFC>SELECT THE WEATHER.<$FFFE>
 74	<$FB00><$0028>Well, no help for it. It's been<$FFFC>left alone a long time.<$FFF5> <$FB00><$0029>Can you find the<$FFFC>cause？<$FFFE>
 106	<$FB00><$0046>Hihihi！ Now the ultimate weapon's<$FFFC>power won't wane！ Victory to us demons！<$FFFE>
+44	<$FB00><$0031>Weather, heavy overcast<$FFF5><$FFF8>…<$FFF6><$FB00><$0032>set.<$FFFE>
+79	Part of the snow has melted, and something<$FFFC>is buried in view. Dig it up, and a<$FFFC>heat-bearing staff emerges.<$FFFD><$0000> <$0000><$0000><$0000><$FFF4>Scorching Staff<$FFF3> obtained！<$FFFE>

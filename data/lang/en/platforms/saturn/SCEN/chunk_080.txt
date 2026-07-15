@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+269	<$FB00><$00F1>Yes.<$FFFC><$0000><$FFFC>Even at the cost of my life.<$FFFD><$FB00><$00F2>Laugh if you call it clumsy, but that is<$FFFC>how I love.<$FFFE>

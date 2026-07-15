@@ -1,0 +1,2 @@
+# Saturn-edited records translated from the Saturn original.
+29	<$FB00><$002E>Итак, последний штрих.<$FFF5><$FFFC><$FB00><$002F>Выходите, милые мои трупики!<$FFFE>

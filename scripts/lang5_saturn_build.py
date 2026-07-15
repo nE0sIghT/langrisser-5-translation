@@ -159,7 +159,8 @@ def main() -> None:
         "--scen", args.ps1_scen,
         "--scen2", args.ps1_scen2,
         "--max-slot", str(platform.max_font_slot),
-        "--exclude-slots", glyph_plan)
+        "--exclude-slots", glyph_plan,
+        "--extra-script-dir", lang.root / "platforms" / platform.code / "SCEN")
 
     font_cmd = [
         scripts / "lang5_build_font.py",

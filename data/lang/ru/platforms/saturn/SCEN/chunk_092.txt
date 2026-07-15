@@ -1,3 +1,4 @@
 # Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
 31	Лучников бьют магией - или в один<$FFFC>рывок сокращают дистанцию и рубят, так?<$FFFE>
 32	О, так ты в курсе. Ну, тогда я<$FFFC>спокойна.<$FFFE>
+35	<$FB00><$00B4>Подумать только<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FFF6><$FB00><$00B5>вы сумели<$FFFC>овладеть Лангриссером<$FFF5><$FFF8><$FE14>…<$FE14>…<$FE14><$FE14><$FFFE>

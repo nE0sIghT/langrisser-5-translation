@@ -1,0 +1,5 @@
+# Saturn-edited records translated from the Saturn original.
+109	Song goes on… ♪Whoever stands<$FFFC>in your way <$0000>I will never forgive <$0000>I'll<$FFFC>protect you with my life<$0000>the power of<$FFFC>love～♪<$FFFE>
+121	<$FFF4>OH!<$FFFC>IT'S<$0000>A<$FFFC>KARAOKE<$0000>MAGIC!<$FFF3><$FFFC>Translation, that is the wonder of<$FFFC>karaoke！<$FFFE>
+206	LET'S<$0000>GO!<$FFFC>GO<$0000>GO<$0000>GO!<$FFFE>
+263	That's kind of cheating～<$0663><$FFFE><$FFFF>

@@ -1,3 +1,4 @@
 # Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
 8	Ландиус<$FFFF>
 73	<$FB00><$0023>Хм, вот как.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>Значит, с меня<$FFFC>снято клеймо беглого преступника.<$FFFE>
+33	<$FB00><$0030>Это что, предложение сдаться?<$FFFC>Несмешная шутка.<$FFFE>

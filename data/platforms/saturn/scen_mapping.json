@@ -25,8 +25,7 @@
         },
         {
           "saturn": 80,
-          "preserve": true,
-          "pending_review": true
+          "platform": 80
         },
         {
           "saturn": 193,
@@ -39,8 +38,7 @@
       "entries": [
         {
           "saturn": 101,
-          "preserve": true,
-          "pending_review": true
+          "platform": 101
         }
       ]
     },
@@ -48,8 +46,7 @@
       "entries": [
         {
           "saturn": 57,
-          "preserve": true,
-          "pending_review": true
+          "platform": 57
         }
       ]
     },
@@ -57,13 +54,11 @@
       "entries": [
         {
           "saturn": 113,
-          "preserve": true,
-          "pending_review": true
+          "platform": 113
         },
         {
           "saturn": 125,
-          "preserve": true,
-          "pending_review": true
+          "platform": 125
         }
       ]
     },
@@ -71,8 +66,7 @@
       "entries": [
         {
           "saturn": 103,
-          "preserve": true,
-          "pending_review": true
+          "platform": 103
         }
       ]
     },
@@ -183,128 +177,103 @@
       "entries": [
         {
           "saturn": 26,
-          "preserve": true,
-          "pending_review": true
+          "platform": 26
         },
         {
           "saturn": 27,
-          "preserve": true,
-          "pending_review": true
+          "platform": 27
         },
         {
           "saturn": 28,
-          "preserve": true,
-          "pending_review": true
+          "platform": 28
         },
         {
           "saturn": 29,
-          "preserve": true,
-          "pending_review": true
+          "platform": 29
         },
         {
           "saturn": 30,
-          "preserve": true,
-          "pending_review": true
+          "platform": 30
         },
         {
           "saturn": 31,
-          "preserve": true,
-          "pending_review": true
+          "platform": 31
         },
         {
           "saturn": 32,
-          "preserve": true,
-          "pending_review": true
+          "platform": 32
         },
         {
           "saturn": 33,
-          "preserve": true,
-          "pending_review": true
+          "platform": 33
         },
         {
           "saturn": 34,
-          "preserve": true,
-          "pending_review": true
+          "platform": 34
         },
         {
           "saturn": 35,
-          "preserve": true,
-          "pending_review": true
+          "platform": 35
         },
         {
           "saturn": 36,
-          "preserve": true,
-          "pending_review": true
+          "platform": 36
         },
         {
           "saturn": 37,
-          "preserve": true,
-          "pending_review": true
+          "platform": 37
         },
         {
           "saturn": 38,
-          "preserve": true,
-          "pending_review": true
+          "platform": 38
         },
         {
           "saturn": 39,
-          "preserve": true,
-          "pending_review": true
+          "platform": 39
         },
         {
           "saturn": 40,
-          "preserve": true,
-          "pending_review": true
+          "platform": 40
         },
         {
           "saturn": 41,
-          "preserve": true,
-          "pending_review": true
+          "platform": 41
         },
         {
           "saturn": 42,
-          "preserve": true,
-          "pending_review": true
+          "platform": 42
         },
         {
           "saturn": 43,
-          "preserve": true,
-          "pending_review": true
+          "platform": 43
         },
         {
           "saturn": 44,
-          "preserve": true,
-          "pending_review": true
+          "platform": 44
         },
         {
           "saturn": 45,
-          "preserve": true,
-          "pending_review": true
+          "platform": 45
         },
         {
           "saturn": 67,
-          "preserve": true,
-          "pending_review": true
+          "platform": 67
         },
         {
           "saturn": 68,
-          "preserve": true,
-          "pending_review": true
+          "platform": 68
         },
         {
           "saturn": 70,
-          "preserve": true,
-          "pending_review": true
+          "platform": 70
         },
         {
           "saturn": 74,
-          "preserve": true,
-          "pending_review": true
+          "platform": 74
         },
         {
           "saturn": 102,
-          "preserve": true,
-          "pending_review": true
+          "platform": 102
         }
       ]
     },
@@ -312,8 +281,7 @@
       "entries": [
         {
           "saturn": 23,
-          "preserve": true,
-          "pending_review": true
+          "platform": 23
         }
       ]
     },
@@ -359,8 +327,7 @@
         },
         {
           "saturn": 89,
-          "preserve": true,
-          "pending_review": true
+          "platform": 89
         },
         {
           "saturn": 112,
@@ -373,8 +340,7 @@
       "entries": [
         {
           "saturn": 67,
-          "preserve": true,
-          "pending_review": true
+          "platform": 67
         }
       ]
     },
@@ -382,13 +348,11 @@
       "entries": [
         {
           "saturn": 28,
-          "preserve": true,
-          "pending_review": true
+          "platform": 28
         },
         {
           "saturn": 31,
-          "preserve": true,
-          "pending_review": true
+          "platform": 31
         },
         {
           "saturn": 90,
@@ -406,8 +370,7 @@
         },
         {
           "saturn": 33,
-          "preserve": true,
-          "pending_review": true
+          "platform": 33
         },
         {
           "saturn": 73,
@@ -430,8 +393,7 @@
         },
         {
           "saturn": 44,
-          "preserve": true,
-          "pending_review": true
+          "platform": 44
         },
         {
           "saturn": 61,
@@ -455,8 +417,7 @@
         },
         {
           "saturn": 79,
-          "preserve": true,
-          "pending_review": true
+          "platform": 79
         },
         {
           "saturn": 106,
@@ -469,8 +430,7 @@
       "entries": [
         {
           "saturn": 29,
-          "preserve": true,
-          "pending_review": true
+          "platform": 29
         }
       ]
     },
@@ -478,13 +438,11 @@
       "entries": [
         {
           "saturn": 30,
-          "preserve": true,
-          "pending_review": true
+          "platform": 30
         },
         {
           "saturn": 66,
-          "preserve": true,
-          "pending_review": true
+          "platform": 66
         }
       ]
     },
@@ -516,33 +474,30 @@
       "entries": [
         {
           "saturn": 238,
-          "preserve": true,
-          "pending_review": true
+          "platform": 238
         },
         {
           "saturn": 240,
-          "preserve": true,
-          "pending_review": true
+          "platform": 240
         },
         {
           "saturn": 253,
           "preserve": true,
-          "pending_review": true
+          "reason": "command record (F702), no text"
         },
         {
           "saturn": 260,
           "preserve": true,
-          "pending_review": true
+          "reason": "command record (F702), no text"
         },
         {
           "saturn": 263,
           "preserve": true,
-          "pending_review": true
+          "reason": "command record (F702), no text"
         },
         {
           "saturn": 371,
-          "preserve": true,
-          "pending_review": true
+          "platform": 371
         }
       ]
     },
@@ -550,23 +505,19 @@
       "entries": [
         {
           "saturn": 109,
-          "preserve": true,
-          "pending_review": true
+          "platform": 109
         },
         {
           "saturn": 121,
-          "preserve": true,
-          "pending_review": true
+          "platform": 121
         },
         {
           "saturn": 206,
-          "preserve": true,
-          "pending_review": true
+          "platform": 206
         },
         {
           "saturn": 263,
-          "preserve": true,
-          "pending_review": true
+          "platform": 263
         }
       ]
     },
@@ -574,8 +525,7 @@
       "entries": [
         {
           "saturn": 25,
-          "preserve": true,
-          "pending_review": true
+          "platform": 25
         }
       ]
     },
@@ -583,13 +533,11 @@
       "entries": [
         {
           "saturn": 53,
-          "preserve": true,
-          "pending_review": true
+          "platform": 53
         },
         {
           "saturn": 54,
-          "preserve": true,
-          "pending_review": true
+          "platform": 54
         }
       ]
     },
@@ -597,8 +545,7 @@
       "entries": [
         {
           "saturn": 269,
-          "preserve": true,
-          "pending_review": true
+          "platform": 269
         }
       ]
     },
@@ -616,8 +563,7 @@
         },
         {
           "saturn": 35,
-          "preserve": true,
-          "pending_review": true
+          "platform": 35
         }
       ]
     },
@@ -625,8 +571,7 @@
       "entries": [
         {
           "saturn": 49,
-          "preserve": true,
-          "pending_review": true
+          "platform": 49
         }
       ]
     },
@@ -634,8 +579,7 @@
       "entries": [
         {
           "saturn": 36,
-          "preserve": true,
-          "pending_review": true
+          "platform": 36
         }
       ]
     },
@@ -643,8 +587,7 @@
       "entries": [
         {
           "saturn": 94,
-          "preserve": true,
-          "pending_review": true
+          "platform": 94
         }
       ]
     },
@@ -652,13 +595,11 @@
       "entries": [
         {
           "saturn": 20,
-          "preserve": true,
-          "pending_review": true
+          "platform": 20
         },
         {
           "saturn": 55,
-          "preserve": true,
-          "pending_review": true
+          "platform": 55
         }
       ]
     }
