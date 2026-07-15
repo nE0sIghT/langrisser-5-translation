@@ -144,9 +144,7 @@ def main() -> None:
         "--saturn-orig", system_in,
         "--ps1-system", args.ps1_system,
         "--translation-root", build_translation_root,
-        "--strings", resolved_system_strings,
-        "--scen-mapping", platform.scen_mapping,
-        "--system-mapping", platform.system_mapping)
+        "--strings", resolved_system_strings)
 
     build_assignments = Path(f"work/build/font_slot_assignments.{lang.suffix}.saturn.csv")
     run(scripts / "lang5_assign_font_slots.py",

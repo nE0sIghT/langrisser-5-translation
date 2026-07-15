@@ -1100,6 +1100,30 @@ the block — in game the first battle lost its unit icons and hung, and the
 attract demos froze near the menu. The in-place growth mostly fits inside the
 0x800 sector slack, so the Russian file grows by only a few KB.
 
+### Alignment — PS1 is a reference, never an override
+
+A Saturn entry takes a PS1 record's translation **only** when both JP
+originals carry the identical stable token signature (kana/ASCII/controls;
+the kanji bank is reordered between consoles and cannot be compared). The
+apply computes an order-preserving longest matching over the signatures per
+block (`monotone_signature_alignment`), so insertions/deletions on either
+side align automatically and need no mapping ranges; explicit `ps1` mapping
+targets are verified the same way. This replaced the earlier speaker-checked
+prefix alignment, which silently mis-placed translations in narration-heavy
+blocks (no `FB00` speaker to compare — block 39 had 245 wrongly-fed entries).
+
+Entries with no proven counterpart hold Saturn-edited content (pad-button
+phrasing, extra lines, reordered duplicates, karaoke jokes). They must come
+from platform records (`data/lang/<code>/platforms/saturn/SCEN/`, wired
+through `scen_mapping.json` entries with a `replaces_ps1` annotation naming
+the PS1-only record they supersede) or stay explicitly preserved with
+`"pending_review": true` until translated — anything else fails the build.
+`scripts/saturn_scen_audit.py` regenerates the minimal mapping and emits
+`work/build/saturn/scen_platform_review.md`: each pending record with the
+Saturn original decoded through the *derived Saturn kanji map* (~1030 tokens
+voted from positionally-matched pair tokens, `saturn_kanji_map.json`) plus
+the closest PS1 record and its current ru/en text.
+
 ### Universality
 
 The `data/lang/<code>` pack is console-agnostic: the same translation applies to

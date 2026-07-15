@@ -35,12 +35,20 @@ from lang5_saturn_system_pack import expand_group_map, load_mapping as load_syst
 from lang5_sceninsert import parse_dump_file
 
 
-def ps1_record_for(spec: dict, saturn_index: int) -> int | None:
-    """The PS1 record a Saturn entry would map to through the spec's ranges."""
-    for item in spec.get("ranges", []):
-        saturn, count = int(item["saturn"]), int(item["count"])
-        if "ps1" in item and saturn <= saturn_index < saturn + count:
-            return int(item["ps1"]) + (saturn_index - saturn)
+def ps1_record_for(spec: dict, item: dict) -> int | None:
+    """The PS1 record a platform entry replaces.
+
+    Preferred source is the entry's own `replaces_ps1` annotation (a platform
+    record replaces a PS1-only record, so no automatic alignment can name it);
+    legacy range-based specs are still honoured.
+    """
+    if "replaces_ps1" in item:
+        return int(item["replaces_ps1"])
+    saturn_index = int(item["saturn"])
+    for range_item in spec.get("ranges", []):
+        saturn, count = int(range_item["saturn"]), int(range_item["count"])
+        if "ps1" in range_item and saturn <= saturn_index < saturn + count:
+            return int(range_item["ps1"]) + (saturn_index - saturn)
     return None
 
 
@@ -55,7 +63,7 @@ def override_scen(translation_root: Path, platform_scen: Path, mapping: dict) ->
         platform_records = parse_dump_file(platform_file) if platform_file.exists() else {}
         targets: dict[int, str] = {}
         for item in entries:
-            ps1_idx = ps1_record_for(spec, int(item["saturn"]))
+            ps1_idx = ps1_record_for(spec, item)
             if ps1_idx is None:
                 continue
             pidx = int(item["platform"])

@@ -29,35 +29,31 @@ from saturn_scen import (local_index_entries, local_index_layout, parse_catalog,
                          repack_scen)
 
 
-def _speaker(tokens: list[int]) -> int | None:
-    """First `FB00` speaker argument in a token stream, or None."""
-    for i, token in enumerate(tokens):
-        if token == 0xFB00 and i + 1 < len(tokens):
-            return tokens[i + 1]
-    return None
+def monotone_signature_alignment(
+    entries: list[list[int]], ps1_tokens: list[list[int]],
+) -> tuple[dict[int, int], list[int]]:
+    """Prove Saturn->PS1 record correspondence by stable-signature equality.
 
-
-def align_prefix(entries: list[list[int]], records: dict[int, str],
-                 codec: Codec) -> list[list[int]] | None:
-    """Map Saturn entry `e` to PS1 record `e+1`, verified by speaker tokens.
-
-    Returns the encoded entry list if every Saturn entry lines up with a record
-    carrying the same `FB00` speaker (so exact-count and trailing-extra-record
-    blocks map safely), or None if the sequences diverge (interspersed
-    insertions/merges that need real alignment).
+    PS1 is a *reference*, never an override: a Saturn entry may take the PS1
+    record's translation only when both originals carry the identical stable
+    token signature (kana/ASCII/controls — the kanji bank is reordered between
+    consoles and cannot be compared). Order-preserving longest matching over
+    the signatures handles insertions/deletions on either side. Returns
+    `{saturn_index: ps1_record (1-based)}` plus the Saturn entries with no
+    proven counterpart — those hold Saturn-edited content and must come from
+    platform records (or stay preserved until translated).
     """
-    if len(records) < len(entries):
-        return None
-    encoded: list[list[int]] = []
-    for e, entry in enumerate(entries):
-        text = records.get(e + 1)
-        if text is None:
-            return None
-        tokens = codec.encode(text)
-        if _speaker(entry) != _speaker(tokens):
-            return None
-        encoded.append(tokens)
-    return encoded
+    import difflib
+
+    sat_sigs = [hash(stable_signature(e)) for e in entries]
+    ps_sigs = [hash(stable_signature(t)) for t in ps1_tokens]
+    matcher = difflib.SequenceMatcher(a=sat_sigs, b=ps_sigs, autojunk=False)
+    mapping: dict[int, int] = {}
+    for a0, b0, n in matcher.get_matching_blocks():
+        for k in range(n):
+            mapping[a0 + k] = b0 + k + 1  # PS1 records are 1-based
+    unmatched = [i for i in range(len(entries)) if i not in mapping]
+    return mapping, unmatched
 
 
 def stable_signature(tokens: list[int]) -> tuple[int, ...]:
@@ -88,57 +84,6 @@ def ps1_chunk_records(ps1_scen: bytes, chunk_index: int) -> list[list[int]]:
         a, b = block.record_span(idx)
         out.append(words_from_bytes(ps1_scen[start + a:start + b]))
     return out
-
-
-def count_exact_alignments(sat_sigs: list[tuple[int, ...]],
-                           ps_sigs: list[tuple[int, ...]]) -> int:
-    """Count exact subsequence alignments, capped at 2."""
-    from functools import lru_cache
-
-    @lru_cache(None)
-    def walk(i: int, j: int) -> int:
-        if i == len(sat_sigs):
-            return 1
-        total = 0
-        for k in range(j, len(ps_sigs)):
-            if ps_sigs[k] == sat_sigs[i]:
-                total += walk(i + 1, k + 1)
-                if total >= 2:
-                    return total
-        return total
-
-    return walk(0, 0)
-
-
-def exact_signature_map(entries: list[list[int]], ps1_tokens: list[list[int]]) -> list[int] | None:
-    sat_sigs = [stable_signature(entry) for entry in entries]
-    ps_sigs = [stable_signature(entry) for entry in ps1_tokens]
-    if count_exact_alignments(sat_sigs, ps_sigs) != 1:
-        return None
-    mapping: list[int] = []
-    j = 0
-    for sig in sat_sigs:
-        while j < len(ps_sigs) and ps_sigs[j] != sig:
-            j += 1
-        if j >= len(ps_sigs):
-            return None
-        mapping.append(j + 1)  # PS1 SCEN records are 1-based in dump files.
-        j += 1
-    return mapping
-
-
-def align_by_signature(entries: list[list[int]], records: dict[int, str],
-                       codec: Codec, ps1_tokens: list[list[int]]) -> list[list[int]] | None:
-    mapping = exact_signature_map(entries, ps1_tokens)
-    if mapping is None:
-        return None
-    encoded: list[list[int]] = []
-    for record_index in mapping:
-        text = records.get(record_index)
-        if text is None:
-            return None
-        encoded.append(codec.encode(text))
-    return encoded
 
 
 def load_mapping(path: Path | None) -> dict:
@@ -198,41 +143,6 @@ def expand_record_map(spec: dict, entry_count: int) -> dict[int, object]:
     return out
 
 
-def align_by_mapping(entries: list[list[int]], records: dict[int, str],
-                     platform_records: dict[int, str], codec: Codec,
-                     spec: dict, chunk_index: int) -> list[list[int]]:
-    mapping = expand_record_map(spec, len(entries))
-    missing = [idx for idx in range(len(entries)) if idx not in mapping]
-    if missing:
-        raise SystemExit(
-            f"Saturn SCEN chunk {chunk_index:03d}: mapping does not cover "
-            f"entries {missing[:12]}"
-        )
-    encoded: list[list[int]] = []
-    for saturn_index in range(len(entries)):
-        target = mapping[saturn_index]
-        if isinstance(target, int):
-            text = records.get(target)
-            if text is None:
-                raise SystemExit(
-                    f"Saturn SCEN chunk {chunk_index:03d} entry {saturn_index}: "
-                    f"PS1 record {target} not found"
-                )
-            encoded.append(codec.encode(text))
-        elif "platform" in target:
-            platform_index = int(target["platform"])
-            text = platform_records.get(platform_index)
-            if text is None:
-                raise SystemExit(
-                    f"Saturn SCEN chunk {chunk_index:03d} entry {saturn_index}: "
-                    f"platform record {platform_index} not found"
-                )
-            encoded.append(codec.encode(text))
-        else:
-            encoded.append(entries[saturn_index])
-    return encoded
-
-
 def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
                ps1_scen: bytes | None = None, *,
                mapping: dict | None = None,
@@ -240,10 +150,22 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
                platform_code: str = "saturn",
                strict: bool = True,
                no_grow: bool = False) -> tuple[bytes, dict]:
+    """Insert the translation, treating PS1 strictly as a *reference*.
+
+    Every Saturn entry takes a PS1 record's translation only when both JP
+    originals stable-signature-match (automatic monotone alignment, or an
+    explicit `ps1` mapping target — verified the same way). Saturn entries
+    with no proven counterpart carry Saturn-edited content: they must be
+    covered by a platform record, or explicitly preserved (pending
+    translation); anything else is a build error.
+    """
+    if ps1_scen is None:
+        raise SystemExit("apply_scen needs the PS1 SCEN.DAT reference")
     blocks = parse_catalog(data)
-    stats = {"blocks": len(blocks), "applied": 0, "skipped_misaligned": 0,
-             "entries_written": 0, "missing_dump": 0, "signature_aligned": 0,
-             "mapped": 0, "empty_skipped": 0, "skipped_over_budget": 0}
+    stats = {"blocks": len(blocks), "applied": 0,
+             "entries_written": 0, "missing_dump": 0,
+             "mapped": 0, "empty_skipped": 0, "skipped_over_budget": 0,
+             "platform_records": 0, "preserved_pending": 0}
     mapping = mapping or {"empty_chunks": [], "chunks": {}}
     empty_chunks = {int(x) for x in mapping.get("empty_chunks", [])}
     chunk_specs = {int(k): v for k, v in (mapping.get("chunks") or {}).items()}
@@ -263,30 +185,80 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
                 fatal.append(f"chunk {chunk_index:03d}: missing common language chunk")
             continue
         records = parse_dump_file(dump_path)  # {1-based idx: text}
+        ps1_tokens = ps1_chunk_records(ps1_scen, chunk_index)
+        auto, unmatched = monotone_signature_alignment(entries, ps1_tokens)
+        targets: dict[int, object] = dict(auto)
+        for idx in unmatched:
+            targets[idx] = {"unmatched": True}
         spec = chunk_specs.get(chunk_index)
         if spec is not None:
-            platform_records = (
-                platform_scen_records(lang_root, platform_code, chunk_index)
-                if lang_root is not None else {}
-            )
-            new_entries = align_by_mapping(
-                entries, records, platform_records, codec, spec, chunk_index
-            )
+            # Explicit platform/preserve/ps1 entries override the automatic
+            # alignment for individual records; ps1 targets are still
+            # signature-verified below like the automatic ones.
+            targets.update(expand_record_map(spec, len(entries)))
             stats["mapped"] += 1
-        else:
-            new_entries = align_prefix(entries, records, codec)
-        if new_entries is None:
-            if ps1_scen is not None:
-                new_entries = align_by_signature(
-                    entries, records, codec, ps1_chunk_records(ps1_scen, chunk_index)
-                )
-                if new_entries is not None:
-                    stats["signature_aligned"] += 1
-            if new_entries is None:
-                stats["skipped_misaligned"] += 1
+        platform_records = (
+            platform_scen_records(lang_root, platform_code, chunk_index)
+            if lang_root is not None else {}
+        )
+        new_entries: list[list[int]] = []
+        chunk_fatal: list[str] = []
+        for saturn_index in range(len(entries)):
+            target = targets.get(saturn_index)
+            if isinstance(target, int):
+                if not (1 <= target <= len(ps1_tokens)) or (
+                    stable_signature(entries[saturn_index])
+                    != stable_signature(ps1_tokens[target - 1])
+                ):
+                    chunk_fatal.append(
+                        f"chunk {chunk_index:03d} entry {saturn_index}: mapped "
+                        f"PS1 record {target} does not match the Saturn original "
+                        "(needs a platform record)"
+                    )
+                    new_entries.append(entries[saturn_index])
+                    continue
+                text = records.get(target)
+                if text is None:
+                    chunk_fatal.append(
+                        f"chunk {chunk_index:03d} entry {saturn_index}: PS1 "
+                        f"record {target} not found in the language chunk"
+                    )
+                    new_entries.append(entries[saturn_index])
+                    continue
+                new_entries.append(codec.encode(text))
+            elif isinstance(target, dict) and "platform" in target:
+                platform_index = int(target["platform"])
+                text = platform_records.get(platform_index)
+                if text is None:
+                    chunk_fatal.append(
+                        f"chunk {chunk_index:03d} entry {saturn_index}: platform "
+                        f"record {platform_index} not found"
+                    )
+                    new_entries.append(entries[saturn_index])
+                    continue
+                stats["platform_records"] += 1
+                new_entries.append(codec.encode(text))
+            elif isinstance(target, dict) and target.get("preserve"):
+                stats["preserved_pending"] += 1
+                new_entries.append(entries[saturn_index])
+            elif isinstance(target, dict) and target.get("unmatched"):
                 if strict:
-                    fatal.append(f"chunk {chunk_index:03d}: no proven Saturn<->PS1 mapping")
-                continue
+                    chunk_fatal.append(
+                        f"chunk {chunk_index:03d} entry {saturn_index}: Saturn "
+                        "original has no matching PS1 record (needs a platform "
+                        "record or an explicit preserve)"
+                    )
+                stats["preserved_pending"] += 1
+                new_entries.append(entries[saturn_index])
+            else:
+                chunk_fatal.append(
+                    f"chunk {chunk_index:03d} entry {saturn_index}: mapping does "
+                    "not cover this entry"
+                )
+                new_entries.append(entries[saturn_index])
+        if chunk_fatal:
+            fatal.extend(chunk_fatal)
+            continue
         if no_grow:
             _, total_size, _ = local_index_layout(data, start, used)
             packed = 4 + len(new_entries) * 2 + sum(len(w) for w in new_entries) * 2
@@ -354,10 +326,10 @@ def main() -> None:
     print(
         f"applied {stats['applied']}/{stats['blocks']} blocks, "
         f"{stats['entries_written']} entries; "
-        f"signature-aligned={stats['signature_aligned']} "
         f"mapped={stats['mapped']} "
+        f"platform-records={stats['platform_records']} "
+        f"preserved-pending={stats['preserved_pending']} "
         f"empty-skipped={stats['empty_skipped']} "
-        f"skipped(misaligned)={stats['skipped_misaligned']} "
         f"missing-dump={stats['missing_dump']} "
         f"skipped-over-budget={stats['skipped_over_budget']}; "
         f"file grew {stats['grown_bytes']} bytes -> {out_path}"

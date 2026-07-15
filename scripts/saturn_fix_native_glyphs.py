@@ -39,106 +39,12 @@ import json
 import re
 from pathlib import Path
 
-from lang5_binfmt import BE
 from lang5_build_font import GLYPH_BYTES, NATIVE_VISUAL_OVERRIDES
-from lang5_offsetgroups import PS1 as PS1_CFG
-from lang5_offsetgroups import SATURN as SATURN_CFG
-from lang5_offsetgroups import find_groups
 from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
-from lang5_saturn_apply import load_mapping as load_scen_mapping
-from lang5_saturn_system_pack import expand_group_map, load_mapping as load_system_mapping
 from lang5_sceninsert import parse_dump_file
 
 TAG_RE = re.compile(r"<\$[0-9A-Fa-f]{4}>")
 PLANE_SLOTS = 1835   # both fonts end at slot 1834; Saturn data follows
-
-
-def scen_effective_texts(translation_root: Path, platform_scen_dir: Path,
-                         scen_mapping: dict) -> list[str]:
-    """The SCEN texts the Saturn apply will actually encode.
-
-    Chunks with a platform spec contribute exactly the PS1 records and
-    platform records the spec selects; unspecified chunks align by identity,
-    so every common record counts.
-    """
-    chunk_specs = {int(k): v for k, v in (scen_mapping.get("chunks") or {}).items()}
-    texts: list[str] = []
-    for fp in sorted(translation_root.glob("*/chunk_*.txt")):
-        m = re.match(r"chunk_(\d+)$", fp.stem)
-        if not m:
-            continue
-        chunk_index = int(m.group(1))
-        records = parse_dump_file(fp)
-        spec = chunk_specs.get(chunk_index)
-        if spec is None:
-            texts.extend(records.values())
-            continue
-        platform_file = platform_scen_dir / f"chunk_{chunk_index:03d}.txt"
-        platform_records = parse_dump_file(platform_file) if platform_file.exists() else {}
-        # Mirror lang5_saturn_apply.expand_record_map: entries override ranges.
-        targets: dict[int, object] = {}
-        for item in spec.get("ranges", []):
-            saturn, count = int(item["saturn"]), int(item["count"])
-            if "ps1" in item:
-                for off in range(count):
-                    targets[saturn + off] = int(item["ps1"]) + off
-            elif "platform" in item:
-                for off in range(count):
-                    targets[saturn + off] = {"platform": int(item["platform"]) + off}
-        for item in spec.get("entries", []):
-            saturn = int(item["saturn"])
-            if "ps1" in item:
-                targets[saturn] = int(item["ps1"])
-            elif "platform" in item:
-                targets[saturn] = {"platform": int(item["platform"])}
-            elif item.get("preserve"):
-                targets[saturn] = {"preserve": True}
-        for target in targets.values():
-            if isinstance(target, int):
-                if target in records:
-                    texts.append(records[target])
-            elif "platform" in target:
-                idx = int(target["platform"])
-                if idx not in platform_records:
-                    raise SystemExit(
-                        f"chunk {chunk_index:03d}: platform record {idx} "
-                        f"missing in {platform_file}")
-                texts.append(platform_records[idx])
-    return texts
-
-
-def system_effective_texts(translations: dict, platform_overlay: dict,
-                           system_mapping: dict, saturn_orig: bytes,
-                           ps1_system: bytes) -> list[str]:
-    """The SYSTEM strings the Saturn pack will actually encode."""
-    sat_groups = find_groups(saturn_orig, SATURN_CFG)
-    ps1_groups = find_groups(ps1_system, PS1_CFG)
-    group_specs = {int(k): v for k, v in (system_mapping.get("groups") or {}).items()}
-    texts: list[str] = []
-    for gi, (table_off, table, _base) in enumerate(sat_groups):
-        n = len(table)
-        ps1_table_off = ps1_groups[gi][0] if gi < len(ps1_groups) else None
-        spec = group_specs.get(gi)
-        if spec is None:
-            for k in range(n):
-                text = translations.get(f"table:{ps1_table_off:05X}:{k}")
-                if text:
-                    texts.append(text)
-            continue
-        for target in expand_group_map(spec, n).values():
-            text = None
-            if isinstance(target, int):
-                text = translations.get(f"table:{ps1_table_off:05X}:{target}")
-            elif "ps1_id" in target:
-                text = translations.get(str(target["ps1_id"]))
-            elif "platform" in target:
-                platform_id = str(target["platform"])
-                text = platform_overlay.get(platform_id)
-                if text is None:
-                    raise SystemExit(f"missing platform SYSTEM translation: {platform_id}")
-            if text:
-                texts.append(text)
-    return texts
 
 
 def chars_of(texts: list[str], grid: Path | None) -> set[str]:
@@ -188,20 +94,21 @@ def glyph(plane: bytes, tok: int) -> bytes:
 
 
 def cmd_plan(args: argparse.Namespace, lang, platform_dir: Path) -> None:
-    translations = json.loads(Path(args.strings).read_text(encoding="utf-8"))
-    overlay_path = platform_dir / "system_strings.json"
-    platform_overlay = (json.loads(overlay_path.read_text(encoding="utf-8"))
-                        if overlay_path.exists() else {})
+    # The build copies are already normalized by saturn_apply_text_overrides
+    # (platform records inlined, shadowed SYSTEM ids removed), so the
+    # effective character set is simply everything those copies plus the
+    # platform records and overlay contain.
     sat = Path(args.saturn_orig).read_bytes()
     ps1 = Path(args.ps1_system).read_bytes()
-    texts = scen_effective_texts(
-        Path(args.translation_root), platform_dir / "SCEN",
-        load_scen_mapping(Path(args.scen_mapping)),
-    )
-    texts += system_effective_texts(
-        translations, platform_overlay,
-        load_system_mapping(Path(args.system_mapping)), sat, ps1,
-    )
+    texts: list[str] = []
+    for fp in sorted(Path(args.translation_root).glob("*/chunk_*.txt")):
+        texts.extend(parse_dump_file(fp).values())
+    for fp in sorted((platform_dir / "SCEN").glob("chunk_*.txt")):
+        texts.extend(parse_dump_file(fp).values())
+    texts.extend(json.loads(Path(args.strings).read_text(encoding="utf-8")).values())
+    overlay_path = platform_dir / "system_strings.json"
+    if overlay_path.exists():
+        texts.extend(json.loads(overlay_path.read_text(encoding="utf-8")).values())
     effective = chars_of(texts, lang.name_entry_grid)
 
     natives = ps1_native_tokens(Path(args.groups_report))
@@ -290,8 +197,6 @@ def main() -> None:
     ap.add_argument("--translation-root", default=None)
     ap.add_argument("--strings", default=None,
                     help="plan: resolved common SYSTEM strings JSON.")
-    ap.add_argument("--scen-mapping", default="data/platforms/saturn/scen_mapping.json")
-    ap.add_argument("--system-mapping", default="data/platforms/saturn/system_mapping.json")
     ap.add_argument("--tbl", default=None, help="apply: .tbl rewritten in place.")
     ap.add_argument("--assignments", default=None,
                     help="apply: build font slot assignments CSV.")
