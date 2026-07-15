@@ -29,31 +29,119 @@ from saturn_scen import (local_index_entries, local_index_layout, parse_catalog,
                          repack_scen)
 
 
-def monotone_signature_alignment(
-    entries: list[list[int]], ps1_tokens: list[list[int]],
-) -> tuple[dict[int, int], list[int]]:
-    """Prove Saturn->PS1 record correspondence by stable-signature equality.
+WILDCARD = object()   # an unresolved rare Saturn kanji: matches nothing exactly
 
-    PS1 is a *reference*, never an override: a Saturn entry may take the PS1
-    record's translation only when both originals carry the identical stable
-    token signature (kana/ASCII/controls — the kanji bank is reordered between
-    consoles and cannot be compared). Order-preserving longest matching over
-    the signatures handles insertions/deletions on either side. Returns
-    `{saturn_index: ps1_record (1-based)}` plus the Saturn entries with no
-    proven counterpart — those hold Saturn-edited content and must come from
-    platform records (or stay preserved until translated).
+
+class Normalizer:
+    """Normalize both consoles' token streams to comparable text.
+
+    Tokens are font-slot numbers, so raw ids are incomparable across consoles
+    in the reordered kanji bank (>= 0x185). Normalization turns each token
+    into its character: the shared low range and controls directly, Saturn
+    kanji through the derived platform `kanji_map`. A rare Saturn kanji the
+    map could not resolve becomes a `WILDCARD` that never *proves* equality.
+    """
+
+    def __init__(self, ps1_charmap: dict[int, str], kanji_map: dict[int, str]):
+        self.ps1_charmap = ps1_charmap
+        self.kanji_map = kanji_map
+
+    def _sym(self, token: int, saturn: bool) -> object:
+        if token >= 0xE000:
+            return f"<{token:04X}>"
+        if token < 0x0185 or not saturn:
+            return self.ps1_charmap.get(token, f"[{token:04X}]")
+        char = self.kanji_map.get(token)
+        return char if char is not None else WILDCARD
+
+    def normalize(self, tokens: list[int], *, saturn: bool) -> tuple:
+        toks = list(tokens)
+        while toks and toks[-1] == 0xFFFF:
+            toks.pop()
+        return tuple(self._sym(t, saturn) for t in toks)
+
+
+def monotone_alignment(
+    entries: list[list[int]], ps1_tokens: list[list[int]],
+    norm: Normalizer | None,
+) -> tuple[dict[int, int], list[int]]:
+    """Prove Saturn->PS1 record correspondence; PS1 is a reference only.
+
+    Pass 1 matches order-preservingly on the *normalized text* of both
+    originals (kanji included, through the platform map) — full equality.
+    Pass 2 catches records containing unresolved rare kanji: they match on
+    the stable signature (kana/ASCII/controls), verified position-by-position
+    on the normalized text with wildcards allowed only at the unresolved
+    spots. Returns `{saturn_index: ps1_record (1-based)}` plus the Saturn
+    entries with no proven counterpart — Saturn-edited content that must come
+    from platform records (or stay preserved until translated).
     """
     import difflib
 
-    sat_sigs = [hash(stable_signature(e)) for e in entries]
-    ps_sigs = [hash(stable_signature(t)) for t in ps1_tokens]
-    matcher = difflib.SequenceMatcher(a=sat_sigs, b=ps_sigs, autojunk=False)
+    def blocks(a: list, b: list) -> dict[int, int]:
+        matcher = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
+        out: dict[int, int] = {}
+        for a0, b0, n in matcher.get_matching_blocks():
+            for k in range(n):
+                out[a0 + k] = b0 + k
+        return out
+
     mapping: dict[int, int] = {}
-    for a0, b0, n in matcher.get_matching_blocks():
-        for k in range(n):
-            mapping[a0 + k] = b0 + k + 1  # PS1 records are 1-based
+    if norm is not None:
+        sat_norm = [norm.normalize(e, saturn=True) for e in entries]
+        ps_norm = [norm.normalize(t, saturn=False) for t in ps1_tokens]
+        exact = blocks([hash(x) for x in sat_norm],
+                       [hash(x) for x in ps_norm])
+        mapping = {a: b + 1 for a, b in exact.items()}
+        rest_sat = [i for i in range(len(entries)) if i not in mapping]
+        rest_ps = [j for j in range(len(ps1_tokens))
+                   if j + 1 not in set(mapping.values())]
+        if rest_sat and rest_ps:
+            sig = blocks([hash(stable_signature(entries[i])) for i in rest_sat],
+                         [hash(stable_signature(ps1_tokens[j])) for j in rest_ps])
+            for ai, bj in sig.items():
+                si, pj = rest_sat[ai], rest_ps[bj]
+                a, b = sat_norm[si], ps_norm[pj]
+                if len(a) == len(b) and all(
+                    x is WILDCARD or x == y for x, y in zip(a, b)
+                ):
+                    mapping[si] = pj + 1
+    else:
+        sig = blocks([hash(stable_signature(e)) for e in entries],
+                     [hash(stable_signature(t)) for t in ps1_tokens])
+        mapping = {a: b + 1 for a, b in sig.items()}
     unmatched = [i for i in range(len(entries)) if i not in mapping]
     return mapping, unmatched
+
+
+def proven_equal(norm: Normalizer | None, sat_tokens: list[int],
+                 ps1_rec: list[int]) -> bool:
+    """One pair's proof: normalized-text equality, wildcards only at
+    unresolved rare kanji; falls back to the stable signature without a map."""
+    if norm is None:
+        return stable_signature(sat_tokens) == stable_signature(ps1_rec)
+    a = norm.normalize(sat_tokens, saturn=True)
+    b = norm.normalize(ps1_rec, saturn=False)
+    if len(a) != len(b):
+        return False
+    return all(x is WILDCARD or x == y for x, y in zip(a, b))
+
+
+def load_kanji_map(path: Path | None) -> dict[int, str]:
+    if path is None or not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    return {int(k, 16): v for k, v in raw.items()}
+
+
+def ps1_charmap_from_report(groups_report: Path) -> dict[int, str]:
+    import csv
+
+    out: dict[int, str] = {}
+    for row in csv.DictReader(open(groups_report, encoding="utf-8")):
+        if row["index_dec"].isdigit() and row["char"]:
+            out[int(row["index_dec"])] = row["char"]
+    return out
 
 
 def stable_signature(tokens: list[int]) -> tuple[int, ...]:
@@ -149,7 +237,8 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
                lang_root: Path | None = None,
                platform_code: str = "saturn",
                strict: bool = True,
-               no_grow: bool = False) -> tuple[bytes, dict]:
+               no_grow: bool = False,
+               norm: Normalizer | None = None) -> tuple[bytes, dict]:
     """Insert the translation, treating PS1 strictly as a *reference*.
 
     Every Saturn entry takes a PS1 record's translation only when both JP
@@ -186,7 +275,7 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
             continue
         records = parse_dump_file(dump_path)  # {1-based idx: text}
         ps1_tokens = ps1_chunk_records(ps1_scen, chunk_index)
-        auto, unmatched = monotone_signature_alignment(entries, ps1_tokens)
+        auto, unmatched = monotone_alignment(entries, ps1_tokens, norm)
         targets: dict[int, object] = dict(auto)
         for idx in unmatched:
             targets[idx] = {"unmatched": True}
@@ -206,9 +295,8 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
         for saturn_index in range(len(entries)):
             target = targets.get(saturn_index)
             if isinstance(target, int):
-                if not (1 <= target <= len(ps1_tokens)) or (
-                    stable_signature(entries[saturn_index])
-                    != stable_signature(ps1_tokens[target - 1])
+                if not (1 <= target <= len(ps1_tokens)) or not proven_equal(
+                    norm, entries[saturn_index], ps1_tokens[target - 1]
                 ):
                     chunk_fatal.append(
                         f"chunk {chunk_index:03d} entry {saturn_index}: mapped "
@@ -311,6 +399,9 @@ def main() -> None:
     codec = Codec(load_charmap_tbl(tbl))
     data = Path(args.scen).read_bytes()
     ps1_scen = Path(args.ps1_scen).read_bytes() if args.ps1_scen else None
+    from lang5_project import COMMON_FONT_MAP
+    norm = Normalizer(ps1_charmap_from_report(COMMON_FONT_MAP),
+                      load_kanji_map(platform.kanji_map))
     out, stats = apply_scen(
         data, lang.script_dir, codec, ps1_scen,
         mapping=mapping,
@@ -318,6 +409,7 @@ def main() -> None:
         platform_code=platform.code,
         strict=not args.allow_unmapped,
         no_grow=args.no_grow,
+        norm=norm,
     )
 
     out_path = Path(args.out_scen)

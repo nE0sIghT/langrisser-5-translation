@@ -41,21 +41,6 @@
           "saturn": 101,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 106,
-          "platform": 106,
-          "auto_from_ps1": 123
-        },
-        {
-          "saturn": 108,
-          "platform": 108,
-          "auto_from_ps1": 124
-        },
-        {
-          "saturn": 129,
-          "platform": 129,
-          "auto_from_ps1": 130
         }
       ]
     },
@@ -79,11 +64,6 @@
           "saturn": 125,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 168,
-          "preserve": true,
-          "pending_review": true
         }
       ]
     },
@@ -93,11 +73,6 @@
           "saturn": 103,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 113,
-          "platform": 113,
-          "auto_from_ps1": 114
         }
       ]
     },
@@ -157,96 +132,6 @@
           "saturn": 56,
           "platform": 56,
           "auto_from_ps1": 130
-        },
-        {
-          "saturn": 97,
-          "platform": 97,
-          "auto_from_ps1": 89
-        },
-        {
-          "saturn": 123,
-          "platform": 123,
-          "auto_from_ps1": 108
-        },
-        {
-          "saturn": 124,
-          "platform": 124,
-          "auto_from_ps1": 109
-        },
-        {
-          "saturn": 125,
-          "platform": 125,
-          "auto_from_ps1": 110
-        },
-        {
-          "saturn": 126,
-          "platform": 126,
-          "auto_from_ps1": 111
-        },
-        {
-          "saturn": 127,
-          "platform": 127,
-          "auto_from_ps1": 112
-        },
-        {
-          "saturn": 128,
-          "platform": 128,
-          "auto_from_ps1": 113
-        },
-        {
-          "saturn": 129,
-          "platform": 129,
-          "auto_from_ps1": 114
-        },
-        {
-          "saturn": 130,
-          "platform": 130,
-          "auto_from_ps1": 115
-        },
-        {
-          "saturn": 131,
-          "platform": 131,
-          "auto_from_ps1": 116
-        },
-        {
-          "saturn": 132,
-          "platform": 132,
-          "auto_from_ps1": 117
-        },
-        {
-          "saturn": 133,
-          "platform": 133,
-          "auto_from_ps1": 118
-        },
-        {
-          "saturn": 134,
-          "platform": 134,
-          "auto_from_ps1": 131
-        },
-        {
-          "saturn": 135,
-          "platform": 135,
-          "auto_from_ps1": 132
-        },
-        {
-          "saturn": 136,
-          "platform": 136,
-          "auto_from_ps1": 133
-        },
-        {
-          "saturn": 137,
-          "platform": 137,
-          "auto_from_ps1": 134
-        },
-        {
-          "saturn": 138,
-          "platform": 138,
-          "auto_from_ps1": 135
-        },
-        {
-          "saturn": 139,
-          "platform": 139,
-          "auto_from_ps1": 136
         }
       ]
     },
@@ -291,34 +176,6 @@
           "saturn": 39,
           "platform": 39,
           "auto_from_ps1": 157
-        }
-      ]
-    },
-    "20": {
-      "entries": [
-        {
-          "saturn": 113,
-          "platform": 113,
-          "auto_from_ps1": 122
-        }
-      ]
-    },
-    "21": {
-      "entries": [
-        {
-          "saturn": 97,
-          "platform": 97,
-          "auto_from_ps1": 109
-        },
-        {
-          "saturn": 98,
-          "platform": 98,
-          "auto_from_ps1": 110
-        },
-        {
-          "saturn": 99,
-          "platform": 99,
-          "auto_from_ps1": 111
         }
       ]
     },
@@ -448,11 +305,6 @@
           "saturn": 102,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 122,
-          "platform": 122,
-          "auto_from_ps1": 127
         }
       ]
     },
@@ -462,11 +314,6 @@
           "saturn": 23,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 79,
-          "platform": 79,
-          "auto_from_ps1": 80
         }
       ]
     },
@@ -482,381 +329,109 @@
     "25": {
       "entries": [
         {
-          "saturn": 57,
-          "platform": 57,
-          "auto_from_ps1": 130
+          "saturn": 117,
+          "platform": 117,
+          "auto_from_ps1": 110
         },
         {
-          "saturn": 58,
-          "platform": 58,
-          "auto_from_ps1": 131
-        },
-        {
-          "saturn": 59,
-          "platform": 59,
-          "auto_from_ps1": 132
-        },
-        {
-          "saturn": 60,
-          "platform": 60,
-          "auto_from_ps1": 133
-        },
-        {
-          "saturn": 62,
-          "platform": 62,
-          "auto_from_ps1": 134
-        },
-        {
-          "saturn": 63,
-          "platform": 63,
-          "auto_from_ps1": 135
-        },
-        {
-          "saturn": 64,
-          "platform": 64,
-          "auto_from_ps1": 136
-        },
-        {
-          "saturn": 65,
-          "platform": 65,
-          "auto_from_ps1": 137
-        },
-        {
-          "saturn": 66,
-          "platform": 66,
-          "auto_from_ps1": 138
-        },
-        {
-          "saturn": 67,
-          "platform": 67,
-          "auto_from_ps1": 139
-        },
-        {
-          "saturn": 136,
-          "platform": 136,
-          "auto_from_ps1": 129
+          "saturn": 127,
+          "platform": 127,
+          "auto_from_ps1": 120
         }
       ]
     },
     "26": {
       "entries": [
         {
-          "saturn": 37,
-          "platform": 37,
-          "auto_from_ps1": 110
+          "saturn": 68,
+          "platform": 68,
+          "auto_from_ps1": 50
         },
         {
-          "saturn": 38,
-          "platform": 38,
-          "auto_from_ps1": 111
+          "saturn": 69,
+          "platform": 69,
+          "auto_from_ps1": 51
         },
         {
-          "saturn": 39,
-          "platform": 39,
-          "auto_from_ps1": 112
+          "saturn": 75,
+          "platform": 75,
+          "auto_from_ps1": 57
         },
         {
-          "saturn": 40,
-          "platform": 40,
-          "auto_from_ps1": 113
-        },
-        {
-          "saturn": 41,
-          "platform": 41,
-          "auto_from_ps1": 114
-        },
-        {
-          "saturn": 42,
-          "platform": 42,
-          "auto_from_ps1": 115
-        },
-        {
-          "saturn": 43,
-          "platform": 43,
-          "auto_from_ps1": 116
-        },
-        {
-          "saturn": 44,
-          "platform": 44,
-          "auto_from_ps1": 117
-        },
-        {
-          "saturn": 45,
-          "platform": 45,
-          "auto_from_ps1": 118
-        },
-        {
-          "saturn": 46,
-          "platform": 46,
-          "auto_from_ps1": 119
-        },
-        {
-          "saturn": 47,
-          "platform": 47,
-          "auto_from_ps1": 120
-        },
-        {
-          "saturn": 48,
-          "platform": 48,
-          "auto_from_ps1": 121
-        },
-        {
-          "saturn": 49,
-          "platform": 49,
-          "auto_from_ps1": 122
-        },
-        {
-          "saturn": 50,
-          "platform": 50,
-          "auto_from_ps1": 123
-        },
-        {
-          "saturn": 51,
-          "platform": 51,
-          "auto_from_ps1": 124
-        },
-        {
-          "saturn": 52,
-          "platform": 52,
-          "auto_from_ps1": 125
-        },
-        {
-          "saturn": 53,
+          "saturn": 89,
           "preserve": true,
           "pending_review": true
         },
         {
-          "saturn": 54,
-          "platform": 54,
-          "auto_from_ps1": 127
-        },
-        {
-          "saturn": 55,
-          "preserve": true,
-          "pending_review": true
-        },
-        {
-          "saturn": 77,
-          "platform": 77,
-          "auto_from_ps1": 143
-        },
-        {
-          "saturn": 78,
-          "platform": 78,
-          "auto_from_ps1": 144
-        },
-        {
-          "saturn": 79,
-          "platform": 79,
-          "auto_from_ps1": 145
-        }
-      ]
-    },
-    "27": {
-      "entries": [
-        {
-          "saturn": 105,
-          "platform": 105,
-          "auto_from_ps1": 107
+          "saturn": 112,
+          "platform": 112,
+          "auto_from_ps1": 91
         }
       ]
     },
     "28": {
       "entries": [
         {
-          "saturn": 45,
-          "platform": 45,
-          "auto_from_ps1": 136
-        },
-        {
-          "saturn": 46,
-          "platform": 46,
-          "auto_from_ps1": 137
-        },
-        {
-          "saturn": 47,
-          "platform": 47,
-          "auto_from_ps1": 138
-        },
-        {
-          "saturn": 48,
-          "platform": 48,
-          "auto_from_ps1": 139
-        },
-        {
-          "saturn": 49,
-          "platform": 49,
-          "auto_from_ps1": 140
-        },
-        {
-          "saturn": 50,
-          "platform": 50,
-          "auto_from_ps1": 141
-        },
-        {
-          "saturn": 51,
-          "platform": 51,
-          "auto_from_ps1": 142
-        }
-      ]
-    },
-    "29": {
-      "entries": [
-        {
-          "saturn": 199,
-          "platform": 199,
-          "auto_from_ps1": 201
+          "saturn": 67,
+          "preserve": true,
+          "pending_review": true
         }
       ]
     },
     "30": {
       "entries": [
         {
-          "saturn": 7,
-          "platform": 7,
-          "auto_from_ps1": 7
+          "saturn": 28,
+          "preserve": true,
+          "pending_review": true
         },
         {
-          "saturn": 21,
-          "platform": 21,
-          "auto_from_ps1": 101
+          "saturn": 31,
+          "preserve": true,
+          "pending_review": true
         },
         {
-          "saturn": 22,
-          "platform": 22,
-          "auto_from_ps1": 102
-        },
-        {
-          "saturn": 23,
-          "platform": 23,
-          "auto_from_ps1": 103
-        },
-        {
-          "saturn": 24,
-          "platform": 24,
-          "auto_from_ps1": 104
-        },
-        {
-          "saturn": 25,
-          "platform": 25,
-          "auto_from_ps1": 105
-        }
-      ]
-    },
-    "31": {
-      "entries": [
-        {
-          "saturn": 38,
-          "platform": 38,
-          "auto_from_ps1": 132
-        },
-        {
-          "saturn": 39,
-          "platform": 39,
-          "auto_from_ps1": 133
-        },
-        {
-          "saturn": 40,
-          "platform": 40,
-          "auto_from_ps1": 134
-        },
-        {
-          "saturn": 41,
-          "platform": 41,
-          "auto_from_ps1": 135
-        },
-        {
-          "saturn": 42,
-          "platform": 42,
-          "auto_from_ps1": 136
+          "saturn": 90,
+          "platform": 90,
+          "auto_from_ps1": 86
         }
       ]
     },
     "32": {
       "entries": [
         {
-          "saturn": 7,
-          "platform": 7,
-          "auto_from_ps1": 11
-        },
-        {
           "saturn": 8,
           "platform": 8,
           "auto_from_ps1": 10
         },
         {
-          "saturn": 22,
-          "platform": 22,
-          "auto_from_ps1": 106
+          "saturn": 33,
+          "preserve": true,
+          "pending_review": true
         },
         {
-          "saturn": 23,
-          "platform": 23,
-          "auto_from_ps1": 107
-        },
-        {
-          "saturn": 24,
-          "platform": 24,
-          "auto_from_ps1": 108
-        },
-        {
-          "saturn": 25,
-          "platform": 25,
-          "auto_from_ps1": 109
-        },
-        {
-          "saturn": 26,
-          "platform": 26,
-          "auto_from_ps1": 110
-        },
-        {
-          "saturn": 27,
-          "platform": 27,
-          "auto_from_ps1": 111
-        },
-        {
-          "saturn": 28,
-          "platform": 28,
-          "auto_from_ps1": 112
-        },
-        {
-          "saturn": 98,
-          "platform": 98,
-          "auto_from_ps1": 105
+          "saturn": 73,
+          "platform": 73,
+          "auto_from_ps1": 75
         }
       ]
     },
     "33": {
       "entries": [
         {
-          "saturn": 34,
-          "platform": 34,
-          "auto_from_ps1": 135
-        },
-        {
-          "saturn": 35,
-          "platform": 35,
-          "auto_from_ps1": 136
-        },
-        {
-          "saturn": 36,
-          "platform": 36,
-          "auto_from_ps1": 137
-        },
-        {
-          "saturn": 37,
-          "platform": 37,
-          "auto_from_ps1": 138
-        },
-        {
-          "saturn": 38,
-          "platform": 38,
-          "auto_from_ps1": 139
-        },
-        {
           "saturn": 39,
           "platform": 39,
           "auto_from_ps1": 140
+        },
+        {
+          "saturn": 43,
+          "platform": 43,
+          "auto_from_ps1": 49
+        },
+        {
+          "saturn": 44,
+          "preserve": true,
+          "pending_review": true
         },
         {
           "saturn": 61,
@@ -874,9 +449,19 @@
           "auto_from_ps1": 36
         },
         {
-          "saturn": 129,
-          "platform": 129,
-          "auto_from_ps1": 134
+          "saturn": 74,
+          "platform": 74,
+          "auto_from_ps1": 79
+        },
+        {
+          "saturn": 79,
+          "preserve": true,
+          "pending_review": true
+        },
+        {
+          "saturn": 106,
+          "platform": 106,
+          "auto_from_ps1": 111
         }
       ]
     },
@@ -892,34 +477,9 @@
     "35": {
       "entries": [
         {
-          "saturn": 23,
-          "platform": 23,
-          "auto_from_ps1": 81
-        },
-        {
-          "saturn": 24,
-          "platform": 24,
-          "auto_from_ps1": 82
-        },
-        {
-          "saturn": 25,
-          "platform": 25,
-          "auto_from_ps1": 83
-        },
-        {
-          "saturn": 26,
-          "platform": 26,
-          "auto_from_ps1": 84
-        },
-        {
-          "saturn": 28,
+          "saturn": 30,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 29,
-          "platform": 29,
-          "auto_from_ps1": 86
         },
         {
           "saturn": 66,
@@ -989,6 +549,11 @@
     "39": {
       "entries": [
         {
+          "saturn": 109,
+          "preserve": true,
+          "pending_review": true
+        },
+        {
           "saturn": 121,
           "preserve": true,
           "pending_review": true
@@ -1011,29 +576,6 @@
           "saturn": 25,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 125,
-          "platform": 125,
-          "auto_from_ps1": 135
-        }
-      ]
-    },
-    "63": {
-      "entries": [
-        {
-          "saturn": 101,
-          "preserve": true,
-          "pending_review": true
-        }
-      ]
-    },
-    "64": {
-      "entries": [
-        {
-          "saturn": 35,
-          "preserve": true,
-          "pending_review": true
         }
       ]
     },
@@ -1051,36 +593,17 @@
         }
       ]
     },
-    "77": {
-      "entries": [
-        {
-          "saturn": 32,
-          "preserve": true,
-          "pending_review": true
-        }
-      ]
-    },
     "80": {
       "entries": [
         {
           "saturn": 269,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 291,
-          "platform": 291,
-          "auto_from_ps1": 307
         }
       ]
     },
     "92": {
       "entries": [
-        {
-          "saturn": 24,
-          "platform": 24,
-          "auto_from_ps1": 24
-        },
         {
           "saturn": 31,
           "platform": 31,
@@ -1104,11 +627,6 @@
           "saturn": 49,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 76,
-          "platform": 76,
-          "auto_from_ps1": 77
         }
       ]
     },
@@ -1118,11 +636,6 @@
           "saturn": 36,
           "preserve": true,
           "pending_review": true
-        },
-        {
-          "saturn": 48,
-          "platform": 48,
-          "auto_from_ps1": 49
         }
       ]
     },

@@ -47,6 +47,16 @@ class PlatformPack:
         return str(self._data.get("base_platform") or self.code)
 
     @property
+    def kanji_map(self) -> Path | None:
+        """Token->character map for the platform's reordered kanji bank.
+
+        Derived by `saturn_scen_audit.py` from positionally-matched record
+        pairs; lets both consoles' token streams be normalized to text and
+        compared directly.
+        """
+        return _path(self.root, self._data.get("kanji_map"))
+
+    @property
     def max_font_slot(self) -> int:
         """Highest glyph slot the platform's SYSTEM font plane can hold.
 

@@ -1,4 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-106	Проклятье!<$FFFE>
-108	Всё-таки догнали<$FFF8>… <$FFF6>Теперь остаётся<$FFFC>только бежать со всех ног<$FFF8>…<$FFFE>
-129	<$FB00><$0052>Отлично. Похоже, все выбрались.<$FFFE><$FFFF>

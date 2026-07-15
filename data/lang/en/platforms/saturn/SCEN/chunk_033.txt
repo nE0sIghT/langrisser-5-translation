@@ -1,11 +1,8 @@
 # Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-34	<$FB00><$004B>Will we make it？ The blue<$FFFC>moon has risen quite high.<$FFFE>
-35	<$FB00><$004C>The moon's nearing 30 degrees<$FFF5><$FFF8>… <$FFF6><$FB00><$004D>We<$FFFC>must hurry！<$FFFE>
-36	<$FB00><$0054>The stars are vanishing<$FFF5><$FFF8>… <$FFF6><$FB00><$0055>Are the<$FFFC>clouds thickening<$FFF5><$FFF8>…<$FFFE>
-37	<$FB00><$004E>What's this sound<$FFF5><$FFF8>… <$FFF7><$FB00><$004F>Hah！<$FFF5> <$FFF6><$FB00><$0050>The<$FFFC>moon, so high！<$FFFE>
-38	<$FB00><$0051>D, don't tell me, Gaiel<$FFF5><$FFF8>…<$FFF6><$FB00><$0052>along<$FFFC>with me<$FFF5><$FFF8>… <$FFF7><$FB00><$0053>Ugyaah！<$FFFE>
 39	<$FFF8><$FB00><$0056>Mugugu…！<$FFF5> <$FFF6><$FB00><$0057>To still be unbeaten<$FFFC>after all this<$FFF5><$FFF8>… <$FFF6><$FB00><$0058>The corpses around here<$FFFC>will run out！<$FFFD><$FB00><$0059>Argh, retreat for now！<$FFFE><$FFFF>
 61	Hey, if I don't head over soon,<$FFFC>my legs won't get me there in time…<$FFFE>
 62	Got it. We'll cover you. Head for<$FFFC>the device！<$FFFE>
 63	Right. I'm counting on your<$FFFC>cover.<$FFFE>
-129	<$FB00><$0073>Now we just attack the demon base<$FFFC>and take Alhazard.<$FFFE>
+43	<$FB00><$0030>BEGINNING SETUP.<$FFFC>SELECT THE WEATHER.<$FFFE>
+74	<$FB00><$0028>Well, no help for it. It's been<$FFFC>left alone a long time.<$FFF5> <$FB00><$0029>Can you find the<$FFFC>cause？<$FFFE>
+106	<$FB00><$0046>Hihihi！ Now the ultimate weapon's<$FFFC>power won't wane！ Victory to us demons！<$FFFE>

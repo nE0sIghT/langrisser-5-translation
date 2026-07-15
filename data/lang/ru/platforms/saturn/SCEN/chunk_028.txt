@@ -1,8 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-45	<$FB00><$0041>Г-Ё-О-О-ОН!<$FFFE>
-46	<$FB00><$004B>Так они таились под водой…<$FFFE>
-47	<$FB00><$004C>Что… засада?<$FFFE>
-48	<$FB00><$004D>З-засада?!<$FFFE>
-49	<$FB00><$004E>Засада - ловко придумали!<$FFFE>
-50	<$FB00><$004F>Э, засада в таком месте?<$FFFE>
-51	<$FB00><$0050>Засада - а демоны, выходит, не<$FFFC>без смекалки.<$FFFE>

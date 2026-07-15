@@ -1,4 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-97	<$FB00><$003E>It is finally over.<$FFFE>
-98	<$FB00><$003F>We lost time in an unexpected<$FFFC>place.<$FFFE>
-99	<$FB00><$0040>Then let us hurry.<$FFFE>

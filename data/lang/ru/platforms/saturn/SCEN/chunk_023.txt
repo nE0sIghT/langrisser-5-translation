@@ -1,2 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-79	<$FFF8>…<$FFF6><$FB00><$004D>Эрик<$FFF5><$FFF8>…<$FFF6><$FB00><$004E>Где же Эрик<$FFF5><$FFF8>…<$FFFE><$FFFF>

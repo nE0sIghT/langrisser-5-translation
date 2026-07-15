@@ -1,11 +1,3 @@
 # Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-7	Emily<$FFFF>
 8	Landius<$FFFF>
-22	<$FB00><$0019>Lord Lanford！<$FFFE>
-23	<$FB00><$001A>Emily？<$FFFE>
-24	<$FB00><$001B>It's little, but we'll lend our<$FFFC>strength too.<$FFFE>
-25	<$FB00><$001C>Hah, and Lord Lanford？<$FFFE>
-26	<$FB00><$001D>No need to worry. He's only<$FFFC>resting a while.<$FFFE>
-27	<$FB00><$001E>I see, good.<$FFFE>
-28	<$FB00><$001F>In Lanford's place, I'll do my<$FFFC>best！<$FFFE>
-98	<$FB00><$0037>Did we get him！<$FFFE>
+73	<$FB00><$0023>Heh, I see.<$FFF5><$FFF8> <$FFF6><$FB00><$0024>So I'm no longer<$FFFC>in the dishonor of a jailbreaker.<$FFFE>

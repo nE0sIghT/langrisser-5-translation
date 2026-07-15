@@ -1,2 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-113	<$FB00><$006A>Нет… так, мысли вслух.<$FFFE>

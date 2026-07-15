@@ -1,6 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-23	<$FB00><$001D>I can make out the blue moon<$FFFC>through the clouds<$FFF5><$FFF8>…<$FFFE>
-24	<$FB00><$001E>Just a little more.<$FFF5> <$FB00><$001F>The moment<$FFFC>the clouds fully break is your end！<$FFFE>
-25	<$FB00><$0020>Now, show yourself quickly,<$FFFC>Pelia！<$FFFE>
-26	<$FB00><$0021>No time！<$FFF5> <$FB00><$0022>We have to beat him at<$FFFC>once！<$FFFE>
-29	<$FB00><$002A>No！<$FFF5><$FFF7><$FFFE>

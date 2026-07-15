@@ -26,7 +26,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from lang5_saturn_apply import (load_mapping, monotone_signature_alignment,
+from lang5_saturn_apply import (Normalizer, load_mapping, monotone_alignment,
                                 ps1_chunk_records, stable_signature)
 from lang5_sceninsert import parse_dump_file
 from lang5_project import COMMON_FONT_MAP
@@ -54,7 +54,7 @@ def derive_saturn_kanji_map(sat: bytes, ps1: bytes, empty: set[int],
         if entries is None:
             continue
         ps1_tokens = ps1_chunk_records(ps1, ci)
-        mapping, _ = monotone_signature_alignment(entries, ps1_tokens)
+        mapping, _ = monotone_alignment(entries, ps1_tokens, None)
         for si, pr in mapping.items():
             se, pe = entries[si], ps1_tokens[pr - 1]
             if len(se) != len(pe):
@@ -119,6 +119,7 @@ def main() -> None:
                    ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
     dec_sat = decoder(merged)
     dec_ps1 = decoder(ps1map)
+    norm = Normalizer(ps1map, satkanji)
 
     report: list[str] = [
         "# Saturn-edited SCEN records pending platform translations",
@@ -138,7 +139,7 @@ def main() -> None:
         if entries is None:
             continue
         ps1_tokens = ps1_chunk_records(ps1, ci)
-        _, unmatched = monotone_signature_alignment(entries, ps1_tokens)
+        _, unmatched = monotone_alignment(entries, ps1_tokens, norm)
         old_spec = chunk_specs.get(ci, {})
         platform_entries = {
             int(item["saturn"]): item

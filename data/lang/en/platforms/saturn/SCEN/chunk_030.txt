@@ -1,7 +1,2 @@
 # Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-7	Guard<$FFFF>
-21	<$FB00><$004E>Sorry to keep you！<$FFFE>
-22	<$FB00><$004F>Kept you waiting！<$FFFE>
-23	<$FB00><$0050>Everyone！<$FFFE>
-24	<$FFF8><$FB00><$0051>Tch！<$FFF5> <$FFF6><$FB00><$0052>They're back already！<$FFFE>
-25	<$FB00><$0053>We can't get underground with them<$FFFC>still here. We beat them now！<$FFFE>
+90	<$FB00><$0064>…Only I can prove Lord Gizarof's<$FFFC>great work… only I<$FFF5><$FFF8>… <$FFF6><$FB00><$0065>I must win with this<$FFFC>power… for Lord Gizarof…<$FFFE>

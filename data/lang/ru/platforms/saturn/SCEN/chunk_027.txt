@@ -1,2 +1,0 @@
-# Auto-resolved Saturn records: the JP original provably equals the named PS1 record (duplicate/reordered line).
-105	<$FB00><$002E>Нет. Чтобы не дать вам сойтись<$FFFC>с господином в бою, я не отступлю, пусть<$FFFC>даже сгину.<$FFFE>

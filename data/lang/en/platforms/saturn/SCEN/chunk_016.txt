@@ -10,21 +10,3 @@
 54	<$FB00><$0050>I will teleport the hostage！<$FFFE>
 55	<$FB00><$0051>No<$FFF5><$FFF8>…<$FFFE>
 56	<$FB00><$0052>Do not let that commander reach<$FFFC>her！ Defeat him first！<$FFFE>
-97	…My promotion…<$FFFE>
-123	<$FB00><$006C>Thank you. Because of me, my<$FFFC>father<$FFF5><$FFF8>…<$FFFE>
-124	<$FB00><$006D>Yes, but it is all right now.<$FFFE>
-125	<$FB00><$006E>Now tell the archbishop she is<$FFFC>safe！<$FFFE>
-126	<$FB00><$006F>Um<$FFF5><$FFF8>…<$FFF6><$FB00><$0070>Can I help？ I heard you want to<$FFFC>change this country.<$FFFD><$FB00><$0071>I cannot fight, but I want to do what I<$FFFC>can.<$FFFE>
-127	<$FB00><$0072>Then can you heal the wounded？<$FFFE>
-128	<$FB00><$0073>Then I will treat them with Estor's<$FFFC>priests.<$FFFE>
-129	<$FB00><$0074>That would help.<$FFFE>
-130	<$FB00><$0075>Good, return to Estor for now！<$FFFE>
-131	<$FB00><$0045>Four units in all. No need to<$FFFC>teleport her. Crush them！<$FFFE>
-132	<$FB00><$0046>Yes sir！<$FFFE>
-133	<$FB00><$0047>All units, begin！<$FFFE>
-134	<$FB00><$005A>Hmmm！？ What is this<$FFF5><$FFF8>…？<$FFFE>
-135	<$FB00><$005B>That is<$FFF5><$FFF8>…！<$FFFE>
-136	<$FB00><$005C>Marquis Quaid！<$FFFE>
-137	<$FB00><$005D>Lord Quaid！<$FFFE>
-138	<$FB00><$005E>Back for another beating？<$FFFE>
-139	<$FB00><$005F>I will not let you run wild in my<$FFFC>territory！<$FFFE>
