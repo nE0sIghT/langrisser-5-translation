@@ -67,11 +67,18 @@ SATURN_CREDIT_SPECS = [
 
 @dataclass
 class Screen:
-    """The two tilemaps and shared cell store behind the title screen."""
+    """The two tilemaps and shared cell store behind the title screen.
+
+    The planes use different CRAM banks: the overlay's pattern-name entries
+    carry palette bits 0 (first descriptor CLUT), the background's carry
+    0x1000 (second CLUT) — visible in the (C) line, whose ink values are
+    light through CLUT 1 and black through CLUT 2.
+    """
 
     desc: bytearray
     cells: bytearray
-    palette: list[tuple[int, int, int]]
+    overlay_palette: list[tuple[int, int, int]]
+    background_palette: list[tuple[int, int, int]]
     nt1_off: int
     overlay: list[list[int]]      # cols1 x rows1 pattern-name entries
     background: list[list[int]]   # cols2 x rows2
@@ -90,10 +97,12 @@ def parse_screen(cont: sc.Container) -> Screen:
             f"unexpected TITLE descriptor layout: total {total:#x} != "
             f"tables end {nt2 + cols2 * rows2 * 2:#x}"
         )
-    clut = sc.image_clut_offset(desc)
-    if clut is None:
-        raise SystemExit("no image CLUT in the TITLE descriptor")
-    palette = sc.read_clut(bytes(desc), clut)
+    clut1 = sc.find_clut_offset(desc)
+    clut2 = sc.image_clut_offset(desc)
+    if clut1 is None or clut2 is None:
+        raise SystemExit("missing CLUTs in the TITLE descriptor")
+    overlay_palette = sc.read_clut(bytes(desc), clut1)
+    background_palette = sc.read_clut(bytes(desc), clut2)
 
     def table(off: int, cols: int, rows: int) -> list[list[int]]:
         return [
@@ -101,7 +110,7 @@ def parse_screen(cont: sc.Container) -> Screen:
             for cy in range(rows)
         ]
 
-    return Screen(desc, cells, palette, nt1,
+    return Screen(desc, cells, overlay_palette, background_palette, nt1,
                   table(nt1, cols1, rows1), table(nt2, cols2, rows2))
 
 
@@ -162,6 +171,20 @@ def hires_mask(line: str, font_path: str, spec: LineSpec, width: int) -> Image.I
     raise SystemExit(f"credit line does not fit {width}px: {line!r}")
 
 
+def overlay_alpha_table(palette: list[tuple[int, int, int]], transparent: int,
+                        target_rgb: tuple[int, int, int]) -> list[int]:
+    """Alpha -> overlay palette index along a black->target ramp."""
+    candidates = [(i, c) for i, c in enumerate(palette) if i != transparent]
+    table: list[int] = []
+    for alpha in range(256):
+        t = alpha / 255.0
+        desired = tuple(target_rgb[ch] * t for ch in range(3))
+        best, _ = min(candidates, key=lambda item: sum(
+            (item[1][ch] - desired[ch]) ** 2 for ch in range(3)))
+        table.append(best)
+    return table
+
+
 def stamp_overlay(screen: Screen, lines: list[str], font_path: str) -> None:
     plane = screen.overlay
     width, height = len(plane[0]) * 8, len(plane) * 8
@@ -171,8 +194,11 @@ def stamp_overlay(screen: Screen, lines: list[str], font_path: str) -> None:
 
     shim = SimpleNamespace(width=width, height=height,
                            background_index=transparent)
-    alpha_table = imd.title_alpha_table(screen.palette, shim,
-                                        imd.TITLE_CREDIT_TARGET_RGB)
+    # Ink comes from the overlay's own palette (CLUT 1) with no candidate
+    # filters: a plain black->target ramp mapped to the nearest palette
+    # colours, so the credits carry the same tones as the (C) line above.
+    alpha_table = overlay_alpha_table(screen.overlay_palette, transparent,
+                                      imd.TITLE_CREDIT_TARGET_RGB)
     for spec, line in zip(SATURN_CREDIT_SPECS, lines):
         raw = hires_mask(line, font_path, spec, width)
         imd.paste_alpha_mask(rows, shim, raw,
@@ -225,8 +251,9 @@ def screen_preview(screen: Screen) -> Image.Image:
         for x in range(width):
             value = fg[y][x]
             if value == transparent:
-                value = bg[y][x // 2]
-            px[x, y] = screen.palette[value]
+                px[x, y] = screen.background_palette[bg[y][x // 2]]
+            else:
+                px[x, y] = screen.overlay_palette[value]
     return img
 
 
