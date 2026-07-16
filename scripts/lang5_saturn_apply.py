@@ -375,6 +375,9 @@ def main() -> None:
                     help="PS1 SCEN.DAT used only for exact stable-token alignment")
     ap.add_argument("--mapping", default=None,
                     help="Platform SCEN mapping JSON (default: platform manifest value)")
+    ap.add_argument("--translation-root", default=None,
+                    help="Translated-text root override (the build passes its "
+                         "rewrapped/normalized copy; default: the language pack).")
     ap.add_argument("--allow-unmapped", action="store_true",
                     help="Diagnostic mode: preserve chunks whose mapping is not proven.")
     ap.add_argument("--no-grow", action="store_true",
@@ -398,8 +401,10 @@ def main() -> None:
     from lang5_project import COMMON_FONT_MAP
     norm = Normalizer(load_font_map_csv(COMMON_FONT_MAP),
                       load_font_map_csv(platform.kanji_map))
+    scen_dir = (Path(args.translation_root) / lang.script_dir.name
+                if args.translation_root else lang.script_dir)
     out, stats = apply_scen(
-        data, lang.script_dir, codec, ps1_scen,
+        data, scen_dir, codec, ps1_scen,
         mapping=mapping,
         lang_root=lang.root,
         platform_code=platform.code,

@@ -160,7 +160,8 @@ def main() -> None:
         "--scen2", args.ps1_scen2,
         "--max-slot", str(platform.max_font_slot),
         "--exclude-slots", glyph_plan,
-        "--extra-script-dir", lang.root / "platforms" / platform.code / "SCEN")
+        "--extra-script-dir", lang.root / "platforms" / platform.code / "SCEN",
+        "--extra-menu-strings", lang.root / "platforms" / platform.code / "system_strings.json")
 
     font_cmd = [
         scripts / "lang5_build_font.py",
@@ -261,6 +262,7 @@ def main() -> None:
         "--out-scen", scen_out,
         "--tbl", tbl,
         "--ps1-scen", args.ps1_scen,
+        "--translation-root", build_translation_root,
     ]
     if args.allow_unmapped:
         scen_cmd.append("--allow-unmapped")

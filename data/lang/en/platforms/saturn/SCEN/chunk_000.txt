@@ -1,6 +1,6 @@
 # Saturn-only records for chunk 000: the Saturn pad has A/B/C/X/Y/Z,
 # and the Saturn original says Cボタン where PS1 uses ○.
-8	Set the equipment the specimen will carry<$FFFC>on completion. Press the C button.<$FFFE>
+8	<$FB00><$001E>Set the equipment the specimen will carry<$FFFC>on completion. Press the C button.<$FFFE>
 # Entry 193 (PS1 record 198): command help is the A button on Saturn.
 193	Each stage opens with a story<$FFFC>scene, then moves to the <$FFF4>preparations<$FFFC>menu<$FFF3>.<$FFFD>There you hire mercenaries, trade and<$FFFC>equip items, and deploy commanders. Once<$FFFC>all are placed, <$FFF4>Deploy<$FFF3> starts the battle.<$FFFD>The first battlefield has no shop or<$FFFC>mercenary post, so you can only inspect<$FFFC>it. Deployment is fixed.<$FFFD>Press the <$FFF4>A button <$FFF3>on any command to view<$FFFC>its description.<$FFFE>
 80	・Amethyst<$FFFE>

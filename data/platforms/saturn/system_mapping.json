@@ -59,6 +59,10 @@
         {
           "saturn": 256,
           "platform": "table:08084:256"
+        },
+        {
+          "saturn": 212,
+          "platform": "table:08084:212"
         }
       ]
     },
@@ -283,6 +287,52 @@
           "ps1": 48,
           "count": 44
         }
+      ],
+      "entries": [
+        {
+          "saturn": 4,
+          "platform": "table:16D3C:4"
+        },
+        {
+          "saturn": 5,
+          "platform": "table:16D3C:5"
+        },
+        {
+          "saturn": 6,
+          "platform": "table:16D3C:6"
+        },
+        {
+          "saturn": 25,
+          "platform": "table:16D3C:25"
+        },
+        {
+          "saturn": 26,
+          "platform": "table:16D3C:26"
+        },
+        {
+          "saturn": 27,
+          "platform": "table:16D3C:27"
+        },
+        {
+          "saturn": 28,
+          "platform": "table:16D3C:28"
+        },
+        {
+          "saturn": 66,
+          "platform": "table:16D3C:66"
+        },
+        {
+          "saturn": 72,
+          "platform": "table:16D3C:72"
+        },
+        {
+          "saturn": 73,
+          "platform": "table:16D3C:73"
+        },
+        {
+          "saturn": 74,
+          "platform": "table:16D3C:74"
+        }
       ]
     },
     "14": {
@@ -305,6 +355,38 @@
         {
           "saturn": 42,
           "platform": "table:15A3C:42"
+        },
+        {
+          "saturn": 26,
+          "platform": "table:15A3C:26"
+        },
+        {
+          "saturn": 27,
+          "platform": "table:15A3C:27"
+        },
+        {
+          "saturn": 28,
+          "platform": "table:15A3C:28"
+        },
+        {
+          "saturn": 32,
+          "platform": "table:15A3C:32"
+        },
+        {
+          "saturn": 36,
+          "platform": "table:15A3C:36"
+        },
+        {
+          "saturn": 40,
+          "platform": "table:15A3C:40"
+        },
+        {
+          "saturn": 44,
+          "platform": "table:15A3C:44"
+        },
+        {
+          "saturn": 48,
+          "platform": "table:15A3C:48"
         }
       ]
     }

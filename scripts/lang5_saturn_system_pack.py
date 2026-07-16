@@ -24,9 +24,10 @@ import json
 from pathlib import Path
 
 from lang5_platform import add_platform_args, platform_from_args
-from lang5_project import add_language_args, language_from_args
+from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
 from lang5_binfmt import BE
 from lang5_offsetgroups import PS1, SATURN, find_groups, run_length
+from lang5_saturn_apply import Normalizer, load_font_map_csv, proven_equal
 from lang5_scen import Codec, load_charmap_tbl
 
 FFFF = 0xFFFF
@@ -162,6 +163,17 @@ def main() -> None:
     ps1_data = Path(args.ps1_system).read_bytes()
     sat_groups = find_groups(data, SATURN)
     ps1_groups = find_groups(ps1_data, PS1)
+    norm = Normalizer(load_font_map_csv(COMMON_FONT_MAP),
+                      load_font_map_csv(platform.kanji_map))
+
+    def ps1_words(gi: int, k: int) -> list[int] | None:
+        if gi >= len(ps1_groups):
+            return None
+        _, table, base = ps1_groups[gi]
+        if not 0 <= k < len(table):
+            return None
+        off = base + table[k] * 2
+        return PS1.order.words(ps1_data, off, run_length(ps1_data, off, PS1))
     translations = json.loads(strings_path.read_text(encoding="utf-8"))
     platform_strings_path = (
         Path(args.platform_strings) if args.platform_strings
@@ -210,6 +222,10 @@ def main() -> None:
             orig = SATURN.order.words(data, off, orig_len)
             if explicit_map is None:
                 text = translations.get(f"table:{ps1_table_off:05X}:{k}")  # type: ignore[union-attr]
+                if text and not proven_equal(norm, orig, ps1_words(gi, k) or []):
+                    fatal.append(
+                        f"group {gi} entry {k}: Saturn original differs from "
+                        "the PS1 record (needs a platform mapping)")
                 seqs.append(encoded_from_text(codec, text, orig))
                 continue
             target = explicit_map[k]
@@ -219,6 +235,11 @@ def main() -> None:
                     seqs.append(orig)
                     continue
                 text = translations.get(f"table:{ps1_table_off:05X}:{target}")
+                if text and not proven_equal(norm, orig, ps1_words(gi, target) or []):
+                    fatal.append(
+                        f"group {gi} entry {k}: mapped PS1 record {target} "
+                        "differs from the Saturn original (needs a platform "
+                        "mapping)")
                 seqs.append(encoded_from_text(codec, text, orig))
             elif "ps1_id" in target:
                 ps1_id = str(target["ps1_id"])

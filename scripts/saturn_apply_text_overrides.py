@@ -78,10 +78,17 @@ def override_scen(translation_root: Path, platform_scen: Path, mapping: dict) ->
             lines = fp.read_text(encoding="utf-8").splitlines()
             out: list[str] = []
             for line in lines:
-                m = re.match(r"(\d+)\t", line)
+                m = re.match(r"(\d+)\t(.*)$", line)
                 if m and int(m.group(1)) in targets:
                     idx = int(m.group(1))
-                    out.append(f"{idx}\t{targets[idx]}")
+                    text = targets[idx]
+                    # The copy stays keyed to the PS1 records, so Saturn-only
+                    # speaker prefixes would trip the PS1 control-tag
+                    # validator; the full platform record still ships via the
+                    # apply. Drop the prefix here when PS1 has none.
+                    if not m.group(2).startswith("<$FB00>"):
+                        text = re.sub(r"^(<\$FB00><\$[0-9A-Fa-f]{4}>)+", "", text)
+                    out.append(f"{idx}\t{text}")
                     replaced += 1
                 else:
                     out.append(line)
