@@ -56,11 +56,10 @@ class LineSpec:
     y: int
 
 
-# The PS1 line specs verbatim (fonts, stroke, pixel heights), shifted up into
-# the 224-line screen (PS1 places them at y=195/208/216 of 240). The overlay
-# is a 640-wide hi-res plane over the same screen width, so PS1 metric parity
-# means doubling the mask width; the native (C) line is drawn 1:1 and is
-# narrower — the credits deliberately keep the PS1 size for readability.
+# The PS1 line specs verbatim: the PS1 title bitmap is 640x225 — the same
+# geometry as the Saturn overlay plane — so exact PS1 metric parity is the
+# natural mask width and the PS1 pixel heights (11/9/9), only shifted up a
+# line (PS1 places the lines at y=195/208/216 of its 225-row bitmap).
 SATURN_CREDIT_SPECS = [
     LineSpec(font_size=20, stroke_width=0.14, raw_height=11, y=193),
     LineSpec(font_size=17, stroke_width=0.12, raw_height=9, y=205),
@@ -164,10 +163,10 @@ def credit_lines(args: argparse.Namespace) -> list[str]:
 
 
 def hires_mask(line: str, font_path: str, spec: LineSpec, width: int) -> Image.Image:
-    """PS1-spec mask doubled horizontally for the 640-wide hi-res plane."""
+    """PS1-spec mask at natural width: both title bitmaps are 640 wide."""
     for size in range(spec.font_size, 9, -1):
         mask = imd.title_text_mask(line, font_path, size, spec.stroke_width)
-        raw = mask.resize((mask.width * 2, spec.raw_height),
+        raw = mask.resize((mask.width, spec.raw_height),
                           Image.Resampling.LANCZOS)
         if raw.width <= width:
             return raw
