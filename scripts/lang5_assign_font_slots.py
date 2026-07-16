@@ -290,7 +290,8 @@ def decode_run_key(words: list[int], tok2char: dict[int, str]) -> str:
 def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
                      other_files: list[Path], translated_keys: set[str],
                      translated_chunks: set[int], max_slot: int,
-                     excluded_slots: set[int] = frozenset()) -> list[int]:
+                     excluded_slots: set[int] = frozenset(),
+                     usage_scan: dict | None = None) -> list[int]:
     tok2char: dict[int, str] = {}
     rows = list(csv.DictReader(open(groups_report, encoding="utf-8")))
     for r in rows:
@@ -299,7 +300,10 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
 
     usage: collections.Counter = collections.Counter()
     jp_visible: set[int] = set()
-    for f in (scen, scen2):
+    if usage_scan is not None:
+        usage.update({int(k): v for k, v in usage_scan["usage"].items()})
+        jp_visible.update(usage_scan["jp_visible"])
+    for f in (() if usage_scan is not None else (scen, scen2)):
         data = f.read_bytes()
         for ci, (s, e) in enumerate(read_chunk_spans(data)):
             chunk = data[s:e]
@@ -320,7 +324,9 @@ def sacrificial_pool(groups_report: Path, scen: Path, scen2: Path,
                     prev = w
 
     ui_used: collections.Counter = collections.Counter()
-    for f in other_files:
+    if usage_scan is not None:
+        ui_used.update({int(k): v for k, v in usage_scan["ui_used"].items()})
+    for f in (() if usage_scan is not None else other_files):
         data = f.read_bytes()
         if f.name == "SYSTEM.BIN":
             data = data[0x8100:]  # skip font plane and offset tables
@@ -387,6 +393,10 @@ def main() -> None:
     ap.add_argument("--extra-menu-strings", action="append", default=[],
                     help="Additional menu-string JSON maps (platform SYSTEM "
                          "overlay); scanned for needed chars only.")
+    ap.add_argument("--usage-scan", default=None,
+                    help="Platform usage-scan JSON (saturn_usage_scan): "
+                         "replaces the PS1-side usage/jp_visible/ui_used "
+                         "facts for the sacrificial pool.")
     ap.add_argument("--exclude-slots", default=None,
                     help="Native-glyph plan JSON (saturn_fix_native_glyphs plan): "
                          "its saturn_slot values stay native and are never "
@@ -499,6 +509,8 @@ def main() -> None:
         [Path(p) for p in ("work/extracted/SYSTEM.BIN", "work/extracted/ALLUSB.BIN",
                            "work/extracted/ALLUSW.BIN")],
         translated_keys, translated_chunks, args.max_slot, excluded,
+        json.loads(Path(args.usage_scan).read_text(encoding="utf-8"))
+        if args.usage_scan else None,
     ) if i not in taken]
     if len(pool) < len(must):
         # A platform slot cap (e.g. Saturn's 1819) can displace inherited

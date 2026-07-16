@@ -206,6 +206,16 @@ def stamp_overlay(screen: Screen, lines: list[str], font_path: str) -> None:
         imd.paste_alpha_mask(rows, shim, raw,
                              (width - raw.width) // 2, spec.y, alpha_table)
 
+    # The PS1 titles carry a QR code to the project page (x=550, y=6,
+    # 2x1 modules); parity requires it here too. Dark modules use the
+    # darkest opaque overlay ink (the transparent filler would let the
+    # background art bleed through the code).
+    dark = min((i for i in range(len(screen.overlay_palette)) if i != transparent),
+               key=lambda i: sum(c * c for c in screen.overlay_palette[i]))
+    qr_shim = SimpleNamespace(width=width, height=height, background_index=dark)
+    imd.draw_title_qr(rows, qr_shim, screen.overlay_palette,
+                      imd.TITLE_QR_URL, 550, 6)
+
     usage = cell_usage(screen)
     filler_tile = bytes([transparent]) * CELL_BYTES
     for cy in range(len(plane)):

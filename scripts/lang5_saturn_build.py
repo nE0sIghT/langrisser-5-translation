@@ -146,6 +146,15 @@ def main() -> None:
         "--translation-root", build_translation_root,
         "--strings", resolved_system_strings)
 
+    # Sacrificial-slot facts must come from the platform's own data: what the
+    # Saturn build leaves untranslated is what a sacrifice would corrupt.
+    usage_scan = Path(f"work/build/saturn/usage_scan.{lang.suffix}.json")
+    run(scripts / "saturn_usage_scan.py",
+        "--scen", scen_in,
+        "--mapping", platform.scen_mapping,
+        "--kanji-map", platform.kanji_map,
+        "--out", usage_scan)
+
     build_assignments = Path(f"work/build/font_slot_assignments.{lang.suffix}.saturn.csv")
     run(scripts / "lang5_assign_font_slots.py",
         "--lang", args.lang,
@@ -161,7 +170,8 @@ def main() -> None:
         "--max-slot", str(platform.max_font_slot),
         "--exclude-slots", glyph_plan,
         "--extra-script-dir", lang.root / "platforms" / platform.code / "SCEN",
-        "--extra-menu-strings", lang.root / "platforms" / platform.code / "system_strings.json")
+        "--extra-menu-strings", lang.root / "platforms" / platform.code / "system_strings.json",
+        "--usage-scan", usage_scan)
 
     font_cmd = [
         scripts / "lang5_build_font.py",

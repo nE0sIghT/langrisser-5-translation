@@ -264,12 +264,13 @@ def apply_scen(data: bytes, lang_scen_dir: Path, codec: Codec,
             stats["empty_skipped"] += 1
             continue
         dump_path = lang_scen_dir / f"chunk_{chunk_index:03d}.txt"
-        if not dump_path.exists():
+        if dump_path.exists():
+            records = parse_dump_file(dump_path)  # {1-based idx: text}
+        else:
+            # Platform-only chunks (e.g. the party name pools) have no common
+            # dump; any remaining ps1-mapped entry then fails loudly below.
+            records = {}
             stats["missing_dump"] += 1
-            if strict:
-                fatal.append(f"chunk {chunk_index:03d}: missing common language chunk")
-            continue
-        records = parse_dump_file(dump_path)  # {1-based idx: text}
         ps1_tokens = ps1_chunk_records(ps1_scen, chunk_index)
         auto, unmatched = monotone_alignment(entries, ps1_tokens, norm)
         targets: dict[int, object] = dict(auto)
