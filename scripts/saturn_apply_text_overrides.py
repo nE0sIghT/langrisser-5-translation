@@ -96,15 +96,22 @@ def override_scen(translation_root: Path, platform_scen: Path, mapping: dict) ->
     return replaced
 
 
-def shadow_system(strings_path: Path, mapping: dict, saturn_orig: bytes,
-                  ps1_system: bytes) -> int:
+def shadow_system(strings_path: Path, overlay: dict, mapping: dict,
+                  saturn_orig: bytes, ps1_system: bytes) -> tuple[int, int]:
+    """Replace or drop PS1 strings shadowed by platform entries.
+
+    A shadowed UI line whose platform overlay carries the Saturn text (same
+    index) is *replaced*, so the downstream validators check exactly what
+    ships; only entries with no overlay counterpart are removed.
+    """
     translations = json.loads(strings_path.read_text(encoding="utf-8"))
     sat_groups = find_groups(saturn_orig, SATURN_CFG)
     ps1_groups = find_groups(ps1_system, PS1_CFG)
-    removed = 0
+    removed = replaced = 0
     for group_key, spec in (mapping.get("groups") or {}).items():
         gi = int(group_key)
         n = len(sat_groups[gi][1])
+        sat_table_off = sat_groups[gi][0]
         ps1_table_off = ps1_groups[gi][0]
         targets = expand_group_map(spec, n)
         used_ps1 = {t for t in targets.values() if isinstance(t, int)}
@@ -115,12 +122,19 @@ def shadow_system(strings_path: Path, mapping: dict, saturn_orig: bytes,
             if k in used_ps1:
                 continue
             key = f"table:{ps1_table_off:05X}:{k}"
-            if translations.pop(key, None) is not None:
+            if key not in translations:
+                continue
+            platform_text = overlay.get(f"table:{sat_table_off:05X}:{k}")
+            if platform_text is not None:
+                translations[key] = platform_text
+                replaced += 1
+            else:
+                translations.pop(key)
                 removed += 1
     strings_path.write_text(
         json.dumps(translations, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8")
-    return removed
+    return replaced, removed
 
 
 def main() -> None:
@@ -142,13 +156,18 @@ def main() -> None:
         lang.root / "platforms" / "saturn" / "SCEN",
         load_scen_mapping(Path(args.scen_mapping)),
     )
-    removed = shadow_system(
+    overlay_path = lang.root / "platforms" / "saturn" / "system_strings.json"
+    overlay = (json.loads(overlay_path.read_text(encoding="utf-8"))
+               if overlay_path.exists() else {})
+    sys_replaced, removed = shadow_system(
         Path(args.strings),
+        overlay,
         load_system_mapping(Path(args.system_mapping)),
         Path(args.saturn_orig).read_bytes(),
         Path(args.ps1_system).read_bytes(),
     )
     print(f"platform text overrides: {replaced} SCEN records replaced, "
+          f"{sys_replaced} SYSTEM strings replaced, "
           f"{removed} shadowed SYSTEM strings removed")
 
 
