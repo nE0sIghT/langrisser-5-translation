@@ -45,6 +45,24 @@ PS1 = GroupConfig()
 SATURN = GroupConfig(order=ByteOrder("be"), scan_start=0x7000)
 
 
+def load_font_map_csv(path: str | Path | None) -> dict[int, str]:
+    """Load a slot->char font map CSV (`index_dec,index_hex,group,char,...`).
+
+    This is the tracked map format: `data/common/font_mapping/groups_report.csv`
+    for Langrisser V, a per-game file for other games, and the Saturn kanji
+    delta. `load_codemap` reads the other tracked format, the `HHHH=text` table.
+    """
+    import csv
+
+    if path is None or not Path(path).exists():
+        return {}
+    out: dict[int, str] = {}
+    for row in csv.DictReader(open(path, encoding="utf-8")):
+        if row["index_dec"].isdigit() and row["char"]:
+            out[int(row["index_dec"])] = row["char"]
+    return out
+
+
 def load_codemap(tbl_path: str) -> dict[int, str]:
     """Load a HHHH=text token table into a {code: text} map."""
     codemap: dict[int, str] = {}

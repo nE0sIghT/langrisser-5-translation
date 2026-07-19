@@ -1,15 +1,26 @@
-# Langrisser V Translation Toolkit (PS1 / Sega Saturn)
+# Langrisser IV & V Translation Toolkit (PS1 / Sega Saturn)
 
 Toolkit and language-pack repository for translating **Langrisser V** on both
-of its releases: PS1 (SLPS-01818) and Sega Saturn (T-2509G). One language pack
-drives both builds — the console is a build-time choice — so the same
-translation ships as a PS1 PPF patch and as a remastered Saturn BIN/CUE. The
-project currently ships English and Russian, and the same tooling can be used
-to prepare additional target-language packs under `data/lang/<lang>/`.
+of its releases — PS1 (SLPS-01819) and Sega Saturn (T-2509G) — and, sharing
+the same tooling, **Langrisser IV** (SLPS-01818), which ships on disc A of the
+same PS1 release. One language pack drives every build: the game and the
+console are build-time choices, so the same translation ships as a PS1 PPF
+patch and as a remastered Saturn BIN/CUE. The project currently ships English
+and Russian for Langrisser V; additional target-language packs follow the same
+layout under each game's `lang/<code>/`.
 
 Platform differences are data, not forks: `data/platforms/<code>/` holds the
 mappings that prove which entries the consoles share, and target text that
 exists only on one console lives in that pack's `platforms/<code>/` overlay.
+
+The same holds for the *game*. Langrisser IV and V ship as one two-disc PS1
+release and share every container format, so both are described by manifests
+under `data/games/<code>/` and driven by the same tools with `--game`:
+
+| Game | Disc | State |
+| --- | --- | --- |
+| `l5` | `/L5`, `SLPS_018.19` (disc B) | complete: PS1 patch and Saturn build |
+| `l4` | `/L4`, `SLPS_018.18` (disc A) | base only: formats verified, font map derived, empty packs |
 
 The repository contains only durable translation data and tooling. Original game
 assets, extracted files, generated Japanese dumps, build products and local
@@ -92,12 +103,15 @@ python3 scripts/saturn_disc.py --cue iso/saturn/LANGRISSER_5.cue verify
 | Path | Purpose |
 | --- | --- |
 | `data/common/` | shared maps, scenario map, UI constraints and JP table |
+| `data/games/<code>/manifest.json` | game descriptor: disc paths, glyph-plane map, group scan start, pack root |
+| `data/games/l4/font_map.csv` | Langrisser IV glyph slot→character map (derived from the L5 plane) |
+| `data/games/l4/lang/<lang>/` | Langrisser IV language packs |
 | `data/platforms/` | platform manifests and PS1/Saturn mapping metadata |
 | `data/platforms/saturn/scen_mapping.json` | proven Saturn↔PS1 SCEN record correspondence |
 | `data/platforms/saturn/system_mapping.json` | proven Saturn↔PS1 SYSTEM entry correspondence |
 | `data/platforms/saturn/kanji_map.csv` | Saturn kanji slot→character map (its bank is reordered) |
-| `data/lang/en/` | English language pack |
-| `data/lang/ru/` | Russian language pack |
+| `data/lang/en/` | English language pack (Langrisser V) |
+| `data/lang/ru/` | Russian language pack (Langrisser V) |
 | `data/lang/<lang>/manifest.json` | language settings used by tools |
 | `data/lang/<lang>/SCEN/` | completed translated script chunks for that language |
 | `data/lang/<lang>/platforms/` | sparse platform-specific target overlays |
@@ -121,8 +135,10 @@ partial translated chunks.
 
 ## Translation Model
 
-Every target language is a language pack under `data/lang/<lang>/`. A pack
-contains durable translation/editorial data only:
+Every target language is a language pack under its game's pack root
+(`data/lang/<lang>/` for Langrisser V, `data/games/l4/lang/<lang>/` for
+Langrisser IV; the root is a field of the game manifest). A pack contains
+durable translation/editorial data only:
 
 - completed SCEN chunks;
 - target SYSTEM strings;
@@ -168,6 +184,30 @@ python3 scripts/lang5_verify_roundtrip.py
 
 Generated JP source stays under `work/scriptdump/` and `work/systemdump/`.
 These dumps are required for translation and building but are not committed.
+
+For Langrisser IV, point the same tools at disc A with `--game l4` (its files
+live under `/L4`, and it has no `SCEN2.DAT`):
+
+```bash
+mkdir -p work/l4
+python3 scripts/iso_mode2.py iso/ps1/4/SLPS-01818.bin extract /L4/SCEN.DAT   work/l4/SCEN.DAT
+python3 scripts/iso_mode2.py iso/ps1/4/SLPS-01818.bin extract /L4/SYSTEM.BIN work/l4/SYSTEM.BIN
+python3 scripts/lang5_scendump.py     --game l4 --scen work/l4/SCEN.DAT --out-dir work/l4/scriptdump
+python3 scripts/lang5_system_dump.py  --game l4 --system-bin work/l4/SYSTEM.BIN --out work/l4/system_strings.json
+```
+
+Each game generates its own glyph plane, so a new game needs its own slot→
+character map. The artwork is shared, so the map is derived mechanically by
+matching tiles against an already-mapped game (this produced
+`data/games/l4/font_map.csv`: 1628 of 1905 glyphs, 99.3% of the script's
+tokens; the rest are Langrisser IV's own kanji and still need OCR/manual
+mapping):
+
+```bash
+python3 scripts/lang5_derive_font_map.py --game l4 \
+  --system work/l4/SYSTEM.BIN --reference-system work/extracted/SYSTEM.BIN \
+  --out-unmatched work/l4/font_map_unmatched.txt
+```
 
 ## Flow 2: Prepare A Language Pack
 
@@ -318,29 +358,59 @@ Release build:
 scripts/release.sh --release
 ```
 
-Saturn build:
+The release script builds the complete English and Russian artifact set by
+default, writes it to `dist/vX/`, and records PPF plus patched-image hashes in
+`SHA256SUMS` and `MANIFEST.txt`. Use `--lang <lang>` to build a single language
+or `--version <label>` for a non-tagged development release.
+
+## Flow 5: Saturn Build
+
+The Saturn release of Langrisser V runs the same language pack through a
+console-specific back end. Nothing is translated twice: the pack stays
+PS1-keyed, and `data/platforms/saturn/` records what the two consoles share.
+
+Verify the disc and extract the Saturn side once:
+
+```bash
+python3 scripts/saturn_disc.py --cue iso/saturn/LANGRISSER_5.cue verify
+for f in SYSTEM.DAT SCEN.DAT CLEAR.DAT TITLE1.DAT TITLE2.DAT OPEN.DAT; do
+  python3 scripts/saturn_disc.py extract $f work/build/saturn/$f
+done
+```
+
+Build:
 
 ```bash
 python3 scripts/lang5_saturn_build.py --lang ru
 python3 scripts/lang5_saturn_build.py --lang ru --remaster-disc
 ```
 
-This requires both PS1 base extracts (`work/extracted/SCEN.DAT`,
-`SCEN2.DAT`, `SYSTEM.BIN`) — the PS1 originals are the *reference* every
-Saturn correspondence is proven against — and Saturn extracts under
-`work/build/saturn/` (`saturn_disc.py extract`).
-Strict mode stops on any unresolved `data/platforms/saturn/` mapping gap.
-Use `--allow-unmapped` only as a diagnostic to preserve unmapped Saturn source
-data while exercising the rest of the build pipe.
-The non-remaster command emits translated extracted files under
-`work/build/saturn/`; `--remaster-disc` emits a translated mixed-mode Saturn
-BIN/CUE in the same directory. Current Saturn output grows `SCEN.DAT`, so the
-generated `.cue` is part of that build artifact.
+This also needs the PS1 base extracts (`work/extracted/SCEN.DAT`, `SCEN2.DAT`,
+`SYSTEM.BIN`): the PS1 originals are the *reference* every Saturn
+correspondence is proven against. The builder runs, in order: platform text
+overrides → native-glyph plan → Saturn-side slot usage scan → font → reflow
+and validation → SYSTEM pack (+ write-contract check) → name entry → Now
+Loading → SCEN insert → SCENARIO CLEAR, title credits and the prologue poem.
 
-The release script builds the complete English and Russian artifact set by
-default, writes it to `dist/vX/`, and records PPF plus patched-image hashes in
-`SHA256SUMS` and `MANIFEST.txt`. Use `--lang <lang>` to build a single language
-or `--version <label>` for a non-tagged development release.
+Strict mode stops on any unresolved `data/platforms/saturn/` mapping gap;
+`--allow-unmapped` is a diagnostic only. The non-remaster command emits
+translated extracted files under `work/build/saturn/`; `--remaster-disc` emits
+a translated mixed-mode Saturn BIN/CUE in the same directory. Saturn output
+grows `SCEN.DAT` and `OPEN.DAT`, so the generated `.cue` is part of the build
+artifact.
+
+When the Saturn originals diverge from PS1 (edited lines, pad buttons, the
+save menu), the audits regenerate the proven mappings and list what still
+needs Saturn-specific translation:
+
+```bash
+python3 scripts/saturn_scen_audit.py   --write-mapping   # SCEN records
+python3 scripts/saturn_system_audit.py --write-mapping   # SYSTEM entries
+```
+
+They emit `work/build/saturn/scen_platform_review.md` with the Saturn original
+decoded through `data/platforms/saturn/kanji_map.csv`, the closest PS1 record
+and its current translations — everything needed to author the platform record.
 
 ## Important Constraints
 

@@ -25,6 +25,7 @@ from lang5_platform import add_platform_args, platform_from_args
 from lang5_project import add_language_args, language_from_args
 from lang5_scen import Codec, find_text_block, load_charmap_tbl, read_chunk_spans, words_from_bytes
 from lang5_sceninsert import parse_dump_file
+from lang5_offsetgroups import load_font_map_csv
 from saturn_scen import (local_index_entries, local_index_layout, parse_catalog,
                          repack_scen)
 
@@ -125,19 +126,6 @@ def proven_equal(norm: Normalizer | None, sat_tokens: list[int],
     if len(a) != len(b):
         return False
     return all(x is WILDCARD or x == y for x, y in zip(a, b))
-
-
-def load_font_map_csv(path: Path | None) -> dict[int, str]:
-    """Read a slot->char font map CSV (the common groups_report convention)."""
-    if path is None or not path.exists():
-        return {}
-    import csv
-
-    out: dict[int, str] = {}
-    for row in csv.DictReader(open(path, encoding="utf-8")):
-        if row["index_dec"].isdigit() and row["char"]:
-            out[int(row["index_dec"])] = row["char"]
-    return out
 
 
 def stable_signature(tokens: list[int]) -> tuple[int, ...]:

@@ -25,10 +25,14 @@ import json
 import struct
 from pathlib import Path
 
+from lang5_game import add_game_args, game_from_args
 from lang5_offsetgroups import (
+    PS1,
+    GroupConfig,
     decode_run,
     find_groups,
     load_codemap,
+    load_font_map_csv,
     run_length,
 )
 from lang5_patch_name_entry import grid_span as name_entry_grid_span
@@ -51,14 +55,23 @@ MAX_STEP = 0x30          # max plausible string length (+terminator) in words
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_game_args(ap)
     ap.add_argument("--system-bin", default="work/extracted/SYSTEM.BIN")
-    ap.add_argument("--tbl", default="data/common/tables/lang5_jp.tbl")
+    ap.add_argument("--tbl", default=None,
+                    help="JP token table (default: the game's font map).")
     ap.add_argument("--out", default="work/systemdump/system_strings.json")
     args = ap.parse_args()
 
+    # Each game's text groups start at their own offset; everything else in
+    # the group model is shared.
+    game = game_from_args(args)
+    cfg = GroupConfig(order=PS1.order, scan_start=game.system_scan_start)
     data = Path(args.system_bin).read_bytes()
-    codemap = load_codemap(args.tbl)
-    groups = find_groups(data)
+    # The game's tracked font map is the slot->character source of truth; the
+    # HHHH=text table stays available as an override.
+    table = Path(args.tbl) if args.tbl else game.text_table
+    codemap = load_codemap(str(table)) if table else load_font_map_csv(game.font_map)
+    groups = find_groups(data, cfg)
     grid_span = name_entry_grid_span(data, codemap)
 
     entries = []
@@ -95,8 +108,8 @@ def main() -> None:
     # Loose strings: FFFF-terminated runs in the text region that are not part of
     # any offset-table group (e.g. the memory-card error messages). They have no
     # table to regenerate, so the packer keeps them at their fixed offset.
-    region_end = max((int(e["offset"], 16) + e["words"] * 2 for e in entries), default=SCAN_START)
-    pos = SCAN_START
+    region_end = max((int(e["offset"], 16) + e["words"] * 2 for e in entries), default=cfg.scan_start)
+    pos = cfg.scan_start
     while pos < region_end:
         if covered[pos]:
             pos += 2

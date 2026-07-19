@@ -20,6 +20,7 @@ from lang5_scen import (
     words_from_bytes,
 )
 from lang5_rewrap import semantic_plate_slots
+from lang5_game import add_game_args, game_from_args
 from lang5_project import COMMON_FONT_MAP
 
 _TAG = re.compile(r"<\$[0-9A-Fa-f]{4}>")
@@ -40,9 +41,16 @@ def dump_file(src: Path, out_dir: Path, codec: Codec) -> list[dict[str, str]]:
     # None = no plate, -1 = runtime-remapped crowd line.
     chunk_slots = semantic_plate_slots(src)
 
+    skipped: list[int] = []
     for cidx, (s, e) in enumerate(read_chunk_spans(data)):
         chunk = data[s:e]
-        block = find_text_block(chunk)
+        try:
+            block = find_text_block(chunk)
+        except ValueError:
+            # Not every chunk carries dialogue (Langrisser IV has data-only
+            # chunks); record them instead of failing the whole dump.
+            skipped.append(cidx)
+            continue
         decoded = {
             ridx: codec.decode(words_from_bytes(chunk[slice(*block.record_span(ridx))]))
             for ridx in range(1, block.record_count + 1)
@@ -82,23 +90,31 @@ def dump_file(src: Path, out_dir: Path, codec: Codec) -> list[dict[str, str]]:
         (root / f"chunk_{cidx:03d}.txt").write_text(
             "\n".join(lines) + "\n", encoding="utf-8"
         )
+    if skipped:
+        print(f"{src.name}: {len(skipped)} chunk(s) without a text block: {skipped}")
     return rows
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_game_args(ap)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
-    ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
-    ap.add_argument("--charmap", default=str(COMMON_FONT_MAP))
+    ap.add_argument("--scen2", default=None,
+                    help="Second script file (Langrisser V mirrors SCEN in SCEN2).")
+    ap.add_argument("--charmap", default=None,
+                    help="Slot->char map (default: the game's font map).")
     ap.add_argument("--out-dir", default="work/scriptdump")
     args = ap.parse_args()
 
-    codec = Codec(load_charmap_csv(Path(args.charmap)))
+    game = game_from_args(args)
+    codec = Codec(load_charmap_csv(
+        Path(args.charmap) if args.charmap else game.font_map))
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     rows: list[dict[str, str]] = []
-    for src in (Path(args.scen), Path(args.scen2)):
+    sources = [Path(args.scen)] + ([Path(args.scen2)] if args.scen2 else [])
+    for src in sources:
         rows.extend(dump_file(src, out_dir, codec))
 
     csv_path = out_dir / "all_records.csv"
