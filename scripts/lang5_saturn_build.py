@@ -69,6 +69,8 @@ def main() -> None:
                     help="translated Saturn BIN path for --remaster-disc")
     ap.add_argument("--out-cue", default=None,
                     help="translated Saturn CUE path for --remaster-disc")
+    ap.add_argument("--patch-version", default="dev",
+                    help="Patch version substituted into the title credits.")
     ap.add_argument("--allow-unmapped", action="store_true",
                     help="Diagnostic mode: preserve unmapped Saturn SCEN/SYSTEM data.")
     args = ap.parse_args()
@@ -239,6 +241,8 @@ def main() -> None:
         "--strings", reflowed_system_strings,
         "--platform-strings", lang.root / "platforms" / platform.code / "system_strings.json",
         "--tbl", tbl,
+        "--layout", lang.system_layout,
+        "--system-source", system_source,
     ]
     if args.allow_unmapped:
         system_cmd.append("--allow-unmapped")
@@ -294,7 +298,9 @@ def main() -> None:
                 "--lang", args.lang, "--lang-root", args.lang_root,
                 "--title", title_in,
                 "--out-title", saturn / f"{title_name}.{lang.suffix}.DAT",
-                "--out-preview", saturn / f"{title_name.lower()}_credits_{lang.suffix}_preview.png")
+                "--out-preview", saturn / f"{title_name.lower()}_credits_{lang.suffix}_preview.png",
+                "--credits-json", lang.title_credits,
+                "--version", args.patch_version)
 
     # Prologue poem in the attract loop (OPEN.DAT sub-asset 2), if extracted.
     open_in = saturn / "OPEN.DAT"

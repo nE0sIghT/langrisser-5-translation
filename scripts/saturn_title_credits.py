@@ -155,11 +155,14 @@ def overlay_transparent_value(screen: Screen) -> int:
     return tile[0]
 
 
-def credit_lines(args: argparse.Namespace) -> list[str]:
+def credit_lines(args: argparse.Namespace, lang) -> list[str]:
+    """The pack's credit lines, exactly as the PS1 build renders them."""
     if args.line:
         return list(args.line)
-    version = args.version or "1"
-    return imd.default_title_credit_lines(version, imd.git_short_hash())
+    config = Path(args.credits_json) if args.credits_json else lang.title_credits
+    return imd.load_title_credit_lines(
+        config if config.exists() else None,
+        args.version, imd.git_short_hash())
 
 
 def hires_mask(line: str, font_path: str, spec: LineSpec, width: int) -> Image.Image:
@@ -279,12 +282,13 @@ def main() -> None:
     ap.add_argument("--font", default=None,
                     help="credit font (default: the PS1 title-credit font)")
     ap.add_argument("--line", action="append",
-                    help="override a credit line (repeatable); default uses the PS1 credit set")
-    ap.add_argument("--version", default=None)
+                    help="override a credit line (repeatable); default uses the pack's set")
+    ap.add_argument("--credits-json", default=None,
+                    help="title-credit line templates (default: the pack's file)")
+    ap.add_argument("--version", default="dev",
+                    help="patch version substituted into the credit templates")
     args = ap.parse_args()
-    # language_from_args validates the pack even though credits are
-    # language-independent, keeping the Saturn flow parallel to PS1.
-    language_from_args(args)
+    lang = language_from_args(args)
 
     src = Path(args.title).read_bytes()
     cont = sc.load(args.title)
@@ -293,9 +297,10 @@ def main() -> None:
         raise SystemExit("cell store is not the last sub-asset; cannot grow")
     screen = parse_screen(cont)
     font_path = imd.resolve_title_font(args.font)
-    lines = credit_lines(args)
-    if len(lines) != len(SATURN_CREDIT_SPECS):
-        raise SystemExit(f"expected {len(SATURN_CREDIT_SPECS)} credit lines, got {len(lines)}")
+    lines = credit_lines(args, lang)
+    if not 1 <= len(lines) <= len(SATURN_CREDIT_SPECS):
+        raise SystemExit(
+            f"expected 1-{len(SATURN_CREDIT_SPECS)} credit lines, got {len(lines)}")
     grown_from = len(screen.cells)
     stamp_overlay(screen, lines, font_path)
 
@@ -310,7 +315,7 @@ def main() -> None:
 
     screen_preview(screen).save(args.out_preview)
     added = (len(screen.cells) - grown_from) // CELL_BYTES
-    print(f"patched title -> {out}  (3 credit lines on the overlay plane, "
+    print(f"patched title -> {out}  ({len(lines)} credit lines on the overlay plane, "
           f"+{added} cells, file {len(src)} -> {len(data)})")
     print(f"screen preview -> {args.out_preview}")
 

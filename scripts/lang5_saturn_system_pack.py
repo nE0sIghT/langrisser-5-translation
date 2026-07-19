@@ -29,6 +29,8 @@ from lang5_binfmt import BE
 from lang5_offsetgroups import PS1, SATURN, find_groups, run_length
 from lang5_saturn_apply import Normalizer, load_font_map_csv, proven_equal
 from lang5_scen import Codec, load_charmap_tbl
+from lang5_system_pack import (load_card_layout, load_system_layout,
+                               reserve_leading_cells)
 
 FFFF = 0xFFFF
 
@@ -136,6 +138,11 @@ def main() -> None:
                     help="Platform SYSTEM mapping JSON (default: platform manifest value)")
     ap.add_argument("--tbl", default=None,
                     help="Saturn charmap .tbl for the selected language.")
+    ap.add_argument("--layout", default=None,
+                    help="Per-language SYSTEM growth limits (default: the pack's).")
+    ap.add_argument("--card-layout", default="data/common/system_card_layout.json")
+    ap.add_argument("--system-source", default=None,
+                    help="Generated SYSTEM source dump (validates layout ids).")
     ap.add_argument("--allow-unmapped", action="store_true",
                     help="Diagnostic mode: preserve unmapped or over-budget groups.")
     args = ap.parse_args()
@@ -163,6 +170,13 @@ def main() -> None:
     ps1_data = Path(args.ps1_system).read_bytes()
     sat_groups = find_groups(data, SATURN)
     ps1_groups = find_groups(ps1_data, PS1)
+    source_by_id = {
+        entry["id"]: entry
+        for entry in json.loads(Path(args.system_source).read_text(encoding="utf-8"))
+    } if args.system_source else {}
+    default_max_grow, max_grow_overrides = load_system_layout(
+        Path(args.layout) if args.layout else lang.system_layout, source_by_id)
+    card_line_cells = load_card_layout(Path(args.card_layout))
     norm = Normalizer(load_font_map_csv(COMMON_FONT_MAP),
                       load_font_map_csv(platform.kanji_map))
 
@@ -220,13 +234,41 @@ def main() -> None:
             off = base + table[k] * 2
             orig_len = table[k + 1] - table[k] - 1 if k + 1 < n else run_length(data, off, SATURN)
             orig = SATURN.order.words(data, off, orig_len)
+
+            def place(text: str | None, entry_id: str | None,
+                      *, required_id: str | None = None) -> None:
+                """Encode `text` for entry `k` the way the PS1 packer does.
+
+                The original's leading `0x0000` cells are structural indent
+                (slot numbers, card gutters), so they are re-reserved rather
+                than translated away; the result is capped like PS1 —
+                card-group lines at their cell width, everything else at
+                `orig_len + max_grow`.
+                """
+                seq = encoded_from_text(codec, text, orig, required_id=required_id)
+                if seq is orig:
+                    seqs.append(seq)
+                    return
+                seq = reserve_leading_cells(orig) + seq
+                max_grow = (max_grow_overrides.get(entry_id, default_max_grow)
+                            if entry_id else default_max_grow)
+                cap = card_line_cells.get(ps1_table_off, orig_len + max_grow)
+                if len(seq) > cap:
+                    fatal.append(
+                        f"group {gi} entry {k}: line {len(seq)}>{cap} "
+                        f"(max-grow {max_grow}) :: {text!r}")
+                    seqs.append(orig)
+                    return
+                seqs.append(seq)
+
             if explicit_map is None:
-                text = translations.get(f"table:{ps1_table_off:05X}:{k}")  # type: ignore[union-attr]
+                entry_id = f"table:{ps1_table_off:05X}:{k}"  # type: ignore[union-attr]
+                text = translations.get(entry_id)
                 if text and not proven_equal(norm, orig, ps1_words(gi, k) or []):
                     fatal.append(
                         f"group {gi} entry {k}: Saturn original differs from "
                         "the PS1 record (needs a platform mapping)")
-                seqs.append(encoded_from_text(codec, text, orig))
+                place(text, entry_id)
                 continue
             target = explicit_map[k]
             if isinstance(target, int):
@@ -234,23 +276,21 @@ def main() -> None:
                     fatal.append(f"group {gi}: PS1 group missing for mapped entry {k}")
                     seqs.append(orig)
                     continue
-                text = translations.get(f"table:{ps1_table_off:05X}:{target}")
+                entry_id = f"table:{ps1_table_off:05X}:{target}"
+                text = translations.get(entry_id)
                 if text and not proven_equal(norm, orig, ps1_words(gi, target) or []):
                     fatal.append(
                         f"group {gi} entry {k}: mapped PS1 record {target} "
                         "differs from the Saturn original (needs a platform "
                         "mapping)")
-                seqs.append(encoded_from_text(codec, text, orig))
+                place(text, entry_id)
             elif "ps1_id" in target:
                 ps1_id = str(target["ps1_id"])
-                text = translations.get(ps1_id)
-                seqs.append(encoded_from_text(codec, text, orig))
+                place(translations.get(ps1_id), ps1_id)
             elif "platform" in target:
                 platform_id = str(target["platform"])
-                text = platform_translations.get(platform_id)
-                seqs.append(
-                    encoded_from_text(codec, text, orig, required_id=platform_id)
-                )
+                place(platform_translations.get(platform_id), None,
+                      required_id=platform_id)
             else:
                 seqs.append(orig)
         blob = build_group_blob(seqs)
