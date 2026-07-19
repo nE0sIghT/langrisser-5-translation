@@ -666,6 +666,46 @@ def cmd_remaster(args: argparse.Namespace) -> None:
     remaster_disc(cue, args.replace, Path(args.out_bin), Path(args.out_cue))
 
 
+# Redump entry for Langrisser V (T-2509G, v1.004), data track 1. Every file the
+# patch touches lives on this track, so it is the part worth verifying; the
+# whole-image hash is not comparable across rips because a mixed-mode dump may
+# or may not store the audio pregaps.
+REDUMP_TRACK1 = {
+    "sectors": 61901,
+    "crc32": "ef034bde",
+    "md5": "37685a3ac74ac252abb2d01ea6987c73",
+    "sha1": "b90529e379efde5787693ffda6fff53fddd7c2ee",
+}
+
+
+def cmd_verify(args: argparse.Namespace) -> None:
+    import hashlib
+    import zlib
+
+    cue = parse_cue(Path(args.cue))
+    track1 = cue.track(1)
+    end = cue.track(2).index_lba if len(cue.tracks) > 1 else None
+    sectors = (end or 0) - track1.index_lba
+    with cue.bin_path.open("rb") as fh:
+        fh.seek(track1.raw_offset)
+        blob = fh.read(sectors * SECTOR_RAW_SIZE)
+    have = {
+        "sectors": sectors,
+        "crc32": f"{zlib.crc32(blob) & 0xFFFFFFFF:08x}",
+        "md5": hashlib.md5(blob).hexdigest(),
+        "sha1": hashlib.sha1(blob).hexdigest(),
+    }
+    bad = {k: (v, REDUMP_TRACK1[k]) for k, v in have.items() if v != REDUMP_TRACK1[k]}
+    for key, value in have.items():
+        mark = "MISMATCH" if key in bad else "ok"
+        print(f"  track 1 {key:8s}: {value}  [{mark}]")
+    if bad:
+        raise SystemExit(
+            "data track does not match the Redump entry for T-2509G v1.004; "
+            "the Saturn build needs an authentic disc")
+    print("data track 1 matches Redump (T-2509G, v1.004)")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--cue", default="iso/saturn/LANGRISSER_5.cue")
@@ -682,6 +722,9 @@ def main() -> None:
     p.add_argument("path")
     p.add_argument("out")
     p.set_defaults(func=cmd_extract)
+
+    p = sub.add_parser("verify")
+    p.set_defaults(func=cmd_verify)
 
     p = sub.add_parser("xainfo")
     p.set_defaults(func=cmd_xainfo)

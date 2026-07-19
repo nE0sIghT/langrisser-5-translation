@@ -1,7 +1,7 @@
 # Langrisser V Translation Toolkit (PS1 / Sega Saturn)
 
 Toolkit and language-pack repository for translating **Langrisser V** on both
-of its releases: PS1 (SLPS-01818) and Sega Saturn (T-2505G). One language pack
+of its releases: PS1 (SLPS-01818) and Sega Saturn (T-2509G). One language pack
 drives both builds — the console is a build-time choice — so the same
 translation ships as a PS1 PPF patch and as a remastered Saturn BIN/CUE. The
 project currently ships English and Russian, and the same tooling can be used
@@ -73,6 +73,19 @@ as the common reference, Saturn for the Saturn build):
 | `iso/SLPS-01818-9-B.cue` | `224` | `2683304f` | `455eca5422d06973bb32f7fed4ce2416` | `f2f2f1abf836e26acfd37030d7d9a378cca2a0de` | `754cfdc98d0aa354dd1d8cd0c5e4d377883a2acccf9636fd5e9826f1b1e52a66` |
 | `iso/saturn/LANGRISSER_5.bin` | `507074736` | | | | `e517a65201ba9f087a14e2231ee3135acba173bc5041d1495fa333731e93dbc0` |
 | `iso/saturn/LANGRISSER_5.cue` | `399` | | | | `58d09590a5399282f707536d6c154ecc19f60fd0cf8fa52d3d7beb375da65b52` |
+
+The Saturn image is a mixed-mode disc, so its whole-file hash depends on the
+rip's pregap convention. What must be verified is **data track 1** (every file
+the patch touches lives there); it matches the Redump entry for `T-2509G`
+v1.004 exactly:
+
+| Track | Sectors | CRC-32 | MD5 | SHA-1 |
+| --- | ---: | --- | --- | --- |
+| 1 (Mode 1) | `61901` | `ef034bde` | `37685a3ac74ac252abb2d01ea6987c73` | `b90529e379efde5787693ffda6fff53fddd7c2ee` |
+
+```bash
+python3 scripts/saturn_disc.py --cue iso/saturn/LANGRISSER_5.cue verify
+```
 
 ## Repository Layout
 
