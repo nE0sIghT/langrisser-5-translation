@@ -19,32 +19,17 @@
         {
           "saturn": 191,
           "ps1": 191,
-          "count": 22
+          "count": 21
         },
         {
           "saturn": 213,
-          "count": 19,
-          "preserve": true
-        },
-        {
-          "saturn": 232,
-          "ps1": 232,
-          "count": 7
-        },
-        {
-          "saturn": 239,
-          "count": 16,
-          "preserve": true
+          "ps1": 213,
+          "count": 42
         },
         {
           "saturn": 257,
           "ps1": 255,
-          "count": 2
-        },
-        {
-          "saturn": 259,
-          "ps1": 257,
-          "count": 33
+          "count": 35
         }
       ],
       "entries": [
@@ -53,20 +38,27 @@
           "platform": "table:08084:190"
         },
         {
+          "saturn": 212,
+          "platform": "table:08084:212"
+        },
+        {
           "saturn": 255,
           "platform": "table:08084:255"
         },
         {
           "saturn": 256,
           "platform": "table:08084:256"
-        },
-        {
-          "saturn": 212,
-          "platform": "table:08084:212"
         }
       ]
     },
     "1": {
+      "ranges": [
+        {
+          "saturn": 25,
+          "ps1": 25,
+          "count": 4
+        }
+      ],
       "entries": [
         {
           "saturn": 0,
@@ -110,7 +102,7 @@
         },
         {
           "saturn": 10,
-          "platform": "table:09004:10"
+          "ps1": 10
         },
         {
           "saturn": 11,
@@ -138,7 +130,7 @@
         },
         {
           "saturn": 17,
-          "platform": "table:09004:17"
+          "ps1": 17
         },
         {
           "saturn": 18,
@@ -146,7 +138,7 @@
         },
         {
           "saturn": 19,
-          "platform": "table:09004:19"
+          "ps1": 19
         },
         {
           "saturn": 20,
@@ -169,22 +161,6 @@
           "platform": "table:09004:24"
         },
         {
-          "saturn": 25,
-          "platform": "table:09004:25"
-        },
-        {
-          "saturn": 26,
-          "platform": "table:09004:26"
-        },
-        {
-          "saturn": 27,
-          "platform": "table:09004:27"
-        },
-        {
-          "saturn": 28,
-          "platform": "table:09004:28"
-        },
-        {
           "saturn": 29,
           "platform": "table:09004:29"
         },
@@ -202,7 +178,7 @@
         },
         {
           "saturn": 33,
-          "platform": "table:09004:33"
+          "ps1": 33
         },
         {
           "saturn": 34,
@@ -246,22 +222,90 @@
         }
       ]
     },
-    "5": {
+    "14": {
       "ranges": [
         {
           "saturn": 0,
           "ps1": 0,
-          "count": 33
+          "count": 26
+        },
+        {
+          "saturn": 33,
+          "ps1": 33,
+          "count": 3
+        },
+        {
+          "saturn": 37,
+          "ps1": 37,
+          "count": 3
+        },
+        {
+          "saturn": 45,
+          "ps1": 45,
+          "count": 3
+        },
+        {
+          "saturn": 49,
+          "ps1": 49,
+          "count": 91
         }
       ],
       "entries": [
         {
-          "saturn": 3,
-          "platform": "table:0A854:3"
+          "saturn": 26,
+          "platform": "table:15A3C:26"
+        },
+        {
+          "saturn": 27,
+          "platform": "table:15A3C:27"
+        },
+        {
+          "saturn": 28,
+          "platform": "table:15A3C:28"
+        },
+        {
+          "saturn": 29,
+          "ps1": 29
         },
         {
           "saturn": 30,
-          "platform": "table:0A854:30"
+          "platform": "table:15A3C:30"
+        },
+        {
+          "saturn": 31,
+          "ps1": 31
+        },
+        {
+          "saturn": 32,
+          "platform": "table:15A3C:32"
+        },
+        {
+          "saturn": 36,
+          "platform": "table:15A3C:36"
+        },
+        {
+          "saturn": 40,
+          "platform": "table:15A3C:40"
+        },
+        {
+          "saturn": 41,
+          "ps1": 41
+        },
+        {
+          "saturn": 42,
+          "platform": "table:15A3C:42"
+        },
+        {
+          "saturn": 43,
+          "ps1": 43
+        },
+        {
+          "saturn": 44,
+          "platform": "table:15A3C:44"
+        },
+        {
+          "saturn": 48,
+          "platform": "table:15A3C:48"
         }
       ]
     },
@@ -270,22 +314,32 @@
         {
           "saturn": 0,
           "ps1": 0,
-          "count": 12
+          "count": 4
+        },
+        {
+          "saturn": 7,
+          "ps1": 7,
+          "count": 5
         },
         {
           "saturn": 12,
           "ps1": 16,
-          "count": 12
+          "count": 13
         },
         {
-          "saturn": 24,
-          "ps1": 28,
-          "count": 20
+          "saturn": 29,
+          "ps1": 33,
+          "count": 37
         },
         {
-          "saturn": 44,
-          "ps1": 48,
-          "count": 44
+          "saturn": 67,
+          "ps1": 71,
+          "count": 5
+        },
+        {
+          "saturn": 75,
+          "ps1": 79,
+          "count": 13
         }
       ],
       "entries": [
@@ -335,58 +389,26 @@
         }
       ]
     },
-    "14": {
+    "5": {
+      "entries": [
+        {
+          "saturn": 3,
+          "platform": "table:0A854:3",
+          "space_override": true,
+          "reason": "shared translation exceeds the Saturn group budget"
+        },
+        {
+          "saturn": 30,
+          "platform": "table:0A854:30",
+          "space_override": true,
+          "reason": "shared translation exceeds the Saturn group budget"
+        }
+      ],
       "ranges": [
         {
           "saturn": 0,
           "ps1": 0,
-          "count": 140
-        }
-      ],
-      "entries": [
-        {
-          "saturn": 30,
-          "platform": "table:15A3C:30"
-        },
-        {
-          "saturn": 41,
-          "platform": "table:15A3C:41"
-        },
-        {
-          "saturn": 42,
-          "platform": "table:15A3C:42"
-        },
-        {
-          "saturn": 26,
-          "platform": "table:15A3C:26"
-        },
-        {
-          "saturn": 27,
-          "platform": "table:15A3C:27"
-        },
-        {
-          "saturn": 28,
-          "platform": "table:15A3C:28"
-        },
-        {
-          "saturn": 32,
-          "platform": "table:15A3C:32"
-        },
-        {
-          "saturn": 36,
-          "platform": "table:15A3C:36"
-        },
-        {
-          "saturn": 40,
-          "platform": "table:15A3C:40"
-        },
-        {
-          "saturn": 44,
-          "platform": "table:15A3C:44"
-        },
-        {
-          "saturn": 48,
-          "platform": "table:15A3C:48"
+          "count": 33
         }
       ]
     }

@@ -1,10 +1,15 @@
-# Langrisser V (PS1) Translation Toolkit
+# Langrisser V Translation Toolkit (PS1 / Sega Saturn)
 
-Toolkit and language-pack repository for translating **Langrisser V** (PS1,
-SLPS-01818) and for porting those language packs to structurally compatible
-platform builds such as the Sega Saturn release. The project currently ships
-English and Russian PS1 patches, and the same tooling can be used to prepare
-additional target-language packs under `data/lang/<lang>/`.
+Toolkit and language-pack repository for translating **Langrisser V** on both
+of its releases: PS1 (SLPS-01818) and Sega Saturn (T-2505G). One language pack
+drives both builds — the console is a build-time choice — so the same
+translation ships as a PS1 PPF patch and as a remastered Saturn BIN/CUE. The
+project currently ships English and Russian, and the same tooling can be used
+to prepare additional target-language packs under `data/lang/<lang>/`.
+
+Platform differences are data, not forks: `data/platforms/<code>/` holds the
+mappings that prove which entries the consoles share, and target text that
+exists only on one console lives in that pack's `platforms/<code>/` overlay.
 
 The repository contains only durable translation data and tooling. Original game
 assets, extracted files, generated Japanese dumps, build products and local
@@ -30,6 +35,7 @@ Verify release downloads against release `SHA256SUMS`.
 
 If you want to support the work or say thanks:
 
+- BTC: `bc1q3qmyy5wx8antx2e44lrr4fv9h3z8hs4x7jlnat`
 - EVM: `0x6b513f6853003726502ec258351fcf6b82336d49`
 - Boosty: https://boosty.to/ne0sight/donate
 
@@ -58,12 +64,15 @@ Bundled third-party fonts:
 
 ## Original Image
 
-The build scripts expect this verified local image:
+The build scripts expect these verified local images (PS1 for the PPF patch and
+as the common reference, Saturn for the Saturn build):
 
 | File | Size | CRC32 | MD5 | SHA-1 | SHA-256 |
 | --- | ---: | --- | --- | --- | --- |
 | `iso/SLPS-01818-9-B.bin` | `696248448` | `5d13a8df` | `7a9e431453fde9301188841f215bff98` | `e096604f2d4d69b48eb3c1b20ca5ea26e1ea8766` | `af3f5e1d6912f31f712d43cf71d954481fa9814021e62b41fdd8fce0c9429247` |
 | `iso/SLPS-01818-9-B.cue` | `224` | `2683304f` | `455eca5422d06973bb32f7fed4ce2416` | `f2f2f1abf836e26acfd37030d7d9a378cca2a0de` | `754cfdc98d0aa354dd1d8cd0c5e4d377883a2acccf9636fd5e9826f1b1e52a66` |
+| `iso/saturn/LANGRISSER_5.bin` | `507074736` | | | | `e517a65201ba9f087a14e2231ee3135acba173bc5041d1495fa333731e93dbc0` |
+| `iso/saturn/LANGRISSER_5.cue` | `399` | | | | `58d09590a5399282f707536d6c154ecc19f60fd0cf8fa52d3d7beb375da65b52` |
 
 ## Repository Layout
 
@@ -71,6 +80,9 @@ The build scripts expect this verified local image:
 | --- | --- |
 | `data/common/` | shared maps, scenario map, UI constraints and JP table |
 | `data/platforms/` | platform manifests and PS1/Saturn mapping metadata |
+| `data/platforms/saturn/scen_mapping.json` | proven Saturn↔PS1 SCEN record correspondence |
+| `data/platforms/saturn/system_mapping.json` | proven Saturn↔PS1 SYSTEM entry correspondence |
+| `data/platforms/saturn/kanji_map.csv` | Saturn kanji slot→character map (its bank is reordered) |
 | `data/lang/en/` | English language pack |
 | `data/lang/ru/` | Russian language pack |
 | `data/lang/<lang>/manifest.json` | language settings used by tools |
@@ -293,7 +305,7 @@ Release build:
 scripts/release.sh --release
 ```
 
-Experimental Saturn build data path:
+Saturn build:
 
 ```bash
 python3 scripts/lang5_saturn_build.py --lang ru
@@ -301,7 +313,9 @@ python3 scripts/lang5_saturn_build.py --lang ru --remaster-disc
 ```
 
 This requires both PS1 base extracts (`work/extracted/SCEN.DAT`,
-`SCEN2.DAT`, `SYSTEM.BIN`) and Saturn extracts under `work/build/saturn/`.
+`SCEN2.DAT`, `SYSTEM.BIN`) — the PS1 originals are the *reference* every
+Saturn correspondence is proven against — and Saturn extracts under
+`work/build/saturn/` (`saturn_disc.py extract`).
 Strict mode stops on any unresolved `data/platforms/saturn/` mapping gap.
 Use `--allow-unmapped` only as a diagnostic to preserve unmapped Saturn source
 data while exercising the rest of the build pipe.
@@ -322,7 +336,18 @@ or `--version <label>` for a non-tagged development release.
   when translated `SCEN.DAT` grows.
 - `SCEN` is the canonical script source. `SCEN2` text is byte-identical and is
   rebuilt from the same language-pack chunks.
-- The font atlas ends at glyph 1820; later SYSTEM.BIN words are menu data.
+- The font atlas ends at glyph 1820 on PS1; later SYSTEM.BIN words are menu
+  data. On Saturn the last writable slot is 1819 — slot 1820 would overwrite
+  the `SYSTEM.DAT` group pointer directory at `0x8000`
+  (`max_font_slot` in the platform manifest).
+- PS1 is a reference, never an override: a Saturn entry inherits a PS1
+  translation only when both Japanese originals are provably identical as
+  normalized text (kana/ASCII plus the derived Saturn kanji map). Everything
+  else needs a platform record, and the strict build fails without one.
+- Each console has its own budgets. A group packs into its own byte span and
+  every line into its own cell width, so a shared translation may need a
+  shorter platform form on one console (`space_override` in the SYSTEM
+  mapping).
 - Control words and argument words must survive translation in order.
 - Target punctuation must exist in the native map or be allocated by the
   language pack.
@@ -339,3 +364,5 @@ or `--version <label>` for a non-tagged development release.
 - `docs/IMG_DAT_FORMAT.md`: IMG.DAT image container.
 - `docs/BATTLE_SUFFIX_FORMAT.md`: battle chunk suffix payloads.
 - `docs/SPEAKER_NAME_EXTRACTION.md`: speaker plate extraction and wrapping.
+- `docs/SATURN_DISC_FORMAT.md`: Saturn disc, SYSTEM/SCEN containers, tilemap
+  title screens and the Saturn build flow.
