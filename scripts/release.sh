@@ -95,7 +95,7 @@ lang_suffix() {
 import json, sys
 from pathlib import Path
 lang = sys.argv[1]
-manifest = json.loads(Path('data/lang', lang, 'manifest.json').read_text(encoding='utf-8'))
+manifest = json.loads(Path('data/games/l5/lang', lang, 'manifest.json').read_text(encoding='utf-8'))
 print(manifest.get('patch_suffix') or lang)
 PY
 }

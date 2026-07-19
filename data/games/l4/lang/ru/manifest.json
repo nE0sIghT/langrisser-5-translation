@@ -3,10 +3,10 @@
   "label": "Russian",
   "patch_suffix": "ru",
   "patch_description": "Langrisser IV RU script+font",
-  "caps_font": "../../fonts/ter-u14n.bdf",
+  "caps_font": "../../../../fonts/ter-u14n.bdf",
   "caps_font_size": 14,
   "choice_width": 20,
-  "font": "../../fonts/terminus-normal.otb",
+  "font": "../../../../fonts/terminus-normal.otb",
   "font_assignments": "font_slot_assignments.csv",
   "font_size": 12,
   "forced_pairs": [

@@ -10,7 +10,7 @@ over the completed text, scenario by scenario.
 Source priority is strict:
 
 1. The generated Japanese dump under `work/` is authoritative.
-2. `data/lang/en/` is a cross-check and must not replace reading the Japanese.
+2. `data/games/l5/lang/en/` is a cross-check and must not replace reading the Japanese.
 3. The GameFAQs guide and fan terminology are secondary references.
 4. If English conflicts with Japanese, Japanese wins and English is corrected.
 
@@ -176,7 +176,7 @@ Known first editorial target:
 8. Record any lost nuance caused by the fixed byte budget in
    `docs/COMPRESSION_DEBT.md` with the affected language.
 9. Run validation and full builds for every changed language.
-10. Move a Russian chunk into `data/lang/ru/SCEN/` only when the whole chunk is
+10. Move a Russian chunk into `data/games/l5/lang/ru/SCEN/` only when the whole chunk is
     translated and validated.
 
 ## Scenario Completion Gate

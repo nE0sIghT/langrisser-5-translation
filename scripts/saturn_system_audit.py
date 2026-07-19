@@ -30,6 +30,7 @@ from lang5_offsetgroups import PS1, SATURN, find_groups, run_length
 from lang5_project import COMMON_FONT_MAP
 from lang5_saturn_apply import (Normalizer, load_font_map_csv,
                                 monotone_alignment)
+from lang5_game import add_game_args, game_from_args
 from lang5_saturn_system_pack import expand_group_map, load_mapping
 
 
@@ -48,7 +49,9 @@ def main() -> None:
     ap.add_argument("--ps1-system", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--mapping", default="data/platforms/saturn/system_mapping.json")
     ap.add_argument("--kanji-map", default="data/platforms/saturn/kanji_map.csv")
-    ap.add_argument("--lang-root", default="data/lang")
+    add_game_args(ap)
+    ap.add_argument("--lang-root", default=None,
+                    help="Pack root (default: the game manifest's lang_root).")
     ap.add_argument("--langs", nargs="*", default=["ru", "en"])
     ap.add_argument("--write-mapping", action="store_true",
                     help="Rewrite the group specs to the proven form.")
@@ -141,8 +144,9 @@ def main() -> None:
         for spec in new_groups.values()
         for item in spec["entries"] if "platform" in item
     }
+    lang_root = Path(args.lang_root) if args.lang_root else game_from_args(args).lang_root
     for lang in args.langs:
-        path = Path(args.lang_root) / lang / "platforms" / "saturn" / "system_strings.json"
+        path = lang_root / lang / "platforms" / "saturn" / "system_strings.json"
         if not path.exists():
             continue
         data = json.loads(path.read_text(encoding="utf-8"))

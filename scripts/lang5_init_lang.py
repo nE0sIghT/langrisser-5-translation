@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a clean target-language scaffold under data/lang/<code>.
+"""Create a clean target-language scaffold under the game's lang/<code>.
 
 The scaffold copies source structure but clears target text, font assignments,
 name-entry characters and other translated values. It does not copy SCEN chunks
@@ -14,7 +14,8 @@ import json
 import shutil
 from pathlib import Path
 
-from lang5_project import DEFAULT_LANG_ROOT, ROOT, load_language
+from lang5_game import add_game_args, game_from_args
+from lang5_project import ROOT, load_language
 
 
 SCALAR_FILES = [
@@ -145,13 +146,15 @@ def main() -> None:
     ap.add_argument("lang", help="New language code, e.g. ru.")
     ap.add_argument("--label", default=None, help="Human-readable language label.")
     ap.add_argument("--from-lang", default="en", help="Source pack to copy scaffold data from.")
-    ap.add_argument("--lang-root", default=str(DEFAULT_LANG_ROOT.relative_to(DEFAULT_LANG_ROOT.parent.parent)))
+    add_game_args(ap)
+    ap.add_argument("--lang-root", default=None,
+                    help="Override the pack root (default: the game manifest's).")
     ap.add_argument("--copy-script", action="store_true",
                     help="Also copy translated SCEN chunks from the source language.")
     ap.add_argument("--force", action="store_true", help="Overwrite an existing scaffold file.")
     args = ap.parse_args()
 
-    lang_root = Path(args.lang_root)
+    lang_root = Path(args.lang_root) if args.lang_root else game_from_args(args).lang_root
     if not lang_root.is_absolute():
         lang_root = Path.cwd() / lang_root
     src = load_language(args.from_lang, lang_root)

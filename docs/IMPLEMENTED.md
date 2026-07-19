@@ -76,7 +76,7 @@ editorial/runtime polish, not initial coverage.
 ## Multilingual Build Architecture
 
 - Split shared data into `data/common/` and target packs into
-  `data/lang/<code>/`.
+  `data/games/<game>/lang/<code>/`.
 - Added manifest-driven path and output resolution.
 - Made build, font, validation, review and scenario tools language-selectable.
 - Replaced EN-specific target fields with neutral `text` and `char` schemas.

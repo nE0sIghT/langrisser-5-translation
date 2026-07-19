@@ -8,7 +8,7 @@ the Saturn BE config and the PS1 codec to rebuild each group's
 `[u16 offset table][strings]` in place with the translated text. Same-count
 groups use direct PS1 index mapping; count-different or reordered groups must be
 described by `data/platforms/saturn/system_mapping.json` and any Saturn-only
-target strings under `data/lang/<lang>/platforms/saturn/system_strings.json`.
+target strings under `<pack>/platforms/saturn/system_strings.json`.
 
 Fixed-size per group: the group stays at its base and within its original byte
 budget, so nothing that points at it moves. A group whose rebuild would exceed

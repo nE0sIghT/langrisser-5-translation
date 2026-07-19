@@ -6,7 +6,7 @@
   "system_scan_start": "0x8052",
   "font_map": "../../common/font_mapping/groups_report.csv",
   "text_table": "../../common/tables/lang5_jp.tbl",
-  "lang_root": "../../lang",
+  "lang_root": "lang",
   "platforms": [
     "ps1",
     "saturn"

@@ -4,7 +4,7 @@
   "patch_suffix": "en",
   "patch_description": "Langrisser IV EN script+font",
   "choice_width": 21,
-  "font": "../../fonts/spleen-6x12.bdf",
+  "font": "../../../../fonts/spleen-6x12.bdf",
   "font_assignments": "font_slot_assignments.csv",
   "font_size": 10,
   "glossary": "glossary.csv",

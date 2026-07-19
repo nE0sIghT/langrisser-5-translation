@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build translated Saturn data files from a universal `data/lang` pack.
+"""Build translated Saturn data files from a universal language pack.
 
 Platform is a build-time choice: the same pack that produces the PS1 PPF drives
 this Saturn flow. It reuses the shared stages unchanged:
@@ -25,8 +25,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+from lang5_game import add_game_args, game_from_args
 from lang5_platform import add_platform_args, platform_from_args
-from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
+from lang5_project import add_language_args, language_from_args
 
 
 def run(*cmd: object) -> None:
@@ -48,6 +49,7 @@ def has_target_text(path: Path) -> bool:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     add_language_args(ap)
+    add_game_args(ap)
     add_platform_args(ap, "saturn")
     ap.add_argument("--saturn-dir", default="work/build/saturn",
                     help="directory holding the extracted Saturn SYSTEM.DAT/SCEN.DAT")
@@ -75,6 +77,7 @@ def main() -> None:
                     help="Diagnostic mode: preserve unmapped Saturn SCEN/SYSTEM data.")
     args = ap.parse_args()
 
+    game = game_from_args(args)
     lang = language_from_args(args)
     platform = platform_from_args(args)
     if platform.code != "saturn":
@@ -114,7 +117,7 @@ def main() -> None:
     resolve_args = [
         scripts / "lang5_resolve_system_strings.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--system-source", system_source,
         "--out", resolved_system_strings,
     ]
@@ -126,7 +129,7 @@ def main() -> None:
     # stage (slot assignment, rewrap, encode validators) sees the text that
     # actually ships — e.g. Saturn pad buttons instead of PS1 pad symbols.
     run(scripts / "saturn_apply_text_overrides.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--lang", args.lang, "--lang-root", lang.root.parent,
         "--translation-root", build_translation_root,
         "--strings", resolved_system_strings,
         "--saturn-orig", system_in,
@@ -140,7 +143,7 @@ def main() -> None:
     # never sacrifices those slots; the .tbl is remapped after the font build.
     glyph_plan = Path(f"work/build/saturn/native_glyphs.{lang.suffix}.plan.json")
     run(scripts / "saturn_fix_native_glyphs.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--lang", args.lang, "--lang-root", lang.root.parent,
         "plan",
         "--plan", glyph_plan,
         "--saturn-orig", system_in,
@@ -160,8 +163,8 @@ def main() -> None:
     build_assignments = Path(f"work/build/font_slot_assignments.{lang.suffix}.saturn.csv")
     run(scripts / "lang5_assign_font_slots.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
-        "--groups-report", COMMON_FONT_MAP,
+        "--lang-root", lang.root.parent,
+        "--groups-report", game.font_map,
         "--assignments", assignments,
         "--out-assignments", build_assignments,
         "--translation-root", build_translation_root,
@@ -177,8 +180,8 @@ def main() -> None:
 
     font_cmd = [
         scripts / "lang5_build_font.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
-        "--groups-report", COMMON_FONT_MAP,
+        "--lang", args.lang, "--lang-root", lang.root.parent,
+        "--groups-report", game.font_map,
         "--assignments", build_assignments,
         "--system-bin", system_in,
         "--out-system-bin", system_font,
@@ -196,7 +199,7 @@ def main() -> None:
     # with it: remapped chars move to real Saturn glyphs, PS1-only chars are
     # dropped so any overlooked usage fails the strict validators.
     run(scripts / "saturn_fix_native_glyphs.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--lang", args.lang, "--lang-root", lang.root.parent,
         "apply",
         "--plan", glyph_plan,
         "--tbl", tbl,
@@ -210,19 +213,19 @@ def main() -> None:
         "--system-source", system_source)
     run(scripts / "lang5_validate_system_ui.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--tbl", tbl,
         "--strings", reflowed_system_strings,
         "--system-source", system_source)
     run(scripts / "lang5_rewrap.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--translation-root", build_translation_root,
         "--tbl", tbl,
         "--scen", args.ps1_scen)
     run(scripts / "lang5_validate_translation.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--translation-root", build_translation_root,
         "--tbl", tbl,
         "--scen", args.ps1_scen,
@@ -232,7 +235,7 @@ def main() -> None:
     system_cmd: list[object] = [
         scripts / "lang5_saturn_system_pack.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--platform", args.platform,
         "--platform-root", args.platform_root,
         "--system-in", system_font,
@@ -248,13 +251,13 @@ def main() -> None:
         system_cmd.append("--allow-unmapped")
     run(*system_cmd)
     run(scripts / "saturn_name_entry.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--lang", args.lang, "--lang-root", lang.root.parent,
         "--system-in", system_out,
         "--system-out", system_out,
         "--tbl", tbl)
     if lang.now_loading:
         run(scripts / "saturn_now_loading.py",
-            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--lang", args.lang, "--lang-root", lang.root.parent,
             "--system", system_out,
             "--out-system", system_out,
             "--out-preview", saturn / f"now_loading_{lang.suffix}_preview.png")
@@ -269,7 +272,7 @@ def main() -> None:
     scen_out = saturn / f"SCEN.{lang.suffix}.DAT"
     scen_cmd: list[object] = [
         scripts / "lang5_saturn_apply.py",
-        "--lang", args.lang, "--lang-root", args.lang_root,
+        "--lang", args.lang, "--lang-root", lang.root.parent,
         "--platform", args.platform,
         "--platform-root", args.platform_root,
         "--scen", scen_in,
@@ -286,7 +289,7 @@ def main() -> None:
     clear_in = saturn / "CLEAR.DAT"
     if lang.scenario_clear and clear_in.exists():
         run(scripts / "saturn_scenario_clear.py",
-            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--lang", args.lang, "--lang-root", lang.root.parent,
             "--clear", clear_in,
             "--out-clear", saturn / f"CLEAR.{lang.suffix}.DAT")
 
@@ -295,7 +298,7 @@ def main() -> None:
         title_in = saturn / f"{title_name}.DAT"
         if title_in.exists():
             run(scripts / "saturn_title_credits.py",
-                "--lang", args.lang, "--lang-root", args.lang_root,
+                "--lang", args.lang, "--lang-root", lang.root.parent,
                 "--title", title_in,
                 "--out-title", saturn / f"{title_name}.{lang.suffix}.DAT",
                 "--out-preview", saturn / f"{title_name.lower()}_credits_{lang.suffix}_preview.png",
@@ -306,7 +309,7 @@ def main() -> None:
     open_in = saturn / "OPEN.DAT"
     if open_in.exists() and has_target_text(lang.poem):
         run(scripts / "saturn_poem_translate.py",
-            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--lang", args.lang, "--lang-root", lang.root.parent,
             "--open", open_in,
             "--out-open", saturn / f"OPEN.{lang.suffix}.DAT",
             "--out-preview", saturn / f"open_poem_{lang.suffix}_preview.png")

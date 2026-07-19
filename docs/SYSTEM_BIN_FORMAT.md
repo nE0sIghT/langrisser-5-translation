@@ -81,7 +81,7 @@ short tail lines.
 python3 scripts/lang5_system_dump.py --out work/systemdump/system_strings.json
 
 # 2. translate the target-only stable-id overlay:
-#    data/lang/<lang>/system_strings.json
+#    data/games/<game>/lang/<lang>/system_strings.json
 #    "{BLANK}" clears a leftover line; omitted ids preserve the JP source.
 
 # 3. resolve exact canonical names/terms inherited from the language pack

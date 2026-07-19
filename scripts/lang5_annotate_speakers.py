@@ -2,7 +2,7 @@
 """Annotate the target-language script dump with the speaker plate for each record.
 
 Inserts a ``# spk: <name>`` comment line before every dialogue record in
-``data/lang/<lang>/SCEN/chunk_*.txt`` so the translation can be read with its
+``<pack>/SCEN/chunk_*.txt`` so the translation can be read with its
 speaker in view. ``SCEN`` is the canonical translation source; ``SCEN2.DAT`` is
 rebuilt from the same dump, so this script does not touch a ``SCEN2`` dump unless
 ``--include-scen2`` is requested explicitly. The

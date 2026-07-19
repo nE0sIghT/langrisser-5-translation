@@ -1,6 +1,6 @@
 # Language Pack Format
 
-Target-language data lives under `data/lang/<code>/`. The build does not read
+Target-language data lives under `data/games/<game>/lang/<code>/`. The build does not read
 translated chunks, SYSTEM strings, name tables or font slots from global EN
 paths; it resolves them through `manifest.json`.
 
@@ -16,7 +16,7 @@ disc image.
 ## Required Files
 
 ```text
-data/lang/<code>/
+data/games/<game>/lang/<code>/
   manifest.json
   SCEN/
   platforms/
@@ -46,7 +46,7 @@ overlays.
 Current platform overlay shape:
 
 ```text
-data/lang/<code>/platforms/saturn/
+data/games/<game>/lang/<code>/platforms/saturn/
   SCEN/                 # sparse chunk_NNN.txt files for Saturn-only SCEN entries
   system_strings.json   # sparse Saturn SYSTEM id -> target text overlay
 ```
@@ -158,7 +158,7 @@ A Saturn-only translated record uses a sparse platform chunk file:
 ```
 
 which resolves to
-`data/lang/<code>/platforms/saturn/SCEN/chunk_NNN.txt` record `253`.
+`data/games/<game>/lang/<code>/platforms/saturn/SCEN/chunk_NNN.txt` record `253`.
 
 A verified non-translated SCEN entry can be preserved explicitly:
 

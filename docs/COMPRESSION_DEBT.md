@@ -33,13 +33,13 @@ though they still need normal playtest and style polish.
 
 ## Open Items
 
-### Russian SYSTEM.BIN voice-cast list (`data/lang/ru/system_strings.json`)
+### Russian SYSTEM.BIN voice-cast list (`data/games/l5/lang/ru/system_strings.json`)
 
 | ID | Location | Compression |
 | --- | --- | --- |
 | RU-HD-001 | `table:08052:257-289` | Voice actors are shown as a given-name initial plus full surname. The original lists full names, but their Russian transliterations overflow the fixed shared UI group. Restore full names if the group can later borrow space safely. |
 
-### SYSTEM.BIN triangle-button help (`data/lang/en/system_strings.json`)
+### SYSTEM.BIN triangle-button help (`data/games/l5/lang/en/system_strings.json`)
 
 The help strings are glyph runs in offset-table groups (see
 `docs/SYSTEM_BIN_FORMAT.md`); each display line is one on-screen line. English

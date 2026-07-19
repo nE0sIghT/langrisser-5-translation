@@ -9,9 +9,9 @@ Sources, in priority order:
 
 Untranslated records keep their JP text and their indices are printed, so
 the output goes to a staging directory (work/wip_<lang> by default): files in
-data/lang/<lang> must be fully translated or the build fails on kanji whose
+the language pack must be fully translated or the build fails on kanji whose
 font slots were sacrificed for target-language glyphs. Move a chunk file to
-data/lang/<lang>/SCEN only once it passes lang5_validate_translation.
+the pack's SCEN only once it passes lang5_validate_translation.
 """
 import argparse
 import csv

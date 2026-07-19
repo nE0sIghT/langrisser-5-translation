@@ -21,9 +21,9 @@ be broken.
   argument word of `F600`/`FBxx` must survive translation in order.
   `lang5_validate_translation.py --lang <lang>` enforces this — keep it green.
 - **SCEN and SCEN2 text blocks are byte-identical.** Translate
-  `data/lang/<lang>/SCEN/` only; the inserter reuses that dump when rebuilding
+  `data/games/<game>/lang/<lang>/SCEN/` only; the inserter reuses that dump when rebuilding
   `SCEN2.DAT`.
-- **No partially translated chunks in `data/lang/<lang>/SCEN/`.**
+- **No partially translated chunks in `data/games/<game>/lang/<lang>/SCEN/`.**
   Untranslated kanji whose glyph slots were sacrificed for target-language
   glyphs fail the encode step and break the build. Work-in-progress lives in
   `work/wip_<lang>/`
@@ -55,8 +55,8 @@ game, add a row to `docs/SPEAKER_TEST_SET.md`.
   https://gamefaqs.gamespot.com/saturn/562834-langrisser-v-the-end-of-legend/faqs/41339)
   may be copied verbatim where its wording fits the JP line and the byte budget;
   otherwise rephrase.
-- Names and terms: `data/lang/<lang>/names.csv` and
-  `data/lang/<lang>/glossary.csv` are canonical; follow the
+- Names and terms: `data/games/<game>/lang/<lang>/names.csv` and
+  `data/games/<game>/lang/<lang>/glossary.csv` are canonical; follow the
   Langrisser fan canon for series terms.
 - Text windows (dialogue, narration/briefing, quiz) are 21 cells wide
   (measured in-game) and the player-name macro `<$F600><$0000>` renders up
@@ -96,7 +96,7 @@ game, add a row to `docs/SPEAKER_TEST_SET.md`.
   `Co-Authored-By` trailer identifying the agent. Messages: functional
   English, present tense.
 - Keep code, comments and documentation in English. Target-language text belongs
-  only under the corresponding `data/lang/<lang>/` pack.
+  only under the corresponding `data/games/<game>/lang/<lang>/` pack.
 - `work/`, `iso/`, `patches/`, `archive/`, `external/` are not in git;
   everything under `data/` and `scripts/` is.
 - Work scenario by scenario, not by raw chunk number:

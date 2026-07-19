@@ -10,7 +10,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-from lang5_project import COMMON_FONT_MAP, add_language_args, language_from_args
+from lang5_game import add_game_args, game_from_args
+from lang5_project import add_language_args, language_from_args
 from ppf3 import write_ppf3
 
 
@@ -35,6 +36,7 @@ def main() -> None:
     ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
     ap.add_argument("--system", default="work/extracted/SYSTEM.BIN")
     ap.add_argument("--imgdat", default="work/extracted/IMG.DAT")
+    add_game_args(ap)
     ap.add_argument("--patch-version", default="dev")
     ap.add_argument("--work-bin", default=None)
     ap.add_argument("--out-ppf", default=None)
@@ -50,6 +52,8 @@ def main() -> None:
         shutil.rmtree(build_translation_root)
     shutil.copytree(translation_root, build_translation_root)
     tbl = lang.tbl
+    game = game_from_args(args)
+    exe_name = game.exe.lstrip("/")
     suffix = lang.suffix
     work_bin_path = Path(args.work_bin) if args.work_bin else lang.work_bin
     out_ppf_path = Path(args.out_ppf) if args.out_ppf else lang.out_ppf
@@ -64,7 +68,7 @@ def main() -> None:
     resolve_args = [
         scripts / "lang5_resolve_system_strings.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--system-source", system_source,
         "--out", resolved_system_strings,
     ]
@@ -78,8 +82,8 @@ def main() -> None:
     build_assignments = f"work/build/font_slot_assignments.{suffix}.csv"
     run(scripts / "lang5_assign_font_slots.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
-        "--groups-report", COMMON_FONT_MAP,
+        "--lang-root", lang.root.parent,
+        "--groups-report", game.font_map,
         "--assignments", lang.font_assignments,
         "--out-assignments", build_assignments,
         "--translation-root", build_translation_root,
@@ -90,7 +94,7 @@ def main() -> None:
 
     font_args = [
         scripts / "lang5_build_font.py",
-        "--groups-report", COMMON_FONT_MAP,
+        "--groups-report", game.font_map,
         "--assignments", build_assignments,
         "--system-bin", args.system,
         "--out-system-bin", f"work/build/SYSTEM.BIN.{suffix}.font",
@@ -114,7 +118,7 @@ def main() -> None:
     # atlas. A label crossing an atlas row loses its continuation on screen.
     run(scripts / "lang5_validate_system_ui.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--tbl", tbl,
         "--strings", reflowed_system_strings,
         "--system-source", system_source)
@@ -124,13 +128,13 @@ def main() -> None:
     # never rewrite tracked translation sources.
     run(scripts / "lang5_rewrap.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--translation-root", build_translation_root,
         "--tbl", tbl,
         "--scen", args.scen)
     run(scripts / "lang5_validate_translation.py",
         "--lang", args.lang,
-        "--lang-root", args.lang_root,
+        "--lang-root", lang.root.parent,
         "--translation-root", build_translation_root,
         "--tbl", tbl,
         "--scen", args.scen,
@@ -141,8 +145,8 @@ def main() -> None:
         "--grid", lang.name_entry_grid,
         "--system-in", f"work/build/SYSTEM.BIN.{suffix}.font",
         "--system-out", f"work/build/SYSTEM.BIN.{suffix}.ne",
-        "--exe-in", "work/extracted/SLPS_018.19",
-        "--exe-out", f"work/build/SLPS_018.19.{suffix}",
+        "--exe-in", f"work/extracted/{exe_name}",
+        "--exe-out", f"work/build/{exe_name}.{suffix}",
         "--tbl", tbl)
 
     # All SYSTEM.BIN UI text (names, descriptions, command help, save messages)
@@ -190,7 +194,7 @@ def main() -> None:
     # Redraw the SCENARIO CLEAR banner (asset 9; does not overlap the edits above).
     if lang.scenario_clear:
         run(scripts / "lang5_scenario_clear.py",
-            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--lang", args.lang, "--lang-root", lang.root.parent,
             "--imgdat", f"work/build/IMG.DAT.{suffix}",
             "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
             "--out-preview", f"work/build/scenario_clear_{suffix}_preview.png")
@@ -200,7 +204,7 @@ def main() -> None:
     # Redraw the Now Loading plate (asset 0 type-2 texture; separate packets).
     if lang.now_loading:
         run(scripts / "lang5_now_loading.py",
-            "--lang", args.lang, "--lang-root", args.lang_root,
+            "--lang", args.lang, "--lang-root", lang.root.parent,
             "--imgdat", f"work/build/IMG.DAT.{suffix}",
             "--out-imgdat", f"work/build/IMG.DAT.{suffix}",
             "--out-preview", f"work/build/now_loading_{suffix}_preview.png")
@@ -211,13 +215,16 @@ def main() -> None:
     work_bin.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(args.orig_bin, work_bin)
 
-    for iso_path, local in (
-        ("/L5/SCEN.DAT", f"work/build/SCEN.{suffix}.DAT"),
-        ("/L5/SCEN2.DAT", f"work/build/SCEN2.{suffix}.DAT"),
-        ("/L5/SYSTEM.BIN", f"work/build/SYSTEM.BIN.{suffix}"),
-        ("/L5/IMG.DAT", f"work/build/IMG.DAT.{suffix}"),
-        ("/SLPS_018.19", f"work/build/SLPS_018.19.{suffix}"),
-    ):
+    injections = [
+        (game.iso_path("SCEN.DAT"), f"work/build/SCEN.{suffix}.DAT"),
+        (game.iso_path("SYSTEM.BIN"), f"work/build/SYSTEM.BIN.{suffix}"),
+        (game.iso_path("IMG.DAT"), f"work/build/IMG.DAT.{suffix}"),
+        (game.exe, f"work/build/{exe_name}.{suffix}"),
+    ]
+    if Path(args.scen2).exists():
+        injections.insert(1, (game.iso_path("SCEN2.DAT"),
+                              f"work/build/SCEN2.{suffix}.DAT"))
+    for iso_path, local in injections:
         # No --allow-grow: relocation is unsafe on this disc (the free tail
         # region overlaps the CD audio tracks). Sizes must stay unchanged.
         run(scripts / "iso_mode2.py", str(work_bin), "inject", iso_path, local)

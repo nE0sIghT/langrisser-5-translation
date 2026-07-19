@@ -2,7 +2,7 @@
 """Project path helpers for target-language builds.
 
 The toolkit keeps generated source dumps under work/ and durable translation
-assets under data/lang/<code>/. This module is the single place that resolves
+assets under each game's lang/<code>/. This module is the single place that resolves
 language manifests and derived output paths.
 """
 from __future__ import annotations
@@ -14,7 +14,6 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_LANG_ROOT = ROOT / "data" / "lang"
 COMMON_ROOT = ROOT / "data" / "common"
 COMMON_FONT_MAP = COMMON_ROOT / "font_mapping" / "groups_report.csv"
 COMMON_FONT_FIXES = COMMON_ROOT / "font_mapping" / "proposed_fixes.csv"
@@ -190,8 +189,19 @@ class LanguagePack:
         return ROOT / "work" / "review" / self.suffix
 
 
-def load_language(lang: str = "en", lang_root: str | Path = DEFAULT_LANG_ROOT) -> LanguagePack:
-    root = Path(lang_root)
+def default_lang_root(game: str | None = None,
+                      game_root: str | Path | None = None) -> Path:
+    """Where a game keeps its language packs (from its manifest).
+
+    Imported lazily: `lang5_game` builds on this module's ROOT.
+    """
+    from lang5_game import DEFAULT_GAME, DEFAULT_GAME_ROOT, load_game
+
+    return load_game(game or DEFAULT_GAME, game_root or DEFAULT_GAME_ROOT).lang_root
+
+
+def load_language(lang: str = "en", lang_root: str | Path | None = None) -> LanguagePack:
+    root = Path(lang_root) if lang_root else default_lang_root()
     if not root.is_absolute():
         root = ROOT / root
     pack_root = root / lang
@@ -204,9 +214,14 @@ def load_language(lang: str = "en", lang_root: str | Path = DEFAULT_LANG_ROOT) -
 
 
 def add_language_args(ap: argparse.ArgumentParser) -> None:
-    ap.add_argument("--lang", default="en", help="Target language code from data/lang/<code>.")
-    ap.add_argument("--lang-root", default="data/lang", help="Directory containing language packs.")
+    ap.add_argument("--lang", default="en",
+                    help="Target language code from the game's pack root.")
+    ap.add_argument("--lang-root", default=None,
+                    help="Override the directory containing language packs "
+                         "(default: the game manifest's lang_root).")
 
 
 def language_from_args(args: argparse.Namespace) -> LanguagePack:
-    return load_language(args.lang, args.lang_root)
+    root = getattr(args, "lang_root", None) or default_lang_root(
+        getattr(args, "game", None), getattr(args, "game_root", None))
+    return load_language(args.lang, root)

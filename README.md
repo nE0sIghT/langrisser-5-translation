@@ -104,25 +104,24 @@ python3 scripts/saturn_disc.py --cue iso/saturn/LANGRISSER_5.cue verify
 | --- | --- |
 | `data/common/` | shared maps, scenario map, UI constraints and JP table |
 | `data/games/<code>/manifest.json` | game descriptor: disc paths, glyph-plane map, group scan start, pack root |
-| `data/games/l4/font_map.csv` | Langrisser IV glyph slot→character map (derived from the L5 plane) |
+| `data/games/l4/font_map.csv` | Langrisser IV glyph slot→character map (derived + read from the plane) |
 | `data/games/l4/lang/<lang>/` | Langrisser IV language packs |
 | `data/platforms/` | platform manifests and PS1/Saturn mapping metadata |
 | `data/platforms/saturn/scen_mapping.json` | proven Saturn↔PS1 SCEN record correspondence |
 | `data/platforms/saturn/system_mapping.json` | proven Saturn↔PS1 SYSTEM entry correspondence |
 | `data/platforms/saturn/kanji_map.csv` | Saturn kanji slot→character map (its bank is reordered) |
-| `data/lang/en/` | English language pack (Langrisser V) |
-| `data/lang/ru/` | Russian language pack (Langrisser V) |
-| `data/lang/<lang>/manifest.json` | language settings used by tools |
-| `data/lang/<lang>/SCEN/` | completed translated script chunks for that language |
-| `data/lang/<lang>/platforms/` | sparse platform-specific target overlays |
-| `data/lang/<lang>/system_strings.json` | target SYSTEM.BIN UI text overlay |
-| `data/lang/<lang>/system_layout.json` | SYSTEM.BIN line-growth constraints |
-| `data/lang/<lang>/title_credits.json` | language-specific title credits |
-| `data/lang/<lang>/names.csv` | item, class, spell, unit and NPC names |
-| `data/lang/<lang>/glossary.csv` | canonical glossary and recurring terms |
-| `data/lang/<lang>/font_slot_assignments.csv` | target glyph assignments |
-| `data/lang/<lang>/name_entry_grid.json` | target name-entry alphabet layout |
-| `data/lang/<lang>/review_status.csv` | per-record translation and JP cross-check status |
+| `data/games/l5/lang/<lang>/` | Langrisser V language packs (`en`, `ru`) |
+| `<pack>/manifest.json` | language settings used by tools |
+| `<pack>/SCEN/` | completed translated script chunks for that language |
+| `<pack>/platforms/` | sparse platform-specific target overlays |
+| `<pack>/system_strings.json` | target SYSTEM.BIN UI text overlay |
+| `<pack>/system_layout.json` | SYSTEM.BIN line-growth constraints |
+| `<pack>/title_credits.json` | language-specific title credits |
+| `<pack>/names.csv` | item, class, spell, unit and NPC names |
+| `<pack>/glossary.csv` | canonical glossary and recurring terms |
+| `<pack>/font_slot_assignments.csv` | target glyph assignments |
+| `<pack>/name_entry_grid.json` | target name-entry alphabet layout |
+| `<pack>/review_status.csv` | per-record translation and JP cross-check status |
 | `work/extracted/` | extracted game files, generated |
 | `work/scriptdump/` | generated JP script dump, not tracked |
 | `work/systemdump/` | generated SYSTEM.BIN string dump, not tracked |
@@ -198,10 +197,13 @@ python3 scripts/lang5_system_dump.py  --game l4 --system-bin work/l4/SYSTEM.BIN 
 
 Each game generates its own glyph plane, so a new game needs its own slot→
 character map. The artwork is shared, so the map is derived mechanically by
-matching tiles against an already-mapped game (this produced
-`data/games/l4/font_map.csv`: 1628 of 1905 glyphs, 99.3% of the script's
-tokens; the rest are Langrisser IV's own kanji and still need OCR/manual
-mapping):
+matching tiles against an already-mapped game (this produced the bulk of `data/games/l4/font_map.csv`: 1628 of 1905
+glyphs). The remaining 277 tiles are Langrisser IV's own kanji; they were read
+from rendered contact sheets and each reading was verified in context against
+real script lines, bringing the map to 1875 characters and 99.62% of the
+script's tokens. The 30 non-characters (item icons, the segments of a
+stretched `ー`, a sweat-drop mark, plane noise) are recorded in the same CSV
+with an empty `char` and a group saying what they are:
 
 ```bash
 python3 scripts/lang5_derive_font_map.py --game l4 \

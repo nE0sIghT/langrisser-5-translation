@@ -39,7 +39,7 @@ Read-only tooling added for this investigation:
 | `scripts/saturn_scen_text.py` | Dump the full Saturn `SCEN.DAT` scenario text pool with stable `(chunk, entry)` ids |
 | `scripts/saturn_font.py` | Render Saturn `SYSTEM.DAT` glyph slots and diff them against the PS1 font |
 | `scripts/saturn_scen.py` | Shared SCEN.DAT read/rebuild model (catalog, block header, field_3c text pool) |
-| `scripts/lang5_saturn_apply.py` | Apply the universal `data/lang` translation to the Saturn SCEN text pool |
+| `scripts/lang5_saturn_apply.py` | Apply the universal language-pack translation to the Saturn SCEN text pool |
 | `scripts/lang5_saturn_system_pack.py` | Pack the SYSTEM UI translation into the Saturn `SYSTEM.DAT` groups |
 | `scripts/saturn_system_validate.py` | Validate the packed `SYSTEM.DAT` write contract (pointer directory, group spans) |
 | `scripts/lang5_saturn_build.py` | Build-time Saturn flow: font + SYSTEM text + SCEN text + decoded graphics |
@@ -58,7 +58,7 @@ Saturn tooling.
 
 ### Build-time platform selection
 
-Platform is chosen at build time; the `data/lang/<code>` pack is unchanged.
+Platform is chosen at build time; the `data/games/<game>/lang/<code>` pack is unchanged.
 `lang5_saturn_build.py` runs the reused stages against the extracted Saturn
 files:
 
@@ -1025,7 +1025,7 @@ still pending.
 
 ## Translation Coverage On Saturn
 
-Honest status of applying the universal `data/lang` pack to Saturn, by asset:
+Honest status of applying the universal language pack to Saturn, by asset:
 
 | Translation asset (README) | PS1 | Saturn |
 | --- | --- | --- |
@@ -1122,7 +1122,7 @@ wrongly-fed entries).
 
 Entries with no proven counterpart hold Saturn-edited content (pad-button
 phrasing, extra lines, reordered duplicates, karaoke jokes). They must come
-from platform records (`data/lang/<code>/platforms/saturn/SCEN/`, wired
+from platform records (`data/games/<game>/lang/<code>/platforms/saturn/SCEN/`, wired
 through `scen_mapping.json` entries with a `replaces_ps1` annotation naming
 the PS1-only record they supersede) or stay explicitly preserved with
 `"pending_review": true` until translated — anything else fails the build.
@@ -1134,7 +1134,7 @@ the closest PS1 record and its current ru/en text.
 
 ### Universality
 
-The `data/lang/<code>` pack is console-agnostic: the same translation applies to
+The `data/games/<game>/lang/<code>` pack is console-agnostic: the same translation applies to
 both PS1 and Saturn. Because the target alphabet occupies the same font slots on
 both, a record's encoded token stream is identical; only the byte order and
 container differ. `scripts/lang5_saturn_apply.py` reuses the PS1 dump
@@ -1165,7 +1165,7 @@ only the glyph-plane file offset differs.
 - Runtime-check that the remastered BIN/CUE reaches translated scenario text,
   SYSTEM screens and Saturn-specific graphic adapters.
 - If future Saturn-only text is found, add sparse platform overrides under
-  `data/lang/<code>/platforms/saturn/` and keep strict builds green.
+  `data/games/<game>/lang/<code>/platforms/saturn/` and keep strict builds green.
 
 ### Cross-validation and ISO-output recipe (Langrisser III, Saturn)
 

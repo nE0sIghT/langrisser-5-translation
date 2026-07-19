@@ -11,7 +11,7 @@ Saturn block `c`'s entry `e` corresponds to PS1 chunk `c` record `e+1` only
 when platform data proves that relationship. Identity/prefix and unique
 stable-token alignments are automatic; interspersed platform differences must be
 listed in `data/platforms/saturn/scen_mapping.json` or supplied as
-language-specific target text under `data/lang/<lang>/platforms/saturn/SCEN/`.
+language-specific target text under `<pack>/platforms/saturn/SCEN/`.
 Read-only against the disc: it reads an extracted SCEN.DAT and writes a new one.
 """
 

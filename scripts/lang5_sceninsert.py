@@ -20,6 +20,7 @@ import argparse
 import struct
 from pathlib import Path
 
+from lang5_game import add_game_args, game_from_args
 from lang5_project import COMMON_FONT_MAP
 from lang5_scen import (
     Codec,
@@ -266,11 +267,14 @@ def insert_file(src: Path, dump_root: Path, out_path: Path, codec: Codec,
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_game_args(ap)
     ap.add_argument("--scen", default="work/extracted/SCEN.DAT")
-    ap.add_argument("--scen2", default="work/extracted/SCEN2.DAT")
+    ap.add_argument("--scen2", default=None,
+                    help="Second script file (Langrisser V mirrors SCEN in SCEN2).")
     ap.add_argument("--dump-dir", default="work/scriptdump")
-    ap.add_argument("--charmap", default=str(COMMON_FONT_MAP),
-                    help="groups_report.csv or a HHHH=c .tbl file")
+    ap.add_argument("--charmap", default=None,
+                    help="groups_report.csv or a HHHH=c .tbl file "
+                         "(default: the game's font map)")
     ap.add_argument("--out-scen", default="work/build/SCEN.DAT")
     ap.add_argument("--out-scen2", default="work/build/SCEN2.DAT")
     ap.add_argument("--allow-grow", action="store_true",
@@ -281,7 +285,8 @@ def main() -> None:
     if args.allow_grow and args.fixed_size_repack:
         ap.error("--allow-grow and --fixed-size-repack are mutually exclusive")
 
-    charmap_path = Path(args.charmap)
+    game = game_from_args(args)
+    charmap_path = Path(args.charmap) if args.charmap else game.font_map
     if charmap_path.suffix == ".tbl":
         codec = Codec(load_charmap_tbl(charmap_path))
     else:
@@ -290,9 +295,10 @@ def main() -> None:
     dump_root = Path(args.dump_dir)
     insert_file(Path(args.scen), dump_root, Path(args.out_scen), codec,
                 args.allow_grow, args.fixed_size_repack)
-    insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec,
-                args.allow_grow, args.fixed_size_repack,
-                fallback_dump_stems=("SCEN",))
+    if args.scen2:
+        insert_file(Path(args.scen2), dump_root, Path(args.out_scen2), codec,
+                    args.allow_grow, args.fixed_size_repack,
+                    fallback_dump_stems=("SCEN",))
 
 
 if __name__ == "__main__":

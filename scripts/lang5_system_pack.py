@@ -3,7 +3,7 @@
 
 This is the inverse of `lang5_system_dump.py`. For each group it rebuilds the
 `[u16 offset table][strings]` layout from a generated source dump under work/
-and a durable target-only overlay under data/lang/. Because the table is
+and a durable target-only overlay in the language pack. Because the table is
 regenerated, a translated string is no longer bound to the original string's
 byte length - only to the group's total size (the group stays at its fixed base
 so nothing that points at it has to move).
@@ -23,6 +23,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lang5_game import add_game_args, game_from_args
+from lang5_offsetgroups import PS1, GroupConfig
 from lang5_project import add_language_args, language_from_args
 from lang5_scen import Codec, load_charmap_tbl
 from lang5_system_dump import find_groups, run_length
@@ -95,6 +97,7 @@ def reserve_leading_cells(orig: list[int]) -> list[int]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     add_language_args(ap)
+    add_game_args(ap)
     ap.add_argument("--system-in", default="work/build/SYSTEM.BIN.font")
     ap.add_argument("--system-out", default=None)
     ap.add_argument("--strings", default=None)
@@ -118,6 +121,7 @@ def main() -> None:
                     help="Exit non-zero on any unencodable line or over-budget group.")
     args = ap.parse_args()
 
+    game = game_from_args(args)
     lang = language_from_args(args)
     strings_path = Path(args.strings) if args.strings else lang.system_strings
     layout_path = Path(args.layout) if args.layout else lang.system_layout
@@ -128,7 +132,8 @@ def main() -> None:
 
     codec = Codec(load_charmap_tbl(tbl))
     data = bytearray(Path(args.system_in).read_bytes())
-    groups = find_groups(data)
+    groups = find_groups(data, GroupConfig(order=PS1.order,
+                                          scan_start=game.system_scan_start))
     if not source_strings_path.exists():
         raise SystemExit(
             f"SYSTEM source dump not found: {source_strings_path}; "

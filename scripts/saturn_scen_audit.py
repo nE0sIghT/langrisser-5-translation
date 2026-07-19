@@ -29,6 +29,7 @@ from pathlib import Path
 from lang5_saturn_apply import (Normalizer, load_font_map_csv, load_mapping,
                                 monotone_alignment, ps1_chunk_records,
                                 stable_signature)
+from lang5_game import add_game_args, game_from_args
 from lang5_sceninsert import parse_dump_file
 from lang5_project import COMMON_FONT_MAP
 from saturn_scen import local_index_entries, parse_catalog
@@ -82,11 +83,13 @@ def decoder(charmap: dict[int, str]):
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
+    add_game_args(ap)
     ap.add_argument("--scen", default="work/build/saturn/SCEN.DAT")
     ap.add_argument("--ps1-scen", default="work/extracted/SCEN.DAT")
     ap.add_argument("--mapping", default="data/platforms/saturn/scen_mapping.json")
-    ap.add_argument("--ru-root", default="data/lang/ru/SCEN")
-    ap.add_argument("--en-root", default="data/lang/en/SCEN")
+    ap.add_argument("--lang-root", default=None,
+                    help="Pack root (default: the game manifest's lang_root).")
+    ap.add_argument("--langs", nargs="*", default=["ru", "en"])
     ap.add_argument("--out-report", default="work/build/saturn/scen_platform_review.md")
     ap.add_argument("--out-kanji-map", default="data/platforms/saturn/kanji_map.csv",
                     help="Derived Saturn kanji font map (groups_report CSV convention).")
@@ -98,6 +101,8 @@ def main() -> None:
                          "reordered lines), copying that record's ru/en text.")
     args = ap.parse_args()
 
+    lang_root = Path(args.lang_root) if args.lang_root else game_from_args(args).lang_root
+    scen_dirs = {lang: lang_root / lang / "SCEN" for lang in args.langs}
     sat = Path(args.scen).read_bytes()
     ps1 = Path(args.ps1_scen).read_bytes()
     mapping = load_mapping(Path(args.mapping))
@@ -147,10 +152,11 @@ def main() -> None:
         }
         keep: list[dict] = []
         chunk_report: list[str] = []
-        ru = parse_dump_file(Path(args.ru_root) / f"chunk_{ci:03d}.txt") \
-            if (Path(args.ru_root) / f"chunk_{ci:03d}.txt").exists() else {}
-        en = parse_dump_file(Path(args.en_root) / f"chunk_{ci:03d}.txt") \
-            if (Path(args.en_root) / f"chunk_{ci:03d}.txt").exists() else {}
+        common = {}
+        for lang, sdir in scen_dirs.items():
+            fp = sdir / f"chunk_{ci:03d}.txt"
+            common[lang] = parse_dump_file(fp) if fp.exists() else {}
+        ru, en = common.get("ru", {}), common.get("en", {})
         ps_sigs = [stable_signature(t) for t in ps1_tokens]
 
         def strip_tail(tokens: list[int]) -> tuple[int, ...]:
@@ -212,10 +218,10 @@ def main() -> None:
                 if best + 1 in en:
                     chunk_report.append(f"  - EN: `{en[best + 1]}`")
             chunk_report.append("")
-        for root, records_map in ((Path(args.ru_root), ru), (Path(args.en_root), en)):
+        for lang, records_map in common.items():
             if not auto_writes:
                 break
-            pfile = root.parent / "platforms" / "saturn" / "SCEN" / f"chunk_{ci:03d}.txt"
+            pfile = lang_root / lang / "platforms" / "saturn" / "SCEN" / f"chunk_{ci:03d}.txt"
             existing = parse_dump_file(pfile) if pfile.exists() else {}
             additions = [
                 f"{si}\t{records_map[r]}"
